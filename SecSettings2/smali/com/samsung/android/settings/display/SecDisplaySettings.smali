@@ -7525,12 +7525,6 @@
     :cond_1e
     const-string/jumbo v31, "touch_key_light"
 
-    move-object/from16 v0, p0
-
-    move-object/from16 v1, v31
-
-    invoke-virtual {v0, v1}, Lcom/samsung/android/settings/display/SecDisplaySettings;->removePreference(Ljava/lang/String;)V
-
     goto/16 :goto_8
 
     .line 637
