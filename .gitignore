@@ -1,0 +1,14 @@
+original_backup
+PersonalPageService/dist/
+PersonalPageService/build/
+SecSettings2/dist/
+SecSettings2/build/
+SysScope/dist/
+SysScope/build/
+SystemUI/dist/
+SystemUI/build/
+framework.jar.out/dist/
+framework.jar.out/build/
+services.jar.out/dist/
+services.jar.out/build/
+
