@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="snapview_guide_text">Select an area to dock at the top of the screen.</string>
+    <string name="battery_history_hours_no_seconds">%1$dh %2$dm</string>
+    <string name="battery_history_minutes_no_seconds">%dm</string>
+    <string name="wifi_failed_to_obtain_IP">Failed to obtain IP address.</string>
+    <string name="wifi_unknown_security_type">Unknown security type.</string>
+    <string name="wifi_disabled_no_internet">Internet not available</string>
+    <string name="wifi_disabled_password_failure">Authentication error occurred</string>
+    <string name="wifi_empty_list_wifi_on">Scanning for Wi-Fi networks…</string>
+    <string name="wifi_auto_reconnect_disabled">Auto reconnect disabled</string>
+    <string name="wifi_reconnecting">Ready to connect when network quality improves</string>
+    <string name="wifi_connected_checking_quality">Checking the quality of your Internet connection…</string>
+    <string name="wifi_sign_in_to_the_network">Sign in to the network.</string>
+    <string name="wifi_disabled_captive_portal">Sign-in is required.</string>
+    <string name="bluetooth_disconnect_message">Bluetooth connection with %s ended.</string>
+    <string name="bluetooth_disconnecting">Disconnecting…</string>
+    <string name="bluetooth_connecting">Connecting…</string>
+    <string name="bluetooth_connected">Connected</string>
+    <string name="bluetooth_pairing">Pairing…</string>
+    <string name="bluetooth_profile_a2dp">Media audio</string>
+    <string name="bluetooth_profile_headset">Call audio</string>
+    <string name="bluetooth_profile_hid">Input device</string>
+    <string name="bluetooth_profile_pan">Internet access</string>
+    <string name="bluetooth_profile_pbap">Contact access</string>
+    <string name="bluetooth_profile_pan_nap">Internet connection sharing</string>
+    <string name="bluetooth_profile_map">Message access</string>
+    <string name="bluetooth_profile_sap">SIM card access</string>
+    <string name="bluetooth_a2dp_profile_summary_connected">Connected for media audio</string>
+    <string name="bluetooth_headset_profile_summary_connected">Connected for call audio</string>
+    <string name="bluetooth_hid_profile_summary_connected">Connected as input device</string>
+    <string name="bluetooth_pan_user_profile_summary_connected">Connected to device for Internet access.</string>
+    <string name="bluetooth_profile_map_summary">Allow this paired device to access your messages.</string>
+    <string name="bluetooth_profile_sap_summary">Allow this paired device to access your SIM card.</string>
+    <string name="bluetooth_spp_profile_summary_connected">Connected via Serial Port Profile</string>
+    <string name="bluetooth_pan_profile_summary_use_for">Enable Bluetooth tethering on the paired device to access the Internet on this device.</string>
+    <string name="bluetooth_profile_textinput">Text input</string>
+    <string name="bluetooth_profile_pbap_tts">Contacts and Phone log</string>
+    <string name="bluetooth_summary_connected_to_a2dp_headset">Connected for call and media audio</string>
+    <string name="bluetooth_pan_nap_connected">Connected to provide Internet connection</string>
+    <string name="bluetooth_pan_panu_connected">Connected to access Internet connection</string>
+    <string name="bluetooth_pairing_error_message">Unable to communicate with %1$s.</string>
+    <string name="bluetooth_pairing_pin_error_message">Unable to pair with %1$s. Make sure %2$s is ready to pair.</string>
+    <string name="bluetooth_pairing_device_down_error_message">"Can't connect to %s."</string>
+    <string name="bluetooth_pairing_device_down_black_list_error_message">"Can't connect to %1$s. Check your settings in %2$s and try again."</string>
+    <string name="bluetooth_pairing_rejected_error_message">Pairing rejected by %s.</string>
+    <string name="tether_settings_title_all">Mobile hotspot and tethering</string>
+    <string name="tts_settings_title">Text-to-speech</string>
+    <string name="tts_default_rate_title">Speech rate</string>
+    <string name="tts_default_rate_summary">Speed at which the text is spoken.</string>
+    <string name="tts_default_pitch_title">Pitch</string>
+    <string name="tts_default_lang_title">Language</string>
+    <string name="tts_lang_use_system">Use system language</string>
+    <string name="tts_lang_not_selected">No language is selected</string>
+    <string name="tts_default_lang_summary">Set language-specific voice for spoken text.</string>
+    <string name="tts_play_example_title">Listen to an example</string>
+    <string name="tts_play_example_summary">Play short demonstration of speech synthesis.</string>
+    <string name="tts_install_data_title">Install voice data</string>
+    <string name="tts_install_data_summary">Install voice data required for speech synthesis.</string>
+    <string name="tts_engine_security_warning">This speech synthesis engine may collect all speech, including passwords, credit card numbers, and other personal data. Continue?</string>
+    <string name="tts_default_sample_string">Example of speech synthesis</string>
+    <string name="tts_status_title">Default language status</string>
+    <string name="tts_status_ok">%s is fully supported.</string>
+    <string name="tts_status_requires_network">A network connection is required to support %s.</string>
+    <string name="tts_status_not_supported">%s is not supported.</string>
+    <string name="tts_status_checking">Checking…</string>
+    <string name="tts_engine_settings_title">Settings for %s</string>
+    <string name="tts_engine_settings_button">Open Text-to-speech engine settings.</string>
+    <string name="tts_engine_preference_section_title">Preferred TTS engine</string>
+    <string name="tts_general_section_title">General</string>
+    <string name="tts_reset_speech_pitch_title">Reset pitch</string>
+    <string name="tts_reset_speech_pitch_summary">Reset the pitch at which text is read out to the default setting.</string>
+    <string name="choose_profile">Select profile</string>
+    <string name="no_application">No apps</string>
+    <string name="power_charging_duration">%1$s: %2$s left until fully charged</string>
+    <string name="power_charging_duration_ac">%1$s: %2$s left until fully charged via AC</string>
+    <string name="power_charging_duration_usb">%1$s: %2$s left until fully charged via USB</string>
+    <string name="power_charging_duration_wireless">%1$s: %2$s left until fully charged (charging wirelessly)</string>
+    <string name="battery_info_status_charging">Charging</string>
+    <string name="battery_info_status_adaptive_fast_charging">Fast charging</string>
+    <string name="battery_info_power_ac">AC</string>
+    <string name="battery_info_power_usb">USB</string>
+    <string name="battery_info_power_wireless">Wireless</string>
+    <string name="charge_length_format">%s ago</string>
+    <string name="remaining_length_format">%s left</string>
+    <string name="default_app">Set as default</string>
+    <string name="no_default_app">None set as default</string>
+    <string name="hours">%d h</string>
+    <string name="hour_minutes">%1$d h %2$d m</string>
+    <string name="minutes">%d m</string>
+    <string name="battery_discharging_duration">Estimated usage time remaining: %s</string>
+    <string name="bluetooth_tethering_cannot_connect_while_connected_to_wifi">Unable to use Bluetooth tethering while connected to Wi-Fi network.</string>
+    <string name="video_call_title">Video call</string>
+    <string name="app_label">System UI</string>
+    <string name="quick_settings_brightness_controller_hbm">Maximized for best viewing in sunlight</string>
+    <string name="screenshot_guide_dialog_title">Taking screenshots</string>
+    <string name="screenshot_guide_dialog_msg">Press and hold the Power key and the Volume down key together to take a screenshot.</string>
+    <string name="quick_settings_sound_mode_detail_mute_remaining">Mute (%s remaining)</string>
+    <string name="quick_settings_location_label">Location</string>
+    <string name="quick_settings_brightness_strain_warning">"Using high brightness levels for long periods may cause eye strain and increase battery consumption.
+Tap OK to allow the brightness to be increased above safe levels."</string>
+    <string name="quick_settings_mobile_hotspot_label_jpn">"Wi-Fi
+tethering"</string>
+    <string name="quick_settings_wificalling_label">"Wi-Fi
+calling"</string>
+    <string name="qs_edit_summary">Drag the quick setting buttons to the area above to add them to the quick settings panel.</string>
+    <string name="notification_panel_unable_remove_minimum">Unable to remove button. Minimum number of buttons (%d) reached.</string>
+    <string name="volte_show_toast_enable_message">To use the VoLTE service, subscribe to VoLTE. Contact your service provider for details.</string>
+    <string name="airplane_mode_show_popup_message_cmcc">Flight mode allows you to turn off calling, messaging and data network features. It also turns off connectivity features such as Wi-Fi and Bluetooth. To use Wi-Fi and Bluetooth, turn them on in Settings or on the notification panel.</string>
+    <string name="quick_settings_dnd_detail_title">Do not disturb</string>
+    <string name="quick_settings_wificalling_summary">"Use Wi-Fi networks to make and receive calls anywhere, without connecting to a mobile network.
+
+The Wi-Fi calling icon will appear in the notification panel as shown below while the service is available."</string>
+    <string name="wificalling_popup_rogers_activation_title">Wi-Fi Calling Activation</string>
+    <string name="wificalling_popup_rogers_activation_text">Wi-Fi Calling lets you call and text while on a Wi-Fi Network. Usage will be deducted from the minute and text message buckets in your Wireless plan. Click below to Activate.</string>
+    <string name="wificalling_popup_rogers_wifi_enable_text">Please connect to a Wi-Fi network to register for Wi-Fi Calling.</string>
+    <string name="activate">Activate</string>
+    <string name="quick_settings_brightness_quick_access">Show control on top</string>
+    <string name="outdoor_mode_title">Outdoor mode</string>
+    <string name="outdoor_mode_summary">Increase the screen brightness for %1$d minutes. If the screen is turned on when the %2$d minutes have elapsed, Outdoor mode will remain enabled until the screen is turned off.</string>
+    <string name="outdoor_mode_summary_vzw">Outdoor mode will maximize screen brightness for best viewing in sunlight. If the screen is not in use, screen brightness will return to the previous setting in 15 minutes.</string>
+    <string name="user_add_user">Add user</string>
+    <string name="guest_nickname">Guest</string>
+    <string name="guest_exit_guest">Delete guest</string>
+    <string name="guest_wipe_session_title">Guest settings</string>
+    <string name="guest_wipe_session_message">You can restore your previous settings for the guest profile or use default settings.</string>
+    <string name="guest_wipe_session_dontwipe">Yes, continue</string>
+    <string name="keyboard_shortcut_group_applications_email">Email</string>
+    <string name="multiwindow_forced_resizable">This app may not work properly in Multi window view.</string>
+    <string name="accessibility_quick_settings_settings">Open settings</string>
+    <string name="sim_card_tray_water_protection_dialog_body">"Unable to detect a SIM card. Your device will be unable to perform actions such as making calls and connecting to mobile networks.
+
+To protect against water damage, make sure the SIM/SD card tray is firmly sealed."</string>
+    <string name="sim_card_tray_empty_water_protection_dialog_body">To protect against water damage, make sure the SIM/SD card tray is firmly sealed.</string>
+    <string name="battery_not_fully_connected_charging_title">Slow charging</string>
+    <string name="battery_not_fully_connected_charging_title_vzw">Incomplete connection</string>
+    <string name="battery_not_fully_connected_charging_text">For faster charging, use the charger that came with your device and make sure it is properly connected.</string>
+    <string name="battery_not_fully_connected_charging_popup_text">Make sure the charger is properly connected. Use the charger that came with the device.</string>
+    <string name="unintentional_lcd_on_alert_title">Notice</string>
+    <string name="unintentional_lcd_on_alert_body">"The screen will turn off automatically in five seconds.
+
+To prevent this pop-up from appearing in the future, make sure the proximity sensor isn't blocked."</string>
+    <string name="kg_power_charging_remaining_time">About %s until fully charged</string>
+    <string name="block_notification_text">Block notifications</string>
+    <string name="block_done_text">DONE</string>
+    <string name="block_notification_text_to_inform_way_to_unblock">Select which apps you want to block notifications from. To allow the blocked notifications later, go to Settings, then select Notifications.</string>
+    <string name="block_notification_block_info_text">Blocked</string>
+    <string name="sec_data_usage_disabled_dialog_mobile_title">Mobile data disabled</string>
+    <string name="sec_data_usage_disabled_dialog_body">Specified data usage limit reached. Additional data use may incur charges from service provider.</string>
+    <string name="dcm_lockscreen_unlock_help_text_iris">Tap Lock icon to use irises to unlock device</string>
+    <string name="dcm_lockscreen_unlock_help_text_fingerprints_iris">Use fingerprint to unlock device or tap Lock icon to use irises instead</string>
+    <string name="s_view_cover_toast_pop_up_message">Open cover to use quick setting buttons.</string>
+    <string name="remote_input_toast_text_on_sview_cover">Unable to use the Quick reply function while the S view cover closed.</string>
+    <string name="keyguard_sim_locked_message">SIM card locked</string>
+    <string name="keyguard_sim_puk_locked_message">SIM card locked with PUK</string>
+    <string name="keyguard_sim_unlock_progress_dialog_message">Unlocking SIM card</string>
+    <string name="kg_wrong_pin">Incorrect PIN entered</string>
+    <string name="kg_pin_instructions">Enter PIN</string>
+    <string name="kg_puk_enter_pin_hint">Enter a new SIM card PIN.</string>
+    <string name="kg_sec_1_failed_attempt_almost_at_wipe">An attempt to unlock the device has been made. You have %d attempts left before the device is reset to factory default settings and all data is erased, including files and downloaded apps.</string>
+    <string name="kg_sec_failed_attempts_almost_at_wipe">An attempt to unlock the device has been made %1$d times. You have %2$d attempts left before the device is reset to factory default settings and all data is erased, including files and downloaded apps.</string>
+    <string name="kg_sec_1_remaing_count_almost_at_wipe">An attempt to unlock the device has been made %d times. You have one attempt left before the device is reset to factory default settings and all data is erased, including files and downloaded apps.</string>
+    <string name="kg_sec_1_remaing_pattern_count_at_google_account">"If you do not enter the correct pattern in the next attempt, your phone will automatically be reset to factory settings and all information on the phone will be erased.
+
+If your phone is reset, you may need to enter the Google account information (email address and password) associated with this phone to be able to use it again."</string>
+    <string name="kg_sec_remaing_pattern_counts_at_google_account">"If you do not enter the correct pattern within the next %d attempts, your phone will automatically be reset to factory settings and all information on the phone will be erased.
+
+If your phone is reset, you may need to enter the Google account information (email address and password) associated with this phone to be able to use it again."</string>
+    <string name="kg_sec_1_remaing_pin_count_at_google_account">"If you do not enter the correct PIN in the next attempt, your phone will automatically be reset to factory settings and all information on the phone will be erased.
+
+If your phone is reset, you may need to enter the Google account information (email address and password) associated with this phone to be able to use it again."</string>
+    <string name="kg_sec_remaing_pin_counts_at_google_account">"If you do not enter the correct PIN within the next %d attempts, your phone will automatically be reset to factory settings and all information on the phone will be erased.
+
+If your phone is reset, you may need to enter the Google account information (email address and password) associated with this phone to be able to use it again."</string>
+    <string name="kg_sec_1_remaing_password_count_at_google_account">"If you do not enter the correct password in the next attempt, your phone will automatically be reset to factory settings and all information on the phone will be erased.
+
+If your phone is reset, you may need to enter the Google account information (email address and password) associated with this phone to be able to use it again."</string>
+    <string name="kg_sec_remaing_password_counts_at_google_account">"If you do not enter the correct password within the next %d attempts, your phone will automatically be reset to factory settings and all information on the phone will be erased.
+
+If your phone is reset, you may need to enter the Google account information (email address and password) associated with this phone to be able to use it again."</string>
+    <string name="kg_sim_locked_message">SIM card locked</string>
+    <string name="kg_missing_sim_message_short">No SIM card</string>
+    <string name="kg_default_carrier_text_searching">Searching</string>
+    <string name="kg_perso_locked_message">Block other USIM</string>
+    <string name="kg_pin_locked_message">Enter PIN</string>
+    <string name="kg_puk_locked_message">Enter PUK</string>
+    <string name="kg_flight_mode">Flight mode</string>
+    <string name="kg_tts_shortcut_app">Double tap and drag to open %s.</string>
+    <string name="kg_lockscreen_emergency_call_button_text">Emergency call</string>
+    <string name="keyguard_dualclock_locale_view_home">Home</string>
+    <string name="keyguard_dualclock_locale_view_roaming">Roaming</string>
+    <string name="keyguard_dualclock_locale_view_local">Local</string>
+    <string name="keyguard_dualclock_locale_view_seoul">Seoul</string>
+    <string name="keyguard_dualclock_locale_view_korea">Roaming</string>
+    <string name="kg_wrong_direction_lock">Incorrect direction drawn</string>
+    <string name="kg_direction_lock_instructions_normal_mode">Draw series of directions to unlock screen</string>
+    <string name="keyguard_accessibility_direction_lock_unlock">Direction lock</string>
+    <string name="kg_wrong_direction_lock_vzw">Incorrect directions (%d attempts remaining)</string>
+    <string name="direction_lock_too_many_failed_attempts_countdown">Try again in %d seconds</string>
+    <string name="kg_multi_biometrics_direction_instructions">Use fingerprint or iris, or draw series of directions</string>
+    <string name="kg_iris_direction_instructions">Use iris or draw series of directions</string>
+    <string name="kg_1_attempt_remaining">(1 attempt remaining)</string>
+    <string name="kg_n_attempts_remaining">(%d attempts remaining)</string>
+    <string name="kg_multi_biometrics_strong_auth_prompt_reason_restarting_universal_lock">Your device was restarted and needs to be unlocked using your series of directions. You can use your biometrics next time you unlock your device.</string>
+    <string name="kg_iris_strong_auth_prompt_reason_restarting_universal_lock">Your device was restarted and needs to be unlocked using your series of directions. You can use your irises the next time you unlock your device.</string>
+    <string name="kg_multi_biometrics_prompt_reason_timeout_universal_lock_strong_auth">Draw series of directions instead of using biometric recognition because of security policy</string>
+    <string name="kg_iris_strong_auth_prompt_reason_universal_lock_security_policy">Draw series of directions instead of using iris recognition because of security policy</string>
+    <string name="kg_multi_biometrics_strong_auth_prompt_reason_24_timeout_universal_lock">Your device has not been used for more than 24 hours and needs to be unlocked using your series of directions. You can use your biometrics next time you unlock your device.</string>
+    <string name="kg_iris_strong_auth_prompt_reason_24_timeout_universal_lock">Your device has not been used for more than 24 hours and needs to be unlocked using your series of directions. You can use your irises next time you unlock your device.</string>
+    <string name="kg_none_pin_none_frp">"If you do not enter the correct PIN within the next %d attempts, your phone will automatically be reset to factory settings and all information on the phone will be erased.
+
+If your phone is reset, you may need to enter the Google account information (email address and password) associated with this phone to be able to use it again."</string>
+    <string name="kg_none_pin_1_frp">"If you do not enter the correct PIN in the next attempt, your phone will automatically be reset to factory settings and all information on the phone will be erased.
+
+If your phone is reset, you may need to enter the Google account information (email address and password) associated with this phone to be able to use it again."</string>
+    <string name="kg_tablet_pin_none_frp">"If you do not enter the correct PIN within the next %d attempts, your tablet will automatically be reset to factory settings and all information on the tablet will be erased.
+
+If your tablet is reset, you may need to enter the Google account information (email address and password) associated with this tablet to be able to use it again."</string>
+    <string name="kg_tablet_pin_1_frp">"If you do not enter the correct PIN in the next attempt, your tablet will automatically be reset to factory settings and all information on the tablet will be erased.
+
+If your tablet is reset, you may need to enter the Google account information (email address and password) associated with this tablet to be able to use it again."</string>
+    <string name="kg_none_pattern_none_frp">"If you do not enter the correct pattern within the next %d attempts, your phone will automatically be reset to factory settings and all information on the phone will be erased.
+
+If your phone is reset, you may need to enter the Google account information (email address and password) associated with this phone to be able to use it again."</string>
+    <string name="kg_none_pattern_1_frp">"If you do not enter the correct pattern in the next attempt, your phone will automatically be reset to factory settings and all information on the phone will be erased.
+
+If your phone is reset, you may need to enter the Google account information (email address and password) associated with this phone to be able to use it again."</string>
+    <string name="kg_tablet_pattern_none_frp">"If you do not draw the correct pattern within the next %d attempts, your tablet will automatically be reset to factory settings and all information on the tablet will be erased.
+
+If your tablet is reset, you may need to enter the Google account information (email address and password) associated with this tablet to be able to use it again."</string>
+    <string name="kg_tablet_pattern_1_frp">"If you do not draw the correct pattern in the next attempt, your tablet will automatically be reset to factory settings and all information on the tablet will be erased.
+
+If your tablet is reset, you may need to enter the Google account information (email address and password) associated with this tablet to be able to use it again."</string>
+    <string name="kg_none_password_none_frp">"If you do not enter the correct password within the next %d attempts, your phone will automatically be reset to factory settings and all information on the phone will be erased.
+
+If your phone is reset, you may need to enter the Google account information (email address and password) associated with this phone to be able to use it again."</string>
+    <string name="kg_none_password_1_frp">"If you do not enter the correct password in the next attempt, your phone will automatically be reset to factory settings and all information on the phone will be erased.
+
+If your phone is reset, you may need to enter the Google account information (email address and password) associated with this phone to be able to use it again."</string>
+    <string name="kg_tablet_password_none_frp">"If you do not enter the correct password within the next %d attempts, your tablet will automatically be reset to factory settings and all information on the tablet will be erased.
+
+If your tablet is reset, you may need to enter the Google account information (email address and password) associated with this tablet to be able to use it again."</string>
+    <string name="kg_tablet_password_1_frp">"If you do not enter the correct password in the next attempt, your tablet will automatically be reset to factory settings and all information on the tablet will be erased.
+
+If your tablet is reset, you may need to enter the Google account information (email address and password) associated with this tablet to be able to use it again."</string>
+    <string name="kg_none_direction_none_frp">"If you do not draw the correct series of directions within the next %d attempts, your phone will automatically be reset to factory settings and all information on the phone will be erased.
+
+If your phone is reset, you may need to enter the Google account information (email address and password) associated with this phone to be able to use it again."</string>
+    <string name="kg_none_direction_1_frp">"If you do not draw the correct series of directions in the next attempt, your phone will automatically be reset to factory settings and all information on the phone will be erased.
+
+If your phone is reset, you may need to enter the Google account information (email address and password) associated with this phone to be able to use it again."</string>
+    <string name="kg_tablet_direction_none_frp">"If you do not draw the correct series of directions within the next %d attempts, your tablet will automatically be reset to factory settings and all information on the tablet will be erased.
+
+If your tablet is reset, you may need to enter the Google account information (email address and password) associated with this tablet to be able to use it again."</string>
+    <string name="kg_tablet_direction_1_frp">"If you do not draw the correct series of directions in the next attempt, your tablet will automatically be reset to factory settings and all information on the tablet will be erased.
+
+If your tablet is reset, you may need to enter the Google account information (email address and password) associated with this tablet to be able to use it again."</string>
+    <string name="kg_warning_none_1_none_auto_wipe">There has been 1 attempt to unlock this phone. You have %d attempts left before the phone is reset to factory default settings and all data is erased, including files and downloaded apps.</string>
+    <string name="kg_warning_tablet_1_none_auto_wipe">There has been 1 attempt to unlock this tablet. You have %d attempts left before the tablet is reset to factory default settings and all data is erased, including files and downloaded apps.</string>
+    <string name="kg_warning_none_none_none_auto_wipe">There have been %1$d attempts to unlock this phone. You have %2$d attempts left before the phone is reset to factory default settings and all data is erased, including files and downloaded apps.</string>
+    <string name="kg_warning_tablet_none_none_auto_wipe">There have been %1$d attempts to unlock this tablet. You have %2$d attempts left before the tablet is reset to factory default settings and all data is erased, including files and downloaded apps.</string>
+    <string name="kg_warning_none_none_1_auto_wipe">There have been %d attempts to unlock this phone. You have 1 attempt left before the phone is reset to factory default settings and all data is erased, including files and downloaded apps.</string>
+    <string name="kg_warning_tablet_none_1_auto_wipe">There have been %d attempts to unlock this tablet. You have 1 attempt left before the tablet is reset to factory default settings and all data is erased, including files and downloaded apps.</string>
+    <string name="kg_multi_pin_none_instructions">Use fingerprint or iris, or enter PIN</string>
+    <string name="kg_multi_pin_active_instructions">Use fingerprint or iris, or enter PIN, to open</string>
+    <string name="kg_multi_pin_shutdown_instructions">Use fingerprint or irises, or enter PIN, to power off</string>
+    <string name="kg_fingerprint_pin_none_instructions">Use fingerprint or enter PIN</string>
+    <string name="kg_fingerprint_pin_active_instructions">Use fingerprint or enter PIN to open</string>
+    <string name="kg_fingerprint_pin_shutdown_instructions">Use fingerprint or enter PIN to power off</string>
+    <string name="kg_iris_pin_none_instructions">Use iris or enter PIN</string>
+    <string name="kg_iris_pin_active_instructions">Use iris or enter PIN to open</string>
+    <string name="kg_iris_pin_shutdown_instructions">Use iris or enter PIN to power off</string>
+    <string name="kg_none_pin_none_instructions">Enter PIN</string>
+    <string name="kg_none_pin_active_instructions">Enter PIN to open</string>
+    <string name="kg_none_pin_shutdown_instructions">Enter PIN to power off</string>
+    <string name="kg_multi_pattern_none_instructions">Use fingerprint or iris, or draw pattern</string>
+    <string name="kg_multi_pattern_active_instructions">Use fingerprint or iris, or draw pattern, to open</string>
+    <string name="kg_multi_pattern_shutdown_instructions">Use fingerprint or irises, or draw pattern, to power off</string>
+    <string name="kg_fingerprint_pattern_none_instructions">Use fingerprint or draw unlock pattern</string>
+    <string name="kg_fingerprint_pattern_active_instructions">Use fingerprint or draw pattern to open</string>
+    <string name="kg_fingerprint_pattern_shutdown_instructions">Use fingerprint or draw pattern to power off</string>
+    <string name="kg_iris_pattern_none_instructions">Use iris or draw pattern</string>
+    <string name="kg_iris_pattern_active_instructions">Use iris or draw pattern to open</string>
+    <string name="kg_iris_pattern_shutdown_instructions">Use iris or draw pattern to power off</string>
+    <string name="kg_none_pattern_none_instructions">Draw unlock pattern</string>
+    <string name="kg_none_pattern_active_instructions">Draw unlock pattern to open</string>
+    <string name="kg_none_pattern_shutdown_instructions">Draw pattern to power off</string>
+    <string name="kg_multi_password_none_instructions">Use fingerprint or iris, or enter password</string>
+    <string name="kg_multi_password_active_instructions">Use fingerprint or iris, or enter password, to open</string>
+    <string name="kg_multi_password_shutdown_instructions">Use fingerprint or irises, or enter password, to power off</string>
+    <string name="kg_fingerprint_password_none_instructions">Use fingerprint or enter password</string>
+    <string name="kg_fingerprint_password_active_instructions">Use fingerprint or enter password to open</string>
+    <string name="kg_fingerprint_password_shutdown_instructions">Use fingerprint or enter password to power off</string>
+    <string name="kg_iris_password_none_instructions">Use iris or enter password</string>
+    <string name="kg_iris_password_active_instructions">Use iris or enter password to open</string>
+    <string name="kg_iris_password_shutdown_instructions">Use iris or enter password to power off</string>
+    <string name="kg_none_password_none_instructions">Enter password</string>
+    <string name="kg_none_password_active_instructions">Enter password to open</string>
+    <string name="kg_none_password_shutdown_instructions">Enter password to power off</string>
+    <string name="kg_multi_direction_none_instructions">Use fingerprint or iris, or draw series of directions</string>
+    <string name="kg_multi_direction_active_instructions">Use fingerprint or iris, or draw series of directions to open</string>
+    <string name="kg_multi_direction_shutdown_instructions">Use fingerprint or irises, or draw series of directions, to power off</string>
+    <string name="kg_fingerprint_direction_none_instructions">Use fingerprint or draw series of directions</string>
+    <string name="kg_fingerprint_direction_active_instructions">Use fingerprint or draw series of directions to open</string>
+    <string name="kg_fingerprint_direction_shutdown_instructions">Use fingerprint or draw series of directions to power off</string>
+    <string name="kg_iris_direction_none_instructions">Use iris or draw series of directions</string>
+    <string name="kg_iris_direction_active_instructions">Use iris or draw series of directions to open</string>
+    <string name="kg_iris_direction_shutdown_instructions">Use iris or draw series of directions to power off</string>
+    <string name="kg_none_direction_none_instructions">Draw series of directions to unlock screen</string>
+    <string name="kg_none_direction_active_instructions">Draw series of directions to open</string>
+    <string name="kg_none_direction_shutdown_instructions">Draw series of directions to power off</string>
+    <string name="kg_none_multi_pin_restart_instructions">Your device was restarted and needs to be unlocked using your PIN. You can use your biometrics next time you unlock your device.</string>
+    <string name="kg_tablet_multi_pin_restart_instructions">Your device was restarted and needs to be unlocked using your PIN. You can use your biometrics next time you unlock your device.</string>
+    <string name="kg_none_fingerprint_pin_restart_instructions">Your device was restarted and needs to be unlocked using your PIN. You can use your fingerprints next time you unlock your device.</string>
+    <string name="kg_tablet_fingerprint_pin_restart_instructions">Your device was restarted and needs to be unlocked using your PIN. You can use your fingerprints next time you unlock your device.</string>
+    <string name="kg_none_iris_pin_restart_instructions">Your device was restarted and needs to be unlocked using your PIN. You can use your irises the next time you unlock your device.</string>
+    <string name="kg_tablet_iris_pin_restart_instructions">Your device was restarted and needs to be unlocked using your PIN. You can use your irises the next time you unlock your device.</string>
+    <string name="kg_none_multi_pin_timeout_instructions">Your device has not been used for more than 24 hours and needs to be unlocked using your PIN. You can use your biometrics next time you unlock your device.</string>
+    <string name="kg_tablet_multi_pin_timeout_instructions">Your device has not been used for more than 24 hours and needs to be unlocked using your PIN. You can use your biometrics next time you unlock your device.</string>
+    <string name="kg_none_fingerprint_pin_timeout_instructions">Your device has not been used for more than 24 hours and needs to be unlocked using your PIN. You can use your fingerprints next time you unlock your device.</string>
+    <string name="kg_tablet_fingerprint_pin_timeout_instructions">Your device has not been used for more than 24 hours and needs to be unlocked using your PIN. You can use your fingerprints next time you unlock your device.</string>
+    <string name="kg_none_iris_pin_timeout_instructions">Your device has not been used for more than 24 hours and needs to be unlocked using your PIN. You can use your irises next time you unlock your device.</string>
+    <string name="kg_tablet_iris_pin_timeout_instructions">Your device has not been used for more than 24 hours and needs to be unlocked using your PIN. You can use your irises next time you unlock your device.</string>
+    <string name="kg_none_multi_pin_deviceadmin_instructions">Enter PIN instead of using biometric recognition because of security policy</string>
+    <string name="kg_none_fingerprint_pin_deviceadmin_instructions">Enter PIN instead of using fingerprint recognition because of security policy</string>
+    <string name="kg_none_iris_pin_deviceadmin_instructions">Enter PIN instead of using iris recognition because of security policy</string>
+    <string name="kg_none_multi_pattern_restart_instructions">Your device was restarted and needs to be unlocked using your pattern. You can use your biometrics next time you unlock your device.</string>
+    <string name="kg_tablet_multi_pattern_restart_instructions">Your device was restarted and needs to be unlocked using your pattern. You can use your biometrics next time you unlock your device.</string>
+    <string name="kg_none_fingerprint_pattern_restart_instructions">Your device was restarted and needs to be unlocked using your pattern. You can use your fingerprints next time you unlock your device.</string>
+    <string name="kg_tablet_fingerprint_pattern_restart_instructions">Your device was restarted and needs to be unlocked using your pattern. You can use your fingerprints next time you unlock your device.</string>
+    <string name="kg_none_iris_pattern_restart_instructions">Your device was restarted and needs to be unlocked using your pattern. You can use your irises the next time you unlock your device.</string>
+    <string name="kg_tablet_iris_pattern_restart_instructions">Your device was restarted and needs to be unlocked using your pattern. You can use your irises the next time you unlock your device.</string>
+    <string name="kg_none_multi_pattern_timeout_instructions">Your device has not been used for more than 24 hours and needs to be unlocked using your pattern. You can use your biometrics next time you unlock your device.</string>
+    <string name="kg_tablet_multi_pattern_timeout_instructions">Your device has not been used for more than 24 hours and needs to be unlocked using your pattern. You can use your biometrics next time you unlock your device.</string>
+    <string name="kg_none_fingerprint_pattern_timeout_instructions">Your device has not been used for more than 24 hours and needs to be unlocked using your pattern. You can use your fingerprints next time you unlock your device.</string>
+    <string name="kg_tablet_fingerprint_pattern_timeout_instructions">Your device has not been used for more than 24 hours and needs to be unlocked using your pattern. You can use your fingerprints next time you unlock your device.</string>
+    <string name="kg_none_iris_pattern_timeout_instructions">Your device has not been used for more than 24 hours and needs to be unlocked using your pattern. You can use your irises next time you unlock your device.</string>
+    <string name="kg_tablet_iris_pattern_timeout_instructions">Your device has not been used for more than 24 hours and needs to be unlocked using your pattern. You can use your irises next time you unlock your device.</string>
+    <string name="kg_none_multi_pattern_deviceadmin_instructions">Draw pattern instead of using biometric recognition because of security policy</string>
+    <string name="kg_none_fingerprint_pattern_deviceadmin_instructions">Draw pattern instead of using fingerprint recognition because of security policy</string>
+    <string name="kg_none_iris_pattern_deviceadmin_instructions">Draw pattern instead of using iris recognition because of security policy</string>
+    <string name="kg_none_multi_password_restart_instructions">Your device was restarted and needs to be unlocked using your password. You can use your biometrics next time you unlock your device.</string>
+    <string name="kg_tablet_multi_password_restart_instructions">Your device was restarted and needs to be unlocked using your password. You can use your biometrics next time you unlock your device.</string>
+    <string name="kg_none_fingerprint_password_restart_instructions">Your device was restarted and needs to be unlocked using your password. You can use your fingerprints next time you unlock your device.</string>
+    <string name="kg_tablet_fingerprint_password_restart_instructions">Your device was restarted and needs to be unlocked using your password. You can use your fingerprints next time you unlock your device.</string>
+    <string name="kg_none_iris_password_restart_instructions">Your device was restarted and needs to be unlocked using your password. You can use your irises next time you unlock your device.</string>
+    <string name="kg_tablet_iris_password_restart_instructions">Your device was restarted and needs to be unlocked using your password. You can use your irises next time you unlock your device.</string>
+    <string name="kg_none_multi_password_timeout_instructions">Your device has not been used for more than 24 hours and needs to be unlocked using your password. You can use your biometrics next time you unlock your device.</string>
+    <string name="kg_tablet_multi_password_timeout_instructions">Your device has not been used for more than 24 hours and needs to be unlocked using your password. You can use your biometrics next time you unlock your device.</string>
+    <string name="kg_none_fingerprint_password_timeout_instructions">Your device has not been used for more than 24 hours and needs to be unlocked using your password. You can use your fingerprints next time you unlock your device.</string>
+    <string name="kg_tablet_fingerprint_password_timeout_instructions">Your device has not been used for more than 24 hours and needs to be unlocked using your password. You can use your fingerprints next time you unlock your device.</string>
+    <string name="kg_none_iris_password_timeout_instructions">Your device has not been used for more than 24 hours and needs to be unlocked using your password. You can use your irises next time you unlock your device.</string>
+    <string name="kg_tablet_iris_password_timeout_instructions">Your device has not been used for more than 24 hours and needs to be unlocked using your password. You can use your irises next time you unlock your device.</string>
+    <string name="kg_none_multi_password_deviceadmin_instructions">Enter password instead of using biometric recognition because of security policy</string>
+    <string name="kg_none_fingerprint_password_deviceadmin_instructions">Enter password instead of using fingerprint recognition because of security policy</string>
+    <string name="kg_none_iris_password_deviceadmin_instructions">Enter password instead of using iris recognition because of security policy</string>
+    <string name="kg_none_multi_direction_restart_instructions">Your device was restarted and needs to be unlocked using your series of directions. You can use your biometrics next time you unlock your device.</string>
+    <string name="kg_tablet_multi_direction_restart_instructions">Your device was restarted and needs to be unlocked using your series of directions. You can use your biometrics next time you unlock your device.</string>
+    <string name="kg_none_fingerprint_direction_restart_instructions">Your device was restarted and needs to be unlocked using your series of directions. You can use your fingerprints next time you unlock your device.</string>
+    <string name="kg_tablet_fingerprint_direction_restart_instructions">Your device was restarted and needs to be unlocked using your series of directions. You can use your fingerprints next time you unlock your device.</string>
+    <string name="kg_none_iris_direction_restart_instructions">Your device was restarted and needs to be unlocked using your series of directions. You can use your irises the next time you unlock your device.</string>
+    <string name="kg_tablet_iris_direction_restart_instructions">Your device was restarted and needs to be unlocked using your series of directions. You can use your irises the next time you unlock your device.</string>
+    <string name="kg_none_multi_direction_timeout_instructions">Your device has not been used for more than 24 hours and needs to be unlocked using your series of directions. You can use your biometrics next time you unlock your device.</string>
+    <string name="kg_tablet_multi_direction_timeout_instructions">Your device has not been used for more than 24 hours and needs to be unlocked using your series of directions. You can use your biometrics next time you unlock your device.</string>
+    <string name="kg_none_fingerprint_direction_timeout_instructions">Your device has not been used for more than 24 hours and needs to be unlocked using your series of directions. You can use your fingerprints the next time you unlock your device.</string>
+    <string name="kg_tablet_fingerprint_direction_timeout_instructions">Your device has not been used for more than 24 hours and needs to be unlocked using your series of directions. You can use your fingerprints the next time you unlock your device.</string>
+    <string name="kg_none_iris_direction_timeout_instructions">Your device has not been used for more than 24 hours and needs to be unlocked using your series of directions. You can use your irises next time you unlock your device.</string>
+    <string name="kg_tablet_iris_direction_timeout_instructions">Your device has not been used for more than 24 hours and needs to be unlocked using your series of directions. You can use your irises next time you unlock your device.</string>
+    <string name="kg_none_multi_direction_deviceadmin_instructions">Draw series of directions instead of using biometric recognition because of security policy</string>
+    <string name="kg_none_fingerprint_direction_deviceadmin_instructions">Draw series of directions instead of using fingerprint recognition because of security policy</string>
+    <string name="kg_none_iris_direction_deviceadmin_instructions">Draw series of directions instead of using iris recognition because of security policy</string>
+    <string name="kg_none_recovery_none_instructions">Enter the recovery password to unlock.</string>
+    <string name="kg_incorrect_pattern">Incorrect pattern drawn</string>
+    <string name="kg_incorrect_password">Incorrect password entered</string>
+    <string name="kg_incorrect_pin">Incorrect PIN entered</string>
+    <string name="kg_pin_sub_instructions">Your PIN contains at least 4 digits.</string>
+    <string name="kg_password_sub_instructions">Your password contains at least %d characters, including at least one letter.</string>
+    <string name="kg_sec_puk_enter_pin_hint">Enter a new SIM card PIN.</string>
+    <string name="card_crash">SIM card crash</string>
+    <string name="kg_unlock_sim_pin_instructions">Enter SIM card unlock PIN.</string>
+    <string name="kg_unlock_sim_pin_remaining_1_attempt">Enter SIM card unlock PIN. 1 attempt left.</string>
+    <string name="kg_unlock_sim_pin_remaining_attempts">Enter SIM card unlock PIN. %d attempts left.</string>
+    <string name="kg_password_wrong_pin_code_one">An incorrect SIM card PIN has been entered. You have one attempt left.</string>
+    <string name="kg_password_wrong_pin_code_other">An incorrect SIM card PIN has been entered. You have %d attempts left.</string>
+    <string name="kg_sim_puk_instructions">SIM card locked. Enter PUK. Contact service provider for details.</string>
+    <string name="kg_sim_puk_remaining_1_attempt">If you enter incorrect PUK one more time, SIM will be locked.</string>
+    <string name="kg_sim_puk_remaining_attempts">If you enter incorrect PUK %d more times, SIM will be locked.</string>
+    <string name="kg_sec_sim_unlock_progress_dialog_message">Unlocking SIM card…</string>
+    <string name="kg_skt_sim_perso_instructions">Enter USIM card unlock PIN (4 digits)</string>
+    <string name="kg_ktt_sim_perso_instructions">Enter 4- to 8-digit password (PIN)</string>
+    <string name="kg_kor_sim_unlock_progress_dialog_message">Unlocking SIM card</string>
+    <string name="kg_empty_sim_perso_hint">No password entered. Enter password (PIN).</string>
+    <string name="kg_password_perso_failed">Incorrect PIN. Check PIN and try again.</string>
+    <string name="kg_password_perso_max_failed">Incorrect PIN entered for USIM card lock. Maximum number of retries reached. Restart device or visit CS centre.</string>
+    <string name="kg_sim_pin_remaining_1_attempt">You have one attempt left.</string>
+    <string name="kg_sim_pin_remaining_attempts">You have %d attempts left.</string>
+    <string name="kg_kor_sim_pin_instructions">Enter USIM card unlock PIN (4 to 8 digits)</string>
+    <string name="kg_kor_password_wrong_pin_code">An incorrect PIN has been entered. %d attempts are remaining. Contact customer services.</string>
+    <string name="kg_kor_sim_puk_instructions">Enter the PUK.</string>
+    <string name="kg_kor_invalid_sim_puk_hint">Enter 8-digit PIN unlock (PUK) code</string>
+    <string name="kg_kor_empty_sim_puk_hint">No PIN unlock (PUK) code entered. Try again.</string>
+    <string name="kg_kor_puk_enter_pin_hint">"Create a new USIM card PIN.
+The PIN must be 4 to 8 digits long."</string>
+    <string name="kg_kor_enter_confirm_pin_hint">Enter the USIM card PIN again to confirm it.</string>
+    <string name="kg_kor_invalid_confirm_pin_hint">The new PINs do not match.</string>
+    <string name="kg_kor_wrong_puk_code">Unlock code input error</string>
+    <string name="kg_kor_sim_puk_remaining_attempts">"An incorrect PUK has been entered %1$d times. If an incorrect PUK is entered %2$d more times, the USIM card will be permanently blocked.
+
+If you do not know your PUK, visit a customer service centre."</string>
+    <string name="kg_kor_success_pin_message">New password (PIN) saved successfully.</string>
+    <string name="kg_ctc_unlock_sim_pin_instructions">Enter UIM/SIM card unlock PIN</string>
+    <string name="kg_ctc_sim_puk_instructions">UIM/SIM card locked. Enter PUK. Contact service provider for details.</string>
+    <string name="kg_ctc_puk_enter_pin_hint">Enter new UIM/SIM card unlock PIN</string>
+    <string name="kg_ctc_enter_confirm_pin_hint">Enter new UIM/SIM card unlock PIN again to confirm it</string>
+    <string name="kg_ctc_sim_unlock_progress_dialog_message">Unlocking UIM/SIM card…</string>
+    <string name="kg_ctc_password_wrong_pin_code_one">Incorrect UIM/SIM card PIN entered. One attempt left.</string>
+    <string name="kg_ctc_password_wrong_pin_code_other">Incorrect UIM/SIM card PIN entered. %d attempts left.</string>
+    <string name="kg_ctc_sim_puk_remaining_1_attempt">Incorrect PUK entered. If incorrect PUK is entered 1 more time, UIM/SIM card will be locked.</string>
+    <string name="kg_ctc_sim_puk_remaining_attempts">Incorrect PUK entered. If incorrect PUK is entered %d more times, UIM/SIM card will be permanently locked.</string>
+    <string name="kg_dcm_sim_puk_instructions">PIN has been blocked. Enter PUK to continue.</string>
+    <string name="kg_sim_lock_accepted">Code accepted.</string>
+    <string name="kg_carrier_lock_wrong_password">Incorrect password entered.</string>
+    <string name="kg_carrier_lock_too_many_failed_attempts">Incorrect password entered 5 times. Try again in 10 minutes.</string>
+    <string name="keyguard_fmm_phone_locked_title">Phone locked.</string>
+    <string name="keyguard_fmm_owner_phone">"Owner's number"</string>
+    <string name="keyguard_accessibility_call">Call</string>
+    <string name="kg_fingerprint_no_match">No match</string>
+    <string name="kg_finger_print_not_responding_error_message">The fingerprint sensor is not responding. Try again later.</string>
+    <string name="kg_finger_print_database_error_message">The fingerprint data has been corrupted. Reset Fingerprint as the screen lock type and then add your fingerprints again, or change the screen lock type.</string>
+    <string name="kg_finger_print_sensor_with_recalibration_error_message">Make sure that the Home key is clean and dry, then try again.</string>
+    <string name="kg_finger_print_sensor_changed_error_message">The fingerprint sensor has not been changed properly. Contact customer services.</string>
+    <string name="kg_fingerprints_pattern_instructions">Use fingerprint or draw unlock pattern</string>
+    <string name="kg_fingerprints_pin_instructions">Use fingerprint or enter PIN</string>
+    <string name="kg_fingerprints_password_instructions">Use fingerprint or enter password</string>
+    <string name="kg_fingerprints_direction_instructions">Use fingerprint or draw series of directions</string>
+    <string name="kg_fingerprints_pattern_bouncer_instructions">Use fingerprint or draw pattern to open</string>
+    <string name="kg_fingerprints_pin_bouncer_instructions">Use fingerprint or enter PIN to open</string>
+    <string name="kg_fingerprints_password_bouncer_instructions">Use fingerprint or enter password to open</string>
+    <string name="kg_fingerprints_direction_bouncer_instructions">Use fingerprint or draw series of directions to open</string>
+    <string name="kg_strong_auth_prompt_reason_timeout_pattern">Your device has not been used for more than 24 hours and needs to be unlocked using your pattern. You can use your fingerprints next time you unlock your device.</string>
+    <string name="kg_strong_auth_prompt_reason_timeout_pin">Your device has not been used for more than 24 hours and needs to be unlocked using your PIN. You can use your fingerprints next time you unlock your device.</string>
+    <string name="kg_strong_auth_prompt_reason_timeout_password">Your device has not been used for more than 24 hours and needs to be unlocked using your password. You can use your fingerprints next time you unlock your device.</string>
+    <string name="kg_strong_auth_prompt_reason_timeout_direction_lock">Your device has not been used for more than 24 hours and needs to be unlocked using your series of directions. You can use your fingerprints the next time you unlock your device.</string>
+    <string name="kg_fingerprints_pattern_unabled_instructions">Your device was restarted and needs to be unlocked using your pattern. You can use your fingerprints next time you unlock your device.</string>
+    <string name="kg_fingerprints_pin_unabled_instructions">Your device was restarted and needs to be unlocked using your PIN. You can use your fingerprints next time you unlock your device.</string>
+    <string name="kg_fingerprints_password_unabled_instructions">Your device was restarted and needs to be unlocked using your password. You can use your fingerprints next time you unlock your device.</string>
+    <string name="kg_fingerprints_direction_unabled_instructions">Your device was restarted and needs to be unlocked using your series of directions. You can use your fingerprints next time you unlock your device.</string>
+    <string name="kg_prompt_reason_timeout_pattern_strong_auth">Draw pattern instead of using fingerprint recognition because of security policy</string>
+    <string name="kg_prompt_reason_timeout_pin_strong_auth">Enter PIN instead of using fingerprint recognition because of security policy</string>
+    <string name="kg_prompt_reason_timeout_password_strong_auth">Enter password instead of using fingerprint recognition because of security policy</string>
+    <string name="kg_prompt_reason_timeout_universal_lock_strong_auth">Draw series of directions instead of using fingerprint recognition because of security policy</string>
+    <string name="kg_tablet_strong_auth_prompt_reason_timeout_pattern">Your device has not been used for more than 24 hours and needs to be unlocked using your pattern. You can use your fingerprints next time you unlock your device.</string>
+    <string name="kg_tablet_strong_auth_prompt_reason_timeout_pin">Your device has not been used for more than 24 hours and needs to be unlocked using your PIN. You can use your fingerprints next time you unlock your device.</string>
+    <string name="kg_tablet_strong_auth_prompt_reason_timeout_password">Your device has not been used for more than 24 hours and needs to be unlocked using your password. You can use your fingerprints next time you unlock your device.</string>
+    <string name="kg_tablet_strong_auth_prompt_reason_timeout_direction_lock">Your device has not been used for more than 24 hours and needs to be unlocked using your series of directions. You can use your fingerprints the next time you unlock your device.</string>
+    <string name="kg_tablet_fingerprints_pattern_unabled_instructions">Your device was restarted and needs to be unlocked using your pattern. You can use your fingerprints next time you unlock your device.</string>
+    <string name="kg_tablet_fingerprints_pin_unabled_instructions">Your device was restarted and needs to be unlocked using your PIN. You can use your fingerprints next time you unlock your device.</string>
+    <string name="kg_tablet_fingerprints_password_unabled_instructions">Your device was restarted and needs to be unlocked using your password. You can use your fingerprints next time you unlock your device.</string>
+    <string name="kg_tablet_fingerprints_direction_unabled_instructions">Your device was restarted and needs to be unlocked using your series of directions. You can use your fingerprints next time you unlock your device.</string>
+    <string name="keyguard_progress_erasing_all">Deleting all data…</string>
+    <string name="kg_ucm_puk_enter_pin_hint">Enter new PIN</string>
+    <string name="kg_ucm_enter_confirm_pin_hint">Enter PIN again to confirm it</string>
+    <string name="kg_ucm_password_wrong_puk_code">Incorrect PUK entered</string>
+    <string name="kg_ucm_password_wrong_puk_code_dead">PUK blocked. Contact service provider.</string>
+    <string name="kg_ucm_invalid_confirm_pin_hint">PINs do not match</string>
+    <string name="kg_ucm_loading">Loading…</string>
+    <string name="kg_ucm_unlocking">Unlocking…</string>
+    <string name="kg_ucm_unknown_error_occurred">Unknown error occurred.</string>
+    <string name="kg_iris_no_match">No match</string>
+    <string name="iris_guide_str_enable_toggle">Tap here to use iris</string>
+    <string name="iris_guide_str_for_text_preview">Look here to use irises</string>
+    <string name="kg_login_username_hint">Username (email)</string>
+    <string name="kg_login_password_hint">Password</string>
+    <string name="kg_login_submit_button">Sign in</string>
+    <string name="kg_login_invalid_input">Invalid username or password.</string>
+    <string name="no_network_connection">No network connection</string>
+    <string name="kg_forgot_spass_button_text">Samsung account</string>
+    <string name="kg_login_checking_password">Checking account…</string>
+    <string name="kg_too_many_failed_attempts_countdown_mins_with_auto_wipe">"An attempt to unlock the device has been made %1$d times. You have %2$d attempts left before the device is reset to factory default settings and all data is erased.
+
+Try again in %3$d minutes"</string>
+    <string name="kg_too_many_failed_attempts_countdown_secs_with_auto_wipe">"An attempt to unlock the device has been made %1$d times. You have %2$d attempts left before the device is reset to factory default settings and all data is erased.
+
+Try again in %3$d seconds"</string>
+    <string name="kg_too_many_failed_attempts_countdown_1_min_with_auto_wipe">"An attempt to unlock the device has been made %1$d times. You have %2$d attempts left before the device is reset to factory default settings and all data is erased.
+
+Try again in one minute"</string>
+    <string name="kg_too_many_failed_attempts_countdown_1_sec_with_auto_wipe">"An attempt to unlock the device has been made %1$d times. You have %2$d attempts left before the device is reset to factory default settings and all data is erased.
+
+Try again in 1 second"</string>
+    <string name="kg_too_many_failed_countdown_1_sec_with_auto_wipe">Try again in one second</string>
+    <string name="kg_too_many_failed_attempt_countdown">Try again in one second</string>
+    <string name="kg_remained_1_attempt_countdown_mins_with_auto_wipe">"An attempt to unlock the device has been made %1$d times. You have 1 attempt left before the device is reset to factory default settings and all data is erased.
+
+Try again in %2$d minutes"</string>
+    <string name="kg_remained_1_attempt_countdown_secs_with_auto_wipe">"An attempt to unlock the device has been made %1$d times. You have one attempt left before the device is reset to factory default settings and all data is erased.
+
+Try again in %2$d seconds"</string>
+    <string name="kg_remained_1_attempt_countdown_1_min_with_auto_wipe">"An attempt to unlock the device has been made %d times. You have 1 attempt left before the device is reset to factory default settings and all data is erased.
+
+Try again in 1 minute"</string>
+    <string name="kg_remained_1_attempt_countdown_1_sec_with_auto_wipe">"An attempt to unlock the device has been made %d times. You have 1 attempt left before the device is reset to factory default settings and all data is erased.
+
+Try again in 1 second"</string>
+    <string name="servicebox_event_time_all_day">All day</string>
+    <string name="servicebox_music_play_first">"After you've used a music player, you'll be able to control your music from the Lock screen."</string>
+    <string name="servicebox_music_lyrics">Lyrics</string>
+    <string name="servicebox_event_no_events">No events or tasks</string>
+    <string name="servicebox_event_my_event">My event</string>
+    <string name="kg_wallpaper_preview_title">Lock screen</string>
+    <string name="kg_wallpaper_preview_button">Set as wallpaper</string>
+    <string name="kg_wallpaper_applied_toast">Wallpaper applied to lock screen.</string>
+    <string name="kg_too_many_failed_countdown_by_fingerprint">There were %d incorrect attempts to verify fingerprints. Try again in 30 seconds.</string>
+</resources>

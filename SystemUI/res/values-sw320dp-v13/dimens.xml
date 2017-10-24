@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="qs_tile_width_4x3">66.0dip</dimen>
+    <dimen name="qs_tile_width_5x3">56.0dip</dimen>
+    <dimen name="qs_tile_width_8x2">64.0dip</dimen>
+    <dimen name="qs_time_collapsed_size">14.0dip</dimen>
+    <dimen name="recents_close_all_button_width">180.0dip</dimen>
+    <dimen name="recents_help_content_width">320.0dip</dimen>
+    <dimen name="keyguard_security_height">345.0dip</dimen>
+    <dimen name="kg_title_text_view_margin_top">14.0dip</dimen>
+    <dimen name="kg_title_text_size">15.0dip</dimen>
+    <dimen name="kg_preview_container_width_16_9">213.0dip</dimen>
+    <dimen name="kg_preview_container_height_16_9">380.0dip</dimen>
+    <dimen name="kg_preview_container_width_cinematic_16_9">203.0dip</dimen>
+    <dimen name="kg_preview_container_height_cinematic_16_9">359.0dip</dimen>
+    <dimen name="kg_preview_container_width">213.0dip</dimen>
+    <dimen name="kg_preview_container_height">440.0dip</dimen>
+    <dimen name="kg_preview_container_width_cinematic">197.0dip</dimen>
+    <dimen name="kg_preview_container_height_cinematic">406.0dip</dimen>
+    <dimen name="kg_preview_container_margin_top">52.0dip</dimen>
+    <dimen name="kg_preview_container_shadow_elevation">7.0dip</dimen>
+    <dimen name="kg_wallpaper_type_icon_size">19.0dip</dimen>
+    <dimen name="kg_wallpaper_type_icon_margin">5.0dip</dimen>
+    <dimen name="kg_option_container_margin_side">18.0dip</dimen>
+    <dimen name="kg_option_description_text_size">11.0dip</dimen>
+    <dimen name="kg_option_description_margin_top">18.0dip</dimen>
+    <dimen name="kg_option_check_icon_line_margin_bottom">19.0dip</dimen>
+    <dimen name="kg_option_check_icon_size">20.0dip</dimen>
+    <dimen name="kg_option_check_icon_margin_side">7.0dip</dimen>
+    <dimen name="kg_option_check_icon_label_text_size">12.0dip</dimen>
+    <dimen name="kg_set_as_wallpaper_button_view_height">32.0dip</dimen>
+    <dimen name="kg_set_as_wallpaper_button_view_width">260.0dip</dimen>
+    <dimen name="kg_set_as_wallpaper_button_view_margin_bottom">10.0dip</dimen>
+    <dimen name="kg_set_as_wallpaper_text_size">13.0dip</dimen>
+</resources>
