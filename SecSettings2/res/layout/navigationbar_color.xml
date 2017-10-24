@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingTop="@dimen/list_item_top_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/list_item_container_style"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:ellipsize="marquee" android:id="@android:id/title" android:visibility="visible" android:fadingEdge="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:text="@string/navigationbar_color_title" android:singleLine="true" style="@style/list_title_text_style" />
+    <Switch android:textAppearance="?android:textAppearanceListItem" android:textColor="?android:textColorPrimary" android:id="@id/themeSwitch" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/navigationbar_theme_switch" android:singleLine="true" />
+    <GridView android:id="@id/gridView" android:layout_width="fill_parent" android:layout_height="84.0dip" android:listSelector="#00000000" android:columnWidth="@dimen/navigationbar_color_gridview_item_size" android:numColumns="auto_fit" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+</LinearLayout>
