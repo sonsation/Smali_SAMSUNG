@@ -67,11 +67,7 @@
 
     .prologue
     .line 1960
-    sget-object v0, Lcom/sec/android/securestorage/SecureStorage;->secureStorageJNI:Lcom/sec/android/securestorage/SecureStorageJNI;
-
-    invoke-virtual {v0}, Lcom/sec/android/securestorage/SecureStorageJNI;->isSupported()Z
-
-    move-result v0
+    const/4 v0, 0x1
 
     return v0
 .end method
