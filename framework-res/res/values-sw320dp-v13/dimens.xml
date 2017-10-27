@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="mdm_app_icon_size">48.0dip</dimen>
+    <dimen name="s_view_cover_window_width">292.0dip</dimen>
+    <dimen name="s_view_cover_window_height">278.0dip</dimen>
+</resources>

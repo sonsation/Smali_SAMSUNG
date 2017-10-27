@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hwparam_document [
+<!ELEMENT hwparam_document (hwparam_setting, hwparam_info+)>
+<!ELEMENT hwparam_setting ANY>
+<!ATTLIST hwparam_setting
+    enable CDATA #REQUIRED
+    DVServer CDATA #REQUIRED
+    CFServer CDATA #REQUIRED>
+<!ELEMENT hwparam_info ANY>
+<!ATTLIST hwparam_info
+      compID CDATA #REQUIRED
+      compVer CDATA #REQUIRED
+      compManufacture CDATA #REQUIRED
+      hitType CDATA #REQUIRED
+      feature CDATA #REQUIRED>
+<!ELEMENT sysfs_node (key_info*)>
+<!ATTLIST sysfs_node
+      type CDATA #REQUIRED
+      key CDATA #REQUIRED
+      value CDATA #REQUIRED>
+<!ELEMENT dev_sysfs_node (key_info*)>
+<!ATTLIST dev_sysfs_node
+      type CDATA #REQUIRED
+      key CDATA #REQUIRED
+      value CDATA #REQUIRED>          
+<!ELEMENT enc_sysfs_node (key_info*)>
+<!ATTLIST enc_sysfs_node
+      type CDATA #REQUIRED
+      key CDATA #REQUIRED
+      value CDATA #REQUIRED>
+<!ELEMENT key_info EMPTY>
+<!ATTLIST key_info
+      keyname CDATA #REQUIRED
+      min CDATA #REQUIRED
+      max CDATA #REQUIRED
+      desc1 CDATA #REQUIRED
+      desc2 CDATA #REQUIRED
+      desc3 CDATA #REQUIRED
+      desc4 CDATA #REQUIRED
+      type1 CDATA #REQUIRED
+      type2 CDATA #REQUIRED>
+]>
+
+<hwparam_document>
+
+    <hwparam_setting enable="false" DVServer="false" CFServer="false" />
+
+    <!-- Device : PWR -->
+    <hwparam_info compID="PWR" feature="PPWR" hitType="sm" compVer="0.0" compManufacture="LSI" >
+        <sysfs_node type="S" key="SMPL_WNCN" value="/sys/module/sec_core/parameters/smpl_warn_count" />
+    </hwparam_info>
+
+    <!-- Device : BSP -->
+    <hwparam_info compID="BSP" feature="SYSC" hitType="sm" compVer="0.0" compManufacture="" >
+        <sysfs_node type="M" key="AP_INFO" value="/sys/class/sec/sec_hw_param/ap_info" />
+        <sysfs_node type="M" key="AP_INFO" value="/data/system/users/service/data/RC.p" />
+    </hwparam_info>
+
+    <hwparam_info compID="BSP" feature="DDRV" hitType="sm" compVer="0.0" compManufacture="" >
+        <sysfs_node type="M" key="DDR_INFO" value="/sys/class/sec/sec_hw_param/ddr_info" />
+    </hwparam_info>
+
+    <!-- Device : Memory -->
+    <hwparam_info compID="UFS" feature="EUFS" hitType="sm" compVer="0.0" compManufacture="" >
+        <sysfs_node type="S" key="PNM" value="/sys/block/sda/device/model" />
+        <sysfs_node type="S" key="REV" value="/sys/block/sda/device/rev" />
+        <sysfs_node type="S" key="LIFEA" value="/sys/class/scsi_host/host0/lt" />
+    </hwparam_info>
+
+    <hwparam_info compID="SDcard" feature="SDMC" hitType="sm" compVer="0.0" compManufacture="" >
+        <sysfs_node type="S" key="CID" value="/sys/block/mmcblk0/device/cid" />
+        <sysfs_node type="S" key="CDCNT" value="/sys/class/sec/sdcard/cd_cnt" />
+    </hwparam_info>
+
+    <!-- Device : CAMERA -->
+    <hwparam_info compID="CAMERA" feature="CAMI" hitType="sm" compVer="0.0" compManufacture="" >
+        <sysfs_node type="S" key="CAMFWR" value="/sys/class/camera/rear/rear_camfw" />
+        <sysfs_node type="S" key="CAMFWF" value="/sys/class/camera/front/front_camfw" />
+    </hwparam_info>
+
+    <!-- Device : TSP -->
+    <hwparam_info compID="TSP" feature="TTSP" hitType="sm" compVer="0.0" compManufacture="" >
+        <sysfs_node type="S" key="TITO" value="/sys/class/sec/tsp/ito_check" />
+        <sysfs_node type="S" key="TMUL" value="/sys/class/sec/tsp/multi_count" />
+        <sysfs_node type="S" key="TWET" value="/sys/class/sec/tsp/wet_mode" />
+        <sysfs_node type="S" key="TCOM" value="/sys/class/sec/tsp/comm_err_count" />
+        <sysfs_node type="S" key="TMOD" value="/sys/class/sec/tsp/module_id" />
+        <dev_sysfs_node type="S" key="TRAW" value="/sys/class/sec/tsp/raw_check" />
+    </hwparam_info>
+
+    <!-- Device : Biometrics FingerPrint Sensor -->
+    <hwparam_info compID="BFS" feature="BFPS" hitType="sm" compVer="0.0" compManufacture="" >
+	    <sysfs_node type="S" key="FPTY" value="/sys/class/fingerprint/fingerprint/type_check" />
+    </hwparam_info>
+
+    <!-- Device : DISPLAY -->
+    <hwparam_info compID="DISPLAY" feature="DPUI" hitType="sm" compVer="0.0" compManufacture="" >
+        <sysfs_node type="M" key="" value="/sys/class/lcd/panel/dpui" >
+            <key_info keyname="DISP_MODEL" min="" max="" desc1="Display Vendor and Model Name" desc2="" desc3="" desc4="" type1="1" type2="10" />
+            <key_info keyname="LCDM_ID1" min="0" max="255" desc1="LCD ID1: Fab, window color info." desc2="" desc3="" desc4="" type1="1" type2="0" />
+            <key_info keyname="LCDM_ID2" min="0" max="255" desc1="LCD ID2: Touch IC, DCDC IC, EL material info." desc2="" desc3="" desc4="" type1="1" type2="0" />
+            <key_info keyname="LCDM_ID3" min="0" max="255" desc1="LCD ID3: D-IC, Op code info." desc2="" desc3="" desc4="" type1="1" type2="0" />
+            <key_info keyname="MAID_DATE" min="" max="" desc1="Manufacture date and time" desc2="" desc3="" desc4="" type1="1" type2="99" />
+            <key_info keyname="WCRD_X" min="2930" max="3060" desc1="lcd white rgb x-coordinate" desc2="" desc3="" desc4="" type1="1" type2="0" />
+            <key_info keyname="WCRD_Y" min="3050" max="3260" desc1="lcd white rgb y-coordinate" desc2="" desc3="" desc4="" type1="1" type2="0" />
+            <key_info keyname="WOFS_R" min="-19" max="0" desc1="lcd white red offset from user" desc2="" desc3="" desc4="" type1="1" type2="0" />
+            <key_info keyname="WOFS_G" min="-19" max="0" desc1="lcd white green offset from user" desc2="" desc3="" desc4="" type1="1" type2="0" />
+            <key_info keyname="WOFS_B" min="-19" max="0" desc1="lcd white blue offset from user" desc2="" desc3="" desc4="" type1="1" type2="0" />
+        </sysfs_node>
+        <dev_sysfs_node type="M" key="" value="/sys/class/lcd/panel/dpui_dbg" />
+    </hwparam_info>
+
+</hwparam_document>
