@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="minimize_button_text">ونڈو چھوٹا کریں</string>
+    <string name="maximize_button_text">ونڈو بڑا کریں</string>
+    <string name="close_button_text">ایپلیکیشن بند کریں</string>
+    <string name="dream_cant_use_this_app_in_multi_window_view_tpop">ملٹی ونڈو منظر میں یہ ایپلیکیشن استعمال نہیں کرسکتے۔</string>
+    <string name="freeform_max_count_text">پاپ اپ منظر میں %d ایپلیکیشنز سے زائد نہیں کھول سکتے۔</string>
+</resources>

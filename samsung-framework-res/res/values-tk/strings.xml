@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="minimize_button_text">Penjiräni kiçelt</string>
+    <string name="maximize_button_text">Penjiräni ulalt</string>
+    <string name="close_button_text">Goýmany ýap</string>
+    <string name="dream_cant_use_this_app_in_multi_window_view_tpop">Köp-penjireli görnüşde bu goýmany ulanyp bolmaýar.</string>
+    <string name="freeform_max_count_text">Açylýan görnüşde %d goýmadan köp açyp bolmaýar.</string>
+</resources>

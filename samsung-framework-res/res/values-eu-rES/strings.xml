@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="minimize_button_text">Minimizatu leihoa</string>
+    <string name="maximize_button_text">Maximizatu leihoa</string>
+    <string name="close_button_text">Itxi aplikazioa</string>
+    <string name="dream_cant_use_this_app_in_multi_window_view_tpop">Ezin da erabili aplikazio hau Leiho anitza ikuspegian.</string>
+    <string name="freeform_max_count_text">Ezin dira %d aplikazio gainerakor baino gehiago ireki.</string>
+</resources>

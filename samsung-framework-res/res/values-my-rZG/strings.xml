@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="minimize_button_text">ဝင္းဒိုးကုိ ခ်ံဳ႕ပါ</string>
+    <string name="maximize_button_text">ဝင္းဒိုးကုိ ခ်ဲ႕ပါ</string>
+    <string name="close_button_text">အက္ပ္ ပိတ္ပါ</string>
+    <string name="dream_cant_use_this_app_in_multi_window_view_tpop">ဤအက္ပ္ကို မာလ္တီဝင္ဒိုးျမင္ကြင္းတြင္ သုံး၍မရပါ။</string>
+    <string name="freeform_max_count_text">ေပါ့အပ္ျမင္ကြင္းထဲတြင္ အက္ပ္ %d ခုထက္ပုိၿပီး ဖြင့္၍ မရပါ။</string>
+</resources>

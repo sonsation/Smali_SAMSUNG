@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="minimize_button_text">Smanji prozor</string>
+    <string name="maximize_button_text">Povećaj prozor</string>
+    <string name="close_button_text">Zatvori aplikaciju</string>
+    <string name="dream_cant_use_this_app_in_multi_window_view_tpop">Nije moguće upotrijebiti ovu aplikaciju u prikazu Više prozora.</string>
+    <string name="freeform_max_count_text">U prikazu skočnog prozora nemoguće otvoriti više od %d aplikacija.</string>
+</resources>

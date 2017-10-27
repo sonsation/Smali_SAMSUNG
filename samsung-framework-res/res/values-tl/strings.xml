@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="minimize_button_text">Paliitin ang window</string>
+    <string name="maximize_button_text">Palakihin ang window</string>
+    <string name="close_button_text">Isara ang app</string>
+    <string name="dream_cant_use_this_app_in_multi_window_view_tpop">Hindi magamit ang app na itosa Multi window view.</string>
+    <string name="freeform_max_count_text">Hindi makabubukas ng higit sa %d app na naka-pop up view.</string>
+</resources>

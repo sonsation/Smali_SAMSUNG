@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/container" android:background="@android:color/black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/splash_image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/desktop_mode_splash_image" android:scaleType="fitCenter" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+</RelativeLayout>

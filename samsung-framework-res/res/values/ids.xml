@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="caption">false</item>
+    <item type="id" name="caption_end_container">false</item>
+    <item type="id" name="ghost_window">false</item>
+    <item type="id" name="rotate_window">false</item>
+    <item type="id" name="back_window">false</item>
+    <item type="id" name="minimize_window">false</item>
+    <item type="id" name="maximize_window">false</item>
+    <item type="id" name="reduce_window">false</item>
+    <item type="id" name="close_window">false</item>
+    <item type="id" name="container">false</item>
+    <item type="id" name="splash_image">false</item>
+    <item type="id" name="touchpad_landscape">false</item>
+    <item type="id" name="touchpad_portrait">false</item>
+    <item type="id" name="display_chooser_grid">false</item>
+    <item type="id" name="text_display_label">false</item>
+    <item type="id" name="icon">false</item>
+    <item type="id" name="text_activity_name">false</item>
+</resources>

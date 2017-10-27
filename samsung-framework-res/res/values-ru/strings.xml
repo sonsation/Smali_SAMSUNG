@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="minimize_button_text">Свернуть окно</string>
+    <string name="maximize_button_text">Развернуть окно</string>
+    <string name="close_button_text">Закрыть приложение</string>
+    <string name="dream_cant_use_this_app_in_multi_window_view_tpop">Невозможно использовать это приложение в многооконном режиме.</string>
+    <string name="freeform_max_count_text">Максимальное количество приложений, которое можно открыть в виде всплывающих окон: %d.</string>
+</resources>

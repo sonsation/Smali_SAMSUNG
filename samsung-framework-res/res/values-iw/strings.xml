@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="minimize_button_text">מזער חלון</string>
+    <string name="maximize_button_text">הגדל חלון</string>
+    <string name="close_button_text">סגור יישום</string>
+    <string name="dream_cant_use_this_app_in_multi_window_view_tpop">"לא ניתן להשתמש ביישום זה בתצוגת 'חלונות מרובים'."</string>
+    <string name="freeform_max_count_text">ניתן לפתוח בתצוגה קופצת לכל היותר %d יישומים.</string>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/container" android:background="#ff000000" android:padding="38.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/touchpad_landscape" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <View android:background="@drawable/desktop_mode_touch_pad_image" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <View android:layout_gravity="center" android:background="#33fafafa" android:layout_width="4.0dip" android:layout_height="fill_parent" />
+        <View android:layout_gravity="center" android:background="#33fafafa" android:layout_width="fill_parent" android:layout_height="4.0dip" />
+        <View android:layout_gravity="end|center|top" android:background="@drawable/touchpad_pointer" android:layout_width="81.0dip" android:layout_height="81.0dip" android:layout_marginTop="82.0dip" android:layout_marginEnd="82.0dip" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/touchpad_portrait" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <View android:background="@drawable/desktop_mode_touch_pad_image" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <View android:layout_gravity="center" android:background="#33fafafa" android:layout_width="4.0dip" android:layout_height="fill_parent" />
+        <View android:layout_gravity="center" android:background="#33fafafa" android:layout_width="fill_parent" android:layout_height="4.0dip" />
+        <View android:layout_gravity="start" android:background="@drawable/touchpad_pointer_vertical" android:layout_width="81.0dip" android:layout_height="81.0dip" android:layout_marginTop="82.0dip" android:layout_marginStart="82.0dip" />
+    </FrameLayout>
+</FrameLayout>

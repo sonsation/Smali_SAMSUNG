@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="minimize_button_text">ຫຍໍ້ວິນໂດລົງ</string>
+    <string name="maximize_button_text">ຂະຫຍາຍວິນໂດຂຶ້ນ</string>
+    <string name="close_button_text">ປິດ​ແອັບ</string>
+    <string name="dream_cant_use_this_app_in_multi_window_view_tpop">ບໍ່ສາມາດໃຊ້ແອັບນີ້ໃນມຸມມອງມັລຕິວິນໂດໄດ້.</string>
+    <string name="freeform_max_count_text">ບໍ່ສາມາດເປີດໄດ້ຫຼາຍກວ່າ %d ແອັບໃນມຸມມອງປັອບອັບ.</string>
+</resources>

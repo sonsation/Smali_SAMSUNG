@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="config_dockedStackDividerSnapMode">10</integer>
+    <integer name="config_longDeviceSnapMode">10</integer>
+    <integer name="mw_example_integer">10</integer>
+    <integer name="multiwindow_freeform_max_count">5</integer>
+    <integer name="config_DesktopModeDisplayWidth">1920</integer>
+    <integer name="config_DesktopModeDisplayHeight">1080</integer>
+    <integer name="config_DesktopModeDisplayDensity">160</integer>
+</resources>

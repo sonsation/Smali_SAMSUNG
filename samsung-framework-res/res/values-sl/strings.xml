@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="minimize_button_text">Pomanjšava okna</string>
+    <string name="maximize_button_text">Povečava okna</string>
+    <string name="close_button_text">Zapri aplikacijo</string>
+    <string name="dream_cant_use_this_app_in_multi_window_view_tpop">Te aplikacije ni mogoče uporabljati v pogledu Več oken.</string>
+    <string name="freeform_max_count_text">V pojavnem oknu ni mogoče odpreti več kot toliko aplikacij: %d.</string>
+</resources>

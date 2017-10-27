@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="minimize_button_text">উইন্ডো মিনিমাইজ করুন</string>
+    <string name="maximize_button_text">উইন্ডো ম্যাক্সিমাইজ করুন</string>
+    <string name="close_button_text">অ্যাপ বন্ধ করুন</string>
+    <string name="dream_cant_use_this_app_in_multi_window_view_tpop">একাধিক উইন্ডো দৃশ্যে এই অ্যাপটি ব্যবহার করা যাচ্ছে না।</string>
+    <string name="freeform_max_count_text">পপ-আপ ভিউতে %dটির বেশি অ্যাপ খোলা যাচ্ছে না।</string>
+</resources>

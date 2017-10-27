@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="docked_stack_divider_insets">20.0dip</dimen>
+    <dimen name="samsung_decor_task_offset_height">60.0dip</dimen>
+    <dimen name="samsung_decor_task_offset_width">50.0dip</dimen>
+</resources>

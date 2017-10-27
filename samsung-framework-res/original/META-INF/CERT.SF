@@ -1,0 +1,191 @@
+Signature-Version: 1.0
+X-Android-APK-Signed: 2
+SHA-256-Digest-Manifest: P3lhGxojfw6QU0onk+NnMcgPKaAwZq9jajtWlBtjJmY=
+Created-By: 1.0 (Android SignApk)
+
+Name: res/drawable/decor_ghost_button_dark.xml
+SHA-256-Digest: uJ9TIDIsyoCcBFlUvPOAhN670HBCK224IZLr5Gaxfpg=
+
+Name: res/drawable/desktop_decor_caption_title.xml
+SHA-256-Digest: innZhClw8UiYxEPy5cJ4ZPShBkyHix6CbUZhdJ4IZkM=
+
+Name: res/drawable/touchpad_pointer.png
+SHA-256-Digest: G9dC4SJ21NPBcr1JI36e3DJtojVMlcs9iog7O8aktHU=
+
+Name: res/drawable-xxhdpi-v4/touchpad_pointer.png
+SHA-256-Digest: dHnkYZWCLHsEAGlMUQvrjJ8yO9ELq2pn1cAgkVgDM30=
+
+Name: res/drawable/touchpad_pointer_vertical.png
+SHA-256-Digest: mBeEecH80aADsdZjkAYRDztkalNIugyQ8TjQonq5Rkk=
+
+Name: res/drawable/samsung_desktop_decor_maximize_button.spr
+SHA-256-Digest: +yQqF4Po/rQjFNUgggEkFeakent10SfFtwERPjDjNos=
+
+Name: res/layout/decor_caption_desktop.xml
+SHA-256-Digest: ykKY1uw83qTlJyj/SVU98m39xHBJlURnQeSJu+/i7FY=
+
+Name: res/anim/example_anim.xml
+SHA-256-Digest: Vh5jWcI2uNmQqTOukP+uxPBvNlbDmrChzZ6GSpb84hQ=
+
+Name: res/drawable/samsung_desktop_decor_minimize_button.spr
+SHA-256-Digest: bbr3pkf0vQh3nMPT8xyTtQH7eGmPZBiDZkKM7yjxIC8=
+
+Name: res/anim/multiwindow_freeze_default.xml
+SHA-256-Digest: 33inh2Ad1lLB9skwKocwCj4Rl6ktmtN+uQf740uW3Uc=
+
+Name: res/drawable/decor_maximize_button_dark.xml
+SHA-256-Digest: VE8Tj/r2qeos9zGjTLNdKmLlllfOUVip/lOhpXWNbno=
+
+Name: SEC-INF/buildConfirm.crt
+SHA-256-Digest: P3ynqIdbDmwF1PsNloTMDkK1dQ1IUV/iAEjaKUKMbUg=
+
+Name: res/drawable/decor_caption_title.xml
+SHA-256-Digest: xXl5/21So0cLFXqV2xd+4MuNTnlPOmd2q0zfd6f6WPc=
+
+Name: res/drawable/samsung_desktop_decor_close_button.spr
+SHA-256-Digest: Q5rbUPu9NHDfRKBE5PPoKU4czaMCm5otK5Z9+yvXF7s=
+
+Name: res/anim/multiwindow_task_close_exit.xml
+SHA-256-Digest: NWSrP+ZEHT056RoJ35cp35vJDUsbBRiDAtKiBH+A6xc=
+
+Name: res/drawable/decor_caption_title_focused.xml
+SHA-256-Digest: qCrISKOqZRRe3rJDTJKvNdHn6N7A6wx6QwJ8JjfTDT0=
+
+Name: res/drawable/decor_maximize_button_light.xml
+SHA-256-Digest: vDEYUGuYewYpVfPyKAWRLhPGcgSi0Z0hBqVE26/6Li8=
+
+Name: res/layout/display_chooser_list_item.xml
+SHA-256-Digest: lEIwiVqWNrlUx1CdCkntPBnuIzRPEMKDfTAjgrtveKU=
+
+Name: res/anim/multiwindow_unminimize.xml
+SHA-256-Digest: moHYPJsHyD0ifTEZJFcgJblvbeBKJIa1Z2/cIEtTmig=
+
+Name: res/drawable/samsung_decor_close_button.spr
+SHA-256-Digest: Z4+rSlaGfeAXpRdmaeZBMfB1jMm+guEeMxgpHTUz4oY=
+
+Name: SEC-INF/buildinfo.xml
+SHA-256-Digest: 2fi3pC6cNP6ZljNQjjMfiX5G5NT3WUJbG/DD0T+KKIk=
+
+Name: res/drawable/samsung_decor_caption_ripple_selector.xml
+SHA-256-Digest: FWUu6nj0iKU/mN5jjzwNsipzENSO4YRM231A+XuHOlo=
+
+Name: res/layout/display_chooser_grid.xml
+SHA-256-Digest: ck35sZNKRIG/W3nsb0NboS5HSxszlSKdDKYMGQ1E8BU=
+
+Name: res/anim/dualscreen_task_to_right.xml
+SHA-256-Digest: 6uV1CQ0MB/MStCXU8WaBJW/cMJRaO4L6gDEkkcrt5ro=
+
+Name: res/anim/multiwindow_docked_resize.xml
+SHA-256-Digest: WrjNca9kMrLMMtOZsfRwcFngPFKzWfl2b3VwrqV3WIw=
+
+Name: res/drawable/samsung_decor_maximize_button.spr
+SHA-256-Digest: cmfTPZk4B6eYcJHSMa8Nf0u0cf/2SM1c138YJ8IWPTo=
+
+Name: res/drawable-nodpi-v4/desktop_mode_splash_image.png
+SHA-256-Digest: eei6wGTdHQrBZyBo6GPdykzNKpGbckkire7kXx7+ibA=
+
+Name: res/drawable/decor_ghost_button_light.xml
+SHA-256-Digest: A9hJQNam5FkQERzMSizye+swDPuc1HvCSpTi/ZbxoBc=
+
+Name: resources.arsc
+SHA-256-Digest: 6xTKbqKVWPYgmwpmhytAXUrDqnhU+QHrkK+vgovY0Ug=
+
+Name: res/drawable/samsung_decor_minimize_with_padding_button.xml
+SHA-256-Digest: nn93dhqi9ESpO/oE+02nTGGocC60x9J5wUId64cBQkI=
+
+Name: res/anim/dualscreen_task_to_bottom.xml
+SHA-256-Digest: LMXby57LUWyzL8wWQyYMjnUoI5zPWRilYOo3YtFFlQo=
+
+Name: res/drawable/decor_close_button_light.xml
+SHA-256-Digest: oCYuBQOOsIWUUZwmWqZ8gIXp7aew7QXWGwY/dNKvr/A=
+
+Name: res/drawable/decor_minimize_button_dark.xml
+SHA-256-Digest: jbKmcipYovjTda2SkSQgsoPZOg0fVcFN6+4YhLHGre0=
+
+Name: res/drawable/decor_minimize_button_light.xml
+SHA-256-Digest: nlY8lZ+skSZyci7YiKxRlwXD0P4/fWq6GJk/758Y96I=
+
+Name: res/drawable/samsung_desktop_decor_reduce_button.spr
+SHA-256-Digest: znvoGEqPPog5SWNVNBfc7SIk4pNaCHd+iu4E4bZcH+Y=
+
+Name: res/drawable/samsung_decor_maximize_with_padding_button.xml
+SHA-256-Digest: TPrdexEcd9Hw+CkunrwygbfiE1vW97rHm/vThehi2cQ=
+
+Name: AndroidManifest.xml
+SHA-256-Digest: mzEP6O9CeOh/XeAKw/zDVdUaN3XaiYrBNNUtvAeYm58=
+
+Name: res/color/decor_button_light_color.xml
+SHA-256-Digest: hEPWaqZmfc/agWhn5bZWn7p5s5gd7RTmZj8+RDoufsU=
+
+Name: res/drawable/decor_caption_title_unfocused.xml
+SHA-256-Digest: RqeMwKDKuLraASy3bBa6/1VGfaxiEqA4GNqxN/3rca4=
+
+Name: res/layout/desktop_mode_loading_screen.xml
+SHA-256-Digest: gGklGoXQCh22novOfvBLWnJCINKZEm2ENakNQvrIuqI=
+
+Name: res/anim/dualscreen_task_to_top.xml
+SHA-256-Digest: dxlrlgsgX1zLUHjj8R5IHhUJqelNNxPwD5c/jhhTKhc=
+
+Name: res/interpolator/deceleration.xml
+SHA-256-Digest: 59vnHShkEIpTBjIwufT6XOjK/XWqj/790tzYKFo0YZQ=
+
+Name: res/drawable/desktop_mode_touch_pad_image.xml
+SHA-256-Digest: oALCAs8CW4U1BlefXqrPR8tvgJqP+G+pBDLjyGUFVck=
+
+Name: res/drawable/samsung_decor_minimize_button.spr
+SHA-256-Digest: yzPc9mhy3NGp4xXxB7zogMbQgPEHPz4mEYTV03IXuoI=
+
+Name: res/drawable-xxhdpi-v4/dualscreen_backwindow.png
+SHA-256-Digest: qnpLic6Jgpgfbu/AOJojsch+k7M8DwPNNJbgGfw86ac=
+
+Name: res/drawable-xxhdpi-v4/touchpad_pointer_vertical.png
+SHA-256-Digest: 9nx8N8WTKNDS5wxKoObwGYdKhDTyVFtGNt1fp/qdr2c=
+
+Name: res/drawable/desktop_decor_caption_title_unfocused.xml
+SHA-256-Digest: VTcUU5X9s0AN4QADck0Eyc9T/D3EWk0mdJrQ70N+cXU=
+
+Name: res/drawable/decor_close_button_dark.xml
+SHA-256-Digest: qCaxTxXy+5ZcHwmeyjql9esC6tqx2A/c39YkTB5bMQA=
+
+Name: res/drawable/samsung_decor_close_with_padding_button.xml
+SHA-256-Digest: ZDZoB7KmMoPEbU2WSfYSaaFTR7mnQxqDb0ZUoWK8vjs=
+
+Name: res/layout/desktop_mode_touch_pad.xml
+SHA-256-Digest: skI4+s52w/VmlSSfnhUZ5/S0Th5cKDdpCaAAn/iVeN0=
+
+Name: res/anim/app_starting_exit_for_delaying.xml
+SHA-256-Digest: gKAIMIoSm0IZycaoTPvxIIz/8Jgytaujn+a/C0ltNCA=
+
+Name: res/drawable/samsung_multiwindow_guideview.xml
+SHA-256-Digest: 9L0OjdzdYf6CeyXf7tbReRM1iul6QRxmK4fsV/DshOw=
+
+Name: res/drawable/samsung_multiwindow_guideview_not_support_dream.xml
+SHA-256-Digest: SZFkQ0ayrCj+fi4MQ1RkjLLtHsYsUCK+fjYIhV4v/n4=
+
+Name: res/drawable/samsung_desktop_decor_rotate_button.spr
+SHA-256-Digest: MUIn7F2pBGHa8M5HfAcKq9mbOvDMe+yKu1YdpQvjcOA=
+
+Name: res/anim/dualscreen_task_to_left.xml
+SHA-256-Digest: Qo2jU+5FgNevBXIyCBUfRxe6SnoWf9VOkfj+yIvJTrM=
+
+Name: res/anim/multiwindow_minimize.xml
+SHA-256-Digest: HA/x0fAv5MaNVG46BqMHfLBV/YoV9SIfCw91DAYqB3A=
+
+Name: res/drawable/samsung_multiwindow_guideview_not_support.xml
+SHA-256-Digest: tdBXo9oiydtTuDjjumMi1JYEdG8rsVSNlcysxhnFxfc=
+
+Name: res/drawable-xxhdpi-v4/stat_notify_desktop_mode.png
+SHA-256-Digest: o7Q182stDs4SYkm3Lz8RITa+Ee2gytH3oReCC2TAwSs=
+
+Name: res/layout/decor_caption.xml
+SHA-256-Digest: 3F60xzbyJUE7VdklI8xE8H2kzif3wuCkRChsmkiwPiY=
+
+Name: res/color/decor_button_dark_color.xml
+SHA-256-Digest: lfAylfV69g6eUp/46H8UpCTU2REhHI7/dqXtrBQesPI=
+
+Name: res/drawable/desktop_decor_caption_title_focused.xml
+SHA-256-Digest: yAvBu9GOl7c4ABYesUfsItnvrjWqNMd27MgyL6DNN+4=
+
+Name: res/drawable/samsung_desktop_decor_back_button.spr
+SHA-256-Digest: uiOf/A0qEj+gYw6tH8YPs0R2K3eaiXbzmbc9uv1RhOQ=
+

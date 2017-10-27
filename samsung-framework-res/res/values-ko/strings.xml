@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="minimize_button_text">창 최소화</string>
+    <string name="maximize_button_text">창 최대화</string>
+    <string name="close_button_text">앱 종료</string>
+    <string name="dream_cant_use_this_app_in_multi_window_view_tpop">이 앱은 멀티윈도우로 사용할 수 없습니다.</string>
+    <string name="freeform_max_count_text">팝업 화면으로 앱을 %d개까지만 실행할 수 있습니다.</string>
+    <string name="samsung_dex">Samsung DeX</string>
+    <string name="dex_desktop_mode_description">데스크톱 모드가 활성화 되었습니다. 미러링 모드로 전환하려면 탭하세요.</string>
+    <string name="dex_mirroring_mode_description">스크린 미러링 모드가 활성화 되었습니다. 데스크톱 모드로 전환하려면 탭하세요.</string>
+    <string name="dex_dialog_launch_msg">"외부 디스플레이, 마우스가 연결되었습니다.
+
+데스크톱 경험에 최적화된 DeX를 실행하시겠습니까?"</string>
+    <string name="dex_dialog_launch_positive">데스크톱 모드</string>
+    <string name="dex_dialog_launch_negative">미러링 모드</string>
+    <string name="dex_dialog_install">Samsung DeX는 모니터와 마우스가 있는 환경에 최적화되어 있습니다. 다운로드를 탭 하여 Samsung DeX를 설치하세요.</string>
+    <string name="dex_dialog_install_positive">다운로드</string>
+    <string name="dex_toast_unable_launch">Samsung DeX 모드에서는 %1$s 앱을 실행할 수 없습니다.</string>
+    <string name="dex_toast_low_memory_warning">디바이스의 메모리가 부족합니다. 파일을 저장하고 사용하지 않는 앱을 닫아주세요.</string>
+    <string name="dex_toast_power_saving">절전 모드가 활성화된 상태에서는 Samsung DeX 모드에 진입할 수 없습니다.</string>
+    <string name="dex_dialog_promotion">외부 디스플레이와 마우스를 연결하여 Samsung DeX를 사용해보세요. 큰 화면 및 키보드/마우스에 최적화된 Samsung DeX 모드를 사용할 수 있습니다.</string>
+    <string name="dex_hun_hdmi_settings">HDMI 설정에서 DeX와 미러링을 변경할 수 있습니다.</string>
+    <string name="dex_hun_action">설정</string>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="minimize_button_text">Thu nhỏ cửa sổ</string>
+    <string name="maximize_button_text">Phóng to cửa sổ</string>
+    <string name="close_button_text">Đóng ứng dụng</string>
+    <string name="dream_cant_use_this_app_in_multi_window_view_tpop">Không thể sử dụng ứng dụng này ở dạng xem Đa cửa sổ.</string>
+    <string name="freeform_max_count_text">Không thể mở nhiều hơn %d ứng dụng ở dạng xem pop-up.</string>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="minimize_button_text">Minimalizuj okno</string>
+    <string name="maximize_button_text">Maksymalizuj okno</string>
+    <string name="close_button_text">Zamknij aplikację</string>
+    <string name="dream_cant_use_this_app_in_multi_window_view_tpop">Nie można korzystać z tej aplikacji w widoku Wiele okien.</string>
+    <string name="freeform_max_count_text">W widoku wyskakującego okna nie można otworzyć więcej aplikacji niż: %d.</string>
+</resources>

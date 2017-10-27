@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="minimize_button_text">ウィンドウを最小化</string>
+    <string name="maximize_button_text">ウィンドウを最大化</string>
+    <string name="close_button_text">アプリを終了</string>
+    <string name="dream_cant_use_this_app_in_multi_window_view_tpop">マルチウィンドウ表示では、このアプリを使用することができません。</string>
+    <string name="freeform_max_count_text">ポップアップ表示で%d件を超えるアプリを開くことはできません。</string>
+</resources>

@@ -1,0 +1,24 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: samsung-framework-res.apk
+compressionType: false
+doNotCompress:
+- arsc
+isFrameworkApk: true
+packageInfo:
+  forcedPackageId: '2'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '24'
+  targetSdkVersion: '24'
+sharedLibrary: true
+unknownFiles:
+  SEC-INF/buildConfirm.crt: '8'
+  SEC-INF/buildinfo.xml: '8'
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.3.0
+versionInfo:
+  versionCode: '24'
+  versionName: '7.0'

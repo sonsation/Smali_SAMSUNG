@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="minimize_button_text">வின்டோவைச் சிறிதாக்கவும்</string>
+    <string name="maximize_button_text">வின்டோவைப் பெரிதாக்கவும்</string>
+    <string name="close_button_text">பயன்பாட்டை மூடவும்</string>
+    <string name="dream_cant_use_this_app_in_multi_window_view_tpop">மல்டி வின்டோ காட்சியில் இந்தப் பயன்பாட்டைப் பயன்படுத்த இயலாது.</string>
+    <string name="freeform_max_count_text">பாப்-அப் காட்சியில் %d-க்கு மேற்பட்ட பயன்பாடுகளை திறக்க இயலாது.</string>
+</resources>

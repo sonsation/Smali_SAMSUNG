@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="minimize_button_text">विंडो लहान करा</string>
+    <string name="maximize_button_text">विंडो विस्‍तृत करा</string>
+    <string name="close_button_text">अनुप्रयोग बंद करा</string>
+    <string name="dream_cant_use_this_app_in_multi_window_view_tpop">मल्टि विंडो दृश्या मध्ये हा अनुप्रयोग वापरू शकत नाही.</string>
+    <string name="freeform_max_count_text">पॉप-अप दृश्या मध्ये %d पेक्षा जास्त अनुप्रयोग उघडू शकत नाही.</string>
+</resources>

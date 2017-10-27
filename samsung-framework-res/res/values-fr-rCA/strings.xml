@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="minimize_button_text">Réduire la fenêtre</string>
+    <string name="maximize_button_text">Agrandir la fenêtre</string>
+    <string name="close_button_text">Fermer app</string>
+    <string name="dream_cant_use_this_app_in_multi_window_view_tpop">"Impossible d'utiliser cette application dans la vue Multi-fenêtres."</string>
+    <string name="freeform_max_count_text">"Impossible d'ouvrir plus de %d applications dans l'affichage contextuel."</string>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="minimize_button_text">Minimizar janela</string>
+    <string name="maximize_button_text">Maximizar janela</string>
+    <string name="close_button_text">Fechar aplicativo</string>
+    <string name="dream_cant_use_this_app_in_multi_window_view_tpop">Não é possível usar este aplicativo na exibição de Múltiplas janelas.</string>
+    <string name="freeform_max_count_text">Não é possível abrir mais de %d aplicativos na exibição pop-up.</string>
+</resources>

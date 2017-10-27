@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="minimize_button_text">تصغير الإطار</string>
+    <string name="maximize_button_text">تكبير الإطار</string>
+    <string name="close_button_text">إغلاق التطبيق</string>
+    <string name="dream_cant_use_this_app_in_multi_window_view_tpop">يتعذّر استخدام هذا التطبيق في عرض الإطارات المتعددة.</string>
+    <string name="freeform_max_count_text">لا يمكن فتح أكثر من %d من التطبيقات في العرض المنبثق.</string>
+</resources>

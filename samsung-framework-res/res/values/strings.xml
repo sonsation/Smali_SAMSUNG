@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="mw_example_string">mw_example_string</string>
+    <string name="ghost_button_text">Ghost</string>
+    <string name="back_button_text">Back</string>
+    <string name="rotate_button_text">Rotate</string>
+    <string name="minimize_button_text">Minimize window</string>
+    <string name="maximize_button_text">Maximize window</string>
+    <string name="reduce_button_text">Switch to previous size</string>
+    <string name="close_button_text">Close app</string>
+    <string name="dream_cant_use_this_app_in_multi_window_view_tpop">"Can't use this app in Multi window view."</string>
+    <string name="freeform_max_count_text">"Can't open more than %d apps in pop-up view."</string>
+    <string name="samsung_dex">Samsung DeX</string>
+    <string name="dex_desktop_mode_description">Desktop mode is enabled. Tap to change to mirroring mode</string>
+    <string name="dex_mirroring_mode_description">Screen mirroring mode is enabled. Tap to change to desktop mode</string>
+    <string name="dex_dialog_launch_msg">"External display and mouse have been connected.
+
+Do you want to launch DeX optimized for your desktop experience?"</string>
+    <string name="dex_dialog_launch_positive">Desktop mode</string>
+    <string name="dex_dialog_launch_negative">Mirroring mode</string>
+    <string name="dex_dialog_install">Samsung DeX is optimized for environment with monitor and mouse. Tap download and install Samsung DeX.</string>
+    <string name="dex_dialog_install_positive">Download</string>
+    <string name="dex_toast_unable_launch">Can’t open %1$s in Samsung DeX mode.</string>
+    <string name="dex_toast_low_memory_warning">Your device is low on memory. Save your files and close unused applications.</string>
+    <string name="dex_toast_power_saving">Can’t enter Samsung DeX mode while power saving mode is on.</string>
+    <string name="dex_dialog_promotion">Connect your external display and mouse to try out Samsung DeX. You can use Samsung DeX mode optimized for big screen and keyboard/mouse.</string>
+    <string name="dex_hun_hdmi_settings">DeX and mirroring can be set in the HDMI settings.</string>
+    <string name="dex_hun_action">Settings</string>
+</resources>

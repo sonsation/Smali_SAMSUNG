@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="minimize_button_text">Íoslaghdaigh fuinneog</string>
+    <string name="maximize_button_text">Uasmhéadaigh fuinneog</string>
+    <string name="close_button_text">Dún feidhmchlár</string>
+    <string name="dream_cant_use_this_app_in_multi_window_view_tpop">Ní féidir an feidhmchlár seo a úsáid san amharc Ilfhuinneog.</string>
+    <string name="freeform_max_count_text">Ní féidir níos mó ná %d feidhmchlár a oscailt san amharc aníos.</string>
+</resources>

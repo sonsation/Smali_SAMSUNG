@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="cocktail_bar_size">40.0dip</dimen>
+    <dimen name="mw_divider_panel_short">50.0dip</dimen>
+    <dimen name="mw_divider_panel_long">123.0dip</dimen>
+    <dimen name="mw_dsv_divider_panel_short">50.0dip</dimen>
+    <dimen name="mw_dsv_divider_panel_long">175.0dip</dimen>
+    <dimen name="multiwindow_snapview_divider_panel_long">198.0dip</dimen>
+    <dimen name="multiwindow_decor_frame_thickness">1.0dip</dimen>
+    <dimen name="multiwindow_freeform_def_shortsize">220.0dip</dimen>
+    <dimen name="multiwindow_freeform_def_longsize">391.0dip</dimen>
+    <dimen name="docked_stack_divider_insets">21.5dip</dimen>
+    <dimen name="samsung_decor_caption_ripple_size">48.0dip</dimen>
+    <dimen name="samsung_decor_caption_ripple_radius">24.0dip</dimen>
+    <dimen name="samsung_decor_task_offset_height">30.0dip</dimen>
+    <dimen name="samsung_decor_task_offset_width">15.0dip</dimen>
+    <dimen name="multiwindow_freeform_gesture_action_down_width">15.0dip</dimen>
+    <dimen name="multiwindow_freeform_gesture_action_down_height">24.0dip</dimen>
+    <dimen name="multiwindow_freeform_gesture_guide_start_width">128.0dip</dimen>
+    <dimen name="multiwindow_freeform_gesture_guide_start_height">128.0dip</dimen>
+    <dimen name="multiwindow_freeform_gesture_action_down_width_corner_r">16.0dip</dimen>
+    <dimen name="multiwindow_samsung_freeform_decor_caption_window_height">25.0dip</dimen>
+    <dimen name="multiwindow_desktop_freeform_decor_caption_window_height">48.0dip</dimen>
+    <dimen name="dex_compat_portrait_task_size_width">411.0dip</dimen>
+    <dimen name="dex_compat_portrait_task_size_height">731.0dip</dimen>
+    <dimen name="dex_compat_landscape_task_size_width">960.0dip</dimen>
+    <dimen name="dex_compat_landscape_task_size_height">720.0dip</dimen>
+    <dimen name="task_bar_height">56.0dip</dimen>
+</resources>

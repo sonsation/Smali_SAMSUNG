@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="minimize_button_text">کوچک کردن پنجره</string>
+    <string name="maximize_button_text">بزرگ کردن پنجره</string>
+    <string name="close_button_text">بستن برنامه</string>
+    <string name="dream_cant_use_this_app_in_multi_window_view_tpop">استفاده از این برنامه در نمای چند پنجره‌ای ممکن نیست.</string>
+    <string name="freeform_max_count_text">باز کردن بیشتر از %d برنامه در نمای بازشو ممکن نیست.</string>
+</resources>

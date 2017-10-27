@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="minimize_button_text">Згорнути вікно</string>
+    <string name="maximize_button_text">Розгорнути вікно</string>
+    <string name="close_button_text">Закрити програму</string>
+    <string name="dream_cant_use_this_app_in_multi_window_view_tpop">Неможливо використовувати цю програму в багатовіконному режимі.</string>
+    <string name="freeform_max_count_text">Максимальна кількість програм, яку можна відкрити у вигляді спливаючих вікон: %d.</string>
+</resources>

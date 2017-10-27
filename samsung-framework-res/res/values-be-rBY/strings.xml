@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="minimize_button_text">Згарнуць акно</string>
+    <string name="maximize_button_text">Разгарнуць акно</string>
+    <string name="close_button_text">Закрыць праграму</string>
+    <string name="dream_cant_use_this_app_in_multi_window_view_tpop">Немагчыма выкарыстоўваць гэту праграму ў рэжыме некалькі вокнаў.</string>
+    <string name="freeform_max_count_text">Немагчыма адкрыць больш за %d праграм у выглядзе выплыўнога акна.</string>
+</resources>

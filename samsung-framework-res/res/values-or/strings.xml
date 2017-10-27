@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="minimize_button_text">ୱିଣ୍ଡୋ ସର୍ବନିମ୍ନ କରିବା</string>
+    <string name="maximize_button_text">ୱିଣ୍ଡୋ ସମ୍ପ୍ରସାରଣ କରିବା</string>
+    <string name="close_button_text">ଆପ୍ଲିକେସନ୍‌ ବନ୍ଦ କରନ୍ତୁ</string>
+    <string name="dream_cant_use_this_app_in_multi_window_view_tpop">ମଲ୍ଟି ୱିଣ୍ଡୋ ଦର୍ଶନରେ ଏହି ଆପ୍ଲିକେସନ୍ ବ୍ୟବହାର କରିପାରିବେ ନାହିଁ।</string>
+    <string name="freeform_max_count_text">ପପ୍-ଅପ୍ ଦର୍ଶନରେ %dଟି ରୁ ଅଧିକ ଆପ୍ଲିକେସନ୍ ଖୋଲିପାରିବେ ନାହିଁ।</string>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="minimize_button_text">Терезені кішірейту</string>
+    <string name="maximize_button_text">Терезені үлкейту</string>
+    <string name="close_button_text">Бағдарламаны жабу</string>
+    <string name="dream_cant_use_this_app_in_multi_window_view_tpop">Осы қолданбаны “Бірнеше терезе көрінісінде” пайдалану мүмкін емес.</string>
+    <string name="freeform_max_count_text">Қалқымалы терезеде ең көбі %d қолданбаны ашуға болады.</string>
+</resources>

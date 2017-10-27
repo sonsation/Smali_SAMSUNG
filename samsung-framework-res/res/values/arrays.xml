@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="config_dualscreen_opposite_launch_app_list">
+        <item>com.facebook.katana</item>
+        <item>com.twitter.android</item>
+        <item>com.instagram.android</item>
+        <item>com.evernote</item>
+        <item>com.google.android.gm</item>
+        <item>com.whatsapp</item>
+        <item>jp.naver.line.android</item>
+        <item>com.tencent.mm</item>
+        <item>com.kakao.talk</item>
+    </string-array>
+    <string-array name="config_dualscreen_samsung_home_app_list">
+        <item>com.samsung.android.app.headlines</item>
+        <item>com.anddoes.launcher</item>
+    </string-array>
+    <string-array name="config_multiInstanceSupportAppList">
+        <item>com.sec.chaton</item>
+        <item>com.sec.android.app.myfiles</item>
+        <item>com.infraware.polarisviewer4</item>
+        <item>com.infraware.polarisoffice4</item>
+        <item>com.android.chrome</item>
+    </string-array>
+    <array name="config_multiWindowSupportAppList" />
+    <string-array name="components_desktop_mode">
+        <item>/com.android.launcher3.settings.DesktopSettingsActivity</item>
+        <item>/com.android.launcher3.settings.SettingsSearchProvider</item>
+        <item>/com.sec.android.app.wallpaperchooser.WallpaperGridActivity</item>
+        <item>/com.sec.android.app.wallpaperchooser.WallpaperPreviewHomeActivity</item>
+        <item>/com.sec.android.app.wallpaperchooser.WallpaperPreviewLockActivity</item>
+        <item>/com.sec.android.app.wallpaperchooser.WallpaperPreviewBothActivity</item>
+    </string-array>
+    <string-array name="components_normal_mode">
+        <item>com.samsung.android.themestore/</item>
+        <item>com.sec.android.wallpapercropper2/com.sec.android.wallpapercropper2.HomeCropActivity</item>
+        <item>com.sec.android.wallpapercropper2/com.sec.android.wallpapercropper2.KeyguardCropActivity</item>
+        <item>com.sec.android.wallpapercropper2/com.sec.android.wallpapercropper2.BothCropActivity</item>
+    </string-array>
+</resources>

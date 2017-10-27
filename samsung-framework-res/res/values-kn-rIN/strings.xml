@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="minimize_button_text">ವಿಂಡೋ ಕನಿಷ್ಠಗೊಳಿಸಿ</string>
+    <string name="maximize_button_text">ವಿಂಡೋ ಗರಿಷ್ಠಗೊಳಿಸಿ</string>
+    <string name="close_button_text">ಆಪ್ ಮುಚ್ಚಿ</string>
+    <string name="dream_cant_use_this_app_in_multi_window_view_tpop">ಈ ಅನ್ವಯಿಸುವಿಕೆಯನ್ನು ಮಲ್ಟಿ ವಿಂಡೋ ವೀಕ್ಷಣೆಯಲ್ಲಿ ಬಳಸಲು ಸಾಧ್ಯವಿಲ್ಲ.</string>
+    <string name="freeform_max_count_text">ಪಾಪ್ ಅಪ್ ವೀಕ್ಷಣೆಯಲ್ಲಿ %d ಅನ್ವಯಿಸುವಿಕೆಗಳಿಗಿಂತ ಹೆಚ್ಚಿನವುಗಳನ್ನು ತೆರೆಯಲು ಸಾಧ್ಯವಿಲ್ಲ.</string>
+</resources>
