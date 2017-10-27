@@ -8750,12 +8750,6 @@
     .line 930
     const-string/jumbo v31, "screen_resolution"
 
-    move-object/from16 v0, p0
-
-    move-object/from16 v1, v31
-
-    invoke-virtual {v0, v1}, Lcom/samsung/android/settings/display/SecDisplaySettings;->removePreference(Ljava/lang/String;)V
-
     .line 933
     :cond_41
     :goto_21
