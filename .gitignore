@@ -11,4 +11,9 @@ framework.jar.out/dist/
 framework.jar.out/build/
 services.jar.out/dist/
 services.jar.out/build/
-
+framework-res/dist/
+framework-res/build/
+samsung-framework-res/dist/
+samsung-framework-res/build/
+*.dex
+*.apk
