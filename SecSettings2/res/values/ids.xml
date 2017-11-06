@@ -2198,4 +2198,5 @@
     <item type="id" name="action_done">false</item>
     <item type="id" name="vpn_create">false</item>
     <item type="id" name="wifi_wps">false</item>
+    <item type="id" name="uk_logo">false</item>
 </resources>
