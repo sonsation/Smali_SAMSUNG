@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NNNalbum">
+        <item quantity="other">%d álbuns</item>
+        <item quantity="one">%d álbum</item>
+    </plurals>
+    <plurals name="NNNartist_album">
+        <item quantity="other">Álbuns</item>
+        <item quantity="one">Álbum</item>
+    </plurals>
+    <plurals name="NNNartist_track">
+        <item quantity="other">Faixas</item>
+        <item quantity="one">Faixa</item>
+    </plurals>
+    <plurals name="NNNsometrackstofavorite">
+        <item quantity="other">%d faixas adicionadas aos Favoritos. As faixas que já se encontram nos Favoritos não são adicionadas.</item>
+        <item quantity="one">%d faixa adicionada aos Favoritos. A faixa que já se encontra nos Favoritos não será adicionada.</item>
+    </plurals>
+    <plurals name="NNNtrack">
+        <item quantity="other">%d faixas</item>
+        <item quantity="one">%d faixa</item>
+    </plurals>
+    <plurals name="NNNtracksfromfavorite">
+        <item quantity="other">%d faixas removidas dos Favoritos.</item>
+        <item quantity="one">%d faixa removida dos Favoritos.</item>
+    </plurals>
+    <plurals name="NNNtrackstofavorite">
+        <item quantity="other">%d faixas adicionadas aos favoritos.</item>
+        <item quantity="one">%d faixa adicionada aos favoritos.</item>
+    </plurals>
+    <plurals name="NNNtrackstoplaylist">
+        <item quantity="other">%d faixas adicionadas à lista de reprodução.</item>
+        <item quantity="one">%d faixa adicionada à lista de reprodução.</item>
+    </plurals>
+    <plurals name="drm_can_use_n_times">
+        <item quantity="other">Você pode utilizar %1$s %2$d vezes</item>
+        <item quantity="one">Você pode utilizar %s 1 vez</item>
+    </plurals>
+    <plurals name="n_albums_deleted_msg">
+        <item quantity="other">Eliminar %d álbuns e todas as faixas que eles contêm do seu telefone?</item>
+        <item quantity="one">Eliminar 1 álbum e todas as faixas que ele contém do seu telefone?</item>
+    </plurals>
+    <plurals name="n_artists_deleted_msg">
+        <item quantity="other">Eliminar todas as faixas destes artistas?</item>
+        <item quantity="one">Eliminar todas as faixas deste artista?</item>
+    </plurals>
+    <plurals name="n_composers_deleted_msg">
+        <item quantity="other">Eliminar todas as faixas destes compositores?</item>
+        <item quantity="one">Eliminar todas as faixas deste compositor?</item>
+    </plurals>
+    <plurals name="n_folders_deleted_msg">
+        <item quantity="other">Eliminar %d pastas e todas as faixas que elas contêm do seu telefone?</item>
+        <item quantity="one">Eliminar 1 pasta e todas as faixas que ela contém do seu telefone?</item>
+    </plurals>
+    <plurals name="n_genres_deleted_msg">
+        <item quantity="other">Eliminar todas as faixas destes géneros?</item>
+        <item quantity="one">Eliminar todas as faixas deste género?</item>
+    </plurals>
+    <plurals name="n_items_deleted_msg">
+        <item quantity="other">Delete %d items?</item>
+        <item quantity="one">Delete %d items?</item>
+    </plurals>
+    <plurals name="n_playlists_deleted_msg">
+        <item quantity="other">Eliminar %d listas de reprodução?</item>
+        <item quantity="one">Eliminar 1 lista reprodução?</item>
+    </plurals>
+    <plurals name="n_tracks_added_to_queue">
+        <item quantity="other">%d faixas adicionadas à fila.</item>
+        <item quantity="one">%d faixa adicionada à fila.</item>
+    </plurals>
+    <plurals name="n_tracks_deleted_msg">
+        <item quantity="other">Eliminar %d faixas?</item>
+        <item quantity="one">Apagar 1 faixa?</item>
+    </plurals>
+</resources>

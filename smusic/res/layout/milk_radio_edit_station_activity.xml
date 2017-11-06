@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/base_blur_background_common" />
+    <RelativeLayout android:gravity="center_vertical" android:id="@id/edit_station_main_view" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@id/mr_edit_station_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/mc_mini_player_root" android:layout_alignParentTop="true" />
+        <FrameLayout android:id="@id/mc_mini_player_root" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <include layout="@layout/mini_player" />
+            <ViewStub android:id="@id/bottom_bar_stub" android:layout="@layout/music_ui_bottom_bar_container" android:layout_width="fill_parent" android:layout_height="@dimen/mini_player_layout_height" />
+        </FrameLayout>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <TextView android:textAppearance="?android:actionMenuTextAppearance" android:textColor="@color/color_primary_mmapp" android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:id="@id/menu_cancel" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/cancel" android:maxLines="1" style="?android:attr/actionButtonStyle" />
+        <ViewStub android:id="@id/menu_cancel_background" android:layout="@layout/show_button_stub" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/cancel_done_action_menu_show_button_background_margin_vertical" android:layout_marginBottom="@dimen/cancel_done_action_menu_show_button_background_margin_vertical" android:layout_marginStart="@dimen/cancel_done_action_menu_show_button_background_margin_horizontal" android:layout_marginEnd="@dimen/cancel_done_action_menu_show_button_background_margin_horizontal" />
+    </FrameLayout>
+    <FrameLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <TextView android:textAppearance="?android:actionMenuTextAppearance" android:textColor="@color/color_primary_mmapp" android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:id="@id/menu_done" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/done" android:maxLines="1" style="?android:attr/actionButtonStyle" />
+        <ViewStub android:id="@id/menu_done_background" android:layout="@layout/show_button_stub" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/cancel_done_action_menu_show_button_background_margin_vertical" android:layout_marginBottom="@dimen/cancel_done_action_menu_show_button_background_margin_vertical" android:layout_marginStart="@dimen/cancel_done_action_menu_show_button_background_margin_horizontal" android:layout_marginEnd="@dimen/cancel_done_action_menu_show_button_background_margin_horizontal" />
+    </FrameLayout>
+</LinearLayout>

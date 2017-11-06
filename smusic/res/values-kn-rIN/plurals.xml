@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NNNalbum">
+        <item quantity="other">%d ಆಲ್ಬಮ್‌ಗಳು</item>
+        <item quantity="one">%d ಆಲ್ಬಮ್</item>
+    </plurals>
+    <plurals name="NNNartist_album">
+        <item quantity="other">ಆಲ್ಬಮ್‍ಗಳು</item>
+        <item quantity="one">ಆಲ್ಬಮ್</item>
+    </plurals>
+    <plurals name="NNNartist_track">
+        <item quantity="other">ಟ್ರ್ಯಾಕಗಳು</item>
+        <item quantity="one">ಟ್ರ್ಯಾಕ್</item>
+    </plurals>
+    <plurals name="NNNsometrackstofavorite">
+        <item quantity="other">%d ಹಾಡುಗಳನ್ನು ನೆಚ್ಚಿನವುಗಳಿಗೆ ಸೇರಿಸಲಾಗಿದೆ. ಈಗಾಗಲೇ ನೆಚ್ಚಿನವುಗಳಲ್ಲಿ ಇರುವ ಹಾಡುಗಳನ್ನು ಸೇರಿಸಲಾಗಿಲ್ಲ.</item>
+        <item quantity="one">ಮೆಚ್ಚಿನವುಗಳಿಗೆ %d ಟ್ರ್ಯಾಕ್ ಸೇರಿಸಲಾಗಿದೆ. ಈಗಾಗಲೇ ಮೆಚ್ಚಿನವುಗಳಲ್ಲಿರುವ ಟ್ರ್ಯಾಕ್ ಸೇರಿಸಲಾಗಿಲ್ಲ.</item>
+    </plurals>
+    <plurals name="NNNtrack">
+        <item quantity="other">%d ಟ್ರ್ಯಾಕ್‌ಗಳು</item>
+        <item quantity="one">%d ಹಾಡು</item>
+    </plurals>
+    <plurals name="NNNtracksfromfavorite">
+        <item quantity="other">%d ಟ್ರ್ಯಾಕ್‌ಗಳನ್ನು ಮೆಚ್ಚಿನವುಗಳಿಂದ ತೆಗೆದುಹಾಕಲಾಗಿದೆ.</item>
+        <item quantity="one">ಮೆಚ್ಚಿನವುಗಳಿಂದ %d ಟ್ರ್ಯಾಕ್ ತೆಗೆದುಹಾಕಲಾಗಿದೆ.</item>
+    </plurals>
+    <plurals name="NNNtrackstofavorite">
+        <item quantity="other">%d ಹಾಡುಗಳನ್ನು ನೆಚ್ಚಿನವುಗಳಿಗೆ ಸೇರಿಸಲಾಗಿದೆ.</item>
+        <item quantity="one">%d ಟ್ರ್ಯಾಕ್ ಅನ್ನು ಮೆಚ್ಚಿನವುಗಳಿಗೆ ಸೇರಿಸಲಾಗಿದೆ.</item>
+    </plurals>
+    <plurals name="NNNtrackstoplaylist">
+        <item quantity="other">%d ಹಾಡುಗಳನ್ನು ಪ್ಲೇಲಿಸ್ಟ್‌ಗೆ ಸೇರಿಸಲಾಗಿದೆ.</item>
+        <item quantity="one">%d ಟ್ರ್ಯಾಕ್ ಅನ್ನು ಪ್ಲೇಪಟ್ಟಿಗೆ ಸೇರಿಸಲಾಗಿದೆ.</item>
+    </plurals>
+    <plurals name="drm_can_use_n_times">
+        <item quantity="other">ನೀವು %1$s ಅನ್ನು %2$d ಬಾರಿ ಬಳಸಬಹುದು.</item>
+        <item quantity="one">ನೀವು %s ಅನ್ನು 1 ಬಾರಿ ಬಳಸಬಹುದು.</item>
+    </plurals>
+    <plurals name="n_albums_deleted_msg">
+        <item quantity="other">ನಿಮ್ಮ ಫೋನ್‍ನಿಂದ ಅವುಗಳಲ್ಲಿರುವ %d ಆಲ್ಬಮ್‍ಗಳು ಹಾಗೂ ಎಲ್ಲಾ ಟ್ರ್ಯಾಕ್‍ಗಳನ್ನು ಅಳಿಸುವುದೇ?</item>
+        <item quantity="one">ನಿಮ್ಮ ಫೋನ್‍ನಿಂದ ಅದರಲ್ಲಿರುವ 1 ಆಲ್ಬಮ್ ಹಾಗೂ ಎಲ್ಲಾ ಟ್ರ್ಯಾಕ್‍ಗಳನ್ನು ಅಳಿಸುವುದೇ?</item>
+    </plurals>
+    <plurals name="n_artists_deleted_msg">
+        <item quantity="other">ಈ ಕಲಾವಿದರ ಎಲ್ಲಾ ಟ್ರ್ಯಾಕ್‌ಗಳನ್ನು ಅಳಿಸುವುದೇ?</item>
+        <item quantity="one">ಈ ಕಲಾವಿದನಿಂದ ಎಲ್ಲಾ ಟ್ರ್ಯಾಕ್‌ಗಳನ್ನು ಅಳಿಸುವುದೇ?</item>
+    </plurals>
+    <plurals name="n_composers_deleted_msg">
+        <item quantity="other">ಈ ಸಂಗೀತ ಸಂಯೋಜಕರ ಎಲ್ಲಾ ಟ್ರ್ಯಾಕ್‌ಗಳನ್ನು ಅಳಿಸುವುದೇ?</item>
+        <item quantity="one">ಈ ಸಂಗೀತ ಸಂಯೋಜಕನ ಎಲ್ಲಾ ಟ್ರ್ಯಾಕ್‌ಗಳನ್ನು ಅಳಿಸುವುದೇ?</item>
+    </plurals>
+    <plurals name="n_folders_deleted_msg">
+        <item quantity="other">ನಿಮ್ಮ ಫೋನ್‍ನಿಂದ ಅವುಗಳಲ್ಲಿರುವ %d ಫೋಲ್ಡರ್‌ಗಳು ಹಾಗೂ ಎಲ್ಲಾ ಟ್ರ್ಯಾಕ್‍ಗಳನ್ನು ಅಳಿಸುವುದೇ?</item>
+        <item quantity="one">ನಿಮ್ಮ ಫೋನ್‍ನಿಂದ ಅದರಲ್ಲಿರುವ 1 ಫೋಲ್ಡರ್ ಹಾಗೂ ಎಲ್ಲಾ ಟ್ರ್ಯಾಕ್‍ಗಳನ್ನು ಅಳಿಸುವುದೇ?</item>
+    </plurals>
+    <plurals name="n_genres_deleted_msg">
+        <item quantity="other">ಈ ಶೈಲಿಯ ಎಲ್ಲಾ ಟ್ರ್ಯಾಕ್‌ಗಳನ್ನು ಅಳಿಸುವುದೇ?</item>
+        <item quantity="one">ಈ ಜೀನರ್‌ನಿಂದ ಎಲ್ಲಾ ಟ್ರ್ಯಾಕ್‌‌ಗಳನ್ನು ಅಳಿಸುವುದೇ?</item>
+    </plurals>
+    <plurals name="n_items_deleted_msg">
+        <item quantity="other">Delete %d items?</item>
+        <item quantity="one">Delete %d items?</item>
+    </plurals>
+    <plurals name="n_playlists_deleted_msg">
+        <item quantity="other">%d ಪ್ಲೇಪಟ್ಟಿಗಳನ್ನು ಅಳಿಸುವುದೇ?</item>
+        <item quantity="one">1 ಪ್ಲೇಪಟ್ಟಿ ಅಳಿಸುವುದೇ?</item>
+    </plurals>
+    <plurals name="n_tracks_added_to_queue">
+        <item quantity="other">%d ಹಾಡುಗಳನ್ನು ಸರದಿಗೆ ಸೇರಿಸಲಾಗಿದೆ.</item>
+        <item quantity="one">%d ಟ್ರ್ಯಾಕ್ ಅನ್ನು ಸರದಿಗೆ ಸೇರಿಸಲಾಗಿದೆ.</item>
+    </plurals>
+    <plurals name="n_tracks_deleted_msg">
+        <item quantity="other">%d ಟ್ರ್ಯಾಕ್‌ಗಳನ್ನು ಅಳಿಸುವುದೇ?</item>
+        <item quantity="one">1 ಟ್ರ್ಯಾಕ್ ಅಳಿಸುವುದೇ?</item>
+    </plurals>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingLeft="@dimen/toast_side_padding" android:paddingTop="2.0dip" android:paddingRight="@dimen/toast_side_padding" android:paddingBottom="@dimen/toast_bottom_padding" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/root" android:background="@drawable/toast_morph_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:elevation="2.0dip">
+        <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@id/text_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/toast_text_margin" android:layout_marginBottom="@dimen/toast_text_margin">
+            <ImageView android:id="@id/toast_icon" android:layout_width="@dimen/edge_toast_image_width" android:layout_height="@dimen/edge_toast_image_width" android:scaleType="fitXY" />
+            <FrameLayout android:id="@id/toast_view" android:visibility="gone" android:layout_width="@dimen/edge_toast_image_width" android:layout_height="@dimen/edge_toast_image_width" android:scaleType="fitXY" />
+            <TextView android:textSize="13.0sp" android:textColor="#ff252525" android:ellipsize="end" android:gravity="center" android:id="@id/main_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/ticker_text_sender_max_width" android:maxLines="1" android:fontFamily="sec-roboto-condensed" android:layout_marginStart="@dimen/noti_text_start_margin" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

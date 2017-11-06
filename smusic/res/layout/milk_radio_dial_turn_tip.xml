@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.samsung.android.app.music.milk.radio.widget.ArcTextOverlayImageView android:id="@id/mr_inner_dial_turn_tip" android:visibility="gone" android:layout_width="@dimen/milk_radio_inner_dial_turn_tip_width" android:layout_height="@dimen/milk_radio_inner_dial_turn_tip_width" android:src="@drawable/mr_tip_turn_dial_02" android:scaleType="fitXY" android:layout_centerInParent="true" />
+    <com.samsung.android.app.music.milk.radio.widget.ArcTextOverlayImageView android:id="@id/mr_outer_dial_turn_tip" android:layout_width="@dimen/milk_radio_outter_dial_turn_tip_width" android:layout_height="@dimen/milk_radio_outter_dial_turn_tip_width" android:src="@drawable/mr_tip_turn_dial_01" android:scaleType="fitXY" android:layout_centerInParent="true" />
+</merge>

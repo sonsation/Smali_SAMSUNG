@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="full_player_album_height">299.0dip</dimen>
+    <dimen name="full_player_albumview_height_with_shade">303.0dip</dimen>
+    <dimen name="full_player_albumview_margin_bottom">12.0dip</dimen>
+    <dimen name="full_player_control_layout_height">140.0dip</dimen>
+    <dimen name="full_player_control_margin_horizontal">0.0dip</dimen>
+    <dimen name="full_player_title_layout_padding_horizontal">26.0dip</dimen>
+    <dimen name="full_player_albumview_margin_top">4.0dip</dimen>
+    <dimen name="full_player_albumview_padding_top">0.0dip</dimen>
+    <dimen name="full_player_control_margin_bottom">0.0dip</dimen>
+    <dimen name="full_player_control_padding_top">0.0dip</dimen>
+    <dimen name="full_player_option_margin_bottom">0.0dip</dimen>
+    <dimen name="full_player_seekbar_margin_top">0.0dip</dimen>
+    <dimen name="full_player_album_spacing">30.0dip</dimen>
+    <dimen name="big_quick_panel_albumart_margin_left">9.0dip</dimen>
+    <dimen name="big_quick_panel_albumart_size">80.0dip</dimen>
+    <dimen name="big_quick_panel_artist_text">13.0sp</dimen>
+    <dimen name="big_quick_panel_close_margin_left">15.0dip</dimen>
+    <dimen name="big_quick_panel_control_button_play_pause_margin_horizontal">11.0dip</dimen>
+    <dimen name="big_quick_panel_title_text">15.0sp</dimen>
+    <dimen name="quick_panel_albumart_margin_left">12.0dip</dimen>
+    <dimen name="quick_panel_albumart_size">35.0dip</dimen>
+    <dimen name="quick_panel_artist_text">13.0sp</dimen>
+    <dimen name="quick_panel_close_margin_left">4.0dip</dimen>
+    <dimen name="quick_panel_control_button_icon_size">27.0dip</dimen>
+    <dimen name="quick_panel_control_button_size">40.0dip</dimen>
+    <dimen name="quick_panel_control_margin_left">4.0dip</dimen>
+    <dimen name="quick_panel_title_text">15.0sp</dimen>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.samsung.android.app.music.milk.store.widget.RecyclerGridView android:id="@id/gridView" android:paddingLeft="@dimen/milk_store_common_album_grid_margin_left_right" android:paddingRight="@dimen/milk_store_common_album_grid_margin_left_right" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" app:numColumns="@integer/milk_store_album_grid_count" app:leftMargin="@dimen/milk_store_artist_detail_grid_view_gap" app:rightMargin="@dimen/milk_store_artist_detail_grid_view_gap" app:bottomMargin="@dimen/milk_store_music_category_item_bottom_margin" />
+    <include layout="@layout/milk_common_list_progress" />
+</RelativeLayout>

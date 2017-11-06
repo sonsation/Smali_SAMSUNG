@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NNNalbum">
+        <item quantity="other">%d albume</item>
+        <item quantity="one">%d album</item>
+    </plurals>
+    <plurals name="NNNartist_album">
+        <item quantity="other">Albume</item>
+        <item quantity="one">Album</item>
+    </plurals>
+    <plurals name="NNNartist_track">
+        <item quantity="other">Piese muzicale</item>
+        <item quantity="one">Piesă</item>
+    </plurals>
+    <plurals name="NNNsometrackstofavorite">
+        <item quantity="other">%d melodii au fost adăugate la Preferate. Melodiile care sunt deja incluse în Preferate nu au fost adăugate.</item>
+        <item quantity="one">%d piesă a fost adăugată la Preferate. Melodia care este deja inclusă în Preferate nu a fost adăugată.</item>
+    </plurals>
+    <plurals name="NNNtrack">
+        <item quantity="other">%d piese</item>
+        <item quantity="one">Melodia %d</item>
+    </plurals>
+    <plurals name="NNNtracksfromfavorite">
+        <item quantity="other">%d melodii au fost eliminate din Preferințe.</item>
+        <item quantity="one">%d piesă a fost eliminată din Preferate.</item>
+    </plurals>
+    <plurals name="NNNtrackstofavorite">
+        <item quantity="other">%d melodii au fost adăugate la preferate.</item>
+        <item quantity="one">%d piese au fost adăugate la preferate.</item>
+    </plurals>
+    <plurals name="NNNtrackstoplaylist">
+        <item quantity="other">Au fost adăugate %d melodii în lista de redare.</item>
+        <item quantity="one">%d piseă a fost adăugată în lista de redare.</item>
+    </plurals>
+    <plurals name="drm_can_use_n_times">
+        <item quantity="other">Puteți utiliza %1$s de %2$d ori.</item>
+        <item quantity="one">Puteți utiliza %s 1 dată.</item>
+    </plurals>
+    <plurals name="n_albums_deleted_msg">
+        <item quantity="other">Ștergeți din telefon %d albume și toate piesele din acesta?</item>
+        <item quantity="one">Ștergeți din telefon un album și toate piesele din acesta?</item>
+    </plurals>
+    <plurals name="n_artists_deleted_msg">
+        <item quantity="other">Ștergeți toate piesele acestor artiști?</item>
+        <item quantity="one">Ștergeți toate piesele acestui artist?</item>
+    </plurals>
+    <plurals name="n_composers_deleted_msg">
+        <item quantity="other">Ștergeți toate piesele acestor compozitori?</item>
+        <item quantity="one">Ștergeți toate piesele acestui compozitor?</item>
+    </plurals>
+    <plurals name="n_folders_deleted_msg">
+        <item quantity="other">Ștergeți din telefon %d foldere și toate piesele din acesta?</item>
+        <item quantity="one">Ștergeți din telefon un folder și toate piesele din acesta?</item>
+    </plurals>
+    <plurals name="n_genres_deleted_msg">
+        <item quantity="other">Ștergeți toate piesele din aceste genuri?</item>
+        <item quantity="one">Ștergeți toate piesele din acest gen?</item>
+    </plurals>
+    <plurals name="n_items_deleted_msg">
+        <item quantity="other">Delete %d items?</item>
+        <item quantity="one">Delete %d items?</item>
+    </plurals>
+    <plurals name="n_playlists_deleted_msg">
+        <item quantity="other">Ștergeți %d liste de redare?</item>
+        <item quantity="one">Ștergeți 1 listă de redare?</item>
+    </plurals>
+    <plurals name="n_tracks_added_to_queue">
+        <item quantity="other">Au fost adăugate %d piese în coadă.</item>
+        <item quantity="one">%d piesă a fost adăugată în coadă.</item>
+    </plurals>
+    <plurals name="n_tracks_deleted_msg">
+        <item quantity="other">Ștergeți %d piese?</item>
+        <item quantity="one">Ștergeți 1 piesă?</item>
+    </plurals>
+</resources>

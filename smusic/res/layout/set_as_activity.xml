@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/set_as_root" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:id="@id/normal" layout="@layout/set_as_item" />
+        <View android:id="@id/auto_divider" android:background="?android:dividerVertical" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/list_divider_height_winset" />
+        <include android:id="@id/recommend" android:paddingTop="@dimen/set_as_item_padding_vertical" android:paddingBottom="@dimen/set_as_item_padding_vertical" android:nextFocusDown="@id/phone_ringtone" layout="@layout/set_as_item" />
+        <RelativeLayout android:id="@id/progress_layout" android:layout_width="fill_parent" android:layout_height="@dimen/set_as_progress_layout_height" android:layoutDirection="ltr" android:paddingStart="@dimen/set_as_item_padding_horizontal" android:paddingEnd="@dimen/set_as_item_padding_horizontal" android:layout_alignParentStart="true">
+            <TextView android:textSize="@dimen/set_as_progress_offset_text" android:textColor="@color/color_primary_mmapp" android:id="@id/offset_time_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/set_as_progress_offset_text_margin_top" />
+            <ImageView android:id="@id/progress_bg" android:layout_width="fill_parent" android:layout_height="@dimen/set_as_progress_height" android:layout_marginTop="@dimen/set_as_progress_layout_margin_top" android:src="@color/legacy_set_as_start_time_text" android:scaleType="fitXY" android:layout_below="@id/offset_time_text" />
+            <ImageView android:id="@id/progress" android:layout_width="fill_parent" android:layout_height="@dimen/set_as_progress_height" android:layout_marginTop="@dimen/set_as_progress_layout_margin_top" android:src="@color/legacy_set_as_progress" android:scaleType="fitXY" android:layout_below="@id/offset_time_text" />
+            <TextView android:textSize="@dimen/set_as_progress_offset_text" android:textColor="@color/legacy_set_as_start_time_text" android:id="@id/starting_time_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/set_as_progress_text_margin_top" android:layout_below="@id/progress" android:layout_alignParentStart="true" />
+            <TextView android:textSize="@dimen/set_as_progress_offset_text" android:textColor="@color/legacy_set_as_duration_time_text" android:id="@id/duration_time_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/set_as_progress_text_margin_top" android:layout_below="@id/progress" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <View android:id="@id/set_as_divider" android:background="?android:dividerVertical" android:layout_width="fill_parent" android:layout_height="@dimen/list_divider_height_winset" />
+        <TextView android:id="@id/header_set_as" android:layout_height="@dimen/set_as_activity_section_height" android:text="@string/legacy_set_as" style="@style/ListSubTitle.LeftAlign" />
+        <include android:id="@id/phone_ringtone" layout="@layout/set_as_item" />
+        <include android:id="@id/caller_ringtone" layout="@layout/set_as_item" />
+        <include android:id="@id/alarm_tone" layout="@layout/set_as_item" />
+    </LinearLayout>
+</ScrollView>

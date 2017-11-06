@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <com.samsung.android.app.musiclibrary.ui.widget.MusicPathLineAnimationView android:id="@id/favorite_help_image" android:layout_width="@dimen/favorite_help_image_size" android:layout_height="@dimen/favorite_help_image_size" />
+            <TextView android:textSize="@dimen/favorite_help_state_text" android:textColor="@color/favorite_help_state_text" android:gravity="center" android:id="@id/favorite_help_state_text" android:layout_marginTop="@dimen/favorite_help_state_text_margin_top" android:text="@string/no_cards" style="@style/Text.SecLight.NoItem" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/favorite_help_guide_text" android:textColor="@color/favorite_help_guide_text" android:gravity="center" android:id="@id/favorite_help_guide_text" android:text="@string/favorite_help_view_guide" style="@style/Text.SecLight.NoItem" />
+            <TextView android:textSize="@dimen/favorite_help_close_text" android:textColor="@color/favorite_help_close_text" android:ellipsize="end" android:gravity="center" android:id="@id/favorite_help_manage_tab" android:background="@drawable/favorite_help_view_manage_tab" android:focusable="true" android:layout_marginTop="@dimen/favorite_help_close_margin_top" android:text="@string/manage_tabs" android:maxLines="1" android:singleLine="true" android:textAllCaps="true" style="@style/Text.SecLight.NoItem" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

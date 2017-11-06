@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NNNalbum">
+        <item quantity="other">%d albumit</item>
+        <item quantity="one">%d album</item>
+    </plurals>
+    <plurals name="NNNartist_album">
+        <item quantity="other">Albumid</item>
+        <item quantity="one">Album</item>
+    </plurals>
+    <plurals name="NNNartist_track">
+        <item quantity="other">Lood</item>
+        <item quantity="one">Pala</item>
+    </plurals>
+    <plurals name="NNNsometrackstofavorite">
+        <item quantity="other">%d lugu on lisatud lemmikutesse. Lemmikutes juba olevaid lugusid ei lisatud.</item>
+        <item quantity="one">%d lugu lisati lemmikutesse. Lemmikutes juba olevat lugu ei lisatud.</item>
+    </plurals>
+    <plurals name="NNNtrack">
+        <item quantity="other">%d pala</item>
+        <item quantity="one">%d pala</item>
+    </plurals>
+    <plurals name="NNNtracksfromfavorite">
+        <item quantity="other">%d lugu on eemaldatud lemmikutest.</item>
+        <item quantity="one">%d lugu eemaldati lemmikutest.</item>
+    </plurals>
+    <plurals name="NNNtrackstofavorite">
+        <item quantity="other">%d lugu on lisatud lemmikutesse</item>
+        <item quantity="one">%d lugu lisati lemmikutesse.</item>
+    </plurals>
+    <plurals name="NNNtrackstoplaylist">
+        <item quantity="other">%d lugu on lisatud esitusloendisse.</item>
+        <item quantity="one">%d lugu lisati esitusloendisse.</item>
+    </plurals>
+    <plurals name="drm_can_use_n_times">
+        <item quantity="other">Saate uksust %1$s kasutada %2$d korda.</item>
+        <item quantity="one">Saate uksust %s kasutada 1 korra.</item>
+    </plurals>
+    <plurals name="n_albums_deleted_msg">
+        <item quantity="other">Kas kustutada %d albumit ja kõik nende lood telefonist?</item>
+        <item quantity="one">Kas kustutada 1 album ja kõik selle lood telefonist?</item>
+    </plurals>
+    <plurals name="n_artists_deleted_msg">
+        <item quantity="other">Kas kustutada kõik nende esitajate lood?</item>
+        <item quantity="one">Kas kustutada kõik selle esitaja lood?</item>
+    </plurals>
+    <plurals name="n_composers_deleted_msg">
+        <item quantity="other">Kas kustutada kõik nende heliloojate lood?</item>
+        <item quantity="one">Kas kustutada kõik selle helilooja lood?</item>
+    </plurals>
+    <plurals name="n_folders_deleted_msg">
+        <item quantity="other">Kas kustutada %d kausta ja kõik nende lood telefonist?</item>
+        <item quantity="one">Kas kustutada 1 kaust ja kõik selle lood telefonist?</item>
+    </plurals>
+    <plurals name="n_genres_deleted_msg">
+        <item quantity="other">Kas kustutada kõik nende žanrite lood?</item>
+        <item quantity="one">Kas kustutada kõik selle žanri lood?</item>
+    </plurals>
+    <plurals name="n_items_deleted_msg">
+        <item quantity="other">Delete %d items?</item>
+        <item quantity="one">Delete %d items?</item>
+    </plurals>
+    <plurals name="n_playlists_deleted_msg">
+        <item quantity="other">Kas kustutada %d esitusloendit?</item>
+        <item quantity="one">Kas kustutada 1 esitusloend?</item>
+    </plurals>
+    <plurals name="n_tracks_added_to_queue">
+        <item quantity="other">%d lugu on lisatud järjekorda.</item>
+        <item quantity="one">%d lugu lisati järjekorda.</item>
+    </plurals>
+    <plurals name="n_tracks_deleted_msg">
+        <item quantity="other">Kas kustutada %d lugu?</item>
+        <item quantity="one">Kas kustutada 1 lugu?</item>
+    </plurals>
+</resources>

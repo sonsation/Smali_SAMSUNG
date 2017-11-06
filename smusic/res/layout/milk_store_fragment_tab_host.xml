@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.TabLayout android:id="@id/tabs" android:layout_width="fill_parent" android:layout_height="@dimen/winset_tab_height" app:tabIndicatorHeight="2.0dip" app:tabMode="fixed" app:tabGravity="fill" app:tabMaxWidth="0.0dip" app:tabPaddingStart="0.0dip" app:tabPaddingEnd="0.0dip" style="@style/milk_TabHost"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bitmap android:gravity="center" android:src="@drawable/sesl_btn_switch_mtrl" android:tint="@color/sesl_switch_thumb_tint" android:constantSize="true" android:tintMode="multiply"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

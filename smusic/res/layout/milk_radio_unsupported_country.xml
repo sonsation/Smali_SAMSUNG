@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/milk_radio_dialog_popup_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:elevation="1.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/pop_ic_no_network" />
+        <TextView android:textSize="@dimen/milk_radio_unsupported_country_text_size" android:textColor="#fff708e3" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/milk_radio_no_network_icon_text_gap" android:text="@string/milk_radio_unsupported_country_desc" android:fontFamily="sans-serif-light" />
+    </LinearLayout>
+</LinearLayout>

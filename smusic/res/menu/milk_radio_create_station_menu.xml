@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/mr_mainoption_add_to_my_station_menu_items" android:visible="true" android:title="@string/milk_radio_add_to_my_stations_menu_item" />
+    <item android:id="@id/mr_mainoption_remove_my_station_menu_items" android:visible="true" android:title="@string/milk_radio_remove_from_my_stations_menu_item" />
+    <item android:id="@id/mr_main_option_create_station_by_track" android:visible="true" android:title="@string/milk_radio_create_station_from_song" />
+    <item android:id="@id/mr_main_option_create_station_by_artist" android:visible="true" android:title="@string/milk_radio_create_station_from_artist" />
+    <item android:id="@id/mr_main_option_edit_station" android:visible="true" android:title="@string/milk_radio_my_stations_item_menu_edit" />
+    <item android:id="@id/mr_mainoption_add_to_playlist_items" android:visible="true" android:title="@string/milk_radio_add_to_playlist_menu_item" />
+</menu>

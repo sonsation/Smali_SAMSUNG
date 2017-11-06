@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/track_header_menu_container_select" android:layout_width="wrap_content" android:layout_height="@dimen/milk_store_common_track_list_header_menu_height" android:foreground="@drawable/milk_list_select_btn" android:layout_alignParentRight="true">
+        <TextView android:textSize="@dimen/milk_store_common_track_list_header_button_font_size" android:textColor="@color/milk_btn_text_color" android:gravity="center" android:id="@id/icon" android:paddingLeft="@dimen/milk_store_common_track_list_header_button_padding" android:paddingRight="@dimen/milk_store_common_track_list_header_button_padding" android:layout_width="wrap_content" android:layout_height="@dimen/milk_store_common_track_list_header_menu_height" android:text="@string/milk_store_common_track_select_all" android:textAllCaps="true" android:fontFamily="roboto-condensed-light" />
+    </FrameLayout>
+</merge>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NNNalbum">
+        <item quantity="other">%d album</item>
+        <item quantity="one">%d album</item>
+    </plurals>
+    <plurals name="NNNartist_album">
+        <item quantity="other">Albumok</item>
+        <item quantity="one">Album</item>
+    </plurals>
+    <plurals name="NNNartist_track">
+        <item quantity="other">Számok</item>
+        <item quantity="one">Szám</item>
+    </plurals>
+    <plurals name="NNNsometrackstofavorite">
+        <item quantity="other">%d szám felvéve a Kedvencek közé. A már a Kedvencek között található számok nem lettek hozzáadva.</item>
+        <item quantity="one">%d számot hozzáadott a Kedvencekhez. A már a Kedvencekben található számot nem adta hozzá.</item>
+    </plurals>
+    <plurals name="NNNtrack">
+        <item quantity="other">%d szám</item>
+        <item quantity="one">%d szám</item>
+    </plurals>
+    <plurals name="NNNtracksfromfavorite">
+        <item quantity="other">%d szám eltávolítva a Kedvencek közül.</item>
+        <item quantity="one">Eltávolított %d számot a Kedvencekből.</item>
+    </plurals>
+    <plurals name="NNNtrackstofavorite">
+        <item quantity="other">%d szám felvéve a kedvencek közé.</item>
+        <item quantity="one">%d számot hozzáadott a kedvencekhez.</item>
+    </plurals>
+    <plurals name="NNNtrackstoplaylist">
+        <item quantity="other">%d szám hozzáadva a lejátszási listához.</item>
+        <item quantity="one">%d számot hozzáadott a lejátszási listához.</item>
+    </plurals>
+    <plurals name="drm_can_use_n_times">
+        <item quantity="other">Az elem (%1$s) %2$d alkalommal használható.</item>
+        <item quantity="one">Az elem (%s) 1 alkalommal használható.</item>
+    </plurals>
+    <plurals name="n_albums_deleted_msg">
+        <item quantity="other">Töröl a telefonjáról %d albumot a rajtuk lévő összes számmal együtt?</item>
+        <item quantity="one">Töröl a telefonjáról 1 albumot az összes rajta levő számmal együtt?</item>
+    </plurals>
+    <plurals name="n_artists_deleted_msg">
+        <item quantity="other">Törli ezeknek az előadóknak az összes számát?</item>
+        <item quantity="one">Törli az előadó összes számát?</item>
+    </plurals>
+    <plurals name="n_composers_deleted_msg">
+        <item quantity="other">Törli ezeknek a zeneszerzőknek az összes számát?</item>
+        <item quantity="one">Törli a zeneszerző összes számát?</item>
+    </plurals>
+    <plurals name="n_folders_deleted_msg">
+        <item quantity="other">Töröl a telefonjáról %d mappát a bennük lévő összes számmal együtt?</item>
+        <item quantity="one">Töröl a telefonjáról 1 mappát az összes benne levő számmal együtt?</item>
+    </plurals>
+    <plurals name="n_genres_deleted_msg">
+        <item quantity="other">Törli az ezekbe a műfajokba tartozó összes számot?</item>
+        <item quantity="one">Törli az ebbe a műfajba tartozó összes számot?</item>
+    </plurals>
+    <plurals name="n_items_deleted_msg">
+        <item quantity="other">Delete %d items?</item>
+        <item quantity="one">Delete %d items?</item>
+    </plurals>
+    <plurals name="n_playlists_deleted_msg">
+        <item quantity="other">Töröl %d lejátszási listát?</item>
+        <item quantity="one">Töröl 1 lejátszási listát?</item>
+    </plurals>
+    <plurals name="n_tracks_added_to_queue">
+        <item quantity="other">%d számot hozzáadott a sorhoz.</item>
+        <item quantity="one">%d számot hozzáadott a sorhoz.</item>
+    </plurals>
+    <plurals name="n_tracks_deleted_msg">
+        <item quantity="other">Töröl %d számot?</item>
+        <item quantity="one">Töröl 1 számot?</item>
+    </plurals>
+</resources>

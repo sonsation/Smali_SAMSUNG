@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NNNalbum">
+        <item quantity="other">%d אלבומים</item>
+        <item quantity="one">%d אלבום</item>
+    </plurals>
+    <plurals name="NNNartist_album">
+        <item quantity="other">אלבומים</item>
+        <item quantity="one">אלבום</item>
+    </plurals>
+    <plurals name="NNNartist_track">
+        <item quantity="other">שירים</item>
+        <item quantity="one">רצועה</item>
+    </plurals>
+    <plurals name="NNNsometrackstofavorite">
+        <item quantity="other">%d רצועות נוספו למועדפים. רצועות שכבר נשמרו במועדפים לא יתווספו.</item>
+        <item quantity="one">רצועה %d נוספה למועדפים. רצועה שכבר קיימת במועדפים לא נוספה.</item>
+    </plurals>
+    <plurals name="NNNtrack">
+        <item quantity="other">%d שירים</item>
+        <item quantity="one">%d שירים</item>
+    </plurals>
+    <plurals name="NNNtracksfromfavorite">
+        <item quantity="other">%d רצועות הוסרו מהמועדפים.</item>
+        <item quantity="one">רצועה %d הועברה מהמועדפים.</item>
+    </plurals>
+    <plurals name="NNNtrackstofavorite">
+        <item quantity="other">%d רצועות נוספו למועדפים</item>
+        <item quantity="one">רצועה %d נוספה למועדפים.</item>
+    </plurals>
+    <plurals name="NNNtrackstoplaylist">
+        <item quantity="other">%d רצועות נוספו לרשימת ההשמעה.</item>
+        <item quantity="one">רצועה %d נוספה לרשימת ההשמעה.</item>
+    </plurals>
+    <plurals name="drm_can_use_n_times">
+        <item quantity="other">באפשרותך להשתמש ב-%1$s ‏%2$d פעמים.</item>
+        <item quantity="one">באפשרותך להשתמש ב-%s פעם אחת.</item>
+    </plurals>
+    <plurals name="n_albums_deleted_msg">
+        <item quantity="other">האם למחוק מהטלפון שלך %d אלבומים ואת כל הרצועות שהם מכילים?</item>
+        <item quantity="one">האם למחוק מהטלפון שלך אלבום אחד ואת כל הרצועת שיש בו?</item>
+    </plurals>
+    <plurals name="n_artists_deleted_msg">
+        <item quantity="other">למחוק את כל הרצועות מאת אמנים אלה?</item>
+        <item quantity="one">למחוק את כל הרצועות מאת אמן זה?</item>
+    </plurals>
+    <plurals name="n_composers_deleted_msg">
+        <item quantity="other">למחוק את כל הרצועות מאת מלחינים אלה?</item>
+        <item quantity="one">למחוק את כל הרצועות מאת מלחין זה?</item>
+    </plurals>
+    <plurals name="n_folders_deleted_msg">
+        <item quantity="other">האם למחוק מהטלפון שלך %d תיקיות ואת כל הרצועות שבתוכן?</item>
+        <item quantity="one">האם למחוק מהטלפון שלך תיקייה אחת ואת כל הרצועת שיש בה?</item>
+    </plurals>
+    <plurals name="n_genres_deleted_msg">
+        <item quantity="other">למחוק את כל הרצועות בסגנונות אלה?</item>
+        <item quantity="one">למחוק את כל הרצועות מסגנון זה?</item>
+    </plurals>
+    <plurals name="n_items_deleted_msg">
+        <item quantity="other">Delete %d items?</item>
+        <item quantity="one">Delete %d items?</item>
+    </plurals>
+    <plurals name="n_playlists_deleted_msg">
+        <item quantity="other">למחוק %d רשימות השמעה?</item>
+        <item quantity="one">למחוק רשימת השמעה אחת?</item>
+    </plurals>
+    <plurals name="n_tracks_added_to_queue">
+        <item quantity="other">%d רצועות נוספו לתור.</item>
+        <item quantity="one">רצועה %d נוספה לתור.</item>
+    </plurals>
+    <plurals name="n_tracks_deleted_msg">
+        <item quantity="other">למחוק %d רצועות?</item>
+        <item quantity="one">למחוק רצועה אחת?</item>
+    </plurals>
+</resources>

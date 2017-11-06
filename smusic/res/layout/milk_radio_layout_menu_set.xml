@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/radio_button_container_height" android:layout_marginLeft="@dimen/radio_button_margin" android:layout_marginRight="@dimen/radio_button_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/mr_option_button_container" android:layout_width="@dimen/radio_button_size" android:layout_height="@dimen/radio_button_size">
+        <ImageView android:id="@id/mr_btn_option_menu" android:duplicateParentState="true" android:layout_width="@dimen/radio_button_icon_Size" android:layout_height="@dimen/radio_button_icon_Size" android:src="@drawable/milk_btn_radio_player_more_menu" android:scaleType="fitXY" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    <RelativeLayout android:id="@id/mr_download_button_container" android:layout_width="@dimen/radio_button_size" android:layout_height="@dimen/radio_button_size">
+        <ImageView android:id="@id/mr_btn_download_icon" android:duplicateParentState="true" android:layout_width="@dimen/radio_button_icon_Size" android:layout_height="@dimen/radio_button_icon_Size" android:src="@drawable/milk_btn_radio_player_download" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    <RelativeLayout android:id="@id/mr_add2favorite_button_container" android:layout_width="@dimen/radio_button_size" android:layout_height="@dimen/radio_button_size">
+        <ImageView android:id="@id/mr_btn_add2favorite_icon" android:duplicateParentState="true" android:layout_width="@dimen/radio_button_icon_Size" android:layout_height="@dimen/radio_button_icon_Size" android:src="@drawable/btn_player_favorite" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    <RelativeLayout android:id="@id/mr_create_station_button_container" android:layout_width="@dimen/radio_button_size" android:layout_height="@dimen/radio_button_size">
+        <ImageView android:id="@id/mr_btn_create_station_icon" android:duplicateParentState="true" android:layout_width="@dimen/radio_button_icon_Size" android:layout_height="@dimen/radio_button_icon_Size" android:src="@drawable/milk_btn_radio_player_add_to_mystation" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</LinearLayout>

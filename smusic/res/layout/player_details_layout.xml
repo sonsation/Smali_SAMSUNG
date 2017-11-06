@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/media_info_album_image" android:layout_width="fill_parent" android:layout_height="@dimen/media_info_default_album_size" android:scaleType="centerCrop" />
+        <ImageView android:layout_gravity="top" android:id="@id/album_cover_gradation" android:layout_width="fill_parent" android:layout_height="@dimen/media_info_default_album_gradient_top" android:src="@drawable/music_library_details_gradation_01" android:scaleType="fitXY" />
+    </FrameLayout>
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include layout="@layout/player_details_container" />
+    </ScrollView>
+</LinearLayout>

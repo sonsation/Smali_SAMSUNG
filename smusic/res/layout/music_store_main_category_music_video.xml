@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/header" layout="@layout/milk_store_main_category_common_header" />
+    <include layout="@layout/milk_store_main_category_common_indicator" />
+    <com.samsung.android.app.music.milk.store.widget.MusicVideoViewPager android:id="@id/viewpager" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/milk_store_main_music_video_pager_start_margin" android:layout_marginRight="@dimen/milk_store_main_music_video_pager_end_margin" android:layout_below="@id/header" app:column="@integer/milk_store_main_music_video_column" app:row="@integer/milk_store_main_music_video_row" app:columnSpace="@dimen/milk_store_main_music_video_pager_item_column_space" />
+    <android.support.v4.widget.Space android:layout_width="fill_parent" android:layout_height="@dimen/milk_store_main_music_video_space" android:layout_below="@id/viewpager" />
+    <include layout="@layout/milk_store_main_category_common_divider" />
+</RelativeLayout>

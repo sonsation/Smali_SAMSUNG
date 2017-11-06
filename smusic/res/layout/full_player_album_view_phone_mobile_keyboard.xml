@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="bottom" android:layout_width="fill_parent" android:layout_height="@dimen/full_player_albumview_height_with_shade_mobile_keyboard"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.samsung.android.app.musiclibrary.core.glwidget.GLFlatResizeFrameLayout android:id="@id/album_view" android:layout_width="fill_parent" android:layout_height="fill_parent" custom:albumOpacity="@dimen/full_player_album_opacity" custom:albumSize="@dimen/full_player_album_height_mobile_keyboard" custom:albumSpacing="@dimen/full_player_album_spacing" custom:albumSpacingAdditional="@dimen/full_player_album_spacing_additional" custom:backgroundColor="#00000000" custom:selectedAlbumSize="@dimen/full_player_album_height_mobile_keyboard" custom:scrollingFriction="@dimen/full_player_album_scrolling_friction" custom:bitmapSize="@dimen/bitmap_size_big" custom:shadowBottomRadius="1.0dip" custom:shadowTopRadius="0.5dip" custom:shadowLeftRadius="1.0dip" custom:shadowRightRadius="1.0dip" custom:shadowInnerColor="#4d000000" custom:albumContentDescription="@string/tts_album_cover" custom:renderingMode="Standard" xmlns:custom="http://schemas.android.com/apk/res-auto" />
+        <include layout="@layout/full_player_album_view_tags_common" />
+    </FrameLayout>
+    <ImageView android:layout_gravity="center" android:id="@id/fake_album_view" android:layout_width="@dimen/full_player_album_height_mobile_keyboard" android:layout_height="@dimen/full_player_album_height_mobile_keyboard" android:scaleType="fitCenter" />
+    <ProgressBar android:layout_gravity="center" android:id="@id/full_player_albumart_progress" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/progressBarStyle" />
+</FrameLayout>

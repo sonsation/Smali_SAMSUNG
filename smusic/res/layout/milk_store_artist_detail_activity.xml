@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/base_blur_background_common" />
+    <LinearLayout android:orientation="vertical" android:id="@id/ms_artist_detail_container" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <android.support.design.widget.CoordinatorLayout android:id="@id/ms_artist_detail_relative_layout" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <com.samsung.android.app.music.milk.store.widget.ParallaxHeaderLayout android:id="@id/parallax_header" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/milk_store_artist_detail_tab_height" app:elevation="0.0dip" app:layout_behavior="com.samsung.android.app.music.milk.store.widget.behavior.ParallaxHeaderScrollBehavior" app:parallaxMultiplier="0.7" app:parallaxTarget="@id/cover_container">
+                <RelativeLayout android:id="@id/artist_detail_header" android:background="#33000000" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <RelativeLayout android:id="@id/cover_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <com.samsung.android.app.music.milk.store.widget.NetworkImageView android:id="@id/artist_image" android:layout_width="fill_parent" android:layout_height="@dimen/milk_store_common_detail_cover_height" android:src="@drawable/music_player_default_cover" android:scaleType="centerCrop" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:contentDescription="@string/milk_store_artist_image" android:layout_alignParentStart="true" app:showImageOnFail="@drawable/music_player_default_cover" app:showImageOnLoading="@drawable/music_player_default_cover" />
+                        <ImageView android:id="@id/artist_detail_top_shadow" android:background="@drawable/music_library_details_gradation_01" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                    </RelativeLayout>
+                    <ImageView android:id="@id/gradient" android:background="@drawable/music_library_details_gradation_02" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+                    <LinearLayout android:orientation="vertical" android:id="@id/artist_info_container" android:paddingBottom="11.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/milk_store_common_detail_margin_left_right" android:layout_marginRight="@dimen/milk_store_common_detail_margin_left_right" android:layout_alignParentBottom="true">
+                        <TextView android:textSize="16.0dip" android:textColor="#fffafafa" android:ellipsize="end" android:id="@id/artist_genre_type" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="2.0dip" android:lines="1" android:fontFamily="roboto-regular" />
+                        <RelativeLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                            <TextView android:textSize="13.0dip" android:textColor="#fffafafa" android:id="@id/artist_debut_year" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="roboto-regular" />
+                            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/detail_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/artist_debut_year">
+                                <TextView android:textSize="13.0dip" android:textColor="@color/milk_store_artist_detail_text_color" android:gravity="center_vertical" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/milk_store_move_detail" android:fontFamily="roboto-regular" />
+                                <ImageView android:duplicateParentState="true" android:layout_width="@dimen/milk_store_common_detail_arrow_size" android:layout_height="@dimen/milk_store_common_detail_arrow_size" android:src="@drawable/milk_store_artist_detail_arrow_detail_selector" />
+                            </LinearLayout>
+                            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/create_station_container" android:background="@drawable/ripple_rect_light" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true">
+                                <TextView android:textSize="13.0dip" android:textColor="@color/milk_store_artist_detail_text_color" android:gravity="center_vertical" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/milk_create_station_menu_item" android:fontFamily="roboto-regular" />
+                                <ImageView android:duplicateParentState="true" android:layout_width="@dimen/milk_store_common_detail_arrow_size" android:layout_height="@dimen/milk_store_common_detail_arrow_size" android:src="@drawable/milk_store_create_station_button_selector" />
+                            </LinearLayout>
+                        </RelativeLayout>
+                    </LinearLayout>
+                </RelativeLayout>
+                <android.support.design.widget.TabLayout android:id="@id/artist_detail_tab" android:layout_width="fill_parent" android:layout_height="@dimen/milk_store_artist_detail_tab_height" android:layout_marginLeft="18.0dip" android:layout_marginRight="18.0dip" android:layout_below="@id/artist_detail_header" app:tabMode="fixed" app:tabGravity="fill" app:tabMaxWidth="0.0dip" app:tabPaddingStart="0.0dip" app:tabPaddingEnd="0.0dip" />
+            </com.samsung.android.app.music.milk.store.widget.ParallaxHeaderLayout>
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="com.samsung.android.app.music.milk.store.widget.behavior.ParallaxContentsLayoutBehavior">
+                <android.support.v4.view.ViewPager android:id="@id/artist_detail_viewpager" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/artist_detail_tab" />
+            </RelativeLayout>
+        </android.support.design.widget.CoordinatorLayout>
+        <FrameLayout android:id="@id/bottom_bar_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include layout="@layout/mini_player" />
+            <ViewStub android:id="@id/bottom_bar_stub" android:layout="@layout/music_ui_bottom_bar_container" android:layout_width="fill_parent" android:layout_height="@dimen/mini_player_layout_height" />
+        </FrameLayout>
+    </LinearLayout>
+</RelativeLayout>

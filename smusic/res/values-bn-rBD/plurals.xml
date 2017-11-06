@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NNNalbum">
+        <item quantity="other">%dটি অ্যালবাম</item>
+        <item quantity="one">%dটি অ্যালবাম</item>
+    </plurals>
+    <plurals name="NNNartist_album">
+        <item quantity="other">অ্যালবামগুলো</item>
+        <item quantity="one">অ্যালবাম</item>
+    </plurals>
+    <plurals name="NNNartist_track">
+        <item quantity="other">ট্র্যাকগুলো</item>
+        <item quantity="one">ট্র্যাক</item>
+    </plurals>
+    <plurals name="NNNsometrackstofavorite">
+        <item quantity="other">প্রিয়গুলোতে %dটি ট্র্যাক যোগ করা হয়েছে। ইতোমধ্যে প্রিয়গুলোতে থাকা ট্র্যাক যোগ করা হয়নি।</item>
+        <item quantity="one">প্রিয়গুলোতে %dটি ট্র্যাক যুক্ত হয়েছে। ইতোমধ্যে প্রিয়গুলোতে থাকা ট্র্যাক যুক্ত হয়নি।</item>
+    </plurals>
+    <plurals name="NNNtrack">
+        <item quantity="other">%dটি ট্র্যাক</item>
+        <item quantity="one">%dটি ট্র্যাক</item>
+    </plurals>
+    <plurals name="NNNtracksfromfavorite">
+        <item quantity="other">প্রিয় থেকে %dটি ট্র্যাক অপসারিত হয়েছে।</item>
+        <item quantity="one">প্রিয়গুলো থেকে %dটি ট্র্যাক অপসারিত হয়েছে।</item>
+    </plurals>
+    <plurals name="NNNtrackstofavorite">
+        <item quantity="other">প্রিয়তে %dটি ট্র্যাক যোগ হয়েছে।</item>
+        <item quantity="one">প্রিয়গুলোতে %dটি ট্র্যাক যুক্ত হয়েছে।</item>
+    </plurals>
+    <plurals name="NNNtrackstoplaylist">
+        <item quantity="other">গানের তালিকাতে %dটি ট্র্যাক যুক্ত হয়েছে।</item>
+        <item quantity="one">প্লেতালিকাতে %dটি ট্র্যাক যুক্ত হয়েছে।</item>
+    </plurals>
+    <plurals name="drm_can_use_n_times">
+        <item quantity="other">আপনি %1$s %2$d বার ব্যবহার করতে পারেন।</item>
+        <item quantity="one">আপনি %s একবার ব্যবহার করতে পারেন।</item>
+    </plurals>
+    <plurals name="n_albums_deleted_msg">
+        <item quantity="other">আপনার ফোন থেকে %dটি অ্যালবাম ও এর মধ্যে থাকা সব ট্র্যাক মুছবেন?</item>
+        <item quantity="one">আপনার ফোন থেকে 1টি অ্যালবাম ও এর মধ্যে থাকা সব ট্র্যাক মুছবেন?</item>
+    </plurals>
+    <plurals name="n_artists_deleted_msg">
+        <item quantity="other">এই শিল্পীদের সব ট্র্যাক মুছবেন?</item>
+        <item quantity="one">এই শিল্পীর সব ট্র্যাক মুছবেন?</item>
+    </plurals>
+    <plurals name="n_composers_deleted_msg">
+        <item quantity="other">এই গীতিকারদের সব ট্র্যাক মুছবেন?</item>
+        <item quantity="one">এই গীতিকারের সব ট্র্যাক মুছবেন?</item>
+    </plurals>
+    <plurals name="n_folders_deleted_msg">
+        <item quantity="other">আপনার ফোন থেকে %dটি ফোল্ডার ও এর মধ্যে থাকা সব ট্র্যাক মুছবেন?</item>
+        <item quantity="one">আপনার ফোন থেকে 1টি ফোল্ডার ও এর মধ্যে থাকা সব ট্র্যাক মুছবেন?</item>
+    </plurals>
+    <plurals name="n_genres_deleted_msg">
+        <item quantity="other">এই বিভাগগুলোর সব ট্র্যাক মুছবেন?</item>
+        <item quantity="one">এই বিভাগের সব ট্র্যাক মুছবেন?</item>
+    </plurals>
+    <plurals name="n_items_deleted_msg">
+        <item quantity="other">Delete %d items?</item>
+        <item quantity="one">Delete %d items?</item>
+    </plurals>
+    <plurals name="n_playlists_deleted_msg">
+        <item quantity="other">%dটি প্লেলিস্ট মুছবেন?</item>
+        <item quantity="one">1টি প্লেলিস্ট মুছবেন?</item>
+    </plurals>
+    <plurals name="n_tracks_added_to_queue">
+        <item quantity="other">সারিতে %dটি ট্র্যাক যুক্ত হয়েছে।</item>
+        <item quantity="one">সারিতে %dটি ট্র্যাক যুক্ত হয়েছে।</item>
+    </plurals>
+    <plurals name="n_tracks_deleted_msg">
+        <item quantity="other">%dটি ট্র্যাক মুছবেন?</item>
+        <item quantity="one">1টি ট্র্যাক মুছবেন?</item>
+    </plurals>
+</resources>

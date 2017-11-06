@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/base_blur_background_common" />
+    <LinearLayout android:orientation="vertical" android:id="@id/recommend_radio_content" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:id="@id/main_content" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <com.samsung.android.app.music.milk.store.widget.RollingBanner android:id="@id/recommend_radio_banner" android:layout_width="fill_parent" android:layout_height="wrap_content" app:ratio="0.15625" />
+            <com.samsung.android.app.music.milk.advertise.AdBannerBand android:id="@id/recommend_radio_ad_banner" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+            <android.support.design.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/recommend_radio_ad_banner" android:layout_below="@id/recommend_radio_banner">
+                <com.samsung.android.app.music.milk.store.widget.HeaderLayout android:layout_width="fill_parent" android:layout_height="@dimen/milk_recommend_radio_header_height" app:layout_behavior="com.samsung.android.app.music.milk.store.widget.HeaderScrollBehavior">
+                    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+                        <include layout="@layout/milk_spinner_common_layout" />
+                    </RelativeLayout>
+                </com.samsung.android.app.music.milk.store.widget.HeaderLayout>
+                <com.samsung.android.app.music.milk.store.widget.RecyclerListView android:id="@id/recommend_radio_list_view" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_behavior="com.samsung.android.app.music.milk.store.widget.ContentsLayoutBehavior" />
+            </android.support.design.widget.CoordinatorLayout>
+        </RelativeLayout>
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include layout="@layout/mini_player" />
+            <ViewStub android:id="@id/bottom_bar_stub" android:layout="@layout/music_ui_bottom_bar_container" android:layout_width="fill_parent" android:layout_height="@dimen/mini_player_layout_height" />
+        </FrameLayout>
+    </LinearLayout>
+    <include layout="@layout/milk_common_list_progress" />
+    <com.samsung.android.app.music.milk.store.widget.NoNetworkLayout android:id="@id/no_network" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</RelativeLayout>

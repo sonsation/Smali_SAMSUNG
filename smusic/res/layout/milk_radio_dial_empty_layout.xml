@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="@dimen/milk_recommend_connection_failed_txt_size" android:textColor="@color/milk_no_network_main_color" android:gravity="center_horizontal" android:id="@id/mr_empty_prompt_txt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginRight="24.0dip" android:layout_centerHorizontal="true" android:fontFamily="roboto-regular" />
+        <TextView android:textSize="13.0dip" android:textColor="@color/milk_no_network_link_color" android:id="@id/mr_empty_link_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:layout_below="@id/mr_empty_prompt_txt" android:layout_centerHorizontal="true" android:fontFamily="roboto-regular" />
+    </RelativeLayout>
+</RelativeLayout>

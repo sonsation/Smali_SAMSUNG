@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:focusable="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/list_item_two_line_min_height_winset" android:paddingStart="@dimen/list_item_padding_horizontal_winset" android:paddingEnd="@dimen/list_item_padding_horizontal_winset"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/albumart_layout_bigpond_top10" android:layout_width="wrap_content" android:layout_height="@dimen/list_item_thumbnail_two_line_size" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" android:layout_alignWithParentIfMissing="true" android:layout_marginEnd="@dimen/list_item_track_padding_end">
+        <ImageView android:id="@id/albumart_bigpond_top10" android:background="@drawable/thumbnail_border" android:padding="@dimen/list_item_thumbnail_stroke" android:layout_width="@dimen/list_item_thumbnail_two_line_size" android:layout_height="@dimen/list_item_thumbnail_two_line_size" android:src="@drawable/music_player_default_cover" android:scaleType="centerCrop" />
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:fadingEdge="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignWithParentIfMissing="true" android:layout_marginEnd="7.0dip" android:layout_toEndOf="@id/albumart_layout_bigpond_top10">
+        <TextView android:textSize="@dimen/list_item_text1_winset" android:textColor="@color/list_item_text1_winset" android:id="@id/text1_bigpond_top10" style="@style/Text.SecLight.ListItem" />
+        <TextView android:textSize="@dimen/list_item_text2_winset" android:textColor="@color/list_item_text2_winset" android:id="@id/text2_bigpond_top10" style="@style/Text.SecLight.ListItem" />
+    </LinearLayout>
+</RelativeLayout>

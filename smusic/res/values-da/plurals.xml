@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NNNalbum">
+        <item quantity="other">%d album</item>
+        <item quantity="one">%d album</item>
+    </plurals>
+    <plurals name="NNNartist_album">
+        <item quantity="other">Album</item>
+        <item quantity="one">Album</item>
+    </plurals>
+    <plurals name="NNNartist_track">
+        <item quantity="other">Numre</item>
+        <item quantity="one">Nummer</item>
+    </plurals>
+    <plurals name="NNNsometrackstofavorite">
+        <item quantity="other">%d numre føjet til Favoritter. Numre, der allerede findes i Favoritter, blev ikke tilføjet.</item>
+        <item quantity="one">%d nummer føjet til Favoritter. Numre, der allerede findes i Favoritter, blev ikke tilføjet.</item>
+    </plurals>
+    <plurals name="NNNtrack">
+        <item quantity="other">%d numre</item>
+        <item quantity="one">%d nummer</item>
+    </plurals>
+    <plurals name="NNNtracksfromfavorite">
+        <item quantity="other">%d numre fjernet fra Favoritter.</item>
+        <item quantity="one">%d nummer fjernet fra Favoritter.</item>
+    </plurals>
+    <plurals name="NNNtrackstofavorite">
+        <item quantity="other">%d numre føjet til favoritter.</item>
+        <item quantity="one">Nummeret %d er blevet føjet til Favoritter.</item>
+    </plurals>
+    <plurals name="NNNtrackstoplaylist">
+        <item quantity="other">%d numre er føjet til afspilningslisten.</item>
+        <item quantity="one">Der er føjet %d nummer til afspilningslisten.</item>
+    </plurals>
+    <plurals name="drm_can_use_n_times">
+        <item quantity="other">Du kan bruge %1$s %2$d gange.</item>
+        <item quantity="one">Du kan bruge %s 1 gang.</item>
+    </plurals>
+    <plurals name="n_albums_deleted_msg">
+        <item quantity="other">Vil du slette %d album og alle numrene i dem fra din telefon?</item>
+        <item quantity="one">Vil du slette 1 album og alle numrene i det fra din telefon?</item>
+    </plurals>
+    <plurals name="n_artists_deleted_msg">
+        <item quantity="other">Vil du slette alle numre af disse kunstnere?</item>
+        <item quantity="one">Vil du slette alle numre af denne kunstner?</item>
+    </plurals>
+    <plurals name="n_composers_deleted_msg">
+        <item quantity="other">Vil du slette alle numre af disse komponister?</item>
+        <item quantity="one">Vil du slette alle numre af denne komponist?</item>
+    </plurals>
+    <plurals name="n_folders_deleted_msg">
+        <item quantity="other">Vil du slette %d mapper og alle numrene i dem fra din telefon?</item>
+        <item quantity="one">Vil du slette 1 mappe og alle numrene i den fra din telefon?</item>
+    </plurals>
+    <plurals name="n_genres_deleted_msg">
+        <item quantity="other">Vil du slette alle numre i disse genrer?</item>
+        <item quantity="one">Vil du slette alle numre i denne genre?</item>
+    </plurals>
+    <plurals name="n_items_deleted_msg">
+        <item quantity="other">Delete %d items?</item>
+        <item quantity="one">Delete %d items?</item>
+    </plurals>
+    <plurals name="n_playlists_deleted_msg">
+        <item quantity="other">Vil du slette %d afspilningslister?</item>
+        <item quantity="one">Vil du slette 1 afspilningsliste?</item>
+    </plurals>
+    <plurals name="n_tracks_added_to_queue">
+        <item quantity="other">%d numre er føjet til køen.</item>
+        <item quantity="one">Der er føjet %d nummer til køen.</item>
+    </plurals>
+    <plurals name="n_tracks_deleted_msg">
+        <item quantity="other">Vil du slette %d numre?</item>
+        <item quantity="one">Vil du slette 1 nummer?</item>
+    </plurals>
+</resources>

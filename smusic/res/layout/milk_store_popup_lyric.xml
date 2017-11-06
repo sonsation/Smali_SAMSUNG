@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="@dimen/simple_lyric_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:paddingLeft="@dimen/simple_lyric_padding_left" android:paddingTop="@dimen/simple_lyric_padding_top" android:paddingBottom="@dimen/simple_lyric_padding_bottom" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="18.0dip" android:textStyle="bold" android:textColor="#e6252525" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="@dimen/simple_lyric_padding_right" android:text="@string/milk_common_track_popup_title_lyric" android:fontFamily="roboto-condensed" />
+        <TextView android:textSize="17.0dip" android:textColor="#e6252525" android:gravity="center_vertical" android:id="@id/track_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/simple_lyric_padding_top_of_songtitle" android:layout_marginRight="@dimen/simple_lyric_padding_right" android:layout_below="@id/title" android:fontFamily="roboto-regular" />
+        <TextView android:textSize="13.0dip" android:textColor="#e6252525" android:id="@id/artist_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginRight="@dimen/simple_lyric_padding_right" android:layout_below="@id/track_title" android:fontFamily="sans-serif" />
+        <View android:id="@id/divider" android:background="@color/milk_common_lyric_popup_divider" android:layout_width="fill_parent" android:layout_height="2.0px" android:layout_marginTop="8.0dip" android:layout_marginRight="@dimen/simple_lyric_padding_right" android:layout_below="@id/artist_name" />
+        <ScrollView android:id="@id/lyrics_scroll" android:paddingRight="3.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/divider">
+            <TextView android:textSize="13.0dip" android:textColor="#e6252525" android:id="@id/lyrics" android:paddingTop="23.0dip" android:paddingBottom="23.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="@dimen/simple_lyric_padding_right" android:lineSpacingExtra="7.0dip" android:fontFamily="sans-serif-light" />
+        </ScrollView>
+        <include layout="@layout/milk_common_list_progress" />
+    </RelativeLayout>
+    <FrameLayout android:layout_gravity="end" android:id="@id/cancel" android:background="@drawable/ripple_button_oval_light" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/simple_lyric_close_margin_top" android:layout_marginRight="@dimen/simple_lyric_close_margin_right" android:layout_alignParentRight="true">
+        <ImageView android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@drawable/pop_ic_cancel_small_b" android:scaleType="fitXY" />
+    </FrameLayout>
+</FrameLayout>

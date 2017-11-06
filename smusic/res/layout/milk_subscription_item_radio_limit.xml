@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="13.0dip" android:layout_marginStart="18.0dip" android:layout_marginEnd="18.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="15.0dip" android:textColor="@color/milk_subscription_text_color" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/milk_radio_play_enjoy" />
+    <TextView android:textSize="11.0dip" android:textColor="@color/milk_subscription_text_color" android:id="@id/tv_milk_radio_play_model_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" />
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_milk_radio_limit_info_table" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="33.0dip">
+            <TextView android:textSize="11.0dip" android:textColor="@color/milk_subscription_text_color" android:gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/milk_radio_play_available" android:layout_weight="2.0" />
+            <View android:background="@color/milk_download_basket_header_inner_divider_color" android:layout_width="2.0px" android:layout_height="fill_parent" android:layout_alignParentBottom="true" />
+            <TextView android:textSize="11.0dip" android:textColor="@color/milk_subscription_text_color" android:gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/milk_radio_play_done" android:layout_weight="1.0" />
+            <View android:background="@color/milk_download_basket_header_inner_divider_color" android:layout_width="2.0px" android:layout_height="fill_parent" android:layout_alignParentBottom="true" />
+            <TextView android:textSize="11.0dip" android:textColor="@color/milk_subscription_text_color" android:gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/milk_radio_play_remain" android:layout_weight="1.0" />
+        </LinearLayout>
+        <View android:background="@color/milk_download_basket_header_inner_divider_color" android:layout_width="fill_parent" android:layout_height="2.0px" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="95.0dip">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <TextView android:textSize="11.0dip" android:textColor="@color/milk_subscription_text_color" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/milk_radio_play_total_offer" />
+                <TextView android:textSize="11.0dip" android:textColor="@color/milk_subscription_text_color" android:gravity="center" android:id="@id/tv_milk_radio_play_total_offer" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/FontRobotoMedium" />
+            </LinearLayout>
+            <View android:background="@color/milk_download_basket_header_inner_divider_color" android:layout_width="2.0px" android:layout_height="fill_parent" android:layout_alignParentBottom="true" />
+            <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                    <TextView android:textSize="11.0dip" android:textColor="@color/milk_subscription_text_color" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/milk_radio_play_basic_offer" />
+                    <TextView android:textSize="11.0dip" android:textColor="@color/milk_subscription_text_color" android:gravity="center" android:id="@id/tv_milk_radio_play_basic_offer" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/FontRobotoMedium" />
+                </LinearLayout>
+                <View android:background="@color/milk_download_basket_header_inner_divider_color" android:layout_width="fill_parent" android:layout_height="2.0px" />
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                    <TextView android:textSize="11.0dip" android:textColor="@color/milk_subscription_text_color" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/milk_radio_play_bonus_offer" />
+                    <TextView android:textSize="11.0dip" android:textColor="@color/milk_subscription_text_color" android:gravity="center" android:id="@id/tv_milk_radio_play_bonus_offer" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/FontRobotoMedium" />
+                </LinearLayout>
+            </LinearLayout>
+            <View android:background="@color/milk_download_basket_header_inner_divider_color" android:layout_width="2.0px" android:layout_height="fill_parent" android:layout_alignParentBottom="true" />
+            <TextView android:textSize="11.0dip" android:textColor="@color/milk_subscription_text_color" android:gravity="center" android:id="@id/tv_milk_radio_play_listen_count" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" style="@style/FontRobotoMedium" />
+            <View android:background="@color/milk_download_basket_header_inner_divider_color" android:layout_width="2.0px" android:layout_height="fill_parent" />
+            <TextView android:textSize="11.0dip" android:textColor="@color/milk_subscription_text_color" android:gravity="center" android:id="@id/tv_milk_radio_play_available_count" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" style="@style/FontRobotoMedium" />
+        </LinearLayout>
+    </LinearLayout>
+    <TextView android:textSize="11.0dip" android:textColor="@color/milk_subscription_text_color" android:id="@id/tv_milk_radio_play_duration" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="11.0dip" />
+    <TextView android:textSize="11.0dip" android:textColor="@color/milk_subscription_text_color" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="@string/milk_radio_play_guide_text1" />
+    <TextView android:textSize="11.0dip" android:textColor="@color/milk_subscription_text_color" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/milk_radio_play_guide_text2" />
+    <TextView android:textSize="11.0dip" android:textColor="@color/milk_subscription_text_color" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/milk_radio_play_guide_text3" />
+</LinearLayout>

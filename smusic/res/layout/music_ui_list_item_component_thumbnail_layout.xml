@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout android:id="@id/thumbnail_layout" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/thumbnail" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" layout="@layout/music_ui_list_item_thumbnail" />
+    <ViewStub android:id="@id/folder_icon_stub" android:layout="@layout/music_ui_list_item_stub_folder_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="@id/thumbnail" app:layout_constraintEnd_toEndOf="@id/thumbnail" />
+    <ViewStub android:id="@id/track_tag_icon_stub" android:layout="@layout/music_ui_list_item_stub_track_tag_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/list_item_thumbnail_stroke" android:layout_marginStart="@dimen/list_item_thumbnail_stroke" app:layout_constraintBottom_toBottomOf="@id/thumbnail" app:layout_constraintStart_toStartOf="@id/thumbnail" />
+    <ViewStub android:id="@id/track_tag_text_stub" android:layout="@layout/music_ui_list_item_stub_track_tag_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/list_item_thumbnail_stroke" android:layout_marginStart="@dimen/list_item_thumbnail_stroke" app:layout_constraintBottom_toBottomOf="@id/thumbnail" app:layout_constraintStart_toStartOf="@id/thumbnail" />
+</android.support.constraint.ConstraintLayout>

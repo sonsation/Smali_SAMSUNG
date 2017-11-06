@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NNNalbum">
+        <item quantity="other">%d àlbums</item>
+        <item quantity="one">%d àlbum</item>
+    </plurals>
+    <plurals name="NNNartist_album">
+        <item quantity="other">Àlbums</item>
+        <item quantity="one">Àlbum</item>
+    </plurals>
+    <plurals name="NNNartist_track">
+        <item quantity="other">Pistes</item>
+        <item quantity="one">Pista</item>
+    </plurals>
+    <plurals name="NNNsometrackstofavorite">
+        <item quantity="other">"%d pistes afegides a Preferits. No s'han afegit les pistes que ja eren a Preferits."</item>
+        <item quantity="one">"S'ha afegit %d pista a Preferits. No s'ha afegit la pista que ja era a Preferits."</item>
+    </plurals>
+    <plurals name="NNNtrack">
+        <item quantity="other">%d pistes</item>
+        <item quantity="one">%d pista</item>
+    </plurals>
+    <plurals name="NNNtracksfromfavorite">
+        <item quantity="other">%d pistes eliminades de Preferits.</item>
+        <item quantity="one">"S'ha eliminat %d pista de Preferits."</item>
+    </plurals>
+    <plurals name="NNNtrackstofavorite">
+        <item quantity="other">"S'han afegit %d pistes a preferits."</item>
+        <item quantity="one">"S'ha afegit %d pista a preferits."</item>
+    </plurals>
+    <plurals name="NNNtrackstoplaylist">
+        <item quantity="other">"S'han afegit %d pistes a la llista de reproducció"</item>
+        <item quantity="one">"S'ha afegit %d pista a la llista de reproducció."</item>
+    </plurals>
+    <plurals name="drm_can_use_n_times">
+        <item quantity="other">Pot utilitzar %1$s %2$d vegades</item>
+        <item quantity="one">Pot utilitzar %s 1 vegada</item>
+    </plurals>
+    <plurals name="n_albums_deleted_msg">
+        <item quantity="other">Vols esborrar del telèfon %d àlbums i totes les pistes que contenen?</item>
+        <item quantity="one">Vols esborrar del telèfon 1 àlbum i totes les pistes que conté?</item>
+    </plurals>
+    <plurals name="n_artists_deleted_msg">
+        <item quantity="other">"Vol esborrar totes les pistes d'aquests artistes?"</item>
+        <item quantity="one">"Vol esborrar totes les pistes d'aquest artista?"</item>
+    </plurals>
+    <plurals name="n_composers_deleted_msg">
+        <item quantity="other">"Vol esborrar totes les pistes d'aquests compositors?"</item>
+        <item quantity="one">"Vol esborrar totes les pistes d'aquest compositor?"</item>
+    </plurals>
+    <plurals name="n_folders_deleted_msg">
+        <item quantity="other">Vols esborrar del telèfon %d carpetes i totes les pistes que contenen?</item>
+        <item quantity="one">Vols esborrar del telèfon 1 carpeta i totes les pistes que conté?</item>
+    </plurals>
+    <plurals name="n_genres_deleted_msg">
+        <item quantity="other">"Vol esborrar totes les pistes d'aquests gèneres?"</item>
+        <item quantity="one">"Vol esborrar totes les pistes d'aquest gènere?"</item>
+    </plurals>
+    <plurals name="n_items_deleted_msg">
+        <item quantity="other">Delete %d items?</item>
+        <item quantity="one">Delete %d items?</item>
+    </plurals>
+    <plurals name="n_playlists_deleted_msg">
+        <item quantity="other">Vol esborrar %d llistes de reproducció?</item>
+        <item quantity="one">Vol esborrar 1 llista de reproducció?</item>
+    </plurals>
+    <plurals name="n_tracks_added_to_queue">
+        <item quantity="other">%d pistes afegides a la cua.</item>
+        <item quantity="one">"S'ha afegit %d pista a la cua."</item>
+    </plurals>
+    <plurals name="n_tracks_deleted_msg">
+        <item quantity="other">Vol esborrar %d pistes?</item>
+        <item quantity="one">Vol esborrar 1 pista?</item>
+    </plurals>
+</resources>

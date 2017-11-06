@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_gravity="bottom" android:id="@id/text_layout" android:duplicateParentState="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/list_item_padding_horizontal_winset" android:layout_marginEnd="@dimen/list_item_padding_horizontal_winset">
+        <TextView android:textSize="@dimen/album_cover_view_main_text" android:textColor="@color/blur_text" android:ellipsize="end" android:id="@id/text1" android:singleLine="true" style="@style/Text.SecLight" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/album_cover_view_sub_text_margin_top" android:layout_marginBottom="@dimen/album_cover_view_sub_text_margin_bottom" android:divider="@drawable/divider_vertical" android:layout_below="@id/text1" android:showDividers="middle" android:dividerPadding="2.0dip">
+            <TextView android:textSize="@dimen/album_cover_view_sub_text" android:textColor="@color/blur_sub_text" android:ellipsize="end" android:id="@id/text2" android:visibility="gone" android:singleLine="true" android:includeFontPadding="false" android:paddingStart="1.0dip" android:paddingEnd="@dimen/album_cover_view_sub_text_horizontal_padding" style="@style/Text.SecLight" />
+            <TextView android:textSize="@dimen/album_cover_view_sub_text" android:textColor="@color/blur_sub_text" android:id="@id/text3" android:visibility="gone" android:singleLine="true" android:includeFontPadding="false" android:paddingStart="@dimen/album_cover_view_sub_text_horizontal_padding" android:paddingEnd="@dimen/album_cover_view_sub_text_horizontal_padding" style="@style/Text.SecLight" />
+            <TextView android:textSize="@dimen/album_cover_view_sub_text" android:textColor="@color/blur_sub_text" android:id="@id/text4" android:visibility="gone" android:singleLine="true" android:includeFontPadding="false" android:paddingStart="@dimen/album_cover_view_sub_text_horizontal_padding" android:paddingEnd="@dimen/album_cover_view_sub_text_horizontal_padding" style="@style/Text.SecLight" />
+            <TextView android:textSize="@dimen/album_cover_view_sub_text" android:textColor="@color/blur_sub_text" android:id="@id/text5" android:visibility="gone" android:singleLine="true" android:includeFontPadding="false" android:paddingStart="@dimen/album_cover_view_sub_text_horizontal_padding" style="@style/Text.SecLight" />
+        </LinearLayout>
+    </RelativeLayout>
+</merge>

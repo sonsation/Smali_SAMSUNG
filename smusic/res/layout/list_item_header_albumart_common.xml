@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/list_item_title_layout_root" android:focusable="true" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/list_item_title_spacing_each_album" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/list_item_artist_header_album_margin_vertical" />
+    <View android:id="@id/list_item_title_spacing_top" android:layout_width="fill_parent" android:layout_height="@dimen/list_divider_height_winset" android:layout_marginBottom="@dimen/list_item_artist_header_margin_vertical" android:layout_marginStart="@dimen/list_divider_inset_winset" android:layout_marginEnd="@dimen/list_divider_inset_winset" />
+    <RelativeLayout android:id="@id/list_item_title_layout" android:background="@color/list_item_artist_header_background_theme" android:focusable="false" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/list_item_artist_header_min_height" android:paddingStart="@dimen/list_item_artist_header_padding_horizontal" android:paddingEnd="@dimen/list_item_artist_header_padding_horizontal" android:layout_marginStart="@dimen/list_item_artist_header_margin_end" android:layout_marginEnd="@dimen/list_item_artist_header_margin_start">
+        <ViewStub android:id="@id/list_item_title_image_stub" android:layout="@layout/list_item_title_image_stub_common" android:layout_width="@dimen/list_item_albumart_artist_size" android:layout_height="@dimen/list_item_albumart_artist_size" android:layout_centerVertical="true" android:layout_alignParentStart="true" />
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="@dimen/list_item_thumbnail_padding_right" android:layout_toEndOf="@id/list_item_title_image_layout">
+            <TextView android:textSize="@dimen/list_item_text1_winset" android:textColor="@color/list_item_artist_header_text1" android:id="@id/list_item_title_text" android:focusable="false" android:clickable="false" style="@style/Text.SecLight.ListItem" />
+            <TextView android:textSize="@dimen/list_item_text2_winset" android:textColor="@color/list_item_artist_header_text2" android:id="@id/list_item_sub_text" android:focusable="false" android:clickable="false" style="@style/Text.SecLight.ListItem" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

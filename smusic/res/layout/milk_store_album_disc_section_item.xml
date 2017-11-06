@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="36.0dip" android:layout_marginLeft="16.0dip" android:layout_marginRight="18.0dip">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="26.0dip" android:layout_marginTop="10.0dip">
+            <TextView android:textSize="@dimen/milk_store_common_album_list_item_title_text_size" android:textStyle="bold" android:textColor="#fffafafa" android:gravity="center_vertical" android:id="@id/disc_no" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/milk_store_artist_detail_related_artist_divider_right_margin" android:layout_centerVertical="true" android:fontFamily="roboto-condensed" />
+            <View android:id="@id/divider" android:background="#80ffffff" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_toRightOf="@id/disc_no" android:layout_centerVertical="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

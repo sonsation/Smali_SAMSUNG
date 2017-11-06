@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="widget_album_art_size">88.0dip</dimen>
+    <dimen name="widget_control_button_margin_top">6.0dip</dimen>
+    <dimen name="widget_control_button_size">27.0dip</dimen>
+    <dimen name="widget_control_text_margin_left">18.0dip</dimen>
+    <dimen name="widget_control_text_margin_right">18.0dip</dimen>
+</resources>

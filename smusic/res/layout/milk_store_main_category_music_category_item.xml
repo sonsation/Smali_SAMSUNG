@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="@dimen/milk_store_main_music_category_item_width" android:layout_height="@dimen/milk_store_main_music_category_item_height" android:layout_marginRight="@dimen/milk_store_main_music_category_item_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.samsung.android.app.music.milk.store.widget.NetworkImageView android:id="@id/genre_image" android:layout_width="@dimen/milk_store_main_music_category_item_image_width" android:layout_height="@dimen/milk_store_main_music_category_item_image_width" android:scaleType="fitXY" android:layout_centerInParent="true" />
+    <TextView android:textSize="@dimen/milk_fontsize_13_dp" android:textColor="@color/milk_store_music_category_item_title_color" android:gravity="center" android:id="@id/genre_title" android:background="@color/milk_store_music_category_item_dim_color" android:layout_width="@dimen/milk_store_main_music_category_item_image_width" android:layout_height="@dimen/milk_store_main_music_category_item_image_width" android:includeFontPadding="false" android:shadowColor="@color/milk_store_music_category_item_shadow_color" android:shadowDx="0.0" android:shadowDy="0.0" android:shadowRadius="25.0" android:layout_centerInParent="true" />
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="quick_panel_albumart_margin_left">12.0dip</dimen>
+    <dimen name="quick_panel_close_margin_left">4.0dip</dimen>
+    <dimen name="quick_panel_control_button_play_pause_margin_horizontal">1.0dip</dimen>
+    <dimen name="quick_panel_control_margin_left">4.0dip</dimen>
+</resources>

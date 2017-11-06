@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/item_container" android:addStatesFromChildren="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/image_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.samsung.android.app.music.milk.store.widget.NetworkImageView android:id="@id/image" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="fitXY" />
+        <ImageView android:layout_width="@dimen/milk_store_main_music_video_item_play_width" android:layout_height="@dimen/milk_store_main_music_video_item_play_height" android:layout_marginRight="@dimen/milk_store_main_music_video_item_play_margin_right" android:layout_marginBottom="@dimen/milk_store_main_music_video_item_play_margin_bottom" android:src="@drawable/store_main_play_video_btn" android:scaleType="fitXY" android:layout_alignRight="@id/image" android:layout_alignBottom="@id/image" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/milk_store_main_music_video_item_text_container_height">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true">
+            <LinearLayout android:orientation="horizontal" android:id="@id/title_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <include layout="@layout/milk_store_item_common_explicit" />
+                <TextView android:textSize="12.0dip" android:textColor="#fffafafa" android:ellipsize="end" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:fontFamily="sans-serif" />
+            </LinearLayout>
+            <TextView android:textSize="12.0dip" android:textColor="#fffafafa" android:ellipsize="end" android:id="@id/artist" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_below="@id/title_container" android:fontFamily="sans-serif-light" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:addStatesFromChildren="true" android:layout_width="@dimen/milk_store_main_new_release_item_width" android:layout_height="@dimen/milk_store_main_new_release_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/item_container" android:addStatesFromChildren="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.samsung.android.app.music.milk.store.widget.NetworkImageView android:id="@id/default_image" android:layout_width="@dimen/milk_store_main_new_release_item_song_image_width" android:layout_height="@dimen/milk_store_main_new_release_item_song_image_height" android:src="@drawable/default_thumbnail_noitem_patch" android:scaleType="center" />
+        <com.samsung.android.app.music.milk.store.widget.NetworkImageView android:id="@id/song_image" android:layout_width="@dimen/milk_store_main_new_release_item_song_image_width" android:layout_height="@dimen/milk_store_main_new_release_item_song_image_height" android:scaleType="fitXY" />
+        <ImageView android:id="@id/song_play" android:layout_width="@dimen/milk_store_main_new_release_item_song_play_width" android:layout_height="@dimen/milk_store_main_new_release_item_song_play_height" android:layout_marginRight="@dimen/milk_store_main_new_release_item_song_play_margin_right" android:layout_marginBottom="@dimen/milk_store_main_new_release_item_song_play_margin_bottom" android:src="@drawable/store_main_play_btn" android:scaleType="fitXY" android:layout_alignRight="@id/song_image" android:layout_alignBottom="@id/song_image" android:contentDescription="@string/milk_store_talkback_play_button" />
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="@dimen/milk_store_main_new_release_item_text_frame_height" android:layout_below="@id/song_image">
+            <TextView android:textSize="@dimen/milk_store_main_new_release_item_title_font" android:textColor="#fffafafa" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:fontFamily="sans-serif" />
+            <TextView android:textSize="@dimen/milk_store_main_new_release_item_artist_font" android:textColor="#fffafafa" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/artist" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:fontFamily="sans-serif-light" />
+        </LinearLayout>
+    </RelativeLayout>
+</FrameLayout>

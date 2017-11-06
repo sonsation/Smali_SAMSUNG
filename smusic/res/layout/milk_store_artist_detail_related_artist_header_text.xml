@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/milk_store_artist_detail_related_artist_header_margin_left" android:layout_marginRight="@dimen/milk_store_artist_detail_related_artist_header_margin_right"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/milk_store_artist_detail_related_artist_header_text_size" android:textStyle="bold" android:textColor="#83fafafa" android:gravity="center_vertical" android:id="@id/text_header" android:layout_width="wrap_content" android:layout_height="@dimen/milk_store_artist_detail_related_artist_header_height" android:layout_marginRight="@dimen/milk_store_artist_detail_related_artist_divider_right_margin" android:layout_centerVertical="true" android:fontFamily="roboto-condensed" />
+    <View android:background="#80fafafa" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_toRightOf="@id/text_header" android:layout_centerVertical="true" />
+</RelativeLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <HorizontalScrollView android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <FrameLayout android:paddingLeft="@dimen/sesl_color_picker_gradient_wheel_container_padding_left" android:paddingTop="@dimen/sesl_color_picker_gradient_wheel_container_padding_top" android:layout_width="@dimen/sesl_color_picker_gradient_wheel_container_width" android:layout_height="@dimen/sesl_color_picker_gradient_wheel_container_height">
+                <com.samsung.android.support.sesl.component.widget.SeslGradientColorWheel android:id="@id/sesl_color_picker_gradient_wheel" android:focusable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            </FrameLayout>
+            <LinearLayout android:orientation="vertical" android:paddingTop="@dimen/sesl_color_picker_main_content_padding_top" android:paddingBottom="@dimen/sesl_color_picker_main_content_padding_bottom" android:layout_width="@dimen/sesl_color_picker_main_content_width" android:layout_height="wrap_content" android:paddingEnd="@dimen/sesl_color_picker_main_content_padding_right">
+                <include layout="@layout/sesl_color_picker_selected_color_group" />
+                <FrameLayout android:id="@id/sesl_color_picker_gradient_seekbar_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sesl_color_picker_gradient_seekbar_margin_top">
+                    <com.samsung.android.support.sesl.component.widget.SeslGradientColorSeekBar android:id="@id/sesl_color_picker_gradient_seekbar" android:background="@android:color/transparent" android:paddingTop="@dimen/sesl_color_picker_gradient_seekbar_padding" android:paddingBottom="@dimen/sesl_color_picker_gradient_seekbar_padding" android:layout_width="@dimen/sesl_color_picker_gradient_seekbar_width" android:layout_height="@dimen/sesl_color_picker_gradient_seekbar_height" android:importantForAccessibility="no" android:paddingStart="@dimen/sesl_color_picker_gradient_seekbar_padding" android:paddingEnd="@dimen/sesl_color_picker_gradient_seekbar_padding" />
+                </FrameLayout>
+                <include layout="@layout/sesl_color_picker_used_color_group" />
+            </LinearLayout>
+        </LinearLayout>
+    </HorizontalScrollView>
+</ScrollView>

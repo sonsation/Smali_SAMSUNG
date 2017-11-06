@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:left="@dimen/full_player_volume_panel_toucharea_horizontal" android:right="@dimen/full_player_volume_panel_toucharea_horizontal">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/full_player_volume_panel_background" />
+            <stroke android:width="@dimen/full_player_volume_bar_stroke_size" android:color="@color/full_player_volume_bar_stroke" />
+        </shape>
+    </item>
+</layer-list>

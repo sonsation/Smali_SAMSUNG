@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="28" android:drawable="@drawable/music_player_ic_shuffle_on_01" />
+    <item android:duration="28" android:drawable="@drawable/music_player_ic_shuffle_on_02" />
+    <item android:duration="28" android:drawable="@drawable/music_player_ic_shuffle_on_03" />
+    <item android:duration="28" android:drawable="@drawable/music_player_ic_shuffle_on_04" />
+    <item android:duration="28" android:drawable="@drawable/music_player_ic_shuffle_on_05" />
+    <item android:duration="28" android:drawable="@drawable/music_player_ic_shuffle_off_01" />
+</animation-list>

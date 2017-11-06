@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NNNalbum">
+        <item quantity="other">%d آلبوم</item>
+        <item quantity="one">%d آلبوم</item>
+    </plurals>
+    <plurals name="NNNartist_album">
+        <item quantity="other">آلبوم ها</item>
+        <item quantity="one">آلبوم</item>
+    </plurals>
+    <plurals name="NNNartist_track">
+        <item quantity="other">آهنگ</item>
+        <item quantity="one">آهنگ</item>
+    </plurals>
+    <plurals name="NNNsometrackstofavorite">
+        <item quantity="other">%d آهنگ به موارد دلخواه اضافه شد. آهنگ‌هایی که از قبل در موارد دلخواه وجود دارند اضافه نمی‌شوند.</item>
+        <item quantity="one">%d آهنگ به موارد دلخواه اضافه شد. آهنگی که از قبل در موارد دلخواه وجود دارد اضافه نمی‌شود.</item>
+    </plurals>
+    <plurals name="NNNtrack">
+        <item quantity="other">%d ترانه</item>
+        <item quantity="one">%d آهنگ</item>
+    </plurals>
+    <plurals name="NNNtracksfromfavorite">
+        <item quantity="other">%d آهنگ از موارد دلخواه حذف شد.</item>
+        <item quantity="one">%d آهنگ از موارد دلخواه حذف شد.</item>
+    </plurals>
+    <plurals name="NNNtrackstofavorite">
+        <item quantity="other">%d آهنگ به موارد دلخواه اضافه شد.</item>
+        <item quantity="one">%d آهنگ به موارد دلخواه اضافه شد.</item>
+    </plurals>
+    <plurals name="NNNtrackstoplaylist">
+        <item quantity="other">%d تراک به لیست پخش اضافه شد.</item>
+        <item quantity="one">%d آهنگ به لیست پخش اضافه شد.</item>
+    </plurals>
+    <plurals name="drm_can_use_n_times">
+        <item quantity="other">از %1$s %2$d بار دیگر می‌توانید استفاده کنید.</item>
+        <item quantity="one">از %s فقط 1 بار می‌توانید استفاده کنید.</item>
+    </plurals>
+    <plurals name="n_albums_deleted_msg">
+        <item quantity="other">%d آلبوم و همه آهنگ‌های موجود در آن‌ها از تلفن حذف شود؟</item>
+        <item quantity="one">۱ آلبوم و همه آهنگ‌های موجود در آن از تلفن حذف شود؟</item>
+    </plurals>
+    <plurals name="n_artists_deleted_msg">
+        <item quantity="other">همه آهنگ‌های این خوانندگان حذف شوند؟</item>
+        <item quantity="one">همه آهنگ‌های این خواننده حذف شود؟</item>
+    </plurals>
+    <plurals name="n_composers_deleted_msg">
+        <item quantity="other">همه آهنگ‌های این آهنگ‌سازان حذف شوند؟</item>
+        <item quantity="one">همه آهنگ‌های این آهنگ‌ساز حذف شود؟</item>
+    </plurals>
+    <plurals name="n_folders_deleted_msg">
+        <item quantity="other">%d پوشه و همه آهنگ‌های موجود در آن‌ها از تلفن حذف شود؟</item>
+        <item quantity="one">۱ پوشه و همه آهنگ‌های موجود در آن از تلفن حذف شود؟</item>
+    </plurals>
+    <plurals name="n_genres_deleted_msg">
+        <item quantity="other">همه آهنگ‌های این سبک‌ها حذف شود؟</item>
+        <item quantity="one">همه آهنگ‌های این سبک حذف شود؟</item>
+    </plurals>
+    <plurals name="n_items_deleted_msg">
+        <item quantity="other">Delete %d items?</item>
+        <item quantity="one">Delete %d items?</item>
+    </plurals>
+    <plurals name="n_playlists_deleted_msg">
+        <item quantity="other">%d لیست پخش حذف شود؟</item>
+        <item quantity="one">۱ لیست پخش حذف شود؟</item>
+    </plurals>
+    <plurals name="n_tracks_added_to_queue">
+        <item quantity="other">%d آهنگ به صف اضافه شد.</item>
+        <item quantity="one">%d آهنگ به صف اضافه شد.</item>
+    </plurals>
+    <plurals name="n_tracks_deleted_msg">
+        <item quantity="other">%d آهنگ حذف شود؟</item>
+        <item quantity="one">۱ آهنگ حذف شود؟</item>
+    </plurals>
+</resources>

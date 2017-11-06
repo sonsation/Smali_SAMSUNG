@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingTop="@dimen/dialog_choice_body_padding_top_winset" android:paddingBottom="@dimen/dialog_choice_body_padding_bottom_winset" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="@dimen/dialog_description_text_winset" android:textColor="@color/dialog_description_text_winset" android:id="@id/description" android:paddingTop="@dimen/dialog_description_text_padding_top_winset" android:paddingBottom="@dimen/dialog_description_text_padding_bottom_winset" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/legal_information_description" android:paddingStart="@dimen/dialog_description_text_padding_start_winset" android:paddingEnd="@dimen/dialog_description_text_padding_end_winset" />
+        <include android:id="@id/item_terms_and_condition" layout="@layout/dialog_choice_item_winset" />
+        <include android:id="@id/item_privacy_policy" layout="@layout/dialog_choice_item_winset" />
+        <include android:id="@id/item_privacy_policy_to_3rd" layout="@layout/dialog_choice_item_winset" />
+        <include android:id="@id/item_marketing" layout="@layout/dialog_choice_item_winset" />
+        <View android:background="@color/divider_dialog_sub_header_winset" android:layout_width="fill_parent" android:layout_height="@dimen/dialog_sub_header_divider_height_winset" android:layout_marginTop="@dimen/dialog_sub_header_margin_top_winset" android:layout_marginStart="@dimen/dialog_sub_header_divider_inset" android:layout_marginEnd="@dimen/dialog_sub_header_divider_inset" />
+        <include android:id="@id/item_agree_all" layout="@layout/dialog_choice_item_winset" />
+    </LinearLayout>
+</ScrollView>

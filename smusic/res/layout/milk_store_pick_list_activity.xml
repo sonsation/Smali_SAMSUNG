@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/base_blur_background_common" />
+    <LinearLayout android:orientation="vertical" android:id="@id/pick_list_container" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.samsung.android.app.music.milk.store.widget.RecyclerGridView android:id="@id/pick_list" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" app:numColumns="1" app:topMargin="2.0dip" app:bottomMargin="2.0dip" />
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include layout="@layout/mini_player" />
+            <ViewStub android:id="@id/bottom_bar_stub" android:layout="@layout/music_ui_bottom_bar_container" android:layout_width="fill_parent" android:layout_height="@dimen/mini_player_layout_height" />
+        </FrameLayout>
+    </LinearLayout>
+</RelativeLayout>

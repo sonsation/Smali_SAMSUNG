@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="full_player_seekbar_margin_top">0.0dip</dimen>
+    <dimen name="mini_player_seekbar_padding_top">0.0dip</dimen>
+    <dimen name="winset_seekbar_height">40.0dip</dimen>
+</resources>

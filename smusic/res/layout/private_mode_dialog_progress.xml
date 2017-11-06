@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingTop="@dimen/winset_dialog_body_padding_vertical" android:paddingBottom="@dimen/winset_dialog_body_padding_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/winset_dialog_body_padding_horizontal" android:paddingEnd="@dimen/winset_dialog_body_padding_horizontal"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/winset_dialog_slider_body_text" android:id="@id/text_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/moving" style="@style/Text.SecLight.DialogSliderText" />
+    <ProgressBar android:id="@id/progress" android:layout_width="fill_parent" android:layout_height="@dimen/winset_dialog_progressbar_height" android:layout_below="@id/text_message" android:layout_centerHorizontal="true" style="?android:attr/progressBarStyleHorizontal" />
+    <TextView android:id="@id/progress_percent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/progress" android:layout_alignParentEnd="true" style="@style/Text.SecLight.DialogSliderText" />
+    <TextView android:id="@id/progress_number" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/progress" android:layout_alignParentStart="true" style="@style/Text.SecLight.DialogSliderText" />
+</RelativeLayout>

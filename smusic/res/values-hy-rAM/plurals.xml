@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NNNalbum">
+        <item quantity="other">%d ալբոմ</item>
+        <item quantity="one">%d ալբոմ</item>
+    </plurals>
+    <plurals name="NNNartist_album">
+        <item quantity="other">Ալբոմներ</item>
+        <item quantity="one">Ալբոմ</item>
+    </plurals>
+    <plurals name="NNNartist_track">
+        <item quantity="other">Ձայնագրություններ</item>
+        <item quantity="one">Ձայնագրություն</item>
+    </plurals>
+    <plurals name="NNNsometrackstofavorite">
+        <item quantity="other">%d շավիղ ավելացվել է Սիրվածներին: Շավիղները, որոնք արդեն Սիրվածներում են, չեն ավելացվել:</item>
+        <item quantity="one">%d շավիղ ավելացվել է Սիրվածներին: Շավիղը, որն արդեն Սիրվածներում է, չի ավելացվել:</item>
+    </plurals>
+    <plurals name="NNNtrack">
+        <item quantity="other">%d երիզներ</item>
+        <item quantity="one">%d շավիղ</item>
+    </plurals>
+    <plurals name="NNNtracksfromfavorite">
+        <item quantity="other">%d շավիղ հեռացվել է Սիրվածներից:</item>
+        <item quantity="one">%d շավիղ հեռացվել է սիրվածներից:</item>
+    </plurals>
+    <plurals name="NNNtrackstofavorite">
+        <item quantity="other">%d շավիղ ավելացվել է սիրվածներին</item>
+        <item quantity="one">%d շավիղ ավելացվել է սիրվածներին:</item>
+    </plurals>
+    <plurals name="NNNtrackstoplaylist">
+        <item quantity="other">%d շավիղ ավելացվել է երգացանկին:</item>
+        <item quantity="one">%d շավիղ ավելացվել է երգացանկին:</item>
+    </plurals>
+    <plurals name="drm_can_use_n_times">
+        <item quantity="other">Կարող եք օգտագործել %1$s-ը %2$d անգամ:</item>
+        <item quantity="one">Դուք կարող եք օգտագործել %s-ը 1 անգամ:</item>
+    </plurals>
+    <plurals name="n_albums_deleted_msg">
+        <item quantity="other">Հեռախոսից վերացնե՞լ %d ալբոմ և ալբոմների բոլոր շավիղները:</item>
+        <item quantity="one">Հեռախոսից վերացնե՞լ 1 ալբոմ և ալբոմի բոլոր շավիղները:</item>
+    </plurals>
+    <plurals name="n_artists_deleted_msg">
+        <item quantity="other">Վերացնե՞լ այս կատարողների բոլոր շավիղները:</item>
+        <item quantity="one">Վերացնե՞լ այս կատարողի բոլոր շավիղները:</item>
+    </plurals>
+    <plurals name="n_composers_deleted_msg">
+        <item quantity="other">Վերացնե՞լ այս կոմպոզիտորների բոլոր շավիղները:</item>
+        <item quantity="one">Վերացնե՞լ այս կոմպոզիտորի բոլոր շավիղները:</item>
+    </plurals>
+    <plurals name="n_folders_deleted_msg">
+        <item quantity="other">Հեռախոսից վերացնե՞լ %d պանակ և պանակների բոլոր շավիղները:</item>
+        <item quantity="one">Հեռախոսից վերացնե՞լ 1 պանակ և պանակի բոլոր շավիղները:</item>
+    </plurals>
+    <plurals name="n_genres_deleted_msg">
+        <item quantity="other">Վերացնե՞լ այս ժանրերի բոլոր շավիղները:</item>
+        <item quantity="one">Վերացնե՞լ այս ժանրի բոլոր շավիղները:</item>
+    </plurals>
+    <plurals name="n_items_deleted_msg">
+        <item quantity="other">Delete %d items?</item>
+        <item quantity="one">Delete %d items?</item>
+    </plurals>
+    <plurals name="n_playlists_deleted_msg">
+        <item quantity="other">Վերացնե՞լ %d երգացանկ:</item>
+        <item quantity="one">Վերացնե՞լ 1 երգացանկ:</item>
+    </plurals>
+    <plurals name="n_tracks_added_to_queue">
+        <item quantity="other">%d ձայնագրությունը ավելացվել է հերթին:</item>
+        <item quantity="one">%d շավիղ ավելացվել է հերթին:</item>
+    </plurals>
+    <plurals name="n_tracks_deleted_msg">
+        <item quantity="other">Վերացնե՞լ %d շավիղ:</item>
+        <item quantity="one">Վերացնե՞լ 1 շավիղ:</item>
+    </plurals>
+</resources>

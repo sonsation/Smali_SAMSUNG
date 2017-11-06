@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NNNalbum">
+        <item quantity="other">%d ​อัลบั้ม</item>
+        <item quantity="one">%d อัลบั้ม</item>
+    </plurals>
+    <plurals name="NNNartist_album">
+        <item quantity="other">อัลบั้ม</item>
+        <item quantity="one">อัลบั้ม</item>
+    </plurals>
+    <plurals name="NNNartist_track">
+        <item quantity="other">แทร็ก</item>
+        <item quantity="one">แทร็ก</item>
+    </plurals>
+    <plurals name="NNNsometrackstofavorite">
+        <item quantity="other">เพิ่ม %d แทร็กไปยังรายการโปรดแล้วไม่ได้เพิ่มแทร็กที่อยู่ในรายการโปรดอยู่แล้ว</item>
+        <item quantity="one">เพิ่ม %d แทร็คไปยัง รายการโปรด แล้ว ไม่ได้เพิ่มแทร็คที่อยู่ในรายการโปรดอยู่แล้ว</item>
+    </plurals>
+    <plurals name="NNNtrack">
+        <item quantity="other">%d ​แทร็ก</item>
+        <item quantity="one">%d แทร็ก</item>
+    </plurals>
+    <plurals name="NNNtracksfromfavorite">
+        <item quantity="other">ลบ %d แทร็กออกจากรายการโปรดแล้ว</item>
+        <item quantity="one">ลบ %d แทร็คออกจาก รายการโปรด แล้ว</item>
+    </plurals>
+    <plurals name="NNNtrackstofavorite">
+        <item quantity="other">เพิ่ม %d แทร็กไปยังรายการโปรดแล้ว</item>
+        <item quantity="one">เพิ่ม %d แทร็คไปยัง รายการโปรด แล้ว</item>
+    </plurals>
+    <plurals name="NNNtrackstoplaylist">
+        <item quantity="other">เพิ่ม %d แทร็กไปยังรายการเพลงแล้ว</item>
+        <item quantity="one">เพิ่ม %d แทร็คไปยัง รายการเพลง แล้ว</item>
+    </plurals>
+    <plurals name="drm_can_use_n_times">
+        <item quantity="other">คุณ​สามารถ​ใช้ %1$s %2$d ​ครั้ง</item>
+        <item quantity="one">คุณ​สามารถ​ใช้ %s 1 ​ครั้ง</item>
+    </plurals>
+    <plurals name="n_albums_deleted_msg">
+        <item quantity="other">ลบ %d อัลบั้มและแทร็คทั้งหมดในนั้นจากโทรศัพท์ของคุณหรือไม่</item>
+        <item quantity="one">ลบ 1 อัลบั้มและแทร็คทั้งหมดในนั้นจากโทรศัพท์ของคุณหรือไม่</item>
+    </plurals>
+    <plurals name="n_artists_deleted_msg">
+        <item quantity="other">ลบแทร็กทั้งหมดโดยศิลปินเหล่านี้หรือไม่</item>
+        <item quantity="one">ลบแทร็กทั้งหมดโดยศิลปินนี้หรือไม่</item>
+    </plurals>
+    <plurals name="n_composers_deleted_msg">
+        <item quantity="other">ลบแทร็กทั้งหมดโดยผู้แต่งเหล่านี้หรือไม่</item>
+        <item quantity="one">ลบแทร็กทั้งหมดโดยผู้แต่งนี้หรือไม่</item>
+    </plurals>
+    <plurals name="n_folders_deleted_msg">
+        <item quantity="other">ลบ %d โฟลเดอร์และแทร็คทั้งหมดในนั้นจากโทรศัพท์ของคุณหรือไม่</item>
+        <item quantity="one">ลบ 1 โฟลเดอร์และแทร็คทั้งหมดในนั้นจากโทรศัพท์ของคุณหรือไม่</item>
+    </plurals>
+    <plurals name="n_genres_deleted_msg">
+        <item quantity="other">ลบแทร็กทั้งหมดในประเภทเหล่านี้หรือไม่</item>
+        <item quantity="one">ลบแทร็กทั้งหมดในประเภทนี้หรือไม่</item>
+    </plurals>
+    <plurals name="n_items_deleted_msg">
+        <item quantity="other">Delete %d items?</item>
+        <item quantity="one">Delete %d items?</item>
+    </plurals>
+    <plurals name="n_playlists_deleted_msg">
+        <item quantity="other">ลบ %d รายการเพลงหรือไม่</item>
+        <item quantity="one">ลบ 1 รายการเพลงหรือไม่</item>
+    </plurals>
+    <plurals name="n_tracks_added_to_queue">
+        <item quantity="other">เพิ่ม %d แทร็คไปยังคิวแล้ว</item>
+        <item quantity="one">เพิ่ม %d แทร็คไปยังคิวแล้ว</item>
+    </plurals>
+    <plurals name="n_tracks_deleted_msg">
+        <item quantity="other">ลบ %d แทร็กหรือไม่</item>
+        <item quantity="one">ลบ 1 แทร็คหรือไม่</item>
+    </plurals>
+</resources>

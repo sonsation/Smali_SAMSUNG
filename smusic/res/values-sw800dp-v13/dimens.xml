@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="full_player_control_layout_width">620.0dip</dimen>
+    <dimen name="full_player_option_layout_width">620.0dip</dimen>
+    <dimen name="widget_album_art_size">190.0dip</dimen>
+    <dimen name="widget_control_button_margin_top">24.0dip</dimen>
+    <dimen name="widget_control_button_size">52.0dip</dimen>
+    <dimen name="widget_control_text_margin_left">18.0dip</dimen>
+    <dimen name="widget_control_text_margin_right">18.0dip</dimen>
+    <dimen name="device_height">1280.0dip</dimen>
+    <dimen name="device_width">800.0dip</dimen>
+    <dimen name="full_player_album_spacing">24.0dip</dimen>
+    <dimen name="full_player_album_spacing_additional">24.0dip</dimen>
+    <dimen name="full_player_not_selected_album_height">155.0dip</dimen>
+    <dimen name="full_player_seekbar_stroke_size">1.0px</dimen>
+    <dimen name="widget_control_button_inside_margin_horizontal">7.0dip</dimen>
+    <dimen name="widget_control_button_margin_horizontal">19.0dip</dimen>
+    <dimen name="widget_control_button_outside_margin_horizontal">7.0dip</dimen>
+    <dimen name="widget_controller_artist">18.0dip</dimen>
+    <dimen name="widget_controller_title">21.0dip</dimen>
+    <dimen name="widget_list_divider_height">1.0px</dimen>
+    <dimen name="widget_list_item_artist">18.0dip</dimen>
+    <dimen name="widget_list_item_height">94.0dip</dimen>
+    <dimen name="widget_list_item_multi_line_padding_vertical">20.0dip</dimen>
+    <dimen name="widget_list_item_title">21.0dip</dimen>
+    <dimen name="widget_list_margin_horizontal">18.0dip</dimen>
+    <dimen name="widget_size_height">40.0dip</dimen>
+    <dimen name="widget_size_width">320.0dip</dimen>
+</resources>

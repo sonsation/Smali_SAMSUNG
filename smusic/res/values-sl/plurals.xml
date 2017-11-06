@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NNNalbum">
+        <item quantity="other">%d albumov</item>
+        <item quantity="one">%d album</item>
+    </plurals>
+    <plurals name="NNNartist_album">
+        <item quantity="other">Albumi</item>
+        <item quantity="one">Album</item>
+    </plurals>
+    <plurals name="NNNartist_track">
+        <item quantity="other">Posnetki</item>
+        <item quantity="one">Skladba</item>
+    </plurals>
+    <plurals name="NNNsometrackstofavorite">
+        <item quantity="other">Število skladb, dodanih med priljubljene: %d. Skladbe, ki so že med priljubljenimi, niso bile dodane.</item>
+        <item quantity="one">%d skladba je bila dodana med priljubljene. Skladba, ki je že med priljubljenimi, ni bila dodana.</item>
+    </plurals>
+    <plurals name="NNNtrack">
+        <item quantity="other">%d skladb</item>
+        <item quantity="one">%d skladb</item>
+    </plurals>
+    <plurals name="NNNtracksfromfavorite">
+        <item quantity="other">Število skladb, odstranjenih iz priljubljenih: %d.</item>
+        <item quantity="one">%d skladba je bila odstranjena iz priljubljenih.</item>
+    </plurals>
+    <plurals name="NNNtrackstofavorite">
+        <item quantity="other">Število skladb, dodanih med priljubljene: %d.</item>
+        <item quantity="one">%d skladba je bila dodana med priljubljene.</item>
+    </plurals>
+    <plurals name="NNNtrackstoplaylist">
+        <item quantity="other">%d skladb dodanih na seznam predvajanja.</item>
+        <item quantity="one">%d skladba je bila dodana na seznam predvajanja.</item>
+    </plurals>
+    <plurals name="drm_can_use_n_times">
+        <item quantity="other">%1$s lahko uporabite %2$d-krat.</item>
+        <item quantity="one">%s lahko uporabite enkrat.</item>
+    </plurals>
+    <plurals name="n_albums_deleted_msg">
+        <item quantity="other">Želite iz telefona izbrisati nekaj (%d) albumov in vse skladbe v njih?</item>
+        <item quantity="one">Želite iz telefona izbrisati 1 album in vse skladbe v njem?</item>
+    </plurals>
+    <plurals name="n_artists_deleted_msg">
+        <item quantity="other">Želite izbrisati vse skladbe teh izvajalcev?</item>
+        <item quantity="one">Želite izbrisati vse skladbe tega izvajalca?</item>
+    </plurals>
+    <plurals name="n_composers_deleted_msg">
+        <item quantity="other">Želite izbrisati vse skladbe teh skladateljev?</item>
+        <item quantity="one">Želite izbrisati vse skladbe tega skladatelja?</item>
+    </plurals>
+    <plurals name="n_folders_deleted_msg">
+        <item quantity="other">Želite iz telefona izbrisati nekaj (%d) map in vse skladbe v njih?</item>
+        <item quantity="one">Želite iz telefona izbrisati 1 mapo in vse skladbe v njej?</item>
+    </plurals>
+    <plurals name="n_genres_deleted_msg">
+        <item quantity="other">Želite izbrisati vse skladbe teh zvrsti?</item>
+        <item quantity="one">Želite izbrisati vse skladbe te zvrsti?</item>
+    </plurals>
+    <plurals name="n_items_deleted_msg">
+        <item quantity="other">Delete %d items?</item>
+        <item quantity="one">Delete %d items?</item>
+    </plurals>
+    <plurals name="n_playlists_deleted_msg">
+        <item quantity="other">Želite izbrisati nekaj (%d) seznamov predvajanja?</item>
+        <item quantity="one">Želite izbrisati 1 seznam predvajanja?</item>
+    </plurals>
+    <plurals name="n_tracks_added_to_queue">
+        <item quantity="other">V čakalno vrsto je dodanih toliko skladb: %d.</item>
+        <item quantity="one">%d skladba je bila dodana v čakalno vrsto.</item>
+    </plurals>
+    <plurals name="n_tracks_deleted_msg">
+        <item quantity="other">Želite izbrisati nekaj (%d) skladb?</item>
+        <item quantity="one">Želite izbrisati 1 skladbo?</item>
+    </plurals>
+</resources>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NNNalbum">
+        <item quantity="other">%dটা এলবাম</item>
+        <item quantity="one">%d টা এলবাম</item>
+    </plurals>
+    <plurals name="NNNartist_album">
+        <item quantity="other">এলবামসমূহ</item>
+        <item quantity="one">এলবাম</item>
+    </plurals>
+    <plurals name="NNNartist_track">
+        <item quantity="other">ট্ৰেকসমূহ</item>
+        <item quantity="one">ট্ৰেক</item>
+    </plurals>
+    <plurals name="NNNsometrackstofavorite">
+        <item quantity="other">প্ৰিয়ত %d টা ট্ৰেক যোগ কৰা হৈছে৷ ট্ৰেক ইতিমধ্যে প্ৰিয়ত যোগ কৰা নাই৷</item>
+        <item quantity="one">%d টা ট্ৰেক প্ৰিয়লৈ যোগ হৈছে৷ প্ৰিয়ত ইতিমধ্যে থকা ট্ৰেক যোগ কৰা নাই৷</item>
+    </plurals>
+    <plurals name="NNNtrack">
+        <item quantity="other">%d টা ট্ৰেক</item>
+        <item quantity="one">%d টা ট্ৰেক</item>
+    </plurals>
+    <plurals name="NNNtracksfromfavorite">
+        <item quantity="other">%d টা ট্ৰেক প্ৰিয়সমূহৰ পৰা আঁতৰোৱা হৈছে৷</item>
+        <item quantity="one">প্ৰিয়ৰ পৰা %d টা ট্ৰেক আঁতৰোৱা হৈছে৷</item>
+    </plurals>
+    <plurals name="NNNtrackstofavorite">
+        <item quantity="other">%d টা ট্ৰেক প্ৰিয়ত যোগ কৰা হৈছে৷</item>
+        <item quantity="one">%d টা ট্ৰেক প্ৰিয়লৈ যোগ হৈছে৷</item>
+    </plurals>
+    <plurals name="NNNtrackstoplaylist">
+        <item quantity="other">%d টা ট্ৰেক প্লেলিষ্টত যোগ কৰা হৈছে৷</item>
+        <item quantity="one">%d টা ট্ৰেক প্লেলিষ্টলৈ যোগ হৈছে৷</item>
+    </plurals>
+    <plurals name="drm_can_use_n_times">
+        <item quantity="other">আপুনি %1$s %2$d সময় ব্যৱহাৰ কৰিব পাৰে৷</item>
+        <item quantity="one">আপুনি 1 সময়ত %s ব্যৱহাৰ কৰিব পাৰে৷</item>
+    </plurals>
+    <plurals name="n_albums_deleted_msg">
+        <item quantity="other">তাত থকা %d টা এলবাম আৰু সকলো ট্ৰেক আপোনাৰ ফোনৰ পৰা বিলোপ কৰিবনে?</item>
+        <item quantity="one">ইয়াত থকা 1 টা এলবাম আৰু সকলো ট্ৰেক আপোনাৰ ফোনৰ পৰা বিলোপ কৰিবনে?</item>
+    </plurals>
+    <plurals name="n_artists_deleted_msg">
+        <item quantity="other">এই কলাকাৰৰ দ্বাৰা সকলো ট্ৰেক বিলোপ কৰিবনে?</item>
+        <item quantity="one">এই কলাকাৰৰ দ্বাৰা সকলো ট্ৰেক বিলোপ কৰিবনে?</item>
+    </plurals>
+    <plurals name="n_composers_deleted_msg">
+        <item quantity="other">এই সঙ্গীতকাৰৰ দ্বাৰা সকলো ট্ৰেক বিলোপ কৰিবনে?</item>
+        <item quantity="one">এই সঙ্গীতকাৰৰ দ্বাৰা সকলো ট্ৰেক বিলোপ কৰিবনে?</item>
+    </plurals>
+    <plurals name="n_folders_deleted_msg">
+        <item quantity="other">"তাত থকা %d টা ফ'ল্ডাৰ আৰু সকলো ট্ৰেক আপোনাৰ ফোনৰ পৰা বিলোপ কৰিবনে?"</item>
+        <item quantity="one">"ইয়াত থকা 1 টা ফ'ল্ডাৰ আৰু সকলো ট্ৰেক আপোনাৰ ফোনৰ পৰা বিলোপ কৰিবনে?"</item>
+    </plurals>
+    <plurals name="n_genres_deleted_msg">
+        <item quantity="other">এই ধৰণত সকলো ট্ৰেক বিলোপ কৰিবনে?</item>
+        <item quantity="one">এই ধৰণত সকলো ট্ৰেক বিলোপ কৰিবনে?</item>
+    </plurals>
+    <plurals name="n_items_deleted_msg">
+        <item quantity="other">Delete %d items?</item>
+        <item quantity="one">Delete %d items?</item>
+    </plurals>
+    <plurals name="n_playlists_deleted_msg">
+        <item quantity="other">%d টা প্লেলিষ্ট বিলোপ কৰিবনে?</item>
+        <item quantity="one">1 টা প্লেলিষ্ট বিলোপ কৰিবনে?</item>
+    </plurals>
+    <plurals name="n_tracks_added_to_queue">
+        <item quantity="other">%d টা ট্ৰেক শাৰীলৈ কৰা হৈছে৷</item>
+        <item quantity="one">%d টা ট্ৰেক শাৰীলৈ যোগ হৈছে৷</item>
+    </plurals>
+    <plurals name="n_tracks_deleted_msg">
+        <item quantity="other">%d টা ট্ৰেক বিলোপ কৰিবনে?</item>
+        <item quantity="one">1 টা ট্ৰেক বিলোপ কৰিবনে?</item>
+    </plurals>
+</resources>

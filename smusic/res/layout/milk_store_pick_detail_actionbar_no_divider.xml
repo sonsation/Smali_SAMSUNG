@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/milk_base_actionbar_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="17.0dip" android:textStyle="bold" android:textColor="#fffafafa" android:ellipsize="end" android:id="@id/actionbar_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_toLeftOf="@id/favorite_layout" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:fontFamily="sec-roboto-condensed" />
+    <FrameLayout android:id="@id/share_layout" android:addStatesFromChildren="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+        <ImageView android:id="@id/image_share" android:layout_width="@dimen/milk_store_actionbar_icon_size" android:layout_height="@dimen/milk_store_actionbar_icon_size" android:src="@drawable/ab_btn_share" android:contentDescription="@string/milk_share_menu_item" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/favorite_layout" android:addStatesFromChildren="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" android:layout_toLeftOf="@id/share_layout" android:layout_centerVertical="true">
+        <ImageView android:id="@id/image_favorite" android:layout_width="@dimen/milk_store_actionbar_icon_size" android:layout_height="@dimen/milk_store_actionbar_icon_size" android:src="@drawable/ab_btn_favorite" android:contentDescription="@string/milk_favorites" />
+    </FrameLayout>
+</RelativeLayout>

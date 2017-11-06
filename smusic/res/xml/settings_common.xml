@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <SwitchPreference android:title="@string/my_music_mode" android:key="my_music_mode" android:summary="@string/my_music_mode_summary" />
+    <com.samsung.android.app.music.common.settings.preference.MobileDataPreference android:title="@string/mobile_data" android:key="mobile_data" />
+    <com.samsung.android.app.music.common.settings.preference.MusicCustomPreference android:title="@string/manage_tabs" android:key="manage_tabs" />
+    <Preference android:title="@string/adapt_sound" android:key="adapt_sound" />
+    <SwitchPreference android:title="@string/settings_lock_screen" android:key="lock_screen" android:summary="@string/settings_lock_screen_summary" />
+    <SwitchPreference android:title="@string/screen_off_music" android:key="screen_off_music" android:summary="@string/screen_off_music_summary" />
+    <SwitchPreference android:title="@string/edge_lighting" android:key="edge_lighting" android:summary="@string/edge_lighting_summary" />
+    <com.samsung.android.app.music.common.settings.preference.PlaySpeedPreference android:title="@string/play_speed" android:key="play_speed" />
+    <Preference android:title="@string/sleep_timer" android:key="music_auto_off" />
+    <SwitchPreference android:title="@string/smart_volume" android:key="smart_volume" android:summary="@string/smart_volume_summary" />
+    <SwitchPreference android:title="@string/skip_silences" android:key="skip_silences" android:summary="@string/skip_silences_summary" />
+    <Preference android:title="@string/streaming_audio_quality" android:key="streaming_audio_quality" />
+    <Preference android:title="@string/download_audio_quality" android:key="download_audio_quality" />
+    <SwitchPreference android:title="@string/voice_control" android:key="barge_in" android:summary="@string/voice_control_summary" />
+    <Preference android:title="@string/play_option" android:key="play_option" />
+    <Preference android:title="@string/enqueue" android:key="enqueue_option" />
+    <SwitchPreference android:title="@string/duplicate_option" android:key="duplicate_option" android:summary="@string/duplicate_option_summary" />
+    <com.samsung.android.app.music.common.settings.preference.ExplicitPreference android:title="@string/explicit_setting" android:key="explicit_option" />
+    <SwitchPreference android:title="@string/play_similar_station_setting" android:key="similar_station" android:summary="@string/play_similar_station_summary" />
+    <SwitchPreference android:title="@string/push_notification_setting" android:key="push_notification" />
+    <com.samsung.android.app.music.common.settings.preference.CacheSizePreference android:title="@string/cache_size_setting" android:key="cache_size" />
+    <Preference android:title="@string/device_management_setting" android:key="device_management" />
+    <Preference android:title="@string/milk_setting_drm_license" android:key="drm_license" />
+    <com.samsung.android.app.music.common.settings.preference.AboutPreference android:key="about" />
+    <Preference android:title="@string/drm_expired_test_menu" android:key="drm_license_test_menu" />
+</PreferenceScreen>

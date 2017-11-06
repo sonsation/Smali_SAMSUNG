@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="@dimen/hover_popup_seekbar_text_size" android:textColor="@color/hover_popup_text_light_theme" android:ellipsize="none" android:gravity="center" android:background="@drawable/pen_basic_popup_bg" android:paddingTop="@dimen/hover_popup_padding_vertical" android:paddingBottom="@dimen/hover_popup_padding_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:fontFamily="sec-roboto-light" android:paddingStart="@dimen/hover_popup_padding_horizontal" android:paddingEnd="@dimen/hover_popup_padding_horizontal"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

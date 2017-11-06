@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="@dimen/list_item_heart_min_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/heart_item_stroke" />
+    <TextView android:textSize="@dimen/list_item_heart_guide_text" android:textColor="@color/list_item_heart_guide_text" android:gravity="center" android:id="@id/text1" android:background="@color/list_item_heart_guide_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:textAlignment="center" android:paddingStart="@dimen/list_item_heart_guide_padding_horizontal" android:paddingEnd="@dimen/list_item_heart_guide_padding_horizontal" android:elevation="@dimen/list_item_heart_elevation" style="@style/Text.SecLight" />
+    <include layout="@layout/heart_item_stroke" />
+</LinearLayout>

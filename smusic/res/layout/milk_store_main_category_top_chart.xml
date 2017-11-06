@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/header" layout="@layout/milk_store_main_category_common_header" />
+    <include android:id="@id/indicator" layout="@layout/milk_store_main_category_common_indicator" />
+    <RelativeLayout android:id="@id/play_all_container" android:addStatesFromChildren="true" android:layout_width="wrap_content" android:layout_height="@dimen/milk_store_main_common_header_height" android:layout_marginRight="@dimen/milk_store_main_top_chart_play_all_container_margin_right" android:layout_toLeftOf="@id/indicator" android:layout_alignTop="@id/header">
+        <TextView android:textSize="@dimen/milk_store_main_top_chart_play_all_text_font" android:textColor="#fffafafa" android:ellipsize="end" android:gravity="center" android:id="@id/play_all" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/milk_store_main_top_chart_play_all_text_margin_left" android:layout_marginRight="@dimen/milk_store_main_top_chart_play_all_text_margin_right" android:text="@string/milk_store_common_track_play_all" android:maxLines="1" android:layout_centerVertical="true" android:textAllCaps="true" android:fontFamily="sans-serif" />
+        <ImageView android:id="@id/play_all_image" android:layout_width="@dimen/milk_store_main_top_chart_play_all_image_width" android:layout_height="@dimen/milk_store_main_top_chart_play_all_image_height" android:layout_marginRight="@dimen/milk_store_main_top_chart_play_all_image_margin_right" android:src="@drawable/store_list_playall_btn" android:scaleType="fitXY" android:layout_toRightOf="@id/play_all" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <com.samsung.android.app.music.milk.store.widget.GridViewPager android:id="@id/viewpager" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/milk_store_main_top_chart_viewpager_height" android:layout_marginLeft="@dimen/milk_store_main_top_chart_viewpager_margin_left" android:layout_marginRight="@dimen/milk_store_main_top_chart_viewpager_margin_right" android:layout_below="@id/header" app:column="@integer/milk_store_main_top_chart_column" app:row="@integer/milk_store_main_top_chart_row" />
+    <android.support.v4.widget.Space android:id="@id/space" android:layout_width="fill_parent" android:layout_height="@dimen/milk_store_main_top_chart_bottom_space" android:layout_below="@id/viewpager" />
+    <include layout="@layout/milk_store_main_category_common_divider" />
+</RelativeLayout>

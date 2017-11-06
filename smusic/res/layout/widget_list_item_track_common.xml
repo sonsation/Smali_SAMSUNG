@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:id="@id/widget_list_view" android:paddingTop="@dimen/widget_list_item_multi_line_padding_vertical" android:paddingBottom="@dimen/widget_list_item_multi_line_padding_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/widget_list_item_height" android:layout_centerVertical="true" android:paddingStart="@dimen/widget_list_margin_horizontal" android:paddingEnd="@dimen/widget_list_margin_horizontal"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/widget_list_title_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:id="@id/widget_cp_icon" layout="@layout/list_item_streaming_tag" />
+        <TextView android:textSize="@dimen/widget_list_item_title" android:textColor="@color/widget_text" android:ellipsize="marquee" android:id="@id/widget_list_title" android:singleLine="true" android:layout_alignParentStart="true" style="@style/Text.SecLight" />
+    </LinearLayout>
+    <TextView android:textSize="@dimen/widget_list_item_artist" android:textColor="@color/widget_text" android:ellipsize="marquee" android:id="@id/widget_list_artist" android:singleLine="true" android:layout_below="@id/widget_list_title_layout" android:layout_alignParentStart="true" style="@style/Text.SecLight" />
+</RelativeLayout>

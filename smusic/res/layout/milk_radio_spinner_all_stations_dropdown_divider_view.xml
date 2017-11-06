@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/mr_divider_header_hybrid_element" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/milk_radio_spinner_drop_down_header_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/milk_radio_spinner_drop_down_header_text_size" android:textStyle="bold" android:textColor="#78252525" android:gravity="center_vertical" android:id="@id/mr_divider_element_text" android:layout_width="wrap_content" android:layout_height="@dimen/milk_radio_spinner_drop_down_header_height" android:layout_marginLeft="@dimen/milk_radio_spinner_header_margin" android:layout_marginRight="@dimen/milk_radio_spinner_header_text_margin" android:layout_centerVertical="true" android:fontFamily="roboto-condensed" />
+    <View android:background="#75252525" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginRight="@dimen/milk_radio_spinner_header_margin" android:layout_toRightOf="@id/mr_divider_element_text" android:layout_centerVertical="true" />
+</RelativeLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NNNalbum">
+        <item quantity="other">%d albumai (-ų)</item>
+        <item quantity="one">%d albumas</item>
+    </plurals>
+    <plurals name="NNNartist_album">
+        <item quantity="other">Albumai</item>
+        <item quantity="one">Albumas</item>
+    </plurals>
+    <plurals name="NNNartist_track">
+        <item quantity="other">Takeliai</item>
+        <item quantity="one">Kūrinys</item>
+    </plurals>
+    <plurals name="NNNsometrackstofavorite">
+        <item quantity="other">Prie parankinių pridėta įrašų: %d. Parankiniuose jau esantys įrašai neįtraukti.</item>
+        <item quantity="one">%d įrašas pridėtas prie „Mėgstamiausieji“. Mėgstamiausiuose jau esantis įrašas nebus pridėtas.</item>
+    </plurals>
+    <plurals name="NNNtrack">
+        <item quantity="other">%d dainos (-ų)</item>
+        <item quantity="one">%d įrašas</item>
+    </plurals>
+    <plurals name="NNNtracksfromfavorite">
+        <item quantity="other">Iš parankinių pašalinta garso įrašų: %d.</item>
+        <item quantity="one">%d įrašas pašalintas iš mėgstamiausiųjų.</item>
+    </plurals>
+    <plurals name="NNNtrackstofavorite">
+        <item quantity="other">Prie parankinių pridėtų garso takelių: %d</item>
+        <item quantity="one">%d įrašas pridėtas prie „Mėgstamiausieji“.</item>
+    </plurals>
+    <plurals name="NNNtrackstoplaylist">
+        <item quantity="other">Takeliai pridėti prie grojaraščio: %d</item>
+        <item quantity="one">Grojaraštyje pridėta takelių: %d.</item>
+    </plurals>
+    <plurals name="drm_can_use_n_times">
+        <item quantity="other">%1$s galite naudoti %2$d kartus.</item>
+        <item quantity="one">%s galite naudoti 1 kartą.</item>
+    </plurals>
+    <plurals name="n_albums_deleted_msg">
+        <item quantity="other">Trinti %d albumus (-ų) ir visus juose esančius įrašus iš jūsų telefono?</item>
+        <item quantity="one">Trinti 1 albumą ir visus jame esančius įrašus iš jūsų telefono?</item>
+    </plurals>
+    <plurals name="n_artists_deleted_msg">
+        <item quantity="other">Trinti visus šių atlikėjų įrašus?</item>
+        <item quantity="one">Trinti visus šio atlikėjo įrašus?</item>
+    </plurals>
+    <plurals name="n_composers_deleted_msg">
+        <item quantity="other">Trinti visus šių kompozitorių įrašus?</item>
+        <item quantity="one">Trinti visus šio kompozitoriaus įrašus?</item>
+    </plurals>
+    <plurals name="n_folders_deleted_msg">
+        <item quantity="other">Trinti %d aplankus (-ų) ir visus juose esančius įrašus iš jūsų telefono?</item>
+        <item quantity="one">Trinti 1 aplanką ir visus jame esančius įrašus iš jūsų telefono?</item>
+    </plurals>
+    <plurals name="n_genres_deleted_msg">
+        <item quantity="other">Trinti visus šių žanrų įrašus?</item>
+        <item quantity="one">Trinti visus šio žanro įrašus?</item>
+    </plurals>
+    <plurals name="n_items_deleted_msg">
+        <item quantity="other">Delete %d items?</item>
+        <item quantity="one">Delete %d items?</item>
+    </plurals>
+    <plurals name="n_playlists_deleted_msg">
+        <item quantity="other">Trinti %d grojarašč.?</item>
+        <item quantity="one">Trinti 1 grojaraštį?</item>
+    </plurals>
+    <plurals name="n_tracks_added_to_queue">
+        <item quantity="other">Į eilę įtraukta takelių: %d.</item>
+        <item quantity="one">Eilėje pridėta takelių: %d.</item>
+    </plurals>
+    <plurals name="n_tracks_deleted_msg">
+        <item quantity="other">Trinti %d įraš.?</item>
+        <item quantity="one">Trinti 1 įrašą?</item>
+    </plurals>
+</resources>

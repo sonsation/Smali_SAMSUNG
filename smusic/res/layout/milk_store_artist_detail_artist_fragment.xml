@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/main_content" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:id="@id/artist_detail_artist_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.samsung.android.app.music.milk.store.widget.RecyclerListView android:id="@id/artist_detail_list_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/artist_detail_empty_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/artist_detail_button_container">
+            <TextView android:textSize="@dimen/milk_list_empty_title_size" android:textColor="@color/milk_list_empty_color" android:id="@id/artist_detail_empty_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/milk_empty_list" android:layout_centerInParent="true" android:fontFamily="sans-serif" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/progressBarContainer" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ProgressBar android:id="@id/progressBar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:alpha="0.5" android:indeterminateTint="@color/white_opacity_100" style="?android:attr/progressBarStyleLarge" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/no_network_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.samsung.android.app.music.milk.store.widget.NoNetworkLayout android:id="@id/no_network" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</RelativeLayout>

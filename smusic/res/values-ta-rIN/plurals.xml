@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NNNalbum">
+        <item quantity="other">%d தொகுப்புகள்</item>
+        <item quantity="one">%d தொகுப்பு</item>
+    </plurals>
+    <plurals name="NNNartist_album">
+        <item quantity="other">தொகுப்புகள்</item>
+        <item quantity="one">தொகுப்பு</item>
+    </plurals>
+    <plurals name="NNNartist_track">
+        <item quantity="other">ட்ராக்குகள்</item>
+        <item quantity="one">ட்ராக்</item>
+    </plurals>
+    <plurals name="NNNsometrackstofavorite">
+        <item quantity="other">%d ட்ராக்குகள் பிடித்தவைகளில் சேர்க்கப்பட்டன. பிடித்தவைகளில் ஏற்கனவே உள்ள ட்ராக் சேர்க்கப்படவில்லை.</item>
+        <item quantity="one">பிடித்தவையில் %d ட்ராக் சேர்க்கப்பட்டது. பிடித்தவையில் ஏற்கனவே உள்ள ட்ராக் சேர்க்கப்படவில்லை.</item>
+    </plurals>
+    <plurals name="NNNtrack">
+        <item quantity="other">%d ட்ராக்குகள்</item>
+        <item quantity="one">%d ட்ராக்</item>
+    </plurals>
+    <plurals name="NNNtracksfromfavorite">
+        <item quantity="other">%d ட்ராக்குகள் பிடித்தவைகளிலிருந்து அகற்றப்பட்டன.</item>
+        <item quantity="one">பிடித்தவையிலிருந்து %d ட்ராக் அகற்றப்பட்டது.</item>
+    </plurals>
+    <plurals name="NNNtrackstofavorite">
+        <item quantity="other">%d பாடல்கள் பிடித்தவையில் சேர்க்கப்பட்டன.</item>
+        <item quantity="one">பிடித்தவையில் %d ட்ராக் சேர்க்கப்பட்டது.</item>
+    </plurals>
+    <plurals name="NNNtrackstoplaylist">
+        <item quantity="other">%d ட்ராக்குகள் ப்ளேலிஸ்ட்டில் சேர்க்கப்பட்டன.</item>
+        <item quantity="one">ப்ளேலிஸ்ட்டில் %d ட்ராக் சேர்க்கப்பட்டது.</item>
+    </plurals>
+    <plurals name="drm_can_use_n_times">
+        <item quantity="other">%1$s என்பதை மேலும் %2$d முறைகள் பயன்படுத்தலாம்.</item>
+        <item quantity="one">%s என்பதை 1 முறை பயன்படுத்தலாம்.</item>
+    </plurals>
+    <plurals name="n_albums_deleted_msg">
+        <item quantity="other">%d தொகுப்புகள் மற்றும் அதில் உள்ள எல்லா ட்ராக்குகளையும் உங்கள் ஃபோனில் இருந்து நீக்கவா?</item>
+        <item quantity="one">1 தொகுப்பு மற்றும் அதில் உள்ள எல்லா ட்ராக்குகளையும் உங்கள் ஃபோனில் இருந்து நீக்கவா?</item>
+    </plurals>
+    <plurals name="n_artists_deleted_msg">
+        <item quantity="other">இந்த கலைஞர்களின் எல்லா ட்ராக்குகளையும் நீக்கவா?</item>
+        <item quantity="one">இந்த கலைஞரின் எல்லா ட்ராக்குகளையும் நீக்கவா?</item>
+    </plurals>
+    <plurals name="n_composers_deleted_msg">
+        <item quantity="other">இந்த இசை அமைப்பாளர்களின் எல்லா ட்ராக்குகளையும் நீக்கவா?</item>
+        <item quantity="one">இந்த இசை அமைப்பாளரின் எல்லா ட்ராக்குகளையும் நீக்கவா?</item>
+    </plurals>
+    <plurals name="n_folders_deleted_msg">
+        <item quantity="other">%d கோப்புகள் மற்றும் அதில் உள்ள எல்லா ட்ராக்குகளையும் உங்கள் ஃபோனில் இருந்து நீக்கவா?</item>
+        <item quantity="one">1 கோப்புறை மற்றும் அதில் உள்ள எல்லா ட்ராக்குகளையும் உங்கள் ஃபோனில் இருந்து நீக்கவா?</item>
+    </plurals>
+    <plurals name="n_genres_deleted_msg">
+        <item quantity="other">இந்த வகைகளிலுள்ள எல்லா ட்ராக்குகளையும் நீக்கவா?</item>
+        <item quantity="one">இந்த வகையிலுள்ள எல்லா ட்ராக்குகளையும் நீக்கவா?</item>
+    </plurals>
+    <plurals name="n_items_deleted_msg">
+        <item quantity="other">Delete %d items?</item>
+        <item quantity="one">Delete %d items?</item>
+    </plurals>
+    <plurals name="n_playlists_deleted_msg">
+        <item quantity="other">%d ப்ளேலிஸ்ட்களை நீக்கவா?</item>
+        <item quantity="one">1 பிளேலிஸ்டை நீக்கவா?</item>
+    </plurals>
+    <plurals name="n_tracks_added_to_queue">
+        <item quantity="other">%d ட்ராக்குகள் வரிசையில் சேர்க்கப்பட்டன.</item>
+        <item quantity="one">வரிசையில் %d ட்ராக் சேர்க்கப்பட்டது.</item>
+    </plurals>
+    <plurals name="n_tracks_deleted_msg">
+        <item quantity="other">%d ட்ராக்குகளை நீக்கவா?</item>
+        <item quantity="one">1 ட்ராக்கை நீக்கவா?</item>
+    </plurals>
+</resources>

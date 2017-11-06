@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:paddingLeft="@dimen/milk_store_pop_scroll_padding_left_right" android:paddingTop="@dimen/milk_store_pop_scroll_padding_top_bottom" android:paddingRight="@dimen/milk_store_pop_scroll_padding_left_right" android:paddingBottom="@dimen/milk_store_pop_scroll_padding_top_bottom" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="@dimen/milk_store_pop_scroll_height">
+        <FrameLayout android:id="@id/cancel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/milk_store_pop_scroll_cancel_margin_left" android:layout_alignParentRight="true">
+            <ImageView android:layout_width="@dimen/milk_store_pop_base_cancel_button_size" android:layout_height="@dimen/milk_store_pop_base_cancel_button_size" android:src="@drawable/pop_ic_cancel_small_b" android:scaleType="fitXY" />
+        </FrameLayout>
+        <TextView android:textSize="@dimen/milk_store_pop_scroll_title_font_size" android:textStyle="bold" android:textColor="#e6252525" android:ellipsize="marquee" android:gravity="center_vertical" android:id="@id/title" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="@dimen/milk_store_pop_scroll_title_height" android:maxLines="1" android:scrollHorizontally="true" android:singleLine="true" android:freezesText="true" android:layout_toLeftOf="@id/cancel" android:marqueeRepeatLimit="marquee_forever" android:fontFamily="roboto-condensed" />
+        <RelativeLayout android:id="@id/custom_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/milk_store_pop_scroll_padding_top_bottom" android:layout_below="@id/title" />
+        <com.samsung.android.app.music.milk.store.widget.ScrollViewBottomFade android:scrollbarStyle="outsideInset" android:id="@id/scrollView_message" android:fadingEdgeLength="@dimen/milk_store_pop_scroll_fade_size" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/custom_layout" android:requiresFadingEdge="vertical">
+            <TextView android:textSize="@dimen/milk_store_pop_scroll_desc_font_size" android:textColor="#e6252525" android:id="@id/message" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lineSpacingExtra="6.0dip" android:fontFamily="roboto-light" />
+        </com.samsung.android.app.music.milk.store.widget.ScrollViewBottomFade>
+    </RelativeLayout>
+</RelativeLayout>

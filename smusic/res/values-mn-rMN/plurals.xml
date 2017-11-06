@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NNNalbum">
+        <item quantity="other">%d цомог</item>
+        <item quantity="one">%d цомог</item>
+    </plurals>
+    <plurals name="NNNartist_album">
+        <item quantity="other">Цомгууд</item>
+        <item quantity="one">Цомог</item>
+    </plurals>
+    <plurals name="NNNartist_track">
+        <item quantity="other">Дуунууд</item>
+        <item quantity="one">Дуу</item>
+    </plurals>
+    <plurals name="NNNsometrackstofavorite">
+        <item quantity="other">%d дуу Дуртай зүйлсэд нэмсэн. Дуртай зүйлсэд аль хэдийн байгаа дуунууд нэмэгдээгүй.</item>
+        <item quantity="one">%d дуу Дуртай зүйлсэд нэмсэн. Дуу аль хэдийнэ Дуртай зүйлс байгаад нэмэгдсэнгүй.</item>
+    </plurals>
+    <plurals name="NNNtrack">
+        <item quantity="other">%d дуу</item>
+        <item quantity="one">%d дуу</item>
+    </plurals>
+    <plurals name="NNNtracksfromfavorite">
+        <item quantity="other">%d дуу Дуртай зүйлсээс арилгасан.</item>
+        <item quantity="one">%d дуу Дуртай зүйлсээс арилгасан.</item>
+    </plurals>
+    <plurals name="NNNtrackstofavorite">
+        <item quantity="other">%d дуу дуртай зүйлсэд нэмсэн</item>
+        <item quantity="one">%d дуу Дуртай зүйлсэд нэмсэн.</item>
+    </plurals>
+    <plurals name="NNNtrackstoplaylist">
+        <item quantity="other">%d дуу тоглуулах жагсаалтад нэмсэн</item>
+        <item quantity="one">%d дуу тоглуулах жагсаалтад нэмсэн.</item>
+    </plurals>
+    <plurals name="drm_can_use_n_times">
+        <item quantity="other">Та %1$s-г %2$d удаа ашиглаж болно</item>
+        <item quantity="one">Та %s-г 1 удаа ашиглаж болно</item>
+    </plurals>
+    <plurals name="n_albums_deleted_msg">
+        <item quantity="other">Таны утаснаас %d цомог, бүх дууг уустгах уу?</item>
+        <item quantity="one">Таны утаснаас 1 цомог, бүх дууг устгах уу?</item>
+    </plurals>
+    <plurals name="n_artists_deleted_msg">
+        <item quantity="other">Эдгээр дуучны бүх дууг устгах уу?</item>
+        <item quantity="one">Энэ дуучны бүх дууг устгах уу?</item>
+    </plurals>
+    <plurals name="n_composers_deleted_msg">
+        <item quantity="other">Эдгээр зохиолчийн бүх дууг устгах уу?</item>
+        <item quantity="one">Энэ зохиолчийн бүх дууг устгах уу?</item>
+    </plurals>
+    <plurals name="n_folders_deleted_msg">
+        <item quantity="other">Таны утаснаас %d хавтас, бүх дууг уустгах уу?</item>
+        <item quantity="one">Таны утаснаас 1 хавтас, бүх дууг устгах уу?</item>
+    </plurals>
+    <plurals name="n_genres_deleted_msg">
+        <item quantity="other">Эдгээр жанрын бүх дууг устгах уу?</item>
+        <item quantity="one">Энэ жанрын бүх дууг устгах уу?</item>
+    </plurals>
+    <plurals name="n_items_deleted_msg">
+        <item quantity="other">Delete %d items?</item>
+        <item quantity="one">Delete %d items?</item>
+    </plurals>
+    <plurals name="n_playlists_deleted_msg">
+        <item quantity="other">%d тоглуулах жагсаалтыг устгах уу?</item>
+        <item quantity="one">1 тоглуулах жагсаалтыг устгах уу?</item>
+    </plurals>
+    <plurals name="n_tracks_added_to_queue">
+        <item quantity="other">%d дууг тоглуулах жагсаалтанд нэмлээ.</item>
+        <item quantity="one">%d дуу дараалалд нэмсэн.</item>
+    </plurals>
+    <plurals name="n_tracks_deleted_msg">
+        <item quantity="other">%d дууг устгах уу?</item>
+        <item quantity="one">1 дууг устгах уу?</item>
+    </plurals>
+</resources>

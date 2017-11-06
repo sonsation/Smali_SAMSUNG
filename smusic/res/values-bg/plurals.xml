@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NNNalbum">
+        <item quantity="other">%d албума</item>
+        <item quantity="one">%d албум</item>
+    </plurals>
+    <plurals name="NNNartist_album">
+        <item quantity="other">Албуми</item>
+        <item quantity="one">Албум</item>
+    </plurals>
+    <plurals name="NNNartist_track">
+        <item quantity="other">Песни</item>
+        <item quantity="one">Песен</item>
+    </plurals>
+    <plurals name="NNNsometrackstofavorite">
+        <item quantity="other">%d парчета са добавени към Любими. Парчетата, които вече са в любими, не са добавени.</item>
+        <item quantity="one">%d песен е добавена към „Любими“. Песента, която вече е в „Любими“, не е добавена.</item>
+    </plurals>
+    <plurals name="NNNtrack">
+        <item quantity="other">%d песни</item>
+        <item quantity="one">%d парчета</item>
+    </plurals>
+    <plurals name="NNNtracksfromfavorite">
+        <item quantity="other">%d парчета са премахнати от Любими.</item>
+        <item quantity="one">%d песен е премахната от „Любими“.</item>
+    </plurals>
+    <plurals name="NNNtrackstofavorite">
+        <item quantity="other">%d парчета са добавени към предпочитани.</item>
+        <item quantity="one">%d песен е добавена към любими.</item>
+    </plurals>
+    <plurals name="NNNtrackstoplaylist">
+        <item quantity="other">%d парчета са добавени в списъка за изпълнение.</item>
+        <item quantity="one">%d песен е добавена към плейлиста.</item>
+    </plurals>
+    <plurals name="drm_can_use_n_times">
+        <item quantity="other">Можете да използвате %1$s %2$d пъти.</item>
+        <item quantity="one">Можете да използвате %s веднъж.</item>
+    </plurals>
+    <plurals name="n_albums_deleted_msg">
+        <item quantity="other">Изтриване на %d албума и всичките песни в тях от телефона?</item>
+        <item quantity="one">Изтриване на 1 албум и всичките песни в него от телефона?</item>
+    </plurals>
+    <plurals name="n_artists_deleted_msg">
+        <item quantity="other">Изтривате ли всички песни от тези изпълнители?</item>
+        <item quantity="one">Изтривате ли всички песни от този изпълнител?</item>
+    </plurals>
+    <plurals name="n_composers_deleted_msg">
+        <item quantity="other">Изтривате ли всички песни от тези композитори?</item>
+        <item quantity="one">Изтривате ли всички песни от този композитор?</item>
+    </plurals>
+    <plurals name="n_folders_deleted_msg">
+        <item quantity="other">Изтриване на %d папки и всичките песни в тях от телефона?</item>
+        <item quantity="one">Изтриване на 1 папка и всичките песни в нея от телефона?</item>
+    </plurals>
+    <plurals name="n_genres_deleted_msg">
+        <item quantity="other">Изтривате ли всички песни в тези жанрове?</item>
+        <item quantity="one">Изтривате ли всички песни от този жанр?</item>
+    </plurals>
+    <plurals name="n_items_deleted_msg">
+        <item quantity="other">Delete %d items?</item>
+        <item quantity="one">Delete %d items?</item>
+    </plurals>
+    <plurals name="n_playlists_deleted_msg">
+        <item quantity="other">Изтривате ли %d плейлисти?</item>
+        <item quantity="one">Изтриване на 1 плейлист?</item>
+    </plurals>
+    <plurals name="n_tracks_added_to_queue">
+        <item quantity="other">%d песни са добавени към опашката.</item>
+        <item quantity="one">%d песен е добавена към опашката.</item>
+    </plurals>
+    <plurals name="n_tracks_deleted_msg">
+        <item quantity="other">Изтривате ли %d песни?</item>
+        <item quantity="one">Изтриване на 1 песен?</item>
+    </plurals>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="@dimen/full_player_volume_panel_width" android:layout_height="@dimen/full_player_volume_panel_dmr_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/allshare_volume_up" android:src="@drawable/music_ic_dlna_vol_up" android:tint="@color/full_player_dmr_volume_icon_theme" style="@style/AllShareVolumeButton" />
+    <ImageView android:id="@id/allshare_volume_down" android:layout_marginTop="@dimen/full_player_volume_panel_dmr_center_button_margin_vertical" android:layout_marginBottom="@dimen/full_player_volume_panel_dmr_center_button_margin_vertical" android:src="@drawable/music_ic_dlna_vol_down" android:tint="@color/full_player_dmr_volume_icon_theme" style="@style/AllShareVolumeButton" />
+    <ImageView android:id="@id/allshare_volume_mute" android:src="@drawable/music_ic_dlna_vol_mute" android:tint="@color/full_player_dmr_volume_mute_icon_theme" style="@style/AllShareVolumeButton" />
+</LinearLayout>

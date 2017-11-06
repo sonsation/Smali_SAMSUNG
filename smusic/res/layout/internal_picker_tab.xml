@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/base_blur_background_common" />
+    <TabHost android:id="@android:id/tabhost" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:importantForAccessibility="no">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/winset_tab_padding_start" android:paddingEnd="@dimen/winset_tab_padding_start">
+                <include android:layout_width="fill_parent" android:layout_height="@dimen/winset_tab_bottom_divider_height" android:layout_alignBottom="@id/horizontal_tab_scroll" layout="@layout/tab_divider_blur" />
+                <HorizontalScrollView android:id="@id/horizontal_tab_scroll" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:fillViewport="true">
+                    <TabWidget android:id="@android:id/tabs" android:layout_width="wrap_content" android:layout_height="wrap_content" android:measureWithLargestChild="true" />
+                </HorizontalScrollView>
+            </RelativeLayout>
+            <FrameLayout android:id="@android:id/tabcontent" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        </LinearLayout>
+    </TabHost>
+</merge>

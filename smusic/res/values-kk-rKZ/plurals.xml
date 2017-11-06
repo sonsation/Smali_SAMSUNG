@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NNNalbum">
+        <item quantity="other">%d альбом</item>
+        <item quantity="one">%d альбом</item>
+    </plurals>
+    <plurals name="NNNartist_album">
+        <item quantity="other">Альбомдар</item>
+        <item quantity="one">Альбом</item>
+    </plurals>
+    <plurals name="NNNartist_track">
+        <item quantity="other">Саздар</item>
+        <item quantity="one">Саз</item>
+    </plurals>
+    <plurals name="NNNsometrackstofavorite">
+        <item quantity="other">%d трек Таңдаулыларға қосылды. Әлдеқашан Таңдаулылардағы тректер қосылмады.</item>
+        <item quantity="one">%d трек Таңдаулыларға қосылды. Әлдеқашан Таңдаулылардағы трек қосылмады.</item>
+    </plurals>
+    <plurals name="NNNtrack">
+        <item quantity="other">%d трек</item>
+        <item quantity="one">%d трек</item>
+    </plurals>
+    <plurals name="NNNtracksfromfavorite">
+        <item quantity="other">%d трек “Таңдаулылар” тізімінен жойылды.</item>
+        <item quantity="one">%d трек “Таңдаулылар” тізімінен жойылды.</item>
+    </plurals>
+    <plurals name="NNNtrackstofavorite">
+        <item quantity="other">Таңдаулыларға %d трек қосылды</item>
+        <item quantity="one">%d трек таңдаулыларға қосылды.</item>
+    </plurals>
+    <plurals name="NNNtrackstoplaylist">
+        <item quantity="other">Әндер тізіміне %d трек қосылды.</item>
+        <item quantity="one">%d трек ойнату тізіміне қосылды.</item>
+    </plurals>
+    <plurals name="drm_can_use_n_times">
+        <item quantity="other">Сіз %1$s %2$d рет қолдана аласыз.</item>
+        <item quantity="one">1 рет %s қолдана аласыз.</item>
+    </plurals>
+    <plurals name="n_albums_deleted_msg">
+        <item quantity="other">%d альбом мен олардың ішіндегі барлық тректерді телефоныңыздан жою керек пе?</item>
+        <item quantity="one">1 альбом мен оның ішіндегі барлық тректерді телефоныңыздан жою керек пе?</item>
+    </plurals>
+    <plurals name="n_artists_deleted_msg">
+        <item quantity="other">Осы орындаушылардың барлық тректерін жою керек пе?</item>
+        <item quantity="one">Осы орындаушының барлық тректерін жою керек пе?</item>
+    </plurals>
+    <plurals name="n_composers_deleted_msg">
+        <item quantity="other">Осы композиторлардың барлық тректерін жою керек пе?</item>
+        <item quantity="one">Осы композитордың барлық тректерін жою керек пе?</item>
+    </plurals>
+    <plurals name="n_folders_deleted_msg">
+        <item quantity="other">%d қалта мен олардың ішіндегі барлық тректерді телефоныңыздан жою керек пе?</item>
+        <item quantity="one">1 қалта мен оның ішіндегі барлық тректерді телефоныңыздан жою керек пе?</item>
+    </plurals>
+    <plurals name="n_genres_deleted_msg">
+        <item quantity="other">Осы жанрлардағы барлық тректерді жою керек пе?</item>
+        <item quantity="one">Осы жанрдағы барлық тректерді жою керек пе?</item>
+    </plurals>
+    <plurals name="n_items_deleted_msg">
+        <item quantity="other">Delete %d items?</item>
+        <item quantity="one">Delete %d items?</item>
+    </plurals>
+    <plurals name="n_playlists_deleted_msg">
+        <item quantity="other">%d әндер тізімін жою керек пе?</item>
+        <item quantity="one">1 әндер тізімін жою керек пе?</item>
+    </plurals>
+    <plurals name="n_tracks_added_to_queue">
+        <item quantity="other">%d трек кезекке қосылды.</item>
+        <item quantity="one">%d трек кезекке қосылды.</item>
+    </plurals>
+    <plurals name="n_tracks_deleted_msg">
+        <item quantity="other">%d тректі жою керек пе?</item>
+        <item quantity="one">1 тректі жою керек пе?</item>
+    </plurals>
+</resources>

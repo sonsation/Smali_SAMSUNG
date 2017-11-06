@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/meta_edit_view" android:paddingTop="@dimen/meta_edit_layout_padding_vertical" android:paddingBottom="@dimen/meta_edit_layout_padding_vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="@dimen/winset_description_text_size" android:id="@id/guide_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/winset_description_margin" android:text="@string/meta_edit_guide" android:layout_marginStart="@dimen/winset_description_margin" android:layout_marginEnd="@dimen/winset_description_margin" />
+            <TextView android:text="@string/encoding_type" android:layout_marginStart="@dimen/winset_description_margin" android:layout_marginEnd="@dimen/winset_description_margin" style="@style/Text.SecLight.HintLabel" />
+            <Spinner android:id="@id/encoding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/winset_spinner_margin_horizontal" android:layout_marginEnd="@dimen/winset_spinner_margin_horizontal" />
+            <com.samsung.android.app.music.common.widget.ButtonEditTextView android:id="@id/artist" android:layout_width="fill_parent" android:layout_height="wrap_content" app:hint="@string/artist" app:nextImeFocus="@id/title" app:editTextId="@id/artist_edit_text" />
+            <com.samsung.android.app.music.common.widget.ButtonEditTextView android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" app:hint="@string/title" app:nextImeFocus="@id/album" app:editTextId="@id/title_edit_text" />
+            <com.samsung.android.app.music.common.widget.ButtonEditTextView android:id="@id/album" android:layout_width="fill_parent" android:layout_height="wrap_content" app:hint="@string/album" app:nextImeFocus="@id/genre" app:editTextId="@id/album_edit_text" />
+            <com.samsung.android.app.music.common.widget.ButtonEditTextView android:id="@id/genre" android:layout_width="fill_parent" android:layout_height="wrap_content" app:hint="@string/genre" app:nextImeFocus="@id/recording_date" app:editTextId="@id/genre_edit_text" />
+            <com.samsung.android.app.music.common.widget.ButtonEditTextView android:id="@id/recording_date" android:layout_width="fill_parent" android:layout_height="wrap_content" app:hint="@string/recording_date" app:nextImeFocus="@id/track_number" app:inputType="number" app:maxLength="8" app:editTextId="@id/recording_date_edit_text" />
+            <com.samsung.android.app.music.common.widget.ButtonEditTextView android:id="@id/track_number" android:layout_width="fill_parent" android:layout_height="wrap_content" app:hint="@string/track_number" app:nextImeFocus="@id/album_artist" app:inputType="number" app:maxLength="3" app:editTextId="@id/track_number_edit_text" />
+            <com.samsung.android.app.music.common.widget.ButtonEditTextView android:id="@id/album_artist" android:layout_width="fill_parent" android:layout_height="wrap_content" app:hint="@string/album_artist" app:nextImeFocus="@id/disc_number" app:editTextId="@id/album_artist_edit_text" />
+            <com.samsung.android.app.music.common.widget.ButtonEditTextView android:id="@id/disc_number" android:layout_width="fill_parent" android:layout_height="wrap_content" app:hint="@string/disc_number_text" app:inputType="number" app:maxLength="1" app:editTextId="@id/disc_number_edit_text" />
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

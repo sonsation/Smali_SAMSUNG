@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/radio_list_blank" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/milk_recommend_radio_item_padding_top" />
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/ripple_rect_light" android:paddingLeft="@dimen/milk_recommend_radio_item_padding_side" android:paddingRight="@dimen/milk_recommend_radio_item_padding_side" android:layout_width="fill_parent" android:layout_height="@dimen/milk_recommend_railo_item_height" android:layout_below="@id/radio_list_blank">
+        <com.samsung.android.app.music.milk.store.widget.RoundedImageView android:layout_gravity="center_vertical" android:id="@id/radio_image_cover" android:layout_width="@dimen/milk_recommend_radio_item_thumbnail_size" android:layout_height="@dimen/milk_recommend_radio_item_thumbnail_size" android:layout_marginRight="@dimen/milk_recommend_radio_item_thumbnail_margin_right" android:scaleType="centerCrop" app:showImageOnFail="@drawable/default_thumbnail_list_radio" app:showImageOnLoading="@drawable/default_thumbnail_list_radio" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toRightOf="@id/radio_image_cover">
+            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <TextView android:textSize="@dimen/milk_fontsize_17_dp" android:textColor="@color/blur_text" android:id="@id/radio_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:shadowColor="#4dfafafa" android:shadowDy="1.0" android:shadowRadius="1.0" android:fontFamily="sans-serif" />
+                <TextView android:textSize="@dimen/milk_fontsize_13_dp" android:textColor="@color/blur_text" android:id="@id/radio_dp_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:fontFamily="sans-serif-light" />
+            </LinearLayout>
+            <View android:id="@id/list_divider" android:background="#1afafafa" android:layout_width="fill_parent" android:layout_height="2.0px" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

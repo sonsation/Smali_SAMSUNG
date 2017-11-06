@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/winset_tab_padding_start" android:paddingEnd="@dimen/winset_tab_padding_start"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:layout_width="fill_parent" android:layout_height="@dimen/winset_tab_bottom_divider_height" android:layout_alignBottom="@id/sliding_tab_layout" layout="@layout/tab_divider_blur" />
+    <com.samsung.android.app.musiclibrary.ui.widget.SlidingTabLayout android:id="@id/sliding_tab_layout" android:focusable="false" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="@dimen/winset_tab_height" android:fillViewport="true" />
+</RelativeLayout>

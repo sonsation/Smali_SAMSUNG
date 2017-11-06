@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NNNalbum">
+        <item quantity="other">Liczba albumów: %d</item>
+        <item quantity="one">Albumów: %d</item>
+    </plurals>
+    <plurals name="NNNartist_album">
+        <item quantity="other">Albumy</item>
+        <item quantity="one">Album</item>
+    </plurals>
+    <plurals name="NNNartist_track">
+        <item quantity="other">Utwory</item>
+        <item quantity="one">Utwór</item>
+    </plurals>
+    <plurals name="NNNsometrackstofavorite">
+        <item quantity="other">Utworów dodanych do Ulubionych: %d. Utwory będące już w Ulubionych nie zostały dodane.</item>
+        <item quantity="one">Utworów dodanych do Ulubionych: %d. Utwór będący już w Ulubionych nie został dodany.</item>
+    </plurals>
+    <plurals name="NNNtrack">
+        <item quantity="other">Utworów: %d</item>
+        <item quantity="one">Utworów: %d</item>
+    </plurals>
+    <plurals name="NNNtracksfromfavorite">
+        <item quantity="other">Utworów usuniętych z Ulubionych: %d.</item>
+        <item quantity="one">Utworów usuniętych z Ulubionych: %d.</item>
+    </plurals>
+    <plurals name="NNNtrackstofavorite">
+        <item quantity="other">Utworów dodanych do ulubionych: %d.</item>
+        <item quantity="one">%d utwór dodano do ulubionych.</item>
+    </plurals>
+    <plurals name="NNNtrackstoplaylist">
+        <item quantity="other">Utworów dodanych do listy odtwarzania: %d.</item>
+        <item quantity="one">%d utwór dodano do listy odtwarzania.</item>
+    </plurals>
+    <plurals name="drm_can_use_n_times">
+        <item quantity="other">Można użyć %1$s %2$d razy.</item>
+        <item quantity="one">Można użyć %s raz.</item>
+    </plurals>
+    <plurals name="n_albums_deleted_msg">
+        <item quantity="other">Usunąć albumów: %d i wszystkie zawarte w nich utwory z telefonu?</item>
+        <item quantity="one">Usunąć 1 album i wszystkie zawarte w nim utwory z telefonu?</item>
+    </plurals>
+    <plurals name="n_artists_deleted_msg">
+        <item quantity="other">Usunąć wszystkie utwory tych wykonawców?</item>
+        <item quantity="one">Usunąć wszystkie utwory tego wykonawcy?</item>
+    </plurals>
+    <plurals name="n_composers_deleted_msg">
+        <item quantity="other">Usunąć wszystkie utwory tych kompozytorów?</item>
+        <item quantity="one">Usunąć wszystkie utwory tego kompozytora?</item>
+    </plurals>
+    <plurals name="n_folders_deleted_msg">
+        <item quantity="other">Usunąć katalogów: %d i wszystkie zawarte w nich utwory z telefonu?</item>
+        <item quantity="one">Usunąć 1 katalog i wszystkie zawarte w nim utwory z telefonu?</item>
+    </plurals>
+    <plurals name="n_genres_deleted_msg">
+        <item quantity="other">Usunąć wszystkie utwory tych gatunków?</item>
+        <item quantity="one">Usunąć wszystkie utwory tego gatunku?</item>
+    </plurals>
+    <plurals name="n_items_deleted_msg">
+        <item quantity="other">Delete %d items?</item>
+        <item quantity="one">Delete %d items?</item>
+    </plurals>
+    <plurals name="n_playlists_deleted_msg">
+        <item quantity="other">Usunąć list odtwarzania: %d?</item>
+        <item quantity="one">Usunąć 1 listę odtwarzania?</item>
+    </plurals>
+    <plurals name="n_tracks_added_to_queue">
+        <item quantity="other">Utworów dodanych do kolejki: %d.</item>
+        <item quantity="one">%d utwór dodano do kolejki.</item>
+    </plurals>
+    <plurals name="n_tracks_deleted_msg">
+        <item quantity="other">Usunąć utworów: %d?</item>
+        <item quantity="one">Usunąć 1 utwór?</item>
+    </plurals>
+</resources>

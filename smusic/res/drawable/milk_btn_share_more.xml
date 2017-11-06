@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector android:dither="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false">
+        <bitmap android:src="@drawable/btn_ic_share_more" android:tint="@android:color/white" />
+    </item>
+    <item android:state_pressed="false">
+        <bitmap android:src="@drawable/btn_ic_share_more" android:tint="@android:color/black" />
+    </item>
+</selector>

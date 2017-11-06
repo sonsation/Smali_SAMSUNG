@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/item_container" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="@drawable/ripple_rect_light">
+        <RelativeLayout android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.samsung.android.app.music.milk.store.widget.RatioImageView android:id="@id/image" android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" app:showImageOnFail="@drawable/default_thumbnail_noitem_patch" app:targetWidth="107.0dip" app:targetHeight="107.0dip" app:ratio="1.0" />
+            <com.samsung.android.app.music.milk.store.widget.RatioImageView android:background="@color/milk_music_category_item_dim_color" android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" app:targetWidth="107.0dip" app:targetHeight="107.0dip" app:ratio="1.0" />
+        </RelativeLayout>
+        <TextView android:textSize="@dimen/milk_store_music_category_item_title_font_size" android:textColor="@color/milk_music_category_item_title_color" android:layout_gravity="center" android:id="@id/title" android:padding="10.0dip" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:shadowColor="@color/milk_music_category_item_shadow_color" android:shadowDx="0.0" android:shadowDy="0.0" android:shadowRadius="25.0" android:fontFamily="roboto-regular" />
+        <include android:id="@id/checkbox_container" android:visibility="gone" android:layout_width="@dimen/milk_radio_station_list_item_checkbox_width" android:layout_height="@dimen/milk_radio_station_list_item_checkbox_width" layout="@layout/milk_action_mode_checkbox" />
+    </FrameLayout>
+</RelativeLayout>

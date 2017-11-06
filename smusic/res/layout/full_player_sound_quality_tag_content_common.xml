@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/sound_quality_tag_badge" style="@style/SoundQualityTag.FullPlayer" />
+    <TextView android:textSize="@dimen/full_player_sound_quality_tag_text" android:textColor="@color/full_player_sound_quality_tag_details_text" android:gravity="center" android:id="@id/sound_quality_tag_details" android:background="@color/full_player_tag_icon_background" android:layout_height="@dimen/full_player_tag_icon_height" android:paddingStart="@dimen/full_player_sound_quality_tag_details_text_margin_horizontal" android:paddingEnd="@dimen/full_player_sound_quality_tag_details_text_margin_horizontal" style="@style/Text.SecLight" />
+</merge>

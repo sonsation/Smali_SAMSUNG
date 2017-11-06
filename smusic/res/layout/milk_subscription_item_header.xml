@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/header" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/milk_subscription_item_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/milk_subscription_header_text_size" android:textColor="@color/milk_subscription_title" android:id="@id/header_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/milk_purchase_history" style="@style/Text.RobotoCondensed.Bold" />
+    <View android:id="@id/divider" android:background="@color/list_item_album_track_header_divider" android:layout_width="fill_parent" android:layout_height="@dimen/list_item_album_track_header_divider" android:layout_marginStart="@dimen/list_item_album_track_header_divider_margin_start" android:layout_marginEnd="@dimen/milk_subscription_divider_margin_end" />
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="?android:windowBackground" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/base_blur_background_common" />
+    <LinearLayout android:orientation="vertical" android:id="@id/list_container" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include layout="@layout/action_bar_divider_blur" />
+        <include android:id="@id/subscriptionview" layout="@layout/milk_my_subscription_detail_view" />
+        <include layout="@layout/mini_player" />
+    </LinearLayout>
+</FrameLayout>

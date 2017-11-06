@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NNNalbum">
+        <item quantity="other">%d من الألبومات</item>
+        <item quantity="one">%d من الألبومات</item>
+    </plurals>
+    <plurals name="NNNartist_album">
+        <item quantity="other">الألبومات</item>
+        <item quantity="one">الألبوم</item>
+    </plurals>
+    <plurals name="NNNartist_track">
+        <item quantity="other">المسارات</item>
+        <item quantity="one">مادة صوتية</item>
+    </plurals>
+    <plurals name="NNNsometrackstofavorite">
+        <item quantity="other">أُضيفت %d من المقاطع إلى المفضلة. لم تضف المقاطع الموجودة بالفعل في المفضلة.</item>
+        <item quantity="one">تمت إضافة %d من المقاطع إلى المفضلة. لم تتم إضافة المقطع الموجود في الأساس في المفضلة.</item>
+    </plurals>
+    <plurals name="NNNtrack">
+        <item quantity="other">%d من المسارات</item>
+        <item quantity="one">%d مقطع</item>
+    </plurals>
+    <plurals name="NNNtracksfromfavorite">
+        <item quantity="other">تمت إزالة %d من المقاطع من المفضلة.</item>
+        <item quantity="one">تمت إزالة %d من المقاطع من المفضلة.</item>
+    </plurals>
+    <plurals name="NNNtrackstofavorite">
+        <item quantity="other">تمت إضافة %d من المقاطع إلى المفضلة.</item>
+        <item quantity="one">تمت إضافة %d من المقاطع إلى المفضلة.</item>
+    </plurals>
+    <plurals name="NNNtrackstoplaylist">
+        <item quantity="other">تمت إضافة %d مقاطع إلى قائمة التشغيل.</item>
+        <item quantity="one">تمت إضافة %d من المقاطع إلى قائمة التشغيل.</item>
+    </plurals>
+    <plurals name="drm_can_use_n_times">
+        <item quantity="other">يمكنك استخدام %1$s عدد %2$d مرة.</item>
+        <item quantity="one">يمكنك استخدام %s مرة واحدة.</item>
+    </plurals>
+    <plurals name="n_albums_deleted_msg">
+        <item quantity="other">هل تريد حذف %d من المجلدات وكل المقاطع الموجودة فيها من هاتفك؟</item>
+        <item quantity="one">هل تريد حذف ألبوم واحد وكل المقاطع الموجودة فيه من هاتفك؟</item>
+    </plurals>
+    <plurals name="n_artists_deleted_msg">
+        <item quantity="other">هل تريد حذف كل المقاطع لهؤلاء الفنانين؟</item>
+        <item quantity="one">هل تريد حذف كل المقاطع لهذا الفنان؟</item>
+    </plurals>
+    <plurals name="n_composers_deleted_msg">
+        <item quantity="other">هل تريد حذف كل المقاطع لهؤلاء الملحنين؟</item>
+        <item quantity="one">هل تريد حذف كل المقاطع لهذا الملحن؟</item>
+    </plurals>
+    <plurals name="n_folders_deleted_msg">
+        <item quantity="other">هل تريد حذف %d من المجلدات وكل المقاطع الموجودة فيها من هاتفك؟</item>
+        <item quantity="one">هل تريد حذف مجلد واحد وكل المقاطع الموجودة فيه من هاتفك؟</item>
+    </plurals>
+    <plurals name="n_genres_deleted_msg">
+        <item quantity="other">هل تريد حذف كل المقاطع من هذه الأنواع؟</item>
+        <item quantity="one">هل تريد حذف كل المقاطع من هذا النوع؟</item>
+    </plurals>
+    <plurals name="n_items_deleted_msg">
+        <item quantity="other">Delete %d items?</item>
+        <item quantity="one">Delete %d items?</item>
+    </plurals>
+    <plurals name="n_playlists_deleted_msg">
+        <item quantity="other">هل تريد حذف %d من قوائم التشغيل؟</item>
+        <item quantity="one">هل تريد حذف قائمة تشغيل واحدة؟</item>
+    </plurals>
+    <plurals name="n_tracks_added_to_queue">
+        <item quantity="other">تمت إضافة %d من المقاطع إلى قائمة الانتظار.</item>
+        <item quantity="one">تمت إضافة %d من المقاطع إلى قائمة الانتظار.</item>
+    </plurals>
+    <plurals name="n_tracks_deleted_msg">
+        <item quantity="other">هل تريد حذف %d من المقاطع؟</item>
+        <item quantity="one">هل تريد حذف مقطع واحد؟</item>
+    </plurals>
+</resources>

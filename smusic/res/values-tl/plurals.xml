@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NNNalbum">
+        <item quantity="other">%d (na) album</item>
+        <item quantity="one">%d album</item>
+    </plurals>
+    <plurals name="NNNartist_album">
+        <item quantity="other">Mga Album</item>
+        <item quantity="one">Album</item>
+    </plurals>
+    <plurals name="NNNartist_track">
+        <item quantity="other">Mga Track</item>
+        <item quantity="one">Track</item>
+    </plurals>
+    <plurals name="NNNsometrackstofavorite">
+        <item quantity="other">%d (na) track ang idinagdag sa Mga Paborito. Hindi idinagdag ang mga track na nasa Mga Paborito na.</item>
+        <item quantity="one">%d track ang idinagdag sa Mga Paborito. Hindi idinagdag ang track na nasa Mga Paborito na.</item>
+    </plurals>
+    <plurals name="NNNtrack">
+        <item quantity="other">%d (na) track</item>
+        <item quantity="one">%d track</item>
+    </plurals>
+    <plurals name="NNNtracksfromfavorite">
+        <item quantity="other">%d track ang inalis sa Mga Paborito.</item>
+        <item quantity="one">%d track ang inalis mula sa Mga Paborito.</item>
+    </plurals>
+    <plurals name="NNNtrackstofavorite">
+        <item quantity="other">%d (na) track ang idinagdag sa mga paborito</item>
+        <item quantity="one">%d track ang idinagdag sa mga paborito.</item>
+    </plurals>
+    <plurals name="NNNtrackstoplaylist">
+        <item quantity="other">%d (na) track ang idinagdag sa playlist.</item>
+        <item quantity="one">%d track ang idinagdag sa playlist.</item>
+    </plurals>
+    <plurals name="drm_can_use_n_times">
+        <item quantity="other">Magagamit mo ang %1$s nang %2$d (na) beses.</item>
+        <item quantity="one">Magagamit mo ang %s nang 1 beses.</item>
+    </plurals>
+    <plurals name="n_albums_deleted_msg">
+        <item quantity="other">Tanggalin ang %d album at lahat ng track na laman ng mga ito mula sa telepono mo?</item>
+        <item quantity="one">Tanggalin ang 1 album at lahat ng track na laman nito mula sa telepono mo?</item>
+    </plurals>
+    <plurals name="n_artists_deleted_msg">
+        <item quantity="other">Tanggalin ang lahat ng track ng mga artist na ito?</item>
+        <item quantity="one">Tanggalin ang lahat ng track ng artist na ito?</item>
+    </plurals>
+    <plurals name="n_composers_deleted_msg">
+        <item quantity="other">Tanggalin ang lahat ng track ng mga composer na ito?</item>
+        <item quantity="one">Tanggalin ang lahat ng track ng composer na ito?</item>
+    </plurals>
+    <plurals name="n_folders_deleted_msg">
+        <item quantity="other">Tanggalin ang %d folder at lahat ng track na laman ng mga ito mula sa telepono mo?</item>
+        <item quantity="one">Tanggalin ang 1 folder at lahat ng track na laman nito mula sa telepono mo?</item>
+    </plurals>
+    <plurals name="n_genres_deleted_msg">
+        <item quantity="other">Tanggalin ang lahat ng track sa mga genre na ito?</item>
+        <item quantity="one">Tanggalin ang lahat ng track sa genre na ito?</item>
+    </plurals>
+    <plurals name="n_items_deleted_msg">
+        <item quantity="other">Delete %d items?</item>
+        <item quantity="one">Delete %d items?</item>
+    </plurals>
+    <plurals name="n_playlists_deleted_msg">
+        <item quantity="other">Tanggalin ang %d playlist?</item>
+        <item quantity="one">Tanggalin ang 1 playlist?</item>
+    </plurals>
+    <plurals name="n_tracks_added_to_queue">
+        <item quantity="other">%d mga track ang na idagdag sa pila.</item>
+        <item quantity="one">%d track ang na idinagdag sa pila.</item>
+    </plurals>
+    <plurals name="n_tracks_deleted_msg">
+        <item quantity="other">Tanggalin ang %d track?</item>
+        <item quantity="one">Tanggalin ang 1 track?</item>
+    </plurals>
+</resources>

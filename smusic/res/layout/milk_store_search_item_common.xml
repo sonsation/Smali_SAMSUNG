@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/list_item_top_container" android:background="@drawable/ripple_rect_light" android:paddingLeft="@dimen/milk_store_common_track_list_padding_left" android:paddingRight="@dimen/milk_store_common_track_list_padding_right" android:layout_width="fill_parent" android:layout_height="@dimen/milk_store_common_track_list_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/stub_cover" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true">
+        <ViewStub android:id="@id/stub_album_cover" android:layout="@layout/milk_store_item_common_track_album_cover" android:inflatedId="@id/album_cover_layout" android:layout_width="@dimen/milk_store_common_track_list_album_size" android:layout_height="@dimen/milk_store_common_track_list_album_size" android:layout_marginRight="10.0dip" android:layout_centerVertical="true" />
+        <ViewStub android:id="@id/stub_artist_cover" android:layout="@layout/milk_store_item_common_track_artist_cover" android:inflatedId="@id/artist_cover_layout" android:layout_width="@dimen/milk_store_common_track_list_album_size" android:layout_height="@dimen/milk_store_common_track_list_album_size" android:layout_marginRight="10.0dip" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <ViewStub android:id="@id/stub_option_menu" android:layout="@layout/milk_store_item_common_track_option" android:inflatedId="@id/more" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="-10.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/more" android:layout_toRightOf="@id/stub_cover">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip">
+            <include android:layout_width="fill_parent" android:layout_height="@dimen/milk_store_common_track_list_height" android:layout_weight="1.0" layout="@layout/milk_store_item_common_track_matched_twoo_line" />
+            <ViewStub android:layout_gravity="center_vertical" android:id="@id/stub_play_button" android:layout="@layout/milk_store_item_common_track_play" android:inflatedId="@id/play" android:layout_width="@dimen/milk_store_common_track_list_play_size" android:layout_height="@dimen/milk_store_common_track_list_play_size" android:layout_marginLeft="@dimen/milk_search_album_play_image_margin_left" android:layout_marginRight="@dimen/milk_search_album_play_image_margin_right" android:layout_weight="0.0" />
+        </LinearLayout>
+        <View android:background="#1afafafa" android:layout_width="fill_parent" android:layout_height="2.0px" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</RelativeLayout>

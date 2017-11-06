@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/milk_radio_mainoption_customize_dial_menu_items" android:visible="true" android:title="@string/milk_radio_customize_dial_menu_item" />
+    <item android:id="@id/milk_radio_mainoption_my_stations_menu_items" android:visible="true" android:title="@string/milk_radio_my_stations_genre_label" />
+    <item android:id="@id/milk_radio_mainoption_share_song_menu_items" android:visible="true" android:title="@string/milk_radio_share_song_menu_item" />
+    <item android:id="@id/milk_radio_mainoption_share_station_menu_items" android:visible="true" android:title="@string/milk_radio_share_station_menu_item" />
+    <item android:id="@id/milk_radio_mainoption_radio_history" android:visible="true" android:title="@string/milk_radio_history_menu_item" />
+    <item android:id="@id/milk_radio_mainoption_block_song_menu_items" android:visible="true" android:title="@string/milk_radio_ban_song_menu_item" />
+    <item android:id="@id/milk_radio_mainoption_album_detail" android:visible="true" android:title="@string/milk_radio_mainoption_album_detail_menu_item" />
+    <item android:id="@id/milk_radio_mainoption_artist_detail" android:visible="true" android:title="@string/milk_radio_mainoption_artist_detail_menu_item" />
+</menu>

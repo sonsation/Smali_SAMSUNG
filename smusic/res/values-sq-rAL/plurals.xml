@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NNNalbum">
+        <item quantity="other">%d albume</item>
+        <item quantity="one">%d album</item>
+    </plurals>
+    <plurals name="NNNartist_album">
+        <item quantity="other">Albume</item>
+        <item quantity="one">Album</item>
+    </plurals>
+    <plurals name="NNNartist_track">
+        <item quantity="other">Pjesët</item>
+        <item quantity="one">Pjesa</item>
+    </plurals>
+    <plurals name="NNNsometrackstofavorite">
+        <item quantity="other">%d pista u shtuan te Të preferuarat. Pistat tashmë te Të preferuarat nuk u shtuan.</item>
+        <item quantity="one">%d pistë u shtua te Të preferuarat. Pista tashmë te Të preferuarat nuk u shtua.</item>
+    </plurals>
+    <plurals name="NNNtrack">
+        <item quantity="other">%d tituj</item>
+        <item quantity="one">%d pistë</item>
+    </plurals>
+    <plurals name="NNNtracksfromfavorite">
+        <item quantity="other">%d traga u hoqën nga Të preferuarat.</item>
+        <item quantity="one">%d pistë u hoq nga Të preferuarat.</item>
+    </plurals>
+    <plurals name="NNNtrackstofavorite">
+        <item quantity="other">%d pista u shtuan tek të preferuarat.</item>
+        <item quantity="one">%d pistë u shtua tek të preferuarat.</item>
+    </plurals>
+    <plurals name="NNNtrackstoplaylist">
+        <item quantity="other">%d tinguj u shtuan te lista e leximeve.</item>
+        <item quantity="one">%d pistë u shtua te lista e leximeve.</item>
+    </plurals>
+    <plurals name="drm_can_use_n_times">
+        <item quantity="other">Mund ta përdorësh %1$s %2$d herë.</item>
+        <item quantity="one">Mund ta përdorësh %s 1 herë.</item>
+    </plurals>
+    <plurals name="n_albums_deleted_msg">
+        <item quantity="other">Të heq %d albume dhe të gjitha pistat që përmbajnë ato nga telefoni?</item>
+        <item quantity="one">Të heq 1 album dhe të gjitha pistat që përmban ai nga telefoni?</item>
+    </plurals>
+    <plurals name="n_artists_deleted_msg">
+        <item quantity="other">T’i heq të gjitha pistat nga këta artistë?</item>
+        <item quantity="one">T’i heq të gjitha pistat nga ky artist?</item>
+    </plurals>
+    <plurals name="n_composers_deleted_msg">
+        <item quantity="other">T’i heq të gjitha pistat nga këta kompozitorë?</item>
+        <item quantity="one">T’i heq të gjitha pistat nga ky kompozitor?</item>
+    </plurals>
+    <plurals name="n_folders_deleted_msg">
+        <item quantity="other">Të heq %d dosje dhe të gjitha pistat që përmbajnë ato nga telefoni?</item>
+        <item quantity="one">Të heq 1 dosje dhe të gjitha pistat që përmban ajo nga telefoni?</item>
+    </plurals>
+    <plurals name="n_genres_deleted_msg">
+        <item quantity="other">T’i heq të gjitha pistat në këto zhanre?</item>
+        <item quantity="one">T’i heq të gjitha pistat në këtë zhanër?</item>
+    </plurals>
+    <plurals name="n_items_deleted_msg">
+        <item quantity="other">Delete %d items?</item>
+        <item quantity="one">Delete %d items?</item>
+    </plurals>
+    <plurals name="n_playlists_deleted_msg">
+        <item quantity="other">Të heq %d lista leximesh?</item>
+        <item quantity="one">Të heq 1 listë leximesh?</item>
+    </plurals>
+    <plurals name="n_tracks_added_to_queue">
+        <item quantity="other">%d pista u shtuan te radha e pritjes.</item>
+        <item quantity="one">%d pistë u shtua te radha e pritjes.</item>
+    </plurals>
+    <plurals name="n_tracks_deleted_msg">
+        <item quantity="other">Të heq %d pista?</item>
+        <item quantity="one">Të heq 1 pistë?</item>
+    </plurals>
+</resources>

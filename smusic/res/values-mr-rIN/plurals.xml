@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NNNalbum">
+        <item quantity="other">%d अल्बम्स</item>
+        <item quantity="one">%d अल्‍बम</item>
+    </plurals>
+    <plurals name="NNNartist_album">
+        <item quantity="other">अल्बम्स</item>
+        <item quantity="one">अल्बम</item>
+    </plurals>
+    <plurals name="NNNartist_track">
+        <item quantity="other">ट्रॅक्स</item>
+        <item quantity="one">ट्रॅक</item>
+    </plurals>
+    <plurals name="NNNsometrackstofavorite">
+        <item quantity="other">%d ट्रॅक्‍स पसंतींवर जोडले. आधीपासूनच पसंतीचे मध्ये असलेले ट्रॅक्स जोडले नाहीत.</item>
+        <item quantity="one">%d ट्रॅक पसंतींमध्‍ये जोडले. पसंतींमध्‍ये आधीपासूनच असलेला ट्रॅक जोडलेला नाही.</item>
+    </plurals>
+    <plurals name="NNNtrack">
+        <item quantity="other">%d ट्रॅक्स</item>
+        <item quantity="one">%d ट्रॅक</item>
+    </plurals>
+    <plurals name="NNNtracksfromfavorite">
+        <item quantity="other">%d ट्रॅक्स पसंतींमधून काढून टाकले.</item>
+        <item quantity="one">%d ट्रॅक पसंतीमधून काढून टाकला.</item>
+    </plurals>
+    <plurals name="NNNtrackstofavorite">
+        <item quantity="other">%d ट्रॅक्‍स पसंतींमध्‍ये जोडले.</item>
+        <item quantity="one">%d ट्रॅक पसंतींवर जोडली.</item>
+    </plurals>
+    <plurals name="NNNtrackstoplaylist">
+        <item quantity="other">%d ट्रॅक्‍स प्लेलिस्ट मध्‍ये जोडले.</item>
+        <item quantity="one">%d ट्रॅक प्‍लेसूचीवर जोडली.</item>
+    </plurals>
+    <plurals name="drm_can_use_n_times">
+        <item quantity="other">आपण %1$s %2$d वेळा वापरु शकता.</item>
+        <item quantity="one">आपण %s 1 वेळा वापरु शकता.</item>
+    </plurals>
+    <plurals name="n_albums_deleted_msg">
+        <item quantity="other">आपल्या फोन मधून %d अल्बम्स आणि त्यां मधील सर्व ट्रॅक्स हटवायचे?</item>
+        <item quantity="one">आपल्या फोन मधून 1 अल्बम आणि त्यातील सर्व ट्रॅक्स हटवायचे?</item>
+    </plurals>
+    <plurals name="n_artists_deleted_msg">
+        <item quantity="other">या कलाकारांचे सर्व ट्रॅक्‍स हटवायचे?</item>
+        <item quantity="one">या कलाकारा द्वारे सर्व ट्रॅक्‍स हटवायच्‍या?</item>
+    </plurals>
+    <plurals name="n_composers_deleted_msg">
+        <item quantity="other">या रचनाकारां दवारे सर्व ट्रॅक्‍स हटवायच्‍या?</item>
+        <item quantity="one">या रचनाकारा द्वारे सर्व ट्रॅक्‍स हटवायच्‍या?</item>
+    </plurals>
+    <plurals name="n_folders_deleted_msg">
+        <item quantity="other">आपल्या फोन मधून %d फोल्डर्स आणि त्यां मधील सर्व ट्रॅक्स हटवायचे?</item>
+        <item quantity="one">आपल्या फोन मधून 1 फोल्डर आणि त्यातील सर्व ट्रॅक्स हटवायचे?</item>
+    </plurals>
+    <plurals name="n_genres_deleted_msg">
+        <item quantity="other">या जेनर्स मधील सर्व ट्रॅक्‍स हटवायचे?</item>
+        <item quantity="one">या जेनर मधील सर्व ट्रॅक्‍स हटवायचे?</item>
+    </plurals>
+    <plurals name="n_items_deleted_msg">
+        <item quantity="other">Delete %d items?</item>
+        <item quantity="one">Delete %d items?</item>
+    </plurals>
+    <plurals name="n_playlists_deleted_msg">
+        <item quantity="other">%d प्‍लेलिस्‍ट्स हटवायच्‍या?</item>
+        <item quantity="one">1 प्लेसूची हटवायची?</item>
+    </plurals>
+    <plurals name="n_tracks_added_to_queue">
+        <item quantity="other">%d ट्रॅक्‍स रांगेमध्‍ये जोडले.</item>
+        <item quantity="one">%d ट्रॅक रांगेत जोडली.</item>
+    </plurals>
+    <plurals name="n_tracks_deleted_msg">
+        <item quantity="other">%d ट्रॅक्स हटवायच्‍या?</item>
+        <item quantity="one">1 ट्रॅक हटवायचा?</item>
+    </plurals>
+</resources>

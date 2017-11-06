@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="widget_album_art_size">110.0dip</dimen>
+    <dimen name="widget_control_button_margin_top">7.0dip</dimen>
+    <dimen name="widget_control_button_size">47.0dip</dimen>
+    <dimen name="widget_control_text_margin_left">17.0dip</dimen>
+    <dimen name="widget_control_text_margin_right">17.0dip</dimen>
+    <dimen name="widget_control_button_inside_margin_horizontal">0.0dip</dimen>
+    <dimen name="widget_control_button_margin_horizontal">0.0dip</dimen>
+    <dimen name="widget_control_button_outside_margin_horizontal">0.0dip</dimen>
+    <dimen name="widget_controller_artist">13.0sp</dimen>
+    <dimen name="widget_controller_title">17.0sp</dimen>
+    <dimen name="widget_list_divider_height">1.0dip</dimen>
+    <dimen name="widget_list_item_artist">13.0sp</dimen>
+    <dimen name="widget_list_item_height">54.0dip</dimen>
+    <dimen name="widget_list_item_title">17.0sp</dimen>
+    <dimen name="widget_list_margin_horizontal">16.0dip</dimen>
+    <dimen name="widget_size_height">40.0dip</dimen>
+    <dimen name="widget_size_width">250.0dip</dimen>
+</resources>

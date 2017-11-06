@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NNNalbum">
+        <item quantity="other">альбомів: %d</item>
+        <item quantity="one">Альбомів: %d</item>
+    </plurals>
+    <plurals name="NNNartist_album">
+        <item quantity="other">Альбоми</item>
+        <item quantity="one">Альбом</item>
+    </plurals>
+    <plurals name="NNNartist_track">
+        <item quantity="other">Записи</item>
+        <item quantity="one">Запис</item>
+    </plurals>
+    <plurals name="NNNsometrackstofavorite">
+        <item quantity="other">%d записів додано до обраного. Записи, що вже містяться в обраному, не додано.</item>
+        <item quantity="one">Записів додано до обраного: %d. Записи, що вже містяться в обраному, не було додано.</item>
+    </plurals>
+    <plurals name="NNNtrack">
+        <item quantity="other">записів: %d</item>
+        <item quantity="one">Записи: %d</item>
+    </plurals>
+    <plurals name="NNNtracksfromfavorite">
+        <item quantity="other">%d записів видалено з обраного.</item>
+        <item quantity="one">Записів видалено з обраного: %d.</item>
+    </plurals>
+    <plurals name="NNNtrackstofavorite">
+        <item quantity="other">%d записів додано до обраного</item>
+        <item quantity="one">%d записів додано до обраного.</item>
+    </plurals>
+    <plurals name="NNNtrackstoplaylist">
+        <item quantity="other">%d записів додано до списку відтворення.</item>
+        <item quantity="one">%d записів додано до списку відтворення.</item>
+    </plurals>
+    <plurals name="drm_can_use_n_times">
+        <item quantity="other">%1$s можна користуватися %2$d разів.</item>
+        <item quantity="one">%s можна використати 1 раз.</item>
+    </plurals>
+    <plurals name="n_albums_deleted_msg">
+        <item quantity="other">Видалити з телефону альбоми (%d) і всі композиції, що в них містяться?</item>
+        <item quantity="one">Видалити з телефону 1 альбом і всі композиції, що в ньому містяться?</item>
+    </plurals>
+    <plurals name="n_artists_deleted_msg">
+        <item quantity="other">Видалити всі композиції цих виконавців?</item>
+        <item quantity="one">Видалити всі композиції цього виконавця?</item>
+    </plurals>
+    <plurals name="n_composers_deleted_msg">
+        <item quantity="other">Видалити всі композиції цих композиторів?</item>
+        <item quantity="one">Видалити всі композиції цього композитора?</item>
+    </plurals>
+    <plurals name="n_folders_deleted_msg">
+        <item quantity="other">Видалити з телефону папки (%d) і всі композиції, що в них містяться?</item>
+        <item quantity="one">Видалити з телефону 1 папку та всі композиції, що в ній містяться?</item>
+    </plurals>
+    <plurals name="n_genres_deleted_msg">
+        <item quantity="other">Видалити всі композиції цих жанрів?</item>
+        <item quantity="one">Видалити всі композиції цього жанру?</item>
+    </plurals>
+    <plurals name="n_items_deleted_msg">
+        <item quantity="other">Delete %d items?</item>
+        <item quantity="one">Delete %d items?</item>
+    </plurals>
+    <plurals name="n_playlists_deleted_msg">
+        <item quantity="other">Видалити декілька списків відтворення (%d)?</item>
+        <item quantity="one">Видалити 1 список відтворення?</item>
+    </plurals>
+    <plurals name="n_tracks_added_to_queue">
+        <item quantity="other">До черги додано %d записи (-ів).</item>
+        <item quantity="one">До черги додано %d записи (-ів).</item>
+    </plurals>
+    <plurals name="n_tracks_deleted_msg">
+        <item quantity="other">Видалити декілька композицій (%d)?</item>
+        <item quantity="one">Видалити 1 композицію?</item>
+    </plurals>
+</resources>

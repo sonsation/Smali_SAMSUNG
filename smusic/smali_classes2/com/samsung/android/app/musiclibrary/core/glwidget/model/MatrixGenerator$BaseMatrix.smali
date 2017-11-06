@@ -1,0 +1,47 @@
+.class public abstract Lcom/samsung/android/app/musiclibrary/core/glwidget/model/MatrixGenerator$BaseMatrix;
+.super Ljava/lang/Object;
+.source "MatrixGenerator.java"
+
+# interfaces
+.implements Lcom/samsung/android/app/musiclibrary/core/glwidget/model/MatrixGenerator;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/samsung/android/app/musiclibrary/core/glwidget/model/MatrixGenerator;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x409
+    name = "BaseMatrix"
+.end annotation
+
+
+# instance fields
+.field protected m:Lcom/samsung/android/app/musiclibrary/core/glwidget/model/Model;
+
+.field protected mMatrix:[F
+
+
+# direct methods
+.method public constructor <init>(Lcom/samsung/android/app/musiclibrary/core/glwidget/model/Model;)V
+    .locals 1
+    .param p1, "model"    # Lcom/samsung/android/app/musiclibrary/core/glwidget/model/Model;
+
+    .prologue
+    .line 11
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 9
+    const/16 v0, 0x10
+
+    new-array v0, v0, [F
+
+    iput-object v0, p0, Lcom/samsung/android/app/musiclibrary/core/glwidget/model/MatrixGenerator$BaseMatrix;->mMatrix:[F
+
+    .line 12
+    iput-object p1, p0, Lcom/samsung/android/app/musiclibrary/core/glwidget/model/MatrixGenerator$BaseMatrix;->m:Lcom/samsung/android/app/musiclibrary/core/glwidget/model/Model;
+
+    .line 13
+    return-void
+.end method

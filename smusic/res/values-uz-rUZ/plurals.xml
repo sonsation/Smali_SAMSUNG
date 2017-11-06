@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NNNalbum">
+        <item quantity="other">%d albom</item>
+        <item quantity="one">%d ta albom</item>
+    </plurals>
+    <plurals name="NNNartist_album">
+        <item quantity="other">Albomlar</item>
+        <item quantity="one">Albom</item>
+    </plurals>
+    <plurals name="NNNartist_track">
+        <item quantity="other">Treklar</item>
+        <item quantity="one">Trek</item>
+    </plurals>
+    <plurals name="NNNsometrackstofavorite">
+        <item quantity="other">%dta trek Tanlanganlarga qo‘shildi. Tanlanganlarda avvaldan mavjud bo‘lgan treklar qo‘shilmaydi.</item>
+        <item quantity="one">%d ta trek Tanlanganlarga qo‘shildi. Tanlanganlarda avvaldan mavjud bo‘lgan trek qo‘shilmaydi.</item>
+    </plurals>
+    <plurals name="NNNtrack">
+        <item quantity="other">%d trek</item>
+        <item quantity="one">%dta trek</item>
+    </plurals>
+    <plurals name="NNNtracksfromfavorite">
+        <item quantity="other">%dta trek Tanlanganlardan olib tashlandi.</item>
+        <item quantity="one">%d ta trek Tanlanganlardan olib tashlandi.</item>
+    </plurals>
+    <plurals name="NNNtrackstofavorite">
+        <item quantity="other">%dta trek tanlanganlarga qo‘shildi</item>
+        <item quantity="one">%d ta trek tanlanganlarga qo‘shildi.</item>
+    </plurals>
+    <plurals name="NNNtrackstoplaylist">
+        <item quantity="other">%dta trek musiqalar ro‘yxatiga qo‘shildi.</item>
+        <item quantity="one">%d ta trek musiqalar ro‘yxatiga qo‘shildi.</item>
+    </plurals>
+    <plurals name="drm_can_use_n_times">
+        <item quantity="other">%1$sdan %2$d marta foydalanishingiz mumkin.</item>
+        <item quantity="one">%sdan 1 marta foydalanishingiz mumkin.</item>
+    </plurals>
+    <plurals name="n_albums_deleted_msg">
+        <item quantity="other">%d ta albom va undagi barcha treklar telefoningizdan o‘chirib tashlansinmi?</item>
+        <item quantity="one">1 ta albom va undagi barcha treklar telefoningizdan o‘chirib tashlansinmi?</item>
+    </plurals>
+    <plurals name="n_artists_deleted_msg">
+        <item quantity="other">Ushbu ijrochilarning barcha treklar o‘chirib tashlansinmi?</item>
+        <item quantity="one">Ushbu ijrochining barcha treklari o‘chirib tashlansinmi?</item>
+    </plurals>
+    <plurals name="n_composers_deleted_msg">
+        <item quantity="other">Ushbu kompozitorlarning barcha treklar o‘chirib tashlansinmi?</item>
+        <item quantity="one">Ushbu kompozitorning barcha treklari o‘chirib tashlansinmi?</item>
+    </plurals>
+    <plurals name="n_folders_deleted_msg">
+        <item quantity="other">%d ta jild va undagi barcha treklar telefoningizdan o‘chirib tashlansinmi?</item>
+        <item quantity="one">1 ta jild va undagi barcha treklar telefoningizdan o‘chirib tashlansinmi?</item>
+    </plurals>
+    <plurals name="n_genres_deleted_msg">
+        <item quantity="other">Ushbu janrlardagi barcha treklar o‘chirib tashlansinmi?</item>
+        <item quantity="one">Ushbu janrdagi barcha treklar o‘chirib tashlansinmi?</item>
+    </plurals>
+    <plurals name="n_items_deleted_msg">
+        <item quantity="other">Delete %d items?</item>
+        <item quantity="one">Delete %d items?</item>
+    </plurals>
+    <plurals name="n_playlists_deleted_msg">
+        <item quantity="other">%d ta musiqalar ro‘yxati o‘chirib tashlansinmi?</item>
+        <item quantity="one">1 ta ijro ro‘yxati o‘chirib tashlansinmi?</item>
+    </plurals>
+    <plurals name="n_tracks_added_to_queue">
+        <item quantity="other">%d ta trek navbatga qo‘shildi.</item>
+        <item quantity="one">%d ta trek navbatga qo‘yildi.</item>
+    </plurals>
+    <plurals name="n_tracks_deleted_msg">
+        <item quantity="other">%d ta trek o‘chirib tashlansinmi?</item>
+        <item quantity="one">1 ta trek o‘chirib tashlansinmi?</item>
+    </plurals>
+</resources>

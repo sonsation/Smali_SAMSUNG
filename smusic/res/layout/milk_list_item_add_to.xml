@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:focusable="true" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/list_item_add_to_padding_horizontal" android:paddingEnd="@dimen/list_item_add_to_padding_horizontal"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/thumbnail_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/list_item_add_to_thumbnail_margin_end" android:layout_toEndOf="@id/checkbox">
+        <include layout="@layout/list_item_add_to_thumbnail" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/text_layout" android:paddingTop="@dimen/list_item_text_padding_top_winset" android:paddingBottom="@dimen/list_item_text_padding_bottom_winset" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="@dimen/list_item_add_to_text_margin_start" android:layout_toStartOf="@id/extra_info_layout" android:layout_toEndOf="@id/thumbnail_layout">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/milk_pre_extra_tag_text_size" android:textColor="@color/white_opacity_100" android:layout_gravity="center" android:id="@id/tag_text" android:background="@drawable/list_item_tag_background" android:paddingLeft="@dimen/milk_pre_extra_tag_left_margin" android:paddingTop="1.0dip" android:paddingRight="@dimen/milk_pre_extra_tag_left_margin" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/milk_pre_extra_tag_left_margin" android:text="@string/milk_online_playlist_tag" android:textAllCaps="true" android:fontFamily="roboto-medium" android:textAlignment="center" />
+            <com.samsung.android.app.musiclibrary.ui.widget.MatchedTextView android:id="@id/text1" style="@style/Text.SecLight.ListItem.Line1" />
+        </LinearLayout>
+        <com.samsung.android.app.musiclibrary.ui.widget.MatchedTextView android:id="@id/text2" style="@style/Text.SecLight.ListItem.Line2" />
+    </LinearLayout>
+</RelativeLayout>

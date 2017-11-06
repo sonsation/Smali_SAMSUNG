@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@color/widget_bg_light" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <ImageView android:id="@id/album_view" android:layout_width="wrap_content" android:layout_height="fill_parent" android:scaleType="centerCrop" android:adjustViewBounds="true" android:maxWidth="800.0dip" android:contentDescription="@string/tts_go_to_music" />
+            <ProgressBar android:layout_gravity="center" android:id="@id/albumart_loading" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@android:style/Widget.DeviceDefault.ProgressBar.Small" />
+            <ImageView android:id="@id/private_mode_image" style="@style/PrivateTagInfoThumb" />
+        </RelativeLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <include layout="@layout/rv_widget_layout_title_common" />
+            <TextView android:textSize="@dimen/widget_controller_artist" android:textColor="@color/widget_text" android:id="@id/artist" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textAlignment="viewStart" android:layout_marginStart="@dimen/widget_control_text_margin_left" android:layout_marginEnd="@dimen/widget_control_text_margin_right" style="@style/Text.SecLight.Marquee" />
+            <include layout="@layout/widget_layout_control_common" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

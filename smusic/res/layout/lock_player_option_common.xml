@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/full_player_option_button_layout" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="@dimen/lock_player_option_height" android:layout_marginBottom="@dimen/lock_player_option_margin_bottom" android:layout_alignParentBottom="true" android:paddingStart="@dimen/lock_player_option_margin_horizontal" android:paddingEnd="@dimen/lock_player_option_margin_horizontal"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <RelativeLayout android:gravity="center" android:id="@id/shuffle_button" android:focusable="true" android:clickable="true" android:layout_width="@dimen/lock_player_option_button_size" android:layout_height="@dimen/lock_player_option_button_size">
+            <ImageView android:id="@id/shuffle_icon" android:background="@drawable/unbounded_ripple_light_full_player_button" android:clickable="false" android:duplicateParentState="true" android:layout_width="@dimen/lock_player_option_icon_width" android:layout_height="@dimen/lock_player_option_icon_height" android:src="@drawable/full_player_shuffle_off_to_on" android:scaleType="fitXY" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <RelativeLayout android:gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <RelativeLayout android:gravity="center" android:id="@id/list_button" android:focusable="true" android:clickable="true" android:layout_width="@dimen/lock_player_option_button_size" android:layout_height="@dimen/lock_player_option_button_size">
+            <ImageView android:id="@id/list_icon" android:background="@drawable/unbounded_ripple_light_full_player_button" android:clickable="false" android:duplicateParentState="true" android:layout_width="@dimen/lock_player_option_icon_width" android:layout_height="@dimen/lock_player_option_icon_height" android:src="@drawable/music_player_ic_queue" android:contentDescription="@string/queue" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <RelativeLayout android:gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <RelativeLayout android:gravity="center" android:id="@id/favorite_button" android:focusable="true" android:clickable="true" android:layout_width="@dimen/lock_player_option_button_size" android:layout_height="@dimen/lock_player_option_button_size">
+            <ImageView android:id="@id/favorite_icon" android:background="@drawable/unbounded_ripple_light_full_player_button" android:clickable="false" android:duplicateParentState="true" android:layout_width="@dimen/lock_player_option_icon_width" android:layout_height="@dimen/lock_player_option_icon_height" android:src="@drawable/full_player_favorite" android:scaleType="fitXY" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <RelativeLayout android:gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <RelativeLayout android:gravity="center" android:id="@id/repeat_button" android:focusable="true" android:clickable="true" android:layout_width="@dimen/lock_player_option_button_size" android:layout_height="@dimen/lock_player_option_button_size">
+            <ImageView android:id="@id/repeat_icon" android:background="@drawable/unbounded_ripple_light_full_player_button" android:clickable="false" android:duplicateParentState="true" android:layout_width="@dimen/lock_player_option_icon_width" android:layout_height="@dimen/lock_player_option_icon_height" android:src="@drawable/full_player_repeat_all_to_1" android:scaleType="fitXY" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

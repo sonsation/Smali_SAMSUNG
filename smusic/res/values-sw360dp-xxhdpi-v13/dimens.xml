@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bitmap_size_big">250.0dip</dimen>
+    <dimen name="bitmap_size_big_big">300.0dip</dimen>
+    <dimen name="bitmap_size_middle">135.0dip</dimen>
+    <dimen name="bitmap_size_small">70.0dip</dimen>
+</resources>

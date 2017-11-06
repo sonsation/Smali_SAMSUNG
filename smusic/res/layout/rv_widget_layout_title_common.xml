@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/widget_control_text_margin_left" android:layout_marginEnd="@dimen/widget_control_text_margin_right"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/widget_title_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/radio_widget_ic_ap" android:tint="@color/widget_text" />
+    <FrameLayout android:id="@id/widget_title_icon_padding" android:visibility="gone" android:layout_width="@dimen/widget_title_icon_padding" android:layout_height="wrap_content" />
+    <TextView android:textSize="@dimen/widget_controller_title" android:textColor="@color/widget_text" android:id="@id/title" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/no_queued_tracks" android:textAlignment="viewStart" style="@style/Text.SecLight.Marquee" />
+</LinearLayout>

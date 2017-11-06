@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NNNalbum">
+        <item quantity="other">%d ఆల్బమ్లు</item>
+        <item quantity="one">%d ఆల్బమ్</item>
+    </plurals>
+    <plurals name="NNNartist_album">
+        <item quantity="other">ఆల్బమ్‌లు</item>
+        <item quantity="one">ఆల్బమ్</item>
+    </plurals>
+    <plurals name="NNNartist_track">
+        <item quantity="other">ట్రాక్‌లు</item>
+        <item quantity="one">ట్రాక్</item>
+    </plurals>
+    <plurals name="NNNsometrackstofavorite">
+        <item quantity="other">ఇష్టమైనవాటికి %d ట్రాక్‌లు జోడించబడ్డాయి. ఇష్టమైన వాటిలో ఇప్పటికే ఉన్న ట్రాక్‌లు జోడించబడవు.</item>
+        <item quantity="one">ఇష్టాలకు %d ట్రాక్ జోడించబడింది. ట్రాక్ ఇప్పటికే ఇష్టాలలో ఉన్నందున జోడించబడలేదు.</item>
+    </plurals>
+    <plurals name="NNNtrack">
+        <item quantity="other">%d ట్రాక్‌లు</item>
+        <item quantity="one">%d ట్రాక్</item>
+    </plurals>
+    <plurals name="NNNtracksfromfavorite">
+        <item quantity="other">%d ట్రాక్‌లు ఇష్టమైనవాటి నుండి తీసివేయబడ్డాయి.</item>
+        <item quantity="one">ఇష్టాల నుండి %d ట్రాక్ తీసివేయబడింది.</item>
+    </plurals>
+    <plurals name="NNNtrackstofavorite">
+        <item quantity="other">%d ట్రాక్‌లు ఇష్టమైనవాటికి జోడించబడ్డాయి.</item>
+        <item quantity="one">ఇష్టాలకు %d ట్రాక్ జోడించబడింది.</item>
+    </plurals>
+    <plurals name="NNNtrackstoplaylist">
+        <item quantity="other">%d ట్రాక్‌లు ప్లేజాబితాకు జోడించబడ్డాయి.</item>
+        <item quantity="one">ప్లేజాబితాకు %d ట్రాక్ జోడించబడింది.</item>
+    </plurals>
+    <plurals name="drm_can_use_n_times">
+        <item quantity="other">%1$sను %2$d సార్లు ఉపయోగించగలరు.</item>
+        <item quantity="one">మీరు %sను 1 సారి ఉపయోగించవచ్చు.</item>
+    </plurals>
+    <plurals name="n_albums_deleted_msg">
+        <item quantity="other">మీ ఫోన్ నుండి %d ఆల్బమ్‌లను మరియు వీటిలోని అన్ని ట్రాక్‌లను తొలగించాలా?</item>
+        <item quantity="one">మీ ఫోన్ నుండి 1 ఆల్బమ్‌ను మరియు ఇందులోని అన్ని ట్రాక్‌లను తొలగించాలా?</item>
+    </plurals>
+    <plurals name="n_artists_deleted_msg">
+        <item quantity="other">ఈ కళాకారుల యొక్క అన్ని ట్రాక్‌లను తొలగించాలా?</item>
+        <item quantity="one">ఈ కళాకారుడి యొక్క అన్ని ట్రాక్‌లను తొలగించాలా?</item>
+    </plurals>
+    <plurals name="n_composers_deleted_msg">
+        <item quantity="other">ఈ కంపోజర్‌ల యొక్క అన్ని ట్రాక్‌లను తొలగించాలా?</item>
+        <item quantity="one">ఈ కంపోజర్ యొక్క అన్ని ట్రాక్‌లను తొలగించాలా?</item>
+    </plurals>
+    <plurals name="n_folders_deleted_msg">
+        <item quantity="other">మీ ఫోన్ నుండి %d ఫోల్డర్‌లను మరియు వీటిలోని అన్ని ట్రాక్‌లను తొలగించాలా?</item>
+        <item quantity="one">మీ ఫోన్ నుండి 1 ఫోల్డర్‌ను మరియు ఇందులోని అన్ని ట్రాక్‌లను తొలగించాలా?</item>
+    </plurals>
+    <plurals name="n_genres_deleted_msg">
+        <item quantity="other">ఈ శైలుల్లోని అన్ని ట్రాక్‌లను తొలగించాలా?</item>
+        <item quantity="one">ఈ శైలిలోని అన్ని ట్రాక్‌లను తొలగించాలా?</item>
+    </plurals>
+    <plurals name="n_items_deleted_msg">
+        <item quantity="other">Delete %d items?</item>
+        <item quantity="one">Delete %d items?</item>
+    </plurals>
+    <plurals name="n_playlists_deleted_msg">
+        <item quantity="other">%d ప్లేజాబితాలను తొలగించాలా?</item>
+        <item quantity="one">1 ప్లేజాబితాను తొలగించాలా?</item>
+    </plurals>
+    <plurals name="n_tracks_added_to_queue">
+        <item quantity="other">%d ట్రాక్‌లు వరుసకు జోడించబడ్డాయి.</item>
+        <item quantity="one">వరుసక్రమానికి %d ట్రాక్ జోడించబడింది.</item>
+    </plurals>
+    <plurals name="n_tracks_deleted_msg">
+        <item quantity="other">%d ట్రాక్‌లను తొలగించాలా?</item>
+        <item quantity="one">1 ట్రాక్‌ని తొలగించాలా?</item>
+    </plurals>
+</resources>

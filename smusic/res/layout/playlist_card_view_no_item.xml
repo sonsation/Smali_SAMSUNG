@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/no_item" android:background="@color/playlist_card_view_item_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/album_art_click" android:background="@drawable/ripple_thumbnail" android:focusable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:importantForAccessibility="noHideDescendants" android:paddingStart="@dimen/playlist_card_view_item_text_space_start" android:paddingEnd="@dimen/playlist_card_view_item_text_space_start">
+        <TextView android:textSize="@dimen/playlist_card_view_item_main_text_size" android:textColor="@color/playlist_card_view_item_text" android:id="@id/main_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:includeFontPadding="false" style="@style/Text.SecLight.CardViewText" />
+        <TextView android:textSize="@dimen/playlist_card_view_item_sub_text_size" android:textColor="@color/playlist_card_view_item_text" android:id="@id/no_item_sub_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/no_tracks" android:singleLine="true" android:includeFontPadding="false" style="@style/Text.SecLight.CardViewText" />
+    </LinearLayout>
+</FrameLayout>

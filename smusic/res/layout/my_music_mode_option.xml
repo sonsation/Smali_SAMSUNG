@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/my_music_mode_container" android:background="@color/white_opacity_10" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="@dimen/pull_down_option_height" android:layout_marginTop="@dimen/pull_down_option_margin_top" android:foreground="@drawable/ripple_rect_light"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/pull_down_option_text" android:textColor="@color/blur_text" android:gravity="center_vertical" android:layout_gravity="start" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/use_my_music_mode" android:paddingStart="@dimen/pull_down_option_text_space_start" />
+    <Switch android:layout_gravity="end" android:id="@id/switch_button" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginStart="@dimen/pull_down_option_switch_space_start" android:layout_marginEnd="@dimen/pull_down_option_switch_space_end" />
+</FrameLayout>

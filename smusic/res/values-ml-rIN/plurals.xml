@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NNNalbum">
+        <item quantity="other">%d ആല്‍ബം</item>
+        <item quantity="one">%d ആൽബം</item>
+    </plurals>
+    <plurals name="NNNartist_album">
+        <item quantity="other">ആല്‍ബങ്ങള്‍</item>
+        <item quantity="one">ആല്‍ബം</item>
+    </plurals>
+    <plurals name="NNNartist_track">
+        <item quantity="other">ട്രാക്കുകള്‍‌</item>
+        <item quantity="one">ട്രാക്ക്</item>
+    </plurals>
+    <plurals name="NNNsometrackstofavorite">
+        <item quantity="other">%d ഗാനങ്ങൾ പ്രിയപ്പെട്ടവയിൽ ചേർത്തു. നേരത്തേതന്നെ പ്രിയപ്പെട്ടവയിലുള്ള ഗാനങ്ങളെ ചേർത്തില്ല.</item>
+        <item quantity="one">%d ട്രാക്കിനെ പ്രിയപ്പെട്ടവയിൽ ചേർത്തു. നേരത്തേതന്നെ പ്രിയപ്പെട്ടവയിലുള്ള ട്രാക്കിനെ ചേർത്തിട്ടില്ല.</item>
+    </plurals>
+    <plurals name="NNNtrack">
+        <item quantity="other">%d ട്രാക്കുകള്‍</item>
+        <item quantity="one">%d ഗാനം</item>
+    </plurals>
+    <plurals name="NNNtracksfromfavorite">
+        <item quantity="other">%d ട്രാക്കുകൾ പ്രിയങ്കരങ്ങളിൽ നിന്ന് നീക്കി.</item>
+        <item quantity="one">പ്രിയപ്പെട്ടവയിൽ നിന്ന് %d ട്രാക്ക് നീക്കംചെയ്തു.</item>
+    </plurals>
+    <plurals name="NNNtrackstofavorite">
+        <item quantity="other">%d ഗാനങ്ങൾ പ്രിയപ്പെട്ടവയിൽ ചേർത്തു</item>
+        <item quantity="one">%d ട്രാക്കിനെ പ്രിയപ്പെട്ടവയിൽ ചേർത്തു.</item>
+    </plurals>
+    <plurals name="NNNtrackstoplaylist">
+        <item quantity="other">%d ഗാനങ്ങൾ പ്ലേലിസ്റ്റിൽ ചേർത്തു.</item>
+        <item quantity="one">%d ട്രാക്കിനെ പ്ലേലിസ്റ്റിൽ ചേർത്തു.</item>
+    </plurals>
+    <plurals name="drm_can_use_n_times">
+        <item quantity="other">%1$d തവണ കൂടി %2$s നിങ്ങള്‍ക്കുപയോഗിക്കാന്‍‌ കഴിയും.</item>
+        <item quantity="one">%s 1 സമയത്ത് നിങ്ങള്‍ക്കുപയോഗിക്കാന്‍‌ കഴിയും.</item>
+    </plurals>
+    <plurals name="n_albums_deleted_msg">
+        <item quantity="other">നിങ്ങളുടെ ഫോണിൽ നിന്ന് %d ആൽബങ്ങളും അതിലെ എല്ലാ ട്രാക്കുകളും ഇല്ലാതാക്കണോ?</item>
+        <item quantity="one">നിങ്ങളുടെ ഫോണിൽ നിന്ന് 1 ആൽബവും അതിലെ എല്ലാ ട്രാക്കുകളും ഇല്ലാതാക്കണോ?</item>
+    </plurals>
+    <plurals name="n_artists_deleted_msg">
+        <item quantity="other">ഈ ആർട്ടിസ്റ്റുകളുടെ എല്ലാ ട്രാക്കുകളും ഇല്ലാതാക്കണോ?</item>
+        <item quantity="one">ഈ ആർട്ടിസ്റ്റിന്‍റെ എല്ലാ ട്രാക്കുകളും ഇല്ലാതാക്കണോ?</item>
+    </plurals>
+    <plurals name="n_composers_deleted_msg">
+        <item quantity="other">ഈ സംഗീത സംവിധായകരുടെ എല്ലാ ട്രാക്കുകളും ഇല്ലാതാക്കണോ?</item>
+        <item quantity="one">ഈ സംഗീത സംവിധായകന്‍റെ എല്ലാ ട്രാക്കുകളും ഇല്ലാതാക്കണോ?</item>
+    </plurals>
+    <plurals name="n_folders_deleted_msg">
+        <item quantity="other">നിങ്ങളുടെ ഫോണിൽ നിന്ന് %d ഫോൾഡറുകളും അതിലെ എല്ലാ ട്രാക്കുകളും ഇല്ലാതാക്കണോ?</item>
+        <item quantity="one">നിങ്ങളുടെ ഫോണിൽ നിന്ന് 1 ഫോൾഡറും അതിലെ എല്ലാ ട്രാക്കുകളും ഇല്ലാതാക്കണോ?</item>
+    </plurals>
+    <plurals name="n_genres_deleted_msg">
+        <item quantity="other">ഈ കലാവിഭാഗങ്ങളിലെ എല്ലാ ട്രാക്കുകളും ഇല്ലാതാക്കണോ?</item>
+        <item quantity="one">ഈ കലാവിഭാഗത്തിലെ എല്ലാ ട്രാക്കുകളും ഇല്ലാതാക്കണോ?</item>
+    </plurals>
+    <plurals name="n_items_deleted_msg">
+        <item quantity="other">Delete %d items?</item>
+        <item quantity="one">Delete %d items?</item>
+    </plurals>
+    <plurals name="n_playlists_deleted_msg">
+        <item quantity="other">%d പ്ലേലിസ്റ്റുകൾ ഇല്ലാതാക്കണോ?</item>
+        <item quantity="one">1 പ്ലേലിസ്റ്റ് ഇല്ലാതാക്കണോ?</item>
+    </plurals>
+    <plurals name="n_tracks_added_to_queue">
+        <item quantity="other">%d ഗാനങ്ങളെ ക്യൂവിൽ ചേർത്തു.</item>
+        <item quantity="one">%d ട്രാക്കിനെ ക്യൂവിൽ ചേർത്തു.</item>
+    </plurals>
+    <plurals name="n_tracks_deleted_msg">
+        <item quantity="other">%d ട്രാക്കുകൾ ഇല്ലാതാക്കണോ?</item>
+        <item quantity="one">1 ട്രാക്ക് ഇല്ലാതാക്കണോ?</item>
+    </plurals>
+</resources>

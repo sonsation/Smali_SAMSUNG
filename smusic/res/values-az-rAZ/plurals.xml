@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NNNalbum">
+        <item quantity="other">%d albom</item>
+        <item quantity="one">%d albom</item>
+    </plurals>
+    <plurals name="NNNartist_album">
+        <item quantity="other">Albomlar</item>
+        <item quantity="one">Albom</item>
+    </plurals>
+    <plurals name="NNNartist_track">
+        <item quantity="other">Mahnılar</item>
+        <item quantity="one">Mahnı</item>
+    </plurals>
+    <plurals name="NNNsometrackstofavorite">
+        <item quantity="other">%d mahnı Sevimlilərə əlavə edildi. Artıq Sevimlilərdə olan mahnılar əlavə edilmədi.</item>
+        <item quantity="one">%d mahnı Sevimlilərə əlavə edildi. Artıq Sevimlilərdə olan mahnı əlavə edilmədi.</item>
+    </plurals>
+    <plurals name="NNNtrack">
+        <item quantity="other">%d musiqi</item>
+        <item quantity="one">%d mahnı</item>
+    </plurals>
+    <plurals name="NNNtracksfromfavorite">
+        <item quantity="other">%d mahnı Sevimlilərdən silindi.</item>
+        <item quantity="one">%d mahnı sevimlilərdən silindi.</item>
+    </plurals>
+    <plurals name="NNNtrackstofavorite">
+        <item quantity="other">%d mahnı sevimlilərə əlavə edilmişdir</item>
+        <item quantity="one">%d mahnı sevimlilərə əlavə edildi.</item>
+    </plurals>
+    <plurals name="NNNtrackstoplaylist">
+        <item quantity="other">%d mahnı siyahıya əlavə edilmişdir.</item>
+        <item quantity="one">%d mahnı siyahıya əlavə edildi.</item>
+    </plurals>
+    <plurals name="drm_can_use_n_times">
+        <item quantity="other">Sən %1$s %2$d dəfə istifadə edə bilərsən.</item>
+        <item quantity="one">Sən%s 1 dəfə istifadə edə bilərsən.</item>
+    </plurals>
+    <plurals name="n_albums_deleted_msg">
+        <item quantity="other">%d albom və bütün mahnılar telefondan silinsin?</item>
+        <item quantity="one">1 albom və bütün mahnılar telefondan silinsin?</item>
+    </plurals>
+    <plurals name="n_artists_deleted_msg">
+        <item quantity="other">Bu sənətçilərin bütün mahnıları silinsin?</item>
+        <item quantity="one">Bu sənətçinin bütün mahnıları silinsin?</item>
+    </plurals>
+    <plurals name="n_composers_deleted_msg">
+        <item quantity="other">Bu bəstəkarların bütün mahnıları silinsin?</item>
+        <item quantity="one">Bu bəstəkarın bütün mahnıları silinsin?</item>
+    </plurals>
+    <plurals name="n_folders_deleted_msg">
+        <item quantity="other">%d qovluq və bütün mahnılar telefondan silinsin?</item>
+        <item quantity="one">1 qovluq və bütün mahnılar telefondan silinsin?</item>
+    </plurals>
+    <plurals name="n_genres_deleted_msg">
+        <item quantity="other">Bu janrlarda bütün mahnılar silinsin?</item>
+        <item quantity="one">Bu janrda bütün mahnılar silinsin?</item>
+    </plurals>
+    <plurals name="n_items_deleted_msg">
+        <item quantity="other">Delete %d items?</item>
+        <item quantity="one">Delete %d items?</item>
+    </plurals>
+    <plurals name="n_playlists_deleted_msg">
+        <item quantity="other">%d mahnı siyahısı silinsin?</item>
+        <item quantity="one">1 mahnı siyahısı silinsin?</item>
+    </plurals>
+    <plurals name="n_tracks_added_to_queue">
+        <item quantity="other">%d mahnı sıraya əlavə edildi.</item>
+        <item quantity="one">%d mahnı növbəyə əlavə edildi.</item>
+    </plurals>
+    <plurals name="n_tracks_deleted_msg">
+        <item quantity="other">%d mahnı silinsin?</item>
+        <item quantity="one">1 mahnı silinsin?</item>
+    </plurals>
+</resources>

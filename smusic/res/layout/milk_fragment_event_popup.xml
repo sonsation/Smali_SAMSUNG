@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/milk_event_popup_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/event_popup_image_frame" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <com.samsung.android.app.music.milk.store.widget.NetworkImageView android:id="@id/event_popup_image" android:layout_width="@dimen/milk_event_popup_image_width" android:layout_height="@dimen/milk_event_popup_image_height" android:scaleType="fitXY" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@color/milk_event_popup_do_not_show_background" android:layout_width="@dimen/milk_event_popup_image_width" android:layout_height="@dimen/milk_event_popup_do_not_show_frame_height">
+            <CheckBox android:id="@id/event_popup_checkbox" android:layout_width="@dimen/milk_event_popup_do_not_show_checkbox" android:layout_height="@dimen/milk_event_popup_do_not_show_checkbox" />
+            <TextView android:textSize="@dimen/milk_fontsize_16_dp" android:textColor="@color/milk_event_popup_do_not_show_text" android:gravity="center_vertical" android:paddingLeft="@dimen/milk_event_popup_do_not_show_text_padding" android:paddingRight="@dimen/milk_event_popup_do_not_show_text_padding" android:layout_width="wrap_content" android:layout_height="@dimen/milk_event_popup_do_not_show_checkbox" android:text="@string/do_not_show_again" />
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView android:id="@id/event_popup_close" android:layout_width="@dimen/milk_event_popup_close" android:layout_height="@dimen/milk_event_popup_close" android:layout_marginTop="@dimen/milk_event_popup_close_margin_top" android:layout_marginRight="@dimen/milk_event_popup_close_margin_right" android:src="@drawable/radio_ic_lyrics_close" android:layout_alignTop="@id/event_popup_image_frame" android:layout_alignRight="@id/event_popup_image_frame" />
+</RelativeLayout>

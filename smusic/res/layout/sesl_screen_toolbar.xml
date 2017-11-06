@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.support.sesl.component.widget.SeslActionBarOverlayLayout android:id="@id/decor_content_parent" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/sesl_screen_content_include" />
+    <com.samsung.android.support.sesl.component.widget.SeslActionBarContainer android:gravity="top" android:id="@id/action_bar_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" style="?android:attr/actionBarStyle">
+        <com.samsung.android.support.sesl.component.widget.SeslToolbar android:id="@id/action_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:navigationContentDescription="@string/sesl_action_bar_up_description" style="?android:attr/toolbarStyle" />
+        <com.samsung.android.support.sesl.component.widget.SeslActionBarContextView android:theme="?android:actionBarTheme" android:id="@id/action_context_bar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="?android:attr/actionModeStyle" />
+    </com.samsung.android.support.sesl.component.widget.SeslActionBarContainer>
+</com.samsung.android.support.sesl.component.widget.SeslActionBarOverlayLayout>

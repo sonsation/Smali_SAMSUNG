@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/milk_store_main_music_legal_notice_margin_side" android:layout_marginTop="@dimen/milk_store_main_music_legal_notice_margin_top" android:layout_marginRight="@dimen/milk_store_main_music_legal_notice_margin_side" android:layout_marginBottom="@dimen/milk_store_main_music_legal_notice_margin_bottom"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="9.0dip" android:textColor="#b3fafafa" android:id="@id/notice_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/store_main_the_notice_company_desc1" />
+</LinearLayout>

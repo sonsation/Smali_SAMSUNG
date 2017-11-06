@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NNNalbum">
+        <item quantity="other">%d album</item>
+        <item quantity="one">%d album</item>
+    </plurals>
+    <plurals name="NNNartist_album">
+        <item quantity="other">Album</item>
+        <item quantity="one">Album</item>
+    </plurals>
+    <plurals name="NNNartist_track">
+        <item quantity="other">Trek</item>
+        <item quantity="one">Trek</item>
+    </plurals>
+    <plurals name="NNNsometrackstofavorite">
+        <item quantity="other">%d trek ditambahkan ke Favorit. Trek yang sudah ada di Favorit tidak ditambahkan.</item>
+        <item quantity="one">%d trek ditambahkan ke Favorit. Trek yang sudah ada Favorit tidak ditambahkan.</item>
+    </plurals>
+    <plurals name="NNNtrack">
+        <item quantity="other">%d trek</item>
+        <item quantity="one">%d trek</item>
+    </plurals>
+    <plurals name="NNNtracksfromfavorite">
+        <item quantity="other">%d trek dihapus dari Favorit.</item>
+        <item quantity="one">%d trek dihapus dari favorit.</item>
+    </plurals>
+    <plurals name="NNNtrackstofavorite">
+        <item quantity="other">%d trek ditambahkan ke favorit</item>
+        <item quantity="one">%d trek ditambahkan ke favorit.</item>
+    </plurals>
+    <plurals name="NNNtrackstoplaylist">
+        <item quantity="other">%d trek ditambahkan ke playlist.</item>
+        <item quantity="one">%d trek ditambahkan ke playlist.</item>
+    </plurals>
+    <plurals name="drm_can_use_n_times">
+        <item quantity="other">Anda dapat menggunakan %1$s %2$d berkali.</item>
+        <item quantity="one">Anda dapat menggunakan %s 1 kali.</item>
+    </plurals>
+    <plurals name="n_albums_deleted_msg">
+        <item quantity="other">Hapus %d album dan semua trek di dalamnya dari ponsel?</item>
+        <item quantity="one">Hapus 1 album dan semua trek di dalamnya dari ponsel?</item>
+    </plurals>
+    <plurals name="n_artists_deleted_msg">
+        <item quantity="other">Hapus semua trek dari artis ini?</item>
+        <item quantity="one">Hapus semua trek dari artis ini?</item>
+    </plurals>
+    <plurals name="n_composers_deleted_msg">
+        <item quantity="other">Hapus semua trek dari komponis ini?</item>
+        <item quantity="one">Hapus semua trek dari komponis ini?</item>
+    </plurals>
+    <plurals name="n_folders_deleted_msg">
+        <item quantity="other">Hapus %d folder dan semua trek di dalamnya dari ponsel?</item>
+        <item quantity="one">Hapus 1 folder dan semua trek di dalamnya dari ponsel?</item>
+    </plurals>
+    <plurals name="n_genres_deleted_msg">
+        <item quantity="other">Hapus semua trek dalam genre ini?</item>
+        <item quantity="one">Hapus semua trek dalam genre ini?</item>
+    </plurals>
+    <plurals name="n_items_deleted_msg">
+        <item quantity="other">Delete %d items?</item>
+        <item quantity="one">Delete %d items?</item>
+    </plurals>
+    <plurals name="n_playlists_deleted_msg">
+        <item quantity="other">Hapus %d daftar putar?</item>
+        <item quantity="one">Hapus 1 daftar putar?</item>
+    </plurals>
+    <plurals name="n_tracks_added_to_queue">
+        <item quantity="other">%d trek ditambahkan ke antrean.</item>
+        <item quantity="one">%d trek ditambahkan ke antrean.</item>
+    </plurals>
+    <plurals name="n_tracks_deleted_msg">
+        <item quantity="other">Hapus %d trek?</item>
+        <item quantity="one">Hapus 1 trek?</item>
+    </plurals>
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="full_player_album_height">274.0dip</dimen>
+    <dimen name="full_player_albumview_height_with_shade">274.0dip</dimen>
+    <dimen name="full_player_albumview_margin_bottom">24.0dip</dimen>
+    <dimen name="full_player_control_layout_height">140.0dip</dimen>
+    <dimen name="full_player_control_margin_horizontal">0.0dip</dimen>
+    <dimen name="full_player_title_layout_margin_bottom">24.0dip</dimen>
+    <dimen name="full_player_title_layout_padding_horizontal">26.0dip</dimen>
+    <dimen name="widget_album_art_size">98.0dip</dimen>
+    <dimen name="widget_control_button_margin_top">6.0dip</dimen>
+    <dimen name="widget_control_button_size">30.0dip</dimen>
+    <dimen name="widget_control_text_margin_left">18.0dip</dimen>
+    <dimen name="widget_control_text_margin_right">18.0dip</dimen>
+    <dimen name="full_player_albumview_margin_top">31.0dip</dimen>
+    <dimen name="full_player_albumview_padding_top">0.0dip</dimen>
+    <dimen name="full_player_control_margin_bottom">14.0dip</dimen>
+    <dimen name="full_player_control_padding_top">0.0dip</dimen>
+    <dimen name="full_player_option_margin_bottom">0.0dip</dimen>
+    <dimen name="full_player_seekbar_margin_top">0.0dip</dimen>
+</resources>

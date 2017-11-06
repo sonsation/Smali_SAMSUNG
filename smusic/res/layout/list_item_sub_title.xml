@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/sub_title_container" android:paddingTop="@dimen/list_item_album_track_header_padding_top" android:paddingBottom="@dimen/list_item_album_track_header_padding_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/list_item_album_track_header_text" android:textColor="@color/list_item_album_track_header_text" android:id="@id/sub_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/list_item_album_track_header_text_padding_start" style="@style/Text.RobotoCondensed.Bold" />
+    <View android:id="@id/divider" android:background="@color/list_item_album_track_header_divider" android:layout_width="fill_parent" android:layout_height="@dimen/list_item_album_track_header_divider" android:layout_marginStart="@dimen/list_item_album_track_header_divider_margin_start" android:layout_marginEnd="@dimen/list_item_album_track_header_divider_margin_end" />
+</LinearLayout>

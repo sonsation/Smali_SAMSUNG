@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:baselineAligned="true" android:layout_centerVertical="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/milk_radio_spinner_station_name_text_size" android:textColor="@color/milk_radio_dial_explicit_text_color" android:gravity="center_vertical" android:id="@id/mr_element_text" android:paddingBottom="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" android:fontFamily="roboto-condensed-regular" />
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/mr_drop_down_tab" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:src="@drawable/spinner_icon" android:layout_weight="0.0" />
+</LinearLayout>

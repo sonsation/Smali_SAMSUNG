@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.design.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.samsung.android.app.music.milk.store.widget.HeaderLayout android:id="@id/search_header" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_behavior="com.samsung.android.app.music.milk.store.widget.HeaderScrollBehavior">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_scrollFlags="enterAlways|scroll">
+                <include android:id="@id/search_header_buttons" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/milk_store_item_common_track_header" />
+                <include layout="@layout/milk_spinner_common_layout" />
+            </RelativeLayout>
+        </com.samsung.android.app.music.milk.store.widget.HeaderLayout>
+        <com.samsung.android.app.music.milk.store.widget.RecyclerListView android:id="@id/list_view" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/search_header" app:layout_behavior="com.samsung.android.app.music.milk.store.widget.ContentsLayoutBehavior" app:selectModeBottomPadding="@dimen/milk_store_common_track_popup_total_height" />
+    </android.support.design.widget.CoordinatorLayout>
+</RelativeLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/label_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/milk_store_pop_scroll_title_label_font_size" android:textStyle="bold" android:textColor="#e6252525" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/milk_store_album_label" android:fontFamily="SEC-roboto-light" />
+        <TextView android:textSize="@dimen/milk_store_pop_scroll_title_label_font_size" android:textColor="#e6252525" android:id="@id/text_label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:fontFamily="SEC-roboto-light-regular" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/distributed_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip">
+        <TextView android:textSize="@dimen/milk_store_pop_scroll_title_label_font_size" android:textStyle="bold" android:textColor="#e6252525" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/milk_store_album_distributed_by" android:fontFamily="SEC-roboto-light" />
+        <TextView android:textSize="@dimen/milk_store_pop_scroll_title_label_font_size" android:textColor="#e6252525" android:id="@id/text_distributed" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:fontFamily="SEC-roboto-light-regular" />
+    </LinearLayout>
+    <View android:background="#ffdcdcdc" android:layout_width="fill_parent" android:layout_height="2.0px" android:layout_marginTop="12.0dip" android:layout_marginBottom="12.0dip" />
+    <RelativeLayout android:orientation="vertical" android:id="@id/discription_container" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="@dimen/milk_store_pop_scroll_desc_font_size" android:textColor="#e6252525" android:gravity="center" android:id="@id/no_discription" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true" android:fontFamily="SEC-roboto-light_regular" />
+    </RelativeLayout>
+</LinearLayout>

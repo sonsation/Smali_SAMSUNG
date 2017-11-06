@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/artist_detail_song_item_container" android:background="@drawable/ripple_rect_light" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/milk_store_artist_detail_song_item_height" android:layout_marginRight="@dimen/milk_store_artist_detail_song_item_right_margin">
+        <include android:id="@id/checkbox_container" android:layout_width="@dimen/milk_store_album_detail_list_item_track_num_width" android:layout_height="fill_parent" android:layout_marginRight="-15.0dip" layout="@layout/milk_action_mode_checkbox" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toRightOf="@id/checkbox_container">
+            <RelativeLayout android:gravity="center_horizontal" android:layout_width="@dimen/milk_store_artist_detail_song_item_thumb_container_size" android:layout_height="@dimen/milk_store_artist_detail_song_item_thumb_size">
+                <com.samsung.android.app.music.milk.store.widget.NetworkImageView android:id="@id/artist_detail_item_thumb" android:layout_width="@dimen/milk_store_artist_detail_song_item_thumb_size" android:layout_height="@dimen/milk_store_artist_detail_song_item_thumb_size" android:src="@drawable/default_thumbnail_s" android:scaleType="fitXY" app:showImageOnFail="@drawable/default_thumbnail_s" app:showImageOnLoading="@drawable/default_thumbnail_s" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <RelativeLayout android:id="@id/artist_detail_more_container" android:layout_width="@dimen/milk_store_artist_detail_song_item_more_icon_width" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/milk_store_artist_detail_song_item_more_icon_left_margin" android:layout_marginRight="@dimen/milk_store_artist_detail_song_item_more_icon_right_margin" android:layout_alignParentRight="true">
+                    <ImageView android:id="@id/artist_detail_more" android:background="@drawable/ripple_oval_light" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/ab_btn_more" android:layout_centerVertical="true" />
+                </RelativeLayout>
+                <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toLeftOf="@id/artist_detail_more_container">
+                    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <include android:layout_gravity="center_vertical" android:id="@id/artist_detail_explicit_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" layout="@layout/milk_store_item_common_explicit" />
+                        <TextView android:textSize="@dimen/milk_list_title_size" android:textColor="@color/milk_list_title_text_color" android:ellipsize="end" android:id="@id/artist_detail_song_item_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:fontFamily="roboto-regular" />
+                    </LinearLayout>
+                    <TextView android:textSize="@dimen/milk_list_subtitle_size" android:textColor="@color/milk_list_subtitle_text_color" android:ellipsize="end" android:layout_gravity="center|left" android:id="@id/artist_detail_song_item_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:fontFamily="roboto-light" />
+                </LinearLayout>
+                <View android:background="@color/milk_store_artist_detail_item_divider_color" android:layout_width="fill_parent" android:layout_height="2.0px" android:layout_marginLeft="@dimen/topchart_divider_left_margin" android:layout_alignParentBottom="true" />
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

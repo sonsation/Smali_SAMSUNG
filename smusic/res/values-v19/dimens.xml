@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="noti_big_base_text_layout_margin_top">19.0dip</dimen>
+    <dimen name="noti_bigpicture2_margin_bottom">14.0dip</dimen>
+    <dimen name="noti_bigpicture2_margin_left">12.0dip</dimen>
+    <dimen name="noti_bigpicture2_margin_right">16.0dip</dimen>
+    <dimen name="noti_content_text_textsize">15.0dip</dimen>
+    <dimen name="noti_large_icon_margin_left">12.0dip</dimen>
+    <dimen name="noti_large_icon_margin_right">12.0dip</dimen>
+    <dimen name="noti_simple_base_text_layout_margin_top">10.0dip</dimen>
+    <dimen name="noti_text_layout_margin_bottom">10.0dip</dimen>
+    <dimen name="noti_text_layout_margin_left">5.0dip</dimen>
+    <dimen name="noti_text_layout_margin_right">8.0dip</dimen>
+    <dimen name="noti_title_textsize">16.0dip</dimen>
+    <dimen name="tablet_noti_base_height">68.0dip</dimen>
+    <dimen name="tablet_noti_big_base_text_layout_margin_top">11.0dip</dimen>
+    <dimen name="tablet_noti_bigpicture2_margin_bottom">13.0dip</dimen>
+    <dimen name="tablet_noti_bigpicture2_margin_end">7.0dip</dimen>
+    <dimen name="tablet_noti_bigpicture2_margin_start">11.0dip</dimen>
+    <dimen name="tablet_noti_bigpicture2_size">140.0dip</dimen>
+    <dimen name="tablet_noti_content_text_textsize">16.0dip</dimen>
+    <dimen name="tablet_noti_large_icon_margin_bottom">13.0dip</dimen>
+    <dimen name="tablet_noti_large_icon_margin_end">7.0dip</dimen>
+    <dimen name="tablet_noti_large_icon_margin_start">11.0dip</dimen>
+    <dimen name="tablet_noti_large_icon_margin_top">11.0dip</dimen>
+    <dimen name="tablet_noti_large_icon_size">40.0dip</dimen>
+    <dimen name="tablet_noti_simple_base_text_layout_margin_top">6.0dip</dimen>
+    <dimen name="tablet_noti_small_icon_bg_margin">0.0dip</dimen>
+    <dimen name="tablet_noti_small_icon_bg_size">0.0dip</dimen>
+    <dimen name="tablet_noti_small_icon_margin">0.0dip</dimen>
+    <dimen name="tablet_noti_small_icon_size">0.0dip</dimen>
+    <dimen name="tablet_noti_text_layout_margin_bottom">13.0dip</dimen>
+    <dimen name="tablet_noti_text_layout_margin_end">24.0dip</dimen>
+    <dimen name="tablet_noti_title_textsize">20.0dip</dimen>
+</resources>

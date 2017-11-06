@@ -1,0 +1,19 @@
+uniform mat4 uModelMatrix;
+uniform mat4 uPVMatrix;
+attribute vec3 aCoord;
+varying vec2 vTextureCoord;
+
+uniform float uFogNear;
+uniform float uFogFar;
+varying float vFogOpacity;
+
+void main() {
+    vTextureCoord = aCoord.xy;
+    vTextureCoord.y = 1.0 - vTextureCoord.y;
+    vec4 pos = uModelMatrix * vec4(aCoord, 1.0);
+#ifdef Fog
+    vFogOpacity = (uFogFar - pos.z) / abs(uFogFar - uFogNear);
+    vFogOpacity = clamp(vFogOpacity, 0.0, 1.0);
+#endif
+    gl_Position = uPVMatrix * pos;
+}

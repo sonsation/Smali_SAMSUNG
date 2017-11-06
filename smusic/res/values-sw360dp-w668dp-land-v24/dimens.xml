@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="full_player_album_spacing">21.0dip</dimen>
+    <dimen name="full_player_album_spacing_additional">21.0dip</dimen>
+    <dimen name="full_player_album_vertical_delta">-8.0dip</dimen>
+    <dimen name="full_player_not_selected_album_height">110.0dip</dimen>
+    <dimen name="about_update_button_width">133.0dip</dimen>
+</resources>

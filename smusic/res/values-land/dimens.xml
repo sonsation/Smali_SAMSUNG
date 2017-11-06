@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="abc_action_bar_default_height_material">48.0dip</dimen>
+    <dimen name="abc_action_bar_progress_bar_size">32.0dip</dimen>
+    <dimen name="abc_text_size_subtitle_material_toolbar">12.0dip</dimen>
+    <dimen name="abc_text_size_title_material_toolbar">14.0dip</dimen>
+    <dimen name="action_bar_checkbox_layout_padding_bottom">2.0dip</dimen>
+    <dimen name="action_bar_checkbox_layout_padding_top">3.0dip</dimen>
+    <dimen name="full_player_album_height">200.0dip</dimen>
+    <dimen name="full_player_albumview_height_with_shade">200.0dip</dimen>
+    <dimen name="full_player_albumview_margin_bottom">2.0dip</dimen>
+    <item type="dimen" name="full_player_button_height">@dimen/full_player_shuffle_repeat_height</item>
+    <dimen name="full_player_control_layout_height">100.0dip</dimen>
+    <dimen name="full_player_control_layout_width">306.0dip</dimen>
+    <dimen name="full_player_control_margin_horizontal">0.0dip</dimen>
+    <dimen name="full_player_landscape_right_layout_width">306.0dip</dimen>
+    <dimen name="full_player_option_layout_width">306.0dip</dimen>
+    <dimen name="full_player_queue_header_small_land_height">96.0dip</dimen>
+    <dimen name="full_player_seekbar_margin_horizontal">15.0dip</dimen>
+    <dimen name="full_player_shuffle_repeat_height">67.0dip</dimen>
+    <dimen name="full_player_shuffle_repeat_width">69.0dip</dimen>
+    <dimen name="full_player_title_layout_height">48.0dip</dimen>
+    <dimen name="full_player_title_layout_margin_bottom">0.0dip</dimen>
+    <dimen name="full_player_title_layout_padding_horizontal">32.0dip</dimen>
+    <dimen name="full_player_volume_panel_height">172.0dip</dimen>
+    <dimen name="full_player_volume_panel_y_offset">-46.0dip</dimen>
+    <dimen name="grid_item_height">148.0dip</dimen>
+    <dimen name="grid_item_width">113.0dip</dimen>
+    <dimen name="list_item_padding_vertical_winset">16.0dip</dimen>
+    <dimen name="sesl_color_picker_gradient_wheel_container_height">234.0dip</dimen>
+    <dimen name="sesl_color_picker_gradient_wheel_container_padding_top">3.0dip</dimen>
+    <dimen name="sesl_color_picker_gradient_wheel_container_width">237.0dip</dimen>
+    <dimen name="sesl_color_picker_gradient_wheel_size">194.0dip</dimen>
+    <dimen name="sesl_color_picker_main_content_width">287.0dip</dimen>
+    <dimen name="sesl_date_picker_calendar_day_height">25.0dip</dimen>
+    <dimen name="sesl_date_picker_calendar_header_button_height">28.0dip</dimen>
+    <dimen name="sesl_date_picker_calendar_header_button_width">28.0dip</dimen>
+    <dimen name="sesl_date_picker_calendar_header_height">28.0dip</dimen>
+    <dimen name="sesl_date_picker_calendar_view_height">162.0dip</dimen>
+    <dimen name="sesl_date_picker_calendar_week_height">27.0dip</dimen>
+    <dimen name="sesl_date_picker_gap_between_header_and_weekend">2.0dip</dimen>
+    <dimen name="sesl_date_picker_gap_between_weekend_and_calender">0.0dip</dimen>
+    <dimen name="sesl_date_picker_selected_day_circle_radius">11.0dip</dimen>
+    <dimen name="sesl_date_picker_spinner_margin_bottom">22.0dip</dimen>
+    <dimen name="sesl_date_picker_spinner_margin_top">23.0dip</dimen>
+    <item type="dimen" name="ticker_text_full_max_ratio">0.67</item>
+    <dimen name="ticker_text_sender_max_width">210.0dip</dimen>
+    <dimen name="toast_top_margin">9.0dip</dimen>
+    <dimen name="sesl_color_picker_gradient_seekbar_margin_top">15.0dip</dimen>
+    <dimen name="sesl_color_picker_gradient_wheel_container_padding_left">6.0dip</dimen>
+    <dimen name="sesl_color_picker_main_content_padding_bottom">16.0dip</dimen>
+    <dimen name="sesl_color_picker_main_content_padding_right">19.0dip</dimen>
+    <dimen name="sesl_color_picker_main_content_padding_top">24.0dip</dimen>
+</resources>

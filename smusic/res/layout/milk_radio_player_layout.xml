@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_gravity="center_vertical" android:id="@id/mr_prev_button_container" android:layout_width="@dimen/mr_player_button_skip_prev_button_width" android:layout_height="@dimen/mr_player_button_skip_prev_button_height">
+        <ImageView android:duplicateParentState="true" android:layout_width="@dimen/mr_player_button_skip_background" android:layout_height="@dimen/mr_player_button_skip_background" android:src="@drawable/milk_radio_btn_background" android:layout_centerInParent="true" />
+        <ImageView android:id="@id/mr_btn_prev_icon" android:duplicateParentState="true" android:layout_width="@dimen/mr_player_button_skip_size" android:layout_height="@dimen/mr_player_button_skip_size" android:src="@drawable/milk_radio_prev_icon" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_gravity="center_vertical" android:id="@id/mr_play_pause_button_container" android:layout_width="@dimen/mr_player_button_size_3_button_width" android:layout_height="@dimen/mr_player_button_size_3_button_height">
+        <ImageView android:duplicateParentState="true" android:layout_width="@dimen/mr_player_button_player_background" android:layout_height="@dimen/mr_player_button_player_background" android:src="@drawable/milk_radio_btn_background" android:layout_centerInParent="true" />
+        <ImageView android:id="@id/mr_btn_play_icon" android:duplicateParentState="true" android:layout_width="@dimen/mr_player_button_player_size" android:layout_height="@dimen/mr_player_button_player_size" android:src="@drawable/milk_radio_play_pause" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_gravity="center_vertical" android:id="@id/mr_skip_button_container" android:layout_width="@dimen/mr_player_button_skip_prev_button_width" android:layout_height="@dimen/mr_player_button_skip_prev_button_height">
+        <ImageView android:duplicateParentState="true" android:layout_width="@dimen/mr_player_button_skip_background" android:layout_height="@dimen/mr_player_button_skip_background" android:src="@drawable/milk_radio_btn_background" android:layout_centerInParent="true" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/mr_btn_skip" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <ImageView android:id="@id/mr_btn_skip_icon" android:duplicateParentState="true" android:layout_width="@dimen/mr_player_button_skip_size" android:layout_height="@dimen/mr_player_button_skip_size" android:src="@drawable/milk_radio_skip_icon" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

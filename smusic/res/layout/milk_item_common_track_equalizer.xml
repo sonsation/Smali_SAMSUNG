@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.app.musiclibrary.ui.widget.EqualizerAnimationView android:id="@id/equalizer" android:layout_width="@dimen/milk_store_common_track_list_option_size" android:layout_height="@dimen/milk_store_common_track_list_option_size"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

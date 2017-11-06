@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/widget_control_common" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/widget_control_button_margin_top" android:baselineAligned="false" android:layoutDirection="ltr" android:layout_marginStart="@dimen/widget_control_button_margin_horizontal" android:layout_marginEnd="@dimen/widget_control_button_margin_horizontal"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/widget_control_shuffle_btn" android:focusable="true" android:clickable="true" android:layout_width="0.0dip" android:layout_height="@dimen/widget_control_button_size" android:layout_weight="1.0">
+        <ImageView android:layout_gravity="center" android:id="@id/widget_control_shuffle_icon" android:background="@drawable/unbounded_ripple_dark" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/music_btn_shuffle_off_normal" android:tint="@color/widget_text_dark" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/prev_btn" android:focusable="true" android:clickable="true" android:layout_width="0.0dip" android:layout_height="@dimen/widget_control_button_size" android:layout_weight="1.0" android:layout_marginStart="@dimen/widget_control_button_outside_margin_horizontal" android:layout_marginEnd="@dimen/widget_control_button_inside_margin_horizontal">
+        <ImageView android:layout_gravity="center" android:id="@id/prev_icon" android:background="@drawable/unbounded_ripple_dark" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/music_btn_prev_normal" android:tint="@color/widget_text_dark" android:contentDescription="@string/tts_previous" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/play_pause_btn" android:focusable="true" android:clickable="true" android:layout_width="0.0dip" android:layout_height="@dimen/widget_control_button_size" android:layout_weight="1.0">
+        <ImageView android:layout_gravity="center" android:id="@id/play_pause_icon" android:background="@drawable/unbounded_ripple_dark" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/widget_play" android:tint="@color/widget_text_dark" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/next_btn" android:focusable="true" android:clickable="true" android:layout_width="0.0dip" android:layout_height="@dimen/widget_control_button_size" android:layout_weight="1.0" android:layout_marginStart="@dimen/widget_control_button_inside_margin_horizontal" android:layout_marginEnd="@dimen/widget_control_button_outside_margin_horizontal">
+        <ImageView android:layout_gravity="center" android:id="@id/next_icon" android:background="@drawable/unbounded_ripple_dark" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/music_btn_next_normal" android:tint="@color/widget_text_dark" android:contentDescription="@string/tts_next" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/widget_control_repeat_btn" android:focusable="true" android:clickable="true" android:layout_width="0.0dip" android:layout_height="@dimen/widget_control_button_size" android:layout_weight="1.0">
+        <ImageView android:layout_gravity="center" android:id="@id/widget_control_repeat_icon" android:background="@drawable/unbounded_ripple_dark" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/music_btn_repeat_normal" android:tint="@color/widget_text_dark" />
+    </FrameLayout>
+</LinearLayout>

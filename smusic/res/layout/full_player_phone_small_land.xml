@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/base_blur_background_common" />
+    <RelativeLayout android:id="@id/player_container" android:fitsSystemWindows="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:id="@id/full_player_left_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toStartOf="@id/full_player_right_layout" android:layout_alignParentStart="true">
+            <FrameLayout android:id="@id/full_player_album_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layoutDirection="locale">
+                <include layout="@layout/full_player_album_view_phone" />
+            </FrameLayout>
+            <ViewStub android:id="@id/full_player_lyric_stub" android:layout="@layout/full_player_lyric_panel_common" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <include layout="@layout/full_player_queue_common" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/full_player_right_layout" android:background="@android:color/transparent" android:fitsSystemWindows="false" android:layout_width="@dimen/full_player_landscape_right_layout_width" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/full_player_control_margin_bottom" android:layoutDirection="ltr" android:layout_alignParentEnd="true">
+            <RelativeLayout android:id="@id/full_player_title_layout" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/full_player_title_layout_height" android:layout_marginTop="@dimen/full_player_small_land_title_layout_margin_top" android:minHeight="@dimen/full_player_title_layout_height" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" android:layoutDirection="locale" android:paddingStart="@dimen/full_player_title_layout_padding_horizontal" android:paddingEnd="@dimen/full_player_title_layout_padding_horizontal">
+                <include layout="@layout/full_player_title_common" />
+            </RelativeLayout>
+            <FrameLayout android:id="@id/full_player_option_layout" android:background="@android:color/transparent" android:layout_width="@dimen/full_player_option_layout_width" android:layout_height="@dimen/full_player_option_layout_height" android:layout_marginBottom="@dimen/full_player_option_margin_bottom" android:layout_above="@id/full_player_control_layout" android:layout_centerHorizontal="true" android:layout_marginStart="@dimen/full_player_control_margin_horizontal" android:layout_marginEnd="@dimen/full_player_control_margin_horizontal">
+                <include layout="@layout/full_player_option_common" />
+            </FrameLayout>
+            <include layout="@layout/full_player_controller_common" />
+        </RelativeLayout>
+    </RelativeLayout>
+</FrameLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NNNalbum">
+        <item quantity="other">%d albomlar</item>
+        <item quantity="one">%d albom</item>
+    </plurals>
+    <plurals name="NNNartist_album">
+        <item quantity="other">Albomlar</item>
+        <item quantity="one">Albom</item>
+    </plurals>
+    <plurals name="NNNartist_track">
+        <item quantity="other">Ýodalar</item>
+        <item quantity="one">Ýoda</item>
+    </plurals>
+    <plurals name="NNNsometrackstofavorite">
+        <item quantity="other">Halanýanlara %d ýodajyklary goşuldy. Eýýäm Halanýanlardaky ýodajyklar goşulmady.</item>
+        <item quantity="one">%d aýdym Halanýanlara goşuldy. Eýýäm Halanýanlarda bar bolan element goşulmady.</item>
+    </plurals>
+    <plurals name="NNNtrack">
+        <item quantity="other">%d ýodalar</item>
+        <item quantity="one">%d ýoda</item>
+    </plurals>
+    <plurals name="NNNtracksfromfavorite">
+        <item quantity="other">%d ýodajyk halanýanlardan aýryldy.</item>
+        <item quantity="one">%d aýdym Halanýanlardan aýryldy.</item>
+    </plurals>
+    <plurals name="NNNtrackstofavorite">
+        <item quantity="other">%d aýdym halanýanlara goşuldy.</item>
+        <item quantity="one">%d aýdym halanýanlara goşuldy.</item>
+    </plurals>
+    <plurals name="NNNtrackstoplaylist">
+        <item quantity="other">Aýdylýan sanawa %d mukamlar goşulandyr.</item>
+        <item quantity="one">%d aýdym saz-sanawa goşuldy.</item>
+    </plurals>
+    <plurals name="drm_can_use_n_times">
+        <item quantity="other">Siz %1$s %2$d gezek ulanyp bilýärsiňiz.</item>
+        <item quantity="one">Siz 1 gezek %s ulanyp bilýärsiňiz.</item>
+    </plurals>
+    <plurals name="n_albums_deleted_msg">
+        <item quantity="other">%d albomy we olardaky ähli aýdymy telefonyňyzdan öçürmelimi?</item>
+        <item quantity="one">1 albomy we ondaky ähli aýdymy telefonyňyzdan öçürmelimi?</item>
+    </plurals>
+    <plurals name="n_artists_deleted_msg">
+        <item quantity="other">Bu aýdymçylaryň ähli aýdymlaryny öçürmelimi?</item>
+        <item quantity="one">Bu aýdymçynyň ähli aýdymlaryny öçürmelimi?</item>
+    </plurals>
+    <plurals name="n_composers_deleted_msg">
+        <item quantity="other">Bu kompozitorlaryň ähli aýdymlaryny öçürmelimi?</item>
+        <item quantity="one">Bu kompozitoryň ähli aýdymlaryny öçürmelimi?</item>
+    </plurals>
+    <plurals name="n_folders_deleted_msg">
+        <item quantity="other">%d bukjany we olardaky ähli aýdymy telefonyňyzdan öçürmelimi?</item>
+        <item quantity="one">1 bukjany we ondaky ähli aýdymy telefonyňyzdan öçürmelimi?</item>
+    </plurals>
+    <plurals name="n_genres_deleted_msg">
+        <item quantity="other">Bu žanrlardaky ähli aýdymlaryny öçürmelimi?</item>
+        <item quantity="one">Bu žanrdaky ähli aýdymlaryny öçürmelimi?</item>
+    </plurals>
+    <plurals name="n_items_deleted_msg">
+        <item quantity="other">Delete %d items?</item>
+        <item quantity="one">Delete %d items?</item>
+    </plurals>
+    <plurals name="n_playlists_deleted_msg">
+        <item quantity="other">%d pleýlisti öçürmelimi?</item>
+        <item quantity="one">1 pleýlisti öçürmelimi?</item>
+    </plurals>
+    <plurals name="n_tracks_added_to_queue">
+        <item quantity="other">%d aýdym nobata goşuldy.</item>
+        <item quantity="one">%d aýdym nobata goşuldy.</item>
+    </plurals>
+    <plurals name="n_tracks_deleted_msg">
+        <item quantity="other">%d aýdymy öçürmelimi?</item>
+        <item quantity="one">1 aýdymy öçürmelimi?</item>
+    </plurals>
+</resources>

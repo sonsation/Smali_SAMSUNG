@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="full_player_control_layout_height">145.0dip</dimen>
+    <dimen name="full_player_option_margin_bottom">-5.0dip</dimen>
+    <dimen name="full_player_seekbar_margin_top">0.0dip</dimen>
+    <dimen name="winset_spinner_margin_horizontal">6.0dip</dimen>
+</resources>

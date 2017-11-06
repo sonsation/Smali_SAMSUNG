@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NNNalbum">
+        <item quantity="other">%d альб.</item>
+        <item quantity="one">%d альбом</item>
+    </plurals>
+    <plurals name="NNNartist_album">
+        <item quantity="other">Альбомы</item>
+        <item quantity="one">Альбом</item>
+    </plurals>
+    <plurals name="NNNartist_track">
+        <item quantity="other">Трэкі</item>
+        <item quantity="one">Трэк</item>
+    </plurals>
+    <plurals name="NNNsometrackstofavorite">
+        <item quantity="other">Трэкі (%d шт.) дададзены ва Упадабаныя. Трэкі, якія ўжо ёсць ва Упадабаных, не былі дададзены.</item>
+        <item quantity="one">%d трэк дададзены ў Выбранае. Трэк, які ёсць у Выбраных, не дададзены.</item>
+    </plurals>
+    <plurals name="NNNtrack">
+        <item quantity="other">Трэкаў: %d</item>
+        <item quantity="one">%d трэк</item>
+    </plurals>
+    <plurals name="NNNtracksfromfavorite">
+        <item quantity="other">Выдалена трэкаў з упадабаных: %d.</item>
+        <item quantity="one">%d трэк выдалены з Выбранага.</item>
+    </plurals>
+    <plurals name="NNNtrackstofavorite">
+        <item quantity="other">Трэкі (%d шт.) дададзены ва ўпадабаныя.</item>
+        <item quantity="one">%d трэк дададзены ў Выбранае.</item>
+    </plurals>
+    <plurals name="NNNtrackstoplaylist">
+        <item quantity="other">У плэйліст дададзены трэкі (%d шт.).</item>
+        <item quantity="one">%d трэк дададзены ў плэйліст.</item>
+    </plurals>
+    <plurals name="drm_can_use_n_times">
+        <item quantity="other">Вы можаце скарыстацца %1$s %2$d разы(-оў).</item>
+        <item quantity="one">Вы можаце скарыстацца %s 1 раз.</item>
+    </plurals>
+    <plurals name="n_albums_deleted_msg">
+        <item quantity="other">Выдаліць альбомы (%d) і ўсе трэкі ў іх з вашага тэлефона?</item>
+        <item quantity="one">Выдаліць 1 альбом і ўсе трэкі ў ім з вашага тэлефона?</item>
+    </plurals>
+    <plurals name="n_artists_deleted_msg">
+        <item quantity="other">Выдаліць усе трэкі гэтых выканаўцаў?</item>
+        <item quantity="one">Выдаліць усе трэкі гэтага выканаўцы?</item>
+    </plurals>
+    <plurals name="n_composers_deleted_msg">
+        <item quantity="other">Выдаліць усе трэкі гэтых кампазітараў?</item>
+        <item quantity="one">Выдаліць усе трэкі гэтага кампазітара?</item>
+    </plurals>
+    <plurals name="n_folders_deleted_msg">
+        <item quantity="other">Выдаліць папкі (%d) і ўсе трэкі ў іх з вашага тэлефона?</item>
+        <item quantity="one">Выдаліць 1 папку і ўсе трэкі ў ёй з вашага тэлефона?</item>
+    </plurals>
+    <plurals name="n_genres_deleted_msg">
+        <item quantity="other">Выдаліць усе трэкі гэтых жанраў?</item>
+        <item quantity="one">Выдаліць усе трэкі гэтага жанру?</item>
+    </plurals>
+    <plurals name="n_items_deleted_msg">
+        <item quantity="other">Delete %d items?</item>
+        <item quantity="one">Delete %d items?</item>
+    </plurals>
+    <plurals name="n_playlists_deleted_msg">
+        <item quantity="other">Выдаліць плэйлісты (%d)?</item>
+        <item quantity="one">Выдаліць 1 плэйліст?</item>
+    </plurals>
+    <plurals name="n_tracks_added_to_queue">
+        <item quantity="other">%d трэкаў дададзена ў чаргу.</item>
+        <item quantity="one">%d трэк дададзены ў чаргу.</item>
+    </plurals>
+    <plurals name="n_tracks_deleted_msg">
+        <item quantity="other">Выдаліць трэкі (%d)?</item>
+        <item quantity="one">Выдаліць 1 трэк?</item>
+    </plurals>
+</resources>

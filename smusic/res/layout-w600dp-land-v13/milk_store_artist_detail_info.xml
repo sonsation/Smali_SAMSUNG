@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0dip" android:textColor="#fffafafa" android:ellipsize="end" android:id="@id/artist_genre_type" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="2.0dip" android:lines="1" android:fontFamily="roboto-regular" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:id="@id/create_station_container" android:background="@drawable/ripple_rect_light" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true">
+            <TextView android:textSize="13.0dip" android:textColor="@color/milk_store_artist_detail_text_color" android:ellipsize="end" android:gravity="center_vertical" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/milk_create_station_menu_item" android:singleLine="true" android:fontFamily="roboto-regular" />
+            <ImageView android:duplicateParentState="true" android:layout_width="@dimen/milk_store_common_detail_arrow_size" android:layout_height="@dimen/milk_store_common_detail_arrow_size" android:src="@drawable/milk_store_create_station_button_selector" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/create_station_container">
+            <TextView android:textSize="13.0dip" android:textColor="#fffafafa" android:id="@id/artist_debut_year" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" android:fontFamily="roboto-regular" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/detail_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="13.0dip" android:textColor="@color/milk_store_artist_detail_text_color" android:gravity="center_vertical" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/milk_store_move_detail" android:lines="1" android:fontFamily="roboto-regular" />
+                <ImageView android:duplicateParentState="true" android:layout_width="@dimen/milk_store_common_detail_arrow_size" android:layout_height="@dimen/milk_store_common_detail_arrow_size" android:src="@drawable/milk_store_artist_detail_arrow_detail_selector" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

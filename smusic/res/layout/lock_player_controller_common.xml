@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/prev_btn" android:focusable="true" android:clickable="true" android:layout_width="@dimen/lock_player_control_width" android:layout_height="@dimen/lock_player_control_height">
+        <ImageView android:layout_gravity="center" android:id="@id/prev_icon" android:background="@drawable/unbounded_ripple_light_full_player_button" android:duplicateParentState="true" android:layout_width="@dimen/lock_player_control_prev_size" android:layout_height="@dimen/lock_player_control_prev_size" android:src="@drawable/music_player_ic_control_prev" android:scaleType="fitXY" android:contentDescription="@string/tts_previous" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/play_pause_btn" android:focusable="true" android:clickable="true" android:layout_width="@dimen/lock_player_control_width" android:layout_height="@dimen/lock_player_control_height" android:layout_marginStart="@dimen/lock_player_control_horizontal_padding" android:layout_marginEnd="@dimen/lock_player_control_horizontal_padding">
+        <ImageView android:layout_gravity="center" android:id="@id/play_pause_icon" android:background="@drawable/ripple_full_player_play_pause_button" android:duplicateParentState="true" android:layout_width="@dimen/lock_player_control_play_pause_size" android:layout_height="@dimen/lock_player_control_play_pause_size" android:src="@drawable/full_player_play_pause" android:scaleType="fitXY" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/next_btn" android:focusable="true" android:clickable="true" android:layout_width="@dimen/lock_player_control_width" android:layout_height="@dimen/lock_player_control_height">
+        <ImageView android:layout_gravity="center" android:id="@id/next_icon" android:background="@drawable/unbounded_ripple_light_full_player_button" android:duplicateParentState="true" android:layout_width="@dimen/lock_player_control_next_size" android:layout_height="@dimen/lock_player_control_next_size" android:src="@drawable/music_player_ic_control_next" android:scaleType="fitXY" android:contentDescription="@string/tts_next" />
+    </FrameLayout>
+</merge>

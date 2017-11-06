@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="true" android:id="@id/on">
+        <bitmap android:src="@drawable/sesl_btn_check_to_on_029" android:tint="@color/sesl_check_on" />
+    </item>
+    <item android:id="@id/off">
+        <bitmap android:src="@drawable/sesl_btn_check_to_on_000" android:tint="@color/sesl_check_off" />
+    </item>
+    <transition android:toId="@id/on" android:fromId="@id/off">
+        <animation-list>
+            <item android:duration="10">
+                <bitmap android:src="@drawable/sesl_btn_check_to_on_000" android:tint="@color/sesl_check_off" />
+            </item>
+            <item android:duration="10">
+                <bitmap android:src="@drawable/sesl_btn_check_to_on_001" android:tint="@color/sesl_check_off" />
+            </item>
+            <item android:duration="10">
+                <bitmap android:src="@drawable/sesl_btn_check_to_on_002" android:tint="@color/sesl_check_off" />
+            </item>
+            <item android:duration="10">
+                <bitmap android:src="@drawable/sesl_btn_check_to_on_003" android:tint="@color/sesl_check_off" />
+            </item>
+            <item android:duration="10">
+                <bitmap android:src="@drawable/sesl_btn_check_to_on_004" android:tint="@color/sesl_check_off" />
+            </item>
+            <item android:duration="10">
+                <bitmap android:src="@drawable/sesl_btn_check_to_on_005" android:tint="@color/sesl_check_on" />
+            </item>
+            <item android:duration="10">
+                <bitmap android:src="@drawable/sesl_btn_check_to_on_006" android:tint="@color/sesl_check_on" />
+            </item>
+            <item android:duration="10">
+                <bitmap android:src="@drawable/sesl_btn_check_to_on_007" android:tint="@color/sesl_check_on" />
+            </item>
+            <item android:duration="10">
+                <bitmap android:src="@drawable/sesl_btn_check_to_on_008" android:tint="@color/sesl_check_on" />
+            </item>
+            <item android:duration="10">
+                <bitmap android:src="@drawable/sesl_btn_check_to_on_009" android:tint="@color/sesl_check_on" />
+            </item>
+            <item android:duration="10">
+                <bitmap android:src="@drawable/sesl_btn_check_to_on_010" android:tint="@color/sesl_check_on" />
+            </item>
+            <item android:duration="10">
+                <bitmap android:src="@drawable/sesl_btn_check_to_on_011" android:tint="@color/sesl_check_on" />
+            </item>
+            <item android:duration="10">
+                <bitmap android:src="@drawable/sesl_btn_check_to_on_012" android:tint="@color/sesl_check_on" />
+            </item>
+            <item android:duration="10">
+                <bitmap android:src="@drawable/sesl_btn_check_to_on_013" android:tint="@color/sesl_check_on" />
+            </item>
+            <item android:duration="10">
+                <bitmap android:src="@drawable/sesl_btn_check_to_on_014" android:tint="@color/sesl_check_on" />
+            </item>
+            <item android:duration="10">
+                <bitmap android:src="@drawable/sesl_btn_check_to_on_015" android:tint="@color/sesl_check_on" />
+            </item>
+            <item android:duration="10">
+                <bitmap android:src="@drawable/sesl_btn_check_to_on_016" android:tint="@color/sesl_check_on" />
+            </item>
+            <item android:duration="10">
+                <bitmap android:src="@drawable/sesl_btn_check_to_on_017" android:tint="@color/sesl_check_on" />
+            </item>
+            <item android:duration="10">
+                <bitmap android:src="@drawable/sesl_btn_check_to_on_018" android:tint="@color/sesl_check_on" />
+            </item>
+            <item android:duration="10">
+                <bitmap android:src="@drawable/sesl_btn_check_to_on_019" android:tint="@color/sesl_check_on" />
+            </item>
+            <item android:duration="10">
+                <bitmap android:src="@drawable/sesl_btn_check_to_on_020" android:tint="@color/sesl_check_on" />
+            </item>
+            <item android:duration="10">
+                <bitmap android:src="@drawable/sesl_btn_check_to_on_021" android:tint="@color/sesl_check_on" />
+            </item>
+            <item android:duration="10">
+                <bitmap android:src="@drawable/sesl_btn_check_to_on_022" android:tint="@color/sesl_check_on" />
+            </item>
+            <item android:duration="10">
+                <bitmap android:src="@drawable/sesl_btn_check_to_on_023" android:tint="@color/sesl_check_on" />
+            </item>
+            <item android:duration="10">
+                <bitmap android:src="@drawable/sesl_btn_check_to_on_024" android:tint="@color/sesl_check_on" />
+            </item>
+            <item android:duration="10">
+                <bitmap android:src="@drawable/sesl_btn_check_to_on_025" android:tint="@color/sesl_check_on" />
+            </item>
+            <item android:duration="10">
+                <bitmap android:src="@drawable/sesl_btn_check_to_on_026" android:tint="@color/sesl_check_on" />
+            </item>
+            <item android:duration="10">
+                <bitmap android:src="@drawable/sesl_btn_check_to_on_027" android:tint="@color/sesl_check_on" />
+            </item>
+            <item android:duration="10">
+                <bitmap android:src="@drawable/sesl_btn_check_to_on_028" android:tint="@color/sesl_check_on" />
+            </item>
+            <item android:duration="10">
+                <bitmap android:src="@drawable/sesl_btn_check_to_on_029" android:tint="@color/sesl_check_on" />
+            </item>
+        </animation-list>
+    </transition>
+    <transition android:toId="@id/off" android:fromId="@id/on">
+        <animation-list>
+            <item android:duration="10">
+                <bitmap android:src="@drawable/sesl_btn_check_to_on_029" android:tint="@color/sesl_check_on" />
+            </item>
+            <item android:duration="10">
+                <bitmap android:src="@drawable/sesl_btn_check_to_on_028" android:tint="@color/sesl_check_on" />
+            </item>
+            <item android:duration="10">
+                <bitmap android:src="@drawable/sesl_btn_check_to_on_027" android:tint="@color/sesl_check_on" />
+            </item>
+            <item android:duration="10">
+                <bitmap android:src="@drawable/sesl_btn_check_to_on_026" android:tint="@color/sesl_check_on" />
+            </item>
+            <item android:duration="10">
+                <bitmap android:src="@drawable/sesl_btn_check_to_on_025" android:tint="@color/sesl_check_on" />
+            </item>
+            <item android:duration="10">
+                <bitmap android:src="@drawable/sesl_btn_check_to_on_024" android:tint="@color/sesl_check_on" />
+            </item>
+            <item android:duration="10">
+                <bitmap android:src="@drawable/sesl_btn_check_to_on_023" android:tint="@color/sesl_check_on" />
+            </item>
+            <item android:duration="10">
+                <bitmap android:src="@drawable/sesl_btn_check_to_on_022" android:tint="@color/sesl_check_on" />
+            </item>
+            <item android:duration="10">
+                <bitmap android:src="@drawable/sesl_btn_check_to_on_021" android:tint="@color/sesl_check_on" />
+            </item>
+            <item android:duration="10">
+                <bitmap android:src="@drawable/sesl_btn_check_to_on_020" android:tint="@color/sesl_check_on" />
+            </item>
+            <item android:duration="10">
+                <bitmap android:src="@drawable/sesl_btn_check_to_on_019" android:tint="@color/sesl_check_on" />
+            </item>
+            <item android:duration="10">
+                <bitmap android:src="@drawable/sesl_btn_check_to_on_018" android:tint="@color/sesl_check_on" />
+            </item>
+            <item android:duration="10">
+                <bitmap android:src="@drawable/sesl_btn_check_to_on_017" android:tint="@color/sesl_check_on" />
+            </item>
+            <item android:duration="10">
+                <bitmap android:src="@drawable/sesl_btn_check_to_on_016" android:tint="@color/sesl_check_on" />
+            </item>
+            <item android:duration="10">
+                <bitmap android:src="@drawable/sesl_btn_check_to_on_015" android:tint="@color/sesl_check_on" />
+            </item>
+            <item android:duration="10">
+                <bitmap android:src="@drawable/sesl_btn_check_to_on_014" android:tint="@color/sesl_check_on" />
+            </item>
+            <item android:duration="10">
+                <bitmap android:src="@drawable/sesl_btn_check_to_on_013" android:tint="@color/sesl_check_on" />
+            </item>
+            <item android:duration="10">
+                <bitmap android:src="@drawable/sesl_btn_check_to_on_012" android:tint="@color/sesl_check_on" />
+            </item>
+            <item android:duration="10">
+                <bitmap android:src="@drawable/sesl_btn_check_to_on_011" android:tint="@color/sesl_check_on" />
+            </item>
+            <item android:duration="10">
+                <bitmap android:src="@drawable/sesl_btn_check_to_on_010" android:tint="@color/sesl_check_on" />
+            </item>
+            <item android:duration="10">
+                <bitmap android:src="@drawable/sesl_btn_check_to_on_009" android:tint="@color/sesl_check_on" />
+            </item>
+            <item android:duration="10">
+                <bitmap android:src="@drawable/sesl_btn_check_to_on_008" android:tint="@color/sesl_check_on" />
+            </item>
+            <item android:duration="10">
+                <bitmap android:src="@drawable/sesl_btn_check_to_on_007" android:tint="@color/sesl_check_on" />
+            </item>
+            <item android:duration="10">
+                <bitmap android:src="@drawable/sesl_btn_check_to_on_006" android:tint="@color/sesl_check_on" />
+            </item>
+            <item android:duration="10">
+                <bitmap android:src="@drawable/sesl_btn_check_to_on_005" android:tint="@color/sesl_check_on" />
+            </item>
+            <item android:duration="10">
+                <bitmap android:src="@drawable/sesl_btn_check_to_on_004" android:tint="@color/sesl_check_off" />
+            </item>
+            <item android:duration="10">
+                <bitmap android:src="@drawable/sesl_btn_check_to_on_003" android:tint="@color/sesl_check_off" />
+            </item>
+            <item android:duration="10">
+                <bitmap android:src="@drawable/sesl_btn_check_to_on_002" android:tint="@color/sesl_check_off" />
+            </item>
+            <item android:duration="10">
+                <bitmap android:src="@drawable/sesl_btn_check_to_on_001" android:tint="@color/sesl_check_off" />
+            </item>
+            <item android:duration="10">
+                <bitmap android:src="@drawable/sesl_btn_check_to_on_000" android:tint="@color/sesl_check_off" />
+            </item>
+        </animation-list>
+    </transition>
+</animated-selector>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NNNalbum">
+        <item quantity="other">%d albums</item>
+        <item quantity="one">%d album</item>
+    </plurals>
+    <plurals name="NNNartist_album">
+        <item quantity="other">Albums</item>
+        <item quantity="one">Album</item>
+    </plurals>
+    <plurals name="NNNartist_track">
+        <item quantity="other">Pistes</item>
+        <item quantity="one">Piste</item>
+    </plurals>
+    <plurals name="NNNsometrackstofavorite">
+        <item quantity="other">"%d morceaux ajoutés aux Favoris. Les morceaux qui se trouvent déjà dans les Favoris n'ont pas été ajoutés."</item>
+        <item quantity="one">"%d morceau a été ajouté aux favoris. Le morceau qui se trouve déjà dans les favoris n'a pas été ajouté."</item>
+    </plurals>
+    <plurals name="NNNtrack">
+        <item quantity="other">%d pistes</item>
+        <item quantity="one">%d morceau</item>
+    </plurals>
+    <plurals name="NNNtracksfromfavorite">
+        <item quantity="other">%d morceaux supprimés des Favoris.</item>
+        <item quantity="one">%d morceau a été supprimé des favoris.</item>
+    </plurals>
+    <plurals name="NNNtrackstofavorite">
+        <item quantity="other">%d morceaux ont été ajoutés aux favoris.</item>
+        <item quantity="one">%d morceau a été ajouté aux favoris.</item>
+    </plurals>
+    <plurals name="NNNtrackstoplaylist">
+        <item quantity="other">%d morceaux ajoutés à la liste de lecture</item>
+        <item quantity="one">%d morceau a été ajouté à la liste de lecture.</item>
+    </plurals>
+    <plurals name="drm_can_use_n_times">
+        <item quantity="other">Vous pouvez utiliser %1$s %2$d fois.</item>
+        <item quantity="one">Vous pouvez utiliser %s 1 fois.</item>
+    </plurals>
+    <plurals name="n_albums_deleted_msg">
+        <item quantity="other">Supprimer de votre téléphone %d albums et tous les morceaux y figurant ?</item>
+        <item quantity="one">Supprimer de votre téléphone 1 album et tous les morceaux y figurant ?</item>
+    </plurals>
+    <plurals name="n_artists_deleted_msg">
+        <item quantity="other">Supprimer tous les morceaux de ces artistes ?</item>
+        <item quantity="one">Supprimer tous les morceaux de cet artiste ?</item>
+    </plurals>
+    <plurals name="n_composers_deleted_msg">
+        <item quantity="other">Supprimer tous les morceaux de ces compositeurs ?</item>
+        <item quantity="one">Supprimer tous les morceaux de ce compositeur ?</item>
+    </plurals>
+    <plurals name="n_folders_deleted_msg">
+        <item quantity="other">Supprimer de votre téléphone %d dossiers et tous les morceaux y figurant ?</item>
+        <item quantity="one">Supprimer de votre téléphone 1 dossier et tous les morceaux y figurant ?</item>
+    </plurals>
+    <plurals name="n_genres_deleted_msg">
+        <item quantity="other">Supprimer tous les morceaux appartenant à ces genres ?</item>
+        <item quantity="one">Supprimer tous les morceaux appartenant à ce genre musical ?</item>
+    </plurals>
+    <plurals name="n_items_deleted_msg">
+        <item quantity="other">Delete %d items?</item>
+        <item quantity="one">Delete %d items?</item>
+    </plurals>
+    <plurals name="n_playlists_deleted_msg">
+        <item quantity="other">Supprimer %d listes de lecture ?</item>
+        <item quantity="one">Supprimer 1 liste de lecture ?</item>
+    </plurals>
+    <plurals name="n_tracks_added_to_queue">
+        <item quantity="other">%d morceaux ajoutés à la file.</item>
+        <item quantity="one">"%d morceau a été ajouté à la file d'attente."</item>
+    </plurals>
+    <plurals name="n_tracks_deleted_msg">
+        <item quantity="other">Supprimer %d morceaux ?</item>
+        <item quantity="one">Supprimer 1 morceau ?</item>
+    </plurals>
+</resources>

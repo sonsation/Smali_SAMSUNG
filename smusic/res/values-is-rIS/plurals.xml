@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NNNalbum">
+        <item quantity="other">%d plötur</item>
+        <item quantity="one">%d plata</item>
+    </plurals>
+    <plurals name="NNNartist_album">
+        <item quantity="other">Plötur</item>
+        <item quantity="one">Plata</item>
+    </plurals>
+    <plurals name="NNNartist_track">
+        <item quantity="other">Lög</item>
+        <item quantity="one">Lag</item>
+    </plurals>
+    <plurals name="NNNsometrackstofavorite">
+        <item quantity="other">%d lögum var bætt við uppáhald. Lögum sem þegar eru í uppáhaldi var ekki bætt við.</item>
+        <item quantity="one">%d lagi var bætt við uppáhald. Lagi sem þegar er í uppáhaldi var ekki bætt við.</item>
+    </plurals>
+    <plurals name="NNNtrack">
+        <item quantity="other">%d lög</item>
+        <item quantity="one">%d lag</item>
+    </plurals>
+    <plurals name="NNNtracksfromfavorite">
+        <item quantity="other">%d lög fjarlægð úr uppáhaldi.</item>
+        <item quantity="one">%d lag var fjarlægt úr uppáhaldi.</item>
+    </plurals>
+    <plurals name="NNNtrackstofavorite">
+        <item quantity="other">%d lögum bætt við uppáhald.</item>
+        <item quantity="one">%d lagi bætt við uppáhald.</item>
+    </plurals>
+    <plurals name="NNNtrackstoplaylist">
+        <item quantity="other">%d lögum var bætt við spilunarlistann.</item>
+        <item quantity="one">%d lagi bætt við spilunarlista.</item>
+    </plurals>
+    <plurals name="drm_can_use_n_times">
+        <item quantity="other">Það er hægt að nota %1$s í %2$d skipti.</item>
+        <item quantity="one">Það er hægt að nota %s í eitt skipti.</item>
+    </plurals>
+    <plurals name="n_albums_deleted_msg">
+        <item quantity="other">Viltu eyða %d plötum og öllum lögunum á þeim úr símanum?</item>
+        <item quantity="one">Viltu eyða 1 plötu og öllum lögunum á henni úr símanum?</item>
+    </plurals>
+    <plurals name="n_artists_deleted_msg">
+        <item quantity="other">Viltu eyða öllum lögum þessa flytjenda?</item>
+        <item quantity="one">Viltu eyða öllum lögum þessa flytjanda?</item>
+    </plurals>
+    <plurals name="n_composers_deleted_msg">
+        <item quantity="other">Viltu eyða öllum lögum þessa lagahöfunda?</item>
+        <item quantity="one">Viltu eyða öllum lögum þessa lagahöfundar?</item>
+    </plurals>
+    <plurals name="n_folders_deleted_msg">
+        <item quantity="other">Viltu eyða %d möppum og lögunum úr þeim úr símanum?</item>
+        <item quantity="one">Viltu eyða 1 möppu og öllum lögunum úr henni úr símanum?</item>
+    </plurals>
+    <plurals name="n_genres_deleted_msg">
+        <item quantity="other">Viltu eyða öllum lögum í þessum tónlistarstefnum?</item>
+        <item quantity="one">Viltu eyða öllum lögum í þessari tónlistarstefnu?</item>
+    </plurals>
+    <plurals name="n_items_deleted_msg">
+        <item quantity="other">Delete %d items?</item>
+        <item quantity="one">Delete %d items?</item>
+    </plurals>
+    <plurals name="n_playlists_deleted_msg">
+        <item quantity="other">Eyða %d spilunarlistum?</item>
+        <item quantity="one">Eyða 1 spilunarlista?</item>
+    </plurals>
+    <plurals name="n_tracks_added_to_queue">
+        <item quantity="other">%d lögum var bætt í röðina.</item>
+        <item quantity="one">%d lagi bætt í röðina.</item>
+    </plurals>
+    <plurals name="n_tracks_deleted_msg">
+        <item quantity="other">Eyða %d lögum?</item>
+        <item quantity="one">Eyða 1 lagi?</item>
+    </plurals>
+</resources>

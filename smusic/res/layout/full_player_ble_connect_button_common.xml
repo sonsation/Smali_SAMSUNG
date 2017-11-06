@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ble_button" android:layout_width="wrap_content" android:layout_height="?android:actionBarSize" android:minWidth="@dimen/full_player_ble_connect_view_min_width" android:layout_marginEnd="@dimen/full_player_ble_connect_margin_right"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/ble_icon" android:focusable="true" android:clickable="true" android:layout_width="@dimen/full_player_ble_connect_btn_size" android:layout_height="@dimen/full_player_ble_connect_btn_size" android:src="@drawable/full_player_ble_connect_disconnect" android:layout_marginStart="@dimen/full_player_ble_connect_btn_margin_left" android:layout_marginEnd="@dimen/full_player_ble_connect_btn_margin_right" />
+</LinearLayout>

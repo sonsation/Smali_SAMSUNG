@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NNNalbum">
+        <item quantity="other">%d album</item>
+        <item quantity="one">%d album</item>
+    </plurals>
+    <plurals name="NNNartist_album">
+        <item quantity="other">Album</item>
+        <item quantity="one">Album</item>
+    </plurals>
+    <plurals name="NNNartist_track">
+        <item quantity="other">Lagu</item>
+        <item quantity="one">Lagu</item>
+    </plurals>
+    <plurals name="NNNsometrackstofavorite">
+        <item quantity="other">%d lagu ditambah pada Kegemaran. Lagu telah ada dalam Kegemaran yang tidak ditambah.</item>
+        <item quantity="one">%d lagu ditambah pada Kegemaran. Lagu yang ada dalam Kegemaran tidak ditambah.</item>
+    </plurals>
+    <plurals name="NNNtrack">
+        <item quantity="other">%d lagu</item>
+        <item quantity="one">%d lagu</item>
+    </plurals>
+    <plurals name="NNNtracksfromfavorite">
+        <item quantity="other">%d lagu dialihkan dari Kegemaran.</item>
+        <item quantity="one">%d lagu dialih keluar dari Kegemaran.</item>
+    </plurals>
+    <plurals name="NNNtrackstofavorite">
+        <item quantity="other">%d lagu ditambah pada kegemaran</item>
+        <item quantity="one">%d lagu ditambah pada Kegemaran.</item>
+    </plurals>
+    <plurals name="NNNtrackstoplaylist">
+        <item quantity="other">%d lagu ditambah pada senarai main.</item>
+        <item quantity="one">%d lagu ditambah pada senarai main.</item>
+    </plurals>
+    <plurals name="drm_can_use_n_times">
+        <item quantity="other">Anda boleh guna %1$s %2$d kali.</item>
+        <item quantity="one">Anda boleh guna %s 1 kali.</item>
+    </plurals>
+    <plurals name="n_albums_deleted_msg">
+        <item quantity="other">Padam %d album dan semua lagu dalamnya daripada telefon anda?</item>
+        <item quantity="one">Padam 1 album dan semua lagu dalamnya daripada telefon anda?</item>
+    </plurals>
+    <plurals name="n_artists_deleted_msg">
+        <item quantity="other">Padam semua lagu oleh artis ini?</item>
+        <item quantity="one">Padam semua lagu artis ini?</item>
+    </plurals>
+    <plurals name="n_composers_deleted_msg">
+        <item quantity="other">Padam semua lagu oleh komposer ini?</item>
+        <item quantity="one">Padam semua lagu oleh komposer ini?</item>
+    </plurals>
+    <plurals name="n_folders_deleted_msg">
+        <item quantity="other">Padam %d pelipat dan semua lagu dalamnya daripada telefon anda?</item>
+        <item quantity="one">Padam 1 pelipat dan semua lagu dalamnya daripada telefon anda?</item>
+    </plurals>
+    <plurals name="n_genres_deleted_msg">
+        <item quantity="other">Padam semua lagu dalam aliran ini?</item>
+        <item quantity="one">Padam semua lagu aliran ini?</item>
+    </plurals>
+    <plurals name="n_items_deleted_msg">
+        <item quantity="other">Delete %d items?</item>
+        <item quantity="one">Delete %d items?</item>
+    </plurals>
+    <plurals name="n_playlists_deleted_msg">
+        <item quantity="other">Padam %d senarai main?</item>
+        <item quantity="one">Padam 1 senarai main?</item>
+    </plurals>
+    <plurals name="n_tracks_added_to_queue">
+        <item quantity="other">%d lagu ditambah pada baris giliran.</item>
+        <item quantity="one">%d lagu ditambah pada giliran.</item>
+    </plurals>
+    <plurals name="n_tracks_deleted_msg">
+        <item quantity="other">Padam %d lagu?</item>
+        <item quantity="one">Padam 1 lagu?</item>
+    </plurals>
+</resources>

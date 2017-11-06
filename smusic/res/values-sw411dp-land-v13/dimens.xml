@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="full_player_album_height">178.0dip</dimen>
+    <dimen name="full_player_albumview_height_with_shade">178.0dip</dimen>
+    <dimen name="full_player_albumview_margin_bottom">2.0dip</dimen>
+    <dimen name="full_player_control_layout_height">98.0dip</dimen>
+    <dimen name="full_player_control_layout_width">630.0dip</dimen>
+    <dimen name="full_player_option_layout_width">630.0dip</dimen>
+    <dimen name="full_player_title_layout_margin_bottom">0.0dip</dimen>
+    <dimen name="grid_item_height">167.0dip</dimen>
+    <dimen name="grid_item_width">132.0dip</dimen>
+    <dimen name="full_player_albumview_padding_top">0.0dip</dimen>
+    <dimen name="full_player_control_margin_bottom">0.0dip</dimen>
+    <dimen name="device_height">411.0dip</dimen>
+    <dimen name="device_width">732.0dip</dimen>
+    <dimen name="full_player_album_vertical_delta">-31.5dip</dimen>
+    <dimen name="full_player_gl_private_icon_dx">-69.0dip</dimen>
+    <dimen name="full_player_gl_private_icon_dy">-69.0dip</dimen>
+    <dimen name="full_player_not_selected_album_height">115.0dip</dimen>
+    <dimen name="about_update_button_width">175.0dip</dimen>
+</resources>

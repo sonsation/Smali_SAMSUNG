@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="48.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.constraint.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="9.0dip">
+        <android.support.constraint.Guideline android:id="@id/guideline_item_outer_space_start" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+        <FrameLayout android:paddingRight="9.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+            <ImageView android:gravity="center_vertical" android:id="@id/menu_icon" android:layout_width="@dimen/action_bar_main_event_icon_width" android:layout_height="@dimen/action_bar_main_event_icon_height" android:scaleType="fitXY" />
+        </FrameLayout>
+        <TextView android:textSize="11.0dip" android:textStyle="bold" android:textColor="@color/white_opacity_70" android:gravity="center_vertical" android:id="@id/menu_text" android:paddingRight="9.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="sec-roboto-condensed" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <RelativeLayout android:id="@id/badge_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent">
+            <ImageView android:id="@id/badge" android:background="@drawable/tw_noti_badge_mtrl" android:layout_width="@dimen/action_bar_main_badge_width" android:layout_height="@dimen/action_bar_main_badge_height" android:backgroundTint="@color/action_bar_badge_bg_color" />
+            <TextView android:textSize="@dimen/milk_voucher_badge_text_size" android:textColor="@color/blur_text" android:gravity="center" android:id="@id/badge_text" android:layout_width="@dimen/action_bar_main_badge_width" android:layout_height="@dimen/action_bar_main_badge_height" android:text="@string/milk_voucher_new_badge" />
+        </RelativeLayout>
+    </android.support.constraint.ConstraintLayout>
+</LinearLayout>

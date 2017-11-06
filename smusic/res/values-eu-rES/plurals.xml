@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NNNalbum">
+        <item quantity="other">%d album</item>
+        <item quantity="one">%d album</item>
+    </plurals>
+    <plurals name="NNNartist_album">
+        <item quantity="other">Albumak</item>
+        <item quantity="one">Albuma</item>
+    </plurals>
+    <plurals name="NNNartist_track">
+        <item quantity="other">Pistak</item>
+        <item quantity="one">Pista</item>
+    </plurals>
+    <plurals name="NNNsometrackstofavorite">
+        <item quantity="other">%d abesti gehitu dira Gogokoetan. Gogokoetan dauden abestiak ez dira gehitu.</item>
+        <item quantity="one">%d abesti gehitu dira Gogokoetan. Gogokoetan dagoen abestia ez da gehitu.</item>
+    </plurals>
+    <plurals name="NNNtrack">
+        <item quantity="other">%d pista</item>
+        <item quantity="one">%d. abestia</item>
+    </plurals>
+    <plurals name="NNNtracksfromfavorite">
+        <item quantity="other">%d abesti kendu dira Gogokoetatik.</item>
+        <item quantity="one">%d abesti kendu dira Gogokoetatik.</item>
+    </plurals>
+    <plurals name="NNNtrackstofavorite">
+        <item quantity="other">%d abesti gogokoetan gehitu dira.</item>
+        <item quantity="one">%d abesti gogokoetan gehitu da.</item>
+    </plurals>
+    <plurals name="NNNtrackstoplaylist">
+        <item quantity="other">%d pista gehitu dira erreprodukzio zerrendara</item>
+        <item quantity="one">%d abesti erreprodukzio zerrendan gehitu da.</item>
+    </plurals>
+    <plurals name="drm_can_use_n_times">
+        <item quantity="other">%1$s %2$d aldiz erabil dezakezu</item>
+        <item quantity="one">%s behin erabil dezakezu</item>
+    </plurals>
+    <plurals name="n_albums_deleted_msg">
+        <item quantity="other">%d album eta bertako abesti guztiak telefonotik ezabatu?</item>
+        <item quantity="one">1 album eta bertako abesti guztiak telefonotik ezabatu?</item>
+    </plurals>
+    <plurals name="n_artists_deleted_msg">
+        <item quantity="other">Artista hauen pista guztiak ezabatu?</item>
+        <item quantity="one">Artista honen abesti guztiak ezabatu?</item>
+    </plurals>
+    <plurals name="n_composers_deleted_msg">
+        <item quantity="other">Egile hauen pista guztiak ezabatu?</item>
+        <item quantity="one">Egile honen abesti guztiak ezabatu?</item>
+    </plurals>
+    <plurals name="n_folders_deleted_msg">
+        <item quantity="other">%d karpeta eta bertako abesti guztiak telefonotik ezabatu?</item>
+        <item quantity="one">1 karpeta eta bertako abesti guztiak telefonotik ezabatu?</item>
+    </plurals>
+    <plurals name="n_genres_deleted_msg">
+        <item quantity="other">Genero hauetako pista guztiak ezabatu?</item>
+        <item quantity="one">Genero honetako abesti guztiak ezabatu?</item>
+    </plurals>
+    <plurals name="n_items_deleted_msg">
+        <item quantity="other">Delete %d items?</item>
+        <item quantity="one">Delete %d items?</item>
+    </plurals>
+    <plurals name="n_playlists_deleted_msg">
+        <item quantity="other">%d erreprodukzio zerrenda ezabatu?</item>
+        <item quantity="one">1 erreprodukzio zerrenda ezabatu?</item>
+    </plurals>
+    <plurals name="n_tracks_added_to_queue">
+        <item quantity="other">%d pista gehitu dira ilaran.</item>
+        <item quantity="one">%d abesti ilaran gehitu da.</item>
+    </plurals>
+    <plurals name="n_tracks_deleted_msg">
+        <item quantity="other">%d pista ezabatu?</item>
+        <item quantity="one">1 pista ezabatu?</item>
+    </plurals>
+</resources>

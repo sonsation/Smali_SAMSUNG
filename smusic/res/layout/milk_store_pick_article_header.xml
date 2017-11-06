@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/pick_article_button_playall_container" android:layout_width="fill_parent" android:layout_height="@dimen/milk_store_main_pick_article_header_play_all_button_height" android:layout_margin="@dimen/milk_store_pick_detail_top_bottom_margin">
+        <TextView android:textSize="@dimen/milk_list_select_button_text_size" android:textColor="@color/milk_btn_text_color" android:gravity="center" android:layout_gravity="right" android:id="@id/pick_article_header_button_playall" android:background="@drawable/milk_list_select_btn" android:paddingLeft="@dimen/milk_list_select_btn_padding" android:paddingRight="@dimen/milk_list_select_btn_padding" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/milk_store_common_track_play_all" android:layout_centerVertical="true" android:textAllCaps="true" android:fontFamily="roboto-condensed-light" />
+    </FrameLayout>
+    <LinearLayout android:gravity="left" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/milk_store_pick_detail_top_bottom_margin" android:layout_marginBottom="@dimen/milk_store_pick_detail_top_bottom_margin" android:layout_below="@id/pick_article_button_playall_container">
+        <TextView android:textColor="@color/milk_store_pick_detail_text_color" android:id="@id/pick_article_header_release_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="roboto-regular" />
+        <TextView android:textColor="@color/milk_store_pick_detail_text_color" android:id="@id/pick_article_header_editor_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/milk_store_main_pick_article_header_padding" android:fontFamily="roboto-light" />
+    </LinearLayout>
+</RelativeLayout>

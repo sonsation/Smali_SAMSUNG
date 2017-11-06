@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/menu_launch_search" android:visible="true" android:title="@string/search" android:showAsAction="always" />
+    <item android:id="@id/menu_multiple_item_picker_done" android:visible="false" android:title="@string/done" android:showAsAction="always" />
+</menu>

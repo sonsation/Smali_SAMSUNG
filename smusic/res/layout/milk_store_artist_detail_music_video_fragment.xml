@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/main_content" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:id="@id/artist_detail_mv_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/milk_store_artist_detail_music_video_list_view_padding_top">
+            <com.samsung.android.app.music.milk.store.widget.RecyclerGridView android:id="@id/list_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/milk_store_common_album_grid_margin_left_right" android:layout_marginRight="@dimen/milk_store_common_album_grid_margin_left_right" app:numColumns="@integer/milk_store_music_video_column" app:leftMargin="@dimen/milk_store_artist_detail_grid_view_gap" app:rightMargin="@dimen/milk_store_artist_detail_grid_view_gap" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/artist_detail_empty_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/artist_detail_button_container">
+            <TextView android:textSize="@dimen/milk_list_empty_title_size" android:textColor="@color/milk_list_empty_color" android:id="@id/artist_detail_empty_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/milk_empty_list" android:layout_centerInParent="true" android:fontFamily="sans-serif" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/progressBarContainer" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ProgressBar android:id="@id/progressBar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:alpha="0.5" android:indeterminateTint="@color/white_opacity_100" style="?android:attr/progressBarStyleLarge" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/no_network_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.samsung.android.app.music.milk.store.widget.NoNetworkLayout android:id="@id/no_network" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</RelativeLayout>

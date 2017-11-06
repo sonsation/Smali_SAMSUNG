@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.design.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.samsung.android.app.music.milk.store.widget.HeaderLayout android:layout_width="fill_parent" android:layout_height="@dimen/milk_store_music_video_fragment_header_height" app:layout_behavior="com.samsung.android.app.music.milk.store.widget.HeaderScrollBehavior">
+            <RelativeLayout android:id="@id/music_video_header" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_scrollFlags="enterAlways|scroll">
+                <include layout="@layout/milk_spinner_common_layout" />
+            </RelativeLayout>
+        </com.samsung.android.app.music.milk.store.widget.HeaderLayout>
+        <com.samsung.android.app.music.milk.store.widget.RecyclerGridView android:id="@id/grid_view" android:paddingLeft="@dimen/milk_store_music_video_fragment_gridview_padding_left" android:paddingRight="@dimen/milk_store_music_video_fragment_gridview_padding_right" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/header" app:layout_behavior="com.samsung.android.app.music.milk.store.widget.ContentsLayoutBehavior" app:numColumns="@integer/milk_store_music_video_column" app:leftMargin="@dimen/milk_store_music_video_fragment_gridview_app_margin_left" app:rightMargin="@dimen/milk_store_music_video_fragment_gridview_app_margin_right" app:bottomMargin="@dimen/milk_store_music_video_fragment_gridview_app_margin_bottom" />
+    </android.support.design.widget.CoordinatorLayout>
+    <include layout="@layout/milk_common_list_progress" />
+    <com.samsung.android.app.music.milk.store.widget.NoNetworkLayout android:id="@id/no_network" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</RelativeLayout>

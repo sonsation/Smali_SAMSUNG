@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/basic_text" android:background="#cc000000" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="@dimen/ad_base_text_total_height">
+            <TextView android:textSize="@dimen/ad_base_text_height" android:textColor="#fffafafa" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/milk_interstital_des" android:fontFamily="SEC-roboto-light-regular" />
+            <TextView android:textSize="@dimen/ad_base_text_height" android:textColor="#99fafafa" android:textColorLink="#99fafafa" android:gravity="center" android:id="@id/donotshow" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ad_base_text_margin" android:text="@string/milk_do_now_show_ad" android:fontFamily="SEC-roboto-light-regular" />
+        </LinearLayout>
+    </LinearLayout>
+</merge>

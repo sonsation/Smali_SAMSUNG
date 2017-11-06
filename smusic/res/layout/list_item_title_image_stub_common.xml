@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/list_item_title_image_layout" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/list_item_title_image" android:background="@drawable/thumbnail_border" android:padding="@dimen/list_item_thumbnail_stroke" android:focusable="false" android:clickable="false" android:layout_width="@dimen/list_item_albumart_artist_size" android:layout_height="@dimen/list_item_albumart_artist_size" android:src="@drawable/music_player_default_cover" android:scaleType="centerCrop" />
+    <ViewStub android:layout_gravity="start|bottom|center" android:id="@id/cp_icon_stub" android:layout="@layout/music_ui_list_item_stub_track_tag_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/list_item_thumbnail_stroke" android:layout_marginStart="@dimen/list_item_thumbnail_stroke" />
+</FrameLayout>

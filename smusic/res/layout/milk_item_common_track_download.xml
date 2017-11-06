@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="@dimen/milk_store_common_track_list_option_size" android:layout_height="@dimen/milk_store_common_track_list_option_size"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/download" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/btn_list_ic_download" android:contentDescription="@string/milk_radio_accessibility_download" />
+    <ProgressBar android:id="@id/progress" android:layout_width="fill_parent" android:layout_height="fill_parent" android:indeterminate="true" android:indeterminateDrawable="@anim/milk_circle_progress" android:indeterminateDuration="1000" style="?android:attr/progressBarStyleSmall" />
+</LinearLayout>

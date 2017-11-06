@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/mr_dial_panel" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerVertical="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/mr_dial_shadow" android:layout_width="@dimen/milk_radio_rainbow_translucent_ring_width" android:layout_height="@dimen/milk_radio_rainbow_translucent_ring_width" android:src="@drawable/mr_translusent_ring" android:scaleType="fitXY" android:layout_centerInParent="true" android:importantForAccessibility="no" />
+    <RelativeLayout android:layout_width="@dimen/milk_radio_rainbow_translucent_ring_width" android:layout_height="@dimen/milk_radio_rainbow_translucent_ring_width" android:layout_centerInParent="true">
+        <com.samsung.android.app.music.milk.radio.widget.DialIndicatorView android:id="@id/mr_dial_border" android:padding="@dimen/milk_radio_dial_boarder_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitXY" android:layout_centerInParent="true" android:importantForAccessibility="no" />
+    </RelativeLayout>
+    <ImageView android:id="@id/mr_dial_cover_art" android:layout_width="@dimen/milk_radio_cover_art_width" android:layout_height="@dimen/milk_radio_cover_art_width" android:src="@drawable/milk_radio_cover_art_startup_placeholder" android:scaleType="centerCrop" android:layout_centerInParent="true" android:importantForAccessibility="no" />
+    <ImageView android:id="@id/mr_smart_station_ring" android:visibility="gone" android:layout_width="@dimen/milk_radio_rainbow_translucent_ring_width" android:layout_height="@dimen/milk_radio_rainbow_translucent_ring_width" android:src="@drawable/mr_translusent_ring_p50" android:scaleType="fitXY" android:tint="#fffafafa" android:layout_centerInParent="true" android:alpha="0.0" />
+</RelativeLayout>

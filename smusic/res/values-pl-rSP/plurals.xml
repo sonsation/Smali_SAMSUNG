@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NNNalbum">
+        <item quantity="other">Liczba albumōw: %d</item>
+        <item quantity="one">Albōmōw: %d</item>
+    </plurals>
+    <plurals name="NNNartist_album">
+        <item quantity="other">Albōmy</item>
+        <item quantity="one">Albōm</item>
+    </plurals>
+    <plurals name="NNNartist_track">
+        <item quantity="other">Utwory</item>
+        <item quantity="one">Kōnsek</item>
+    </plurals>
+    <plurals name="NNNsometrackstofavorite">
+        <item quantity="other">Kōnski przidane do Nŏjradszych: %d. Kōnski, kere już sōm w Nŏjrŏdszych, niy sōm przidane.</item>
+        <item quantity="one">Śpiywek dodanych do Nŏjrŏdszych: %d. Śpiywka, kerŏ już je w Nŏjrŏdszych niy ôstała dodanŏ.</item>
+    </plurals>
+    <plurals name="NNNtrack">
+        <item quantity="other">Tytuły: %d</item>
+        <item quantity="one">Kōnsek %d</item>
+    </plurals>
+    <plurals name="NNNtracksfromfavorite">
+        <item quantity="other">Śpiywek wyciepniyntych z Nŏjrŏdszych: %d.</item>
+        <item quantity="one">Śpiywek wyciepniyntych z Nŏjrŏdszych: %d.</item>
+    </plurals>
+    <plurals name="NNNtrackstofavorite">
+        <item quantity="other">%d kōnskōw je przidanych do nŏjradszych.</item>
+        <item quantity="one">Śpiywka %d dodano do nŏjrŏdszych.</item>
+    </plurals>
+    <plurals name="NNNtrackstoplaylist">
+        <item quantity="other">Kōnski przidane do listy puszczaniŏ: %d.</item>
+        <item quantity="one">Śpiywka %d dodano do listy puszczaniŏ.</item>
+    </plurals>
+    <plurals name="drm_can_use_n_times">
+        <item quantity="other">Idzie użyć %1$s %2$d razy.</item>
+        <item quantity="one">Idzie użyć %s rŏz.</item>
+    </plurals>
+    <plurals name="n_albums_deleted_msg">
+        <item quantity="other">Wyciepać albōmōw: %d i wszyjske kere w ônych sōm śpiywki z mobilniŏka?</item>
+        <item quantity="one">Wyciepać 1 albōm i wszyjske kere w ônym sōm śpiywki z mobilniŏka?</item>
+    </plurals>
+    <plurals name="n_artists_deleted_msg">
+        <item quantity="other">Wyciepać wszyjske śpiywki tych artystōw?</item>
+        <item quantity="one">Wyciepać wszyjske śpiywki tego artysty?</item>
+    </plurals>
+    <plurals name="n_composers_deleted_msg">
+        <item quantity="other">Wyciepać wszyjske śpiywki tych kōmpozytorōw?</item>
+        <item quantity="one">Wyciepać wszyjske śpiywki tego kōmpozytora?</item>
+    </plurals>
+    <plurals name="n_folders_deleted_msg">
+        <item quantity="other">Wyciepać katalogōw: %d i wszyjske kere w ônych sōm śpiywki z mobilniŏka?</item>
+        <item quantity="one">Wyciepać 1 katalog i wszyjske kere w ônym sōm śpiywki z mobilniŏka?</item>
+    </plurals>
+    <plurals name="n_genres_deleted_msg">
+        <item quantity="other">Wyciepać wszyjske śpiywki tych zortōw?</item>
+        <item quantity="one">Wyciepać wszyjske śpiywki tyj zorty?</item>
+    </plurals>
+    <plurals name="n_items_deleted_msg">
+        <item quantity="other">Delete %d items?</item>
+        <item quantity="one">Delete %d items?</item>
+    </plurals>
+    <plurals name="n_playlists_deleted_msg">
+        <item quantity="other">Wyciepać list puszczanio: %d?</item>
+        <item quantity="one">Wyciepać 1 lista puszczanio?</item>
+    </plurals>
+    <plurals name="n_tracks_added_to_queue">
+        <item quantity="other">Śpiywek, kere ôstały dodane do raji: %d.</item>
+        <item quantity="one">%d śpiywka dodano do raji.</item>
+    </plurals>
+    <plurals name="n_tracks_deleted_msg">
+        <item quantity="other">Wyciepać śpiywek: %d?</item>
+        <item quantity="one">Wyciepać 1 śpiywka?</item>
+    </plurals>
+</resources>

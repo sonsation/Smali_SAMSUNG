@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NNNalbum">
+        <item quantity="other">%d张专辑</item>
+        <item quantity="one">%d 张专辑</item>
+    </plurals>
+    <plurals name="NNNartist_album">
+        <item quantity="other">专辑</item>
+        <item quantity="one">专辑</item>
+    </plurals>
+    <plurals name="NNNartist_track">
+        <item quantity="other">歌曲</item>
+        <item quantity="one">歌曲</item>
+    </plurals>
+    <plurals name="NNNsometrackstofavorite">
+        <item quantity="other">%d 首歌曲已添加至收藏夹。已在收藏夹中的歌曲不会添加。</item>
+        <item quantity="one">%d 首歌曲已添加至我的收藏。已在我的收藏中的曲目不会添加。</item>
+    </plurals>
+    <plurals name="NNNtrack">
+        <item quantity="other">%d 首歌曲</item>
+        <item quantity="one">%d 首歌曲</item>
+    </plurals>
+    <plurals name="NNNtracksfromfavorite">
+        <item quantity="other">%d 首歌曲已从收藏夹移除</item>
+        <item quantity="one">%d 首歌曲已从我的收藏中移除</item>
+    </plurals>
+    <plurals name="NNNtrackstofavorite">
+        <item quantity="other">%d 首歌曲已添加至收藏夹</item>
+        <item quantity="one">%d 首歌曲已添加至我的收藏</item>
+    </plurals>
+    <plurals name="NNNtrackstoplaylist">
+        <item quantity="other">%d 首歌曲已添加至播放列表</item>
+        <item quantity="one">%d 首歌曲已添加至播放列表</item>
+    </plurals>
+    <plurals name="drm_can_use_n_times">
+        <item quantity="other">您可以使用%1$s %2$d 次。</item>
+        <item quantity="one">您可以使用%s 1 次。</item>
+    </plurals>
+    <plurals name="n_albums_deleted_msg">
+        <item quantity="other">是否从您的手机中删除 %d 张专辑和其中的所有歌曲？</item>
+        <item quantity="one">是否从您的手机中删除 1 张专辑和其中的所有歌曲？</item>
+    </plurals>
+    <plurals name="n_artists_deleted_msg">
+        <item quantity="other">是否删除这些歌手的所有歌曲？</item>
+        <item quantity="one">是否删除该歌手的所有歌曲？</item>
+    </plurals>
+    <plurals name="n_composers_deleted_msg">
+        <item quantity="other">是否删除这些作曲家的所有歌曲？</item>
+        <item quantity="one">是否删除这位作曲家的所有歌曲？</item>
+    </plurals>
+    <plurals name="n_folders_deleted_msg">
+        <item quantity="other">是否从您的手机中删除 %d 个文件夹和其中的所有歌曲？</item>
+        <item quantity="one">是否从您的手机中删除 1 个文件夹和其中的所有歌曲？</item>
+    </plurals>
+    <plurals name="n_genres_deleted_msg">
+        <item quantity="other">是否删除这些流派的所有歌曲？</item>
+        <item quantity="one">是否删除该流派的所有歌曲？</item>
+    </plurals>
+    <plurals name="n_items_deleted_msg">
+        <item quantity="other">Delete %d items?</item>
+        <item quantity="one">Delete %d items?</item>
+    </plurals>
+    <plurals name="n_playlists_deleted_msg">
+        <item quantity="other">是否删除 %d 个播放列表？</item>
+        <item quantity="one">是否删除 1 个播放列表？</item>
+    </plurals>
+    <plurals name="n_tracks_added_to_queue">
+        <item quantity="other">%d 首歌曲已添加至列表</item>
+        <item quantity="one">%d 首歌曲已添加至列表</item>
+    </plurals>
+    <plurals name="n_tracks_deleted_msg">
+        <item quantity="other">是否删除 %d 首歌曲？</item>
+        <item quantity="one">是否删除 1 首歌曲？</item>
+    </plurals>
+</resources>

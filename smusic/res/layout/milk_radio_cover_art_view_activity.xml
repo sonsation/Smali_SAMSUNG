@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/base_blur_background_common" />
+    <RelativeLayout android:id="@id/image_container" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:id="@id/cover_art_view_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <ImageView android:id="@id/cover_art_view_image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/cover_art_cancel_area" android:layout_width="@dimen/milk_cover_art_view_cancel_touch_size" android:layout_height="@dimen/milk_cover_art_view_cancel_touch_size" android:layout_alignParentRight="true">
+            <ImageView android:id="@id/cover_art_view_cancel" android:background="@drawable/search_ic_cancel" android:layout_width="@dimen/milk_cover_art_view_cancel_size" android:layout_height="@dimen/milk_cover_art_view_cancel_size" android:layout_margin="@dimen/milk_cover_art_view_cancel_margin" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

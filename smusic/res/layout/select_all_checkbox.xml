@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/checkbox_container" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <FrameLayout android:id="@id/checkbox_dummy" android:background="@drawable/ripple_action_bar" android:focusable="false" android:clickable="false" android:duplicateParentState="true" android:layout_width="@dimen/checkbox_width_winset" android:layout_height="@dimen/checkbox_height_winset" android:layout_marginStart="@dimen/list_item_checkbox_outer_space_winset">
+            <CheckBox android:id="@id/checkbox" android:background="@drawable/checkbox_background" android:focusable="false" android:clickable="false" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </FrameLayout>
+        <TextView android:textSize="@dimen/select_all_checkbox_below_text_size" android:gravity="center_horizontal" android:id="@id/select_all_checkbox_below_text" android:layout_width="@dimen/select_all_checkbox_container_width" android:layout_height="wrap_content" android:layout_marginTop="@dimen/select_all_checkbox_below_text_margin_top" android:text="@string/all" android:importantForAccessibility="no" android:layout_marginStart="@dimen/select_all_checkbox_below_text_margin_left" />
+    </LinearLayout>
+    <TextView android:textSize="@dimen/select_all_checked_item_count_text_size" android:id="@id/select_all_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/select_tracks" android:maxLines="1" android:layout_centerVertical="true" android:layout_marginStart="@dimen/select_all_text_margin_start" style="@style/Text.ActionBarTitle" />
+</merge>

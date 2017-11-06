@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NNNalbum">
+        <item quantity="other">앨범 %d개</item>
+        <item quantity="one">앨범 %d개</item>
+    </plurals>
+    <plurals name="NNNartist_album">
+        <item quantity="other">앨범</item>
+        <item quantity="one">앨범</item>
+    </plurals>
+    <plurals name="NNNartist_track">
+        <item quantity="other">곡</item>
+        <item quantity="one">곡</item>
+    </plurals>
+    <plurals name="NNNsometrackstofavorite">
+        <item quantity="other">곡 %d개를 [즐겨듣는 곡]에 추가했습니다. 이미 있는 곡은 추가하지 않습니다.</item>
+        <item quantity="one">곡 %d개를 [즐겨듣는 곡]에 추가했습니다. 이미 있는 곡은 추가하지 않습니다.</item>
+    </plurals>
+    <plurals name="NNNtrack">
+        <item quantity="other">곡 %d개</item>
+        <item quantity="one">곡 %d개</item>
+    </plurals>
+    <plurals name="NNNtracksfromfavorite">
+        <item quantity="other">곡 %d개를 [즐겨듣는 곡]에서 삭제했습니다.</item>
+        <item quantity="one">곡 %d개를 [즐겨듣는 곡]에서 삭제했습니다.</item>
+    </plurals>
+    <plurals name="NNNtrackstofavorite">
+        <item quantity="other">곡 %d개를 [즐겨듣는 곡]에 추가했습니다.</item>
+        <item quantity="one">곡 %d개를 [즐겨듣는 곡]에 추가했습니다.</item>
+    </plurals>
+    <plurals name="NNNtrackstoplaylist">
+        <item quantity="other">재생목록에 곡 %d개를 추가했습니다.</item>
+        <item quantity="one">재생목록에 곡 %d개를 추가했습니다.</item>
+    </plurals>
+    <plurals name="drm_can_use_n_times">
+        <item quantity="other">%1$s 파일을 %2$d회 사용할 수 있습니다.</item>
+        <item quantity="one">%s 파일을 1회 사용할 수 있습니다.</item>
+    </plurals>
+    <plurals name="n_albums_deleted_msg">
+        <item quantity="other">휴대전화에서 앨범 %d개 및 포함된 모든 곡을 삭제할까요?</item>
+        <item quantity="one">휴대전화에서 앨범 1개 및 포함된 모든 곡을 삭제할까요?</item>
+    </plurals>
+    <plurals name="n_artists_deleted_msg">
+        <item quantity="other">선택한 아티스트의 곡을 모두 삭제할까요?</item>
+        <item quantity="one">이 아티스트의 곡을 모두 삭제할까요?</item>
+    </plurals>
+    <plurals name="n_composers_deleted_msg">
+        <item quantity="other">선택한 작곡가의 곡을 모두 삭제할까요?</item>
+        <item quantity="one">이 작곡가의 곡을 모두 삭제할까요?</item>
+    </plurals>
+    <plurals name="n_folders_deleted_msg">
+        <item quantity="other">휴대전화에서 폴더 %d개 및 포함된 모든 곡을 삭제할까요?</item>
+        <item quantity="one">휴대전화에서 폴더 1개 및 포함된 모든 곡을 삭제할까요?</item>
+    </plurals>
+    <plurals name="n_genres_deleted_msg">
+        <item quantity="other">선택한 장르의 곡을 모두 삭제할까요?</item>
+        <item quantity="one">이 장르의 곡을 모두 삭제할까요?</item>
+    </plurals>
+    <plurals name="n_items_deleted_msg">
+        <item quantity="other">Delete %d items?</item>
+        <item quantity="one">Delete %d items?</item>
+    </plurals>
+    <plurals name="n_playlists_deleted_msg">
+        <item quantity="other">플레이리스트 %d개를 삭제할까요?</item>
+        <item quantity="one">플레이리스트 1개를 삭제할까요?</item>
+    </plurals>
+    <plurals name="n_tracks_added_to_queue">
+        <item quantity="other">현재 재생 목록에 곡 %d개를 추가했습니다.</item>
+        <item quantity="one">현재 재생 목록에 곡 %d개를 추가했습니다.</item>
+    </plurals>
+    <plurals name="n_tracks_deleted_msg">
+        <item quantity="other">곡 %d개를 삭제할까요?</item>
+        <item quantity="one">곡 1개를 삭제할까요?</item>
+    </plurals>
+    <plurals name="milk_radio_play_limit_count">
+        <item quantity="other">%d 곡</item>
+        <item quantity="one">%d 곡</item>
+    </plurals>
+    <plurals name="n_playlists_deleted_without_online_playlists_msg">
+        <item quantity="other">플레이리스트 %d개를 삭제할까요? 온라인 플레이리스트는 삭제되지 않습니다.</item>
+        <item quantity="one">플레이리스트 1개를 삭제할까요? 온라인 플레이리스트는 삭제되지 않습니다.</item>
+    </plurals>
+</resources>

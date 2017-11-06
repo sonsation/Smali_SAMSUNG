@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@drawable/ripple_button_oval_light" android:layout_width="@dimen/milk_radio_reset_dial_checkbox_height" android:layout_height="@dimen/milk_radio_reset_dial_checkbox_height" android:layout_marginRight="@dimen/milk_radio_reset_dial_checkbox_right_margin" android:layout_alignParentLeft="true">
+        <ImageView android:id="@id/checkbox" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/check_box_off" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <TextView android:textSize="@dimen/milk_fontsize_16_dp" android:textColor="#ff252525" android:gravity="center|left" android:id="@id/mr_element_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/milk_radio_reset_dial_item_top_bottom_margin" android:layout_marginBottom="@dimen/milk_radio_reset_dial_item_top_bottom_margin" android:singleLine="true" />
+</LinearLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple android:color="@color/ripple_button"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/mask" android:height="@dimen/favorite_help_manage_tab_height">
+        <shape android:shape="rectangle">
+            <corners android:radius="6.0dip" />
+            <solid android:color="@android:color/white" />
+        </shape>
+    </item>
+    <item android:height="@dimen/favorite_help_manage_tab_height">
+        <shape android:shape="rectangle">
+            <corners android:radius="6.0dip" />
+            <padding android:left="@dimen/favorite_help_manage_tab_padding_horizontal" android:right="@dimen/favorite_help_manage_tab_padding_horizontal" />
+            <stroke android:width="@dimen/favorite_help_manage_tab_stroke" android:color="@color/favorite_help_manage_tab_stroke" />
+            <solid android:color="@color/favorite_help_manage_tab_background" />
+        </shape>
+    </item>
+</ripple>

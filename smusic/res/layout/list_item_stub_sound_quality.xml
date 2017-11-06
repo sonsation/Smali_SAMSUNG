@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="@dimen/sound_quality_tag_text_size" android:textStyle="bold" android:textColor="@color/list_item_track_sound_quality_text" android:gravity="center" android:id="@id/uhq_tag" android:background="@color/list_item_track_sound_quality_background" android:visibility="gone" android:layout_width="@dimen/uhqa_tag_width" android:layout_height="@dimen/uhqa_tag_height" android:includeFontPadding="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

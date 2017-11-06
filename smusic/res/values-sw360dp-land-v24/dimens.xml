@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="full_player_albumview_margin_bottom">1.0dip</dimen>
+    <dimen name="full_player_control_layout_height">98.0dip</dimen>
+    <dimen name="full_player_title_layout_margin_bottom">0.0dip</dimen>
+    <dimen name="full_player_albumview_margin_top">0.0dip</dimen>
+    <dimen name="full_player_option_margin_bottom">0.0dip</dimen>
+    <dimen name="full_player_title_sub_text_height">15.0dip</dimen>
+</resources>

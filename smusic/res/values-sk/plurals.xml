@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NNNalbum">
+        <item quantity="other">Albumy: %d</item>
+        <item quantity="one">%d album</item>
+    </plurals>
+    <plurals name="NNNartist_album">
+        <item quantity="other">Albumy</item>
+        <item quantity="one">Album</item>
+    </plurals>
+    <plurals name="NNNartist_track">
+        <item quantity="other">Skladby</item>
+        <item quantity="one">Skladba</item>
+    </plurals>
+    <plurals name="NNNsometrackstofavorite">
+        <item quantity="other">Skladby v počte %d boli pridané do priečinka Obľúbené. Skladby, ktoré sú už v priečinku Obľúbené, sa nepridali.</item>
+        <item quantity="one">Pridala sa %d skladba do priečinka Obľúbené. Skladba, ktorá už je v priečinku Obľúbené, sa nepridala.</item>
+    </plurals>
+    <plurals name="NNNtrack">
+        <item quantity="other">Skladby: %d</item>
+        <item quantity="one">%d skladieb</item>
+    </plurals>
+    <plurals name="NNNtracksfromfavorite">
+        <item quantity="other">Odstránené skladby z priečinka Obľúbené: %d.</item>
+        <item quantity="one">Odstránila sa %d skladba z obľúbených.</item>
+    </plurals>
+    <plurals name="NNNtrackstofavorite">
+        <item quantity="other">Počet skladieb pridaných medzi obľúbené: %d.</item>
+        <item quantity="one">Pridala sa %d skladba medzi obľúbené.</item>
+    </plurals>
+    <plurals name="NNNtrackstoplaylist">
+        <item quantity="other">Počet skladieb pridaných do prehrávacieho zoznamu: %d.</item>
+        <item quantity="one">Pridala sa %d skladba do prehrávacieho zoznamu.</item>
+    </plurals>
+    <plurals name="drm_can_use_n_times">
+        <item quantity="other">%1$s môžete použiť %2$d-krát.</item>
+        <item quantity="one">%s môžete použiť raz.</item>
+    </plurals>
+    <plurals name="n_albums_deleted_msg">
+        <item quantity="other">Chcete odstrániť z telefónu albumy (%d) a všetky skladby, ktoré obsahujú?</item>
+        <item quantity="one">Chcete odstrániť z telefónu 1 album a všetky skladby, ktoré obsahuje?</item>
+    </plurals>
+    <plurals name="n_artists_deleted_msg">
+        <item quantity="other">Chcete odstrániť všetky skladby od týchto interpretov?</item>
+        <item quantity="one">Chcete odstrániť všetky skladby od tohto interpreta?</item>
+    </plurals>
+    <plurals name="n_composers_deleted_msg">
+        <item quantity="other">Chcete odstrániť všetky skladby od týchto skladateľov?</item>
+        <item quantity="one">Chcete odstrániť všetky skladby od tohto skladateľa?</item>
+    </plurals>
+    <plurals name="n_folders_deleted_msg">
+        <item quantity="other">Chcete odstrániť z telefónu priečinky (%d) a všetky skladby, ktoré obsahujú?</item>
+        <item quantity="one">Chcete odstrániť z telefónu 1 priečinok a všetky skladby, ktoré obsahuje?</item>
+    </plurals>
+    <plurals name="n_genres_deleted_msg">
+        <item quantity="other">Chcete odstrániť všetky skladby týchto žánrov?</item>
+        <item quantity="one">Chcete odstrániť všetky skladby tohto žánru?</item>
+    </plurals>
+    <plurals name="n_items_deleted_msg">
+        <item quantity="other">Delete %d items?</item>
+        <item quantity="one">Delete %d items?</item>
+    </plurals>
+    <plurals name="n_playlists_deleted_msg">
+        <item quantity="other">Chcete vykonať odstránenie %d prehrávacích zoznamov?</item>
+        <item quantity="one">Chcete odstrániť 1 prehrávací zoznam?</item>
+    </plurals>
+    <plurals name="n_tracks_added_to_queue">
+        <item quantity="other">Vykonalo sa pridanie %d skladieb do frontu.</item>
+        <item quantity="one">Pridala sa %d skladba do frontu.</item>
+    </plurals>
+    <plurals name="n_tracks_deleted_msg">
+        <item quantity="other">Chcete vykonať odstránenie %d skladieb?</item>
+        <item quantity="one">Chcete odstrániť 1 skladbu?</item>
+    </plurals>
+</resources>

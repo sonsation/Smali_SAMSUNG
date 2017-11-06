@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/base_blur_background_common" />
+    <RelativeLayout android:id="@id/player_container" android:fitsSystemWindows="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@id/full_player_album_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/full_player_album_view_top_margin_mobile_keyboard" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" android:layoutDirection="locale">
+            <include layout="@layout/full_player_album_view_phone_mobile_keyboard" />
+        </FrameLayout>
+        <ViewStub android:layout_gravity="start|center|top" android:id="@id/full_player_uhqa_upscaler_stub" android:layout="@layout/full_player_uhqa_upscaler_tag_stub_common" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/full_player_uhqa_tag_icon_margin_left_mobile_keyboard" />
+        <RelativeLayout android:id="@id/full_player_title_layout" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/full_player_title_layout_height_mobile_keyboard" android:layout_marginTop="@dimen/full_player_title_margin_top_mobile_keyboard" android:layout_below="@id/full_player_album_view" android:layout_centerHorizontal="true" android:layoutDirection="locale" android:layout_marginStart="@dimen/full_player_title_layout_margin_horizontal_mobile_keyboard" android:layout_marginEnd="@dimen/full_player_title_layout_margin_horizontal_mobile_keyboard">
+            <include layout="@layout/full_player_title_common" />
+        </RelativeLayout>
+        <FrameLayout android:id="@id/full_player_option_layout" android:background="@android:color/transparent" android:layout_width="@dimen/full_player_option_layout_width" android:layout_height="@dimen/full_player_option_layout_height" android:layout_marginBottom="@dimen/full_player_option_margin_bottom" android:layout_above="@id/full_player_control_layout" android:layout_centerHorizontal="true">
+            <include layout="@layout/full_player_option_common" />
+        </FrameLayout>
+        <include layout="@layout/full_player_controller_mobile_keyboard" />
+        <ViewStub android:id="@id/full_player_lyric_stub" android:layout="@layout/full_player_lyric_panel_common" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/full_player_control_layout" />
+        <include layout="@layout/full_player_queue_common" />
+    </RelativeLayout>
+</FrameLayout>

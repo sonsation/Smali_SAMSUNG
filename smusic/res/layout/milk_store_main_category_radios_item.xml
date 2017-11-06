@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:addStatesFromChildren="true" android:layout_width="@dimen/milk_store_main_radio_image_diameter" android:layout_height="@dimen/milk_store_main_radio_image_diameter"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.samsung.android.app.music.milk.store.widget.RoundedImageView android:layout_gravity="center" android:id="@id/image" android:background="@drawable/default_thumbnail_store_main_radio" android:layout_width="@dimen/milk_store_main_radio_image_diameter" android:layout_height="@dimen/milk_store_main_radio_image_diameter" android:contentDescription="@string/milk_store_talkback_play_button" />
+    <ImageView android:layout_gravity="bottom|center" android:layout_width="@dimen/milk_store_main_radio_play_image_diameter" android:layout_height="@dimen/milk_store_main_radio_play_image_diameter" android:layout_marginBottom="@dimen/milk_store_main_radio_play_image_margin_bottom" android:src="@drawable/store_main_play_btn" android:scaleType="fitXY" />
+</FrameLayout>

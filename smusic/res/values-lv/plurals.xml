@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NNNalbum">
+        <item quantity="other">%d albumi</item>
+        <item quantity="one">%d albums</item>
+    </plurals>
+    <plurals name="NNNartist_album">
+        <item quantity="other">Albumi</item>
+        <item quantity="one">Albums</item>
+    </plurals>
+    <plurals name="NNNartist_track">
+        <item quantity="other">Ieraksti</item>
+        <item quantity="one">Atskaņojums</item>
+    </plurals>
+    <plurals name="NNNsometrackstofavorite">
+        <item quantity="other">Izlasei pievienoti %d ieraksti. Izlasē jau esošie ieraksti netika pievienoti.</item>
+        <item quantity="one">%d ieraksts pievienots izlasei. Izlasē jau esošais ieraksts netika pievienots.</item>
+    </plurals>
+    <plurals name="NNNtrack">
+        <item quantity="other">%d ieraksti</item>
+        <item quantity="one">%d ieraksts</item>
+    </plurals>
+    <plurals name="NNNtracksfromfavorite">
+        <item quantity="other">%d ieraksti ir noņemti no izlases.</item>
+        <item quantity="one">%d ieraksts ir noņemts no izlases.</item>
+    </plurals>
+    <plurals name="NNNtrackstofavorite">
+        <item quantity="other">Izlasei pievienoti %d ieraksti</item>
+        <item quantity="one">%d ieraksts pievienots izlasei.</item>
+    </plurals>
+    <plurals name="NNNtrackstoplaylist">
+        <item quantity="other">Atskaņošanas sarakstam pievienoti %d ieraksti.</item>
+        <item quantity="one">%d ieraksts pievienots atskaņošanas sarakstam.</item>
+    </plurals>
+    <plurals name="drm_can_use_n_times">
+        <item quantity="other">Jūs varat lietot %1$s %2$d reizes.</item>
+        <item quantity="one">Jūs varat lietot %s 1 reizi.</item>
+    </plurals>
+    <plurals name="n_albums_deleted_msg">
+        <item quantity="other">Vai izdzēst no tālruņa %d albumus un visus tajā esošos ierakstus?</item>
+        <item quantity="one">Vai izdzēst no tālruņa 1 albumu un visus tajā esošos ierakstus?</item>
+    </plurals>
+    <plurals name="n_artists_deleted_msg">
+        <item quantity="other">Vai izdzēst visus šo izpildītāju ierakstus?</item>
+        <item quantity="one">Vai izdzēst visus šī izpildītāja ierakstus?</item>
+    </plurals>
+    <plurals name="n_composers_deleted_msg">
+        <item quantity="other">Vai izdzēst visus šo komponistu ierakstus?</item>
+        <item quantity="one">Vai izdzēst visus šī komponista ierakstus?</item>
+    </plurals>
+    <plurals name="n_folders_deleted_msg">
+        <item quantity="other">Vai izdzēst no tālruņa %d mapes un visus tajā esošos ierakstus?</item>
+        <item quantity="one">Vai izdzēst no tālruņa 1 mapi un visus tajā esošos ierakstus?</item>
+    </plurals>
+    <plurals name="n_genres_deleted_msg">
+        <item quantity="other">Vai izdzēst visus šo žanru ierakstus?</item>
+        <item quantity="one">Vai izdzēst visus šī žanra ierakstus?</item>
+    </plurals>
+    <plurals name="n_items_deleted_msg">
+        <item quantity="other">Delete %d items?</item>
+        <item quantity="one">Delete %d items?</item>
+    </plurals>
+    <plurals name="n_playlists_deleted_msg">
+        <item quantity="other">Vai izdzēst %d atskaņošanas sarakstus?</item>
+        <item quantity="one">Vai izdzēst 1 atskaņošanas sarakstu?</item>
+    </plurals>
+    <plurals name="n_tracks_added_to_queue">
+        <item quantity="other">Rindai ir pievienoti %d ieraksti.</item>
+        <item quantity="one">%d ieraksts pievienots rindai.</item>
+    </plurals>
+    <plurals name="n_tracks_deleted_msg">
+        <item quantity="other">Vai izdzēst %d ierakstus?</item>
+        <item quantity="one">Vai izdzēst 1 ierakstu?</item>
+    </plurals>
+</resources>

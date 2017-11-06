@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NNNalbum">
+        <item quantity="other">%d ອາລະບໍາ</item>
+        <item quantity="one">%d ອາ​ລະ​ບຳ</item>
+    </plurals>
+    <plurals name="NNNartist_album">
+        <item quantity="other">ອາລະບໍາ</item>
+        <item quantity="one">ອາລະບໍ້າ</item>
+    </plurals>
+    <plurals name="NNNartist_track">
+        <item quantity="other">ເພັງ</item>
+        <item quantity="one">ເພງ</item>
+    </plurals>
+    <plurals name="NNNsometrackstofavorite">
+        <item quantity="other">ເພີ່ມ %d ເພງໃສ່ລາຍການທີ່ມັກແລ້ວ. ເພງທີ່ຢູ່ໃນລາຍການທີ່ມັກແລ້ວບໍ່ຖືກເພີ່ມເຂົ້າ.</item>
+        <item quantity="one">ເພີ່ມ %d ເພງໃສ່ລາຍການທີ່ມັກແລ້ວ. ເພງຢູ່ໃນລາຍການທີ່ມັກບໍ່ຖືກເພີ່ມເຂົ້າ.</item>
+    </plurals>
+    <plurals name="NNNtrack">
+        <item quantity="other">%d ເພງ</item>
+        <item quantity="one">%d ເພງ</item>
+    </plurals>
+    <plurals name="NNNtracksfromfavorite">
+        <item quantity="other">ເອົາ %d ເພງອອກຈາກລາຍການທີ່ມັກແລ້ວ.</item>
+        <item quantity="one">ເອົາ %d ເພງອອກຈາກລາຍການທີ່ມັກແລ້ວ.</item>
+    </plurals>
+    <plurals name="NNNtrackstofavorite">
+        <item quantity="other">ເພີ່ມ %d ເພງໃສ່ລາຍການທີ່ມັກແລ້ວ</item>
+        <item quantity="one">ເພີ່ມ %d ເພງໃສ່ລາຍການທີ່ມັກແລ້ວ.</item>
+    </plurals>
+    <plurals name="NNNtrackstoplaylist">
+        <item quantity="other">ເພີ່ມ %d ເພງໃສ່ລາຍການເພງແລ້ວ.</item>
+        <item quantity="one">ເພີ່ມ %d ເພງໃສ່ລາຍການຫຼິ້ນແລ້ວ.</item>
+    </plurals>
+    <plurals name="drm_can_use_n_times">
+        <item quantity="other">ທ່ານສາມາດໃຊ້ %1$s %2$d ຄັ້ງ.</item>
+        <item quantity="one">ທ່ານສາມາດໃຊ້ %s 1 ຄັ້ງ.</item>
+    </plurals>
+    <plurals name="n_albums_deleted_msg">
+        <item quantity="other">ລຶບ %d ອາລະບຳແລະເພງທັງໝົດໃນພວກມັນຈາກໂທລະສັບຂອງທ່ານບໍ?</item>
+        <item quantity="one">ລຶບ 1 ອາລະບຳແລະເພງທັງໝົດໃນມັນຈາກໂທລະສັບຂອງທ່ານບໍ?</item>
+    </plurals>
+    <plurals name="n_artists_deleted_msg">
+        <item quantity="other">ລຶບເພງທັງໝົດໂດຍນັກຮ້ອງເຫຼົ່ານີ້ບໍ?</item>
+        <item quantity="one">ລຶບເພງທັງໝົດໂດຍນັກຮ້ອງຄົນນີ້ບໍ?</item>
+    </plurals>
+    <plurals name="n_composers_deleted_msg">
+        <item quantity="other">ລຶບເພງທັງໝົດໂດຍຜູ້ແຕ່ງເຫຼົ່ານີ້ບໍ?</item>
+        <item quantity="one">ລຶບເພງທັງໝົດໂດຍຜູ້ແຕ່ງຄົນນີ້ບໍ?</item>
+    </plurals>
+    <plurals name="n_folders_deleted_msg">
+        <item quantity="other">ລຶບ %d ໂຟລເດີແລະເພງທັງໝົດໃນພວກມັນຈາກໂທລະສັບຂອງທ່ານບໍ?</item>
+        <item quantity="one">ລຶບ 1 ໂຟລເດີແລະເພງທັງໝົດໃນມັນຈາກໂທລະສັບຂອງທ່ານບໍ?</item>
+    </plurals>
+    <plurals name="n_genres_deleted_msg">
+        <item quantity="other">ລຶບເພງທັງໝົດໃນປະເພດເຫຼົ່ານີ້ບໍ?</item>
+        <item quantity="one">ລຶບເພງທັງໝົດໃນປະເພດນີ້ບໍ?</item>
+    </plurals>
+    <plurals name="n_items_deleted_msg">
+        <item quantity="other">Delete %d items?</item>
+        <item quantity="one">Delete %d items?</item>
+    </plurals>
+    <plurals name="n_playlists_deleted_msg">
+        <item quantity="other">ລຶບ %d ລາຍການຫຼິ້ນບໍ?</item>
+        <item quantity="one">ລຶບ 1 ລາຍການຫຼິ້ນບໍ?</item>
+    </plurals>
+    <plurals name="n_tracks_added_to_queue">
+        <item quantity="other">ເພີ່ມ %d ເພງໃສ່ຄີວແລ້ວ.</item>
+        <item quantity="one">ເພີ່ມ %d ເພງໃສ່ຄິວແລ້ວ.</item>
+    </plurals>
+    <plurals name="n_tracks_deleted_msg">
+        <item quantity="other">ລຶບ %d ເພງບໍ?</item>
+        <item quantity="one">ລຶບ 1 ເພງແລ້ວ?</item>
+    </plurals>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/text_layout" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/list_item_station_more_menu" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <com.samsung.android.app.musiclibrary.ui.widget.MatchedTextView android:textSize="@dimen/milk_radio_history_station_item_text_size" android:textColor="@color/white_opacity_100" android:ellipsize="end" android:id="@id/text1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" />
+    </LinearLayout>
+    <View android:id="@id/guideline_item_more_menu" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <include android:id="@id/list_item_station_more_menu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="2.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/guideline_item_more_menu" app:layout_constraintTop_toTopOf="parent" layout="@layout/music_ui_list_item_component_more_menu" />
+</android.support.constraint.ConstraintLayout>

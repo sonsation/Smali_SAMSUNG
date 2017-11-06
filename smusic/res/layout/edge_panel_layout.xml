@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/edge_panel_background" android:paddingLeft="1.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:orientation="vertical" android:id="@id/dummy_edge_panel" android:paddingLeft="@dimen/edge_panel_edge_view_padding" android:paddingRight="@dimen/edge_panel_edge_view_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/edge_panel_edge_view_margin_top" android:src="@drawable/edge_img_permission" android:scaleType="centerCrop" android:adjustViewBounds="true" />
+    <LinearLayout android:orientation="vertical" android:id="@id/item_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/edge_panel_shortcut_button_height">
+        <TextView android:textSize="@dimen/edge_panel_no_item_text" android:textColor="@color/edge_panel_text_dim" android:gravity="center" android:id="@id/empty_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/no_tracks" />
+        <LinearLayout android:orientation="vertical" android:id="@id/edge_view" android:paddingLeft="@dimen/edge_panel_edge_view_padding" android:paddingRight="@dimen/edge_panel_edge_view_padding" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/edge_panel_edge_view_margin_top">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="4.0">
+                <include layout="@layout/edge_panel_queue" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/edge_card_view" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="4.0">
+                <include layout="@layout/edge_panel_card_view_container" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <FrameLayout android:id="@id/edge_panel_shortcut_btn" android:padding="@dimen/edge_screen_shortcut_button_padding" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="@dimen/edge_panel_shortcut_button_height" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <TextView android:textSize="@dimen/edge_panel_shortcut_text" android:textColor="@color/edge_panel_shortcut" android:gravity="center" android:layout_gravity="center" android:id="@id/edge_panel_shortcut" android:background="@drawable/edge_screen_shortcut_background" android:paddingTop="@dimen/edge_panel_shortcut_padding_vertical" android:paddingBottom="@dimen/edge_panel_shortcut_padding_vertical" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/brand_name" android:includeFontPadding="false" android:paddingStart="@dimen/edge_panel_shortcut_padding_horizontal" android:paddingEnd="@dimen/edge_panel_shortcut_padding_horizontal" style="@style/FontRobotoRegular" />
+    </FrameLayout>
+</RelativeLayout>

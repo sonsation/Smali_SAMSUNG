@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:paddingLeft="@dimen/edge_panel_edge_view_inside_padding" android:paddingRight="@dimen/edge_panel_edge_view_inside_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/album_view" android:layout_width="fill_parent" android:layout_height="@dimen/edge_panel_album_art_size" android:scaleType="centerCrop" android:contentDescription="@string/tts_go_to_music" />
+        <ProgressBar android:layout_gravity="center" android:id="@id/albumart_loading" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@android:style/Widget.DeviceDefault.ProgressBar.Small" />
+        <ImageView android:id="@id/private_mode_image" style="@style/PrivateTagInfoThumb" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="center" android:layout_gravity="bottom" android:orientation="vertical" android:paddingTop="@dimen/edge_panel_text_padding_top" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/edge_panel_text1" android:textColor="@color/edge_panel_text" android:id="@id/title" android:focusable="true" android:layout_height="wrap_content" android:text="@string/no_queued_tracks" android:textAlignment="center" style="@style/Text.SecLight.Marquee" />
+        <TextView android:textSize="@dimen/edge_panel_text2" android:textColor="@color/edge_panel_text" android:id="@id/artist" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textAlignment="center" style="@style/Text.SecLight.Marquee" />
+    </LinearLayout>
+    <RelativeLayout android:gravity="center" android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false" android:layoutDirection="ltr">
+        <FrameLayout android:id="@id/prev_btn" android:background="@drawable/ripple_button_oval" android:focusable="true" android:clickable="true" android:layout_width="@dimen/edge_control_button_size" android:layout_height="@dimen/edge_control_button_size" android:layout_centerInParent="true" android:layout_marginStart="@dimen/edge_control_button_margin" android:layout_alignParentStart="true">
+            <ImageView android:layout_gravity="center" android:id="@id/prev_icon" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/music_edge_ic_prev" android:contentDescription="@string/tts_previous" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/play_pause_btn" android:background="@drawable/ripple_button_oval" android:focusable="true" android:clickable="true" android:layout_width="@dimen/edge_control_button_size" android:layout_height="@dimen/edge_control_button_size" android:layout_centerInParent="true">
+            <ImageView android:layout_gravity="center" android:id="@id/play_pause_icon" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/music_edge_ic_pause" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/next_btn" android:background="@drawable/ripple_button_oval" android:focusable="true" android:clickable="true" android:layout_width="@dimen/edge_control_button_size" android:layout_height="@dimen/edge_control_button_size" android:layout_centerInParent="true" android:layout_marginEnd="@dimen/edge_control_button_margin" android:layout_alignParentEnd="true">
+            <ImageView android:layout_gravity="center" android:id="@id/next_icon" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/music_edge_ic_next" android:contentDescription="@string/tts_next" />
+        </FrameLayout>
+    </RelativeLayout>
+</LinearLayout>

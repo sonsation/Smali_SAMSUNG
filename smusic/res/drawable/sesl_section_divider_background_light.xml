@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <nine-patch android:src="@drawable/sesl_section_divider_default_alpha" android:tint="@color/sesl_section_divider_light" />
+    </item>
+</selector>

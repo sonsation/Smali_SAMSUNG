@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/milk_option_1" layout="@layout/milk_radio_button_double_line_text" />
+    <include android:id="@id/milk_option_2" layout="@layout/milk_radio_button_double_line_text" />
+    <include android:id="@id/milk_option_3" layout="@layout/milk_radio_button_double_line_text" />
+</LinearLayout>

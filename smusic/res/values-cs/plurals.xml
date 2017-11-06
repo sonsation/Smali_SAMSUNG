@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NNNalbum">
+        <item quantity="other">%d alb(a)</item>
+        <item quantity="one">%d album</item>
+    </plurals>
+    <plurals name="NNNartist_album">
+        <item quantity="other">Alba</item>
+        <item quantity="one">Album</item>
+    </plurals>
+    <plurals name="NNNartist_track">
+        <item quantity="other">Skladby</item>
+        <item quantity="one">Skladba</item>
+    </plurals>
+    <plurals name="NNNsometrackstofavorite">
+        <item quantity="other">Do Oblíbených bylo přidáno %d skladeb. Skladby, které již jsou v Oblíbených, nebyly přidány.</item>
+        <item quantity="one">Do Oblíbených byla přidána %d skladba. Skladba, která již je v Oblíbených, nebyla přidána.</item>
+    </plurals>
+    <plurals name="NNNtrack">
+        <item quantity="other">%d skladeb</item>
+        <item quantity="one">%d skladeb</item>
+    </plurals>
+    <plurals name="NNNtracksfromfavorite">
+        <item quantity="other">Z Oblíbených bylo odebráno %d skladeb.</item>
+        <item quantity="one">Z Oblíbených byla odebrána %d skladba.</item>
+    </plurals>
+    <plurals name="NNNtrackstofavorite">
+        <item quantity="other">%d skladeb bylo přidáno do oblíbených.</item>
+        <item quantity="one">Do oblíbených byla přidána %d skladba.</item>
+    </plurals>
+    <plurals name="NNNtrackstoplaylist">
+        <item quantity="other">Do seznamu skladeb bylo přidáno %d skladeb.</item>
+        <item quantity="one">Do seznamu skladeb byla přidána %d skladba.</item>
+    </plurals>
+    <plurals name="drm_can_use_n_times">
+        <item quantity="other">%1$s můžete použít %2$dkrát.</item>
+        <item quantity="one">%s můžete použít jednou.</item>
+    </plurals>
+    <plurals name="n_albums_deleted_msg">
+        <item quantity="other">Odstranit %d alb a všechny jejich skladby z telefonu?</item>
+        <item quantity="one">Odstranit 1 album a všechny jeho skladby z telefonu?</item>
+    </plurals>
+    <plurals name="n_artists_deleted_msg">
+        <item quantity="other">Odstranit všechny skladby těchto interpretů?</item>
+        <item quantity="one">Odstranit všechny skladby tohoto interpreta?</item>
+    </plurals>
+    <plurals name="n_composers_deleted_msg">
+        <item quantity="other">Odstranit všechny skladby těchto skladatelů?</item>
+        <item quantity="one">Odstranit všechny skladby tohoto skladatele?</item>
+    </plurals>
+    <plurals name="n_folders_deleted_msg">
+        <item quantity="other">Odstranit %d složek a všechny jejich skladby z telefonu?</item>
+        <item quantity="one">Odstranit 1 složku a všechny její skladby z telefonu?</item>
+    </plurals>
+    <plurals name="n_genres_deleted_msg">
+        <item quantity="other">Odstranit všechny skladby v těchto žánrech?</item>
+        <item quantity="one">Odstranit všechny skladby v tomto žánru?</item>
+    </plurals>
+    <plurals name="n_items_deleted_msg">
+        <item quantity="other">Delete %d items?</item>
+        <item quantity="one">Delete %d items?</item>
+    </plurals>
+    <plurals name="n_playlists_deleted_msg">
+        <item quantity="other">Odstranit %d seznamů skladeb?</item>
+        <item quantity="one">Odstranit 1 seznam skladeb?</item>
+    </plurals>
+    <plurals name="n_tracks_added_to_queue">
+        <item quantity="other">Do fronty bylo přidáno %d skladeb.</item>
+        <item quantity="one">Do fronty byla přidána %d skladba.</item>
+    </plurals>
+    <plurals name="n_tracks_deleted_msg">
+        <item quantity="other">Odstranit %d skladeb?</item>
+        <item quantity="one">Odstranit 1 skladbu?</item>
+    </plurals>
+</resources>

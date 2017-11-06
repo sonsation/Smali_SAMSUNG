@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.app.music.milk.radio.widget.ArcTextView android:textSize="@dimen/milk_radio_genre_label_size" android:textColor="#fffafafa" android:id="@id/mr_dial_genre_label" android:paddingTop="@dimen/milk_radio_genre_label_padding" android:paddingBottom="@dimen/milk_radio_genre_label_padding" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:fontFamily="sans-serif-light"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

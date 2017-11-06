@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/spinner_container" android:layout_width="fill_parent" android:layout_height="@dimen/milk_list_select_btn_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center_vertical" android:id="@id/spinner_fake_parent" android:layout_width="wrap_content" android:layout_height="@dimen/milk_list_spinner_height" android:layout_marginLeft="24.0dip" android:layout_centerVertical="true" android:contentDescription="">
+        <com.samsung.android.app.music.milk.store.widget.ResizableSpinner android:textColor="@color/milk_btn_text_color" android:id="@id/ms_spinner_common" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" android:popupBackground="@drawable/spinner_bg" android:dropDownWidth="wrap_content" android:dropDownVerticalOffset="0.0dip" />
+    </RelativeLayout>
+    <ImageView android:id="@id/spinner_image" android:clickable="true" android:layout_width="wrap_content" android:layout_height="@dimen/milk_list_spinner_height" android:layout_marginLeft="4.0dip" android:layout_toRightOf="@id/spinner_fake_parent" android:layout_centerVertical="true" android:soundEffectsEnabled="false" android:contentDescription="@string/milk_radio_accessibility_dropdown_list" />
+</RelativeLayout>

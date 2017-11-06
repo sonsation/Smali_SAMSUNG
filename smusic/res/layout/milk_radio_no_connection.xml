@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/milk_radio_dialog_popup_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:elevation="1.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/milk_radio_no_network_msg_height" android:layout_marginTop="@dimen/milk_radio_no_network_msg_top_margin">
+        <ImageView android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/pop_ic_no_network" />
+        <TextView android:textSize="@dimen/milk_radio_no_network_text_size" android:textColor="#ff252525" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/milk_radio_no_network_icon_text_gap" android:text="@string/milk_radio_no_connection" android:fontFamily="roboto-light" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/mr_no_connection_banner_btn" android:layout_width="wrap_content" android:layout_height="28.0dip" android:layout_marginBottom="@dimen/milk_radio_no_network_msg_bottom_margin">
+        <com.samsung.android.app.music.milk.store.widget.UnderlineTextView android:textSize="@dimen/milk_radio_no_network_setting_btn_text_size" android:textStyle="bold" android:textColor="#ff51adfb" android:id="@id/mr_no_connection_banner_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/milk_radio_no_network_settings_btn" android:fontFamily="roboto-condensed" />
+    </LinearLayout>
+</LinearLayout>

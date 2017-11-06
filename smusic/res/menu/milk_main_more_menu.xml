@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/menu_launch_setting" android:title="@string/settings" />
+    <item android:id="@id/menu_help" android:title="@string/milk_help" />
+    <item android:id="@id/menu_contact_us" android:title="@string/milk_contact_us" />
+</menu>

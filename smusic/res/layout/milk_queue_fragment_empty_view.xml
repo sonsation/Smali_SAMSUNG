@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/play_top_chart_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@id/play_top_chart_button" android:background="@drawable/unbounded_ripple_light_full_player_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/player_ic_play" />
+        <TextView android:textSize="@dimen/milk_queue_no_item_play_top_chart_text_size" android:textColor="@color/blur_text" android:gravity="center" android:id="@id/play_top_chart_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/milk_queue_no_item_play_top_chart_text_margin_top" android:layout_marginBottom="@dimen/milk_queue_no_item_play_top_chart_text_margin_bottom" android:text="@string/play_top_chart" />
+    </LinearLayout>
+    <TextView android:textSize="@dimen/milk_queue_no_item_current_playlist_text_size" android:textColor="@color/blur_sub_text" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/milk_queue_no_item_current_playlist_text_margin_bottom" android:text="@string/no_item_current_playlist" />
+    <FrameLayout android:id="@id/add_track_button" android:background="@drawable/button_background" android:focusable="true" android:clickable="true" android:layout_width="@dimen/milk_queue_no_item_add_track_button_width" android:layout_height="@dimen/milk_queue_no_item_add_track_button_height">
+        <TextView android:textSize="@dimen/milk_queue_no_item_add_track_text_size" android:textColor="@color/blur_text" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/add_tracks" android:drawablePadding="@dimen/milk_queue_no_item_add_track_icon_padding" android:textAllCaps="true" android:drawableStart="@drawable/music_library_playlists_create" />
+    </FrameLayout>
+</LinearLayout>

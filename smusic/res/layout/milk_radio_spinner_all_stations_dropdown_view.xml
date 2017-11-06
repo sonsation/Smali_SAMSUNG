@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:clickable="false" android:layout_width="fill_parent" android:layout_height="@dimen/milk_radio_spinner_drop_down_station_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/mr_dropdown_element" android:paddingLeft="@dimen/milk_radio_spinner_drop_down_left_margin" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="@dimen/milk_radio_spinner_drop_down_station_num_size" android:textColor="@color/milk_radio_spinner_dropdown_item_text_selector" android:gravity="center" android:id="@id/mr_station_number_text" android:layout_width="@dimen/milk_radio_spinner_drop_down_prefix_width" android:layout_height="@dimen/milk_radio_spinner_drop_down_prefix_height" android:layout_marginRight="@dimen/milk_radio_spinner_drop_down_right_margin" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:fontFamily="sans-serif" />
+        <TextView android:textSize="@dimen/milk_radio_spinner_drop_down_station_name_size" android:textColor="@color/milk_radio_spinner_dropdown_item_text_selector" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/mr_element_text" android:paddingRight="@dimen/milk_radio_spinner_drop_down_left_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:layout_toRightOf="@id/mr_station_number_text" android:layout_centerVertical="true" android:fontFamily="sans-serif-light" />
+    </RelativeLayout>
+</RelativeLayout>

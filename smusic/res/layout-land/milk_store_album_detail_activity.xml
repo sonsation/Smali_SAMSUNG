@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/base_blur_background_common" />
+    <FrameLayout android:id="@id/mini_player_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <include layout="@layout/mini_player" />
+        <ViewStub android:id="@id/bottom_bar_stub" android:layout="@layout/music_ui_bottom_bar_container" android:layout_width="fill_parent" android:layout_height="@dimen/mini_player_layout_height" />
+    </FrameLayout>
+    <android.support.constraint.ConstraintLayout android:id="@id/ms_album_detail_container" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/mini_player_container">
+        <android.support.constraint.Guideline android:orientation="vertical" android:id="@id/guideline" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_percent="0.44" />
+        <com.samsung.android.app.music.milk.store.widget.ParallaxHeaderLayout android:id="@id/parallax_header" android:background="@android:color/transparent" android:fitsSystemWindows="true" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toLeftOf="@id/guideline" app:layout_constraintTop_toTopOf="parent">
+            <RelativeLayout android:id="@id/album_detail_header" android:background="#33000000" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <RelativeLayout android:id="@id/cover_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <com.samsung.android.app.music.milk.store.widget.NetworkImageView android:id="@id/album_image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/music_player_default_cover" android:scaleType="centerCrop" app:showImageOnFail="@drawable/music_player_default_cover" app:showImageOnLoading="@drawable/music_player_default_cover" />
+                    <ImageView android:id="@id/artist_detail_top_shadow" android:background="@drawable/music_library_details_gradation_01" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                </RelativeLayout>
+                <ImageView android:id="@id/gradient" android:background="@drawable/music_library_details_gradation_02" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+                <include android:orientation="vertical" android:id="@id/album_info_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/milk_store_common_detail_margin_left_right" android:layout_marginRight="@dimen/milk_store_common_detail_margin_left_right" android:layout_marginBottom="11.0dip" android:layout_alignBottom="@id/cover_container" layout="@layout/milk_store_album_detail_info" />
+            </RelativeLayout>
+        </com.samsung.android.app.music.milk.store.widget.ParallaxHeaderLayout>
+        <FrameLayout android:id="@id/album_detail_container" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_marginTop="?android:actionBarSize" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="@id/guideline" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    </android.support.constraint.ConstraintLayout>
+</RelativeLayout>

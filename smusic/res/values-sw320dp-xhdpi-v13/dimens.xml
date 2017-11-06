@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="milk_radio_cover_art_height">219.0dip</dimen>
+    <dimen name="milk_radio_cover_art_width">219.0dip</dimen>
+    <dimen name="milk_radio_dial_boarder_padding">26.0dip</dimen>
+    <dimen name="milk_radio_dial_song_title_artist_lyric_area_height">78.0dip</dimen>
+    <dimen name="milk_radio_dialview_bottom_margin">15.0dip</dimen>
+    <dimen name="milk_radio_outter_dial_turn_tip_width">280.0dip</dimen>
+    <dimen name="milk_radio_rainbow_ring_height">230.0dip</dimen>
+    <dimen name="milk_radio_rainbow_ring_width">230.0dip</dimen>
+    <dimen name="milk_radio_rainbow_translucent_ring_thickness">26.0dip</dimen>
+    <dimen name="milk_radio_rainbow_translucent_ring_width">285.0dip</dimen>
+    <dimen name="mr_player_button_size_3_button_height">93.0dip</dimen>
+    <dimen name="mr_player_button_size_3_button_width">75.0dip</dimen>
+    <dimen name="mr_player_button_skip_prev_button_height">93.0dip</dimen>
+    <dimen name="mr_player_button_skip_prev_button_width">63.0dip</dimen>
+</resources>

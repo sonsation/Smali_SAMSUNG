@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/edge_panel_permission_layout" />
+    <LinearLayout android:orientation="vertical" android:id="@id/help_item_view" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="@dimen/edge_panel_help_now_playing_text_size" android:textColor="@color/edge_panel_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/edge_panel_help_now_playing_margin_top" android:layout_marginBottom="@dimen/edge_panel_help_now_playing_margin_bottom" android:text="@string/now_playing" />
+        <ImageView android:background="@color/divider_tab" android:layout_width="fill_parent" android:layout_height="@dimen/widget_list_divider_height" />
+        <TextView android:textSize="@dimen/edge_panel_help_text" android:textColor="@color/edge_panel_text" android:id="@id/edge_help_notice" android:paddingTop="@dimen/edge_panel_help_artist_album_list_padding_top_bottom" android:paddingBottom="@dimen/edge_panel_help_artist_album_list_padding_top_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/edge_panel_help_artist_margin_top" android:text="@string/edge_help_notice" android:textAlignment="viewStart" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/artist_container" android:background="@drawable/ripple_list" android:paddingTop="@dimen/edge_panel_help_artist_album_list_padding_top_bottom" android:paddingBottom="@dimen/edge_panel_help_artist_album_list_padding_top_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/edge_panel_help_artist_margin_top">
+            <TextView android:textSize="@dimen/edge_panel_help_text" android:textColor="@color/edge_panel_text" android:id="@id/artist_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAlignment="viewStart" />
+            <TextView android:textSize="@dimen/edge_panel_help_text" android:textColor="@color/edge_panel_text" android:id="@id/artist_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/no_tracks" android:textAlignment="viewStart" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/album_container" android:background="@drawable/ripple_list" android:paddingTop="@dimen/edge_panel_help_artist_album_list_padding_top_bottom" android:paddingBottom="@dimen/edge_panel_help_artist_album_list_padding_top_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/edge_panel_help_text" android:textColor="@color/edge_panel_text" android:id="@id/album_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAlignment="viewStart" />
+            <TextView android:textSize="@dimen/edge_panel_help_text" android:textColor="@color/edge_panel_text" android:id="@id/album_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/no_tracks" android:textAlignment="viewStart" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/station_container" android:background="@drawable/ripple_list" android:paddingTop="@dimen/edge_panel_help_artist_album_list_padding_top_bottom" android:paddingBottom="@dimen/edge_panel_help_artist_album_list_padding_top_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/edge_panel_help_text" android:textColor="@color/edge_panel_text" android:id="@id/station_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAlignment="viewStart" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

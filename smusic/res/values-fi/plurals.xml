@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NNNalbum">
+        <item quantity="other">%d albumia</item>
+        <item quantity="one">%d albumi</item>
+    </plurals>
+    <plurals name="NNNartist_album">
+        <item quantity="other">Albumit</item>
+        <item quantity="one">Albumi</item>
+    </plurals>
+    <plurals name="NNNartist_track">
+        <item quantity="other">Kappaleet</item>
+        <item quantity="one">Kappale</item>
+    </plurals>
+    <plurals name="NNNsometrackstofavorite">
+        <item quantity="other">%d kappaletta lisätty suosikkeihin. Suosikeissa jo olevia kappaleita ei lisätty.</item>
+        <item quantity="one">%d kappale lisätty suosikkeihin. Suosikeissa jo olevaa kappaletta ei lisätty.</item>
+    </plurals>
+    <plurals name="NNNtrack">
+        <item quantity="other">%d kappaletta</item>
+        <item quantity="one">%d kappale</item>
+    </plurals>
+    <plurals name="NNNtracksfromfavorite">
+        <item quantity="other">%d kappaletta poistettu suosikeista.</item>
+        <item quantity="one">%d kappale poistettu suosikeista.</item>
+    </plurals>
+    <plurals name="NNNtrackstofavorite">
+        <item quantity="other">%d kappaletta lisätty suosikkeihin.</item>
+        <item quantity="one">%d kappale lisätty suosikkeihin.</item>
+    </plurals>
+    <plurals name="NNNtrackstoplaylist">
+        <item quantity="other">%d kappaletta lisätty soittolistaan.</item>
+        <item quantity="one">%d kappale lisätty soittolistaan.</item>
+    </plurals>
+    <plurals name="drm_can_use_n_times">
+        <item quantity="other">Voit käyttää kohdetta %1$s %2$d kertaa.</item>
+        <item quantity="one">Voit käyttää kohdetta %s 1 kerran.</item>
+    </plurals>
+    <plurals name="n_albums_deleted_msg">
+        <item quantity="other">Poistetaanko %d albumia ja kaikki niissä olevat kappaleet puhelimesta?</item>
+        <item quantity="one">Poistetaanko 1 albumi ja kaikki siinä olevat kappaleet puhelimesta?</item>
+    </plurals>
+    <plurals name="n_artists_deleted_msg">
+        <item quantity="other">Poistetaanko kaikki näiden esittäjien kappaleet?</item>
+        <item quantity="one">Poistetaanko kaikki tämän esittäjän kappaleet?</item>
+    </plurals>
+    <plurals name="n_composers_deleted_msg">
+        <item quantity="other">Poistetaanko kaikki näiden säveltäjien kappaleet?</item>
+        <item quantity="one">Poistetaanko kaikki tämän säveltäjän kappaleet?</item>
+    </plurals>
+    <plurals name="n_folders_deleted_msg">
+        <item quantity="other">Poistetaanko %d kansiota ja kaikki niissä olevat kappaleet puhelimesta?</item>
+        <item quantity="one">Poistetaanko 1 kansio ja kaikki siinä olevat kappaleet puhelimesta?</item>
+    </plurals>
+    <plurals name="n_genres_deleted_msg">
+        <item quantity="other">Poistetaanko kaikki näihin tyylilajeihin kuuluvat kappaleet?</item>
+        <item quantity="one">Poistetaanko kaikki tähän tyylilajiin kuuluvat kappaleet?</item>
+    </plurals>
+    <plurals name="n_items_deleted_msg">
+        <item quantity="other">Delete %d items?</item>
+        <item quantity="one">Delete %d items?</item>
+    </plurals>
+    <plurals name="n_playlists_deleted_msg">
+        <item quantity="other">Poistetaanko %d soittolistaa?</item>
+        <item quantity="one">Poistetaanko 1 soittolista?</item>
+    </plurals>
+    <plurals name="n_tracks_added_to_queue">
+        <item quantity="other">%d kappaletta lisätty jonoon.</item>
+        <item quantity="one">%d kappale lisätty jonoon.</item>
+    </plurals>
+    <plurals name="n_tracks_deleted_msg">
+        <item quantity="other">Poistetaanko %d kappaletta?</item>
+        <item quantity="one">Poistetaanko 1 kappale?</item>
+    </plurals>
+</resources>

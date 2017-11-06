@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:focusable="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="@dimen/cover_clear_queue_item_height" android:paddingStart="@dimen/cover_clear_queue_item_padding_horizontal" android:paddingEnd="@dimen/cover_clear_queue_item_padding_horizontal"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/extra_info_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginEnd="2.0dip">
+        <ViewStub android:id="@id/sound_quality_tag_stub" android:layout="@layout/list_item_uhq_stub_common" android:layout_width="@dimen/uhqa_tag_width" android:layout_height="@dimen/uhqa_tag_height" />
+        <ViewStub android:id="@id/list_item_stub_private_icon" android:layout="@layout/list_item_private_stub_common" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ViewStub android:id="@id/list_item_stub_animation" android:layout="@layout/music_ui_list_item_stub_animation" android:layout_width="@dimen/cover_clear_queue_item_animation_size" android:layout_height="@dimen/cover_clear_queue_item_animation_size" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/list_text_wrapper_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toLeftOf="@id/extra_info_view" android:layout_toRightOf="@id/uhq_tag" android:layout_marginEnd="@dimen/cover_clear_queue_item_text_margin_right">
+        <com.samsung.android.app.musiclibrary.ui.widget.MatchedTextView android:textSize="@dimen/cover_clear_queue_text1" android:textColor="@color/cover_clear_queue_text1" android:id="@id/text1" style="@style/Text.SecLight.ListItem" />
+        <com.samsung.android.app.musiclibrary.ui.widget.MatchedTextView android:textSize="@dimen/cover_clear_queue_text2" android:textColor="@color/cover_clear_queue_text2" android:id="@id/text2" style="@style/Text.SecLight.ListItem" />
+    </LinearLayout>
+</RelativeLayout>

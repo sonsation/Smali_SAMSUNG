@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="com_facebook_device_auth_instructions">&lt;b>facebook.com/device&lt;/b> ಗೆ ಭೇಟಿ ನೀಡಿ ಮತ್ತು ಮೇಲೆ ತೋರಿಸಿದ ಕೋಡ್ ಅನ್ನು ನಮೂದಿಸಿ.</string>
+    <string name="com_facebook_image_download_unknown_error">ಚಿತ್ರವನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡುವಾಗ ಅನಿರೀಕ್ಷಿತ ದೋಷ.</string>
+    <string name="com_facebook_internet_permission_error_message">ವೆಬ್ ವೀಕ್ಷಣೆ ಲಾಗಿನ್‌ಗೆ ಇಂಟರ್ನೆಟ್ ಅನುಮತಿಯ ಅಗತ್ಯವಿದೆ</string>
+    <string name="com_facebook_internet_permission_error_title">Android ಮ್ಯಾನಿಫೆಸ್ಟ್ ದೋಷ</string>
+    <string name="com_facebook_like_button_liked">ಇಷ್ಟಪಟ್ಟಿದ್ದಾರೆ</string>
+    <string name="com_facebook_like_button_not_liked">ಇಷ್ಟ</string>
+    <string name="com_facebook_loading">ಲೋಡ್ ಆಗುತ್ತಿದೆ...</string>
+    <string name="com_facebook_loginview_cancel_action">ರದ್ದುಮಾಡು</string>
+    <string name="com_facebook_loginview_log_in_button">ಲಾಗ್ ಇನ್</string>
+    <string name="com_facebook_loginview_log_in_button_continue">Facebook ನೊಂದಿಗೆ ಮುಂದುವರಿಸಿ</string>
+    <string name="com_facebook_loginview_log_in_button_long">Facebook ನೊಂದಿಗೆ ಲಾಗ್ ಇನ್ ಮಾಡಿ</string>
+    <string name="com_facebook_loginview_log_out_action">ಲಾಗ್ ಔಟ್</string>
+    <string name="com_facebook_loginview_log_out_button">ಲಾಗ್ ಔಟ್</string>
+    <string name="com_facebook_loginview_logged_in_as">%1$s ಎಂದು ಲಾಗಿನ್ ಮಾಡಲಾಗಿದೆ</string>
+    <string name="com_facebook_loginview_logged_in_using_facebook">Facebook ಬಳಸಿ ಲಾಗಿನ್ ಮಾಡಲಾಗಿದೆ</string>
+    <string name="com_facebook_send_button_text">ಕಳುಹಿಸಿ</string>
+    <string name="com_facebook_share_button_text">ಹಂಚಿರಿ</string>
+    <string name="com_facebook_smart_device_instructions">ನಿಮ್ಮ ಖಾತೆಯನ್ನು ಸಂಪರ್ಕಿಸಲು, ನಿಮ್ಮ ಮೊಬೈಲ್ ಸಾಧನದಲ್ಲಿ Facebook ಅಪ್ಲಿಕೇಶನ್ ತೆರೆಯಿರಿ ಮತ್ತು ಅಧಿಸೂಚನೆಗಳಿಗಾಗಿ ಪರಿಶೀಲಿಸಿ.</string>
+    <string name="com_facebook_smart_device_instructions_or">- ಅಥವಾ -</string>
+    <string name="com_facebook_smart_login_confirmation_cancel">ನೀವಲ್ಲವೇ?</string>
+    <string name="com_facebook_smart_login_confirmation_continue_as">%1$s ಎಂದು ಮುಂದುವರಿಸಿ</string>
+    <string name="com_facebook_smart_login_confirmation_title">ಲಾಗಿನ್ ಖಚಿತಪಡಿಸಿ</string>
+    <string name="com_facebook_tooltip_default">ನೀವು ನಿಯಂತ್ರಣದಲ್ಲಿದ್ದಿರಿ- ಅಪ್ಲಿಕೇಶನ್‌ಗಳೊಂದಿಗೆ ನೀವು ಯಾವ ಮಾಹಿತಿಯನ್ನು ಹಂಚಿಕೊಳ್ಳಬೇಕೆಂದು ಆಯ್ಕೆಮಾಡಿ.</string>
+    <string name="common_google_play_services_enable_button">ಸಕ್ರಿಯಗೊಳಿಸು</string>
+    <string name="common_google_play_services_enable_text">Google Play ಸೇವೆಗಳನ್ನು ನೀವು ಸಕ್ರಿಯಗೊಳಿಸದ ಹೊರತು %1$s ಕಾರ್ಯನಿರ್ವಹಿಸುವುದಿಲ್ಲ.</string>
+    <string name="common_google_play_services_enable_title">Google Play ಸೇವೆಗಳನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ</string>
+    <string name="common_google_play_services_install_button">Google Play ಸೇವೆಗಳನ್ನು ಪಡೆಯಿರಿ</string>
+    <string name="common_google_play_services_install_text_phone">Google Play ಸೇವೆಗಳಿಲ್ಲದೆ ನಿಮ್ಮ ಫೋನ್‍‍ನಿಂದ ಕಾಣೆಯಾಗಿರುವ %1$s ರನ್ ಆಗುವುದಿಲ್ಲ.</string>
+    <string name="common_google_play_services_install_text_tablet">Google Play ಸೇವೆಗಳಿಲ್ಲದೆ ನಿಮ್ಮ ಟ್ಯಾಬ್ಲೆಟ್‍ನಿಂದ ಕಾಣೆಯಾಗಿರುವ %1$s ರನ್ ಆಗುವುದಿಲ್ಲ.</string>
+    <string name="common_google_play_services_install_title">Google Play ಸೇವೆಗಳನ್ನು ಪಡೆಯಿರಿ</string>
+    <string name="common_google_play_services_notification_ticker">Google Play ಸೇವೆಗಳ ದೋಷ</string>
+    <string name="common_google_play_services_unknown_issue">Google Play ಸೇವೆಗಳಲ್ಲಿ %1$s ಅಪ್ಲಿಕೇಶನ್ ಸಮಸ್ಯೆಯನ್ನು ಎದುರಿಸುತ್ತಿದೆ. ಸಮಸ್ಯೆ ಮುಂದುವರಿದರೆ, ಸಹಾಯಕ್ಕಾಗಿ ಡೆವಲಪರ್ ಅನ್ನು ಸಂಪರ್ಕಿಸಿ.</string>
+    <string name="common_google_play_services_unsupported_text">%1$s ನಿಮ್ಮ ಸಾಧನವು ಬೆಂಬಲಿಸದಿರುವಂತಹ Google Play ಸೇವೆಗಳನ್ನು ಅವಲಂಬಿಸಿದೆ. ಸಹಾಯಕ್ಕಾಗಿ ತಯಾರಕರನ್ನು ಸಂಪರ್ಕಿಸಿ.</string>
+    <string name="common_google_play_services_unsupported_title">Google Play ಸೇವೆಗಳು</string>
+    <string name="common_google_play_services_update_button">ಅಪ್‌ಡೇಟ್‌ ಮಾಡು</string>
+    <string name="common_google_play_services_update_text">ನೀವು Google Play ಸೇವೆಗಳನ್ನು ನವೀಕರಿಸದ ಹೊರತು %1$s ರನ್ ಆಗುವುದಿಲ್ಲ.</string>
+    <string name="common_google_play_services_update_title">Google Play ಸೇವೆಗಳನ್ನು ಅಪ್‌ಡೇಟ್‌ ಮಾಡಿ</string>
+    <string name="common_google_play_services_updating_text">Google Play ಸೇವೆಗಳಿಲ್ಲದೆ ಪ್ರಸ್ತುತ ಅಪ್‌ಡೇಟ್ ಆಗುತ್ತಿರುವ %1$s ರನ್ ಆಗುವುದಿಲ್ಲ.</string>
+    <string name="common_google_play_services_updating_title">Google Play ಸೇವೆಗಳನ್ನು ಅಪ್‌ಡೇಟ್ ಮಾಡಲಾಗುತ್ತಿದೆ</string>
+    <string name="common_google_play_services_wear_update_text">Google Play ಸೇವೆಗಳ ಹೊಸ ಆವೃತ್ತಿ ಅಗತ್ಯವಿದೆ. ಸದ್ಯದಲ್ಲೇ ಅದು ತಾನಾಗಿಯೇ ಅಪ್‌ಡೇಟ್ ಆಗುತ್ತದೆ.</string>
+    <string name="common_open_on_phone">ಫೋನ್‌ನಲ್ಲಿ ತೆರೆಯಿರಿ</string>
+    <string name="common_signin_button_text">ಸೈನ್ ಇನ್</string>
+    <string name="common_signin_button_text_long">Google ಮೂಲಕ ಸೈನ್ ಇನ್ ಮಾಡಿ</string>
+</resources>

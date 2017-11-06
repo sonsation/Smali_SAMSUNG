@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NNNalbum">
+        <item quantity="other">%d Alben</item>
+        <item quantity="one">%d Album</item>
+    </plurals>
+    <plurals name="NNNartist_album">
+        <item quantity="other">Alben</item>
+        <item quantity="one">Album</item>
+    </plurals>
+    <plurals name="NNNartist_track">
+        <item quantity="other">Titel</item>
+        <item quantity="one">Titel</item>
+    </plurals>
+    <plurals name="NNNsometrackstofavorite">
+        <item quantity="other">%d Titel zu Favoriten hinzugefügt. Titel, die bereits zu den Favoriten gehören, wurden nicht hinzugefügt.</item>
+        <item quantity="one">%d Titel zu Favoriten hinzugefügt. Titel, die bereits zu den Favoriten gehören, wurden nicht hinzugefügt.</item>
+    </plurals>
+    <plurals name="NNNtrack">
+        <item quantity="other">%d Titel</item>
+        <item quantity="one">%d Titel</item>
+    </plurals>
+    <plurals name="NNNtracksfromfavorite">
+        <item quantity="other">%d Titel aus Favoriten entfernt.</item>
+        <item quantity="one">%d Titel aus Favoriten entfernt.</item>
+    </plurals>
+    <plurals name="NNNtrackstofavorite">
+        <item quantity="other">%d Titel zu den Favoriten hinzugefügt.</item>
+        <item quantity="one">%d Titel zu den Favoriten hinzugefügt.</item>
+    </plurals>
+    <plurals name="NNNtrackstoplaylist">
+        <item quantity="other">%d Titel zur Wiedergabeliste hinzugefügt</item>
+        <item quantity="one">%d Titel zur Wiedergabeliste hinzugefügt.</item>
+    </plurals>
+    <plurals name="drm_can_use_n_times">
+        <item quantity="other">Sie können %1$s %2$d mal verwenden</item>
+        <item quantity="one">Sie können %s 1 mal verwenden</item>
+    </plurals>
+    <plurals name="n_albums_deleted_msg">
+        <item quantity="other">%d Alben und alle Titel darin von Ihrem Telefon löschen?</item>
+        <item quantity="one">1 Album und alle Titel darin von Ihrem Telefon löschen?</item>
+    </plurals>
+    <plurals name="n_artists_deleted_msg">
+        <item quantity="other">Alle Titel von diesen Künstlern löschen?</item>
+        <item quantity="one">Alle Titel dieses Künstlers löschen?</item>
+    </plurals>
+    <plurals name="n_composers_deleted_msg">
+        <item quantity="other">Alle Titel von diesen Komponisten löschen?</item>
+        <item quantity="one">Alle Titel dieses Komponisten löschen?</item>
+    </plurals>
+    <plurals name="n_folders_deleted_msg">
+        <item quantity="other">%d Ordner und alle Titel darin von Ihrem Telefon löschen?</item>
+        <item quantity="one">1 Ordner und alle Titel darin von Ihrem Telefon löschen?</item>
+    </plurals>
+    <plurals name="n_genres_deleted_msg">
+        <item quantity="other">Alle Titel aus diesen Genres löschen?</item>
+        <item quantity="one">Alle Titel dieses Genres löschen?</item>
+    </plurals>
+    <plurals name="n_items_deleted_msg">
+        <item quantity="other">Delete %d items?</item>
+        <item quantity="one">Delete %d items?</item>
+    </plurals>
+    <plurals name="n_playlists_deleted_msg">
+        <item quantity="other">%d Wiedergabelisten löschen?</item>
+        <item quantity="one">1 Wiedergabeliste löschen?</item>
+    </plurals>
+    <plurals name="n_tracks_added_to_queue">
+        <item quantity="other">%d Titel zur Titelliste hinzugefügt.</item>
+        <item quantity="one">%d Titel zur Titelliste hinzugefügt.</item>
+    </plurals>
+    <plurals name="n_tracks_deleted_msg">
+        <item quantity="other">%d Titel löschen?</item>
+        <item quantity="one">1 Titel löschen?</item>
+    </plurals>
+</resources>

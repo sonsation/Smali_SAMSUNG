@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/flat_button_layout" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <RelativeLayout android:layout_gravity="end|bottom|center" android:id="@id/next_button" android:background="@drawable/unbounded_ripple_dark" android:clickable="true" android:layout_width="wrap_content" android:layout_height="@dimen/flat_button_height">
+            <TextView android:id="@id/next_button_text" android:text="@string/flat_button_next" android:layout_centerVertical="true" android:textAllCaps="true" android:layout_marginStart="@dimen/flat_button_text_margin_horizontal" android:layout_marginEnd="@dimen/flat_button_text_margin_horizontal" style="@style/Text.RobotoCondensed.Bold" />
+            <View android:background="@drawable/tw_btn_icon_next_mtrl" android:layout_width="@dimen/flat_button_image_size" android:layout_height="@dimen/flat_button_image_size" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/flat_button_image_margin_right" android:layout_toEndOf="@id/next_button_text" />
+        </RelativeLayout>
+    </FrameLayout>
+    <ScrollView android:id="@id/guide_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/flat_button_layout">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/permission_guide_permissions_margin_bottom">
+            <View android:background="@drawable/about_permission_ic" android:layout_width="@dimen/permission_guide_app_icon_width" android:layout_height="@dimen/permission_guide_app_icon_height" android:layout_marginTop="@dimen/permission_guide_app_icon_margin_top" android:layout_marginBottom="@dimen/permission_guide_app_icon_margin_bottom" />
+            <TextView android:textSize="@dimen/permission_guide_title_size" android:textStyle="bold" android:textColor="@color/black_2_opacity_90" android:gravity="center" android:layout_marginBottom="@dimen/permission_guide_title_margin_bottom" android:text="@string/permission_guide_title" style="@style/Text.RobotoRegular" />
+            <TextView android:textSize="@dimen/permission_guide_description_size" android:textColor="@color/black_2_opacity_60" android:gravity="center" android:layout_marginBottom="@dimen/permission_guide_description_margin_bottom" android:text="@string/permission_guide_description" style="@style/Text.RobotoRegular" />
+            <include android:id="@id/storage_permission" layout="@layout/permission_guide_item" />
+            <include android:id="@id/call_permission" layout="@layout/permission_guide_item" />
+            <include android:id="@id/contact_permission" layout="@layout/permission_guide_item" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

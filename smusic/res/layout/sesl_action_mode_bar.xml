@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.support.sesl.component.widget.SeslActionBarContextView android:theme="?android:actionBarTheme" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="?android:attr/actionModeStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

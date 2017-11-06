@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="full_player_control_layout_height">106.0dip</dimen>
+    <dimen name="full_player_option_margin_bottom">-8.0dip</dimen>
+</resources>

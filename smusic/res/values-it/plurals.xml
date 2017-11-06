@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NNNalbum">
+        <item quantity="other">%d album</item>
+        <item quantity="one">%d album</item>
+    </plurals>
+    <plurals name="NNNartist_album">
+        <item quantity="other">Album</item>
+        <item quantity="one">Album</item>
+    </plurals>
+    <plurals name="NNNartist_track">
+        <item quantity="other">Brani</item>
+        <item quantity="one">Brano</item>
+    </plurals>
+    <plurals name="NNNsometrackstofavorite">
+        <item quantity="other">%d brani aggiunti ai Preferiti. I brani già presenti nei Preferiti non sono stati aggiunti.</item>
+        <item quantity="one">%d brano aggiunto ai Preferiti. Il brano già presente nei Preferiti non è stato aggiunto.</item>
+    </plurals>
+    <plurals name="NNNtrack">
+        <item quantity="other">%d brani</item>
+        <item quantity="one">%d brano</item>
+    </plurals>
+    <plurals name="NNNtracksfromfavorite">
+        <item quantity="other">%d brani rimossi dai Preferiti.</item>
+        <item quantity="one">%d brano rimosso dai Preferiti.</item>
+    </plurals>
+    <plurals name="NNNtrackstofavorite">
+        <item quantity="other">%d brani sono stati aggiunti ai preferiti.</item>
+        <item quantity="one">%d brano aggiunto ai preferiti.</item>
+    </plurals>
+    <plurals name="NNNtrackstoplaylist">
+        <item quantity="other">%d brani aggiunti alla playlist.</item>
+        <item quantity="one">%d brano aggiunto alla playlist.</item>
+    </plurals>
+    <plurals name="drm_can_use_n_times">
+        <item quantity="other">È possibile utilizzare %1$s %2$d volte.</item>
+        <item quantity="one">È possibile utilizzare %s 1 volta.</item>
+    </plurals>
+    <plurals name="n_albums_deleted_msg">
+        <item quantity="other">Eliminare %d album e tutti i brani in essi contenuti dal telefono?</item>
+        <item quantity="one">Eliminare 1 album e tutti i brani in esso contenuti dal telefono?</item>
+    </plurals>
+    <plurals name="n_artists_deleted_msg">
+        <item quantity="other">Eliminare tutti i brani di questi artisti?</item>
+        <item quantity="one">Eliminare tutti i brani di questo artista?</item>
+    </plurals>
+    <plurals name="n_composers_deleted_msg">
+        <item quantity="other">Eliminare tutti i brani di questi compositori?</item>
+        <item quantity="one">Eliminare tutti i brani di questo compositore?</item>
+    </plurals>
+    <plurals name="n_folders_deleted_msg">
+        <item quantity="other">Eliminare %d cartelle e tutti i brani in esse contenuti dal telefono?</item>
+        <item quantity="one">Eliminare 1 cartella e tutti i brani in essa contenuti dal telefono?</item>
+    </plurals>
+    <plurals name="n_genres_deleted_msg">
+        <item quantity="other">Eliminare tutti i brani di questi generi?</item>
+        <item quantity="one">Eliminare tutti i brani di questo genere?</item>
+    </plurals>
+    <plurals name="n_items_deleted_msg">
+        <item quantity="other">Delete %d items?</item>
+        <item quantity="one">Delete %d items?</item>
+    </plurals>
+    <plurals name="n_playlists_deleted_msg">
+        <item quantity="other">Eliminare %d playlist?</item>
+        <item quantity="one">Eliminare 1 playlist?</item>
+    </plurals>
+    <plurals name="n_tracks_added_to_queue">
+        <item quantity="other">%d brani aggiunti alla coda.</item>
+        <item quantity="one">%d brano aggiunto alla coda.</item>
+    </plurals>
+    <plurals name="n_tracks_deleted_msg">
+        <item quantity="other">Eliminare %d brani?</item>
+        <item quantity="one">Eliminare 1 brano?</item>
+    </plurals>
+</resources>

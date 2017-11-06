@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/milk_music_category_genre_reorder_item_height" android:layout_marginRight="@dimen/milk_music_category_genre_reorder_item_right_margin">
+        <FrameLayout android:id="@id/genre_thumbnail_container" android:layout_width="@dimen/milk_music_category_genre_reorder_thumb_container" android:layout_height="fill_parent">
+            <com.samsung.android.app.music.milk.store.widget.NetworkImageView android:layout_gravity="center" android:id="@id/genre_thumbnail" android:layout_width="@dimen/milk_music_category_genre_reorder_thumb_size" android:layout_height="@dimen/milk_music_category_genre_reorder_thumb_size" android:scaleType="fitXY" android:layout_alignParentLeft="true" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/genre_reorder_btn" android:layout_width="@dimen/milk_music_category_genre_reorder_icon_size" android:layout_height="@dimen/milk_music_category_genre_reorder_icon_size" android:layout_marginLeft="@dimen/milk_music_category_genre_reorder_icon_left_margin" android:layout_marginRight="@dimen/milk_music_category_genre_reorder_icon_right_margin" android:foreground="@drawable/ripple_oval_light" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+            <ImageView android:id="@id/genre_reorder_icon" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/music_ic_ab_edit" />
+        </FrameLayout>
+        <TextView android:textSize="@dimen/milk_music_category_genre_reorder_title_size" android:textColor="#fffafafa" android:ellipsize="marquee" android:id="@id/genre_title" android:paddingLeft="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:layout_toLeftOf="@id/genre_reorder_btn" android:layout_toRightOf="@id/genre_thumbnail_container" android:layout_centerVertical="true" />
+        <View android:background="#40fafafa" android:layout_width="fill_parent" android:layout_height="2.0px" android:layout_marginLeft="@dimen/milk_music_category_genre_divider_left_margin" android:layout_toRightOf="@id/genre_thumbnail_container" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</RelativeLayout>

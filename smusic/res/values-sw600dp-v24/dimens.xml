@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="big_quick_panel_albumart_margin_left">9.0dip</dimen>
+    <dimen name="big_quick_panel_albumart_size">80.0dip</dimen>
+    <dimen name="big_quick_panel_artist_text">13.0sp</dimen>
+    <dimen name="big_quick_panel_close_margin_left">50.0dip</dimen>
+    <dimen name="big_quick_panel_title_text">15.0sp</dimen>
+    <dimen name="quick_panel_albumart_margin_left">30.0dip</dimen>
+    <dimen name="quick_panel_albumart_size">35.0dip</dimen>
+    <dimen name="quick_panel_artist_text">13.0sp</dimen>
+    <dimen name="quick_panel_close_margin_left">30.0dip</dimen>
+    <dimen name="quick_panel_title_text">15.0sp</dimen>
+    <dimen name="play_speed_preference_item_padding_vertical">15.0dip</dimen>
+</resources>

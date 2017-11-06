@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/milk_menu_create" android:title="@string/milk_my_station_menu_create" android:showAsAction="always" />
+    <item android:id="@id/milk_menu_edit" android:title="@string/milk_my_station_menu_edit" android:showAsAction="always" />
+</menu>

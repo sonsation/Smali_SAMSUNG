@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="full_player_album_height">299.0dip</dimen>
+    <dimen name="full_player_albumview_height_with_shade">303.0dip</dimen>
+    <dimen name="full_player_albumview_margin_bottom">12.0dip</dimen>
+    <dimen name="full_player_control_layout_height">122.0dip</dimen>
+    <dimen name="full_player_albumview_padding_top">0.0dip</dimen>
+    <dimen name="full_player_control_margin_bottom">23.0dip</dimen>
+    <dimen name="full_player_gl_private_icon_dx">-133.0dip</dimen>
+    <dimen name="full_player_gl_private_icon_dy">-133.0dip</dimen>
+</resources>

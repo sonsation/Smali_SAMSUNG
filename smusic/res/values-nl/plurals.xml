@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NNNalbum">
+        <item quantity="other">%d albums</item>
+        <item quantity="one">%d album</item>
+    </plurals>
+    <plurals name="NNNartist_album">
+        <item quantity="other">Albums</item>
+        <item quantity="one">Album</item>
+    </plurals>
+    <plurals name="NNNartist_track">
+        <item quantity="other">Nummers</item>
+        <item quantity="one">Nummer</item>
+    </plurals>
+    <plurals name="NNNsometrackstofavorite">
+        <item quantity="other">%d nummers toegevoegd aan Favorieten. Nummers die al in Favorieten zijn opgenomen, worden niet toegevoegd.</item>
+        <item quantity="one">%d nummer toegevoegd aan Favorieten. Nummer dat al in Favorieten is opgenomen, wordt niet toegevoegd.</item>
+    </plurals>
+    <plurals name="NNNtrack">
+        <item quantity="other">%d nummers</item>
+        <item quantity="one">%d nummer</item>
+    </plurals>
+    <plurals name="NNNtracksfromfavorite">
+        <item quantity="other">%d nummers verwijderd uit Favorieten.</item>
+        <item quantity="one">%d nummer verwijderd uit Favorieten.</item>
+    </plurals>
+    <plurals name="NNNtrackstofavorite">
+        <item quantity="other">%d nummers toegevoegd aan favorieten.</item>
+        <item quantity="one">%d nummer toegevoegd aan favorieten.</item>
+    </plurals>
+    <plurals name="NNNtrackstoplaylist">
+        <item quantity="other">%d nummers toegevoegd aan afspeellijst.</item>
+        <item quantity="one">%d nummer toegevoegd aan afspeellijst.</item>
+    </plurals>
+    <plurals name="drm_can_use_n_times">
+        <item quantity="other">U kunt %1$s %2$d maal gebruiken.</item>
+        <item quantity="one">U kunt %s 1 maal gebruiken.</item>
+    </plurals>
+    <plurals name="n_albums_deleted_msg">
+        <item quantity="other">%d albums en alle nummers erin van uw telefoon verwijderen?</item>
+        <item quantity="one">1 album en alle nummers erin van uw telefoon verwijderen?</item>
+    </plurals>
+    <plurals name="n_artists_deleted_msg">
+        <item quantity="other">Alle nummers van deze artiesten verwijderen?</item>
+        <item quantity="one">Alle nummers van deze artiest verwijderen?</item>
+    </plurals>
+    <plurals name="n_composers_deleted_msg">
+        <item quantity="other">Alle nummers van deze componisten verwijderen?</item>
+        <item quantity="one">Alle nummers van deze componist verwijderen?</item>
+    </plurals>
+    <plurals name="n_folders_deleted_msg">
+        <item quantity="other">%d mappen en alle nummers erin van uw telefoon verwijderen?</item>
+        <item quantity="one">1 map en alle nummers erin van uw telefoon verwijderen?</item>
+    </plurals>
+    <plurals name="n_genres_deleted_msg">
+        <item quantity="other">Alle nummers in deze genres verwijderen?</item>
+        <item quantity="one">Alle nummers in dit genre verwijderen?</item>
+    </plurals>
+    <plurals name="n_items_deleted_msg">
+        <item quantity="other">Delete %d items?</item>
+        <item quantity="one">Delete %d items?</item>
+    </plurals>
+    <plurals name="n_playlists_deleted_msg">
+        <item quantity="other">%d afspeellijsten verwijderen?</item>
+        <item quantity="one">1 afspeellijst verwijderen?</item>
+    </plurals>
+    <plurals name="n_tracks_added_to_queue">
+        <item quantity="other">%d nummers toegevoegd aan wachtrij.</item>
+        <item quantity="one">%d nummer toegevoegd aan wachtrij.</item>
+    </plurals>
+    <plurals name="n_tracks_deleted_msg">
+        <item quantity="other">%d nummers verwijderen?</item>
+        <item quantity="one">1 nummer verwijderen?</item>
+    </plurals>
+</resources>

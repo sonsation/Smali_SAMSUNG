@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NNNalbum">
+        <item quantity="other">%d albuma</item>
+        <item quantity="one">%d album</item>
+    </plurals>
+    <plurals name="NNNartist_album">
+        <item quantity="other">Albumi</item>
+        <item quantity="one">Album</item>
+    </plurals>
+    <plurals name="NNNartist_track">
+        <item quantity="other">Pjesme</item>
+        <item quantity="one">Pjesma</item>
+    </plurals>
+    <plurals name="NNNsometrackstofavorite">
+        <item quantity="other">%d pjesama dodano u Favorite. Pjesme koje se već nalaze u Favoritima nisu dodane.</item>
+        <item quantity="one">%d pjesma dodana u Favorite. Pjesma koja se već nalazi u Favoritima nije dodana.</item>
+    </plurals>
+    <plurals name="NNNtrack">
+        <item quantity="other">%d pjesama</item>
+        <item quantity="one">%d pjesma</item>
+    </plurals>
+    <plurals name="NNNtracksfromfavorite">
+        <item quantity="other">%d pjesama uklonjeno iz Favorita.</item>
+        <item quantity="one">%d pjesma uklonjena iz Favorita.</item>
+    </plurals>
+    <plurals name="NNNtrackstofavorite">
+        <item quantity="other">%d pjesmi dodano u favorite.</item>
+        <item quantity="one">%d pjesma dodana u favorite.</item>
+    </plurals>
+    <plurals name="NNNtrackstoplaylist">
+        <item quantity="other">%d pjesama dodano na popis.</item>
+        <item quantity="one">%d pjesma dodana na popis pjesama.</item>
+    </plurals>
+    <plurals name="drm_can_use_n_times">
+        <item quantity="other">Možete koristiti %1$s %2$d puta.</item>
+        <item quantity="one">Možete koristiti %s jednom.</item>
+    </plurals>
+    <plurals name="n_albums_deleted_msg">
+        <item quantity="other">Izbrisati više albuma (njih %d) i sve pjesme u njima s telefona?</item>
+        <item quantity="one">Izbrisati 1 album i sve pjesme u njemu s telefona?</item>
+    </plurals>
+    <plurals name="n_artists_deleted_msg">
+        <item quantity="other">Izbrisati sve pjesme ovih izvođača?</item>
+        <item quantity="one">Izbrisati sve pjesme ovog izvođača?</item>
+    </plurals>
+    <plurals name="n_composers_deleted_msg">
+        <item quantity="other">Izbrisati sve pjesme ovih skladatelja?</item>
+        <item quantity="one">Izbrisati sve pjesme ovog skladatelja?</item>
+    </plurals>
+    <plurals name="n_folders_deleted_msg">
+        <item quantity="other">Izbrisati više mapa (njih %d) i sve pjesme u njima s telefona?</item>
+        <item quantity="one">Izbrisati 1 mapu i sve pjesme u njoj s telefona?</item>
+    </plurals>
+    <plurals name="n_genres_deleted_msg">
+        <item quantity="other">Izbrisati sve pjesme ovih žanrova?</item>
+        <item quantity="one">Izbrisati sve pjesme ovog žanra?</item>
+    </plurals>
+    <plurals name="n_items_deleted_msg">
+        <item quantity="other">Delete %d items?</item>
+        <item quantity="one">Delete %d items?</item>
+    </plurals>
+    <plurals name="n_playlists_deleted_msg">
+        <item quantity="other">Izbrisati %d popisa pjesama?</item>
+        <item quantity="one">Izbrisati 1 popis pjesama?</item>
+    </plurals>
+    <plurals name="n_tracks_added_to_queue">
+        <item quantity="other">Nekoliko pjesama (%d) dodano u red čekanja.</item>
+        <item quantity="one">%d pjesma dodana u red čekanja.</item>
+    </plurals>
+    <plurals name="n_tracks_deleted_msg">
+        <item quantity="other">Izbrisati %d pjesama?</item>
+        <item quantity="one">Izbrisati 1 pjesmu?</item>
+    </plurals>
+</resources>

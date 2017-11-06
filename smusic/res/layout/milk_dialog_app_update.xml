@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:paddingLeft="@dimen/milk_app_update_padding_left" android:paddingTop="2.0dip" android:paddingRight="@dimen/milk_app_update_padding_left" android:paddingBottom="@dimen/milk_app_update_padding_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/mr_app_update_galaxy_apps_frame" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginRight="@dimen/milk_ok_dialog_content_margin_16dp_bottom" android:layout_weight="1.0">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/mr_app_update_galaxy_apps_icon" android:layout_width="@dimen/milk_market_icon_size" android:layout_height="@dimen/milk_market_icon_size" android:layout_margin="@dimen/milk_app_update_icon_bottom_margin" android:scaleType="fitXY" />
+        <TextView android:textSize="@dimen/milk_market_name_text_size" android:textColor="@color/milk_app_update_text_color" android:gravity="center_horizontal" android:id="@id/mr_app_update_galaxy_apps_name" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/mr_app_update_play_store_frame" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/mr_app_update_play_store_icon" android:layout_width="@dimen/milk_market_icon_size" android:layout_height="@dimen/milk_market_icon_size" android:layout_margin="@dimen/milk_app_update_icon_bottom_margin" android:scaleType="fitXY" />
+        <TextView android:textSize="@dimen/milk_market_name_text_size" android:textColor="@color/milk_app_update_text_color" android:gravity="center_horizontal" android:id="@id/mr_app_update_play_store_name" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NNNalbum">
+        <item quantity="other">ཆེད་སྒྲིག་གྲངས་%d</item>
+        <item quantity="one">ཆེད་སྒྲིག་བརྙན་འཁོར་%d།</item>
+    </plurals>
+    <plurals name="NNNartist_album">
+        <item quantity="other">ཆེད་སྒྲིག་</item>
+        <item quantity="one">ཆེད་སྒྲིག</item>
+    </plurals>
+    <plurals name="NNNartist_track">
+        <item quantity="other">གླུ་གཞས།</item>
+        <item quantity="one">གླུ་གཞས།</item>
+    </plurals>
+    <plurals name="NNNsometrackstofavorite">
+        <item quantity="other">གླུ་གཞས་%d བསྡུ་ཉར་སྣོད་ནང་འཇུག་ཟིན། བསྡུ་ཉར་སྣོད་ནང་སྔོན་ནས་བསྡུ་ཉར་བྱས་པའི་གླུ་གཞས་འཇུག་མི་ཐུབ།</item>
+        <item quantity="one">གླུ་གཞས་%dངའི་བསྡུ་གསོག་ནང་བསྣན་ཟིན།ངའི་བསྡུ་གསོག་ཁྲོད་སྔར་ཡོད་གཞས་དག་སྣོན་མི་སྲིད།</item>
+    </plurals>
+    <plurals name="NNNtrack">
+        <item quantity="other">གླུ་གཞས་གྲངས་%d</item>
+        <item quantity="one">གླུ་གཞས་གྲངས་%d</item>
+    </plurals>
+    <plurals name="NNNtracksfromfavorite">
+        <item quantity="other">གླུ་གཞས་གྲངས་%d བསྡུ་ལེན་ཤོག་བྱང་ལས་སུབ།</item>
+        <item quantity="one">གླུ་གཞས་%dངའི་བསྡུ་གསོག་ཁྲོད་ནས་སྤོས་ཚར།</item>
+    </plurals>
+    <plurals name="NNNtrackstofavorite">
+        <item quantity="other">གླུ་གཞས་%dབསྡུ་གསོག་སྣོད་ནང་སྣོན་འཇུག་བྱས་ཟིན།</item>
+        <item quantity="one">གླུ་གཞས་%dངའི་བསྡུ་གསོག་ནང་བསྣན་ཟིན།</item>
+    </plurals>
+    <plurals name="NNNtrackstoplaylist">
+        <item quantity="other">གླུ་གཞས་%d སྒྲ་གཏོང་གསལ་ཐོའི་ནང་དུ་སྣོན་འཇུག་བྱས་ཟིན།</item>
+        <item quantity="one">གླུ་གཞས་%dསྒྲ་གཏོང་བསྟར་པའི་ཁྲོད་བསྣན་ཟིན།</item>
+    </plurals>
+    <plurals name="drm_can_use_n_times">
+        <item quantity="other">ཁྱེད་ནས་བེད་སྤྱོད་ཐེངས་%1$s %2$dབྱས་ཆོག</item>
+        <item quantity="one">ཁྱེད་ནས་བེད་སྤྱོད་ཐེངས་%s 1 བྱས་ཆོག</item>
+    </plurals>
+    <plurals name="n_albums_deleted_msg">
+        <item quantity="other">是否从您的手机中删除 %d 张专辑和其中的所有歌曲？</item>
+        <item quantity="one">是否从您的手机中删除 1 张专辑和其中的所有歌曲？</item>
+    </plurals>
+    <plurals name="n_artists_deleted_msg">
+        <item quantity="other">གཞས་པ་འདི་དག་གི་གཞས་ཆ་ཚང་བསུབ་འདོར་བྱེད་དམ།</item>
+        <item quantity="one">གཞས་པ་འདི་ཡི་གཞས་ཆ་ཚང་བསུབ་འདོར་བྱེད་དམ།</item>
+    </plurals>
+    <plurals name="n_composers_deleted_msg">
+        <item quantity="other">གླུ་གཞས་རྩོམ་མཁན་འདིའི་གླུ་གཞས་ཚང་མ་སུབ་བམ།</item>
+        <item quantity="one">རྩོམ་སྒྲིག་པ་འདི་ཡི་གཞས་ཆ་ཚང་བསུབ་འདོར་བྱེད་དམ།</item>
+    </plurals>
+    <plurals name="n_folders_deleted_msg">
+        <item quantity="other">ཁྱེད་ཀྱི་ལག་ཐོག་ཁ་པར་ནང་ནས་ཡིག་སྣོད་%dདང་དེའི་ནང་གི་གླུ་གཞས་ཚང་མ་སུབ་བམ།</item>
+        <item quantity="one">ཁྱེད་ཀྱི་ལག་ཐོག་ཁ་པར་ནང་ནས་ཡིག་སྣོད་1དང་དེའི་ནང་གི་གླུ་གཞས་ཚང་མ་སུབ་བམ།</item>
+    </plurals>
+    <plurals name="n_genres_deleted_msg">
+        <item quantity="other">རྩེད་མོ་འདི་དག་གི་རྩེད་མོ་ཆ་ཚང་བསུབ་འདོར་བྱེད་དམ།</item>
+        <item quantity="one">རིགས་འདིའི་ནང་གི་གཞས་ཆ་ཚང་བསུབ་འདོར་བྱེད་དམ།</item>
+    </plurals>
+    <plurals name="n_items_deleted_msg">
+        <item quantity="other">Delete %d items?</item>
+        <item quantity="one">Delete %d items?</item>
+    </plurals>
+    <plurals name="n_playlists_deleted_msg">
+        <item quantity="other">གཞས་ཐོ་ %d བསུབ་འདོར་བྱེད་དམ།</item>
+        <item quantity="one">གཏོང་ཐོ་ 1 བསུབ་འདོར་བྱེད་དམ།</item>
+    </plurals>
+    <plurals name="n_tracks_added_to_queue">
+        <item quantity="other">གླུ་གཞས་%d སྟར་པའི་ནང་སྣོན་པ།</item>
+        <item quantity="one">གླུ་གཞས་%dབསྟར་པའི་ཁྲོད་བསྣན་ཟིན།</item>
+    </plurals>
+    <plurals name="n_tracks_deleted_msg">
+        <item quantity="other">གཞས་ %d དག་བསུབ་འདོར་བྱེད་དམ།</item>
+        <item quantity="one">གཞས་ 1 བསུབ་འདོར་བྱེད་དམ།</item>
+    </plurals>
+</resources>

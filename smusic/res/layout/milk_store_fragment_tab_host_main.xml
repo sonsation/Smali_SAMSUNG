@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/tabs" android:layout_width="fill_parent" android:layout_height="@dimen/milk_store_artist_detail_tab_height" layout="@layout/milk_store_fragment_tab_host" />
+    <View android:id="@id/tab_under_line" android:background="@color/milk_tab_divider_color" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_alignBottom="@id/tabs" />
+    <android.support.v4.view.ViewPager android:id="@id/view_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/tab_under_line" />
+</RelativeLayout>

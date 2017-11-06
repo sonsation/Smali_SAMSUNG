@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NNNalbum">
+        <item quantity="other">%d albam</item>
+        <item quantity="one">%d albam</item>
+    </plurals>
+    <plurals name="NNNartist_album">
+        <item quantity="other">Albaim</item>
+        <item quantity="one">Albam</item>
+    </plurals>
+    <plurals name="NNNartist_track">
+        <item quantity="other">Rianta</item>
+        <item quantity="one">Rian</item>
+    </plurals>
+    <plurals name="NNNsometrackstofavorite">
+        <item quantity="other">Cuireadh %d rian le Ceanáin. Níor cuireadh rianta atá sna Ceanáin cheana leo.</item>
+        <item quantity="one">%d rian curtha le Ceanáin. Níor cuireadh leo an rian atá i gCeanáin cheana.</item>
+    </plurals>
+    <plurals name="NNNtrack">
+        <item quantity="other">%d rian</item>
+        <item quantity="one">%d rian</item>
+    </plurals>
+    <plurals name="NNNtracksfromfavorite">
+        <item quantity="other">Baineadh %d rian ó Cheanáin.</item>
+        <item quantity="one">%d rian bainte ó Cheanáin.</item>
+    </plurals>
+    <plurals name="NNNtrackstofavorite">
+        <item quantity="other">%d rian curtha le ceanáin.</item>
+        <item quantity="one">%d rian curtha le Ceanáin.</item>
+    </plurals>
+    <plurals name="NNNtrackstoplaylist">
+        <item quantity="other">%d rian curtha leis an seinnliosta.</item>
+        <item quantity="one">%d rian curtha le seinnliosta.</item>
+    </plurals>
+    <plurals name="drm_can_use_n_times">
+        <item quantity="other">Is féidir leat %1$s a úsáid %2$d uair</item>
+        <item quantity="one">Is féidir leat %s a úsáid uair amháin</item>
+    </plurals>
+    <plurals name="n_albums_deleted_msg">
+        <item quantity="other">"Scrios %d albam agus na rianta uile iontu ó d'fhón?"</item>
+        <item quantity="one">"Scrios 1 albam agus na rianta uile ann ó d'fhón?"</item>
+    </plurals>
+    <plurals name="n_artists_deleted_msg">
+        <item quantity="other">Scrios gach rian leis na ceoltóirí seo?</item>
+        <item quantity="one">Scrios gach rian leis an gceoltóir seo?</item>
+    </plurals>
+    <plurals name="n_composers_deleted_msg">
+        <item quantity="other">Scrios gach rian leis na cumadóirí seo?</item>
+        <item quantity="one">Scrios gach rian leis an gcumadóir seo?</item>
+    </plurals>
+    <plurals name="n_folders_deleted_msg">
+        <item quantity="other">"Scrios %d fillteán agus na rianta uile iontu ó d'fhón?"</item>
+        <item quantity="one">"Scrios 1 fhillteán agus na rianta uile ann ó d'fhón?"</item>
+    </plurals>
+    <plurals name="n_genres_deleted_msg">
+        <item quantity="other">Scrios gach rian atá sna seánraí seo?</item>
+        <item quantity="one">Scrios gach rian sa seánra seo?</item>
+    </plurals>
+    <plurals name="n_items_deleted_msg">
+        <item quantity="other">Delete %d items?</item>
+        <item quantity="one">Delete %d items?</item>
+    </plurals>
+    <plurals name="n_playlists_deleted_msg">
+        <item quantity="other">Scrios %d seinnliosta?</item>
+        <item quantity="one">Scrios 1 seinnliosta?</item>
+    </plurals>
+    <plurals name="n_tracks_added_to_queue">
+        <item quantity="other">%d rian curtha leis an scuaine.</item>
+        <item quantity="one">%d rian curtha leis an scuaine.</item>
+    </plurals>
+    <plurals name="n_tracks_deleted_msg">
+        <item quantity="other">Scrios %d rian?</item>
+        <item quantity="one">Scrios 1 rian?</item>
+    </plurals>
+</resources>

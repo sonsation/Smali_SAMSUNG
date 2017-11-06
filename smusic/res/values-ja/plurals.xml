@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NNNalbum">
+        <item quantity="other">%d枚のアルバム</item>
+        <item quantity="one">%d枚のアルバム</item>
+    </plurals>
+    <plurals name="NNNartist_album">
+        <item quantity="other">アルバム</item>
+        <item quantity="one">アルバム</item>
+    </plurals>
+    <plurals name="NNNartist_track">
+        <item quantity="other">曲</item>
+        <item quantity="one">トラック</item>
+    </plurals>
+    <plurals name="NNNsometrackstofavorite">
+        <item quantity="other">お気に入りに%d曲を追加しました。既にお気に入りに登録済みの曲は追加されませんでした。</item>
+        <item quantity="one">お気に入りに%d曲を追加しました。既にお気に入りに登録済みの曲は追加されませんでした。</item>
+    </plurals>
+    <plurals name="NNNtrack">
+        <item quantity="other">%d曲</item>
+        <item quantity="one">%d曲</item>
+    </plurals>
+    <plurals name="NNNtracksfromfavorite">
+        <item quantity="other">お気に入りから%d曲を削除しました。</item>
+        <item quantity="one">お気に入りから%d曲を削除しました。</item>
+    </plurals>
+    <plurals name="NNNtrackstofavorite">
+        <item quantity="other">お気に入りに%d曲を追加しました。</item>
+        <item quantity="one">お気に入りに%d曲追加しました。</item>
+    </plurals>
+    <plurals name="NNNtrackstoplaylist">
+        <item quantity="other">プレイリストに%d曲追加しました。</item>
+        <item quantity="one">プレイリストに%d曲追加しました。</item>
+    </plurals>
+    <plurals name="drm_can_use_n_times">
+        <item quantity="other">%1$sを%2$d回使用できます。</item>
+        <item quantity="one">%sは1回使用できます。</item>
+    </plurals>
+    <plurals name="n_albums_deleted_msg">
+        <item quantity="other">%d件のアルバムと、その中の全ての曲を端末から削除しますか？</item>
+        <item quantity="one">1件のアルバムと、その中の全ての曲を端末から削除しますか？</item>
+    </plurals>
+    <plurals name="n_artists_deleted_msg">
+        <item quantity="other">選択したアーティストの曲を全て削除しますか？</item>
+        <item quantity="one">このアーティストの全ての曲を削除しますか？</item>
+    </plurals>
+    <plurals name="n_composers_deleted_msg">
+        <item quantity="other">選択した作曲者の曲を全て削除しますか？</item>
+        <item quantity="one">この作曲者の曲を全て削除しますか？</item>
+    </plurals>
+    <plurals name="n_folders_deleted_msg">
+        <item quantity="other">%d件のフォルダと、その中の全ての曲を端末から削除しますか？</item>
+        <item quantity="one">1件のフォルダと、その中の全ての曲を端末から削除しますか？</item>
+    </plurals>
+    <plurals name="n_genres_deleted_msg">
+        <item quantity="other">選択したジャンルの曲を全て削除しますか？</item>
+        <item quantity="one">このジャンルの曲を全て削除しますか？</item>
+    </plurals>
+    <plurals name="n_items_deleted_msg">
+        <item quantity="other">Delete %d items?</item>
+        <item quantity="one">Delete %d items?</item>
+    </plurals>
+    <plurals name="n_playlists_deleted_msg">
+        <item quantity="other">%d件のプレイリストを削除しますか？</item>
+        <item quantity="one">1件のプレイリストを削除しますか？</item>
+    </plurals>
+    <plurals name="n_tracks_added_to_queue">
+        <item quantity="other">再生中リストに%d曲追加しました。</item>
+        <item quantity="one">再生中リストに%d曲追加しました。</item>
+    </plurals>
+    <plurals name="n_tracks_deleted_msg">
+        <item quantity="other">%d曲削除しますか？</item>
+        <item quantity="one">1曲削除しますか？</item>
+    </plurals>
+</resources>

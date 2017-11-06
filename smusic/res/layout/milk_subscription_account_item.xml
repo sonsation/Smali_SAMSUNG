@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/account_info_layout" android:background="@drawable/ripple_list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/milk_subscription_item_padding" android:layout_marginTop="@dimen/milk_subscription_item_padding_top" android:layout_marginRight="@dimen/milk_subscription_item_padding" android:layout_marginBottom="@dimen/milk_subscription_item_padding_bottom" android:foreground="@drawable/milk_subscription_account_bg" android:minHeight="@dimen/milk_subscription_item_min_height">
+        <ImageView android:gravity="center_vertical" android:id="@id/list_img" android:layout_width="@dimen/milk_subscription_user_icon_size" android:layout_height="@dimen/milk_subscription_user_icon_size" android:layout_marginLeft="@dimen/milk_subscription_user_icon_padding_left" android:layout_marginRight="@dimen/milk_subscription_user_icon_padding_right" android:src="@drawable/store_premium_list_ic_user" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/text_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layoutDirection="locale" android:layout_toEndOf="@id/list_img">
+            <com.samsung.android.app.musiclibrary.ui.widget.MatchedTextView android:textSize="@dimen/list_item_text1_winset" android:textColor="@color/blur_text" android:id="@id/text1" style="@style/Text.SecLight.ListItem" />
+            <com.samsung.android.app.musiclibrary.ui.widget.MatchedTextView android:textSize="@dimen/milk_subscription_item_text2_size" android:textColor="@color/blur_text" android:id="@id/text2" android:visibility="invisible" android:layout_marginTop="@dimen/milk_subscription_text_divider_padding" style="@style/Text.SecLight.ListItem" />
+        </LinearLayout>
+    </RelativeLayout>
+    <View android:layout_width="wrap_content" android:layout_height="0.0dip" />
+</FrameLayout>
