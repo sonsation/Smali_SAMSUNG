@@ -4489,12 +4489,6 @@
     :cond_14
     const-string/jumbo v19, "samsung_experience_version"
 
-    move-object/from16 v0, p0
-
-    move-object/from16 v1, v19
-
-    invoke-virtual {v0, v1}, Lcom/samsung/android/settings/deviceinfo/SoftwareInfoSettings;->removePreference(Ljava/lang/String;)V
-
     goto/16 :goto_d
 .end method
 
