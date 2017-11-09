@@ -35,7 +35,7 @@
     .locals 3
 
     .prologue
-    .line 302
+    .line 303
     const/4 v0, 0x5
 
     new-array v0, v0, [Ljava/lang/String;
@@ -70,10 +70,10 @@
 
     aput-object v1, v0, v2
 
-    .line 301
+    .line 302
     sput-object v0, Landroid/net/wifi/WifiConfiguration$GroupCipher;->strings:[Ljava/lang/String;
 
-    .line 283
+    .line 284
     return-void
 .end method
 
@@ -81,7 +81,7 @@
     .locals 0
 
     .prologue
-    .line 284
+    .line 285
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void

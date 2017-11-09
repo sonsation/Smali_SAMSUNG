@@ -148,10 +148,10 @@
     .param p1, "failureCount"    # I
 
     .prologue
-    .line 129
+    .line 131
     iput p1, p0, Landroid/service/gatekeeper/GateKeeperResponse;->mFailureCount:I
 
-    .line 127
+    .line 129
     return-void
 .end method
 
@@ -160,10 +160,10 @@
     .param p1, "payload"    # [B
 
     .prologue
-    .line 124
+    .line 126
     iput-object p1, p0, Landroid/service/gatekeeper/GateKeeperResponse;->mPayload:[B
 
-    .line 123
+    .line 125
     return-void
 .end method
 
@@ -172,10 +172,10 @@
     .param p1, "shouldReEnroll"    # Z
 
     .prologue
-    .line 120
+    .line 122
     iput-boolean p1, p0, Landroid/service/gatekeeper/GateKeeperResponse;->mShouldReEnroll:Z
 
-    .line 119
+    .line 121
     return-void
 .end method
 
@@ -184,10 +184,10 @@
     .param p1, "timeout"    # I
 
     .prologue
-    .line 116
+    .line 118
     iput p1, p0, Landroid/service/gatekeeper/GateKeeperResponse;->mTimeout:I
 
-    .line 115
+    .line 117
     return-void
 .end method
 
@@ -207,7 +207,7 @@
     .locals 1
 
     .prologue
-    .line 112
+    .line 114
     iget v0, p0, Landroid/service/gatekeeper/GateKeeperResponse;->mFailureCount:I
 
     return v0
@@ -217,7 +217,7 @@
     .locals 1
 
     .prologue
-    .line 96
+    .line 98
     iget-object v0, p0, Landroid/service/gatekeeper/GateKeeperResponse;->mPayload:[B
 
     return-object v0
@@ -227,7 +227,7 @@
     .locals 1
 
     .prologue
-    .line 108
+    .line 110
     iget v0, p0, Landroid/service/gatekeeper/GateKeeperResponse;->mResponseCode:I
 
     return v0
@@ -237,7 +237,7 @@
     .locals 1
 
     .prologue
-    .line 104
+    .line 106
     iget-boolean v0, p0, Landroid/service/gatekeeper/GateKeeperResponse;->mShouldReEnroll:Z
 
     return v0
@@ -247,7 +247,7 @@
     .locals 1
 
     .prologue
-    .line 100
+    .line 102
     iget v0, p0, Landroid/service/gatekeeper/GateKeeperResponse;->mTimeout:I
 
     return v0
@@ -278,7 +278,7 @@
 
     invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeInt(I)V
 
-    .line 92
+    .line 94
     :cond_0
     :goto_0
     iget v0, p0, Landroid/service/gatekeeper/GateKeeperResponse;->mFailureCount:I
@@ -305,7 +305,7 @@
     .line 87
     iget-object v0, p0, Landroid/service/gatekeeper/GateKeeperResponse;->mPayload:[B
 
-    if-eqz v0, :cond_0
+    if-eqz v0, :cond_3
 
     .line 88
     iget-object v0, p0, Landroid/service/gatekeeper/GateKeeperResponse;->mPayload:[B
@@ -326,4 +326,10 @@
 
     .line 86
     goto :goto_1
+
+    .line 91
+    :cond_3
+    invoke-virtual {p1, v1}, Landroid/os/Parcel;->writeInt(I)V
+
+    goto :goto_0
 .end method

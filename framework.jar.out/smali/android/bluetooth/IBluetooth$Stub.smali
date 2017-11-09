@@ -186,6 +186,8 @@
 
 .field static final TRANSACTION_setBTAdaptivityTest:I = 0x2e
 
+.field static final TRANSACTION_setBootState:I = 0x67
+
 .field static final TRANSACTION_setDiscoverableTimeout:I = 0xd
 
 .field static final TRANSACTION_setEdrRxFrequency:I = 0x31
@@ -319,7 +321,7 @@
     .line 43
     sparse-switch p1, :sswitch_data_0
 
-    .line 1322
+    .line 1331
     invoke-super/range {p0 .. p4}, Landroid/os/Binder;->onTransact(ILandroid/os/Parcel;Landroid/os/Parcel;I)Z
 
     move-result v4
@@ -5972,9 +5974,50 @@
 
     goto :goto_72
 
-    .line 43
-    nop
+    .line 1323
+    .end local v27    # "_arg0":Ljava/lang/String;
+    .end local v42    # "_result":Z
+    :sswitch_67
+    const-string/jumbo v4, "android.bluetooth.IBluetooth"
 
+    move-object/from16 v0, p2
+
+    invoke-virtual {v0, v4}, Landroid/os/Parcel;->enforceInterface(Ljava/lang/String;)V
+
+    .line 1325
+    invoke-virtual/range {p2 .. p2}, Landroid/os/Parcel;->readInt()I
+
+    move-result v4
+
+    if-eqz v4, :cond_73
+
+    const/16 v28, 0x1
+
+    .line 1326
+    .restart local v28    # "_arg0":Z
+    :goto_73
+    move-object/from16 v0, p0
+
+    move/from16 v1, v28
+
+    invoke-virtual {v0, v1}, Landroid/bluetooth/IBluetooth$Stub;->setBootState(Z)V
+
+    .line 1327
+    invoke-virtual/range {p3 .. p3}, Landroid/os/Parcel;->writeNoException()V
+
+    .line 1328
+    const/4 v4, 0x1
+
+    return v4
+
+    .line 1325
+    .end local v28    # "_arg0":Z
+    :cond_73
+    const/16 v28, 0x0
+
+    goto :goto_73
+
+    .line 43
     :sswitch_data_0
     .sparse-switch
         0x1 -> :sswitch_1
@@ -6079,6 +6122,7 @@
         0x64 -> :sswitch_64
         0x65 -> :sswitch_65
         0x66 -> :sswitch_66
+        0x67 -> :sswitch_67
         0x5f4e5446 -> :sswitch_0
     .end sparse-switch
 .end method
