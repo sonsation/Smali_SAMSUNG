@@ -303,7 +303,7 @@
     .line 288
     iget-object v0, p0, Lcom/android/systemui/qs/tiles/RedPacketTile;->mContext:Landroid/content/Context;
 
-    const v1, 0x7f0f0687
+    const v1, 0x7f0f0688
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -519,7 +519,7 @@
 
     .line 256
     .local v0, "contentText":Landroid/widget/TextView;
-    const v3, 0x7f0f0687
+    const v3, 0x7f0f0688
 
     invoke-virtual {v0, v3}, Landroid/widget/TextView;->setText(I)V
 
@@ -675,7 +675,7 @@
     .local v1, "nb":Landroid/app/Notification$Builder;
     iget-object v3, p0, Lcom/android/systemui/qs/tiles/RedPacketTile;->mContext:Landroid/content/Context;
 
-    const v4, 0x7f0f0688
+    const v4, 0x7f0f0689
 
     invoke-virtual {v3, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -686,7 +686,7 @@
     .line 138
     iget-object v3, p0, Lcom/android/systemui/qs/tiles/RedPacketTile;->mContext:Landroid/content/Context;
 
-    const v4, 0x7f0f0689
+    const v4, 0x7f0f068a
 
     invoke-virtual {v3, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -757,7 +757,7 @@
     .line 155
     iget-object v0, p0, Lcom/android/systemui/qs/tiles/RedPacketTile;->mContext:Landroid/content/Context;
 
-    const v1, 0x7f0f0686
+    const v1, 0x7f0f0687
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -928,7 +928,7 @@
     .line 237
     iget-object v0, p0, Lcom/android/systemui/qs/tiles/RedPacketTile;->mContext:Landroid/content/Context;
 
-    const v1, 0x7f0f0686
+    const v1, 0x7f0f0687
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

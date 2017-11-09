@@ -1350,7 +1350,7 @@
     invoke-virtual {v14, v15}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 1619
-    const v15, 0x7f0f054a
+    const v15, 0x7f0f054b
 
     invoke-virtual {v14, v15}, Landroid/widget/TextView;->setText(I)V
 
@@ -1382,7 +1382,7 @@
 
     .line 1627
     .local v6, "doneButton":Landroid/widget/TextView;
-    const v15, 0x7f0f054b
+    const v15, 0x7f0f054c
 
     invoke-virtual {v6, v15}, Landroid/widget/TextView;->setText(I)V
 
@@ -1433,20 +1433,20 @@
     .prologue
     const/16 v5, 0x8
 
-    .line 4233
+    .line 4252
     iget-object v4, p0, Lcom/android/systemui/statusbar/BaseStatusBar;->mNotificationData:Lcom/android/systemui/statusbar/NotificationData;
 
     invoke-virtual {v4}, Lcom/android/systemui/statusbar/NotificationData;->getActiveNotifications()Ljava/util/ArrayList;
 
     move-result-object v0
 
-    .line 4234
+    .line 4253
     .local v0, "activeNotifications":Ljava/util/ArrayList;, "Ljava/util/ArrayList<Lcom/android/systemui/statusbar/NotificationData$Entry;>;"
     invoke-virtual {v0}, Ljava/util/ArrayList;->size()I
 
     move-result v3
 
-    .line 4235
+    .line 4254
     .local v3, "notificationCount":I
     const/4 v2, 0x0
 
@@ -1454,14 +1454,14 @@
     :goto_0
     if-ge v2, v3, :cond_2
 
-    .line 4236
+    .line 4255
     invoke-virtual {v0, v2}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
     move-result-object v1
 
     check-cast v1, Lcom/android/systemui/statusbar/NotificationData$Entry;
 
-    .line 4237
+    .line 4256
     .local v1, "entry":Lcom/android/systemui/statusbar/NotificationData$Entry;
     iget-object v4, v1, Lcom/android/systemui/statusbar/NotificationData$Entry;->row:Lcom/android/systemui/statusbar/ExpandableNotificationRow;
 
@@ -1475,14 +1475,14 @@
 
     if-eqz v4, :cond_1
 
-    .line 4235
+    .line 4254
     :cond_0
     :goto_1
     add-int/lit8 v2, v2, 0x1
 
     goto :goto_0
 
-    .line 4238
+    .line 4257
     :cond_1
     invoke-virtual {v1}, Lcom/android/systemui/statusbar/NotificationData$Entry;->getNotificationPreview()Lcom/android/systemui/statusbar/preview/NotificationPreview;
 
@@ -1494,7 +1494,7 @@
 
     if-nez v4, :cond_0
 
-    .line 4239
+    .line 4258
     invoke-virtual {v1}, Lcom/android/systemui/statusbar/NotificationData$Entry;->getNotificationPreview()Lcom/android/systemui/statusbar/preview/NotificationPreview;
 
     move-result-object v4
@@ -1505,21 +1505,21 @@
 
     if-nez v4, :cond_0
 
-    .line 4240
+    .line 4259
     iget-object v4, v1, Lcom/android/systemui/statusbar/NotificationData$Entry;->row:Lcom/android/systemui/statusbar/ExpandableNotificationRow;
 
     invoke-virtual {v4, v5}, Lcom/android/systemui/statusbar/ExpandableNotificationRow;->setVisibility(I)V
 
     goto :goto_1
 
-    .line 4245
+    .line 4264
     .end local v1    # "entry":Lcom/android/systemui/statusbar/NotificationData$Entry;
     :cond_2
     iget-object v4, p0, Lcom/android/systemui/statusbar/BaseStatusBar;->mKeyguardIconOverflowContainer:Lcom/android/systemui/statusbar/NotificationOverflowContainer;
 
     if-eqz v4, :cond_3
 
-    .line 4246
+    .line 4265
     iget-object v4, p0, Lcom/android/systemui/statusbar/BaseStatusBar;->mKeyguardIconOverflowContainer:Lcom/android/systemui/statusbar/NotificationOverflowContainer;
 
     invoke-virtual {v4}, Lcom/android/systemui/statusbar/NotificationOverflowContainer;->getVisibility()I
@@ -1528,12 +1528,12 @@
 
     if-nez v4, :cond_3
 
-    .line 4247
+    .line 4266
     iget-object v4, p0, Lcom/android/systemui/statusbar/BaseStatusBar;->mKeyguardIconOverflowContainer:Lcom/android/systemui/statusbar/NotificationOverflowContainer;
 
     invoke-virtual {v4, v5}, Lcom/android/systemui/statusbar/NotificationOverflowContainer;->setVisibility(I)V
 
-    .line 4232
+    .line 4251
     :cond_3
     return-void
 .end method
@@ -2821,7 +2821,7 @@
     .param p2, "knoxViewLocal"    # Landroid/view/View;
 
     .prologue
-    const v7, 0x7f0f04b7
+    const v7, 0x7f0f04b8
 
     const/4 v5, 0x1
 
@@ -3018,7 +3018,7 @@
     .param p1, "sbn"    # Landroid/service/notification/StatusBarNotification;
 
     .prologue
-    .line 4080
+    .line 4099
     return-void
 .end method
 
@@ -5810,14 +5810,14 @@
     .locals 2
 
     .prologue
-    .line 4125
+    .line 4144
     const-string/jumbo v0, "StatusBar"
 
     const-string/jumbo v1, "isAppCoverShowing"
 
     invoke-static {v0, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 4126
+    .line 4145
     const/4 v0, 0x0
 
     return v0
@@ -5830,6 +5830,70 @@
     .line 3945
     iget-boolean v0, p0, Lcom/android/systemui/statusbar/BaseStatusBar;->mBouncerShowing:Z
 
+    return v0
+.end method
+
+.method public isCameraAllowedByAdmin()Z
+    .locals 5
+
+    .prologue
+    const/4 v4, 0x0
+
+    const/4 v0, 0x1
+
+    const/4 v1, 0x0
+
+    .line 4015
+    iget-object v2, p0, Lcom/android/systemui/statusbar/BaseStatusBar;->mDevicePolicyManager:Landroid/app/admin/DevicePolicyManager;
+
+    iget v3, p0, Lcom/android/systemui/statusbar/BaseStatusBar;->mCurrentUserId:I
+
+    invoke-virtual {v2, v4, v3}, Landroid/app/admin/DevicePolicyManager;->getCameraDisabled(Landroid/content/ComponentName;I)Z
+
+    move-result v2
+
+    if-eqz v2, :cond_0
+
+    .line 4016
+    return v1
+
+    .line 4017
+    :cond_0
+    invoke-virtual {p0}, Lcom/android/systemui/statusbar/BaseStatusBar;->isKeyguardShowing()Z
+
+    move-result v2
+
+    if-eqz v2, :cond_2
+
+    invoke-virtual {p0}, Lcom/android/systemui/statusbar/BaseStatusBar;->isKeyguardSecure()Z
+
+    move-result v2
+
+    if-eqz v2, :cond_2
+
+    .line 4019
+    iget-object v2, p0, Lcom/android/systemui/statusbar/BaseStatusBar;->mDevicePolicyManager:Landroid/app/admin/DevicePolicyManager;
+
+    iget v3, p0, Lcom/android/systemui/statusbar/BaseStatusBar;->mCurrentUserId:I
+
+    invoke-virtual {v2, v4, v3}, Landroid/app/admin/DevicePolicyManager;->getKeyguardDisabledFeatures(Landroid/content/ComponentName;I)I
+
+    move-result v2
+
+    and-int/lit8 v2, v2, 0x2
+
+    if-nez v2, :cond_1
+
+    :goto_0
+    return v0
+
+    :cond_1
+    move v0, v1
+
+    goto :goto_0
+
+    .line 4022
+    :cond_2
     return v0
 .end method
 
@@ -5847,14 +5911,14 @@
     .locals 2
 
     .prologue
-    .line 4116
+    .line 4135
     const-string/jumbo v0, "StatusBar"
 
     const-string/jumbo v1, "isCoverViewShowing"
 
     invoke-static {v0, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 4117
+    .line 4136
     const/4 v0, 0x0
 
     return v0
@@ -5864,7 +5928,7 @@
     .locals 1
 
     .prologue
-    .line 4180
+    .line 4199
     iget v0, p0, Lcom/android/systemui/statusbar/BaseStatusBar;->mState:I
 
     invoke-static {v0}, Lcom/android/systemui/statusbar/StatusBarState;->isCoveredState(I)Z
@@ -5990,11 +6054,43 @@
     return v0
 .end method
 
+.method public isKeyguardShowing()Z
+    .locals 2
+
+    .prologue
+    .line 4026
+    iget-object v0, p0, Lcom/android/systemui/statusbar/BaseStatusBar;->mStatusBarKeyguardViewManager:Lcom/android/systemui/statusbar/phone/StatusBarKeyguardViewManager;
+
+    if-nez v0, :cond_0
+
+    .line 4027
+    const-string/jumbo v0, "StatusBar"
+
+    const-string/jumbo v1, "isKeyguardShowing() called before startKeyguard(), returning true"
+
+    invoke-static {v0, v1}, Landroid/util/Slog;->i(Ljava/lang/String;Ljava/lang/String;)I
+
+    .line 4028
+    const/4 v0, 0x1
+
+    return v0
+
+    .line 4030
+    :cond_0
+    iget-object v0, p0, Lcom/android/systemui/statusbar/BaseStatusBar;->mStatusBarKeyguardViewManager:Lcom/android/systemui/statusbar/phone/StatusBarKeyguardViewManager;
+
+    invoke-virtual {v0}, Lcom/android/systemui/statusbar/phone/StatusBarKeyguardViewManager;->isShowing()Z
+
+    move-result v0
+
+    return v0
+.end method
+
 .method public isKeyguardState()Z
     .locals 1
 
     .prologue
-    .line 4164
+    .line 4183
     iget v0, p0, Lcom/android/systemui/statusbar/BaseStatusBar;->mState:I
 
     invoke-static {v0}, Lcom/android/systemui/statusbar/StatusBarState;->isKeyguardState(I)Z
@@ -6144,12 +6240,12 @@
     .locals 1
 
     .prologue
-    .line 4261
+    .line 4280
     sget-boolean v0, Lcom/android/keyguard/KeyguardRune;->SUPPORT_SERVICEBOX:Z
 
     if-eqz v0, :cond_0
 
-    .line 4262
+    .line 4281
     iget-object v0, p0, Lcom/android/systemui/statusbar/BaseStatusBar;->mContext:Landroid/content/Context;
 
     invoke-static {v0}, Lcom/android/keyguard/util/SettingsHelper;->getInstance(Landroid/content/Context;)Lcom/android/keyguard/util/SettingsHelper;
@@ -6160,15 +6256,15 @@
 
     move-result v0
 
-    .line 4261
+    .line 4280
     if-eqz v0, :cond_0
 
-    .line 4263
+    .line 4282
     const/4 v0, 0x1
 
     return v0
 
-    .line 4265
+    .line 4284
     :cond_0
     const/4 v0, 0x0
 
@@ -6254,7 +6350,7 @@
     .locals 1
 
     .prologue
-    .line 4172
+    .line 4191
     iget v0, p0, Lcom/android/systemui/statusbar/BaseStatusBar;->mState:I
 
     invoke-static {v0}, Lcom/android/systemui/statusbar/StatusBarState;->isShadeLockedState(I)Z
@@ -6276,16 +6372,16 @@
 
     move-object v5, p1
 
-    .line 4132
+    .line 4151
     check-cast v5, Lcom/android/systemui/statusbar/ExpandableNotificationRow;
 
-    .line 4133
+    .line 4152
     .local v5, "row":Lcom/android/systemui/statusbar/ExpandableNotificationRow;
     invoke-virtual {v5}, Lcom/android/systemui/statusbar/ExpandableNotificationRow;->getStatusBarNotification()Landroid/service/notification/StatusBarNotification;
 
     move-result-object v6
 
-    .line 4134
+    .line 4153
     .local v6, "sbn":Landroid/service/notification/StatusBarNotification;
     iget-object v7, p0, Lcom/android/systemui/statusbar/BaseStatusBar;->mContext:Landroid/content/Context;
 
@@ -6301,7 +6397,7 @@
 
     move-result-object v4
 
-    .line 4135
+    .line 4154
     .local v4, "pmUser":Landroid/content/pm/PackageManager;
     invoke-virtual {v6}, Landroid/service/notification/StatusBarNotification;->getPackageName()Ljava/lang/String;
 
@@ -6309,35 +6405,35 @@
 
     invoke-virtual {p1, v7}, Landroid/view/View;->setTag(Ljava/lang/Object;)V
 
-    .line 4136
+    .line 4155
     invoke-virtual {v6}, Landroid/service/notification/StatusBarNotification;->getPackageName()Ljava/lang/String;
 
     move-result-object v3
 
-    .line 4137
+    .line 4156
     .local v3, "pkg":Ljava/lang/String;
     const/4 v0, -0x1
 
-    .line 4140
+    .line 4159
     .local v0, "appUid":I
     const/16 v7, 0x2200
 
-    .line 4139
+    .line 4158
     :try_start_0
     invoke-virtual {v4, v3, v7}, Landroid/content/pm/PackageManager;->getApplicationInfo(Ljava/lang/String;I)Landroid/content/pm/ApplicationInfo;
 
     move-result-object v2
 
-    .line 4141
+    .line 4160
     .local v2, "info":Landroid/content/pm/ApplicationInfo;
     if-eqz v2, :cond_0
 
-    .line 4142
+    .line 4161
     iget v0, v2, Landroid/content/pm/ApplicationInfo;->uid:I
     :try_end_0
     .catch Landroid/content/pm/PackageManager$NameNotFoundException; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 4149
+    .line 4168
     .end local v2    # "info":Landroid/content/pm/ApplicationInfo;
     :cond_0
     :goto_0
@@ -6345,30 +6441,30 @@
 
     if-eqz v7, :cond_1
 
-    .line 4150
+    .line 4169
     iget-object v7, p0, Lcom/android/systemui/statusbar/BaseStatusBar;->mContext:Landroid/content/Context;
 
-    .line 4151
+    .line 4170
     const-string/jumbo v8, "com.android.systemui.statusbar.policy.notification"
 
-    .line 4152
+    .line 4171
     const-string/jumbo v9, "NO02"
 
-    .line 4150
+    .line 4169
     invoke-static {v7, v8, v9, v10, v10}, Lcom/android/keyguard/util/GsimLogManager;->sendLog(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Integer;)V
 
-    .line 4154
+    .line 4173
     :cond_1
     invoke-virtual {p0, v3, v0}, Lcom/android/systemui/statusbar/BaseStatusBar;->startAppNotificationSettingsActivity(Ljava/lang/String;I)V
 
-    .line 4131
+    .line 4150
     return-void
 
-    .line 4144
+    .line 4163
     :catch_0
     move-exception v1
 
-    .line 4146
+    .line 4165
     .local v1, "e":Landroid/content/pm/PackageManager$NameNotFoundException;
     const-string/jumbo v7, "StatusBar"
 
@@ -6597,7 +6693,7 @@
     .line 1292
     iget-object v7, p0, Lcom/android/systemui/statusbar/BaseStatusBar;->mContext:Landroid/content/Context;
 
-    const v8, 0x7f0f04d3
+    const v8, 0x7f0f04d4
 
     invoke-virtual {v7, v8}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -6611,7 +6707,7 @@
     .line 1293
     iget-object v7, p0, Lcom/android/systemui/statusbar/BaseStatusBar;->mContext:Landroid/content/Context;
 
-    const v8, 0x7f0f04d4
+    const v8, 0x7f0f04d5
 
     invoke-virtual {v7, v8}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -6651,7 +6747,7 @@
     .line 1299
     iget-object v7, p0, Lcom/android/systemui/statusbar/BaseStatusBar;->mContext:Landroid/content/Context;
 
-    const v8, 0x7f0f04d5
+    const v8, 0x7f0f04d6
 
     invoke-virtual {v7, v8}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -6668,7 +6764,7 @@
     .line 1302
     iget-object v7, p0, Lcom/android/systemui/statusbar/BaseStatusBar;->mContext:Landroid/content/Context;
 
-    const v8, 0x7f0f04d6
+    const v8, 0x7f0f04d7
 
     invoke-virtual {v7, v8}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -6826,14 +6922,14 @@
     .param p1, "covered"    # Z
 
     .prologue
-    .line 4107
+    .line 4126
     const-string/jumbo v0, "StatusBar"
 
     const-string/jumbo v1, "onCoverAppCovered"
 
     invoke-static {v0, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 4108
+    .line 4127
     const/4 v0, 0x0
 
     return v0
@@ -7011,7 +7107,7 @@
     .param p3, "y"    # I
 
     .prologue
-    .line 4045
+    .line 4064
     return-void
 .end method
 
@@ -7095,7 +7191,7 @@
     .param p5, "callingPkg"    # Ljava/lang/String;
 
     .prologue
-    .line 4020
+    .line 4039
     return-void
 .end method
 
@@ -7108,7 +7204,7 @@
     .param p5, "callingPkg"    # Ljava/lang/String;
 
     .prologue
-    .line 4032
+    .line 4051
     return-void
 .end method
 
@@ -7121,7 +7217,7 @@
     .param p5, "callingPkg"    # Ljava/lang/String;
 
     .prologue
-    .line 4024
+    .line 4043
     return-void
 .end method
 
@@ -7134,7 +7230,7 @@
     .param p5, "callingPkg"    # Ljava/lang/String;
 
     .prologue
-    .line 4028
+    .line 4047
     return-void
 .end method
 
@@ -7844,7 +7940,7 @@
     .param p1, "event"    # Landroid/view/KeyEvent;
 
     .prologue
-    .line 4036
+    .line 4055
     return-void
 .end method
 
@@ -7871,7 +7967,7 @@
     .param p1, "color"    # I
 
     .prologue
-    .line 4074
+    .line 4093
     return-void
 .end method
 
@@ -7881,7 +7977,7 @@
     .param p2, "hasNaviBar"    # Z
 
     .prologue
-    .line 4016
+    .line 4035
     return-void
 .end method
 
@@ -7914,7 +8010,7 @@
     .param p1, "color"    # I
 
     .prologue
-    .line 4057
+    .line 4076
     return-void
 .end method
 
@@ -7925,7 +8021,7 @@
     .param p3, "position"    # I
 
     .prologue
-    .line 4051
+    .line 4070
     return-void
 .end method
 
@@ -8057,7 +8153,7 @@
     .locals 2
 
     .prologue
-    .line 4254
+    .line 4273
     const-class v1, Lcom/android/systemui/keyguard/KeyguardViewMediator;
 
     invoke-virtual {p0, v1}, Lcom/android/systemui/statusbar/BaseStatusBar;->getComponent(Ljava/lang/Class;)Ljava/lang/Object;
@@ -8066,7 +8162,7 @@
 
     check-cast v0, Lcom/android/systemui/keyguard/KeyguardViewMediator;
 
-    .line 4255
+    .line 4274
     .local v0, "keyguardViewMediator":Lcom/android/systemui/keyguard/KeyguardViewMediator;
     if-eqz v0, :cond_0
 
@@ -8547,7 +8643,7 @@
     .locals 0
 
     .prologue
-    .line 4063
+    .line 4082
     return-void
 .end method
 
@@ -8672,7 +8768,7 @@
     .param p2, "isExternal"    # Z
 
     .prologue
-    .line 4086
+    .line 4105
     return-void
 .end method
 
@@ -10064,7 +10160,7 @@
     .locals 0
 
     .prologue
-    .line 4068
+    .line 4087
     return-void
 .end method
 
@@ -10122,14 +10218,14 @@
     .param p1, "state"    # Lcom/samsung/android/cover/CoverState;
 
     .prologue
-    .line 4097
+    .line 4116
     const-string/jumbo v0, "StatusBar"
 
     const-string/jumbo v1, "updateCoverState"
 
     invoke-static {v0, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 4095
+    .line 4114
     return-void
 .end method
 

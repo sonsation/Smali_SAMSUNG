@@ -24,7 +24,7 @@
     .param p1, "this$1"    # Lcom/android/systemui/statusbar/phone/NotificationPanelView$14;
 
     .prologue
-    .line 810
+    .line 811
     iput-object p1, p0, Lcom/android/systemui/statusbar/phone/NotificationPanelView$14$1;->this$1:Lcom/android/systemui/statusbar/phone/NotificationPanelView$14;
 
     invoke-direct {p0}, Landroid/animation/AnimatorListenerAdapter;-><init>()V
@@ -39,7 +39,7 @@
     .param p1, "animation"    # Landroid/animation/Animator;
 
     .prologue
-    .line 813
+    .line 814
     iget-object v0, p0, Lcom/android/systemui/statusbar/phone/NotificationPanelView$14$1;->this$1:Lcom/android/systemui/statusbar/phone/NotificationPanelView$14;
 
     iget-object v0, v0, Lcom/android/systemui/statusbar/phone/NotificationPanelView$14;->this$0:Lcom/android/systemui/statusbar/phone/NotificationPanelView;
@@ -48,7 +48,7 @@
 
     invoke-static {v0, v1}, Lcom/android/systemui/statusbar/phone/NotificationPanelView;->-set1(Lcom/android/systemui/statusbar/phone/NotificationPanelView;Landroid/animation/ObjectAnimator;)Landroid/animation/ObjectAnimator;
 
-    .line 814
+    .line 815
     iget-object v0, p0, Lcom/android/systemui/statusbar/phone/NotificationPanelView$14$1;->this$1:Lcom/android/systemui/statusbar/phone/NotificationPanelView$14;
 
     iget-object v0, v0, Lcom/android/systemui/statusbar/phone/NotificationPanelView$14;->this$0:Lcom/android/systemui/statusbar/phone/NotificationPanelView;
@@ -57,6 +57,6 @@
 
     invoke-static {v0, v1}, Lcom/android/systemui/statusbar/phone/NotificationPanelView;->-set0(Lcom/android/systemui/statusbar/phone/NotificationPanelView;I)I
 
-    .line 812
+    .line 813
     return-void
 .end method

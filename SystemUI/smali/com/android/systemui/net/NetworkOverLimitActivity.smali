@@ -59,14 +59,14 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0f0695
+    const v0, 0x7f0f0696
 
     :goto_0
     return v0
 
     .line 122
     :cond_0
-    const v0, 0x7f0f0694
+    const v0, 0x7f0f0695
 
     goto :goto_0
 
@@ -165,7 +165,7 @@
 
     if-eqz v7, :cond_0
 
-    const v0, 0x7f0f0697
+    const v0, 0x7f0f0698
 
     .line 60
     .local v0, "body":I
@@ -180,7 +180,7 @@
 
     if-eqz v7, :cond_1
 
-    const v4, 0x7f0f0699
+    const v4, 0x7f0f069a
 
     .line 65
     .local v4, "nButton":I
@@ -262,14 +262,14 @@
     .end local v3    # "layoutParams":Landroid/view/WindowManager$LayoutParams;
     .end local v4    # "nButton":I
     :cond_0
-    const v0, 0x7f0f0696
+    const v0, 0x7f0f0697
 
     .restart local v0    # "body":I
     goto :goto_0
 
     .line 64
     :cond_1
-    const v4, 0x7f0f0698
+    const v4, 0x7f0f0699
 
     .restart local v4    # "nButton":I
     goto :goto_1

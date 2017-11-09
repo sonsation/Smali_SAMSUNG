@@ -27,7 +27,7 @@
     .param p2, "val$onFinishRunnable"    # Ljava/lang/Runnable;
 
     .prologue
-    .line 2254
+    .line 2255
     iput-object p1, p0, Lcom/android/systemui/statusbar/phone/NotificationPanelView$19;->this$0:Lcom/android/systemui/statusbar/phone/NotificationPanelView;
 
     iput-object p2, p0, Lcom/android/systemui/statusbar/phone/NotificationPanelView$19;->val$onFinishRunnable:Ljava/lang/Runnable;
@@ -46,22 +46,22 @@
     .prologue
     const/4 v1, 0x0
 
-    .line 2257
+    .line 2258
     iget-object v0, p0, Lcom/android/systemui/statusbar/phone/NotificationPanelView$19;->this$0:Lcom/android/systemui/statusbar/phone/NotificationPanelView;
 
     invoke-static {v0, v1}, Lcom/android/systemui/statusbar/phone/NotificationPanelView;->-set6(Lcom/android/systemui/statusbar/phone/NotificationPanelView;Landroid/animation/ValueAnimator;)Landroid/animation/ValueAnimator;
 
-    .line 2258
+    .line 2259
     iget-object v0, p0, Lcom/android/systemui/statusbar/phone/NotificationPanelView$19;->val$onFinishRunnable:Ljava/lang/Runnable;
 
     if-eqz v0, :cond_0
 
-    .line 2259
+    .line 2260
     iget-object v0, p0, Lcom/android/systemui/statusbar/phone/NotificationPanelView$19;->val$onFinishRunnable:Ljava/lang/Runnable;
 
     invoke-interface {v0}, Ljava/lang/Runnable;->run()V
 
-    .line 2256
+    .line 2257
     :cond_0
     return-void
 .end method

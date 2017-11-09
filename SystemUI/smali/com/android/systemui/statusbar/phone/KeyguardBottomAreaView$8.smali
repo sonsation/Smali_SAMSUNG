@@ -27,7 +27,7 @@
     .param p1, "this$0"    # Lcom/android/systemui/statusbar/phone/KeyguardBottomAreaView;
 
     .prologue
-    .line 764
+    .line 752
     iput-object p1, p0, Lcom/android/systemui/statusbar/phone/KeyguardBottomAreaView$8;->this$0:Lcom/android/systemui/statusbar/phone/KeyguardBottomAreaView;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -42,7 +42,7 @@
     .param p1, "resultCode"    # I
 
     .prologue
-    .line 767
+    .line 755
     iget-object v0, p0, Lcom/android/systemui/statusbar/phone/KeyguardBottomAreaView$8;->this$0:Lcom/android/systemui/statusbar/phone/KeyguardBottomAreaView;
 
     invoke-static {p1}, Lcom/android/systemui/statusbar/phone/KeyguardBottomAreaView;->-wrap0(I)Z
@@ -51,7 +51,7 @@
 
     invoke-virtual {v0, v1}, Lcom/android/systemui/statusbar/phone/KeyguardBottomAreaView;->unbindCameraPrewarmService(Z)V
 
-    .line 769
+    .line 757
     iget-object v0, p0, Lcom/android/systemui/statusbar/phone/KeyguardBottomAreaView$8;->this$0:Lcom/android/systemui/statusbar/phone/KeyguardBottomAreaView;
 
     const-string/jumbo v1, "CAMERA"
@@ -60,6 +60,6 @@
 
     invoke-static {v0, v1, v2}, Lcom/android/systemui/statusbar/phone/KeyguardBottomAreaView;->-wrap1(Lcom/android/systemui/statusbar/phone/KeyguardBottomAreaView;Ljava/lang/String;Z)V
 
-    .line 766
+    .line 754
     return-void
 .end method

@@ -413,7 +413,7 @@
     .param p6, "isBranded"    # Z
 
     .prologue
-    const v5, 0x7f0f04c7
+    const v5, 0x7f0f04c8
 
     const/4 v4, 0x2
 
@@ -440,7 +440,7 @@
     aput-object p3, v1, v3
 
     .line 179
-    const v2, 0x7f0f04d1
+    const v2, 0x7f0f04d2
 
     invoke-virtual {v0, v2, v1}, Landroid/content/Context;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -486,7 +486,7 @@
     aput-object p3, v1, v4
 
     .line 187
-    const v2, 0x7f0f04d0
+    const v2, 0x7f0f04d1
 
     invoke-virtual {v0, v2, v1}, Landroid/content/Context;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -501,7 +501,7 @@
     .line 191
     iget-object v0, p0, Lcom/android/systemui/qs/QSFooter;->mContext:Landroid/content/Context;
 
-    const v1, 0x7f0f04ce
+    const v1, 0x7f0f04cf
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -519,7 +519,7 @@
     aput-object p3, v1, v2
 
     .line 193
-    const v2, 0x7f0f04cd
+    const v2, 0x7f0f04ce
 
     invoke-virtual {v0, v2, v1}, Landroid/content/Context;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -542,7 +542,7 @@
     aput-object p4, v1, v3
 
     .line 198
-    const v2, 0x7f0f04cf
+    const v2, 0x7f0f04d0
 
     invoke-virtual {v0, v2, v1}, Landroid/content/Context;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -626,13 +626,13 @@
     if-eqz p1, :cond_0
 
     .line 211
-    const v0, 0x7f0f04c2
+    const v0, 0x7f0f04c3
 
     return v0
 
     .line 213
     :cond_0
-    const v0, 0x7f0f04c4
+    const v0, 0x7f0f04c5
 
     return v0
 .end method
@@ -676,7 +676,7 @@
     if-eqz v2, :cond_0
 
     .line 120
-    const v2, 0x7f0f04be
+    const v2, 0x7f0f04bf
 
     iput v2, p0, Lcom/android/systemui/qs/QSFooter;->mFooterTextId:I
 
@@ -708,7 +708,7 @@
     .local v1, "isBranded":Z
     if-eqz v1, :cond_2
 
-    const v2, 0x7f0f04c1
+    const v2, 0x7f0f04c2
 
     :goto_1
     iput v2, p0, Lcom/android/systemui/qs/QSFooter;->mFooterTextId:I
@@ -746,7 +746,7 @@
     .line 124
     .end local v0    # "footerIconId":I
     :cond_2
-    const v2, 0x7f0f04c0
+    const v2, 0x7f0f04c1
 
     goto :goto_1
 

@@ -30,7 +30,7 @@
     .param p2, "val$launched"    # Z
 
     .prologue
-    .line 736
+    .line 724
     iput-object p1, p0, Lcom/android/systemui/statusbar/phone/KeyguardBottomAreaView$7$1;->this$1:Lcom/android/systemui/statusbar/phone/KeyguardBottomAreaView$7;
 
     iput-boolean p2, p0, Lcom/android/systemui/statusbar/phone/KeyguardBottomAreaView$7$1;->val$launched:Z
@@ -46,7 +46,7 @@
     .locals 3
 
     .prologue
-    .line 739
+    .line 727
     iget-object v0, p0, Lcom/android/systemui/statusbar/phone/KeyguardBottomAreaView$7$1;->this$1:Lcom/android/systemui/statusbar/phone/KeyguardBottomAreaView$7;
 
     iget-object v0, v0, Lcom/android/systemui/statusbar/phone/KeyguardBottomAreaView$7;->this$0:Lcom/android/systemui/statusbar/phone/KeyguardBottomAreaView;
@@ -55,7 +55,7 @@
 
     invoke-virtual {v0, v1}, Lcom/android/systemui/statusbar/phone/KeyguardBottomAreaView;->unbindCameraPrewarmService(Z)V
 
-    .line 741
+    .line 729
     iget-object v0, p0, Lcom/android/systemui/statusbar/phone/KeyguardBottomAreaView$7$1;->this$1:Lcom/android/systemui/statusbar/phone/KeyguardBottomAreaView$7;
 
     iget-object v0, v0, Lcom/android/systemui/statusbar/phone/KeyguardBottomAreaView$7;->this$0:Lcom/android/systemui/statusbar/phone/KeyguardBottomAreaView;
@@ -66,6 +66,6 @@
 
     invoke-static {v0, v1, v2}, Lcom/android/systemui/statusbar/phone/KeyguardBottomAreaView;->-wrap1(Lcom/android/systemui/statusbar/phone/KeyguardBottomAreaView;Ljava/lang/String;Z)V
 
-    .line 738
+    .line 726
     return-void
 .end method

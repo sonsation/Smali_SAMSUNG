@@ -868,7 +868,8 @@ mirroring"</string>
     <string name="aod_show_popup_title">啟用%s</string>
     <string name="aod_show_popup_unavailable_with_at_same_time">%1$s 與 %2$s 無法同時啟用。將停用 %3$s。</string>
     <string name="aod_show_popup_description">%s與下方選項無法同時啟用。將停用下方選項。</string>
-    <string name="wificalling_show_popup_use_location_inform">Wi-Fi 通話需使用您的定位資訊。將蒐集匿名位置資料並傳送至 Google 與您的電信業者。請聯絡您的電信業者瞭解更多詳情。</string>
+    <string name="wificalling_show_popup_use_location_inform">當您使用 Wi-Fi 通話期間，可能已將位置資訊提供給電信業者。請聯絡您的電信業者取得詳細資料。</string>
+    <string name="wificalling_show_popup_use_location_inform_ftm">無論您是否已啟用定位功能，若要建立 Wi-Fi 通話，可將您的位置相關資訊傳送給 Google 與電信業者。</string>
     <string name="wificalling_show_popup_enable_location_title">啟用定位</string>
     <string name="wificalling_show_popup_enable_location_message">Wi-Fi 通話需使用您的定位資訊。將啟用 [定位]。將蒐集匿名位置資料並傳送至 Google 與您的電信業者。請聯絡您的電信業者瞭解更多詳情。</string>
     <string name="personal_mode_popup_diable_msg_while_afw_profile">工作設定檔中無法使用 [私密模式]。</string>
@@ -1630,6 +1631,23 @@ To prevent this pop-up from appearing in the future, make sure the proximity sen
     <string name="dcm_lockscreen_unlock_help_text_fingerprints_iris">使用指紋來解鎖裝置或輕觸鎖定圖示來改用虹膜解鎖</string>
     <string name="s_view_cover_toast_pop_up_message">開啟感應皮套以使用快速設定按鈕。</string>
     <string name="remote_input_toast_text_on_sview_cover">S 透視感應皮套蓋起時，無法使用快速回覆功能。</string>
+    <string name="wfc_enable_dialog_opv_title">WELCOME TO WI-FI CALLING SERVICE</string>
+    <string name="wfc_enable_dialog_opv_body0">"Wi-Fi Calling is a service of your mobile operator, Orange Polska S.A.
+Please read the description of the service provided by your operator:"</string>
+    <string name="wfc_enable_dialog_opv_body1">Wi-Fi Calling service enables you to make and receive voice calls over any Wi-Fi internet connection, even in a situation where you are outside any mobile network’s coverage. Once the service is active for your mobile number, every time you connect to a Wi-Fi network, your voice calls will be performed using Wi-Fi Calling. This will be indicated to you by a dedicated icon on the notification bar.</string>
+    <string name="wfc_enable_dialog_opv_body2">"If your Wi-Fi connection is of poor quality or your device is outside a Wi-Fi network’s coverage, your phone will make calls using an available mobile network.
+
+Calls you make with Wi-Fi Calling in Poland are charged in the same way as your regular mobile calls in your mobile tariff plan. Incoming calls in Poland are free of charge. If you make Wi-Fi Calling calls outside Poland your calls may be charged a price specified in your mobile tariff plan’s price list.
+
+Notwithstanding, your Wi-Fi connections may be charged independently by the provider of your Wi-Fi connection."</string>
+    <string name="wfc_enable_dialog_opv_body3">"Once you press the [I ACCEPT] button and your phone connects to a Wi-Fi network, your Wi-Fi Calling service will be activated. You can disable Wi-Fi Calling at any time using the phone menu.
+
+Detailed information about your Wi-Fi Calling service can be found at www.orange.pl/wificalling.
+
+Please note that in order to enable your emergency calls (e.g., such as 112 calls) to be routed to the closest emergency centre suitable for your actual location, your emergency calls made while the Wi-Fi Calling service is enabled will be carried by your device through any mobile network available at a given moment. Only in cases where no mobile network is available will an emergency call be routed via the Wi-Fi Calling service. Unfortunately, in such cases we will not know your precise location and therefore your emergency call may not be routed to the emergency centre closest to your actual location."</string>
+    <string name="wfc_enable_dialog_opv_body4">In regard to your use of Wi-Fi Calling, we – as your personal data controller – will process your data based on the number and model of the device on which you use Wi-Fi Calling, the software used on the device, the endpoint of the network used to connect with Wi-Fi Calling (including the IP address and the country to which this IP address is attributed), and the time and duration of each call, in order to perform and settle the service, answer any complaints, and to perform any statutory obligations. We will process this data for the duration of the agreement on providing telecommunication services between you and us, and after its termination – for the period of recovery of claims and of performing other tasks defined in the provisions of law. Providing the data is voluntary, but it is necessary to use the service. You have the right to access and to rectify your data.</string>
+    <string name="wfc_enable_dialog_opv_body5">Please find our data: Orange Polska S.A., address: Aleje Jerozolimskie 160, 02-326 Warsaw, Poland, registered in the Register of the Entrepreneurs of District Court for the Capital City of Warsaw in Warsaw, XII Commercial Division of the National Court Register (KRS), under entry number 0000010681, NIP (tax ID) 526-02-50-995; with share capital (fully paid up) of PLN 3,937,072,437.00.</string>
+    <string name="wfc_enable_dialog_opv_btn">我接受</string>
     <string name="car_lockscreen_disclaimer_title">安全駕駛</string>
     <string name="car_lockscreen_disclaimer_text">請隨時注意周遭路況並遵守交通規則。系統所提供的路線可能有誤、不完整，或包含危險、不合適、禁止通行或管制區域的路段；此外，商家資訊也可能有誤或不完整。路況資料並非即時更新，也無法保證定位資訊必然準確無誤。駕駛時請勿操作您的行動裝置，或使用不適用於 Android Auto 的應用程式。</string>
     <string name="pip_close">關閉子母畫面</string>
@@ -2094,6 +2112,7 @@ To prevent this pop-up from appearing in the future, make sure the proximity sen
     <string name="clear_cover_month_day_no_year">MMM d日</string>
     <string name="clear_cover_day_month_no_year">d日 MMM</string>
     <string name="volumepanel_notification">通知</string>
+    <string name="remote_input_send_text">傳送</string>
     <string name="sview_cover_wday_month_day_no_year">MMMM d日, E</string>
     <string name="sview_cover_wday_day_month_no_year">E, d日 MMMM</string>
     <string name="full_wday_month_day_no_year">EEEE, MMMM d日</string>

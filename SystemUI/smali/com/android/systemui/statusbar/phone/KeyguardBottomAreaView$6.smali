@@ -27,7 +27,7 @@
     .param p1, "this$0"    # Lcom/android/systemui/statusbar/phone/KeyguardBottomAreaView;
 
     .prologue
-    .line 1312
+    .line 1300
     iput-object p1, p0, Lcom/android/systemui/statusbar/phone/KeyguardBottomAreaView$6;->this$0:Lcom/android/systemui/statusbar/phone/KeyguardBottomAreaView;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -42,13 +42,13 @@
     .param p1, "uri"    # Landroid/net/Uri;
 
     .prologue
-    .line 1315
+    .line 1303
     if-nez p1, :cond_0
 
-    .line 1316
+    .line 1304
     return-void
 
-    .line 1318
+    .line 1306
     :cond_0
     const-string/jumbo v0, "white_lockscreen_wallpaper"
 
@@ -62,12 +62,12 @@
 
     if-eqz v0, :cond_1
 
-    .line 1319
+    .line 1307
     iget-object v0, p0, Lcom/android/systemui/statusbar/phone/KeyguardBottomAreaView$6;->this$0:Lcom/android/systemui/statusbar/phone/KeyguardBottomAreaView;
 
     invoke-virtual {v0}, Lcom/android/systemui/statusbar/phone/KeyguardBottomAreaView;->updateChildViewsLook()V
 
-    .line 1314
+    .line 1302
     :cond_1
     return-void
 .end method

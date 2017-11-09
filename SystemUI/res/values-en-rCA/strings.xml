@@ -106,6 +106,7 @@ calling"</string>
     <string name="qs_edit_summary">Drag the quick setting buttons to the area above to add them to the quick settings panel.</string>
     <string name="notification_panel_unable_remove_minimum">Unable to remove button. Minimum number of buttons (%d) reached.</string>
     <string name="volte_show_toast_enable_message">To use the VoLTE service, subscribe to VoLTE. Contact your service provider for details.</string>
+    <string name="wificalling_show_popup_use_location_inform">Your location information might be sent to your service provider while you are using Wi-Fi calling. Contact your service provider for details.</string>
     <string name="airplane_mode_show_popup_message_cmcc">Flight mode allows you to turn off calling, messaging and data network features. It also turns off connectivity features such as Wi-Fi and Bluetooth. To use Wi-Fi and Bluetooth, turn them on in Settings or on the notification panel.</string>
     <string name="quick_settings_dnd_detail_title">Do not disturb</string>
     <string name="quick_settings_wificalling_summary">"Use Wi-Fi networks to make and receive calls anywhere, without connecting to a mobile network.
@@ -511,4 +512,5 @@ Try again in 1 second"</string>
     <string name="kg_wallpaper_preview_button">Set as wallpaper</string>
     <string name="kg_wallpaper_applied_toast">Wallpaper applied to lock screen.</string>
     <string name="kg_too_many_failed_countdown_by_fingerprint">There were %d incorrect attempts to verify fingerprints. Try again in 30 seconds.</string>
+    <string name="remote_input_send_text">Send</string>
 </resources>

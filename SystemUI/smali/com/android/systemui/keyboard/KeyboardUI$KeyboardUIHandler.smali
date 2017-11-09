@@ -107,7 +107,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0f0531
+    const v3, 0x7f0f0532
 
     invoke-virtual {v2, v3}, Lcom/android/systemui/keyboard/BluetoothDialog;->setTitle(I)V
 
@@ -118,7 +118,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0f0532
+    const v3, 0x7f0f0533
 
     invoke-virtual {v2, v3}, Lcom/android/systemui/keyboard/BluetoothDialog;->setMessage(I)V
 
@@ -130,7 +130,7 @@
     move-result-object v2
 
     .line 434
-    const v3, 0x7f0f0533
+    const v3, 0x7f0f0534
 
     .line 433
     invoke-virtual {v2, v3, v0}, Lcom/android/systemui/keyboard/BluetoothDialog;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)V

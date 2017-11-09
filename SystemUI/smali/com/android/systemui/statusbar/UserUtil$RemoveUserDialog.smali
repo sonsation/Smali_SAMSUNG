@@ -35,12 +35,12 @@
     invoke-direct {p0, p1}, Lcom/android/systemui/statusbar/phone/SystemUIDialog;-><init>(Landroid/content/Context;)V
 
     .line 41
-    const v0, 0x7f0f04b0
+    const v0, 0x7f0f04b1
 
     invoke-virtual {p0, v0}, Lcom/android/systemui/statusbar/UserUtil$RemoveUserDialog;->setTitle(I)V
 
     .line 42
-    const v0, 0x7f0f04b1
+    const v0, 0x7f0f04b2
 
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -61,7 +61,7 @@
     invoke-virtual {p0, v1, v0, p0}, Lcom/android/systemui/statusbar/UserUtil$RemoveUserDialog;->setButton(ILjava/lang/CharSequence;Landroid/content/DialogInterface$OnClickListener;)V
 
     .line 46
-    const v0, 0x7f0f04b2
+    const v0, 0x7f0f04b3
 
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

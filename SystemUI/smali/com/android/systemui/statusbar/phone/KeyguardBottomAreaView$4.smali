@@ -24,7 +24,7 @@
     .param p1, "this$0"    # Lcom/android/systemui/statusbar/phone/KeyguardBottomAreaView;
 
     .prologue
-    .line 1005
+    .line 993
     iput-object p1, p0, Lcom/android/systemui/statusbar/phone/KeyguardBottomAreaView$4;->this$0:Lcom/android/systemui/statusbar/phone/KeyguardBottomAreaView;
 
     invoke-direct {p0}, Lcom/android/keyguard/KeyguardUpdateMonitorCallback;-><init>()V
@@ -39,7 +39,7 @@
     .param p1, "running"    # Z
 
     .prologue
-    .line 1068
+    .line 1056
     return-void
 .end method
 
@@ -48,7 +48,7 @@
     .param p1, "why"    # I
 
     .prologue
-    .line 1028
+    .line 1016
     return-void
 .end method
 
@@ -57,7 +57,7 @@
     .param p1, "showing"    # Z
 
     .prologue
-    .line 1049
+    .line 1037
     return-void
 .end method
 
@@ -65,12 +65,12 @@
     .locals 1
 
     .prologue
-    .line 1084
+    .line 1072
     iget-object v0, p0, Lcom/android/systemui/statusbar/phone/KeyguardBottomAreaView$4;->this$0:Lcom/android/systemui/statusbar/phone/KeyguardBottomAreaView;
 
     invoke-virtual {v0}, Lcom/android/systemui/statusbar/phone/KeyguardBottomAreaView;->updateChildViewsLook()V
 
-    .line 1083
+    .line 1071
     return-void
 .end method
 
@@ -78,12 +78,12 @@
     .locals 1
 
     .prologue
-    .line 1063
+    .line 1051
     iget-object v0, p0, Lcom/android/systemui/statusbar/phone/KeyguardBottomAreaView$4;->this$0:Lcom/android/systemui/statusbar/phone/KeyguardBottomAreaView;
 
     invoke-static {v0}, Lcom/android/systemui/statusbar/phone/KeyguardBottomAreaView;->-wrap2(Lcom/android/systemui/statusbar/phone/KeyguardBottomAreaView;)V
 
-    .line 1062
+    .line 1050
     return-void
 .end method
 
@@ -91,7 +91,7 @@
     .locals 0
 
     .prologue
-    .line 1042
+    .line 1030
     return-void
 .end method
 
@@ -99,7 +99,7 @@
     .locals 0
 
     .prologue
-    .line 1035
+    .line 1023
     return-void
 .end method
 
@@ -110,12 +110,12 @@
     .param p3, "simState"    # Lcom/android/internal/telephony/IccCardConstants$State;
 
     .prologue
-    .line 1058
+    .line 1046
     iget-object v0, p0, Lcom/android/systemui/statusbar/phone/KeyguardBottomAreaView$4;->this$0:Lcom/android/systemui/statusbar/phone/KeyguardBottomAreaView;
 
     invoke-static {v0}, Lcom/android/systemui/statusbar/phone/KeyguardBottomAreaView;->-wrap2(Lcom/android/systemui/statusbar/phone/KeyguardBottomAreaView;)V
 
-    .line 1057
+    .line 1045
     return-void
 .end method
 
@@ -123,7 +123,7 @@
     .locals 0
 
     .prologue
-    .line 1012
+    .line 1000
     return-void
 .end method
 
@@ -132,7 +132,7 @@
     .param p1, "why"    # I
 
     .prologue
-    .line 1020
+    .line 1008
     return-void
 .end method
 
@@ -141,7 +141,7 @@
     .param p1, "userId"    # I
 
     .prologue
-    .line 1075
+    .line 1063
     return-void
 .end method
 
@@ -150,11 +150,11 @@
     .param p1, "userId"    # I
 
     .prologue
-    .line 1008
+    .line 996
     iget-object v0, p0, Lcom/android/systemui/statusbar/phone/KeyguardBottomAreaView$4;->this$0:Lcom/android/systemui/statusbar/phone/KeyguardBottomAreaView;
 
     invoke-virtual {v0}, Lcom/android/systemui/statusbar/phone/KeyguardBottomAreaView;->updateCameraVisibility()V
 
-    .line 1007
+    .line 995
     return-void
 .end method

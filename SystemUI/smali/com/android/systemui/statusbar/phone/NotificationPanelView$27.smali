@@ -27,7 +27,7 @@
     .param p1, "this$0"    # Lcom/android/systemui/statusbar/phone/NotificationPanelView;
 
     .prologue
-    .line 3535
+    .line 3540
     iput-object p1, p0, Lcom/android/systemui/statusbar/phone/NotificationPanelView$27;->this$0:Lcom/android/systemui/statusbar/phone/NotificationPanelView;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -41,19 +41,19 @@
     .locals 2
 
     .prologue
-    .line 3538
+    .line 3543
     iget-object v0, p0, Lcom/android/systemui/statusbar/phone/NotificationPanelView$27;->this$0:Lcom/android/systemui/statusbar/phone/NotificationPanelView;
 
     iget-object v0, v0, Lcom/android/systemui/statusbar/phone/NotificationPanelView;->mStatusBar:Lcom/android/systemui/statusbar/phone/PhoneStatusBar;
 
     invoke-virtual {v0}, Lcom/android/systemui/statusbar/phone/PhoneStatusBar;->deactivateNotificationRow()V
 
-    .line 3539
+    .line 3544
     sget-boolean v0, Lcom/android/systemui/SystemUIRune;->SUPPORT_NOTIFICATION_ICONS_ONLY:Z
 
     if-eqz v0, :cond_0
 
-    .line 3540
+    .line 3545
     iget-object v0, p0, Lcom/android/systemui/statusbar/phone/NotificationPanelView$27;->this$0:Lcom/android/systemui/statusbar/phone/NotificationPanelView;
 
     iget-object v0, v0, Lcom/android/systemui/statusbar/phone/NotificationPanelView;->mStatusBar:Lcom/android/systemui/statusbar/phone/PhoneStatusBar;
@@ -62,10 +62,10 @@
 
     move-result v0
 
-    .line 3539
+    .line 3544
     if-eqz v0, :cond_0
 
-    .line 3541
+    .line 3546
     iget-object v0, p0, Lcom/android/systemui/statusbar/phone/NotificationPanelView$27;->this$0:Lcom/android/systemui/statusbar/phone/NotificationPanelView;
 
     invoke-static {v0}, Lcom/android/systemui/statusbar/phone/NotificationPanelView;->-get9(Lcom/android/systemui/statusbar/phone/NotificationPanelView;)Lcom/android/systemui/statusbar/preview/NotificationPreviewController;
@@ -74,7 +74,7 @@
 
     if-eqz v0, :cond_0
 
-    .line 3542
+    .line 3547
     iget-object v0, p0, Lcom/android/systemui/statusbar/phone/NotificationPanelView$27;->this$0:Lcom/android/systemui/statusbar/phone/NotificationPanelView;
 
     invoke-static {v0}, Lcom/android/systemui/statusbar/phone/NotificationPanelView;->-get9(Lcom/android/systemui/statusbar/phone/NotificationPanelView;)Lcom/android/systemui/statusbar/preview/NotificationPreviewController;
@@ -83,7 +83,7 @@
 
     invoke-virtual {v0}, Lcom/android/systemui/statusbar/preview/NotificationPreviewController;->reset()V
 
-    .line 3546
+    .line 3551
     :cond_0
     iget-object v0, p0, Lcom/android/systemui/statusbar/phone/NotificationPanelView$27;->this$0:Lcom/android/systemui/statusbar/phone/NotificationPanelView;
 
@@ -97,7 +97,7 @@
 
     invoke-virtual {v0, v1}, Lcom/android/systemui/statusbar/KeyguardIndicationController;->setHelpText(I)V
 
-    .line 3537
+    .line 3542
     return-void
 .end method
 
@@ -105,7 +105,7 @@
     .locals 1
 
     .prologue
-    .line 3563
+    .line 3568
     iget-object v0, p0, Lcom/android/systemui/statusbar/phone/NotificationPanelView$27;->this$0:Lcom/android/systemui/statusbar/phone/NotificationPanelView;
 
     invoke-static {v0}, Lcom/android/systemui/statusbar/phone/NotificationPanelView;->-get13(Lcom/android/systemui/statusbar/phone/NotificationPanelView;)Lcom/android/systemui/swipe/SwipeAnimator;
@@ -114,14 +114,14 @@
 
     invoke-virtual {v0}, Lcom/android/systemui/swipe/SwipeAnimator;->onUnlockExecuted()V
 
-    .line 3564
+    .line 3569
     iget-object v0, p0, Lcom/android/systemui/statusbar/phone/NotificationPanelView$27;->this$0:Lcom/android/systemui/statusbar/phone/NotificationPanelView;
 
     iget-object v0, v0, Lcom/android/systemui/statusbar/phone/NotificationPanelView;->mStatusBar:Lcom/android/systemui/statusbar/phone/PhoneStatusBar;
 
     invoke-virtual {v0}, Lcom/android/systemui/statusbar/phone/PhoneStatusBar;->makeExpandedInvisible()V
 
-    .line 3562
+    .line 3567
     return-void
 .end method
 
@@ -129,13 +129,13 @@
     .locals 1
 
     .prologue
-    .line 3552
+    .line 3557
     iget-object v0, p0, Lcom/android/systemui/statusbar/phone/NotificationPanelView$27;->this$0:Lcom/android/systemui/statusbar/phone/NotificationPanelView;
 
     iget-object v0, v0, Lcom/android/systemui/statusbar/phone/NotificationPanelView;->mStatusBar:Lcom/android/systemui/statusbar/phone/PhoneStatusBar;
 
     invoke-virtual {v0}, Lcom/android/systemui/statusbar/phone/PhoneStatusBar;->userActivity()V
 
-    .line 3551
+    .line 3556
     return-void
 .end method

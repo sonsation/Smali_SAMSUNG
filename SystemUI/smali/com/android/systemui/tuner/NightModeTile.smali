@@ -66,7 +66,7 @@
     .line 80
     iget-object v0, p0, Lcom/android/systemui/tuner/NightModeTile;->mContext:Landroid/content/Context;
 
-    const v1, 0x7f0f054e
+    const v1, 0x7f0f054f
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -114,7 +114,7 @@
     .param p2, "arg"    # Ljava/lang/Object;
 
     .prologue
-    const v2, 0x7f0f054e
+    const v2, 0x7f0f054f
 
     .line 86
     iget-object v1, p0, Lcom/android/systemui/tuner/NightModeTile;->mNightModeController:Lcom/android/systemui/statusbar/policy/NightModeController;

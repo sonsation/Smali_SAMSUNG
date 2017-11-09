@@ -325,7 +325,7 @@
     .line 221
     iget-object v3, p0, Lcom/android/systemui/statusbar/policy/SecurityControllerImpl;->mContext:Landroid/content/Context;
 
-    const v4, 0x7f0f04cb
+    const v4, 0x7f0f04cc
 
     invoke-virtual {v3, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

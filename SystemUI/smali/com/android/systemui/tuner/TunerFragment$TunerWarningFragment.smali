@@ -42,7 +42,7 @@
     invoke-direct {v0, v1}, Landroid/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
 
     .line 119
-    const v1, 0x7f0f051d
+    const v1, 0x7f0f051e
 
     .line 118
     invoke-virtual {v0, v1}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
@@ -50,7 +50,7 @@
     move-result-object v0
 
     .line 120
-    const v1, 0x7f0f051e
+    const v1, 0x7f0f051f
 
     .line 118
     invoke-virtual {v0, v1}, Landroid/app/AlertDialog$Builder;->setMessage(I)Landroid/app/AlertDialog$Builder;
@@ -62,7 +62,7 @@
 
     invoke-direct {v1, p0}, Lcom/android/systemui/tuner/TunerFragment$TunerWarningFragment$1;-><init>(Lcom/android/systemui/tuner/TunerFragment$TunerWarningFragment;)V
 
-    const v2, 0x7f0f0520
+    const v2, 0x7f0f0521
 
     .line 118
     invoke-virtual {v0, v2, v1}, Landroid/app/AlertDialog$Builder;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;

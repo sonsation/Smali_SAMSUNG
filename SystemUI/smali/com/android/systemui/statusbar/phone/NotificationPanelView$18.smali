@@ -42,7 +42,7 @@
     .param p6, "val$isClick"    # Z
 
     .prologue
-    .line 2243
+    .line 2244
     iput-object p1, p0, Lcom/android/systemui/statusbar/phone/NotificationPanelView$18;->this$0:Lcom/android/systemui/statusbar/phone/NotificationPanelView;
 
     iput-boolean p2, p0, Lcom/android/systemui/statusbar/phone/NotificationPanelView$18;->val$expand:Z
@@ -67,7 +67,7 @@
     .param p1, "animation"    # Landroid/animation/ValueAnimator;
 
     .prologue
-    .line 2246
+    .line 2247
     iget-object v1, p0, Lcom/android/systemui/statusbar/phone/NotificationPanelView$18;->this$0:Lcom/android/systemui/statusbar/phone/NotificationPanelView;
 
     invoke-virtual {p1}, Landroid/animation/ValueAnimator;->getAnimatedValue()Ljava/lang/Object;
@@ -82,7 +82,7 @@
 
     invoke-static {v1, v0}, Lcom/android/systemui/statusbar/phone/NotificationPanelView;->-wrap4(Lcom/android/systemui/statusbar/phone/NotificationPanelView;F)V
 
-    .line 2247
+    .line 2248
     iget-object v0, p0, Lcom/android/systemui/statusbar/phone/NotificationPanelView$18;->this$0:Lcom/android/systemui/statusbar/phone/NotificationPanelView;
 
     invoke-static {v0}, Lcom/android/systemui/statusbar/phone/NotificationPanelView;->-get11(Lcom/android/systemui/statusbar/phone/NotificationPanelView;)Landroid/animation/ValueAnimator;
@@ -93,7 +93,7 @@
 
     iget-boolean v1, p0, Lcom/android/systemui/statusbar/phone/NotificationPanelView$18;->val$expand:Z
 
-    .line 2248
+    .line 2249
     iget v0, p0, Lcom/android/systemui/statusbar/phone/NotificationPanelView$18;->val$oldMaxExpansionHeight:F
 
     iget-object v2, p0, Lcom/android/systemui/statusbar/phone/NotificationPanelView$18;->this$0:Lcom/android/systemui/statusbar/phone/NotificationPanelView;
@@ -108,13 +108,13 @@
 
     const/4 v0, 0x1
 
-    .line 2247
+    .line 2248
     :goto_0
     and-int/2addr v0, v1
 
     if-eqz v0, :cond_0
 
-    .line 2249
+    .line 2250
     iget-object v0, p0, Lcom/android/systemui/statusbar/phone/NotificationPanelView$18;->this$0:Lcom/android/systemui/statusbar/phone/NotificationPanelView;
 
     invoke-static {v0}, Lcom/android/systemui/statusbar/phone/NotificationPanelView;->-get11(Lcom/android/systemui/statusbar/phone/NotificationPanelView;)Landroid/animation/ValueAnimator;
@@ -123,7 +123,7 @@
 
     invoke-virtual {v0}, Landroid/animation/ValueAnimator;->cancel()V
 
-    .line 2250
+    .line 2251
     iget-object v0, p0, Lcom/android/systemui/statusbar/phone/NotificationPanelView$18;->this$0:Lcom/android/systemui/statusbar/phone/NotificationPanelView;
 
     iget v1, p0, Lcom/android/systemui/statusbar/phone/NotificationPanelView$18;->val$velocity:F
@@ -136,11 +136,11 @@
 
     invoke-static {v0, v1, v2, v3, v4}, Lcom/android/systemui/statusbar/phone/NotificationPanelView;->-wrap0(Lcom/android/systemui/statusbar/phone/NotificationPanelView;FZLjava/lang/Runnable;Z)V
 
-    .line 2245
+    .line 2246
     :cond_0
     return-void
 
-    .line 2248
+    .line 2249
     :cond_1
     const/4 v0, 0x0
 

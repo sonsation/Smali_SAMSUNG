@@ -79,7 +79,7 @@
     .line 5263
     const/4 v2, 0x0
 
-    const v5, 0x7f0f06ba
+    const v5, 0x7f0f06bb
 
     move v4, v3
 

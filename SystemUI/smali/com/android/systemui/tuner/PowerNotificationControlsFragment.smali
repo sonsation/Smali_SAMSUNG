@@ -191,7 +191,7 @@
     if-eqz v3, :cond_0
 
     .line 55
-    const v3, 0x7f0f0599
+    const v3, 0x7f0f059a
 
     invoke-virtual {p0, v3}, Lcom/android/systemui/tuner/PowerNotificationControlsFragment;->getString(I)Ljava/lang/String;
 
@@ -213,7 +213,7 @@
 
     .line 56
     :cond_0
-    const v3, 0x7f0f059a
+    const v3, 0x7f0f059b
 
     invoke-virtual {p0, v3}, Lcom/android/systemui/tuner/PowerNotificationControlsFragment;->getString(I)Ljava/lang/String;
 

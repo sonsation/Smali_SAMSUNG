@@ -45,7 +45,7 @@
     .param p7, "val$windowWidth"    # I
 
     .prologue
-    .line 3697
+    .line 3702
     iput-object p1, p0, Lcom/android/systemui/statusbar/phone/NotificationPanelView$28;->this$0:Lcom/android/systemui/statusbar/phone/NotificationPanelView;
 
     iput p2, p0, Lcom/android/systemui/statusbar/phone/NotificationPanelView$28;->val$windowHeight:I
@@ -71,7 +71,7 @@
     .locals 8
 
     .prologue
-    .line 3700
+    .line 3705
     iget-object v0, p0, Lcom/android/systemui/statusbar/phone/NotificationPanelView$28;->this$0:Lcom/android/systemui/statusbar/phone/NotificationPanelView;
 
     iget-object v0, v0, Lcom/android/systemui/statusbar/phone/NotificationPanelView;->mStatusBar:Lcom/android/systemui/statusbar/phone/PhoneStatusBar;
@@ -84,7 +84,7 @@
 
     if-ge v0, v1, :cond_0
 
-    .line 3701
+    .line 3706
     iget-object v0, p0, Lcom/android/systemui/statusbar/phone/NotificationPanelView$28;->this$0:Lcom/android/systemui/statusbar/phone/NotificationPanelView;
 
     invoke-static {v0}, Lcom/android/systemui/statusbar/phone/NotificationPanelView;->-get1(Lcom/android/systemui/statusbar/phone/NotificationPanelView;)Lcom/android/systemui/keyguard/ViewCaptureUtil;
@@ -111,7 +111,7 @@
 
     invoke-virtual/range {v0 .. v7}, Lcom/android/systemui/keyguard/ViewCaptureUtil;->captureScreen(Landroid/view/View;Landroid/view/View;Landroid/view/View;ZZII)V
 
-    .line 3699
+    .line 3704
     :cond_0
     return-void
 .end method

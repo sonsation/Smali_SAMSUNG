@@ -517,7 +517,7 @@
     if-nez v6, :cond_9
 
     .line 146
-    const v6, 0x7f0f0469
+    const v6, 0x7f0f046a
 
     invoke-virtual {v2, v6}, Landroid/widget/TextView;->setText(I)V
 
@@ -533,7 +533,7 @@
 
     move-result-object v6
 
-    const v7, 0x7f0f046b
+    const v7, 0x7f0f046c
 
     invoke-virtual {v6, v7}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -650,7 +650,7 @@
 
     aput-object v8, v7, v9
 
-    const v8, 0x7f0f046a
+    const v8, 0x7f0f046b
 
     invoke-virtual {v6, v8, v7}, Landroid/content/Context;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 

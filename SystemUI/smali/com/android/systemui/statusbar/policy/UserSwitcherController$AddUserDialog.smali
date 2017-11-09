@@ -35,12 +35,12 @@
     invoke-direct {p0, p2}, Lcom/android/systemui/statusbar/phone/SystemUIDialog;-><init>(Landroid/content/Context;)V
 
     .line 890
-    const v0, 0x7f0f04ae
+    const v0, 0x7f0f04af
 
     invoke-virtual {p0, v0}, Lcom/android/systemui/statusbar/policy/UserSwitcherController$AddUserDialog;->setTitle(I)V
 
     .line 891
-    const v0, 0x7f0f04af
+    const v0, 0x7f0f04b0
 
     invoke-virtual {p2, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -125,7 +125,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0f049d
+    const v4, 0x7f0f049e
 
     invoke-virtual {v3, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

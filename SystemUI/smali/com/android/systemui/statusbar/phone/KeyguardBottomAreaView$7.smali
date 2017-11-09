@@ -30,7 +30,7 @@
     .param p2, "val$intent"    # Landroid/content/Intent;
 
     .prologue
-    .line 703
+    .line 691
     iput-object p1, p0, Lcom/android/systemui/statusbar/phone/KeyguardBottomAreaView$7;->this$0:Lcom/android/systemui/statusbar/phone/KeyguardBottomAreaView;
 
     iput-object p2, p0, Lcom/android/systemui/statusbar/phone/KeyguardBottomAreaView$7;->val$intent:Landroid/content/Intent;
@@ -46,10 +46,10 @@
     .locals 17
 
     .prologue
-    .line 706
+    .line 694
     const/16 v16, -0x6
 
-    .line 711
+    .line 699
     .local v16, "result":I
     :try_start_0
     const-string/jumbo v1, "PhoneStatusBar/KeyguardBottomAreaView"
@@ -58,7 +58,7 @@
 
     invoke-static {v1, v2}, Landroid/util/Log;->v(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 712
+    .line 700
     move-object/from16 v0, p0
 
     iget-object v1, v0, Lcom/android/systemui/statusbar/phone/KeyguardBottomAreaView$7;->val$intent:Landroid/content/Intent;
@@ -67,7 +67,7 @@
 
     invoke-virtual {v1, v2}, Landroid/content/Intent;->setAction(Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 713
+    .line 701
     move-object/from16 v0, p0
 
     iget-object v1, v0, Lcom/android/systemui/statusbar/phone/KeyguardBottomAreaView$7;->val$intent:Landroid/content/Intent;
@@ -78,7 +78,7 @@
 
     invoke-virtual {v1, v2, v3}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Z)Landroid/content/Intent;
 
-    .line 714
+    .line 702
     move-object/from16 v0, p0
 
     iget-object v1, v0, Lcom/android/systemui/statusbar/phone/KeyguardBottomAreaView$7;->val$intent:Landroid/content/Intent;
@@ -87,7 +87,7 @@
 
     invoke-virtual {v1, v2}, Landroid/content/Intent;->addCategory(Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 715
+    .line 703
     move-object/from16 v0, p0
 
     iget-object v1, v0, Lcom/android/systemui/statusbar/phone/KeyguardBottomAreaView$7;->val$intent:Landroid/content/Intent;
@@ -96,37 +96,37 @@
 
     invoke-virtual {v1, v2}, Landroid/content/Intent;->addFlags(I)Landroid/content/Intent;
 
-    .line 720
+    .line 708
     invoke-static {}, Landroid/app/ActivityManagerNative;->getDefault()Landroid/app/IActivityManager;
 
     move-result-object v1
 
     invoke-interface {v1}, Landroid/app/IActivityManager;->keyguardWaitingForActivityDrawn()V
 
-    .line 721
+    .line 709
     invoke-static {}, Landroid/app/ActivityManagerNative;->getDefault()Landroid/app/IActivityManager;
 
     move-result-object v1
 
     invoke-interface {v1}, Landroid/app/IActivityManager;->resumeAppSwitches()V
 
-    .line 722
+    .line 710
     invoke-static {}, Landroid/app/ActivityOptions;->makeBasic()Landroid/app/ActivityOptions;
 
     move-result-object v15
 
-    .line 723
+    .line 711
     .local v15, "options":Landroid/app/ActivityOptions;
     const/4 v1, 0x1
 
     invoke-virtual {v15, v1}, Landroid/app/ActivityOptions;->setLaunchStackId(I)V
 
-    .line 725
+    .line 713
     invoke-static {}, Landroid/app/ActivityManagerNative;->getDefault()Landroid/app/IActivityManager;
 
     move-result-object v1
 
-    .line 726
+    .line 714
     move-object/from16 v0, p0
 
     iget-object v2, v0, Lcom/android/systemui/statusbar/phone/KeyguardBottomAreaView$7;->this$0:Lcom/android/systemui/statusbar/phone/KeyguardBottomAreaView;
@@ -139,12 +139,12 @@
 
     move-result-object v3
 
-    .line 727
+    .line 715
     move-object/from16 v0, p0
 
     iget-object v4, v0, Lcom/android/systemui/statusbar/phone/KeyguardBottomAreaView$7;->val$intent:Landroid/content/Intent;
 
-    .line 728
+    .line 716
     move-object/from16 v0, p0
 
     iget-object v2, v0, Lcom/android/systemui/statusbar/phone/KeyguardBottomAreaView$7;->val$intent:Landroid/content/Intent;
@@ -165,22 +165,22 @@
 
     move-result-object v5
 
-    .line 729
+    .line 717
     invoke-virtual {v15}, Landroid/app/ActivityOptions;->toBundle()Landroid/os/Bundle;
 
     move-result-object v11
 
-    .line 730
+    .line 718
     sget-object v2, Landroid/os/UserHandle;->CURRENT:Landroid/os/UserHandle;
 
     invoke-virtual {v2}, Landroid/os/UserHandle;->getIdentifier()I
 
     move-result v12
 
-    .line 726
+    .line 714
     const/4 v2, 0x0
 
-    .line 729
+    .line 717
     const/4 v6, 0x0
 
     const/4 v7, 0x0
@@ -191,14 +191,14 @@
 
     const/4 v10, 0x0
 
-    .line 725
+    .line 713
     invoke-interface/range {v1 .. v12}, Landroid/app/IActivityManager;->startActivityAsUser(Landroid/app/IApplicationThread;Ljava/lang/String;Landroid/content/Intent;Ljava/lang/String;Landroid/os/IBinder;Ljava/lang/String;IILandroid/app/ProfilerInfo;Landroid/os/Bundle;I)I
     :try_end_0
     .catch Landroid/os/RemoteException; {:try_start_0 .. :try_end_0} :catch_0
 
     move-result v16
 
-    .line 734
+    .line 722
     .end local v15    # "options":Landroid/app/ActivityOptions;
     :goto_0
     move-object/from16 v0, p0
@@ -209,12 +209,12 @@
 
     invoke-interface {v1}, Lcom/android/systemui/statusbar/phone/ActivityStarter;->preventNextAnimation()V
 
-    .line 735
+    .line 723
     invoke-static/range {v16 .. v16}, Lcom/android/systemui/statusbar/phone/KeyguardBottomAreaView;->-wrap0(I)Z
 
     move-result v14
 
-    .line 736
+    .line 724
     .local v14, "launched":Z
     move-object/from16 v0, p0
 
@@ -228,15 +228,15 @@
 
     invoke-virtual {v1, v2}, Lcom/android/systemui/statusbar/phone/KeyguardBottomAreaView;->post(Ljava/lang/Runnable;)Z
 
-    .line 705
+    .line 693
     return-void
 
-    .line 731
+    .line 719
     .end local v14    # "launched":Z
     :catch_0
     move-exception v13
 
-    .line 732
+    .line 720
     .local v13, "e":Landroid/os/RemoteException;
     const-string/jumbo v1, "PhoneStatusBar/KeyguardBottomAreaView"
 

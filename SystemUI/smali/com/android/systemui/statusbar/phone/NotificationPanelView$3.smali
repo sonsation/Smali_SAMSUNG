@@ -27,7 +27,7 @@
     .param p1, "this$0"    # Lcom/android/systemui/statusbar/phone/NotificationPanelView;
 
     .prologue
-    .line 1811
+    .line 1812
     iput-object p1, p0, Lcom/android/systemui/statusbar/phone/NotificationPanelView$3;->this$0:Lcom/android/systemui/statusbar/phone/NotificationPanelView;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -43,14 +43,14 @@
     .prologue
     const/16 v2, 0x8
 
-    .line 1814
+    .line 1815
     iget-object v0, p0, Lcom/android/systemui/statusbar/phone/NotificationPanelView$3;->this$0:Lcom/android/systemui/statusbar/phone/NotificationPanelView;
 
     const/4 v1, 0x0
 
     invoke-static {v0, v1}, Lcom/android/systemui/statusbar/phone/NotificationPanelView;->-set5(Lcom/android/systemui/statusbar/phone/NotificationPanelView;Z)Z
 
-    .line 1815
+    .line 1816
     iget-object v0, p0, Lcom/android/systemui/statusbar/phone/NotificationPanelView$3;->this$0:Lcom/android/systemui/statusbar/phone/NotificationPanelView;
 
     invoke-static {v0}, Lcom/android/systemui/statusbar/phone/NotificationPanelView;->-get7(Lcom/android/systemui/statusbar/phone/NotificationPanelView;)Landroid/view/View;
@@ -59,19 +59,19 @@
 
     invoke-virtual {v0, v2}, Landroid/view/View;->setVisibility(I)V
 
-    .line 1816
+    .line 1817
     invoke-static {}, Lcom/android/keyguard/KeyguardRune;->canSetDcmLauncher()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 1817
+    .line 1818
     iget-object v0, p0, Lcom/android/systemui/statusbar/phone/NotificationPanelView$3;->this$0:Lcom/android/systemui/statusbar/phone/NotificationPanelView;
 
     invoke-static {v0, v2}, Lcom/android/systemui/statusbar/phone/NotificationPanelView;->-wrap2(Lcom/android/systemui/statusbar/phone/NotificationPanelView;I)V
 
-    .line 1813
+    .line 1814
     :cond_0
     return-void
 .end method

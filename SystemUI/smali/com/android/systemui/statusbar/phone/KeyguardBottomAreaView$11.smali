@@ -24,7 +24,7 @@
     .param p1, "this$0"    # Lcom/android/systemui/statusbar/phone/KeyguardBottomAreaView;
 
     .prologue
-    .line 1261
+    .line 1249
     iput-object p1, p0, Lcom/android/systemui/statusbar/phone/KeyguardBottomAreaView$11;->this$0:Lcom/android/systemui/statusbar/phone/KeyguardBottomAreaView;
 
     invoke-direct {p0}, Landroid/animation/AnimatorListenerAdapter;-><init>()V
@@ -47,12 +47,12 @@
 
     const/4 v7, 0x0
 
-    .line 1263
+    .line 1251
     new-instance v0, Landroid/animation/AnimatorSet;
 
     invoke-direct {v0}, Landroid/animation/AnimatorSet;-><init>()V
 
-    .line 1264
+    .line 1252
     .local v0, "bounceAnimPhase2":Landroid/animation/AnimatorSet;
     iget-object v3, p0, Lcom/android/systemui/statusbar/phone/KeyguardBottomAreaView$11;->this$0:Lcom/android/systemui/statusbar/phone/KeyguardBottomAreaView;
 
@@ -62,12 +62,12 @@
 
     invoke-virtual {v0, v3}, Landroid/animation/AnimatorSet;->setInterpolator(Landroid/animation/TimeInterpolator;)V
 
-    .line 1265
+    .line 1253
     const-wide/16 v4, 0x15e
 
     invoke-virtual {v0, v4, v5}, Landroid/animation/AnimatorSet;->setDuration(J)Landroid/animation/AnimatorSet;
 
-    .line 1267
+    .line 1255
     iget-object v3, p0, Lcom/android/systemui/statusbar/phone/KeyguardBottomAreaView$11;->this$0:Lcom/android/systemui/statusbar/phone/KeyguardBottomAreaView;
 
     invoke-static {v3}, Lcom/android/systemui/statusbar/phone/KeyguardBottomAreaView;->-get2(Lcom/android/systemui/statusbar/phone/KeyguardBottomAreaView;)Ljava/util/ArrayList;
@@ -93,7 +93,7 @@
 
     check-cast v1, Landroid/view/View;
 
-    .line 1268
+    .line 1256
     .local v1, "v":Landroid/view/View;
     if-eqz v1, :cond_0
 
@@ -103,10 +103,10 @@
 
     if-nez v3, :cond_0
 
-    .line 1269
+    .line 1257
     new-array v3, v8, [Landroid/animation/Animator;
 
-    .line 1270
+    .line 1258
     sget-object v4, Landroid/view/View;->SCALE_X:Landroid/util/Property;
 
     new-array v5, v10, [F
@@ -125,13 +125,13 @@
 
     aput-object v4, v3, v7
 
-    .line 1269
+    .line 1257
     invoke-virtual {v0, v3}, Landroid/animation/AnimatorSet;->playTogether([Landroid/animation/Animator;)V
 
-    .line 1271
+    .line 1259
     new-array v3, v8, [Landroid/animation/Animator;
 
-    .line 1272
+    .line 1260
     sget-object v4, Landroid/view/View;->SCALE_Y:Landroid/util/Property;
 
     new-array v5, v10, [F
@@ -150,16 +150,16 @@
 
     aput-object v4, v3, v7
 
-    .line 1271
+    .line 1259
     invoke-virtual {v0, v3}, Landroid/animation/AnimatorSet;->playTogether([Landroid/animation/Animator;)V
 
     goto :goto_0
 
-    .line 1275
+    .line 1263
     .end local v1    # "v":Landroid/view/View;
     :cond_1
     invoke-virtual {v0}, Landroid/animation/AnimatorSet;->start()V
 
-    .line 1262
+    .line 1250
     return-void
 .end method

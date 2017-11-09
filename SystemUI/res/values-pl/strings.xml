@@ -2113,4 +2113,5 @@ Spróbuj ponownie za 1 sekundę"</string>
     <string name="clear_cover_month_day_no_year">MMM d</string>
     <string name="clear_cover_day_month_no_year">d MMM</string>
     <string name="volumepanel_notification">Powiadomienie</string>
+    <string name="remote_input_send_text">Wyślij</string>
 </resources>

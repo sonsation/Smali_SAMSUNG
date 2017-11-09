@@ -27,7 +27,7 @@
     .param p2, "val$vis"    # Z
 
     .prologue
-    .line 1992
+    .line 1993
     iput-object p1, p0, Lcom/android/systemui/statusbar/phone/NotificationPanelView$17;->this$0:Lcom/android/systemui/statusbar/phone/NotificationPanelView;
 
     iput-boolean p2, p0, Lcom/android/systemui/statusbar/phone/NotificationPanelView$17;->val$vis:Z
@@ -44,7 +44,7 @@
     .param p1, "animation"    # Landroid/animation/Animator;
 
     .prologue
-    .line 1995
+    .line 1996
     iget-object v0, p0, Lcom/android/systemui/statusbar/phone/NotificationPanelView$17;->this$0:Lcom/android/systemui/statusbar/phone/NotificationPanelView;
 
     iget-object v0, v0, Lcom/android/systemui/statusbar/phone/NotificationPanelView;->mKeyguardBottomArea:Lcom/android/systemui/statusbar/phone/KeyguardBottomAreaView;
@@ -53,7 +53,7 @@
 
     invoke-virtual {v0, v1}, Lcom/android/systemui/statusbar/phone/KeyguardBottomAreaView;->setBottomShortcutVisibility(Z)V
 
-    .line 1996
+    .line 1997
     iget-object v0, p0, Lcom/android/systemui/statusbar/phone/NotificationPanelView$17;->this$0:Lcom/android/systemui/statusbar/phone/NotificationPanelView;
 
     invoke-static {v0}, Lcom/android/systemui/statusbar/phone/NotificationPanelView;->-get7(Lcom/android/systemui/statusbar/phone/NotificationPanelView;)Landroid/view/View;
@@ -69,10 +69,10 @@
     :goto_0
     invoke-virtual {v1, v0}, Landroid/view/View;->setVisibility(I)V
 
-    .line 1994
+    .line 1995
     return-void
 
-    .line 1996
+    .line 1997
     :cond_0
     const/4 v0, 0x4
 

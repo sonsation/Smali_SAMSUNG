@@ -552,7 +552,7 @@ Use only the supplied charger."</string>
     <string name="brightness_controller_label_text">Auto</string>
     <string name="quick_settings_brightness_controller_hbm">Maximised for best viewing in sunlight</string>
     <string name="status_bar_settings_notifications">Notifications</string>
-    <string name="status_bar_network_name_separator">|</string>
+    <string name="status_bar_network_name_separator">" | "</string>
     <string name="bluetooth_tethered">Bluetooth tethered</string>
     <string name="status_bar_input_method_settings_configure_input_methods">Set up input methods</string>
     <string name="status_bar_use_physical_keyboard">Physical keyboard</string>
@@ -1127,7 +1127,8 @@ The Wi-Fi calling icon will appear in the notification panel as shown below whil
     <string name="wificalling_popup_rogers_wifi_enable_text">Please connect to a Wi-Fi Network to register for Wi-Fi calling</string>
     <string name="activate">Activate</string>
     <string name="quick_settings_brightness_auto_brightness">Auto brightness</string>
-    <string name="quick_settings_brightness_auto_brightness_summary">Adjust the screen brightness automatically based on the lighting conditions.</string>
+    <string name="quick_settings_brightness_auto_brightness_summary">Keep track of your brightness adjustments and apply them automatically in similar lighting conditions.</string>
+    <string name="quick_settings_brightness_auto_brightness_summary_nopac">Adjust the screen brightness automatically based on the current lighting conditions.</string>
     <string name="quick_settings_brightness_quick_access">Show control on top</string>
     <string name="quick_settings_brightness_quick_access_summary">Show the brightness control above the notification panel.</string>
     <string name="quick_settings_brightness_detail_level">Level</string>
@@ -2402,6 +2403,6 @@ Try again in 1 second"</string>
     <string name="kg_wallpaper_applied_toast_cinematic_without_aod">Infinity wallpaper applied to home and lock screen.</string>
     <string name="kg_too_many_failed_countdown_by_fingerprint">%d incorrect attempts to verify fingerprints. Try again in 30 seconds.</string>
     <string name="kg_too_many_failed_countdown_by_biometrics">%d incorrect attempts to verify biometrics. Try again in 30 seconds.</string>
-    <item type="string" name="APKTOOL_DUMMY_6c5">false</item>
-    <item type="string" name="APKTOOL_DUMMY_6c6">false</item>
+    <item type="string" name="APKTOOL_DUMMY_6c7">false</item>
+    <item type="string" name="APKTOOL_DUMMY_6c8">false</item>
 </resources>

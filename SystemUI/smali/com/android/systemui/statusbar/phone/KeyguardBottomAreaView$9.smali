@@ -27,7 +27,7 @@
     .param p1, "this$0"    # Lcom/android/systemui/statusbar/phone/KeyguardBottomAreaView;
 
     .prologue
-    .line 791
+    .line 779
     iput-object p1, p0, Lcom/android/systemui/statusbar/phone/KeyguardBottomAreaView$9;->this$0:Lcom/android/systemui/statusbar/phone/KeyguardBottomAreaView;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -41,20 +41,20 @@
     .locals 1
 
     .prologue
-    .line 794
+    .line 782
     iget-object v0, p0, Lcom/android/systemui/statusbar/phone/KeyguardBottomAreaView$9;->this$0:Lcom/android/systemui/statusbar/phone/KeyguardBottomAreaView;
 
     iget-object v0, v0, Lcom/android/systemui/statusbar/phone/KeyguardBottomAreaView;->mAssistManager:Lcom/android/systemui/assist/AssistManager;
 
     invoke-virtual {v0}, Lcom/android/systemui/assist/AssistManager;->launchVoiceAssistFromKeyguard()V
 
-    .line 795
+    .line 783
     iget-object v0, p0, Lcom/android/systemui/statusbar/phone/KeyguardBottomAreaView$9;->this$0:Lcom/android/systemui/statusbar/phone/KeyguardBottomAreaView;
 
     iget-object v0, v0, Lcom/android/systemui/statusbar/phone/KeyguardBottomAreaView;->mActivityStarter:Lcom/android/systemui/statusbar/phone/ActivityStarter;
 
     invoke-interface {v0}, Lcom/android/systemui/statusbar/phone/ActivityStarter;->preventNextAnimation()V
 
-    .line 793
+    .line 781
     return-void
 .end method
