@@ -33,21 +33,21 @@
     .param p4, "maxLimitSpkGameVolume"    # Z
 
     .prologue
-    .line 12805
+    .line 12819
     iput-object p1, p0, Lcom/android/server/audio/AudioService$SoundKitchen$SoundKitchenItem;->this$1:Lcom/android/server/audio/AudioService$SoundKitchen;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 12806
+    .line 12820
     iput p2, p0, Lcom/android/server/audio/AudioService$SoundKitchen$SoundKitchenItem;->mDevice:I
 
-    .line 12807
+    .line 12821
     iput p3, p0, Lcom/android/server/audio/AudioService$SoundKitchen$SoundKitchenItem;->mRatio:I
 
-    .line 12808
+    .line 12822
     iput-boolean p4, p0, Lcom/android/server/audio/AudioService$SoundKitchen$SoundKitchenItem;->mMaxLimitSpkGameVolume:Z
 
-    .line 12805
+    .line 12819
     return-void
 .end method
 
@@ -58,7 +58,7 @@
     .param p1, "force"    # Z
 
     .prologue
-    .line 12816
+    .line 12830
     if-nez p1, :cond_0
 
     iget-object v0, p0, Lcom/android/server/audio/AudioService$SoundKitchen$SoundKitchenItem;->this$1:Lcom/android/server/audio/AudioService$SoundKitchen;
@@ -73,13 +73,13 @@
 
     if-eqz v0, :cond_1
 
-    .line 12817
+    .line 12831
     :cond_0
     iget v0, p0, Lcom/android/server/audio/AudioService$SoundKitchen$SoundKitchenItem;->mDevice:I
 
     return v0
 
-    .line 12819
+    .line 12833
     :cond_1
     const/4 v0, 0x0
 
@@ -90,7 +90,7 @@
     .locals 1
 
     .prologue
-    .line 12827
+    .line 12841
     iget v0, p0, Lcom/android/server/audio/AudioService$SoundKitchen$SoundKitchenItem;->mRatio:I
 
     return v0
@@ -100,7 +100,7 @@
     .locals 1
 
     .prologue
-    .line 12835
+    .line 12849
     iget-boolean v0, p0, Lcom/android/server/audio/AudioService$SoundKitchen$SoundKitchenItem;->mMaxLimitSpkGameVolume:Z
 
     return v0
@@ -111,10 +111,10 @@
     .param p1, "device"    # I
 
     .prologue
-    .line 12812
+    .line 12826
     iput p1, p0, Lcom/android/server/audio/AudioService$SoundKitchen$SoundKitchenItem;->mDevice:I
 
-    .line 12811
+    .line 12825
     return-void
 .end method
 
@@ -123,10 +123,10 @@
     .param p1, "ratio"    # I
 
     .prologue
-    .line 12823
+    .line 12837
     iput p1, p0, Lcom/android/server/audio/AudioService$SoundKitchen$SoundKitchenItem;->mRatio:I
 
-    .line 12822
+    .line 12836
     return-void
 .end method
 
@@ -135,9 +135,9 @@
     .param p1, "state"    # Z
 
     .prologue
-    .line 12831
+    .line 12845
     iput-boolean p1, p0, Lcom/android/server/audio/AudioService$SoundKitchen$SoundKitchenItem;->mMaxLimitSpkGameVolume:Z
 
-    .line 12830
+    .line 12844
     return-void
 .end method

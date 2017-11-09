@@ -24,7 +24,7 @@
     .param p1, "this$1"    # Lcom/android/server/enterprise/application/ApplicationPolicy$12;
 
     .prologue
-    .line 6694
+    .line 6696
     iput-object p1, p0, Lcom/android/server/enterprise/application/ApplicationPolicy$12$1;->this$1:Lcom/android/server/enterprise/application/ApplicationPolicy$12;
 
     invoke-direct {p0}, Ljava/lang/Thread;-><init>()V
@@ -38,13 +38,13 @@
     .locals 1
 
     .prologue
-    .line 6697
+    .line 6699
     iget-object v0, p0, Lcom/android/server/enterprise/application/ApplicationPolicy$12$1;->this$1:Lcom/android/server/enterprise/application/ApplicationPolicy$12;
 
     iget-object v0, v0, Lcom/android/server/enterprise/application/ApplicationPolicy$12;->this$0:Lcom/android/server/enterprise/application/ApplicationPolicy;
 
     invoke-static {v0}, Lcom/android/server/enterprise/application/ApplicationPolicy;->-wrap8(Lcom/android/server/enterprise/application/ApplicationPolicy;)V
 
-    .line 6695
+    .line 6697
     return-void
 .end method

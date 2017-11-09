@@ -26,16 +26,16 @@
     .param p1, "this$0"    # Lcom/android/server/audio/AudioService;
 
     .prologue
-    .line 4295
+    .line 4288
     iput-object p1, p0, Lcom/android/server/audio/AudioService$LoadSoundEffectReply;->this$0:Lcom/android/server/audio/AudioService;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 4296
+    .line 4289
     const/4 v0, 0x1
 
     iput v0, p0, Lcom/android/server/audio/AudioService$LoadSoundEffectReply;->mStatus:I
 
-    .line 4295
+    .line 4288
     return-void
 .end method

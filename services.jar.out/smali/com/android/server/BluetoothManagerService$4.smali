@@ -27,7 +27,7 @@
     .param p1, "this$0"    # Lcom/android/server/BluetoothManagerService;
 
     .prologue
-    .line 3149
+    .line 3155
     iput-object p1, p0, Lcom/android/server/BluetoothManagerService$4;->this$0:Lcom/android/server/BluetoothManagerService;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -43,33 +43,33 @@
     .param p2, "which"    # I
 
     .prologue
-    .line 3152
+    .line 3158
     const/4 v0, -0x1
 
     if-ne p2, v0, :cond_1
 
-    .line 3153
+    .line 3159
     const/4 v0, 0x1
 
     invoke-static {v0}, Lcom/android/server/BluetoothManagerService;->-set0(Z)Z
 
-    .line 3154
+    .line 3160
     iget-object v0, p0, Lcom/android/server/BluetoothManagerService$4;->this$0:Lcom/android/server/BluetoothManagerService;
 
     invoke-virtual {v0}, Lcom/android/server/BluetoothManagerService;->enable()Z
 
-    .line 3158
+    .line 3164
     :goto_0
     if-eqz p1, :cond_0
 
-    .line 3159
+    .line 3165
     invoke-interface {p1}, Landroid/content/DialogInterface;->dismiss()V
 
-    .line 3151
+    .line 3157
     :cond_0
     return-void
 
-    .line 3156
+    .line 3162
     :cond_1
     iget-object v0, p0, Lcom/android/server/BluetoothManagerService$4;->this$0:Lcom/android/server/BluetoothManagerService;
 

@@ -56,16 +56,16 @@
     .param p2, "usage"    # J
 
     .prologue
-    .line 5682
+    .line 5684
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 5683
+    .line 5685
     iput-object p1, p0, Lcom/android/server/enterprise/application/ApplicationPolicy$AppInfoTask;->mCmd:Ljava/lang/String;
 
-    .line 5684
+    .line 5686
     iput-wide p2, p0, Lcom/android/server/enterprise/application/ApplicationPolicy$AppInfoTask;->mUsage:J
 
-    .line 5682
+    .line 5684
     return-void
 .end method
 
@@ -76,7 +76,7 @@
     .param p1, "other"    # Lcom/android/server/enterprise/application/ApplicationPolicy$AppInfoTask;
 
     .prologue
-    .line 5714
+    .line 5716
     iget-wide v0, p0, Lcom/android/server/enterprise/application/ApplicationPolicy$AppInfoTask;->mUsage:J
 
     iget-wide v2, p1, Lcom/android/server/enterprise/application/ApplicationPolicy$AppInfoTask;->mUsage:J
@@ -85,7 +85,7 @@
 
     if-nez v0, :cond_0
 
-    .line 5715
+    .line 5717
     iget-object v0, p0, Lcom/android/server/enterprise/application/ApplicationPolicy$AppInfoTask;->mCmd:Ljava/lang/String;
 
     iget-object v1, p1, Lcom/android/server/enterprise/application/ApplicationPolicy$AppInfoTask;->mCmd:Ljava/lang/String;
@@ -96,7 +96,7 @@
 
     return v0
 
-    .line 5717
+    .line 5719
     :cond_0
     iget-wide v0, p0, Lcom/android/server/enterprise/application/ApplicationPolicy$AppInfoTask;->mUsage:J
 
@@ -116,7 +116,7 @@
     .param p1, "other"    # Ljava/lang/Object;
 
     .prologue
-    .line 5713
+    .line 5715
     check-cast p1, Lcom/android/server/enterprise/application/ApplicationPolicy$AppInfoTask;
 
     .end local p1    # "other":Ljava/lang/Object;
@@ -131,7 +131,7 @@
     .locals 1
 
     .prologue
-    .line 5693
+    .line 5695
     iget-object v0, p0, Lcom/android/server/enterprise/application/ApplicationPolicy$AppInfoTask;->mCmd:Ljava/lang/String;
 
     return-object v0
@@ -141,7 +141,7 @@
     .locals 2
 
     .prologue
-    .line 5702
+    .line 5704
     iget-wide v0, p0, Lcom/android/server/enterprise/application/ApplicationPolicy$AppInfoTask;->mUsage:J
 
     return-wide v0

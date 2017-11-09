@@ -24,17 +24,17 @@
     .param p1, "context"    # Landroid/content/Context;
 
     .prologue
-    .line 3127
+    .line 3128
     invoke-direct {p0, p1}, Lcom/android/server/SystemService;-><init>(Landroid/content/Context;)V
 
-    .line 3128
+    .line 3129
     new-instance v0, Lcom/android/server/am/ActivityManagerService;
 
     invoke-direct {v0, p1}, Lcom/android/server/am/ActivityManagerService;-><init>(Landroid/content/Context;)V
 
     iput-object v0, p0, Lcom/android/server/am/ActivityManagerService$Lifecycle;->mService:Lcom/android/server/am/ActivityManagerService;
 
-    .line 3126
+    .line 3127
     return-void
 .end method
 
@@ -44,7 +44,7 @@
     .locals 1
 
     .prologue
-    .line 3137
+    .line 3138
     iget-object v0, p0, Lcom/android/server/am/ActivityManagerService$Lifecycle;->mService:Lcom/android/server/am/ActivityManagerService;
 
     return-object v0
@@ -54,11 +54,11 @@
     .locals 1
 
     .prologue
-    .line 3133
+    .line 3134
     iget-object v0, p0, Lcom/android/server/am/ActivityManagerService$Lifecycle;->mService:Lcom/android/server/am/ActivityManagerService;
 
     invoke-static {v0}, Lcom/android/server/am/ActivityManagerService;->-wrap13(Lcom/android/server/am/ActivityManagerService;)V
 
-    .line 3132
+    .line 3133
     return-void
 .end method

@@ -30,19 +30,19 @@
     .param p3, "prefix"    # Z
 
     .prologue
-    .line 1331
+    .line 1332
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 1332
+    .line 1333
     iput p1, p0, Lcom/android/server/am/ActivityManagerService$GrantUri;->sourceUserId:I
 
-    .line 1333
+    .line 1334
     iput-object p2, p0, Lcom/android/server/am/ActivityManagerService$GrantUri;->uri:Landroid/net/Uri;
 
-    .line 1334
+    .line 1335
     iput-boolean p3, p0, Lcom/android/server/am/ActivityManagerService$GrantUri;->prefix:Z
 
-    .line 1331
+    .line 1332
     return-void
 .end method
 
@@ -52,21 +52,21 @@
     .param p1, "uri"    # Landroid/net/Uri;
 
     .prologue
-    .line 1370
+    .line 1371
     new-instance v0, Lcom/android/server/am/ActivityManagerService$GrantUri;
 
     invoke-static {p1, p0}, Landroid/content/ContentProvider;->getUserIdFromUri(Landroid/net/Uri;I)I
 
     move-result v1
 
-    .line 1371
+    .line 1372
     invoke-static {p1}, Landroid/content/ContentProvider;->getUriWithoutUserId(Landroid/net/Uri;)Landroid/net/Uri;
 
     move-result-object v2
 
     const/4 v3, 0x0
 
-    .line 1370
+    .line 1371
     invoke-direct {v0, v1, v2, v3}, Lcom/android/server/am/ActivityManagerService$GrantUri;-><init>(ILandroid/net/Uri;Z)V
 
     return-object v0
@@ -81,17 +81,17 @@
     .prologue
     const/4 v1, 0x0
 
-    .line 1348
+    .line 1349
     instance-of v2, p1, Lcom/android/server/am/ActivityManagerService$GrantUri;
 
     if-eqz v2, :cond_1
 
     move-object v0, p1
 
-    .line 1349
+    .line 1350
     check-cast v0, Lcom/android/server/am/ActivityManagerService$GrantUri;
 
-    .line 1350
+    .line 1351
     .local v0, "other":Lcom/android/server/am/ActivityManagerService$GrantUri;
     iget-object v2, p0, Lcom/android/server/am/ActivityManagerService$GrantUri;->uri:Landroid/net/Uri;
 
@@ -109,7 +109,7 @@
 
     if-ne v2, v3, :cond_0
 
-    .line 1351
+    .line 1352
     iget-boolean v2, p0, Lcom/android/server/am/ActivityManagerService$GrantUri;->prefix:Z
 
     iget-boolean v3, v0, Lcom/android/server/am/ActivityManagerService$GrantUri;->prefix:Z
@@ -118,11 +118,11 @@
 
     const/4 v1, 0x1
 
-    .line 1350
+    .line 1351
     :cond_0
     return v1
 
-    .line 1353
+    .line 1354
     .end local v0    # "other":Lcom/android/server/am/ActivityManagerService$GrantUri;
     :cond_1
     return v1
@@ -132,12 +132,12 @@
     .locals 3
 
     .prologue
-    .line 1340
+    .line 1341
     iget v1, p0, Lcom/android/server/am/ActivityManagerService$GrantUri;->sourceUserId:I
 
     add-int/lit8 v0, v1, 0x1f
 
-    .line 1341
+    .line 1342
     .local v0, "hashCode":I
     mul-int/lit8 v1, v0, 0x1f
 
@@ -149,7 +149,7 @@
 
     add-int v0, v1, v2
 
-    .line 1342
+    .line 1343
     mul-int/lit8 v2, v0, 0x1f
 
     iget-boolean v1, p0, Lcom/android/server/am/ActivityManagerService$GrantUri;->prefix:Z
@@ -161,10 +161,10 @@
     :goto_0
     add-int v0, v2, v1
 
-    .line 1343
+    .line 1344
     return v0
 
-    .line 1342
+    .line 1343
     :cond_0
     const/16 v1, 0x4d5
 
@@ -175,7 +175,7 @@
     .locals 3
 
     .prologue
-    .line 1364
+    .line 1365
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -210,7 +210,7 @@
 
     move-result-object v0
 
-    .line 1365
+    .line 1366
     .local v0, "result":Ljava/lang/String;
     iget-boolean v1, p0, Lcom/android/server/am/ActivityManagerService$GrantUri;->prefix:Z
 
@@ -234,7 +234,7 @@
 
     move-result-object v0
 
-    .line 1366
+    .line 1367
     :cond_0
     return-object v0
 .end method
@@ -243,7 +243,7 @@
     .locals 3
 
     .prologue
-    .line 1358
+    .line 1359
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -278,7 +278,7 @@
 
     move-result-object v0
 
-    .line 1359
+    .line 1360
     .local v0, "result":Ljava/lang/String;
     iget-boolean v1, p0, Lcom/android/server/am/ActivityManagerService$GrantUri;->prefix:Z
 
@@ -302,7 +302,7 @@
 
     move-result-object v0
 
-    .line 1360
+    .line 1361
     :cond_0
     return-object v0
 .end method

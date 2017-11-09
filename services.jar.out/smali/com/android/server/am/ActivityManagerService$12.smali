@@ -24,7 +24,7 @@
     .param p1, "this$0"    # Lcom/android/server/am/ActivityManagerService;
 
     .prologue
-    .line 8869
+    .line 8870
     iput-object p1, p0, Lcom/android/server/am/ActivityManagerService$12;->this$0:Lcom/android/server/am/ActivityManagerService;
 
     invoke-direct {p0}, Landroid/content/BroadcastReceiver;-><init>()V
@@ -40,7 +40,7 @@
     .param p2, "intent"    # Landroid/content/Intent;
 
     .prologue
-    .line 8872
+    .line 8873
     iget-object v3, p0, Lcom/android/server/am/ActivityManagerService$12;->this$0:Lcom/android/server/am/ActivityManagerService;
 
     iget-object v3, v3, Lcom/android/server/am/ActivityManagerService;->mStackSupervisor:Lcom/android/server/am/ActivityStackSupervisor;
@@ -49,20 +49,20 @@
 
     move-result-object v2
 
-    .line 8873
+    .line 8874
     .local v2, "stack":Lcom/android/server/am/ActivityStack;
     if-eqz v2, :cond_0
 
-    .line 8874
+    .line 8875
     invoke-virtual {v2}, Lcom/android/server/am/ActivityStack;->topRunningActivityLocked()Lcom/android/server/am/ActivityRecord;
 
     move-result-object v1
 
-    .line 8875
+    .line 8876
     .local v1, "r":Lcom/android/server/am/ActivityRecord;
     if-eqz v1, :cond_0
 
-    .line 8877
+    .line 8878
     iget-object v3, p0, Lcom/android/server/am/ActivityManagerService$12;->this$0:Lcom/android/server/am/ActivityManagerService;
 
     iget-object v3, v3, Lcom/android/server/am/ActivityManagerService;->mContext:Landroid/content/Context;
@@ -75,7 +75,7 @@
 
     check-cast v0, Landroid/os/PowerManager;
 
-    .line 8878
+    .line 8879
     .local v0, "powerManager":Landroid/os/PowerManager;
     if-eqz v0, :cond_0
 
@@ -85,7 +85,7 @@
 
     if-eqz v3, :cond_0
 
-    .line 8879
+    .line 8880
     iget-object v3, p0, Lcom/android/server/am/ActivityManagerService$12;->this$0:Lcom/android/server/am/ActivityManagerService;
 
     iget-object v4, v1, Lcom/android/server/am/ActivityRecord;->processName:Ljava/lang/String;
@@ -94,7 +94,7 @@
 
     invoke-static {v3, v5, v4}, Lcom/android/server/am/ActivityManagerService;->-wrap9(Lcom/android/server/am/ActivityManagerService;ILjava/lang/String;)V
 
-    .line 8871
+    .line 8872
     .end local v0    # "powerManager":Landroid/os/PowerManager;
     .end local v1    # "r":Lcom/android/server/am/ActivityRecord;
     :cond_0

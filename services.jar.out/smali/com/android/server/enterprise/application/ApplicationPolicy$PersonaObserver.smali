@@ -35,13 +35,13 @@
     .param p4, "flags"    # I
 
     .prologue
-    .line 5901
+    .line 5903
     iput-object p1, p0, Lcom/android/server/enterprise/application/ApplicationPolicy$PersonaObserver;->this$0:Lcom/android/server/enterprise/application/ApplicationPolicy;
 
-    .line 5902
+    .line 5904
     invoke-direct {p0, p2, p3, p4}, Lcom/samsung/android/knox/SemPersonaObserver;-><init>(Landroid/content/Context;II)V
 
-    .line 5901
+    .line 5903
     return-void
 .end method
 
@@ -52,14 +52,14 @@
     .param p1, "state"    # Z
 
     .prologue
-    .line 5912
+    .line 5914
     const-string/jumbo v0, "ApplicationPolicy"
 
     const-string/jumbo v1, "PersonaObserver.onKeyGuardStateChanged()"
 
     invoke-static {v0, v1}, Lcom/android/server/enterprise/log/Log;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 5911
+    .line 5913
     return-void
 .end method
 
@@ -67,14 +67,14 @@
     .locals 2
 
     .prologue
-    .line 5907
+    .line 5909
     const-string/jumbo v0, "ApplicationPolicy"
 
     const-string/jumbo v1, "PersonaObserver.onSessionExpired()"
 
     invoke-static {v0, v1}, Lcom/android/server/enterprise/log/Log;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 5906
+    .line 5908
     return-void
 .end method
 
@@ -84,7 +84,7 @@
     .param p2, "previousState"    # Lcom/samsung/android/knox/SemPersonaState;
 
     .prologue
-    .line 5917
+    .line 5919
     const-string/jumbo v0, "ApplicationPolicy"
 
     new-instance v1, Ljava/lang/StringBuilder;
@@ -117,7 +117,7 @@
 
     invoke-static {v0, v1}, Lcom/android/server/enterprise/log/Log;->v(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 5918
+    .line 5920
     iget-object v0, p0, Lcom/android/server/enterprise/application/ApplicationPolicy$PersonaObserver;->this$0:Lcom/android/server/enterprise/application/ApplicationPolicy;
 
     invoke-static {v0}, Lcom/android/server/enterprise/application/ApplicationPolicy;->-get2(Lcom/android/server/enterprise/application/ApplicationPolicy;)Landroid/os/Handler;
@@ -130,6 +130,6 @@
 
     invoke-virtual {v0, v1}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 
-    .line 5916
+    .line 5918
     return-void
 .end method

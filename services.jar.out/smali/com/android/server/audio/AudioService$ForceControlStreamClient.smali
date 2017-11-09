@@ -30,15 +30,15 @@
     .param p2, "cb"    # Landroid/os/IBinder;
 
     .prologue
-    .line 3256
+    .line 3249
     iput-object p1, p0, Lcom/android/server/audio/AudioService$ForceControlStreamClient;->this$0:Lcom/android/server/audio/AudioService;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3257
+    .line 3250
     if-eqz p2, :cond_0
 
-    .line 3259
+    .line 3252
     const/4 v1, 0x0
 
     :try_start_0
@@ -46,21 +46,21 @@
     :try_end_0
     .catch Landroid/os/RemoteException; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 3266
+    .line 3259
     .end local p2    # "cb":Landroid/os/IBinder;
     :cond_0
     :goto_0
     iput-object p2, p0, Lcom/android/server/audio/AudioService$ForceControlStreamClient;->mCb:Landroid/os/IBinder;
 
-    .line 3256
+    .line 3249
     return-void
 
-    .line 3260
+    .line 3253
     .restart local p2    # "cb":Landroid/os/IBinder;
     :catch_0
     move-exception v0
 
-    .line 3262
+    .line 3255
     .local v0, "e":Landroid/os/RemoteException;
     const-string/jumbo v1, "AudioService"
 
@@ -90,7 +90,7 @@
 
     invoke-static {v1, v2}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 3263
+    .line 3256
     const/4 p2, 0x0
 
     .local p2, "cb":Landroid/os/IBinder;
@@ -103,16 +103,16 @@
     .locals 3
 
     .prologue
-    .line 3270
+    .line 3263
     iget-object v0, p0, Lcom/android/server/audio/AudioService$ForceControlStreamClient;->this$0:Lcom/android/server/audio/AudioService;
 
-    invoke-static {v0}, Lcom/android/server/audio/AudioService;->-get35(Lcom/android/server/audio/AudioService;)Ljava/lang/Object;
+    invoke-static {v0}, Lcom/android/server/audio/AudioService;->-get34(Lcom/android/server/audio/AudioService;)Ljava/lang/Object;
 
     move-result-object v1
 
     monitor-enter v1
 
-    .line 3271
+    .line 3264
     :try_start_0
     const-string/jumbo v0, "AudioService"
 
@@ -120,16 +120,16 @@
 
     invoke-static {v0, v2}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 3272
+    .line 3265
     iget-object v0, p0, Lcom/android/server/audio/AudioService$ForceControlStreamClient;->this$0:Lcom/android/server/audio/AudioService;
 
-    invoke-static {v0}, Lcom/android/server/audio/AudioService;->-get34(Lcom/android/server/audio/AudioService;)Lcom/android/server/audio/AudioService$ForceControlStreamClient;
+    invoke-static {v0}, Lcom/android/server/audio/AudioService;->-get33(Lcom/android/server/audio/AudioService;)Lcom/android/server/audio/AudioService$ForceControlStreamClient;
 
     move-result-object v0
 
     if-eq v0, p0, :cond_0
 
-    .line 3273
+    .line 3266
     const-string/jumbo v0, "AudioService"
 
     const-string/jumbo v2, "unregistered control stream client died"
@@ -141,10 +141,10 @@
     :goto_0
     monitor-exit v1
 
-    .line 3269
+    .line 3262
     return-void
 
-    .line 3275
+    .line 3268
     :cond_0
     :try_start_1
     iget-object v0, p0, Lcom/android/server/audio/AudioService$ForceControlStreamClient;->this$0:Lcom/android/server/audio/AudioService;
@@ -153,7 +153,7 @@
 
     invoke-static {v0, v2}, Lcom/android/server/audio/AudioService;->-set12(Lcom/android/server/audio/AudioService;Lcom/android/server/audio/AudioService$ForceControlStreamClient;)Lcom/android/server/audio/AudioService$ForceControlStreamClient;
 
-    .line 3276
+    .line 3269
     iget-object v0, p0, Lcom/android/server/audio/AudioService$ForceControlStreamClient;->this$0:Lcom/android/server/audio/AudioService;
 
     const/4 v2, -0x1
@@ -164,7 +164,7 @@
 
     goto :goto_0
 
-    .line 3270
+    .line 3263
     :catchall_0
     move-exception v0
 
@@ -179,22 +179,22 @@
     .prologue
     const/4 v2, 0x0
 
-    .line 3282
+    .line 3275
     iget-object v0, p0, Lcom/android/server/audio/AudioService$ForceControlStreamClient;->mCb:Landroid/os/IBinder;
 
     if-eqz v0, :cond_0
 
-    .line 3283
+    .line 3276
     iget-object v0, p0, Lcom/android/server/audio/AudioService$ForceControlStreamClient;->mCb:Landroid/os/IBinder;
 
     const/4 v1, 0x0
 
     invoke-interface {v0, p0, v1}, Landroid/os/IBinder;->unlinkToDeath(Landroid/os/IBinder$DeathRecipient;I)Z
 
-    .line 3284
+    .line 3277
     iput-object v2, p0, Lcom/android/server/audio/AudioService$ForceControlStreamClient;->mCb:Landroid/os/IBinder;
 
-    .line 3281
+    .line 3274
     :cond_0
     return-void
 .end method

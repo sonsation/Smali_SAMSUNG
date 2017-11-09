@@ -25,7 +25,7 @@
     .param p2, "$anonymous0"    # Landroid/os/Handler;
 
     .prologue
-    .line 863
+    .line 868
     iput-object p1, p0, Lcom/android/server/BluetoothManagerService$3;->this$0:Lcom/android/server/BluetoothManagerService;
 
     invoke-direct {p0, p2}, Landroid/database/ContentObserver;-><init>(Landroid/os/Handler;)V
@@ -40,7 +40,7 @@
     .param p1, "selfChange"    # Z
 
     .prologue
-    .line 866
+    .line 871
     const-string/jumbo v6, "BluetoothManagerService"
 
     new-instance v7, Ljava/lang/StringBuilder;
@@ -67,7 +67,7 @@
 
     move-result-object v7
 
-    invoke-static {}, Lcom/android/server/BluetoothManagerService;->-get23()I
+    invoke-static {}, Lcom/android/server/BluetoothManagerService;->-get24()I
 
     move-result v8
 
@@ -81,7 +81,7 @@
 
     invoke-static {v6, v7}, Landroid/util/Slog;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 867
+    .line 872
     iget-object v6, p0, Lcom/android/server/BluetoothManagerService$3;->this$0:Lcom/android/server/BluetoothManagerService;
 
     invoke-virtual {v6}, Lcom/android/server/BluetoothManagerService;->isBleScanAlwaysAvailable()Z
@@ -90,14 +90,14 @@
 
     if-nez v6, :cond_3
 
-    .line 868
-    invoke-static {}, Lcom/android/server/BluetoothManagerService;->-get23()I
+    .line 873
+    invoke-static {}, Lcom/android/server/BluetoothManagerService;->-get24()I
 
     move-result v6
 
     if-nez v6, :cond_4
 
-    .line 869
+    .line 874
     invoke-static {}, Lcom/android/server/BluetoothManagerService;->-get1()Z
 
     move-result v6
@@ -110,18 +110,18 @@
 
     invoke-static {v6, v7}, Landroid/util/Slog;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 870
+    .line 875
     :cond_0
     iget-object v6, p0, Lcom/android/server/BluetoothManagerService$3;->this$0:Lcom/android/server/BluetoothManagerService;
 
     invoke-static {v6}, Lcom/android/server/BluetoothManagerService;->-wrap9(Lcom/android/server/BluetoothManagerService;)V
 
-    .line 871
+    .line 876
     iget-object v6, p0, Lcom/android/server/BluetoothManagerService$3;->this$0:Lcom/android/server/BluetoothManagerService;
 
     invoke-static {v6}, Lcom/android/server/BluetoothManagerService;->-wrap8(Lcom/android/server/BluetoothManagerService;)V
 
-    .line 873
+    .line 878
     :try_start_0
     iget-object v6, p0, Lcom/android/server/BluetoothManagerService$3;->this$0:Lcom/android/server/BluetoothManagerService;
 
@@ -135,7 +135,7 @@
 
     invoke-virtual {v6}, Ljava/util/concurrent/locks/ReentrantReadWriteLock$ReadLock;->lock()V
 
-    .line 874
+    .line 879
     iget-object v6, p0, Lcom/android/server/BluetoothManagerService$3;->this$0:Lcom/android/server/BluetoothManagerService;
 
     invoke-static {v6}, Lcom/android/server/BluetoothManagerService;->-get5(Lcom/android/server/BluetoothManagerService;)Landroid/bluetooth/IBluetooth;
@@ -155,7 +155,7 @@
     .catch Landroid/os/RemoteException; {:try_start_0 .. :try_end_0} :catch_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 878
+    .line 883
     :cond_1
     iget-object v6, p0, Lcom/android/server/BluetoothManagerService$3;->this$0:Lcom/android/server/BluetoothManagerService;
 
@@ -169,7 +169,7 @@
 
     invoke-virtual {v6}, Ljava/util/concurrent/locks/ReentrantReadWriteLock$ReadLock;->unlock()V
 
-    .line 902
+    .line 907
     :cond_2
     :goto_0
     const-string/jumbo v6, "BluetoothManagerService"
@@ -198,7 +198,7 @@
 
     move-result-object v7
 
-    invoke-static {}, Lcom/android/server/BluetoothManagerService;->-get23()I
+    invoke-static {}, Lcom/android/server/BluetoothManagerService;->-get24()I
 
     move-result v8
 
@@ -212,15 +212,15 @@
 
     invoke-static {v6, v7}, Landroid/util/Slog;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 865
+    .line 870
     :cond_3
     return-void
 
-    .line 875
+    .line 880
     :catch_0
     move-exception v1
 
-    .line 876
+    .line 881
     .local v1, "e":Landroid/os/RemoteException;
     :try_start_1
     const-string/jumbo v6, "BluetoothManagerService"
@@ -231,7 +231,7 @@
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 878
+    .line 883
     iget-object v6, p0, Lcom/android/server/BluetoothManagerService$3;->this$0:Lcom/android/server/BluetoothManagerService;
 
     invoke-static {v6}, Lcom/android/server/BluetoothManagerService;->-get7(Lcom/android/server/BluetoothManagerService;)Ljava/util/concurrent/locks/ReentrantReadWriteLock;
@@ -246,12 +246,12 @@
 
     goto :goto_0
 
-    .line 877
+    .line 882
     .end local v1    # "e":Landroid/os/RemoteException;
     :catchall_0
     move-exception v6
 
-    .line 878
+    .line 883
     iget-object v7, p0, Lcom/android/server/BluetoothManagerService$3;->this$0:Lcom/android/server/BluetoothManagerService;
 
     invoke-static {v7}, Lcom/android/server/BluetoothManagerService;->-get7(Lcom/android/server/BluetoothManagerService;)Ljava/util/concurrent/locks/ReentrantReadWriteLock;
@@ -264,22 +264,22 @@
 
     invoke-virtual {v7}, Ljava/util/concurrent/locks/ReentrantReadWriteLock$ReadLock;->unlock()V
 
-    .line 877
+    .line 882
     throw v6
 
-    .line 880
+    .line 885
     :cond_4
     invoke-static {}, Lcom/android/server/BluetoothManagerService;->-get4()I
 
     move-result v6
 
-    invoke-static {}, Lcom/android/server/BluetoothManagerService;->-get23()I
+    invoke-static {}, Lcom/android/server/BluetoothManagerService;->-get24()I
 
     move-result v7
 
     if-le v6, v7, :cond_2
 
-    .line 881
+    .line 886
     invoke-static {}, Lcom/android/server/BluetoothManagerService;->-get1()Z
 
     move-result v6
@@ -292,7 +292,7 @@
 
     invoke-static {v6, v7}, Landroid/util/Slog;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 882
+    .line 887
     :cond_5
     iget-object v6, p0, Lcom/android/server/BluetoothManagerService$3;->this$0:Lcom/android/server/BluetoothManagerService;
 
@@ -300,26 +300,26 @@
 
     invoke-interface {v6}, Ljava/util/Map;->clear()V
 
-    .line 883
-    invoke-static {}, Lcom/android/server/BluetoothManagerService;->-get23()I
+    .line 888
+    invoke-static {}, Lcom/android/server/BluetoothManagerService;->-get24()I
 
     move-result v6
 
     invoke-static {v6}, Lcom/android/server/BluetoothManagerService;->-set2(I)I
 
-    .line 884
+    .line 889
     iget-object v6, p0, Lcom/android/server/BluetoothManagerService$3;->this$0:Lcom/android/server/BluetoothManagerService;
 
     invoke-virtual {v6}, Lcom/android/server/BluetoothManagerService;->sendDisableBleCallback()V
 
-    .line 886
+    .line 891
     iget-object v6, p0, Lcom/android/server/BluetoothManagerService$3;->this$0:Lcom/android/server/BluetoothManagerService;
 
     iget-object v7, v6, Lcom/android/server/BluetoothManagerService;->mSamsungBleApps:Ljava/util/Map;
 
     monitor-enter v7
 
-    .line 887
+    .line 892
     :try_start_2
     iget-object v6, p0, Lcom/android/server/BluetoothManagerService$3;->this$0:Lcom/android/server/BluetoothManagerService;
 
@@ -333,7 +333,7 @@
 
     move-result-object v4
 
-    .line 888
+    .line 893
     .local v4, "i":Ljava/util/Iterator;, "Ljava/util/Iterator<Ljava/util/Map$Entry<Landroid/os/IBinder;Lcom/android/server/BluetoothManagerService$ClientDeathRecipient;>;>;"
     :goto_1
     invoke-interface {v4}, Ljava/util/Iterator;->hasNext()Z
@@ -342,14 +342,14 @@
 
     if-eqz v6, :cond_6
 
-    .line 889
+    .line 894
     invoke-interface {v4}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v2
 
     check-cast v2, Ljava/util/Map$Entry;
 
-    .line 890
+    .line 895
     .local v2, "entry":Ljava/util/Map$Entry;, "Ljava/util/Map$Entry<Landroid/os/IBinder;Lcom/android/server/BluetoothManagerService$ClientDeathRecipient;>;"
     invoke-interface {v2}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
@@ -357,7 +357,7 @@
 
     check-cast v5, Landroid/os/IBinder;
 
-    .line 891
+    .line 896
     .local v5, "token":Landroid/os/IBinder;
     new-instance v0, Lcom/android/server/BluetoothManagerService$ClientDeathRecipient;
 
@@ -365,7 +365,7 @@
 
     invoke-direct {v0, v6}, Lcom/android/server/BluetoothManagerService$ClientDeathRecipient;-><init>(Lcom/android/server/BluetoothManagerService;)V
 
-    .line 892
+    .line 897
     .local v0, "deathRec":Lcom/android/server/BluetoothManagerService$ClientDeathRecipient;
     const/4 v6, 0x1
 
@@ -373,7 +373,7 @@
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_1
 
-    .line 894
+    .line 899
     const/4 v6, 0x0
 
     :try_start_3
@@ -382,7 +382,7 @@
     .catch Landroid/os/RemoteException; {:try_start_3 .. :try_end_3} :catch_1
     .catchall {:try_start_3 .. :try_end_3} :catchall_1
 
-    .line 898
+    .line 903
     :try_start_4
     iget-object v6, p0, Lcom/android/server/BluetoothManagerService$3;->this$0:Lcom/android/server/BluetoothManagerService;
 
@@ -394,7 +394,7 @@
 
     goto :goto_1
 
-    .line 886
+    .line 891
     .end local v0    # "deathRec":Lcom/android/server/BluetoothManagerService$ClientDeathRecipient;
     .end local v2    # "entry":Ljava/util/Map$Entry;, "Ljava/util/Map$Entry<Landroid/os/IBinder;Lcom/android/server/BluetoothManagerService$ClientDeathRecipient;>;"
     .end local v4    # "i":Ljava/util/Iterator;, "Ljava/util/Iterator<Ljava/util/Map$Entry<Landroid/os/IBinder;Lcom/android/server/BluetoothManagerService$ClientDeathRecipient;>;>;"
@@ -406,7 +406,7 @@
 
     throw v6
 
-    .line 895
+    .line 900
     .restart local v0    # "deathRec":Lcom/android/server/BluetoothManagerService$ClientDeathRecipient;
     .restart local v2    # "entry":Ljava/util/Map$Entry;, "Ljava/util/Map$Entry<Landroid/os/IBinder;Lcom/android/server/BluetoothManagerService$ClientDeathRecipient;>;"
     .restart local v4    # "i":Ljava/util/Iterator;, "Ljava/util/Iterator<Ljava/util/Map$Entry<Landroid/os/IBinder;Lcom/android/server/BluetoothManagerService$ClientDeathRecipient;>;>;"
@@ -414,7 +414,7 @@
     :catch_1
     move-exception v3
 
-    .line 896
+    .line 901
     .local v3, "ex":Landroid/os/RemoteException;
     :try_start_5
     new-instance v6, Ljava/lang/IllegalArgumentException;

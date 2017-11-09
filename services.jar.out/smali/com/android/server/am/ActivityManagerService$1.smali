@@ -28,7 +28,7 @@
     .locals 0
 
     .prologue
-    .line 947
+    .line 948
     invoke-direct {p0}, Ljava/lang/ThreadLocal;-><init>()V
 
     return-void
@@ -40,7 +40,7 @@
     .locals 1
 
     .prologue
-    .line 949
+    .line 950
     const/4 v0, 0x0
 
     invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -54,7 +54,7 @@
     .locals 1
 
     .prologue
-    .line 948
+    .line 949
     invoke-virtual {p0}, Lcom/android/server/am/ActivityManagerService$1;->initialValue()Ljava/lang/Integer;
 
     move-result-object v0

@@ -21,7 +21,7 @@
     .param p2, "$anonymous1"    # I
 
     .prologue
-    .line 6954
+    .line 6955
     invoke-direct {p0, p1, p2}, Landroid/os/FileObserver;-><init>(Ljava/lang/String;I)V
 
     return-void
@@ -37,7 +37,7 @@
     .prologue
     monitor-enter p0
 
-    .line 6956
+    .line 6957
     :try_start_0
     invoke-virtual {p0}, Lcom/android/server/am/ActivityManagerService$6;->notify()V
     :try_end_0

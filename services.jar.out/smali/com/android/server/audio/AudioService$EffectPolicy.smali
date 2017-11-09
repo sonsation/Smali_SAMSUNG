@@ -99,7 +99,7 @@
 
     const/4 v2, 0x0
 
-    .line 9196
+    .line 9210
     const-string/jumbo v0, "content://com.samsung.android.sm.policy"
 
     invoke-static {v0}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
@@ -108,7 +108,7 @@
 
     sput-object v0, Lcom/android/server/audio/AudioService$EffectPolicy;->AUTHORITY_URI:Landroid/net/Uri;
 
-    .line 9200
+    .line 9214
     sget-object v0, Lcom/android/server/audio/AudioService$EffectPolicy;->AUTHORITY_URI:Landroid/net/Uri;
 
     const-string/jumbo v1, "policy_list"
@@ -119,7 +119,7 @@
 
     sput-object v0, Lcom/android/server/audio/AudioService$EffectPolicy;->VERION_URI:Landroid/net/Uri;
 
-    .line 9201
+    .line 9215
     new-array v0, v4, [Ljava/lang/String;
 
     const-string/jumbo v1, "policyName"
@@ -132,7 +132,7 @@
 
     sput-object v0, Lcom/android/server/audio/AudioService$EffectPolicy;->VERSION_PROJECTION:[Ljava/lang/String;
 
-    .line 9206
+    .line 9220
     sget-object v0, Lcom/android/server/audio/AudioService$EffectPolicy;->AUTHORITY_URI:Landroid/net/Uri;
 
     const-string/jumbo v1, "policy_item/audio"
@@ -143,7 +143,7 @@
 
     sput-object v0, Lcom/android/server/audio/AudioService$EffectPolicy;->PACKAGE_URI:Landroid/net/Uri;
 
-    .line 9207
+    .line 9221
     new-array v0, v4, [Ljava/lang/String;
 
     const-string/jumbo v1, "item"
@@ -156,7 +156,7 @@
 
     sput-object v0, Lcom/android/server/audio/AudioService$EffectPolicy;->PACKAGE_PROJECTION:[Ljava/lang/String;
 
-    .line 9210
+    .line 9224
     const/16 v0, 0x8
 
     new-array v0, v0, [Ljava/lang/String;
@@ -173,7 +173,7 @@
 
     aput-object v1, v0, v4
 
-    .line 9211
+    .line 9225
     const-string/jumbo v1, "myspace_black"
 
     const/4 v2, 0x3
@@ -204,10 +204,10 @@
 
     aput-object v1, v0, v2
 
-    .line 9210
+    .line 9224
     sput-object v0, Lcom/android/server/audio/AudioService$EffectPolicy;->allEffectType:[Ljava/lang/String;
 
-    .line 9193
+    .line 9207
     return-void
 .end method
 
@@ -217,16 +217,16 @@
     .param p2, "type"    # Ljava/lang/String;
 
     .prologue
-    .line 9216
+    .line 9230
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 9217
+    .line 9231
     iput-object p1, p0, Lcom/android/server/audio/AudioService$EffectPolicy;->packageName:Ljava/lang/String;
 
-    .line 9218
+    .line 9232
     iput-object p2, p0, Lcom/android/server/audio/AudioService$EffectPolicy;->effectType:Ljava/lang/String;
 
-    .line 9216
+    .line 9230
     return-void
 .end method
 
@@ -236,7 +236,7 @@
     .locals 1
 
     .prologue
-    .line 9226
+    .line 9240
     iget-object v0, p0, Lcom/android/server/audio/AudioService$EffectPolicy;->effectType:Ljava/lang/String;
 
     return-object v0
@@ -246,7 +246,7 @@
     .locals 1
 
     .prologue
-    .line 9222
+    .line 9236
     iget-object v0, p0, Lcom/android/server/audio/AudioService$EffectPolicy;->packageName:Ljava/lang/String;
 
     return-object v0

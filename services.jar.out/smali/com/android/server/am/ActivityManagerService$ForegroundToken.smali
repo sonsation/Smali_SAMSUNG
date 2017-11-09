@@ -33,7 +33,7 @@
     .param p1, "this$0"    # Lcom/android/server/am/ActivityManagerService;
 
     .prologue
-    .line 1056
+    .line 1057
     iput-object p1, p0, Lcom/android/server/am/ActivityManagerService$ForegroundToken;->this$0:Lcom/android/server/am/ActivityManagerService;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V

@@ -43,23 +43,23 @@
     .param p3, "pid"    # I
 
     .prologue
-    .line 4058
+    .line 4051
     iput-object p1, p0, Lcom/android/server/audio/AudioService$SetModeDeathHandler;->this$0:Lcom/android/server/audio/AudioService;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 4056
+    .line 4049
     const/4 v0, 0x0
 
     iput v0, p0, Lcom/android/server/audio/AudioService$SetModeDeathHandler;->mMode:I
 
-    .line 4059
+    .line 4052
     iput-object p2, p0, Lcom/android/server/audio/AudioService$SetModeDeathHandler;->mCb:Landroid/os/IBinder;
 
-    .line 4060
+    .line 4053
     iput p3, p0, Lcom/android/server/audio/AudioService$SetModeDeathHandler;->mPid:I
 
-    .line 4058
+    .line 4051
     return-void
 .end method
 
@@ -69,20 +69,20 @@
     .locals 10
 
     .prologue
-    .line 4064
+    .line 4057
     const/4 v3, 0x0
 
-    .line 4065
+    .line 4058
     .local v3, "newModeOwnerPid":I
     iget-object v4, p0, Lcom/android/server/audio/AudioService$SetModeDeathHandler;->this$0:Lcom/android/server/audio/AudioService;
 
-    invoke-static {v4}, Lcom/android/server/audio/AudioService;->-get58(Lcom/android/server/audio/AudioService;)Ljava/util/ArrayList;
+    invoke-static {v4}, Lcom/android/server/audio/AudioService;->-get57(Lcom/android/server/audio/AudioService;)Ljava/util/ArrayList;
 
     move-result-object v5
 
     monitor-enter v5
 
-    .line 4066
+    .line 4059
     :try_start_0
     const-string/jumbo v4, "AudioService"
 
@@ -90,10 +90,10 @@
 
     invoke-static {v4, v6}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 4067
+    .line 4060
     iget-object v4, p0, Lcom/android/server/audio/AudioService$SetModeDeathHandler;->this$0:Lcom/android/server/audio/AudioService;
 
-    invoke-static {v4}, Lcom/android/server/audio/AudioService;->-get58(Lcom/android/server/audio/AudioService;)Ljava/util/ArrayList;
+    invoke-static {v4}, Lcom/android/server/audio/AudioService;->-get57(Lcom/android/server/audio/AudioService;)Ljava/util/ArrayList;
 
     move-result-object v4
 
@@ -101,11 +101,11 @@
 
     move-result v2
 
-    .line 4068
+    .line 4061
     .local v2, "index":I
     if-gez v2, :cond_1
 
-    .line 4069
+    .line 4062
     const-string/jumbo v4, "AudioService"
 
     const-string/jumbo v6, "unregistered setMode() client died"
@@ -117,29 +117,29 @@
     :goto_0
     monitor-exit v5
 
-    .line 4076
+    .line 4069
     if-eqz v3, :cond_0
 
-    .line 4077
+    .line 4070
     invoke-static {}, Landroid/os/Binder;->clearCallingIdentity()J
 
     move-result-wide v0
 
-    .line 4078
+    .line 4071
     .local v0, "ident":J
     iget-object v4, p0, Lcom/android/server/audio/AudioService$SetModeDeathHandler;->this$0:Lcom/android/server/audio/AudioService;
 
     invoke-static {v4, v3}, Lcom/android/server/audio/AudioService;->-wrap26(Lcom/android/server/audio/AudioService;I)V
 
-    .line 4079
+    .line 4072
     invoke-static {v0, v1}, Landroid/os/Binder;->restoreCallingIdentity(J)V
 
-    .line 4063
+    .line 4056
     .end local v0    # "ident":J
     :cond_0
     return-void
 
-    .line 4071
+    .line 4064
     :cond_1
     :try_start_1
     iget-object v4, p0, Lcom/android/server/audio/AudioService$SetModeDeathHandler;->this$0:Lcom/android/server/audio/AudioService;
@@ -160,7 +160,7 @@
 
     goto :goto_0
 
-    .line 4065
+    .line 4058
     .end local v2    # "index":I
     :catchall_0
     move-exception v4
@@ -174,7 +174,7 @@
     .locals 1
 
     .prologue
-    .line 4096
+    .line 4089
     iget-object v0, p0, Lcom/android/server/audio/AudioService$SetModeDeathHandler;->mCb:Landroid/os/IBinder;
 
     return-object v0
@@ -184,7 +184,7 @@
     .locals 1
 
     .prologue
-    .line 4092
+    .line 4085
     iget v0, p0, Lcom/android/server/audio/AudioService$SetModeDeathHandler;->mMode:I
 
     return v0
@@ -194,7 +194,7 @@
     .locals 1
 
     .prologue
-    .line 4084
+    .line 4077
     iget v0, p0, Lcom/android/server/audio/AudioService$SetModeDeathHandler;->mPid:I
 
     return v0
@@ -205,9 +205,9 @@
     .param p1, "mode"    # I
 
     .prologue
-    .line 4088
+    .line 4081
     iput p1, p0, Lcom/android/server/audio/AudioService$SetModeDeathHandler;->mMode:I
 
-    .line 4087
+    .line 4080
     return-void
 .end method

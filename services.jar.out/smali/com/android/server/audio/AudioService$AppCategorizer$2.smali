@@ -25,7 +25,7 @@
     .param p2, "$anonymous0"    # Landroid/os/Looper;
 
     .prologue
-    .line 9805
+    .line 9819
     iput-object p1, p0, Lcom/android/server/audio/AudioService$AppCategorizer$2;->this$1:Lcom/android/server/audio/AudioService$AppCategorizer;
 
     invoke-direct {p0, p2}, Landroid/os/Handler;-><init>(Landroid/os/Looper;)V
@@ -40,17 +40,17 @@
     .param p1, "msg"    # Landroid/os/Message;
 
     .prologue
-    .line 9810
+    .line 9824
     :try_start_0
     iget v1, p1, Landroid/os/Message;->what:I
 
     packed-switch v1, :pswitch_data_0
 
-    .line 9808
+    .line 9822
     :goto_0
     return-void
 
-    .line 9812
+    .line 9826
     :pswitch_0
     const-string/jumbo v1, "AudioService"
 
@@ -80,7 +80,7 @@
 
     invoke-static {v1, v2}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 9813
+    .line 9827
     iget-object v2, p0, Lcom/android/server/audio/AudioService$AppCategorizer$2;->this$1:Lcom/android/server/audio/AudioService$AppCategorizer;
 
     iget-object v1, p1, Landroid/os/Message;->obj:Ljava/lang/Object;
@@ -95,17 +95,17 @@
 
     goto :goto_0
 
-    .line 9822
+    .line 9836
     :catch_0
     move-exception v0
 
-    .line 9823
+    .line 9837
     .local v0, "e":Ljava/lang/Exception;
     invoke-virtual {v0}, Ljava/lang/Exception;->printStackTrace()V
 
     goto :goto_0
 
-    .line 9816
+    .line 9830
     .end local v0    # "e":Ljava/lang/Exception;
     :pswitch_1
     :try_start_1
@@ -115,7 +115,7 @@
 
     invoke-static {v1, v2}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 9817
+    .line 9831
     iget-object v1, p0, Lcom/android/server/audio/AudioService$AppCategorizer$2;->this$1:Lcom/android/server/audio/AudioService$AppCategorizer;
 
     invoke-virtual {v1}, Lcom/android/server/audio/AudioService$AppCategorizer;->checkGoogleServer()V
@@ -124,7 +124,7 @@
 
     goto :goto_0
 
-    .line 9810
+    .line 9824
     nop
 
     :pswitch_data_0

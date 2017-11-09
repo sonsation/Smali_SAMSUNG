@@ -28,7 +28,7 @@
     .param p1, "this$0"    # Lcom/android/server/enterprise/application/ApplicationPolicy;
 
     .prologue
-    .line 4471
+    .line 4473
     iput-object p1, p0, Lcom/android/server/enterprise/application/ApplicationPolicy$PackageDeleteObserver;->this$0:Lcom/android/server/enterprise/application/ApplicationPolicy;
 
     invoke-direct {p0}, Landroid/content/pm/IPackageDeleteObserver$Stub;-><init>()V
@@ -46,38 +46,38 @@
     .prologue
     const/4 v0, 0x1
 
-    .line 4477
+    .line 4479
     monitor-enter p0
 
-    .line 4478
+    .line 4480
     const/4 v1, 0x1
 
     :try_start_0
     iput-boolean v1, p0, Lcom/android/server/enterprise/application/ApplicationPolicy$PackageDeleteObserver;->finished:Z
 
-    .line 4479
+    .line 4481
     if-ne p2, v0, :cond_0
 
     :goto_0
     iput-boolean v0, p0, Lcom/android/server/enterprise/application/ApplicationPolicy$PackageDeleteObserver;->result:Z
 
-    .line 4480
+    .line 4482
     invoke-virtual {p0}, Lcom/android/server/enterprise/application/ApplicationPolicy$PackageDeleteObserver;->notifyAll()V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     monitor-exit p0
 
-    .line 4476
+    .line 4478
     return-void
 
-    .line 4479
+    .line 4481
     :cond_0
     const/4 v0, 0x0
 
     goto :goto_0
 
-    .line 4477
+    .line 4479
     :catchall_0
     move-exception v0
 

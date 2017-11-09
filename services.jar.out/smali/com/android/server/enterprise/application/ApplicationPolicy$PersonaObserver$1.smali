@@ -30,7 +30,7 @@
     .param p2, "val$newState"    # Lcom/samsung/android/knox/SemPersonaState;
 
     .prologue
-    .line 5918
+    .line 5920
     iput-object p1, p0, Lcom/android/server/enterprise/application/ApplicationPolicy$PersonaObserver$1;->this$1:Lcom/android/server/enterprise/application/ApplicationPolicy$PersonaObserver;
 
     iput-object p2, p0, Lcom/android/server/enterprise/application/ApplicationPolicy$PersonaObserver$1;->val$newState:Lcom/samsung/android/knox/SemPersonaState;
@@ -46,7 +46,7 @@
     .locals 8
 
     .prologue
-    .line 5922
+    .line 5924
     iget-object v6, p0, Lcom/android/server/enterprise/application/ApplicationPolicy$PersonaObserver$1;->val$newState:Lcom/samsung/android/knox/SemPersonaState;
 
     sget-object v7, Lcom/samsung/android/knox/SemPersonaState;->ACTIVE:Lcom/samsung/android/knox/SemPersonaState;
@@ -57,7 +57,7 @@
 
     if-eqz v6, :cond_3
 
-    .line 5923
+    .line 5925
     invoke-static {}, Lcom/android/server/enterprise/application/ApplicationPolicy;->-get0()Ljava/util/Map;
 
     move-result-object v6
@@ -74,12 +74,12 @@
 
     if-eqz v6, :cond_1
 
-    .line 5920
+    .line 5922
     :cond_0
     :goto_0
     return-void
 
-    .line 5924
+    .line 5926
     :cond_1
     invoke-static {}, Lcom/android/server/enterprise/application/ApplicationPolicy;->-get0()Ljava/util/Map;
 
@@ -89,7 +89,7 @@
 
     move-result-object v3
 
-    .line 5926
+    .line 5928
     .local v3, "adminLuids":Ljava/util/Set;, "Ljava/util/Set<Ljava/lang/Long;>;"
     invoke-interface {v3}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
@@ -114,13 +114,13 @@
 
     move-result-wide v0
 
-    .line 5927
+    .line 5929
     .local v0, "adminLuid":J
     invoke-static {v0, v1}, Lcom/android/server/enterprise/storage/EdmStorageProvider;->getAdminUidFromLUID(J)I
 
     move-result v4
 
-    .line 5928
+    .line 5930
     .local v4, "adminUid":I
     iget-object v6, p0, Lcom/android/server/enterprise/application/ApplicationPolicy$PersonaObserver$1;->this$1:Lcom/android/server/enterprise/application/ApplicationPolicy$PersonaObserver;
 
@@ -134,7 +134,7 @@
 
     if-ne v6, v7, :cond_2
 
-    .line 5929
+    .line 5931
     iget-object v6, p0, Lcom/android/server/enterprise/application/ApplicationPolicy$PersonaObserver$1;->this$1:Lcom/android/server/enterprise/application/ApplicationPolicy$PersonaObserver;
 
     iget-object v6, v6, Lcom/android/server/enterprise/application/ApplicationPolicy$PersonaObserver;->this$0:Lcom/android/server/enterprise/application/ApplicationPolicy;
@@ -143,7 +143,7 @@
 
     goto :goto_1
 
-    .line 5933
+    .line 5935
     .end local v0    # "adminLuid":J
     .end local v2    # "adminLuid$iterator":Ljava/util/Iterator;
     .end local v3    # "adminLuids":Ljava/util/Set;, "Ljava/util/Set<Ljava/lang/Long;>;"
@@ -159,7 +159,7 @@
 
     if-eqz v6, :cond_0
 
-    .line 5935
+    .line 5937
     iget-object v6, p0, Lcom/android/server/enterprise/application/ApplicationPolicy$PersonaObserver$1;->this$1:Lcom/android/server/enterprise/application/ApplicationPolicy$PersonaObserver;
 
     iget-object v6, v6, Lcom/android/server/enterprise/application/ApplicationPolicy$PersonaObserver;->this$0:Lcom/android/server/enterprise/application/ApplicationPolicy;
@@ -184,14 +184,14 @@
 
     check-cast v5, Lcom/android/server/enterprise/application/ApplicationPolicy$PersonaObserver;
 
-    .line 5936
+    .line 5938
     .local v5, "observer":Lcom/android/server/enterprise/application/ApplicationPolicy$PersonaObserver;
     if-eqz v5, :cond_0
 
-    .line 5937
+    .line 5939
     invoke-virtual {v5}, Lcom/android/server/enterprise/application/ApplicationPolicy$PersonaObserver;->unregisterPersonaObserverReceiver()V
 
-    .line 5938
+    .line 5940
     iget-object v6, p0, Lcom/android/server/enterprise/application/ApplicationPolicy$PersonaObserver$1;->this$1:Lcom/android/server/enterprise/application/ApplicationPolicy$PersonaObserver;
 
     iget-object v6, v6, Lcom/android/server/enterprise/application/ApplicationPolicy$PersonaObserver;->this$0:Lcom/android/server/enterprise/application/ApplicationPolicy;

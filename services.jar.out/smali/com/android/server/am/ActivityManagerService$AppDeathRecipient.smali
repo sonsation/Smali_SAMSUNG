@@ -36,21 +36,21 @@
     .param p4, "thread"    # Landroid/app/IApplicationThread;
 
     .prologue
-    .line 1786
+    .line 1787
     iput-object p1, p0, Lcom/android/server/am/ActivityManagerService$AppDeathRecipient;->this$0:Lcom/android/server/am/ActivityManagerService;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 1791
+    .line 1792
     iput-object p2, p0, Lcom/android/server/am/ActivityManagerService$AppDeathRecipient;->mApp:Lcom/android/server/am/ProcessRecord;
 
-    .line 1792
+    .line 1793
     iput p3, p0, Lcom/android/server/am/ActivityManagerService$AppDeathRecipient;->mPid:I
 
-    .line 1793
+    .line 1794
     iput-object p4, p0, Lcom/android/server/am/ActivityManagerService$AppDeathRecipient;->mAppThread:Landroid/app/IApplicationThread;
 
-    .line 1795
+    .line 1796
     iget v0, p2, Lcom/android/server/am/ProcessRecord;->userId:I
 
     if-nez v0, :cond_0
@@ -65,12 +65,12 @@
 
     if-eqz v0, :cond_0
 
-    .line 1796
+    .line 1797
     iget-object v0, p0, Lcom/android/server/am/ActivityManagerService$AppDeathRecipient;->mApp:Lcom/android/server/am/ProcessRecord;
 
     iput-object v0, p1, Lcom/android/server/am/ActivityManagerService;->mSystemUIProcessRecord:Lcom/android/server/am/ProcessRecord;
 
-    .line 1787
+    .line 1788
     :cond_0
     return-void
 .end method
@@ -81,7 +81,7 @@
     .locals 6
 
     .prologue
-    .line 1806
+    .line 1807
     iget-object v1, p0, Lcom/android/server/am/ActivityManagerService$AppDeathRecipient;->this$0:Lcom/android/server/am/ActivityManagerService;
 
     monitor-enter v1
@@ -89,7 +89,7 @@
     :try_start_0
     invoke-static {}, Lcom/android/server/am/ActivityManagerService;->boostPriorityForLockedSection()V
 
-    .line 1807
+    .line 1808
     iget-object v0, p0, Lcom/android/server/am/ActivityManagerService$AppDeathRecipient;->this$0:Lcom/android/server/am/ActivityManagerService;
 
     iget-object v2, p0, Lcom/android/server/am/ActivityManagerService$AppDeathRecipient;->mApp:Lcom/android/server/am/ProcessRecord;
@@ -106,13 +106,13 @@
 
     monitor-exit v1
 
-    .line 1806
+    .line 1807
     invoke-static {}, Lcom/android/server/am/ActivityManagerService;->resetPriorityAfterLockedSection()V
 
-    .line 1802
+    .line 1803
     return-void
 
-    .line 1806
+    .line 1807
     :catchall_0
     move-exception v0
 

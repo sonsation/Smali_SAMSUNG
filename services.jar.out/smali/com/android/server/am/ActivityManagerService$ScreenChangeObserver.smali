@@ -26,15 +26,15 @@
     .param p1, "this$0"    # Lcom/android/server/am/ActivityManagerService;
 
     .prologue
-    .line 1401
+    .line 1402
     iput-object p1, p0, Lcom/android/server/am/ActivityManagerService$ScreenChangeObserver;->this$0:Lcom/android/server/am/ActivityManagerService;
 
-    .line 1402
+    .line 1403
     iget-object v1, p1, Lcom/android/server/am/ActivityManagerService;->mHandler:Lcom/android/server/am/ActivityManagerService$MainHandler;
 
     invoke-direct {p0, v1}, Landroid/database/ContentObserver;-><init>(Landroid/os/Handler;)V
 
-    .line 1399
+    .line 1400
     const-string/jumbo v1, "display_size_forced"
 
     invoke-static {v1}, Landroid/provider/Settings$Global;->getUriFor(Ljava/lang/String;)Landroid/net/Uri;
@@ -43,14 +43,14 @@
 
     iput-object v1, p0, Lcom/android/server/am/ActivityManagerService$ScreenChangeObserver;->mDiplayChangeUri:Landroid/net/Uri;
 
-    .line 1403
+    .line 1404
     iget-object v1, p1, Lcom/android/server/am/ActivityManagerService;->mContext:Landroid/content/Context;
 
     invoke-virtual {v1}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
 
     move-result-object v0
 
-    .line 1404
+    .line 1405
     .local v0, "resolver":Landroid/content/ContentResolver;
     iget-object v1, p0, Lcom/android/server/am/ActivityManagerService$ScreenChangeObserver;->mDiplayChangeUri:Landroid/net/Uri;
 
@@ -60,7 +60,7 @@
 
     invoke-virtual {v0, v1, v2, p0, v3}, Landroid/content/ContentResolver;->registerContentObserver(Landroid/net/Uri;ZLandroid/database/ContentObserver;I)V
 
-    .line 1401
+    .line 1402
     return-void
 .end method
 
@@ -72,7 +72,7 @@
     .param p2, "uri"    # Landroid/net/Uri;
 
     .prologue
-    .line 1409
+    .line 1410
     invoke-static {}, Lcom/android/server/am/ActivityManagerService;->-get0()Ljava/lang/String;
 
     move-result-object v0
@@ -81,7 +81,7 @@
 
     invoke-static {v0, v1}, Landroid/util/Slog;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 1410
+    .line 1411
     iget-object v0, p0, Lcom/android/server/am/ActivityManagerService$ScreenChangeObserver;->mDiplayChangeUri:Landroid/net/Uri;
 
     invoke-virtual {v0, p2}, Landroid/net/Uri;->equals(Ljava/lang/Object;)Z
@@ -90,12 +90,12 @@
 
     if-eqz v0, :cond_0
 
-    .line 1411
+    .line 1412
     iget-object v0, p0, Lcom/android/server/am/ActivityManagerService$ScreenChangeObserver;->this$0:Lcom/android/server/am/ActivityManagerService;
 
     invoke-static {v0}, Lcom/android/server/am/ActivityManagerService;->-wrap14(Lcom/android/server/am/ActivityManagerService;)V
 
-    .line 1408
+    .line 1409
     :cond_0
     return-void
 .end method

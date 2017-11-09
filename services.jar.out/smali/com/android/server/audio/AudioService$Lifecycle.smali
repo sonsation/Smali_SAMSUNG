@@ -24,17 +24,17 @@
     .param p1, "context"    # Landroid/content/Context;
 
     .prologue
-    .line 1119
+    .line 1117
     invoke-direct {p0, p1}, Lcom/android/server/SystemService;-><init>(Landroid/content/Context;)V
 
-    .line 1120
+    .line 1118
     new-instance v0, Lcom/android/server/audio/AudioService;
 
     invoke-direct {v0, p1}, Lcom/android/server/audio/AudioService;-><init>(Landroid/content/Context;)V
 
     iput-object v0, p0, Lcom/android/server/audio/AudioService$Lifecycle;->mService:Lcom/android/server/audio/AudioService;
 
-    .line 1118
+    .line 1116
     return-void
 .end method
 
@@ -45,17 +45,17 @@
     .param p1, "phase"    # I
 
     .prologue
-    .line 1130
+    .line 1128
     const/16 v0, 0x226
 
     if-ne p1, v0, :cond_0
 
-    .line 1131
+    .line 1129
     iget-object v0, p0, Lcom/android/server/audio/AudioService$Lifecycle;->mService:Lcom/android/server/audio/AudioService;
 
     invoke-virtual {v0}, Lcom/android/server/audio/AudioService;->systemReady()V
 
-    .line 1129
+    .line 1127
     :cond_0
     return-void
 .end method
@@ -64,13 +64,13 @@
     .locals 2
 
     .prologue
-    .line 1125
+    .line 1123
     const-string/jumbo v0, "audio"
 
     iget-object v1, p0, Lcom/android/server/audio/AudioService$Lifecycle;->mService:Lcom/android/server/audio/AudioService;
 
     invoke-virtual {p0, v0, v1}, Lcom/android/server/audio/AudioService$Lifecycle;->publishBinderService(Ljava/lang/String;Landroid/os/IBinder;)V
 
-    .line 1124
+    .line 1122
     return-void
 .end method
