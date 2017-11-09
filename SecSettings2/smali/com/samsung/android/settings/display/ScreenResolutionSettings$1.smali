@@ -24,10 +24,7 @@
 # direct methods
 .method constructor <init>(Lcom/samsung/android/settings/display/ScreenResolutionSettings;)V
     .locals 0
-    .param p1, "this$0"    # Lcom/samsung/android/settings/display/ScreenResolutionSettings;
 
-    .prologue
-    .line 181
     iput-object p1, p0, Lcom/samsung/android/settings/display/ScreenResolutionSettings$1;->this$0:Lcom/samsung/android/settings/display/ScreenResolutionSettings;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -40,10 +37,8 @@
 .method public onStateReceived()V
     .locals 7
 
-    .prologue
     const/4 v4, 0x0
 
-    .line 184
     iget-object v3, p0, Lcom/samsung/android/settings/display/ScreenResolutionSettings$1;->this$0:Lcom/samsung/android/settings/display/ScreenResolutionSettings;
 
     invoke-static {v3}, Lcom/samsung/android/settings/display/ScreenResolutionSettings;->-get1(Lcom/samsung/android/settings/display/ScreenResolutionSettings;)Lcom/samsung/android/settings/bixby/EmSettingsManager;
@@ -54,8 +49,6 @@
 
     move-result-object v2
 
-    .line 186
-    .local v2, "stateId":Ljava/lang/String;
     const-string/jumbo v3, "ScreenResolutionApply"
 
     invoke-virtual {v2, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -64,15 +57,8 @@
 
     if-eqz v3, :cond_1
 
-    .line 187
     const/4 v0, -0x1
 
-    .line 188
-    .local v0, "progressValue":I
-    const-string/jumbo v1, ""
-
-    .line 189
-    .local v1, "screenMode":Ljava/lang/String;
     iget-object v3, p0, Lcom/samsung/android/settings/display/ScreenResolutionSettings$1;->this$0:Lcom/samsung/android/settings/display/ScreenResolutionSettings;
 
     invoke-static {v3}, Lcom/samsung/android/settings/display/ScreenResolutionSettings;->-get1(Lcom/samsung/android/settings/display/ScreenResolutionSettings;)Lcom/samsung/android/settings/bixby/EmSettingsManager;
@@ -85,7 +71,6 @@
 
     if-eqz v3, :cond_0
 
-    .line 190
     iget-object v3, p0, Lcom/samsung/android/settings/display/ScreenResolutionSettings$1;->this$0:Lcom/samsung/android/settings/display/ScreenResolutionSettings;
 
     invoke-static {v3}, Lcom/samsung/android/settings/display/ScreenResolutionSettings;->-get1(Lcom/samsung/android/settings/display/ScreenResolutionSettings;)Lcom/samsung/android/settings/bixby/EmSettingsManager;
@@ -104,7 +89,6 @@
 
     move-result-object v1
 
-    .line 192
     const-string/jumbo v3, "HD"
 
     invoke-virtual {v1, v3}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
@@ -113,17 +97,14 @@
 
     if-eqz v3, :cond_2
 
-    .line 193
     const/4 v0, 0x0
 
-    .line 200
     :cond_0
     :goto_0
     const/4 v3, -0x1
 
     if-ne v0, v3, :cond_4
 
-    .line 201
     iget-object v3, p0, Lcom/samsung/android/settings/display/ScreenResolutionSettings$1;->this$0:Lcom/samsung/android/settings/display/ScreenResolutionSettings;
 
     invoke-static {v3}, Lcom/samsung/android/settings/display/ScreenResolutionSettings;->-get1(Lcom/samsung/android/settings/display/ScreenResolutionSettings;)Lcom/samsung/android/settings/bixby/EmSettingsManager;
@@ -138,7 +119,6 @@
 
     invoke-virtual {v3, v4, v5, v6}, Lcom/samsung/android/settings/bixby/EmSettingsManager;->setNlgScreenParam(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 202
     iget-object v3, p0, Lcom/samsung/android/settings/display/ScreenResolutionSettings$1;->this$0:Lcom/samsung/android/settings/display/ScreenResolutionSettings;
 
     invoke-static {v3}, Lcom/samsung/android/settings/display/ScreenResolutionSettings;->-get1(Lcom/samsung/android/settings/display/ScreenResolutionSettings;)Lcom/samsung/android/settings/bixby/EmSettingsManager;
@@ -149,7 +129,6 @@
 
     invoke-virtual {v3, v4}, Lcom/samsung/android/settings/bixby/EmSettingsManager;->requestNlg(Ljava/lang/String;)V
 
-    .line 203
     iget-object v3, p0, Lcom/samsung/android/settings/display/ScreenResolutionSettings$1;->this$0:Lcom/samsung/android/settings/display/ScreenResolutionSettings;
 
     invoke-static {v3}, Lcom/samsung/android/settings/display/ScreenResolutionSettings;->-get1(Lcom/samsung/android/settings/display/ScreenResolutionSettings;)Lcom/samsung/android/settings/bixby/EmSettingsManager;
@@ -160,16 +139,10 @@
 
     invoke-virtual {v3, v4}, Lcom/samsung/android/settings/bixby/EmSettingsManager;->sendResponse(Lcom/samsung/android/app/executor/ExecutorMediator$ResponseResults;)V
 
-    .line 222
-    .end local v0    # "progressValue":I
-    .end local v1    # "screenMode":Ljava/lang/String;
     :cond_1
     :goto_1
     return-void
 
-    .line 194
-    .restart local v0    # "progressValue":I
-    .restart local v1    # "screenMode":Ljava/lang/String;
     :cond_2
     const-string/jumbo v3, "FHD"
 
@@ -179,12 +152,10 @@
 
     if-eqz v3, :cond_3
 
-    .line 195
     const/4 v0, 0x1
 
     goto :goto_0
 
-    .line 196
     :cond_3
     const-string/jumbo v3, "WQHD"
 
@@ -194,12 +165,10 @@
 
     if-eqz v3, :cond_0
 
-    .line 197
     const/4 v0, 0x2
 
     goto :goto_0
 
-    .line 205
     :cond_4
     iget-object v3, p0, Lcom/samsung/android/settings/display/ScreenResolutionSettings$1;->this$0:Lcom/samsung/android/settings/display/ScreenResolutionSettings;
 
@@ -213,7 +182,6 @@
 
     if-ne v0, v3, :cond_5
 
-    .line 206
     iget-object v3, p0, Lcom/samsung/android/settings/display/ScreenResolutionSettings$1;->this$0:Lcom/samsung/android/settings/display/ScreenResolutionSettings;
 
     invoke-static {v3}, Lcom/samsung/android/settings/display/ScreenResolutionSettings;->-get1(Lcom/samsung/android/settings/display/ScreenResolutionSettings;)Lcom/samsung/android/settings/bixby/EmSettingsManager;
@@ -228,18 +196,6 @@
 
     invoke-virtual {v3, v4, v5, v6}, Lcom/samsung/android/settings/bixby/EmSettingsManager;->setNlgScreenParam(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 207
-    iget-object v3, p0, Lcom/samsung/android/settings/display/ScreenResolutionSettings$1;->this$0:Lcom/samsung/android/settings/display/ScreenResolutionSettings;
-
-    invoke-static {v3}, Lcom/samsung/android/settings/display/ScreenResolutionSettings;->-get1(Lcom/samsung/android/settings/display/ScreenResolutionSettings;)Lcom/samsung/android/settings/bixby/EmSettingsManager;
-
-    move-result-object v3
-
-    const-string/jumbo v4, "Object"
-
-    invoke-virtual {v3, v4, v1}, Lcom/samsung/android/settings/bixby/EmSettingsManager;->addNlgResultParam(Ljava/lang/String;Ljava/lang/String;)V
-
-    .line 208
     iget-object v3, p0, Lcom/samsung/android/settings/display/ScreenResolutionSettings$1;->this$0:Lcom/samsung/android/settings/display/ScreenResolutionSettings;
 
     invoke-static {v3}, Lcom/samsung/android/settings/display/ScreenResolutionSettings;->-get1(Lcom/samsung/android/settings/display/ScreenResolutionSettings;)Lcom/samsung/android/settings/bixby/EmSettingsManager;
@@ -250,7 +206,6 @@
 
     invoke-virtual {v3, v4}, Lcom/samsung/android/settings/bixby/EmSettingsManager;->requestNlg(Ljava/lang/String;)V
 
-    .line 209
     iget-object v3, p0, Lcom/samsung/android/settings/display/ScreenResolutionSettings$1;->this$0:Lcom/samsung/android/settings/display/ScreenResolutionSettings;
 
     invoke-static {v3}, Lcom/samsung/android/settings/display/ScreenResolutionSettings;->-get1(Lcom/samsung/android/settings/display/ScreenResolutionSettings;)Lcom/samsung/android/settings/bixby/EmSettingsManager;
@@ -263,7 +218,6 @@
 
     goto :goto_1
 
-    .line 211
     :cond_5
     iget-object v3, p0, Lcom/samsung/android/settings/display/ScreenResolutionSettings$1;->this$0:Lcom/samsung/android/settings/display/ScreenResolutionSettings;
 
@@ -273,7 +227,6 @@
 
     invoke-virtual {v3, v0}, Lcom/samsung/android/settings/display/ScreenResolutionSeekBarPreference;->setProgress(I)V
 
-    .line 212
     iget-object v3, p0, Lcom/samsung/android/settings/display/ScreenResolutionSettings$1;->this$0:Lcom/samsung/android/settings/display/ScreenResolutionSettings;
 
     invoke-static {v3}, Lcom/samsung/android/settings/display/ScreenResolutionSettings;->-get1(Lcom/samsung/android/settings/display/ScreenResolutionSettings;)Lcom/samsung/android/settings/bixby/EmSettingsManager;
@@ -286,7 +239,6 @@
 
     if-eqz v3, :cond_6
 
-    .line 213
     iget-object v3, p0, Lcom/samsung/android/settings/display/ScreenResolutionSettings$1;->this$0:Lcom/samsung/android/settings/display/ScreenResolutionSettings;
 
     invoke-static {v3}, Lcom/samsung/android/settings/display/ScreenResolutionSettings;->-get1(Lcom/samsung/android/settings/display/ScreenResolutionSettings;)Lcom/samsung/android/settings/bixby/EmSettingsManager;
@@ -301,18 +253,6 @@
 
     invoke-virtual {v3, v4, v5, v6}, Lcom/samsung/android/settings/bixby/EmSettingsManager;->setNlgScreenParam(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 214
-    iget-object v3, p0, Lcom/samsung/android/settings/display/ScreenResolutionSettings$1;->this$0:Lcom/samsung/android/settings/display/ScreenResolutionSettings;
-
-    invoke-static {v3}, Lcom/samsung/android/settings/display/ScreenResolutionSettings;->-get1(Lcom/samsung/android/settings/display/ScreenResolutionSettings;)Lcom/samsung/android/settings/bixby/EmSettingsManager;
-
-    move-result-object v3
-
-    const-string/jumbo v4, "Object"
-
-    invoke-virtual {v3, v4, v1}, Lcom/samsung/android/settings/bixby/EmSettingsManager;->addNlgResultParam(Ljava/lang/String;Ljava/lang/String;)V
-
-    .line 215
     iget-object v3, p0, Lcom/samsung/android/settings/display/ScreenResolutionSettings$1;->this$0:Lcom/samsung/android/settings/display/ScreenResolutionSettings;
 
     invoke-static {v3}, Lcom/samsung/android/settings/display/ScreenResolutionSettings;->-get1(Lcom/samsung/android/settings/display/ScreenResolutionSettings;)Lcom/samsung/android/settings/bixby/EmSettingsManager;
@@ -323,7 +263,6 @@
 
     invoke-virtual {v3, v4}, Lcom/samsung/android/settings/bixby/EmSettingsManager;->requestNlg(Ljava/lang/String;)V
 
-    .line 217
     :cond_6
     iget-object v3, p0, Lcom/samsung/android/settings/display/ScreenResolutionSettings$1;->this$0:Lcom/samsung/android/settings/display/ScreenResolutionSettings;
 
@@ -335,7 +274,6 @@
 
     invoke-virtual {v3, v4}, Lcom/samsung/android/settings/bixby/EmSettingsManager;->sendResponse(Lcom/samsung/android/app/executor/ExecutorMediator$ResponseResults;)V
 
-    .line 218
     iget-object v3, p0, Lcom/samsung/android/settings/display/ScreenResolutionSettings$1;->this$0:Lcom/samsung/android/settings/display/ScreenResolutionSettings;
 
     invoke-static {v3}, Lcom/samsung/android/settings/display/ScreenResolutionSettings;->-get2(Lcom/samsung/android/settings/display/ScreenResolutionSettings;)Landroid/widget/Button;

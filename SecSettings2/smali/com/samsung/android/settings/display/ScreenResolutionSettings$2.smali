@@ -24,10 +24,7 @@
 # direct methods
 .method constructor <init>(Lcom/samsung/android/settings/display/ScreenResolutionSettings;)V
     .locals 0
-    .param p1, "this$0"    # Lcom/samsung/android/settings/display/ScreenResolutionSettings;
 
-    .prologue
-    .line 142
     iput-object p1, p0, Lcom/samsung/android/settings/display/ScreenResolutionSettings$2;->this$0:Lcom/samsung/android/settings/display/ScreenResolutionSettings;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -39,10 +36,7 @@
 # virtual methods
 .method public onClick(Landroid/view/View;)V
     .locals 1
-    .param p1, "view"    # Landroid/view/View;
 
-    .prologue
-    .line 145
     iget-object v0, p0, Lcom/samsung/android/settings/display/ScreenResolutionSettings$2;->this$0:Lcom/samsung/android/settings/display/ScreenResolutionSettings;
 
     invoke-virtual {v0}, Lcom/samsung/android/settings/display/ScreenResolutionSettings;->getActivity()Landroid/app/Activity;
@@ -51,6 +45,5 @@
 
     invoke-virtual {v0}, Landroid/app/Activity;->finish()V
 
-    .line 146
     return-void
 .end method
