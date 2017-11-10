@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Activity.WithActionBar.FullScreen" parent="@android:style/Theme.DeviceDefault">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:actionBarStyle">@style/AppActionBar</item>
+        <item name="android:displayOptions">none</item>
+    </style>
+    <style name="AppActionBar" parent="@android:style/Widget.DeviceDefault.ActionBar">
+        <item name="android:background">@drawable/gradient_effect_for_button</item>
+        <item name="android:displayOptions">showCustom</item>
+        <item name="android:contentInsetStart">0.0dip</item>
+    </style>
+    <style name="CustomTheme" parent="@android:style/Theme.DeviceDefault.Light.NoActionBar.Fullscreen">
+        <item name="android:windowBackground">@android:color/black</item>
+    </style>
+    <style name="HelpItemDescText">
+        <item name="android:textAppearance">?android:textAppearanceListItem</item>
+        <item name="android:textSize">@dimen/desc_text_size</item>
+        <item name="android:textColor">@color/desc_text_color</item>
+        <item name="android:paddingBottom">@dimen/desc_text_with_number_margin_between</item>
+        <item name="android:lineSpacingExtra">@dimen/desc_text_line_spacing_extra</item>
+    </style>
+    <style name="HelpItemImage">
+        <item name="android:gravity">top</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:scaleType">fitCenter</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="autoStart">true</item>
+        <item name="oneshot">false</item>
+    </style>
+    <style name="HelpItemNumberText" parent="@style/HelpItemDescText">
+        <item name="android:layout_marginEnd">@dimen/number_text_margin_end</item>
+    </style>
+    <style name="HelpPage.ActionBar" parent="@android:style/Widget.DeviceDefault.ActionBar">
+        <item name="android:background">@color/helppage_background_color</item>
+    </style>
+    <style name="HelpPage.WithActionBar" parent="@android:style/Theme.DeviceDefault">
+        <item name="android:actionBarStyle">@style/HelpPage.ActionBar</item>
+    </style>
+    <style name="HelpPageLayoutBase">
+        <item name="android:paddingStart">@dimen/helppage_base_layout_side_padding</item>
+        <item name="android:paddingEnd">@dimen/helppage_base_layout_side_padding</item>
+    </style>
+    <style name="HelpPageTipBoxDescText">
+        <item name="android:textSize">@dimen/tipbox_desc_text_size</item>
+        <item name="android:textColor">@color/tipbox_desc_text_color</item>
+        <item name="android:lineSpacingExtra">@dimen/tipbox_desc_text_line_spacing_extra</item>
+        <item name="android:fontFamily">sec-roboto-light</item>
+    </style>
+    <style name="HelpPageTipBoxDot" parent="@style/HelpPageTipBoxDescText">
+        <item name="android:text">@string/sub_desc_dot</item>
+        <item name="android:layout_marginEnd">@dimen/tipbox_dot_margin_end</item>
+    </style>
+    <style name="HelpPageTipBoxLayout">
+        <item name="android:background">@color/help_tip_box_background_color</item>
+        <item name="android:paddingTop">@dimen/helppage_tipbox_top_padding</item>
+        <item name="android:paddingBottom">@dimen/helppage_tipbox_bottom_padding</item>
+        <item name="android:paddingStart">@dimen/helppage_tipbox_side_padding</item>
+        <item name="android:paddingEnd">@dimen/helppage_tipbox_side_padding</item>
+    </style>
+    <style name="HelpPageTipBoxTitle">
+        <item name="android:textSize">@dimen/tipbox_title_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/tipbox_title_text_color</item>
+        <item name="android:paddingBottom">@dimen/tipbox_title_bottom_padding</item>
+        <item name="android:fontFamily">sec-roboto-light</item>
+    </style>
+    <style name="HelpPageTitle">
+        <item name="android:textSize">@dimen/helppage_title_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/helppage_title_text_color</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">sec-roboto-light</item>
+    </style>
+    <style name="HelpPageTitleDivider">
+        <item name="android:background">@color/helppage_title_divider_color</item>
+        <item name="android:layout_height">@dimen/helppage_title_divider_height</item>
+    </style>
+</resources>

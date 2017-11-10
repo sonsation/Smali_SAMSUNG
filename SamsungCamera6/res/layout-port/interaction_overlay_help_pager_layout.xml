@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="#d9000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v4.view.ViewPager android:id="@id/interaction_overlay_help_pager" android:nextFocusDown="@id/interaction_close_button" android:layout_width="wrap_content" android:layout_height="@dimen/overlay_help_interaction_guide_pager_portrait_height" android:layout_marginTop="@dimen/overlay_help_interaction_guide_pager_portrait_margin_top" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/interaction_overlay_help_page_indicator" android:layout_width="wrap_content" android:layout_height="20.0dip" android:layout_marginBottom="@dimen/overlay_help_interaction_guide_page_indicator_portrait_margin_bottom" android:layout_alignParentBottom="true" android:layout_centerInParent="true">
+        <ImageView android:background="@drawable/camera_overlayhelp_page_indicator_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/interaction_title_mode" />
+        <ImageView android:background="@drawable/camera_overlayhelp_page_indicator_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/interaction_title_effect" />
+        <ImageView android:background="@drawable/camera_overlayhelp_page_indicator_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/interaction_title_camera" />
+    </LinearLayout>
+    <Button android:textSize="14.0dip" android:textColor="@color/default_white_color" android:id="@id/interaction_close_button" android:background="@drawable/camera_overlayhelp_button" android:padding="7.0dip" android:nextFocusUp="@id/interaction_overlay_help_pager" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="40.0dip" android:layout_marginBottom="@dimen/overlay_help_button_portrait_margin_bottom" android:minWidth="84.0dip" android:minHeight="38.0dip" android:text="@string/next" android:layout_alignParentBottom="true" android:layout_centerInParent="true" android:contentDescription="@null" />
+</RelativeLayout>

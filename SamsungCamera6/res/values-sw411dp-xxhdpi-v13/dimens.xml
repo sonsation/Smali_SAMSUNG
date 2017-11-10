@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="preview_normal_height">1080.0px</dimen>
+    <dimen name="preview_normal_width">1440.0px</dimen>
+    <dimen name="preview_wide_height">1080.0px</dimen>
+    <dimen name="preview_wide_width">1920.0px</dimen>
+    <dimen name="screen_full_height">1080.0px</dimen>
+    <dimen name="screen_full_width">1920.0px</dimen>
+    <dimen name="audio_record_indicator_eqbar_land_bottom_margin">70.0dip</dimen>
+    <dimen name="audio_record_indicator_eqbar_land_top_margin">68.0dip</dimen>
+    <dimen name="audio_record_indicator_eqbar_port_top_margin">117.0dip</dimen>
+    <dimen name="pro_lite_item_background_offset">8.0dip</dimen>
+    <dimen name="pro_lite_item_right_margin">138.5dip</dimen>
+    <dimen name="pro_lite_item_text_pos_y">46.0dip</dimen>
+    <dimen name="pro_lite_item_top_margin">26.0dip</dimen>
+    <dimen name="pro_lite_item_width">71.0dip</dimen>
+    <dimen name="sidemenu_shutter_progress_width">72.0dip</dimen>
+    <dimen name="wideselfie_guide_text_pos_x_normal">230.0dip</dimen>
+    <dimen name="wideselfie_preview_animation_margin_left">7.0dip</dimen>
+    <dimen name="wideselfie_preview_animation_margin_top">31.0dip</dimen>
+</resources>

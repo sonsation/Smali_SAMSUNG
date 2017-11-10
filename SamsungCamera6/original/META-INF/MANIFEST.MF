@@ -1,0 +1,3396 @@
+Manifest-Version: 1.0
+Created-By: 1.0 (Android SignApk)
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_timer_no5.qmg
+SHA-256-Digest: tgrceEBcAgcmpG2TyVjxfv8rJvUWeIjRqAagLMJKdW8=
+
+Name: res/drawable-xxxhdpi-v4/weather_ic_hot.qio
+SHA-256-Digest: RngXnfU/Zddr4/C1TTISd7D5rxfski+mN08JQYEfyR0=
+
+Name: res/drawable-sw360dp-xhdpi-v13/effect_autumnbrown.qmg
+SHA-256-Digest: WDn+DmR5sdJ+aCcp4gViOqVfW4kzJGqibuJpiBhQQ5o=
+
+Name: res/layout/timer_list_item.xml
+SHA-256-Digest: FFJcOdapMIS4XS+vP/XjGDp026NukqeckmBQu5O8x30=
+
+Name: res/drawable/camera_dual_thumbnail_selected.bmp
+SHA-256-Digest: 8EQHXV+5T4QpNLDzvU9n5SJFja1jFH69a2sT1jeA2KU=
+
+Name: res/drawable-sw360dp-xhdpi-v13/effect_sunshine.qmg
+SHA-256-Digest: ri8ToO7XjkqTueYbYJgBwrLdpsxeDXFExLcNXFz5ezc=
+
+Name: res/drawable/camera_location_tag_popup_ic.bmp
+SHA-256-Digest: LCL1xjJouKa4gfKQ6qd6VQFN5loLcyYhM9Kma3VG9PQ=
+
+Name: res/drawable/camera_beauty_face_ic_slim_selected.bmp
+SHA-256-Digest: tChSF0BoZvAc+XkmC0hxh9Zlz6SY4lMDqO/u1qg5sa0=
+
+Name: res/drawable/preview_watermark_mid_musclefuel_thumbnail.bmp
+SHA-256-Digest: obe0Wmxy2CVFadueQnr7vjvORjjwbDqS4SMVaQKwv1M=
+
+Name: res/raw/panorama_stop.ogg
+SHA-256-Digest: ZWY+OMp0mhb1jo+nYCw9dtA3GP8gx5vXKIYqGwF/TQA=
+
+Name: res/drawable-nodpi-v4/default_icon.qio
+SHA-256-Digest: LXcVoq2Q+iHJ/UosVo55Dif2aBomo+hfT0QrltRdKhg=
+
+Name: res/drawable-xxhdpi-v4/camera_main_btn_ic_gallery_empty.qmg
+SHA-256-Digest: Bqug3tsqjoPpvdKan9dPwU3xHs7oSYlRZjpkSUzDlYw=
+
+Name: res/drawable/camera_clip_movie_ratio_1by1_4_line3.bmp
+SHA-256-Digest: yH3JtGbj77sfVlQLHHqFVxkVxRYLmiVqYzGpw4qfd+I=
+
+Name: res/drawable-xxhdpi-v4/watermark_arrow_right.qmg
+SHA-256-Digest: xHl8Agc5xh57b0OXcU/FJGtqheErB8ZqlvBQCbzNrpA=
+
+Name: res/interpolator/sine_in_60.xml
+SHA-256-Digest: vUXJysUkiR0nZYez8zVeffvMCU6mG3aPYgWkW0G4LIA=
+
+Name: res/drawable-xxxhdpi-v4/camera_interactive_shot_front_right_1.qi
+ o
+SHA-256-Digest: Gr6F9cYeb5Ma4OPlyP+LmZyugWflG965amzUMl2YyPs=
+
+Name: res/drawable/camera_clip_movie_ratio_1by1_2_selected_2.bmp
+SHA-256-Digest: d/PgwZjZ4fpmIZwQxGYnqL7qautmYFAi8WOBM6ntEjA=
+
+Name: res/drawable/camera_mode_ic_shot_and_more_selected.bmp
+SHA-256-Digest: c2HkNlJ+51ueov1yE2eSb+emiD7xp/mQ80Y9pwsR4NA=
+
+Name: res/drawable/camera_clip_movie_ratio_1by1_2h_selected_1.bmp
+SHA-256-Digest: XdRXC3SVHj965SD/X6Dddn+lK88EHZ05QORJ+cBqoyA=
+
+Name: res/drawable/preview_watermark_mid_lantern_festival_thumbnail.bm
+ p
+SHA-256-Digest: XqkB5B1VfxPZw/7mQgjjjj1LEs9pEvHm3Dg3qOxT0S4=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_effect_ic_3rd_b612.qmg
+SHA-256-Digest: H+iTKHfOO9znstUKbK9pOGhyrRS8Po8acv5j3FZ/884=
+
+Name: res/drawable-xxxhdpi-v4/camera_interactive_shot_front_left_4.qio
+SHA-256-Digest: g5pwzGasqc7jwS0txHAq6x5KxYTIoIhMJiHnCgk0VBo=
+
+Name: res/drawable/camera_mode_ic_clip_movie_selected.bmp
+SHA-256-Digest: j8jEdN+81rB2WT0Gv8ixJnumVRlNah6I/ryhbG4OFMU=
+
+Name: res/drawable-sw360dp-xhdpi-v13/camera_wideselfie_arrow_right02.q
+ mg
+SHA-256-Digest: V/Pk7nuEkcv7NahH1jPKdegYJEBQvuoM5j3A7zo+uZ8=
+
+Name: res/drawable/camera_quick_menu_ic_timer_6.bmp
+SHA-256-Digest: +QFoWI1nNPrxUucneshD5bOD06EJhuQQnht7EaRiLXQ=
+
+Name: res/drawable/camera_beauty_face_ic_shape_correction_on_selected.
+ bmp
+SHA-256-Digest: hiH+pFBj99au9f1r5jMB0ddNSo0QhRmIeO5NlFH2cTI=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_main_btn_01_rec_pressed.qi
+ o
+SHA-256-Digest: /dKdg/QqXKGVDLf5o/f/IuwRBzhyJuFpHWLBw/fpm5w=
+
+Name: res/drawable/camera_hyper_motion_ic_time.bmp
+SHA-256-Digest: okqBajf2Vq1i+PPjRAihVBqod4dN5GjAV74IxmPwqNs=
+
+Name: res/interpolator/elastic_10.xml
+SHA-256-Digest: 6YTdFsG7hZcjdS7YCwXmxEGDH+E9kFmnMP+1cXcRsOM=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_timer_no4.qio
+SHA-256-Digest: uIlppDJFRTxxHObfHx5dZp9NkXX5IxO6VPTrOPuJ/VA=
+
+Name: res/drawable/camera_frame_front_02.bmp
+SHA-256-Digest: HKw+8CdxMsx2m16pXfwdZazTTF5fS81cOtrB1yAkqe4=
+
+Name: res/drawable/camera_mode_ic_aqua_selected.bmp
+SHA-256-Digest: ogOzC+kOGnyUQk7g5aniaiIqZQ7T4UoJl9/85ew7ChI=
+
+Name: res/drawable-xxhdpi-v4/mode_fast_motion.qio
+SHA-256-Digest: chDFAl3sjrmyPdxt35ewoFtQJ+AE99Qg7/GWXlcumf8=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_interactive_shot_rear_devi
+ ce5.qmg
+SHA-256-Digest: iKE/aqM700vsa67b5wS6lwCVSAueN0xpeE0H0zNKqHk=
+
+Name: res/drawable/camera_popup_ic_hyperlapse_16x.bmp
+SHA-256-Digest: tIPAiHoKrj5bZo1FVNDFoJSqLha48UJvydZWIm1Czc0=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_interactive_shot_rear_left
+ _5.qio
+SHA-256-Digest: nrH2GE2YUJm0GpVf88GXqzfdPlpW6j7f5agzrXAhZcA=
+
+Name: res/drawable-sw360dp-xhdpi-v13/camera_wideselfie_arrow_left02_v.
+ qmg
+SHA-256-Digest: 2pC4fJU+w28YYm/afDH1wxV//7DQ0CTQSLffFFpgcoY=
+
+Name: res/drawable-xxhdpi-v4/camera_dual_thumbnail_fisheye.qmg
+SHA-256-Digest: 8kDNviy9nwiWN/XTCf5sYuqmJP+FZcVla7U37d97B44=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_timer_interval_no2_light.q
+ io
+SHA-256-Digest: bjAk20nf4chPCpZos7Mvtu9h9DMgSziymUUYRsPumNc=
+
+Name: res/drawable/camera_auto_eve_ic_minus.bmp
+SHA-256-Digest: sAJBZRKFnWMID2M7GbDoko/3HmFMthw1r9Sw+oEOmgk=
+
+Name: res/drawable/camera_main_btn_paused_pressed.bmp
+SHA-256-Digest: xaI6MkYVr2TklPRgxGHPdTpd2qB9MugLIwDH21e6cmg=
+
+Name: res/drawable/camera_main_btn_02_video_error_freeform.bmp
+SHA-256-Digest: hZQcMyC0pnlxqaiesL8eJn5sWzfVvI2f+UKwJb96emk=
+
+Name: res/drawable-xxxhdpi-v4/camera_wideselfie_arrow_right02.qmg
+SHA-256-Digest: waCu+0OFW9i1M0BgFIGRFJ3Idn3I8QQx+Gmc+iS/cx4=
+
+Name: res/drawable/camera_clip_movie_collage_1by1_3.bmp
+SHA-256-Digest: v42go+0okG2/tv5Y/ajxmNaLyAO2BJOZJjCux+tU45A=
+
+Name: res/drawable/camera_quick_menu_ic_hyperlapse_4x.bmp
+SHA-256-Digest: HoQG/0BBzwWoeaUbFV+938KAWceQWXbOxkC7FqPCal4=
+
+Name: res/drawable/camera_popup_bg_picker.bmp
+SHA-256-Digest: SovvTvIapoK2OIxzo4D0Vq0OYkn7R7GOMhh7tohv/Fk=
+
+Name: res/drawable/camera_pro_mode_ic_focus.bmp
+SHA-256-Digest: MX+GhvmrQt8Xmy71xIQuWZMtyfTqmGPVNO74/2emqGs=
+
+Name: res/drawable/camera_timer_no8.bmp
+SHA-256-Digest: fu467H9YJ20SQTr4DjjpPyZnwO3snmeUMnIcFwSOvHU=
+
+Name: res/drawable-sw768dp-xhdpi-v13/indicator_timer_2sec.qio
+SHA-256-Digest: VvS4MHWZGLDT9mWyjN8Jcg6k0ZEvb7GcHxBlCVfOCC8=
+
+Name: res/drawable/home_ic_sports_pressed.bmp
+SHA-256-Digest: oc5q09xYjxvuq7Gpp01uFzP4ytoyWGVkjrLPmwU12LE=
+
+Name: res/drawable/preview_watermark_mid_mai_thumbnail.bmp
+SHA-256-Digest: 5GcG6iUKXhDooBJ1ejv438uaBxbdOU85sle4Zjhp5qY=
+
+Name: res/drawable-xxhdpi-v4/camera_dual_thumbnail_instant_photo.qmg
+SHA-256-Digest: iiHibpvUXsMk+cunOwWPzgwf2fG1oRuZ5T3oRBVxc10=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_pro_mode_controller_ic_aut
+ o.qio
+SHA-256-Digest: SCHT0/QHqwCXhbL7iB9lV9pJLSzcRI4r91KrwhJ+j3s=
+
+Name: res/drawable-xxxhdpi-v4/weather_ic_snow.qmg
+SHA-256-Digest: u14Zsi0jFBXrC57En6EQwxy0AfSUg0/C+6yjvet+154=
+
+Name: res/drawable/camera_quick_menu_ic_setting.bmp
+SHA-256-Digest: 1Ht2uOSpIjpU83JP2SOHXregfYjbhurj9aTvTN/63DA=
+
+Name: res/drawable/camera_pro_ev_next.bmp
+SHA-256-Digest: Prtf1iNEteYtP4hrCxeMhD3cp7DxzKrMJNaSrjdXHBE=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_pro_mode_wb_ic_incandescen
+ t_normal.qio
+SHA-256-Digest: ZxbwH2PqOp6GZVZTFjK6cufvxMsW5nDRUw0aweYzelI=
+
+Name: res/drawable/preview_watermark_rightdown_homeman_thumbnail.bmp
+SHA-256-Digest: 5ZM34kDF2kmJyqrePZFn822r0XTqGWmwPCB6qiW/LPI=
+
+Name: res/drawable/camera_clip_movie_ratio_4by3_3_1_selected_3.bmp
+SHA-256-Digest: FR9C0Ub5xQUSGyp5cu4uAdq0OE36Rk+6fOWIhz/l3K4=
+
+Name: res/drawable/camera_clip_movie_serial_4by3.bmp
+SHA-256-Digest: s6by9ydGRBuIZ+66ItlOnaI7zskxCreCahCTpb9lnfw=
+
+Name: res/drawable/camera_edge_sub_icon_bg.xml
+SHA-256-Digest: NlbT0p+Y/4QC9M2gLTFm34O4R7/kS+rOl9JmOnMQZpQ=
+
+Name: res/drawable/camera_quick_menu_ic_more.bmp
+SHA-256-Digest: 2nrxeBf5Q0D9Ij4LPTXzIFnIIntZGbxtKT3MTsbAN/o=
+
+Name: res/drawable/preview_watermark_rightdown_empty_thumbnail.bmp
+SHA-256-Digest: Q99bx9844mAdDBLr5Pc8gzEoKVcB3S1QdvGTYhEyjDQ=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_main_btn_02_video_error.qi
+ o
+SHA-256-Digest: A3+8SMq+IPyFYHLeWd55pH4SWFdFxD+kDP2wNFT/ErI=
+
+Name: res/drawable-sw360dp-xhdpi-v13/camera_wideselfie_arrow_right03.q
+ mg
+SHA-256-Digest: eu9YLxKylTHiGlAVcVKGTBXFnVaTr7ngOFtVZFCW+yE=
+
+Name: res/drawable/preview_watermark_mid_hardandhapyness_thumbnail.bmp
+SHA-256-Digest: flO8/0T6EitCmouQTdsh+wBNJ1kWPlwioGXav5pRwGY=
+
+Name: res/drawable/camera_mode_ic_live_selected.bmp
+SHA-256-Digest: sULbfrwxfXIHipdXYvMqAqndnWoednkHgNh/zpalcxs=
+
+Name: res/drawable-xxhdpi-v4/camera_food_handler_pressed_r_t.9.qmg
+SHA-256-Digest: 77NvsXXiRSYs4M/2rR/Cx95z4QyyqCcWtypKmxd0SlE=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_beauty_face_ic_large_eyes.
+ qio
+SHA-256-Digest: TNh6oWIiFfJC0WAr3F6xtpN4J+/lmowSyIYP+imyZJY=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_interactive_shot_front_lef
+ t_1.qio
+SHA-256-Digest: AgtGX5QjfZZyGBd+nqEnaM+q8bQ3dSLlfQhnnLoxf8U=
+
+Name: res/drawable-sw768dp-xhdpi-v13/indicator_viewmode.qio
+SHA-256-Digest: BVg4TYeqahi49UZ/FiJcIOotMGzd8LuQmf6whjZaKnw=
+
+Name: res/drawable/camera_mode_ic_panorama_selected.bmp
+SHA-256-Digest: l7NWgzN1CyLJS+ljwsyQlVYmNFXGZzhSAiNo1HIIl3M=
+
+Name: res/drawable-xxhdpi-v4/camera_food_handler.9.qmg
+SHA-256-Digest: BToWiT5frFyCEHFCvfADPvL84a0BBJR+Be9hemRlWqI=
+
+Name: res/drawable/camera_control_zoom_normal.bmp
+SHA-256-Digest: vqVg+gSJuHOPpEHMhx5hQRvG1eiuY5zT0ZAy9AOJvZo=
+
+Name: res/drawable-xxxhdpi-v4/sound_shot_quickview_screen_eq_bar_09.qi
+ o
+SHA-256-Digest: 0tICSSmXtVElkjCtOWixG7xASzyIiKmFFpnMoLbWrjE=
+
+Name: res/drawable/tw_ic_ab_more_mtrl.bmp
+SHA-256-Digest: 1YguHEgLYYwtWUe+jTFg+M6Q9rOvs8KlD6ey9iuGbpo=
+
+Name: res/drawable/camera_clip_movie_ratio_1by1_4_selected_4.bmp
+SHA-256-Digest: ouzMF1EhDjqf9QIAM85kLvVQiXiN9IK+YioHc4itsKY=
+
+Name: res/interpolator/sine_out_60.xml
+SHA-256-Digest: iwtkxSHDj+rRmTwwVo4AVIx3uNCC3rNSZHUKgNMILvA=
+
+Name: res/drawable-xxxhdpi-v4/effect_sunshine.qmg
+SHA-256-Digest: Wt6MsJPkjLUyZm3dZbp0WeifVLXg9KAEU1U4xzgwviU=
+
+Name: res/drawable/camera_beauty_face_ic_shape_correction_off_selected
+ .bmp
+SHA-256-Digest: 6C+or0aAqX6z4CuF0Gl/sps0XvF/ckkfvDsx4vANRKg=
+
+Name: res/drawable-xxxhdpi-v4/camera_rear_cam_selfie_outline_press_l_t
+ .9.qmg
+SHA-256-Digest: NUH9SrsabJx/s+FTSk/lJCMkCJdrSgNAJ5apchIRlrk=
+
+Name: res/layout-ldrtl-v17/resolution_spinner_item.xml
+SHA-256-Digest: kmFo0VgocqJnlo+iH1hMKHYgYqPHAGW5u29u5xbKlEE=
+
+Name: res/raw/shutter_50ms.ogg
+SHA-256-Digest: 4eXVyOEfZtVVHaBAIdCXbgiQIRtpTH5rOY98tDwyXlk=
+
+Name: res/drawable/camera_mode_ic_product_search_selected.bmp
+SHA-256-Digest: lXjre4SfV/SI9bScmhLZK443eTs5ARsW6tHjPwBwTcU=
+
+Name: res/drawable/assistant_menu_ic_camera_gallery.bmp
+SHA-256-Digest: Ks4WDg7ETQHpwMC9qiTUS8AUOQtvNEkupem9jIyR1WY=
+
+Name: res/drawable/camera_pro_mode_ic_focus_selected.bmp
+SHA-256-Digest: fCHa9DrICHvDEyjomaJaFvQQg7Ro/gRvAG5t/ZShDZ8=
+
+Name: res/drawable-xxxhdpi-v4/camera_interactive_shot_front_left_3.qio
+SHA-256-Digest: ZU6EK++vL8lu4g3wo++ixevGn2Zd9qfrrGacD92y0m0=
+
+Name: res/drawable/camera_panorama_arrow_left.bmp
+SHA-256-Digest: bXPufOZgTE9ZErZ5PAojhVGsYiVRS3rjQkRf/rK4Um8=
+
+Name: res/drawable/camera_clip_movie_ratio_4by3_3v_normal.bmp
+SHA-256-Digest: MQjYRqKijE3GEMZifnao40l58kLSWdhWGLVVWgPuOpk=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_interactive_shot_rear_left
+ _4.qio
+SHA-256-Digest: S7J4IMsU/76jQQ25DTtEuqquyPWN+NJw+VtI/NNIa2s=
+
+Name: res/drawable/camera_btn_af.bmp
+SHA-256-Digest: AqPDWOV3tkJzCyl/kaeFcyRVzW4JCKGBnzaQiSHZDCc=
+
+Name: res/drawable/preview_watermark_mid_worldofme_thumbnail.bmp
+SHA-256-Digest: fAx45Pt/ZHgnZDyeqx24XZqqnWP8Wq2itlWKPYHuSpo=
+
+Name: res/drawable-xxhdpi-v4/camera_overlayhelp_front_img_2.qmg
+SHA-256-Digest: nWnQmmVhG2jHceh6zghrABqgjGxfYgRfDmqCV30WGa8=
+
+Name: res/drawable/camera_panorama_arrow_down.bmp
+SHA-256-Digest: lo2+zvL2mNW6VQ84ZTgMFstJdgkJs6jZ0gUCnn85atM=
+
+Name: res/drawable/camera_timer_interval_no2_dark.bmp
+SHA-256-Digest: HRoUzbjcGylXfbKUE4ulwIHwm4REgwkX+xMkAC64UDM=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_quick_menu_ic_beauty_face_
+ off.qio
+SHA-256-Digest: wlPTMo2H6AGiU0aS+pbYgZ9pHFEPiYGD90fjeSo0BqI=
+
+Name: res/drawable/camera_clip_movie_ratio_4by3_2v_selected_2.bmp
+SHA-256-Digest: gWOtyn+efAnUHWv3cynqsQHmguQoLsRMzibXyQLUYMg=
+
+Name: res/drawable/camera_cover_view_ic_pause.bmp
+SHA-256-Digest: zmnSCM8q5g0bFOVgXXpWLNvh63VJ9/OnzOzL4SlCkq0=
+
+Name: res/drawable-xxxhdpi-v4/camera_progress_bg.9.qmg
+SHA-256-Digest: Nv3ALTnc3y/qF7NmpCQR+jrKwuMtztPa7f2Ulo1foBU=
+
+Name: res/drawable/camera_edge_small_selfie_icon.xml
+SHA-256-Digest: Toa+rJKFfEvRu2k25BhJrgMRTDjw/aOXcmoBSX5+jSk=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_quick_menu_ic_food_blur_on
+ .qio
+SHA-256-Digest: jT//bvLQx1v0ILyOp9tkusXiqKN2sERan+6ZUcbxjeE=
+
+Name: res/drawable/camera_main_btn_02_image_error.bmp
+SHA-256-Digest: JSgmg2TpTa8HvLGt5UcYSNWAx4rKO443RjHwzn7uf4U=
+
+Name: res/drawable/camera_clip_movie_ratio_1by1_4_line2.bmp
+SHA-256-Digest: w3n9mUKDhjKq53DhM+SavJqtMIyukgvlOOVtQn+X/cs=
+
+Name: res/drawable-xxxhdpi-v4/tw_btn_radio_to_on_mtrl_000.qio
+SHA-256-Digest: fABOa8yAqSoxILKRxCrZMTkanMhsL3KzGb+F6NHdUFc=
+
+Name: res/drawable/camera_quick_menu_ic_hyperlapse_32x.bmp
+SHA-256-Digest: hFtt52nFBl+FvHlGJ4y0MQcosEvAyggQp2PGnPV86M0=
+
+Name: res/drawable/camera_timer_interval_no1_light.bmp
+SHA-256-Digest: lZnpw7/tgfANIAGu/R+LLlRxxSdEmuxnY6eEYjItTqk=
+
+Name: res/drawable/camera_timer_no9.bmp
+SHA-256-Digest: wueTw6cX21CJwyC54RDbR82t+IztouK2zDJOcsmCrj4=
+
+Name: res/drawable/camera_clip_movie_collage_1by1_2.bmp
+SHA-256-Digest: LDsFSO2ZHEGfrFUP3nkyqM1TyoEKE+F0dkzDhtRqJAA=
+
+Name: res/raw/shot_more_processing.ogg
+SHA-256-Digest: 8FZSCi2zZ7AO/VB/Ga8B/Rd4m4Ynoqtprid2dgsw0Rk=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_interactive_shot_rear_devi
+ ce4.qmg
+SHA-256-Digest: tf0c0PIdnLnhOPDqSepqAZ/qHz0/KjUiShrLtZq3yis=
+
+Name: res/drawable/camera_clip_movie_ratio_1by1_2_selected_1.bmp
+SHA-256-Digest: DTeg31mNLqcquVk6pvTR5DwaJXLZtBOUOBd4VRX9HGw=
+
+Name: res/drawable/camera_clip_movie_ratio_1by1_4_selected_3.bmp
+SHA-256-Digest: 08Z5TPAt6Fe+y4wZEure3uX77hfL4Pg63iWBf3iFqKY=
+
+Name: res/drawable/stat_sys_battery_new_0.bmp
+SHA-256-Digest: FsHj4r/1ywHKml9BeERGqUXeb8k++oJea+tt6ZsuzOI=
+
+Name: res/drawable-xxxhdpi-v4/camera_wideselfie_arrow_right01.qmg
+SHA-256-Digest: P+QpJ0yPp3Iz+BajUjlR7yIXm3i97DQp7Ugl6PRkLLQ=
+
+Name: res/drawable/camera_pro_mode_ic_ev_selected.bmp
+SHA-256-Digest: 794kg3/R9l+fcjY5mCUaTW8WLql1ozUsUAfktjEhV50=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_timer_interval_no3_dark.qi
+ o
+SHA-256-Digest: +S0YWjvfCyFM5Cz/V6aW2FZpXFfgRHxR9TEuyFJN7AA=
+
+Name: res/drawable-sw768dp-xhdpi-v13/indicator_timer_5sec.qio
+SHA-256-Digest: /Cc28FMAs1Csb1Uc0C06oNs3SUqcyTcIWgcZ79B7D2Q=
+
+Name: res/drawable/camera_control_zoom_pressed.bmp
+SHA-256-Digest: aDJ4k9nuZGRsdYSNSDDZRR/p8aZvAh8YYzQ68zNPVZk=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_interactive_shot_rear_righ
+ t_6.qio
+SHA-256-Digest: DWjoNMwlSHeO0XAdlln5kbzlJpKcDJ0oM3EteS1EqCY=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_interactive_shot_front_lef
+ t_2.qio
+SHA-256-Digest: 6wWUxkvtyTB6a5QV/jn+mjSealVE8PvjatDIih8Sy/8=
+
+Name: res/drawable-xxxhdpi-v4/camera_slow_fast_video_ic_fast.qio
+SHA-256-Digest: +LH9HY8uVmF5WFEv+RZS5ALoZSXhr1ne0rwnpkAko8U=
+
+Name: res/drawable/homescreen_menu_page_navi_default_f.bmp
+SHA-256-Digest: 5MN2hcT7L5QomthKJGe4BFz9l69L/B5eZr6KW9zZEX0=
+
+Name: res/drawable-xxxhdpi-v4/camera_rear_cam_selfie_outline_press_r_t
+ .9.qmg
+SHA-256-Digest: X6x9M+gy+kFovMn0A465ZeDUNltyJL4RNfvlGTikJ1k=
+
+Name: res/drawable/beauty_face_spotlight_lighting_center.bmp
+SHA-256-Digest: n6CfNsKcobwPMqsoiP0BG6dQbhGndmX48gjCdtVSRoE=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_main_btn_01_rec.qio
+SHA-256-Digest: 8K34yHu0OdTRN9AgSEELCnTI3Bje4SoQkBJt4adexco=
+
+Name: res/drawable/camera_mode_ic_rearcam_selfie_selected.bmp
+SHA-256-Digest: 4wq+NgFMPsOqdsDpREkcLo6RtYer/UYWACpnwKSW6Mg=
+
+Name: res/drawable-sw768dp-xhdpi-v13/beauty_face_auto_skin_on.qio
+SHA-256-Digest: DOD6kdP8LtU0a1Wa3WDax8cdBGJDlOE8Q3FXJCmebgk=
+
+Name: res/drawable-xxxhdpi-v4/camera_pro_color_thumbnail_custom2.qmg
+SHA-256-Digest: VTYgEFsf2RhihkjZEh/LLMktoiYtssBbSdHALGEz88M=
+
+Name: res/drawable/camera_main_btn_01_stop_pressed_freeform.bmp
+SHA-256-Digest: cEhdolNCkWfaB9UVWMnpL6vitVB7STAUObfyFtH+kwE=
+
+Name: res/drawable-xxxhdpi-v4/camera_overlayhelp_switch_camera_2.qmg
+SHA-256-Digest: 2mj65zzv5PsoJFVFiaRx5GSMAdzdiXnbpg/yIUwprf4=
+
+Name: res/drawable-xxxhdpi-v4/weather_ic_flurries.qio
+SHA-256-Digest: JCDxIyCI4a5hReAlSEIdb9CDVNdVr6cy/Wf80AwUxIA=
+
+Name: res/interpolator/sine_in_70.xml
+SHA-256-Digest: 7toBCUkYGl47e2wTGCdMlaOyLIDNtNqQJ99DTX0g1Fs=
+
+Name: res/interpolator/sine_out_70.xml
+SHA-256-Digest: qYaXzdHQlP/G8oJ6h3ZMrYCR0HtqBD/DsGfh4FejcWU=
+
+Name: res/drawable-xxhdpi-v4/camera_progress_bar_bg3.9.qmg
+SHA-256-Digest: KCmao7KDoarim23eDlgMhh7ascbt8+TBwOtXRkB8htQ=
+
+Name: res/layout-port/interaction_overlay_help_pager_layout.xml
+SHA-256-Digest: jO+HIIVJXLiN/TRUlfnLHCdmdyyqzwnaFCuA1Fs7L2w=
+
+Name: res/drawable-xxxhdpi-v4/tw_btn_radio_to_off_mtrl_000.qio
+SHA-256-Digest: uQEDhruqf6JlY1yUjJUkmHQs6hc9D+x9kEPijQnrYH0=
+
+Name: res/drawable/camera_clip_movie_ratio_4by3_3_1_selected_2.bmp
+SHA-256-Digest: ctfrxeA8sbuqUg+9mM2Y19klGBrxLhDd1SBOrN2d0CA=
+
+Name: res/drawable-xxxhdpi-v4/camera_interactive_shot_front_left_2.qio
+SHA-256-Digest: 49R9ch8QG+6T1PLHB1x+bwZd18CyKfthrTQ5vprVrTg=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_mode_ic_auto.qio
+SHA-256-Digest: HVetRnyzK0S4kjPLqkwV27d9E9vddlbjQ40ljwQxKgw=
+
+Name: res/drawable-xxxhdpi-v4/camera_interactive_shot_front_right_3.qi
+ o
+SHA-256-Digest: HBgCCzdGenaWoOmdyKTKK5ajgfF9bMY8ESY1KJoW8wA=
+
+Name: res/drawable/help_ic_record.bmp
+SHA-256-Digest: w2V/JQbtuKKdHR2n5KgUrwKFvTd4fNTELyKxKAOFzWc=
+
+Name: res/drawable-xxxhdpi-v4/wide_selfie_bg_black_frame.9.qmg
+SHA-256-Digest: v0GbqXptKSXvHQjoMbDojZCO+ze9JO1+pyLg+N2bEDk=
+
+Name: res/drawable/camera_pro_mode_ic_pro.bmp
+SHA-256-Digest: GWiqRae4mzp0BvVQa6o+297cWWhUjU1vv3CqNp5VzU4=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_interactive_shot_front_rig
+ ht.qmg
+SHA-256-Digest: i5thBcqPZalIy1U+ZgEGdc3iYAgaN/i+h+ikix4NBxc=
+
+Name: res/layout/attach.xml
+SHA-256-Digest: b1Msio4xlrAyTUOcLz3i4wMj6Hji+mYh3Hxkucp4eiw=
+
+Name: res/drawable/preview_watermark_mid_anyoneelse.bmp
+SHA-256-Digest: AAD7wAlggb94MQ+/pTTH/7g3bmbA6biUIa8SPPKwkpE=
+
+Name: res/drawable-xxxhdpi-v4/camera_pro_color_thumbnail_nostalgia.qmg
+SHA-256-Digest: Ca2El3dLhWm7IUhqmznLxhKI4J1+cgnXVx8VcyIbfDo=
+
+Name: res/drawable/camera_clip_movie_slow_motion_4_selected.bmp
+SHA-256-Digest: nqDXNKVpaed07suPelkDkQFBgbO8w4pOMZuGiUualSs=
+
+Name: res/drawable/camera_clip_movie_ratio_4by3_4_selected_1.bmp
+SHA-256-Digest: feXtcrNrV/3GEPnCMI+q44QaMYHPOq69xaUNKXkqD9Y=
+
+Name: res/drawable-xxxhdpi-v4/indicator_viewmode.qio
+SHA-256-Digest: v2klTLsy7NTi1lH/YBpkxJe3M+68cl0BSbscTE5SU1o=
+
+Name: res/drawable/preview_watermark_mid_worldofme.bmp
+SHA-256-Digest: SnWvuCaQ+7h9ARjWefZU+bajiFZT6qLO9/P3TL7FaNo=
+
+Name: res/raw/shutter_200ms.ogg
+SHA-256-Digest: fpsAk26BtwxQh//8TFVdOsIt6TOjdho2eMYZk/7l/7M=
+
+Name: res/drawable-xxxhdpi-v4/camera_interactive_shot_rear_device5.qmg
+SHA-256-Digest: AIobbrFFgse/Ye53j1GY0RS+d+7G3DevJKQBI9qkmjI=
+
+Name: res/drawable/camera_clip_movie_collage_1by1_4_selected.bmp
+SHA-256-Digest: RG1A2oPwUbfy9Ud0L0L/sfB3gx2clMi+ROCnPwR1B6o=
+
+Name: res/drawable/preview_watermark_rightup_wordnot.bmp
+SHA-256-Digest: M66DqBDA2imy20lISZkIVhsrE17coAdAl/Vsf2hlftE=
+
+Name: res/drawable/soundshot_rec_eq_bar_bg.bmp
+SHA-256-Digest: ZfZW/dkj20PpZxo+Uh4WPiBLjb54bSB6sxfXmgyJ8Uk=
+
+Name: res/drawable/camera_clip_movie_collage_1by1_3_selected.bmp
+SHA-256-Digest: lRz46vniJ9KHffZKI9UFnDrwKBKaQLWprHR474EInxI=
+
+Name: res/drawable/camera_clip_movie_collage_1by1_4.bmp
+SHA-256-Digest: MJUznFsp+Y3xkwQQhvdF6l815jxFQpC2L6n27FUCkKw=
+
+Name: res/drawable/preview_watermark_mid_importantday.bmp
+SHA-256-Digest: sEhnlM2vXiP4F1S2nwIu1Ut5qm1cm7PK2fBirKq3Kdw=
+
+Name: res/drawable/preview_watermark_rightup_travel.bmp
+SHA-256-Digest: ZAZFZcBHnP1FGCs/QWnYiJJLEnTIkkoNLSBbUqYA7Bg=
+
+Name: res/drawable-xxxhdpi-v4/effect_vintage.qmg
+SHA-256-Digest: oo+RN0XU6xidlBHETkn3+0v4u682H0dqvc5B8kdeWQw=
+
+Name: res/interpolator/standard.xml
+SHA-256-Digest: 8xxLtc2PEx+aAjtqidMLMEZ5oi4CRhZ+QVBXINp492I=
+
+Name: res/drawable-xxhdpi-v4/mode_fast_motion_pressed.qio
+SHA-256-Digest: ZNIYGvqtRvJMY5kiNEmaUPdy3CcyUdJHcOcPjd1Lb9Y=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_interactive_shot_rear_left
+ _3.qio
+SHA-256-Digest: zd+KaoAyXa8LZfVGvPB0AK3JKlNWP0F/LTh5gLObtxo=
+
+Name: res/drawable/preview_watermark_leftup_hehe.bmp
+SHA-256-Digest: S+ndvIHuqVvO7dN1/Lol9Bi25v//UGuKY/r0p9WHIMA=
+
+Name: res/layout-ldrtl-v17/guide_dialog.xml
+SHA-256-Digest: XoTK89aT5sNcEsFkTRSP2ZSJkiqIRsIXJ6SDSepKtCs=
+
+Name: res/drawable/camera_clip_movie_ratio_4by3_2v_selected_1.bmp
+SHA-256-Digest: OVuSQP8soy4Wez3iSrwgDn7CUEfVewjditdC3ap3mi8=
+
+Name: res/drawable/preview_watermark_leftdown_visa_thumbnail.bmp
+SHA-256-Digest: 5NmYktle2ORgYHn4zsZd9pOPi+uP1HL5RmnHRUUDKaM=
+
+Name: res/drawable/camera_main_btn_paused.bmp
+SHA-256-Digest: gGoW4LUiYyOVIPtgLpv1wehoHF7+/F0T6dMb1kflk80=
+
+Name: res/drawable/camera_clip_movie_ratio_1by1_4_selected_2.bmp
+SHA-256-Digest: 0q21qtTptsw6xWvyrSX7UrO9abaDF4mejPm8FcEmR6c=
+
+Name: res/drawable/preview_watermark_mid_happyweekend.bmp
+SHA-256-Digest: wyBTc6XlIkpCf4YI3DTzDz660QcRNqUQm11ZZMnaZeM=
+
+Name: res/raw/cam_stop.ogg
+SHA-256-Digest: 8XD2FJByMnE2wFMBn5RlL80do1ljl/kqS/BAV4/pcUM=
+
+Name: res/drawable/preview_watermark_rightdown_iknowimwastingmylivebut
+ ijustdontwanttostop.bmp
+SHA-256-Digest: J1k3PUjT6P2onTfvW3C0zQulqjwjccbPDCZiG7qMEcY=
+
+Name: res/drawable-xxxhdpi-v4/camera_pro_color_thumbnail_custom1.qmg
+SHA-256-Digest: OoOXouNlOv1t3ISQPiZWCixpDnHrji4uIV9CFJESjSc=
+
+Name: res/drawable/camera_clip_movie_ratio_4by3_4h_selected_1.bmp
+SHA-256-Digest: XKj3nAHcTAKHulIXQjmvuhYHrVtoTqYvmiSp1fsy7jM=
+
+Name: res/drawable/preview_watermark_mid_first_snow_thumbnail.bmp
+SHA-256-Digest: ihn23CzNkpfXNI7W+I3t8EHEUNBO3En4aEpuVeoJv5o=
+
+Name: res/drawable/camera_mode_ic_wide_selfie.bmp
+SHA-256-Digest: +O/QLmxbkTJrOflI9pn9mF6HgTTejmZNbVwHTcWvLA4=
+
+Name: res/drawable/camera_clip_movie_ratio_1by1_3_normal.bmp
+SHA-256-Digest: Jqz7GmpZlO2vhnhVyifFB9Xf8+P/cm1IdIJ8HypFKxc=
+
+Name: res/drawable-xxxhdpi-v4/tw_btn_check_to_on_mtrl_000.qio
+SHA-256-Digest: 1B8uv/TXgSukZoQrNzxtFWYHUg2TedWmWHjUc+R1Fto=
+
+Name: res/drawable/camera_main_btn_02_rec.bmp
+SHA-256-Digest: dG1m9rZziyamqD4MHg2t23d0oz6O0T9eIbilrMKA6sY=
+
+Name: res/drawable/camera_quick_menu_ic_metering3_popup.bmp
+SHA-256-Digest: /ld5/ncPyfpPSHfVSVYDN1gXADBas18jHZwNvXwu11Q=
+
+Name: res/drawable/camera_clip_movie_ratio_4by3_3_1_selected_1_h.bmp
+SHA-256-Digest: v9fA9Qc79k07QHfPgBQDZu0xphl79HiMEQw9n6rqyds=
+
+Name: res/drawable/camera_clip_movie_ratio_4by3_3v_line3.bmp
+SHA-256-Digest: 0svfw5/w2ziPSBo/R9jY2TKcn5i3FJwfQN0FJdZrAT0=
+
+Name: res/drawable-sw411dp-xxxhdpi-v13/camera_pro_wb_color_bar.qmg
+SHA-256-Digest: SMNQi4yXQ7CFj3qrdwttNipW7XqIYzu1CZFqZFLgaSI=
+
+Name: res/drawable/home_ic_virtual_pressed.bmp
+SHA-256-Digest: QFh2H6gJrEVOjdx9iesKNCeJchbSoGbqYdHBgbQ7bi4=
+
+Name: res/drawable/camera_pro_mode_wb_ic_fluorescent_normal.bmp
+SHA-256-Digest: uEL8D7okInQl1mk7dQGxhLYNGLUy7NtdU9lMmBaJV3c=
+
+Name: res/interpolator/elastic_90.xml
+SHA-256-Digest: XdfHZIIEkumyBAGM2JUTe3NL0WO2dB0z2VodwXQERMM=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_beauty_face_ic_slim_select
+ ed.qio
+SHA-256-Digest: 4znVOoV3IRJItM/5X0WMmU5Rd6aKE2mpNtWojpf/mm8=
+
+Name: res/drawable-xxxhdpi-v4/camera_overlayhelp_switch_camera_1.qmg
+SHA-256-Digest: clNqjM/5MRQjAFHGfrrUcAyoe8Lxj28cXDM/d/fI/N0=
+
+Name: res/drawable/help_ic_switch.bmp
+SHA-256-Digest: afyxwZRG2rDrYcrGpYb56HGP8VHJPR6eWrzdvcAQf3w=
+
+Name: res/drawable/help_ic_shutter.bmp
+SHA-256-Digest: 2mWyf8R95AduXPKCzEUWVSCf28Xfogt2ltzw6Zc8tRo=
+
+Name: res/drawable/preview_watermark_rightdown_iknowimwastingmylivebut
+ ijustdontwanttostop_thumbnail.bmp
+SHA-256-Digest: Z+NoCOehPhr/3uLucZMqNHWB/NVqCnK+LRCm91w/wRo=
+
+Name: res/drawable-sw360dp-xhdpi-v13/camera_wideselfie_arrow_right03_v
+ .qmg
+SHA-256-Digest: NgWcNlZ4Ul0iRkZAzNsd7ApMLVqKlFWputKfoap4qlY=
+
+Name: res/drawable/camera_mode_ic_pro.bmp
+SHA-256-Digest: 2ClXc5i2hpYpewJWfz+Tb6l8fNOd2fRU9JcatOxVPnk=
+
+Name: res/drawable-xxhdpi-v4/camera_food_handler_pressed_l_t.9.qmg
+SHA-256-Digest: aF7YDCNRvWdKMg8TYaaNy0NfU/6dAOYSdGQhjHgVuG4=
+
+Name: res/drawable-xxhdpi-v4/help_ic_gallery.qmg
+SHA-256-Digest: hhKf5YabY0+pgzCmVnRoSwagIxpWgHvpU51d8OFdl7s=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_interactive_shot_rear_righ
+ t_5.qio
+SHA-256-Digest: 3ti+kdirxK8JoChB1Qv6hywSOhz8lACu2OiJTN8Lw5I=
+
+Name: res/drawable-sw768dp-xhdpi-v13/homescreen_menu_page_navi_default
+ .qio
+SHA-256-Digest: t1w00mTrP4n5/0uq2mOUHA+aw97WGtjt166YDKnnzWI=
+
+Name: res/drawable-xxxhdpi-v4/weather_ic_windy.qio
+SHA-256-Digest: 8KYfpOC8Nlcqwi0436tsy1vdNgHCsULv6PylsGVfhMc=
+
+Name: res/drawable/camera_panorama_warningarrow_down.bmp
+SHA-256-Digest: a0thW9HuoBS6blj5PodNrw9ag8wZLtsKG0uj83HjgwE=
+
+Name: res/layout-land/interaction_overlay_help_pager_layout.xml
+SHA-256-Digest: ME38Pua7xoujTPsp2N7VI9+AQkYpR8Wd6gs9OBIiQyM=
+
+Name: res/drawable/camera_timer_no6.bmp
+SHA-256-Digest: UxL7J49zql87a2ea+ZsG0/vvDGD0Jg2HKlR5v53kJSc=
+
+Name: res/drawable-xxxhdpi-v4/camera_wideselfie_arrow_left03.qmg
+SHA-256-Digest: wlH+5VJxf75IPDdWF5yK6Ml5AbVVmrtmJpoLHOOnWAc=
+
+Name: res/drawable/home_ic_dual_camera_pressed.bmp
+SHA-256-Digest: uUroQBNXNKs/vbqxrtINVqFhm12Zyo10WTjW1bD92Ew=
+
+Name: res/interpolator/acceleration.xml
+SHA-256-Digest: L0fKtEOb6zycPE+UFyYHQoF3Fpa/npgLQbkRY1+xO20=
+
+Name: res/drawable-sw360dp-xxxhdpi-v13/camera_pro_wb_color_bar.qmg
+SHA-256-Digest: Gbn2KN/VkqNOODdaWpflMeJGjYivy/br1INhG91c9kI=
+
+Name: res/drawable/camera_effect_control_ic_watermark_manage.bmp
+SHA-256-Digest: 5JSMCUGG8TZ76zfdnttY6w4rCOwbPjwDETlyh6pmry8=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_pro_mode_ic_wb_selected.qi
+ o
+SHA-256-Digest: HxBy93QsPftQ3XqDVT19gQLoP5gLftpFrmZiu7R+nVY=
+
+Name: res/drawable/camera_quick_menu_ic_timer_3.bmp
+SHA-256-Digest: fArskIAhwCePS6efrLidsiew3xldDODl3B/gmIeJCR8=
+
+Name: res/drawable/camera_frame_right03_v_02.bmp
+SHA-256-Digest: f0e9N+PV4eGuDc6CKcWqdrBHECPZoPeT5MmID2E4Z1w=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_timer_no6.qmg
+SHA-256-Digest: XVaZqiTpk0S9ZFlYlovfKmPofy++DUr57bNpiuFUt60=
+
+Name: res/drawable/photo_crop_handler_rotate.bmp
+SHA-256-Digest: 1YYHXnbLjZENOcy+BIrJNbOk3HJ2Px2fFV1HuaPtN9w=
+
+Name: res/layout/resolution_list_item.xml
+SHA-256-Digest: D+5I6yiq4pgvbduaPYsOcVZ0l2rNVGDwKCFHKjSBb3o=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_overlayhelp_effect_1.qmg
+SHA-256-Digest: iOiGngpU3y1upO9XAvz7/Od5Wed6dL56T2Ckh3drqS0=
+
+Name: res/drawable-xxhdpi-v4/tw_btn_check_to_on_mtrl_015.qmg
+SHA-256-Digest: f8MMx0M0hwZoMSQ5sQyqwlmxaSTaXLyT84iBV+x8zL0=
+
+Name: res/drawable/camera_quick_menu_ic_collage_1by1_3_1.bmp
+SHA-256-Digest: wKcXJ+HWtiwjA1jUu+VU9mMQlEYodAJfZU1ld2nvsLk=
+
+Name: res/drawable-xxxhdpi-v4/camera_interactive_shot_front_left_1.qio
+SHA-256-Digest: ly1gbbwQRoUqe0meKKiIwI3hqDhDtRqHemKL3egOJQ0=
+
+Name: res/drawable/preview_watermark_mid_charge.bmp
+SHA-256-Digest: Y1zqJlvZpUPp2xJlgJ4thtOjR4tNwwbqWlThA7YqRHE=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_interactive_shot_rear_righ
+ t.qmg
+SHA-256-Digest: kOE+HiZvI6RbRY8GyHlr2HFGDwOvz+6om8oOvbqtY30=
+
+Name: res/drawable/preview_watermark_mid_cannotsee.bmp
+SHA-256-Digest: /gDHYnZwnri8ZoHrwFO2cVJTqLNjCr8xFf3/5GD8neE=
+
+Name: res/drawable/camera_clip_movie_ratio_4by3_3v_line2.bmp
+SHA-256-Digest: IUGfdEBBazYxN2LcJIzYEPeBMe0TW0AI/Wm9UIew9v4=
+
+Name: res/drawable/camera_clip_movie_ratio_1by1_4_line4.bmp
+SHA-256-Digest: 6J7djEnklVfDVKKeZv76coPwhaBGs/+eitzCHBWdNoE=
+
+Name: res/interpolator/sine_in_out_33.xml
+SHA-256-Digest: /da0LyVCl3mvVN15zOAzvZiT8tvGyyBQQVYRC047qqY=
+
+Name: res/drawable-xxxhdpi-v4/camera_interactive_shot_front_right_2.qi
+ o
+SHA-256-Digest: PUsNoYCW+4kvV+G1xk9nrGoRHcfxC3HMUXk3JXMWF78=
+
+Name: res/drawable/preview_watermark_mid_rest_summer_thumbnail.bmp
+SHA-256-Digest: RjWzaT/7sxOCb3AdeQ5rTaDcVsAzNHTS9H27QahWOkU=
+
+Name: res/drawable/preview_watermark_rightdown_breakfast.bmp
+SHA-256-Digest: +zFx+ZjkQbfNMvOg41zPQIb8TIG/Lg6q/+0HzoqdTvE=
+
+Name: res/drawable/camera_quick_menu_ic_slow_motion_3.bmp
+SHA-256-Digest: l34bXedhhFRUyi35rbfn5ULwQ044t3csvozyQX+3Mi0=
+
+Name: res/interpolator/elastic_70.xml
+SHA-256-Digest: ScsIDqxMdQvkbxiG965tWdwWUNkR8mYzt9RSR98ruCI=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_effect_edit_detail_bar_ic.
+ qio
+SHA-256-Digest: 4Ud232BWRBuePgUHqHoWV1EU6oFNVcmx7pRKMybrJo0=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_interactive_shot_rear_left
+ _2.qio
+SHA-256-Digest: ar1aVkefeRVkrUJjblKlghNIEbZvkVjBnmYef+XBGnE=
+
+Name: res/drawable/camera_auto_eve_ic_light_3.bmp
+SHA-256-Digest: T64Xansdu6r5keiK/HpK2V10nhYCyQOUciCjjIrkZy8=
+
+Name: res/interpolator/elastic_20.xml
+SHA-256-Digest: YUJ4FlhBSTBZha1OKd5cENf92xPL6LuweyvlNUtUAKA=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_interactive_shot_rear_righ
+ t_4.qio
+SHA-256-Digest: f46/Bw5l+KGfS91pAOcmC1b4uNqTC6RWsW0HiFONEZY=
+
+Name: res/layout-land/hrm_sensor_capture_overlay_help_layout.xml
+SHA-256-Digest: CTYum/kD5QolD1XPG4fk2u4NNuyP0k8Q9mxcsPg6mA0=
+
+Name: res/drawable/indicator_hdr_on.bmp
+SHA-256-Digest: CqR7UEMzfyrFEcXv1AD6xtXXQd3IpsX47cR7iu2otI4=
+
+Name: res/raw/panorama_warning.ogg
+SHA-256-Digest: wPOS/k1j+f0MqafSrrfZ88V+BDenoqeWI8juC4p38Wc=
+
+Name: res/drawable/camera_effect_control_ic_watermark_manage_pressed.b
+ mp
+SHA-256-Digest: ijVcMnKTqnKaziapLWq/AfQIPqHWn8Abi0v8Pc8fEtk=
+
+Name: res/drawable-xxhdpi-v4/camera_food_ic_color_balance_bar_v.qmg
+SHA-256-Digest: QK/XbBSdxQA3/r1D1GHQLJ3l+09VBCd2uFsgHoHZ3eg=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_mode_ic_night.qio
+SHA-256-Digest: 7r8zpSUpZ+G0a8gVmrUMICtZPDouJB3e/SY9Ax+YW+s=
+
+Name: res/drawable/camera_mode_ic_interactive_shot.bmp
+SHA-256-Digest: QROpy+leBQQh4U5MY30GqBXZH90pfqFqx6qQ44TJdGw=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_pro_mode_ic_iso.qio
+SHA-256-Digest: 5AwHShOIoxphTppAmS6GmD/YFCDMUxMM3b5gnnvII44=
+
+Name: res/drawable/camera_pro_mode_controller_ic_02_normal.bmp
+SHA-256-Digest: TO7WDeNJbPeMXOyq/7u9l5Pt0Oanv6WjOimucUyRX1U=
+
+Name: res/drawable/camera_quick_menu_ic_slow_motion_2.bmp
+SHA-256-Digest: HxE/uN4Q67NgN4PYDUEP+HVMLMCJ3b6rwEVkj7yVLtI=
+
+Name: res/drawable/preview_watermark_leftdown_visa.bmp
+SHA-256-Digest: F2O8w/y6co4XAeofI95YS+PgyWLkGv5INUqIt5U87DA=
+
+Name: res/drawable/camera_clip_movie_slow_motion_3_selected.bmp
+SHA-256-Digest: s+pDjPp+n76zR4IqVJwCxwi9O5CEi/nbx0SwwCHRr7w=
+
+Name: res/drawable-xxxhdpi-v4/camera_pro_color_thumbnail_serene.qmg
+SHA-256-Digest: sh/7F17Qx9iS8csMjaYjrihj/kV2EjNHYjiqfFvxKmY=
+
+Name: res/interpolator/sine_in_out_60.xml
+SHA-256-Digest: KRosF+kxUkbYh6Ckdc2bc/hhPTnpsYrdITU//FtM1rc=
+
+Name: res/drawable/camera_quick_menu_ic_food_blur_on.bmp
+SHA-256-Digest: QUYlFc81nJZb/nfzkmXrLeAHX/7AcR2N/4o2NDtgoEQ=
+
+Name: res/drawable/home_ic_auto_pressed.bmp
+SHA-256-Digest: 0JHtg01Ays5Ma/xdj7oNqS+WMboA0v+BbWZmEBRi1GU=
+
+Name: res/drawable-xxxhdpi-v4/camera_wideselfie_arrow_right03.qmg
+SHA-256-Digest: zEPDT6M7xuZWqO61wAg9sKLHYjHNy3VWF4cYi+hTyVk=
+
+Name: res/drawable/camera_timer_no7.bmp
+SHA-256-Digest: z64dAqKWhLTHhI73sOTvvaWO9YvuTGhrOhnIq/WcccM=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_main_btn_01_stop.qio
+SHA-256-Digest: ByrOMHQrGhYwGGUMN88a3aGoZVoYvxKutDY6t2JTMuY=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_timer_interval_no1_dark.qi
+ o
+SHA-256-Digest: O7fmtgIFd5v3G5dW+QDiU1l1wkJKYsLoUCkSiY8J1hc=
+
+Name: res/anim/alpha_out.xml
+SHA-256-Digest: gJr8rqytPNyU+RWf8ZPSpZusBOqTI7sp+pjpvfXzlck=
+
+Name: res/drawable/camera_clip_movie_ratio_4by3_4h_selected_2.bmp
+SHA-256-Digest: NYaDTYCcA2muMTT+0zjlxlDenGCadchWFMgvG3S0d/E=
+
+Name: res/drawable/camera_clip_movie_ratio_1by1_4_selected_1.bmp
+SHA-256-Digest: EkWuJvBTq9xp5gEECCYHJK9Yf1SrvsozKvrbwpvneA4=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_interactive_shot_rear_left
+ .qmg
+SHA-256-Digest: ReXLW/grqn4J4gIBUPPDmS3vTk69T7I9fB/klIYGqkU=
+
+Name: res/drawable-sw768dp-xhdpi-v13/indicator_flash_on.qio
+SHA-256-Digest: xMIYeq6mbBLiqYWoCFsA7tH7QIjf3pGFSaMS60JawZ0=
+
+Name: res/drawable/home_ic_live_pressed.bmp
+SHA-256-Digest: ozAbd9jeXK8DkQtTBJf8d1TsGsR+Hd5Ex4uRJt1yse8=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_interactive_shot_rear.qio
+SHA-256-Digest: dcACNxHoT9jyLLMeRFhxs14PK/1l86S/xA6AN9xb93U=
+
+Name: res/anim/activity_exit.xml
+SHA-256-Digest: hMenjhHvpPgh+qdUUOUE1bnpj2rj5p8BSYdoEzYePdU=
+
+Name: res/drawable/ripple_effect_for_gradient_button.xml
+SHA-256-Digest: 69ysl6tcS1HPmMoqRev1/Db+G4rlM8w5GTiaHbrx+Xw=
+
+Name: res/drawable/camera_clip_movie_ratio_4by3_4_selected_3.bmp
+SHA-256-Digest: LBapGTCCBog8ddr9wWDwolQN3sKPWj5vqbTUzU3nxLA=
+
+Name: res/drawable/camera_popup_ic_timer_6sec.bmp
+SHA-256-Digest: MbvnqZhO5ow12pZp0qVfqnWSZZibVJUBs11IAXLHZKA=
+
+Name: res/drawable/camera_main_btn_02_capture_freeform.bmp
+SHA-256-Digest: 2V+ZY11DsHdv/5+z7atdAzvKNj7Uu/ycfBGjMbRXj4U=
+
+Name: res/drawable/camera_mode_ic_auto.bmp
+SHA-256-Digest: hBi8s2I9GtEDFryNvwtAAxuA4GnxQDXc9Mp/1Xc3KLk=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_record_ic_pause.qio
+SHA-256-Digest: MNqba0s30N3L8fKoydhrUj0fztEy19rjAyOYdcGyO8U=
+
+Name: res/drawable/indicator_flash_on.bmp
+SHA-256-Digest: axUobX7ooYVL7p9yO31POuGs+Lc07OQ0fIFOU0dFVNY=
+
+Name: res/layout/resolution_spinner_item.xml
+SHA-256-Digest: 2TBNGSdPsFCiLolq+jCHc1FpBTAx3beQOegximdnjGI=
+
+Name: res/drawable/camera_mode_ic_product_search.bmp
+SHA-256-Digest: kk41CG4lG7rT+kCtEDfAlWgh9swpk+8ozOsAb+49Zfs=
+
+Name: res/layout/guide_dialog.xml
+SHA-256-Digest: s37qQ5d+kR2sVHT5lmuO4caLcIvRHyyLi150MMYI0Yc=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_overlayhelp_effect_2.qmg
+SHA-256-Digest: exV7Wbf0fgLh+VK9n1PrysfHIH/0TWq7WzB2/Y1Rl3M=
+
+Name: res/drawable/camera_main_btn_02_recorder_freeform.bmp
+SHA-256-Digest: ffq0nT1QcW3XjuEL8u4PpVHzp1NJKPMKJpyFFrg0xGY=
+
+Name: res/drawable/camera_pro_color_bg_selected.bmp
+SHA-256-Digest: +ysxRzXQ8MApbkyFG848Pmn3fCtGpXg1xH8XsaMSEII=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_overlayhelp_switch_camera_
+ 2.qmg
+SHA-256-Digest: W+gn8xWkrkQsjFBQpbSc0mQyysmpR673FvkNos4LhIc=
+
+Name: res/drawable/camera_record_ic_pause.bmp
+SHA-256-Digest: 71fM0wh7WY9OX5/p2S9rAuErp6uH7KpQDppI/hpROhA=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_mode_ic_selfie.qio
+SHA-256-Digest: YFeXlcfLvrlqSIz46llw5vVBrDrUMZvBUrecxEZsZmI=
+
+Name: res/drawable-xxxhdpi-v4/camera_interactive_shot_front_right_5.qi
+ o
+SHA-256-Digest: R6f9IKAECpHGYhtXysnUNuuj+Sz/aY1HMZN2PPf9ntU=
+
+Name: res/drawable/camera_quick_menu_ic_metering_03.bmp
+SHA-256-Digest: 2LcrHVbd1WYYO/ne96lv9c9OJ7uz7EIrRf9qYgmsCho=
+
+Name: res/drawable/soundshot_rec_sec_progress_bg.bmp
+SHA-256-Digest: BjikRDUxq/SIwGUSZ8BwlGWBzoOV6v1Dy2itiiEWssM=
+
+Name: res/drawable/camera_quick_menu_ic_slow_motion_4.bmp
+SHA-256-Digest: YiqpY4NDCqgCqr5NkKademqffYcHJjiEcWWT8x2ygTc=
+
+Name: res/drawable/camera_quick_menu_ic_hyperlapse_16x.bmp
+SHA-256-Digest: 1xaqa6z9sn74+vMnms/VWhIG04J6UNv/sOQ0vatIuHU=
+
+Name: res/drawable/camera_clip_movie_ratio_4by3_3v_line1.bmp
+SHA-256-Digest: GeiNTTobjA2l1kY73oLawZexOLgfLR/FYLrTM9mAJMo=
+
+Name: res/drawable/home_ic_aqua_pressed.bmp
+SHA-256-Digest: 9G+5AJ4tOkReAwPsKHThc98EdYSDMd0yaeqmik9PFWQ=
+
+Name: res/raw/wideselfie_boundary_line.ogg
+SHA-256-Digest: uAaYkyMlp/Byk3EmSngZc65p4N10nGiKBHxheSu6/Ac=
+
+Name: res/drawable-xxxhdpi-v4/camera_pro_wb_color_bar.qmg
+SHA-256-Digest: Gbn2KN/VkqNOODdaWpflMeJGjYivy/br1INhG91c9kI=
+
+Name: res/drawable/camera_beauty_face_mode_ic_spot_light.bmp
+SHA-256-Digest: ZtoNzpZNljzrX7Z21NcFawLFDWxv6I/ikobzwDP+wKQ=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_interactive_shot_rear_left
+ _1.qio
+SHA-256-Digest: 5a1U1xHWsbt0YDOx5JE+s1mCbkLfzlXQpBBkR6Fof10=
+
+Name: res/drawable/camera_popup_ic_hyperlapse_4x.bmp
+SHA-256-Digest: jtcfyNxRU603UQbTlyBOjtklM4B54hNoXqE8nv1940g=
+
+Name: res/drawable-xxxhdpi-v4/camera_interactive_shot_rear_left.qmg
+SHA-256-Digest: 6k/RtVHt8LTOA0JZXSXLow8OA4B4GXZrD7GYTpKSc7s=
+
+Name: res/drawable/camera_clip_movie_ratio_4by3_3h_selected_1.bmp
+SHA-256-Digest: /AJYXmPzwgZHhIqtvOeRwfRan4g9PfXwCacblN6405c=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_mode_downloadable.qmg
+SHA-256-Digest: CwthAfXyWP+Px008HJZ3HsX2JW/uUFC250koruJoD2E=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_interactive_shot_front_dev
+ ice5.qmg
+SHA-256-Digest: pl+Jfb6CsM1uhA7nV1o6NbHwXsA0j1rzvGpIdq2PBUM=
+
+Name: res/raw/selfie_2sec_timer.ogg
+SHA-256-Digest: EOKbOA2IhGFuqbjIugwxGjqX3DX2fDk2P79JCzUJLtg=
+
+Name: res/drawable/preview_watermark_mid_hardandhapyness.bmp
+SHA-256-Digest: zGNgdWCAtNopyALg84rpqeOgQVqCPH+7uH3oWAXEb/E=
+
+Name: AndroidManifest.xml
+SHA-256-Digest: K6lbYm2V9rm40qCC+VENIQ0fK4l8XX3PGNG4fcSBnh4=
+
+Name: res/drawable-xxhdpi-v4/camera_dual_thumbnail_heart.qmg
+SHA-256-Digest: DLn0UQpD9PCmqrim70EEl4EEU9Ltg92go4CPcrWSgr4=
+
+Name: res/drawable-xxxhdpi-v4/camera_interactive_shot_rear_right_6.qio
+SHA-256-Digest: h4sgOqoaR9FMF++cIa/IQXvGvfcNYg1x5GsRJoLZuWc=
+
+Name: res/interpolator/sine_in_33.xml
+SHA-256-Digest: gMdBCWrKo/nmixj/Jb78iWh8kA+MI6wz5BFQMx7Omfw=
+
+Name: res/drawable/preview_watermark_mid_punchcard_thumbnail.bmp
+SHA-256-Digest: CQPWHqIT3E5v1b8vq70MwnMaxT9RfigM4KHr1gmC/Po=
+
+Name: res/drawable-xxxhdpi-v4/camera_interactive_shot_rear_right_5.qio
+SHA-256-Digest: bzrzwN+bRYtSzIqRIZfyfR/4avbytZdJMJxQAR+9LvQ=
+
+Name: res/drawable/camera_clip_movie_collage_4by3_2_selected.bmp
+SHA-256-Digest: Lq1Yw0JFJVQONsKwko8Wnnb/IV7tEuuyZ+z7dNjZJ5k=
+
+Name: res/drawable/camera_mode_ic_sf.bmp
+SHA-256-Digest: zS0wuRdONPbq00BricDh/6Bb4kpRVdAvgjkaHUKwiv0=
+
+Name: res/drawable/camera_clip_movie_collage_4by3_4_selected.bmp
+SHA-256-Digest: UwdHTkOS3l2LCY96e2snnrUwK7s0442TZf/66iPdqJY=
+
+Name: res/drawable/camera_quick_menu_ic_panorama_motion_off.bmp
+SHA-256-Digest: bzWZTLhshjG3+Ou4uqylO7DI9ZmwwSJFQjgxybO37hE=
+
+Name: res/drawable/camera_clip_movie_collage_1by1_3_2.bmp
+SHA-256-Digest: /QnU0+j32X319TLhmW+ZH61dHZspqVX2f71SRPiL5xI=
+
+Name: res/drawable-xxxhdpi-v4/sound_shot_quickview_screen_eq_bar_06.qi
+ o
+SHA-256-Digest: 59as6MjmnQD349UIb5l7HVo2znyuWJEsKpZg7sHhNrU=
+
+Name: res/drawable/camera_mode_ic_slow_video_selected.bmp
+SHA-256-Digest: yEuN2qDN9gcjugVBQrAbTtUhuwnBZp7owyLrVPun8EQ=
+
+Name: res/drawable/camera_auto_eve_ic_light_2.bmp
+SHA-256-Digest: Rc/qZzkZadzooOOMIyKumlyvFff1NWtO6EGWhOWsWSo=
+
+Name: res/drawable/camera_mode_ic_hdr.bmp
+SHA-256-Digest: yi1HNoKl+GezeTfH284tI1sHwaCzD+lhApBQrR/8XWM=
+
+Name: res/drawable/soundshot_rec_eq_bar_07.bmp
+SHA-256-Digest: IG7V1D8VYVTyB/ovKbUjIPqWZGqsgv+lFy5GGQ9bo1c=
+
+Name: res/drawable/stat_sys_battery_charging.bmp
+SHA-256-Digest: QmVYm4mj5++IO8QOpmwYtvc0TTn87VQkPPJCmzpZDcc=
+
+Name: res/drawable-xxxhdpi-v4/tw_scrollbar_mtrl.9.qmg
+SHA-256-Digest: Pg1e8PN7BG1L+ECmGmd+qyK4sAeSHuGcL86Iw4dAtNs=
+
+Name: res/drawable/camera_effect_edit_detail_bar_ic_pressed.bmp
+SHA-256-Digest: TUIzRMzzVwdFPQxVVqwEbxzuOvsTbq7y6KBy+ZMaM3s=
+
+Name: res/drawable/camera_frame_right02_v_02.bmp
+SHA-256-Digest: VXbrniqEXOoivlL4a4TmoG3HrE4oj/Ui8x+RwXc72KU=
+
+Name: res/drawable/preview_watermark_mid_rest_summer.bmp
+SHA-256-Digest: vgQ/sxrxguZfURaipp6aQ7iZa8YVLoLEvyoAI29VOYc=
+
+Name: res/drawable/preview_watermark_rightdown_lose_weight_thumbnail.b
+ mp
+SHA-256-Digest: NpYgxRhSeZjdLkcLoQuoVyNI2thT1cqykqPXy76Ylj4=
+
+Name: res/drawable/preview_watermark_rightdown_goeat.bmp
+SHA-256-Digest: t0kalzKYNpXULCZAh5LcV3/Y+OJDZyOQGUexhUqGrE0=
+
+Name: res/interpolator/sine_out_50.xml
+SHA-256-Digest: ChRoOI81WgaymdL8mSyQDPIUPugLQ5/D0Jy7jHfRtI0=
+
+Name: res/drawable/preview_watermark_rightup_cold.bmp
+SHA-256-Digest: 17+txytWBDRKZwd/+75JDQD+0cd1tBZf02LhIHWXnXA=
+
+Name: res/drawable/camera_pro_mode_wb_ic_daylight_normal.bmp
+SHA-256-Digest: B0ERuXqbWVbCx3K/tVwm42HvVS5QdUopYIRRPgRDWPg=
+
+Name: res/drawable-xxxhdpi-v4/effect_bluepoint.qmg
+SHA-256-Digest: gj73uzw+4vpP6P5++Ttm1TPDmB0isQeX0UmgthoMrRo=
+
+Name: res/layout/permission_item.xml
+SHA-256-Digest: oe7534WBJWDfWNm7UYcXGM0sa0uIsse7MmyvwF8Pqoc=
+
+Name: res/drawable/camera_main_btn_01_stop_pressed.bmp
+SHA-256-Digest: +1dEtgaM0erM72M7CCX1kiUlERlI040z2r/SAAdYUbU=
+
+Name: res/drawable/stat_sys_battery_15.bmp
+SHA-256-Digest: g4KfcAZ8a1BQgJnEqw1UkfZVyAb/BH2jWtM8ocuRZoA=
+
+Name: res/drawable/camera_frame_left02_02.bmp
+SHA-256-Digest: 9sv7yiRYLLKeh32oVeK0ysh0fNDYkHH5tZZcx+CjEEY=
+
+Name: res/drawable/camera_clip_movie_serial_4by3_selected.bmp
+SHA-256-Digest: ElFxPXPwwUVByEUg54z0m3JIgs9Cvr+iNLQ2yTpIXb4=
+
+Name: res/drawable/camera_clip_movie_ratio_4by3_3v_selected_2.bmp
+SHA-256-Digest: j3RIsD6RJdzCR4FeQIPynQm4b3A6ua9W4IgDXfqDQqw=
+
+Name: res/drawable-xxxhdpi-v4/qr_code_found_bg.9.qmg
+SHA-256-Digest: tksFEgK8V7+AndumbEMiVep8tgn/lOrxD6cclNIWEXI=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_timer_no9.qmg
+SHA-256-Digest: /V9eWyBIAguoQ+MS6AE35b1Z4AryPPhE0sPHLuoglPE=
+
+Name: res/drawable-xxxhdpi-v4/effect_negative.qmg
+SHA-256-Digest: npvJ9PEhNPRq6O8WIepOqoccmPtVqIoM59Xoft333sQ=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_mode_ic_pro.qio
+SHA-256-Digest: UoJYQUVLa8MbCSIsfP3GKYZOzJDeaXIzFTUcDO8Ywgg=
+
+Name: res/drawable/preview_watermark_mid_musclefuel.bmp
+SHA-256-Digest: f8gFhsxcnEOCo46CktNP6gYSW2HY2yVwXiqZMv4+Aqc=
+
+Name: res/xml/talkbackconfig.xml
+SHA-256-Digest: R1632cme3HiWfJQoVKGqq3mt7XbzCpc3zFQ2bH9PSDw=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_mode_ic_food_selected.qio
+SHA-256-Digest: xXZABgE2LIm/JMR79sGHi4py2NrAbiRDnsi+V+RyHhI=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_effect_selected.qmg
+SHA-256-Digest: ZHrdMFgwicP4aKW8M/2brG4uOkv7J40uEODIP536QiY=
+
+Name: res/drawable-xxxhdpi-v4/camera_interactive_shot_front_right_4.qi
+ o
+SHA-256-Digest: 3t45oKk8bvfNL1K7jB8t3eA1yBqJsVMzquihYnXeePg=
+
+Name: res/drawable/camera_beauty_face_ic_large_eyes_selected.bmp
+SHA-256-Digest: 2t6UswU5c2aTS5chTAh6SK9d+6638JDdxeo+NBTkH5s=
+
+Name: res/drawable/stat_sys_battery_0.bmp
+SHA-256-Digest: 2Fxp64HsP0yFB7t2Kkre1wIygXYDR7Kmrftha9Lp6oA=
+
+Name: res/drawable/indicator_image_number.bmp
+SHA-256-Digest: FWTEnvS5+V7r8nRXDpaWAV3F+TgnsEQLJ3u19V+oBAY=
+
+Name: res/drawable/preview_watermark_mid_cruel_thumbnail.bmp
+SHA-256-Digest: 1DVo7kABwF4vg5T05CJoFqf7G3KISc0WFDwk8E2j6dY=
+
+Name: res/animator/new_from_now_to_right.xml
+SHA-256-Digest: Zx1D+G3BWNUG3hIOPRVWpN0zlaOoSxFhdKqo3Trk+Ug=
+
+Name: res/drawable/camera_pro_color_bg_center.bmp
+SHA-256-Digest: hV204eZQfr7NnI69w8g5x58pdRh1Cx19gH+d03HBq9s=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_timer_no7.qio
+SHA-256-Digest: gl/YbPpTeFJ0bYR1OvHTlF2PLYW0QdxC0EtxLFLSczg=
+
+Name: res/drawable/beauty_face_ic_on.bmp
+SHA-256-Digest: Mf6CetbrSyrg+ex6g245lw3MOk1mjlRK+H/mxyIJKHU=
+
+Name: res/drawable/camera_quick_menu_ic_beauty_face.bmp
+SHA-256-Digest: 4AhfCbQXKdjiDYSc/yNJlUcfyR0bf3eX7e/HRPsqsc8=
+
+Name: res/xml/help_list.xml
+SHA-256-Digest: wxsfN/+EwokEUYJHF4YMZmEuWLfuNPALBd70C+5cKcY=
+
+Name: res/interpolator/sine_out_80.xml
+SHA-256-Digest: EEizSy//Cyr1UNINFVs7p4jRKhgFvFbBoeL6ImPu6eA=
+
+Name: res/drawable/preview_watermark_mid_xinsai.bmp
+SHA-256-Digest: E8E+VDPGzZGHMwsifNEReRt1TIzTGCZXFeyN2ePbhUI=
+
+Name: res/drawable-sw360dp-xhdpi-v13/effect_bluepoint.qmg
+SHA-256-Digest: InlLr0bP+hRKyQ32o4a6Jsukl4q2fkrnG6fc+XWg2rg=
+
+Name: res/interpolator/sine_in_out_80.xml
+SHA-256-Digest: sWi9D2jAylGlDTV3Jm0QMCHRF4wez/8Q5LiBHzBI+UM=
+
+Name: res/drawable-xxhdpi-v4/tw_toast_qr_frame_mtrl.9.qmg
+SHA-256-Digest: Gw85+2HUp5g2uo9btsQxRX7vnG1kzbYqKReaWdlQjS4=
+
+Name: res/drawable/camera_clip_movie_ratio_4by3_3h_selected_2.bmp
+SHA-256-Digest: iv196RGdUh3EcBjkjlrm3aX3pVNgsLzyamFH3YTrTYY=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_food_ic_color_balance_bar_
+ v.qmg
+SHA-256-Digest: OB3lKQjK7uAj5g+oM4+1jPHtRVtOBG+6qIP9+4hrMu8=
+
+Name: res/drawable/home_ic_tag_shot_press.bmp
+SHA-256-Digest: tyoax8LS1+IvudR7QW5scNLscKK9U26jVE1TQR9dUYw=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_quick_setting_toast_popup_
+ bg.9.qmg
+SHA-256-Digest: gy5/5JR2F46nwGB0TslZykFmVbr9WFjvtCDJxz0Lsgg=
+
+Name: res/drawable/camera_main_btn_01_shutter_pressed_freeform.bmp
+SHA-256-Digest: twNq708586avOzRVhJgE6/395InEpJ16m73LilAvhRE=
+
+Name: res/drawable/camera_mode_ic_dual_camera_selected.bmp
+SHA-256-Digest: WB5KGtV9/icsb0PMV29eUzYJvIil7j10U0kwfN4pzjo=
+
+Name: res/drawable/camera_clip_movie_ratio_4by3_4_selected_2.bmp
+SHA-256-Digest: VHp5EBXQ+UnZ+4Byldk3B1pTiZExauSRi9VvpZ5hw7s=
+
+Name: res/raw/sub_menu.ogg
+SHA-256-Digest: nG3vvmtP4Tl17HKuR5OwRWfpVS3/Rw3r9Hthb5blIQc=
+
+Name: res/drawable/camera_record_ic_rec.bmp
+SHA-256-Digest: jql9ylawM4pxue+WNEJ/lfuyL2KPnrvum4I4dOigBo4=
+
+Name: res/drawable/camera_effect_selected.bmp
+SHA-256-Digest: wz+IST5jvSl1INoatOpI4s/Ohfq3Rw0x8z+sL/CXgPE=
+
+Name: res/drawable/photo_crop_handler_bg.bmp
+SHA-256-Digest: rYPA7D7L7wwTABLBfPOdGgyDFcl/OlINuQiBwhuCHI4=
+
+Name: res/drawable/soundshot_rec_eq_bar_08.bmp
+SHA-256-Digest: lRrR+Pka3Gx79P8rY9QOibRvbjtg6g8QNLa6ZqCzg88=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_main_btn_01_shutter_presse
+ d.qio
+SHA-256-Digest: mpgB2QSJ7bwMhZX5icaKKbYELtu1KLt/Nh6pv6GJkAg=
+
+Name: res/drawable/preview_watermark_mid_countdown_thumbnail.bmp
+SHA-256-Digest: QlmKw9Uf6XLwGrSrSInwzZ7THFzRtzfFagfrKniHBM0=
+
+Name: res/drawable/home_ic_anti_frog_pressed_bg.bmp
+SHA-256-Digest: 0491Fbke3IIUCNL9eRjO9PBn9JezzB1pwO1bCnD3OK0=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_timer_no10.qmg
+SHA-256-Digest: lM4+lR1Svy38Eztf4h2RGSlBkvW6l7LW2fB4iXtMzPU=
+
+Name: res/drawable/home_ic_slow_video_pressed.bmp
+SHA-256-Digest: T07XpjtYnGnG9yNd7z9QENaiEuB673+2KPFlG4+02Qs=
+
+Name: res/drawable/sound_shot_auto_mic.bmp
+SHA-256-Digest: lmKgKLLI5ISlMJCcQwvFGd9YLnJFQayTO9uwDWVXUu0=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_mode_ic_rearcam_selfie_sel
+ ected.qio
+SHA-256-Digest: uoenlX3pzJE/lbH/R8yxw+9wl/10KqRTV1cOE9FnwuY=
+
+Name: res/layout/watermark_text_input.xml
+SHA-256-Digest: p8wGCfm7YAz/ROfIzDHD7GdSvlmiO/sGR86a9T4Jx8s=
+
+Name: res/drawable/camera_main_btn_02_pause_freeform.bmp
+SHA-256-Digest: zOeahA4PCRUtBfK8QmzejGHvGmNNvEn1GdPavKlYuwE=
+
+Name: res/drawable/camera_review_pics_video_delete.bmp
+SHA-256-Digest: 0s0f2JRXx4OXdRXvzyTW7N1KupNbKMlslpBJOAoelDY=
+
+Name: res/drawable/home_ic_sf_pressed.bmp
+SHA-256-Digest: NbADMnRgID3r5Qufhk6ho5ypU/zLefEKRmSFHYI9uuU=
+
+Name: res/drawable/camera_beauty_face_ic_large_eyes.bmp
+SHA-256-Digest: P2E4Ug7s+3OgyZkX3ngRJVRoN1lJrzepiZ8NHsbV1/k=
+
+Name: res/drawable/camera_auto_eve_ic_light_1.bmp
+SHA-256-Digest: Hgqs6UBvWHA6AKYYsFs2/KGS2FAkIsUfeXZ632ep2R8=
+
+Name: res/interpolator/elastic_5.xml
+SHA-256-Digest: xN71xAoAGF6Mdai88g/4oilABdJBnRouGgrZ8ilnbVE=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_timer_interval_no3_light.q
+ io
+SHA-256-Digest: u6c2n5U1U+lyIYS1F0aHXQJayCEWH32zQRUJVye5h60=
+
+Name: res/drawable/ripple_effect_for_play_attach_video.xml
+SHA-256-Digest: 6pak3bQHoNEUuYkTtdqeKasVJJQUZ223+beplchJo2g=
+
+Name: res/drawable/beauty_face_ic_on_pressed.bmp
+SHA-256-Digest: rXLBEK/mYMYs+4JMUdri/OBer/yw981FduFbdz0W3uA=
+
+Name: res/layout/main.xml
+SHA-256-Digest: uRE5ug6C6Lr2+JH/kCkX2MUYgaL/mJuV4IwSUJMrUZA=
+
+Name: res/drawable/preview_watermark_mid_cruel.bmp
+SHA-256-Digest: 6AWA4XoAKY3oLSyZRJuK3UpT9gnxyMTaQ/hsGcmF6Oo=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_overlayhelp_switch_camera_
+ 1.qmg
+SHA-256-Digest: 0a0Bo0H8P/Btl8TSNcOT8xbbJCPopw2k7bnrzxbIj7Q=
+
+Name: res/drawable/preview_watermark_leftup_lonelyfitness_thumbnail.bm
+ p
+SHA-256-Digest: vyQ/HbKRkdNIyz9CG5CNu+0RM39NMhVEfxgYzqUUIOY=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_timer_no8.qmg
+SHA-256-Digest: TXVvy/TQf+B7M3ES/kwick6OAFDcISoYCSWcnFNbKvA=
+
+Name: res/drawable/camera_beauty_face_mode_ic_spot_light_selected.bmp
+SHA-256-Digest: ELiiIJ+9kLeORhcDWx0/LGUfZO2r5lx1yjt1WRMCfLw=
+
+Name: res/drawable/camera_main_btn_floating_shutter.bmp
+SHA-256-Digest: qfbA3XuRVPuiSSDv7MF82i95N1sYR+M1JXxUX+LDQAQ=
+
+Name: res/drawable/preview_watermark_leftdown_morning_thumbnail.bmp
+SHA-256-Digest: IxYYfiZw0MzpyVXvCqM4+PKwBDg/B7czea0oGo7rCEA=
+
+Name: res/drawable-nodpi-v4/overscroll_portrait_bottom.qio
+SHA-256-Digest: jt3Q6BX08hYWIR4KdCZs9WvNKBg6auGUc+L68CJ7JPU=
+
+Name: res/drawable-xxxhdpi-v4/sound_shot_quickview_screen_eq_bar_05.qi
+ o
+SHA-256-Digest: ObJHu2WpMTKKoOh4E3/X10JNqOBflIwhZTKQdxiaZ5M=
+
+Name: res/drawable/camera_clip_movie_ratio_1by1_2_normal.bmp
+SHA-256-Digest: WoVM9vQ9r72tUG22UZoFox7mVbP3kvrCKA+C5PWIXjk=
+
+Name: res/drawable/camera_popup_ic_timer_3sec.bmp
+SHA-256-Digest: dybYa44PmAlDAhKy3ZUkJ/azfnsbVDbyYM8BawPBS3o=
+
+Name: res/layout/starting_window_keyboard_cover_layout.xml
+SHA-256-Digest: NLAoqeX2SRrOXeNYgpiVoAzn7PpkXB8cHRnLCpNzLWc=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_mode_ic_interactive_shot_s
+ elected.qio
+SHA-256-Digest: TK0j1tr3XtCvOrtC6QCApMOMj4fSsTcKZmK5ZyC7DLM=
+
+Name: res/drawable/camera_main_btn_02_undo.bmp
+SHA-256-Digest: guBn/rOgyce70Hgii50KXWANiFwmYv1Tt8HHwX1C89Q=
+
+Name: res/drawable/camera_clip_movie_ratio_4by3_3v_selected_3.bmp
+SHA-256-Digest: E1fcrcwFmt8Cd1g00NTWAr9XcgSAJXb+z4+SWm7fr/4=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_effect_ic_3rd_camera360.qi
+ o
+SHA-256-Digest: 77GLkKJaMX/p0e2wgtE9ylKsm47eNqTgi8+or92bCwc=
+
+Name: res/drawable-xxxhdpi-v4/tw_toast_frame_mtrl.9.qmg
+SHA-256-Digest: L++K1jucKv77Unrr1yz5DvtwNvE0PNV5G/zXSmLBtsk=
+
+Name: res/drawable-xxhdpi-v4/camera_dual_thumbnail_post.qmg
+SHA-256-Digest: eVKdFKvzBgRQrFQB9sf8a/tFQs57KNLhxhNaTs0cJ5k=
+
+Name: res/drawable/camera_mode_manage_deleted_ic_normal.bmp
+SHA-256-Digest: rCv8/w8Ve6sGh6NTGxdGkyONEYqs3V3JlRHRlBBjA9c=
+
+Name: res/drawable/camera_quick_menu_ic_timer_15.bmp
+SHA-256-Digest: NMU0yN0zV1fDifzCytmvVerraOYWKj6rWd8R45jtp8o=
+
+Name: res/drawable-xxxhdpi-v4/camera_rear_cam_selfie_outline.9.qmg
+SHA-256-Digest: q/3DgKCOgxywXeyK5YQLdI/S/SRR46Y/0UYjEIx1jsA=
+
+Name: res/drawable/preview_watermark_rightdown_eatalone.bmp
+SHA-256-Digest: 2jUTfA43EbEHqflO6Akm0WJph3wT/i9Cm34wQ4GibKU=
+
+Name: res/interpolator/sine_in_out_50.xml
+SHA-256-Digest: q84n+5gnixKqNkycRIguNsQBOohAe2Q5Lwm4Pcjf/dg=
+
+Name: res/drawable-xxxhdpi-v4/camera_wideselfie_arrow_right01_v.qmg
+SHA-256-Digest: s5kE9Cyj5Ajj1zWB6EmcpX+p9n/z/w+URF4Z+366QGs=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_overlayhelp_mode_1.qmg
+SHA-256-Digest: 5/1rEiaSqvz2FgyMf2SSbAFOC2X3nLCwMj2up86zASI=
+
+Name: res/drawable/camera_frame_right02_02.bmp
+SHA-256-Digest: psQDYPASSspyaPriOmofMyjOOO5lT8fyf9HCHLrFho0=
+
+Name: res/layout/starting_window_layout.xml
+SHA-256-Digest: F2gQQAZeyRRrwHiUxjmodw6he+ZeWEFUuBd0p2IIIdk=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_beauty_face_ic_soften.qio
+SHA-256-Digest: aST8fOFHREujXtzQuBYAp7otDMZLwxfz797pcuoqwxs=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_btn_af.qio
+SHA-256-Digest: 0ALQ3sBYXCM2WBu37vFOYo7RjM0+GMtO2QsE/QyKQf8=
+
+Name: res/drawable/preview_watermark_leftdown_sunnyday.bmp
+SHA-256-Digest: SJZsBlXyGS5sQkNC3N0meDYLLMKz48q+le/qth/LqVo=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_mode_ic_beauty_face.qio
+SHA-256-Digest: GG1eXr+YAhUxjV+eePAeRy26KZXiXQJAUolbKJWhc48=
+
+Name: res/drawable/camera_quick_menu_ic_panorama_motion_on.bmp
+SHA-256-Digest: Xpuc9FtUb721RukuFULmeN6jpQOxp/0nfwt0kmI0+p0=
+
+Name: res/drawable-xxxhdpi-v4/weather_ic_shower.qio
+SHA-256-Digest: 8VggEvsXgnWmdKy9iQmXW8rwHlkMSHYAyEnOlIPxHs8=
+
+Name: res/drawable/qr_code_mode_icon.bmp
+SHA-256-Digest: i6cZSSID1diH1d8rgBwk0vNGyBfZ174Jks3N+S+wuq0=
+
+Name: res/drawable-nodpi-v4/overscroll_portrait_top.qio
+SHA-256-Digest: QE8A1IqCXD0Nu48uN0NqVpt39Ly83KyRdsLfONBj86E=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_mode_ic_dual_camera.qio
+SHA-256-Digest: 1KWtZgYCGkN6LRKH0dFOaF8m9TLqFCSyd7qUcK+TeGk=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_pro_mode_ic_ev.qio
+SHA-256-Digest: aJ+cBPcWtZlvMWuhOVBF+jtgRJyMLGpksxO98208miI=
+
+Name: res/drawable/preview_watermark_mid_importantday_thumbnail.bmp
+SHA-256-Digest: tbhgDcv36W0V/BQc2+Ve7AYAfiQ8yx8n7ZE/7ESn2cw=
+
+Name: res/drawable/camera_mode_ic_aqua.bmp
+SHA-256-Digest: Pm1fV5YIOa22siVr2/Z8AV8JCrNLjcRRoRHZkOWs4vY=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_beauty_face_ic_slim.qio
+SHA-256-Digest: IX8IhS4vULpsdiJydGAamYj4lqIERdye7MeOYZBKKUc=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_overlayhelp_effect_3.qio
+SHA-256-Digest: fJNk8ij8JkL3U9AUug4xijU7g2R7OrOvxUUmBf/I/dQ=
+
+Name: res/drawable/preview_watermark_rightdown_homeman.bmp
+SHA-256-Digest: aMrPXCPBflpku3uFVttSb0OEzim8JYgLM1TKfYTkVe0=
+
+Name: res/drawable/camera_popup_ic_timer_15sec.bmp
+SHA-256-Digest: Yfe5PkgFErFdTxvv9zlJxQG58d//ZlAj0a5X5nYoCSU=
+
+Name: res/layout-port/interaction_overlay_help_pager_item.xml
+SHA-256-Digest: BpfvwvhHpOSq+rMDiFaxwf486jt/ZESDv2Jq66XvgMI=
+
+Name: res/drawable/preview_watermark_rightup_cold_thumbnail.bmp
+SHA-256-Digest: X9KAECGu3sAszk+Dw4Ade4nhz3FpEdkP1WpwlNg59PE=
+
+Name: res/drawable/camera_popup_ic_hyperlapse_32x.bmp
+SHA-256-Digest: atU9nSuRAgHBxU62V3lJd0wxdfCpsOQHdJ6+ja2+1Gg=
+
+Name: res/xml/setting.xml
+SHA-256-Digest: BIWj8b6aq1sIX1t7bfMdbA6J29bBYI4+EEWuv3f0Sq4=
+
+Name: res/drawable/preview_watermark_mid_countdown.bmp
+SHA-256-Digest: 3Umg5X/YvySVr1J3kRpdrH38GzqPIjzu6v2RzLJGLjc=
+
+Name: res/drawable-xxxhdpi-v4/ic_launcher_camera_record.qmg
+SHA-256-Digest: V2Ra/qEaHP/kaM6CgzHlDsSgirFlOoInPdvFIdBgZiU=
+
+Name: res/drawable-xxxhdpi-v4/camera_panorama_thumbnail_preview_line.9
+ .qmg
+SHA-256-Digest: fo0xJS+A0eaFKbDVSrL2zicoGmLpVPfdv1tGTLEmDEk=
+
+Name: res/drawable-xxxhdpi-v4/sound_shot_quickview_screen_eq_bar_08.qi
+ o
+SHA-256-Digest: KOdrqw1GgmLc6nWnSVPMKBRfJ8hrQs6dU3ZLVfNEng4=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_quick_menu_ic_panorama_mot
+ ion_on.qio
+SHA-256-Digest: 2pJTjrus8Ff8mjhcjY7kdWUKgOJCMNuDrfINFeUEvxE=
+
+Name: res/drawable/camera_quick_menu_ic_beauty_face_off.bmp
+SHA-256-Digest: SZms20GxzaSXAPqwK9O6A61Y2OYWY7R6QySYW1ghzhM=
+
+Name: res/drawable/tw_ic_ab_back_mtrl.bmp
+SHA-256-Digest: I6uC5SDP4cUOiEsPA+tojzX0ZbiuYXqzp7tUsP2+mzA=
+
+Name: res/drawable-nodpi-v4/overscroll_landscape_left.qio
+SHA-256-Digest: SBjtkCVrEw6K2Ed1Fu+M0Wr3fYL1b4tGq2h5vgiS+is=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_interactive_shot_front_rig
+ ht_6.qio
+SHA-256-Digest: EszCyZ3R5DA0W7+agzGRuvJrGS0lvyuWa8MBFAeQZ+4=
+
+Name: res/drawable-xxxhdpi-v4/camera_wideselfie_front.qio
+SHA-256-Digest: EBuPhZ92ZjQ2L9UuUnZO0W2BoHngVcMJm7EkElDK/s4=
+
+Name: res/drawable/stat_sys_battery_new_15.bmp
+SHA-256-Digest: 9ryGewJUNzd+tyO1+HqPnTlk6UpOGBOSyUUmNNLpl14=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_mode_ic_wide_selfie.qio
+SHA-256-Digest: DGnoWcKH//vucNkr5KPM69GB3eQBmrn7EcYtRmUEmx8=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_quick_menu_ic_hdr_off.qio
+SHA-256-Digest: DtBLmcJZmS6YJD62C2iNRAp0BfxQvpLnt9xDWTVSAjU=
+
+Name: res/drawable/camera_mode_ic_panorama.bmp
+SHA-256-Digest: b/bn0g0qjb4JJ/DDKg3GK5RMCWWQrWlnR6hudZ7wOnI=
+
+Name: res/mipmap-xxhdpi-v4/tw30_icon_camera.qmg
+SHA-256-Digest: B90e29uLapJXtS/H6u+WT/5wE4GWqzuRMpbKsoX4WaU=
+
+Name: res/drawable/preview_watermark_mid_spring_thumbnail.bmp
+SHA-256-Digest: 0BuPY1yOAbaIJyNC9P1UlwKxDE9JpdPpodtIe4MVLLM=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_mode_ic_hdr_selected.qio
+SHA-256-Digest: 7uQ4OgCJavk8lP8SHVjuYTX9X6DDgRso8duZ+B7Cqs4=
+
+Name: res/drawable/ripple_effect_for_textview.xml
+SHA-256-Digest: lbZiLVLuOAQzMc7wNmAT+pYLA/hFtrkv3RKzbOWRbvs=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_pro_mode_icon_bg.qio
+SHA-256-Digest: 7ePd0Ja0DA35PpL72QdBvsFLnLLZJH01d04ZhfjLxMM=
+
+Name: res/drawable/camera_pro_mode_ic_pro_selected.bmp
+SHA-256-Digest: n1iwOn2yxhetHIRE5msHnCchMAeyuWOoqisi+yFRm8w=
+
+Name: res/layout/help_change_mode.xml
+SHA-256-Digest: g0p98K+seK364RYYvUks+rE2eMqPSA+I27Bn2riALA8=
+
+Name: res/drawable/preview_watermark_rightdown_lose_weight.bmp
+SHA-256-Digest: u8Im9nm8JEu1OtpB0qZOyUnsZZpwm9be5MKQGN9ssI4=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_food_handler_pressed_r_b.9
+ .qmg
+SHA-256-Digest: 4h/nob2ZhgCGKcPJt+N0Ldj7ucnr3uZTcy8AkSnspAY=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_overlayhelp_mode_3.qio
+SHA-256-Digest: jVJOgbopOd/q0CP8IPioTTb7foj/82VB3Q1khUmN0Ys=
+
+Name: res/drawable/camera_quick_menu_ic_food_color.bmp
+SHA-256-Digest: ycCeNUwCXpyZxmA2Ux/yoLEhbzbq0+t6Eb5vgsj2E8Y=
+
+Name: res/drawable/camera_pro_mode_ic_iso_selected.bmp
+SHA-256-Digest: 7oJDO/vM1mvSdhiUUOrggLFM9TtZ8Wnz6vdILLS6svI=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_food_handler_pressed_l_t.9
+ .qmg
+SHA-256-Digest: E1MzWaUFmQOwjf6GtzkhYGAldXWiA9rXA9vNRaXMB+w=
+
+Name: res/drawable-xxxhdpi-v4/camera_clip_movie_gap.qio
+SHA-256-Digest: go5To/zdVWcHr3m22za58u0A7baiL2SLKb4KsPXyjQQ=
+
+Name: res/drawable/camera_beauty_face_ic_shape_correction_on.bmp
+SHA-256-Digest: 2TipH06kz/YdourHjZ82AbKw9OzX7MEQBLUWBZpb/iI=
+
+Name: res/drawable/camera_main_btn_01_rec_pressed.bmp
+SHA-256-Digest: BOegQmC0H/CQYjdgqZ8bENRrAjarm4MpgUmdT19icoA=
+
+Name: res/drawable/camera_main_btn_02_image_error_freeform.bmp
+SHA-256-Digest: +8WcSw947lFkUd5dlk61/QjPqKNEpEwSj+CP2RkhLSU=
+
+Name: res/drawable-nodpi-v4/overscroll_landscape_right.qio
+SHA-256-Digest: I1gBYrk9H5hGmq7/wRJpW7oCvv09KuUWmXiFE+vSIOQ=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_timer_interval_no2_dark.qi
+ o
+SHA-256-Digest: htagO5yLRiOfy7OFjVlhxfGwnIKUHqZls26501qej+k=
+
+Name: res/drawable/camera_beauty_face_ic_slim.bmp
+SHA-256-Digest: PPMAl/ULP2txn8e0UTGCtOL8zK/bwk1croScEIdfBQw=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_quick_menu_ic_hdr_auto.qio
+SHA-256-Digest: Pz+rF6oZTqlWdaD58kH8dhlLdNMJTfeVUxm5Ql9fdxY=
+
+Name: res/layout/permission_dialog.xml
+SHA-256-Digest: gC4SV34iqamJVhzEHmn7yqBN2vRn/bzpBuFsC1fNMmo=
+
+Name: res/drawable/camera_frame_left01_v_02.bmp
+SHA-256-Digest: 6reumJGMrdumAOF9O7kAQran7ucVVGPtvTZnejqvSO8=
+
+Name: res/drawable-xxxhdpi-v4/camera_popup_progress_bar_bg.9.qmg
+SHA-256-Digest: r9jJhf8wAIz6kMGYM57pfnFSw7YZPZiO9Y02jex+7yo=
+
+Name: res/drawable/soundshot_rec_eq_bar_05.bmp
+SHA-256-Digest: A5tjRzRQZKJ1Pcvh7piEDkAz23UgTQZXu/cYI1But2k=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_pro_ev_next.qio
+SHA-256-Digest: b/YdhbfWQYFipXLZ7sYbSHa/I/SxCr4X/frIGmPV32c=
+
+Name: res/drawable-xxxhdpi-v4/camera_pro_color_thumbnail_vivid.qmg
+SHA-256-Digest: zv+rOQlMnHvBaeWXaPjiknQKdG9IIUQMBtdV529gKvA=
+
+Name: res/drawable/preview_watermark_mid_beach.bmp
+SHA-256-Digest: P4yGcVTZPOb8bTw47rZgDKPgTbo7nRpGHZMJiWN3aEg=
+
+Name: res/drawable/camera_mode_ic_selfie_selected.bmp
+SHA-256-Digest: xG0/mpJv4gFJNPJHlODl1aDbqJoEJXVE+hVNxqeU/28=
+
+Name: res/drawable/preview_watermark_mid_todayis.bmp
+SHA-256-Digest: 1nzYTTzLxk4UjwpJW9gBrpHR3dSbgV8lbYYsTN+YWDA=
+
+Name: res/drawable-xxhdpi-v4/help_mode_img.qmg
+SHA-256-Digest: EyJchSGoYCi1XiI5Yop+6b8YWt4YVH2chVXJdSH5H4k=
+
+Name: res/drawable-sw768dp-xhdpi-v13/beauty_face_ic_on_pressed.qio
+SHA-256-Digest: cN9xnKSjICdJ6V0Mlk8wbqzfOjKjW/Qmntj+2ahvjrg=
+
+Name: res/drawable/indicator_timer_5sec.bmp
+SHA-256-Digest: HZopIQM0bxawUI2tXXCW9aBIqwU3SWcrMx/REaX7Mco=
+
+Name: res/drawable/attach_activity_button_for_show_button_background.x
+ ml
+SHA-256-Digest: Rdvv/PbnsnGFKfRTAefHL8xUnDyweHaG5BIJowT/uRI=
+
+Name: res/drawable/camera_clip_movie_ratio_4by3_4_selected_4.bmp
+SHA-256-Digest: vFnt495SfHzPXhxX0hAixz3+UQy3PYJGrOKHWyYXWB8=
+
+Name: res/drawable/camera_mode_ic_continuous_shot_selected.bmp
+SHA-256-Digest: lsN+6aj180ISdNMfOpqSUTtnsze4JxtNd5oVar7Tjj4=
+
+Name: res/drawable/camera_pro_mode_wb_ic_incandescent_normal.bmp
+SHA-256-Digest: mvlt9ghlY5+Bwl0BW0jem7rSSyQFnriy7QW68XpMeTY=
+
+Name: res/drawable-xxxhdpi-v4/weather_ic_partlysunnywithshower.qmg
+SHA-256-Digest: oBc6FCcKg9AcAN3XFk8nIWHiX99TPdtQhZ+HuKtGV1Q=
+
+Name: res/drawable/camera_mode_edit_area_mark.bmp
+SHA-256-Digest: 4fDGsvfw5lsjM7tP7f9xnnAdUKkKVcwzCVcyW/UCgww=
+
+Name: res/drawable/camera_af_control.bmp
+SHA-256-Digest: jDjx0hxMmHph+0D0NT3YzxEiVtdLXZRtcmM4OekYSfM=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_overlayhelp_mode_2.qmg
+SHA-256-Digest: VLVzNxWBJ6o3swOvOxCe7CBENvuiRI19D/ZEc3sX4LI=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_quick_menu_ic_food_blur_of
+ f.qio
+SHA-256-Digest: I0FWMhmdxMrd8SvrbuWFGntWZ06uzDlN35capgWvmTY=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_quick_menu_ic_panorama_mot
+ ion_off.qio
+SHA-256-Digest: W2XorxKRfUeHuPcP2KVWngTzFCjRtuhVFGPqAoSlAtc=
+
+Name: res/drawable/preview_watermark_rightdown_health.bmp
+SHA-256-Digest: BW1Ygn2PyPaHL5157ojU6x+SjM0K97D6uFRcOFrlH18=
+
+Name: res/drawable/preview_watermark_leftdown_monday_thumbnail.bmp
+SHA-256-Digest: wTM6MqvckxBwmRxoNkgxDPbdu88MHpIcVHnnaL1BOPE=
+
+Name: res/layout/switch_item.xml
+SHA-256-Digest: 5iH0r/v1V2KZHh9iJVwumT3kfr4C1BJVoEeXBDrd8Nc=
+
+Name: res/layout/help_take_picture.xml
+SHA-256-Digest: qtD/XfHG/MK50yTkJ9ikT7o376eycPnCzIxlHOe2QjU=
+
+Name: res/drawable-sw360dp-xhdpi-v13/effect_yellowredpoint.qmg
+SHA-256-Digest: uYrLV2D5gjTJUe5rpxeIWnDkw6u2oM8HUJCza3l0J8M=
+
+Name: res/drawable/preview_watermark_leftdown_imhere.bmp
+SHA-256-Digest: 2WRyppAqbIST6oJaDUIo4JYZvFBUJyLccmxpv8gjhog=
+
+Name: res/drawable-sw768dp-xhdpi-v13/indicator_image_number.qio
+SHA-256-Digest: duXX8L1fb00jnu7gmtSr20fHc5Bq0b0GTxE75450PgM=
+
+Name: res/drawable/beauty_face_spotlight_lighting_left.bmp
+SHA-256-Digest: BwWSntYDv/Yog1d6MfjOHHniubsBxNCSTRW90CCxdk0=
+
+Name: res/drawable/camera_pro_mode_ic_none_selected.bmp
+SHA-256-Digest: H5KvAvhO4ur9GtsmQ4d8wuUnmNs/+zoT0LBDj0fQiyw=
+
+Name: res/drawable/preview_watermark_mid_cannotsee_thumbnail.bmp
+SHA-256-Digest: 20/QACn+J/cMcF8s3gCC5TzrkVwxVsUGcB5FUwKK6dM=
+
+Name: res/drawable/camera_clip_movie_ratio_4by3_2v_normal.bmp
+SHA-256-Digest: 2gywnHcMc3CQRWadt54slmKOPSuszVyKWakn8Aksg+U=
+
+Name: res/drawable/camera_mode_ic_slow_video.bmp
+SHA-256-Digest: HDbXtV3uFmDuf0T6xAzQlCgx1tpKTl+tXdd7QQO/r1A=
+
+Name: res/drawable-xxxhdpi-v4/camera_wideselfie_arrow_right02_v.qmg
+SHA-256-Digest: 4aapJd2NsY8FktRhO+HSM6ycjyqqlpQRLEQ52iCY/+4=
+
+Name: res/interpolator/elastic_80.xml
+SHA-256-Digest: 1hsyCBRP/1krKGvnGR2sfiSd6nOwCN6kM2OozJEU1Mg=
+
+Name: res/drawable/camera_clip_movie_serial_1by1.bmp
+SHA-256-Digest: AMAGBKffxZ0ptgvQXjNJO6Ytszv5XDGufjaJ+8De0EA=
+
+Name: res/drawable/camera_mode_ic_anti_fog_selected.bmp
+SHA-256-Digest: j1lR9inHH2PlWnpyCCoIGShmxWemp39SPwfs70u6WKY=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_effect_ic_3rd_ucam.qmg
+SHA-256-Digest: RutA0lS6zKqRFl8/YbgAIfUdvAnEeHLAiHRB2OWflBM=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_pro_mode_wb_ic_fluorescent
+ _normal.qio
+SHA-256-Digest: rXWgCT4ztx2O0I+xRcDCzq0nIDIyWdZh5bE20cppJAc=
+
+Name: res/drawable/preview_watermark_mid_happyweekend_thumbnail.bmp
+SHA-256-Digest: MvkS1AoXcar/Kfx6t9ZD/3Vp56dfLXecDMBj1jtgL3M=
+
+Name: res/drawable-xxxhdpi-v4/camera_interactive_shot_rear_right.qmg
+SHA-256-Digest: NMS8DgW0x4206FW6aS1dyQaa0uevcXY5ujNnBGtP35Q=
+
+Name: res/drawable/preview_watermark_leftdown_monday.bmp
+SHA-256-Digest: IstBP4E31UMHWwJAMjoPzkASB5jXsFmqEmn4BD1WaDw=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_pro_ev_pre.qio
+SHA-256-Digest: N+awx+/FJR+8CWb/76kdnwaNUNM7idT/pjQ7e3QyBNY=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_quick_menu_ic_flash_auto.q
+ io
+SHA-256-Digest: 8ukKK9T6j68vbAuNOzA8z2Cd2LHwoAdlQYIRKMo4fis=
+
+Name: res/drawable-xxhdpi-v4/camera_effect_ic_3rd_camera360.qmg
+SHA-256-Digest: 9/1UHoebKxIsOO9D6F91LFN7FBOTQxX+rfWfMNk9xd8=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_beauty_face_ic_soften_sele
+ cted.qio
+SHA-256-Digest: 1ieiF23Nb7MFQXMp7hanMLEdHT0rNvefJd9NerPgSRk=
+
+Name: res/drawable-xxxhdpi-v4/camera_rear_cam_selfie_outline_press_r_b
+ .9.qmg
+SHA-256-Digest: OJoYEGLxaWQFJ0IqLNosar5pNrW9e7lbuXD+Xt05nwg=
+
+Name: res/drawable-xxxhdpi-v4/sound_shot_quickview_screen_eq_bar_07.qi
+ o
+SHA-256-Digest: VTJE3vMwPuIhIAOEvL1sloVwUrEs+DSOMm36sb66ZaM=
+
+Name: res/drawable-xxxhdpi-v4/weather_ic_cloudy.qio
+SHA-256-Digest: C9lVDjkujwR5Vl+Cja9caGeWnwBA2ff9iEomXTFBrH0=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_effect_ic_3rd_line.qmg
+SHA-256-Digest: c7QrO7m/cf9mgYmkrb4GZSO4BcTi3vF3/eK8gCterTY=
+
+Name: res/drawable/camera_dual_pip_on.bmp
+SHA-256-Digest: zMU+o1ZpCdFaIx/ueLuajEAJ+Y+FEkDCTKBQZzmYUPw=
+
+Name: res/drawable/camera_mode_ic_tag_shot_selected.bmp
+SHA-256-Digest: Gne1gxxmOA/7dYVbbuV+A5WGstdHeWfAptG6NkGMVws=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_record_ic_rec.qio
+SHA-256-Digest: WDCCRIPrjkS+uzCEumnf575V74CUWOQ4H5bmQbDqgiU=
+
+Name: res/drawable/preview_watermark_mid_first_snow.bmp
+SHA-256-Digest: PbFu9hLIRtAthiiGJetyDkcEFAcw6k50eF5uuE/BpDs=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_mode_ic_panorama.qio
+SHA-256-Digest: Ay6sg+/Dk5JdyqWZecpMZyeeKL6MHGo7VtkjLpVTYZM=
+
+Name: res/drawable/camera_mode_ic_gif.bmp
+SHA-256-Digest: 0kaTOxHX+DJEdVXuwF4mpx2OUh+CXeOaKOdeKsn6HWU=
+
+Name: res/drawable/camera_clip_movie_ratio_4by3_3v_selected_1.bmp
+SHA-256-Digest: wyJBRMcVI3R1UILNpPXOLoFH3g4//r+RWb6qkchnZ6g=
+
+Name: res/drawable/preview_watermark_rightdown_walkandpic_thumbnail.bm
+ p
+SHA-256-Digest: GOXmhsPoXXyam6uQKAs7joxjVhnze8NNo04LPi3EYqQ=
+
+Name: res/drawable-xxxhdpi-v4/camera_interactive_shot_front_right_6.qi
+ o
+SHA-256-Digest: LY9AfCjo9KjhxxxxoPk/71xJ5ZyEl8iIL+Mgot4jNuk=
+
+Name: res/drawable/soundshot_rec_eq_bar_06.bmp
+SHA-256-Digest: T+lWSTbjqyVxRiarhNRxT/3drrFgnHbpcXI1Zt2Bp8c=
+
+Name: res/drawable-xxxhdpi-v4/camera_wideselfie_arrow_right03_v.qmg
+SHA-256-Digest: RlEKO0KrdZafHufE/VUfPzgW32YPFOPXScHrj9+YuuI=
+
+Name: res/drawable/camera_main_btn_01_stop_freeform.bmp
+SHA-256-Digest: 46jPkxWiPobhKT6fLPCMMmtKaIPSYKfxQyEOBbTebqo=
+
+Name: res/drawable/assistant_menu_ic_camera_switch_camera.bmp
+SHA-256-Digest: cxZ2iCtzhrS/mhKdd3DtWmsSqKRHY3NTa9f1mbJV3gQ=
+
+Name: res/drawable/camera_main_btn_01_shutter_pressed.bmp
+SHA-256-Digest: v8w3oJJnFAJP8d0cTiATHT5obz0PH3DThcT+9p6bHns=
+
+Name: res/drawable/camera_mode_ic_sf_selected.bmp
+SHA-256-Digest: wtIAbi24X+FVYGvR+j1VZirm6smmV4H68Hh8q9EMo6g=
+
+Name: res/drawable/preview_watermark_leftdown_morning.bmp
+SHA-256-Digest: b6KTCIyRPixFyDm6Aqh0kGF7NVAAu0p/6YoeITKN+SI=
+
+Name: res/drawable/camera_caf_w.bmp
+SHA-256-Digest: thFTln1GHKsGPdxSvp4NITaO2rt9IHKUrsuetEyKG3Q=
+
+Name: res/drawable/camera_clip_movie_ratio_1by1_3_1_selected_1_h.bmp
+SHA-256-Digest: bDpoxepy9EsepadA2PjIegYslugtqy/Iy4qn7sTQgno=
+
+Name: res/drawable/camera_pro_mode_controller_ic_01_normal.bmp
+SHA-256-Digest: /TJWMnW6L5kOFeE/8xqYMriJzcNtmyvgwmzXyP6F7BI=
+
+Name: res/drawable/home_ic_fast_video_pressed_bg.bmp
+SHA-256-Digest: 7btCdXol5b2ucUKjIOuaU59KY6H0JQ5lN+5lT3m7UpA=
+
+Name: res/raw/shutter_close.ogg
+SHA-256-Digest: OJPzfOLt6uMbv20+mVizeWQN/Zm6YE4N7dxRE8/A6yo=
+
+Name: res/drawable/camera_food_ic_color_pressed.bmp
+SHA-256-Digest: oeGhu6LAqI7AObyc6yCCAEU2dFh64Q9ssxCLt5z81lU=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_mode_edit_area_mark.qio
+SHA-256-Digest: JONtJEyV9VcHTe0/pWMoMm4x/dI8u0ofWs+6PxhRZpc=
+
+Name: res/drawable-xxxhdpi-v4/camera_overlayhelp_mode_3.qio
+SHA-256-Digest: Z1CnFH6Gp2Ws6oggCtOOYtHO/I+E10RG2dOcp94k62o=
+
+Name: res/drawable/help_ic_stop.bmp
+SHA-256-Digest: GjzHDPBSB/Ziq/xPnMuF2lQ7qs2zikgSLHaP+7zizAk=
+
+Name: res/raw/shutter_open.ogg
+SHA-256-Digest: g7Tktqk9xG06aSJSvv9gjyFfnSLcODg7lbhvNu/0yK0=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_auto_eve_ic_light_1.qio
+SHA-256-Digest: xpJbcFaAz0uQGCCEFPC4/c06W7g9R/suJgyqIrQkfpE=
+
+Name: res/drawable/camera_mode_ic_live.bmp
+SHA-256-Digest: WFEzbeH/gwu2X9plvQ6xETk9BqMJlBeXTcm2J2CAlxI=
+
+Name: res/drawable-xxxhdpi-v4/sound_shot_quickview_screen_eq_bar_03.qi
+ o
+SHA-256-Digest: 2ii7OB1kT6Z42aAQ/ZT4VFbj2D1YDynJQSlgGJUGN+E=
+
+Name: res/drawable-xxxhdpi-v4/sound_shot_quickview_screen_eq_bar_11.qi
+ o
+SHA-256-Digest: nYchpEPTVnCMCG9oxHhhIWWFZno9S1x/RbBjxHwPGug=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_mode_ic_gif.qio
+SHA-256-Digest: 4pCJZl8SNHJP2ed05HzXKF4eiV2xR2Cguj4gM2aUnRs=
+
+Name: res/drawable/camera_panorama_warningarrow_right.bmp
+SHA-256-Digest: Sp8cNmv0sr9SYW1RWdrWqKZwGAXOlSKb0l9ZK7rSvns=
+
+Name: res/drawable/camera_quick_menu_ic_anti_fog.bmp
+SHA-256-Digest: H/Efz2RdMGv6Y94v/vvvL09DG4Bg9fzkdw8CoSWRUGo=
+
+Name: res/drawable/camera_timer_interval_no1_dark.bmp
+SHA-256-Digest: HLoJEZhbBmHeJPkgDBsjk13P5lLC6C7Yp+zfQ4XZsG0=
+
+Name: res/layout/camera_setting_root.xml
+SHA-256-Digest: GEf7UcdB50gGg7sy0NgTi3J+MHB9rgwSndQfoXMBRZ0=
+
+Name: res/drawable/soundshot_rec_eq_bar_03.bmp
+SHA-256-Digest: M7fWRiCJt4XxVsgY4aRJsRsMsDKTMZ/ueL/m0sn5POw=
+
+Name: res/drawable/preview_watermark_rightdown_eatalone_thumbnail.bmp
+SHA-256-Digest: CATFdDYDJRahQmRRxNaapcFyN/9OxOA92UPWxEFpMPw=
+
+Name: res/drawable-xxxhdpi-v4/camera_pro_color_thumbnail_breeze.qmg
+SHA-256-Digest: Jc4JOq5E8dJAQT6dzeOtTIGxApdtpje2CvvpieKX3Ac=
+
+Name: res/drawable/camera_quick_menu_ic_hyperlapse_8x.bmp
+SHA-256-Digest: Ofg6L9gkziBaHiosafvbDQs2k2OJt5IGyft8UC+nKms=
+
+Name: res/drawable/camera_clip_movie_ratio_4by3_4_normal.bmp
+SHA-256-Digest: rBedORb/GPGasCryThe1uNbbhNrqGzpvEaSQ3AqvqtE=
+
+Name: res/drawable/camera_clip_movie_ratio_1by1_3_selected_3.bmp
+SHA-256-Digest: cKS1GtF6Pg3eeYdpUxAE01/lfdntT+y8pLvWazpsG/4=
+
+Name: res/drawable-ko/indicator_hdr_on.bmp
+SHA-256-Digest: I10jRDJbsVKXCYQ7CheOhDnvwES72GM7PAKuDPvsQQo=
+
+Name: res/drawable/preview_watermark_mid_maiis_thumbnail.bmp
+SHA-256-Digest: uMK1E4F+ITtY3o8ST0QdwrP4QOPSS080VXRfZZiS3HQ=
+
+Name: res/drawable/preview_watermark_leftdown_ontheroad_thumbnail.bmp
+SHA-256-Digest: le9Ny5BMKKl/MVqJxYYGaWmNX15uBkr7HOmmCAXSkxQ=
+
+Name: res/drawable/camera_slow_fast_video_ic_slow.bmp
+SHA-256-Digest: 2wU9lH3EXEgKgeXlPJeSKkMuyCTCUXGme5wUTh71JVM=
+
+Name: res/drawable/sound_shot_timer_icon.bmp
+SHA-256-Digest: zyyxvqHvBe+4YydqX6wa2a2KTAjVUngWzOWkgIFAU60=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_main_btn_01_shutter.qio
+SHA-256-Digest: M6+W52aKg/lgviUjderV9nrmuya8xqIXTZL+Ti4UshU=
+
+Name: res/drawable-xxxhdpi-v4/camera_interactive_shot_front_center.qmg
+SHA-256-Digest: YMzrKuGV4syehQo5zk52ZRERRo3mL+BLJZ1ZS8T/B5o=
+
+Name: res/drawable/camera_panorama_arrow_up.bmp
+SHA-256-Digest: TSq2E9GDIKSB0BQgvur6RhYJ0EeTYolm4XXIg/MnB2c=
+
+Name: resources.arsc
+SHA-256-Digest: qs9962JhstIS2IT+73WGtGw6IDwXumftR5aHwO25R6k=
+
+Name: res/drawable/beauty_face_spotlight_lighting_right.bmp
+SHA-256-Digest: yKOEemknK74sbynEhfxORE326Sdt1je7zfxhn/hReJI=
+
+Name: res/drawable/camera_main_btn_ic_gallery_frame_freeform.bmp
+SHA-256-Digest: WbzQfNVIKf7+5i79+s9rakIT7QmK8uOS+BXrjgQuheg=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_interactive_shot_front_rig
+ ht_4.qio
+SHA-256-Digest: hi0wCem1HfIu2kMiM03qPZutf3bW3D0vho53lQJyqeM=
+
+Name: res/drawable/preview_watermark_mid_beach_thumbnail.bmp
+SHA-256-Digest: XGrl682hz/+yAE5qq2QK+hYRIEPD4oR8iqH5cC9r/CY=
+
+Name: res/drawable/preview_watermark_leftdown_rainyday.bmp
+SHA-256-Digest: pMKhQ3welDpF0o+RRcqrWrN9s4Ok3JbIyZARSveKRcQ=
+
+Name: res/drawable/preview_watermark_leftdown_windy_thumbnail.bmp
+SHA-256-Digest: IGb6vIw9TFBvot3cSFWlIK6z0WRsutHY713NaWtDuU8=
+
+Name: res/drawable/camera_effect_control_ic_filter.bmp
+SHA-256-Digest: yBzQaTMtvAySQklCP+MbiU9Z7sU9pPO+I7pVDA1PcLI=
+
+Name: res/layout-land/palm_capture_overlay_help_layout.xml
+SHA-256-Digest: MnBul9PP3ePMc9jk4Uh5JguN86XmH+rtkl+QjzeiT98=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_mode_ic_selfie_selected.qi
+ o
+SHA-256-Digest: SPxD0qpbHkTba21rm62DkOyNL3d115s2CJ3e/Ingpr8=
+
+Name: res/drawable/camera_clip_movie_slow_motion_4.bmp
+SHA-256-Digest: QLGH90l0o+1KVrHfcqa7Zw1g/GdSYzMUXzX7fZH8F68=
+
+Name: res/drawable/home_ic_product_search_pressed.bmp
+SHA-256-Digest: zPmD+CRSh08QYq1gq03RKwTtjZ7Q/kq8PWJGcPkZlxU=
+
+Name: res/drawable/camera_timer_no1.bmp
+SHA-256-Digest: 5MWOdAPhorBpWQqw78u2OIKqojUVD7t95C+k+6nh5sE=
+
+Name: res/drawable/camera_mode_downloadable.bmp
+SHA-256-Digest: h755aKNCkjvzysDDFloLyqNh5Ia6jz8MTQ3wPkBsIBo=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_review_pics_video_delete.q
+ io
+SHA-256-Digest: CU+bKEcdT5P+Gu+gJOFaQhpEwnK+RLHnAspBOSsEoCg=
+
+Name: res/drawable-ko/camera_quick_menu_ic_hdr_auto.bmp
+SHA-256-Digest: NGSnkMqT32qNYMk9I29tegvO6gsSCoZx+dXJVXtc2wM=
+
+Name: res/drawable-xxxhdpi-v4/weather_ic_thunderstorm.qmg
+SHA-256-Digest: P2RXBhtlOte13uY8gmeAAxoyRC7IfzuxSkr6f+q80Is=
+
+Name: res/drawable/home_ic_clip_movie_pressed.bmp
+SHA-256-Digest: fOzMTH8hc9zID12Sufyz2Z+54GlM2p803wdvZxYAO+Y=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_mode_ic_sports.qio
+SHA-256-Digest: mjFu/2gmcoVPVOykqiBV0x4viL7zxYWineZXHP6MUR0=
+
+Name: res/drawable/camera_af_base.bmp
+SHA-256-Digest: BPjK7QjhrG+yfExde6LO0A4TfUWT55bl77UnXr1XmM4=
+
+Name: res/drawable/camera_mode_ic_food.bmp
+SHA-256-Digest: r3UCtoiHwMMjckevePiDnroTptfKnp6W1KV/0JY2dcM=
+
+Name: res/drawable/preview_watermark_leftdown_rainyday_thumbnail.bmp
+SHA-256-Digest: 0++ye0Fhu4tRDZMiIO6bS7jJkztU1fjVDH/bT6sjq+0=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_interactive_shot_front_dev
+ ice1.qmg
+SHA-256-Digest: kjNcPHlxysS5VtZSbe4bYjPl8Vz/5eLyUQYXxWA34yY=
+
+Name: res/drawable-xxxhdpi-v4/effect_yellowredpoint.qmg
+SHA-256-Digest: Offixn5bfSHMwHrsncPxkY2rEYNgoO/+b++Z5sGHTVg=
+
+Name: res/drawable/indicator_timer_2sec.bmp
+SHA-256-Digest: Fnqlfi/SFH95TNgCwdQS39JpH96Gjtejzo76zgmORSI=
+
+Name: res/drawable/preview_watermark_mid_dog_thumbnail.bmp
+SHA-256-Digest: wDwkHFI5xHxXVX8VGbH3Y86BHPHu2e+K+RY/gW0vcVs=
+
+Name: res/drawable/camera_quick_menu_ic_hdr_off.bmp
+SHA-256-Digest: KaaiajTmOq9GAH6PwowwadDBplsyCYR84+LDTxhd12c=
+
+Name: res/drawable-xxxhdpi-v4/camera_interactive_shot_rear_left_6.qio
+SHA-256-Digest: cWohXIG+oHngEN4voXm2Bs7KTZ1pOfh0CKHQ9WKkRog=
+
+Name: res/drawable/camera_edge_sub_ic_selfie.bmp
+SHA-256-Digest: jH9OqM7xc9NhVcpcBtxqXAwWozSohLn5s4j0XPxopXk=
+
+Name: res/drawable/camera_frame_right03_02.bmp
+SHA-256-Digest: S51Vv8TbxYqLzzqlMH17hduyD1H0etW4NLDYKWTZxDE=
+
+Name: res/drawable/home_ic_night_pressed.bmp
+SHA-256-Digest: kMnDN9bLo0ZVSVYFy9a4sXnRisE6ODetyOY6i/gSPcU=
+
+Name: res/drawable-xxxhdpi-v4/camera_interactive_shot_front_left.qmg
+SHA-256-Digest: EVrHJjrtJckMsTC12+gS411yxHp43o00nu+Am8GcXzM=
+
+Name: res/drawable/camera_main_btn_01_stop.bmp
+SHA-256-Digest: hLFPtVGOrPyOplakGs7/OkOLZ5UNRvGNW1jajeXLqVk=
+
+Name: res/drawable-sw360dp-xhdpi-v13/effect_grayscale.qmg
+SHA-256-Digest: oqKi8LgvTFBP9ePyGw0zQIVZMjFgOiwEPNC1Fw/BMuQ=
+
+Name: res/drawable/camera_pro_mode_ic_iso.bmp
+SHA-256-Digest: oqoG2ExwXWZMCayD5tcOPjzgQAWpyDvL4ku7n1OMoSk=
+
+Name: res/drawable/camera_mode_ic_hyperlapse_selected.bmp
+SHA-256-Digest: xRvD0qUlmRFrnAQHwzir4nYZG40FEGFg98Em+To91FU=
+
+Name: res/drawable/list_divider_for_settings_landscape.xml
+SHA-256-Digest: twZLFHAO5HuCK8+kMxHOyCbtXDO2MscVSMSQkPvi2U0=
+
+Name: res/drawable/home_ic_sound_and_shot_pressed.bmp
+SHA-256-Digest: Ot49fM4Sa1LzmWyWKpfpFqEpSNjTJUkxho/w/BYzLqw=
+
+Name: res/drawable-sw768dp-xhdpi-v13/beauty_face_auto_skin_pressed.qio
+SHA-256-Digest: TMX/+2hKuEMOtXaT9c2zYMG94mE+wq8WA/xn51Z+Bq0=
+
+Name: res/drawable-xxxhdpi-v4/camera_interactive_shot_rear_right_1.qio
+SHA-256-Digest: +xVWOhxzFsfgu5J+tSdL3JI5InmT6eZQyAgohoQNlmY=
+
+Name: res/drawable/camera_main_btn_floating_shutter_pressed.bmp
+SHA-256-Digest: IPhWCdmtb9TMyRHxjWzB9iq/JZ1gKqiL/pLotVCIlMU=
+
+Name: res/drawable/camera_quick_menu_ic_collage_4by3_4.bmp
+SHA-256-Digest: FBhZn17QT9DO3JLG3WOAhsMQQdehkMAHRfiL2zjTUbw=
+
+Name: res/drawable/preview_watermark_rightdown_goeat_thumbnail.bmp
+SHA-256-Digest: Nhr735rg7DhIM/nCyoEkVvCeaXAamcQtj+eIM3tzp7Q=
+
+Name: res/drawable-xxxhdpi-v4/weather_ic_rain.qmg
+SHA-256-Digest: zS+hi1QR45y7Z0bun9QTTkzMvh45I+dT+bud76oUX3w=
+
+Name: res/drawable-xxhdpi-v4/camera_overlayhelp_front_img.qmg
+SHA-256-Digest: p/evjCL2FLi65n/V1t6T6AZIssbo0q4KIe6aiUbJQ+w=
+
+Name: res/drawable-xxxhdpi-v4/camera_interactive_shot_front_device5.qm
+ g
+SHA-256-Digest: y75fal6tuIhkyW+c0JMC7HAdjk2SR4ww1SmYBxF+XdQ=
+
+Name: res/interpolator/elastic_50.xml
+SHA-256-Digest: de9Hrpb7eXpt5waU53ppxYBIB7cxizEvEAVEgU1GSik=
+
+Name: res/drawable/soundshot_rec_eq_bar_04.bmp
+SHA-256-Digest: AeE8ViEaSAbQnb6S9PFfib06+NplyoTvAhX7p3BL7i4=
+
+Name: res/drawable/camera_clip_movie_ratio_4by3_2h_selected_1.bmp
+SHA-256-Digest: 2xXa4boKHa4u5azXIIREVGJZL8ubothMtVSWvi+6h4A=
+
+Name: res/drawable/camera_cover_view_ic_rec.bmp
+SHA-256-Digest: nAU0otQUExqmWc6mj13Nd8XgAymVZDZjXhHb4f+gbWA=
+
+Name: res/drawable/camera_main_btn_01_rec.bmp
+SHA-256-Digest: Q6ikBmC6DWRQiO5QKpgmbBR3fTnGMDHsiSgyap+N/W4=
+
+Name: res/drawable/camera_quick_menu_ic_switch.bmp
+SHA-256-Digest: ulyKqjQzrcj7K5/WMx9CFZ4WaJYrL6cAuCLQjoRTQ/U=
+
+Name: res/drawable/home_ic_gif_pressed.bmp
+SHA-256-Digest: w8zksIvRWP+J5QH/jnlvuu359rM0KEKtf782Yq+AlJ0=
+
+Name: res/drawable/home_ic_wide_selfie_pressed.bmp
+SHA-256-Digest: RKfQXe0XuBhM4aKZlvUEV9iimaTJLTqB5GPSJY6lGDg=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_interactive_shot_front_dev
+ ice2.qmg
+SHA-256-Digest: hV8nc+qlfeBSD4a6YCGBQ4aljI8srtdOPVVERfah1Ig=
+
+Name: res/drawable/preview_watermark_rightdown_health_thumbnail.bmp
+SHA-256-Digest: zQRAeD9z49P+wiodREHLqCJmTLaGvF5WURaT0t4QuFI=
+
+Name: res/drawable/camera_clip_movie_ratio_4by3_4_line4.bmp
+SHA-256-Digest: oSoxdSeu8HU28N7pPuBNqVkNrT0GSGEajozVXH53jVU=
+
+Name: res/drawable-xxxhdpi-v4/sound_shot_quickview_screen_eq_bar_12.qi
+ o
+SHA-256-Digest: yo6hUY3tl2or2NoYcAjFkh+sctMqdn6VF2pj1yRQJmM=
+
+Name: res/drawable/preview_watermark_leftdown_helloxx_thumbnail.bmp
+SHA-256-Digest: TRB3nNyaUq64K7eA0a7nNDR5DaLiRIcpGDh/fl5ZoeI=
+
+Name: res/interpolator/sine_in_out_90.xml
+SHA-256-Digest: jBa4rfVwLeRgP6OUyar2ccg+kT5ux+e22j6hcVs5jNY=
+
+Name: res/drawable-xxxhdpi-v4/camera_interactive_shot_rear_left_5.qio
+SHA-256-Digest: +qTxiLCyI72Dc62cHh5pIuzR1urdImW/b6gOhB+hJUg=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_interactive_shot_rear_righ
+ t_1.qio
+SHA-256-Digest: I8l0nnlb4kuR25gV7Ee922LA4Zwy44TH78fcLJUYc+A=
+
+Name: res/drawable/preview_watermark_mid_lantern_festival.bmp
+SHA-256-Digest: y+m9YLNg6GKh1H9jB212haWVDshsqjMTxTpvG99EvtI=
+
+Name: res/drawable/beauty_face_ic_sight_pressed.bmp
+SHA-256-Digest: w1nnHxFBS3g7k6ILT0In9glj4WGDY80ql2CopoVTuOA=
+
+Name: res/drawable/preview_watermark_rightup_indifference_thumbnail.bm
+ p
+SHA-256-Digest: s42OkHOrZecwj4JpvHlXooKz/cqzkkYzNBjtZRyo/lE=
+
+Name: SEC-INF/buildinfo.xml
+SHA-256-Digest: TDDWt2/B/BE45jjpfPeXz4SLl1PtU9I0xQ4kXiObva0=
+
+Name: res/drawable-xxxhdpi-v4/camera_overlayhelp_effect_3.qio
+SHA-256-Digest: XAOm+FqV4O1wh4i8F8653U7NA2OWDhmX5D4zneLIYWo=
+
+Name: res/drawable/camera_pro_mode_icon_bg.bmp
+SHA-256-Digest: ikkxTptjB1N6Md84feoF6u1aq8h3J1gyhbN256RfvTw=
+
+Name: res/drawable/camera_clip_movie_ratio_1by1_4_normal.bmp
+SHA-256-Digest: CrMPbeyZIOJTzJLF40wtn7NvsBfPZaEdVLam7A31IHg=
+
+Name: res/drawable/camera_mode_ic_interactive_shot_selected.bmp
+SHA-256-Digest: 6MD3Lz4sq0xRM0Op5C/Wp0r57UJpYnxygmtRqYrRM7E=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_interactive_shot_front_rig
+ ht_5.qio
+SHA-256-Digest: KA9c0SgGXVWJixX+SrKSl93y35qrhrBSWEG6+nHWG7g=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_pro_mode_progress_bar_bg.9
+ .qmg
+SHA-256-Digest: QeV/5j4f2WfN4zIJSXwyVCAlq/1SmE+j2pmXGr2Nn1M=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_quick_menu_ic_switch.qio
+SHA-256-Digest: 95FYEAOY7Fh48X7sw9/W7qyruQzusvq7rVfxavjvIjw=
+
+Name: res/drawable/camera_wideselfie_frame_help_portrait_02.bmp
+SHA-256-Digest: pJt4c8BQTJJCol2svq1TAXO/ehLrwTuTVVTsDpeyshY=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_interactive_shot_rear_cent
+ er.qmg
+SHA-256-Digest: 8ElzFbU1SVEz1ntsGtOQU3zz2E54If028igVHT59A6s=
+
+Name: res/drawable/sound_shot_auto_mic_02.bmp
+SHA-256-Digest: choQtfhP17VsGEAYErV24GA0XsoOKl41Hq0wk0SD3gI=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_effect_edit_detail_bar_ic_
+ pressed.qio
+SHA-256-Digest: bxNseeGf0W5RRKSGiiX+bvfhWmq5mo7ukVN8kTZt+mI=
+
+Name: res/drawable-xxxhdpi-v4/camera_progress_primary.9.qmg
+SHA-256-Digest: as83B73hrn6Kh9nTSqBJQeOpk5PtHGjTb0AkJBISlPk=
+
+Name: res/drawable/camera_clip_movie_ratio_4by3_2v_line2.bmp
+SHA-256-Digest: cCkr0jvGBHbfyx++6im+Ja7WOg45O3Hz4V6pe7zX3K4=
+
+Name: res/drawable/camera_multi_af_box_ic_yellow.bmp
+SHA-256-Digest: XDhLFEFulVh/a0L1eUSYS1BSIpUVu7ce8FtL9qF5CQk=
+
+Name: res/drawable/camera_quick_menu_ic_hdr_auto.bmp
+SHA-256-Digest: 3Sw0c0RgNlefv7MP18Ys9j1nviNwgxha64cNlqaK+b8=
+
+Name: res/drawable/camera_quick_menu_ic_metering2_popup.bmp
+SHA-256-Digest: xHAOnARm5gL2DM03tZAFyGqWVpAzDnHkW0NDoGB4lzk=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_auto_eve_ic_light_2.qio
+SHA-256-Digest: kG7NLmQne3zQhnmFhIFPkqx4gL0KqgkJU5C/cFXwgFw=
+
+Name: res/interpolator/elastic_40.xml
+SHA-256-Digest: IQVdoIQLtEFl946H9XWVczICUUOndG9xP/7z2PHYAsY=
+
+Name: res/drawable-sw360dp-xhdpi-v13/effect_normal.qmg
+SHA-256-Digest: fV2EFNuTYcPm806UWhzeQIbQqIe/6LkQQNopfC81NIM=
+
+Name: res/drawable/preview_watermark_mid_spring.bmp
+SHA-256-Digest: Jlzgh45/jKR6I+EwRqo3EOYxAhjLNCeu1F1PkY37tp0=
+
+Name: res/interpolator/sharp.xml
+SHA-256-Digest: OWdYF06uG6Ih/HodxRNLANB3OktKGPlPuFe89kh0THM=
+
+Name: res/drawable/preview_watermark_leftdown_windy.bmp
+SHA-256-Digest: LGoisBMtFw2w5zMRDglLfQwZCMGnX7ZHVkJYf6qsbIs=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_mode_ic_beauty_face_select
+ ed.qio
+SHA-256-Digest: UUL+JWbgT/4GuQmm1a7/tzXeDGMM4pBGlIhTOu4Aexo=
+
+Name: res/drawable/camera_clip_movie_slow_motion_3.bmp
+SHA-256-Digest: YAwM1t65nH9etPLe0GMp7fcODyccfSE+whtkUHCZg9E=
+
+Name: res/drawable/camera_clip_movie_ratio_4by3_2v_line1.bmp
+SHA-256-Digest: WeQwx1Lw22QAbzmAv7veu0eJWz4ba3XqFPU/ZKXDYiY=
+
+Name: res/drawable/camera_clip_movie_collage_4by3_3_2.bmp
+SHA-256-Digest: GfvPn5mcfGVZkAbTuSnQmga+roGGyHdSeKZwUiXnkFQ=
+
+Name: res/drawable-xxhdpi-v4/camera_food_handler_pressed_l_b.9.qmg
+SHA-256-Digest: 8wMDCOGt+E4eh7pHF4dhx8LygIK5mY+aMdC/T8d3DjU=
+
+Name: res/drawable-sw768dp-xhdpi-v13/indicator_hdr_on.qio
+SHA-256-Digest: HhU5F8heGIJAjMCBOXpC7MwCZOWCDNJHRqGX1lvOoUU=
+
+Name: res/layout/custom_cancel_done.xml
+SHA-256-Digest: mAlA7dmqZeqjuln3JFuwlcdsGKLrtkYDo/p2+hWdpQE=
+
+Name: res/drawable-sw768dp-xhdpi-v13/stat_sys_battery_charging.qmg
+SHA-256-Digest: 7RhKT0JFaTTOm4p4Ut+EnZdvqMHMU7b0KMBOrkbSGtc=
+
+Name: res/drawable-xxxhdpi-v4/effect_autumnbrown.qmg
+SHA-256-Digest: n4oQUilLJXPYOcp5t5crqjfC1vfv41A+zqIDPu6d7g0=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_mode_ic_pro_selected.qio
+SHA-256-Digest: 1zYQqrRrfMopLF9KG6dvf/TYtfAJuJdh2uhcXLOEH+4=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_mode_ic_sf_selected.qio
+SHA-256-Digest: h1f7x22fW/HOEHdbfo7PLbnXuVRVxDKCazVsuVkScXI=
+
+Name: res/layout/help_viewing_pics_and_videos.xml
+SHA-256-Digest: 8CmKCjsd/KiOK5sgBNEuL+W4mDYbwSeMO/fxFQfs3ZM=
+
+Name: res/animator/prev_from_now_to_left.xml
+SHA-256-Digest: ffPSTtmwnZ7qT6v1Am5AFo0CzXIxnDet2ChbENHeS7I=
+
+Name: res/drawable/camera_clip_movie_ratio_1by1_3h_selected_2.bmp
+SHA-256-Digest: uRMxG3+PBmbOYq4LVyu8qp09O+Ahtp+szkcqmQi1z6o=
+
+Name: res/drawable/camera_frame_right01_v_02.bmp
+SHA-256-Digest: fkTQlGOLsO2PMRea8Rei5ClOQKW0j9W9cjNQBrSl8DI=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_mode_ic_auto_selected.qio
+SHA-256-Digest: 06CedS6YcyUeQjT24IqHzJVGBahouYu88dZ47RGqZgo=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_mode_ic_dual_camera_select
+ ed.qio
+SHA-256-Digest: rZdUTE+dVLb60BZuBV+yFqteL/clkYku0YhAWfC6CeU=
+
+Name: res/drawable/camera_clip_movie_collage_1by1_3_2_selected.bmp
+SHA-256-Digest: fAgffqBChIztbJwgonxSYGeZhIEQIHr0M59An25+T4M=
+
+Name: res/drawable-xxxhdpi-v4/camera_pro_focus_bar_divider.qio
+SHA-256-Digest: akO+TTFcTjHuQxGjRTdqdiewbSk3dvOLAyIfMdQLUgY=
+
+Name: res/layout-port/palm_capture_overlay_help_layout.xml
+SHA-256-Digest: iXpTMJyUFUm7C8ZFeqoScNxtghD1vbySVifbMeim0zA=
+
+Name: res/drawable/camera_main_btn_02_capture.bmp
+SHA-256-Digest: 5s0jk1hXwXN4lmhuAzcZVmwmslr8WkXPvrntFGIa2RQ=
+
+Name: res/xml/executable.xml
+SHA-256-Digest: iSjjfLVfaC1DkqZmPHGOwKeVFEukoaKd5HM36NB7R9w=
+
+Name: res/drawable-xxxhdpi-v4/camera_interactive_shot_rear_right_2.qio
+SHA-256-Digest: ZOZy4rwxXudePX2YA3xBSYm9IrGRY9ngWwBc7vNhMyQ=
+
+Name: res/drawable/sound_shot_quickview_screen_mic.bmp
+SHA-256-Digest: Rkwic9YClQ/Zao8DaGKODMl71DR1d5Nqyr3oEaPfW30=
+
+Name: res/drawable-xxxhdpi-v4/camera_wideselfie_arrow_left02_v.qmg
+SHA-256-Digest: SKM1Typmy8JnLfAKUM7d0WqBKd2EX2PEzEBE5WsH/zM=
+
+Name: res/drawable-xxxhdpi-v4/effect_normal.qmg
+SHA-256-Digest: UmHDdFFG6DkBoaHYOvb++chvfcLJQ5u9SLWimsKbAok=
+
+Name: res/drawable/indicator_timer_10sec.bmp
+SHA-256-Digest: gYgEns2Xsdjl+9iFdTVKZ1Vx3+LHkW01FD7WVPKKG6M=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_interactive_shot_front_rig
+ ht_2.qio
+SHA-256-Digest: U2ZQWDtWpbWLdur0YLsp/+DmqZaIEigFkD4Y1zTupRE=
+
+Name: res/drawable/camera_clip_movie_ratio_1by1_3_selected_1.bmp
+SHA-256-Digest: f9P9Y5yc9WyqPSwQYMuaz8IwEazQYVxLzTBD+/UKM4Q=
+
+Name: res/drawable/camera_mode_ic_gif_selected.bmp
+SHA-256-Digest: 714OwCrR13imYJuHwMqDqiZJ3DSeJRfpHCWOBB7r8oY=
+
+Name: res/drawable/environment_shot_ic_location.bmp
+SHA-256-Digest: hrhINHx+o01PJJZGp+2giR7EJCmzuSu4ft1Suj4yPy4=
+
+Name: res/drawable/camera_clip_movie_ratio_4by3_3_1_selected_2_h.bmp
+SHA-256-Digest: gYUn9rlae2yblky+ee2yoGR1jVqiOaRtRpn7JxV5000=
+
+Name: res/drawable-xxhdpi-v4/camera_beauty_ic_color_balance_bar_v.qmg
+SHA-256-Digest: 5KF2edBUiKOcN/EP4tHgkQA87d1cxxngnXQViE7Lc2U=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_quick_menu_ic_flash_off.qi
+ o
+SHA-256-Digest: ZT9Indgq9MSWNffuniCpLYSMSWq8rWqBMN9tZ0bPbjk=
+
+Name: res/drawable-xxhdpi-v4/camera_dual_thumbnail_flip.qmg
+SHA-256-Digest: GL8wUlUZgS/GcT3V9pd2QoB+GQuR9Gu/0D5BIyWDRC0=
+
+Name: res/drawable-xxxhdpi-v4/camera_dual_handler_icon.qio
+SHA-256-Digest: Zx25lm/Rhu0BQPZFDrYlHk/E1zvlxuUbIO1U0f3oDto=
+
+Name: res/drawable-xxxhdpi-v4/camera_overlayhelp_mode_2.qmg
+SHA-256-Digest: fKLlnk7ztoYQ7T9VRrvdx29s18dY1tfCe87A+XJ+zHw=
+
+Name: res/drawable/camera_effect_control_ic_filter_pressed.bmp
+SHA-256-Digest: W7mbNxHi8U9VVqgxGr1F+vAER/EDZlqUWpM6/IZsXVM=
+
+Name: res/drawable/beauty_face_ic_sight.bmp
+SHA-256-Digest: QYuyDjJDeBN5VsOstd5Wb6Q0GaNddxkNiZ301qJ5vlk=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_option_list_popup_bg.9.qmg
+SHA-256-Digest: no3d9VlXxnLeGxODI6tIfgrGoPKaKU4EzDYUM6zXCB4=
+
+Name: res/drawable/camera_beauty_face_ic_shape_correction_off.bmp
+SHA-256-Digest: M7mVppYsg9Ench8JWlWP5OH9Cthkja6CA7Efc/FEJSI=
+
+Name: res/drawable-xxhdpi-v4/camera_dual_thumbnail_split.qmg
+SHA-256-Digest: 9/adJbUUVVH7EG7FkZpw9rjL7oS6wVjHcaJQShbsLsQ=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_review_pics_video_share.qi
+ o
+SHA-256-Digest: jZBFMekmznsLZ566EYobOUB4Ctat5Z6Lp2106BWTuo0=
+
+Name: res/layout/help_record_video.xml
+SHA-256-Digest: UvC9su8eBrfHcLPRbB2gRD6fvG6N3YTXdNhFthN8Ogg=
+
+Name: res/drawable/camera_mode_ic_shot_and_more.bmp
+SHA-256-Digest: NMA6Anpn8Am87K3QSNSL9mu4/r61NyUC8qzwxeMOlUo=
+
+Name: res/drawable/preview_watermark_mid_night_host.bmp
+SHA-256-Digest: Yl2wfTcRofxNp3UL6JTcB3Kfq/WlrVftpPlEwFUlh1Q=
+
+Name: res/drawable/camera_mode_ic_night.bmp
+SHA-256-Digest: 2vMj2EU83hBhvGcypgti/dmChAgBi14mJyBpplGQsXs=
+
+Name: res/drawable/camera_clip_movie_ratio_1by1_3_1_normal.bmp
+SHA-256-Digest: SYqMct0KP4S6yIm3IOcWIUR1xSiO7RhbTpCop9CWsiA=
+
+Name: res/interpolator/sine_in_90.xml
+SHA-256-Digest: WJTf3dxjQ5qMlMlzgD/XwGgu1O0RC7wgHTEMcykANJY=
+
+Name: res/drawable/help_ic_capture.bmp
+SHA-256-Digest: B/eWZco4WSCcamVCBql66FdDcqRp08YCGt/LzwuQqpE=
+
+Name: res/drawable-xxxhdpi-v4/camera_interactive_shot_front_device3.qi
+ o
+SHA-256-Digest: Yi9Sr0XYKDYukaYO/r1pf+5meZJPpcMcQY+5ePZf3ZM=
+
+Name: res/drawable/soundshot_rec_eq_bar_01.bmp
+SHA-256-Digest: hii1FaFrrDrmy9IBm7OZmwVcohL4vhL8c12kLHvJfeo=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_main_btn_02_rec.qio
+SHA-256-Digest: W3Ek0x+phSi/b6x7POm32+Uhg/8Ze/DkR/qIydEG2Es=
+
+Name: res/animator/prev_from_left_to_right.xml
+SHA-256-Digest: CIG3nXQT7U9V2hGcGhe+gwzh0z5ZCU0IIJJftJQ0sA8=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_overlayhelp_switch_camera_
+ 3.qio
+SHA-256-Digest: NBmOPTT5QZaOKcpG6W2il3Mi2gL/Lrz7o3n2kTpiMv4=
+
+Name: res/drawable-xxxhdpi-v4/weather_ic_partlysunnywithflurries.qmg
+SHA-256-Digest: GorUOR0iRkXEIgC10637siCc9ebCw7GHYngth18gfbA=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_auto_eve_ic_light_3.qio
+SHA-256-Digest: kQx64pFYRzEAzCZnDuGQnKWUfYDwn3TfX2QWFSkEzH0=
+
+Name: res/drawable/preview_watermark_leftup_hehe_thumbnail.bmp
+SHA-256-Digest: nsXo32HrUvIkkHXPvn8e6y5qTEOaVwr0xMmAFufaw2Q=
+
+Name: res/drawable-xxhdpi-v4/tw_btn_check_to_on_mtrl_000.qio
+SHA-256-Digest: 1B8uv/TXgSukZoQrNzxtFWYHUg2TedWmWHjUc+R1Fto=
+
+Name: res/anim/custom55.xml
+SHA-256-Digest: iRQOrszs5GyU8vFB0JFqFJy97UH9lHlCR4bcXMCsifc=
+
+Name: res/drawable/preview_watermark_mid_burn_thumbnail.bmp
+SHA-256-Digest: up25WgwesNPfIDCgGcpNevhR3/xcaGR9sK7Yqp+ZO9M=
+
+Name: res/drawable-xxxhdpi-v4/camera_panorama_frame.9.qmg
+SHA-256-Digest: wRt/LYFUjnpliqbviC691ZdaWYNLrQqmd9uVrQulBHg=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_mode_ic_interactive_shot.q
+ io
+SHA-256-Digest: oISkEoC3mpmAnZb1ZvTbJQuNSw9TmYn09rWRswADbKM=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_interactive_shot_rear_righ
+ t_2.qio
+SHA-256-Digest: faoyiKVm5gs0GbJRC44XDQkOc5fH/G+5+ShYW4mcS34=
+
+Name: res/drawable-xxxhdpi-v4/camera_interactive_shot_front_device4.qm
+ g
+SHA-256-Digest: SzUyfpnmjxJ4aftZ6ItwgRloYneQoMSkF4xwN0tcwfA=
+
+Name: res/drawable/camera_quick_menu_ic_food_blur_off.bmp
+SHA-256-Digest: 5Xx1UH9C1j/c4mun++9PzULpZlbNJwF64CJ0jUA3th4=
+
+Name: res/drawable/homescreen_menu_page_navi_default.bmp
+SHA-256-Digest: f7054pNAYKCuNgVC3eJySIGAD+vo9UDVsqEiJJFQri8=
+
+Name: res/drawable-xxxhdpi-v4/weather_ic_sunny.qio
+SHA-256-Digest: zZyS/dr48yyNtjZl6seA9o3GpQpQZR1vwtZu651dxMk=
+
+Name: res/drawable/home_ic_rearcam_selfie_pressed.bmp
+SHA-256-Digest: NzubK1nntkTwLW9lb6pPerGs3qtGQ2sT5HC50MSqJ+4=
+
+Name: res/drawable/camera_mode_ic_beauty_face.bmp
+SHA-256-Digest: JO+XbbwXiv1y8KU2Xi1t2eNU8hW/6BBTgfnaDcCKCsE=
+
+Name: res/drawable/preview_watermark_mid_punchcard.bmp
+SHA-256-Digest: D0Ylxppv9onaaBq/kztXoSjludCwY9HPXv/Ow0qNVTg=
+
+Name: res/drawable/camera_mode_ic_dual_camera.bmp
+SHA-256-Digest: SXE7Cc2uALA0rOU7SatgQjWVYcl72A4dJOJpfdZIGmc=
+
+Name: res/drawable-xxxhdpi-v4/camera_wideselfie_front_v.qio
+SHA-256-Digest: 6xL//5iSi96xaNq2IHJDzziEYu4UpLh1+gl0OfMatFQ=
+
+Name: res/drawable/camera_clip_movie_slow_motion_2.bmp
+SHA-256-Digest: ZE85YPqO895pJWWOf+Y31LHcAdQWxX4QCGDu5j2IyRo=
+
+Name: res/drawable/preview_watermark_mid_justeat.bmp
+SHA-256-Digest: DG23mQPM0OlLSnJFV3EWP9aD3PMhis3ffCkxHD1SkeQ=
+
+Name: res/drawable/camera_panorama_warningarrow_up.bmp
+SHA-256-Digest: htVr2FmDGNuqKacHZfIRZLgEE1VwDahdzhsolNF0q8Y=
+
+Name: res/drawable-xxxhdpi-v4/camera_overlayhelp_effect_2.qmg
+SHA-256-Digest: 9+KCQrfSxb2C/lXM1UHne1xYvAsSiP3f1i2uAMw4zgI=
+
+Name: res/drawable/camera_popup_ic_hyperlapse_auto.bmp
+SHA-256-Digest: r4Btk3GF26ycsm0hvJcvwhIPdrNYYUjeM8Qz2SbfIio=
+
+Name: res/drawable-sw360dp-xhdpi-v13/camera_wideselfie_arrow_left02.qm
+ g
+SHA-256-Digest: DWcjU8UgzN7A0olcletGiI8pLYiDKBSsn95LZ1JSLAc=
+
+Name: res/drawable-xxxhdpi-v4/camera_interactive_shot_rear_right_3.qio
+SHA-256-Digest: B7OgajDy4ucbghWV2dhmQ7PTxZ+nHmnn100v5Pi8ilc=
+
+Name: res/drawable-xxhdpi-v4/camera_food_handler_pressed_r_b.9.qmg
+SHA-256-Digest: EiFmhClvQc/Zh5s53M7ooLBJvPj1jE//N+FvVOqWsUY=
+
+Name: res/drawable-xxxhdpi-v4/sound_shot_quickview_screen_eq_bar_04.qi
+ o
+SHA-256-Digest: PFQE7SkP5oOppVJAPV+EtX1V9bYJ9vEa0jR1pGtpRm8=
+
+Name: res/drawable-xxhdpi-v4/camera_dual_thumbnail_blur.qmg
+SHA-256-Digest: frwPIlzk2Xoa1+Zrghm/hjD8V4Gjd8iSvitprtJQHZw=
+
+Name: res/drawable/home_ic_interactive_shot_pressed.bmp
+SHA-256-Digest: InmlgOO2cmqX7DjO2suEK3A27YJSs0wm/crOn3jcU3I=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_auto_eve_light_bar.9.qmg
+SHA-256-Digest: TQmPNLq/X1onbCkakPfNmo4FgfkqzgUte2vOisH+JBQ=
+
+Name: res/drawable/camera_clip_movie_ratio_1by1_3h_selected_1.bmp
+SHA-256-Digest: C1hQob/12v7BzBg+w2dYoZbqrswQB2tyyFgtfL86YVE=
+
+Name: res/layout/location_tag_toast.xml
+SHA-256-Digest: eA/2c4syt2RYpBbLD9Bh41zNE0Jda33YsPisic/mzzY=
+
+Name: res/drawable/home_ic_hdr_pressed.bmp
+SHA-256-Digest: Q6+mEN/eWvbpH1+x0+W7gs5L6tzAM4xBJr1FJjNpO2o=
+
+Name: res/drawable-xxxhdpi-v4/weather_ic_cold.qio
+SHA-256-Digest: nxpdZa6GjKJHzBdsEDNdI2bWrZ9ouZlB5/OubHwh93U=
+
+Name: res/drawable/camera_edge_sub_ic_auto.bmp
+SHA-256-Digest: eiBogkOKixEX5Dl5XsJrDmvKG7MeTh5tF31v9Q1QyIA=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_mode_ic_food.qio
+SHA-256-Digest: 6FJDqLlqzWZuH4ZFQAK3TlkRwLWV+sHZBP8Fit+oS3c=
+
+Name: res/drawable/camera_mode_ic_night_selected.bmp
+SHA-256-Digest: 7fi6DZfA0DRWwXJIL/vmYj0xwmH5PXmFUf6GGPdaVoQ=
+
+Name: res/drawable/camera_quick_menu_ic_metering_01.bmp
+SHA-256-Digest: t1Ca/9DDv5W/BjofWkUmqEKoEvQnniqCHzdzo8jFHsQ=
+
+Name: res/drawable-sw360dp-xhdpi-v13/camera_wideselfie_arrow_right02_v
+ .qmg
+SHA-256-Digest: R3kQBNDAoQ0m78lk8OKdmDS44kbbor4Uub3ABMhT/OE=
+
+Name: res/drawable-xxxhdpi-v4/sound_shot_quickview_screen_eq_bar_02.qi
+ o
+SHA-256-Digest: YDiAjFluO8iUmNakqq5OfAS1xY6I8Vi7N1vZfmoRJZo=
+
+Name: res/drawable-xxxhdpi-v4/sound_shot_quickview_screen_eq_bar_10.qi
+ o
+SHA-256-Digest: Qo3W3bfz3iJDXyRyrLt1yFYO++Pbn7XCHiyY8OMfNvw=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_interactive_shot_front_dev
+ ice4.qmg
+SHA-256-Digest: thzC1zggWcJkCv5ry9Uwh3L2IHpu3EtiAoGXjib9ZnE=
+
+Name: res/drawable/camera_quick_menu_ic_hdr_on.bmp
+SHA-256-Digest: gn/sYbcCJOghlxd/qbZgeseWdjcTRrRkXhkHEr3Wtv0=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_interactive_shot_front_rig
+ ht_3.qio
+SHA-256-Digest: e1ooZxNua7n6HZR1T9xVk6QnFyFijsaKLsTZRNFAm/Y=
+
+Name: res/drawable/camera_main_btn_02_video_error.bmp
+SHA-256-Digest: oaTNXNQNK/rY2/WDyl2eUnVzxjP9xmEB988qpccKyMU=
+
+Name: res/drawable/camera_pro_color_bg_right.bmp
+SHA-256-Digest: c5UZWegn155BvTJ3HCa00Ft+jNyzndd+1iGdpg12RcA=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_interactive_shot_front_dev
+ ice3.qio
+SHA-256-Digest: tSJV7k29F+16ozF2UJHG/WG9GoIa/C1W88J3F13RNdA=
+
+Name: res/drawable/soundshot_rec_eq_bar_02.bmp
+SHA-256-Digest: snYHl2CsTRit+oM5DEN7v/AuynSgvUgynfEp5GXsHdw=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_pro_mode_ic_ev_selected.qi
+ o
+SHA-256-Digest: xoypiIBSBzNFtINIv+1Yaem+PDtY7DSDyBsoae3x9gE=
+
+Name: res/drawable/camera_panorama_arrow_right.bmp
+SHA-256-Digest: cvgY/lfuUIix2yQK0Tm8XUGZAy07RNQKGVql1Qh190A=
+
+Name: res/drawable-sw360dp-xhdpi-v13/camera_wideselfie_arrow_left03.qm
+ g
+SHA-256-Digest: AIjeq7G4x6PjF9OtZzUU2rH1aOtEMHRTXJ9ycl7YBv0=
+
+Name: res/drawable/camera_clip_movie_ratio_1by1_3_selected_2.bmp
+SHA-256-Digest: inutSPd/YWkDc6CerPg4RQl2GofY3K9H0o95B9jTI9w=
+
+Name: res/drawable/home_ic_panorama_pressed.bmp
+SHA-256-Digest: 9nqwM6a8C3s890xGsjFEw/WUU+Yruk56N/H9S4ZIDLk=
+
+Name: res/raw/shot_more_processing_low.ogg
+SHA-256-Digest: W9q+Q3ZY+qRJUUsFzUicuaa7K6Y1J7v3ll121qV3fxk=
+
+Name: res/drawable/soundshot_rec_sec_progress_02.bmp
+SHA-256-Digest: T2zVgqfzql+5S06SEbQGlpidkPO3xOzqK/OZVLu9YIA=
+
+Name: res/drawable/camera_pro_mode_ic_wb.bmp
+SHA-256-Digest: I1J9RaOFds8jCcYP0xwwAZHTIbQ73bIt3hmfN03f8+s=
+
+Name: res/drawable/preview_watermark_leftdown_ontheroad.bmp
+SHA-256-Digest: UECKyPG3l4FV3I3iMOB4kaTZgBBdt5TBJWvF8lDfBAU=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_timer_interval_no1_light.q
+ io
+SHA-256-Digest: YuIBOAGa7Rzh1/ghzXPZDkXxN8fgdJB/Yfc14DoepjI=
+
+Name: res/drawable-sw768dp-xhdpi-v13/indicator_timer_10sec.qio
+SHA-256-Digest: rhBuprSegBa0yqKOkWBwlUtBPlKYi+vBPJNj4wzr/YE=
+
+Name: res/drawable-xxxhdpi-v4/weather_ic_ice.qio
+SHA-256-Digest: Fs0gTZhYwRPdPNM0rPKVkdZhKQdEaP9eEgFGNTqgbD0=
+
+Name: res/xml/shooting_method.xml
+SHA-256-Digest: IIIRpYRfrzTm38XIS+3Aeh660L2qX+AiYJlEiiBUZAY=
+
+Name: res/interpolator/sine_out_90.xml
+SHA-256-Digest: byxLUHSaZwbgUO0V4Adqs7Shrxo8HMh6BpuIawjIJGU=
+
+Name: res/drawable/camera_timer_interval_no3_dark.bmp
+SHA-256-Digest: mjXkCC2yA0+ZZ96qrDul9++mrIbBaUPKyvA1p5N/l04=
+
+Name: res/layout/camcorder_description.xml
+SHA-256-Digest: H3kWg4VkkaWGOekumfuYfHkzLFKk8Q0uNt9fu66JGK0=
+
+Name: res/drawable/camera_quick_menu_ic_effect.bmp
+SHA-256-Digest: FcaTQb9A1sxtbGbPUX39f2QYmGqcEBkqKOUKhzH5u2M=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_interactive_shot_front.qmg
+SHA-256-Digest: qG+vpe+Oza+dp9IcsqBZvURSGny19bNTTGifbGVHUFc=
+
+Name: res/drawable/camera_edge_small_auto_icon.xml
+SHA-256-Digest: Ei26j6b1UR0FUu/mAYayi4B6QjlolQpIAEAUcbe9ZCE=
+
+Name: res/drawable-xxxhdpi-v4/camera_overlayhelp_mode_1.qmg
+SHA-256-Digest: QUPnJRJjAdRG6m5grku2EsMcM2myYdlGWPhmxMKod3k=
+
+Name: res/drawable/preview_watermark_mid_xinsai_thumbnail.bmp
+SHA-256-Digest: IlInTBI8F26l/or89ThKpT2yJco7YCPbI0ng9hmVLw4=
+
+Name: res/drawable/home_ic_food_pressed.bmp
+SHA-256-Digest: XIgrTttisb66A1j+idobEu/10chSgEg5tWTdDuhRN5o=
+
+Name: res/drawable-xxhdpi-v4/camera_auto_eve_light_bar.9.qmg
+SHA-256-Digest: ZD5P4bO0zKc5hYIIiH+KKfS44IRqX3diQpodlXhu+2g=
+
+Name: res/drawable-xxxhdpi-v4/camera_interactive_shot_rear_right_4.qio
+SHA-256-Digest: DATU1gK7jJqAMHrMVe/gPJLBMEWd8KMrNHusrNgwCc8=
+
+Name: res/drawable/camera_mode_ic_auto_selected.bmp
+SHA-256-Digest: GSf9z01+95R2EtD515S8mKyLBGHFIdVCtdTqSCwCfqM=
+
+Name: res/drawable/gradient_effect_for_button.xml
+SHA-256-Digest: +SkLG0tw62x0DyZkQwvoSKyyBlBZzVfAG6FF9s11qb0=
+
+Name: res/drawable-sw360dp-xhdpi-v13/camera_wideselfie_arrow_right01_v
+ .qmg
+SHA-256-Digest: LGdsE1tWBBrLBZsb6JNPQP4cnM7s2q9ORVL/tKdOQZ0=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_interactive_shot_front_lef
+ t.qmg
+SHA-256-Digest: 9Vhh3KCJpNiXBRbkrXHFWFYv3iW/HjYPuDlv0Xzxunc=
+
+Name: res/drawable-sw360dp-xhdpi-v13/camera_wideselfie_front.qio
+SHA-256-Digest: e2cJn2YzKhXc4+MfYBwDb/QfYtDN4zKkSh2YI6N0pbw=
+
+Name: res/drawable/camera_mode_ic_hdr_selected.bmp
+SHA-256-Digest: PWvwYm6VLnwC1YeK61HCW+cLKZLCBETQq/uuqVP046Q=
+
+Name: res/drawable-xxxhdpi-v4/camera_pro_color_thumbnail_soft.qmg
+SHA-256-Digest: NXuC/i/oY+RxSuQr6r5sO0EL8pCjFOb9F+xBLqjw0uk=
+
+Name: res/drawable/camera_pro_mode_wb_ic_kelvin_normal.bmp
+SHA-256-Digest: cKFvXMp+U0/67q8P2Xx/jEMww5PjWfvUdppV/km3i5Q=
+
+Name: res/drawable-xxxhdpi-v4/camera_overlayhelp_effect_1.qmg
+SHA-256-Digest: /szhH1Sd+T4HAt/oC9SS1kAGSXQV+GUBYT0UwfYnVNA=
+
+Name: res/drawable/home_ic_hyper_pressed.bmp
+SHA-256-Digest: HOHdcFGArr24KVH2BBta5udL99VcmiQOagFuHVz/lC0=
+
+Name: res/drawable/camera_quick_menu_ic_metering_02.bmp
+SHA-256-Digest: 5U1PQOh3g5+5z7yTJ8RuvhhmuqzxpSSEwX8Wb1LR+c8=
+
+Name: res/drawable/camera_frame_left02_v_02.bmp
+SHA-256-Digest: jFBGn5A6ZO7ZkyQw6eFgSDy3tQbZ4ckRHOrw8kG9dec=
+
+Name: res/drawable/camera_mode_ic_continuous_shot.bmp
+SHA-256-Digest: Dj1ObWgWyKIq4AdUem6n+qJh0q7I5bshylz8LUQqTpg=
+
+Name: res/drawable-xxxhdpi-v4/camera_popup_progress_bar_primary.9.qmg
+SHA-256-Digest: guYRsOG8n4FnGM3CxAPJ2Tuo9myIR8EbCA/UjwfUE/A=
+
+Name: res/drawable/camera_main_btn_02_recorder.bmp
+SHA-256-Digest: jNsUzlHJE4YpVaSUmLA6u47Omn42kOstJLejSiKB3Y4=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_main_btn_01_stop_pressed.q
+ io
+SHA-256-Digest: AR40U8SWICCMphmHaA7m/js7vbyk1FBAi8FoXWt0I3I=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_main_btn_ic_gallery_frame.
+ qio
+SHA-256-Digest: d1B8DVfYHYpVCiKqV9u1pSMBUTjHqmMyjV5+exJrxJY=
+
+Name: res/drawable-xxxhdpi-v4/weather_ic_clear.qio
+SHA-256-Digest: O35rkpfX2wVKMffWjVOz92MQeLeP8yoxmqNmTjzPBTc=
+
+Name: res/drawable/preview_watermark_mid_springwind.bmp
+SHA-256-Digest: Dqr0zjm8rbB2IQHtla59vrnhIxSMagYk2fLJLu3xzaM=
+
+Name: res/drawable-sw360dp-xhdpi-v13/effect_negative.qmg
+SHA-256-Digest: 8OZC6G3s2hZFbrhJt4DUbWP8VmP0proXa3ccejV1Alg=
+
+Name: res/drawable-xxxhdpi-v4/camera_effect_control_text_bg.9.qmg
+SHA-256-Digest: tWFhX2FeQVJdSoA6yoIHb1R3EoV/9XKDXpZwAJJpYBg=
+
+Name: res/drawable/camera_quick_menu_ic_center_af.bmp
+SHA-256-Digest: ZpcSbJMBdJv2rW0Rn56jGI6k/4LaLB394bG/MkvWCOA=
+
+Name: res/drawable/camera_dual_pip.bmp
+SHA-256-Digest: GoD15kWqnhLWcBoKS76qrFF1AASaVnE2s0r9z4byKfo=
+
+Name: res/drawable/camera_quick_menu_ic_pre_shot.bmp
+SHA-256-Digest: +Rh21iYfNIWlJzkW9zNs8uZxxxIK1XrN9Emkr6udFlU=
+
+Name: res/interpolator/sine_in_80.xml
+SHA-256-Digest: 5MY3uL9fq0zefEl2ahhIhxK9ZRWryLYEiAkEk6QR6Ic=
+
+Name: res/drawable/home_ic_selfie_pressed.bmp
+SHA-256-Digest: rTdaEv5NefC5bFT5+xFVEuxwkSR6GziJpNH6fjFoLEY=
+
+Name: res/drawable-xxxhdpi-v4/camera_interactive_shot_rear_left_2.qio
+SHA-256-Digest: lsd/e//2kX16v864vW5Cn+AEjz+c5Snwl4irlNCLw2Q=
+
+Name: res/drawable/camera_quick_menu_ic_hyperlapse_auto.bmp
+SHA-256-Digest: Krd5rZzQ7fAcLUan7kHZJFPO9NuGtMrOSSY5mdVxRX0=
+
+Name: res/drawable/camera_clip_movie_collage_4by3_3_selected.bmp
+SHA-256-Digest: kSSvAl+P3Ea4HOoQoJEzs4muWCRgvELKO2F5UsAxH3Q=
+
+Name: res/drawable-sw360dp-xhdpi-v13/camera_wideselfie_arrow_left01_v.
+ qmg
+SHA-256-Digest: mjtq5AZoW1v08FWVntYtXtvde97hDqHkRzoPkaSipAo=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_interactive_shot_rear_devi
+ ce1.qmg
+SHA-256-Digest: nRz+rug79dyNBOBO4JCYxZyVfPS3C8ttKhtXY8fXsHI=
+
+Name: res/drawable-xxxhdpi-v4/camera_thumbnail_shadow.9.qmg
+SHA-256-Digest: YgPwa7yTY3+id/choxrqjxApvB+zn9uV2Ey209QQ8VM=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_beauty_face_ic_large_eyes_
+ selected.qio
+SHA-256-Digest: Dl19k5ZetBtUF+YjaSAj07CAU8kHic2aNXUmmemvRmM=
+
+Name: res/drawable-xxxhdpi-v4/camera_wideselfie_arrow_left02.qmg
+SHA-256-Digest: UBhyphSeJ1TuGG90QnFB9odBB3VbeATIpZu4/GwWUUg=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_main_btn_02_capture.qio
+SHA-256-Digest: k1nc8luaut5CnEY3qi3ASesqCyB9iTIKOip+Bqn6sRk=
+
+Name: res/drawable/camera_timer_no4.bmp
+SHA-256-Digest: a3ruhpR/+R9fdr6FuzNtqA/jEHXByYqq8BhhW8pD4AE=
+
+Name: res/drawable/preview_watermark_rightdown_disappear_thumbnail.bmp
+SHA-256-Digest: NLMgN+lyjlb0w0jBPGFX0WpIqaKw0aFyvh7IqzRO+pY=
+
+Name: res/drawable-sw360dp-xhdpi-v13/camera_effect_control_text_bg.9.q
+ mg
+SHA-256-Digest: 85GodkEyUxrPYWrzY48AI9KQS47GMDcAkN7BZ9/s0ac=
+
+Name: res/drawable-xxhdpi-v4/camera_dual_thumbnail_window.qmg
+SHA-256-Digest: u7eXFt5pmK9t5osLZuEiBDgBGMx7gmC+cAhM02iN8R4=
+
+Name: res/drawable-ko/indicator_flash_on.bmp
+SHA-256-Digest: iLDCTzhj0cjmlxSTEglVoYvJ7mBRju6vQyJXOXsB/Hg=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_main_btn_ic_gallery_empty.
+ qmg
+SHA-256-Digest: nfKnVILDoyAA1/lUT9nLJS9DJYcKeGWLaAEQouqfZJI=
+
+Name: res/drawable/preview_watermark_mid_keeprunning_thumbnail.bmp
+SHA-256-Digest: t3vJ9QpKat/bmxRGbQgx+h6RBkhitxz2LLzzL/poNJM=
+
+Name: res/drawable-xxxhdpi-v4/camera_interactive_shot_front_device2.qm
+ g
+SHA-256-Digest: VpbMK16nlPmdfO6ue+E4VSfT+tddOrSFrhXqw67jvMA=
+
+Name: res/drawable/preview_watermark_leftdown_helloxx.bmp
+SHA-256-Digest: FvPMQi3JrP8FC/xLD2wR0h/+oMVzbicfTI7F6vvr6nk=
+
+Name: res/drawable/preview_watermark_leftup_lonelyfitness.bmp
+SHA-256-Digest: CgBI/G9H3WpbCL7gD1YOS3aebKHe8zmrpxCgcCvWhzE=
+
+Name: res/drawable/soundshot_rec_sec_progress_01.bmp
+SHA-256-Digest: PESt8IV5ZFEKKGw3qb/4vp8DaI+8zLHjg6to8j0kA54=
+
+Name: res/layout-port/hrm_sensor_capture_overlay_help_layout.xml
+SHA-256-Digest: KltpumKKTpdBKJiQz+SSTPxntZ859R2OFvuVJc4rsRI=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_food_handler_pressed_l_b.9
+ .qmg
+SHA-256-Digest: yEOs2cepuvGMOhEdaDSsZQ98gypi/YYAVLNbQrAYRQU=
+
+Name: res/raw/camera_timer.ogg
+SHA-256-Digest: 6hwvtcraj5hI/usg/IsKCe4m2bkFxL6Q0UoOUiwy8UI=
+
+Name: res/drawable-xxxhdpi-v4/weather_ic_partlysunny.qmg
+SHA-256-Digest: t7TBBf0HcHsFQ/mbUTYAkYmMyjGZYYPCivFmrh90IyM=
+
+Name: res/drawable/preview_watermark_rightdown_recommend_thumbnail.bmp
+SHA-256-Digest: fJEiGhWJjc4MMafInPlT0qHiBLHEQdjVEUtEa64/lYk=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_mode_ic_wide_selfie_select
+ ed.qio
+SHA-256-Digest: uFOERFO86HgSPVSpjSASVjHK5DsQMtOSLVxacofc8gY=
+
+Name: res/drawable-xxhdpi-v4/camera_effect_ic_3rd_line.qmg
+SHA-256-Digest: 5NcjEG+UcTMUxywU87b6cxjFiGD6D+0igZwIp5cmqus=
+
+Name: res/drawable/camera_quick_menu_ic_collage_1by1_3.bmp
+SHA-256-Digest: Hc51I+bbmG7AwEScWdf4XCEkJ5gqiIf785KxatMLjIE=
+
+Name: res/drawable/preview_watermark_mid_dog.bmp
+SHA-256-Digest: cgENTs3frKYZi/hIwGc2OodCjR75GmhUk0CSCwo10iI=
+
+Name: res/drawable-xxxhdpi-v4/camera_interactive_shot_front_right.qmg
+SHA-256-Digest: wp7UqIEjUaXxOi3HVrH5h1hIK8N84F1Zm1uRHq0YWa0=
+
+Name: res/interpolator/sine_out_33.xml
+SHA-256-Digest: vxfNpBXF1Jap28qxdf0yaRJZwM1L3CBGQ+3hFY8n8FI=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_auto_eve_ic_minus.qio
+SHA-256-Digest: yhhVhkj7yNa929XnBvQxNDDOCBLup4cv0TWJbq7bZDk=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_timer_no1.qio
+SHA-256-Digest: YYlFGD7/SB1VTnODAi8mu+BwqS7PR+PD2TyWiJEaE94=
+
+Name: res/drawable-xxxhdpi-v4/sound_shot_quickview_screen_eq_bar_15.qi
+ o
+SHA-256-Digest: mfSd/N+ymeOcvNuDJIShbXS1qYRkalSVLe8OXZweXmE=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_interactive_shot_rear_righ
+ t_3.qio
+SHA-256-Digest: fHNkJGT1upATOj65D5BrPiST7UHREQzS1zrD+Oylf4g=
+
+Name: res/drawable/camera_clip_movie_ratio_1by1_4h_selected_2.bmp
+SHA-256-Digest: EpL7Ndr9VWkMk1rn5ZaHwt/q/2med19+WpaPOJxnRuE=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_auto_eve_ic_plus.qio
+SHA-256-Digest: g9Tmdz2tFQKh5/b3Xrqgzi4nWCxYNTS3u2gPBxMbZ2w=
+
+Name: res/drawable/camera_quick_menu_ic_collage_4by3_1.bmp
+SHA-256-Digest: PzqRftRUnqNYBoJFFuyyD96FMHhyOyqaGdQReP18soA=
+
+Name: res/drawable/camera_quick_menu_ic_flash_auto.bmp
+SHA-256-Digest: XnzS4b9KEzUvnS5DVyZ35qpO/jyDyzFo/QbdltnGXjI=
+
+Name: res/drawable/photo_crop_handler_bg_14.bmp
+SHA-256-Digest: cM/zW5BlhgD4bBI6OmnzoQaGNUz/UVTBcP19GwMZeYg=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_interactive_shot_front_lef
+ t_5.qio
+SHA-256-Digest: 9KlwgIqXPKCfdfQW7zq+ZW2BY5RddkF0JohA6/qDTxA=
+
+Name: res/drawable-xxhdpi-v4/camera_quick_setting_toast_popup_bg.9.qmg
+SHA-256-Digest: gy5/5JR2F46nwGB0TslZykFmVbr9WFjvtCDJxz0Lsgg=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_mode_ic_sports_selected.qi
+ o
+SHA-256-Digest: a+1+rChoUqOPqDZkOKg2W9eaR/r568vSuMiFqxl/nlA=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_timer_no2.qmg
+SHA-256-Digest: xMJxRK63nAMoEYeSJ3T+0kWUjr1PO2B8g5UBuWklEPw=
+
+Name: res/drawable/camera_clip_movie_ratio_4by3_4h_selected_3.bmp
+SHA-256-Digest: +shwJcezYS7qEVHNVkg4gRiBHJh/fQgPQPkRmXnBcVk=
+
+Name: res/drawable-xxhdpi-v4/camera_main_btn_ic_gallery_empty_freeform
+ .qmg
+SHA-256-Digest: DTHGz09rNNbJyTmZn+7C8hWJFoUzEv4h0lAAePdVots=
+
+Name: res/drawable/camera_quick_menu_ic_timer_9.bmp
+SHA-256-Digest: 8iN2MfVQaoWw09iLy5IjWKMCEK3dnFuKR5DCRlnYTHo=
+
+Name: res/drawable/camera_mode_ic_beauty_face_selected.bmp
+SHA-256-Digest: +EUoL7bCjCWdhkrs0uyueMwCOC3a8GTREtjb77K2a1U=
+
+Name: res/drawable/camera_pro_mode_ic_ev.bmp
+SHA-256-Digest: ByXnMeDGs3iAqzv6SzuCVo73w4QLhcpVU9OPdCairzo=
+
+Name: res/drawable/preview_watermark_rightup_wordnot_thumbnail.bmp
+SHA-256-Digest: 8+2LPY3sVTnLo/iLGXZxGE1Xsubfrb0pIBC0wEEmaI0=
+
+Name: res/interpolator/elastic_30.xml
+SHA-256-Digest: s/8Tk5ucGXGqzrZhm70dFKaJVbcnJAEUf2WWe9hh4uE=
+
+Name: res/raw/shutter_320ms.ogg
+SHA-256-Digest: OXcW9l+9beyEyVhfRLyejEBR+F+uhOyd1Gfj24sIlFY=
+
+Name: res/drawable/home_ic_beauty_face_pressed.bmp
+SHA-256-Digest: wpadF+xMicuit+xluZppic11vInuMOMImbTCW0YRSvY=
+
+Name: res/drawable/camera_main_btn_ic_gallery_frame.bmp
+SHA-256-Digest: jUTaECfSvhslRdUslipDI9COSfCVsc0KjE+nsnxEdGI=
+
+Name: res/drawable/camera_beauty_face_ic_soften.bmp
+SHA-256-Digest: 5CVfEG7M95Qr1Y1+G7TskzlNLVpcnkCvibOH63zBua4=
+
+Name: res/drawable/camera_clip_movie_serial_1by1_selected.bmp
+SHA-256-Digest: IPBG/FuPoQwCexIU7b74S04d6QjXjKv2Wb+9MjqFQIs=
+
+Name: res/raw/shutter_250ms.ogg
+SHA-256-Digest: Jj7iiQJE7KqdECM2xL2p0ZpyCTTmcbAuebWytZlrfQk=
+
+Name: res/drawable/camera_main_btn_01_shutter.bmp
+SHA-256-Digest: VCGasvey4jP1epbFCoIutHFIVrXkRjcAysxYtzt/HFQ=
+
+Name: res/drawable/camera_clip_movie_ratio_4by3_4_line2.bmp
+SHA-256-Digest: b9bXIZytM8dfeMJo8CwX3AuVzZ0oIh1arOWq/WF1RGw=
+
+Name: res/drawable-xxxhdpi-v4/camera_interactive_shot_rear_device3.qmg
+SHA-256-Digest: n2q8qopIcvJStOKlKE3Xj1bHV4EglddekHdhOaevS3k=
+
+Name: res/raw/shutter_100ms.ogg
+SHA-256-Digest: +Z/V+K4HPDZuTAMnTD9ujAuy+KwItIGeXolzMsS4Rts=
+
+Name: res/drawable/preview_watermark_mid_keeprunning.bmp
+SHA-256-Digest: lyU7gNU2kP7PtZxgKQM0XFXIfjGf4goSyGTXCtEkxws=
+
+Name: res/drawable/camera_quick_menu_ic_flash_off.bmp
+SHA-256-Digest: SRFv7vN74qFQe0a+zFXNono7FNGx3kLjlkuxVDqFdo0=
+
+Name: res/drawable-sw360dp-xhdpi-v13/effect_posterrize.qmg
+SHA-256-Digest: qfgAw9SN8eIEbWhRhasuoQBpCwk84Qarp+MGSKkqWto=
+
+Name: res/drawable-xxxhdpi-v4/sound_shot_quickview_screen_eq_bar_01.qm
+ g
+SHA-256-Digest: v7iok7DvmoKftA8CtuuPisDi3+U5hCFnkHvk/f8lzr0=
+
+Name: res/drawable/camera_clip_movie_collage_4by3_3_2_selected.bmp
+SHA-256-Digest: AbqK2Tip596wNgUMyoynEmIp1RPtCkFNTtStKmyygD8=
+
+Name: res/drawable-xxxhdpi-v4/camera_wideselfie_arrow_left01_v.qmg
+SHA-256-Digest: rwJ7VhqOdmeooSvdZ2ll9B/SqHrbQpNRIA3jpLxT1YE=
+
+Name: res/drawable/home_ic_continuous_shot_pressed.bmp
+SHA-256-Digest: vW6a8OaizpNkMzHeMsyuduFT5d2pcNcB6uOpb4AbSb4=
+
+Name: res/drawable-sw768dp-xhdpi-v13/homescreen_menu_page_navi_default
+ _f.qio
+SHA-256-Digest: Xe3FnGK2WoWgo2CrazWwmm9WL52UaVhNX65CZnBClAI=
+
+Name: res/drawable/camera_clip_movie_slow_motion_2_selected.bmp
+SHA-256-Digest: 1nTfXkNvd4DM3Cv5c67T/reGU01f//5xfOkOUwJ+pJ4=
+
+Name: res/drawable-ko/camera_pro_mode_controller_ic_auto.bmp
+SHA-256-Digest: 7hRQvSv795WzWtHl9ruPO5zxroJoM7iyFgp4Cn/fTZQ=
+
+Name: res/raw/shutter.ogg
+SHA-256-Digest: IzMZHJEDQ80rKy6ldxMej31O6xt2ZDTCI7URxe29u0Y=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_quick_menu_ic_metering_01.
+ qio
+SHA-256-Digest: Ij3sbqgot8Jwk2yClEnSPl0qxHk6omKrQL+PDTYvf+A=
+
+Name: res/drawable-xxxhdpi-v4/camera_dialog_bg.9.qmg
+SHA-256-Digest: 5CDkx4fIa8l2HfqQIMzDlCIDSnIoDJdgrdH59J8Kouk=
+
+Name: res/drawable/camera_timer_no5.bmp
+SHA-256-Digest: w2bBhE6rgOByNBPbFyMojMePAWUWUnhWW0cxQpTGeV4=
+
+Name: res/drawable/camera_clip_movie_ratio_1by1_3_1_selected_2.bmp
+SHA-256-Digest: VfL5NynwBFLmn0RFkNsuGc5eN/y3pXqbIi0h6RxKaLo=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_interactive_shot_front_rig
+ ht_1.qio
+SHA-256-Digest: A9moN23FcDuxIDkuF2lmXePC7wMIlInnyyXh3cWq0Gc=
+
+Name: SEC-INF/buildConfirm.crt
+SHA-256-Digest: KXPtZBP9ZJT4aUs4ggqLtOJUTC3FoNcQEqzF2uC25xc=
+
+Name: res/drawable/camera_mode_ic_sound_and_shot.bmp
+SHA-256-Digest: qTJ6xMqaqAJxN97IGIRTHWPTCX6xDrQA8B5Wab9eOZg=
+
+Name: res/anim/alpha_in_scale.xml
+SHA-256-Digest: 0dHKSjm2EuEh516Rl5M9Ov+NbgtWt+CAwYhzdpwCLiA=
+
+Name: res/drawable-xxxhdpi-v4/camera_interactive_shot_rear_left_1.qio
+SHA-256-Digest: gzE3bX4RfrMIael+lmXC9mNv4KcUoe7eV6CZrHtfdaE=
+
+Name: res/interpolator/elastic_60.xml
+SHA-256-Digest: drg3uTxF6l/JLkKL0F+KZTfKXm23oLNd1Nh+VWl/MWU=
+
+Name: res/drawable/camera_popup_ic_hyperlapse_8x.bmp
+SHA-256-Digest: +NNZQ7FLWxrla5CKYk1NH0CoN6sKCsABX+aW7LUxUVI=
+
+Name: res/drawable/camera_quick_menu_ic_metering1_popup.bmp
+SHA-256-Digest: X6JjRZQInupjSrmGW4qDklOT1Ad5iVTi3ZDoKEodlc4=
+
+Name: res/drawable/preview_watermark_mid_charge_thumbnail.bmp
+SHA-256-Digest: r7pSVFtXo8jet5YWKbs0JUCJeLGzJdV66xzlc/TBDdA=
+
+Name: res/drawable/camera_clip_movie_ratio_1by1_3_1_selected_2_h.bmp
+SHA-256-Digest: rKfp0/rcCx5fi+pCeTt4yFguQ36lm+WwsSyJhPuJb0Q=
+
+Name: res/drawable/sound_shot_quickview_screen_mic_02.bmp
+SHA-256-Digest: lhxgFd3arBqXdQe0nejKuc6QcHrDH3K6Igf10nZhjzE=
+
+Name: res/drawable-sw768dp-xhdpi-v13/beauty_face_ic_on.qio
+SHA-256-Digest: 6oPj1LMx2If4+mf+MfFQjdpO62ppQ+HCEVrNflgPu2g=
+
+Name: res/drawable/camera_clip_movie_collage_1by1_2_selected.bmp
+SHA-256-Digest: 7KI6d2NvUkTM4RCImXMj3HjFMLgAo5Jgl86jbEcIfGY=
+
+Name: res/drawable/camera_pro_ev_pre.bmp
+SHA-256-Digest: DijZPs87+8yOMCY1HQmQIdonXaGbGZJDGGuXb9Y2kEM=
+
+Name: res/drawable-xxxhdpi-v4/camera_wideselfie_arrow_left01.qmg
+SHA-256-Digest: eDVrRY/RzzF2CetW+G5CqsKcS4IHor/M7P5gcENBOp4=
+
+Name: res/xml/assistant.xml
+SHA-256-Digest: pTVz5Q+NwSRrHU7a+rIHszGkF3OwNIoJcDDr6C6aec8=
+
+Name: res/drawable/camera_quick_menu_ic_collage_1by1_4.bmp
+SHA-256-Digest: TNbuI7ST1M4OK3/aASjZno6qLypB5Ia8aAg0WuHKHjw=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_interactive_shot_front_lef
+ t_6.qio
+SHA-256-Digest: t5a2plHvkyI1dYzI+8ZOc8I3P+b6SSom2Xy/4yUKyxQ=
+
+Name: res/drawable/preview_watermark_rightup_indifference.bmp
+SHA-256-Digest: vNt/c29WrWAShMj1LGLQY2QxXLKPbya0f5yH9yTlUbs=
+
+Name: res/drawable/camera_auto_eve_ic_plus.bmp
+SHA-256-Digest: 59XBNauUNC3xlpRXdL89TOjWhBsdu75tQaHm2DZNBr4=
+
+Name: res/drawable/camera_frame_left03_02.bmp
+SHA-256-Digest: clyIrS0I3Nxy04MvGll5v/+UUj6EA6OmZJSiqnw7yqM=
+
+Name: res/drawable/camera_clip_movie_collage_4by3_4.bmp
+SHA-256-Digest: vJ3OG9afcEpE4N3Okg1mlNZxb38br0JlFdg01pqFNck=
+
+Name: res/drawable/camera_quick_menu_ic_multi_af.bmp
+SHA-256-Digest: a1cvKrZ5q8lkXxNcwcb+C7oj8x2d3ZYgd9c/FdYxsEE=
+
+Name: res/drawable/camera_mode_ic_hyperlapse.bmp
+SHA-256-Digest: AHmjH6jnW7c6sD3aFccss3kZPhLAtaC88wrMbuzMTL4=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_mode_ic_night_selected.qio
+SHA-256-Digest: MCq+InjeBsAWvqfjLDU2XOkYtlO7t+bDZM3VXF73Q8U=
+
+Name: res/raw/cam_start.ogg
+SHA-256-Digest: HxSIsusLr6J9CF6/Dc3u+wigcCf4zOxrBgPVImjv9P8=
+
+Name: res/drawable-xxxhdpi-v4/weather_ic_rainandsnowmixed.qmg
+SHA-256-Digest: +7vow0eIwTjCN8Lwe6twsqL6TGPWShjTuSp8bP4XydY=
+
+Name: res/drawable/indicator_voice_control.bmp
+SHA-256-Digest: 2ucqS2htOZLuC94i4FnFm9R3IUyV66nkgSXdvAOPh2c=
+
+Name: res/drawable-ko/camera_quick_menu_ic_flash_auto.bmp
+SHA-256-Digest: X2Czy+wNld3RmdxSxb/DQSni1m0HiN4z+cbAWeqkW2I=
+
+Name: res/drawable/camera_timer_interval_no2_light.bmp
+SHA-256-Digest: VWsK4uEZoyM+hARS3Jv0krBJgNwadoHkrZ+A0aopMGQ=
+
+Name: res/drawable/camera_clip_movie_ratio_1by1_4h_selected_3.bmp
+SHA-256-Digest: nRrsn/qVPezDr88K7iMSa0r+sTzr1NtbVHS891gEFmA=
+
+Name: res/drawable/camera_mode_ic_anti_fog.bmp
+SHA-256-Digest: SG+/Wrgu25/1ZPKqgjsCnFQwUFUks/recXbZpG0RYyw=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_effect_ic_3rd_candy_camera
+ .qmg
+SHA-256-Digest: dQk5JC4unPZ/rEQU1mOeVgyAS3H/tltmfUOoSzrbMIM=
+
+Name: res/drawable/preview_watermark_mid_friday_thumbnail.bmp
+SHA-256-Digest: u8LT/X+ZZMy6BQKZQdPhqwtMdNPuzJksgScPaTUGk3Y=
+
+Name: res/drawable/preview_watermark_mid_springwind_thumbnail.bmp
+SHA-256-Digest: lMnOZ3lB7Yw5NKLwXR5rZKLynX+XrqIEuCAqp8KseLo=
+
+Name: res/drawable/camera_main_btn_02_pause.bmp
+SHA-256-Digest: KQikQxr+l8btmF3YDajoWaxfcWX8YUAhhPP8DvEkXaM=
+
+Name: res/drawable/preview_watermark_rightdown_disappear.bmp
+SHA-256-Digest: e2rqqUKF0AFMym1ol5W+w6hLCQLdyD2weErIFzJUIVM=
+
+Name: res/drawable/camera_clip_movie_ratio_1by1_3_line3.bmp
+SHA-256-Digest: yTLNYRUq3nNm13wvcflXxQguA+jb/4xeqGFqRzsLyOQ=
+
+Name: res/drawable-xxhdpi-v4/camera_effect_ic_3rd_ucam.qmg
+SHA-256-Digest: AmFJYCvTXUfqvuZpisCSv5c8fimvf3R+BR6ir6Q0WlA=
+
+Name: res/drawable-xxhdpi-v4/camera_effect_ic_3rd_candy_camera.qmg
+SHA-256-Digest: xfixI6/3S+Zy1QyFjOi86OncLFwMU1qmxCdKVg0U+k0=
+
+Name: res/drawable-xxxhdpi-v4/camera_interactive_shot_front_device1.qm
+ g
+SHA-256-Digest: yJv/eCTU60fOGDrpQU0Qxv/uvdXJCLRCInkXj5J+G8I=
+
+Name: res/drawable-xxxhdpi-v4/camera_wideselfie_arrow_left03_v.qmg
+SHA-256-Digest: d6iljUVib2l7Koe/4MC8iiYfkQpz8LuK9moZ/w+UizE=
+
+Name: res/drawable/beauty_face_auto_skin_pressed.bmp
+SHA-256-Digest: XQkF14KJpkyhiGRPo8++fbqGWJeN4nvFiMDzzOe3XWg=
+
+Name: res/drawable/camera_clip_movie_ratio_1by1_3_1_selected_1.bmp
+SHA-256-Digest: PPByVyH8Ovyfs3r8NE8Nsfm8Mf1uAfv9H4CHqZB7tEc=
+
+Name: res/drawable/camera_review_pics_video_share.bmp
+SHA-256-Digest: 3wfDvgVG/o0RyXWCx0N3xsZG85RNviGwD5ignFXQ0Wo=
+
+Name: res/drawable/preview_watermark_mid_night_host_thumbnail.bmp
+SHA-256-Digest: tf0O/A6k0MmKKqBWpVFthuYIszmP01bpTxm40VAwseQ=
+
+Name: res/drawable-sw360dp-xhdpi-v13/effect_vintage.qmg
+SHA-256-Digest: BXJ5XJd14DxxI3ftkt4o9geauKzVmlu64XM1wWtEn3g=
+
+Name: res/drawable-xxxhdpi-v4/camera_interactive_shot_rear_device4.qmg
+SHA-256-Digest: m6w6zx6OxKJWDZSq32ftA7B3OBp80eesj9mFN2rZO5Q=
+
+Name: res/drawable-xxxhdpi-v4/camera_af_tracking.9.qmg
+SHA-256-Digest: lmp4xqmRVIOq7SOPS9HPSCAo1C6/XbYTjw6Q4iSTgHg=
+
+Name: res/raw/panorama_start.ogg
+SHA-256-Digest: Eioza0D1GrOr6glQhxmFWzmwexTaX2noYlnkoyY5toc=
+
+Name: res/drawable/gallery_ic_detail_play.bmp
+SHA-256-Digest: jAiX81PnryT9mGgPOIeKALzxvSN8+1ZogPz8Y90wLlY=
+
+Name: res/drawable/camera_wideselfie_frame_help_02.bmp
+SHA-256-Digest: pJt4c8BQTJJCol2svq1TAXO/ehLrwTuTVVTsDpeyshY=
+
+Name: res/drawable-sw360dp-xhdpi-v13/camera_wideselfie_arrow_left01.qm
+ g
+SHA-256-Digest: FXp1vbY1aVOlOY3R8YoznTG7NSSct2cIeilNlVA8eO0=
+
+Name: res/drawable-xxxhdpi-v4/tw_btn_check_to_on_mtrl_015.qmg
+SHA-256-Digest: f8MMx0M0hwZoMSQ5sQyqwlmxaSTaXLyT84iBV+x8zL0=
+
+Name: res/drawable/preview_watermark_rightdown_empty.bmp
+SHA-256-Digest: 7dVoVETdZSx3E7uWXYQcuwGyu5ljbk4dC4GI5PzsFQo=
+
+Name: res/drawable/preview_watermark_mid_anyoneelse_thumbnail.bmp
+SHA-256-Digest: L0sHgkxMmONVvSql6fTUw9gFQ+Zge30ailGYMlMyTqk=
+
+Name: res/drawable-xxxhdpi-v4/effect_grayscale.qmg
+SHA-256-Digest: bIPHu1r3u8llKsbFrROdQsy9tkg0vWNyPI7N5/aVHQI=
+
+Name: res/drawable/camera_clip_movie_ratio_1by1_3_1_selected_3.bmp
+SHA-256-Digest: sOvyVKnOMu6HFI4AX/4Ywdm7vOXT+ZTEN9Fh40P4eF4=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_food_handler_pressed_r_t.9
+ .qmg
+SHA-256-Digest: Uwjyy2npSqs/LGOk9HCAB5CK9YlZP77h6U+nU4nzKTg=
+
+Name: res/drawable/camera_clip_movie_ratio_4by3_4_line3.bmp
+SHA-256-Digest: +PL/vVgt8JlnFKVhC6/f15PtgBZvkZ7l4TBeQMubh48=
+
+Name: res/layout-land/interaction_overlay_help_pager_item.xml
+SHA-256-Digest: 0wZJ0YbSK6JuiOICkd+GiZon7lwcHa+mnW50XNO5vy0=
+
+Name: res/drawable/beauty_face_mode_icon_bg.bmp
+SHA-256-Digest: Z0Mr/zUTQ/WDHS1oFK0k6Isa+bdcarUDmxswC1vHmKc=
+
+Name: res/drawable-xxxhdpi-v4/camera_interactive_shot_rear_left_4.qio
+SHA-256-Digest: d2VPoIrHAKOUU1Rr1dbtVuV726u+QujOL3Cs+5Q2VSQ=
+
+Name: res/drawable-xxxhdpi-v4/camera_interactive_shot_rear_device1.qmg
+SHA-256-Digest: lubHaFrJAVSW2tTW+fctNv1ph4VTWAr9J82Cm53Qs5k=
+
+Name: res/drawable-xxxhdpi-v4/camera_pro_color_thumbnail_normal.qmg
+SHA-256-Digest: hZG5X16nsUwSdNY8cHnekXq/O8u3u8tcq/Qg+D8P2wc=
+
+Name: res/drawable/camera_popup_ic_timer_9sec.bmp
+SHA-256-Digest: LRdeKeTLdpxd/qvmwnrbfgQZvf7oxTGHqLNiBpriPUw=
+
+Name: res/drawable-sw768dp-xhdpi-v13/indicator_voice_control.qio
+SHA-256-Digest: /ewq4WOxjDTdfqC/EYyWaIoJ4tsv6wFb0xygBvlAvfQ=
+
+Name: res/drawable/camera_pro_mode_controller_ic_auto.bmp
+SHA-256-Digest: MH7FULoaq1hC+/5WIckJRYqRfH5p8CZHPSADJG8qa1w=
+
+Name: res/drawable/camera_quick_menu_ic_collage_4by3_3_1.bmp
+SHA-256-Digest: GAukz7c3tukkB17T5hg4bjFdrZ8utyCqBNcGkaxrYYk=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_main_btn_02_image_error.qi
+ o
+SHA-256-Digest: UKaAR8NT9WG+cnUdldgm+UYCNOv5Jo8AVhPxsOB1B8U=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_timer_no3.qmg
+SHA-256-Digest: hK1wqIm+VvbyjpKZIcDXhq2osQwJWRR0jtP5yvnPNvU=
+
+Name: res/drawable-xxxhdpi-v4/weather_ic_partlysunnywiththundershower.
+ qmg
+SHA-256-Digest: iGEvfG6SUF5/g8bs2Dn18Ncd1RVeKuN9susVGZkY4V8=
+
+Name: res/drawable/camera_quick_menu_ic_collage_1by1_1.bmp
+SHA-256-Digest: Is0H1YkOvBSiAxGtMzez9X4SZg8FoK6DQc5ypSLijVs=
+
+Name: res/drawable/camera_clip_movie_ratio_1by1_2_line2.bmp
+SHA-256-Digest: lcPne6Oga8P3oVf6weY3SfdY3A1GWqA3+ElzugCECgY=
+
+Name: res/drawable/camera_overlayhelp_button.xml
+SHA-256-Digest: gxU1VwsO9QkPkSGDCUwiurc9FD/fZ50iswvCnXOBVZ4=
+
+Name: res/drawable-xxxhdpi-v4/camera_overlayhelp_switch_camera_3.qio
+SHA-256-Digest: koXyP3+1XVhX4EDCF5Q2Q/yTWr4hOmB80R7sSxYGnxg=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_quick_menu_ic_metering_02.
+ qio
+SHA-256-Digest: 9epiWvx9VVHPSCfOqKXmpDGAwat3oLL2ruWXsp0Dqr8=
+
+Name: res/drawable-sw768dp-xhdpi-v13/stat_sys_battery_0.qio
+SHA-256-Digest: I7pNVa/NEEH+OKf3mcIsUnry04KvYS0/OMFhUVoHGUQ=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_mode_ic_hdr.qio
+SHA-256-Digest: 4qcBJG2QG9giSQvTRUORu5m16l4kqFN6sWVJt18nhLg=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_quick_menu_ic_setting.qio
+SHA-256-Digest: JRJBp8oOBZ9t4ZU+bOrRIARlmITKFUwmRSej+2eMw08=
+
+Name: res/drawable/preview_watermark_mid_friday.bmp
+SHA-256-Digest: B/1jijwpUbauxMhot1m5NMTr3XhfTlALnaekchHcVyg=
+
+Name: res/drawable-xxxhdpi-v4/camera_interactive_shot_rear_center.qmg
+SHA-256-Digest: UMRHQ9kKkcKg9mqk+CbITFJ0aeuMZ8O7xn2EWRHhPI0=
+
+Name: res/drawable/camera_clip_movie_collage_4by3_3.bmp
+SHA-256-Digest: Av9kV0HxLuDgAyWJgp7PE+yz5AYjCDURX720z17k1gY=
+
+Name: res/drawable-xxxhdpi-v4/sound_shot_quickview_screen_eq_bar_13.qi
+ o
+SHA-256-Digest: OJ3wBA82lD7xv9y0/ry4DAmpIRvtYGHfejS7Tro57dw=
+
+Name: res/drawable/camera_mode_ic_selfie.bmp
+SHA-256-Digest: 6xkyiU1RXI6Ctj+Ub+swtLFXs1GnykIO9M4VyFhx5hA=
+
+Name: res/drawable/home_ic_pro_pressed.bmp
+SHA-256-Digest: knrL7aLZGajzw4ZdMq7uDVgyR0GSa0L9EkwuPZs5Th4=
+
+Name: res/drawable/preview_watermark_mid_justeat_thumbnail.bmp
+SHA-256-Digest: q6+cgu227sYjB/6n068kL6cx50zQkTyz3VlooE9elaU=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_interactive_shot_rear_devi
+ ce3.qmg
+SHA-256-Digest: x0O2+GPwYuThWV5oaFHNLPYrTCz2nz0UNtjQDwoxNbk=
+
+Name: res/drawable/camera_quick_menu_ic_post_shot.bmp
+SHA-256-Digest: 2J6+/SIBUxKbHPWZKnn2nz7OEuy0+dIsMlhQYQll388=
+
+Name: res/drawable/camera_cover_view_ic_back.bmp
+SHA-256-Digest: f9mey5YYmK2qo2hASeBrtcvhdL9nz1F8H9sruxTYFOc=
+
+Name: res/drawable/camera_panorama_warningarrow_left.bmp
+SHA-256-Digest: QbLUImCCx3nxihrnGeUlIHSQpN+P4Gdv703zGwObRuI=
+
+Name: res/drawable-xxhdpi-v4/camera_dual_thumbnail_cubism.qmg
+SHA-256-Digest: 3bb9JD2EewfdDo7WNcDEq1J+pt+Cac05/RKXDvvtXvg=
+
+Name: res/drawable/camera_dual_pip_off.bmp
+SHA-256-Digest: 1PvO9gvgwhcmSuimdGADqRt31+z58m1rHeU5qQDX4Bg=
+
+Name: res/drawable/camera_mode_ic_pro_selected.bmp
+SHA-256-Digest: Nmpx4F2fa5dD8ni9sSgPtbOpO9ucvgGHcab0B4o3tAU=
+
+Name: res/drawable/camera_quick_menu_ic_collage_4by3_3.bmp
+SHA-256-Digest: baowED5XEiW8We6moEI+mcs29/e6Ktp1f2AOTsNepBk=
+
+Name: res/drawable/camera_mode_ic_sports_selected.bmp
+SHA-256-Digest: 7THOJbi6pWAG7UUnlIO/NAaG7c4yZXSpVwWB/yGRtHY=
+
+Name: res/drawable/preview_watermark_rightdown_breakfast_thumbnail.bmp
+SHA-256-Digest: Py5fQM6hLCXVE0pxi4XgC0BrF7NUgWA5BPXt0YOqCXk=
+
+Name: res/drawable/camera_timer_no2.bmp
+SHA-256-Digest: wyB01Zasmmr6u2OHLvQoEKb4npv6M0Xz+m7PtNEooQY=
+
+Name: res/drawable/camera_mode_ic_sound_and_shot_selected.bmp
+SHA-256-Digest: 6fhOsM3hCPrjcAWXZOcQSroskwVqkNNMPWBpY5GaBi0=
+
+Name: res/drawable/camera_mode_ic_food_selected.bmp
+SHA-256-Digest: OeEJ+C0W/Vd3G3LiB4hQxFcSBraEFAbsT1stxtlKh2Y=
+
+Name: res/drawable/camera_beauty_face_ic_soften_selected.bmp
+SHA-256-Digest: TAUsm+1ylbtbQwitalCdaVQoD6CcZw9D8oviQa17rWg=
+
+Name: res/drawable/camera_pro_mode_ic_wb_selected.bmp
+SHA-256-Digest: jXqtjehbzF3wbL6Y6wr8UPcpac4LK/f65J4ORfoi6OE=
+
+Name: res/drawable/camera_frame_left03_v_02.bmp
+SHA-256-Digest: 9w0b3FxoLScJNR1+4f0FftCuIrr4F1scrZx50GniHMw=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_quick_menu_ic_hdr_on.qio
+SHA-256-Digest: S6a2z3lScwITuos7Y83UbpUW4/03lfm/PKAh/MTEHK4=
+
+Name: res/drawable/camera_pro_color_up_ic.bmp
+SHA-256-Digest: JyPYBmno3O/cRtq1wsSkM3dHpTUq1JX9/Wjh8WbBqa0=
+
+Name: res/interpolator/sine_in_50.xml
+SHA-256-Digest: 2CaRIRSIEEUYUO7WmwO65oZOAEAcIK+H9BegNWuw9TU=
+
+Name: res/drawable/preview_watermark_rightdown_recommend.bmp
+SHA-256-Digest: Dwl3t5xaWw+H7e/swxLU+pD6glnUzbNAgMwjOxP+KRI=
+
+Name: res/interpolator/sine_in_out_70.xml
+SHA-256-Digest: 1WuS3KjY8w04O/6cXI1lGPN5Bq6puLSaYZCrgHgwqRo=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_pro_mode_ic_wb.qmg
+SHA-256-Digest: 6DO9hhtwCNQqlMRHvOxBw+mMK/RJ0w8Rq82wU3n17kY=
+
+Name: res/drawable-xxxhdpi-v4/camera_interactive_shot_front_left_6.qio
+SHA-256-Digest: NViLc8MAGPKFI32s+LTGzX3nUb/wCtW81cF+J1IjeNc=
+
+Name: res/drawable/preview_watermark_rightup_travel_thumbnail.bmp
+SHA-256-Digest: gK68Vk7gvccReu3r2o4amBWuUZdqPTGOAcYffQFgc3A=
+
+Name: res/drawable-xxxhdpi-v4/effect_posterrize.qmg
+SHA-256-Digest: /VT08smyhpQ4yCZLlTWIe7T/SPrO545jOv97X/9YZj8=
+
+Name: res/drawable/camera_clip_movie_ratio_4by3_3_1_selected_1.bmp
+SHA-256-Digest: Vu7qAspVmpjbMEnH55LDvJTLc0L6KUHT+CsdWpIyzlE=
+
+Name: res/interpolator/deceleration.xml
+SHA-256-Digest: ejPg2EEkss3RVjhKYcQRSTEa0aOut3TODlase9gRzVk=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_main_btn_02_recorder.qio
+SHA-256-Digest: W3Ek0x+phSi/b6x7POm32+Uhg/8Ze/DkR/qIydEG2Es=
+
+Name: res/drawable/camera_food_ic_color.bmp
+SHA-256-Digest: yLB2KEB4FEOLVLdOlNGCawTE5J8vnCrW0svlOWL4RBw=
+
+Name: res/drawable/camera_mode_ic_sports.bmp
+SHA-256-Digest: dCkY1ffCpoNIDcik/6yMG+Bask6T8bx5N4f0NFSr3fc=
+
+Name: res/drawable/camera_mode_ic_tag_shot.bmp
+SHA-256-Digest: ZCBdIaTk5ITmaVMEXbS591jXQFSRygf0vkSXbzIsbXI=
+
+Name: res/drawable/camera_clip_movie_ratio_1by1_4_line1.bmp
+SHA-256-Digest: 5RinxVAnh1v26n7V3kCNpfJu3W4ofm/f+/z0BJRznwQ=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_main_btn_02_pause.qio
+SHA-256-Digest: UzhnmbsBXVGY6LLH5ZHH9ieU0sziAxqcGw7te3GEZvg=
+
+Name: res/drawable-xxhdpi-v4/watermark_arrow_left.qmg
+SHA-256-Digest: 7Zdn1r8A480XR3V0TGfBFdRQcVCelvchahs5D306xcQ=
+
+Name: res/drawable/preview_watermark_mid_maiis.bmp
+SHA-256-Digest: hjPZl61MwWE7PtkGR+f/Z9RCxtc9HhQzPPD7UwxroRU=
+
+Name: res/drawable-sw360dp-xhdpi-v13/camera_wideselfie_arrow_left03_v.
+ qmg
+SHA-256-Digest: 6kJu8lkerjTamfO9TZGGsGiqPZtVL9J63SJthhnfZ1Q=
+
+Name: res/drawable-sw768dp-xhdpi-v13/stat_sys_battery_15.qio
+SHA-256-Digest: pvZQf9FeWXsPV2wmepAA1WAIWSGEmUGRuJeb8DrBKzE=
+
+Name: res/drawable-xxxhdpi-v4/camera_rear_cam_selfie_outline_press_l_b
+ .9.qmg
+SHA-256-Digest: 5gDra819v/oNOB6p3gtwHs4DP0xKl8wILjcENVW29TE=
+
+Name: res/drawable/camera_clip_movie_ratio_1by1_3_line2.bmp
+SHA-256-Digest: 2wxENvgscbvoTah6djVgb3TrYwvCcxq3ozPrTQfM5GE=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_interactive_shot_front_cen
+ ter.qmg
+SHA-256-Digest: AU9WP/eDo4zl+toiinVTX5wm2omanQ9o8eDORN2AMV8=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_pro_mode_wb_ic_cloudy_norm
+ al.qio
+SHA-256-Digest: cmPZHE6gYaxT97chjbY3XPBIBQPdp3+vBGG9iLkWgOk=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_interactive_shot_front_lef
+ t_3.qio
+SHA-256-Digest: xWT9ttG5RZw/MMhaotjgrmXVjriLuxoJuRNDbyTNM0o=
+
+Name: res/drawable/camera_quick_menu_ic_easymode.bmp
+SHA-256-Digest: IFjLwFgKQM0q589kokjZowC/awydDP1fZvglRyAsAx4=
+
+Name: res/drawable-xxxhdpi-v4/camera_interactive_shot_rear_left_3.qio
+SHA-256-Digest: /vXVcRFPcGmYigmXvHgrc0evBv+tGXdNpQ50RE7p4m4=
+
+Name: res/drawable/camera_clip_movie_ratio_1by1_2_line1.bmp
+SHA-256-Digest: 6nHt0pjOgcdqym88zYqIWjbArYWF466fkJrW1XbX6UY=
+
+Name: res/drawable-xxxhdpi-v4/camera_interactive_shot_rear_device2.qmg
+SHA-256-Digest: ee4CG90E1pDSkteq/KRQJ847+/0g5ZD1Sw4yYck0+qk=
+
+Name: res/drawable/camera_main_btn_01_shutter_freeform.bmp
+SHA-256-Digest: 71pqPF52CKVPY0xEmBPGNTKrh5VTwiSKhE8cX9Xjlwc=
+
+Name: res/anim/activity_enter.xml
+SHA-256-Digest: WTR3t//dWe8ZRdaqJpO6k3p2ajhluGXZXVZ0pWKLKLQ=
+
+Name: res/drawable/camera_overlayhelp_page_indicator_selector.xml
+SHA-256-Digest: uqgI15/oAy7a964m2A4511CEPJFO8nH1derQsu0u6cI=
+
+Name: res/drawable-sw360dp-xhdpi-v13/camera_wideselfie_front_v.qio
+SHA-256-Digest: M/EfV2XZ27qTkini/9LtpzKcHqHKa5JN0Lq4RvEINnA=
+
+Name: res/drawable/preview_watermark_mid_burn.bmp
+SHA-256-Digest: fnsQGzgnBpBEqtvTsduGbyU0Mkk2I+7XSgwGsdO4hH0=
+
+Name: res/drawable/camera_timer_interval_no3_light.bmp
+SHA-256-Digest: zsMyjTPaj9IMuqOjmjtBk3L1hZEOHE40jNjCgdul3h4=
+
+Name: res/drawable/home_ic_shot_and_more_pressed.bmp
+SHA-256-Digest: xQMpALEo+HHjk7xCQA6fQbkZ+i7+aWwUGp5N0pyNsBA=
+
+Name: res/drawable-xxxhdpi-v4/weather_ic_mostlyclear.qmg
+SHA-256-Digest: SMlj1Wl+3zQWIMfGkuhAgvJKfvpU9j6Rm26m9RAqxqw=
+
+Name: res/drawable-xxxhdpi-v4/camera_interactive_shot_front.qmg
+SHA-256-Digest: ruxQJjA1bOy0sXuAyfn0kHUIQ0s8uYe2ktxXSo503VU=
+
+Name: res/drawable/camera_mode_ic_rearcam_selfie.bmp
+SHA-256-Digest: pvAXuWRTiggxo40rkAW12sfdOnm2L7ulVxFDFHSP10c=
+
+Name: res/drawable/camera_clip_movie_collage_4by3_2.bmp
+SHA-256-Digest: DHnKOW0Eg+jzyhv0djJ/YA2P5rkhfZpW7E9UxH4rDp0=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_interactive_shot_rear_devi
+ ce2.qmg
+SHA-256-Digest: SwUK/hHukyCXT222RKvJ9r4sRIKe44L48s+kXrvN3aE=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_mode_ic_rearcam_selfie.qio
+SHA-256-Digest: oCUWmmTZZH/pNrvVKwg3QitUXUaanGtI6sk76S6Ix4Q=
+
+Name: res/animator/new_from_right_to_left.xml
+SHA-256-Digest: Xbm71jSYWN21iGXdX9DHBERCHGDEnZjSuzwKaziryFg=
+
+Name: res/drawable/camera_quick_menu_ic_collage_4by3_2.bmp
+SHA-256-Digest: Eocg9rfh/XiAS0Ln7l3yhVjevHGHzD7683Islil/btU=
+
+Name: res/drawable/preview_watermark_mid_mai.bmp
+SHA-256-Digest: jjNFvXug3tAyw5gSCIkyRbW6rmbgmLFJHX49efC1WOQ=
+
+Name: res/drawable-xxxhdpi-v4/camera_interactive_shot_rear.qio
+SHA-256-Digest: hNLqILjRl+1Ccmjp81Yp9ahip04dN44pEeik0RRYWhk=
+
+Name: res/drawable/camera_effect_edit_detail_bar_ic.bmp
+SHA-256-Digest: R9IfjxL202XMvnIRx2LQWFRKF0UzC/LYoypjxJpjRrU=
+
+Name: res/drawable/camera_mode_manage_deleted_ic_pressed.bmp
+SHA-256-Digest: rm8heONkiTcTt0H8t7sUJYfPHZkWAFhQz1dVzpUAlys=
+
+Name: res/drawable/camera_quick_menu_ic_collage_1by1_2.bmp
+SHA-256-Digest: v1DfoV2/ij8HM7iMx77jd0xj+FWSGfJFZVTNLi8FE+E=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_quick_menu_ic_metering_03.
+ qio
+SHA-256-Digest: GCGdQOSBqFAqgMCwUxkYuso1psVuNJk2WiVD5U5DAtQ=
+
+Name: res/drawable/beauty_face_auto_skin_on.bmp
+SHA-256-Digest: Ie2AlDC0yrODl4rX2PEi4mO0nZUqjJnqPdi/8oKQhGA=
+
+Name: res/drawable/camera_timer_no3.bmp
+SHA-256-Digest: K7L16qr9aic+YP0DSpDXAwXlXj9XS38d8I5N51MXRKY=
+
+Name: res/drawable-xxxhdpi-v4/sound_shot_quickview_screen_eq_bar_14.qi
+ o
+SHA-256-Digest: DxWuZq808IkutPTLINnf6oW5u027hMaa9RMWoutmEuI=
+
+Name: res/drawable/camera_frame_left01_02.bmp
+SHA-256-Digest: kjgyY6ATKQIGiK20s2LO/XvvPAlXkXbAw+rn2yXzkmQ=
+
+Name: res/drawable/preview_watermark_leftdown_imhere_thumbnail.bmp
+SHA-256-Digest: F+HYVqUjr7dS46mhIrjpzSX2Sp0MjbbLO8eUp9xOXiI=
+
+Name: res/drawable/camera_pro_mode_ic_none.bmp
+SHA-256-Digest: 0rgQTZwLltLlAZc25GyciIs4Z+lX3AktnmFYCuMNHic=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_food_handler.9.qmg
+SHA-256-Digest: J2OkMoN48iiN0XugI5PFhCi2ncT7uL88bS4FhPru9Hs=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_quick_menu_ic_flash_on.qio
+SHA-256-Digest: aScmlbMR1xXTjZb36KV+IcABT3PxsEICocmMOfavnIk=
+
+Name: res/drawable-sw360dp-xhdpi-v13/camera_wideselfie_arrow_right01.q
+ mg
+SHA-256-Digest: s1DrxDIKSMNElyL8VRvWiHuvdD+egGTsfKN7GYFTSPM=
+
+Name: res/drawable-xxxhdpi-v4/weather_ic_fog.qio
+SHA-256-Digest: Bju/ff4qk8ib+j1fqCg9/u4ssYUE90VZx4uAuNlItfs=
+
+Name: res/drawable/camera_pro_mode_wb_ic_cloudy_normal.bmp
+SHA-256-Digest: 6+oPMdnWEAeyGbIcdEx5Dos3GacjpfCba7Yz3XV1oGI=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_mode_ic_gif_selected.qio
+SHA-256-Digest: In/kv6UcCNz9d5saO1Yyoi2dfZD0YKy49aCTUUDiV4I=
+
+Name: res/raw/camera_timer_2sec.ogg
+SHA-256-Digest: OpIt6BG2m4hR/b0os3zDhBHk2/qnryF7Ev/KRYqQcyM=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_interactive_shot_front_lef
+ t_4.qio
+SHA-256-Digest: bRzq3SrgSWXSagBEFfnAS24geOLq+QigUDEJKR2uJr4=
+
+Name: res/drawable/preview_watermark_leftdown_sunnyday_thumbnail.bmp
+SHA-256-Digest: mLULcBNFBu5U7mevTtS2Vbw2Bsrdg1HX+gSNcGIM2M0=
+
+Name: res/drawable/home_ic_surround_shot_pressed.bmp
+SHA-256-Digest: 9CCh0NsOCqyf0GIW4D6SV0yUymHLaEPpMKCa0pS8edc=
+
+Name: res/drawable/camera_timer_no10.bmp
+SHA-256-Digest: IRX5JeUINmVeAnlRSBwZz8NtqWIAODpuQ8V5Pf665G4=
+
+Name: res/drawable-xxxhdpi-v4/camera_interactive_shot_front_left_5.qio
+SHA-256-Digest: 1oZ7o8AY64Mzev/l8jYSzTHUq8zj8eSjZbguJmp7S8w=
+
+Name: res/layout/starting_window_reverse_layout.xml
+SHA-256-Digest: nR86Gejhweg3VsBTgZEij2tc22jGN/SZDlfcS4wKR2c=
+
+Name: res/drawable-xxxhdpi-v4/camera_slow_fast_video_ic_slow.qio
+SHA-256-Digest: 1mKUl9rMozSSxa5JTePnC/SbCMif78L5yCzwssBKBIw=
+
+Name: res/drawable/camera_clip_movie_ratio_1by1_4h_selected_1.bmp
+SHA-256-Digest: wgP8yDJbwRAVNkJKozsStmQvbcHhbO5GrI3pqZqRhxY=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_mode_ic_sf.qio
+SHA-256-Digest: K2sL9icsCaHtv+1EbuqQjiJJH8uspdim7mGYbGeRqOc=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_pro_mode_ic_iso_selected.q
+ io
+SHA-256-Digest: 0nJbNTABqALC8quWMJbmJa9OkPeVHX2ukqgCp/jFnSE=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_pro_mode_wb_ic_daylight_no
+ rmal.qio
+SHA-256-Digest: 1ELewtnYq3N5hDdNdNAemBfZldUw2OYL6Vl5W+ZgjA8=
+
+Name: res/drawable/preview_watermark_leftup_eatlot_thumbnail.bmp
+SHA-256-Digest: pcaRD5AL0m/lJprH3N9hVm+IN75RTMQxose44KoNnSo=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_quick_menu_ic_easymode.qio
+SHA-256-Digest: TEL/5kHObUw2rQXKVRZqqcBKV+nl0JGUxqLknklmWm4=
+
+Name: res/drawable/camera_clip_movie_ratio_1by1_3_line1.bmp
+SHA-256-Digest: R4Ww7MvwonY/AFu1L1MZZakm5jOdycnaunpAhAtmCeA=
+
+Name: res/drawable/camera_clip_movie_ratio_4by3_4_line1.bmp
+SHA-256-Digest: YuP9vp7WxR9gU2eGhsqCDGUCQg4pF2obcVuzWnZOw2g=
+
+Name: res/layout/location_guide_dialog.xml
+SHA-256-Digest: JsCVd2vJRPj4Qy4Zju5GUO1l9QZRJNuE3WNVBjABW7E=
+
+Name: res/drawable/photo_crop_handler_delete.bmp
+SHA-256-Digest: JQr/tRqUz815nY63ag4nmAuJdOHrEBvKrOqOyDx84mE=
+
+Name: res/drawable/preview_watermark_leftup_eatlot.bmp
+SHA-256-Digest: i5O1VLGLNDOPh7bIQ4KNNfGA2n8cSI1ZtJucJIJo8QU=
+
+Name: res/drawable-xxhdpi-v4/camera_effect_ic_3rd_b612.qmg
+SHA-256-Digest: qKcmCXHHcckx624bjbo5HMusV8Un1Lv7j2QgMY0SDe8=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_mode_ic_panorama_selected.
+ qio
+SHA-256-Digest: QjcjgO59wQHrHnvoSYyDmY9aYM58QgQbo9P0a0D5Ro4=
+
+Name: res/drawable/camera_frame_right01_02.bmp
+SHA-256-Digest: 7Mn6P+ZpE1L9yoc7EOfZDs426Wl1P0nY0E5Q0FQgfbM=
+
+Name: res/drawable/camera_quick_menu_ic_flash_on.bmp
+SHA-256-Digest: SLiP3gYf5RsWXgObZDOaZBKHd6ueCcl1mbXtBDLvw98=
+
+Name: res/drawable-sw768dp-xhdpi-v13/camera_interactive_shot_rear_left
+ _6.qio
+SHA-256-Digest: kTmMLhw20GDGMOdb7T28y5qS7kzReLnKqCvLxVNM1iQ=
+
+Name: res/drawable/camera_mode_ic_clip_movie.bmp
+SHA-256-Digest: W0BJVfh2UJ9o5VTJcsmTE474S0oMgSdt5w/VFbjZduE=
+
+Name: res/drawable/camera_clip_movie_ratio_4by3_3_1_normal.bmp
+SHA-256-Digest: nPaWNO+rULxbqF8LJTWpvFQlOT/zgT/ZfiNIolDdiDs=
+
+Name: res/drawable-xxxhdpi-v4/camera_option_list_popup_bg.9.qmg
+SHA-256-Digest: no3d9VlXxnLeGxODI6tIfgrGoPKaKU4EzDYUM6zXCB4=
+
+Name: res/drawable/tw_ic_ab_back_mtrl_reverse.bmp
+SHA-256-Digest: Iigv+mYLForF9OfzWZYRmq+FWo0CLmA264uVKx7pyxE=
+
+Name: res/drawable/camera_mode_ic_wide_selfie_selected.bmp
+SHA-256-Digest: sbXu34N0IwcU64LwrDmdO9LiP1ZkNFya+ODdw6BWCtE=
+
+Name: res/drawable/preview_watermark_mid_todayis_thumbnail.bmp
+SHA-256-Digest: 4Mlg0Czxtaz0XdwKG0uQiRp0FiSX8fxXOFCntCN7Gfo=
+
+Name: res/drawable/preview_watermark_rightdown_walkandpic.bmp
+SHA-256-Digest: 228Ib+pEY6sb+dWWsDVJbCWn/GKIDTuGLNoyvZHP+Vg=
+

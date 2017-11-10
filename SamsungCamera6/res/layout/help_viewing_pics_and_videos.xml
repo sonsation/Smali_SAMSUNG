@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="@color/helppage_background_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:helphub="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/HelpPageLayoutBase">
+        <com.sec.android.app.camera.help.HelpHubTextView android:paddingBottom="@dimen/helppage_tipbox_margin_top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/desc_text_area_margin_top" android:text="@string/help_viewing_pics_and_videos_tip_1" android:contentDescription="@string/help_viewing_pics_and_videos_tip_1_tts" helphub:image="@drawable/help_ic_gallery" style="@style/HelpItemDescText" />
+    </LinearLayout>
+</ScrollView>

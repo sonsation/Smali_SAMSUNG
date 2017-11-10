@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout android:orientation="vertical" android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/camera_main_btn_02_recorder" android:layout_x="@dimen/recording_button_keyboard_x" android:layout_y="@dimen/recording_button_keyboard_y" />
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/camera_main_btn_01_shutter" android:layout_x="@dimen/capturing_button_keyboard_x" android:layout_y="@dimen/capturing_button_keyboard_y" />
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/camera_main_btn_ic_gallery_frame" android:layout_x="@dimen/thumbnail_button_keyboard_x" android:layout_y="@dimen/thumbnail_button_keyboard_y" />
+</AbsoluteLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="button">Кнопка</string>
+    <string name="disable">Адключана.</string>
+    <string name="tts_hour">Гадзіна</string>
+    <string name="tts_hours">Гадзіны</string>
+    <string name="tts_minute">Хвіліна</string>
+    <string name="tts_minutes">Хвіліны</string>
+    <string name="tts_not_selected">Не выбрана</string>
+    <string name="tts_second">Секунда</string>
+    <string name="tts_seconds">Секунды</string>
+    <string name="tts_selected">Выбрана</string>
+</resources>

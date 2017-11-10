@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/backgroun1">
+        <shape android:shape="rectangle">
+            <solid android:color="#ffdedede" />
+        </shape>
+    </item>
+    <item android:id="@id/backgroundcolor" android:left="@dimen/list_content_root_divider_horizontal" android:right="@dimen/list_content_root_divider_horizontal">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/winset_list_theme" />
+        </shape>
+    </item>
+</layer-list>

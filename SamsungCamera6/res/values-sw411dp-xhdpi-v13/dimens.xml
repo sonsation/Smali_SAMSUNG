@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="preview_normal_height">720.0px</dimen>
+    <dimen name="preview_normal_width">960.0px</dimen>
+    <dimen name="preview_wide_height">720.0px</dimen>
+    <dimen name="preview_wide_width">1280.0px</dimen>
+    <dimen name="screen_full_height">720.0px</dimen>
+    <dimen name="screen_full_width">1280.0px</dimen>
+</resources>

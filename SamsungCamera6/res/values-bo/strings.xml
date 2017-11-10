@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="EFFECT_STRENGTH">ཆེ་ཆུང་ཚད།</string>
+    <string name="RESOLUTION_SUB_TTS">འབྱེད་ཚད། %1$dསྒྱུར་%2$d</string>
+    <string name="help_section_summary">གནས་མི་འབྲ་བར་བསྟུན་ནས་ནུས་པ་མི་འདྲ་བ་སྣ་ཚོགས་སྤྱད་ནས་པར་ལེན་པའམ་བརྙན་ཟློས་ཕབ་ཆོག</string>
+    <string name="interaction_descrition_mode">གཡས་སུ་འདྲུད་འགུལ་བྱས་ནས་སྤྱོད་ཆོག་པའི་པར་ཆས་རྣམ་པ་བལྟ་བ།</string>
+    <string name="recording_discard_call_rinning_msg">ཁ་པར་ལ་ལན་འདེབས་བྱས་ན་བརྙན་ཟློས་དུམ་སྒྲིག་དོར་གྱི་རེད།</string>
+    <string name="restrict_vdis_description">འབྱེད་ཚད་%1$sསྤྱད་ནས་ཕབ་འཇུག་བྱ་བའིས་སྐབས་སུ་བརྙན་ཟློས་འདར་འགོག་ནུས་པ་བེད་སྤྱོད་གཏོང་མི་ཐུབ།(%2$sདེས་འོད་རིག་པར་བརྙན་འདར་འགོག་ཕན་ནུས་ཁོ་ནར་རྒྱབ་སྐྱོར་ཐོབ།)</string>
+    <string name="task_edge_title_selfie">"རང་ཉིད་
+པར་ལེན།"</string>
+</resources>

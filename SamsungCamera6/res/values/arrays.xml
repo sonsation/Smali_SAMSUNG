@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="focus_mode_list">
+        <item>@string/F_AUTOFOCUS</item>
+        <item>@string/F_MACRO</item>
+    </string-array>
+    <integer-array name="focus_mode_value">
+        <item>1</item>
+        <item>9</item>
+    </integer-array>
+    <string-array name="guideline_list">
+        <item>@string/OPTION_OFF</item>
+        <item>@string/guideline_3by3</item>
+        <item>@string/guideline_square</item>
+    </string-array>
+    <integer-array name="guideline_value">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </integer-array>
+    <string-array name="iso_lite_value">
+        <item>@string/ISO_100</item>
+        <item>@string/ISO_200</item>
+        <item>@string/ISO_400</item>
+        <item>@string/ISO_800</item>
+    </string-array>
+    <string-array name="iso_value">
+        <item>@string/ISO_50</item>
+        <item>@string/ISO_80</item>
+        <item>@string/ISO_100</item>
+        <item>@string/ISO_125</item>
+        <item>@string/ISO_160</item>
+        <item>@string/ISO_200</item>
+        <item>@string/ISO_250</item>
+        <item>@string/ISO_320</item>
+        <item>@string/ISO_400</item>
+        <item>@string/ISO_500</item>
+        <item>@string/ISO_640</item>
+        <item>@string/ISO_800</item>
+        <item>@string/ISO_1600</item>
+        <item>@string/ISO_3200</item>
+    </string-array>
+    <string-array name="shutter_time_value">
+        <item>@string/SHUTTER_SPEED_1</item>
+        <item>@string/SHUTTER_SPEED_2</item>
+        <item>@string/SHUTTER_SPEED_3</item>
+        <item>@string/SHUTTER_SPEED_4</item>
+        <item>@string/SHUTTER_SPEED_5</item>
+        <item>@string/SHUTTER_SPEED_6</item>
+        <item>@string/SHUTTER_SPEED_7</item>
+        <item>@string/SHUTTER_SPEED_8</item>
+        <item>@string/SHUTTER_SPEED_9</item>
+        <item>@string/SHUTTER_SPEED_10</item>
+        <item>@string/SHUTTER_SPEED_11</item>
+        <item>@string/SHUTTER_SPEED_12</item>
+        <item>@string/SHUTTER_SPEED_13</item>
+        <item>@string/SHUTTER_SPEED_14</item>
+        <item>@string/SHUTTER_SPEED_15</item>
+        <item>@string/SHUTTER_SPEED_16</item>
+        <item>@string/SHUTTER_SPEED_17</item>
+        <item>@string/SHUTTER_SPEED_18</item>
+        <item>@string/SHUTTER_SPEED_19</item>
+        <item>@string/SHUTTER_SPEED_20</item>
+        <item>@string/SHUTTER_SPEED_21</item>
+        <item>@string/SHUTTER_SPEED_22</item>
+        <item>@string/SHUTTER_SPEED_23</item>
+        <item>@string/SHUTTER_SPEED_24</item>
+        <item>@string/SHUTTER_SPEED_25</item>
+        <item>@string/SHUTTER_SPEED_26</item>
+        <item>@string/SHUTTER_SPEED_27</item>
+        <item>@string/SHUTTER_SPEED_28</item>
+        <item>@string/SHUTTER_SPEED_29</item>
+        <item>@string/SHUTTER_SPEED_30</item>
+        <item>@string/SHUTTER_SPEED_31</item>
+        <item>@string/SHUTTER_SPEED_32</item>
+        <item>@string/SHUTTER_SPEED_33</item>
+        <item>@string/SHUTTER_SPEED_34</item>
+    </string-array>
+    <string-array name="storage_list">
+        <item>@string/S_DEVICE</item>
+        <item>@string/S_MMC</item>
+    </string-array>
+    <integer-array name="storage_value">
+        <item>0</item>
+        <item>1</item>
+    </integer-array>
+    <string-array name="timer_list">
+        <item>@string/OPTION_OFF</item>
+        <item>@string/T_TWO</item>
+        <item>@string/T_FIVE</item>
+        <item>@string/T_TEN</item>
+    </string-array>
+    <string-array name="volume_key_list">
+        <item>@string/camera_key</item>
+        <item>@string/record_key</item>
+        <item>@string/zoom</item>
+        <item>@string/system_volume_key</item>
+    </string-array>
+    <integer-array name="volume_key_value">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>0</item>
+    </integer-array>
+</resources>

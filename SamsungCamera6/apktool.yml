@@ -1,0 +1,65 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: SamsungCamera6.apk
+compressionType: false
+doNotCompress:
+- arsc
+- qio
+- res/drawable-sw360dp-xhdpi-v13/camera_effect_control_text_bg.9.qmg
+- qmg
+- res/drawable-sw768dp-xhdpi-v13/camera_auto_eve_light_bar.9.qmg
+- res/drawable-sw768dp-xhdpi-v13/camera_food_handler.9.qmg
+- res/drawable-sw768dp-xhdpi-v13/camera_food_handler_pressed_l_b.9.qmg
+- res/drawable-sw768dp-xhdpi-v13/camera_food_handler_pressed_l_t.9.qmg
+- res/drawable-sw768dp-xhdpi-v13/camera_food_handler_pressed_r_b.9.qmg
+- res/drawable-sw768dp-xhdpi-v13/camera_food_handler_pressed_r_t.9.qmg
+- res/drawable-sw768dp-xhdpi-v13/camera_option_list_popup_bg.9.qmg
+- res/drawable-sw768dp-xhdpi-v13/camera_pro_mode_progress_bar_bg.9.qmg
+- res/drawable-sw768dp-xhdpi-v13/camera_quick_setting_toast_popup_bg.9.qmg
+- res/drawable-xxhdpi-v4/camera_auto_eve_light_bar.9.qmg
+- res/drawable-xxhdpi-v4/camera_food_handler.9.qmg
+- res/drawable-xxhdpi-v4/camera_food_handler_pressed_l_b.9.qmg
+- res/drawable-xxhdpi-v4/camera_food_handler_pressed_l_t.9.qmg
+- res/drawable-xxhdpi-v4/camera_food_handler_pressed_r_b.9.qmg
+- res/drawable-xxhdpi-v4/camera_food_handler_pressed_r_t.9.qmg
+- res/drawable-xxhdpi-v4/camera_progress_bar_bg3.9.qmg
+- res/drawable-xxhdpi-v4/camera_quick_setting_toast_popup_bg.9.qmg
+- res/drawable-xxhdpi-v4/tw_toast_qr_frame_mtrl.9.qmg
+- res/drawable-xxxhdpi-v4/camera_af_tracking.9.qmg
+- res/drawable-xxxhdpi-v4/camera_dialog_bg.9.qmg
+- res/drawable-xxxhdpi-v4/camera_effect_control_text_bg.9.qmg
+- res/drawable-xxxhdpi-v4/camera_option_list_popup_bg.9.qmg
+- res/drawable-xxxhdpi-v4/camera_panorama_frame.9.qmg
+- res/drawable-xxxhdpi-v4/camera_panorama_thumbnail_preview_line.9.qmg
+- res/drawable-xxxhdpi-v4/camera_popup_progress_bar_bg.9.qmg
+- res/drawable-xxxhdpi-v4/camera_popup_progress_bar_primary.9.qmg
+- res/drawable-xxxhdpi-v4/camera_progress_bg.9.qmg
+- res/drawable-xxxhdpi-v4/camera_progress_primary.9.qmg
+- res/drawable-xxxhdpi-v4/camera_rear_cam_selfie_outline.9.qmg
+- res/drawable-xxxhdpi-v4/camera_rear_cam_selfie_outline_press_l_b.9.qmg
+- res/drawable-xxxhdpi-v4/camera_rear_cam_selfie_outline_press_l_t.9.qmg
+- res/drawable-xxxhdpi-v4/camera_rear_cam_selfie_outline_press_r_b.9.qmg
+- res/drawable-xxxhdpi-v4/camera_rear_cam_selfie_outline_press_r_t.9.qmg
+- res/drawable-xxxhdpi-v4/camera_thumbnail_shadow.9.qmg
+- res/drawable-xxxhdpi-v4/qr_code_found_bg.9.qmg
+- res/drawable-xxxhdpi-v4/tw_scrollbar_mtrl.9.qmg
+- res/drawable-xxxhdpi-v4/tw_toast_frame_mtrl.9.qmg
+- res/drawable-xxxhdpi-v4/wide_selfie_bg_black_frame.9.qmg
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '24'
+  targetSdkVersion: '24'
+sharedLibrary: false
+unknownFiles:
+  SEC-INF/buildConfirm.crt: '8'
+  SEC-INF/buildinfo.xml: '8'
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.3.0
+versionInfo:
+  versionCode: '655901000'
+  versionName: 6.5.59

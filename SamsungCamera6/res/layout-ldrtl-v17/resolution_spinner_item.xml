@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:ellipsize="marquee" android:id="@id/resolution_main_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/winset_spinner_max_width" android:singleLine="true" android:layout_weight="1.0" android:textDirection="rtl" style="?android:attr/spinnerDropDownItemStyle" />
+    <TextView android:textSize="@dimen/winset_spinner_sub_text_size" android:textColor="@color/camcorder_size_sub_text_color" android:ellipsize="marquee" android:id="@id/resolution_sub_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textDirection="rtl" android:layout_marginEnd="@dimen/winset_spinner_right_margin" />
+</LinearLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<executable
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <command android:label="@string/task_edge_title_auto" android:icon="@mipmap/tw30_icon_camera" android:enabled="true" android:tag="\ 3837558337" android:smallIcon="@drawable/camera_edge_small_auto_icon">
+        <extras-attr android:name="category" android:value="android.intent.category.LAUNCHER" />
+        <extras-attr android:name="type" android:value="activity" />
+        <extras-attr android:name="action" android:value="android.intent.action.MAIN" />
+        <extras-attr android:name="packageName" android:value="com.sec.android.app.camera" />
+        <extras-attr android:name="componentName" android:value="com.sec.android.app.camera.Camera" />
+        <extras-attr android:name="launchMode" android:value="newTask|clearTop" />
+        <extras-attr android:name="extras" android:value="com.sec.android.app.camera.shootingmode.auto" android:key="activity_name" />
+    </command>
+    <command android:label="@string/task_edge_title_selfie" android:icon="@mipmap/tw30_icon_camera" android:enabled="true" android:tag="\ 1141080296" android:smallIcon="@drawable/camera_edge_small_selfie_icon">
+        <extras-attr android:name="category" android:value="android.intent.category.LAUNCHER" />
+        <extras-attr android:name="type" android:value="activity" />
+        <extras-attr android:name="action" android:value="android.intent.action.MAIN" />
+        <extras-attr android:name="packageName" android:value="com.sec.android.app.camera" />
+        <extras-attr android:name="componentName" android:value="com.sec.android.app.camera.Camera" />
+        <extras-attr android:name="launchMode" android:value="newTask|clearTop" />
+        <extras-attr android:name="extras" android:value="com.sec.android.app.camera.shootingmode.selfie" android:key="activity_name" />
+    </command>
+</executable>

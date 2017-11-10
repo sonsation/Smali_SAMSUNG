@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/custom_actionbar" android:layout_width="fill_parent" android:layout_height="@dimen/actionbar_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:enabled="true" android:textAppearance="?android:actionMenuTextAppearance" android:textColor="@color/actionbar_text_color" android:layout_gravity="center" android:id="@id/retry" android:background="@drawable/ripple_effect_for_gradient_button" android:focusable="true" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/retry" android:singleLine="true" android:layout_weight="0.5" style="?android:attr/actionButtonStyle" />
+    <TextView android:enabled="true" android:textAppearance="?android:actionMenuTextAppearance" android:textColor="@color/actionbar_text_color" android:layout_gravity="center" android:id="@id/okay" android:background="@drawable/ripple_effect_for_gradient_button" android:focusable="true" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/okay" android:singleLine="true" android:layout_weight="0.5" style="?android:attr/actionButtonStyle" />
+</LinearLayout>

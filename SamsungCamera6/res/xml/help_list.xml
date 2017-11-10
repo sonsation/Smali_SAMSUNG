@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<help-headers>
+    <section name="camera_help_section" summary="@string/help_section_summary" title="@string/camera_label">
+        <item name="camera_take_picture" action="com.sec.android.app.camera.help.TakePictureActivity" title="@string/help_taking_pictures" />
+        <item name="camera_record_video" action="com.sec.android.app.camera.help.RecordVideoActivity" title="@string/help_recording_videos" />
+        <item name="camera_viewing_pics_and_videos" action="com.sec.android.app.camera.help.ViewingPicsAndVideosActivity" title="@string/help_viewing_pictures_and_videos" />
+        <item name="camera_change_mode" action="com.sec.android.app.camera.help.ChangeModeActivity" title="@string/help_changing_the_camera_mode" />
+    </section>
+</help-headers>
