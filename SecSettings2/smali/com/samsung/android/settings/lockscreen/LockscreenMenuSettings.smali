@@ -459,15 +459,15 @@
 
     sput v0, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;->MY_USER_ID:I
 
-    .line 2325
+    .line 2322
     new-instance v0, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings$3;
 
     invoke-direct {v0}, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings$3;-><init>()V
 
-    .line 2324
+    .line 2321
     sput-object v0, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;->SUMMARY_PROVIDER_FACTORY:Lcom/android/settings/dashboard/SummaryLoader$SummaryProviderFactory;
 
-    .line 2334
+    .line 2331
     new-instance v0, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings$ScreenLockSearchIndexProvider;
 
     invoke-direct {v0}, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings$ScreenLockSearchIndexProvider;-><init>()V
@@ -518,7 +518,7 @@
 
     iput-object v0, p0, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;->mAlwaysOnScreenObserver:Landroid/database/ContentObserver;
 
-    .line 2722
+    .line 2719
     new-instance v0, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings$4;
 
     invoke-direct {v0, p0}, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings$4;-><init>(Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;)V

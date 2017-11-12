@@ -1,6 +1,6 @@
 Signature-Version: 1.0
 X-Android-APK-Signed: 2
-SHA-256-Digest-Manifest: 5QEHyg59MZHOCqzTN1v8AiW20vZ2B1djjq5XXlC395U=
+SHA-256-Digest-Manifest: SCyeIaOGN4Qv178F49hBZe0gWaqIbHYqaRTz83HYljk=
 Created-By: 1.0 (Android SignApk)
 
 Name: res/layout/display.xml
@@ -4652,7 +4652,7 @@ Name: res/drawable-xxhdpi-v4/motion_pick_up_soft_03.qmg
 SHA-256-Digest: 6Ww45QNUOyVwmlqLRXJZPfCRJcyXB0rX/5taW36dt20=
 
 Name: SEC-INF/buildinfo.xml
-SHA-256-Digest: dCIRiGbFaW/fYPuHHjf3LZegtoozpYoW5l1X+s5E6Gw=
+SHA-256-Digest: bO9lhtlWajj/U+6s6E0Gur409rVPBg9XOV+bq4R7ssk=
 
 Name: res/drawable/motion_multi_window_anim.xml
 SHA-256-Digest: qiPLjlcRSfWx9GfLlO/8qTzJbVCeS+3DKi79UbIlxf0=
