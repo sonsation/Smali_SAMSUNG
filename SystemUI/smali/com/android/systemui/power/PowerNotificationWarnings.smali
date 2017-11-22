@@ -662,7 +662,7 @@
     .line 1586
     iget-object v0, p0, Lcom/android/systemui/power/PowerNotificationWarnings;->mContext:Landroid/content/Context;
 
-    const v1, 0x7f0f0653
+    const v1, 0x7f0f0652
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -2022,28 +2022,28 @@
 
     .line 1105
     :pswitch_1
-    const v2, 0x7f0f0657
+    const v2, 0x7f0f0656
 
     .line 1106
     goto :goto_0
 
     .line 1109
     :pswitch_2
-    const v2, 0x7f0f0658
+    const v2, 0x7f0f0657
 
     .line 1110
     goto :goto_0
 
     .line 1116
     :pswitch_3
-    const v2, 0x7f0f0655
+    const v2, 0x7f0f0654
 
     .line 1117
     goto :goto_0
 
     .line 1120
     :pswitch_4
-    const v2, 0x7f0f0659
+    const v2, 0x7f0f0658
 
     .line 1121
     goto :goto_0
@@ -2087,7 +2087,7 @@
     invoke-virtual {v0, v4}, Landroid/app/AlertDialog$Builder;->setCancelable(Z)Landroid/app/AlertDialog$Builder;
 
     .line 1138
-    const v3, 0x7f0f0654
+    const v3, 0x7f0f0653
 
     invoke-virtual {v0, v3}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
 
@@ -2173,7 +2173,7 @@
     .line 1291
     iget-object v5, p0, Lcom/android/systemui/power/PowerNotificationWarnings;->mContext:Landroid/content/Context;
 
-    const v8, 0x7f0f063d
+    const v8, 0x7f0f063c
 
     invoke-virtual {v5, v8}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -2236,7 +2236,7 @@
     aput-object v10, v9, v6
 
     .line 1298
-    const v10, 0x7f0f064c
+    const v10, 0x7f0f064b
 
     invoke-virtual {v8, v10, v9}, Landroid/content/Context;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -2436,7 +2436,7 @@
     :cond_4
     iget-object v5, p0, Lcom/android/systemui/power/PowerNotificationWarnings;->mContext:Landroid/content/Context;
 
-    const v8, 0x7f0f063e
+    const v8, 0x7f0f063d
 
     invoke-virtual {v5, v8}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -2450,7 +2450,7 @@
     :cond_5
     iget-object v5, p0, Lcom/android/systemui/power/PowerNotificationWarnings;->mContext:Landroid/content/Context;
 
-    const v8, 0x7f0f063d
+    const v8, 0x7f0f063c
 
     invoke-virtual {v5, v8}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -2464,7 +2464,7 @@
     :pswitch_1
     iget-object v5, p0, Lcom/android/systemui/power/PowerNotificationWarnings;->mContext:Landroid/content/Context;
 
-    const v8, 0x7f0f063f
+    const v8, 0x7f0f063e
 
     invoke-virtual {v5, v8}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -2478,7 +2478,7 @@
     :pswitch_2
     iget-object v5, p0, Lcom/android/systemui/power/PowerNotificationWarnings;->mContext:Landroid/content/Context;
 
-    const v8, 0x7f0f0640
+    const v8, 0x7f0f063f
 
     invoke-virtual {v5, v8}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -2492,7 +2492,7 @@
     :pswitch_3
     iget-object v5, p0, Lcom/android/systemui/power/PowerNotificationWarnings;->mContext:Landroid/content/Context;
 
-    const v8, 0x7f0f0641
+    const v8, 0x7f0f0640
 
     invoke-virtual {v5, v8}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -2506,7 +2506,7 @@
     :pswitch_4
     iget-object v5, p0, Lcom/android/systemui/power/PowerNotificationWarnings;->mContext:Landroid/content/Context;
 
-    const v8, 0x7f0f0645
+    const v8, 0x7f0f0644
 
     invoke-virtual {v5, v8}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -2520,7 +2520,7 @@
 
     iget-object v8, p0, Lcom/android/systemui/power/PowerNotificationWarnings;->mContext:Landroid/content/Context;
 
-    const v9, 0x7f0f0646
+    const v9, 0x7f0f0645
 
     invoke-virtual {v8, v9}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -2545,7 +2545,7 @@
     if-eq p1, v13, :cond_0
 
     .line 1265
-    const v3, 0x7f0f0647
+    const v3, 0x7f0f0646
 
     .line 1267
     .local v3, "textId":I
@@ -2605,7 +2605,7 @@
     :pswitch_5
     iget-object v5, p0, Lcom/android/systemui/power/PowerNotificationWarnings;->mContext:Landroid/content/Context;
 
-    const v8, 0x7f0f0648
+    const v8, 0x7f0f0647
 
     invoke-virtual {v5, v8}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -2615,7 +2615,7 @@
     .restart local v4    # "title":Ljava/lang/CharSequence;
     iget-object v5, p0, Lcom/android/systemui/power/PowerNotificationWarnings;->mContext:Landroid/content/Context;
 
-    const v8, 0x7f0f064a
+    const v8, 0x7f0f0649
 
     invoke-virtual {v5, v8}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -2661,7 +2661,7 @@
     aput-object v10, v9, v7
 
     .line 1301
-    const v10, 0x7f0f064d
+    const v10, 0x7f0f064c
 
     invoke-virtual {v8, v10, v9}, Landroid/content/Context;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -2784,7 +2784,7 @@
     .line 653
     iget-object v4, p0, Lcom/android/systemui/power/PowerNotificationWarnings;->mContext:Landroid/content/Context;
 
-    const v5, 0x7f0f0616
+    const v5, 0x7f0f0615
 
     invoke-virtual {v4, v5}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -2794,7 +2794,7 @@
     .local v3, "title":Ljava/lang/CharSequence;
     iget-object v4, p0, Lcom/android/systemui/power/PowerNotificationWarnings;->mContext:Landroid/content/Context;
 
-    const v5, 0x7f0f0617
+    const v5, 0x7f0f0616
 
     invoke-virtual {v4, v5}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -2956,7 +2956,7 @@
     .line 1626
     iget-object v11, p0, Lcom/android/systemui/power/PowerNotificationWarnings;->mContext:Landroid/content/Context;
 
-    const v12, 0x7f0f065a
+    const v12, 0x7f0f0659
 
     invoke-virtual {v11, v12}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -2966,7 +2966,7 @@
     .local v10, "title":Ljava/lang/CharSequence;
     iget-object v11, p0, Lcom/android/systemui/power/PowerNotificationWarnings;->mContext:Landroid/content/Context;
 
-    const v12, 0x7f0f065d
+    const v12, 0x7f0f065c
 
     invoke-virtual {v11, v12}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -3190,7 +3190,7 @@
     .line 1667
     iget-object v11, p0, Lcom/android/systemui/power/PowerNotificationWarnings;->mContext:Landroid/content/Context;
 
-    const v12, 0x7f0f065c
+    const v12, 0x7f0f065b
 
     invoke-virtual {v11, v12}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -3291,7 +3291,7 @@
     :cond_3
     iget-object v11, p0, Lcom/android/systemui/power/PowerNotificationWarnings;->mContext:Landroid/content/Context;
 
-    const v12, 0x7f0f065b
+    const v12, 0x7f0f065a
 
     invoke-virtual {v11, v12}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -3439,7 +3439,7 @@
     .line 758
     iget-object v4, p0, Lcom/android/systemui/power/PowerNotificationWarnings;->mContext:Landroid/content/Context;
 
-    const v5, 0x7f0f061c
+    const v5, 0x7f0f061b
 
     invoke-virtual {v4, v5}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -3454,7 +3454,7 @@
     .line 760
     iget-object v4, p0, Lcom/android/systemui/power/PowerNotificationWarnings;->mContext:Landroid/content/Context;
 
-    const v5, 0x7f0f061f
+    const v5, 0x7f0f061e
 
     invoke-virtual {v4, v5}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -3530,7 +3530,7 @@
     :cond_1
     iget-object v4, p0, Lcom/android/systemui/power/PowerNotificationWarnings;->mContext:Landroid/content/Context;
 
-    const v5, 0x7f0f061e
+    const v5, 0x7f0f061d
 
     invoke-virtual {v4, v5}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -3545,7 +3545,7 @@
     :cond_2
     iget-object v4, p0, Lcom/android/systemui/power/PowerNotificationWarnings;->mContext:Landroid/content/Context;
 
-    const v5, 0x7f0f0620
+    const v5, 0x7f0f061f
 
     invoke-virtual {v4, v5}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -3555,7 +3555,7 @@
     .restart local v3    # "title":Ljava/lang/CharSequence;
     iget-object v4, p0, Lcom/android/systemui/power/PowerNotificationWarnings;->mContext:Landroid/content/Context;
 
-    const v5, 0x7f0f061a
+    const v5, 0x7f0f0619
 
     invoke-virtual {v4, v5}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -3584,7 +3584,7 @@
     .line 706
     iget-object v4, p0, Lcom/android/systemui/power/PowerNotificationWarnings;->mContext:Landroid/content/Context;
 
-    const v5, 0x7f0f061c
+    const v5, 0x7f0f061b
 
     invoke-virtual {v4, v5}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -3594,7 +3594,7 @@
     .local v3, "title":Ljava/lang/CharSequence;
     iget-object v4, p0, Lcom/android/systemui/power/PowerNotificationWarnings;->mContext:Landroid/content/Context;
 
-    const v5, 0x7f0f061d
+    const v5, 0x7f0f061c
 
     invoke-virtual {v4, v5}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -3730,7 +3730,7 @@
     :cond_1
     iget-object v4, p0, Lcom/android/systemui/power/PowerNotificationWarnings;->mContext:Landroid/content/Context;
 
-    const v5, 0x7f0f0618
+    const v5, 0x7f0f0617
 
     invoke-virtual {v4, v5}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -3740,7 +3740,7 @@
     .restart local v3    # "title":Ljava/lang/CharSequence;
     iget-object v4, p0, Lcom/android/systemui/power/PowerNotificationWarnings;->mContext:Landroid/content/Context;
 
-    const v5, 0x7f0f0619
+    const v5, 0x7f0f0618
 
     invoke-virtual {v4, v5}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -3767,7 +3767,7 @@
     .line 928
     iget-object v4, p0, Lcom/android/systemui/power/PowerNotificationWarnings;->mContext:Landroid/content/Context;
 
-    const v5, 0x7f0f0626
+    const v5, 0x7f0f0625
 
     invoke-virtual {v4, v5}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -3777,7 +3777,7 @@
     .local v3, "title":Ljava/lang/CharSequence;
     iget-object v4, p0, Lcom/android/systemui/power/PowerNotificationWarnings;->mContext:Landroid/content/Context;
 
-    const v5, 0x7f0f0628
+    const v5, 0x7f0f0627
 
     invoke-virtual {v4, v5}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -3862,7 +3862,7 @@
     :cond_1
     iget-object v4, p0, Lcom/android/systemui/power/PowerNotificationWarnings;->mContext:Landroid/content/Context;
 
-    const v5, 0x7f0f0625
+    const v5, 0x7f0f0624
 
     invoke-virtual {v4, v5}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -3872,7 +3872,7 @@
     .restart local v3    # "title":Ljava/lang/CharSequence;
     iget-object v4, p0, Lcom/android/systemui/power/PowerNotificationWarnings;->mContext:Landroid/content/Context;
 
-    const v5, 0x7f0f0627
+    const v5, 0x7f0f0626
 
     invoke-virtual {v4, v5}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -3887,7 +3887,7 @@
     :cond_2
     iget-object v4, p0, Lcom/android/systemui/power/PowerNotificationWarnings;->mContext:Landroid/content/Context;
 
-    const v5, 0x7f0f062e
+    const v5, 0x7f0f062d
 
     invoke-virtual {v4, v5}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -3897,7 +3897,7 @@
     .restart local v3    # "title":Ljava/lang/CharSequence;
     iget-object v4, p0, Lcom/android/systemui/power/PowerNotificationWarnings;->mContext:Landroid/content/Context;
 
-    const v5, 0x7f0f062f
+    const v5, 0x7f0f062e
 
     invoke-virtual {v4, v5}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -3927,7 +3927,7 @@
 
     aput-object v6, v5, v8
 
-    const v6, 0x7f0f0651
+    const v6, 0x7f0f0650
 
     invoke-virtual {v4, v6, v5}, Landroid/content/Context;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -3937,7 +3937,7 @@
     .local v3, "title":Ljava/lang/CharSequence;
     iget-object v4, p0, Lcom/android/systemui/power/PowerNotificationWarnings;->mContext:Landroid/content/Context;
 
-    const v5, 0x7f0f0652
+    const v5, 0x7f0f0651
 
     invoke-virtual {v4, v5}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -4068,7 +4068,7 @@
     .local v1, "currentOnline":I
     iget-object v5, p0, Lcom/android/systemui/power/PowerNotificationWarnings;->mContext:Landroid/content/Context;
 
-    const v6, 0x7f0f0660
+    const v6, 0x7f0f065f
 
     invoke-virtual {v5, v6}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -4078,7 +4078,7 @@
     .local v4, "title":Ljava/lang/CharSequence;
     iget-object v5, p0, Lcom/android/systemui/power/PowerNotificationWarnings;->mContext:Landroid/content/Context;
 
-    const v6, 0x7f0f0661
+    const v6, 0x7f0f0660
 
     invoke-virtual {v5, v6}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -4175,7 +4175,7 @@
     .line 990
     iget-object v4, p0, Lcom/android/systemui/power/PowerNotificationWarnings;->mContext:Landroid/content/Context;
 
-    const v5, 0x7f0f0635
+    const v5, 0x7f0f0634
 
     invoke-virtual {v4, v5}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -4185,7 +4185,7 @@
     .local v3, "title":Ljava/lang/CharSequence;
     iget-object v4, p0, Lcom/android/systemui/power/PowerNotificationWarnings;->mContext:Landroid/content/Context;
 
-    const v5, 0x7f0f0636
+    const v5, 0x7f0f0635
 
     invoke-virtual {v4, v5}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -4322,7 +4322,7 @@
     :cond_1
     iget-object v4, p0, Lcom/android/systemui/power/PowerNotificationWarnings;->mContext:Landroid/content/Context;
 
-    const v5, 0x7f0f0630
+    const v5, 0x7f0f062f
 
     invoke-virtual {v4, v5}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -4332,7 +4332,7 @@
     .restart local v3    # "title":Ljava/lang/CharSequence;
     iget-object v4, p0, Lcom/android/systemui/power/PowerNotificationWarnings;->mContext:Landroid/content/Context;
 
-    const v5, 0x7f0f0631
+    const v5, 0x7f0f0630
 
     invoke-virtual {v4, v5}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -4361,15 +4361,15 @@
     if-eqz v5, :cond_1
 
     .line 1028
-    const v4, 0x7f0f0637
+    const v4, 0x7f0f0636
 
     .line 1029
     .local v4, "titleId":I
-    const v2, 0x7f0f0638
+    const v2, 0x7f0f0637
 
     .line 1030
     .local v2, "messageId":I
-    const v3, 0x7f0f0639
+    const v3, 0x7f0f0638
 
     .line 1037
     .local v3, "positiveButtonId":I
@@ -4449,15 +4449,15 @@
     .end local v3    # "positiveButtonId":I
     .end local v4    # "titleId":I
     :cond_1
-    const v4, 0x7f0f0632
+    const v4, 0x7f0f0631
 
     .line 1033
     .restart local v4    # "titleId":I
-    const v2, 0x7f0f0633
+    const v2, 0x7f0f0632
 
     .line 1034
     .restart local v2    # "messageId":I
-    const v3, 0x7f0f0634
+    const v3, 0x7f0f0633
 
     .restart local v3    # "positiveButtonId":I
     goto :goto_0
@@ -4551,7 +4551,7 @@
     .line 1374
     iget-object v8, p0, Lcom/android/systemui/power/PowerNotificationWarnings;->mContext:Landroid/content/Context;
 
-    const v9, 0x7f0f0649
+    const v9, 0x7f0f0648
 
     invoke-virtual {v8, v9}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -4562,7 +4562,7 @@
     :goto_0
     iget-object v8, p0, Lcom/android/systemui/power/PowerNotificationWarnings;->mContext:Landroid/content/Context;
 
-    const v9, 0x7f0f064b
+    const v9, 0x7f0f064a
 
     invoke-virtual {v8, v9}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -4658,7 +4658,7 @@
     :cond_2
     iget-object v8, p0, Lcom/android/systemui/power/PowerNotificationWarnings;->mContext:Landroid/content/Context;
 
-    const v9, 0x7f0f0648
+    const v9, 0x7f0f0647
 
     invoke-virtual {v8, v9}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -4741,7 +4741,7 @@
     .line 1780
     iget-object v4, p0, Lcom/android/systemui/power/PowerNotificationWarnings;->mContext:Landroid/content/Context;
 
-    const v5, 0x7f0f0662
+    const v5, 0x7f0f0661
 
     invoke-virtual {v4, v5}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -4751,7 +4751,7 @@
     .local v3, "title":Ljava/lang/CharSequence;
     iget-object v4, p0, Lcom/android/systemui/power/PowerNotificationWarnings;->mContext:Landroid/content/Context;
 
-    const v5, 0x7f0f0663
+    const v5, 0x7f0f0662
 
     invoke-virtual {v4, v5}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -4831,7 +4831,7 @@
     .locals 15
 
     .prologue
-    const v14, 0x7f0f0653
+    const v14, 0x7f0f0652
 
     const/4 v13, 0x2
 
@@ -4854,7 +4854,7 @@
 
     aput-object v11, v10, v9
 
-    const v11, 0x7f0f063a
+    const v11, 0x7f0f0639
 
     invoke-virtual {v7, v11, v10}, Landroid/content/Context;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -4869,7 +4869,7 @@
     .line 373
     iget-object v7, p0, Lcom/android/systemui/power/PowerNotificationWarnings;->mContext:Landroid/content/Context;
 
-    const v10, 0x7f0f063c
+    const v10, 0x7f0f063b
 
     invoke-virtual {v7, v10}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -5111,7 +5111,7 @@
     :cond_2
     iget-object v7, p0, Lcom/android/systemui/power/PowerNotificationWarnings;->mContext:Landroid/content/Context;
 
-    const v10, 0x7f0f063b
+    const v10, 0x7f0f063a
 
     invoke-virtual {v7, v10}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -5269,7 +5269,7 @@
     .locals 9
 
     .prologue
-    const v8, 0x7f0f062c
+    const v8, 0x7f0f062b
 
     const v6, 0x104000a
 
@@ -5283,7 +5283,7 @@
     .line 826
     iget-object v4, p0, Lcom/android/systemui/power/PowerNotificationWarnings;->mContext:Landroid/content/Context;
 
-    const v5, 0x7f0f0621
+    const v5, 0x7f0f0620
 
     invoke-virtual {v4, v5}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -5306,7 +5306,7 @@
     .line 829
     iget-object v4, p0, Lcom/android/systemui/power/PowerNotificationWarnings;->mContext:Landroid/content/Context;
 
-    const v5, 0x7f0f0623
+    const v5, 0x7f0f0622
 
     invoke-virtual {v4, v5}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -5406,7 +5406,7 @@
     :cond_1
     iget-object v4, p0, Lcom/android/systemui/power/PowerNotificationWarnings;->mContext:Landroid/content/Context;
 
-    const v5, 0x7f0f0622
+    const v5, 0x7f0f0621
 
     invoke-virtual {v4, v5}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -5422,7 +5422,7 @@
     :cond_2
     iget-object v4, p0, Lcom/android/systemui/power/PowerNotificationWarnings;->mContext:Landroid/content/Context;
 
-    const v5, 0x7f0f0629
+    const v5, 0x7f0f0628
 
     invoke-virtual {v4, v5}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -5452,7 +5452,7 @@
 
     aput-object v6, v5, v7
 
-    const v6, 0x7f0f062b
+    const v6, 0x7f0f062a
 
     invoke-virtual {v4, v6, v5}, Landroid/content/Context;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -5504,7 +5504,7 @@
     .line 1501
     iget-object v1, p0, Lcom/android/systemui/power/PowerNotificationWarnings;->mContext:Landroid/content/Context;
 
-    const v2, 0x7f0f0642
+    const v2, 0x7f0f0641
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -6868,7 +6868,7 @@
     .line 1524
     iget-object v1, p0, Lcom/android/systemui/power/PowerNotificationWarnings;->mContext:Landroid/content/Context;
 
-    const v2, 0x7f0f0644
+    const v2, 0x7f0f0643
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -6887,7 +6887,7 @@
     :cond_1
     iget-object v1, p0, Lcom/android/systemui/power/PowerNotificationWarnings;->mContext:Landroid/content/Context;
 
-    const v2, 0x7f0f0643
+    const v2, 0x7f0f0642
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -7406,7 +7406,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0f0613
+    const v2, 0x7f0f0612
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -7421,7 +7421,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0f0614
+    const v2, 0x7f0f0613
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -7436,7 +7436,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0f04f7
+    const v2, 0x7f0f04f6
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

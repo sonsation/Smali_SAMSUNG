@@ -308,8 +308,7 @@ S motor."</string>
     <string name="aod_show_popup_title">Załōncz %s</string>
     <string name="aod_show_popup_unavailable_with_at_same_time">Fōnkcyje %1$s i %2$s niy mogōm być załōnczōne bez jedyn czas. Fōnkcyjŏ %3$s ôstanie wyłōczōnŏ.</string>
     <string name="aod_show_popup_description">%s i niżyj pokŏzane ôpcyje niy śmiōm być załōnczōne bez jedyn czas. Niżyj pokŏzane ôpcyje ôstanōm wyłōnczōne.</string>
-    <string name="wificalling_show_popup_use_location_inform">Info ô Twojij lokacyji mogōm być posyłane do dostŏwcy usug, kej gŏdŏsz bez nec Wi-Fi. Skōntaktuj się z dostŏwcōm usug, coby dostać detajlne info.</string>
-    <string name="wificalling_show_popup_use_location_inform_ftm">Informacje dotyczące lokalizacji mogą być wysyłane do firmy Google i Twojego operatora w celu nawiązania połączeń z siecią Wi-Fi, niezależenie od tego, czy aktywowano funkcję lokalizacji.</string>
+    <string name="wificalling_show_popup_use_location_inform">Zepniyńcia bez nec Wi-Fi muszōm mieć informacyjo ô Twojij lokalizacyji. Bydymy zbiyrać anōnimowe dane ô lokalizacyji i posyłać ône do Google i Twojigo dostŏwcy usug. Coby mieć wiyncyj informacyji, pogŏdej ze swoim dostowcōm usug.</string>
     <string name="wificalling_show_popup_enable_location_title">Załōnczanie lokalizacyji</string>
     <string name="wificalling_show_popup_enable_location_message">Zepniyńcia bez nec Wi-Fi potrzebujōm informacyji ô Twojij lokalizacyji. Lokalizacyjo bydzie załōnczōno. Bydymy zbiyrać anōnimowe dane ô lokalizacyji i posyłać ône do Google i Twojigo dostŏwcy usug. Coby mieć wiyncyj informacyji, pogŏdej ze swoim dostowcōm usug.</string>
     <string name="personal_mode_popup_diable_msg_while_afw_profile">Tryb prywatny niyma dostympny w profilu roboczym.</string>
@@ -418,8 +417,6 @@ Ikōna Połōnczyniŏ bez nec Wi-Fi pokŏże się na pŏsku nowin, jak pokŏzano
     <string name="wificalling_popup_rogers_wifi_enable_text">Please connect to a Wi-Fi network to register for Wi-Fi Calling.</string>
     <string name="activate">Activate</string>
     <string name="quick_settings_brightness_auto_brightness">Automatyczna jasność</string>
-    <string name="quick_settings_brightness_auto_brightness_summary">Filuj napasowania jasności ekranu i używej jejich autōmatycznie w jednakich warunkach ôswiytlyniŏ.</string>
-    <string name="quick_settings_brightness_auto_brightness_summary_nopac">Autōmatycznie napasuj jasność ekranu podōg terŏźnyxh warunkōw ôświytlyniŏ.</string>
     <string name="quick_settings_brightness_quick_access">Pokaż kontrolkę na wierzchu</string>
     <string name="quick_settings_brightness_quick_access_summary">Pokaż element sterujący jasnością powyżej panelu powiadomień.</string>
     <string name="quick_settings_brightness_detail_level">Poziōm</string>
@@ -708,23 +705,6 @@ UHQ"</string>
     <string name="dcm_lockscreen_unlock_help_text_fingerprints_iris">Use fingerprint to unlock device or tap Lock icon to use irises instead</string>
     <string name="s_view_cover_toast_pop_up_message">Ôdewrzij deklik, coby używać knefle sztalowań gibkigo panelu.</string>
     <string name="remote_input_toast_text_on_sview_cover">Nie można używać funkcji szybkiej odpowiedzi po zamknięciu osłony S View.</string>
-    <string name="wfc_enable_dialog_opv_title">WITAMY W USŁUDZE Wi-Fi CALLING</string>
-    <string name="wfc_enable_dialog_opv_body0">"Wi-Fi Calling to usługa świadczona przez Twojego operatora, Orange Polska S.A.
-Zapoznaj się z opisem tej usługi przygotowanym przez Twojego operatora."</string>
-    <string name="wfc_enable_dialog_opv_body1">Usługa Wi-Fi Calling pozwala na wykonywanie i odbieranie połączeń telefonicznych poprzez połączenie internetowe w dowolnej sieci Wi-Fi, również w sytuacji, w której jesteś poza zasięgiem sieci operatora komórkowego. Od momentu, gdy usługa zostanie przez Ciebie włączona na Twoim numerze abonenckim, za każdym razem, kiedy telefon połączy się z siecią Wi-Fi, połączenia telefoniczne będą realizowane za pośrednictwem Wi-Fi Calling. Będzie to sygnalizowane specjalną ikonką na pasku powiadomień.</string>
-    <string name="wfc_enable_dialog_opv_body2">"W przypadku, gdy połączenie z Wi-Fi będzie słabej jakości lub telefon wyjdzie z zasięgu Wi-Fi, będzie realizował połączenia głosowe z użyciem sieci komórkowej.
-
-Korzystanie z Wi-Fi Calling w Polsce podlega tym samym zasadom rozliczania co połączenia za pośrednictwem sieci komórkowej, tzn. połączenia przychodzące są bezpłatne. Wykonywanie połączeń wychodzących, jeśli korzysta się z Wi-Fi Calling poza terytorium Polski, może wiązać się z naliczaniem opłat zgodnie z cennikiem oferty, z której korzystasz.
-
-Powyższe nie wyłącza ewentualnych opłat za korzystanie z sieci Wi-Fi, z którą się połączysz."</string>
-    <string name="wfc_enable_dialog_opv_body3">"Jeśli wybierzesz przycisk [Akceptuję], a Twój telefon połączy się z siecią Wi-Fi, usługa Wi-Fi Calling zostanie aktywowana. W każdej chwili możesz zablokować możliwość wykonywania połączeń Wi-Fi Calling poprzez odpowiednią opcję w menu Twojego telefonu.
-
-Szczegółowe informacje na temat usługi Wi-Fi Calling znajdziesz na www.orange.pl/wificalling.
-
-Zwracamy uwagę, że aby umożliwić skierowanie Twoich połączeń na numery alarmowe, np. 112, do najbliższego centrum powiadamiania ratunkowego, połączenia takie w usłudze Wi-Fi Calling będą realizowane za pośrednictwem sieci operatora komórkowego, w zasięgu której będzie znajdował się Twój telefon. Dopiero w sytuacjach, gdy sieć komórkowa nie będzie dostępna, połączenia alarmowe będą realizowane za pośrednictwem Wi-Fi Calling. Niestety, w takim przypadku nie będziemy dysponować informacją na temat Twojej lokalizacji, dlatego może okazać się, że centrum powiadamiania ratunkowego, do którego przekierujemy Twoje połączenie, nie będzie najbliższym takim centrum względem miejsca, z którego dzwonisz."</string>
-    <string name="wfc_enable_dialog_opv_body4">W związku z korzystaniem przez Ciebie z Wi-Fi Calling my (czyli Orange Polska S.A., działając jako administrator Twoich danych osobowych) będziemy przetwarzać dane o numerze i rodzaju urządzenia, z użyciem którego będziesz korzystać z Wi-Fi Calling, rodzaju wykorzystywanego oprogramowania na urządzeniu, zakończeniu sieci (w tym o adresie IP i o kraju, do którego adres ten jest przypisany), z którego będziesz się łączyć z Wi-Fi Calling, a także czasie i długości trwania połączeń w celu wykonania i rozliczenia usługi, rozpatrzenia reklamacji, a także w celu wykonania obowiązków ustawowych. Będziemy przetwarzać te dane przez czas trwania łączącej nas z Tobą umowy o świadczenie usług telekomunikacyjnych, a po jej zakończeniu – w okresie dochodzenia roszczeń lub wykonywania innych zadań przewidzianych w przepisach prawa. Podanie danych jest dobrowolne, ale niezbędne do skorzystania z usługi. Przysługuje Ci prawo dostępu do treści danych i ich poprawiania.</string>
-    <string name="wfc_enable_dialog_opv_body5">Nasze dane to: Orange Polska S.A., Aleje Jerozolimskie 160, 02-326 Warszawa; spółka wpisana do Rejestru Przedsiębiorców prowadzonego przez Sąd Rejonowy dla m.st. Warszawy XII Wydział Gospodarczy Krajowego Rejestru Sądowego pod numerem 0000010681; NIP 526-02-50-995; z kapitałem zakładowym wynoszącym 3 937 072 437 zł, pokrytym w całości.</string>
-    <string name="wfc_enable_dialog_opv_btn">Akceptuję</string>
     <string name="keyguard_password_enter_pin_code">Wpisz kod PIN.</string>
     <string name="keyguard_password_wrong_pin_code">Niyprawy kod PIN.</string>
     <string name="keyguard_charged">W pełni naładowana</string>
@@ -1117,5 +1097,4 @@ Wybadej drugi rŏz za 1 sekunda"</string>
     <string name="kg_wallpaper_applied_toast">Tapeta napasowanŏ na ekranie blokady.</string>
     <string name="kg_too_many_failed_countdown_by_fingerprint">Nieprawidłowych prób weryfikacji odcisków palców: %d. Spróbuj ponownie za 30 sekund.</string>
     <string name="volumepanel_notification">Nowina</string>
-    <string name="remote_input_send_text">Poślij</string>
 </resources>

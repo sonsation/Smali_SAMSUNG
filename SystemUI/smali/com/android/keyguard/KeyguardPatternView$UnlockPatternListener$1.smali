@@ -30,7 +30,7 @@
     .param p2, "val$userId"    # I
 
     .prologue
-    .line 436
+    .line 439
     iput-object p1, p0, Lcom/android/keyguard/KeyguardPatternView$UnlockPatternListener$1;->this$1:Lcom/android/keyguard/KeyguardPatternView$UnlockPatternListener;
 
     iput p2, p0, Lcom/android/keyguard/KeyguardPatternView$UnlockPatternListener$1;->val$userId:I
@@ -48,7 +48,7 @@
     .param p2, "timeoutMs"    # I
 
     .prologue
-    .line 439
+    .line 442
     iget-object v0, p0, Lcom/android/keyguard/KeyguardPatternView$UnlockPatternListener$1;->this$1:Lcom/android/keyguard/KeyguardPatternView$UnlockPatternListener;
 
     iget-object v0, v0, Lcom/android/keyguard/KeyguardPatternView$UnlockPatternListener;->this$0:Lcom/android/keyguard/KeyguardPatternView;
@@ -59,7 +59,7 @@
 
     invoke-virtual {v0}, Lcom/android/keyguard/LockDecoPatternView;->enableInput()V
 
-    .line 440
+    .line 443
     iget-object v0, p0, Lcom/android/keyguard/KeyguardPatternView$UnlockPatternListener$1;->this$1:Lcom/android/keyguard/KeyguardPatternView$UnlockPatternListener;
 
     iget-object v0, v0, Lcom/android/keyguard/KeyguardPatternView$UnlockPatternListener;->this$0:Lcom/android/keyguard/KeyguardPatternView;
@@ -68,7 +68,7 @@
 
     invoke-static {v0, v1}, Lcom/android/keyguard/KeyguardPatternView;->-set2(Lcom/android/keyguard/KeyguardPatternView;Landroid/os/AsyncTask;)Landroid/os/AsyncTask;
 
-    .line 441
+    .line 444
     iget-object v0, p0, Lcom/android/keyguard/KeyguardPatternView$UnlockPatternListener$1;->this$1:Lcom/android/keyguard/KeyguardPatternView$UnlockPatternListener;
 
     iget v1, p0, Lcom/android/keyguard/KeyguardPatternView$UnlockPatternListener$1;->val$userId:I
@@ -77,6 +77,6 @@
 
     invoke-static {v0, v1, p1, p2, v2}, Lcom/android/keyguard/KeyguardPatternView$UnlockPatternListener;->-wrap0(Lcom/android/keyguard/KeyguardPatternView$UnlockPatternListener;IZIZ)V
 
-    .line 438
+    .line 441
     return-void
 .end method

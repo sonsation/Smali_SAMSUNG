@@ -44,18 +44,18 @@
     .param p2, "accountManager"    # Landroid/accounts/AccountManager;
 
     .prologue
-    .line 1180
+    .line 1182
     iput-object p1, p0, Lcom/android/keyguard/KeyguardDirectionLockView$AccountAnalyzer;->this$0:Lcom/android/keyguard/KeyguardDirectionLockView;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 1181
+    .line 1183
     iput-object p2, p0, Lcom/android/keyguard/KeyguardDirectionLockView$AccountAnalyzer;->mAccountManager:Landroid/accounts/AccountManager;
 
-    .line 1182
+    .line 1184
     const-string/jumbo v0, "com.osp.app.signin"
 
-    .line 1183
+    .line 1185
     new-instance v1, Landroid/os/UserHandle;
 
     invoke-static {}, Lcom/android/keyguard/KeyguardUpdateMonitor;->getCurrentUser()I
@@ -64,14 +64,14 @@
 
     invoke-direct {v1, v2}, Landroid/os/UserHandle;-><init>(I)V
 
-    .line 1182
+    .line 1184
     invoke-virtual {p2, v0, v1}, Landroid/accounts/AccountManager;->getAccountsByTypeAsUser(Ljava/lang/String;Landroid/os/UserHandle;)[Landroid/accounts/Account;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/android/keyguard/KeyguardDirectionLockView$AccountAnalyzer;->mAccounts:[Landroid/accounts/Account;
 
-    .line 1180
+    .line 1182
     return-void
 .end method
 
@@ -92,21 +92,21 @@
     .prologue
     const/4 v2, 0x0
 
-    .line 1188
+    .line 1190
     iget-object v0, p0, Lcom/android/keyguard/KeyguardDirectionLockView$AccountAnalyzer;->mAccounts:[Landroid/accounts/Account;
 
     array-length v0, v0
 
     if-lez v0, :cond_0
 
-    .line 1189
+    .line 1191
     iget-object v0, p0, Lcom/android/keyguard/KeyguardDirectionLockView$AccountAnalyzer;->this$0:Lcom/android/keyguard/KeyguardDirectionLockView;
 
     const/4 v1, 0x1
 
     invoke-static {v0, v1}, Lcom/android/keyguard/KeyguardDirectionLockView;->-set2(Lcom/android/keyguard/KeyguardDirectionLockView;Z)Z
 
-    .line 1195
+    .line 1197
     :cond_0
     iget-object v0, p0, Lcom/android/keyguard/KeyguardDirectionLockView$AccountAnalyzer;->this$0:Lcom/android/keyguard/KeyguardDirectionLockView;
 
@@ -124,11 +124,11 @@
 
     if-lt v0, v1, :cond_2
 
-    .line 1196
+    .line 1198
     :cond_1
     return-void
 
-    .line 1200
+    .line 1202
     :cond_2
     iget-object v0, p0, Lcom/android/keyguard/KeyguardDirectionLockView$AccountAnalyzer;->mAccountManager:Landroid/accounts/AccountManager;
 
@@ -138,7 +138,7 @@
 
     aget-object v1, v1, v3
 
-    .line 1201
+    .line 1203
     new-instance v6, Landroid/os/UserHandle;
 
     invoke-static {}, Lcom/android/keyguard/KeyguardUpdateMonitor;->getCurrentUser()I
@@ -153,10 +153,10 @@
 
     move-object v5, v2
 
-    .line 1200
+    .line 1202
     invoke-virtual/range {v0 .. v6}, Landroid/accounts/AccountManager;->confirmCredentialsAsUser(Landroid/accounts/Account;Landroid/os/Bundle;Landroid/app/Activity;Landroid/accounts/AccountManagerCallback;Landroid/os/Handler;Landroid/os/UserHandle;)Landroid/accounts/AccountManagerFuture;
 
-    .line 1186
+    .line 1188
     return-void
 .end method
 
@@ -175,7 +175,7 @@
     .end annotation
 
     .prologue
-    .line 1212
+    .line 1214
     .local p1, "future":Landroid/accounts/AccountManagerFuture;, "Landroid/accounts/AccountManagerFuture<Landroid/os/Bundle;>;"
     const-string/jumbo v4, "KeyguardDirectionLockView"
 
@@ -183,7 +183,7 @@
 
     invoke-static {v4, v5}, Landroid/util/Log;->v(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 1215
+    .line 1217
     :try_start_0
     invoke-interface {p1}, Landroid/accounts/AccountManagerFuture;->getResult()Ljava/lang/Object;
 
@@ -191,7 +191,7 @@
 
     check-cast v3, Landroid/os/Bundle;
 
-    .line 1216
+    .line 1218
     .local v3, "result":Landroid/os/Bundle;
     const-string/jumbo v4, "intent"
 
@@ -201,7 +201,7 @@
 
     if-eqz v4, :cond_0
 
-    .line 1217
+    .line 1219
     iget-object v4, p0, Lcom/android/keyguard/KeyguardDirectionLockView$AccountAnalyzer;->this$0:Lcom/android/keyguard/KeyguardDirectionLockView;
 
     const/4 v5, 0x1
@@ -213,7 +213,7 @@
     .catch Landroid/accounts/AuthenticatorException; {:try_start_0 .. :try_end_0} :catch_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 1230
+    .line 1232
     :cond_0
     iget v4, p0, Lcom/android/keyguard/KeyguardDirectionLockView$AccountAnalyzer;->mAccountIndex:I
 
@@ -221,19 +221,19 @@
 
     iput v4, p0, Lcom/android/keyguard/KeyguardDirectionLockView$AccountAnalyzer;->mAccountIndex:I
 
-    .line 1231
+    .line 1233
     invoke-direct {p0}, Lcom/android/keyguard/KeyguardDirectionLockView$AccountAnalyzer;->next()V
 
-    .line 1210
+    .line 1212
     .end local v3    # "result":Landroid/os/Bundle;
     :goto_0
     return-void
 
-    .line 1226
+    .line 1228
     :catch_0
     move-exception v0
 
-    .line 1228
+    .line 1230
     .local v0, "e":Landroid/accounts/AuthenticatorException;
     :try_start_1
     const-string/jumbo v4, "KeyguardDirectionLockView"
@@ -244,24 +244,24 @@
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 1230
+    .line 1232
     iget v4, p0, Lcom/android/keyguard/KeyguardDirectionLockView$AccountAnalyzer;->mAccountIndex:I
 
     add-int/lit8 v4, v4, 0x1
 
     iput v4, p0, Lcom/android/keyguard/KeyguardDirectionLockView$AccountAnalyzer;->mAccountIndex:I
 
-    .line 1231
+    .line 1233
     invoke-direct {p0}, Lcom/android/keyguard/KeyguardDirectionLockView$AccountAnalyzer;->next()V
 
     goto :goto_0
 
-    .line 1223
+    .line 1225
     .end local v0    # "e":Landroid/accounts/AuthenticatorException;
     :catch_1
     move-exception v2
 
-    .line 1225
+    .line 1227
     .local v2, "e":Ljava/io/IOException;
     :try_start_2
     const-string/jumbo v4, "KeyguardDirectionLockView"
@@ -272,24 +272,24 @@
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_0
 
-    .line 1230
+    .line 1232
     iget v4, p0, Lcom/android/keyguard/KeyguardDirectionLockView$AccountAnalyzer;->mAccountIndex:I
 
     add-int/lit8 v4, v4, 0x1
 
     iput v4, p0, Lcom/android/keyguard/KeyguardDirectionLockView$AccountAnalyzer;->mAccountIndex:I
 
-    .line 1231
+    .line 1233
     invoke-direct {p0}, Lcom/android/keyguard/KeyguardDirectionLockView$AccountAnalyzer;->next()V
 
     goto :goto_0
 
-    .line 1220
+    .line 1222
     .end local v2    # "e":Ljava/io/IOException;
     :catch_2
     move-exception v1
 
-    .line 1222
+    .line 1224
     .local v1, "e":Landroid/accounts/OperationCanceledException;
     :try_start_3
     const-string/jumbo v4, "KeyguardDirectionLockView"
@@ -300,34 +300,34 @@
     :try_end_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_0
 
-    .line 1230
+    .line 1232
     iget v4, p0, Lcom/android/keyguard/KeyguardDirectionLockView$AccountAnalyzer;->mAccountIndex:I
 
     add-int/lit8 v4, v4, 0x1
 
     iput v4, p0, Lcom/android/keyguard/KeyguardDirectionLockView$AccountAnalyzer;->mAccountIndex:I
 
-    .line 1231
+    .line 1233
     invoke-direct {p0}, Lcom/android/keyguard/KeyguardDirectionLockView$AccountAnalyzer;->next()V
 
     goto :goto_0
 
-    .line 1229
+    .line 1231
     .end local v1    # "e":Landroid/accounts/OperationCanceledException;
     :catchall_0
     move-exception v4
 
-    .line 1230
+    .line 1232
     iget v5, p0, Lcom/android/keyguard/KeyguardDirectionLockView$AccountAnalyzer;->mAccountIndex:I
 
     add-int/lit8 v5, v5, 0x1
 
     iput v5, p0, Lcom/android/keyguard/KeyguardDirectionLockView$AccountAnalyzer;->mAccountIndex:I
 
-    .line 1231
+    .line 1233
     invoke-direct {p0}, Lcom/android/keyguard/KeyguardDirectionLockView$AccountAnalyzer;->next()V
 
-    .line 1229
+    .line 1231
     throw v4
 .end method
 
@@ -337,17 +337,17 @@
     .prologue
     const/4 v1, 0x0
 
-    .line 1205
+    .line 1207
     iget-object v0, p0, Lcom/android/keyguard/KeyguardDirectionLockView$AccountAnalyzer;->this$0:Lcom/android/keyguard/KeyguardDirectionLockView;
 
     invoke-static {v0, v1}, Lcom/android/keyguard/KeyguardDirectionLockView;->-set2(Lcom/android/keyguard/KeyguardDirectionLockView;Z)Z
 
-    .line 1206
+    .line 1208
     iput v1, p0, Lcom/android/keyguard/KeyguardDirectionLockView$AccountAnalyzer;->mAccountIndex:I
 
-    .line 1207
+    .line 1209
     invoke-direct {p0}, Lcom/android/keyguard/KeyguardDirectionLockView$AccountAnalyzer;->next()V
 
-    .line 1204
+    .line 1206
     return-void
 .end method

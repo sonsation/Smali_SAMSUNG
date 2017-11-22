@@ -48,7 +48,7 @@
 
     const/4 v2, 0x0
 
-    .line 997
+    .line 998
     new-instance v0, Lcom/android/keyguard/KeyguardDirectionLockView$FooterMode;
 
     const-string/jumbo v1, "Normal"
@@ -81,7 +81,7 @@
 
     sput-object v0, Lcom/android/keyguard/KeyguardDirectionLockView$FooterMode;->VerifyUnlocked:Lcom/android/keyguard/KeyguardDirectionLockView$FooterMode;
 
-    .line 996
+    .line 997
     const/4 v0, 0x4
 
     new-array v0, v0, [Lcom/android/keyguard/KeyguardDirectionLockView$FooterMode;
@@ -111,7 +111,7 @@
     .locals 0
 
     .prologue
-    .line 996
+    .line 997
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     return-void
@@ -122,7 +122,7 @@
     .param p0, "name"    # Ljava/lang/String;
 
     .prologue
-    .line 996
+    .line 997
     const-class v0, Lcom/android/keyguard/KeyguardDirectionLockView$FooterMode;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -138,7 +138,7 @@
     .locals 1
 
     .prologue
-    .line 996
+    .line 997
     sget-object v0, Lcom/android/keyguard/KeyguardDirectionLockView$FooterMode;->$VALUES:[Lcom/android/keyguard/KeyguardDirectionLockView$FooterMode;
 
     return-object v0

@@ -409,12 +409,12 @@
     .param p1, "context"    # Landroid/content/Context;
 
     .prologue
-    .line 186
+    .line 189
     const/4 v0, 0x0
 
     invoke-direct {p0, p1, v0}, Lcom/android/keyguard/KeyguardPatternView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
-    .line 185
+    .line 188
     return-void
 .end method
 
@@ -424,7 +424,7 @@
     .param p2, "attrs"    # Landroid/util/AttributeSet;
 
     .prologue
-    .line 190
+    .line 193
     invoke-direct {p0, p1, p2}, Landroid/widget/LinearLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     .line 82
@@ -470,7 +470,7 @@
 
     iput-object v0, p0, Lcom/android/keyguard/KeyguardPatternView;->mKnoxStateCallback:Lcom/android/keyguard/KnoxStateMonitorCallback;
 
-    .line 191
+    .line 194
     iget-object v0, p0, Lcom/android/keyguard/KeyguardPatternView;->mContext:Landroid/content/Context;
 
     invoke-static {v0}, Lcom/android/keyguard/KeyguardUpdateMonitor;->getInstance(Landroid/content/Context;)Lcom/android/keyguard/KeyguardUpdateMonitor;
@@ -479,86 +479,86 @@
 
     iput-object v0, p0, Lcom/android/keyguard/KeyguardPatternView;->mKeyguardUpdateMonitor:Lcom/android/keyguard/KeyguardUpdateMonitor;
 
-    .line 192
+    .line 195
     new-instance v0, Lcom/android/settingslib/animation/AppearAnimationUtils;
 
-    .line 195
+    .line 198
     iget-object v1, p0, Lcom/android/keyguard/KeyguardPatternView;->mContext:Landroid/content/Context;
 
     const v2, 0x10c000e
 
-    .line 194
+    .line 197
     invoke-static {v1, v2}, Landroid/view/animation/AnimationUtils;->loadInterpolator(Landroid/content/Context;I)Landroid/view/animation/Interpolator;
 
     move-result-object v6
 
-    .line 193
+    .line 196
     const-wide/16 v2, 0xdc
 
     const/high16 v4, 0x3fc00000    # 1.5f
 
-    .line 194
+    .line 197
     const/high16 v5, 0x40000000    # 2.0f
 
     move-object v1, p1
 
-    .line 192
+    .line 195
     invoke-direct/range {v0 .. v6}, Lcom/android/settingslib/animation/AppearAnimationUtils;-><init>(Landroid/content/Context;JFFLandroid/view/animation/Interpolator;)V
 
     iput-object v0, p0, Lcom/android/keyguard/KeyguardPatternView;->mAppearAnimationUtils:Lcom/android/settingslib/animation/AppearAnimationUtils;
 
-    .line 196
+    .line 199
     new-instance v0, Lcom/android/settingslib/animation/DisappearAnimationUtils;
 
-    .line 197
+    .line 200
     const-wide/16 v2, 0x7d
 
-    .line 199
+    .line 202
     iget-object v1, p0, Lcom/android/keyguard/KeyguardPatternView;->mContext:Landroid/content/Context;
 
     const v4, 0x10c000f
 
-    .line 198
+    .line 201
     invoke-static {v1, v4}, Landroid/view/animation/AnimationUtils;->loadInterpolator(Landroid/content/Context;I)Landroid/view/animation/Interpolator;
 
     move-result-object v6
 
-    .line 197
+    .line 200
     const v4, 0x3f99999a    # 1.2f
 
-    .line 198
+    .line 201
     const v5, 0x3f19999a    # 0.6f
 
     move-object v1, p1
 
-    .line 196
+    .line 199
     invoke-direct/range {v0 .. v6}, Lcom/android/settingslib/animation/DisappearAnimationUtils;-><init>(Landroid/content/Context;JFFLandroid/view/animation/Interpolator;)V
 
     iput-object v0, p0, Lcom/android/keyguard/KeyguardPatternView;->mDisappearAnimationUtils:Lcom/android/settingslib/animation/DisappearAnimationUtils;
 
-    .line 200
+    .line 203
     invoke-virtual {p0}, Lcom/android/keyguard/KeyguardPatternView;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
 
-    .line 201
+    .line 204
     sget v1, Lcom/android/keyguard/R$dimen;->disappear_y_translation:I
 
-    .line 200
+    .line 203
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
     move-result v0
 
     iput v0, p0, Lcom/android/keyguard/KeyguardPatternView;->mDisappearYTranslation:I
 
-    .line 202
+    .line 205
     invoke-static {p1}, Lcom/android/keyguard/KeyguardTextBuilder;->getInstance(Landroid/content/Context;)Lcom/android/keyguard/KeyguardTextBuilder;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/android/keyguard/KeyguardPatternView;->mKeyguardTextBuilder:Lcom/android/keyguard/KeyguardTextBuilder;
 
-    .line 189
+    .line 192
     return-void
 .end method
 
@@ -567,7 +567,7 @@
     .param p1, "context"    # Landroid/content/Context;
 
     .prologue
-    .line 887
+    .line 890
     new-instance v0, Lcom/android/keyguard/KeyguardPatternView$AccountAnalyzer;
 
     invoke-static {p1}, Landroid/accounts/AccountManager;->get(Landroid/content/Context;)Landroid/accounts/AccountManager;
@@ -578,11 +578,11 @@
 
     invoke-direct {v0, p0, v1, v2}, Lcom/android/keyguard/KeyguardPatternView$AccountAnalyzer;-><init>(Lcom/android/keyguard/KeyguardPatternView;Landroid/accounts/AccountManager;Lcom/android/keyguard/KeyguardPatternView$AccountAnalyzer;)V
 
-    .line 888
+    .line 891
     .local v0, "accountAnalyzer":Lcom/android/keyguard/KeyguardPatternView$AccountAnalyzer;
     invoke-virtual {v0}, Lcom/android/keyguard/KeyguardPatternView$AccountAnalyzer;->start()V
 
-    .line 884
+    .line 887
     return-void
 .end method
 
@@ -590,21 +590,21 @@
     .locals 3
 
     .prologue
-    .line 894
+    .line 897
     const-string/jumbo v0, "SecurityPatternView"
 
     const-string/jumbo v1, "disableDevicePermanently start"
 
     invoke-static {v0, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 895
+    .line 898
     iget-object v0, p0, Lcom/android/keyguard/KeyguardPatternView;->mLockPatternView:Lcom/android/keyguard/LockDecoPatternView;
 
     const/4 v1, 0x4
 
     invoke-virtual {v0, v1}, Lcom/android/keyguard/LockDecoPatternView;->setVisibility(I)V
 
-    .line 896
+    .line 899
     iget-object v0, p0, Lcom/android/keyguard/KeyguardPatternView;->mSecurityMessageDisplay:Lcom/android/keyguard/KeyguardMessageArea;
 
     iget-object v1, p0, Lcom/android/keyguard/KeyguardPatternView;->mContext:Landroid/content/Context;
@@ -619,7 +619,7 @@
 
     invoke-virtual {v0, v1, v2}, Lcom/android/keyguard/KeyguardMessageArea;->setMessage(Ljava/lang/CharSequence;Z)V
 
-    .line 893
+    .line 896
     return-void
 .end method
 
@@ -627,7 +627,7 @@
     .locals 3
 
     .prologue
-    .line 383
+    .line 386
     iget-object v0, p0, Lcom/android/keyguard/KeyguardPatternView;->mSecurityMessageDisplay:Lcom/android/keyguard/KeyguardMessageArea;
 
     iget-object v1, p0, Lcom/android/keyguard/KeyguardPatternView;->mKeyguardTextBuilder:Lcom/android/keyguard/KeyguardTextBuilder;
@@ -642,7 +642,7 @@
 
     invoke-virtual {v0, v1, v2}, Lcom/android/keyguard/KeyguardMessageArea;->setMessage(Ljava/lang/CharSequence;Z)V
 
-    .line 381
+    .line 384
     return-void
 .end method
 
@@ -653,7 +653,7 @@
     .prologue
     const/4 v7, 0x0
 
-    .line 525
+    .line 528
     invoke-virtual {p0}, Lcom/android/keyguard/KeyguardPatternView;->getContext()Landroid/content/Context;
 
     move-result-object v2
@@ -662,31 +662,31 @@
 
     move-result-object v0
 
-    .line 526
+    .line 529
     .local v0, "msg":Ljava/lang/String;
     iget v2, p0, Lcom/android/keyguard/KeyguardPatternView;->mMaxCountdownTimes:I
 
-    .line 527
+    .line 530
     iget-object v3, p0, Lcom/android/keyguard/KeyguardPatternView;->mContext:Landroid/content/Context;
 
     invoke-static {v3}, Lcom/android/keyguard/KeyguardUpdateMonitor;->getInstance(Landroid/content/Context;)Lcom/android/keyguard/KeyguardUpdateMonitor;
 
     move-result-object v3
 
-    .line 528
+    .line 531
     invoke-static {}, Lcom/android/keyguard/KeyguardUpdateMonitor;->getCurrentUser()I
 
     move-result v4
 
-    .line 527
+    .line 530
     invoke-virtual {v3, v4}, Lcom/android/keyguard/KeyguardUpdateMonitor;->getFailedUnlockAttempts(I)I
 
     move-result v3
 
-    .line 526
+    .line 529
     sub-int v1, v2, v3
 
-    .line 529
+    .line 532
     .local v1, "remaining":I
     iget v2, p0, Lcom/android/keyguard/KeyguardPatternView;->mMaxCountdownTimes:I
 
@@ -694,7 +694,7 @@
 
     if-lez v1, :cond_0
 
-    .line 530
+    .line 533
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -717,22 +717,22 @@
 
     move-result-object v3
 
-    .line 531
+    .line 534
     sget v4, Lcom/android/keyguard/R$string;->kg_remaining_attempts:I
 
-    .line 530
+    .line 533
     const/4 v5, 0x1
 
     new-array v5, v5, [Ljava/lang/Object;
 
-    .line 531
+    .line 534
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v6
 
     aput-object v6, v5, v7
 
-    .line 530
+    .line 533
     invoke-virtual {v3, v4, v5}, Landroid/content/res/Resources;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v3
@@ -745,7 +745,7 @@
 
     move-result-object v0
 
-    .line 533
+    .line 536
     :cond_0
     return-object v0
 .end method
@@ -755,42 +755,42 @@
     .param p1, "elapsedRealtimeDeadline"    # J
 
     .prologue
-    .line 537
+    .line 540
     iget-object v0, p0, Lcom/android/keyguard/KeyguardPatternView;->mLockPatternView:Lcom/android/keyguard/LockDecoPatternView;
 
     invoke-virtual {v0}, Lcom/android/keyguard/LockDecoPatternView;->clearPattern()V
 
-    .line 538
+    .line 541
     iget-object v0, p0, Lcom/android/keyguard/KeyguardPatternView;->mLockPatternView:Lcom/android/keyguard/LockDecoPatternView;
 
     const/4 v1, 0x0
 
     invoke-virtual {v0, v1}, Lcom/android/keyguard/LockDecoPatternView;->setEnabled(Z)V
 
-    .line 540
+    .line 543
     iget-object v0, p0, Lcom/android/keyguard/KeyguardPatternView;->mLockPatternView:Lcom/android/keyguard/LockDecoPatternView;
 
     const/4 v1, 0x4
 
     invoke-virtual {v0, v1}, Lcom/android/keyguard/LockDecoPatternView;->setVisibility(I)V
 
-    .line 542
+    .line 545
     sget-boolean v0, Lcom/android/keyguard/KeyguardRune;->SUPPORT_SAMSUNG_ACCOUNT_RECOVERY:Z
 
     if-eqz v0, :cond_0
 
-    .line 543
+    .line 546
     sget-object v0, Lcom/android/keyguard/EmergencyCarrierArea$FooterMode;->Normal:Lcom/android/keyguard/EmergencyCarrierArea$FooterMode;
 
     invoke-direct {p0, v0}, Lcom/android/keyguard/KeyguardPatternView;->updateFooter(Lcom/android/keyguard/EmergencyCarrierArea$FooterMode;)V
 
-    .line 547
+    .line 550
     :cond_0
     invoke-static {}, Landroid/os/SystemClock;->elapsedRealtime()J
 
     move-result-wide v6
 
-    .line 550
+    .line 553
     .local v6, "elapsedRealtime":J
     new-instance v0, Lcom/android/keyguard/KeyguardPatternView$5;
 
@@ -808,7 +808,7 @@
 
     iput-object v0, p0, Lcom/android/keyguard/KeyguardPatternView;->mCountdownTimer:Landroid/os/CountDownTimer;
 
-    .line 536
+    .line 539
     return-void
 .end method
 
@@ -817,15 +817,15 @@
     .param p1, "mode"    # Lcom/android/keyguard/EmergencyCarrierArea$FooterMode;
 
     .prologue
-    .line 815
+    .line 818
     iget-object v0, p0, Lcom/android/keyguard/KeyguardPatternView;->mForgotPatternButton:Landroid/widget/Button;
 
     if-nez v0, :cond_0
 
-    .line 816
+    .line 819
     return-void
 
-    .line 818
+    .line 821
     :cond_0
     invoke-static {}, Lcom/android/keyguard/KeyguardPatternView;->-getcom-android-keyguard-EmergencyCarrierArea$FooterModeSwitchesValues()[I
 
@@ -839,7 +839,7 @@
 
     packed-switch v0, :pswitch_data_0
 
-    .line 829
+    .line 832
     :goto_0
     iget-object v0, p0, Lcom/android/keyguard/KeyguardPatternView;->mEcaView:Landroid/view/View;
 
@@ -847,18 +847,18 @@
 
     if-eqz v0, :cond_1
 
-    .line 830
+    .line 833
     iget-object v0, p0, Lcom/android/keyguard/KeyguardPatternView;->mEcaView:Landroid/view/View;
 
     check-cast v0, Lcom/android/keyguard/EmergencyCarrierArea;
 
     invoke-virtual {v0}, Lcom/android/keyguard/EmergencyCarrierArea;->resizeFooter()V
 
-    .line 814
+    .line 817
     :cond_1
     return-void
 
-    .line 820
+    .line 823
     :pswitch_0
     const-string/jumbo v0, "SecurityPatternView"
 
@@ -866,7 +866,7 @@
 
     invoke-static {v0, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 821
+    .line 824
     iget-object v0, p0, Lcom/android/keyguard/KeyguardPatternView;->mForgotPatternButton:Landroid/widget/Button;
 
     const/16 v1, 0x8
@@ -875,7 +875,7 @@
 
     goto :goto_0
 
-    .line 824
+    .line 827
     :pswitch_1
     const-string/jumbo v0, "SecurityPatternView"
 
@@ -883,7 +883,7 @@
 
     invoke-static {v0, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 825
+    .line 828
     iget-object v0, p0, Lcom/android/keyguard/KeyguardPatternView;->mForgotPatternButton:Landroid/widget/Button;
 
     const/4 v1, 0x0
@@ -892,7 +892,7 @@
 
     goto :goto_0
 
-    .line 818
+    .line 821
     nop
 
     :pswitch_data_0
@@ -915,15 +915,15 @@
     .param p9, "finishListener"    # Ljava/lang/Runnable;
 
     .prologue
-    .line 796
+    .line 799
     iget-object v0, p0, Lcom/android/keyguard/KeyguardPatternView;->mLockPatternView:Lcom/android/keyguard/LockDecoPatternView;
 
-    .line 797
+    .line 800
     if-eqz p7, :cond_1
 
     const/high16 v3, 0x3f800000    # 1.0f
 
-    .line 798
+    .line 801
     :goto_0
     if-eqz p7, :cond_2
 
@@ -934,17 +934,17 @@
 
     const/4 v5, 0x0
 
-    .line 799
+    .line 802
     :goto_2
     if-eqz p7, :cond_4
 
     const/4 v6, 0x0
 
-    .line 797
+    .line 800
     :goto_3
     const/high16 v2, 0x3f800000    # 1.0f
 
-    .line 799
+    .line 802
     const/high16 v7, 0x3f800000    # 1.0f
 
     move-object v1, p1
@@ -957,18 +957,18 @@
 
     move-object/from16 v13, p9
 
-    .line 796
+    .line 799
     invoke-virtual/range {v0 .. v13}, Lcom/android/keyguard/LockDecoPatternView;->startCellStateAnimation(Lcom/android/internal/widget/LockPatternView$CellState;FFFFFFJJLandroid/view/animation/Interpolator;Ljava/lang/Runnable;)V
 
-    .line 801
+    .line 804
     if-eqz p9, :cond_0
 
-    .line 803
+    .line 806
     iget-object v0, p0, Lcom/android/keyguard/KeyguardPatternView;->mAppearAnimationUtils:Lcom/android/settingslib/animation/AppearAnimationUtils;
 
     iget-object v1, p0, Lcom/android/keyguard/KeyguardPatternView;->mEcaView:Landroid/view/View;
 
-    .line 804
+    .line 807
     const/4 v9, 0x0
 
     move-wide/from16 v2, p2
@@ -981,20 +981,20 @@
 
     move-object/from16 v8, p8
 
-    .line 803
+    .line 806
     invoke-virtual/range {v0 .. v9}, Lcom/android/settingslib/animation/AppearAnimationUtils;->createAnimation(Landroid/view/View;JJFZLandroid/view/animation/Interpolator;Ljava/lang/Runnable;)V
 
-    .line 795
+    .line 798
     :cond_0
     return-void
 
-    .line 797
+    .line 800
     :cond_1
     const/4 v3, 0x0
 
     goto :goto_0
 
-    .line 798
+    .line 801
     :cond_2
     const/4 v4, 0x0
 
@@ -1005,7 +1005,7 @@
 
     goto :goto_2
 
-    .line 799
+    .line 802
     :cond_4
     const/high16 v6, 0x3f800000    # 1.0f
 
@@ -1025,7 +1025,7 @@
     .prologue
     move-object v1, p1
 
-    .line 792
+    .line 795
     check-cast v1, Lcom/android/internal/widget/LockPatternView$CellState;
 
     move-object v0, p0
@@ -1051,7 +1051,7 @@
     .locals 1
 
     .prologue
-    .line 810
+    .line 813
     const/4 v0, 0x0
 
     return v0
@@ -1061,7 +1061,7 @@
     .locals 1
 
     .prologue
-    .line 615
+    .line 618
     const/4 v0, 0x0
 
     return v0
@@ -1071,10 +1071,10 @@
     .locals 2
 
     .prologue
-    .line 217
+    .line 220
     invoke-super {p0}, Landroid/widget/LinearLayout;->onAttachedToWindow()V
 
-    .line 219
+    .line 222
     iget-object v0, p0, Lcom/android/keyguard/KeyguardPatternView;->mContext:Landroid/content/Context;
 
     invoke-static {v0}, Lcom/android/keyguard/KnoxStateMonitor;->getInstance(Landroid/content/Context;)Lcom/android/keyguard/KnoxStateMonitor;
@@ -1085,19 +1085,19 @@
 
     invoke-virtual {v0, v1}, Lcom/android/keyguard/KnoxStateMonitor;->registerCallback(Lcom/android/keyguard/KnoxStateMonitorCallback;)V
 
-    .line 221
+    .line 224
     invoke-static {}, Lcom/android/keyguard/KeyguardRune;->isDeadzoneExist()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 222
+    .line 225
     const/4 v0, 0x1
 
     iput-boolean v0, p0, Lcom/android/keyguard/KeyguardPatternView;->mAttached:Z
 
-    .line 216
+    .line 219
     :cond_0
     return-void
 .end method
@@ -1106,10 +1106,10 @@
     .locals 2
 
     .prologue
-    .line 228
+    .line 231
     invoke-super {p0}, Landroid/widget/LinearLayout;->onDetachedFromWindow()V
 
-    .line 230
+    .line 233
     iget-object v0, p0, Lcom/android/keyguard/KeyguardPatternView;->mContext:Landroid/content/Context;
 
     invoke-static {v0}, Lcom/android/keyguard/KnoxStateMonitor;->getInstance(Landroid/content/Context;)Lcom/android/keyguard/KnoxStateMonitor;
@@ -1120,19 +1120,19 @@
 
     invoke-virtual {v0, v1}, Lcom/android/keyguard/KnoxStateMonitor;->removeCallback(Lcom/android/keyguard/KnoxStateMonitorCallback;)V
 
-    .line 232
+    .line 235
     invoke-static {}, Lcom/android/keyguard/KeyguardRune;->isDeadzoneExist()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 233
+    .line 236
     const/4 v0, 0x0
 
     iput-boolean v0, p0, Lcom/android/keyguard/KeyguardPatternView;->mAttached:Z
 
-    .line 227
+    .line 230
     :cond_0
     return-void
 .end method
@@ -1141,12 +1141,12 @@
     .locals 1
 
     .prologue
-    .line 328
+    .line 331
     iget-object v0, p0, Lcom/android/keyguard/KeyguardPatternView;->mCallback:Lcom/android/keyguard/KeyguardSecurityCallback;
 
     invoke-interface {v0}, Lcom/android/keyguard/KeyguardSecurityCallback;->reset()V
 
-    .line 327
+    .line 330
     return-void
 .end method
 
@@ -1156,43 +1156,43 @@
     .prologue
     const/4 v3, 0x0
 
-    .line 266
+    .line 269
     invoke-super {p0}, Landroid/widget/LinearLayout;->onFinishInflate()V
 
-    .line 267
+    .line 270
     iget-object v1, p0, Lcom/android/keyguard/KeyguardPatternView;->mContext:Landroid/content/Context;
 
     invoke-virtual {v1}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
     move-result-object v1
 
-    .line 268
+    .line 271
     sget v2, Lcom/android/keyguard/R$integer;->config_max_unlock_countdown_times:I
 
-    .line 267
+    .line 270
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getInteger(I)I
 
     move-result v1
 
     iput v1, p0, Lcom/android/keyguard/KeyguardPatternView;->mMaxCountdownTimes:I
 
-    .line 269
+    .line 272
     iget-object v1, p0, Lcom/android/keyguard/KeyguardPatternView;->mLockPatternUtils:Lcom/android/internal/widget/LockPatternUtils;
 
     if-nez v1, :cond_4
 
-    .line 270
+    .line 273
     new-instance v1, Lcom/android/internal/widget/LockPatternUtils;
 
     iget-object v2, p0, Lcom/android/keyguard/KeyguardPatternView;->mContext:Landroid/content/Context;
 
     invoke-direct {v1, v2}, Lcom/android/internal/widget/LockPatternUtils;-><init>(Landroid/content/Context;)V
 
-    .line 269
+    .line 272
     :goto_0
     iput-object v1, p0, Lcom/android/keyguard/KeyguardPatternView;->mLockPatternUtils:Lcom/android/internal/widget/LockPatternUtils;
 
-    .line 273
+    .line 276
     sget v1, Lcom/android/keyguard/R$id;->lockPatternView:I
 
     invoke-virtual {p0, v1}, Lcom/android/keyguard/KeyguardPatternView;->findViewById(I)Landroid/view/View;
@@ -1203,14 +1203,14 @@
 
     iput-object v1, p0, Lcom/android/keyguard/KeyguardPatternView;->mLockPatternView:Lcom/android/keyguard/LockDecoPatternView;
 
-    .line 274
+    .line 277
     iget-object v1, p0, Lcom/android/keyguard/KeyguardPatternView;->mLockPatternView:Lcom/android/keyguard/LockDecoPatternView;
 
     const/4 v2, 0x0
 
     invoke-virtual {v1, v2}, Lcom/android/keyguard/LockDecoPatternView;->setSaveEnabled(Z)V
 
-    .line 275
+    .line 278
     iget-object v1, p0, Lcom/android/keyguard/KeyguardPatternView;->mLockPatternView:Lcom/android/keyguard/LockDecoPatternView;
 
     new-instance v2, Lcom/android/keyguard/KeyguardPatternView$UnlockPatternListener;
@@ -1219,14 +1219,14 @@
 
     invoke-virtual {v1, v2}, Lcom/android/keyguard/LockDecoPatternView;->setOnPatternListener(Lcom/android/internal/widget/LockPatternView$OnPatternListener;)V
 
-    .line 276
+    .line 279
     iget-object v1, p0, Lcom/android/keyguard/KeyguardPatternView;->mKeyguardUpdateMonitor:Lcom/android/keyguard/KeyguardUpdateMonitor;
 
     iget-object v2, p0, Lcom/android/keyguard/KeyguardPatternView;->mUpdateMonitorCallbacks:Lcom/android/keyguard/KeyguardUpdateMonitorCallback;
 
     invoke-virtual {v1, v2}, Lcom/android/keyguard/KeyguardUpdateMonitor;->registerCallback(Lcom/android/keyguard/KeyguardUpdateMonitorCallback;)V
 
-    .line 279
+    .line 282
     iget-object v1, p0, Lcom/android/keyguard/KeyguardPatternView;->mLockPatternView:Lcom/android/keyguard/LockDecoPatternView;
 
     iget-object v2, p0, Lcom/android/keyguard/KeyguardPatternView;->mLockPatternUtils:Lcom/android/internal/widget/LockPatternUtils;
@@ -1237,22 +1237,22 @@
 
     invoke-virtual {v1, v2}, Lcom/android/keyguard/LockDecoPatternView;->setTactileFeedbackEnabled(Z)V
 
-    .line 282
+    .line 285
     invoke-static {p0}, Lcom/android/keyguard/KeyguardMessageArea;->findSecurityMessageDisplay(Landroid/view/View;)Lcom/android/keyguard/SecurityMessageDisplay;
 
     move-result-object v1
 
     check-cast v1, Lcom/android/keyguard/KeyguardMessageArea;
 
-    .line 281
+    .line 284
     iput-object v1, p0, Lcom/android/keyguard/KeyguardPatternView;->mSecurityMessageDisplay:Lcom/android/keyguard/KeyguardMessageArea;
 
-    .line 284
+    .line 287
     sget-boolean v1, Lcom/android/keyguard/KeyguardRune;->SUPPORT_SAMSUNG_ACCOUNT_RECOVERY:Z
 
     if-eqz v1, :cond_0
 
-    .line 285
+    .line 288
     sget v1, Lcom/android/keyguard/R$id;->forgot_password_button:I
 
     invoke-virtual {p0, v1}, Lcom/android/keyguard/KeyguardPatternView;->findViewById(I)Landroid/view/View;
@@ -1263,19 +1263,19 @@
 
     iput-object v1, p0, Lcom/android/keyguard/KeyguardPatternView;->mForgotPatternButton:Landroid/widget/Button;
 
-    .line 287
+    .line 290
     iget-object v1, p0, Lcom/android/keyguard/KeyguardPatternView;->mForgotPatternButton:Landroid/widget/Button;
 
     if-eqz v1, :cond_0
 
-    .line 288
+    .line 291
     iget-object v1, p0, Lcom/android/keyguard/KeyguardPatternView;->mForgotPatternButton:Landroid/widget/Button;
 
     sget v2, Lcom/android/keyguard/R$string;->kg_forgot_spass_button_text:I
 
     invoke-virtual {v1, v2}, Landroid/widget/Button;->setText(I)V
 
-    .line 289
+    .line 292
     iget-object v1, p0, Lcom/android/keyguard/KeyguardPatternView;->mForgotPatternButton:Landroid/widget/Button;
 
     new-instance v2, Lcom/android/keyguard/KeyguardPatternView$4;
@@ -1284,7 +1284,7 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 297
+    .line 300
     :cond_0
     sget v1, Lcom/android/keyguard/R$id;->keyguard_selector_fade_container:I
 
@@ -1294,7 +1294,7 @@
 
     iput-object v1, p0, Lcom/android/keyguard/KeyguardPatternView;->mEcaView:Landroid/view/View;
 
-    .line 298
+    .line 301
     sget v1, Lcom/android/keyguard/R$id;->container:I
 
     invoke-virtual {p0, v1}, Lcom/android/keyguard/KeyguardPatternView;->findViewById(I)Landroid/view/View;
@@ -1305,7 +1305,7 @@
 
     iput-object v1, p0, Lcom/android/keyguard/KeyguardPatternView;->mContainer:Landroid/view/ViewGroup;
 
-    .line 300
+    .line 303
     sget v1, Lcom/android/keyguard/R$id;->emergency_call_button:I
 
     invoke-virtual {p0, v1}, Lcom/android/keyguard/KeyguardPatternView;->findViewById(I)Landroid/view/View;
@@ -1314,14 +1314,14 @@
 
     check-cast v0, Lcom/android/keyguard/EmergencyButton;
 
-    .line 301
+    .line 304
     .local v0, "button":Lcom/android/keyguard/EmergencyButton;
     if-eqz v0, :cond_1
 
-    .line 302
+    .line 305
     invoke-virtual {v0, p0}, Lcom/android/keyguard/EmergencyButton;->setCallback(Lcom/android/keyguard/EmergencyButton$EmergencyButtonCallback;)V
 
-    .line 306
+    .line 309
     :cond_1
     sget v1, Lcom/android/keyguard/R$id;->biometric_timeout_message:I
 
@@ -1333,10 +1333,10 @@
 
     iput-object v1, p0, Lcom/android/keyguard/KeyguardPatternView;->mBIOMETRICLockoutMessage:Lcom/android/keyguard/KeyguardMessageArea;
 
-    .line 310
+    .line 313
     invoke-virtual {p0}, Lcom/android/keyguard/KeyguardPatternView;->updateChildViewsLook()V
 
-    .line 313
+    .line 316
     iget-object v1, p0, Lcom/android/keyguard/KeyguardPatternView;->mLockPatternUtils:Lcom/android/internal/widget/LockPatternUtils;
 
     invoke-virtual {v1}, Lcom/android/internal/widget/LockPatternUtils;->isTactileFeedbackEnabled()Z
@@ -1345,7 +1345,7 @@
 
     iput-boolean v1, p0, Lcom/android/keyguard/KeyguardPatternView;->mEnableHaptics:Z
 
-    .line 314
+    .line 317
     iget-object v1, p0, Lcom/android/keyguard/KeyguardPatternView;->mContext:Landroid/content/Context;
 
     const-string/jumbo v2, "vibrator"
@@ -1358,23 +1358,23 @@
 
     iput-object v1, p0, Lcom/android/keyguard/KeyguardPatternView;->mVibratorService:Landroid/os/SystemVibrator;
 
-    .line 317
+    .line 320
     sget-boolean v1, Lcom/android/keyguard/KeyguardRune;->SUPPORT_SAMSUNG_ACCOUNT_RECOVERY:Z
 
     if-eqz v1, :cond_2
 
-    .line 318
+    .line 321
     iget-object v1, p0, Lcom/android/keyguard/KeyguardPatternView;->mContext:Landroid/content/Context;
 
     invoke-direct {p0, v1}, Lcom/android/keyguard/KeyguardPatternView;->checkAccountExist(Landroid/content/Context;)V
 
-    .line 321
+    .line 324
     :cond_2
     sget-boolean v1, Lcom/android/keyguard/KeyguardRune;->SUPPORT_MOBILE_KEYBOARD:Z
 
     if-eqz v1, :cond_3
 
-    .line 322
+    .line 325
     iget-object v1, p0, Lcom/android/keyguard/KeyguardPatternView;->mContext:Landroid/content/Context;
 
     invoke-virtual {v1}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
@@ -1389,11 +1389,11 @@
 
     iput v1, p0, Lcom/android/keyguard/KeyguardPatternView;->mIsMobileKeyboardCovered:I
 
-    .line 265
+    .line 268
     :cond_3
     return-void
 
-    .line 270
+    .line 273
     .end local v0    # "button":Lcom/android/keyguard/EmergencyButton;
     :cond_4
     iget-object v1, p0, Lcom/android/keyguard/KeyguardPatternView;->mLockPatternUtils:Lcom/android/internal/widget/LockPatternUtils;
@@ -1409,47 +1409,47 @@
 
     const/4 v1, 0x0
 
-    .line 620
+    .line 623
     iget-object v0, p0, Lcom/android/keyguard/KeyguardPatternView;->mCountdownTimer:Landroid/os/CountDownTimer;
 
     if-eqz v0, :cond_0
 
-    .line 621
+    .line 624
     iget-object v0, p0, Lcom/android/keyguard/KeyguardPatternView;->mCountdownTimer:Landroid/os/CountDownTimer;
 
     invoke-virtual {v0}, Landroid/os/CountDownTimer;->cancel()V
 
-    .line 622
+    .line 625
     iput-object v1, p0, Lcom/android/keyguard/KeyguardPatternView;->mCountdownTimer:Landroid/os/CountDownTimer;
 
-    .line 624
+    .line 627
     :cond_0
     iget-object v0, p0, Lcom/android/keyguard/KeyguardPatternView;->mPendingLockCheck:Landroid/os/AsyncTask;
 
     if-eqz v0, :cond_1
 
-    .line 625
+    .line 628
     iget-object v0, p0, Lcom/android/keyguard/KeyguardPatternView;->mPendingLockCheck:Landroid/os/AsyncTask;
 
     invoke-virtual {v0, v2}, Landroid/os/AsyncTask;->cancel(Z)Z
 
-    .line 626
+    .line 629
     iput-object v1, p0, Lcom/android/keyguard/KeyguardPatternView;->mPendingLockCheck:Landroid/os/AsyncTask;
 
-    .line 630
+    .line 633
     :cond_1
     iget-object v0, p0, Lcom/android/keyguard/KeyguardPatternView;->mBIOMETRICLockoutMessage:Lcom/android/keyguard/KeyguardMessageArea;
 
     if-eqz v0, :cond_2
 
-    .line 631
+    .line 634
     iget-object v0, p0, Lcom/android/keyguard/KeyguardPatternView;->mBIOMETRICLockoutMessage:Lcom/android/keyguard/KeyguardMessageArea;
 
     const-string/jumbo v1, ""
 
     invoke-virtual {v0, v1, v2}, Lcom/android/keyguard/KeyguardMessageArea;->setMessage(Ljava/lang/CharSequence;Z)V
 
-    .line 619
+    .line 622
     :cond_2
     return-void
 .end method
@@ -1459,10 +1459,10 @@
     .param p1, "reason"    # I
 
     .prologue
-    .line 638
+    .line 641
     invoke-virtual {p0}, Lcom/android/keyguard/KeyguardPatternView;->reset()V
 
-    .line 637
+    .line 640
     return-void
 .end method
 
@@ -1473,12 +1473,12 @@
     .prologue
     const/4 v8, 0x0
 
-    .line 333
+    .line 336
     invoke-super {p0, p1}, Landroid/widget/LinearLayout;->onTouchEvent(Landroid/view/MotionEvent;)Z
 
     move-result v2
 
-    .line 336
+    .line 339
     .local v2, "result":Z
     invoke-static {}, Landroid/os/SystemClock;->elapsedRealtime()J
 
@@ -1488,7 +1488,7 @@
 
     sub-long v0, v4, v6
 
-    .line 337
+    .line 340
     .local v0, "elapsed":J
     if-eqz v2, :cond_0
 
@@ -1498,27 +1498,27 @@
 
     if-lez v3, :cond_0
 
-    .line 338
+    .line 341
     invoke-static {}, Landroid/os/SystemClock;->elapsedRealtime()J
 
     move-result-wide v4
 
     iput-wide v4, p0, Lcom/android/keyguard/KeyguardPatternView;->mLastPokeTime:J
 
-    .line 340
+    .line 343
     :cond_0
     iget-object v3, p0, Lcom/android/keyguard/KeyguardPatternView;->mTempRect:Landroid/graphics/Rect;
 
     invoke-virtual {v3, v8, v8, v8, v8}, Landroid/graphics/Rect;->set(IIII)V
 
-    .line 341
+    .line 344
     iget-object v3, p0, Lcom/android/keyguard/KeyguardPatternView;->mLockPatternView:Lcom/android/keyguard/LockDecoPatternView;
 
     iget-object v4, p0, Lcom/android/keyguard/KeyguardPatternView;->mTempRect:Landroid/graphics/Rect;
 
     invoke-virtual {p0, v3, v4}, Lcom/android/keyguard/KeyguardPatternView;->offsetRectIntoDescendantCoords(Landroid/view/View;Landroid/graphics/Rect;)V
 
-    .line 342
+    .line 345
     iget-object v3, p0, Lcom/android/keyguard/KeyguardPatternView;->mTempRect:Landroid/graphics/Rect;
 
     iget v3, v3, Landroid/graphics/Rect;->left:I
@@ -1533,7 +1533,7 @@
 
     invoke-virtual {p1, v3, v4}, Landroid/view/MotionEvent;->offsetLocation(FF)V
 
-    .line 343
+    .line 346
     iget-object v3, p0, Lcom/android/keyguard/KeyguardPatternView;->mLockPatternView:Lcom/android/keyguard/LockDecoPatternView;
 
     invoke-virtual {v3, p1}, Lcom/android/keyguard/LockDecoPatternView;->dispatchTouchEvent(Landroid/view/MotionEvent;)Z
@@ -1542,7 +1542,7 @@
 
     if-nez v3, :cond_1
 
-    .line 344
+    .line 347
     .end local v2    # "result":Z
     :goto_0
     iget-object v3, p0, Lcom/android/keyguard/KeyguardPatternView;->mTempRect:Landroid/graphics/Rect;
@@ -1563,10 +1563,10 @@
 
     invoke-virtual {p1, v3, v4}, Landroid/view/MotionEvent;->offsetLocation(FF)V
 
-    .line 345
+    .line 348
     return v2
 
-    .line 343
+    .line 346
     .restart local v2    # "result":Z
     :cond_1
     const/4 v2, 0x1
@@ -1581,10 +1581,10 @@
     .param p2, "visibility"    # I
 
     .prologue
-    .line 240
+    .line 243
     invoke-super {p0, p1, p2}, Landroid/widget/LinearLayout;->onVisibilityChanged(Landroid/view/View;I)V
 
-    .line 242
+    .line 245
     iget-boolean v3, p0, Lcom/android/keyguard/KeyguardPatternView;->mAttached:Z
 
     if-eqz v3, :cond_0
@@ -1595,7 +1595,7 @@
 
     if-eqz v3, :cond_0
 
-    .line 243
+    .line 246
     const-string/jumbo v3, "SecurityPatternView"
 
     new-instance v4, Ljava/lang/StringBuilder;
@@ -1618,16 +1618,16 @@
 
     invoke-static {v3, v4}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 244
+    .line 247
     new-instance v1, Landroid/os/Bundle;
 
     invoke-direct {v1}, Landroid/os/Bundle;-><init>()V
 
-    .line 246
+    .line 249
     .local v1, "deadzone":Landroid/os/Bundle;
     if-nez p2, :cond_1
 
-    .line 248
+    .line 251
     invoke-virtual {p0}, Lcom/android/keyguard/KeyguardPatternView;->getResources()Landroid/content/res/Resources;
 
     move-result-object v3
@@ -1638,23 +1638,23 @@
 
     move-result v0
 
-    .line 249
+    .line 252
     .local v0, "bouncerDeadzoneSize":I
     const-string/jumbo v3, "dead_zone_port_x1"
 
     invoke-virtual {v1, v3, v0}, Landroid/os/Bundle;->putInt(Ljava/lang/String;I)V
 
-    .line 250
+    .line 253
     const-string/jumbo v3, "dead_zone_port_x2"
 
     invoke-virtual {v1, v3, v0}, Landroid/os/Bundle;->putInt(Ljava/lang/String;I)V
 
-    .line 251
+    .line 254
     const-string/jumbo v3, "dead_zone_port_y1"
 
     invoke-virtual {v1, v3, v0}, Landroid/os/Bundle;->putInt(Ljava/lang/String;I)V
 
-    .line 259
+    .line 262
     .end local v0    # "bouncerDeadzoneSize":I
     :goto_0
     invoke-virtual {p0}, Lcom/android/keyguard/KeyguardPatternView;->getRootView()Landroid/view/View;
@@ -1663,12 +1663,12 @@
 
     invoke-static {v3, v1}, Lcom/samsung/android/tsp/SemTspStateManager;->setDeadZone(Landroid/view/View;Landroid/os/Bundle;)V
 
-    .line 239
+    .line 242
     .end local v1    # "deadzone":Landroid/os/Bundle;
     :cond_0
     return-void
 
-    .line 254
+    .line 257
     .restart local v1    # "deadzone":Landroid/os/Bundle;
     :cond_1
     invoke-virtual {p0}, Lcom/android/keyguard/KeyguardPatternView;->getResources()Landroid/content/res/Resources;
@@ -1681,18 +1681,18 @@
 
     move-result v2
 
-    .line 255
+    .line 258
     .local v2, "nonBouncerDeadzoneSize":I
     const-string/jumbo v3, "dead_zone_port_x1"
 
     invoke-virtual {v1, v3, v2}, Landroid/os/Bundle;->putInt(Ljava/lang/String;I)V
 
-    .line 256
+    .line 259
     const-string/jumbo v3, "dead_zone_port_x2"
 
     invoke-virtual {v1, v3, v2}, Landroid/os/Bundle;->putInt(Ljava/lang/String;I)V
 
-    .line 257
+    .line 260
     const-string/jumbo v3, "dead_zone_port_y1"
 
     invoke-virtual {v1, v3, v2}, Landroid/os/Bundle;->putInt(Ljava/lang/String;I)V
@@ -1708,17 +1708,17 @@
 
     const/4 v3, 0x0
 
-    .line 351
+    .line 354
     iget-object v5, p0, Lcom/android/keyguard/KeyguardPatternView;->mLockPatternView:Lcom/android/keyguard/LockDecoPatternView;
 
     iget-object v2, p0, Lcom/android/keyguard/KeyguardPatternView;->mLockPatternUtils:Lcom/android/internal/widget/LockPatternUtils;
 
-    .line 352
+    .line 355
     invoke-static {}, Lcom/android/keyguard/KeyguardUpdateMonitor;->getCurrentUser()I
 
     move-result v6
 
-    .line 351
+    .line 354
     invoke-virtual {v2, v6}, Lcom/android/internal/widget/LockPatternUtils;->isVisiblePatternEnabled(I)Z
 
     move-result v2
@@ -1730,35 +1730,35 @@
     :goto_0
     invoke-virtual {v5, v2}, Lcom/android/keyguard/LockDecoPatternView;->setInStealthMode(Z)V
 
-    .line 353
+    .line 356
     iget-object v2, p0, Lcom/android/keyguard/KeyguardPatternView;->mLockPatternView:Lcom/android/keyguard/LockDecoPatternView;
 
     invoke-virtual {v2}, Lcom/android/keyguard/LockDecoPatternView;->enableInput()V
 
-    .line 354
+    .line 357
     iget-object v2, p0, Lcom/android/keyguard/KeyguardPatternView;->mLockPatternView:Lcom/android/keyguard/LockDecoPatternView;
 
     invoke-virtual {v2, v4}, Lcom/android/keyguard/LockDecoPatternView;->setEnabled(Z)V
 
-    .line 355
+    .line 358
     iget-object v2, p0, Lcom/android/keyguard/KeyguardPatternView;->mLockPatternView:Lcom/android/keyguard/LockDecoPatternView;
 
     invoke-virtual {v2}, Lcom/android/keyguard/LockDecoPatternView;->clearPattern()V
 
-    .line 358
+    .line 361
     iget-object v2, p0, Lcom/android/keyguard/KeyguardPatternView;->mLockPatternUtils:Lcom/android/internal/widget/LockPatternUtils;
 
-    .line 359
+    .line 362
     invoke-static {}, Lcom/android/keyguard/KeyguardUpdateMonitor;->getCurrentUser()I
 
     move-result v4
 
-    .line 358
+    .line 361
     invoke-virtual {v2, v4}, Lcom/android/internal/widget/LockPatternUtils;->getLockoutAttemptDeadline(I)J
 
     move-result-wide v0
 
-    .line 361
+    .line 364
     .local v0, "deadline":J
     iget-object v2, p0, Lcom/android/keyguard/KeyguardPatternView;->mContext:Landroid/content/Context;
 
@@ -1770,13 +1770,13 @@
 
     move-result v2
 
-    .line 360
+    .line 363
     if-eqz v2, :cond_1
 
-    .line 362
+    .line 365
     invoke-direct {p0}, Lcom/android/keyguard/KeyguardPatternView;->disableDevicePermanently()V
 
-    .line 349
+    .line 352
     :goto_1
     return-void
 
@@ -1784,10 +1784,10 @@
     :cond_0
     move v2, v4
 
-    .line 351
+    .line 354
     goto :goto_0
 
-    .line 363
+    .line 366
     .restart local v0    # "deadline":J
     :cond_1
     const-wide/16 v4, 0x0
@@ -1796,54 +1796,54 @@
 
     if-eqz v2, :cond_2
 
-    .line 364
+    .line 367
     invoke-direct {p0, v0, v1}, Lcom/android/keyguard/KeyguardPatternView;->handleAttemptLockout(J)V
 
     goto :goto_1
 
-    .line 366
+    .line 369
     :cond_2
     invoke-direct {p0}, Lcom/android/keyguard/KeyguardPatternView;->displayDefaultSecurityMessage()V
 
-    .line 367
+    .line 370
     sget-boolean v2, Lcom/android/keyguard/KeyguardRune;->SUPPORT_SAMSUNG_ACCOUNT_RECOVERY:Z
 
     if-eqz v2, :cond_3
 
-    .line 368
+    .line 371
     iget-object v2, p0, Lcom/android/keyguard/KeyguardPatternView;->mContext:Landroid/content/Context;
 
     invoke-static {v2}, Lcom/android/keyguard/KeyguardUpdateMonitor;->getInstance(Landroid/content/Context;)Lcom/android/keyguard/KeyguardUpdateMonitor;
 
     move-result-object v2
 
-    .line 369
+    .line 372
     invoke-static {}, Lcom/android/keyguard/KeyguardUpdateMonitor;->getCurrentUser()I
 
     move-result v4
 
-    .line 368
+    .line 371
     invoke-virtual {v2, v4}, Lcom/android/keyguard/KeyguardUpdateMonitor;->getFailedUnlockAttempts(I)I
 
     move-result v2
 
-    .line 369
+    .line 372
     const/4 v4, 0x4
 
-    .line 368
+    .line 371
     if-le v2, v4, :cond_3
 
-    .line 370
+    .line 373
     iget-boolean v2, p0, Lcom/android/keyguard/KeyguardPatternView;->mIsAccountExist:Z
 
     if-eqz v2, :cond_3
 
-    .line 371
+    .line 374
     sget-object v2, Lcom/android/keyguard/EmergencyCarrierArea$FooterMode;->ForgotLockPattern:Lcom/android/keyguard/EmergencyCarrierArea$FooterMode;
 
     invoke-direct {p0, v2}, Lcom/android/keyguard/KeyguardPatternView;->updateFooter(Lcom/android/keyguard/EmergencyCarrierArea$FooterMode;)V
 
-    .line 376
+    .line 379
     :cond_3
     iget-object v2, p0, Lcom/android/keyguard/KeyguardPatternView;->mLockPatternView:Lcom/android/keyguard/LockDecoPatternView;
 
@@ -1857,10 +1857,10 @@
     .param p1, "callback"    # Lcom/android/keyguard/KeyguardSecurityCallback;
 
     .prologue
-    .line 207
+    .line 210
     iput-object p1, p0, Lcom/android/keyguard/KeyguardPatternView;->mCallback:Lcom/android/keyguard/KeyguardSecurityCallback;
 
-    .line 206
+    .line 209
     return-void
 .end method
 
@@ -1869,10 +1869,10 @@
     .param p1, "utils"    # Lcom/android/internal/widget/LockPatternUtils;
 
     .prologue
-    .line 212
+    .line 215
     iput-object p1, p0, Lcom/android/keyguard/KeyguardPatternView;->mLockPatternUtils:Lcom/android/internal/widget/LockPatternUtils;
 
-    .line 211
+    .line 214
     return-void
 .end method
 
@@ -1882,24 +1882,24 @@
     .param p2, "color"    # I
 
     .prologue
-    .line 695
+    .line 698
     iget-object v0, p0, Lcom/android/keyguard/KeyguardPatternView;->mSecurityMessageDisplay:Lcom/android/keyguard/KeyguardMessageArea;
 
     invoke-virtual {v0, p2}, Lcom/android/keyguard/KeyguardMessageArea;->setNextMessageColor(I)V
 
-    .line 696
+    .line 699
     iget-object v0, p0, Lcom/android/keyguard/KeyguardPatternView;->mSecurityMessageDisplay:Lcom/android/keyguard/KeyguardMessageArea;
 
     const/4 v1, 0x1
 
     invoke-virtual {v0, p1, v1}, Lcom/android/keyguard/KeyguardMessageArea;->setMessage(Ljava/lang/CharSequence;Z)V
 
-    .line 698
+    .line 701
     iget-object v0, p0, Lcom/android/keyguard/KeyguardPatternView;->mSecurityMessageDisplay:Lcom/android/keyguard/KeyguardMessageArea;
 
     invoke-virtual {v0}, Lcom/android/keyguard/KeyguardMessageArea;->displayFailedAnimation()V
 
-    .line 694
+    .line 697
     return-void
 .end method
 
@@ -1912,13 +1912,13 @@
 
     const/4 v6, 0x0
 
-    .line 649
+    .line 652
     iput p1, p0, Lcom/android/keyguard/KeyguardPatternView;->mPromptReason:I
 
-    .line 650
+    .line 653
     if-eqz p1, :cond_2
 
-    .line 651
+    .line 654
     iget-object v3, p0, Lcom/android/keyguard/KeyguardPatternView;->mLockPatternUtils:Lcom/android/internal/widget/LockPatternUtils;
 
     invoke-static {}, Lcom/android/keyguard/KeyguardUpdateMonitor;->getCurrentUser()I
@@ -1929,7 +1929,7 @@
 
     move-result-wide v0
 
-    .line 652
+    .line 655
     .local v0, "deadline":J
     const-wide/16 v4, 0x0
 
@@ -1937,10 +1937,10 @@
 
     if-lez v3, :cond_0
 
-    .line 653
+    .line 656
     return-void
 
-    .line 655
+    .line 658
     :cond_0
     iget-object v3, p0, Lcom/android/keyguard/KeyguardPatternView;->mKeyguardTextBuilder:Lcom/android/keyguard/KeyguardTextBuilder;
 
@@ -1950,7 +1950,7 @@
 
     move-result-object v2
 
-    .line 656
+    .line 659
     .local v2, "promptReasonString":Ljava/lang/String;
     invoke-virtual {v2}, Ljava/lang/String;->isEmpty()Z
 
@@ -1958,25 +1958,25 @@
 
     if-nez v3, :cond_1
 
-    .line 657
+    .line 660
     iget-object v3, p0, Lcom/android/keyguard/KeyguardPatternView;->mSecurityMessageDisplay:Lcom/android/keyguard/KeyguardMessageArea;
 
     invoke-virtual {v3, v6}, Lcom/android/keyguard/KeyguardMessageArea;->setTimeout(I)V
 
-    .line 658
+    .line 661
     iget-object v3, p0, Lcom/android/keyguard/KeyguardPatternView;->mSecurityMessageDisplay:Lcom/android/keyguard/KeyguardMessageArea;
 
     const/4 v4, 0x1
 
     invoke-virtual {v3, v2, v4}, Lcom/android/keyguard/KeyguardMessageArea;->setMessage(Ljava/lang/CharSequence;Z)V
 
-    .line 647
+    .line 650
     .end local v0    # "deadline":J
     .end local v2    # "promptReasonString":Ljava/lang/String;
     :goto_0
     return-void
 
-    .line 660
+    .line 663
     .restart local v0    # "deadline":J
     .restart local v2    # "promptReasonString":Ljava/lang/String;
     :cond_1
@@ -1986,7 +1986,7 @@
 
     goto :goto_0
 
-    .line 663
+    .line 666
     .end local v0    # "deadline":J
     .end local v2    # "promptReasonString":Ljava/lang/String;
     :cond_2
@@ -2003,21 +2003,21 @@
     .prologue
     const/4 v0, 0x0
 
-    .line 705
+    .line 708
     invoke-virtual {p0, v0}, Lcom/android/keyguard/KeyguardPatternView;->setAlpha(F)V
 
-    .line 706
+    .line 709
     invoke-virtual {p0, v0}, Lcom/android/keyguard/KeyguardPatternView;->setTranslationY(F)V
 
-    .line 707
+    .line 710
     invoke-virtual {p0}, Lcom/android/keyguard/KeyguardPatternView;->animate()Landroid/view/ViewPropertyAnimator;
 
     move-result-object v0
 
-    .line 708
+    .line 711
     const/high16 v1, 0x3f800000    # 1.0f
 
-    .line 707
+    .line 710
     invoke-virtual {v0, v1}, Landroid/view/ViewPropertyAnimator;->alpha(F)Landroid/view/ViewPropertyAnimator;
 
     move-result-object v0
@@ -2026,13 +2026,13 @@
 
     move-result-object v0
 
-    .line 710
+    .line 713
     const-wide/16 v2, 0xc8
 
-    .line 707
+    .line 710
     invoke-virtual {v0, v2, v3}, Landroid/view/ViewPropertyAnimator;->setDuration(J)Landroid/view/ViewPropertyAnimator;
 
-    .line 703
+    .line 706
     return-void
 .end method
 
@@ -2041,45 +2041,45 @@
     .param p1, "finishRunnable"    # Ljava/lang/Runnable;
 
     .prologue
-    .line 739
+    .line 742
     iget-object v0, p0, Lcom/android/keyguard/KeyguardPatternView;->mLockPatternView:Lcom/android/keyguard/LockDecoPatternView;
 
     invoke-virtual {v0}, Lcom/android/keyguard/LockDecoPatternView;->clearPattern()V
 
-    .line 741
+    .line 744
     invoke-virtual {p0}, Lcom/android/keyguard/KeyguardPatternView;->animate()Landroid/view/ViewPropertyAnimator;
 
     move-result-object v0
 
-    .line 742
+    .line 745
     const/4 v1, 0x0
 
-    .line 741
+    .line 744
     invoke-virtual {v0, v1}, Landroid/view/ViewPropertyAnimator;->alpha(F)Landroid/view/ViewPropertyAnimator;
 
     move-result-object v0
 
-    .line 743
+    .line 746
     iget v1, p0, Lcom/android/keyguard/KeyguardPatternView;->mDisappearYTranslation:I
 
     int-to-float v1, v1
 
-    .line 741
+    .line 744
     invoke-virtual {v0, v1}, Landroid/view/ViewPropertyAnimator;->translationY(F)Landroid/view/ViewPropertyAnimator;
 
     move-result-object v0
 
-    .line 744
+    .line 747
     const-wide/16 v2, 0x64
 
-    .line 741
+    .line 744
     invoke-virtual {v0, v2, v3}, Landroid/view/ViewPropertyAnimator;->setDuration(J)Landroid/view/ViewPropertyAnimator;
 
     move-result-object v0
 
     invoke-virtual {v0, p1}, Landroid/view/ViewPropertyAnimator;->withEndAction(Ljava/lang/Runnable;)Landroid/view/ViewPropertyAnimator;
 
-    .line 771
+    .line 774
     const/4 v0, 0x1
 
     return v0
@@ -2089,31 +2089,31 @@
     .locals 1
 
     .prologue
-    .line 777
+    .line 780
     iget-object v0, p0, Lcom/android/keyguard/KeyguardPatternView;->mLockPatternView:Lcom/android/keyguard/LockDecoPatternView;
 
     invoke-virtual {v0}, Lcom/android/keyguard/LockDecoPatternView;->updateChildViewsLook()V
 
-    .line 778
+    .line 781
     iget-object v0, p0, Lcom/android/keyguard/KeyguardPatternView;->mSecurityMessageDisplay:Lcom/android/keyguard/KeyguardMessageArea;
 
     invoke-virtual {v0}, Lcom/android/keyguard/KeyguardMessageArea;->updateMessageColor()V
 
-    .line 779
+    .line 782
     iget-object v0, p0, Lcom/android/keyguard/KeyguardPatternView;->mEcaView:Landroid/view/View;
 
     instance-of v0, v0, Lcom/android/keyguard/EmergencyCarrierArea;
 
     if-eqz v0, :cond_0
 
-    .line 780
+    .line 783
     iget-object v0, p0, Lcom/android/keyguard/KeyguardPatternView;->mEcaView:Landroid/view/View;
 
     check-cast v0, Lcom/android/keyguard/EmergencyCarrierArea;
 
     invoke-virtual {v0}, Lcom/android/keyguard/EmergencyCarrierArea;->updateChildViewsLook()V
 
-    .line 776
+    .line 779
     :cond_0
     return-void
 .end method

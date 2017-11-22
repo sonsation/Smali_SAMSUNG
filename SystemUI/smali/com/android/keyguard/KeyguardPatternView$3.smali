@@ -35,10 +35,28 @@
 
 # virtual methods
 .method public onDisableDeviceWhenReachMaxFailed()V
-    .locals 1
+    .locals 3
 
     .prologue
     .line 180
+    iget-object v0, p0, Lcom/android/keyguard/KeyguardPatternView$3;->this$0:Lcom/android/keyguard/KeyguardPatternView;
+
+    invoke-static {v0}, Lcom/android/keyguard/KeyguardPatternView;->-get8(Lcom/android/keyguard/KeyguardPatternView;)Lcom/android/internal/widget/LockPatternUtils;
+
+    move-result-object v0
+
+    .line 182
+    invoke-static {}, Lcom/android/keyguard/KeyguardUpdateMonitor;->getCurrentUser()I
+
+    move-result v1
+
+    .line 181
+    const/4 v2, 0x2
+
+    .line 180
+    invoke-virtual {v0, v2, v1}, Lcom/android/internal/widget/LockPatternUtils;->requireStrongAuth(II)V
+
+    .line 183
     iget-object v0, p0, Lcom/android/keyguard/KeyguardPatternView$3;->this$0:Lcom/android/keyguard/KeyguardPatternView;
 
     invoke-static {v0}, Lcom/android/keyguard/KeyguardPatternView;->-wrap1(Lcom/android/keyguard/KeyguardPatternView;)V

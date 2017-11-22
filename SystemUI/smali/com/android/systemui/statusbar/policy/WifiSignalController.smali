@@ -1403,7 +1403,7 @@
 
     iget-object v1, p0, Lcom/android/systemui/statusbar/policy/WifiSignalController;->mContext:Landroid/content/Context;
 
-    const v4, 0x7f0f05d7
+    const v4, 0x7f0f05d6
 
     invoke-virtual {v1, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

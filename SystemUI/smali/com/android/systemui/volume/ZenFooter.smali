@@ -359,7 +359,7 @@
 
     iget-object v3, p0, Lcom/android/systemui/volume/ZenFooter;->mContext:Landroid/content/Context;
 
-    const v6, 0x7f0f0491
+    const v6, 0x7f0f0490
 
     invoke-virtual {v3, v6}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -437,7 +437,7 @@
 
     iget-object v3, p0, Lcom/android/systemui/volume/ZenFooter;->mContext:Landroid/content/Context;
 
-    const v6, 0x7f0f0492
+    const v6, 0x7f0f0491
 
     invoke-virtual {v3, v6}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -457,7 +457,7 @@
 
     iget-object v3, p0, Lcom/android/systemui/volume/ZenFooter;->mContext:Landroid/content/Context;
 
-    const v6, 0x7f0f0490
+    const v6, 0x7f0f048f
 
     invoke-virtual {v3, v6}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

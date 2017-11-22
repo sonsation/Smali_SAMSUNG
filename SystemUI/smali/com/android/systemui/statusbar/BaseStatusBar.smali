@@ -1350,7 +1350,7 @@
     invoke-virtual {v14, v15}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 1619
-    const v15, 0x7f0f054b
+    const v15, 0x7f0f054a
 
     invoke-virtual {v14, v15}, Landroid/widget/TextView;->setText(I)V
 
@@ -1382,7 +1382,7 @@
 
     .line 1627
     .local v6, "doneButton":Landroid/widget/TextView;
-    const v15, 0x7f0f054c
+    const v15, 0x7f0f054b
 
     invoke-virtual {v6, v15}, Landroid/widget/TextView;->setText(I)V
 
@@ -2821,7 +2821,7 @@
     .param p2, "knoxViewLocal"    # Landroid/view/View;
 
     .prologue
-    const v7, 0x7f0f04b8
+    const v7, 0x7f0f04b7
 
     const/4 v5, 0x1
 
@@ -6693,7 +6693,7 @@
     .line 1292
     iget-object v7, p0, Lcom/android/systemui/statusbar/BaseStatusBar;->mContext:Landroid/content/Context;
 
-    const v8, 0x7f0f04d4
+    const v8, 0x7f0f04d3
 
     invoke-virtual {v7, v8}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -6707,7 +6707,7 @@
     .line 1293
     iget-object v7, p0, Lcom/android/systemui/statusbar/BaseStatusBar;->mContext:Landroid/content/Context;
 
-    const v8, 0x7f0f04d5
+    const v8, 0x7f0f04d4
 
     invoke-virtual {v7, v8}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -6747,7 +6747,7 @@
     .line 1299
     iget-object v7, p0, Lcom/android/systemui/statusbar/BaseStatusBar;->mContext:Landroid/content/Context;
 
-    const v8, 0x7f0f04d6
+    const v8, 0x7f0f04d5
 
     invoke-virtual {v7, v8}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -6764,7 +6764,7 @@
     .line 1302
     iget-object v7, p0, Lcom/android/systemui/statusbar/BaseStatusBar;->mContext:Landroid/content/Context;
 
-    const v8, 0x7f0f04d7
+    const v8, 0x7f0f04d6
 
     invoke-virtual {v7, v8}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

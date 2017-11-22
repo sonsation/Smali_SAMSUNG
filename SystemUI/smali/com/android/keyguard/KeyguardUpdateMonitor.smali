@@ -1383,18 +1383,12 @@
 
     invoke-virtual {v10, v0}, Landroid/content/IntentFilter;->addAction(Ljava/lang/String;)V
 
-    .line 1844
-    sget-boolean v0, Lcom/android/keyguard/KeyguardRune;->SUPPORT_WFC_PLMN_AT_AIRPLANE_MODE:Z
-
-    if-eqz v0, :cond_1
-
     .line 1845
     const-string/jumbo v0, "com.samsung.systemui.ACTION_VOIP_CALL_STATE_CHANGED"
 
     invoke-virtual {v10, v0}, Landroid/content/IntentFilter;->addAction(Ljava/lang/String;)V
 
     .line 1848
-    :cond_1
     const-string/jumbo v0, "com.sec.android.intent.action.BLACK_MEMO"
 
     invoke-virtual {v10, v0}, Landroid/content/IntentFilter;->addAction(Ljava/lang/String;)V
@@ -1402,7 +1396,7 @@
     .line 1850
     sget-boolean v0, Lcom/android/keyguard/KeyguardRune;->SUPPORT_SEPARATE_FAILED_ATTEMPTS_FOR_BIOMETRIC:Z
 
-    if-eqz v0, :cond_2
+    if-eqz v0, :cond_1
 
     .line 1851
     const-string/jumbo v0, "com.samsung.keyguard.BIOMETRIC_LOCKOUT_RESET"
@@ -1410,7 +1404,7 @@
     invoke-virtual {v10, v0}, Landroid/content/IntentFilter;->addAction(Ljava/lang/String;)V
 
     .line 1854
-    :cond_2
+    :cond_1
     const-string/jumbo v0, "com.samsung.intent.action.PREINSTALLER_FINISH"
 
     invoke-virtual {v10, v0}, Landroid/content/IntentFilter;->addAction(Ljava/lang/String;)V
@@ -1418,7 +1412,7 @@
     .line 1856
     sget-boolean v0, Lcom/android/keyguard/KeyguardRune;->SUPPORT_AUTO_LOCK_FOR_GEAR:Z
 
-    if-eqz v0, :cond_3
+    if-eqz v0, :cond_2
 
     .line 1857
     const-string/jumbo v0, "android.bluetooth.device.action.ACL_DISCONNECTED"
@@ -1431,10 +1425,10 @@
     invoke-virtual {v10, v0}, Landroid/content/IntentFilter;->addAction(Ljava/lang/String;)V
 
     .line 1860
-    :cond_3
+    :cond_2
     sget-boolean v0, Lcom/android/keyguard/KeyguardRune;->SUPPORT_SERVICEBOX:Z
 
-    if-eqz v0, :cond_4
+    if-eqz v0, :cond_3
 
     .line 1861
     const-string/jumbo v0, "com.samsung.android.intent.action.RESPONSE_SERVICEBOX_REMOTEVIEWS"
@@ -1442,7 +1436,7 @@
     invoke-virtual {v10, v0}, Landroid/content/IntentFilter;->addAction(Ljava/lang/String;)V
 
     .line 1867
-    :cond_4
+    :cond_3
     const-string/jumbo v0, "android.intent.action.CONFIGURATION_CHANGED"
 
     invoke-virtual {v10, v0}, Landroid/content/IntentFilter;->addAction(Ljava/lang/String;)V
@@ -1538,7 +1532,7 @@
     .line 1899
     sget-boolean v0, Lcom/android/keyguard/KeyguardRune;->SUPPORT_AUTO_LOCK_FOR_GEAR:Z
 
-    if-eqz v0, :cond_5
+    if-eqz v0, :cond_4
 
     .line 1900
     new-instance v12, Landroid/content/IntentFilter;
@@ -1589,7 +1583,7 @@
 
     .line 1910
     .end local v12    # "smartUnlockFilter":Landroid/content/IntentFilter;
-    :cond_5
+    :cond_4
     iget-object v0, p0, Lcom/android/keyguard/KeyguardUpdateMonitor;->mSubscriptionManager:Landroid/telephony/SubscriptionManager;
 
     iget-object v1, p0, Lcom/android/keyguard/KeyguardUpdateMonitor;->mSubscriptionListener:Landroid/telephony/SubscriptionManager$OnSubscriptionsChangedListener;
@@ -1677,7 +1671,7 @@
     .line 1956
     iget-object v0, p0, Lcom/android/keyguard/KeyguardUpdateMonitor;->mFpm:Landroid/hardware/fingerprint/FingerprintManager;
 
-    if-eqz v0, :cond_6
+    if-eqz v0, :cond_5
 
     .line 1957
     iget-object v0, p0, Lcom/android/keyguard/KeyguardUpdateMonitor;->mFpm:Landroid/hardware/fingerprint/FingerprintManager;
@@ -1687,7 +1681,7 @@
     invoke-virtual {v0, v1}, Landroid/hardware/fingerprint/FingerprintManager;->addLockoutResetCallback(Landroid/hardware/fingerprint/FingerprintManager$LockoutResetCallback;)V
 
     .line 1961
-    :cond_6
+    :cond_5
     iget-object v0, p0, Lcom/android/keyguard/KeyguardUpdateMonitor;->mContext:Landroid/content/Context;
 
     invoke-static {v0}, Lcom/android/keyguard/util/SettingsHelper;->getInstance(Landroid/content/Context;)Lcom/android/keyguard/util/SettingsHelper;

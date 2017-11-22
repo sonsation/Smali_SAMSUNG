@@ -270,7 +270,7 @@
     :pswitch_0
     iget-object v0, p0, Lcom/android/systemui/qs/QSMultiSIMPreferredSlotView$PrefferedSlotButton;->mContext:Landroid/content/Context;
 
-    const v1, 0x7f0f069c
+    const v1, 0x7f0f069b
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -282,7 +282,7 @@
     :pswitch_1
     iget-object v0, p0, Lcom/android/systemui/qs/QSMultiSIMPreferredSlotView$PrefferedSlotButton;->mContext:Landroid/content/Context;
 
-    const v1, 0x7f0f069d
+    const v1, 0x7f0f069c
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -294,7 +294,7 @@
     :pswitch_2
     iget-object v0, p0, Lcom/android/systemui/qs/QSMultiSIMPreferredSlotView$PrefferedSlotButton;->mContext:Landroid/content/Context;
 
-    const v1, 0x7f0f069e
+    const v1, 0x7f0f069d
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -370,7 +370,7 @@
 
     iget-object v2, p0, Lcom/android/systemui/qs/QSMultiSIMPreferredSlotView$PrefferedSlotButton;->mContext:Landroid/content/Context;
 
-    const v3, 0x7f0f069f
+    const v3, 0x7f0f069e
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -459,7 +459,7 @@
 
     iget-object v2, p0, Lcom/android/systemui/qs/QSMultiSIMPreferredSlotView$PrefferedSlotButton;->mContext:Landroid/content/Context;
 
-    const v3, 0x7f0f06a0
+    const v3, 0x7f0f069f
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

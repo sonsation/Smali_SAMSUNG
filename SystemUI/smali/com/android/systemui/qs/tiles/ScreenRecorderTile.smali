@@ -269,7 +269,7 @@
     .line 127
     iget-object v0, p0, Lcom/android/systemui/qs/tiles/ScreenRecorderTile;->mContext:Landroid/content/Context;
 
-    const v1, 0x7f0f0692
+    const v1, 0x7f0f0691
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -385,7 +385,7 @@
     .line 121
     iget-object v1, p0, Lcom/android/systemui/qs/tiles/ScreenRecorderTile;->mContext:Landroid/content/Context;
 
-    const v2, 0x7f0f0692
+    const v2, 0x7f0f0691
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

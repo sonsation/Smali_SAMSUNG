@@ -62,7 +62,7 @@
     .param p1, "savedInstanceState"    # Landroid/os/Bundle;
 
     .prologue
-    const v3, 0x7f0f05d0
+    const v3, 0x7f0f05cf
 
     const/4 v2, 0x0
 
@@ -103,7 +103,7 @@
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setTextAppearance(I)V
 
     .line 65
-    const v1, 0x7f0f05d2
+    const v1, 0x7f0f05d1
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 

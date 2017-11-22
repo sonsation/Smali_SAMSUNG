@@ -165,7 +165,7 @@
 
     aput-object v4, v3, v5
 
-    const v4, 0x7f0f0472
+    const v4, 0x7f0f0471
 
     invoke-virtual {v2, v4, v3}, Lcom/android/systemui/recents/RecentsActivity;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 

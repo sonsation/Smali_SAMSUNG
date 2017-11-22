@@ -17077,7 +17077,7 @@
 
     check-cast v2, Lcom/android/systemui/statusbar/policy/MobileSignalController$MobileState;
 
-    const v3, 0x7f0f0694
+    const v3, 0x7f0f0693
 
     invoke-virtual {p0, v3}, Lcom/android/systemui/statusbar/policy/MobileSignalController;->getStringIfExists(I)Ljava/lang/String;
 

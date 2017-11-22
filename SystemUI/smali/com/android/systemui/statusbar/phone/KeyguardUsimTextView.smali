@@ -254,7 +254,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f0f0679
+    const v5, 0x7f0f0678
 
     invoke-virtual {v4, v5}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
@@ -304,7 +304,7 @@
 
     .line 139
     :cond_1
-    const v2, 0x7f0f067b
+    const v2, 0x7f0f067a
 
     invoke-virtual {p0, v2}, Lcom/android/systemui/statusbar/phone/KeyguardUsimTextView;->setText(I)V
 
@@ -349,7 +349,7 @@
 
     aput-object v4, v3, v6
 
-    const v4, 0x7f0f067a
+    const v4, 0x7f0f0679
 
     invoke-virtual {v2, v4, v3}, Landroid/content/Context;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -445,7 +445,7 @@
     if-ne v3, v2, :cond_5
 
     .line 154
-    const v2, 0x7f0f0678
+    const v2, 0x7f0f0677
 
     invoke-virtual {p0, v2}, Lcom/android/systemui/statusbar/phone/KeyguardUsimTextView;->setText(I)V
 

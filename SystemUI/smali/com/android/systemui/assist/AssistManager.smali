@@ -833,7 +833,7 @@
 
     iget-object v3, v0, Lcom/android/systemui/assist/AssistManager;->mContext:Landroid/content/Context;
 
-    const v8, 0x7f0f06a9
+    const v8, 0x7f0f06a8
 
     invoke-virtual {v3, v8}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1379,7 +1379,7 @@
 
     move-result-object v9
 
-    const v10, 0x7f0f06a8
+    const v10, 0x7f0f06a7
 
     invoke-virtual {v9, v10}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

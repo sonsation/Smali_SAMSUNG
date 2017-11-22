@@ -30,7 +30,7 @@
     .param p2, "val$userId"    # I
 
     .prologue
-    .line 357
+    .line 360
     iput-object p1, p0, Lcom/android/keyguard/KeyguardAbsKeyInputView$4;->this$0:Lcom/android/keyguard/KeyguardAbsKeyInputView;
 
     iput p2, p0, Lcom/android/keyguard/KeyguardAbsKeyInputView$4;->val$userId:I
@@ -50,25 +50,25 @@
     .prologue
     const/4 v2, 0x1
 
-    .line 360
+    .line 363
     iget-object v0, p0, Lcom/android/keyguard/KeyguardAbsKeyInputView$4;->this$0:Lcom/android/keyguard/KeyguardAbsKeyInputView;
 
     invoke-virtual {v0, v2}, Lcom/android/keyguard/KeyguardAbsKeyInputView;->setPasswordEntryInputEnabled(Z)V
 
-    .line 361
+    .line 364
     iget-object v0, p0, Lcom/android/keyguard/KeyguardAbsKeyInputView$4;->this$0:Lcom/android/keyguard/KeyguardAbsKeyInputView;
 
     const/4 v1, 0x0
 
     iput-object v1, v0, Lcom/android/keyguard/KeyguardAbsKeyInputView;->mPendingLockCheck:Landroid/os/AsyncTask;
 
-    .line 362
+    .line 365
     iget-object v0, p0, Lcom/android/keyguard/KeyguardAbsKeyInputView$4;->this$0:Lcom/android/keyguard/KeyguardAbsKeyInputView;
 
     iget v1, p0, Lcom/android/keyguard/KeyguardAbsKeyInputView$4;->val$userId:I
 
     invoke-virtual {v0, v1, p1, p2, v2}, Lcom/android/keyguard/KeyguardAbsKeyInputView;->onPasswordChecked(IZIZ)V
 
-    .line 359
+    .line 362
     return-void
 .end method

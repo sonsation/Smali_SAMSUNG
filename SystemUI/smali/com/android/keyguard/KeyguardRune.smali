@@ -124,8 +124,6 @@
 
 .field public static final SUPPORT_WARNING_FRP_MESSAGE:Z
 
-.field public static final SUPPORT_WFC_PLMN_AT_AIRPLANE_MODE:Z
-
 .field public static final SUPPORT_WHITE_WALLPAPER_AS_DEFAULT:Z
 
 .field public static final WFC_PLMN_INFO_AT_AIRPLANE_MODE:Ljava/lang/String;
@@ -528,22 +526,6 @@
 
     sput-object v0, Lcom/android/keyguard/KeyguardRune;->WFC_PLMN_INFO_AT_AIRPLANE_MODE:Ljava/lang/String;
 
-    .line 165
-    const-string/jumbo v0, ""
-
-    sget-object v2, Lcom/android/keyguard/KeyguardRune;->WFC_PLMN_INFO_AT_AIRPLANE_MODE:Ljava/lang/String;
-
-    invoke-virtual {v0, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result v0
-
-    if-eqz v0, :cond_15
-
-    move v0, v1
-
-    :goto_14
-    sput-boolean v0, Lcom/android/keyguard/KeyguardRune;->SUPPORT_WFC_PLMN_AT_AIRPLANE_MODE:Z
-
     .line 168
     invoke-static {}, Landroid/telephony/TelephonyManager;->getDefault()Landroid/telephony/TelephonyManager;
 
@@ -553,11 +535,11 @@
 
     move-result v0
 
-    if-le v0, v3, :cond_16
+    if-le v0, v3, :cond_15
 
     move v0, v3
 
-    :goto_15
+    :goto_14
     sput-boolean v0, Lcom/android/keyguard/KeyguardRune;->SUPPORT_MULTI_SIM_DEVICE:Z
 
     .line 177
@@ -576,11 +558,11 @@
     .line 192
     sget-boolean v0, Lcom/android/keyguard/KeyguardRune;->SUPPORT_KOR_USIM_TEXT:Z
 
-    if-eqz v0, :cond_17
+    if-eqz v0, :cond_16
 
     move v0, v3
 
-    :goto_16
+    :goto_15
     sput-boolean v0, Lcom/android/keyguard/KeyguardRune;->SUPPORT_KOR_EMERGENCY_CALL_BUTTON:Z
 
     .line 196
@@ -693,20 +675,20 @@
 
     const/4 v2, 0x3
 
-    if-ne v0, v2, :cond_18
+    if-ne v0, v2, :cond_17
 
     move v0, v3
 
     .line 285
-    :goto_17
+    :goto_16
     sput-boolean v0, Lcom/android/keyguard/KeyguardRune;->SUPPORT_SEC_FINGERPRINT_SENSOR_POSITION_REAR:Z
 
     .line 305
     sget-boolean v0, Lcom/android/keyguard/KeyguardRune;->SUPPORT_AOSP_LOCKOUT:Z
 
-    if-eqz v0, :cond_19
+    if-eqz v0, :cond_18
 
-    :goto_18
+    :goto_17
     sput-boolean v3, Lcom/android/keyguard/KeyguardRune;->SUPPORT_SEPARATE_FAILED_ATTEMPTS_FOR_BIOMETRIC:Z
 
     .line 314
@@ -938,11 +920,11 @@
     .line 472
     sget-object v0, Lcom/android/keyguard/KeyguardRune;->mConfigLockTimeoutSetting:Ljava/lang/String;
 
-    if-nez v0, :cond_1a
+    if-nez v0, :cond_19
 
     move v0, v1
 
-    :goto_19
+    :goto_18
     sput-boolean v0, Lcom/android/keyguard/KeyguardRune;->SUPPORT_ATT_LOCK_TIMEOUT:Z
 
     .line 478
@@ -1240,37 +1222,31 @@
     goto/16 :goto_13
 
     :cond_15
-    move v0, v3
+    move v0, v1
 
-    .line 165
+    .line 168
     goto/16 :goto_14
 
     :cond_16
     move v0, v1
 
-    .line 168
+    .line 192
     goto/16 :goto_15
 
     :cond_17
     move v0, v1
 
-    .line 192
+    .line 286
     goto/16 :goto_16
 
     :cond_18
-    move v0, v1
-
-    .line 286
-    goto/16 :goto_17
-
-    :cond_19
     move v3, v1
 
     .line 305
-    goto/16 :goto_18
+    goto/16 :goto_17
 
     .line 472
-    :cond_1a
+    :cond_19
     sget-object v0, Lcom/android/keyguard/KeyguardRune;->mConfigLockTimeoutSetting:Ljava/lang/String;
 
     const-string/jumbo v2, "10min"
@@ -1279,7 +1255,7 @@
 
     move-result v0
 
-    goto/16 :goto_19
+    goto/16 :goto_18
 .end method
 
 .method public constructor <init>()V

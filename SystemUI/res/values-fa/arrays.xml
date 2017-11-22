@@ -170,4 +170,18 @@
         <item>این نماد نشان داده نشود</item>
     </string-array>
     <array name="recents_tv_blacklist_array" />
+    <string-array name="month_name">
+        <item>فروردین</item>
+        <item>اردیبهشت</item>
+        <item>خرداد</item>
+        <item>تیر</item>
+        <item>مرداد</item>
+        <item>شهریور</item>
+        <item>مهر</item>
+        <item>آبان</item>
+        <item>آذر</item>
+        <item>دی</item>
+        <item>بهمن</item>
+        <item>اسفند</item>
+    </string-array>
 </resources>

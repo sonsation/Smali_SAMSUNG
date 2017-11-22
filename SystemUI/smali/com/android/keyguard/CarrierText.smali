@@ -678,7 +678,7 @@
     .param p1, "spn"    # Ljava/lang/CharSequence;
 
     .prologue
-    .line 544
+    .line 548
     invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v2
@@ -687,7 +687,7 @@
 
     const/4 v0, 0x0
 
-    .line 545
+    .line 549
     .local v0, "plmnValid":Z
     :goto_0
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
@@ -698,14 +698,14 @@
 
     const/4 v1, 0x0
 
-    .line 546
+    .line 550
     .local v1, "spnValid":Z
     :goto_1
     if-eqz v0, :cond_2
 
     if-eqz v1, :cond_2
 
-    .line 547
+    .line 551
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -730,7 +730,7 @@
 
     return-object v2
 
-    .line 544
+    .line 548
     .end local v0    # "plmnValid":Z
     .end local v1    # "spnValid":Z
     :cond_0
@@ -739,28 +739,28 @@
     .restart local v0    # "plmnValid":Z
     goto :goto_0
 
-    .line 545
+    .line 549
     :cond_1
     const/4 v1, 0x1
 
     .restart local v1    # "spnValid":Z
     goto :goto_1
 
-    .line 548
+    .line 552
     :cond_2
     if-eqz v0, :cond_3
 
-    .line 549
+    .line 553
     return-object p0
 
-    .line 550
+    .line 554
     :cond_3
     if-eqz v1, :cond_4
 
-    .line 551
+    .line 555
     return-object p1
 
-    .line 553
+    .line 557
     :cond_4
     const-string/jumbo v2, ""
 
@@ -773,16 +773,16 @@
     .param p2, "text"    # Ljava/lang/CharSequence;
 
     .prologue
-    .line 399
+    .line 403
     const/4 v0, 0x0
 
-    .line 400
+    .line 404
     .local v0, "carrierText":Ljava/lang/CharSequence;
     invoke-direct {p0, p1}, Lcom/android/keyguard/CarrierText;->getStatusForIccState(Lcom/android/internal/telephony/IccCardConstants$State;)Lcom/android/keyguard/CarrierText$StatusMode;
 
     move-result-object v1
 
-    .line 401
+    .line 405
     .local v1, "status":Lcom/android/keyguard/CarrierText$StatusMode;
     invoke-static {}, Lcom/android/keyguard/CarrierText;->-getcom-android-keyguard-CarrierText$StatusModeSwitchesValues()[I
 
@@ -796,13 +796,13 @@
 
     packed-switch v2, :pswitch_data_0
 
-    .line 486
+    .line 490
     .end local v0    # "carrierText":Ljava/lang/CharSequence;
     :cond_0
     :goto_0
     return-object v0
 
-    .line 404
+    .line 408
     .restart local v0    # "carrierText":Ljava/lang/CharSequence;
     :pswitch_0
     invoke-direct {p0}, Lcom/android/keyguard/CarrierText;->isRTL()Z
@@ -839,7 +839,7 @@
     .local v0, "carrierText":Ljava/lang/CharSequence;
     goto :goto_0
 
-    .line 412
+    .line 416
     .local v0, "carrierText":Ljava/lang/CharSequence;
     :pswitch_1
     const-string/jumbo v0, ""
@@ -847,7 +847,7 @@
     .local v0, "carrierText":Ljava/lang/CharSequence;
     goto :goto_0
 
-    .line 417
+    .line 421
     .local v0, "carrierText":Ljava/lang/CharSequence;
     :pswitch_2
     iget-object v2, p0, Lcom/android/keyguard/CarrierText;->mContext:Landroid/content/Context;
@@ -858,7 +858,7 @@
 
     move-result-object v2
 
-    .line 416
+    .line 420
     invoke-direct {p0, v2, p2}, Lcom/android/keyguard/CarrierText;->makeCarrierStringOnEmergencyCapable(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/CharSequence;
 
     move-result-object v0
@@ -866,7 +866,7 @@
     .local v0, "carrierText":Ljava/lang/CharSequence;
     goto :goto_0
 
-    .line 421
+    .line 425
     .local v0, "carrierText":Ljava/lang/CharSequence;
     :pswitch_3
     invoke-virtual {p0}, Lcom/android/keyguard/CarrierText;->getContext()Landroid/content/Context;
@@ -882,50 +882,50 @@
     .local v0, "carrierText":Ljava/lang/CharSequence;
     goto :goto_0
 
-    .line 425
+    .line 429
     .local v0, "carrierText":Ljava/lang/CharSequence;
     :pswitch_4
     const/4 v0, 0x0
 
-    .line 426
+    .line 430
     goto :goto_0
 
-    .line 429
+    .line 433
     :pswitch_5
     invoke-virtual {p0}, Lcom/android/keyguard/CarrierText;->getContext()Landroid/content/Context;
 
     move-result-object v2
 
-    .line 430
+    .line 434
     sget v3, Lcom/android/keyguard/R$string;->keyguard_permanent_disabled_sim_message_short:I
 
-    .line 429
+    .line 433
     invoke-virtual {v2, v3}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
     move-result-object v0
 
-    .line 432
+    .line 436
     .local v0, "carrierText":Ljava/lang/CharSequence;
     sget-boolean v2, Lcom/android/keyguard/KeyguardRune;->SUPPORT_KOR_USIM_TEXT:Z
 
     if-eqz v2, :cond_0
 
-    .line 433
+    .line 437
     const-string/jumbo v0, ""
 
     goto :goto_0
 
-    .line 439
+    .line 443
     .local v0, "carrierText":Ljava/lang/CharSequence;
     :pswitch_6
     const/4 v0, 0x0
 
-    .line 441
+    .line 445
     sget-boolean v2, Lcom/android/keyguard/KeyguardRune;->SUPPORT_KOR_USIM_TEXT:Z
 
     if-eqz v2, :cond_0
 
-    .line 443
+    .line 447
     invoke-virtual {p0}, Lcom/android/keyguard/CarrierText;->getContext()Landroid/content/Context;
 
     move-result-object v2
@@ -936,7 +936,7 @@
 
     move-result-object v2
 
-    .line 442
+    .line 446
     invoke-direct {p0, v2, p2}, Lcom/android/keyguard/CarrierText;->makeCarrierStringOnEmergencyCapable(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/CharSequence;
 
     move-result-object v0
@@ -944,7 +944,7 @@
     .local v0, "carrierText":Ljava/lang/CharSequence;
     goto :goto_0
 
-    .line 450
+    .line 454
     .local v0, "carrierText":Ljava/lang/CharSequence;
     :pswitch_7
     invoke-virtual {p0}, Lcom/android/keyguard/CarrierText;->getContext()Landroid/content/Context;
@@ -957,13 +957,13 @@
 
     move-result-object v0
 
-    .line 451
+    .line 455
     .local v0, "carrierText":Ljava/lang/CharSequence;
     sget-boolean v2, Lcom/android/keyguard/KeyguardRune;->SUPPORT_KOR_USIM_TEXT:Z
 
     if-eqz v2, :cond_2
 
-    .line 452
+    .line 456
     invoke-virtual {p0}, Lcom/android/keyguard/CarrierText;->getContext()Landroid/content/Context;
 
     move-result-object v2
@@ -974,18 +974,18 @@
 
     move-result-object v0
 
-    .line 454
+    .line 458
     :cond_2
     sget-boolean v2, Lcom/android/keyguard/KeyguardRune;->SUPPORT_DIRECT_CALL_TO_ECC:Z
 
     if-eqz v2, :cond_0
 
-    .line 455
+    .line 459
     move-object v0, p2
 
     goto :goto_0
 
-    .line 466
+    .line 470
     .local v0, "carrierText":Ljava/lang/CharSequence;
     :pswitch_8
     invoke-virtual {p0}, Lcom/android/keyguard/CarrierText;->getContext()Landroid/content/Context;
@@ -998,13 +998,13 @@
 
     move-result-object v0
 
-    .line 467
+    .line 471
     .local v0, "carrierText":Ljava/lang/CharSequence;
     sget-boolean v2, Lcom/android/keyguard/KeyguardRune;->SUPPORT_KOR_USIM_TEXT:Z
 
     if-eqz v2, :cond_3
 
-    .line 468
+    .line 472
     invoke-virtual {p0}, Lcom/android/keyguard/CarrierText;->getContext()Landroid/content/Context;
 
     move-result-object v2
@@ -1015,18 +1015,18 @@
 
     move-result-object v0
 
-    .line 470
+    .line 474
     :cond_3
     sget-boolean v2, Lcom/android/keyguard/KeyguardRune;->SUPPORT_DIRECT_CALL_TO_ECC:Z
 
     if-eqz v2, :cond_0
 
-    .line 471
+    .line 475
     move-object v0, p2
 
     goto/16 :goto_0
 
-    .line 481
+    .line 485
     .local v0, "carrierText":Ljava/lang/CharSequence;
     :pswitch_9
     invoke-virtual {p0}, Lcom/android/keyguard/CarrierText;->getContext()Landroid/content/Context;
@@ -1039,7 +1039,7 @@
 
     move-result-object v2
 
-    .line 480
+    .line 484
     invoke-direct {p0, v2, p2}, Lcom/android/keyguard/CarrierText;->makeCarrierStringOnEmergencyCapable(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/CharSequence;
 
     move-result-object v0
@@ -1047,7 +1047,7 @@
     .local v0, "carrierText":Ljava/lang/CharSequence;
     goto/16 :goto_0
 
-    .line 401
+    .line 405
     nop
 
     :pswitch_data_0
@@ -1074,15 +1074,15 @@
 
     const/4 v1, 0x0
 
-    .line 505
+    .line 509
     if-nez p1, :cond_0
 
-    .line 506
+    .line 510
     sget-object v1, Lcom/android/keyguard/CarrierText$StatusMode;->Normal:Lcom/android/keyguard/CarrierText$StatusMode;
 
     return-object v1
 
-    .line 510
+    .line 514
     :cond_0
     iget-object v2, p0, Lcom/android/keyguard/CarrierText;->mContext:Landroid/content/Context;
 
@@ -1096,17 +1096,17 @@
 
     if-nez v2, :cond_4
 
-    .line 511
+    .line 515
     sget-object v2, Lcom/android/internal/telephony/IccCardConstants$State;->ABSENT:Lcom/android/internal/telephony/IccCardConstants$State;
 
     if-eq p1, v2, :cond_1
 
-    .line 512
+    .line 516
     sget-object v2, Lcom/android/internal/telephony/IccCardConstants$State;->PERM_DISABLED:Lcom/android/internal/telephony/IccCardConstants$State;
 
     if-ne p1, v2, :cond_3
 
-    .line 515
+    .line 519
     .local v0, "missingAndNotProvisioned":Z
     :cond_1
     :goto_0
@@ -1114,7 +1114,7 @@
 
     sget-object p1, Lcom/android/internal/telephony/IccCardConstants$State;->NETWORK_LOCKED:Lcom/android/internal/telephony/IccCardConstants$State;
 
-    .line 516
+    .line 520
     :cond_2
     invoke-static {}, Lcom/android/keyguard/CarrierText;->-getcom-android-internal-telephony-IccCardConstants$StateSwitchesValues()[I
 
@@ -1128,7 +1128,7 @@
 
     packed-switch v1, :pswitch_data_0
 
-    .line 540
+    .line 544
     sget-object v1, Lcom/android/keyguard/CarrierText$StatusMode;->SimMissing:Lcom/android/keyguard/CarrierText$StatusMode;
 
     return-object v1
@@ -1137,77 +1137,77 @@
     :cond_3
     move v0, v1
 
-    .line 512
+    .line 516
     goto :goto_0
 
     :cond_4
     move v0, v1
 
-    .line 510
+    .line 514
     goto :goto_0
 
-    .line 518
+    .line 522
     .restart local v0    # "missingAndNotProvisioned":Z
     :pswitch_0
     sget-object v1, Lcom/android/keyguard/CarrierText$StatusMode;->SimMissing:Lcom/android/keyguard/CarrierText$StatusMode;
 
     return-object v1
 
-    .line 520
+    .line 524
     :pswitch_1
     sget-object v1, Lcom/android/keyguard/CarrierText$StatusMode;->SimMissingLocked:Lcom/android/keyguard/CarrierText$StatusMode;
 
     return-object v1
 
-    .line 523
+    .line 527
     :pswitch_2
     sget-object v1, Lcom/android/keyguard/CarrierText$StatusMode;->PersoLocked:Lcom/android/keyguard/CarrierText$StatusMode;
 
     return-object v1
 
-    .line 526
+    .line 530
     :pswitch_3
     sget-object v1, Lcom/android/keyguard/CarrierText$StatusMode;->SimNotReady:Lcom/android/keyguard/CarrierText$StatusMode;
 
     return-object v1
 
-    .line 528
+    .line 532
     :pswitch_4
     sget-object v1, Lcom/android/keyguard/CarrierText$StatusMode;->SimLocked:Lcom/android/keyguard/CarrierText$StatusMode;
 
     return-object v1
 
-    .line 530
+    .line 534
     :pswitch_5
     sget-object v1, Lcom/android/keyguard/CarrierText$StatusMode;->SimPukLocked:Lcom/android/keyguard/CarrierText$StatusMode;
 
     return-object v1
 
-    .line 532
+    .line 536
     :pswitch_6
     sget-object v1, Lcom/android/keyguard/CarrierText$StatusMode;->Normal:Lcom/android/keyguard/CarrierText$StatusMode;
 
     return-object v1
 
-    .line 534
+    .line 538
     :pswitch_7
     sget-object v1, Lcom/android/keyguard/CarrierText$StatusMode;->SimPermDisabled:Lcom/android/keyguard/CarrierText$StatusMode;
 
     return-object v1
 
-    .line 536
+    .line 540
     :pswitch_8
     sget-object v1, Lcom/android/keyguard/CarrierText$StatusMode;->SimMissing:Lcom/android/keyguard/CarrierText$StatusMode;
 
     return-object v1
 
-    .line 538
+    .line 542
     :pswitch_9
     sget-object v1, Lcom/android/keyguard/CarrierText$StatusMode;->SimIoError:Lcom/android/keyguard/CarrierText$StatusMode;
 
     return-object v1
 
-    .line 516
+    .line 520
     nop
 
     :pswitch_data_0
@@ -1231,7 +1231,7 @@
     .prologue
     const/4 v3, 0x1
 
-    .line 632
+    .line 636
     iget-object v1, p0, Lcom/android/keyguard/CarrierText;->mKeyguardUpdateMonitor:Lcom/android/keyguard/KeyguardUpdateMonitor;
 
     iget-object v1, v1, Lcom/android/keyguard/KeyguardUpdateMonitor;->mServiceStates:Ljava/util/HashMap;
@@ -1248,7 +1248,7 @@
 
     check-cast v0, Landroid/telephony/ServiceState;
 
-    .line 633
+    .line 637
     .local v0, "serviceStatesSlot":Landroid/telephony/ServiceState;
     if-eqz v0, :cond_0
 
@@ -1258,16 +1258,16 @@
 
     if-eqz v1, :cond_0
 
-    .line 634
+    .line 638
     return v3
 
-    .line 636
+    .line 640
     :cond_0
     sget-boolean v1, Lcom/android/keyguard/KeyguardRune;->SUPPORT_MULTI_SIM_DEVICE:Z
 
     if-eqz v1, :cond_1
 
-    .line 637
+    .line 641
     iget-object v1, p0, Lcom/android/keyguard/CarrierText;->mKeyguardUpdateMonitor:Lcom/android/keyguard/KeyguardUpdateMonitor;
 
     iget-object v1, v1, Lcom/android/keyguard/KeyguardUpdateMonitor;->mServiceStates:Ljava/util/HashMap;
@@ -1285,7 +1285,7 @@
     .end local v0    # "serviceStatesSlot":Landroid/telephony/ServiceState;
     check-cast v0, Landroid/telephony/ServiceState;
 
-    .line 638
+    .line 642
     .restart local v0    # "serviceStatesSlot":Landroid/telephony/ServiceState;
     if-eqz v0, :cond_1
 
@@ -1295,10 +1295,10 @@
 
     if-eqz v1, :cond_1
 
-    .line 639
+    .line 643
     return v3
 
-    .line 642
+    .line 646
     :cond_1
     const/4 v1, 0x0
 
@@ -1309,7 +1309,7 @@
     .locals 2
 
     .prologue
-    .line 681
+    .line 685
     iget-object v1, p0, Lcom/android/keyguard/CarrierText;->mContext:Landroid/content/Context;
 
     invoke-virtual {v1}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
@@ -1324,7 +1324,7 @@
 
     and-int/lit16 v0, v1, 0xc0
 
-    .line 683
+    .line 687
     .local v0, "layoutDir":I
     const/16 v1, 0x80
 
@@ -1347,19 +1347,19 @@
     .param p2, "emergencyCallMessage"    # Ljava/lang/CharSequence;
 
     .prologue
-    .line 494
+    .line 498
     iget-boolean v0, p0, Lcom/android/keyguard/CarrierText;->mIsEmergencyCallCapable:Z
 
     if-eqz v0, :cond_0
 
-    .line 495
+    .line 499
     invoke-static {p1, p2}, Lcom/android/keyguard/CarrierText;->concatenate(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/CharSequence;
 
     move-result-object v0
 
     return-object v0
 
-    .line 497
+    .line 501
     :cond_0
     return-object p1
 .end method
@@ -1370,7 +1370,7 @@
     .param p2, "spn"    # Ljava/lang/CharSequence;
 
     .prologue
-    .line 559
+    .line 563
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v2
@@ -1379,7 +1379,7 @@
 
     const/4 v0, 0x0
 
-    .line 560
+    .line 564
     .local v0, "plmnValid":Z
     :goto_0
     invoke-static {p2}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
@@ -1390,14 +1390,14 @@
 
     const/4 v1, 0x0
 
-    .line 562
+    .line 566
     .local v1, "spnValid":Z
     :goto_1
     sget-boolean v2, Lcom/android/keyguard/KeyguardRune;->SUPPORT_USC_USIM_TEXT:Z
 
     if-eqz v2, :cond_0
 
-    .line 563
+    .line 567
     if-eqz v0, :cond_0
 
     const-string/jumbo v2, "USCC"
@@ -1408,16 +1408,16 @@
 
     if-eqz v2, :cond_0
 
-    .line 564
+    .line 568
     const-string/jumbo p1, "U.S. Cellular"
 
-    .line 566
+    .line 570
     :cond_0
     sget-boolean v2, Lcom/android/keyguard/KeyguardRune;->SUPPORT_KDDI_USIM_TEXT:Z
 
     if-eqz v2, :cond_1
 
-    .line 567
+    .line 571
     if-eqz v0, :cond_1
 
     const-string/jumbo v2, "KDDI"
@@ -1428,10 +1428,10 @@
 
     if-eqz v2, :cond_1
 
-    .line 568
+    .line 572
     const-string/jumbo p1, "au"
 
-    .line 570
+    .line 574
     :cond_1
     sget-boolean v2, Lcom/android/keyguard/KeyguardRune;->SUPPORT_SPR_USIM_TEXT:Z
 
@@ -1439,7 +1439,7 @@
 
     if-eqz v0, :cond_2
 
-    .line 572
+    .line 576
     invoke-static {}, Landroid/telephony/TelephonyManager;->getDefault()Landroid/telephony/TelephonyManager;
 
     move-result-object v2
@@ -1448,13 +1448,13 @@
 
     move-result-object p1
 
-    .line 574
+    .line 578
     :cond_2
     sget-boolean v2, Lcom/android/keyguard/KeyguardRune;->SUPPORT_DISAPPEAR_DEFAULT_PLMN:Z
 
     if-eqz v2, :cond_3
 
-    .line 575
+    .line 579
     if-eqz v0, :cond_3
 
     iget-object v2, p0, Lcom/android/keyguard/CarrierText;->mContext:Landroid/content/Context;
@@ -1471,7 +1471,7 @@
 
     if-eqz v2, :cond_3
 
-    .line 576
+    .line 580
     iget-object v2, p0, Lcom/android/keyguard/CarrierText;->mContext:Landroid/content/Context;
 
     sget v3, Lcom/android/keyguard/R$string;->kg_default_carrier_text_searching:I
@@ -1480,21 +1480,21 @@
 
     move-result-object p1
 
-    .line 579
+    .line 583
     :cond_3
     if-eqz v0, :cond_7
 
     if-eqz v1, :cond_7
 
-    .line 580
+    .line 584
     sget-boolean v2, Lcom/android/keyguard/KeyguardRune;->SUPPORT_KOR_USIM_TEXT:Z
 
     if-eqz v2, :cond_6
 
-    .line 581
+    .line 585
     return-object p1
 
-    .line 559
+    .line 563
     .end local v0    # "plmnValid":Z
     .end local v1    # "spnValid":Z
     :cond_4
@@ -1503,14 +1503,14 @@
     .restart local v0    # "plmnValid":Z
     goto :goto_0
 
-    .line 560
+    .line 564
     :cond_5
     const/4 v1, 0x1
 
     .restart local v1    # "spnValid":Z
     goto :goto_1
 
-    .line 583
+    .line 587
     :cond_6
     new-instance v2, Ljava/lang/StringBuilder;
 
@@ -1536,21 +1536,21 @@
 
     return-object v2
 
-    .line 586
+    .line 590
     :cond_7
     if-eqz v0, :cond_8
 
-    .line 587
+    .line 591
     return-object p1
 
-    .line 588
+    .line 592
     :cond_8
     if-eqz v1, :cond_9
 
-    .line 589
+    .line 593
     return-object p2
 
-    .line 591
+    .line 595
     :cond_9
     const-string/jumbo v2, ""
 
@@ -1562,34 +1562,34 @@
     .param p1, "networkClass"    # I
 
     .prologue
-    .line 669
+    .line 673
     const v2, 0x1040074
 
-    .line 670
+    .line 674
     const v3, 0x1040075
 
-    .line 671
+    .line 675
     const v4, 0x1040076
 
-    .line 672
+    .line 676
     const v5, 0x1040077
 
-    .line 669
+    .line 673
     filled-new-array {v2, v3, v4, v5}, [I
 
     move-result-object v0
 
-    .line 673
+    .line 677
     .local v0, "classIds":[I
     const/4 v1, 0x0
 
-    .line 674
+    .line 678
     .local v1, "classString":Ljava/lang/String;
     array-length v2, v0
 
     if-ge p1, v2, :cond_0
 
-    .line 675
+    .line 679
     invoke-virtual {p0}, Lcom/android/keyguard/CarrierText;->getContext()Landroid/content/Context;
 
     move-result-object v2
@@ -1604,7 +1604,7 @@
 
     move-result-object v1
 
-    .line 677
+    .line 681
     .end local v1    # "classString":Ljava/lang/String;
     :cond_0
     if-nez v1, :cond_1
@@ -1621,27 +1621,27 @@
     .locals 2
 
     .prologue
-    .line 362
+    .line 366
     invoke-super {p0}, Landroid/widget/TextView;->onAttachedToWindow()V
 
-    .line 363
+    .line 367
     iget-object v0, p0, Lcom/android/keyguard/CarrierText;->mContext:Landroid/content/Context;
 
     invoke-static {v0}, Landroid/net/ConnectivityManager;->from(Landroid/content/Context;)Landroid/net/ConnectivityManager;
 
     move-result-object v0
 
-    .line 364
+    .line 368
     const/4 v1, 0x0
 
-    .line 363
+    .line 367
     invoke-virtual {v0, v1}, Landroid/net/ConnectivityManager;->isNetworkSupported(I)Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 365
+    .line 369
     iget-object v0, p0, Lcom/android/keyguard/CarrierText;->mContext:Landroid/content/Context;
 
     invoke-static {v0}, Lcom/android/keyguard/KeyguardUpdateMonitor;->getInstance(Landroid/content/Context;)Lcom/android/keyguard/KeyguardUpdateMonitor;
@@ -1650,14 +1650,14 @@
 
     iput-object v0, p0, Lcom/android/keyguard/CarrierText;->mKeyguardUpdateMonitor:Lcom/android/keyguard/KeyguardUpdateMonitor;
 
-    .line 366
+    .line 370
     iget-object v0, p0, Lcom/android/keyguard/CarrierText;->mKeyguardUpdateMonitor:Lcom/android/keyguard/KeyguardUpdateMonitor;
 
     iget-object v1, p0, Lcom/android/keyguard/CarrierText;->mCallback:Lcom/android/keyguard/KeyguardUpdateMonitorCallback;
 
     invoke-virtual {v0, v1}, Lcom/android/keyguard/KeyguardUpdateMonitor;->registerCallback(Lcom/android/keyguard/KeyguardUpdateMonitorCallback;)V
 
-    .line 368
+    .line 372
     iget-object v0, p0, Lcom/android/keyguard/CarrierText;->mContext:Landroid/content/Context;
 
     invoke-static {v0}, Lcom/android/keyguard/KnoxStateMonitor;->getInstance(Landroid/content/Context;)Lcom/android/keyguard/KnoxStateMonitor;
@@ -1668,17 +1668,17 @@
 
     invoke-virtual {v0, v1}, Lcom/android/keyguard/KnoxStateMonitor;->registerCallback(Lcom/android/keyguard/KnoxStateMonitorCallback;)V
 
-    .line 361
+    .line 365
     :goto_0
     return-void
 
-    .line 372
+    .line 376
     :cond_0
     const/4 v0, 0x0
 
     iput-object v0, p0, Lcom/android/keyguard/CarrierText;->mKeyguardUpdateMonitor:Lcom/android/keyguard/KeyguardUpdateMonitor;
 
-    .line 373
+    .line 377
     const-string/jumbo v0, ""
 
     invoke-virtual {p0, v0}, Lcom/android/keyguard/CarrierText;->setText(Ljava/lang/CharSequence;)V
@@ -1690,22 +1690,22 @@
     .locals 2
 
     .prologue
-    .line 379
+    .line 383
     invoke-super {p0}, Landroid/widget/TextView;->onDetachedFromWindow()V
 
-    .line 380
+    .line 384
     iget-object v0, p0, Lcom/android/keyguard/CarrierText;->mKeyguardUpdateMonitor:Lcom/android/keyguard/KeyguardUpdateMonitor;
 
     if-eqz v0, :cond_0
 
-    .line 381
+    .line 385
     iget-object v0, p0, Lcom/android/keyguard/CarrierText;->mKeyguardUpdateMonitor:Lcom/android/keyguard/KeyguardUpdateMonitor;
 
     iget-object v1, p0, Lcom/android/keyguard/CarrierText;->mCallback:Lcom/android/keyguard/KeyguardUpdateMonitorCallback;
 
     invoke-virtual {v0, v1}, Lcom/android/keyguard/KeyguardUpdateMonitor;->removeCallback(Lcom/android/keyguard/KeyguardUpdateMonitorCallback;)V
 
-    .line 384
+    .line 388
     :cond_0
     iget-object v0, p0, Lcom/android/keyguard/CarrierText;->mContext:Landroid/content/Context;
 
@@ -1717,7 +1717,7 @@
 
     invoke-virtual {v0, v1}, Lcom/android/keyguard/KnoxStateMonitor;->removeCallback(Lcom/android/keyguard/KnoxStateMonitorCallback;)V
 
-    .line 378
+    .line 382
     return-void
 .end method
 
@@ -1725,25 +1725,25 @@
     .locals 3
 
     .prologue
-    .line 353
+    .line 357
     invoke-super {p0}, Landroid/widget/TextView;->onFinishInflate()V
 
-    .line 354
+    .line 358
     invoke-virtual {p0}, Lcom/android/keyguard/CarrierText;->getResources()Landroid/content/res/Resources;
 
     move-result-object v1
 
-    .line 355
+    .line 359
     const v2, 0x1040536
 
-    .line 354
+    .line 358
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
     move-result-object v1
 
     sput-object v1, Lcom/android/keyguard/CarrierText;->mSeparator:Ljava/lang/CharSequence;
 
-    .line 356
+    .line 360
     iget-object v1, p0, Lcom/android/keyguard/CarrierText;->mContext:Landroid/content/Context;
 
     invoke-static {v1}, Lcom/android/keyguard/KeyguardUpdateMonitor;->getInstance(Landroid/content/Context;)Lcom/android/keyguard/KeyguardUpdateMonitor;
@@ -1754,11 +1754,11 @@
 
     move-result v0
 
-    .line 357
+    .line 361
     .local v0, "shouldMarquee":Z
     invoke-virtual {p0, v0}, Lcom/android/keyguard/CarrierText;->setSelected(Z)V
 
-    .line 352
+    .line 356
     return-void
 .end method
 
@@ -2550,19 +2550,27 @@
     move-result-object v8
 
     .line 330
-    sget-boolean v28, Lcom/android/keyguard/KeyguardRune;->SUPPORT_WFC_PLMN_AT_AIRPLANE_MODE:Z
-
-    if-eqz v28, :cond_13
-
     sget-boolean v28, Lcom/android/keyguard/CarrierText;->mVoWifiConnected:Z
 
     if-eqz v28, :cond_13
 
     .line 331
+    const-string/jumbo v28, ""
+
+    sget-object v29, Lcom/android/keyguard/KeyguardRune;->WFC_PLMN_INFO_AT_AIRPLANE_MODE:Ljava/lang/String;
+
+    invoke-virtual/range {v28 .. v29}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v28
+
+    if-nez v28, :cond_1f
+
+    .line 332
     sget-object v8, Lcom/android/keyguard/KeyguardRune;->WFC_PLMN_INFO_AT_AIRPLANE_MODE:Ljava/lang/String;
 
-    .line 339
+    .line 343
     :cond_13
+    :goto_5
     sget-boolean v28, Lcom/android/keyguard/KeyguardRune;->SUPPORT_DISAPPEAR_DEFAULT_PLMN:Z
 
     if-eqz v28, :cond_14
@@ -2573,7 +2581,7 @@
 
     if-eqz v28, :cond_14
 
-    .line 340
+    .line 344
     move-object/from16 v0, p0
 
     iget-object v0, v0, Lcom/android/keyguard/CarrierText;->mContext:Landroid/content/Context;
@@ -2586,7 +2594,7 @@
 
     move-result-object v8
 
-    .line 343
+    .line 347
     :cond_14
     move-object/from16 v0, p0
 
@@ -2602,10 +2610,10 @@
 
     move-result v28
 
-    if-eqz v28, :cond_1f
+    if-eqz v28, :cond_20
 
-    .line 347
-    :goto_5
+    .line 351
+    :goto_6
     const-string/jumbo v28, "CarrierText"
 
     new-instance v29, Ljava/lang/StringBuilder;
@@ -2630,7 +2638,7 @@
 
     invoke-static/range {v28 .. v29}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 348
+    .line 352
     move-object/from16 v0, p0
 
     invoke-virtual {v0, v8}, Lcom/android/keyguard/CarrierText;->setText(Ljava/lang/CharSequence;)V
@@ -2929,7 +2937,7 @@
     sget-object v27, Lcom/android/keyguard/CarrierText;->sPlmnOfNetworkControllerImpl:Ljava/lang/String;
 
     .line 296
-    :goto_6
+    :goto_7
     sget-boolean v28, Lcom/android/keyguard/KeyguardRune;->SUPPORT_DISAPPEAR_DEFAULT_PLMN:Z
 
     if-eqz v28, :cond_1a
@@ -2990,13 +2998,13 @@
     .line 292
     move-object/from16 v27, v9
 
-    goto :goto_6
+    goto :goto_7
 
     .line 294
     :cond_1d
     move-object/from16 v27, v13
 
-    goto :goto_6
+    goto :goto_7
 
     .line 316
     .end local v9    # "emergencyCallsOnly":Ljava/lang/String;
@@ -3027,11 +3035,17 @@
 
     goto/16 :goto_4
 
-    .line 344
+    .line 334
     .end local v11    # "i":Landroid/content/Intent;
     .end local v27    # "text":Ljava/lang/CharSequence;
     :cond_1f
-    const-string/jumbo v8, ""
+    sget-object v8, Lcom/android/keyguard/CarrierText;->sPlmnOfNetworkControllerImpl:Ljava/lang/String;
 
     goto/16 :goto_5
+
+    .line 348
+    :cond_20
+    const-string/jumbo v8, ""
+
+    goto/16 :goto_6
 .end method
