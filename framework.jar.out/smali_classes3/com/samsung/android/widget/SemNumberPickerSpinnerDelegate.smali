@@ -600,7 +600,7 @@
     .locals 1
 
     .prologue
-    .line 2546
+    .line 2547
     const/16 v0, 0x3c
 
     new-array v0, v0, [C
@@ -612,7 +612,7 @@
     .line 95
     return-void
 
-    .line 2546
+    .line 2547
     :array_0
     .array-data 2
         0x30s
@@ -2228,14 +2228,14 @@
 
     const/4 v1, 0x0
 
-    .line 2154
+    .line 2155
     iget-object v0, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mInputText:Landroid/widget/EditText;
 
     const/4 v2, 0x4
 
     invoke-virtual {v0, v2}, Landroid/view/View;->setVisibility(I)V
 
-    .line 2155
+    .line 2156
     iget-object v0, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mFlingScroller:Landroid/widget/Scroller;
 
     invoke-direct {p0, v0}, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->moveToFinalScrollerPosition(Landroid/widget/Scroller;)Z
@@ -2244,34 +2244,34 @@
 
     if-nez v0, :cond_0
 
-    .line 2156
+    .line 2157
     iget-object v0, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mAdjustScroller:Landroid/widget/Scroller;
 
     invoke-direct {p0, v0}, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->moveToFinalScrollerPosition(Landroid/widget/Scroller;)Z
 
-    .line 2158
+    .line 2159
     :cond_0
     iput v1, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mPreviousScrollerY:I
 
-    .line 2159
+    .line 2160
     const/16 v5, 0x1f4
 
-    .line 2160
+    .line 2161
     .local v5, "duration":I
     iput v3, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mChangeValueBy:I
 
-    .line 2162
+    .line 2163
     iget-boolean v0, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mLongPressed_FIRST_SCROLL:Z
 
     if-eqz v0, :cond_3
 
-    .line 2163
+    .line 2164
     iput-boolean v1, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mLongPressed_FIRST_SCROLL:Z
 
-    .line 2164
+    .line 2165
     iput-boolean v3, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mLongPressed_SECOND_SCROLL:Z
 
-    .line 2180
+    .line 2181
     :cond_1
     :goto_0
     iget-boolean v0, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mIsLongPressed:Z
@@ -2282,15 +2282,15 @@
 
     if-eqz v0, :cond_7
 
-    .line 2181
+    .line 2182
     const/16 v5, 0xc8
 
-    .line 2182
+    .line 2183
     const-wide/16 v2, 0x258
 
     iput-wide v2, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mLongPressUpdateInterval:J
 
-    .line 2189
+    .line 2190
     :cond_2
     :goto_1
     iget v0, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mChangeValueBy:I
@@ -2299,10 +2299,10 @@
 
     iput v0, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mLongPressCount:I
 
-    .line 2191
+    .line 2192
     if-eqz p1, :cond_8
 
-    .line 2192
+    .line 2193
     iget-object v0, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mFlingScroller:Landroid/widget/Scroller;
 
     iget v2, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mSelectorElementHeight:I
@@ -2319,28 +2319,28 @@
 
     invoke-virtual/range {v0 .. v5}, Landroid/widget/Scroller;->startScroll(IIIII)V
 
-    .line 2196
+    .line 2197
     :goto_2
     iget-object v0, p0, Lcom/samsung/android/widget/SemNumberPicker$AbstractSemNumberPickerDelegate;->mDelegator:Lcom/samsung/android/widget/SemNumberPicker;
 
     invoke-virtual {v0}, Landroid/view/View;->invalidate()V
 
-    .line 2153
+    .line 2154
     return-void
 
-    .line 2166
+    .line 2167
     :cond_3
     iget-boolean v0, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mLongPressed_SECOND_SCROLL:Z
 
     if-eqz v0, :cond_6
 
-    .line 2167
+    .line 2168
     iput-boolean v1, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mLongPressed_SECOND_SCROLL:Z
 
-    .line 2168
+    .line 2169
     iput-boolean v3, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mLongPressed_THIRD_SCROLL:Z
 
-    .line 2169
+    .line 2170
     invoke-virtual {p0}, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->getValue()I
 
     move-result v0
@@ -2349,16 +2349,16 @@
 
     if-nez v0, :cond_4
 
-    .line 2170
+    .line 2171
     iput v4, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mChangeValueBy:I
 
     goto :goto_0
 
-    .line 2171
+    .line 2172
     :cond_4
     if-eqz p1, :cond_5
 
-    .line 2172
+    .line 2173
     invoke-virtual {p0}, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->getValue()I
 
     move-result v0
@@ -2371,7 +2371,7 @@
 
     goto :goto_0
 
-    .line 2174
+    .line 2175
     :cond_5
     invoke-virtual {p0}, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->getValue()I
 
@@ -2383,37 +2383,37 @@
 
     goto :goto_0
 
-    .line 2176
+    .line 2177
     :cond_6
     iget-boolean v0, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mLongPressed_THIRD_SCROLL:Z
 
     if-eqz v0, :cond_1
 
-    .line 2177
+    .line 2178
     iput v4, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mChangeValueBy:I
 
     goto :goto_0
 
-    .line 2183
+    .line 2184
     :cond_7
     iget-boolean v0, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mIsLongPressed:Z
 
     if-eqz v0, :cond_2
 
-    .line 2184
+    .line 2185
     const/16 v5, 0x64
 
-    .line 2185
+    .line 2186
     iput v3, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mChangeValueBy:I
 
-    .line 2186
+    .line 2187
     const-wide/16 v2, 0x12c
 
     iput-wide v2, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mLongPressUpdateInterval:J
 
     goto :goto_1
 
-    .line 2194
+    .line 2195
     :cond_8
     iget-object v0, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mFlingScroller:Landroid/widget/Scroller;
 
@@ -2441,14 +2441,14 @@
 
     const/4 v1, 0x0
 
-    .line 2207
+    .line 2208
     iget-object v0, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mInputText:Landroid/widget/EditText;
 
     const/4 v2, 0x4
 
     invoke-virtual {v0, v2}, Landroid/view/View;->setVisibility(I)V
 
-    .line 2208
+    .line 2209
     iget-object v0, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mFlingScroller:Landroid/widget/Scroller;
 
     invoke-direct {p0, v0}, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->moveToFinalScrollerPosition(Landroid/widget/Scroller;)Z
@@ -2457,19 +2457,19 @@
 
     if-nez v0, :cond_0
 
-    .line 2209
+    .line 2210
     iget-object v0, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mAdjustScroller:Landroid/widget/Scroller;
 
     invoke-direct {p0, v0}, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->moveToFinalScrollerPosition(Landroid/widget/Scroller;)Z
 
-    .line 2211
+    .line 2212
     :cond_0
     iput v1, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mPreviousScrollerY:I
 
-    .line 2213
+    .line 2214
     if-eqz p1, :cond_1
 
-    .line 2214
+    .line 2215
     iget-object v0, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mFlingScroller:Landroid/widget/Scroller;
 
     iget v2, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mSelectorElementHeight:I
@@ -2484,16 +2484,16 @@
 
     invoke-virtual/range {v0 .. v5}, Landroid/widget/Scroller;->startScroll(IIIII)V
 
-    .line 2218
+    .line 2219
     :goto_0
     iget-object v0, p0, Lcom/samsung/android/widget/SemNumberPicker$AbstractSemNumberPickerDelegate;->mDelegator:Lcom/samsung/android/widget/SemNumberPicker;
 
     invoke-virtual {v0}, Landroid/view/View;->invalidate()V
 
-    .line 2206
+    .line 2207
     return-void
 
-    .line 2216
+    .line 2217
     :cond_1
     iget-object v0, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mFlingScroller:Landroid/widget/Scroller;
 
@@ -2517,7 +2517,7 @@
     .prologue
     const/4 v3, 0x0
 
-    .line 2329
+    .line 2330
     array-length v2, p1
 
     add-int/lit8 v0, v2, -0x1
@@ -2526,19 +2526,19 @@
     :goto_0
     if-lez v0, :cond_0
 
-    .line 2330
+    .line 2331
     add-int/lit8 v2, v0, -0x1
 
     aget v2, p1, v2
 
     aput v2, p1, v0
 
-    .line 2329
+    .line 2330
     add-int/lit8 v0, v0, -0x1
 
     goto :goto_0
 
-    .line 2332
+    .line 2333
     :cond_0
     const/4 v2, 0x1
 
@@ -2546,7 +2546,7 @@
 
     add-int/lit8 v1, v2, -0x1
 
-    .line 2333
+    .line 2334
     .local v1, "nextScrollSelectorIndex":I
     iget-boolean v2, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mWrapSelectorWheel:Z
 
@@ -2556,17 +2556,17 @@
 
     if-ge v1, v2, :cond_1
 
-    .line 2334
+    .line 2335
     iget v1, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mMaxValue:I
 
-    .line 2336
+    .line 2337
     :cond_1
     aput v1, p1, v3
 
-    .line 2337
+    .line 2338
     invoke-direct {p0, v1}, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->ensureCachedScrollSelectorValue(I)V
 
-    .line 2328
+    .line 2329
     return-void
 .end method
 
@@ -2575,10 +2575,10 @@
     .param p1, "selectorIndex"    # I
 
     .prologue
-    .line 2345
+    .line 2346
     iget-object v0, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mSelectorIndexToStringCache:Landroid/util/SparseArray;
 
-    .line 2346
+    .line 2347
     .local v0, "cache":Landroid/util/SparseArray;, "Landroid/util/SparseArray<Ljava/lang/String;>;"
     invoke-virtual {v0, p1}, Landroid/util/SparseArray;->get(I)Ljava/lang/Object;
 
@@ -2586,14 +2586,14 @@
 
     check-cast v2, Ljava/lang/String;
 
-    .line 2347
+    .line 2348
     .local v2, "scrollSelectorValue":Ljava/lang/String;
     if-eqz v2, :cond_0
 
-    .line 2348
+    .line 2349
     return-void
 
-    .line 2350
+    .line 2351
     :cond_0
     iget v3, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mMinValue:I
 
@@ -2603,29 +2603,29 @@
 
     if-le p1, v3, :cond_2
 
-    .line 2351
+    .line 2352
     :cond_1
     const-string/jumbo v2, ""
 
-    .line 2360
+    .line 2361
     :goto_0
     invoke-virtual {v0, p1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
-    .line 2344
+    .line 2345
     return-void
 
-    .line 2353
+    .line 2354
     :cond_2
     iget-object v3, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mDisplayedValues:[Ljava/lang/String;
 
     if-eqz v3, :cond_3
 
-    .line 2354
+    .line 2355
     iget v3, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mMinValue:I
 
     sub-int v1, p1, v3
 
-    .line 2355
+    .line 2356
     .local v1, "displayedValueIndex":I
     iget-object v3, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mDisplayedValues:[Ljava/lang/String;
 
@@ -2633,7 +2633,7 @@
 
     goto :goto_0
 
-    .line 2357
+    .line 2358
     .end local v1    # "displayedValueIndex":I
     :cond_3
     invoke-direct {p0, p1}, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->formatNumber(I)Ljava/lang/String;
@@ -2649,17 +2649,17 @@
     .prologue
     const/4 v1, 0x0
 
-    .line 2645
+    .line 2646
     iget v0, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mInitialScrollOffset:I
 
     const/high16 v2, -0x80000000
 
     if-ne v0, v2, :cond_0
 
-    .line 2646
+    .line 2647
     return v1
 
-    .line 2648
+    .line 2649
     :cond_0
     iget v0, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mInitialScrollOffset:I
 
@@ -2667,14 +2667,14 @@
 
     sub-int v4, v0, v2
 
-    .line 2649
+    .line 2650
     .local v4, "deltaY":I
     if-eqz v4, :cond_3
 
-    .line 2650
+    .line 2651
     iput v1, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mPreviousScrollerY:I
 
-    .line 2651
+    .line 2652
     invoke-static {v4}, Ljava/lang/Math;->abs(I)I
 
     move-result v0
@@ -2685,7 +2685,7 @@
 
     if-le v0, v2, :cond_1
 
-    .line 2652
+    .line 2653
     if-lez v4, :cond_2
 
     iget v0, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mSelectorElementHeight:I
@@ -2695,7 +2695,7 @@
     :goto_0
     add-int/2addr v4, v0
 
-    .line 2654
+    .line 2655
     :cond_1
     iget-object v0, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mAdjustScroller:Landroid/widget/Scroller;
 
@@ -2707,23 +2707,23 @@
 
     invoke-virtual/range {v0 .. v5}, Landroid/widget/Scroller;->startScroll(IIIII)V
 
-    .line 2655
+    .line 2656
     iget-object v0, p0, Lcom/samsung/android/widget/SemNumberPicker$AbstractSemNumberPickerDelegate;->mDelegator:Lcom/samsung/android/widget/SemNumberPicker;
 
     invoke-virtual {v0}, Landroid/view/View;->invalidate()V
 
-    .line 2656
+    .line 2657
     const/4 v0, 0x1
 
     return v0
 
-    .line 2652
+    .line 2653
     :cond_2
     iget v0, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mSelectorElementHeight:I
 
     goto :goto_0
 
-    .line 2658
+    .line 2659
     :cond_3
     return v1
 .end method
@@ -2735,10 +2735,10 @@
     .prologue
     const/4 v1, 0x0
 
-    .line 2286
+    .line 2287
     iput v1, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mPreviousScrollerY:I
 
-    .line 2288
+    .line 2289
     iget-object v0, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mFlingScroller:Landroid/widget/Scroller;
 
     iget v2, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mCurrentScrollOffset:I
@@ -2757,7 +2757,7 @@
 
     invoke-virtual/range {v0 .. v8}, Landroid/widget/Scroller;->fling(IIIIIIII)V
 
-    .line 2289
+    .line 2290
     iget-object v0, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mFlingScroller:Landroid/widget/Scroller;
 
     invoke-virtual {v0}, Landroid/widget/Scroller;->getFinalY()I
@@ -2780,13 +2780,13 @@
 
     mul-int/2addr v0, v1
 
-    .line 2290
+    .line 2291
     iget v1, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mInitialScrollOffset:I
 
-    .line 2289
+    .line 2290
     add-int v9, v0, v1
 
-    .line 2291
+    .line 2292
     .local v9, "tempFinal":I
     iget-object v1, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mFlingScroller:Landroid/widget/Scroller;
 
@@ -2805,15 +2805,15 @@
     :goto_0
     invoke-virtual {v1, v0}, Landroid/widget/Scroller;->setFinalY(I)V
 
-    .line 2293
+    .line 2294
     iget-object v0, p0, Lcom/samsung/android/widget/SemNumberPicker$AbstractSemNumberPickerDelegate;->mDelegator:Lcom/samsung/android/widget/SemNumberPicker;
 
     invoke-virtual {v0}, Landroid/view/View;->invalidate()V
 
-    .line 2285
+    .line 2286
     return-void
 
-    .line 2292
+    .line 2293
     :cond_0
     iget v0, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mSelectorElementHeight:I
 
@@ -2835,7 +2835,7 @@
     .param p1, "value"    # I
 
     .prologue
-    .line 2364
+    .line 2365
     iget-object v0, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mFormatter:Lcom/samsung/android/widget/SemNumberPicker$Formatter;
 
     if-eqz v0, :cond_0
@@ -2862,7 +2862,7 @@
     .param p0, "value"    # I
 
     .prologue
-    .line 3403
+    .line 3404
     invoke-static {}, Ljava/util/Locale;->getDefault()Ljava/util/Locale;
 
     move-result-object v0
@@ -2893,16 +2893,16 @@
     .param p0, "ft"    # Ljava/lang/String;
 
     .prologue
-    .line 1841
+    .line 1842
     const/4 v2, 0x0
 
-    .line 1842
+    .line 1843
     .local v2, "fontType":Landroid/graphics/Typeface;
     new-instance v1, Ljava/io/File;
 
     invoke-direct {v1, p0}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
-    .line 1843
+    .line 1844
     .local v1, "fontFile":Ljava/io/File;
     invoke-virtual {v1}, Ljava/io/File;->exists()Z
 
@@ -2910,7 +2910,7 @@
 
     if-eqz v3, :cond_0
 
-    .line 1845
+    .line 1846
     :try_start_0
     invoke-static {p0}, Landroid/graphics/Typeface;->createFromFile(Ljava/lang/String;)Landroid/graphics/Typeface;
     :try_end_0
@@ -2918,18 +2918,18 @@
 
     move-result-object v2
 
-    .line 1850
+    .line 1851
     .end local v2    # "fontType":Landroid/graphics/Typeface;
     :cond_0
     :goto_0
     return-object v2
 
-    .line 1846
+    .line 1847
     .restart local v2    # "fontType":Landroid/graphics/Typeface;
     :catch_0
     move-exception v0
 
-    .line 1847
+    .line 1848
     .local v0, "e":Ljava/lang/Exception;
     const/4 v2, 0x0
 
@@ -2941,12 +2941,12 @@
     .param p1, "value"    # Ljava/lang/String;
 
     .prologue
-    .line 2515
+    .line 2516
     iget-object v2, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mDisplayedValues:[Ljava/lang/String;
 
     if-nez v2, :cond_0
 
-    .line 2517
+    .line 2518
     :try_start_0
     invoke-static {p1}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
     :try_end_0
@@ -2956,18 +2956,18 @@
 
     return v2
 
-    .line 2518
+    .line 2519
     :catch_0
     move-exception v0
 
-    .line 2540
+    .line 2541
     .local v0, "e":Ljava/lang/NumberFormatException;
     :goto_0
     iget v2, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mMinValue:I
 
     return v2
 
-    .line 2522
+    .line 2523
     .end local v0    # "e":Ljava/lang/NumberFormatException;
     :cond_0
     const/4 v1, 0x0
@@ -2980,12 +2980,12 @@
 
     if-ge v1, v2, :cond_2
 
-    .line 2524
+    .line 2525
     invoke-virtual {p1}, Ljava/lang/String;->toLowerCase()Ljava/lang/String;
 
     move-result-object p1
 
-    .line 2525
+    .line 2526
     iget-object v2, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mDisplayedValues:[Ljava/lang/String;
 
     aget-object v2, v2, v1
@@ -3000,20 +3000,20 @@
 
     if-eqz v2, :cond_1
 
-    .line 2526
+    .line 2527
     iget v2, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mMinValue:I
 
     add-int/2addr v2, v1
 
     return v2
 
-    .line 2522
+    .line 2523
     :cond_1
     add-int/lit8 v1, v1, 0x1
 
     goto :goto_1
 
-    .line 2535
+    .line 2536
     :cond_2
     :try_start_1
     invoke-static {p1}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
@@ -3024,7 +3024,7 @@
 
     return v2
 
-    .line 2536
+    .line 2537
     :catch_1
     move-exception v0
 
@@ -3037,12 +3037,12 @@
     .param p1, "selectorIndex"    # I
 
     .prologue
-    .line 2300
+    .line 2301
     iget v0, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mMaxValue:I
 
     if-le p1, v0, :cond_0
 
-    .line 2301
+    .line 2302
     iget v0, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mMinValue:I
 
     iget v1, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mMaxValue:I
@@ -3063,13 +3063,13 @@
 
     return v0
 
-    .line 2302
+    .line 2303
     :cond_0
     iget v0, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mMinValue:I
 
     if-ge p1, v0, :cond_1
 
-    .line 2303
+    .line 2304
     iget v0, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mMaxValue:I
 
     iget v1, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mMinValue:I
@@ -3090,7 +3090,7 @@
 
     return v0
 
-    .line 2305
+    .line 2306
     :cond_1
     return p1
 .end method
@@ -3099,12 +3099,12 @@
     .locals 3
 
     .prologue
-    .line 1578
+    .line 1579
     invoke-static {}, Landroid/view/inputmethod/InputMethodManager;->peekInstance()Landroid/view/inputmethod/InputMethodManager;
 
     move-result-object v0
 
-    .line 1579
+    .line 1580
     .local v0, "inputMethodManager":Landroid/view/inputmethod/InputMethodManager;
     if-eqz v0, :cond_0
 
@@ -3116,7 +3116,7 @@
 
     if-eqz v1, :cond_0
 
-    .line 1580
+    .line 1581
     iget-object v1, p0, Lcom/samsung/android/widget/SemNumberPicker$AbstractSemNumberPickerDelegate;->mDelegator:Lcom/samsung/android/widget/SemNumberPicker;
 
     invoke-virtual {v1}, Landroid/view/View;->getWindowToken()Landroid/os/IBinder;
@@ -3127,14 +3127,14 @@
 
     invoke-virtual {v0, v1, v2}, Landroid/view/inputmethod/InputMethodManager;->hideSoftInputFromWindow(Landroid/os/IBinder;I)Z
 
-    .line 1581
+    .line 1582
     iget-object v1, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mInputText:Landroid/widget/EditText;
 
     const/4 v2, 0x4
 
     invoke-virtual {v1, v2}, Landroid/view/View;->setVisibility(I)V
 
-    .line 1577
+    .line 1578
     :cond_0
     return-void
 .end method
@@ -3144,7 +3144,7 @@
     .param p1, "selectorIndices"    # [I
 
     .prologue
-    .line 2313
+    .line 2314
     const/4 v0, 0x0
 
     .local v0, "i":I
@@ -3155,19 +3155,19 @@
 
     if-ge v0, v2, :cond_0
 
-    .line 2314
+    .line 2315
     add-int/lit8 v2, v0, 0x1
 
     aget v2, p1, v2
 
     aput v2, p1, v0
 
-    .line 2313
+    .line 2314
     add-int/lit8 v0, v0, 0x1
 
     goto :goto_0
 
-    .line 2316
+    .line 2317
     :cond_0
     array-length v2, p1
 
@@ -3177,7 +3177,7 @@
 
     add-int/lit8 v1, v2, 0x1
 
-    .line 2317
+    .line 2318
     .local v1, "nextScrollSelectorIndex":I
     iget-boolean v2, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mWrapSelectorWheel:Z
 
@@ -3187,10 +3187,10 @@
 
     if-le v1, v2, :cond_1
 
-    .line 2318
+    .line 2319
     iget v1, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mMinValue:I
 
-    .line 2320
+    .line 2321
     :cond_1
     array-length v2, p1
 
@@ -3198,10 +3198,10 @@
 
     aput v1, p1, v2
 
-    .line 2321
+    .line 2322
     invoke-direct {p0, v1}, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->ensureCachedScrollSelectorValue(I)V
 
-    .line 2312
+    .line 2313
     return-void
 .end method
 
@@ -3211,12 +3211,12 @@
     .prologue
     const/4 v5, 0x0
 
-    .line 2222
+    .line 2223
     iget-boolean v2, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mIsStartingAnimation:Z
 
     if-eqz v2, :cond_1
 
-    .line 2223
+    .line 2224
     iget-object v2, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mFlingScroller:Landroid/widget/Scroller;
 
     invoke-direct {p0, v2}, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->moveToFinalScrollerPosition(Landroid/widget/Scroller;)Z
@@ -3225,25 +3225,25 @@
 
     if-nez v2, :cond_0
 
-    .line 2224
+    .line 2225
     iget-object v2, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mAdjustScroller:Landroid/widget/Scroller;
 
     invoke-direct {p0, v2}, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->moveToFinalScrollerPosition(Landroid/widget/Scroller;)Z
 
-    .line 2226
+    .line 2227
     :cond_0
     invoke-direct {p0}, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->stopScrollAnimation()V
 
-    .line 2229
+    .line 2230
     :cond_1
     iget-boolean v2, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mIsStartingAnimation:Z
 
     if-nez v2, :cond_2
 
-    .line 2230
+    .line 2231
     invoke-direct {p0}, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->initializeSelectorWheelIndices()V
 
-    .line 2232
+    .line 2233
     :cond_2
     iget-object v2, p0, Lcom/samsung/android/widget/SemNumberPicker$AbstractSemNumberPickerDelegate;->mDelegator:Lcom/samsung/android/widget/SemNumberPicker;
 
@@ -3265,10 +3265,10 @@
 
     iput v2, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mSelectorElementHeight:I
 
-    .line 2234
+    .line 2235
     const/16 v0, 0xd
 
-    .line 2236
+    .line 2237
     .local v0, "DEFAULT_TEXT_GAP_HEIGHT":I
     const/high16 v2, 0x41500000    # 13.0f
 
@@ -3282,7 +3282,7 @@
 
     move-result-object v3
 
-    .line 2235
+    .line 2236
     const/4 v4, 0x1
 
     invoke-static {v4, v2, v3}, Landroid/util/TypedValue;->applyDimension(IFLandroid/util/DisplayMetrics;)F
@@ -3293,17 +3293,17 @@
 
     iput v2, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mSelectorTextGapHeight:I
 
-    .line 2237
+    .line 2238
     iget-boolean v2, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mIsAmPm:Z
 
     if-eqz v2, :cond_3
 
-    .line 2238
+    .line 2239
     const/4 v2, 0x4
 
     iput v2, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mSelectorTextGapHeight:I
 
-    .line 2241
+    .line 2242
     :cond_3
     iget-object v2, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mInputText:Landroid/widget/EditText;
 
@@ -3325,12 +3325,12 @@
 
     iput v2, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mInitialScrollOffset:I
 
-    .line 2242
+    .line 2243
     iget v2, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mInitialScrollOffset:I
 
     iput v2, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mCurrentScrollOffset:I
 
-    .line 2243
+    .line 2244
     iget-object v2, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mSelectorWheelPaint:Landroid/graphics/Paint;
 
     invoke-virtual {v2}, Landroid/graphics/Paint;->descent()F
@@ -3349,19 +3349,19 @@
 
     div-float/2addr v2, v3
 
-    .line 2244
+    .line 2245
     iget-object v3, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mSelectorWheelPaint:Landroid/graphics/Paint;
 
     invoke-virtual {v3}, Landroid/graphics/Paint;->descent()F
 
     move-result v3
 
-    .line 2243
+    .line 2244
     sub-float/2addr v2, v3
 
     float-to-int v2, v2
 
-    .line 2244
+    .line 2245
     iget-object v3, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mInputText:Landroid/widget/EditText;
 
     invoke-virtual {v3}, Landroid/widget/TextView;->getBaseline()I
@@ -3374,10 +3374,10 @@
 
     sub-int/2addr v3, v4
 
-    .line 2243
+    .line 2244
     sub-int v1, v2, v3
 
-    .line 2245
+    .line 2246
     .local v1, "adjustTextViewBaseLine":I
     iget-object v2, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mInputText:Landroid/widget/EditText;
 
@@ -3385,20 +3385,20 @@
 
     invoke-virtual {v2, v1}, Lcom/samsung/android/widget/SemNumberPicker$CustomEditText;->setEditTextPosition(I)V
 
-    .line 2247
+    .line 2248
     iget-boolean v2, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mReservedStartAnimation:Z
 
     if-eqz v2, :cond_4
 
-    .line 2248
+    .line 2249
     iget-object v2, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mAnimationListener:Lcom/samsung/android/widget/SemAnimationListener;
 
     invoke-virtual {p0, v5, v2}, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->startAnimation(ILcom/samsung/android/widget/SemAnimationListener;)V
 
-    .line 2249
+    .line 2250
     iput-boolean v5, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mReservedStartAnimation:Z
 
-    .line 2221
+    .line 2222
     :cond_4
     return-void
 .end method
@@ -3407,21 +3407,21 @@
     .locals 5
 
     .prologue
-    .line 2101
+    .line 2102
     iget-object v4, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mSelectorIndexToStringCache:Landroid/util/SparseArray;
 
     invoke-virtual {v4}, Landroid/util/SparseArray;->clear()V
 
-    .line 2102
+    .line 2103
     iget-object v3, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mSelectorIndices:[I
 
-    .line 2103
+    .line 2104
     .local v3, "selectorIndices":[I
     invoke-virtual {p0}, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->getValue()I
 
     move-result v0
 
-    .line 2104
+    .line 2105
     .local v0, "current":I
     const/4 v1, 0x0
 
@@ -3433,37 +3433,37 @@
 
     if-ge v1, v4, :cond_1
 
-    .line 2105
+    .line 2106
     add-int/lit8 v4, v1, -0x2
 
     add-int v2, v0, v4
 
-    .line 2106
+    .line 2107
     .local v2, "selectorIndex":I
     iget-boolean v4, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mWrapSelectorWheel:Z
 
     if-eqz v4, :cond_0
 
-    .line 2107
+    .line 2108
     invoke-direct {p0, v2}, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->getWrappedSelectorIndex(I)I
 
     move-result v2
 
-    .line 2109
+    .line 2110
     :cond_0
     aput v2, v3, v1
 
-    .line 2110
+    .line 2111
     aget v4, v3, v1
 
     invoke-direct {p0, v4}, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->ensureCachedScrollSelectorValue(I)V
 
-    .line 2104
+    .line 2105
     add-int/lit8 v1, v1, 0x1
 
     goto :goto_0
 
-    .line 2100
+    .line 2101
     .end local v2    # "selectorIndex":I
     :cond_1
     return-void
@@ -3473,18 +3473,18 @@
     .locals 3
 
     .prologue
-    .line 3446
+    .line 3447
     invoke-static {}, Ljava/util/Locale;->getDefault()Ljava/util/Locale;
 
     move-result-object v1
 
-    .line 3447
+    .line 3448
     .local v1, "locale":Ljava/util/Locale;
     invoke-virtual {v1}, Ljava/util/Locale;->getLanguage()Ljava/lang/String;
 
     move-result-object v0
 
-    .line 3448
+    .line 3449
     .local v0, "language":Ljava/lang/String;
     const-string/jumbo v2, "ar"
 
@@ -3502,13 +3502,13 @@
 
     if-eqz v2, :cond_1
 
-    .line 3449
+    .line 3450
     :cond_0
     const/4 v2, 0x1
 
     return v2
 
-    .line 3451
+    .line 3452
     :cond_1
     const/4 v2, 0x0
 
@@ -3523,31 +3523,31 @@
     .prologue
     const/high16 v3, 0x40000000    # 2.0f
 
-    .line 2059
+    .line 2060
     const/4 v2, -0x1
 
     if-ne p2, v2, :cond_0
 
-    .line 2060
+    .line 2061
     return p1
 
-    .line 2062
+    .line 2063
     :cond_0
     invoke-static {p1}, Landroid/view/View$MeasureSpec;->getSize(I)I
 
     move-result v1
 
-    .line 2063
+    .line 2064
     .local v1, "size":I
     invoke-static {p1}, Landroid/view/View$MeasureSpec;->getMode(I)I
 
     move-result v0
 
-    .line 2064
+    .line 2065
     .local v0, "mode":I
     sparse-switch v0, :sswitch_data_0
 
-    .line 2072
+    .line 2073
     new-instance v2, Ljava/lang/IllegalArgumentException;
 
     new-instance v3, Ljava/lang/StringBuilder;
@@ -3572,11 +3572,11 @@
 
     throw v2
 
-    .line 2066
+    .line 2067
     :sswitch_0
     return p1
 
-    .line 2068
+    .line 2069
     :sswitch_1
     invoke-static {v1, p2}, Ljava/lang/Math;->min(II)I
 
@@ -3588,7 +3588,7 @@
 
     return v2
 
-    .line 2070
+    .line 2071
     :sswitch_2
     invoke-static {p2, v3}, Landroid/view/View$MeasureSpec;->makeMeasureSpec(II)I
 
@@ -3596,7 +3596,7 @@
 
     return v2
 
-    .line 2064
+    .line 2065
     :sswitch_data_0
     .sparse-switch
         -0x80000000 -> :sswitch_1
@@ -3704,18 +3704,18 @@
     .locals 3
 
     .prologue
-    .line 3457
+    .line 3458
     invoke-static {}, Ljava/util/Locale;->getDefault()Ljava/util/Locale;
 
     move-result-object v1
 
-    .line 3458
+    .line 3459
     .local v1, "locale":Ljava/util/Locale;
     invoke-virtual {v1}, Ljava/util/Locale;->getLanguage()Ljava/lang/String;
 
     move-result-object v0
 
-    .line 3459
+    .line 3460
     .local v0, "language":Ljava/lang/String;
     const-string/jumbo v2, "vi"
 
@@ -3725,12 +3725,12 @@
 
     if-eqz v2, :cond_0
 
-    .line 3460
+    .line 3461
     const/4 v2, 0x1
 
     return v2
 
-    .line 3462
+    .line 3463
     :cond_0
     const/4 v2, 0x0
 
@@ -3745,7 +3745,7 @@
     .prologue
     const/4 v5, 0x0
 
-    .line 2409
+    .line 2410
     iget-object v3, p0, Lcom/samsung/android/widget/SemNumberPicker$AbstractSemNumberPickerDelegate;->mContext:Landroid/content/Context;
 
     invoke-static {v3}, Landroid/view/accessibility/AccessibilityManager;->getInstance(Landroid/content/Context;)Landroid/view/accessibility/AccessibilityManager;
@@ -3762,14 +3762,14 @@
 
     if-eqz v3, :cond_2
 
-    .line 2424
+    .line 2425
     :cond_0
     :goto_0
     iget-object v3, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mOnValueChangeListener:Lcom/samsung/android/widget/SemNumberPicker$OnValueChangeListener;
 
     if-eqz v3, :cond_1
 
-    .line 2425
+    .line 2426
     iget-object v3, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mOnValueChangeListener:Lcom/samsung/android/widget/SemNumberPicker$OnValueChangeListener;
 
     iget-object v4, p0, Lcom/samsung/android/widget/SemNumberPicker$AbstractSemNumberPickerDelegate;->mDelegator:Lcom/samsung/android/widget/SemNumberPicker;
@@ -3778,11 +3778,11 @@
 
     invoke-interface {v3, v4, p1, v5}, Lcom/samsung/android/widget/SemNumberPicker$OnValueChangeListener;->onValueChange(Lcom/samsung/android/widget/SemNumberPicker;II)V
 
-    .line 2408
+    .line 2409
     :cond_1
     return-void
 
-    .line 2410
+    .line 2411
     :cond_2
     iget v3, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mValue:I
 
@@ -3790,17 +3790,17 @@
 
     move-result v2
 
-    .line 2411
+    .line 2412
     .local v2, "value":I
     const/4 v1, 0x0
 
-    .line 2412
+    .line 2413
     .local v1, "text":Ljava/lang/String;
     iget v3, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mMaxValue:I
 
     if-gt v2, v3, :cond_3
 
-    .line 2413
+    .line 2414
     iget-object v3, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mDisplayedValues:[Ljava/lang/String;
 
     if-nez v3, :cond_4
@@ -3809,7 +3809,7 @@
 
     move-result-object v1
 
-    .line 2416
+    .line 2417
     .end local v1    # "text":Ljava/lang/String;
     :cond_3
     :goto_1
@@ -3817,23 +3817,23 @@
 
     invoke-virtual {v3, v1}, Landroid/view/View;->announceForAccessibility(Ljava/lang/CharSequence;)V
 
-    .line 2417
+    .line 2418
     iget-boolean v3, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mIsAmPm:Z
 
     if-eqz v3, :cond_0
 
-    .line 2418
+    .line 2419
     invoke-virtual {p0}, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->getAccessibilityNodeProvider()Landroid/view/accessibility/AccessibilityNodeProvider;
 
     move-result-object v0
 
     check-cast v0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate$AccessibilityNodeProviderImpl;
 
-    .line 2419
+    .line 2420
     .local v0, "provider":Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate$AccessibilityNodeProviderImpl;
     if-eqz v0, :cond_0
 
-    .line 2420
+    .line 2421
     const/4 v3, 0x3
 
     const/16 v4, 0x40
@@ -3842,7 +3842,7 @@
 
     goto :goto_0
 
-    .line 2414
+    .line 2415
     .end local v0    # "provider":Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate$AccessibilityNodeProviderImpl;
     .restart local v1    # "text":Ljava/lang/String;
     :cond_4
@@ -3863,31 +3863,31 @@
     .param p1, "scrollState"    # I
 
     .prologue
-    .line 2273
+    .line 2274
     iget v0, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mScrollState:I
 
     if-ne v0, p1, :cond_0
 
-    .line 2274
+    .line 2275
     return-void
 
-    .line 2276
+    .line 2277
     :cond_0
     iput p1, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mScrollState:I
 
-    .line 2277
+    .line 2278
     iget-object v0, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mOnScrollListener:Lcom/samsung/android/widget/SemNumberPicker$OnScrollListener;
 
     if-eqz v0, :cond_1
 
-    .line 2278
+    .line 2279
     iget-object v0, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mOnScrollListener:Lcom/samsung/android/widget/SemNumberPicker$OnScrollListener;
 
     iget-object v1, p0, Lcom/samsung/android/widget/SemNumberPicker$AbstractSemNumberPickerDelegate;->mDelegator:Lcom/samsung/android/widget/SemNumberPicker;
 
     invoke-interface {v0, v1, p1}, Lcom/samsung/android/widget/SemNumberPicker$OnScrollListener;->onScrollStateChange(Lcom/samsung/android/widget/SemNumberPicker;I)V
 
-    .line 2272
+    .line 2273
     :cond_1
     return-void
 .end method
@@ -3897,33 +3897,33 @@
     .param p1, "scroller"    # Landroid/widget/Scroller;
 
     .prologue
-    .line 2257
+    .line 2258
     iget-object v0, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mFlingScroller:Landroid/widget/Scroller;
 
     if-ne p1, v0, :cond_2
 
-    .line 2258
+    .line 2259
     invoke-direct {p0}, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->ensureScrollWheelAdjusted()Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
-    .line 2259
+    .line 2260
     invoke-direct {p0}, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->updateInputTextView()Z
 
-    .line 2261
+    .line 2262
     :cond_0
     const/4 v0, 0x0
 
     invoke-direct {p0, v0}, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->onScrollStateChange(I)V
 
-    .line 2256
+    .line 2257
     :cond_1
     :goto_0
     return-void
 
-    .line 2263
+    .line 2264
     :cond_2
     iget v0, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mScrollState:I
 
@@ -3931,7 +3931,7 @@
 
     if-eq v0, v1, :cond_1
 
-    .line 2264
+    .line 2265
     invoke-direct {p0}, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->updateInputTextView()Z
 
     goto :goto_0
@@ -3941,14 +3941,14 @@
     .locals 2
 
     .prologue
-    .line 1311
+    .line 1312
     iget-object v0, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mAudioManager:Landroid/media/AudioManager;
 
     const/16 v1, 0x69
 
     invoke-virtual {v0, v1}, Landroid/media/AudioManager;->playSoundEffect(I)V
 
-    .line 1310
+    .line 1311
     return-void
 .end method
 
@@ -3956,19 +3956,19 @@
     .locals 4
 
     .prologue
-    .line 2469
+    .line 2470
     iget-object v0, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mBeginSoftInputOnLongPressCommand:Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate$BeginSoftInputOnLongPressCommand;
 
     if-nez v0, :cond_0
 
-    .line 2470
+    .line 2471
     new-instance v0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate$BeginSoftInputOnLongPressCommand;
 
     invoke-direct {v0, p0}, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate$BeginSoftInputOnLongPressCommand;-><init>(Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;)V
 
     iput-object v0, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mBeginSoftInputOnLongPressCommand:Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate$BeginSoftInputOnLongPressCommand;
 
-    .line 2474
+    .line 2475
     :goto_0
     iget-object v0, p0, Lcom/samsung/android/widget/SemNumberPicker$AbstractSemNumberPickerDelegate;->mDelegator:Lcom/samsung/android/widget/SemNumberPicker;
 
@@ -3982,10 +3982,10 @@
 
     invoke-virtual {v0, v1, v2, v3}, Landroid/view/View;->postDelayed(Ljava/lang/Runnable;J)Z
 
-    .line 2468
+    .line 2469
     return-void
 
-    .line 2472
+    .line 2473
     :cond_0
     iget-object v0, p0, Lcom/samsung/android/widget/SemNumberPicker$AbstractSemNumberPickerDelegate;->mDelegator:Lcom/samsung/android/widget/SemNumberPicker;
 
@@ -4004,41 +4004,41 @@
     .prologue
     const/4 v2, 0x1
 
-    .line 2435
+    .line 2436
     iget-object v0, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mChangeCurrentByOneFromLongPressCommand:Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate$ChangeCurrentByOneFromLongPressCommand;
 
     if-nez v0, :cond_0
 
-    .line 2436
+    .line 2437
     new-instance v0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate$ChangeCurrentByOneFromLongPressCommand;
 
     invoke-direct {v0, p0}, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate$ChangeCurrentByOneFromLongPressCommand;-><init>(Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;)V
 
     iput-object v0, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mChangeCurrentByOneFromLongPressCommand:Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate$ChangeCurrentByOneFromLongPressCommand;
 
-    .line 2440
+    .line 2441
     :goto_0
     iput-boolean v2, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mIsLongPressed:Z
 
-    .line 2441
+    .line 2442
     iput-boolean v2, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mLongPressed_FIRST_SCROLL:Z
 
-    .line 2442
+    .line 2443
     iget-object v0, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mChangeCurrentByOneFromLongPressCommand:Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate$ChangeCurrentByOneFromLongPressCommand;
 
     invoke-static {v0, p1}, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate$ChangeCurrentByOneFromLongPressCommand;->-wrap0(Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate$ChangeCurrentByOneFromLongPressCommand;Z)V
 
-    .line 2443
+    .line 2444
     iget-object v0, p0, Lcom/samsung/android/widget/SemNumberPicker$AbstractSemNumberPickerDelegate;->mDelegator:Lcom/samsung/android/widget/SemNumberPicker;
 
     iget-object v1, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mChangeCurrentByOneFromLongPressCommand:Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate$ChangeCurrentByOneFromLongPressCommand;
 
     invoke-virtual {v0, v1, p2, p3}, Landroid/view/View;->postDelayed(Ljava/lang/Runnable;J)Z
 
-    .line 2434
+    .line 2435
     return-void
 
-    .line 2438
+    .line 2439
     :cond_0
     iget-object v0, p0, Lcom/samsung/android/widget/SemNumberPicker$AbstractSemNumberPickerDelegate;->mDelegator:Lcom/samsung/android/widget/SemNumberPicker;
 
@@ -4055,84 +4055,84 @@
     .prologue
     const/4 v1, 0x0
 
-    .line 2490
+    .line 2491
     iget-boolean v0, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mIsLongPressed:Z
 
     if-eqz v0, :cond_0
 
-    .line 2491
+    .line 2492
     iput-boolean v1, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mIsLongPressed:Z
 
-    .line 2492
+    .line 2493
     iget v0, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mInitialScrollOffset:I
 
     iput v0, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mCurrentScrollOffset:I
 
-    .line 2494
+    .line 2495
     :cond_0
     iput-boolean v1, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mLongPressed_FIRST_SCROLL:Z
 
-    .line 2495
+    .line 2496
     iput-boolean v1, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mLongPressed_SECOND_SCROLL:Z
 
-    .line 2496
+    .line 2497
     iput-boolean v1, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mLongPressed_THIRD_SCROLL:Z
 
-    .line 2497
+    .line 2498
     const/4 v0, 0x1
 
     iput v0, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mChangeValueBy:I
 
-    .line 2498
+    .line 2499
     const-wide/16 v0, 0x12c
 
     iput-wide v0, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mLongPressUpdateInterval:J
 
-    .line 2499
+    .line 2500
     iget-object v0, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mChangeCurrentByOneFromLongPressCommand:Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate$ChangeCurrentByOneFromLongPressCommand;
 
     if-eqz v0, :cond_1
 
-    .line 2500
+    .line 2501
     iget-object v0, p0, Lcom/samsung/android/widget/SemNumberPicker$AbstractSemNumberPickerDelegate;->mDelegator:Lcom/samsung/android/widget/SemNumberPicker;
 
     iget-object v1, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mChangeCurrentByOneFromLongPressCommand:Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate$ChangeCurrentByOneFromLongPressCommand;
 
     invoke-virtual {v0, v1}, Landroid/view/View;->removeCallbacks(Ljava/lang/Runnable;)Z
 
-    .line 2502
+    .line 2503
     :cond_1
     iget-object v0, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mSetSelectionCommand:Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate$SetSelectionCommand;
 
     if-eqz v0, :cond_2
 
-    .line 2503
+    .line 2504
     iget-object v0, p0, Lcom/samsung/android/widget/SemNumberPicker$AbstractSemNumberPickerDelegate;->mDelegator:Lcom/samsung/android/widget/SemNumberPicker;
 
     iget-object v1, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mSetSelectionCommand:Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate$SetSelectionCommand;
 
     invoke-virtual {v0, v1}, Landroid/view/View;->removeCallbacks(Ljava/lang/Runnable;)Z
 
-    .line 2505
+    .line 2506
     :cond_2
     iget-object v0, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mBeginSoftInputOnLongPressCommand:Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate$BeginSoftInputOnLongPressCommand;
 
     if-eqz v0, :cond_3
 
-    .line 2506
+    .line 2507
     iget-object v0, p0, Lcom/samsung/android/widget/SemNumberPicker$AbstractSemNumberPickerDelegate;->mDelegator:Lcom/samsung/android/widget/SemNumberPicker;
 
     iget-object v1, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mBeginSoftInputOnLongPressCommand:Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate$BeginSoftInputOnLongPressCommand;
 
     invoke-virtual {v0, v1}, Landroid/view/View;->removeCallbacks(Ljava/lang/Runnable;)Z
 
-    .line 2508
+    .line 2509
     :cond_3
     iget-object v0, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mPressedStateHelper:Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate$PressedStateHelper;
 
     invoke-virtual {v0}, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate$PressedStateHelper;->cancel()V
 
-    .line 2489
+    .line 2490
     return-void
 .end method
 
@@ -4140,19 +4140,19 @@
     .locals 2
 
     .prologue
-    .line 2481
+    .line 2482
     iget-object v0, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mBeginSoftInputOnLongPressCommand:Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate$BeginSoftInputOnLongPressCommand;
 
     if-eqz v0, :cond_0
 
-    .line 2482
+    .line 2483
     iget-object v0, p0, Lcom/samsung/android/widget/SemNumberPicker$AbstractSemNumberPickerDelegate;->mDelegator:Lcom/samsung/android/widget/SemNumberPicker;
 
     iget-object v1, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mBeginSoftInputOnLongPressCommand:Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate$BeginSoftInputOnLongPressCommand;
 
     invoke-virtual {v0, v1}, Landroid/view/View;->removeCallbacks(Ljava/lang/Runnable;)Z
 
-    .line 2480
+    .line 2481
     :cond_0
     return-void
 .end method
@@ -4163,52 +4163,52 @@
     .prologue
     const/4 v1, 0x0
 
-    .line 2450
+    .line 2451
     iget-boolean v0, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mIsLongPressed:Z
 
     if-eqz v0, :cond_0
 
-    .line 2451
+    .line 2452
     iput-boolean v1, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mIsLongPressed:Z
 
-    .line 2452
+    .line 2453
     iget v0, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mInitialScrollOffset:I
 
     iput v0, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mCurrentScrollOffset:I
 
-    .line 2454
+    .line 2455
     :cond_0
     iput-boolean v1, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mLongPressed_FIRST_SCROLL:Z
 
-    .line 2455
+    .line 2456
     iput-boolean v1, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mLongPressed_SECOND_SCROLL:Z
 
-    .line 2456
+    .line 2457
     iput-boolean v1, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mLongPressed_THIRD_SCROLL:Z
 
-    .line 2457
+    .line 2458
     const/4 v0, 0x1
 
     iput v0, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mChangeValueBy:I
 
-    .line 2458
+    .line 2459
     const-wide/16 v0, 0x12c
 
     iput-wide v0, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mLongPressUpdateInterval:J
 
-    .line 2459
+    .line 2460
     iget-object v0, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mChangeCurrentByOneFromLongPressCommand:Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate$ChangeCurrentByOneFromLongPressCommand;
 
     if-eqz v0, :cond_1
 
-    .line 2460
+    .line 2461
     iget-object v0, p0, Lcom/samsung/android/widget/SemNumberPicker$AbstractSemNumberPickerDelegate;->mDelegator:Lcom/samsung/android/widget/SemNumberPicker;
 
     iget-object v1, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mChangeCurrentByOneFromLongPressCommand:Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate$ChangeCurrentByOneFromLongPressCommand;
 
     invoke-virtual {v0, v1}, Landroid/view/View;->removeCallbacks(Ljava/lang/Runnable;)Z
 
-    .line 2449
+    .line 2450
     :cond_1
     return-void
 .end method
@@ -4220,17 +4220,17 @@
     .param p3, "measureSpec"    # I
 
     .prologue
-    .line 2088
+    .line 2089
     const/4 v1, -0x1
 
     if-eq p1, v1, :cond_0
 
-    .line 2089
+    .line 2090
     invoke-static {p1, p2}, Ljava/lang/Math;->max(II)I
 
     move-result v0
 
-    .line 2090
+    .line 2091
     .local v0, "desiredWidth":I
     const/4 v1, 0x0
 
@@ -4240,7 +4240,7 @@
 
     return v1
 
-    .line 2092
+    .line 2093
     .end local v0    # "desiredWidth":I
     :cond_0
     return p2
@@ -4252,71 +4252,71 @@
     .param p2, "notifyChange"    # Z
 
     .prologue
-    .line 2121
+    .line 2122
     iget v1, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mValue:I
 
     if-ne v1, p1, :cond_1
 
-    .line 2122
+    .line 2123
     invoke-direct {p0}, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->isMeaLanguage()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 2123
+    .line 2124
     invoke-direct {p0}, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->updateInputTextView()Z
 
-    .line 2124
+    .line 2125
     iget-object v1, p0, Lcom/samsung/android/widget/SemNumberPicker$AbstractSemNumberPickerDelegate;->mDelegator:Lcom/samsung/android/widget/SemNumberPicker;
 
     invoke-virtual {v1}, Landroid/view/View;->invalidate()V
 
-    .line 2126
+    .line 2127
     :cond_0
     return-void
 
-    .line 2130
+    .line 2131
     :cond_1
     iget-boolean v1, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mWrapSelectorWheel:Z
 
     if-eqz v1, :cond_3
 
-    .line 2131
+    .line 2132
     invoke-direct {p0, p1}, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->getWrappedSelectorIndex(I)I
 
     move-result p1
 
-    .line 2136
+    .line 2137
     :goto_0
     iget v0, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mValue:I
 
-    .line 2137
+    .line 2138
     .local v0, "previous":I
     iput p1, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mValue:I
 
-    .line 2138
+    .line 2139
     invoke-direct {p0}, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->updateInputTextView()Z
 
-    .line 2139
+    .line 2140
     if-eqz p2, :cond_2
 
-    .line 2140
+    .line 2141
     invoke-direct {p0, v0, p1}, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->notifyChange(II)V
 
-    .line 2142
+    .line 2143
     :cond_2
     invoke-direct {p0}, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->initializeSelectorWheelIndices()V
 
-    .line 2143
+    .line 2144
     iget-object v1, p0, Lcom/samsung/android/widget/SemNumberPicker$AbstractSemNumberPickerDelegate;->mDelegator:Lcom/samsung/android/widget/SemNumberPicker;
 
     invoke-virtual {v1}, Landroid/view/View;->invalidate()V
 
-    .line 2120
+    .line 2121
     return-void
 
-    .line 2133
+    .line 2134
     .end local v0    # "previous":I
     :cond_3
     iget v1, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mMinValue:I
@@ -4325,7 +4325,7 @@
 
     move-result p1
 
-    .line 2134
+    .line 2135
     iget v1, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mMaxValue:I
 
     invoke-static {p1, v1}, Ljava/lang/Math;->min(II)I
@@ -4341,31 +4341,31 @@
     .prologue
     const/4 v2, 0x0
 
-    .line 1566
+    .line 1567
     invoke-static {}, Landroid/view/inputmethod/InputMethodManager;->peekInstance()Landroid/view/inputmethod/InputMethodManager;
 
     move-result-object v0
 
-    .line 1567
+    .line 1568
     .local v0, "inputMethodManager":Landroid/view/inputmethod/InputMethodManager;
     if-eqz v0, :cond_0
-
-    .line 1568
-    iget-object v1, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mInputText:Landroid/widget/EditText;
-
-    invoke-virtual {v1, v2}, Landroid/view/View;->setVisibility(I)V
 
     .line 1569
     iget-object v1, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mInputText:Landroid/widget/EditText;
 
-    invoke-virtual {v1}, Landroid/view/View;->requestFocus()Z
+    invoke-virtual {v1, v2}, Landroid/view/View;->setVisibility(I)V
 
     .line 1570
     iget-object v1, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mInputText:Landroid/widget/EditText;
 
+    invoke-virtual {v1}, Landroid/view/View;->requestFocus()Z
+
+    .line 1571
+    iget-object v1, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mInputText:Landroid/widget/EditText;
+
     invoke-virtual {v0, v1, v2}, Landroid/view/inputmethod/InputMethodManager;->showSoftInput(Landroid/view/View;I)Z
 
-    .line 1565
+    .line 1566
     :cond_0
     return-void
 .end method
@@ -4374,20 +4374,20 @@
     .locals 4
 
     .prologue
-    .line 1542
+    .line 1543
     iget-object v0, p0, Lcom/samsung/android/widget/SemNumberPicker$AbstractSemNumberPickerDelegate;->mDelegator:Lcom/samsung/android/widget/SemNumberPicker;
 
     new-instance v1, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate$3;
 
     invoke-direct {v1, p0}, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate$3;-><init>(Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;)V
 
-    .line 1559
+    .line 1560
     const-wide/16 v2, 0x14
 
-    .line 1542
+    .line 1543
     invoke-virtual {v0, v1, v2, v3}, Landroid/view/View;->postDelayed(Ljava/lang/Runnable;J)Z
 
-    .line 1541
+    .line 1542
     return-void
 .end method
 
@@ -4395,17 +4395,17 @@
     .locals 1
 
     .prologue
-    .line 1920
+    .line 1921
     iget-object v0, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mFlingScroller:Landroid/widget/Scroller;
 
     invoke-virtual {v0}, Landroid/widget/Scroller;->abortAnimation()V
 
-    .line 1921
+    .line 1922
     iget-object v0, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mAdjustScroller:Landroid/widget/Scroller;
 
     invoke-virtual {v0}, Landroid/widget/Scroller;->abortAnimation()V
 
-    .line 1922
+    .line 1923
     iget-boolean v0, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mIsStartingAnimation:Z
 
     if-nez v0, :cond_0
@@ -4418,15 +4418,15 @@
 
     if-eqz v0, :cond_1
 
-    .line 1925
+    .line 1926
     :cond_0
     :goto_0
     invoke-direct {p0}, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->ensureScrollWheelAdjusted()Z
 
-    .line 1919
+    .line 1920
     return-void
 
-    .line 1923
+    .line 1924
     :cond_1
     iget-object v0, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mAdjustScroller:Landroid/widget/Scroller;
 
@@ -4439,23 +4439,23 @@
     .locals 12
 
     .prologue
-    .line 1589
+    .line 1590
     iget-boolean v9, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mComputeMaxWidth:Z
 
     if-nez v9, :cond_0
 
-    .line 1590
+    .line 1591
     return-void
 
-    .line 1592
+    .line 1593
     :cond_0
     const/4 v5, 0x0
 
-    .line 1593
+    .line 1594
     .local v5, "maxTextWidth":I
     const/4 v4, 0x0
 
-    .line 1595
+    .line 1596
     .local v4, "maxTextLength":I
     iget-object v9, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mSelectorWheelPaint:Landroid/graphics/Paint;
 
@@ -4463,15 +4463,15 @@
 
     invoke-virtual {v9, v10}, Landroid/graphics/Paint;->setTypeface(Landroid/graphics/Typeface;)Landroid/graphics/Typeface;
 
-    .line 1596
+    .line 1597
     iget-object v9, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mDisplayedValues:[Ljava/lang/String;
 
     if-nez v9, :cond_7
 
-    .line 1597
+    .line 1598
     const/4 v3, 0x0
 
-    .line 1598
+    .line 1599
     .local v3, "maxDigitWidth":F
     const/4 v2, 0x0
 
@@ -4481,7 +4481,7 @@
 
     if-gt v2, v9, :cond_2
 
-    .line 1599
+    .line 1600
     iget-object v9, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mSelectorWheelPaint:Landroid/graphics/Paint;
 
     invoke-static {v2}, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->formatNumberWithLocale(I)Ljava/lang/String;
@@ -4492,44 +4492,44 @@
 
     move-result v1
 
-    .line 1600
+    .line 1601
     .local v1, "digitWidth":F
     cmpl-float v9, v1, v3
 
     if-lez v9, :cond_1
 
-    .line 1601
+    .line 1602
     move v3, v1
 
-    .line 1598
+    .line 1599
     :cond_1
     add-int/lit8 v2, v2, 0x1
 
     goto :goto_0
 
-    .line 1604
+    .line 1605
     .end local v1    # "digitWidth":F
     :cond_2
     const/4 v6, 0x0
 
-    .line 1605
+    .line 1606
     .local v6, "numberOfDigits":I
     iget v0, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mMaxValue:I
 
-    .line 1606
+    .line 1607
     .local v0, "current":I
     :goto_1
     if-lez v0, :cond_3
 
-    .line 1607
+    .line 1608
     add-int/lit8 v6, v6, 0x1
 
-    .line 1608
+    .line 1609
     div-int/lit8 v0, v0, 0xa
 
     goto :goto_1
 
-    .line 1610
+    .line 1611
     :cond_3
     int-to-float v9, v6
 
@@ -4537,10 +4537,10 @@
 
     float-to-int v5, v9
 
-    .line 1611
+    .line 1612
     move v4, v6
 
-    .line 1622
+    .line 1623
     .end local v0    # "current":I
     .end local v3    # "maxDigitWidth":F
     .end local v6    # "numberOfDigits":I
@@ -4561,7 +4561,7 @@
 
     add-int/2addr v5, v9
 
-    .line 1623
+    .line 1624
     iget-object v9, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mInputText:Landroid/widget/EditText;
 
     invoke-virtual {v9}, Landroid/view/View;->isHighContrastTextEnabled()Z
@@ -4570,7 +4570,7 @@
 
     if-eqz v9, :cond_5
 
-    .line 1624
+    .line 1625
     iget-object v9, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mSelectorWheelPaint:Landroid/graphics/Paint;
 
     invoke-virtual {v9}, Landroid/graphics/Paint;->getHCTStrokeWidth()F
@@ -4595,27 +4595,27 @@
 
     add-int/2addr v5, v9
 
-    .line 1627
+    .line 1628
     :cond_5
     iget v9, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mMaxWidth:I
 
     if-eq v9, v5, :cond_6
 
-    .line 1628
+    .line 1629
     iget v9, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mMinWidth:I
 
     if-le v5, v9, :cond_9
 
-    .line 1629
+    .line 1630
     iput v5, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mMaxWidth:I
 
-    .line 1633
+    .line 1634
     :goto_2
     iget-object v9, p0, Lcom/samsung/android/widget/SemNumberPicker$AbstractSemNumberPickerDelegate;->mDelegator:Lcom/samsung/android/widget/SemNumberPicker;
 
     invoke-virtual {v9}, Landroid/view/View;->invalidate()V
 
-    .line 1636
+    .line 1637
     :cond_6
     iget-object v9, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mSelectorWheelPaint:Landroid/graphics/Paint;
 
@@ -4623,17 +4623,17 @@
 
     invoke-virtual {v9, v10}, Landroid/graphics/Paint;->setTypeface(Landroid/graphics/Typeface;)Landroid/graphics/Typeface;
 
-    .line 1588
+    .line 1589
     return-void
 
-    .line 1613
+    .line 1614
     .end local v2    # "i":I
     :cond_7
     iget-object v9, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mDisplayedValues:[Ljava/lang/String;
 
     array-length v8, v9
 
-    .line 1614
+    .line 1615
     .local v8, "valueCount":I
     const/4 v2, 0x0
 
@@ -4641,7 +4641,7 @@
     :goto_3
     if-ge v2, v8, :cond_4
 
-    .line 1615
+    .line 1616
     iget-object v9, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mSelectorWheelPaint:Landroid/graphics/Paint;
 
     iget-object v10, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mDisplayedValues:[Ljava/lang/String;
@@ -4652,7 +4652,7 @@
 
     move-result v7
 
-    .line 1616
+    .line 1617
     .local v7, "textWidth":F
     int-to-float v9, v5
 
@@ -4660,10 +4660,10 @@
 
     if-lez v9, :cond_8
 
-    .line 1617
+    .line 1618
     float-to-int v5, v7
 
-    .line 1618
+    .line 1619
     iget-object v9, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mDisplayedValues:[Ljava/lang/String;
 
     aget-object v9, v9, v2
@@ -4672,13 +4672,13 @@
 
     move-result v4
 
-    .line 1614
+    .line 1615
     :cond_8
     add-int/lit8 v2, v2, 0x1
 
     goto :goto_3
 
-    .line 1631
+    .line 1632
     .end local v7    # "textWidth":F
     .end local v8    # "valueCount":I
     :cond_9
@@ -4693,7 +4693,7 @@
     .locals 4
 
     .prologue
-    .line 2393
+    .line 2394
     iget-object v1, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mDisplayedValues:[Ljava/lang/String;
 
     if-nez v1, :cond_1
@@ -4704,7 +4704,7 @@
 
     move-result-object v0
 
-    .line 2395
+    .line 2396
     .local v0, "text":Ljava/lang/String;
     :goto_0
     invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
@@ -4729,13 +4729,13 @@
 
     if-eqz v1, :cond_2
 
-    .line 2401
+    .line 2402
     :cond_0
     const/4 v1, 0x0
 
     return v1
 
-    .line 2394
+    .line 2395
     .end local v0    # "text":Ljava/lang/String;
     :cond_1
     iget-object v1, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mDisplayedValues:[Ljava/lang/String;
@@ -4750,14 +4750,14 @@
 
     goto :goto_0
 
-    .line 2396
+    .line 2397
     .restart local v0    # "text":Ljava/lang/String;
     :cond_2
     iget-object v1, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mInputText:Landroid/widget/EditText;
 
     invoke-virtual {v1, v0}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 2397
+    .line 2398
     iget-object v1, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mInputText:Landroid/widget/EditText;
 
     invoke-virtual {v1}, Landroid/widget/EditText;->getText()Landroid/text/Editable;
@@ -4776,7 +4776,7 @@
 
     invoke-static {v1, v2}, Landroid/text/Selection;->setSelection(Landroid/text/Spannable;I)V
 
-    .line 2398
+    .line 2399
     const/4 v1, 0x1
 
     return v1
@@ -4787,7 +4787,7 @@
     .param p1, "v"    # Landroid/view/View;
 
     .prologue
-    .line 2368
+    .line 2369
     check-cast p1, Landroid/widget/TextView;
 
     .end local p1    # "v":Landroid/view/View;
@@ -4799,7 +4799,7 @@
 
     move-result-object v1
 
-    .line 2369
+    .line 2370
     .local v1, "str":Ljava/lang/String;
     invoke-virtual {v1}, Ljava/lang/String;->toString()Ljava/lang/String;
 
@@ -4809,7 +4809,7 @@
 
     move-result v0
 
-    .line 2370
+    .line 2371
     .local v0, "current":I
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -4821,15 +4821,15 @@
 
     if-ne v2, v0, :cond_1
 
-    .line 2372
+    .line 2373
     :cond_0
     invoke-direct {p0}, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->updateInputTextView()Z
 
-    .line 2367
+    .line 2368
     :goto_0
     return-void
 
-    .line 2375
+    .line 2376
     :cond_1
     const/4 v2, 0x1
 
@@ -4846,10 +4846,10 @@
     .prologue
     const/4 v3, 0x0
 
-    .line 1316
+    .line 1317
     iget-object v1, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mFlingScroller:Landroid/widget/Scroller;
 
-    .line 1317
+    .line 1318
     .local v1, "scroller":Landroid/widget/Scroller;
     invoke-virtual {v1}, Landroid/widget/Scroller;->isFinished()Z
 
@@ -4857,42 +4857,42 @@
 
     if-eqz v2, :cond_0
 
-    .line 1318
+    .line 1319
     iget-object v1, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mAdjustScroller:Landroid/widget/Scroller;
 
-    .line 1319
+    .line 1320
     invoke-virtual {v1}, Landroid/widget/Scroller;->isFinished()Z
 
     move-result v2
 
     if-eqz v2, :cond_0
 
-    .line 1320
+    .line 1321
     return-void
 
-    .line 1323
+    .line 1324
     :cond_0
     invoke-virtual {v1}, Landroid/widget/Scroller;->computeScrollOffset()Z
 
-    .line 1324
+    .line 1325
     invoke-virtual {v1}, Landroid/widget/Scroller;->getCurrY()I
 
     move-result v0
 
-    .line 1325
+    .line 1326
     .local v0, "currentScrollerY":I
     iget v2, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mPreviousScrollerY:I
 
     if-nez v2, :cond_1
 
-    .line 1326
+    .line 1327
     invoke-virtual {v1}, Landroid/widget/Scroller;->getStartY()I
 
     move-result v2
 
     iput v2, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mPreviousScrollerY:I
 
-    .line 1328
+    .line 1329
     :cond_1
     iget v2, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mPreviousScrollerY:I
 
@@ -4900,24 +4900,24 @@
 
     invoke-virtual {p0, v3, v2}, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->scrollBy(II)V
 
-    .line 1329
+    .line 1330
     iput v0, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mPreviousScrollerY:I
 
-    .line 1330
+    .line 1331
     invoke-virtual {v1}, Landroid/widget/Scroller;->isFinished()Z
 
     move-result v2
 
     if-eqz v2, :cond_2
 
-    .line 1331
+    .line 1332
     invoke-direct {p0, v1}, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->onScrollerFinished(Landroid/widget/Scroller;)V
 
-    .line 1315
+    .line 1316
     :goto_0
     return-void
 
-    .line 1333
+    .line 1334
     :cond_2
     iget-object v2, p0, Lcom/samsung/android/widget/SemNumberPicker$AbstractSemNumberPickerDelegate;->mDelegator:Lcom/samsung/android/widget/SemNumberPicker;
 
@@ -4930,7 +4930,7 @@
     .locals 1
 
     .prologue
-    .line 1414
+    .line 1415
     iget-object v0, p0, Lcom/samsung/android/widget/SemNumberPicker$AbstractSemNumberPickerDelegate;->mDelegator:Lcom/samsung/android/widget/SemNumberPicker;
 
     invoke-virtual {v0}, Landroid/view/View;->getHeight()I
@@ -4944,7 +4944,7 @@
     .locals 1
 
     .prologue
-    .line 1404
+    .line 1405
     iget v0, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mCurrentScrollOffset:I
 
     return v0
@@ -4954,7 +4954,7 @@
     .locals 2
 
     .prologue
-    .line 1409
+    .line 1410
     iget v0, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mMaxValue:I
 
     iget v1, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mMinValue:I
@@ -4985,7 +4985,7 @@
 
     const/4 v5, -0x1
 
-    .line 1249
+    .line 1250
     iget-object v4, p0, Lcom/samsung/android/widget/SemNumberPicker$AbstractSemNumberPickerDelegate;->mContext:Landroid/content/Context;
 
     invoke-static {v4}, Landroid/view/accessibility/AccessibilityManager;->getInstance(Landroid/content/Context;)Landroid/view/accessibility/AccessibilityManager;
@@ -4998,14 +4998,14 @@
 
     if-eqz v4, :cond_1
 
-    .line 1250
+    .line 1251
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getY()F
 
     move-result v4
 
     float-to-int v1, v4
 
-    .line 1252
+    .line 1253
     .local v1, "eventY":I
     iget-boolean v4, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mIsEditTextMode:Z
 
@@ -5015,7 +5015,7 @@
 
     if-eqz v4, :cond_2
 
-    .line 1254
+    .line 1255
     :cond_0
     iget v4, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mOverTopSelectionDividerTop:I
 
@@ -5025,17 +5025,17 @@
 
     if-ge v1, v4, :cond_3
 
-    .line 1255
+    .line 1256
     const/4 v2, 0x2
 
-    .line 1265
+    .line 1266
     .local v2, "hoveredVirtualViewId":I
     :goto_0
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getActionMasked()I
 
     move-result v0
 
-    .line 1267
+    .line 1268
     .local v0, "action":I
     invoke-virtual {p0}, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->getAccessibilityNodeProvider()Landroid/view/accessibility/AccessibilityNodeProvider;
 
@@ -5043,11 +5043,11 @@
 
     check-cast v3, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate$AccessibilityNodeProviderImpl;
 
-    .line 1268
+    .line 1269
     .local v3, "provider":Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate$AccessibilityNodeProviderImpl;
     packed-switch v0, :pswitch_data_0
 
-    .line 1296
+    .line 1297
     .end local v0    # "action":I
     .end local v1    # "eventY":I
     .end local v2    # "hoveredVirtualViewId":I
@@ -5059,29 +5059,29 @@
 
     return v4
 
-    .line 1253
+    .line 1254
     .restart local v1    # "eventY":I
     :cond_2
     const/4 v2, 0x3
 
-    .line 1252
+    .line 1253
     .restart local v2    # "hoveredVirtualViewId":I
     goto :goto_0
 
-    .line 1256
+    .line 1257
     .end local v2    # "hoveredVirtualViewId":I
     :cond_3
     iget v4, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mOverTopSelectionDividerTop:I
 
     if-ge v1, v4, :cond_4
 
-    .line 1257
+    .line 1258
     const/4 v2, 0x1
 
     .restart local v2    # "hoveredVirtualViewId":I
     goto :goto_0
 
-    .line 1258
+    .line 1259
     .end local v2    # "hoveredVirtualViewId":I
     :cond_4
     iget v4, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mBottomSelectionDividerBottom:I
@@ -5092,27 +5092,27 @@
 
     if-gt v1, v4, :cond_5
 
-    .line 1259
+    .line 1260
     const/4 v2, 0x4
 
-    .line 1258
+    .line 1259
     .restart local v2    # "hoveredVirtualViewId":I
     goto :goto_0
 
-    .line 1260
+    .line 1261
     .end local v2    # "hoveredVirtualViewId":I
     :cond_5
     iget v4, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mBelowBottomSelectionDividerBottom:I
 
     if-le v1, v4, :cond_6
 
-    .line 1261
+    .line 1262
     const/4 v2, 0x5
 
     .restart local v2    # "hoveredVirtualViewId":I
     goto :goto_0
 
-    .line 1263
+    .line 1264
     .end local v2    # "hoveredVirtualViewId":I
     :cond_6
     const/4 v2, 0x3
@@ -5120,58 +5120,58 @@
     .restart local v2    # "hoveredVirtualViewId":I
     goto :goto_0
 
-    .line 1270
+    .line 1271
     .restart local v0    # "action":I
     .restart local v3    # "provider":Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate$AccessibilityNodeProviderImpl;
     :pswitch_1
     invoke-virtual {v3, v2, v7}, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate$AccessibilityNodeProviderImpl;->sendAccessibilityEventForVirtualView(II)V
 
-    .line 1272
+    .line 1273
     iput v2, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mLastHoveredChildVirtualViewId:I
 
-    .line 1273
+    .line 1274
     invoke-virtual {v3, v2, v6, v9}, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate$AccessibilityNodeProviderImpl;->performAction(IILandroid/os/Bundle;)Z
 
     goto :goto_1
 
-    .line 1277
+    .line 1278
     :pswitch_2
     iget v4, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mLastHoveredChildVirtualViewId:I
 
     if-eq v4, v2, :cond_1
 
-    .line 1278
+    .line 1279
     iget v4, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mLastHoveredChildVirtualViewId:I
 
     if-eq v4, v5, :cond_1
 
-    .line 1280
+    .line 1281
     iget v4, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mLastHoveredChildVirtualViewId:I
 
-    .line 1279
+    .line 1280
     invoke-virtual {v3, v4, v8}, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate$AccessibilityNodeProviderImpl;->sendAccessibilityEventForVirtualView(II)V
 
-    .line 1282
+    .line 1283
     invoke-virtual {v3, v2, v7}, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate$AccessibilityNodeProviderImpl;->sendAccessibilityEventForVirtualView(II)V
 
-    .line 1284
+    .line 1285
     iput v2, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mLastHoveredChildVirtualViewId:I
 
-    .line 1285
+    .line 1286
     invoke-virtual {v3, v2, v6, v9}, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate$AccessibilityNodeProviderImpl;->performAction(IILandroid/os/Bundle;)Z
 
     goto :goto_1
 
-    .line 1290
+    .line 1291
     :pswitch_3
     invoke-virtual {v3, v2, v8}, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate$AccessibilityNodeProviderImpl;->sendAccessibilityEventForVirtualView(II)V
 
-    .line 1292
+    .line 1293
     iput v5, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mLastHoveredChildVirtualViewId:I
 
     goto :goto_1
 
-    .line 1268
+    .line 1269
     :pswitch_data_0
     .packed-switch 0x7
         :pswitch_2
@@ -5205,7 +5205,7 @@
     .local v0, "keyCode":I
     sparse-switch v0, :sswitch_data_0
 
-    .line 1233
+    .line 1234
     :cond_0
     :goto_0
     return v5
@@ -5226,7 +5226,7 @@
 
     move-result v3
 
-    if-nez v3, :cond_0
+    if-ne v6, v3, :cond_0
 
     .line 1103
     iget v3, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mLastFocusedChildVirtualViewId:I
@@ -5262,15 +5262,16 @@
     .line 1110
     invoke-direct {p0}, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->removeAllCallbacks()V
 
-    goto :goto_0
-
     .line 1111
+    return v6
+
+    .line 1112
     :cond_4
     iget v3, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mLastFocusedChildVirtualViewId:I
 
     if-ne v3, v9, :cond_5
 
-    .line 1112
+    .line 1113
     iget-object v3, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mFlingScroller:Landroid/widget/Scroller;
 
     invoke-virtual {v3}, Landroid/widget/Scroller;->isFinished()Z
@@ -5279,10 +5280,10 @@
 
     if-eqz v3, :cond_0
 
-    .line 1113
+    .line 1114
     invoke-direct {p0, v6}, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->changeValueByOne(Z)V
 
-    .line 1114
+    .line 1115
     iget-boolean v3, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mWrapSelectorWheel:Z
 
     if-nez v3, :cond_0
@@ -5299,18 +5300,18 @@
 
     if-ne v3, v4, :cond_0
 
-    .line 1115
+    .line 1116
     iput v7, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mLastFocusedChildVirtualViewId:I
 
     goto :goto_0
 
-    .line 1118
+    .line 1119
     :cond_5
     iget v3, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mLastFocusedChildVirtualViewId:I
 
     if-ne v3, v8, :cond_6
 
-    .line 1119
+    .line 1120
     iget-object v3, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mFlingScroller:Landroid/widget/Scroller;
 
     invoke-virtual {v3}, Landroid/widget/Scroller;->isFinished()Z
@@ -5319,10 +5320,10 @@
 
     if-eqz v3, :cond_0
 
-    .line 1120
+    .line 1121
     invoke-direct {p0, v5}, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->changeValueByOne(Z)V
 
-    .line 1121
+    .line 1122
     iget-boolean v3, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mWrapSelectorWheel:Z
 
     if-nez v3, :cond_0
@@ -5339,12 +5340,12 @@
 
     if-ne v3, v4, :cond_0
 
-    .line 1122
+    .line 1123
     iput v7, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mLastFocusedChildVirtualViewId:I
 
     goto :goto_0
 
-    .line 1125
+    .line 1126
     :cond_6
     iget v3, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mLastFocusedChildVirtualViewId:I
 
@@ -5352,7 +5353,7 @@
 
     if-ne v3, v4, :cond_8
 
-    .line 1126
+    .line 1127
     iget-object v3, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mFlingScroller:Landroid/widget/Scroller;
 
     invoke-virtual {v3}, Landroid/widget/Scroller;->isFinished()Z
@@ -5361,10 +5362,10 @@
 
     if-eqz v3, :cond_0
 
-    .line 1127
+    .line 1128
     invoke-direct {p0, v6}, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->changeValueByTwo(Z)V
 
-    .line 1128
+    .line 1129
     iget-boolean v3, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mWrapSelectorWheel:Z
 
     if-nez v3, :cond_7
@@ -5381,12 +5382,12 @@
 
     if-ne v3, v4, :cond_7
 
-    .line 1129
+    .line 1130
     iput v9, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mLastFocusedChildVirtualViewId:I
 
     goto/16 :goto_0
 
-    .line 1130
+    .line 1131
     :cond_7
     iget-boolean v3, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mWrapSelectorWheel:Z
 
@@ -5404,18 +5405,18 @@
 
     if-ne v3, v4, :cond_0
 
-    .line 1131
+    .line 1132
     iput v7, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mLastFocusedChildVirtualViewId:I
 
     goto/16 :goto_0
 
-    .line 1134
+    .line 1135
     :cond_8
     iget v3, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mLastFocusedChildVirtualViewId:I
 
     if-ne v3, v6, :cond_0
 
-    .line 1135
+    .line 1136
     iget-object v3, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mFlingScroller:Landroid/widget/Scroller;
 
     invoke-virtual {v3}, Landroid/widget/Scroller;->isFinished()Z
@@ -5424,10 +5425,10 @@
 
     if-eqz v3, :cond_0
 
-    .line 1136
+    .line 1137
     invoke-direct {p0, v5}, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->changeValueByTwo(Z)V
 
-    .line 1137
+    .line 1138
     iget-boolean v3, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mWrapSelectorWheel:Z
 
     if-nez v3, :cond_9
@@ -5444,12 +5445,12 @@
 
     if-ne v3, v4, :cond_9
 
-    .line 1138
+    .line 1139
     iput v8, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mLastFocusedChildVirtualViewId:I
 
     goto/16 :goto_0
 
-    .line 1139
+    .line 1140
     :cond_9
     iget-boolean v3, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mWrapSelectorWheel:Z
 
@@ -5467,12 +5468,12 @@
 
     if-ne v3, v4, :cond_0
 
-    .line 1140
+    .line 1141
     iput v7, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mLastFocusedChildVirtualViewId:I
 
     goto/16 :goto_0
 
-    .line 1148
+    .line 1149
     :sswitch_1
     invoke-virtual {p1}, Landroid/view/KeyEvent;->getAction()I
 
@@ -5480,12 +5481,12 @@
 
     if-nez v3, :cond_0
 
-    .line 1149
+    .line 1150
     const/16 v3, 0x16
 
     if-ne v0, v3, :cond_b
 
-    .line 1150
+    .line 1151
     iget-object v3, p0, Lcom/samsung/android/widget/SemNumberPicker$AbstractSemNumberPickerDelegate;->mDelegator:Lcom/samsung/android/widget/SemNumberPicker;
 
     const/16 v4, 0x42
@@ -5494,27 +5495,27 @@
 
     move-result-object v2
 
-    .line 1151
+    .line 1152
     .local v2, "v":Landroid/view/View;
     if-eqz v2, :cond_a
 
-    .line 1152
+    .line 1153
     const/16 v3, 0x42
 
     invoke-virtual {v2, v3}, Landroid/view/View;->requestFocus(I)Z
 
-    .line 1154
+    .line 1155
     :cond_a
     return v6
 
-    .line 1155
+    .line 1156
     .end local v2    # "v":Landroid/view/View;
     :cond_b
     const/16 v3, 0x15
 
     if-ne v0, v3, :cond_0
 
-    .line 1156
+    .line 1157
     iget-object v3, p0, Lcom/samsung/android/widget/SemNumberPicker$AbstractSemNumberPickerDelegate;->mDelegator:Lcom/samsung/android/widget/SemNumberPicker;
 
     const/16 v4, 0x11
@@ -5523,20 +5524,20 @@
 
     move-result-object v2
 
-    .line 1157
+    .line 1158
     .restart local v2    # "v":Landroid/view/View;
     if-eqz v2, :cond_c
 
-    .line 1158
+    .line 1159
     const/16 v3, 0x11
 
     invoke-virtual {v2, v3}, Landroid/view/View;->requestFocus(I)Z
 
-    .line 1160
+    .line 1161
     :cond_c
     return v6
 
-    .line 1166
+    .line 1167
     .end local v2    # "v":Landroid/view/View;
     :sswitch_2
     iget-boolean v3, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mIsEditTextMode:Z
@@ -5547,7 +5548,7 @@
 
     if-eqz v3, :cond_e
 
-    .line 1169
+    .line 1170
     :cond_d
     invoke-virtual {p1}, Landroid/view/KeyEvent;->getAction()I
 
@@ -5555,38 +5556,38 @@
 
     if-nez v3, :cond_1c
 
-    .line 1170
+    .line 1171
     const/16 v3, 0x14
 
     if-ne v0, v3, :cond_15
 
-    .line 1171
+    .line 1172
     iget v3, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mLastFocusedChildVirtualViewId:I
 
     if-ne v3, v8, :cond_f
 
-    .line 1172
+    .line 1173
     iput v7, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mLastFocusedChildVirtualViewId:I
 
-    .line 1173
+    .line 1174
     iget-object v3, p0, Lcom/samsung/android/widget/SemNumberPicker$AbstractSemNumberPickerDelegate;->mDelegator:Lcom/samsung/android/widget/SemNumberPicker;
 
     invoke-virtual {v3}, Landroid/view/View;->invalidate()V
 
-    .line 1174
+    .line 1175
     return v6
 
-    .line 1167
+    .line 1168
     :cond_e
     return v5
 
-    .line 1175
+    .line 1176
     :cond_f
     iget v3, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mLastFocusedChildVirtualViewId:I
 
     if-ne v3, v7, :cond_11
 
-    .line 1176
+    .line 1177
     iget-boolean v3, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mWrapSelectorWheel:Z
 
     if-nez v3, :cond_10
@@ -5601,28 +5602,28 @@
 
     if-ne v3, v4, :cond_10
 
-    .line 1177
+    .line 1178
     return v5
 
-    .line 1179
+    .line 1180
     :cond_10
     iput v9, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mLastFocusedChildVirtualViewId:I
 
-    .line 1180
+    .line 1181
     iget-object v3, p0, Lcom/samsung/android/widget/SemNumberPicker$AbstractSemNumberPickerDelegate;->mDelegator:Lcom/samsung/android/widget/SemNumberPicker;
 
     invoke-virtual {v3}, Landroid/view/View;->invalidate()V
 
-    .line 1181
+    .line 1182
     return v6
 
-    .line 1182
+    .line 1183
     :cond_11
     iget v3, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mLastFocusedChildVirtualViewId:I
 
     if-ne v3, v9, :cond_13
 
-    .line 1183
+    .line 1184
     iget-boolean v3, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mWrapSelectorWheel:Z
 
     if-nez v3, :cond_12
@@ -5639,41 +5640,41 @@
 
     if-ne v3, v4, :cond_12
 
-    .line 1184
+    .line 1185
     return v5
 
-    .line 1186
+    .line 1187
     :cond_12
     const/4 v3, 0x5
 
     iput v3, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mLastFocusedChildVirtualViewId:I
 
-    .line 1187
+    .line 1188
     iget-object v3, p0, Lcom/samsung/android/widget/SemNumberPicker$AbstractSemNumberPickerDelegate;->mDelegator:Lcom/samsung/android/widget/SemNumberPicker;
 
     invoke-virtual {v3}, Landroid/view/View;->invalidate()V
 
-    .line 1188
+    .line 1189
     return v6
 
-    .line 1189
+    .line 1190
     :cond_13
     iget v3, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mLastFocusedChildVirtualViewId:I
 
     if-ne v3, v6, :cond_14
 
-    .line 1190
+    .line 1191
     iput v8, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mLastFocusedChildVirtualViewId:I
 
-    .line 1191
+    .line 1192
     iget-object v3, p0, Lcom/samsung/android/widget/SemNumberPicker$AbstractSemNumberPickerDelegate;->mDelegator:Lcom/samsung/android/widget/SemNumberPicker;
 
     invoke-virtual {v3}, Landroid/view/View;->invalidate()V
 
-    .line 1192
+    .line 1193
     return v6
 
-    .line 1193
+    .line 1194
     :cond_14
     iget v3, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mLastFocusedChildVirtualViewId:I
 
@@ -5681,21 +5682,21 @@
 
     if-ne v3, v4, :cond_0
 
-    .line 1194
+    .line 1195
     return v5
 
-    .line 1196
+    .line 1197
     :cond_15
     const/16 v3, 0x13
 
     if-ne v0, v3, :cond_0
 
-    .line 1197
+    .line 1198
     iget v3, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mLastFocusedChildVirtualViewId:I
 
     if-ne v3, v8, :cond_17
 
-    .line 1198
+    .line 1199
     iget-boolean v3, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mWrapSelectorWheel:Z
 
     if-nez v3, :cond_16
@@ -5712,28 +5713,28 @@
 
     if-ne v3, v4, :cond_16
 
-    .line 1199
+    .line 1200
     return v5
 
-    .line 1201
+    .line 1202
     :cond_16
     iput v6, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mLastFocusedChildVirtualViewId:I
 
-    .line 1202
+    .line 1203
     iget-object v3, p0, Lcom/samsung/android/widget/SemNumberPicker$AbstractSemNumberPickerDelegate;->mDelegator:Lcom/samsung/android/widget/SemNumberPicker;
 
     invoke-virtual {v3}, Landroid/view/View;->invalidate()V
 
-    .line 1203
+    .line 1204
     return v6
 
-    .line 1204
+    .line 1205
     :cond_17
     iget v3, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mLastFocusedChildVirtualViewId:I
 
     if-ne v3, v7, :cond_19
 
-    .line 1205
+    .line 1206
     iget-boolean v3, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mWrapSelectorWheel:Z
 
     if-nez v3, :cond_18
@@ -5748,48 +5749,48 @@
 
     if-ne v3, v4, :cond_18
 
-    .line 1206
+    .line 1207
     return v5
 
-    .line 1208
+    .line 1209
     :cond_18
     iput v8, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mLastFocusedChildVirtualViewId:I
 
-    .line 1209
+    .line 1210
     iget-object v3, p0, Lcom/samsung/android/widget/SemNumberPicker$AbstractSemNumberPickerDelegate;->mDelegator:Lcom/samsung/android/widget/SemNumberPicker;
 
     invoke-virtual {v3}, Landroid/view/View;->invalidate()V
 
-    .line 1210
+    .line 1211
     return v6
 
-    .line 1211
+    .line 1212
     :cond_19
     iget v3, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mLastFocusedChildVirtualViewId:I
 
     if-ne v3, v9, :cond_1a
 
-    .line 1212
+    .line 1213
     iput v7, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mLastFocusedChildVirtualViewId:I
 
-    .line 1213
+    .line 1214
     iget-object v3, p0, Lcom/samsung/android/widget/SemNumberPicker$AbstractSemNumberPickerDelegate;->mDelegator:Lcom/samsung/android/widget/SemNumberPicker;
 
     invoke-virtual {v3}, Landroid/view/View;->invalidate()V
 
-    .line 1214
+    .line 1215
     return v6
 
-    .line 1215
+    .line 1216
     :cond_1a
     iget v3, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mLastFocusedChildVirtualViewId:I
 
     if-ne v3, v6, :cond_1b
 
-    .line 1216
+    .line 1217
     return v5
 
-    .line 1217
+    .line 1218
     :cond_1b
     iget v3, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mLastFocusedChildVirtualViewId:I
 
@@ -5797,18 +5798,18 @@
 
     if-ne v3, v4, :cond_0
 
-    .line 1218
+    .line 1219
     iput v9, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mLastFocusedChildVirtualViewId:I
 
-    .line 1219
+    .line 1220
     iget-object v3, p0, Lcom/samsung/android/widget/SemNumberPicker$AbstractSemNumberPickerDelegate;->mDelegator:Lcom/samsung/android/widget/SemNumberPicker;
 
     invoke-virtual {v3}, Landroid/view/View;->invalidate()V
 
-    .line 1220
+    .line 1221
     return v6
 
-    .line 1223
+    .line 1224
     :cond_1c
     invoke-virtual {p1}, Landroid/view/KeyEvent;->getAction()I
 
@@ -5816,7 +5817,7 @@
 
     if-ne v3, v6, :cond_0
 
-    .line 1224
+    .line 1225
     iget-object v3, p0, Lcom/samsung/android/widget/SemNumberPicker$AbstractSemNumberPickerDelegate;->mContext:Landroid/content/Context;
 
     invoke-static {v3}, Landroid/view/accessibility/AccessibilityManager;->getInstance(Landroid/content/Context;)Landroid/view/accessibility/AccessibilityManager;
@@ -5829,18 +5830,18 @@
 
     if-eqz v3, :cond_0
 
-    .line 1225
+    .line 1226
     invoke-virtual {p0}, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->getAccessibilityNodeProvider()Landroid/view/accessibility/AccessibilityNodeProvider;
 
     move-result-object v1
 
     check-cast v1, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate$AccessibilityNodeProviderImpl;
 
-    .line 1226
+    .line 1227
     .local v1, "provider":Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate$AccessibilityNodeProviderImpl;
     if-eqz v1, :cond_1d
 
-    .line 1227
+    .line 1228
     iget v3, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mLastFocusedChildVirtualViewId:I
 
     const/16 v4, 0x40
@@ -5849,7 +5850,7 @@
 
     invoke-virtual {v1, v3, v4, v5}, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate$AccessibilityNodeProviderImpl;->performAction(IILandroid/os/Bundle;)Z
 
-    .line 1229
+    .line 1230
     :cond_1d
     return v6
 
@@ -5968,27 +5969,27 @@
     .param p1, "event"    # Landroid/view/MotionEvent;
 
     .prologue
-    .line 1238
+    .line 1239
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getActionMasked()I
 
     move-result v0
 
-    .line 1239
+    .line 1240
     .local v0, "action":I
     packed-switch v0, :pswitch_data_0
 
-    .line 1237
+    .line 1238
     :goto_0
     :pswitch_0
     return-void
 
-    .line 1242
+    .line 1243
     :pswitch_1
     invoke-direct {p0}, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->removeAllCallbacks()V
 
     goto :goto_0
 
-    .line 1239
+    .line 1240
     :pswitch_data_0
     .packed-switch 0x1
         :pswitch_1
@@ -6001,19 +6002,19 @@
     .locals 1
 
     .prologue
-    .line 2045
+    .line 2046
     iget-object v0, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mAccessibilityNodeProvider:Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate$AccessibilityNodeProviderImpl;
 
     if-nez v0, :cond_0
 
-    .line 2046
+    .line 2047
     new-instance v0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate$AccessibilityNodeProviderImpl;
 
     invoke-direct {v0, p0}, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate$AccessibilityNodeProviderImpl;-><init>(Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;)V
 
     iput-object v0, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mAccessibilityNodeProvider:Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate$AccessibilityNodeProviderImpl;
 
-    .line 2048
+    .line 2049
     :cond_0
     iget-object v0, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mAccessibilityNodeProvider:Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate$AccessibilityNodeProviderImpl;
 
@@ -6024,7 +6025,7 @@
     .locals 1
 
     .prologue
-    .line 1780
+    .line 1781
     iget-object v0, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mDisplayedValues:[Ljava/lang/String;
 
     return-object v0
@@ -6034,7 +6035,7 @@
     .locals 1
 
     .prologue
-    .line 3422
+    .line 3423
     iget-object v0, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mInputText:Landroid/widget/EditText;
 
     return-object v0
@@ -6044,7 +6045,7 @@
     .locals 1
 
     .prologue
-    .line 3483
+    .line 3484
     const/4 v0, 0x0
 
     return v0
@@ -6054,7 +6055,7 @@
     .locals 1
 
     .prologue
-    .line 1742
+    .line 1743
     iget v0, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mMaxValue:I
 
     return v0
@@ -6064,7 +6065,7 @@
     .locals 1
 
     .prologue
-    .line 3478
+    .line 3479
     const/4 v0, 0x0
 
     return v0
@@ -6074,7 +6075,7 @@
     .locals 1
 
     .prologue
-    .line 3473
+    .line 3474
     const/4 v0, 0x0
 
     return v0
@@ -6084,7 +6085,7 @@
     .locals 1
 
     .prologue
-    .line 1704
+    .line 1705
     iget v0, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mMinValue:I
 
     return v0
@@ -6094,7 +6095,7 @@
     .locals 1
 
     .prologue
-    .line 3468
+    .line 3469
     const/4 v0, 0x0
 
     return v0
@@ -6114,7 +6115,7 @@
     .locals 1
 
     .prologue
-    .line 1695
+    .line 1696
     iget v0, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mValue:I
 
     return v0
@@ -6124,7 +6125,7 @@
     .locals 1
 
     .prologue
-    .line 1648
+    .line 1649
     iget-boolean v0, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mWrapSelectorWheel:Z
 
     return v0
@@ -6144,7 +6145,7 @@
     .locals 1
 
     .prologue
-    .line 1502
+    .line 1503
     iget-boolean v0, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mIsEditTextMode:Z
 
     if-eqz v0, :cond_0
@@ -6153,13 +6154,13 @@
 
     if-eqz v0, :cond_1
 
-    .line 1505
+    .line 1506
     :cond_0
     const/4 v0, 0x0
 
     return v0
 
-    .line 1503
+    .line 1504
     :cond_1
     const/4 v0, 0x1
 
@@ -6170,7 +6171,7 @@
     .locals 0
 
     .prologue
-    .line 1934
+    .line 1935
     return-void
 .end method
 
@@ -6252,10 +6253,10 @@
     .locals 0
 
     .prologue
-    .line 1930
+    .line 1931
     invoke-direct {p0}, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->removeAllCallbacks()V
 
-    .line 1929
+    .line 1930
     return-void
 .end method
 
@@ -6264,7 +6265,7 @@
     .param p1, "canvas"    # Landroid/graphics/Canvas;
 
     .prologue
-    .line 1940
+    .line 1941
     move-object/from16 v0, p0
 
     iget-object v0, v0, Lcom/samsung/android/widget/SemNumberPicker$AbstractSemNumberPickerDelegate;->mDelegator:Lcom/samsung/android/widget/SemNumberPicker;
@@ -6275,7 +6276,7 @@
 
     move-result v10
 
-    .line 1941
+    .line 1942
     .local v10, "mRight":I
     move-object/from16 v0, p0
 
@@ -6287,7 +6288,7 @@
 
     move-result v9
 
-    .line 1942
+    .line 1943
     .local v9, "mLeft":I
     move-object/from16 v0, p0
 
@@ -6299,7 +6300,7 @@
 
     move-result v8
 
-    .line 1944
+    .line 1945
     .local v8, "mBottom":I
     move-object/from16 v0, p0
 
@@ -6319,7 +6320,7 @@
 
     move-result v17
 
-    .line 1945
+    .line 1946
     :goto_0
     move-object/from16 v0, p0
 
@@ -6329,7 +6330,7 @@
 
     mul-int/lit8 v6, v22, 0x2
 
-    .line 1946
+    .line 1947
     .local v6, "div_value":I
     sub-int v22, v10, v9
 
@@ -6343,7 +6344,7 @@
 
     div-float v18, v22, v23
 
-    .line 1947
+    .line 1948
     .local v18, "x":F
     move-object/from16 v0, p0
 
@@ -6357,7 +6358,7 @@
 
     move/from16 v19, v0
 
-    .line 1948
+    .line 1949
     .local v19, "y":F
     move-object/from16 v0, p0
 
@@ -6373,7 +6374,7 @@
 
     move/from16 v21, v0
 
-    .line 1950
+    .line 1951
     .local v21, "y_max":F
     if-eqz v17, :cond_4
 
@@ -6385,7 +6386,7 @@
 
     if-eqz v22, :cond_4
 
-    .line 1951
+    .line 1952
     move-object/from16 v0, p0
 
     iget v0, v0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mScrollState:I
@@ -6394,7 +6395,7 @@
 
     if-nez v22, :cond_4
 
-    .line 1952
+    .line 1953
     move-object/from16 v0, p0
 
     iget v0, v0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mLastFocusedChildVirtualViewId:I
@@ -6409,7 +6410,7 @@
 
     if-ne v0, v1, :cond_0
 
-    .line 1953
+    .line 1954
     move-object/from16 v0, p0
 
     iget-object v0, v0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mVirtualButtonFocusedDrawable:Landroid/graphics/drawable/Drawable;
@@ -6428,7 +6429,7 @@
 
     invoke-virtual/range {v22 .. v23}, Landroid/graphics/drawable/Drawable;->setState([I)Z
 
-    .line 1954
+    .line 1955
     move-object/from16 v0, p0
 
     iget-object v0, v0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mVirtualButtonFocusedDrawable:Landroid/graphics/drawable/Drawable;
@@ -6459,7 +6460,7 @@
 
     invoke-virtual {v0, v1, v2, v10, v3}, Landroid/graphics/drawable/Drawable;->setBounds(IIII)V
 
-    .line 1955
+    .line 1956
     move-object/from16 v0, p0
 
     iget-object v0, v0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mVirtualButtonFocusedDrawable:Landroid/graphics/drawable/Drawable;
@@ -6472,7 +6473,7 @@
 
     invoke-virtual {v0, v1}, Landroid/graphics/drawable/Drawable;->draw(Landroid/graphics/Canvas;)V
 
-    .line 1957
+    .line 1958
     :cond_0
     move-object/from16 v0, p0
 
@@ -6488,7 +6489,7 @@
 
     if-ne v0, v1, :cond_1
 
-    .line 1958
+    .line 1959
     move-object/from16 v0, p0
 
     iget-object v0, v0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mVirtualButtonFocusedDrawable:Landroid/graphics/drawable/Drawable;
@@ -6507,7 +6508,7 @@
 
     invoke-virtual/range {v22 .. v23}, Landroid/graphics/drawable/Drawable;->setState([I)Z
 
-    .line 1959
+    .line 1960
     move-object/from16 v0, p0
 
     iget-object v0, v0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mVirtualButtonFocusedDrawable:Landroid/graphics/drawable/Drawable;
@@ -6520,14 +6521,14 @@
 
     move/from16 v23, v0
 
-    .line 1960
+    .line 1961
     move-object/from16 v0, p0
 
     iget v0, v0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mBelowBottomSelectionDividerBottom:I
 
     move/from16 v24, v0
 
-    .line 1959
+    .line 1960
     const/16 v25, 0x0
 
     move-object/from16 v0, v22
@@ -6540,7 +6541,7 @@
 
     invoke-virtual {v0, v1, v2, v10, v3}, Landroid/graphics/drawable/Drawable;->setBounds(IIII)V
 
-    .line 1961
+    .line 1962
     move-object/from16 v0, p0
 
     iget-object v0, v0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mVirtualButtonFocusedDrawable:Landroid/graphics/drawable/Drawable;
@@ -6553,7 +6554,7 @@
 
     invoke-virtual {v0, v1}, Landroid/graphics/drawable/Drawable;->draw(Landroid/graphics/Canvas;)V
 
-    .line 1963
+    .line 1964
     :cond_1
     move-object/from16 v0, p0
 
@@ -6569,7 +6570,7 @@
 
     if-ne v0, v1, :cond_2
 
-    .line 1964
+    .line 1965
     move-object/from16 v0, p0
 
     iget-object v0, v0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mVirtualButtonFocusedDrawable:Landroid/graphics/drawable/Drawable;
@@ -6588,7 +6589,7 @@
 
     invoke-virtual/range {v22 .. v23}, Landroid/graphics/drawable/Drawable;->setState([I)Z
 
-    .line 1965
+    .line 1966
     move-object/from16 v0, p0
 
     iget-object v0, v0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mVirtualButtonFocusedDrawable:Landroid/graphics/drawable/Drawable;
@@ -6615,7 +6616,7 @@
 
     invoke-virtual {v0, v1, v2, v10, v3}, Landroid/graphics/drawable/Drawable;->setBounds(IIII)V
 
-    .line 1966
+    .line 1967
     move-object/from16 v0, p0
 
     iget-object v0, v0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mVirtualButtonFocusedDrawable:Landroid/graphics/drawable/Drawable;
@@ -6628,7 +6629,7 @@
 
     invoke-virtual {v0, v1}, Landroid/graphics/drawable/Drawable;->draw(Landroid/graphics/Canvas;)V
 
-    .line 1968
+    .line 1969
     :cond_2
     move-object/from16 v0, p0
 
@@ -6644,7 +6645,7 @@
 
     if-ne v0, v1, :cond_3
 
-    .line 1969
+    .line 1970
     move-object/from16 v0, p0
 
     iget-object v0, v0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mVirtualButtonFocusedDrawable:Landroid/graphics/drawable/Drawable;
@@ -6663,7 +6664,7 @@
 
     invoke-virtual/range {v22 .. v23}, Landroid/graphics/drawable/Drawable;->setState([I)Z
 
-    .line 1970
+    .line 1971
     move-object/from16 v0, p0
 
     iget-object v0, v0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mVirtualButtonFocusedDrawable:Landroid/graphics/drawable/Drawable;
@@ -6686,7 +6687,7 @@
 
     invoke-virtual {v0, v1, v2, v10, v8}, Landroid/graphics/drawable/Drawable;->setBounds(IIII)V
 
-    .line 1972
+    .line 1973
     move-object/from16 v0, p0
 
     iget-object v0, v0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mVirtualButtonFocusedDrawable:Landroid/graphics/drawable/Drawable;
@@ -6699,7 +6700,7 @@
 
     invoke-virtual {v0, v1}, Landroid/graphics/drawable/Drawable;->draw(Landroid/graphics/Canvas;)V
 
-    .line 1975
+    .line 1976
     :cond_3
     move-object/from16 v0, p0
 
@@ -6715,7 +6716,7 @@
 
     if-ne v0, v1, :cond_4
 
-    .line 1976
+    .line 1977
     move-object/from16 v0, p0
 
     iget-object v0, v0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mVirtualButtonFocusedDrawable:Landroid/graphics/drawable/Drawable;
@@ -6734,7 +6735,7 @@
 
     invoke-virtual/range {v22 .. v23}, Landroid/graphics/drawable/Drawable;->setState([I)Z
 
-    .line 1977
+    .line 1978
     move-object/from16 v0, p0
 
     iget-object v0, v0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mVirtualButtonFocusedDrawable:Landroid/graphics/drawable/Drawable;
@@ -6765,7 +6766,7 @@
 
     invoke-virtual {v0, v1, v2, v10, v3}, Landroid/graphics/drawable/Drawable;->setBounds(IIII)V
 
-    .line 1978
+    .line 1979
     move-object/from16 v0, p0
 
     iget-object v0, v0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mVirtualButtonFocusedDrawable:Landroid/graphics/drawable/Drawable;
@@ -6778,7 +6779,7 @@
 
     invoke-virtual {v0, v1}, Landroid/graphics/drawable/Drawable;->draw(Landroid/graphics/Canvas;)V
 
-    .line 1982
+    .line 1983
     :cond_4
     move-object/from16 v0, p0
 
@@ -6786,7 +6787,7 @@
 
     move-object/from16 v16, v0
 
-    .line 1983
+    .line 1984
     .local v16, "selectorIndices":[I
     const/4 v7, 0x0
 
@@ -6802,10 +6803,10 @@
 
     if-ge v7, v0, :cond_e
 
-    .line 1984
+    .line 1985
     aget v15, v16, v7
 
-    .line 1985
+    .line 1986
     .local v15, "selectorIndex":I
     move-object/from16 v0, p0
 
@@ -6821,7 +6822,7 @@
 
     check-cast v14, Ljava/lang/String;
 
-    .line 1992
+    .line 1993
     .local v14, "scrollSelectorValue":Ljava/lang/String;
     move-object/from16 v0, p0
 
@@ -6849,7 +6850,7 @@
 
     if-ltz v22, :cond_b
 
-    .line 1993
+    .line 1994
     move-object/from16 v0, p0
 
     iget v0, v0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mBottomSelectionDividerBottom:I
@@ -6876,7 +6877,7 @@
 
     if-gtz v22, :cond_b
 
-    .line 1994
+    .line 1995
     move-object/from16 v0, p0
 
     iget-boolean v0, v0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mIsAmPm:Z
@@ -6907,7 +6908,7 @@
 
     if-eq v0, v1, :cond_5
 
-    .line 1995
+    .line 1996
     move-object/from16 v0, p0
 
     iget-object v0, v0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mSelectorWheelPaint:Landroid/graphics/Paint;
@@ -6922,7 +6923,7 @@
 
     invoke-virtual/range {v22 .. v23}, Landroid/graphics/Paint;->setTypeface(Landroid/graphics/Typeface;)Landroid/graphics/Typeface;
 
-    .line 1997
+    .line 1998
     :cond_5
     move-object/from16 v0, p0
 
@@ -6946,7 +6947,7 @@
 
     if-eqz v22, :cond_6
 
-    .line 1998
+    .line 1999
     move-object/from16 v0, p0
 
     iget-object v0, v0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mSelectorWheelPaint:Landroid/graphics/Paint;
@@ -6961,7 +6962,7 @@
 
     invoke-virtual/range {v22 .. v23}, Landroid/graphics/Paint;->setColor(I)V
 
-    .line 2009
+    .line 2010
     :cond_6
     :goto_2
     sub-float v22, v21, v19
@@ -6992,7 +6993,7 @@
 
     div-float v12, v22, v23
 
-    .line 2010
+    .line 2011
     .local v12, "ratioConst":F
     move-object/from16 v0, p0
 
@@ -7006,7 +7007,7 @@
 
     move-result v11
 
-    .line 2011
+    .line 2012
     .local v11, "ratio":F
     move-object/from16 v0, p0
 
@@ -7020,7 +7021,7 @@
 
     move-result v5
 
-    .line 2012
+    .line 2013
     .local v5, "alphaRatio":F
     const v22, 0x3f4ccccd    # 0.8f
 
@@ -7030,7 +7031,7 @@
 
     add-float v4, v22, v23
 
-    .line 2013
+    .line 2014
     .local v4, "alpha":F
     const/16 v22, 0x0
 
@@ -7038,10 +7039,10 @@
 
     if-gez v22, :cond_7
 
-    .line 2014
+    .line 2015
     const/4 v4, 0x0
 
-    .line 2016
+    .line 2017
     :cond_7
     move-object/from16 v0, p0
 
@@ -7061,7 +7062,7 @@
 
     invoke-virtual/range {v22 .. v23}, Landroid/graphics/Paint;->setAlpha(I)V
 
-    .line 2018
+    .line 2019
     move-object/from16 v0, p0
 
     iget v0, v0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mTextSize:I
@@ -7112,7 +7113,7 @@
 
     div-float v13, v22, v23
 
-    .line 2019
+    .line 2020
     .local v13, "scale":F
     move-object/from16 v0, p0
 
@@ -7160,7 +7161,7 @@
 
     move/from16 v20, v0
 
-    .line 2020
+    .line 2021
     .local v20, "yPos":I
     if-eqz v17, :cond_d
 
@@ -7186,11 +7187,11 @@
 
     if-eqz v22, :cond_d
 
-    .line 2021
+    .line 2022
     :cond_8
     invoke-virtual/range {p1 .. p1}, Landroid/graphics/Canvas;->save()I
 
-    .line 2022
+    .line 2023
     move-object/from16 v0, p1
 
     move/from16 v1, v18
@@ -7199,7 +7200,7 @@
 
     invoke-virtual {v0, v13, v13, v1, v2}, Landroid/graphics/Canvas;->scale(FFFF)V
 
-    .line 2023
+    .line 2024
     move/from16 v0, v20
 
     int-to-float v0, v0
@@ -7222,10 +7223,10 @@
 
     invoke-virtual {v0, v14, v1, v2, v3}, Landroid/graphics/Canvas;->drawText(Ljava/lang/String;FFLandroid/graphics/Paint;)V
 
-    .line 2024
+    .line 2025
     invoke-virtual/range {p1 .. p1}, Landroid/graphics/Canvas;->restore()V
 
-    .line 2031
+    .line 2032
     :cond_9
     :goto_3
     move-object/from16 v0, p0
@@ -7242,12 +7243,12 @@
 
     add-float v19, v19, v22
 
-    .line 1983
+    .line 1984
     add-int/lit8 v7, v7, 0x1
 
     goto/16 :goto_1
 
-    .line 1944
+    .line 1945
     .end local v4    # "alpha":F
     .end local v5    # "alphaRatio":F
     .end local v6    # "div_value":I
@@ -7268,7 +7269,7 @@
     .local v17, "showSelectorWheel":Z
     goto/16 :goto_0
 
-    .line 2001
+    .line 2002
     .end local v17    # "showSelectorWheel":Z
     .restart local v6    # "div_value":I
     .restart local v7    # "i":I
@@ -7309,7 +7310,7 @@
 
     if-eq v0, v1, :cond_c
 
-    .line 2002
+    .line 2003
     move-object/from16 v0, p0
 
     iget-object v0, v0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mSelectorWheelPaint:Landroid/graphics/Paint;
@@ -7324,7 +7325,7 @@
 
     invoke-virtual/range {v22 .. v23}, Landroid/graphics/Paint;->setTypeface(Landroid/graphics/Typeface;)Landroid/graphics/Typeface;
 
-    .line 2004
+    .line 2005
     :cond_c
     move-object/from16 v0, p0
 
@@ -7348,7 +7349,7 @@
 
     if-eqz v22, :cond_6
 
-    .line 2005
+    .line 2006
     move-object/from16 v0, p0
 
     iget-object v0, v0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mSelectorWheelPaint:Landroid/graphics/Paint;
@@ -7365,7 +7366,7 @@
 
     goto/16 :goto_2
 
-    .line 2025
+    .line 2026
     .restart local v4    # "alpha":F
     .restart local v5    # "alphaRatio":F
     .restart local v11    # "ratio":F
@@ -7391,10 +7392,10 @@
 
     if-eqz v22, :cond_9
 
-    .line 2026
+    .line 2027
     invoke-virtual/range {p1 .. p1}, Landroid/graphics/Canvas;->save()I
 
-    .line 2027
+    .line 2028
     move-object/from16 v0, p1
 
     move/from16 v1, v18
@@ -7403,7 +7404,7 @@
 
     invoke-virtual {v0, v13, v13, v1, v2}, Landroid/graphics/Canvas;->scale(FFFF)V
 
-    .line 2028
+    .line 2029
     move/from16 v0, v20
 
     int-to-float v0, v0
@@ -7426,12 +7427,12 @@
 
     invoke-virtual {v0, v14, v1, v2, v3}, Landroid/graphics/Canvas;->drawText(Ljava/lang/String;FFLandroid/graphics/Paint;)V
 
-    .line 2029
+    .line 2030
     invoke-virtual/range {p1 .. p1}, Landroid/graphics/Canvas;->restore()V
 
     goto/16 :goto_3
 
-    .line 1939
+    .line 1940
     .end local v4    # "alpha":F
     .end local v5    # "alphaRatio":F
     .end local v11    # "ratio":F
@@ -7610,7 +7611,7 @@
     .param p1, "event"    # Landroid/view/accessibility/AccessibilityEvent;
 
     .prologue
-    .line 2037
+    .line 2038
     const-class v0, Landroid/widget/NumberPicker;
 
     invoke-virtual {v0}, Ljava/lang/Class;->getName()Ljava/lang/String;
@@ -7619,12 +7620,12 @@
 
     invoke-virtual {p1, v0}, Landroid/view/accessibility/AccessibilityRecord;->setClassName(Ljava/lang/CharSequence;)V
 
-    .line 2038
+    .line 2039
     const/4 v0, 0x1
 
     invoke-virtual {p1, v0}, Landroid/view/accessibility/AccessibilityRecord;->setScrollable(Z)V
 
-    .line 2039
+    .line 2040
     iget v0, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mMinValue:I
 
     iget v1, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mValue:I
@@ -7637,7 +7638,7 @@
 
     invoke-virtual {p1, v0}, Landroid/view/accessibility/AccessibilityRecord;->setScrollY(I)V
 
-    .line 2040
+    .line 2041
     iget v0, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mMaxValue:I
 
     iget v1, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mMinValue:I
@@ -7650,7 +7651,7 @@
 
     invoke-virtual {p1, v0}, Landroid/view/accessibility/AccessibilityRecord;->setMaxScrollY(I)V
 
-    .line 2036
+    .line 2037
     return-void
 .end method
 
@@ -8638,19 +8639,19 @@
     .locals 1
 
     .prologue
-    .line 1510
+    .line 1511
     iget-boolean v0, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mIsAmPm:Z
 
     if-eqz v0, :cond_0
 
-    .line 1511
+    .line 1512
     return-void
 
-    .line 1513
+    .line 1514
     :cond_0
     invoke-direct {p0}, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->showSoftInput()V
 
-    .line 1509
+    .line 1510
     return-void
 .end method
 
@@ -8659,28 +8660,28 @@
     .param p1, "toIncrement"    # Z
 
     .prologue
-    .line 1518
+    .line 1519
     iget-boolean v0, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mIsAmPm:Z
 
     if-eqz v0, :cond_1
 
-    .line 1519
+    .line 1520
     iget v0, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mValue:I
 
     iget v1, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mMaxValue:I
 
     if-ne v0, v1, :cond_0
 
-    .line 1520
+    .line 1521
     const/4 v0, 0x0
 
     invoke-direct {p0, v0}, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->changeValueByOne(Z)V
 
-    .line 1517
+    .line 1518
     :goto_0
     return-void
 
-    .line 1522
+    .line 1523
     :cond_0
     const/4 v0, 0x1
 
@@ -8688,7 +8689,7 @@
 
     goto :goto_0
 
-    .line 1525
+    .line 1526
     :cond_1
     invoke-direct {p0, p1}, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->changeValueByOne(Z)V
 
@@ -8699,24 +8700,24 @@
     .locals 1
 
     .prologue
-    .line 1531
+    .line 1532
     const/4 v0, 0x1
 
     iput-boolean v0, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mIgnoreMoveEvents:Z
 
-    .line 1532
+    .line 1533
     iget-boolean v0, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mIsAmPm:Z
 
     if-eqz v0, :cond_0
 
-    .line 1533
+    .line 1534
     return-void
 
-    .line 1535
+    .line 1536
     :cond_0
     invoke-direct {p0}, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->showSoftInput()V
 
-    .line 1530
+    .line 1531
     return-void
 .end method
 
@@ -8730,10 +8731,10 @@
 
     const/4 v4, 0x2
 
-    .line 1349
+    .line 1350
     iget-object v0, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mSelectorIndices:[I
 
-    .line 1350
+    .line 1351
     .local v0, "selectorIndices":[I
     if-eqz p2, :cond_0
 
@@ -8741,11 +8742,11 @@
 
     if-gtz v1, :cond_1
 
-    .line 1351
+    .line 1352
     :cond_0
     return-void
 
-    .line 1353
+    .line 1354
     :cond_1
     iget-boolean v1, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mWrapSelectorWheel:Z
 
@@ -8759,21 +8760,21 @@
 
     if-le v1, v2, :cond_2
 
-    .line 1354
+    .line 1355
     aget v1, v0, v4
 
     iget v2, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mMinValue:I
 
     if-gt v1, v2, :cond_2
 
-    .line 1355
+    .line 1356
     iget v1, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mInitialScrollOffset:I
 
     iget v2, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mCurrentScrollOffset:I
 
     sub-int p2, v1, v2
 
-    .line 1356
+    .line 1357
     iget-boolean v1, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mIsAmPm:Z
 
     if-eqz v1, :cond_2
@@ -8792,13 +8793,13 @@
 
     if-lez v1, :cond_2
 
-    .line 1357
+    .line 1358
     iput-boolean v5, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mIgnoreMoveEvents:Z
 
-    .line 1358
+    .line 1359
     return-void
 
-    .line 1361
+    .line 1362
     :cond_2
     iget-boolean v1, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mWrapSelectorWheel:Z
 
@@ -8812,21 +8813,21 @@
 
     if-ge v1, v2, :cond_3
 
-    .line 1362
+    .line 1363
     aget v1, v0, v4
 
     iget v2, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mMaxValue:I
 
     if-lt v1, v2, :cond_3
 
-    .line 1363
+    .line 1364
     iget v1, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mInitialScrollOffset:I
 
     iget v2, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mCurrentScrollOffset:I
 
     sub-int p2, v1, v2
 
-    .line 1364
+    .line 1365
     iget-boolean v1, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mIsAmPm:Z
 
     if-eqz v1, :cond_3
@@ -8845,13 +8846,13 @@
 
     if-gez v1, :cond_3
 
-    .line 1365
+    .line 1366
     iput-boolean v5, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mIgnoreMoveEvents:Z
 
-    .line 1366
+    .line 1367
     return-void
 
-    .line 1369
+    .line 1370
     :cond_3
     iget v1, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mCurrentScrollOffset:I
 
@@ -8859,7 +8860,7 @@
 
     iput v1, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mCurrentScrollOffset:I
 
-    .line 1370
+    .line 1371
     :cond_4
     :goto_0
     iget v1, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mCurrentScrollOffset:I
@@ -8876,7 +8877,7 @@
 
     if-lt v1, v2, :cond_7
 
-    .line 1371
+    .line 1372
     iget v1, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mCurrentScrollOffset:I
 
     iget v2, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mSelectorElementHeight:I
@@ -8885,32 +8886,32 @@
 
     iput v1, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mCurrentScrollOffset:I
 
-    .line 1372
+    .line 1373
     invoke-direct {p0, v0}, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->decrementSelectorIndices([I)V
 
-    .line 1373
+    .line 1374
     iget-boolean v1, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mIsStartingAnimation:Z
 
     if-nez v1, :cond_5
 
-    .line 1374
+    .line 1375
     aget v1, v0, v4
 
     invoke-direct {p0, v1, v5}, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->setValueInternal(IZ)V
 
-    .line 1375
+    .line 1376
     iget v1, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mLongPressCount:I
 
     if-lez v1, :cond_6
 
-    .line 1376
+    .line 1377
     iget v1, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mLongPressCount:I
 
     add-int/lit8 v1, v1, -0x1
 
     iput v1, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mLongPressCount:I
 
-    .line 1381
+    .line 1382
     :cond_5
     :goto_1
     iget-boolean v1, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mWrapSelectorWheel:Z
@@ -8923,20 +8924,20 @@
 
     if-gt v1, v2, :cond_4
 
-    .line 1382
+    .line 1383
     iget v1, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mInitialScrollOffset:I
 
     iput v1, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mCurrentScrollOffset:I
 
     goto :goto_0
 
-    .line 1378
+    .line 1379
     :cond_6
     invoke-direct {p0}, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->playSoundAndHapticFeedback()V
 
     goto :goto_1
 
-    .line 1385
+    .line 1386
     :cond_7
     :goto_2
     iget v1, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mCurrentScrollOffset:I
@@ -8955,7 +8956,7 @@
 
     if-gt v1, v2, :cond_a
 
-    .line 1386
+    .line 1387
     iget v1, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mCurrentScrollOffset:I
 
     iget v2, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mSelectorElementHeight:I
@@ -8964,32 +8965,32 @@
 
     iput v1, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mCurrentScrollOffset:I
 
-    .line 1387
+    .line 1388
     invoke-direct {p0, v0}, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->incrementSelectorIndices([I)V
 
-    .line 1388
+    .line 1389
     iget-boolean v1, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mIsStartingAnimation:Z
 
     if-nez v1, :cond_8
 
-    .line 1389
+    .line 1390
     aget v1, v0, v4
 
     invoke-direct {p0, v1, v5}, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->setValueInternal(IZ)V
 
-    .line 1390
+    .line 1391
     iget v1, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mLongPressCount:I
 
     if-lez v1, :cond_9
 
-    .line 1391
+    .line 1392
     iget v1, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mLongPressCount:I
 
     add-int/lit8 v1, v1, -0x1
 
     iput v1, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mLongPressCount:I
 
-    .line 1396
+    .line 1397
     :cond_8
     :goto_3
     iget-boolean v1, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mWrapSelectorWheel:Z
@@ -9002,20 +9003,20 @@
 
     if-lt v1, v2, :cond_7
 
-    .line 1397
+    .line 1398
     iget v1, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mInitialScrollOffset:I
 
     iput v1, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mCurrentScrollOffset:I
 
     goto :goto_2
 
-    .line 1393
+    .line 1394
     :cond_9
     invoke-direct {p0}, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->playSoundAndHapticFeedback()V
 
     goto :goto_3
 
-    .line 1348
+    .line 1349
     :cond_a
     return-void
 .end method
@@ -9025,44 +9026,44 @@
     .param p1, "displayedValues"    # [Ljava/lang/String;
 
     .prologue
-    .line 1793
+    .line 1794
     iget-object v0, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mDisplayedValues:[Ljava/lang/String;
 
     if-ne v0, p1, :cond_0
 
-    .line 1794
+    .line 1795
     return-void
 
-    .line 1796
+    .line 1797
     :cond_0
     iput-object p1, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mDisplayedValues:[Ljava/lang/String;
 
-    .line 1797
+    .line 1798
     iget-object v0, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mDisplayedValues:[Ljava/lang/String;
 
     if-eqz v0, :cond_1
 
-    .line 1799
+    .line 1800
     iget-object v0, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mInputText:Landroid/widget/EditText;
 
     const v1, 0x80001
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setRawInputType(I)V
 
-    .line 1804
+    .line 1805
     :goto_0
     invoke-direct {p0}, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->updateInputTextView()Z
 
-    .line 1805
+    .line 1806
     invoke-direct {p0}, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->initializeSelectorWheelIndices()V
 
-    .line 1806
+    .line 1807
     invoke-direct {p0}, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->tryComputeMaxWidth()V
 
-    .line 1792
+    .line 1793
     return-void
 
-    .line 1802
+    .line 1803
     :cond_1
     iget-object v0, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mInputText:Landroid/widget/EditText;
 
@@ -9232,25 +9233,25 @@
     .prologue
     const/4 v1, 0x0
 
-    .line 1339
+    .line 1340
     iget-object v0, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mInputText:Landroid/widget/EditText;
 
     invoke-virtual {v0, p1}, Landroid/widget/TextView;->setEnabled(Z)V
 
-    .line 1341
+    .line 1342
     if-nez p1, :cond_0
 
     iget v0, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mScrollState:I
 
     if-eqz v0, :cond_0
 
-    .line 1342
+    .line 1343
     invoke-direct {p0}, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->stopScrollAnimation()V
 
-    .line 1343
+    .line 1344
     invoke-direct {p0, v1}, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->onScrollStateChange(I)V
 
-    .line 1338
+    .line 1339
     :cond_0
     return-void
 .end method
@@ -9260,25 +9261,25 @@
     .param p1, "formatter"    # Lcom/samsung/android/widget/SemNumberPicker$Formatter;
 
     .prologue
-    .line 1457
+    .line 1458
     iget-object v0, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mFormatter:Lcom/samsung/android/widget/SemNumberPicker$Formatter;
 
     if-ne p1, v0, :cond_0
 
-    .line 1458
+    .line 1459
     return-void
 
-    .line 1460
+    .line 1461
     :cond_0
     iput-object p1, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mFormatter:Lcom/samsung/android/widget/SemNumberPicker$Formatter;
 
-    .line 1461
+    .line 1462
     invoke-direct {p0}, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->initializeSelectorWheelIndices()V
 
-    .line 1462
+    .line 1463
     invoke-direct {p0}, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->updateInputTextView()Z
 
-    .line 1456
+    .line 1457
     return-void
 .end method
 
@@ -9303,24 +9304,24 @@
     .prologue
     const/4 v5, 0x0
 
-    .line 3411
+    .line 3412
     iget-object v3, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mInputText:Landroid/widget/EditText;
 
     invoke-virtual {v3}, Landroid/widget/TextView;->getFilters()[Landroid/text/InputFilter;
 
     move-result-object v1
 
-    .line 3412
+    .line 3413
     .local v1, "filterArr":[Landroid/text/InputFilter;
     aget-object v0, v1, v5
 
-    .line 3413
+    .line 3414
     .local v0, "backupFilter":Landroid/text/InputFilter;
     new-instance v2, Landroid/text/InputFilter$LengthFilter;
 
     invoke-direct {v2, p1}, Landroid/text/InputFilter$LengthFilter;-><init>(I)V
 
-    .line 3414
+    .line 3415
     .local v2, "lengthFilter":Landroid/text/InputFilter;
     iget-object v3, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mInputText:Landroid/widget/EditText;
 
@@ -9336,7 +9337,7 @@
 
     invoke-virtual {v3, v4}, Landroid/widget/TextView;->setFilters([Landroid/text/InputFilter;)V
 
-    .line 3410
+    .line 3411
     return-void
 .end method
 
@@ -9347,19 +9348,19 @@
     .prologue
     const/4 v0, 0x0
 
-    .line 1756
+    .line 1757
     iget v1, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mMaxValue:I
 
     if-ne v1, p1, :cond_0
 
-    .line 1757
+    .line 1758
     return-void
 
-    .line 1759
+    .line 1760
     :cond_0
     if-gez p1, :cond_1
 
-    .line 1760
+    .line 1761
     new-instance v1, Ljava/lang/IllegalArgumentException;
 
     const-string/jumbo v2, "maxValue must be >= 0"
@@ -9368,23 +9369,23 @@
 
     throw v1
 
-    .line 1762
+    .line 1763
     :cond_1
     iput p1, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mMaxValue:I
 
-    .line 1763
+    .line 1764
     iget v1, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mMaxValue:I
 
     iget v2, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mValue:I
 
     if-ge v1, v2, :cond_2
 
-    .line 1764
+    .line 1765
     iget v1, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mMaxValue:I
 
     iput v1, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mValue:I
 
-    .line 1766
+    .line 1767
     :cond_2
     iget v1, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mMaxValue:I
 
@@ -9400,26 +9401,26 @@
 
     const/4 v0, 0x1
 
-    .line 1767
+    .line 1768
     .local v0, "wrapSelectorWheel":Z
     :cond_3
     invoke-virtual {p0, v0}, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->setWrapSelectorWheel(Z)V
 
-    .line 1768
+    .line 1769
     invoke-direct {p0}, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->initializeSelectorWheelIndices()V
 
-    .line 1769
+    .line 1770
     invoke-direct {p0}, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->updateInputTextView()Z
 
-    .line 1770
+    .line 1771
     invoke-direct {p0}, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->tryComputeMaxWidth()V
 
-    .line 1771
+    .line 1772
     iget-object v1, p0, Lcom/samsung/android/widget/SemNumberPicker$AbstractSemNumberPickerDelegate;->mDelegator:Lcom/samsung/android/widget/SemNumberPicker;
 
     invoke-virtual {v1}, Landroid/view/View;->invalidate()V
 
-    .line 1755
+    .line 1756
     return-void
 .end method
 
@@ -9430,19 +9431,19 @@
     .prologue
     const/4 v0, 0x0
 
-    .line 1718
+    .line 1719
     iget v1, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mMinValue:I
 
     if-ne v1, p1, :cond_0
 
-    .line 1719
+    .line 1720
     return-void
 
-    .line 1721
+    .line 1722
     :cond_0
     if-gez p1, :cond_1
 
-    .line 1722
+    .line 1723
     new-instance v1, Ljava/lang/IllegalArgumentException;
 
     const-string/jumbo v2, "minValue must be >= 0"
@@ -9451,23 +9452,23 @@
 
     throw v1
 
-    .line 1724
+    .line 1725
     :cond_1
     iput p1, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mMinValue:I
 
-    .line 1725
+    .line 1726
     iget v1, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mMinValue:I
 
     iget v2, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mValue:I
 
     if-le v1, v2, :cond_2
 
-    .line 1726
+    .line 1727
     iget v1, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mMinValue:I
 
     iput v1, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mValue:I
 
-    .line 1728
+    .line 1729
     :cond_2
     iget v1, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mMaxValue:I
 
@@ -9483,26 +9484,26 @@
 
     const/4 v0, 0x1
 
-    .line 1729
+    .line 1730
     .local v0, "wrapSelectorWheel":Z
     :cond_3
     invoke-virtual {p0, v0}, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->setWrapSelectorWheel(Z)V
 
-    .line 1730
+    .line 1731
     invoke-direct {p0}, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->initializeSelectorWheelIndices()V
 
-    .line 1731
+    .line 1732
     invoke-direct {p0}, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->updateInputTextView()Z
 
-    .line 1732
+    .line 1733
     invoke-direct {p0}, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->tryComputeMaxWidth()V
 
-    .line 1733
+    .line 1734
     iget-object v1, p0, Lcom/samsung/android/widget/SemNumberPicker$AbstractSemNumberPickerDelegate;->mDelegator:Lcom/samsung/android/widget/SemNumberPicker;
 
     invoke-virtual {v1}, Landroid/view/View;->invalidate()V
 
-    .line 1717
+    .line 1718
     return-void
 .end method
 
@@ -9510,28 +9511,28 @@
     .locals 2
 
     .prologue
-    .line 3430
+    .line 3431
     iget-object v0, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mInputText:Landroid/widget/EditText;
 
     const/high16 v1, 0x2000000
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setImeOptions(I)V
 
-    .line 3431
+    .line 3432
     iget-object v0, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mInputText:Landroid/widget/EditText;
 
     const-string/jumbo v1, "inputType=month_edittext"
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setPrivateImeOptions(Ljava/lang/String;)V
 
-    .line 3432
+    .line 3433
     iget-object v0, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mInputText:Landroid/widget/EditText;
 
     const-string/jumbo v1, ""
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 3429
+    .line 3430
     return-void
 .end method
 
@@ -9540,10 +9541,10 @@
     .param p1, "onEditTextModeChangedListener"    # Lcom/samsung/android/widget/SemNumberPicker$OnEditTextModeChangedListener;
 
     .prologue
-    .line 1442
+    .line 1443
     iput-object p1, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mOnEditTextModeChangedListener:Lcom/samsung/android/widget/SemNumberPicker$OnEditTextModeChangedListener;
 
-    .line 1441
+    .line 1442
     return-void
 .end method
 
@@ -9552,10 +9553,10 @@
     .param p1, "intervalMillis"    # J
 
     .prologue
-    .line 1686
+    .line 1687
     iput-wide p1, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mLongPressUpdateInterval:J
 
-    .line 1685
+    .line 1686
     return-void
 .end method
 
@@ -9564,10 +9565,10 @@
     .param p1, "onScrollListener"    # Lcom/samsung/android/widget/SemNumberPicker$OnScrollListener;
 
     .prologue
-    .line 1432
+    .line 1433
     iput-object p1, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mOnScrollListener:Lcom/samsung/android/widget/SemNumberPicker$OnScrollListener;
 
-    .line 1431
+    .line 1432
     return-void
 .end method
 
@@ -9576,10 +9577,10 @@
     .param p1, "onValueChangedListener"    # Lcom/samsung/android/widget/SemNumberPicker$OnValueChangeListener;
 
     .prologue
-    .line 1423
+    .line 1424
     iput-object p1, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mOnValueChangeListener:Lcom/samsung/android/widget/SemNumberPicker$OnValueChangeListener;
 
-    .line 1422
+    .line 1423
     return-void
 .end method
 
@@ -9607,10 +9608,10 @@
     .param p1, "flag"    # Z
 
     .prologue
-    .line 1304
+    .line 1305
     iput-boolean p1, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mSkipNumbers:Z
 
-    .line 1303
+    .line 1304
     return-void
 .end method
 
@@ -9619,7 +9620,7 @@
     .param p1, "size"    # F
 
     .prologue
-    .line 1822
+    .line 1823
     iget-object v0, p0, Lcom/samsung/android/widget/SemNumberPicker$AbstractSemNumberPickerDelegate;->mContext:Landroid/content/Context;
 
     invoke-virtual {v0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
@@ -9630,7 +9631,7 @@
 
     move-result-object v0
 
-    .line 1821
+    .line 1822
     const/4 v1, 0x1
 
     invoke-static {v1, p1, v0}, Landroid/util/TypedValue;->applyDimension(IFLandroid/util/DisplayMetrics;)F
@@ -9641,7 +9642,7 @@
 
     iput v0, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mSubTextSize:I
 
-    .line 1820
+    .line 1821
     return-void
 .end method
 
@@ -9650,7 +9651,7 @@
     .param p1, "size"    # F
 
     .prologue
-    .line 1812
+    .line 1813
     iget-object v0, p0, Lcom/samsung/android/widget/SemNumberPicker$AbstractSemNumberPickerDelegate;->mContext:Landroid/content/Context;
 
     invoke-virtual {v0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
@@ -9661,7 +9662,7 @@
 
     move-result-object v0
 
-    .line 1811
+    .line 1812
     const/4 v1, 0x1
 
     invoke-static {v1, p1, v0}, Landroid/util/TypedValue;->applyDimension(IFLandroid/util/DisplayMetrics;)F
@@ -9672,7 +9673,7 @@
 
     iput v0, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mTextSize:I
 
-    .line 1814
+    .line 1815
     iget-object v0, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mSelectorWheelPaint:Landroid/graphics/Paint;
 
     iget v1, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mTextSize:I
@@ -9681,7 +9682,7 @@
 
     invoke-virtual {v0, v1}, Landroid/graphics/Paint;->setTextSize(F)V
 
-    .line 1815
+    .line 1816
     iget-object v0, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mInputText:Landroid/widget/EditText;
 
     iget v1, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mTextSize:I
@@ -9692,10 +9693,10 @@
 
     invoke-virtual {v0, v2, v1}, Landroid/widget/TextView;->setTextSize(IF)V
 
-    .line 1816
+    .line 1817
     invoke-direct {p0}, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->tryComputeMaxWidth()V
 
-    .line 1810
+    .line 1811
     return-void
 .end method
 
@@ -9706,37 +9707,37 @@
     .prologue
     const/4 v0, 0x1
 
-    .line 1832
+    .line 1833
     iput-boolean v0, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mCustomTypefaceSet:Z
 
-    .line 1833
+    .line 1834
     iput-object p1, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mPickerTypeface:Landroid/graphics/Typeface;
 
-    .line 1834
+    .line 1835
     invoke-static {p1, v0}, Landroid/graphics/Typeface;->create(Landroid/graphics/Typeface;I)Landroid/graphics/Typeface;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mPickerBoldTypeface:Landroid/graphics/Typeface;
 
-    .line 1835
+    .line 1836
     iget-object v0, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mSelectorWheelPaint:Landroid/graphics/Paint;
 
     iget-object v1, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mPickerTypeface:Landroid/graphics/Typeface;
 
     invoke-virtual {v0, v1}, Landroid/graphics/Paint;->setTypeface(Landroid/graphics/Typeface;)Landroid/graphics/Typeface;
 
-    .line 1836
+    .line 1837
     iget-object v0, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mInputText:Landroid/widget/EditText;
 
     iget-object v1, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mPickerBoldTypeface:Landroid/graphics/Typeface;
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setTypeface(Landroid/graphics/Typeface;)V
 
-    .line 1837
+    .line 1838
     invoke-direct {p0}, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->tryComputeMaxWidth()V
 
-    .line 1831
+    .line 1832
     return-void
 .end method
 
@@ -9910,7 +9911,7 @@
     .param p1, "value"    # I
 
     .prologue
-    .line 1494
+    .line 1495
     iget-object v0, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mFlingScroller:Landroid/widget/Scroller;
 
     invoke-virtual {v0}, Landroid/widget/Scroller;->isFinished()Z
@@ -9919,16 +9920,16 @@
 
     if-nez v0, :cond_0
 
-    .line 1495
+    .line 1496
     invoke-direct {p0}, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->stopScrollAnimation()V
 
-    .line 1497
+    .line 1498
     :cond_0
     const/4 v0, 0x0
 
     invoke-direct {p0, p1, v0}, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->setValueInternal(IZ)V
 
-    .line 1493
+    .line 1494
     return-void
 .end method
 
@@ -9937,7 +9938,7 @@
     .param p1, "wrapSelectorWheel"    # Z
 
     .prologue
-    .line 1669
+    .line 1670
     iget v1, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mMaxValue:I
 
     iget v2, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mMinValue:I
@@ -9952,7 +9953,7 @@
 
     const/4 v0, 0x1
 
-    .line 1670
+    .line 1671
     .local v0, "wrappingAllowed":Z
     :goto_0
     if-eqz p1, :cond_0
@@ -9964,14 +9965,14 @@
 
     if-eq p1, v1, :cond_1
 
-    .line 1671
+    .line 1672
     iput-boolean p1, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mWrapSelectorWheel:Z
 
-    .line 1668
+    .line 1669
     :cond_1
     return-void
 
-    .line 1669
+    .line 1670
     .end local v0    # "wrappingAllowed":Z
     :cond_2
     const/4 v0, 0x0
@@ -9984,28 +9985,28 @@
     .locals 2
 
     .prologue
-    .line 3440
+    .line 3441
     iget-object v0, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mInputText:Landroid/widget/EditText;
 
     const/high16 v1, 0x2000000
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setImeOptions(I)V
 
-    .line 3441
+    .line 3442
     iget-object v0, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mInputText:Landroid/widget/EditText;
 
     const-string/jumbo v1, "inputType=YearDateTime_edittext"
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setPrivateImeOptions(Ljava/lang/String;)V
 
-    .line 3442
+    .line 3443
     iget-object v0, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mInputText:Landroid/widget/EditText;
 
     const-string/jumbo v1, ""
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 3439
+    .line 3440
     return-void
 .end method
 
@@ -10015,22 +10016,22 @@
     .param p2, "listener"    # Lcom/samsung/android/widget/SemAnimationListener;
 
     .prologue
-    .line 1860
+    .line 1861
     iput-object p2, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mAnimationListener:Lcom/samsung/android/widget/SemAnimationListener;
 
-    .line 1861
+    .line 1862
     iget-boolean v1, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->mIsEditTextMode:Z
 
     if-eqz v1, :cond_0
 
-    .line 1862
+    .line 1863
     return-void
 
-    .line 1865
+    .line 1866
     :cond_0
     move v0, p1
 
-    .line 1866
+    .line 1867
     .local v0, "delay":I
     iget-object v1, p0, Lcom/samsung/android/widget/SemNumberPicker$AbstractSemNumberPickerDelegate;->mDelegator:Lcom/samsung/android/widget/SemNumberPicker;
 
@@ -10040,6 +10041,6 @@
 
     invoke-virtual {v1, v2}, Landroid/view/View;->post(Ljava/lang/Runnable;)Z
 
-    .line 1859
+    .line 1860
     return-void
 .end method

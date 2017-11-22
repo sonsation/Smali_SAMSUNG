@@ -756,7 +756,7 @@
 
     const/4 v4, 0x1
 
-    .line 11109
+    .line 11105
     const-string/jumbo v0, "content://settings/global"
 
     invoke-static {v0}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
@@ -765,185 +765,185 @@
 
     sput-object v0, Landroid/provider/Settings$Global;->CONTENT_URI:Landroid/net/Uri;
 
-    .line 13712
+    .line 13708
     const/16 v0, 0x14
 
     new-array v0, v0, [Ljava/lang/String;
 
-    .line 13714
+    .line 13710
     const-string/jumbo v1, "enable_accessibility_auto_haptic_enabled"
 
     aput-object v1, v0, v5
 
-    .line 13715
+    .line 13711
     const-string/jumbo v1, "wifi_settings_run_foreground"
 
     aput-object v1, v0, v4
 
-    .line 13716
+    .line 13712
     const-string/jumbo v1, "wifi_free_wifi_scan_auto_connection_mode"
 
     aput-object v1, v0, v6
 
-    .line 13718
+    .line 13714
     const-string/jumbo v1, "bugreport_in_power_menu"
 
     aput-object v1, v0, v7
 
-    .line 13719
+    .line 13715
     const-string/jumbo v1, "stay_on_while_plugged_in"
 
     const/4 v2, 0x4
 
     aput-object v1, v0, v2
 
-    .line 13720
+    .line 13716
     const-string/jumbo v1, "auto_time"
 
     const/4 v2, 0x5
 
     aput-object v1, v0, v2
 
-    .line 13721
+    .line 13717
     const-string/jumbo v1, "auto_time_zone"
 
     const/4 v2, 0x6
 
     aput-object v1, v0, v2
 
-    .line 13722
+    .line 13718
     const-string/jumbo v1, "power_sounds_enabled"
 
     const/4 v2, 0x7
 
     aput-object v1, v0, v2
 
-    .line 13723
+    .line 13719
     const-string/jumbo v1, "dock_sounds_enabled"
 
     const/16 v2, 0x8
 
     aput-object v1, v0, v2
 
-    .line 13724
+    .line 13720
     const-string/jumbo v1, "charging_sounds_enabled"
 
     const/16 v2, 0x9
 
     aput-object v1, v0, v2
 
-    .line 13725
+    .line 13721
     const-string/jumbo v1, "usb_mass_storage_enabled"
 
     const/16 v2, 0xa
 
     aput-object v1, v0, v2
 
-    .line 13726
+    .line 13722
     const-string/jumbo v1, "enable_accessibility_global_gesture_enabled"
 
     const/16 v2, 0xb
 
     aput-object v1, v0, v2
 
-    .line 13727
+    .line 13723
     const-string/jumbo v1, "wifi_networks_available_notification_on"
 
     const/16 v2, 0xc
 
     aput-object v1, v0, v2
 
-    .line 13728
+    .line 13724
     const-string/jumbo v1, "wifi_networks_available_repeat_delay"
 
     const/16 v2, 0xd
 
     aput-object v1, v0, v2
 
-    .line 13729
+    .line 13725
     const-string/jumbo v1, "wifi_num_open_networks_kept"
 
     const/16 v2, 0xe
 
     aput-object v1, v0, v2
 
-    .line 13730
+    .line 13726
     const-string/jumbo v1, "emergency_tone"
 
     const/16 v2, 0xf
 
     aput-object v1, v0, v2
 
-    .line 13731
+    .line 13727
     const-string/jumbo v1, "call_auto_retry"
 
     const/16 v2, 0x10
 
     aput-object v1, v0, v2
 
-    .line 13732
+    .line 13728
     const-string/jumbo v1, "dock_audio_media_enabled"
 
     const/16 v2, 0x11
 
     aput-object v1, v0, v2
 
-    .line 13733
+    .line 13729
     const-string/jumbo v1, "encoded_surround_output"
 
     const/16 v2, 0x12
 
     aput-object v1, v0, v2
 
-    .line 13734
+    .line 13730
     const-string/jumbo v1, "low_power_trigger_level"
 
     const/16 v2, 0x13
 
     aput-object v1, v0, v2
 
-    .line 13712
+    .line 13708
     sput-object v0, Landroid/provider/Settings$Global;->SETTINGS_TO_BACKUP:[Ljava/lang/String;
 
-    .line 13738
+    .line 13734
     new-instance v0, Landroid/provider/Settings$NameValueCache;
 
-    .line 13739
+    .line 13735
     sget-object v1, Landroid/provider/Settings$Global;->CONTENT_URI:Landroid/net/Uri;
 
-    .line 13740
+    .line 13736
     const-string/jumbo v2, "GET_global"
 
-    .line 13741
+    .line 13737
     const-string/jumbo v3, "PUT_global"
 
-    .line 13738
+    .line 13734
     invoke-direct {v0, v1, v2, v3}, Landroid/provider/Settings$NameValueCache;-><init>(Landroid/net/Uri;Ljava/lang/String;Ljava/lang/String;)V
 
     sput-object v0, Landroid/provider/Settings$Global;->sNameValueCache:Landroid/provider/Settings$NameValueCache;
 
-    .line 13746
+    .line 13742
     new-instance v0, Ljava/util/HashSet;
 
     invoke-direct {v0, v4}, Ljava/util/HashSet;-><init>(I)V
 
     sput-object v0, Landroid/provider/Settings$Global;->MOVED_TO_SECURE:Ljava/util/HashSet;
 
-    .line 13747
+    .line 13743
     sget-object v0, Landroid/provider/Settings$Global;->MOVED_TO_SECURE:Ljava/util/HashSet;
 
     const-string/jumbo v1, "install_non_market_apps"
 
     invoke-virtual {v0, v1}, Ljava/util/HashSet;->add(Ljava/lang/Object;)Z
 
-    .line 14073
+    .line 14069
     new-array v0, v7, [Ljava/lang/String;
 
     const-string/jumbo v1, "user_preferred_sub1"
 
     aput-object v1, v0, v5
 
-    .line 14074
+    .line 14070
     const-string/jumbo v1, "user_preferred_sub2"
 
     aput-object v1, v0, v4
@@ -952,10 +952,10 @@
 
     aput-object v1, v0, v6
 
-    .line 14073
+    .line 14069
     sput-object v0, Landroid/provider/Settings$Global;->MULTI_SIM_USER_PREFERRED_SUBS:[Ljava/lang/String;
 
-    .line 11105
+    .line 11101
     return-void
 .end method
 
@@ -963,7 +963,7 @@
     .locals 0
 
     .prologue
-    .line 11105
+    .line 11101
     invoke-direct {p0}, Landroid/provider/Settings$NameValueTable;-><init>()V
 
     return-void
@@ -974,7 +974,7 @@
     .param p0, "address"    # Ljava/lang/String;
 
     .prologue
-    .line 13197
+    .line 13193
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -1007,7 +1007,7 @@
     .param p0, "address"    # Ljava/lang/String;
 
     .prologue
-    .line 13205
+    .line 13201
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -1040,7 +1040,7 @@
     .param p0, "address"    # Ljava/lang/String;
 
     .prologue
-    .line 13189
+    .line 13185
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -1073,7 +1073,7 @@
     .param p0, "address"    # Ljava/lang/String;
 
     .prologue
-    .line 13213
+    .line 13209
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -1106,7 +1106,7 @@
     .param p0, "address"    # Ljava/lang/String;
 
     .prologue
-    .line 13221
+    .line 13217
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -1139,7 +1139,7 @@
     .param p0, "address"    # Ljava/lang/String;
 
     .prologue
-    .line 13229
+    .line 13225
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -1172,7 +1172,7 @@
     .param p0, "address"    # Ljava/lang/String;
 
     .prologue
-    .line 13237
+    .line 13233
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -1211,23 +1211,23 @@
     .end annotation
 
     .prologue
-    .line 14000
+    .line 13996
     invoke-static {p0, p1}, Landroid/provider/Settings$Global;->getString(Landroid/content/ContentResolver;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
-    .line 14001
+    .line 13997
     .local v1, "v":Ljava/lang/String;
     if-nez v1, :cond_0
 
-    .line 14002
+    .line 13998
     new-instance v2, Landroid/provider/Settings$SettingNotFoundException;
 
     invoke-direct {v2, p1}, Landroid/provider/Settings$SettingNotFoundException;-><init>(Ljava/lang/String;)V
 
     throw v2
 
-    .line 14005
+    .line 14001
     :cond_0
     :try_start_0
     invoke-static {v1}, Ljava/lang/Float;->parseFloat(Ljava/lang/String;)F
@@ -1238,11 +1238,11 @@
 
     return v2
 
-    .line 14006
+    .line 14002
     :catch_0
     move-exception v0
 
-    .line 14007
+    .line 14003
     .local v0, "e":Ljava/lang/NumberFormatException;
     new-instance v2, Landroid/provider/Settings$SettingNotFoundException;
 
@@ -1258,12 +1258,12 @@
     .param p2, "def"    # F
 
     .prologue
-    .line 13972
+    .line 13968
     invoke-static {p0, p1}, Landroid/provider/Settings$Global;->getString(Landroid/content/ContentResolver;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
-    .line 13974
+    .line 13970
     .local v1, "v":Ljava/lang/String;
     if-eqz v1, :cond_0
 
@@ -1278,12 +1278,12 @@
     :cond_0
     return p2
 
-    .line 13975
+    .line 13971
     .restart local p2    # "def":F
     :catch_0
     move-exception v0
 
-    .line 13976
+    .line 13972
     .local v0, "e":Ljava/lang/NumberFormatException;
     return p2
 .end method
@@ -1299,12 +1299,12 @@
     .end annotation
 
     .prologue
-    .line 13857
+    .line 13853
     invoke-static {p0, p1}, Landroid/provider/Settings$Global;->getString(Landroid/content/ContentResolver;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
-    .line 13859
+    .line 13855
     .local v1, "v":Ljava/lang/String;
     :try_start_0
     invoke-static {v1}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
@@ -1315,11 +1315,11 @@
 
     return v2
 
-    .line 13860
+    .line 13856
     :catch_0
     move-exception v0
 
-    .line 13861
+    .line 13857
     .local v0, "e":Ljava/lang/NumberFormatException;
     new-instance v2, Landroid/provider/Settings$SettingNotFoundException;
 
@@ -1335,12 +1335,12 @@
     .param p2, "def"    # I
 
     .prologue
-    .line 13829
+    .line 13825
     invoke-static {p0, p1}, Landroid/provider/Settings$Global;->getString(Landroid/content/ContentResolver;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
-    .line 13831
+    .line 13827
     .local v1, "v":Ljava/lang/String;
     if-eqz v1, :cond_0
 
@@ -1355,12 +1355,12 @@
     :cond_0
     return p2
 
-    .line 13832
+    .line 13828
     .restart local p2    # "def":I
     :catch_0
     move-exception v0
 
-    .line 13833
+    .line 13829
     .local v0, "e":Ljava/lang/NumberFormatException;
     return p2
 .end method
@@ -1376,12 +1376,12 @@
     .end annotation
 
     .prologue
-    .line 13932
+    .line 13928
     invoke-static {p0, p1}, Landroid/provider/Settings$Global;->getString(Landroid/content/ContentResolver;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
-    .line 13934
+    .line 13930
     .local v1, "valString":Ljava/lang/String;
     :try_start_0
     invoke-static {v1}, Ljava/lang/Long;->parseLong(Ljava/lang/String;)J
@@ -1392,11 +1392,11 @@
 
     return-wide v2
 
-    .line 13935
+    .line 13931
     :catch_0
     move-exception v0
 
-    .line 13936
+    .line 13932
     .local v0, "e":Ljava/lang/NumberFormatException;
     new-instance v2, Landroid/provider/Settings$SettingNotFoundException;
 
@@ -1412,12 +1412,12 @@
     .param p2, "def"    # J
 
     .prologue
-    .line 13903
+    .line 13899
     invoke-static {p0, p1}, Landroid/provider/Settings$Global;->getString(Landroid/content/ContentResolver;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
-    .line 13906
+    .line 13902
     .local v1, "valString":Ljava/lang/String;
     if-eqz v1, :cond_0
 
@@ -1428,12 +1428,12 @@
 
     move-result-wide v2
 
-    .line 13910
+    .line 13906
     .local v2, "value":J
     :goto_0
     return-wide v2
 
-    .line 13906
+    .line 13902
     .end local v2    # "value":J
     :cond_0
     move-wide v2, p2
@@ -1441,12 +1441,12 @@
     .restart local v2    # "value":J
     goto :goto_0
 
-    .line 13907
+    .line 13903
     .end local v2    # "value":J
     :catch_0
     move-exception v0
 
-    .line 13908
+    .line 13904
     .local v0, "e":Ljava/lang/NumberFormatException;
     move-wide v2, p2
 
@@ -1467,13 +1467,13 @@
     .end annotation
 
     .prologue
-    .line 13752
+    .line 13748
     .local p0, "outKeySet":Ljava/util/Set;, "Ljava/util/Set<Ljava/lang/String;>;"
     sget-object v0, Landroid/provider/Settings$Global;->MOVED_TO_SECURE:Ljava/util/HashSet;
 
     invoke-interface {p0, v0}, Ljava/util/Set;->addAll(Ljava/util/Collection;)Z
 
-    .line 13751
+    .line 13747
     return-void
 .end method
 
@@ -1483,7 +1483,7 @@
     .param p1, "name"    # Ljava/lang/String;
 
     .prologue
-    .line 13762
+    .line 13758
     invoke-static {}, Landroid/os/UserHandle;->myUserId()I
 
     move-result v0
@@ -1502,7 +1502,7 @@
     .param p2, "userHandle"    # I
 
     .prologue
-    .line 13768
+    .line 13764
     sget-object v0, Landroid/provider/Settings$Global;->MOVED_TO_SECURE:Ljava/util/HashSet;
 
     invoke-virtual {v0, p1}, Ljava/util/HashSet;->contains(Ljava/lang/Object;)Z
@@ -1511,7 +1511,7 @@
 
     if-eqz v0, :cond_0
 
-    .line 13769
+    .line 13765
     const-string/jumbo v0, "Settings"
 
     new-instance v1, Ljava/lang/StringBuilder;
@@ -1534,10 +1534,10 @@
 
     move-result-object v1
 
-    .line 13770
+    .line 13766
     const-string/jumbo v2, " to android.provider.Settings.Secure, returning read-only value."
 
-    .line 13769
+    .line 13765
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v1
@@ -1548,14 +1548,14 @@
 
     invoke-static {v0, v1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 13771
+    .line 13767
     invoke-static {p0, p1, p2}, Landroid/provider/Settings$Secure;->getStringForUser(Landroid/content/ContentResolver;Ljava/lang/String;I)Ljava/lang/String;
 
     move-result-object v0
 
     return-object v0
 
-    .line 13773
+    .line 13769
     :cond_0
     sget-object v0, Landroid/provider/Settings$Global;->sNameValueCache:Landroid/provider/Settings$NameValueCache;
 
@@ -1571,7 +1571,7 @@
     .param p0, "name"    # Ljava/lang/String;
 
     .prologue
-    .line 13811
+    .line 13807
     sget-object v0, Landroid/provider/Settings$Global;->CONTENT_URI:Landroid/net/Uri;
 
     invoke-static {v0, p0}, Landroid/provider/Settings$Global;->getUriFor(Landroid/net/Uri;Ljava/lang/String;)Landroid/net/Uri;
@@ -1586,21 +1586,21 @@
     .param p0, "value"    # I
 
     .prologue
-    .line 13539
+    .line 13535
     packed-switch p0, :pswitch_data_0
 
-    .line 13546
+    .line 13542
     const/4 v0, 0x0
 
     return v0
 
-    .line 13544
+    .line 13540
     :pswitch_0
     const/4 v0, 0x1
 
     return v0
 
-    .line 13539
+    .line 13535
     nop
 
     :pswitch_data_0
@@ -1619,7 +1619,7 @@
     .param p2, "value"    # F
 
     .prologue
-    .line 14025
+    .line 14021
     invoke-static {p2}, Ljava/lang/Float;->toString(F)Ljava/lang/String;
 
     move-result-object v0
@@ -1638,7 +1638,7 @@
     .param p2, "value"    # I
 
     .prologue
-    .line 13880
+    .line 13876
     const-string/jumbo v0, "wifi_display_on"
 
     invoke-virtual {v0, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -1647,7 +1647,7 @@
 
     if-eqz v0, :cond_0
 
-    .line 13882
+    .line 13878
     const-string/jumbo v0, "Settings"
 
     new-instance v1, Ljava/lang/StringBuilder;
@@ -1688,7 +1688,7 @@
 
     invoke-static {v0, v1}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 13885
+    .line 13881
     :cond_0
     invoke-static {p2}, Ljava/lang/Integer;->toString(I)Ljava/lang/String;
 
@@ -1708,7 +1708,7 @@
     .param p2, "value"    # J
 
     .prologue
-    .line 13954
+    .line 13950
     invoke-static {p2, p3}, Ljava/lang/Long;->toString(J)Ljava/lang/String;
 
     move-result-object v0
@@ -1727,7 +1727,7 @@
     .param p2, "value"    # Ljava/lang/String;
 
     .prologue
-    .line 13785
+    .line 13781
     invoke-static {}, Landroid/os/UserHandle;->myUserId()I
 
     move-result v0
@@ -1747,7 +1747,7 @@
     .param p3, "userHandle"    # I
 
     .prologue
-    .line 13796
+    .line 13792
     sget-object v0, Landroid/provider/Settings$Global;->MOVED_TO_SECURE:Ljava/util/HashSet;
 
     invoke-virtual {v0, p1}, Ljava/util/HashSet;->contains(Ljava/lang/Object;)Z
@@ -1756,7 +1756,7 @@
 
     if-eqz v0, :cond_0
 
-    .line 13797
+    .line 13793
     const-string/jumbo v0, "Settings"
 
     new-instance v1, Ljava/lang/StringBuilder;
@@ -1779,10 +1779,10 @@
 
     move-result-object v1
 
-    .line 13798
+    .line 13794
     const-string/jumbo v2, " to android.provider.Settings.Secure, value is unchanged."
 
-    .line 13797
+    .line 13793
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v1
@@ -1793,14 +1793,14 @@
 
     invoke-static {v0, v1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 13799
+    .line 13795
     invoke-static {p0, p1, p2, p3}, Landroid/provider/Settings$Secure;->putStringForUser(Landroid/content/ContentResolver;Ljava/lang/String;Ljava/lang/String;I)Z
 
     move-result v0
 
     return v0
 
-    .line 13801
+    .line 13797
     :cond_0
     sget-object v0, Landroid/provider/Settings$Global;->sNameValueCache:Landroid/provider/Settings$NameValueCache;
 
@@ -1816,7 +1816,7 @@
     .param p0, "mode"    # I
 
     .prologue
-    .line 13532
+    .line 13528
     const/4 v0, 0x1
 
     if-ne p0, v0, :cond_0
@@ -1825,7 +1825,7 @@
 
     return-object v0
 
-    .line 13533
+    .line 13529
     :cond_0
     const/4 v0, 0x3
 
@@ -1835,7 +1835,7 @@
 
     return-object v0
 
-    .line 13534
+    .line 13530
     :cond_1
     const/4 v0, 0x2
 
@@ -1845,7 +1845,7 @@
 
     return-object v0
 
-    .line 13535
+    .line 13531
     :cond_2
     const-string/jumbo v0, "ZEN_MODE_OFF"
 

@@ -35,7 +35,7 @@
     .param p3, "val$call"    # Landroid/telecom/Call;
 
     .prologue
-    .line 1613
+    .line 1619
     .local p4, "val$record":Landroid/telecom/CallbackRecord;, "Landroid/telecom/CallbackRecord<Landroid/telecom/Call$Callback;>;"
     iput-object p1, p0, Landroid/telecom/Call$8;->this$0:Landroid/telecom/Call;
 
@@ -56,14 +56,14 @@
     .locals 6
 
     .prologue
-    .line 1616
+    .line 1622
     const/4 v1, 0x0
 
-    .line 1617
+    .line 1623
     .local v1, "isFinalRemoval":Z
     const/4 v2, 0x0
 
-    .line 1619
+    .line 1625
     .local v2, "toThrow":Ljava/lang/RuntimeException;
     :try_start_0
     iget-object v3, p0, Landroid/telecom/Call$8;->val$callback:Landroid/telecom/Call$Callback;
@@ -74,14 +74,14 @@
     :try_end_0
     .catch Ljava/lang/RuntimeException; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 1623
+    .line 1629
     .end local v2    # "toThrow":Ljava/lang/RuntimeException;
     :goto_0
     iget-object v4, p0, Landroid/telecom/Call$8;->this$0:Landroid/telecom/Call;
 
     monitor-enter v4
 
-    .line 1624
+    .line 1630
     :try_start_1
     iget-object v3, p0, Landroid/telecom/Call$8;->this$0:Landroid/telecom/Call;
 
@@ -93,7 +93,7 @@
 
     invoke-interface {v3, v5}, Ljava/util/List;->remove(Ljava/lang/Object;)Z
 
-    .line 1625
+    .line 1631
     iget-object v3, p0, Landroid/telecom/Call$8;->this$0:Landroid/telecom/Call;
 
     invoke-static {v3}, Landroid/telecom/Call;->-get0(Landroid/telecom/Call;)Ljava/util/List;
@@ -108,16 +108,16 @@
 
     if-eqz v3, :cond_0
 
-    .line 1626
+    .line 1632
     const/4 v1, 0x1
 
     :cond_0
     monitor-exit v4
 
-    .line 1629
+    .line 1635
     if-eqz v1, :cond_1
 
-    .line 1630
+    .line 1636
     iget-object v3, p0, Landroid/telecom/Call$8;->this$0:Landroid/telecom/Call;
 
     invoke-static {v3}, Landroid/telecom/Call;->-get1(Landroid/telecom/Call;)Landroid/telecom/Phone;
@@ -128,26 +128,26 @@
 
     invoke-virtual {v3, v4}, Landroid/telecom/Phone;->internalRemoveCall(Landroid/telecom/Call;)V
 
-    .line 1632
+    .line 1638
     :cond_1
     if-eqz v2, :cond_2
 
-    .line 1633
+    .line 1639
     throw v2
 
-    .line 1620
+    .line 1626
     .restart local v2    # "toThrow":Ljava/lang/RuntimeException;
     :catch_0
     move-exception v0
 
-    .line 1621
+    .line 1627
     .local v0, "e":Ljava/lang/RuntimeException;
     move-object v2, v0
 
     .local v2, "toThrow":Ljava/lang/RuntimeException;
     goto :goto_0
 
-    .line 1623
+    .line 1629
     .end local v0    # "e":Ljava/lang/RuntimeException;
     .end local v2    # "toThrow":Ljava/lang/RuntimeException;
     :catchall_0
@@ -157,7 +157,7 @@
 
     throw v3
 
-    .line 1615
+    .line 1621
     :cond_2
     return-void
 .end method

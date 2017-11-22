@@ -34,7 +34,7 @@
     .param p2, "this$0"    # Lcom/android/internal/os/BatteryStatsImpl;
 
     .prologue
-    .line 5251
+    .line 5268
     iput-object p1, p0, Lcom/android/internal/os/BatteryStatsImpl$Uid$3;->this$1:Lcom/android/internal/os/BatteryStatsImpl$Uid;
 
     invoke-direct {p0, p2}, Lcom/android/internal/os/BatteryStatsImpl$OverflowArrayMap;-><init>(Lcom/android/internal/os/BatteryStatsImpl;)V
@@ -48,7 +48,7 @@
     .locals 6
 
     .prologue
-    .line 5253
+    .line 5270
     new-instance v0, Lcom/android/internal/os/BatteryStatsImpl$StopwatchTimer;
 
     iget-object v1, p0, Lcom/android/internal/os/BatteryStatsImpl$Uid$3;->this$1:Lcom/android/internal/os/BatteryStatsImpl$Uid;
@@ -59,14 +59,14 @@
 
     iget-object v2, p0, Lcom/android/internal/os/BatteryStatsImpl$Uid$3;->this$1:Lcom/android/internal/os/BatteryStatsImpl$Uid;
 
-    .line 5254
+    .line 5271
     iget-object v3, p0, Lcom/android/internal/os/BatteryStatsImpl$Uid$3;->this$1:Lcom/android/internal/os/BatteryStatsImpl$Uid;
 
     iget-object v3, v3, Lcom/android/internal/os/BatteryStatsImpl$Uid;->mBsi:Lcom/android/internal/os/BatteryStatsImpl;
 
     iget-object v5, v3, Lcom/android/internal/os/BatteryStatsImpl;->mOnBatteryTimeBase:Lcom/android/internal/os/BatteryStatsImpl$TimeBase;
 
-    .line 5253
+    .line 5270
     const/16 v3, 0xe
 
     const/4 v4, 0x0
@@ -80,7 +80,7 @@
     .locals 1
 
     .prologue
-    .line 5252
+    .line 5269
     invoke-virtual {p0}, Lcom/android/internal/os/BatteryStatsImpl$Uid$3;->instantiateObject()Lcom/android/internal/os/BatteryStatsImpl$StopwatchTimer;
 
     move-result-object v0

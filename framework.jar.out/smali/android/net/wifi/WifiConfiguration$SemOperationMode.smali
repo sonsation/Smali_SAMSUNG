@@ -40,27 +40,27 @@
 
     const/4 v2, 0x0
 
-    .line 560
+    .line 559
     new-instance v0, Landroid/net/wifi/WifiConfiguration$SemOperationMode;
 
     const-string/jumbo v1, "INFRA"
 
     invoke-direct {v0, v1, v2}, Landroid/net/wifi/WifiConfiguration$SemOperationMode;-><init>(Ljava/lang/String;I)V
 
-    .line 563
+    .line 562
     sput-object v0, Landroid/net/wifi/WifiConfiguration$SemOperationMode;->INFRA:Landroid/net/wifi/WifiConfiguration$SemOperationMode;
 
-    .line 564
+    .line 563
     new-instance v0, Landroid/net/wifi/WifiConfiguration$SemOperationMode;
 
     const-string/jumbo v1, "ADHOC"
 
     invoke-direct {v0, v1, v3}, Landroid/net/wifi/WifiConfiguration$SemOperationMode;-><init>(Ljava/lang/String;I)V
 
-    .line 567
+    .line 566
     sput-object v0, Landroid/net/wifi/WifiConfiguration$SemOperationMode;->ADHOC:Landroid/net/wifi/WifiConfiguration$SemOperationMode;
 
-    .line 559
+    .line 558
     const/4 v0, 0x2
 
     new-array v0, v0, [Landroid/net/wifi/WifiConfiguration$SemOperationMode;
@@ -82,7 +82,7 @@
     .locals 0
 
     .prologue
-    .line 559
+    .line 558
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     return-void
@@ -93,7 +93,7 @@
     .param p0, "name"    # Ljava/lang/String;
 
     .prologue
-    .line 559
+    .line 558
     const-class v0, Landroid/net/wifi/WifiConfiguration$SemOperationMode;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -109,7 +109,7 @@
     .locals 1
 
     .prologue
-    .line 559
+    .line 558
     sget-object v0, Landroid/net/wifi/WifiConfiguration$SemOperationMode;->$VALUES:[Landroid/net/wifi/WifiConfiguration$SemOperationMode;
 
     return-object v0

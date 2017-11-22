@@ -29,7 +29,7 @@
     .locals 3
 
     .prologue
-    .line 317
+    .line 316
     const/4 v0, 0x3
 
     new-array v0, v0, [Ljava/lang/String;
@@ -54,7 +54,7 @@
 
     sput-object v0, Landroid/net/wifi/WifiConfiguration$Status;->strings:[Ljava/lang/String;
 
-    .line 307
+    .line 306
     return-void
 .end method
 
@@ -62,7 +62,7 @@
     .locals 0
 
     .prologue
-    .line 308
+    .line 307
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void

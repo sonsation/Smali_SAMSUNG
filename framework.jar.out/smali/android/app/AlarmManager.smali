@@ -116,20 +116,20 @@
     .param p2, "ctx"    # Landroid/content/Context;
 
     .prologue
-    .line 306
+    .line 307
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 307
+    .line 308
     iput-object p1, p0, Landroid/app/AlarmManager;->mService:Landroid/app/IAlarmManager;
 
-    .line 309
+    .line 310
     invoke-virtual {p2}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
 
     move-result-object v0
 
     iput-object v0, p0, Landroid/app/AlarmManager;->mPackageName:Ljava/lang/String;
 
-    .line 310
+    .line 311
     invoke-virtual {p2}, Landroid/content/Context;->getApplicationInfo()Landroid/content/pm/ApplicationInfo;
 
     move-result-object v0
@@ -138,7 +138,7 @@
 
     iput v0, p0, Landroid/app/AlarmManager;->mTargetSdkVersion:I
 
-    .line 311
+    .line 312
     iget v0, p0, Landroid/app/AlarmManager;->mTargetSdkVersion:I
 
     const/16 v1, 0x13
@@ -150,7 +150,7 @@
     :goto_0
     iput-boolean v0, p0, Landroid/app/AlarmManager;->mAlwaysExact:Z
 
-    .line 312
+    .line 313
     new-instance v0, Landroid/os/Handler;
 
     invoke-virtual {p2}, Landroid/content/Context;->getMainLooper()Landroid/os/Looper;
@@ -161,10 +161,10 @@
 
     iput-object v0, p0, Landroid/app/AlarmManager;->mMainThreadHandler:Landroid/os/Handler;
 
-    .line 306
+    .line 307
     return-void
 
-    .line 311
+    .line 312
     :cond_0
     const/4 v0, 0x0
 
@@ -175,7 +175,7 @@
     .locals 2
 
     .prologue
-    .line 316
+    .line 317
     iget-boolean v0, p0, Landroid/app/AlarmManager;->mAlwaysExact:Z
 
     if-eqz v0, :cond_0
@@ -196,14 +196,14 @@
     .param p0, "fileName"    # Ljava/lang/String;
 
     .prologue
-    .line 1109
+    .line 1110
     const/4 v3, 0x0
 
-    .line 1110
+    .line 1111
     .local v3, "reader":Ljava/io/BufferedReader;
     const/4 v2, 0x0
 
-    .line 1112
+    .line 1113
     .local v2, "line":Ljava/lang/String;
     :try_start_0
     new-instance v4, Ljava/io/BufferedReader;
@@ -217,7 +217,7 @@
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_1
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 1113
+    .line 1114
     .end local v3    # "reader":Ljava/io/BufferedReader;
     .local v4, "reader":Ljava/io/BufferedReader;
     :try_start_1
@@ -228,11 +228,11 @@
 
     move-result-object v2
 
-    .line 1117
+    .line 1118
     .local v2, "line":Ljava/lang/String;
     if-eqz v4, :cond_0
 
-    .line 1119
+    .line 1120
     :try_start_2
     invoke-virtual {v4}, Ljava/io/BufferedReader;->close()V
     :try_end_2
@@ -242,26 +242,26 @@
     :goto_0
     move-object v3, v4
 
-    .line 1125
+    .line 1126
     .end local v2    # "line":Ljava/lang/String;
     .end local v4    # "reader":Ljava/io/BufferedReader;
     :cond_1
     :goto_1
     return-object v2
 
-    .line 1120
+    .line 1121
     .restart local v2    # "line":Ljava/lang/String;
     .restart local v4    # "reader":Ljava/io/BufferedReader;
     :catch_0
     move-exception v1
 
-    .line 1121
+    .line 1122
     .local v1, "e1":Ljava/lang/Exception;
     invoke-virtual {v1}, Ljava/lang/Throwable;->printStackTrace()V
 
     goto :goto_0
 
-    .line 1114
+    .line 1115
     .end local v1    # "e1":Ljava/lang/Exception;
     .end local v4    # "reader":Ljava/io/BufferedReader;
     .local v2, "line":Ljava/lang/String;
@@ -269,7 +269,7 @@
     :catch_1
     move-exception v0
 
-    .line 1115
+    .line 1116
     .end local v3    # "reader":Ljava/io/BufferedReader;
     .local v0, "e":Ljava/lang/Exception;
     :goto_2
@@ -278,10 +278,10 @@
     :try_end_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_0
 
-    .line 1117
+    .line 1118
     if-eqz v3, :cond_1
 
-    .line 1119
+    .line 1120
     :try_start_4
     invoke-virtual {v3}, Ljava/io/BufferedReader;->close()V
     :try_end_4
@@ -289,48 +289,48 @@
 
     goto :goto_1
 
-    .line 1120
+    .line 1121
     :catch_2
     move-exception v1
 
-    .line 1121
+    .line 1122
     .restart local v1    # "e1":Ljava/lang/Exception;
     invoke-virtual {v1}, Ljava/lang/Throwable;->printStackTrace()V
 
     goto :goto_1
 
-    .line 1116
+    .line 1117
     .end local v0    # "e":Ljava/lang/Exception;
     .end local v1    # "e1":Ljava/lang/Exception;
     :catchall_0
     move-exception v5
 
-    .line 1117
+    .line 1118
     :goto_3
     if-eqz v3, :cond_2
 
-    .line 1119
+    .line 1120
     :try_start_5
     invoke-virtual {v3}, Ljava/io/BufferedReader;->close()V
     :try_end_5
     .catch Ljava/lang/Exception; {:try_start_5 .. :try_end_5} :catch_3
 
-    .line 1116
+    .line 1117
     :cond_2
     :goto_4
     throw v5
 
-    .line 1120
+    .line 1121
     :catch_3
     move-exception v1
 
-    .line 1121
+    .line 1122
     .restart local v1    # "e1":Ljava/lang/Exception;
     invoke-virtual {v1}, Ljava/lang/Throwable;->printStackTrace()V
 
     goto :goto_4
 
-    .line 1116
+    .line 1117
     .end local v1    # "e1":Ljava/lang/Exception;
     .restart local v4    # "reader":Ljava/io/BufferedReader;
     :catchall_1
@@ -342,7 +342,7 @@
     .local v3, "reader":Ljava/io/BufferedReader;
     goto :goto_3
 
-    .line 1114
+    .line 1115
     .end local v3    # "reader":Ljava/io/BufferedReader;
     .restart local v4    # "reader":Ljava/io/BufferedReader;
     :catch_4
@@ -371,43 +371,43 @@
     .param p14, "alarmClock"    # Landroid/app/AlarmManager$AlarmClockInfo;
 
     .prologue
-    .line 703
+    .line 704
     const-wide/16 v6, 0x0
 
     cmp-long v5, p2, v6
 
     if-gez v5, :cond_0
 
-    .line 711
+    .line 712
     const-wide/16 p2, 0x0
 
-    .line 714
+    .line 715
     :cond_0
     const/16 v16, 0x0
 
-    .line 715
+    .line 716
     .local v16, "recipientWrapper":Landroid/app/AlarmManager$ListenerWrapper;
     if-eqz p10, :cond_3
 
-    .line 716
+    .line 717
     const-class v6, Landroid/app/AlarmManager;
 
     monitor-enter v6
 
-    .line 717
+    .line 718
     :try_start_0
     sget-object v5, Landroid/app/AlarmManager;->sWrappers:Landroid/util/ArrayMap;
 
     if-nez v5, :cond_1
 
-    .line 718
+    .line 719
     new-instance v5, Landroid/util/ArrayMap;
 
     invoke-direct {v5}, Landroid/util/ArrayMap;-><init>()V
 
     sput-object v5, Landroid/app/AlarmManager;->sWrappers:Landroid/util/ArrayMap;
 
-    .line 721
+    .line 722
     :cond_1
     sget-object v5, Landroid/app/AlarmManager;->sWrappers:Landroid/util/ArrayMap;
 
@@ -423,11 +423,11 @@
 
     move-object/from16 v16, v0
 
-    .line 723
+    .line 724
     .local v16, "recipientWrapper":Landroid/app/AlarmManager$ListenerWrapper;
     if-nez v16, :cond_2
 
-    .line 724
+    .line 725
     new-instance v21, Landroid/app/AlarmManager$ListenerWrapper;
 
     move-object/from16 v0, v21
@@ -440,7 +440,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 725
+    .line 726
     .end local v16    # "recipientWrapper":Landroid/app/AlarmManager$ListenerWrapper;
     .local v21, "recipientWrapper":Landroid/app/AlarmManager$ListenerWrapper;
     :try_start_1
@@ -461,12 +461,12 @@
     :cond_2
     monitor-exit v6
 
-    .line 729
+    .line 730
     if-eqz p12, :cond_4
 
     move-object/from16 v20, p12
 
-    .line 730
+    .line 731
     .local v20, "handler":Landroid/os/Handler;
     :goto_0
     move-object/from16 v0, v16
@@ -475,7 +475,7 @@
 
     invoke-virtual {v0, v1}, Landroid/app/AlarmManager$ListenerWrapper;->setHandler(Landroid/os/Handler;)V
 
-    .line 734
+    .line 735
     .end local v16    # "recipientWrapper":Landroid/app/AlarmManager$ListenerWrapper;
     .end local v20    # "handler":Landroid/os/Handler;
     :cond_3
@@ -510,10 +510,10 @@
     :try_end_2
     .catch Landroid/os/RemoteException; {:try_start_2 .. :try_end_2} :catch_0
 
-    .line 702
+    .line 703
     return-void
 
-    .line 716
+    .line 717
     :catchall_0
     move-exception v5
 
@@ -522,7 +522,7 @@
 
     throw v5
 
-    .line 729
+    .line 730
     .restart local v16    # "recipientWrapper":Landroid/app/AlarmManager$ListenerWrapper;
     :cond_4
     move-object/from16 v0, p0
@@ -534,13 +534,13 @@
     .restart local v20    # "handler":Landroid/os/Handler;
     goto :goto_0
 
-    .line 736
+    .line 737
     .end local v16    # "recipientWrapper":Landroid/app/AlarmManager$ListenerWrapper;
     .end local v20    # "handler":Landroid/os/Handler;
     :catch_0
     move-exception v4
 
-    .line 737
+    .line 738
     .local v4, "ex":Landroid/os/RemoteException;
     invoke-virtual {v4}, Landroid/os/RemoteException;->rethrowFromSystemServer()Ljava/lang/RuntimeException;
 
@@ -548,7 +548,7 @@
 
     throw v5
 
-    .line 716
+    .line 717
     .end local v4    # "ex":Landroid/os/RemoteException;
     .restart local v21    # "recipientWrapper":Landroid/app/AlarmManager$ListenerWrapper;
     :catchall_1
@@ -567,10 +567,10 @@
     .param p1, "value"    # Ljava/lang/String;
 
     .prologue
-    .line 1135
+    .line 1136
     const/4 v2, 0x0
 
-    .line 1137
+    .line 1138
     .local v2, "writer":Ljava/io/FileWriter;
     :try_start_0
     new-instance v3, Ljava/io/FileWriter;
@@ -582,22 +582,22 @@
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_1
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 1138
+    .line 1139
     .end local v2    # "writer":Ljava/io/FileWriter;
     .local v3, "writer":Ljava/io/FileWriter;
     :try_start_1
     invoke-virtual {v3, p1}, Ljava/io/Writer;->write(Ljava/lang/String;)V
 
-    .line 1139
+    .line 1140
     invoke-virtual {v3}, Ljava/io/OutputStreamWriter;->flush()V
     :try_end_1
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_4
     .catchall {:try_start_1 .. :try_end_1} :catchall_1
 
-    .line 1143
+    .line 1144
     if-eqz v3, :cond_0
 
-    .line 1145
+    .line 1146
     :try_start_2
     invoke-virtual {v3}, Ljava/io/OutputStreamWriter;->close()V
     :try_end_2
@@ -607,31 +607,31 @@
     :goto_0
     move-object v2, v3
 
-    .line 1134
+    .line 1135
     .end local v3    # "writer":Ljava/io/FileWriter;
     :cond_1
     :goto_1
     return-void
 
-    .line 1146
+    .line 1147
     .restart local v3    # "writer":Ljava/io/FileWriter;
     :catch_0
     move-exception v1
 
-    .line 1147
+    .line 1148
     .local v1, "e1":Ljava/lang/Exception;
     invoke-virtual {v1}, Ljava/lang/Throwable;->printStackTrace()V
 
     goto :goto_0
 
-    .line 1140
+    .line 1141
     .end local v1    # "e1":Ljava/lang/Exception;
     .end local v3    # "writer":Ljava/io/FileWriter;
     .restart local v2    # "writer":Ljava/io/FileWriter;
     :catch_1
     move-exception v0
 
-    .line 1141
+    .line 1142
     .end local v2    # "writer":Ljava/io/FileWriter;
     .local v0, "e":Ljava/lang/Exception;
     :goto_2
@@ -640,10 +640,10 @@
     :try_end_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_0
 
-    .line 1143
+    .line 1144
     if-eqz v2, :cond_1
 
-    .line 1145
+    .line 1146
     :try_start_4
     invoke-virtual {v2}, Ljava/io/OutputStreamWriter;->close()V
     :try_end_4
@@ -651,48 +651,48 @@
 
     goto :goto_1
 
-    .line 1146
+    .line 1147
     :catch_2
     move-exception v1
 
-    .line 1147
+    .line 1148
     .restart local v1    # "e1":Ljava/lang/Exception;
     invoke-virtual {v1}, Ljava/lang/Throwable;->printStackTrace()V
 
     goto :goto_1
 
-    .line 1142
+    .line 1143
     .end local v0    # "e":Ljava/lang/Exception;
     .end local v1    # "e1":Ljava/lang/Exception;
     :catchall_0
     move-exception v4
 
-    .line 1143
+    .line 1144
     :goto_3
     if-eqz v2, :cond_2
 
-    .line 1145
+    .line 1146
     :try_start_5
     invoke-virtual {v2}, Ljava/io/OutputStreamWriter;->close()V
     :try_end_5
     .catch Ljava/lang/Exception; {:try_start_5 .. :try_end_5} :catch_3
 
-    .line 1142
+    .line 1143
     :cond_2
     :goto_4
     throw v4
 
-    .line 1146
+    .line 1147
     :catch_3
     move-exception v1
 
-    .line 1147
+    .line 1148
     .restart local v1    # "e1":Ljava/lang/Exception;
     invoke-virtual {v1}, Ljava/lang/Throwable;->printStackTrace()V
 
     goto :goto_4
 
-    .line 1142
+    .line 1143
     .end local v1    # "e1":Ljava/lang/Exception;
     .restart local v3    # "writer":Ljava/io/FileWriter;
     :catchall_1
@@ -704,7 +704,7 @@
     .local v2, "writer":Ljava/io/FileWriter;
     goto :goto_3
 
-    .line 1140
+    .line 1141
     .end local v2    # "writer":Ljava/io/FileWriter;
     .restart local v3    # "writer":Ljava/io/FileWriter;
     :catch_4
@@ -725,10 +725,10 @@
     .param p1, "listener"    # Landroid/app/AlarmManager$OnAlarmListener;
 
     .prologue
-    .line 978
+    .line 979
     if-nez p1, :cond_0
 
-    .line 979
+    .line 980
     new-instance v1, Ljava/lang/NullPointerException;
 
     const-string/jumbo v2, "cancel() called with a null OnAlarmListener"
@@ -737,23 +737,23 @@
 
     throw v1
 
-    .line 982
+    .line 983
     :cond_0
     const/4 v0, 0x0
 
-    .line 983
+    .line 984
     .local v0, "wrapper":Landroid/app/AlarmManager$ListenerWrapper;
     const-class v2, Landroid/app/AlarmManager;
 
     monitor-enter v2
 
-    .line 984
+    .line 985
     :try_start_0
     sget-object v1, Landroid/app/AlarmManager;->sWrappers:Landroid/util/ArrayMap;
 
     if-eqz v1, :cond_1
 
-    .line 985
+    .line 986
     sget-object v1, Landroid/app/AlarmManager;->sWrappers:Landroid/util/ArrayMap;
 
     invoke-virtual {v1, p1}, Landroid/util/ArrayMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -768,10 +768,10 @@
     :cond_1
     monitor-exit v2
 
-    .line 989
+    .line 990
     if-nez v0, :cond_2
 
-    .line 990
+    .line 991
     const-string/jumbo v1, "AlarmManager"
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -794,10 +794,10 @@
 
     invoke-static {v1, v2}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 991
+    .line 992
     return-void
 
-    .line 983
+    .line 984
     :catchall_0
     move-exception v1
 
@@ -805,11 +805,11 @@
 
     throw v1
 
-    .line 994
+    .line 995
     :cond_2
     invoke-virtual {v0}, Landroid/app/AlarmManager$ListenerWrapper;->cancel()V
 
-    .line 977
+    .line 978
     return-void
 .end method
 
@@ -818,13 +818,13 @@
     .param p1, "operation"    # Landroid/app/PendingIntent;
 
     .prologue
-    .line 955
+    .line 956
     if-nez p1, :cond_1
 
-    .line 956
+    .line 957
     const-string/jumbo v1, "cancel() called with a null PendingIntent"
 
-    .line 957
+    .line 958
     .local v1, "msg":Ljava/lang/String;
     iget v2, p0, Landroid/app/AlarmManager;->mTargetSdkVersion:I
 
@@ -832,7 +832,7 @@
 
     if-lt v2, v3, :cond_0
 
-    .line 958
+    .line 959
     new-instance v2, Ljava/lang/NullPointerException;
 
     const-string/jumbo v3, "cancel() called with a null PendingIntent"
@@ -841,7 +841,7 @@
 
     throw v2
 
-    .line 960
+    .line 961
     :cond_0
     const-string/jumbo v2, "AlarmManager"
 
@@ -849,10 +849,10 @@
 
     invoke-static {v2, v3}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 961
+    .line 962
     return-void
 
-    .line 966
+    .line 967
     .end local v1    # "msg":Ljava/lang/String;
     :cond_1
     :try_start_0
@@ -864,14 +864,14 @@
     :try_end_0
     .catch Landroid/os/RemoteException; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 954
+    .line 955
     return-void
 
-    .line 967
+    .line 968
     :catch_0
     move-exception v0
 
-    .line 968
+    .line 969
     .local v0, "ex":Landroid/os/RemoteException;
     invoke-virtual {v0}, Landroid/os/RemoteException;->rethrowFromSystemServer()Ljava/lang/RuntimeException;
 
@@ -884,7 +884,7 @@
     .locals 1
 
     .prologue
-    .line 1075
+    .line 1076
     invoke-static {}, Landroid/os/UserHandle;->myUserId()I
 
     move-result v0
@@ -901,7 +901,7 @@
     .param p1, "userId"    # I
 
     .prologue
-    .line 1096
+    .line 1097
     :try_start_0
     iget-object v1, p0, Landroid/app/AlarmManager;->mService:Landroid/app/IAlarmManager;
 
@@ -913,11 +913,11 @@
 
     return-object v1
 
-    .line 1097
+    .line 1098
     :catch_0
     move-exception v0
 
-    .line 1098
+    .line 1099
     .local v0, "ex":Landroid/os/RemoteException;
     invoke-virtual {v0}, Landroid/os/RemoteException;->rethrowFromSystemServer()Ljava/lang/RuntimeException;
 
@@ -930,7 +930,7 @@
     .locals 4
 
     .prologue
-    .line 1054
+    .line 1055
     :try_start_0
     iget-object v1, p0, Landroid/app/AlarmManager;->mService:Landroid/app/IAlarmManager;
 
@@ -942,11 +942,11 @@
 
     return-wide v2
 
-    .line 1055
+    .line 1056
     :catch_0
     move-exception v0
 
-    .line 1056
+    .line 1057
     .local v0, "ex":Landroid/os/RemoteException;
     invoke-virtual {v0}, Landroid/os/RemoteException;->rethrowFromSystemServer()Ljava/lang/RuntimeException;
 
@@ -960,7 +960,7 @@
     .param p1, "time"    # Ljava/lang/String;
 
     .prologue
-    .line 403
+    .line 404
     :try_start_0
     iget-object v1, p0, Landroid/app/AlarmManager;->mService:Landroid/app/IAlarmManager;
 
@@ -968,11 +968,11 @@
     :try_end_0
     .catch Landroid/os/RemoteException; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 401
+    .line 402
     :goto_0
     return-void
 
-    .line 404
+    .line 405
     :catch_0
     move-exception v0
 
@@ -991,14 +991,14 @@
     .param p10, "workSource"    # Landroid/os/WorkSource;
 
     .prologue
-    .line 696
+    .line 697
     const/4 v8, 0x0
 
     const/4 v9, 0x0
 
     const/4 v11, 0x0
 
-    .line 697
+    .line 698
     const/4 v14, 0x0
 
     move-object/from16 v0, p0
@@ -1017,10 +1017,10 @@
 
     move-object/from16 v13, p10
 
-    .line 696
+    .line 697
     invoke-direct/range {v0 .. v14}, Landroid/app/AlarmManager;->setImpl(IJJJILandroid/app/PendingIntent;Landroid/app/AlarmManager$OnAlarmListener;Ljava/lang/String;Landroid/os/Handler;Landroid/os/WorkSource;Landroid/app/AlarmManager$AlarmClockInfo;)V
 
-    .line 695
+    .line 696
     return-void
 .end method
 
@@ -1034,14 +1034,14 @@
     .param p9, "workSource"    # Landroid/os/WorkSource;
 
     .prologue
-    .line 663
+    .line 664
     const/4 v8, 0x0
 
     const/4 v10, 0x0
 
     const/4 v11, 0x0
 
-    .line 664
+    .line 665
     const/4 v12, 0x0
 
     const/4 v14, 0x0
@@ -1060,10 +1060,10 @@
 
     move-object/from16 v13, p9
 
-    .line 663
+    .line 664
     invoke-direct/range {v0 .. v14}, Landroid/app/AlarmManager;->setImpl(IJJJILandroid/app/PendingIntent;Landroid/app/AlarmManager$OnAlarmListener;Ljava/lang/String;Landroid/os/Handler;Landroid/os/WorkSource;Landroid/app/AlarmManager$AlarmClockInfo;)V
 
-    .line 662
+    .line 663
     return-void
 .end method
 
@@ -1079,12 +1079,12 @@
     .param p11, "workSource"    # Landroid/os/WorkSource;
 
     .prologue
-    .line 679
+    .line 680
     const/4 v8, 0x0
 
     const/4 v9, 0x0
 
-    .line 680
+    .line 681
     const/4 v14, 0x0
 
     move-object/from16 v0, p0
@@ -1105,10 +1105,10 @@
 
     move-object/from16 v13, p11
 
-    .line 679
+    .line 680
     invoke-direct/range {v0 .. v14}, Landroid/app/AlarmManager;->setImpl(IJJJILandroid/app/PendingIntent;Landroid/app/AlarmManager$OnAlarmListener;Ljava/lang/String;Landroid/os/Handler;Landroid/os/WorkSource;Landroid/app/AlarmManager$AlarmClockInfo;)V
 
-    .line 678
+    .line 679
     return-void
 .end method
 
@@ -1119,7 +1119,7 @@
     .param p4, "operation"    # Landroid/app/PendingIntent;
 
     .prologue
-    .line 390
+    .line 391
     invoke-direct/range {p0 .. p0}, Landroid/app/AlarmManager;->legacyExactLength()J
 
     move-result-wide v4
@@ -1132,7 +1132,7 @@
 
     const/4 v11, 0x0
 
-    .line 391
+    .line 392
     const/4 v12, 0x0
 
     const/4 v13, 0x0
@@ -1147,10 +1147,10 @@
 
     move-object/from16 v9, p4
 
-    .line 390
+    .line 391
     invoke-direct/range {v0 .. v14}, Landroid/app/AlarmManager;->setImpl(IJJJILandroid/app/PendingIntent;Landroid/app/AlarmManager$OnAlarmListener;Ljava/lang/String;Landroid/os/Handler;Landroid/os/WorkSource;Landroid/app/AlarmManager$AlarmClockInfo;)V
 
-    .line 389
+    .line 390
     return-void
 .end method
 
@@ -1163,7 +1163,7 @@
     .param p6, "targetHandler"    # Landroid/os/Handler;
 
     .prologue
-    .line 433
+    .line 434
     invoke-direct/range {p0 .. p0}, Landroid/app/AlarmManager;->legacyExactLength()J
 
     move-result-wide v4
@@ -1174,7 +1174,7 @@
 
     const/4 v9, 0x0
 
-    .line 434
+    .line 435
     const/4 v13, 0x0
 
     const/4 v14, 0x0
@@ -1191,10 +1191,10 @@
 
     move-object/from16 v12, p6
 
-    .line 433
+    .line 434
     invoke-direct/range {v0 .. v14}, Landroid/app/AlarmManager;->setImpl(IJJJILandroid/app/PendingIntent;Landroid/app/AlarmManager$OnAlarmListener;Ljava/lang/String;Landroid/os/Handler;Landroid/os/WorkSource;Landroid/app/AlarmManager$AlarmClockInfo;)V
 
-    .line 432
+    .line 433
     return-void
 .end method
 
@@ -1204,7 +1204,7 @@
     .param p2, "operation"    # Landroid/app/PendingIntent;
 
     .prologue
-    .line 655
+    .line 656
     invoke-virtual/range {p1 .. p1}, Landroid/app/AlarmManager$AlarmClockInfo;->getTriggerTime()J
 
     move-result-wide v2
@@ -1217,7 +1217,7 @@
 
     const/4 v8, 0x0
 
-    .line 656
+    .line 657
     const/4 v10, 0x0
 
     const/4 v11, 0x0
@@ -1232,10 +1232,10 @@
 
     move-object/from16 v14, p1
 
-    .line 655
+    .line 656
     invoke-direct/range {v0 .. v14}, Landroid/app/AlarmManager;->setImpl(IJJJILandroid/app/PendingIntent;Landroid/app/AlarmManager$OnAlarmListener;Ljava/lang/String;Landroid/os/Handler;Landroid/os/WorkSource;Landroid/app/AlarmManager$AlarmClockInfo;)V
 
-    .line 654
+    .line 655
     return-void
 .end method
 
@@ -1246,14 +1246,14 @@
     .param p4, "operation"    # Landroid/app/PendingIntent;
 
     .prologue
-    .line 886
+    .line 887
     const-wide/16 v6, 0x0
 
     const-wide/16 v4, -0x1
 
     const/4 v8, 0x4
 
-    .line 887
+    .line 888
     const/4 v10, 0x0
 
     const/4 v11, 0x0
@@ -1272,10 +1272,10 @@
 
     move-object/from16 v9, p4
 
-    .line 886
+    .line 887
     invoke-direct/range {v0 .. v14}, Landroid/app/AlarmManager;->setImpl(IJJJILandroid/app/PendingIntent;Landroid/app/AlarmManager$OnAlarmListener;Ljava/lang/String;Landroid/os/Handler;Landroid/os/WorkSource;Landroid/app/AlarmManager$AlarmClockInfo;)V
 
-    .line 885
+    .line 886
     return-void
 .end method
 
@@ -1286,7 +1286,7 @@
     .param p4, "operation"    # Landroid/app/PendingIntent;
 
     .prologue
-    .line 600
+    .line 601
     const-wide/16 v6, 0x0
 
     const-wide/16 v4, 0x0
@@ -1299,7 +1299,7 @@
 
     const/4 v12, 0x0
 
-    .line 601
+    .line 602
     const/4 v13, 0x0
 
     const/4 v14, 0x0
@@ -1312,10 +1312,10 @@
 
     move-object/from16 v9, p4
 
-    .line 600
+    .line 601
     invoke-direct/range {v0 .. v14}, Landroid/app/AlarmManager;->setImpl(IJJJILandroid/app/PendingIntent;Landroid/app/AlarmManager$OnAlarmListener;Ljava/lang/String;Landroid/os/Handler;Landroid/os/WorkSource;Landroid/app/AlarmManager$AlarmClockInfo;)V
 
-    .line 599
+    .line 600
     return-void
 .end method
 
@@ -1328,7 +1328,7 @@
     .param p6, "targetHandler"    # Landroid/os/Handler;
 
     .prologue
-    .line 615
+    .line 616
     const-wide/16 v6, 0x0
 
     const-wide/16 v4, 0x0
@@ -1337,7 +1337,7 @@
 
     const/4 v9, 0x0
 
-    .line 616
+    .line 617
     const/4 v13, 0x0
 
     const/4 v14, 0x0
@@ -1354,10 +1354,10 @@
 
     move-object/from16 v12, p6
 
-    .line 615
+    .line 616
     invoke-direct/range {v0 .. v14}, Landroid/app/AlarmManager;->setImpl(IJJJILandroid/app/PendingIntent;Landroid/app/AlarmManager$OnAlarmListener;Ljava/lang/String;Landroid/os/Handler;Landroid/os/WorkSource;Landroid/app/AlarmManager$AlarmClockInfo;)V
 
-    .line 614
+    .line 615
     return-void
 .end method
 
@@ -1368,14 +1368,14 @@
     .param p4, "operation"    # Landroid/app/PendingIntent;
 
     .prologue
-    .line 940
+    .line 941
     const-wide/16 v6, 0x0
 
     const-wide/16 v4, 0x0
 
     const/4 v8, 0x4
 
-    .line 941
+    .line 942
     const/4 v10, 0x0
 
     const/4 v11, 0x0
@@ -1394,10 +1394,10 @@
 
     move-object/from16 v9, p4
 
-    .line 940
+    .line 941
     invoke-direct/range {v0 .. v14}, Landroid/app/AlarmManager;->setImpl(IJJJILandroid/app/PendingIntent;Landroid/app/AlarmManager$OnAlarmListener;Ljava/lang/String;Landroid/os/Handler;Landroid/os/WorkSource;Landroid/app/AlarmManager$AlarmClockInfo;)V
 
-    .line 939
+    .line 940
     return-void
 .end method
 
@@ -1410,7 +1410,7 @@
     .param p6, "targetHandler"    # Landroid/os/Handler;
 
     .prologue
-    .line 626
+    .line 627
     const-wide/16 v6, 0x0
 
     const-wide/16 v4, 0x0
@@ -1419,7 +1419,7 @@
 
     const/4 v9, 0x0
 
-    .line 627
+    .line 628
     const/4 v13, 0x0
 
     const/4 v14, 0x0
@@ -1436,10 +1436,10 @@
 
     move-object/from16 v12, p6
 
-    .line 626
+    .line 627
     invoke-direct/range {v0 .. v14}, Landroid/app/AlarmManager;->setImpl(IJJJILandroid/app/PendingIntent;Landroid/app/AlarmManager$OnAlarmListener;Ljava/lang/String;Landroid/os/Handler;Landroid/os/WorkSource;Landroid/app/AlarmManager$AlarmClockInfo;)V
 
-    .line 625
+    .line 626
     return-void
 .end method
 
@@ -1451,14 +1451,14 @@
     .param p6, "operation"    # Landroid/app/PendingIntent;
 
     .prologue
-    .line 836
+    .line 837
     const-wide/16 v4, -0x1
 
     const/4 v8, 0x0
 
     const/4 v10, 0x0
 
-    .line 837
+    .line 838
     const/4 v11, 0x0
 
     const/4 v12, 0x0
@@ -1477,10 +1477,10 @@
 
     move-object/from16 v9, p6
 
-    .line 836
+    .line 837
     invoke-direct/range {v0 .. v14}, Landroid/app/AlarmManager;->setImpl(IJJJILandroid/app/PendingIntent;Landroid/app/AlarmManager$OnAlarmListener;Ljava/lang/String;Landroid/os/Handler;Landroid/os/WorkSource;Landroid/app/AlarmManager$AlarmClockInfo;)V
 
-    .line 835
+    .line 836
     return-void
 .end method
 
@@ -1492,14 +1492,14 @@
     .param p6, "operation"    # Landroid/app/PendingIntent;
 
     .prologue
-    .line 495
+    .line 496
     invoke-direct/range {p0 .. p0}, Landroid/app/AlarmManager;->legacyExactLength()J
 
     move-result-wide v4
 
     const/4 v8, 0x0
 
-    .line 496
+    .line 497
     const/4 v10, 0x0
 
     const/4 v11, 0x0
@@ -1520,10 +1520,10 @@
 
     move-object/from16 v9, p6
 
-    .line 495
+    .line 496
     invoke-direct/range {v0 .. v14}, Landroid/app/AlarmManager;->setImpl(IJJJILandroid/app/PendingIntent;Landroid/app/AlarmManager$OnAlarmListener;Ljava/lang/String;Landroid/os/Handler;Landroid/os/WorkSource;Landroid/app/AlarmManager$AlarmClockInfo;)V
 
-    .line 494
+    .line 495
     return-void
 .end method
 
@@ -1532,7 +1532,7 @@
     .param p1, "millis"    # J
 
     .prologue
-    .line 1005
+    .line 1006
     :try_start_0
     iget-object v1, p0, Landroid/app/AlarmManager;->mService:Landroid/app/IAlarmManager;
 
@@ -1540,14 +1540,14 @@
     :try_end_0
     .catch Landroid/os/RemoteException; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 1003
+    .line 1004
     return-void
 
-    .line 1006
+    .line 1007
     :catch_0
     move-exception v0
 
-    .line 1007
+    .line 1008
     .local v0, "ex":Landroid/os/RemoteException;
     invoke-virtual {v0}, Landroid/os/RemoteException;->rethrowFromSystemServer()Ljava/lang/RuntimeException;
 
@@ -1561,17 +1561,17 @@
     .param p1, "timeZone"    # Ljava/lang/String;
 
     .prologue
-    .line 1027
+    .line 1028
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v3
 
     if-eqz v3, :cond_0
 
-    .line 1028
+    .line 1029
     return-void
 
-    .line 1032
+    .line 1033
     :cond_0
     iget v3, p0, Landroid/app/AlarmManager;->mTargetSdkVersion:I
 
@@ -1579,10 +1579,10 @@
 
     if-lt v3, v4, :cond_1
 
-    .line 1033
+    .line 1034
     const/4 v1, 0x0
 
-    .line 1035
+    .line 1036
     .local v1, "hasTimeZone":Z
     :try_start_0
     invoke-static {}, Llibcore/util/ZoneInfoDB;->getInstance()Llibcore/util/ZoneInfoDB$TzData;
@@ -1595,12 +1595,12 @@
 
     move-result v1
 
-    .line 1039
+    .line 1040
     .end local v1    # "hasTimeZone":Z
     :goto_0
     if-nez v1, :cond_1
 
-    .line 1040
+    .line 1041
     new-instance v3, Ljava/lang/IllegalArgumentException;
 
     new-instance v4, Ljava/lang/StringBuilder;
@@ -1631,7 +1631,7 @@
 
     throw v3
 
-    .line 1045
+    .line 1046
     :cond_1
     :try_start_1
     iget-object v3, p0, Landroid/app/AlarmManager;->mService:Landroid/app/IAlarmManager;
@@ -1640,14 +1640,14 @@
     :try_end_1
     .catch Landroid/os/RemoteException; {:try_start_1 .. :try_end_1} :catch_0
 
-    .line 1026
+    .line 1027
     return-void
 
-    .line 1046
+    .line 1047
     :catch_0
     move-exception v0
 
-    .line 1047
+    .line 1048
     .local v0, "ex":Landroid/os/RemoteException;
     invoke-virtual {v0}, Landroid/os/RemoteException;->rethrowFromSystemServer()Ljava/lang/RuntimeException;
 
@@ -1655,7 +1655,7 @@
 
     throw v3
 
-    .line 1036
+    .line 1037
     .end local v0    # "ex":Landroid/os/RemoteException;
     .restart local v1    # "hasTimeZone":Z
     :catch_1
@@ -1673,12 +1673,12 @@
     .param p6, "operation"    # Landroid/app/PendingIntent;
 
     .prologue
-    .line 546
+    .line 547
     const-wide/16 v6, 0x0
 
     const/4 v8, 0x0
 
-    .line 547
+    .line 548
     const/4 v10, 0x0
 
     const/4 v11, 0x0
@@ -1699,10 +1699,10 @@
 
     move-object/from16 v9, p6
 
-    .line 546
+    .line 547
     invoke-direct/range {v0 .. v14}, Landroid/app/AlarmManager;->setImpl(IJJJILandroid/app/PendingIntent;Landroid/app/AlarmManager$OnAlarmListener;Ljava/lang/String;Landroid/os/Handler;Landroid/os/WorkSource;Landroid/app/AlarmManager$AlarmClockInfo;)V
 
-    .line 545
+    .line 546
     return-void
 .end method
 
@@ -1716,14 +1716,14 @@
     .param p8, "targetHandler"    # Landroid/os/Handler;
 
     .prologue
-    .line 561
+    .line 562
     const-wide/16 v6, 0x0
 
     const/4 v8, 0x0
 
     const/4 v9, 0x0
 
-    .line 562
+    .line 563
     const/4 v13, 0x0
 
     const/4 v14, 0x0
@@ -1742,9 +1742,9 @@
 
     move-object/from16 v12, p8
 
-    .line 561
+    .line 562
     invoke-direct/range {v0 .. v14}, Landroid/app/AlarmManager;->setImpl(IJJJILandroid/app/PendingIntent;Landroid/app/AlarmManager$OnAlarmListener;Ljava/lang/String;Landroid/os/Handler;Landroid/os/WorkSource;Landroid/app/AlarmManager$AlarmClockInfo;)V
 
-    .line 560
+    .line 561
     return-void
 .end method

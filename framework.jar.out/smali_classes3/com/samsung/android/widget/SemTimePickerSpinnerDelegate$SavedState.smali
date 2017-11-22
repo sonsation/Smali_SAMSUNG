@@ -44,14 +44,14 @@
     .locals 1
 
     .prologue
-    .line 701
+    .line 702
     new-instance v0, Lcom/samsung/android/widget/SemTimePickerSpinnerDelegate$SavedState$1;
 
     invoke-direct {v0}, Lcom/samsung/android/widget/SemTimePickerSpinnerDelegate$SavedState$1;-><init>()V
 
     sput-object v0, Lcom/samsung/android/widget/SemTimePickerSpinnerDelegate$SavedState;->CREATOR:Landroid/os/Parcelable$Creator;
 
-    .line 669
+    .line 670
     return-void
 .end method
 
@@ -60,24 +60,24 @@
     .param p1, "in"    # Landroid/os/Parcel;
 
     .prologue
-    .line 680
-    invoke-direct {p0, p1}, Landroid/view/View$BaseSavedState;-><init>(Landroid/os/Parcel;)V
-
     .line 681
-    invoke-virtual {p1}, Landroid/os/Parcel;->readInt()I
-
-    move-result v0
-
-    iput v0, p0, Lcom/samsung/android/widget/SemTimePickerSpinnerDelegate$SavedState;->mHour:I
+    invoke-direct {p0, p1}, Landroid/view/View$BaseSavedState;-><init>(Landroid/os/Parcel;)V
 
     .line 682
     invoke-virtual {p1}, Landroid/os/Parcel;->readInt()I
 
     move-result v0
 
+    iput v0, p0, Lcom/samsung/android/widget/SemTimePickerSpinnerDelegate$SavedState;->mHour:I
+
+    .line 683
+    invoke-virtual {p1}, Landroid/os/Parcel;->readInt()I
+
+    move-result v0
+
     iput v0, p0, Lcom/samsung/android/widget/SemTimePickerSpinnerDelegate$SavedState;->mMinute:I
 
-    .line 679
+    .line 680
     return-void
 .end method
 
@@ -98,16 +98,16 @@
     .param p3, "minute"    # I
 
     .prologue
-    .line 674
+    .line 675
     invoke-direct {p0, p1}, Landroid/view/View$BaseSavedState;-><init>(Landroid/os/Parcelable;)V
 
-    .line 675
+    .line 676
     iput p2, p0, Lcom/samsung/android/widget/SemTimePickerSpinnerDelegate$SavedState;->mHour:I
 
-    .line 676
+    .line 677
     iput p3, p0, Lcom/samsung/android/widget/SemTimePickerSpinnerDelegate$SavedState;->mMinute:I
 
-    .line 673
+    .line 674
     return-void
 .end method
 
@@ -129,7 +129,7 @@
     .locals 1
 
     .prologue
-    .line 686
+    .line 687
     iget v0, p0, Lcom/samsung/android/widget/SemTimePickerSpinnerDelegate$SavedState;->mHour:I
 
     return v0
@@ -139,7 +139,7 @@
     .locals 1
 
     .prologue
-    .line 690
+    .line 691
     iget v0, p0, Lcom/samsung/android/widget/SemTimePickerSpinnerDelegate$SavedState;->mMinute:I
 
     return v0
@@ -151,19 +151,19 @@
     .param p2, "flags"    # I
 
     .prologue
-    .line 695
+    .line 696
     invoke-super {p0, p1, p2}, Landroid/view/View$BaseSavedState;->writeToParcel(Landroid/os/Parcel;I)V
 
-    .line 696
+    .line 697
     iget v0, p0, Lcom/samsung/android/widget/SemTimePickerSpinnerDelegate$SavedState;->mHour:I
 
     invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeInt(I)V
 
-    .line 697
+    .line 698
     iget v0, p0, Lcom/samsung/android/widget/SemTimePickerSpinnerDelegate$SavedState;->mMinute:I
 
     invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeInt(I)V
 
-    .line 694
+    .line 695
     return-void
 .end method

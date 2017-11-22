@@ -27,7 +27,7 @@
     .param p1, "this$0"    # Lcom/samsung/android/widget/SemTimePickerSpinnerDelegate;
 
     .prologue
-    .line 740
+    .line 741
     iput-object p1, p0, Lcom/samsung/android/widget/SemTimePickerSpinnerDelegate$2;->this$0:Lcom/samsung/android/widget/SemTimePickerSpinnerDelegate;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -46,22 +46,22 @@
     .prologue
     const/4 v1, 0x0
 
-    .line 742
+    .line 743
     const/4 v0, 0x6
 
     if-ne p2, v0, :cond_0
 
-    .line 743
+    .line 744
     iget-object v0, p0, Lcom/samsung/android/widget/SemTimePickerSpinnerDelegate$2;->this$0:Lcom/samsung/android/widget/SemTimePickerSpinnerDelegate;
 
     invoke-static {v0}, Lcom/samsung/android/widget/SemTimePickerSpinnerDelegate;->-wrap2(Lcom/samsung/android/widget/SemTimePickerSpinnerDelegate;)V
 
-    .line 744
+    .line 745
     iget-object v0, p0, Lcom/samsung/android/widget/SemTimePickerSpinnerDelegate$2;->this$0:Lcom/samsung/android/widget/SemTimePickerSpinnerDelegate;
 
     invoke-virtual {v0, v1}, Lcom/samsung/android/widget/SemTimePickerSpinnerDelegate;->setEditTextMode(Z)V
 
-    .line 746
+    .line 747
     :cond_0
     return v1
 .end method

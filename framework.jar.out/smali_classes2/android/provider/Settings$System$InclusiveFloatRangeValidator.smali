@@ -30,16 +30,16 @@
     .param p2, "max"    # F
 
     .prologue
-    .line 2639
+    .line 2635
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2640
+    .line 2636
     iput p1, p0, Landroid/provider/Settings$System$InclusiveFloatRangeValidator;->mMin:F
 
-    .line 2641
+    .line 2637
     iput p2, p0, Landroid/provider/Settings$System$InclusiveFloatRangeValidator;->mMax:F
 
-    .line 2639
+    .line 2635
     return-void
 .end method
 
@@ -52,13 +52,13 @@
     .prologue
     const/4 v2, 0x0
 
-    .line 2647
+    .line 2643
     :try_start_0
     invoke-static {p1}, Ljava/lang/Float;->parseFloat(Ljava/lang/String;)F
 
     move-result v1
 
-    .line 2648
+    .line 2644
     .local v1, "floatValue":F
     iget v3, p0, Landroid/provider/Settings$System$InclusiveFloatRangeValidator;->mMin:F
 
@@ -79,12 +79,12 @@
     :cond_0
     return v2
 
-    .line 2649
+    .line 2645
     .end local v1    # "floatValue":F
     :catch_0
     move-exception v0
 
-    .line 2650
+    .line 2646
     .local v0, "e":Ljava/lang/NumberFormatException;
     return v2
 .end method

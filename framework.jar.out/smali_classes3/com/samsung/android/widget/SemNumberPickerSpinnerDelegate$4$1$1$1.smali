@@ -27,7 +27,7 @@
     .param p1, "this$3"    # Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate$4$1$1;
 
     .prologue
-    .line 1895
+    .line 1896
     iput-object p1, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate$4$1$1$1;->this$3:Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate$4$1$1;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -41,7 +41,7 @@
     .locals 2
 
     .prologue
-    .line 1898
+    .line 1899
     iget-object v0, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate$4$1$1$1;->this$3:Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate$4$1$1;
 
     iget-object v0, v0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate$4$1$1;->this$2:Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate$4$1;
@@ -64,7 +64,7 @@
 
     invoke-static {v0, v1}, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->-wrap1(Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;Landroid/widget/Scroller;)Z
 
-    .line 1899
+    .line 1900
     iget-object v0, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate$4$1$1$1;->this$3:Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate$4$1$1;
 
     iget-object v0, v0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate$4$1$1;->this$2:Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate$4$1;
@@ -79,7 +79,7 @@
 
     invoke-virtual {v0}, Landroid/widget/Scroller;->abortAnimation()V
 
-    .line 1900
+    .line 1901
     iget-object v0, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate$4$1$1$1;->this$3:Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate$4$1$1;
 
     iget-object v0, v0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate$4$1$1;->this$2:Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate$4$1;
@@ -94,7 +94,7 @@
 
     invoke-virtual {v0}, Landroid/widget/Scroller;->abortAnimation()V
 
-    .line 1901
+    .line 1902
     iget-object v0, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate$4$1$1$1;->this$3:Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate$4$1$1;
 
     iget-object v0, v0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate$4$1$1;->this$2:Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate$4$1;
@@ -105,7 +105,7 @@
 
     invoke-static {v0}, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->-wrap0(Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;)Z
 
-    .line 1902
+    .line 1903
     iget-object v0, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate$4$1$1$1;->this$3:Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate$4$1$1;
 
     iget-object v0, v0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate$4$1$1;->this$2:Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate$4$1;
@@ -128,7 +128,7 @@
 
     invoke-static {v0, v1}, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->-set1(Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;Landroid/widget/Scroller;)Landroid/widget/Scroller;
 
-    .line 1904
+    .line 1905
     iget-object v0, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate$4$1$1$1;->this$3:Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate$4$1$1;
 
     iget-object v0, v0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate$4$1$1;->this$2:Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate$4$1;
@@ -141,7 +141,7 @@
 
     invoke-static {v0, v1}, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->-set3(Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;Z)Z
 
-    .line 1905
+    .line 1906
     iget-object v0, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate$4$1$1$1;->this$3:Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate$4$1$1;
 
     iget-object v0, v0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate$4$1$1;->this$2:Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate$4$1;
@@ -153,21 +153,6 @@
     iget-object v0, v0, Lcom/samsung/android/widget/SemNumberPicker$AbstractSemNumberPickerDelegate;->mDelegator:Lcom/samsung/android/widget/SemNumberPicker;
 
     invoke-virtual {v0}, Landroid/view/View;->invalidate()V
-
-    .line 1906
-    iget-object v0, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate$4$1$1$1;->this$3:Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate$4$1$1;
-
-    iget-object v0, v0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate$4$1$1;->this$2:Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate$4$1;
-
-    iget-object v0, v0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate$4$1;->this$1:Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate$4;
-
-    iget-object v0, v0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate$4;->this$0:Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;
-
-    invoke-static {v0}, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->-get2(Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;)Lcom/samsung/android/widget/SemAnimationListener;
-
-    move-result-object v0
-
-    if-eqz v0, :cond_0
 
     .line 1907
     iget-object v0, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate$4$1$1$1;->this$3:Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate$4$1$1;
@@ -182,9 +167,24 @@
 
     move-result-object v0
 
+    if-eqz v0, :cond_0
+
+    .line 1908
+    iget-object v0, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate$4$1$1$1;->this$3:Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate$4$1$1;
+
+    iget-object v0, v0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate$4$1$1;->this$2:Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate$4$1;
+
+    iget-object v0, v0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate$4$1;->this$1:Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate$4;
+
+    iget-object v0, v0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate$4;->this$0:Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;
+
+    invoke-static {v0}, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;->-get2(Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate;)Lcom/samsung/android/widget/SemAnimationListener;
+
+    move-result-object v0
+
     invoke-interface {v0}, Lcom/samsung/android/widget/SemAnimationListener;->onAnimationEnd()V
 
-    .line 1897
+    .line 1898
     :cond_0
     return-void
 .end method

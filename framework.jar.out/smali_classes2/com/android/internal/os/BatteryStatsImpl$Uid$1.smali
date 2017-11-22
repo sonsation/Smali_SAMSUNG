@@ -34,7 +34,7 @@
     .param p2, "this$0"    # Lcom/android/internal/os/BatteryStatsImpl;
 
     .prologue
-    .line 5240
+    .line 5257
     iput-object p1, p0, Lcom/android/internal/os/BatteryStatsImpl$Uid$1;->this$1:Lcom/android/internal/os/BatteryStatsImpl$Uid;
 
     invoke-direct {p0, p2}, Lcom/android/internal/os/BatteryStatsImpl$OverflowArrayMap;-><init>(Lcom/android/internal/os/BatteryStatsImpl;)V
@@ -48,7 +48,7 @@
     .locals 3
 
     .prologue
-    .line 5242
+    .line 5259
     new-instance v0, Lcom/android/internal/os/BatteryStatsImpl$Uid$Wakelock;
 
     iget-object v1, p0, Lcom/android/internal/os/BatteryStatsImpl$Uid$1;->this$1:Lcom/android/internal/os/BatteryStatsImpl$Uid;
@@ -66,7 +66,7 @@
     .locals 1
 
     .prologue
-    .line 5241
+    .line 5258
     invoke-virtual {p0}, Lcom/android/internal/os/BatteryStatsImpl$Uid$1;->instantiateObject()Lcom/android/internal/os/BatteryStatsImpl$Uid$Wakelock;
 
     move-result-object v0

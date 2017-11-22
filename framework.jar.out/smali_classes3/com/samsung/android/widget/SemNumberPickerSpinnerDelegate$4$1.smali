@@ -30,7 +30,7 @@
     .param p2, "val$forwardDistance"    # I
 
     .prologue
-    .line 1882
+    .line 1883
     iput-object p1, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate$4$1;->this$1:Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate$4;
 
     iput p2, p0, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate$4$1;->val$forwardDistance:I
@@ -46,7 +46,7 @@
     .locals 4
 
     .prologue
-    .line 1885
+    .line 1886
     new-instance v0, Landroid/os/Handler;
 
     invoke-direct {v0}, Landroid/os/Handler;-><init>()V
@@ -57,12 +57,12 @@
 
     invoke-direct {v1, p0, v2}, Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate$4$1$1;-><init>(Lcom/samsung/android/widget/SemNumberPickerSpinnerDelegate$4$1;I)V
 
-    .line 1912
+    .line 1913
     const-wide/16 v2, 0x64
 
-    .line 1885
+    .line 1886
     invoke-virtual {v0, v1, v2, v3}, Landroid/os/Handler;->postDelayed(Ljava/lang/Runnable;J)Z
 
-    .line 1884
+    .line 1885
     return-void
 .end method

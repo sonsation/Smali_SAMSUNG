@@ -27,7 +27,7 @@
     .param p1, "this$0"    # Lcom/android/internal/os/BatteryStatsImpl;
 
     .prologue
-    .line 10529
+    .line 10546
     iput-object p1, p0, Lcom/android/internal/os/BatteryStatsImpl$5;->this$0:Lcom/android/internal/os/BatteryStatsImpl;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -41,11 +41,11 @@
     .locals 1
 
     .prologue
-    .line 10531
+    .line 10548
     iget-object v0, p0, Lcom/android/internal/os/BatteryStatsImpl$5;->this$0:Lcom/android/internal/os/BatteryStatsImpl;
 
     invoke-virtual {v0}, Lcom/android/internal/os/BatteryStatsImpl;->commitPendingDataToDisk()V
 
-    .line 10530
+    .line 10547
     return-void
 .end method
