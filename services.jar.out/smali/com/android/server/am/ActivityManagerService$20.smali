@@ -24,7 +24,7 @@
     .param p1, "this$0"    # Lcom/android/server/am/ActivityManagerService;
 
     .prologue
-    .line 16502
+    .line 16503
     iput-object p1, p0, Lcom/android/server/am/ActivityManagerService$20;->this$0:Lcom/android/server/am/ActivityManagerService;
 
     invoke-direct {p0}, Landroid/content/BroadcastReceiver;-><init>()V
@@ -40,7 +40,7 @@
     .param p2, "intent"    # Landroid/content/Intent;
 
     .prologue
-    .line 16505
+    .line 16506
     invoke-static {}, Lcom/android/server/am/ActivityManagerService;->-get0()Ljava/lang/String;
 
     move-result-object v0
@@ -49,14 +49,14 @@
 
     invoke-static {v0, v1}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 16506
+    .line 16507
     iget-object v0, p0, Lcom/android/server/am/ActivityManagerService$20;->this$0:Lcom/android/server/am/ActivityManagerService;
 
     const/16 v1, 0x2710
 
     invoke-virtual {v0, v1}, Lcom/android/server/am/ActivityManagerService;->shutdown(I)Z
 
-    .line 16507
+    .line 16508
     invoke-static {}, Lcom/android/server/am/ActivityManagerService;->-get0()Ljava/lang/String;
 
     move-result-object v0
@@ -65,18 +65,18 @@
 
     invoke-static {v0, v1}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 16508
+    .line 16509
     invoke-static {}, Landroid/os/Process;->myPid()I
 
     move-result v0
 
     invoke-static {v0}, Landroid/os/Process;->killProcess(I)V
 
-    .line 16509
+    .line 16510
     const/16 v0, 0xa
 
     invoke-static {v0}, Ljava/lang/System;->exit(I)V
 
-    .line 16503
+    .line 16504
     return-void
 .end method

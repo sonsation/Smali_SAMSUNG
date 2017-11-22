@@ -30,7 +30,7 @@
     .param p2, "val$userHandle"    # I
 
     .prologue
-    .line 5695
+    .line 5697
     iput-object p1, p0, Lcom/android/server/devicepolicy/DevicePolicyManagerService$8;->this$0:Lcom/android/server/devicepolicy/DevicePolicyManagerService;
 
     iput p2, p0, Lcom/android/server/devicepolicy/DevicePolicyManagerService$8;->val$userHandle:I
@@ -46,7 +46,7 @@
     .locals 8
 
     .prologue
-    .line 5702
+    .line 5704
     :try_start_0
     iget-object v5, p0, Lcom/android/server/devicepolicy/DevicePolicyManagerService$8;->this$0:Lcom/android/server/devicepolicy/DevicePolicyManagerService;
 
@@ -60,7 +60,7 @@
 
     check-cast v3, Lcom/samsung/android/knox/SemPersonaManager;
 
-    .line 5703
+    .line 5705
     .local v3, "pm":Lcom/samsung/android/knox/SemPersonaManager;
     if-eqz v3, :cond_1
 
@@ -72,7 +72,7 @@
 
     if-eqz v5, :cond_1
 
-    .line 5704
+    .line 5706
     const-string/jumbo v5, "DevicePolicyManagerService"
 
     const-string/jumbo v6, "wipeDeviceNoLock removing knox "
@@ -81,7 +81,7 @@
     :try_end_0
     .catch Landroid/os/RemoteException; {:try_start_0 .. :try_end_0} :catch_1
 
-    .line 5706
+    .line 5708
     :try_start_1
     iget v5, p0, Lcom/android/server/devicepolicy/DevicePolicyManagerService$8;->val$userHandle:I
 
@@ -90,18 +90,18 @@
     .catch Ljava/lang/SecurityException; {:try_start_1 .. :try_end_1} :catch_0
     .catch Landroid/os/RemoteException; {:try_start_1 .. :try_end_1} :catch_1
 
-    .line 5697
+    .line 5699
     .end local v3    # "pm":Lcom/samsung/android/knox/SemPersonaManager;
     :cond_0
     :goto_0
     return-void
 
-    .line 5707
+    .line 5709
     .restart local v3    # "pm":Lcom/samsung/android/knox/SemPersonaManager;
     :catch_0
     move-exception v1
 
-    .line 5708
+    .line 5710
     .local v1, "e":Ljava/lang/SecurityException;
     :try_start_2
     const-string/jumbo v5, "DevicePolicyManagerService"
@@ -132,7 +132,7 @@
 
     goto :goto_0
 
-    .line 5724
+    .line 5726
     .end local v1    # "e":Ljava/lang/SecurityException;
     .end local v3    # "pm":Lcom/samsung/android/knox/SemPersonaManager;
     :catch_1
@@ -141,7 +141,7 @@
     .local v4, "re":Landroid/os/RemoteException;
     goto :goto_0
 
-    .line 5712
+    .line 5714
     .end local v4    # "re":Landroid/os/RemoteException;
     .restart local v3    # "pm":Lcom/samsung/android/knox/SemPersonaManager;
     :cond_1
@@ -153,7 +153,7 @@
 
     move-result-object v0
 
-    .line 5713
+    .line 5715
     .local v0, "am":Landroid/app/IActivityManager;
     invoke-interface {v0}, Landroid/app/IActivityManager;->getCurrentUser()Landroid/content/pm/UserInfo;
 
@@ -165,12 +165,12 @@
 
     if-ne v5, v6, :cond_2
 
-    .line 5714
+    .line 5716
     const/4 v5, 0x0
 
     invoke-interface {v0, v5}, Landroid/app/IActivityManager;->switchUser(I)Z
 
-    .line 5717
+    .line 5719
     :cond_2
     iget-object v5, p0, Lcom/android/server/devicepolicy/DevicePolicyManagerService$8;->this$0:Lcom/android/server/devicepolicy/DevicePolicyManagerService;
 
@@ -180,7 +180,7 @@
 
     move-result v2
 
-    .line 5718
+    .line 5720
     .local v2, "isManagedProfile":Z
     iget-object v5, p0, Lcom/android/server/devicepolicy/DevicePolicyManagerService$8;->this$0:Lcom/android/server/devicepolicy/DevicePolicyManagerService;
 
@@ -194,7 +194,7 @@
 
     if-nez v5, :cond_3
 
-    .line 5719
+    .line 5721
     const-string/jumbo v5, "DevicePolicyManagerService"
 
     new-instance v6, Ljava/lang/StringBuilder;
@@ -221,11 +221,11 @@
 
     goto :goto_0
 
-    .line 5720
+    .line 5722
     :cond_3
     if-eqz v2, :cond_0
 
-    .line 5721
+    .line 5723
     iget-object v5, p0, Lcom/android/server/devicepolicy/DevicePolicyManagerService$8;->this$0:Lcom/android/server/devicepolicy/DevicePolicyManagerService;
 
     invoke-static {v5}, Lcom/android/server/devicepolicy/DevicePolicyManagerService;->-wrap18(Lcom/android/server/devicepolicy/DevicePolicyManagerService;)V

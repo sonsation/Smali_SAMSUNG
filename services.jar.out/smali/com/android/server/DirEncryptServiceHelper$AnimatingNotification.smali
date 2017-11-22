@@ -58,30 +58,30 @@
 
     const/4 v0, 0x0
 
-    .line 125
+    .line 127
     iput-object p1, p0, Lcom/android/server/DirEncryptServiceHelper$AnimatingNotification;->this$0:Lcom/android/server/DirEncryptServiceHelper;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 119
+    .line 121
     iput-object v1, p0, Lcom/android/server/DirEncryptServiceHelper$AnimatingNotification;->mContext:Landroid/content/Context;
 
-    .line 120
+    .line 122
     iput-boolean v0, p0, Lcom/android/server/DirEncryptServiceHelper$AnimatingNotification;->mStop:Z
 
-    .line 121
+    .line 123
     iput v0, p0, Lcom/android/server/DirEncryptServiceHelper$AnimatingNotification;->mEnctype:I
 
-    .line 122
+    .line 124
     iput v0, p0, Lcom/android/server/DirEncryptServiceHelper$AnimatingNotification;->mProgress:I
 
-    .line 123
+    .line 125
     iput-object v1, p0, Lcom/android/server/DirEncryptServiceHelper$AnimatingNotification;->notification_builder:Landroid/app/Notification$Builder;
 
-    .line 126
+    .line 128
     iput-object p2, p0, Lcom/android/server/DirEncryptServiceHelper$AnimatingNotification;->mContext:Landroid/content/Context;
 
-    .line 125
+    .line 127
     return-void
 .end method
 
@@ -91,7 +91,7 @@
     .locals 1
 
     .prologue
-    .line 139
+    .line 141
     iget-boolean v0, p0, Lcom/android/server/DirEncryptServiceHelper$AnimatingNotification;->mStop:Z
 
     if-nez v0, :cond_0
@@ -113,26 +113,26 @@
     .prologue
     const/4 v5, 0x1
 
-    .line 144
+    .line 146
     const/4 v1, 0x0
 
-    .line 145
+    .line 147
     .local v1, "pending":Landroid/app/PendingIntent;
     const/4 v2, 0x0
 
-    .line 146
+    .line 148
     .local v2, "icon":I
     const-string/jumbo v3, ""
 
-    .line 147
+    .line 149
     .local v3, "contentTitle":Ljava/lang/String;
     const-string/jumbo v4, ""
 
-    .line 148
+    .line 150
     .local v4, "contentText":Ljava/lang/String;
     const-string/jumbo v6, "\u202a"
 
-    .line 150
+    .line 152
     .local v6, "RTL":Ljava/lang/String;
     iget-object v0, p0, Lcom/android/server/DirEncryptServiceHelper$AnimatingNotification;->this$0:Lcom/android/server/DirEncryptServiceHelper;
 
@@ -142,16 +142,16 @@
 
     monitor-enter v8
 
-    .line 151
+    .line 153
     :try_start_0
     iget v0, p0, Lcom/android/server/DirEncryptServiceHelper$AnimatingNotification;->mEnctype:I
 
     if-ne v0, v5, :cond_1
 
-    .line 152
+    .line 154
     const v2, 0x10802f8
 
-    .line 153
+    .line 155
     iget-object v0, p0, Lcom/android/server/DirEncryptServiceHelper$AnimatingNotification;->mContext:Landroid/content/Context;
 
     invoke-virtual {v0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
@@ -164,7 +164,7 @@
 
     move-result-object v4
 
-    .line 154
+    .line 156
     iget-object v0, p0, Lcom/android/server/DirEncryptServiceHelper$AnimatingNotification;->mContext:Landroid/content/Context;
 
     invoke-virtual {v0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
@@ -177,7 +177,7 @@
 
     move-result-object v3
 
-    .line 161
+    .line 163
     :goto_0
     iget-object v0, p0, Lcom/android/server/DirEncryptServiceHelper$AnimatingNotification;->mContext:Landroid/content/Context;
 
@@ -193,13 +193,13 @@
 
     move-result-object v1
 
-    .line 163
+    .line 165
     .local v1, "pending":Landroid/app/PendingIntent;
     iget-object v0, p0, Lcom/android/server/DirEncryptServiceHelper$AnimatingNotification;->notification_builder:Landroid/app/Notification$Builder;
 
     if-nez v0, :cond_0
 
-    .line 164
+    .line 166
     iget-object v0, p0, Lcom/android/server/DirEncryptServiceHelper$AnimatingNotification;->this$0:Lcom/android/server/DirEncryptServiceHelper;
 
     move-object v5, v4
@@ -210,20 +210,20 @@
 
     iput-object v0, p0, Lcom/android/server/DirEncryptServiceHelper$AnimatingNotification;->notification_builder:Landroid/app/Notification$Builder;
 
-    .line 165
+    .line 167
     :cond_0
     iget-object v0, p0, Lcom/android/server/DirEncryptServiceHelper$AnimatingNotification;->notification_builder:Landroid/app/Notification$Builder;
 
     invoke-virtual {v0, v2}, Landroid/app/Notification$Builder;->setSmallIcon(I)Landroid/app/Notification$Builder;
 
-    .line 166
+    .line 168
     iget-object v0, p0, Lcom/android/server/DirEncryptServiceHelper$AnimatingNotification;->notification_builder:Landroid/app/Notification$Builder;
 
     const/4 v5, 0x1
 
     invoke-virtual {v0, v5}, Landroid/app/Notification$Builder;->setOngoing(Z)Landroid/app/Notification$Builder;
 
-    .line 167
+    .line 169
     iget-object v0, p0, Lcom/android/server/DirEncryptServiceHelper$AnimatingNotification;->notification_builder:Landroid/app/Notification$Builder;
 
     iget v5, p0, Lcom/android/server/DirEncryptServiceHelper$AnimatingNotification;->mProgress:I
@@ -234,7 +234,7 @@
 
     invoke-virtual {v0, v9, v5, v10}, Landroid/app/Notification$Builder;->setProgress(IIZ)Landroid/app/Notification$Builder;
 
-    .line 168
+    .line 170
     iget-object v0, p0, Lcom/android/server/DirEncryptServiceHelper$AnimatingNotification;->notification_builder:Landroid/app/Notification$Builder;
 
     new-instance v5, Ljava/lang/StringBuilder;
@@ -273,12 +273,12 @@
 
     invoke-virtual {v0, v5}, Landroid/app/Notification$Builder;->setContentTitle(Ljava/lang/CharSequence;)Landroid/app/Notification$Builder;
 
-    .line 170
+    .line 172
     iget-boolean v0, p0, Lcom/android/server/DirEncryptServiceHelper$AnimatingNotification;->mStop:Z
 
     if-nez v0, :cond_2
 
-    .line 171
+    .line 173
     iget-object v0, p0, Lcom/android/server/DirEncryptServiceHelper$AnimatingNotification;->mContext:Landroid/content/Context;
 
     const-string/jumbo v5, "notification"
@@ -289,7 +289,7 @@
 
     check-cast v7, Landroid/app/NotificationManager;
 
-    .line 172
+    .line 174
     .local v7, "nm":Landroid/app/NotificationManager;
     sget v0, Lcom/samsung/android/security/SemSdCardEncryption;->SECURITY_POLICY_NOTIFICATION_ID:I
 
@@ -301,7 +301,7 @@
 
     invoke-virtual {v7, v0, v5}, Landroid/app/NotificationManager;->notify(ILandroid/app/Notification;)V
 
-    .line 174
+    .line 176
     iget-object v0, p0, Lcom/android/server/DirEncryptServiceHelper$AnimatingNotification;->this$0:Lcom/android/server/DirEncryptServiceHelper;
 
     invoke-static {v0}, Lcom/android/server/DirEncryptServiceHelper;->-get3(Lcom/android/server/DirEncryptServiceHelper;)Landroid/os/Handler;
@@ -318,15 +318,15 @@
     :goto_1
     monitor-exit v8
 
-    .line 143
+    .line 145
     return-void
 
-    .line 156
+    .line 158
     .local v1, "pending":Landroid/app/PendingIntent;
     :cond_1
     const v2, 0x108028c
 
-    .line 157
+    .line 159
     :try_start_1
     iget-object v0, p0, Lcom/android/server/DirEncryptServiceHelper$AnimatingNotification;->mContext:Landroid/content/Context;
 
@@ -340,7 +340,7 @@
 
     move-result-object v4
 
-    .line 158
+    .line 160
     iget-object v0, p0, Lcom/android/server/DirEncryptServiceHelper$AnimatingNotification;->mContext:Landroid/content/Context;
 
     invoke-virtual {v0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
@@ -355,7 +355,7 @@
 
     goto/16 :goto_0
 
-    .line 176
+    .line 178
     .local v1, "pending":Landroid/app/PendingIntent;
     :cond_2
     const/4 v0, 0x0
@@ -366,7 +366,7 @@
 
     goto :goto_1
 
-    .line 150
+    .line 152
     .end local v1    # "pending":Landroid/app/PendingIntent;
     :catchall_0
     move-exception v0
@@ -380,12 +380,12 @@
     .locals 1
 
     .prologue
-    .line 135
+    .line 137
     const/4 v0, 0x0
 
     iput-boolean v0, p0, Lcom/android/server/DirEncryptServiceHelper$AnimatingNotification;->mStop:Z
 
-    .line 134
+    .line 136
     return-void
 .end method
 
@@ -393,16 +393,16 @@
     .locals 1
 
     .prologue
-    .line 130
+    .line 132
     const/4 v0, 0x1
 
     iput-boolean v0, p0, Lcom/android/server/DirEncryptServiceHelper$AnimatingNotification;->mStop:Z
 
-    .line 131
+    .line 133
     const/4 v0, 0x0
 
     iput-object v0, p0, Lcom/android/server/DirEncryptServiceHelper$AnimatingNotification;->notification_builder:Landroid/app/Notification$Builder;
 
-    .line 129
+    .line 131
     return-void
 .end method

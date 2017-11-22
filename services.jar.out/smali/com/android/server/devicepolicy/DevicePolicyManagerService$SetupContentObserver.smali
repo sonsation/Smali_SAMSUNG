@@ -29,33 +29,33 @@
     .param p2, "handler"    # Landroid/os/Handler;
 
     .prologue
-    .line 11042
+    .line 11044
     iput-object p1, p0, Lcom/android/server/devicepolicy/DevicePolicyManagerService$SetupContentObserver;->this$0:Lcom/android/server/devicepolicy/DevicePolicyManagerService;
 
-    .line 11043
+    .line 11045
     invoke-direct {p0, p2}, Landroid/database/ContentObserver;-><init>(Landroid/os/Handler;)V
 
-    .line 11038
+    .line 11040
     const-string/jumbo v0, "user_setup_complete"
 
-    .line 11037
+    .line 11039
     invoke-static {v0}, Landroid/provider/Settings$Secure;->getUriFor(Ljava/lang/String;)Landroid/net/Uri;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/android/server/devicepolicy/DevicePolicyManagerService$SetupContentObserver;->mUserSetupComplete:Landroid/net/Uri;
 
-    .line 11040
+    .line 11042
     const-string/jumbo v0, "device_provisioned"
 
-    .line 11039
+    .line 11041
     invoke-static {v0}, Landroid/provider/Settings$Global;->getUriFor(Ljava/lang/String;)Landroid/net/Uri;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/android/server/devicepolicy/DevicePolicyManagerService$SetupContentObserver;->mDeviceProvisioned:Landroid/net/Uri;
 
-    .line 11042
+    .line 11044
     return-void
 .end method
 
@@ -67,7 +67,7 @@
     .param p2, "uri"    # Landroid/net/Uri;
 
     .prologue
-    .line 11053
+    .line 11055
     iget-object v0, p0, Lcom/android/server/devicepolicy/DevicePolicyManagerService$SetupContentObserver;->mUserSetupComplete:Landroid/net/Uri;
 
     invoke-virtual {v0, p2}, Landroid/net/Uri;->equals(Ljava/lang/Object;)Z
@@ -76,17 +76,17 @@
 
     if-eqz v0, :cond_1
 
-    .line 11054
+    .line 11056
     iget-object v0, p0, Lcom/android/server/devicepolicy/DevicePolicyManagerService$SetupContentObserver;->this$0:Lcom/android/server/devicepolicy/DevicePolicyManagerService;
 
     invoke-virtual {v0}, Lcom/android/server/devicepolicy/DevicePolicyManagerService;->updateUserSetupComplete()V
 
-    .line 11052
+    .line 11054
     :cond_0
     :goto_0
     return-void
 
-    .line 11055
+    .line 11057
     :cond_1
     iget-object v0, p0, Lcom/android/server/devicepolicy/DevicePolicyManagerService$SetupContentObserver;->mDeviceProvisioned:Landroid/net/Uri;
 
@@ -96,12 +96,12 @@
 
     if-eqz v0, :cond_0
 
-    .line 11056
+    .line 11058
     iget-object v1, p0, Lcom/android/server/devicepolicy/DevicePolicyManagerService$SetupContentObserver;->this$0:Lcom/android/server/devicepolicy/DevicePolicyManagerService;
 
     monitor-enter v1
 
-    .line 11059
+    .line 11061
     :try_start_0
     iget-object v0, p0, Lcom/android/server/devicepolicy/DevicePolicyManagerService$SetupContentObserver;->this$0:Lcom/android/server/devicepolicy/DevicePolicyManagerService;
 
@@ -113,7 +113,7 @@
 
     goto :goto_0
 
-    .line 11056
+    .line 11058
     :catchall_0
     move-exception v0
 
@@ -130,7 +130,7 @@
 
     const/4 v2, -0x1
 
-    .line 11047
+    .line 11049
     iget-object v0, p0, Lcom/android/server/devicepolicy/DevicePolicyManagerService$SetupContentObserver;->this$0:Lcom/android/server/devicepolicy/DevicePolicyManagerService;
 
     iget-object v0, v0, Lcom/android/server/devicepolicy/DevicePolicyManagerService;->mInjector:Lcom/android/server/devicepolicy/DevicePolicyManagerService$Injector;
@@ -139,7 +139,7 @@
 
     invoke-virtual {v0, v1, v3, p0, v2}, Lcom/android/server/devicepolicy/DevicePolicyManagerService$Injector;->registerContentObserver(Landroid/net/Uri;ZLandroid/database/ContentObserver;I)V
 
-    .line 11048
+    .line 11050
     iget-object v0, p0, Lcom/android/server/devicepolicy/DevicePolicyManagerService$SetupContentObserver;->this$0:Lcom/android/server/devicepolicy/DevicePolicyManagerService;
 
     iget-object v0, v0, Lcom/android/server/devicepolicy/DevicePolicyManagerService;->mInjector:Lcom/android/server/devicepolicy/DevicePolicyManagerService$Injector;
@@ -148,6 +148,6 @@
 
     invoke-virtual {v0, v1, v3, p0, v2}, Lcom/android/server/devicepolicy/DevicePolicyManagerService$Injector;->registerContentObserver(Landroid/net/Uri;ZLandroid/database/ContentObserver;I)V
 
-    .line 11046
+    .line 11048
     return-void
 .end method

@@ -32,12 +32,12 @@
     .param p1, "day"    # I
 
     .prologue
-    .line 324
+    .line 326
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 325
+    .line 327
     iput p1, p0, Lcom/android/server/content/SyncStorageEngine$DayStats;->day:I
 
-    .line 324
+    .line 326
     return-void
 .end method

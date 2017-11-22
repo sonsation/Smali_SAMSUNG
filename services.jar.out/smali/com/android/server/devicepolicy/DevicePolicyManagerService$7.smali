@@ -41,7 +41,7 @@
     .param p3, "val$alias"    # Ljava/lang/String;
 
     .prologue
-    .line 5533
+    .line 5535
     iput-object p1, p0, Lcom/android/server/devicepolicy/DevicePolicyManagerService$7;->this$0:Lcom/android/server/devicepolicy/DevicePolicyManagerService;
 
     iput-object p2, p0, Lcom/android/server/devicepolicy/DevicePolicyManagerService$7;->val$keyChainAliasResponse:Landroid/security/IKeyChainAliasCallback;
@@ -60,7 +60,7 @@
     .param p1, "unused"    # [Ljava/lang/Object;
 
     .prologue
-    .line 5535
+    .line 5537
     check-cast p1, [Ljava/lang/Void;
 
     .end local p1    # "unused":[Ljava/lang/Object;
@@ -76,7 +76,7 @@
     .param p1, "unused"    # [Ljava/lang/Void;
 
     .prologue
-    .line 5537
+    .line 5539
     :try_start_0
     iget-object v1, p0, Lcom/android/server/devicepolicy/DevicePolicyManagerService$7;->val$keyChainAliasResponse:Landroid/security/IKeyChainAliasCallback;
 
@@ -86,17 +86,17 @@
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 5543
+    .line 5545
     :goto_0
     const/4 v1, 0x0
 
     return-object v1
 
-    .line 5538
+    .line 5540
     :catch_0
     move-exception v0
 
-    .line 5541
+    .line 5543
     .local v0, "e":Ljava/lang/Exception;
     const-string/jumbo v1, "DevicePolicyManagerService"
 

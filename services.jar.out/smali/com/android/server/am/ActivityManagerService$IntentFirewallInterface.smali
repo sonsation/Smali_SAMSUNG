@@ -27,7 +27,7 @@
     .param p1, "this$0"    # Lcom/android/server/am/ActivityManagerService;
 
     .prologue
-    .line 10478
+    .line 10479
     iput-object p1, p0, Lcom/android/server/am/ActivityManagerService$IntentFirewallInterface;->this$0:Lcom/android/server/am/ActivityManagerService;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -47,10 +47,10 @@
     .param p6, "exported"    # Z
 
     .prologue
-    .line 10482
+    .line 10483
     iget-object v0, p0, Lcom/android/server/am/ActivityManagerService$IntentFirewallInterface;->this$0:Lcom/android/server/am/ActivityManagerService;
 
-    .line 10483
+    .line 10484
     const/4 v6, 0x0
 
     const/4 v8, 0x0
@@ -67,7 +67,7 @@
 
     move v7, p6
 
-    .line 10482
+    .line 10483
     invoke-virtual/range {v0 .. v8}, Lcom/android/server/am/ActivityManagerService;->checkComponentPermission(Landroid/content/Intent;Ljava/lang/String;IIILjava/lang/String;ZZ)I
 
     move-result v0
@@ -84,7 +84,7 @@
     .param p5, "exported"    # Z
 
     .prologue
-    .line 10489
+    .line 10490
     iget-object v0, p0, Lcom/android/server/am/ActivityManagerService$IntentFirewallInterface;->this$0:Lcom/android/server/am/ActivityManagerService;
 
     move-object v1, p1
@@ -108,7 +108,7 @@
     .locals 1
 
     .prologue
-    .line 10495
+    .line 10496
     iget-object v0, p0, Lcom/android/server/am/ActivityManagerService$IntentFirewallInterface;->this$0:Lcom/android/server/am/ActivityManagerService;
 
     return-object v0

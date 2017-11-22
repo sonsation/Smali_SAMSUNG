@@ -30,7 +30,7 @@
     .param p3, "val$userHandle"    # I
 
     .prologue
-    .line 2504
+    .line 2506
     iput-object p1, p0, Lcom/android/server/devicepolicy/DevicePolicyManagerService$5;->this$0:Lcom/android/server/devicepolicy/DevicePolicyManagerService;
 
     iput-object p2, p0, Lcom/android/server/devicepolicy/DevicePolicyManagerService$5;->val$adminReceiver:Landroid/content/ComponentName;
@@ -50,7 +50,7 @@
     .param p2, "intent"    # Landroid/content/Intent;
 
     .prologue
-    .line 2507
+    .line 2509
     iget-object v2, p0, Lcom/android/server/devicepolicy/DevicePolicyManagerService$5;->this$0:Lcom/android/server/devicepolicy/DevicePolicyManagerService;
 
     iget-object v3, p0, Lcom/android/server/devicepolicy/DevicePolicyManagerService$5;->val$adminReceiver:Landroid/content/ComponentName;
@@ -59,7 +59,7 @@
 
     invoke-static {v2, v3, v4}, Lcom/android/server/devicepolicy/DevicePolicyManagerService;->-wrap13(Lcom/android/server/devicepolicy/DevicePolicyManagerService;Landroid/content/ComponentName;I)V
 
-    .line 2508
+    .line 2510
     iget-object v2, p0, Lcom/android/server/devicepolicy/DevicePolicyManagerService$5;->this$0:Lcom/android/server/devicepolicy/DevicePolicyManagerService;
 
     iget-object v3, p0, Lcom/android/server/devicepolicy/DevicePolicyManagerService$5;->val$adminReceiver:Landroid/content/ComponentName;
@@ -72,7 +72,7 @@
 
     invoke-static {v2, v3, v4}, Lcom/android/server/devicepolicy/DevicePolicyManagerService;->-wrap14(Lcom/android/server/devicepolicy/DevicePolicyManagerService;Ljava/lang/String;I)V
 
-    .line 2511
+    .line 2513
     iget-object v2, p0, Lcom/android/server/devicepolicy/DevicePolicyManagerService$5;->this$0:Lcom/android/server/devicepolicy/DevicePolicyManagerService;
 
     iget-object v2, v2, Lcom/android/server/devicepolicy/DevicePolicyManagerService;->mInjector:Lcom/android/server/devicepolicy/DevicePolicyManagerService$Injector;
@@ -81,11 +81,11 @@
 
     move-result-object v1
 
-    .line 2513
+    .line 2515
     .local v1, "edms":Lcom/samsung/android/knox/IEnterpriseDeviceManager;
     if-eqz v1, :cond_0
 
-    .line 2514
+    .line 2516
     :try_start_0
     iget-object v2, p0, Lcom/android/server/devicepolicy/DevicePolicyManagerService$5;->val$adminReceiver:Landroid/content/ComponentName;
 
@@ -93,11 +93,11 @@
 
     invoke-interface {v1, v2, v3}, Lcom/samsung/android/knox/IEnterpriseDeviceManager;->removeActiveAdminFromDpm(Landroid/content/ComponentName;I)V
 
-    .line 2506
+    .line 2508
     :goto_0
     return-void
 
-    .line 2516
+    .line 2518
     :cond_0
     const-string/jumbo v2, "DevicePolicyManagerService"
 
@@ -109,15 +109,15 @@
 
     goto :goto_0
 
-    .line 2518
+    .line 2520
     :catch_0
     move-exception v0
 
-    .line 2519
+    .line 2521
     .local v0, "e":Landroid/os/RemoteException;
     const-string/jumbo v2, "DevicePolicyManagerService"
 
-    .line 2520
+    .line 2522
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -128,12 +128,12 @@
 
     move-result-object v3
 
-    .line 2521
+    .line 2523
     invoke-virtual {v0}, Landroid/os/RemoteException;->getMessage()Ljava/lang/String;
 
     move-result-object v4
 
-    .line 2520
+    .line 2522
     invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v3
@@ -142,7 +142,7 @@
 
     move-result-object v3
 
-    .line 2519
+    .line 2521
     invoke-static {v2, v3}, Landroid/util/Slog;->e(Ljava/lang/String;Ljava/lang/String;)I
 
     goto :goto_0

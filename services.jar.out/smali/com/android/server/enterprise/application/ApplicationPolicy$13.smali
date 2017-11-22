@@ -27,7 +27,7 @@
     .param p2, "val$userId"    # I
 
     .prologue
-    .line 9509
+    .line 9520
     iput-object p1, p0, Lcom/android/server/enterprise/application/ApplicationPolicy$13;->this$0:Lcom/android/server/enterprise/application/ApplicationPolicy;
 
     iput p2, p0, Lcom/android/server/enterprise/application/ApplicationPolicy$13;->val$userId:I
@@ -43,7 +43,7 @@
     .locals 11
 
     .prologue
-    .line 9513
+    .line 9524
     :try_start_0
     invoke-static {}, Lcom/android/server/pm/UserManagerService;->getInstance()Lcom/android/server/pm/UserManagerService;
 
@@ -57,21 +57,21 @@
 
     if-nez v8, :cond_0
 
-    .line 9514
+    .line 9525
     const-string/jumbo v8, "ApplicationPolicy"
 
     const-string/jumbo v9, "User removed"
 
     invoke-static {v8, v9}, Lcom/android/server/enterprise/log/Log;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 9515
+    .line 9526
     return-void
 
-    .line 9519
+    .line 9530
     :cond_0
     const/4 v4, 0x0
 
-    .line 9520
+    .line 9531
     .local v4, "defaultPermState":I
     iget-object v8, p0, Lcom/android/server/enterprise/application/ApplicationPolicy$13;->this$0:Lcom/android/server/enterprise/application/ApplicationPolicy;
 
@@ -95,10 +95,10 @@
 
     if-eqz v8, :cond_1
 
-    .line 9521
+    .line 9532
     const/4 v4, 0x1
 
-    .line 9523
+    .line 9534
     :cond_1
     iget-object v8, p0, Lcom/android/server/enterprise/application/ApplicationPolicy$13;->this$0:Lcom/android/server/enterprise/application/ApplicationPolicy;
 
@@ -110,7 +110,7 @@
 
     invoke-virtual {v8, v4, v9}, Landroid/content/pm/PackageManager;->applyRuntimePermissionsForAllApplications(II)Z
 
-    .line 9525
+    .line 9536
     const/4 v8, 0x2
 
     new-array v7, v8, [Ljava/lang/String;
@@ -127,7 +127,7 @@
 
     aput-object v8, v7, v9
 
-    .line 9527
+    .line 9538
     .local v7, "returnColumns":[Ljava/lang/String;
     iget-object v8, p0, Lcom/android/server/enterprise/application/ApplicationPolicy$13;->this$0:Lcom/android/server/enterprise/application/ApplicationPolicy;
 
@@ -135,17 +135,17 @@
 
     move-result-object v8
 
-    .line 9528
+    .line 9539
     const-string/jumbo v9, "ApplicationRuntimePermissions"
 
     iget v10, p0, Lcom/android/server/enterprise/application/ApplicationPolicy$13;->val$userId:I
 
-    .line 9527
+    .line 9538
     invoke-virtual {v8, v9, v7, v10}, Lcom/android/server/enterprise/storage/EdmStorageProvider;->getValuesListAsUser(Ljava/lang/String;[Ljava/lang/String;I)Ljava/util/List;
 
     move-result-object v3
 
-    .line 9529
+    .line 9540
     .local v3, "cvList":Ljava/util/List;, "Ljava/util/List<Landroid/content/ContentValues;>;"
     if-eqz v3, :cond_2
 
@@ -155,7 +155,7 @@
 
     if-eqz v8, :cond_3
 
-    .line 9510
+    .line 9521
     .end local v3    # "cvList":Ljava/util/List;, "Ljava/util/List<Landroid/content/ContentValues;>;"
     .end local v4    # "defaultPermState":I
     .end local v7    # "returnColumns":[Ljava/lang/String;
@@ -163,7 +163,7 @@
     :goto_0
     return-void
 
-    .line 9530
+    .line 9541
     .restart local v3    # "cvList":Ljava/util/List;, "Ljava/util/List<Landroid/content/ContentValues;>;"
     .restart local v4    # "defaultPermState":I
     .restart local v7    # "returnColumns":[Ljava/lang/String;
@@ -186,7 +186,7 @@
 
     check-cast v1, Landroid/content/ContentValues;
 
-    .line 9531
+    .line 9542
     .local v1, "cv":Landroid/content/ContentValues;
     const-string/jumbo v8, "adminUid"
 
@@ -198,7 +198,7 @@
 
     move-result v0
 
-    .line 9532
+    .line 9543
     .local v0, "adminUid":I
     const-string/jumbo v8, "packageName"
 
@@ -206,7 +206,7 @@
 
     move-result-object v6
 
-    .line 9534
+    .line 9545
     .local v6, "packageName":Ljava/lang/String;
     iget-object v8, p0, Lcom/android/server/enterprise/application/ApplicationPolicy$13;->this$0:Lcom/android/server/enterprise/application/ApplicationPolicy;
 
@@ -220,7 +220,7 @@
 
     goto :goto_1
 
-    .line 9537
+    .line 9548
     .end local v0    # "adminUid":I
     .end local v1    # "cv":Landroid/content/ContentValues;
     .end local v2    # "cv$iterator":Ljava/util/Iterator;
@@ -231,7 +231,7 @@
     :catch_0
     move-exception v5
 
-    .line 9538
+    .line 9549
     .local v5, "e":Ljava/lang/Exception;
     invoke-virtual {v5}, Ljava/lang/Exception;->printStackTrace()V
 

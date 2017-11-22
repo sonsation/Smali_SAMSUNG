@@ -33,7 +33,7 @@
     .param p3, "val$disabled"    # Z
 
     .prologue
-    .line 6381
+    .line 6383
     iput-object p1, p0, Lcom/android/server/devicepolicy/DevicePolicyManagerService$10;->this$0:Lcom/android/server/devicepolicy/DevicePolicyManagerService;
 
     iput p2, p0, Lcom/android/server/devicepolicy/DevicePolicyManagerService$10;->val$userHandle:I
@@ -51,7 +51,7 @@
     .locals 4
 
     .prologue
-    .line 6385
+    .line 6387
     :try_start_0
     iget-object v1, p0, Lcom/android/server/devicepolicy/DevicePolicyManagerService$10;->this$0:Lcom/android/server/devicepolicy/DevicePolicyManagerService;
 
@@ -69,15 +69,15 @@
     :try_end_0
     .catch Landroid/os/RemoteException; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 6383
+    .line 6385
     :goto_0
     return-void
 
-    .line 6386
+    .line 6388
     :catch_0
     move-exception v0
 
-    .line 6387
+    .line 6389
     .local v0, "e":Landroid/os/RemoteException;
     const-string/jumbo v1, "DevicePolicyManagerService"
 
