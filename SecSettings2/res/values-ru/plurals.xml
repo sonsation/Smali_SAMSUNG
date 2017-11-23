@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="data_saver_unrestricted_summary_chn">
+        <item quantity="other">Несколько приложений (%d) могут использовать мобильные данные без ограничений, когда включена функция ограничения фоновой передачи данных.</item>
+        <item quantity="one">Несколько приложений (%d) могут использовать мобильные данные без ограничений, когда включена функция ограничения фоновой передачи данных.</item>
+    </plurals>
     <plurals name="lock_timeout_hours">
         <item quantity="other">%d ч</item>
         <item quantity="one">1 час</item>

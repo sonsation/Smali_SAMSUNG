@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="data_saver_unrestricted_summary_chn">
+        <item quantity="other">%d приложения могат да използват мобилни данни без ограничения, докато „Ограничаване на данни във фонов режим“ е активирано.</item>
+        <item quantity="one">%d приложения могат да използват мобилни данни без ограничения, докато „Ограничаване на данни във фонов режим“ е активирано.</item>
+    </plurals>
     <plurals name="lock_timeout_hours">
         <item quantity="other">%d часа</item>
         <item quantity="one">1 час</item>

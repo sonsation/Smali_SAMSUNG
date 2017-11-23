@@ -310,7 +310,7 @@
 
     const/4 v5, 0x0
 
-    .line 511325
+    .line 513112
     const/16 v0, 0x1d
 
     new-array v0, v0, [I
@@ -319,124 +319,124 @@
 
     sput-object v0, Lcom/android/setupwizardlib/R$styleable;->ActionBar:[I
 
-    .line 511797
+    .line 513584
     new-array v0, v6, [I
 
-    .line 511798
+    .line 513585
     const v1, 0x10100b3
 
     aput v1, v0, v5
 
-    .line 511797
+    .line 513584
     sput-object v0, Lcom/android/setupwizardlib/R$styleable;->ActionBarLayout:[I
 
-    .line 511816
+    .line 513603
     new-array v0, v6, [I
 
-    .line 511817
+    .line 513604
     const v1, 0x101013f
 
     aput v1, v0, v5
 
-    .line 511816
+    .line 513603
     sput-object v0, Lcom/android/setupwizardlib/R$styleable;->ActionMenuItemView:[I
 
-    .line 511827
+    .line 513614
     new-array v0, v5, [I
 
     sput-object v0, Lcom/android/setupwizardlib/R$styleable;->ActionMenuView:[I
 
-    .line 511850
+    .line 513637
     new-array v0, v7, [I
 
     fill-array-data v0, :array_1
 
     sput-object v0, Lcom/android/setupwizardlib/R$styleable;->ActionMode:[I
 
-    .line 511947
+    .line 513734
     const v0, 0x7f0100ce
 
     const v1, 0x7f0100cf
 
-    .line 511946
+    .line 513733
     filled-new-array {v0, v1}, [I
 
     move-result-object v0
 
     sput-object v0, Lcom/android/setupwizardlib/R$styleable;->ActivityChooserView:[I
 
-    .line 512002
+    .line 513789
     new-array v0, v7, [I
 
     fill-array-data v0, :array_2
 
     sput-object v0, Lcom/android/setupwizardlib/R$styleable;->AlertDialog:[I
 
-    .line 512077
+    .line 513864
     const v0, 0x7f0101bf
 
     const v1, 0x7f0101c0
 
     const v2, 0x7f0101c1
 
-    .line 512076
+    .line 513863
     filled-new-array {v0, v1, v2}, [I
 
     move-result-object v0
 
     sput-object v0, Lcom/android/setupwizardlib/R$styleable;->AllowedListItemView:[I
 
-    .line 512142
+    .line 513929
     const v0, 0x10100d4
 
     const v1, 0x7f0100b3
 
     const v2, 0x7f010167
 
-    .line 512141
+    .line 513928
     filled-new-array {v0, v1, v2}, [I
 
     move-result-object v0
 
     sput-object v0, Lcom/android/setupwizardlib/R$styleable;->AppBarLayout:[I
 
-    .line 512200
+    .line 513987
     const v0, 0x7f010168
 
     const v1, 0x7f010169
 
-    .line 512199
+    .line 513986
     filled-new-array {v0, v1}, [I
 
     move-result-object v0
 
     sput-object v0, Lcom/android/setupwizardlib/R$styleable;->AppBarLayoutStates:[I
 
-    .line 512249
+    .line 514036
     const v0, 0x7f01016a
 
     const v1, 0x7f01016b
 
-    .line 512248
+    .line 514035
     filled-new-array {v0, v1}, [I
 
     move-result-object v0
 
     sput-object v0, Lcom/android/setupwizardlib/R$styleable;->AppBarLayout_Layout:[I
 
-    .line 512306
+    .line 514093
     const v0, 0x1010119
 
     const v1, 0x7f010104
 
-    .line 512305
+    .line 514092
     filled-new-array {v0, v1}, [I
 
     move-result-object v0
 
     sput-object v0, Lcom/android/setupwizardlib/R$styleable;->AppCompatImageView:[I
 
-    .line 512343
+    .line 514130
     const v0, 0x1010142
 
     const v1, 0x7f010105
@@ -445,26 +445,26 @@
 
     const v3, 0x7f010107
 
-    .line 512342
+    .line 514129
     filled-new-array {v0, v1, v2, v3}, [I
 
     move-result-object v0
 
     sput-object v0, Lcom/android/setupwizardlib/R$styleable;->AppCompatSeekBar:[I
 
-    .line 512421
+    .line 514208
     const v0, 0x1010034
 
     const v1, 0x7f0100d0
 
-    .line 512420
+    .line 514207
     filled-new-array {v0, v1}, [I
 
     move-result-object v0
 
     sput-object v0, Lcom/android/setupwizardlib/R$styleable;->AppCompatTextView:[I
 
-    .line 512696
+    .line 514483
     const/16 v0, 0x73
 
     new-array v0, v0, [I
@@ -473,19 +473,19 @@
 
     sput-object v0, Lcom/android/setupwizardlib/R$styleable;->AppCompatTheme:[I
 
-    .line 514315
+    .line 516102
     const v0, 0x101030e
 
     const v1, 0x7f01005d
 
-    .line 514314
+    .line 516101
     filled-new-array {v0, v1}, [I
 
     move-result-object v0
 
     sput-object v0, Lcom/android/setupwizardlib/R$styleable;->BackgroundStyle:[I
 
-    .line 514369
+    .line 516156
     const/16 v0, 0xd
 
     new-array v0, v0, [I
@@ -494,39 +494,39 @@
 
     sput-object v0, Lcom/android/setupwizardlib/R$styleable;->BatteryHistoryChart:[I
 
-    .line 514526
+    .line 516313
     const v0, 0x7f01017e
 
     const v1, 0x7f01017f
 
     const v2, 0x7f010180
 
-    .line 514525
+    .line 516312
     filled-new-array {v0, v1, v2}, [I
 
     move-result-object v0
 
     sput-object v0, Lcom/android/setupwizardlib/R$styleable;->BottomSheetBehavior_Layout:[I
 
-    .line 514589
+    .line 516376
     new-array v0, v6, [I
 
-    .line 514590
+    .line 516377
     const v1, 0x7f010102
 
     aput v1, v0, v5
 
-    .line 514589
+    .line 516376
     sput-object v0, Lcom/android/setupwizardlib/R$styleable;->ButtonBarLayout:[I
 
-    .line 514629
+    .line 516416
     new-array v0, v7, [I
 
     fill-array-data v0, :array_5
 
     sput-object v0, Lcom/android/setupwizardlib/R$styleable;->ChartGridView:[I
 
-    .line 514698
+    .line 516485
     const v0, 0x7f010194
 
     const v1, 0x7f010198
@@ -535,14 +535,14 @@
 
     const v3, 0x7f01019a
 
-    .line 514697
+    .line 516484
     filled-new-array {v0, v1, v2, v3}, [I
 
     move-result-object v0
 
     sput-object v0, Lcom/android/setupwizardlib/R$styleable;->ChartNetworkSeriesView:[I
 
-    .line 514783
+    .line 516570
     const/4 v0, 0x7
 
     new-array v0, v0, [I
@@ -551,26 +551,26 @@
 
     sput-object v0, Lcom/android/setupwizardlib/R$styleable;->ChartSweepView:[I
 
-    .line 514900
+    .line 516687
     const v0, 0x7f01018c
 
     const v1, 0x7f01018d
 
-    .line 514899
+    .line 516686
     filled-new-array {v0, v1}, [I
 
     move-result-object v0
 
     sput-object v0, Lcom/android/setupwizardlib/R$styleable;->ChartView:[I
 
-    .line 514958
+    .line 516745
     new-array v0, v7, [I
 
     fill-array-data v0, :array_7
 
     sput-object v0, Lcom/android/setupwizardlib/R$styleable;->CheckBoxPreference:[I
 
-    .line 515079
+    .line 516866
     const/16 v0, 0x10
 
     new-array v0, v0, [I
@@ -579,66 +579,66 @@
 
     sput-object v0, Lcom/android/setupwizardlib/R$styleable;->CollapsingToolbarLayout:[I
 
-    .line 515391
+    .line 517178
     const v0, 0x7f01017c
 
     const v1, 0x7f01017d
 
-    .line 515390
+    .line 517177
     filled-new-array {v0, v1}, [I
 
     move-result-object v0
 
     sput-object v0, Lcom/android/setupwizardlib/R$styleable;->CollapsingToolbarLayout_Layout:[I
 
-    .line 515444
+    .line 517231
     const v0, 0x10101a5
 
     const v1, 0x101031f
 
     const v2, 0x7f010103
 
-    .line 515443
+    .line 517230
     filled-new-array {v0, v1, v2}, [I
 
     move-result-object v0
 
     sput-object v0, Lcom/android/setupwizardlib/R$styleable;->ColorStateListItem:[I
 
-    .line 515492
+    .line 517279
     const v0, 0x1010107
 
     const v1, 0x7f0100f0
 
     const v2, 0x7f0100f1
 
-    .line 515491
+    .line 517278
     filled-new-array {v0, v1, v2}, [I
 
     move-result-object v0
 
     sput-object v0, Lcom/android/setupwizardlib/R$styleable;->CompoundButton:[I
 
-    .line 515563
+    .line 517350
     new-array v0, v7, [I
 
     fill-array-data v0, :array_9
 
     sput-object v0, Lcom/android/setupwizardlib/R$styleable;->ConversationMessageView:[I
 
-    .line 515649
+    .line 517436
     const v0, 0x7f010157
 
     const v1, 0x7f010158
 
-    .line 515648
+    .line 517435
     filled-new-array {v0, v1}, [I
 
     move-result-object v0
 
     sput-object v0, Lcom/android/setupwizardlib/R$styleable;->CoordinatorLayout:[I
 
-    .line 515700
+    .line 517487
     const v0, 0x10100b3
 
     const v1, 0x7f010159
@@ -647,31 +647,31 @@
 
     const v3, 0x7f01015b
 
-    .line 515701
+    .line 517488
     const v4, 0x7f01015c
 
-    .line 515699
+    .line 517486
     filled-new-array {v0, v1, v2, v3, v4}, [I
 
     move-result-object v0
 
     sput-object v0, Lcom/android/setupwizardlib/R$styleable;->CoordinatorLayout_Layout:[I
 
-    .line 515809
+    .line 517596
     const v0, 0x7f010181
 
     const v1, 0x7f010182
 
     const v2, 0x7f010183
 
-    .line 515808
+    .line 517595
     filled-new-array {v0, v1, v2}, [I
 
     move-result-object v0
 
     sput-object v0, Lcom/android/setupwizardlib/R$styleable;->DesignTheme:[I
 
-    .line 515884
+    .line 517671
     const/16 v0, 0xc
 
     new-array v0, v0, [I
@@ -680,31 +680,31 @@
 
     sput-object v0, Lcom/android/setupwizardlib/R$styleable;->DialogPreference:[I
 
-    .line 516029
+    .line 517816
     const v0, 0x7f0101bd
 
     const v1, 0x7f0101be
 
-    .line 516028
+    .line 517815
     filled-new-array {v0, v1}, [I
 
     move-result-object v0
 
     sput-object v0, Lcom/android/setupwizardlib/R$styleable;->DividerPreference:[I
 
-    .line 516072
+    .line 517859
     const v0, 0x7f0101c2
 
     const v1, 0x7f0101c3
 
-    .line 516071
+    .line 517858
     filled-new-array {v0, v1}, [I
 
     move-result-object v0
 
     sput-object v0, Lcom/android/setupwizardlib/R$styleable;->DoneView:[I
 
-    .line 516122
+    .line 517909
     const v0, 0x7f0101a0
 
     const v1, 0x7f0101a1
@@ -713,17 +713,17 @@
 
     const v3, 0x7f0101a3
 
-    .line 516123
+    .line 517910
     const v4, 0x7f0101a4
 
-    .line 516121
+    .line 517908
     filled-new-array {v0, v1, v2, v3, v4}, [I
 
     move-result-object v0
 
     sput-object v0, Lcom/android/setupwizardlib/R$styleable;->DotsPageIndicator:[I
 
-    .line 516225
+    .line 518012
     const/16 v0, 0x8
 
     new-array v0, v0, [I
@@ -732,29 +732,29 @@
 
     sput-object v0, Lcom/android/setupwizardlib/R$styleable;->DrawerArrowToggle:[I
 
-    .line 516383
+    .line 518170
     const v0, 0x10101f8
 
-    .line 516382
+    .line 518169
     filled-new-array {v8, v0}, [I
 
     move-result-object v0
 
     sput-object v0, Lcom/android/setupwizardlib/R$styleable;->DropDownPreference:[I
 
-    .line 516410
+    .line 518197
     const v0, 0x7f0101b7
 
     const v1, 0x7f0101b8
 
-    .line 516409
+    .line 518196
     filled-new-array {v0, v1}, [I
 
     move-result-object v0
 
     sput-object v0, Lcom/android/setupwizardlib/R$styleable;->FingerprintEffectView:[I
 
-    .line 516468
+    .line 518255
     const/16 v0, 0x8
 
     new-array v0, v0, [I
@@ -763,46 +763,46 @@
 
     sput-object v0, Lcom/android/setupwizardlib/R$styleable;->FloatingActionButton:[I
 
-    .line 516637
+    .line 518424
     const v0, 0x1010109
 
     const v1, 0x1010200
 
     const v2, 0x7f010146
 
-    .line 516636
+    .line 518423
     filled-new-array {v0, v1, v2}, [I
 
     move-result-object v0
 
     sput-object v0, Lcom/android/setupwizardlib/R$styleable;->ForegroundLinearLayout:[I
 
-    .line 516675
+    .line 518462
     new-array v0, v6, [I
 
-    .line 516676
+    .line 518463
     const v1, 0x7f0100a0
 
     aput v1, v0, v5
 
-    .line 516675
+    .line 518462
     sput-object v0, Lcom/android/setupwizardlib/R$styleable;->IconPreferenceScreen:[I
 
-    .line 516705
+    .line 518492
     const v0, 0x7f0101c4
 
     const v1, 0x7f0101c5
 
     const v2, 0x7f0101c6
 
-    .line 516704
+    .line 518491
     filled-new-array {v0, v1, v2}, [I
 
     move-result-object v0
 
     sput-object v0, Lcom/android/setupwizardlib/R$styleable;->ImageGuidePreference:[I
 
-    .line 516776
+    .line 518563
     const/16 v0, 0x9
 
     new-array v0, v0, [I
@@ -811,7 +811,7 @@
 
     sput-object v0, Lcom/android/setupwizardlib/R$styleable;->LinearLayoutCompat:[I
 
-    .line 516919
+    .line 518706
     const v0, 0x10100b3
 
     const v1, 0x10100f4
@@ -820,47 +820,47 @@
 
     const v3, 0x1010181
 
-    .line 516918
+    .line 518705
     filled-new-array {v0, v1, v2, v3}, [I
 
     move-result-object v0
 
     sput-object v0, Lcom/android/setupwizardlib/R$styleable;->LinearLayoutCompat_Layout:[I
 
-    .line 516958
+    .line 518745
     const v0, 0x10102ac
 
     const v1, 0x10102ad
 
-    .line 516957
+    .line 518744
     filled-new-array {v0, v1}, [I
 
     move-result-object v0
 
     sput-object v0, Lcom/android/setupwizardlib/R$styleable;->ListPopupWindow:[I
 
-    .line 516996
+    .line 518783
     const v0, 0x10101f8
 
     const v1, 0x7f010134
 
     const v2, 0x7f010135
 
-    .line 516995
+    .line 518782
     filled-new-array {v8, v0, v1, v2}, [I
 
     move-result-object v0
 
     sput-object v0, Lcom/android/setupwizardlib/R$styleable;->ListPreference:[I
 
-    .line 517057
+    .line 518844
     new-array v0, v7, [I
 
     fill-array-data v0, :array_e
 
     sput-object v0, Lcom/android/setupwizardlib/R$styleable;->MenuGroup:[I
 
-    .line 517162
+    .line 518949
     const/16 v0, 0x11
 
     new-array v0, v0, [I
@@ -869,7 +869,7 @@
 
     sput-object v0, Lcom/android/setupwizardlib/R$styleable;->MenuItem:[I
 
-    .line 517402
+    .line 519189
     const/16 v0, 0x9
 
     new-array v0, v0, [I
@@ -878,21 +878,21 @@
 
     sput-object v0, Lcom/android/setupwizardlib/R$styleable;->MenuView:[I
 
-    .line 517516
+    .line 519303
     const v0, 0x10101f8
 
     const v1, 0x7f010134
 
     const v2, 0x7f010135
 
-    .line 517515
+    .line 519302
     filled-new-array {v8, v0, v1, v2}, [I
 
     move-result-object v0
 
     sput-object v0, Lcom/android/setupwizardlib/R$styleable;->MultiSelectListPreference:[I
 
-    .line 517585
+    .line 519372
     const/16 v0, 0xa
 
     new-array v0, v0, [I
@@ -901,44 +901,44 @@
 
     sput-object v0, Lcom/android/setupwizardlib/R$styleable;->NavigationView:[I
 
-    .line 517713
+    .line 519500
     const v0, 0x7f01018a
 
     const v1, 0x7f01018b
 
-    .line 517712
+    .line 519499
     filled-new-array {v0, v1}, [I
 
     move-result-object v0
 
     sput-object v0, Lcom/android/setupwizardlib/R$styleable;->PercentageBarChart:[I
 
-    .line 517765
+    .line 519552
     const v0, 0x1010176
 
     const v1, 0x10102c9
 
     const v2, 0x7f0100e6
 
-    .line 517764
+    .line 519551
     filled-new-array {v0, v1, v2}, [I
 
     move-result-object v0
 
     sput-object v0, Lcom/android/setupwizardlib/R$styleable;->PopupWindow:[I
 
-    .line 517805
+    .line 519592
     new-array v0, v6, [I
 
-    .line 517806
+    .line 519593
     const v1, 0x7f0100e5
 
     aput v1, v0, v5
 
-    .line 517805
+    .line 519592
     sput-object v0, Lcom/android/setupwizardlib/R$styleable;->PopupWindowBackgroundState:[I
 
-    .line 517901
+    .line 519688
     const/16 v0, 0x20
 
     new-array v0, v0, [I
@@ -947,43 +947,43 @@
 
     sput-object v0, Lcom/android/setupwizardlib/R$styleable;->Preference:[I
 
-    .line 518280
+    .line 520067
     const v0, 0x1010129
 
     const v1, 0x101012a
 
-    .line 518279
+    .line 520066
     filled-new-array {v9, v0, v1}, [I
 
     move-result-object v0
 
     sput-object v0, Lcom/android/setupwizardlib/R$styleable;->PreferenceFragment:[I
 
-    .line 518324
+    .line 520111
     const v0, 0x1010129
 
     const v1, 0x101012a
 
-    .line 518323
+    .line 520110
     filled-new-array {v9, v0, v1}, [I
 
     move-result-object v0
 
     sput-object v0, Lcom/android/setupwizardlib/R$styleable;->PreferenceFragmentCompat:[I
 
-    .line 518366
+    .line 520153
     const v0, 0x10101e7
 
     const v1, 0x7f01011f
 
-    .line 518365
+    .line 520152
     filled-new-array {v0, v1}, [I
 
     move-result-object v0
 
     sput-object v0, Lcom/android/setupwizardlib/R$styleable;->PreferenceGroup:[I
 
-    .line 518409
+    .line 520196
     const v0, 0x101011f
 
     const v1, 0x1010120
@@ -992,14 +992,14 @@
 
     const v3, 0x7f010139
 
-    .line 518408
+    .line 520195
     filled-new-array {v0, v1, v2, v3}, [I
 
     move-result-object v0
 
     sput-object v0, Lcom/android/setupwizardlib/R$styleable;->PreferenceImageView:[I
 
-    .line 518509
+    .line 520296
     const/16 v0, 0x17
 
     new-array v0, v0, [I
@@ -1008,71 +1008,71 @@
 
     sput-object v0, Lcom/android/setupwizardlib/R$styleable;->PreferenceTheme:[I
 
-    .line 518811
+    .line 520598
     new-array v0, v6, [I
 
-    .line 518812
+    .line 520599
     const v1, 0x7f0101b2
 
     aput v1, v0, v5
 
-    .line 518811
+    .line 520598
     sput-object v0, Lcom/android/setupwizardlib/R$styleable;->ProfileDefaultRingtonePreference:[I
 
-    .line 518854
+    .line 520641
     new-array v0, v7, [I
 
     fill-array-data v0, :array_14
 
     sput-object v0, Lcom/android/setupwizardlib/R$styleable;->RecyclerView:[I
 
-    .line 518949
+    .line 520736
     const/high16 v0, 0x7f010000
 
     const v1, 0x7f010001
 
-    .line 518948
+    .line 520735
     filled-new-array {v0, v1}, [I
 
     move-result-object v0
 
     sput-object v0, Lcom/android/setupwizardlib/R$styleable;->RestrictedPreference:[I
 
-    .line 518998
+    .line 520785
     const v0, 0x7f010002
 
     const v1, 0x7f010003
 
-    .line 518997
+    .line 520784
     filled-new-array {v0, v1}, [I
 
     move-result-object v0
 
     sput-object v0, Lcom/android/setupwizardlib/R$styleable;->RestrictedSwitchPreference:[I
 
-    .line 519041
+    .line 520828
     new-array v0, v6, [I
 
-    .line 519042
+    .line 520829
     const v1, 0x7f01013f
 
     aput v1, v0, v5
 
-    .line 519041
+    .line 520828
     sput-object v0, Lcom/android/setupwizardlib/R$styleable;->ScrimInsetsFrameLayout:[I
 
-    .line 519066
+    .line 520853
     new-array v0, v6, [I
 
-    .line 519067
+    .line 520854
     const v1, 0x7f01016c
 
     aput v1, v0, v5
 
-    .line 519066
+    .line 520853
     sput-object v0, Lcom/android/setupwizardlib/R$styleable;->ScrollingViewBehavior_Layout:[I
 
-    .line 519130
+    .line 520917
     const/16 v0, 0x11
 
     new-array v0, v0, [I
@@ -1081,95 +1081,95 @@
 
     sput-object v0, Lcom/android/setupwizardlib/R$styleable;->SearchView:[I
 
-    .line 519353
+    .line 521140
     const v0, 0x7f0101b3
 
     const v1, 0x7f0101b4
 
-    .line 519352
+    .line 521139
     filled-new-array {v0, v1}, [I
 
     move-result-object v0
 
     sput-object v0, Lcom/android/setupwizardlib/R$styleable;->SettingsDBMatching:[I
 
-    .line 519396
+    .line 521183
     const v0, 0x7f0101b5
 
     const v1, 0x7f0101b6
 
-    .line 519395
+    .line 521182
     filled-new-array {v0, v1}, [I
 
     move-result-object v0
 
     sput-object v0, Lcom/android/setupwizardlib/R$styleable;->SettingsTile:[I
 
-    .line 519432
+    .line 521219
     new-array v0, v6, [I
 
-    .line 519433
+    .line 521220
     const v1, 0x7f010185
 
     aput v1, v0, v5
 
-    .line 519432
+    .line 521219
     sput-object v0, Lcom/android/setupwizardlib/R$styleable;->SetupWizardIllustration:[I
 
-    .line 519459
+    .line 521246
     new-array v0, v6, [I
 
-    .line 519460
+    .line 521247
     const v1, 0x7f0101b9
 
     aput v1, v0, v5
 
-    .line 519459
+    .line 521246
     sput-object v0, Lcom/android/setupwizardlib/R$styleable;->ShowSettingsInOtherMode:[I
 
-    .line 519491
+    .line 521278
     const v0, 0x101011f
 
     const v1, 0x7f0100b3
 
     const v2, 0x7f010166
 
-    .line 519490
+    .line 521277
     filled-new-array {v0, v1, v2}, [I
 
     move-result-object v0
 
     sput-object v0, Lcom/android/setupwizardlib/R$styleable;->SnackbarLayout:[I
 
-    .line 519552
+    .line 521339
     const v0, 0x1010176
 
     const v1, 0x101017b
 
     const v2, 0x1010262
 
-    .line 519553
+    .line 521340
     const v3, 0x7f0100b4
 
-    .line 519551
+    .line 521338
     filled-new-array {v8, v0, v1, v2, v3}, [I
 
     move-result-object v0
 
     sput-object v0, Lcom/android/setupwizardlib/R$styleable;->Spinner:[I
 
-    .line 519613
+    .line 521400
     new-array v0, v6, [I
 
-    .line 519614
+    .line 521401
     const v1, 0x10100d0
 
     aput v1, v0, v5
 
-    .line 519613
+    .line 521400
     sput-object v0, Lcom/android/setupwizardlib/R$styleable;->SuwAbstractItem:[I
 
-    .line 519639
+    .line 521426
     const/high16 v0, 0x1010000
 
     const v1, 0x101000e
@@ -1178,28 +1178,28 @@
 
     const v3, 0x101014f
 
-    .line 519638
+    .line 521425
     filled-new-array {v0, v1, v2, v3}, [I
 
     move-result-object v0
 
     sput-object v0, Lcom/android/setupwizardlib/R$styleable;->SuwButtonItem:[I
 
-    .line 519680
+    .line 521467
     const v0, 0x101012a
 
     const v1, 0x1010214
 
     const v2, 0x7f01000f
 
-    .line 519679
+    .line 521466
     filled-new-array {v0, v1, v2}, [I
 
     move-result-object v0
 
     sput-object v0, Lcom/android/setupwizardlib/R$styleable;->SuwDividerItemDecoration:[I
 
-    .line 519728
+    .line 521515
     const v0, 0x1010002
 
     const v1, 0x1010433
@@ -1208,88 +1208,88 @@
 
     const v3, 0x7f010019
 
-    .line 519727
+    .line 521514
     filled-new-array {v0, v1, v2, v3}, [I
 
     move-result-object v0
 
     sput-object v0, Lcom/android/setupwizardlib/R$styleable;->SuwGlifLayout:[I
 
-    .line 519781
+    .line 521568
     const v0, 0x7f010017
 
-    .line 519780
+    .line 521567
     filled-new-array {v8, v0}, [I
 
     move-result-object v0
 
     sput-object v0, Lcom/android/setupwizardlib/R$styleable;->SuwGlifListLayout:[I
 
-    .line 519817
+    .line 521604
     const v0, 0x7f01000b
 
     const v1, 0x7f010017
 
-    .line 519816
+    .line 521603
     filled-new-array {v8, v0, v1}, [I
 
     move-result-object v0
 
     sput-object v0, Lcom/android/setupwizardlib/R$styleable;->SuwGlifRecyclerLayout:[I
 
-    .line 519859
+    .line 521646
     new-array v0, v6, [I
 
-    .line 519860
+    .line 521647
     const v1, 0x7f010015
 
     aput v1, v0, v5
 
-    .line 519859
+    .line 521646
     sput-object v0, Lcom/android/setupwizardlib/R$styleable;->SuwHeaderRecyclerView:[I
 
-    .line 519884
+    .line 521671
     new-array v0, v6, [I
 
-    .line 519885
+    .line 521672
     const v1, 0x7f010018
 
     aput v1, v0, v5
 
-    .line 519884
+    .line 521671
     sput-object v0, Lcom/android/setupwizardlib/R$styleable;->SuwIllustration:[I
 
-    .line 519921
+    .line 521708
     new-array v0, v7, [I
 
     fill-array-data v0, :array_16
 
     sput-object v0, Lcom/android/setupwizardlib/R$styleable;->SuwItem:[I
 
-    .line 519978
+    .line 521765
     const v0, 0x1010031
 
     const v1, 0x101030e
 
     const v2, 0x7f01005d
 
-    .line 519977
+    .line 521764
     filled-new-array {v0, v1, v2}, [I
 
     move-result-object v0
 
     sput-object v0, Lcom/android/setupwizardlib/R$styleable;->SuwRecyclerItemAdapter:[I
 
-    .line 520016
+    .line 521803
     new-array v0, v6, [I
 
-    .line 520017
+    .line 521804
     aput v8, v0, v5
 
-    .line 520016
+    .line 521803
     sput-object v0, Lcom/android/setupwizardlib/R$styleable;->SuwSetupWizardItemsLayout:[I
 
-    .line 520049
+    .line 521836
     const/16 v0, 0x8
 
     new-array v0, v0, [I
@@ -1298,73 +1298,73 @@
 
     sput-object v0, Lcom/android/setupwizardlib/R$styleable;->SuwSetupWizardLayout:[I
 
-    .line 520161
+    .line 521948
     new-array v0, v6, [I
 
-    .line 520162
+    .line 521949
     const v1, 0x7f010017
 
     aput v1, v0, v5
 
-    .line 520161
+    .line 521948
     sput-object v0, Lcom/android/setupwizardlib/R$styleable;->SuwSetupWizardListLayout:[I
 
-    .line 520192
+    .line 521979
     const v0, 0x7f01000b
 
     const v1, 0x7f010017
 
-    .line 520191
+    .line 521978
     filled-new-array {v8, v0, v1}, [I
 
     move-result-object v0
 
     sput-object v0, Lcom/android/setupwizardlib/R$styleable;->SuwSetupWizardRecyclerItemsLayout:[I
 
-    .line 520234
+    .line 522021
     new-array v0, v6, [I
 
-    .line 520235
+    .line 522022
     const v1, 0x7f01001a
 
     aput v1, v0, v5
 
-    .line 520234
+    .line 522021
     sput-object v0, Lcom/android/setupwizardlib/R$styleable;->SuwStatusBarBackgroundLayout:[I
 
-    .line 520259
+    .line 522046
     new-array v0, v6, [I
 
-    .line 520260
+    .line 522047
     const v1, 0x7f010015
 
     aput v1, v0, v5
 
-    .line 520259
+    .line 522046
     sput-object v0, Lcom/android/setupwizardlib/R$styleable;->SuwStickyHeaderListView:[I
 
-    .line 520284
+    .line 522071
     new-array v0, v6, [I
 
-    .line 520285
+    .line 522072
     const v1, 0x1010106
 
     aput v1, v0, v5
 
-    .line 520284
+    .line 522071
     sput-object v0, Lcom/android/setupwizardlib/R$styleable;->SuwSwitchItem:[I
 
-    .line 520306
+    .line 522093
     const v0, 0x7f010022
 
-    .line 520305
+    .line 522092
     filled-new-array {v9, v0}, [I
 
     move-result-object v0
 
     sput-object v0, Lcom/android/setupwizardlib/R$styleable;->SuwTemplateLayout:[I
 
-    .line 520360
+    .line 522147
     const/16 v0, 0xe
 
     new-array v0, v0, [I
@@ -1373,7 +1373,7 @@
 
     sput-object v0, Lcom/android/setupwizardlib/R$styleable;->SwitchCompat:[I
 
-    .line 520623
+    .line 522410
     const/16 v0, 0xa
 
     new-array v0, v0, [I
@@ -1382,7 +1382,7 @@
 
     sput-object v0, Lcom/android/setupwizardlib/R$styleable;->SwitchPreference:[I
 
-    .line 520775
+    .line 522562
     const/16 v0, 0xa
 
     new-array v0, v0, [I
@@ -1391,19 +1391,19 @@
 
     sput-object v0, Lcom/android/setupwizardlib/R$styleable;->SwitchPreferenceCompat:[I
 
-    .line 520912
+    .line 522699
     const v0, 0x1010002
 
     const v1, 0x101014f
 
-    .line 520911
+    .line 522698
     filled-new-array {v0, v9, v1}, [I
 
     move-result-object v0
 
     sput-object v0, Lcom/android/setupwizardlib/R$styleable;->TabItem:[I
 
-    .line 520981
+    .line 522768
     const/16 v0, 0x10
 
     new-array v0, v0, [I
@@ -1412,7 +1412,7 @@
 
     sput-object v0, Lcom/android/setupwizardlib/R$styleable;->TabLayout:[I
 
-    .line 521288
+    .line 523075
     const/16 v0, 0x9
 
     new-array v0, v0, [I
@@ -1421,7 +1421,7 @@
 
     sput-object v0, Lcom/android/setupwizardlib/R$styleable;->TextAppearance:[I
 
-    .line 521384
+    .line 523171
     const/16 v0, 0xb
 
     new-array v0, v0, [I
@@ -1430,7 +1430,7 @@
 
     sput-object v0, Lcom/android/setupwizardlib/R$styleable;->TextInputLayout:[I
 
-    .line 521604
+    .line 523391
     const/16 v0, 0x1d
 
     new-array v0, v0, [I
@@ -1439,19 +1439,19 @@
 
     sput-object v0, Lcom/android/setupwizardlib/R$styleable;->Toolbar:[I
 
-    .line 522093
+    .line 523880
     const v0, 0x7f0101b0
 
     const v1, 0x7f0101b1
 
-    .line 522092
+    .line 523879
     filled-new-array {v0, v1}, [I
 
     move-result-object v0
 
     sput-object v0, Lcom/android/setupwizardlib/R$styleable;->TwTouchPunchView:[I
 
-    .line 522146
+    .line 523933
     const v0, 0x10100af
 
     const v1, 0x1010435
@@ -1460,17 +1460,17 @@
 
     const v3, 0x7f010009
 
-    .line 522147
+    .line 523934
     const v4, 0x7f01000a
 
-    .line 522145
+    .line 523932
     filled-new-array {v0, v1, v2, v3, v4}, [I
 
     move-result-object v0
 
     sput-object v0, Lcom/android/setupwizardlib/R$styleable;->UsageView:[I
 
-    .line 522215
+    .line 524002
     const/high16 v0, 0x1010000
 
     const v1, 0x10100da
@@ -1479,101 +1479,101 @@
 
     const v3, 0x7f0100b7
 
-    .line 522216
+    .line 524003
     const v4, 0x7f0100b8
 
-    .line 522214
+    .line 524001
     filled-new-array {v0, v1, v2, v3, v4}, [I
 
     move-result-object v0
 
     sput-object v0, Lcom/android/setupwizardlib/R$styleable;->View:[I
 
-    .line 522306
+    .line 524093
     const v0, 0x10100d4
 
     const v1, 0x7f0100b9
 
     const v2, 0x7f0100ba
 
-    .line 522305
+    .line 524092
     filled-new-array {v0, v1, v2}, [I
 
     move-result-object v0
 
     sput-object v0, Lcom/android/setupwizardlib/R$styleable;->ViewBackgroundHelper:[I
 
-    .line 522373
+    .line 524160
     const v0, 0x10100d0
 
     const v1, 0x10100f3
 
-    .line 522372
+    .line 524159
     filled-new-array {v0, v9, v1}, [I
 
     move-result-object v0
 
     sput-object v0, Lcom/android/setupwizardlib/R$styleable;->ViewStubCompat:[I
 
-    .line 522411
+    .line 524198
     new-array v0, v6, [I
 
-    .line 522412
+    .line 524199
     const v1, 0x7f010004
 
     aput v1, v0, v5
 
-    .line 522411
+    .line 524198
     sput-object v0, Lcom/android/setupwizardlib/R$styleable;->WifiEncryptionState:[I
 
-    .line 522444
+    .line 524231
     new-array v0, v6, [I
 
-    .line 522445
+    .line 524232
     const v1, 0x7f010005
 
     aput v1, v0, v5
 
-    .line 522444
+    .line 524231
     sput-object v0, Lcom/android/setupwizardlib/R$styleable;->WifiGigaState:[I
 
-    .line 522477
+    .line 524264
     new-array v0, v6, [I
 
-    .line 522478
+    .line 524265
     const v1, 0x7f010184
 
     aput v1, v0, v5
 
-    .line 522477
+    .line 524264
     sput-object v0, Lcom/android/setupwizardlib/R$styleable;->WifiHotSpotState:[I
 
-    .line 522504
+    .line 524291
     new-array v0, v6, [I
 
-    .line 522505
+    .line 524292
     const v1, 0x7f010006
 
     aput v1, v0, v5
 
-    .line 522504
+    .line 524291
     sput-object v0, Lcom/android/setupwizardlib/R$styleable;->WifiWeChatState:[I
 
-    .line 522537
+    .line 524324
     new-array v0, v6, [I
 
-    .line 522538
+    .line 524325
     const v1, 0x7f0101bc
 
     aput v1, v0, v5
 
-    .line 522537
+    .line 524324
     sput-object v0, Lcom/android/setupwizardlib/R$styleable;->WorkPreference:[I
 
-    .line 511247
+    .line 513034
     return-void
 
-    .line 511325
+    .line 513112
     nop
 
     :array_0
@@ -1609,7 +1609,7 @@
         0x7f0100b4
     .end array-data
 
-    .line 511850
+    .line 513637
     :array_1
     .array-data 4
         0x7f010028
@@ -1620,7 +1620,7 @@
         0x7f0100b5
     .end array-data
 
-    .line 512002
+    .line 513789
     :array_2
     .array-data 4
         0x10100f2
@@ -1631,7 +1631,7 @@
         0x7f010101
     .end array-data
 
-    .line 512696
+    .line 514483
     :array_3
     .array-data 4
         0x1010057
@@ -1751,7 +1751,7 @@
         0x7f01009a
     .end array-data
 
-    .line 514369
+    .line 516156
     :array_4
     .array-data 4
         0x1010034
@@ -1769,7 +1769,7 @@
         0x7f010189
     .end array-data
 
-    .line 514629
+    .line 516416
     :array_5
     .array-data 4
         0x1010034
@@ -1780,7 +1780,7 @@
         0x7f010197
     .end array-data
 
-    .line 514783
+    .line 516570
     :array_6
     .array-data 4
         0x7f01018e
@@ -1792,7 +1792,7 @@
         0x7f010194
     .end array-data
 
-    .line 514958
+    .line 516745
     :array_7
     .array-data 4
         0x10101ef
@@ -1803,7 +1803,7 @@
         0x7f01012d
     .end array-data
 
-    .line 515079
+    .line 516866
     :array_8
     .array-data 4
         0x7f010027
@@ -1824,7 +1824,7 @@
         0x7f01017b
     .end array-data
 
-    .line 515563
+    .line 517350
     :array_9
     .array-data 4
         0x7f0101a5
@@ -1835,7 +1835,7 @@
         0x7f0101aa
     .end array-data
 
-    .line 515884
+    .line 517671
     :array_a
     .array-data 4
         0x10101f2
@@ -1852,7 +1852,7 @@
         0x7f010133
     .end array-data
 
-    .line 516225
+    .line 518012
     :array_b
     .array-data 4
         0x7f0100e7
@@ -1865,7 +1865,7 @@
         0x7f0100ee
     .end array-data
 
-    .line 516468
+    .line 518255
     :array_c
     .array-data 4
         0x7f0100b3
@@ -1878,7 +1878,7 @@
         0x7f01013e
     .end array-data
 
-    .line 516776
+    .line 518563
     :array_d
     .array-data 4
         0x10100af
@@ -1892,7 +1892,7 @@
         0x7f0100d3
     .end array-data
 
-    .line 517057
+    .line 518844
     :array_e
     .array-data 4
         0x101000e
@@ -1903,7 +1903,7 @@
         0x10101e0
     .end array-data
 
-    .line 517162
+    .line 518949
     :array_f
     .array-data 4
         0x1010002
@@ -1925,7 +1925,7 @@
         0x7f0100c0
     .end array-data
 
-    .line 517402
+    .line 519189
     :array_10
     .array-data 4
         0x10100ae
@@ -1939,7 +1939,7 @@
         0x7f0100bc
     .end array-data
 
-    .line 517585
+    .line 519372
     :array_11
     .array-data 4
         0x10100d4
@@ -1954,7 +1954,7 @@
         0x7f010145
     .end array-data
 
-    .line 517901
+    .line 519688
     :array_12
     .array-data 4
         0x1010002
@@ -1991,7 +1991,7 @@
         0x7f01019f
     .end array-data
 
-    .line 518509
+    .line 520296
     :array_13
     .array-data 4
         0x7f010108
@@ -2019,7 +2019,7 @@
         0x7f01011e
     .end array-data
 
-    .line 518854
+    .line 520641
     :array_14
     .array-data 4
         0x10100c4
@@ -2030,7 +2030,7 @@
         0x7f010026
     .end array-data
 
-    .line 519130
+    .line 520917
     :array_15
     .array-data 4
         0x10100da
@@ -2052,7 +2052,7 @@
         0x7f0100cd
     .end array-data
 
-    .line 519921
+    .line 521708
     :array_16
     .array-data 4
         0x1010002
@@ -2063,7 +2063,7 @@
         0x10101e9
     .end array-data
 
-    .line 520049
+    .line 521836
     :array_17
     .array-data 4
         0x7f010016
@@ -2076,7 +2076,7 @@
         0x7f010021
     .end array-data
 
-    .line 520360
+    .line 522147
     :array_18
     .array-data 4
         0x1010124
@@ -2095,7 +2095,7 @@
         0x7f0100fc
     .end array-data
 
-    .line 520623
+    .line 522410
     :array_19
     .array-data 4
         0x10101ef
@@ -2110,7 +2110,7 @@
         0x7f010137
     .end array-data
 
-    .line 520775
+    .line 522562
     :array_1a
     .array-data 4
         0x10101ef
@@ -2125,7 +2125,7 @@
         0x7f010137
     .end array-data
 
-    .line 520981
+    .line 522768
     :array_1b
     .array-data 4
         0x7f010147
@@ -2146,7 +2146,7 @@
         0x7f010156
     .end array-data
 
-    .line 521288
+    .line 523075
     :array_1c
     .array-data 4
         0x1010095
@@ -2160,7 +2160,7 @@
         0x7f0100d0
     .end array-data
 
-    .line 521384
+    .line 523171
     :array_1d
     .array-data 4
         0x101009a
@@ -2176,7 +2176,7 @@
         0x7f010165
     .end array-data
 
-    .line 521604
+    .line 523391
     :array_1e
     .array-data 4
         0x10100af
@@ -2215,7 +2215,7 @@
     .locals 0
 
     .prologue
-    .line 511247
+    .line 513034
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void

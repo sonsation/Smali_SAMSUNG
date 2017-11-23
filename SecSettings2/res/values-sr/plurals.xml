@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="data_saver_unrestricted_summary_chn">
+        <item quantity="other">Sledećem broju aplikacija je dozvoljeno da koriste mobilne podatke bez ograničenja dok je omogućena funkcija Zabrana prenosa podataka u pozadini: %d.</item>
+        <item quantity="one">Sledećem broju aplikacija je dozvoljeno da koriste mobilne podatke bez ograničenja dok je omogućena funkcija Zabrana prenosa podataka u pozadini: %d.</item>
+    </plurals>
     <plurals name="lock_timeout_hours">
         <item quantity="other">%d sati</item>
         <item quantity="one">1 sat</item>

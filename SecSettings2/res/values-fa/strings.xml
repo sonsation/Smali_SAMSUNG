@@ -31,7 +31,7 @@
     <string name="bluetooth_disconnected">قطع شد</string>
     <string name="bluetooth_disconnecting">قطع…</string>
     <string name="bluetooth_connecting">در حال ارتباط…</string>
-    <string name="bluetooth_connected">متصل شد.</string>
+    <string name="bluetooth_connected">وصل شد</string>
     <string name="bluetooth_pairing">درحال جفت سازی…</string>
     <string name="bluetooth_connected_no_headset">متصل شد (بدون تلفن)</string>
     <string name="bluetooth_connected_no_a2dp">متصل شد (بدون رسانه)</string>
@@ -433,7 +433,7 @@ Enter the code you get from Verizon:"</string>
     <string name="answering_end_call_title">پاسخ‌گویی و پایان دادن به تماس‌ها</string>
     <string name="audio_preference_title">شنوایی</string>
     <string name="mono_audio_title">صدای تکی</string>
-    <string name="mono_audio_summary">هنگام استفاده از گوشی صدای استریو را به مونو تغییر دهید.</string>
+    <string name="mono_audio_summary">برای گوش دادن با یک گوش، صدا را از استریو به مونو تغییر وضعیت دهید.</string>
     <string name="multi_window_title">چند پنجره</string>
     <string name="magnifier_seekbar_plus_tts">بعلاوه</string>
     <string name="magnifier_seekbar_minus_tts">تفریق</string>
@@ -514,16 +514,18 @@ Enter the code you get from Verizon:"</string>
     <string name="direct_access_actions_universal_switch_title">کلید عمومی</string>
     <string name="sound_detector_title">گیرنده حساس به گریه نوزاد</string>
     <string name="sound_detector_main_title">گیرندگان حساس به صدا</string>
-    <string name="sound_detector_main_description">وقتی دستگاه گریه نوزاد یا زنگ در را شناسایی کرد، هشدار دریافت کنید.</string>
+    <string name="sound_detector_main_description">وقتی تلفن گریه نوزاد یا زنگ در را شناسایی کرد، هشدار دریافت می‌کنید.</string>
     <string name="accessibility_easy_interaction_summary">با یک ضربه، زنگ‌های هشدار، رویدادهای تقویم و هشدارهای تایمر را قطع کنید یا به تعویق بیاندازید و به تماس‌های ورودی پاسخ دهید یا رد کنید</string>
     <string name="accessibility_easy_interaction_summary_tablet_wifi">براي توقف/تعويق زنگ ساعت و رويدادهاي تقويم ضربه بزنيد.</string>
-    <string name="all_sound_off">همه صداها را خاموش کنید</string>
-    <string name="all_sound_off_summary">حتی اگر حالت صدا روی صدا تنظیم شده باشد، هیچ صدایی از جمله آیفون پخش نشود.</string>
+    <string name="all_sound_off">بیصدا کردن همه صداها</string>
+    <string name="all_sound_off_summary">همه صداها، از جمله تماس‌های تلفنی، را خاموش می‌کند، حتی اگر حالت صدا روی صدا تنظیم شده باشد.</string>
     <string name="all_sound_off_dialog_summary">فعال کردن ‎%1$s و ‎%2$s به طور همزمان ممکن نیست. ‎%3$s غیرفعال خواهد شد.</string>
+    <string name="all_sound_off_popup_description">برای استفاده از بیصدا کردن همه صداها، باید %s را خاموش کنید.</string>
+    <string name="all_sound_turn_off_button">خاموش کردن</string>
     <string name="turn_off_all_sounds">همه صداها را خاموش کنید</string>
     <string name="turn_off_all_sounds1">خاموش کردن همه صداها و پیام پاسخگویی نمی‌تواند همزمان فعال شود.</string>
     <string name="turn_off_all_sounds2">خاموش کرده همه صداها و پیام پاسخگویی نمی تواند همزمان فعال شود. پیام پاسخگویی غیرفعال خواهد شد.</string>
-    <string name="turn_off_all_sounds_toast_with_sound_detector">در حالی که گیرنده‌های صدا فعال هستند، غیرفعال کردن خاموش شدن همه صداها ممکن نیست. برای غیرفعال کردن آنها، به تنظیمات > قابلیت دسترسی > شنوایی > گیرنده‌های صدا بروید، سپس همه گیرنده‌های صدا را غیرفعال کنید.</string>
+    <string name="turn_off_all_sounds_toast_with_sound_detector">هنگام روشن بودن گیرنده‌های حساس به صدا نمی‌توان بی‌صدا کردن همه صداها را خاموش کرد.</string>
     <string name="accessibility_categories_title">مقوله ها</string>
     <string name="share_accessibility_settings">مدیریت قابلیت دسترسی</string>
     <string name="share_accessibility_settings_summary">تنظیمات قابلیت دسترسی خود را وارد و صادر کرده یا آنها را با دستگاه دیگری به اشتراک بگذارید</string>
@@ -660,6 +662,7 @@ Enter the code you get from Verizon:"</string>
     <string name="deviceOption">گزینه های دستگاه</string>
     <string name="lock">قفل</string>
     <string name="powerOff">خاموش</string>
+    <string name="unable_assistantmenu_while_sidesync">روشن کردن منوی دستیار هنگام استفاده از SideSync ممکن نیست.</string>
     <string name="eamenableinfo">برای فعال کردن دستیار پیشرفته، حداقل یک برنامه انتخاب کنید.</string>
     <string name="fetch_progress">در حال بارگیری داده…</string>
     <string name="assistant_menu_enable_message">‎%s و گزینه‌های زیر را نمی‌توان به طور همزمان فعال کرد. گزینه‌های زیر غیرفعال می‌شوند.</string>
@@ -766,7 +769,7 @@ Enter the code you get from Verizon:"</string>
     <string name="xcover_key_shortcut_battery_conserving_mode">Battery conserving mode</string>
     <string name="xcover_key_shortcut_normal_mode">حالت عادی</string>
     <string name="flight_mode_enabled_toast">هنگامی که حالت پرواز فعال است اتصال به شبکه های تلفن همراه ممکن نیست. حالت پرواز را غیرفعال کرده و دوباره امتحان کنید.</string>
-    <string name="airplane_mode_summary">عملکردهای تماس و پیام‌رسانی را غیرفعال کرده و داده تلفن همراه را خاموش کنید.</string>
+    <string name="airplane_mode_summary">عملکردهای تماس، پیام‌رسانی و اینترنت همراه را خاموش کنید.</string>
     <string name="usb_not_support_mtp_usb3_dialog_title">اطلاعیه</string>
     <string name="airplane_mode_desc">حالت پرواز به شما اجازه می دهد ویژگی های شبکه از جمله Wi-Fi را خاموش کنید. جهت استفاده از Wi-Fi، از قسمت تنظیمات یا پانل اعلان آن را روشن کنید.</string>
     <string name="flight_mode_enable_popup_title">فعال کردن حالت پرواز</string>
@@ -906,6 +909,7 @@ Enter the code you get from Verizon:"</string>
     <string name="bluetooth_control_app_disable_summary">خاموش شدن بلوتوث: %s</string>
     <string name="bluetooth_enter_pin_msg">وارد کردن پین جهت مرتبط سازی با %s (0000 یا 1234 را امتحان کنید).</string>
     <string name="bluetooth_pin_maximum_number_message">تعداد نویسه‌ها به حداکثر رسیده است.</string>
+    <string name="bluetooth_frp_permission_message">استفاده از دستگاه بلوتوث برای این تماس ممکن نیست.</string>
     <string name="settings_menu_done">انجام</string>
     <string name="usb_tethering_unavailable_subtext_tmo">USB not connected</string>
     <string name="usb_tethering_available_subtext_tmo">USB connected, check to tether</string>
@@ -946,11 +950,16 @@ Enter the code you get from Verizon:"</string>
 - روی عکس صفحه طرح بکشید.
 - عکس صفحه را برش دهید.
 - عکس صفحه را اشتراک‌گذاری کنید."</string>
+    <string name="smart_capture_summary">پس از گرفتن عکس صفحه، گزینه‌های بیشتر نشان داده شود. با عکس گرفتن هوشمند می‌توانید:</string>
+    <string name="smart_capture_summary_1">از نقاط مخفی صفحه عکس می‌گیرد.</string>
+    <string name="smart_capture_summary_2">روی عکس صفحه بکشید.</string>
+    <string name="smart_capture_summary_3">عکس صفحه را برش دهید.</string>
+    <string name="smart_capture_summary_4">عکس صفحه اشتراک‌گذاری شود.</string>
     <string name="identify_unsaved_numbers_title">شناسایی شماره‌های ذخیره نشده</string>
     <string name="identify_unsaved_numbers_title_usa">شناسایی شماره‌های مزاحم</string>
     <string name="call_message_spam_filter_title">Call/message spam filter</string>
     <string name="onehand_operation_summary">برای اینکه بتوانید تلفن را به راحتی با یک دست کنترل کنید، اندازه و چیدمان صفحه نمایش را تنظیم نمایید.</string>
-    <string name="direct_share_title">اشتراک‌گذاری مستقیم</string>
+    <string name="direct_share_title">اشتراک مستقیم</string>
     <string name="direct_share_summary">از هر برنامه‌ای، محتوا را مستقیماً از طریق پَنل اشتراک‌گذاری با افراد خاص به اشتراک بگذارید.</string>
     <string name="direct_share_description">هنگام انجام کارهایی از قبیل ارسال پیام‌ها یا ایمیل‌ها در برنامه‌هایی که توسط عملکرد اشتراک‌گذاری Google Direct پشتیبانی می‌شوند، نمادهای اشتراک‌گذاری مستقیم در بالای پَنل اشتراک‌گذاری نشان داده می‌شوند.</string>
     <string name="direct_share_description_chn">در حین انجام کارهایی از قبیل ارسال پیام یا ایمیل در برنامه‌هایی که توسط عملکرد پشتیبان‌گیری Android Direct پشتیبانی می‌شوند، نمادهای Direct share در بالای پَنل اشتراک‌گذاری نشان داده می‌شوند.</string>
@@ -1042,6 +1051,7 @@ Enter the code you get from Verizon:"</string>
     <string name="fota_update_summary">برای به‌روزرسانی میان‌افزار به جدیدترین نسخه و استفاده از جدیدترین ویژگی‌ها، اینجا ضربه بزنید.</string>
     <string name="favorite_tab">تنظیمات سریع</string>
     <string name="device_maintenance_title">سرویس و نگهداری دستگاه</string>
+    <string name="memory_string">حافظه</string>
     <string name="tab_favorite_edit">ویرایش تنظیمات سریع</string>
     <string name="add_favorite_button">ویرایش تنظیمات سریع</string>
     <string name="cloud_and_accounts_title">‏Cloud و حساب‌ها</string>
@@ -1079,7 +1089,12 @@ Enter the code you get from Verizon:"</string>
     <string name="notification_settings_apps_title">اعلان‌های برنامه</string>
     <string name="international_roaming_setting">تنظیمات رومینگ</string>
     <string name="user_manual_mos">راهنمای کاربر</string>
-    <string name="data_saver_description">برای کمک به کاهش مصرف اینترنت همراه، ذخیره کننده اینترنت همراه از ارسال یا دریافت اطلاعات در پس‌زمینه توسط برخی برنامه‌ها جلوگیری می‌کند. همچنین، برنامه‌هایی که باز هستند می‌توانند به اینترنت همراه دسترسی داشته باشند، ولی کمتر این کار را انجام می‌دهند. برای مثال، ممکن است تصاویر درست نشان داده نشوند، تا وقتی روی آنها ضربه بزنید.</string>
+    <string name="data_saver_description">ذخیره‌کننده اینترنت همراه با جلوگیری از دریافت و ارسال اینترنت همراه در پس‌زمینه بوسیله بعضی برنامه‌ها، مصرف اینترنت را کاهش می‌دهد. برنامه‌هایی که در حال استفاده از آنها هستید ممکن است از اینترنت همراه استفاده کنند، اما ممکن است این کار را به میزان کمتری انجام دهند. برای مثال، ممکن است تا زمانی که روی تصاویر ضربه نزنید، نشان داده نشوند.</string>
+    <string name="unrestricted_data_saver_chn">استفاده از داده بدون محدودیت</string>
+    <string name="data_saver_description_chn">برای کمک به کاهش مصرف اینترنت همراه، محدود کردن اینترنت همراه در پس‌زمینه از ارسال یا دریافت اطلاعات در پس‌زمینه توسط برخی برنامه‌ها جلوگیری می‌کند. همچنین، برنامه‌هایی که باز هستند می‌توانند به اینترنت همراه دسترسی داشته باشند، ولی کمتر این کار را انجام می‌دهند. برای مثال، ممکن است تصاویر درست نشان داده نشوند، تا وقتی روی آنها ضربه بزنید.</string>
+    <string name="data_saver_title_chn">محدود کردن اینترنت همراه در پس‌زمینه</string>
+    <string name="unrestricted_app_title_chn">استفاده از داده بدون محدودیت</string>
+    <string name="unrestricted_app_summary_chn">هنگامی که محدود کردن داده پس‌زمینه فعال است، این برنامه می‌تواند بدون محدودیت از اینترنت همراه استفاده کند.</string>
     <string name="data_used_editor_subtitle">Enter the amount of data you have used this month:</string>
     <string name="traffic_vertify">Details</string>
     <string name="btn_tmo">Upgrade data service</string>
@@ -1131,7 +1146,9 @@ Data usage is measured by your phone. Your carrier may account for usage differe
     <string name="last_checked_date">آخرین بررسی در:</string>
     <string name="auto_update">دانلود خودکار نسخه به‌روز</string>
     <string name="auto_update_summary">پس از اتصال به شبکه Wi-Fi، نسخه‌های به‌روز نرم‌افزار دانلود می‌شوند. می‌توانید در حین دانلود از دستگاهتان استفاده کنید.</string>
-    <string name="scheduled_update">زمانبندی به‌روزرسانی نرم‌افزار</string>
+    <string name="auto_update_over_wifi">دانلود خودکار از طریق Wi-Fi</string>
+    <string name="auto_update_over_wifi_summary">پس از اتصال به شبکه Wi-Fi، به‌روزرسانی‌های نرم‌افزار به طور خودکار دانلود می‌شوند. بسته به ارائه‌دهنده سرویس شما، ممکن است به‌روزرسانی‌ها با استفاده از اینترنت همراه نیز بدون آن‌که از شما هزینه‌ای کسر شود دانلود شوند. در حین دانلود، همچنان می‌توانید از تلفنتان استفاده کنید.</string>
+    <string name="scheduled_update">به‌روزرسانی طبق برنامه نرم‌افزار</string>
     <string name="scheduled_update_summary_default">خاموش</string>
     <string name="scheduled_update_summary_set_time">به‌روزرسانی در %s شروع می‌شود</string>
     <string name="scheduled_update_summary_set_time_everyday">به‌روزرسانی هر روز در %s شروع می‌شود</string>
@@ -1172,9 +1189,9 @@ Data usage is measured by your phone. Your carrier may account for usage differe
     <string name="usb_use_file_transfers_summary_vzw">Transfer media files to a computer.</string>
     <string name="usb_use_file_transfers_summary">فایل‌های رسانه‌ای را از طریق اتصال MTP به رایانه انتقال دهید.</string>
     <string name="usb_use_MIDI_summary_vzw">Use device for MIDI input.</string>
-    <string name="usb_use_MIDI_summary">از دستگاه متصل به عنوان یک منبع ورودی یا پخش کننده MIDI (رابط دیجیتالی وسیله موسیقی) استفاده کنید.</string>
-    <string name="usb_use_software_installation">Software Installation</string>
-    <string name="usb_use_software_installation_summary">Install Software Update and Repair tool for your device on a Mac or Windows computer.</string>
+    <string name="usb_use_MIDI_summary">از دستگاه متصل به عنوان یک پخش‌کننده MIDI یا منبع ورودی استفاده کنید.</string>
+    <string name="usb_use_system_update">به‌روزرسانی سیستم</string>
+    <string name="usb_use_system_update_summary">دستیار ارتقای نرم‌افزار را در کامپیوتر خود نصب کنید و این تلفن را به‌روزرسانی یا تعمیر کنید.</string>
     <string name="sim_status_code">کد</string>
     <string name="sim_status_btn_update">به‌روزرسانی وضعیت سیم‌کارت</string>
     <string name="sim_status_updating">درحال بروزرسانی…</string>
@@ -1263,7 +1280,7 @@ Where Can I Find More Information About the 3rd Party's Policies? Separately, if
     <string name="display_temperature">تعادل رنگ</string>
     <string name="adjust_your_display_colour">برای تغییر ظاهر تون رنگ سفید، رنگ صفحه نمایش را تنظیم کنید.</string>
     <string name="led_indicator_settings">نشانگر LED</string>
-    <string name="led_indicator_settings_summary">هنگام شارژ کردن، ضبط صدا یا دریافت اعلان‌ها، نشانگر LED روشن شود.</string>
+    <string name="led_indicator_settings_summary">وقتی صفحه خاموش است، برای نشان دادن وضعیت ضبط صدا، اعلان‌های خوانده نشده و باتری، نشانگر LED روشن می‌شود.</string>
     <string name="screen_resolution_desc">ممکن است بخشی از محتوا تار نشان داده شده یا در FHD یا HD پشتیبانی نشود.</string>
     <string name="display_battery_percentage">نمایش درصدشارژ باتری</string>
     <string name="display_battery_percentage_summary">باقیمانده نیروی باتری به صورت درصد در نوار وضعیت نشان داده می‌شود.</string>
@@ -1310,12 +1327,12 @@ Where Can I Find More Information About the 3rd Party's Policies? Separately, if
     <string name="blue_light_filter_off_time_next_day_summary_format">‎%s روز بعد</string>
     <string name="blue_light_filter_user_schedule_title">برنامه زمانی سفارشی</string>
     <string name="blue_light_filter_auto_schedule_title">غروب تا طلوع</string>
-    <string name="blue_light_filter_desc">برای خواب بهتر، در شب از فیلتر نور آبی استفاده کنید. یک برنامه زمانی برای زمان استفاده از فیلتر نور آبی تنظیم کنید. برای استفاده از غروب تا طلوع، باید مکان فعال باشد.</string>
-    <string name="blue_light_filter_enable_now">اکنون فعال شود</string>
+    <string name="blue_light_filter_desc">برای خواب بهتر، در شب از فیلتر نور آبی استفاده کنید. یک برنامه زمانی برای زمان استفاده از فیلتر نور آبی تنظیم کنید. برای استفاده از برنامه طلوع و غروب خورشید، مکان باید روشن شود.</string>
+    <string name="blue_light_filter_enable_now">اکنون روشن شود</string>
     <string name="blue_light_filter_enable_as_scheduled">فعال کردن طبق برنامه</string>
-    <string name="blue_light_filter_scheduled_toast">فیلتر نور آبی فعال شد. به طور خودکار در زمان پایان برنامه‌ریزی شده غیرفعال می‌شود.</string>
+    <string name="blue_light_filter_scheduled_toast">فیلتر نور آبی روشن شد. به طور خودکار در زمان پایان برنامه‌ریزی شده غیرفعال می‌شود.</string>
     <string name="screen_mode_dlg_turn_off_blue_light_filter">استفاده همزمان از %s و فیلتر نور آبی ممکن نیست. فیلتر نور آبی غیرفعال خواهد شد.</string>
-    <string name="blue_light_filter_dlg_turn_on_location">برای استفاده از غروب تا طلوع، باید مکان فعال باشد.</string>
+    <string name="blue_light_filter_dlg_turn_on_location">برای استفاده از برنامه‌ی طلوع و غروب خورشید، مکان باید روشن شود.</string>
     <string name="dlg_turn_on">روشن کردن</string>
     <string name="screen_resolution_title">وضوح صفحه نمایش</string>
     <string name="screen_resolution_desc_title">تغییر وضوح صفحه</string>
@@ -1422,6 +1439,10 @@ Where Can I Find More Information About the 3rd Party's Policies? Separately, if
     <string name="crypt_keeper_vzw_password_warning">Set the Screen lock password with at least %d characters and 1 number.</string>
     <string name="crypt_keeper_decrypt_title">رمزگشایی دستگاه</string>
     <string name="crypt_keeper_decrypt_summary">دستگاه رمزگذاری شد.</string>
+    <string name="crypt_keeper_type_pin">پین</string>
+    <string name="crypt_keeper_type_pattern">الگو</string>
+    <string name="crypt_keeper_type_password">رمز</string>
+    <string name="crypt_keeper_type_direction">قفل کردن با جهت</string>
     <string name="crypt_keeper_confirm_title_dec">تأیید رمزگشایی</string>
     <string name="crypt_keeper_force_power_cycle_pattern">برای شروع به کار دستگاه، آن را خاموش و روشن کرده و دوباره امتحان کنید. باید الگویی که برای شروع به کار دستگاه استفاده می‌کنید را ترسیم کرده و قفل صفحه را باز کنید. از پین پشتیبان نمی‌توانید برای شروع به کار دستگاه استفاده کنید.</string>
     <string name="crypt_keeper_setup_description_dec">"در حال رمزگشایی دستگاه. این کار مدتی طول می‌کشد. لطفاً صبر کنید…‎
@@ -1511,6 +1532,7 @@ Where Can I Find More Information About the 3rd Party's Policies? Separately, if
     <string name="crypt_keeper_verify_failed_summary">راه‌اندازی مجدد دستگاه ممکن نیست. تأیید اعتبار یکپارچگی ناموفق بود. باید دستگاه خود را به تنظیمات پیش‌فرض کارخانه بازنشانی کنید. با این کار تمام داده‌های شما پاک می‌شود.</string>
     <string name="cryptkeeper_emergency_call">تماس اضطراری</string>
     <string name="cryptkeeper_return_to_call">بازگشت به تماس</string>
+    <string name="cryptkeeper_default_enter_msg">تلفن شما برای امنیت رمزگذاری شده است.</string>
     <string name="enter_password">برای شروع به کار دستگاه، رمز عبور را وارد کنید.</string>
     <string name="enter_pin">برای شروع کار دستگاه، پین را وارد کنید.</string>
     <string name="enter_pattern">برای شروع به کار دستگاه، الگوی خود را ترسیم کنید.</string>
@@ -1520,11 +1542,13 @@ Where Can I Find More Information About the 3rd Party's Policies? Separately, if
     <string name="cryptkeeper_wrong_pin">پین اشتباه وارد شد</string>
     <string name="cryptkeeper_wrong_direction">جهت نادرست ترسیم شد</string>
     <string name="checking_decryption">بازیابی…</string>
-    <string name="starting_android">در حال شروع Android…</string>
     <string name="crypt_keeper_last_warn_wipe">۱ تلاش دیگر برای شروع به کار دستگاه باقی مانده است و در صورت اشتباه بودن، به تنظیمات پیش‌فرض کارخانه بازنشانی می‌شود. با این کار تمام اطلاعات، از جمله فایل‌ها و برنامه‌های دانلود شده پاک خواهند شد.</string>
     <string name="crypt_keeper_failed_title_dec">آشکارسازی ناموفق بود.</string>
     <string name="crypt_keeper_failed_summary_dec">به دلیل ایجاد وقفه، امکان تکمیل رمزگشایی وجود ندارد. قبل از استفاده، تنظیمات کارخانه را بازیابی کنید (حذف تمام داده ها).</string>
     <string name="crypt_keeper_set_screen_lock_type">تنظیم نوع قفل صفحه</string>
+    <string name="encryption_interstitial_message">"برای محافظت بیشتر تلفن، می‌توانید تنظیم کنید که قبل از شروع به کار تلفن، وارد کردن %s درخواست شود. این‌کار در صورت مفقود شدن یا به سرقت رفتن تلفن، به حفظ اطلاعات شما کمک می‌کند. بعضی از برنامه‌ها ممکن است برای دسترسی به ویژگی‌هایی از قبیل همگام‌سازی ایمیل به راه‌اندازی ایمن مطابق با سیاست‌های رمزگذاری دستگاه نیاز داشته باشند.
+
+تا زمانی‌که تلفن راه‌اندازی نشده باشد شما هیچ تماس، پیام یا اعلان و هشداری دریافت نخواهید کرد."</string>
     <string name="encryption_interstitial_message_kor">دستگاهتان رمزگذاری شده است. برای حفاظت از اطلاعات رمزگذاری شده، &lt;درخواست قفل کردن صفحه> در هنگام روشن شدن دستگاه را انتخاب کنید. با این کار از اطلاعات در دستگاه‌های دزدیده یا مفقود شده محافظت می‌شود. برای رمزگشایی دستگاه در هنگام روشن شدن، باید قفل دستگاه را باز کنید. تا زمانی که دستگاه خود را رمزگشایی نکرده‌اید، هیچ تماس، پیام یا اعلانی دریافت نخواهید کرد.</string>
     <string name="encryption_interstitial_message_direction">"با انتخاب &lt;لزوم قفل کردن جهت‌دار> هنگام روشن شدن دستگاه، از دستگاهتان محافظت کنید. با این کار از اطلاعات موجود در دستگاه‌های مفقود یا دزدیده شده محافظت می‌شود.
 
@@ -1546,6 +1570,7 @@ Where Can I Find More Information About the 3rd Party's Policies? Separately, if
 هیچ تماس، پیام یا اعلانی دریافت نشده و زنگهای هشدار به صدا در نمی‌آیند تا وقتی دستگاه شروع به کار کند."</string>
     <string name="encryption_interstitial_error_message">برای محافظت از اطلاعات دستگاه، نوع قفل صفحه خود را به پین، رمز عبور، الگو یا اثر انگشت تغییر داده و دوباره امتحان کنید.</string>
     <string name="encryption_interstitial_error_message_direction">برای محافظت از اطلاعات دستگاه، روش قفل کردن صفحه را به پین، رمزعبور، الگو، قفل کردن جهت‌دار یا اثر انگشت تغییر داده و دوباره امتحان کنید.</string>
+    <string name="encryption_interstitial_error_message_direction_without_fingerprint">برای محافظت از اطلاعات دستگاه، نوع قفل صفحه خود را به پین، رمز عبور، الگو یا قفل جهت تغییر داده و دوباره امتحان کنید.</string>
     <string name="encryption_interstitial_error_message_iris_direction">برای محافظت از اطلاعات دستگاه، روش قفل کردن صفحه را به پین، رمزعبور، الگو، قفل کردن جهت‌دار، اثر انگشت‌ها یا چشم‌ها تغییر داده و دوباره امتحان کنید.</string>
     <string name="encryption_interstitial_error_message_without_fingerprint">برای محافظت از اطلاعات دستگاه، نوع قفل صفحه خود را به پین، رمز عبور یا الگو تغییر داده و دوباره امتحان کنید.</string>
     <string name="encryption_interstitial_error_sktlock">قفل ایمنی و شروع امن را نمی‌توان همزمان فعال کرد. یک قفل غیرامن انتخاب کرده و دوباره امتحان کنید.</string>
@@ -1809,6 +1834,8 @@ You will also need it when:"</string>
 ‏%s"</string>
     <string name="improve_location_title">Improve location accuracy</string>
     <string name="improve_location_summary">Use WLANs and mobile networks to provide more accurate information about the location of your device.</string>
+    <string name="send_last_location_title">ارسال آخرین مکان</string>
+    <string name="send_last_location_summary">به تلفن اجازه دهید وقتی که باتری زیر سطح معینی می‌رسد آخرین مکان خود را به سِروِر یافتن تلفن من ارسال کند.</string>
     <string name="high_power_description">بهینه‌سازی مصرف باتری را برای هر برنامه فعال کنید. برای ذخیره نیروی باتری، برخی عملکردها که از شبکه تلفن همراه یا همگام‌سازی داده‌ها استفاده می‌کنند، محدود می‌شوند.</string>
     <string name="wifi_display_summary_off">خاموش</string>
     <string name="battery_usage_description">این صفحه داده‌های مصرف باتری از وقتی که دستگاه کاملاً شارژ بوده است را نشان می‌دهد.</string>
@@ -1904,6 +1931,8 @@ You will also need it when:"</string>
     <string name="iris_sensor_not_working_popup_title">تشخیص چشم کار نمی‌کند</string>
     <string name="iris_sensor_not_working_msg">حسگر چشم پاسخ نمی‌دهد. بعداً دوباره امتحان کنید.</string>
     <string name="iris_go_to_samsung_theme">رفتن به Samsung Themes</string>
+    <string name="biometrics_dex_cant_use_msg">استفاده از %s در Samsung DeX ممکن نیست.</string>
+    <string name="biometrics_dex_closed_to_switch">%s بسته شد تا به Samsung DeX تغییر وضعیت دهد.</string>
     <string name="knox_twofactor_bio_description">برای بازگشایی قفل %s، نوع قفل بیومتری و نوع قفل دوم را انتخاب کنید.</string>
     <string name="fingerprint_registered">اثر انگشت‌های ثبت شده در روش باز کردن قفل استفاده خواهند شد.</string>
     <string name="knox_twofactor_description">از دو نوع قفل برای ایمن کردن Knox استفاده کنید. از اثرهای انگشت شما به عنوان روش اول قفل کردن استفاده خواهد شد. نوع دوم قفل کردن را از زیر انتخاب کنید.</string>
@@ -2001,8 +2030,8 @@ Determining your location will use the mobile network. Data usage will apply."</
     <string name="app_ops_settings_summary">مجوزهای برنامه را مشاهده کنید یا تغییر دهید.</string>
     <string name="backup_key_for_applock_header">برای قفل کردن یا بازگشایی قفل برنامه‌ها، یک الگو، پین یا رمز ورود برای استفاده همراه با شناسایی اثر انگشت تنظیم کنید.</string>
     <string name="backup_key_for_privatemode_header">برای دسترسی به حالت خصوصی، یک الگو، پین یا رمز ورود برای استفاده همراه با شناسایی اثر انگشت تنظیم کنید.</string>
-    <string name="status_added">افزوده شده</string>
     <string name="text_security_title_b2c">یک روش قفل کردن انتخاب کنید. اگر نحوه بازگشایی قفل پوشه امن را فراموش کرده‌اید، می‌توانید با استفاده از Samsung account، قفل خود را بازنشانی کنید.</string>
+    <string name="status_added">افزوده شده</string>
     <string name="lockpattern_backup_pin">پین نسخه پشتیبان</string>
     <string name="applock_type_fingerprint">اثر انگشت</string>
     <string name="unlock_set_unlock_two_factor_title">تأیید دو مرحله‌ای</string>
@@ -2218,7 +2247,7 @@ Determining your location will use the mobile network. Data usage will apply."</
     <string name="palm_swipe_title">حرکت کف دست برای عکسبرداری</string>
     <string name="screen_recorder_title">Record screen</string>
     <string name="screen_recorder_summary">Record video screenshots while you use your device.</string>
-    <string name="multi_window_setting_title">حرکت نمای پنجره بازشو</string>
+    <string name="multi_window_setting_title">عملکرد پنجره بازشو</string>
     <string name="multi_window_setting_description">وقتی برنامه در صفحه نمایش باز است، از یکی از گوشه‌های بالای صفحه انگشت را به صورت قطری به پایین بکشید و اندازه برنامه را تنظیم کنید.</string>
     <string name="multi_window_screen_title">چند پنجره</string>
     <string name="multi_window_screen_summary">همزمان بیشتر از یک برنامه نمایش داده می‌شود.</string>
@@ -2258,18 +2287,19 @@ Determining your location will use the mobile network. Data usage will apply."</
     <string name="air_browse_note_summary">در حالت مشاهده بین صفحات جابجا شوید</string>
     <string name="data_usage_enable_mobile_summery">از طریق شبکه تلفن همراه، به اینترنت دسترسی یابید.</string>
     <string name="data_usage_enable_mobile_warning_skt">اتصال به شبکه‌های تلفن همراه، بسته به طرح داده مورد استفاده، ممکن است باعث ایجاد هزینه اضافی شود. ادامه می‌دهید؟</string>
-    <string name="data_usage_enable_mobile_warning_ktt">اتصال به شبکه‌های تلفن همراه، بسته به طرح داده مورد استفاده، ممکن است باعث ایجاد هزینه اضافی شود. ادامه می‌دهید؟</string>
+    <string name="data_usage_enable_mobile_warning_ktt">داده تلفن همراه روشن خواهد شد. اتصال به شبکه تلفن همراه ممکن است بسته به قرارداد پرداخت شما مشمول هزینه اضافی شود.</string>
     <string name="data_usage_enable_mobile_warning_lgt">اتصال به شبکه‌های تلفن همراه، بسته به طرح داده مورد استفاده، ممکن است باعث ایجاد هزینه اضافی شود. ادامه می‌دهید؟</string>
     <string name="data_usage_disable_mobile_title">خاموش کردن داده تلفن همراه</string>
     <string name="data_usage_disable_mobile_warning_skt">قطع اتصال شبکه تلفن همراه استفاده از سرویس های داده 3G و پیام های چندرسانه ای را محدود می کند. اتصال قطع شود؟</string>
     <string name="data_usage_disable_mobile_warning_ktt">قطع اتصال شبکه تلفن همراه استفاده از سرویس های داده 3G و پیام های چندرسانه ای را محدود می کند. اتصال قطع شود؟</string>
     <string name="data_usage_disable_mobile_warning_ktt_jb">قطع اتصال شبکه تلفن همراه استفاده از سرویس های داده 3G و پیام های چندرسانه ای را محدود می کند. اتصال قطع شود؟</string>
-    <string name="mobile_data_off_dialog_text_vzw">"Unless you use Wi-Fi, you will not be able to use the Internet, Email, or other apps that require a data connection.
+    <string name="data_usage_disable_mobile_warning_dcm">"If Mobile data is turned off, your device must be connected to a Wi-Fi network to use services that require a network connection.
 
-Turn off Mobile data?"</string>
-    <string name="mobile_data_off_dialog_text_common">"اگر از Wi-Fi استفاده نکنید، استفاده از اینترنت، ایمیل یا برنامه‌های دیگری که به اتصال داده نیاز دارند، ممکن نخواهد بود.‎
-
-داده تلفن همراه غیرفعال می‌شود."</string>
+Mobile data will be turned off."</string>
+    <string name="mobile_data_off_dialog_text_vzw">"Unless you use Wi-Fi, you won't be able to use the Internet, Email or other apps that require a data connection. Turn off the mobile data connection?"</string>
+    <string name="mobile_data_off_dialog_text_volte">"Your phone's Video Calling function won't work when mobile data is off. Also, you won't be able to use the Internet, Email or other apps that need a data connection unless you use Wi-Fi. Turn off the mobile data connection?"</string>
+    <string name="mobile_data_off_dialog_text_common">بدون اتصال به شبکه Wi-Fi، قادر به استفاده از اینترنت، ایمیل یا برنامه‌های دیگری که به اتصال اینترنت نیاز دارند نخواهید بود.</string>
+    <string name="data_usage_turn_off_btn">خاموش کردن</string>
     <string name="wfd_settings_summary">صفحه دستگاه خود را با دستگاه دیگری به اشتراک بگذارید.</string>
     <string name="nfc_settings_advanced_explain">"روش پردازش NFC پیش‌فرض را تنظیم کنید.‎
 چند تراکنش NFC و سرویس‌های پرداخت تلفن همراه ممکن است به روش پردازش NFC پیش‌فرض دیگری نیاز داشته باشند."</string>
@@ -2409,7 +2439,7 @@ Turn off Mobile data?"</string>
     <string name="zen_mode_events_summary">به اعلان‌های S Planner و سایر رویدادهای تقویم اجازه داده شود.</string>
     <string name="zen_mode_events_summary_na">به اعلان از کارها و رویدادهای تقویم اجازه داده شود.</string>
     <string name="zen_mode_reminders_summary">به یادآورهای برنامه‌هایی که از آنها پشتیبانی می‌کنند اجازه دهید.</string>
-    <string name="dnd_app_noti_summary">وقفه‌ها را روی اعلان‌های اولویت‌دار تنظیم کنید تا به اعلان‌های برنامه به عنوان استثنا اجازه داده شود.</string>
+    <string name="dnd_app_noti_summary">اجازه دریافت اعلان از برنامه‌هایی که انتخاب کرده‌اید را بدهید.</string>
     <string name="no_exceptions_dcm_summary">Mute all calls and alerts, including Area Mail alarms.</string>
     <string name="dnd_screen_switch_summary">همه تماس‌ها و هشدارها، به جز استثنائات سفارشی‌تان را بی‌صدا کنید.</string>
     <string name="app_notification_priority_app_list_title">اعلان برنامه اولویت‌دار</string>
@@ -2456,7 +2486,7 @@ To unblock it and connect to other devices via a USB cable, insert a USIM/SIM ca
     <string name="personal_page_secretbox_disclaimer_title">رفع مسئولیت</string>
     <string name="personal_page_secretbox_disclaimer_message">تنظیم وضعیت خصوصی، از داده‌های شما در برابر دسترسی توسط برنامه‌های دیگر محافظت نمی‌کند. برای جلوگیری از همگام‌سازی داده‌ها با سرورهای بیرونی، لطفا تنظیمات همگام‌سازی خودکار را در دستگاهتان غیرفعال کنید.</string>
     <string name="personal_page_secretbox_disclaimer_message_vzw">Content moved into Private mode will be hidden and will not be shown when you exit from Private mode. Automatic syncing while in Private mode may allow that content to be visible in 3rd party apps. Check the automatic synchronization settings of your other applications before using Private mode.</string>
-    <string name="personal_page_tutorial_app_title_message">از حالت خصوصی برای مخفی کردن محتوایی که می‌خواهید خصوصی بماند استفاده کنید. وقتی از برنامه‌های زیر استفاده می‌کنید، مواردی را که می‌خواهید به خصوصی انتقال دهید، انتخاب کرده، روی &lt;بیشتر> ضربه بزنید و گزینه &lt;انتقال به خصوصی> را انتخاب کنید. وقتی حالت خصوصی فعال است، فقط محتوایی که به خصوصی انتقال یافته است قابل مشاهده می‌باشد.</string>
+    <string name="personal_page_tutorial_app_title_message">از حالت خصوصی برای مخفی کردن محتوایی که می‌خواهید خصوصی بماند استفاده کنید. وقتی از برنامه‌های زیر استفاده می‌کنید، مواردی را که می‌خواهید به خصوصی انتقال یابد، انتخاب کنید، سپس روی دکمه گزینه‌های بیشتر ضربه بزنید و گزینه &lt;انتقال به خصوصی> را انتخاب کنید. وقتی حالت خصوصی روشن است، فقط محتوایی که به خصوصی انتقال یافته است قابل مشاهده می‌باشد.</string>
     <string name="personal_page_inline_help">برای استفاده از حالت خصوصی، یک نوع دسترسی انتخاب کنید. اگر روش دسترسی به حالت خصوصی را فراموش کرده‌اید، نمی‌توانید آن را بازیابی کرده و از حالت خصوصی استفاده کنید، مگر این که دستگاه را به تنظیمات پیش‌فرض کارخانه بازنشانی کنید.</string>
     <string name="personal_page_backup_pin_summary">در صورتیکه الگو را فراموش کردید، یک پین پشتیبان برای حالت خصوصی ایجاد کنید.</string>
     <string name="personal_page_incorrect_pin">پین اشتباه است. دوباره امتحان کنید.</string>
@@ -2845,6 +2875,7 @@ To unblock it and connect to other devices via a USB cable, insert a USIM/SIM ca
     <string name="samsung_backup_summary">برای پشتیبان‌گیری از داده‌ها، از Samsung account خود استفاده کنید.</string>
     <string name="samsung_restore_summary">با استفاده از Samsung account خود، داده‌های پشتیبان را بازیابی کنید.</string>
     <string name="sns_settings_title">وقتی اتصال Wi-Fi ناپایدار می‌شود به اینترنت همراه تغییر وضعیت می‌دهد. تلفن شما همچنین می‌تواند از مناطقی که بیشتر بازدید شده به شبکه‌های Wi-Fi ذخیره شده برود. کلید شبکه هوشمند به طور خودکار شبکه‌های ذخیره شده Wi-Fi را روشن یا خاموش می‌کند.</string>
+    <string name="sns_settings_title_include_autowifi">وقتی اتصال Wi-Fi ناپایدار می‌شود به اینترنت همراه تغییر وضعیت می‌دهد. تلفن شما همچنین می‌تواند از مناطقی که بیشتر بازدید شده به شبکه‌های Wi-Fi ذخیره شده برود. کلید شبکه هوشمند به طور خودکار شبکه‌های ذخیره شده Wi-Fi را روشن یا خاموش می‌کند.</string>
     <string name="smart_bonding">تقویت‌کننده دانلود</string>
     <string name="smart_bonding_popup_title">فعال کردن تقویت‌کننده دانلود</string>
     <string name="smart_bonding_description_vzw">"Download large files (over %d MB) faster by using Wi-Fi and LTE networks at the same time. The Download booster icon will be shown on the status bar when Download booster is turned on.
@@ -3065,6 +3096,8 @@ Downloading via mobile networks may result in additional charges depending on yo
     <string name="wifi_manage_network">مدیریت شبکه ها</string>
     <string name="wlan_permission_available_message">Asks your permission to use WLAN via a pop-up</string>
     <string name="wlan_permission_available">Ask to use WLAN</string>
+    <string name="wifi_hotspot20_summary_tmo">به صورت یکپارچه و بدون نیاز به رمز عبور با نقاط دسترسی Wi-Fi دارای قابلیت Hotspot 2.0 متصل شوید.</string>
+    <string name="wifi_hotspot20_summary_dcm">زمانی‌که Wi-Fi روشن است به‌طور خودکار به شبکه Hotspot 2.0 Wi-Fi متصل شود.</string>
     <string name="wifi_hotspot20_summary">به طور خودکار به نقطه‌های دسترسی Wi-Fi که از Hotspot 2.0 پشتیبانی می‌کنند متصل می‌شود.</string>
     <string name="wifi_hotspot20_enable">Hotspot 2.0</string>
     <string name="wifi_att_auto_connect_summary">Automatically connect to AT&amp;T Wi-Fi hotspot when detected</string>
@@ -3083,9 +3116,9 @@ Downloading via mobile networks may result in additional charges depending on yo
     <string name="wifi_auto_reconnect">اتصال مجدد خودکار</string>
     <string name="wifi_enable_warning_chn">Turning on WLAN will disable Mobile hotspot.</string>
     <string name="wifi_enable_warning_vzw">‏Mobile Hotspot با روشن کردن Wi-Fi غیرفعال می‌شود. ادامه می‌دهید؟</string>
-    <string name="wifi_enable_warning_tmo">Wi-Fi is turned off when Mobile HotSpot is active. To turn on Wi-Fi, please turn off Mobile HotSpot.</string>
+    <string name="wifi_enable_warning_tmo">هنگامی که نقطه اتصال همراه فعال است Wi-Fi خاموش می‌شود. برای روشن کردن Wi-Fi، نقطه اتصال همراه را خاموش کنید.</string>
     <string name="wifi_enable_warning_spr">Turning on Wi-Fi will disable Hotspot.</string>
-    <string name="wifi_enable_warning_mtr">Turning on Wi-Fi will turn off Mobile Hotspot. Continue?</string>
+    <string name="wifi_enable_warning_mtr">وقتی نقطه اتصال همراه فعال است Wi-Fi خاموش می‌شود. برای روشن کردن Wi-Fi، نقطه اتصال همراه را خاموش کنید.</string>
     <string name="wifi_enable_warning_usc">Turning on Wi-Fi will turn off Portable Wi-Fi hotspot. Continue?</string>
     <string name="wifi_enable_warning">با روشن کردن Wi-Fi، نقطه اتصال تلفن همراه غیرفعال می‌شود.</string>
     <string name="wifi_control_history_title">سابقه کنترل Wi-Fi</string>
@@ -3119,9 +3152,9 @@ Downloading via mobile networks may result in additional charges depending on yo
     <string name="wifi_ap__wifi_sharing_vzw">Wi-Fi Sharing</string>
     <string name="wifi_ap__wifi_sharing">اشتراک‌گذاری Wi-Fi</string>
     <string name="first_use_wifi_msg_mtr">Tap OK to learn more about using Mobile Hotspot.</string>
-    <string name="first_use_wifi_msg">Tap OK to learn more about using Mobile HotSpot.</string>
+    <string name="first_use_wifi_msg">برای کسب اطلاعات بیشتر درباره استفاده از نقطه اتصال همراه روی &lt;تأیید> ضربه بزنید.</string>
     <string name="first_use_title_mtr">View Mobile Hotspot help</string>
-    <string name="first_use_title">View Mobile HotSpot help</string>
+    <string name="first_use_title">مشاهده راهنمای نقطه اتصال همراه</string>
     <string name="wifi_ap_wifi_sharing_title">اشتراک Wi-Fi فعال</string>
     <string name="wifi_ap_wifi_sharing_status_enabled">فعال</string>
     <string name="wifi_ap_wifi_sharing_status_disabled">غیرفعال شد</string>
@@ -3153,11 +3186,11 @@ Using Mobile hotspot increases battery consumption and data usage."</string>
 Mobile Hotspot uses mobile data from your data plan.
 
 We recommend keeping your phone plugged in to a charger while using Mobile Hotspot to save battery."</string>
-    <string name="wifi_ap_instruction_changeable_maxclient_tmo">"You can use your device as an Internet access point using Mobile HotSpot. This allows up to %d other devices to connect to it via Wi-Fi. The connected devices will have access to the Internet via your mobile network.
+    <string name="wifi_ap_instruction_changeable_maxclient_tmo">"می‌توانید با عملکرد نقطه اتصال همراه، از دستگاهتان به عنوان یک نقطه دسترسی به اینترنت استفاده کنید. این کار به %d دستگاه دیگر امکان می‌دهد از طریق Wi-Fi به آن متصل شوند. دستگاه‌های متصل از طریق شبکه تلفن همراه به اینترنت دسترسی خواهند داشت.
 
-You can create an allowed device profile and set the connection mode for it.
+می‌توانید نمایه‌ای جهت دستگاه‌های مجاز تهیه کنید و حالت اتصال را برای آن تنظیم کنید.
 
-Using Mobile HotSpot increases battery consumption and data usage."</string>
+استفاده از نقطه اتصال همراه موجب افزایش مصرف باتری و اینترنت همراه می‌شود."</string>
     <string name="wifi_ap_instruction_changeable_maxclient_spr">"You can share your device's Hotspot with Wi-Fi enabled devices.
 
 After you start the Mobile Hotspot Wi-Fi router, connect using the controls on your Wi-Fi enabled device."</string>
@@ -3190,7 +3223,7 @@ To configure Smartphone Mobile Hotspot, tap on the menu icon, and then tap “Co
     <string name="wifi_ap_hide_ssid">پنهان کردن دستگاه من</string>
     <string name="wifi_ap_wifi_off_warn_vzw">Mobile Hotspot uses your mobile data connection. Your Wi-Fi connection will be turned off.</string>
     <string name="wifi_ap_wifi_off_warn_spr">Enabling Hotspot will turn off Wi-Fi</string>
-    <string name="wifi_ap_wifi_off_warn_tmo">Wi-Fi is turned off when USB tethering or Mobile HotSpot is active. To turn on Wi-Fi, please turn off USB tethering or Mobile HotSpot.</string>
+    <string name="wifi_ap_wifi_off_warn_tmo">هنگامی که اتصال اینترنت با USB یا نقطه اتصال همراه فعال است، Wi-Fi خاموش می‌شود. برای روشن کردن Wi-Fi، اتصال اینترنت با USB یا نقطه اتصال همراه را روشن کنید.</string>
     <string name="wifi_ap_wifi_off_warn_chn">Enabling Mobile hotspot will turn off WLAN.</string>
     <string name="wifi_ap_wifi_off_warn_att">Turning on portable Wi-Fi hotspot will turn off Wi-Fi.</string>
     <string name="wifi_ap_wifi_off_warn_mtr">Wi-Fi is turned off when USB tethering or Mobile Hotspot is active. To turn on Wi-Fi, please turn off USB tethering or Mobile Hotspot.</string>
@@ -3261,6 +3294,7 @@ To configure Smartphone Mobile Hotspot, tap on the menu icon, and then tap “Co
     <string name="wifi_wps_onstart_pbc_mobileap">برای اتصال، دکمه WPS را در دستگاه دیگر فشار دهید.</string>
     <string name="wifi_wps_complete_mobileap">دستگاه دیگر به دستگاه شما متصل شد.</string>
     <string name="wifi_ap_disconnect_warn">قطع اتصال دستگاه</string>
+    <string name="wifi_ap_change_policy_warn_mtr">The device currently connected will be disconnected from Portable Wi-Fi Hotspot.</string>
     <string name="wifi_ap_change_policy_warn">اتصال همه دستگاههایی که در حال حاضر متصل هستند از نقطه اتصال تلفن همراه قطع خواهد شد.</string>
     <string name="wifi_ap_warn_max_whitelist">تعداد دستگاههای مجاز (‎%d) به حداکثر رسیده است.</string>
     <string name="wifiap_one_item_deleted">۱ مورد حذف می‌شود.</string>
@@ -3295,8 +3329,9 @@ Wi-Fi is now on."</string>
     <string name="wifi_tether_dialog_nosim_warning_title">نقطه اتصال Mobile</string>
     <string name="wifi_tether_dialog_nosim_warning_chn">Insert a SIM card to use Mobile hotspot and other tethering functions.</string>
     <string name="wifi_tether_dialog_nosim_warning_vzw">Insert a SIM card to use Mobile Hotspot and other tethering options.</string>
-    <string name="wifi_tether_dialog_nosim_warning_tmo">"Please install SIM card in order to share your phone's data connection with other devices using Mobile Wi-Fi HotSpot or USB tethering for Internet access."</string>
-    <string name="wifi_tether_dialog_nosim_warning_spr">Insert SIM for using Hotspot include tethering</string>
+    <string name="wifi_tether_dialog_nosim_warning_tmo">لطفاً سیم‌کارت را نصب کنید تا برای دسترسی به اینترنت، اتصال اینترنت همراه تلفن خود را با استفاده از نقطه اتصال Wi-Fi یا اتصال اینترنت با USB با دستگاه‌های دیگر به اشتراک بگذارید.</string>
+    <string name="wifi_tether_dialog_nosim_warning_mtr">"Please install SIM card in order to share your phone's data connection with other devices using Mobile Wi-Fi Hotspot or USB tethering for Internet access."</string>
+    <string name="wifi_tether_dialog_nosim_warning_spr">برای استفاده از نقطه اتصال، سیم‌کارتی جاگذاری کنید.</string>
     <string name="wifi_tether_dialog_nosim_warning_usc">برای استفاده از نقطه اتصال تلفن همراه و سایر عملکردهای اینترنت با واسطه، یک سیم‌کارت وارد کنید.</string>
     <string name="wifi_tether_dialog_nosim_warning">برای استفاده از نقطه اتصال تلفن همراه و سایر عملکردهای اینترنت با واسطه، یک سیم‌کارت وارد کنید.</string>
     <string name="mobileap_tmo">Mobile Hotspot</string>
@@ -3323,7 +3358,7 @@ Wi-Fi is now on."</string>
     <string name="wifi_ap_instruction_open_activate_color3_att">به ‎&lt;font color=\"%1$s\">%2$s&lt;/font>‎ متصل شوید.</string>
     <string name="wifi_ap_instruction_open_activate_color3">به ‎&lt;font color=\"%1$s\">%2$s&lt;/font>‎ متصل شوید.</string>
     <string name="wifi_ap_instruction_open_activate_color4_vzw">Enjoy your Mobile Hotspot.</string>
-    <string name="wifi_ap_instruction_open_activate_color4_tmo">Enjoy the internet using your personal Mobile HotSpot.</string>
+    <string name="wifi_ap_instruction_open_activate_color4_tmo">با استفاده از نقطه اتصال همراه شخصی از اینترنت بهره‌مند شوید.</string>
     <string name="wifi_ap_instruction_open_activate_color4_spr">Enjoy the Internet with Hotspot.</string>
     <string name="wifi_ap_instruction_open_activate_color4_att">Enjoy the Internet using Mobile hotspot.</string>
     <string name="wifi_ap_instruction_open_activate_color4_mtr">Enjoy the Internet using portable Wi-Fi hotspot.</string>
@@ -3342,7 +3377,7 @@ Wi-Fi is now on."</string>
     <string name="wifi_ap_instruction_activate_color3_att">با وارد کردن ‎&lt;font color=\"%1$s\">%3$s&lt;/font>‎ به عنوان رمز ورود، به ‎&lt;font color=\"%1$s\">%2$s&lt;/font>‎ متصل شوید.</string>
     <string name="wifi_ap_instruction_activate_color3">با وارد کردن ‎&lt;font color=\"%1$s\">%3$s&lt;/font>‎ به عنوان رمز ورود، به ‎&lt;font color=\"%1$s\">%2$s&lt;/font>‎ متصل شوید.</string>
     <string name="wifi_ap_instruction_activate_color4_vzw">Enjoy your Mobile Hotspot.</string>
-    <string name="wifi_ap_instruction_activate_color4_tmo">Enjoy the internet using your personal Mobile HotSpot.</string>
+    <string name="wifi_ap_instruction_activate_color4_tmo">با استفاده از نقطه اتصال همراه شخصی از اینترنت بهره‌مند شوید.</string>
     <string name="wifi_ap_instruction_activate_color4_spr">Enter &lt;font color=\"%1$s\">%3$s&lt;/font> in the &lt;font color=\"%1$s\">%4$s&lt;/font> field.</string>
     <string name="wifi_ap_instruction_activate_color4_att">Enjoy the Internet using Mobile hotspot.</string>
     <string name="wifi_ap_instruction_activate_color4_mtr">Enjoy the Internet using portable Wi-Fi hotspot.</string>
@@ -3364,16 +3399,16 @@ Wi-Fi is now on."</string>
     <string name="wifi_ap_instruction_activate_color_hidden3_chn">Connect to &lt;font color=\"%1$s\">%2$s&lt;/font> by entering &lt;font color=\"%1$s\">%3$s&lt;/font> as the password.</string>
     <string name="wifi_ap_instruction_activate_color_hidden3_tmo">Connect to &lt;font color=\"%1$s\">%2$s&lt;/font> by entering &lt;font color=\"%1$s\">%3$s&lt;/font> as the password.</string>
     <string name="wifi_ap_instruction_activate_color_hidden3">با وارد کردن ‎&lt;font color=\"%1$s\">%3$s&lt;/font>‎ به عنوان رمز ورود، به ‎&lt;font color=\"%1$s\">%2$s&lt;/font>‎ متصل شوید.</string>
-    <string name="wifi_ap_instruction_activate_color_hidden4_tmo">Enjoy the internet using your personal Mobile HotSpot.</string>
+    <string name="wifi_ap_instruction_activate_color_hidden4_tmo">با استفاده از نقطه اتصال همراه شخصی از اینترنت بهره‌مند شوید.</string>
     <string name="wifi_ap_instruction_no_maxclient">"می‌توانید با عملکرد نقطه اتصال تلفن همراه، از دستگاهتان به عنوان یک نقطه دسترسی به اینترنت استفاده کنید. این به دستگاه‌های دیگر امکان می‌دهد از طریق Wi-Fi به آن متصل شوند. دستگاه‌های متصل از طریق شبکه تلفن همراه به اینترنت دسترسی خواهند داشت.‎
 
 می‌توانید یک نمایه دستگاه مجاز ایجاد کرده و حالت اتصال را برای آن تنظیم کنید.‎
 
 استفاده از نقطه اتصال تلفن همراه نیروی باتری بیشتری مصرف کرده و مصرف داده‌هایتان را افزایش می‌دهد."</string>
     <string name="wifi_ap_instruction_configure_vzw">To change the Mobile Hotspot configuration, go to Settings > Mobile Hotspot and tethering > Mobile Hotspot > MORE, then select Configure Mobile Hotspot.</string>
-    <string name="wifi_ap_instruction_configure_tmo">To change the Mobile HotSpot configuration, tap the More options button, then select Configure Mobile HotSpot.</string>
+    <string name="wifi_ap_instruction_configure_tmo">برای تغییر پیکربندی نقطه اتصال همراه، روی دکمه گزینه‌های بیشتر ضربه زده و &lt;پیکربندی نقطه اتصال تلفن همراه> را انتخاب کنید.</string>
     <string name="wifi_ap_instruction_configure">برای تغییر پیکربندی نقطه اتصال تلفن همراه، روی دکمه &lt;گزینه‌های بیشتر> ضربه زده و &lt;پیکربندی نقطه اتصال تلفن همراه> را انتخاب کنید.</string>
-    <string name="wifi_ap_instruction_configure_non_grace_tmo">To change the Mobile HotSpot configuration, tap MORE, then select Configure Mobile HotSpot.</string>
+    <string name="wifi_ap_instruction_configure_non_grace_tmo">برای تغییر پیکربندی نقطه اتصال همراه، روی &lt;بیشتر> ضربه زده و &lt;پیکربندی نقطه اتصال همراه> را انتخاب کنید.</string>
     <string name="wifi_ap_instruction_configure_non_grace">برای تغییر پیکربندی نقطه اتصال تلفن همراه، روی &lt;بیشتر> ضربه زده و &lt;پیکربندی نقطه اتصال تلفن همراه> را انتخاب کنید.</string>
     <string name="wifi_ap_change_security">Change Security</string>
     <string name="wifi_ap_maxclient">حداکثر اتصالات</string>
@@ -3390,7 +3425,8 @@ Wi-Fi is now on."</string>
     <string name="wifi_tether_configure_ap_text_usc">Configure Wi-Fi hotspot</string>
     <string name="wifi_tether_configure_ap_text">پیکربندی نقطه اتصال تلفن همراه</string>
     <string name="wifi_ap_hidessid_warning">Your phone will be visible to other devices</string>
-    <string name="wifi_ap_first_time_configuration">First time HotSpot configuration</string>
+    <string name="wifi_ap_first_time_configuration_mtr">پیکربندی نقطه اتصال برای بار اول</string>
+    <string name="wifi_ap_first_time_configuration">پیکربندی نقطه اتصال برای بار اول</string>
     <string name="title_wifi_notify_mobileap_is_on">Wi-Fi and Mobile Hotspot</string>
     <string name="wifi_ssid_max_byte_error">تعداد نویسه‌ها به حداکثر رسیده است.</string>
     <string name="tethering_attention_title">توجه</string>
@@ -3533,6 +3569,8 @@ Wi-Fi is now on."</string>
     <string name="master_clear_desc_music">موزیک</string>
     <string name="master_clear_desc_pictures">عکس ها</string>
     <string name="master_clear_desc_other_user_data">بقیه داده‌های کاربر</string>
+    <string name="master_clear_not_enough_battery">قبل از بازنشانی تلفن، باتری را حداقل تا %d درصد شارژ کنید.</string>
+    <string name="master_clear_not_enough_battery_tablet">قبل از بازنشانی تبلت، باتری را حداقل تا %d درصد شارژ کنید.</string>
     <string name="text_two_locktype">اثر انگشت و ‎%s</string>
     <string name="pref_lock_type_title">تغییر روش قفل کردن</string>
     <string name="pref_lock_type_summary">نوع قفل</string>
@@ -3612,8 +3650,11 @@ Receiving SMS"</string>
     <string name="google_settings_popup_msg">Only a limited number of Google settings are available. Some actions may not work.</string>
     <string name="smart_lock_popup_msg">Only a limited number of Google settings are available. Some actions may not work.</string>
     <string name="prevent_to_change_by_device_policy">سیاست امنیتی از استفاده از %s جلوگیری می‌کند.</string>
+    <string name="quick_tile_sync_title">همگام سازی</string>
     <string name="name_jerusalem">بیت المقدس</string>
     <string name="name_israel">اسرائیل</string>
+    <string name="starting_android">در حال شروع Android…</string>
+    <string name="okay">تأیید</string>
     <string name="yes">بلی</string>
     <string name="no">خیر</string>
     <string name="create">ايجاد</string>
@@ -3711,7 +3752,6 @@ Receiving SMS"</string>
     <string name="phone_info_label">اطلاعات دستگاه</string>
     <string name="proxy_settings_label">تنظيمات پراکسی</string>
     <string name="cancel">خیر</string>
-    <string name="okay">تأیید</string>
     <string name="save">ذخیره</string>
     <string name="done">انجام شد</string>
     <string name="settings_label">تنظیمات</string>
@@ -5346,4 +5386,6 @@ Receiving SMS"</string>
     <string name="ucm_pins_do_not_match">پین‌ها یکسان نیستند</string>
     <string name="ucm_failed_to_connect_smartcard">اتصال به کارت هوشمند انجام نشد. با سرپرست دستگاه تماس بگیرید.</string>
     <string name="ucm_loading">در حال دانلود…</string>
+    <string name="usb_use_software_installation">Software Installation</string>
+    <string name="usb_use_software_installation_summary">Install Software Update and Repair tool for your device on a Mac or Windows computer.</string>
 </resources>

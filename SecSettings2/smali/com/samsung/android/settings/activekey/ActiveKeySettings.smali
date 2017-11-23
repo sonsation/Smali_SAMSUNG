@@ -82,7 +82,7 @@
 
     move-result-object v8
 
-    const v9, 0x7f0b0351
+    const v9, 0x7f0b0353
 
     invoke-virtual {v8, v9}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -94,7 +94,7 @@
 
     move-result-object v8
 
-    const v9, 0x7f0b0352
+    const v9, 0x7f0b0354
 
     invoke-virtual {v8, v9}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -106,7 +106,7 @@
 
     move-result-object v8
 
-    const v9, 0x7f0b0353
+    const v9, 0x7f0b0355
 
     invoke-virtual {v8, v9}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -118,7 +118,7 @@
 
     move-result-object v8
 
-    const v9, 0x7f0b0354
+    const v9, 0x7f0b0356
 
     invoke-virtual {v8, v9}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -130,7 +130,7 @@
 
     move-result-object v8
 
-    const v9, 0x7f0b0355
+    const v9, 0x7f0b0357
 
     invoke-virtual {v8, v9}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -142,7 +142,7 @@
 
     move-result-object v8
 
-    const v9, 0x7f0b0356
+    const v9, 0x7f0b0358
 
     invoke-virtual {v8, v9}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -356,7 +356,7 @@
 
     move-result-object v7
 
-    const v8, 0x7f02046a
+    const v8, 0x7f020468
 
     .line 170
     invoke-virtual {v6, v8, v7}, Landroid/content/res/Resources;->getDrawable(ILandroid/content/res/Resources$Theme;)Landroid/graphics/drawable/Drawable;
@@ -385,7 +385,7 @@
     .end local v1    # "guideImage":Landroid/widget/ImageView;
     .end local v4    # "productName":Ljava/lang/String;
     :cond_2
-    const v6, 0x7f0b0349
+    const v6, 0x7f0b034b
 
     invoke-virtual {p0, v6}, Lcom/samsung/android/settings/activekey/ActiveKeySettings;->getString(I)Ljava/lang/String;
 
@@ -401,7 +401,7 @@
 
     invoke-direct {v6}, Ljava/lang/StringBuilder;-><init>()V
 
-    const v7, 0x7f0b033e
+    const v7, 0x7f0b0340
 
     invoke-virtual {p0, v7}, Lcom/samsung/android/settings/activekey/ActiveKeySettings;->getString(I)Ljava/lang/String;
 
@@ -418,7 +418,7 @@
     move-result-object v6
 
     .line 164
-    const v7, 0x7f0b0343
+    const v7, 0x7f0b0345
 
     invoke-virtual {p0, v7}, Lcom/samsung/android/settings/activekey/ActiveKeySettings;->getString(I)Ljava/lang/String;
 
@@ -442,11 +442,11 @@
     .locals 11
 
     .prologue
-    const v10, 0x7f0b0462
+    const v10, 0x7f0b046a
 
-    const v9, 0x7f0b035c
+    const v9, 0x7f0b035e
 
-    const v8, 0x7f0b035b
+    const v8, 0x7f0b035d
 
     .line 180
     invoke-virtual {p0}, Lcom/samsung/android/settings/activekey/ActiveKeySettings;->getContentResolver()Landroid/content/ContentResolver;
@@ -759,9 +759,9 @@
     .locals 12
 
     .prologue
-    const v11, 0x7f0b0895
+    const v11, 0x7f0b08b2
 
-    const v10, 0x7f0b0894
+    const v10, 0x7f0b08b1
 
     const/4 v9, 0x1
 
@@ -790,7 +790,7 @@
     :cond_0
     iget-object v4, p0, Lcom/samsung/android/settings/activekey/ActiveKeySettings;->mShortPress:Landroid/preference/PreferenceScreen;
 
-    const v5, 0x7f0b1953
+    const v5, 0x7f0b1ad9
 
     invoke-virtual {v4, v5}, Landroid/preference/PreferenceScreen;->setSummary(I)V
 
@@ -812,7 +812,7 @@
     :cond_1
     iget-object v4, p0, Lcom/samsung/android/settings/activekey/ActiveKeySettings;->mLongPress:Landroid/preference/PreferenceScreen;
 
-    const v5, 0x7f0b1953
+    const v5, 0x7f0b1ad9
 
     invoke-virtual {v4, v5}, Landroid/preference/PreferenceScreen;->setSummary(I)V
 
@@ -842,7 +842,7 @@
     :cond_2
     iget-object v4, p0, Lcom/samsung/android/settings/activekey/ActiveKeySettings;->mDoublePress:Landroid/preference/PreferenceScreen;
 
-    const v5, 0x7f0b1953
+    const v5, 0x7f0b1ad9
 
     invoke-virtual {v4, v5}, Landroid/preference/PreferenceScreen;->setSummary(I)V
 

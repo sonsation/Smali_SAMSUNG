@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="data_saver_unrestricted_summary_chn">
+        <item quantity="other">पार्श्वभूमी डेटा प्रतिबंध सक्षम केलेला असताना %d अनुप्रयोगांना प्रतिबंधा शिवाय मोबाइल डेटा वापरण्याची अनुमती दिली.</item>
+        <item quantity="one">पार्श्वभूमी डेटा प्रतिबंध सक्षम केलेला असताना %d अनुप्रयोगांना प्रतिबंधा शिवाय मोबाइल डेटा वापरण्याची अनुमती दिली.</item>
+    </plurals>
     <plurals name="lock_timeout_hours">
         <item quantity="other">%d तास</item>
         <item quantity="one">1 तास</item>

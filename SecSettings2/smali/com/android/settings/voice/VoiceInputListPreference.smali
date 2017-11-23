@@ -54,7 +54,7 @@
     iput-object v0, p0, Lcom/android/settings/voice/VoiceInputListPreference;->mAvailableIndexes:Ljava/util/List;
 
     .line 38
-    const v0, 0x7f0b1668
+    const v0, 0x7f0b17ee
 
     invoke-virtual {p0, v0}, Lcom/android/settings/voice/VoiceInputListPreference;->setDialogTitle(I)V
 

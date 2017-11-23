@@ -67,7 +67,7 @@
 
     move-result-object v4
 
-    const v1, 0x7f0b18e2
+    const v1, 0x7f0b1a68
 
     .line 568
     invoke-static/range {v0 .. v5}, Lcom/android/settings/applications/AppInfoBase;->startAppInfoFragment(Ljava/lang/Class;ILjava/lang/String;ILandroid/app/Activity;I)V

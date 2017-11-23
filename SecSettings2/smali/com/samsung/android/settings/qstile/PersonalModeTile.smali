@@ -264,7 +264,7 @@
     .line 98
     iget-object v0, p0, Lcom/samsung/android/settings/qstile/PersonalModeTile;->mContext:Landroid/content/Context;
 
-    const v1, 0x7f0b0a8a
+    const v1, 0x7f0b0aab
 
     invoke-static {v0, v1, v3}, Landroid/widget/Toast;->makeText(Landroid/content/Context;II)Landroid/widget/Toast;
 
@@ -313,7 +313,7 @@
     .line 103
     iget-object v0, p0, Lcom/samsung/android/settings/qstile/PersonalModeTile;->mContext:Landroid/content/Context;
 
-    const v1, 0x7f0b0a81
+    const v1, 0x7f0b0aa2
 
     invoke-static {v0, v1, v3}, Landroid/widget/Toast;->makeText(Landroid/content/Context;II)Landroid/widget/Toast;
 
@@ -451,7 +451,7 @@
     if-eqz v1, :cond_2
 
     .line 86
-    const v2, 0x7f02041e
+    const v2, 0x7f02041c
 
     invoke-static {p0, v2}, Landroid/graphics/drawable/Icon;->createWithResource(Landroid/content/Context;I)Landroid/graphics/drawable/Icon;
 
@@ -460,7 +460,7 @@
     invoke-virtual {v1, v2}, Landroid/service/quicksettings/Tile;->setIcon(Landroid/graphics/drawable/Icon;)V
 
     .line 87
-    const v2, 0x7f0b0a6b
+    const v2, 0x7f0b0a8c
 
     invoke-virtual {p0, v2}, Lcom/samsung/android/settings/qstile/PersonalModeTile;->getString(I)Ljava/lang/String;
 
@@ -528,7 +528,7 @@
     .line 146
     iget-object v1, p0, Lcom/samsung/android/settings/qstile/PersonalModeTile;->mContext:Landroid/content/Context;
 
-    const v2, 0x7f0b0a8a
+    const v2, 0x7f0b0aab
 
     invoke-static {v1, v2, v3}, Landroid/widget/Toast;->makeText(Landroid/content/Context;II)Landroid/widget/Toast;
 
@@ -550,7 +550,7 @@
     .line 149
     iget-object v1, p0, Lcom/samsung/android/settings/qstile/PersonalModeTile;->mContext:Landroid/content/Context;
 
-    const v2, 0x7f0b0a81
+    const v2, 0x7f0b0aa2
 
     invoke-static {v1, v2, v3}, Landroid/widget/Toast;->makeText(Landroid/content/Context;II)Landroid/widget/Toast;
 
@@ -609,7 +609,7 @@
 
     .prologue
     .line 111
-    const v0, 0x7f0b0a6a
+    const v0, 0x7f0b0a8b
 
     invoke-virtual {p0, v0}, Lcom/samsung/android/settings/qstile/PersonalModeTile;->getString(I)Ljava/lang/String;
 
@@ -687,7 +687,7 @@
     .line 129
     iget-object v0, p0, Lcom/samsung/android/settings/qstile/PersonalModeTile;->mContext:Landroid/content/Context;
 
-    const v1, 0x7f0b0a8a
+    const v1, 0x7f0b0aab
 
     invoke-static {v0, v1, v2}, Landroid/widget/Toast;->makeText(Landroid/content/Context;II)Landroid/widget/Toast;
 
@@ -709,7 +709,7 @@
     .line 133
     iget-object v0, p0, Lcom/samsung/android/settings/qstile/PersonalModeTile;->mContext:Landroid/content/Context;
 
-    const v1, 0x7f0b0a81
+    const v1, 0x7f0b0aa2
 
     invoke-static {v0, v1, v2}, Landroid/widget/Toast;->makeText(Landroid/content/Context;II)Landroid/widget/Toast;
 

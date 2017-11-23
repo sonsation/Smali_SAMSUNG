@@ -108,7 +108,7 @@
     .locals 12
 
     .prologue
-    const v5, 0x7f0b15d4
+    const v5, 0x7f0b175a
 
     const/4 v4, 0x3
 
@@ -201,7 +201,7 @@
     aput-object v0, v10, v11
 
     .line 219
-    const v0, 0x7f0b15d2
+    const v0, 0x7f0b1758
 
     invoke-virtual {p0, v0, v10}, Lcom/android/settings/print/PrintJobSettingsFragment;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -299,7 +299,7 @@
 
     aput-object v2, v1, v3
 
-    const v2, 0x7f0b15d3
+    const v2, 0x7f0b1759
 
     .line 195
     invoke-virtual {p0, v2, v1}, Lcom/android/settings/print/PrintJobSettingsFragment;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
@@ -345,7 +345,7 @@
 
     aput-object v2, v1, v3
 
-    const v2, 0x7f0b15d5
+    const v2, 0x7f0b175b
 
     .line 204
     invoke-virtual {p0, v2, v1}, Lcom/android/settings/print/PrintJobSettingsFragment;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
@@ -380,7 +380,7 @@
 
     aput-object v2, v1, v3
 
-    const v2, 0x7f0b15d6
+    const v2, 0x7f0b175c
 
     .line 210
     invoke-virtual {p0, v2, v1}, Lcom/android/settings/print/PrintJobSettingsFragment;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
@@ -417,7 +417,7 @@
     :pswitch_5
     iget-object v0, p0, Lcom/android/settings/print/PrintJobSettingsFragment;->mPrintJobPreference:Landroid/preference/Preference;
 
-    const v1, 0x7f0201cd
+    const v1, 0x7f0201cb
 
     invoke-virtual {v0, v1}, Landroid/preference/Preference;->setIcon(I)V
 
@@ -427,7 +427,7 @@
     :pswitch_6
     iget-object v0, p0, Lcom/android/settings/print/PrintJobSettingsFragment;->mPrintJobPreference:Landroid/preference/Preference;
 
-    const v1, 0x7f0201ce
+    const v1, 0x7f0201cc
 
     invoke-virtual {v0, v1}, Landroid/preference/Preference;->setIcon(I)V
 
@@ -552,7 +552,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b15cf
+    const v1, 0x7f0b1755
 
     invoke-virtual {v0, v1}, Landroid/app/ActionBar;->setTitle(I)V
 
@@ -606,7 +606,7 @@
     if-nez v3, :cond_1
 
     .line 129
-    const v3, 0x7f0b15d1
+    const v3, 0x7f0b1757
 
     invoke-virtual {p0, v3}, Lcom/android/settings/print/PrintJobSettingsFragment;->getString(I)Ljava/lang/String;
 
@@ -631,7 +631,7 @@
     if-eqz v3, :cond_2
 
     .line 135
-    const v3, 0x7f0b15d0
+    const v3, 0x7f0b1756
 
     invoke-virtual {p0, v3}, Lcom/android/settings/print/PrintJobSettingsFragment;->getString(I)Ljava/lang/String;
 

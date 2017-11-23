@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="data_saver_unrestricted_summary_chn">
+        <item quantity="other">%d apper er tillatt å bruke mobildata uten begrensninger mens Begrens bakgrunnsdata er aktivert.</item>
+        <item quantity="one">%d apper er tillatt å bruke mobildata uten begrensninger mens Begrens bakgrunnsdata er aktivert.</item>
+    </plurals>
     <plurals name="lock_timeout_hours">
         <item quantity="other">%d timer</item>
         <item quantity="one">1 time</item>

@@ -106,7 +106,7 @@
     .line 89
     iget-object v0, p0, Lcom/samsung/android/settings/mirrorlink/MirrorLinkApplicationsPreference;->mValidCheck:Landroid/widget/TextView;
 
-    const v1, 0x7f0b0963
+    const v1, 0x7f0b0981
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -130,7 +130,7 @@
     .line 92
     iget-object v0, p0, Lcom/samsung/android/settings/mirrorlink/MirrorLinkApplicationsPreference;->mValidCheck:Landroid/widget/TextView;
 
-    const v1, 0x7f0b0965
+    const v1, 0x7f0b0983
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -151,7 +151,7 @@
     .line 95
     iget-object v0, p0, Lcom/samsung/android/settings/mirrorlink/MirrorLinkApplicationsPreference;->mValidCheck:Landroid/widget/TextView;
 
-    const v1, 0x7f0b0964
+    const v1, 0x7f0b0982
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 

@@ -37,7 +37,7 @@
     .param p1, "view"    # Landroid/view/View;
 
     .prologue
-    const v9, 0x7f0b0d88
+    const v9, 0x7f0b0dad
 
     const/4 v7, 0x1
 
@@ -95,7 +95,7 @@
     if-eqz v4, :cond_1
 
     .line 69
-    const v4, 0x7f020541
+    const v4, 0x7f02053f
 
     invoke-virtual {v2, v4}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -167,7 +167,7 @@
 
     .line 71
     :cond_1
-    const v4, 0x7f02053f
+    const v4, 0x7f02053d
 
     invoke-virtual {v2, v4}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -186,7 +186,7 @@
     if-eqz v4, :cond_3
 
     .line 77
-    const v4, 0x7f020540
+    const v4, 0x7f02053e
 
     invoke-virtual {v2, v4}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -194,7 +194,7 @@
 
     .line 79
     :cond_3
-    const v4, 0x7f02053e
+    const v4, 0x7f02053c
 
     invoke-virtual {v2, v4}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -213,7 +213,7 @@
     if-eqz v4, :cond_5
 
     .line 88
-    const v4, 0x7f0b0d89
+    const v4, 0x7f0b0dae
 
     invoke-virtual {v3, v4}, Landroid/widget/TextView;->setText(I)V
 
@@ -261,7 +261,7 @@
     if-nez v4, :cond_7
 
     .line 94
-    const v4, 0x7f0b0e82
+    const v4, 0x7f0b0ea8
 
     invoke-static {v4}, Lcom/samsung/android/settings/WifiApUtils;->getStringID(I)I
 
@@ -322,7 +322,7 @@
     .line 96
     .end local v1    # "maxClientNum":Ljava/lang/String;
     :cond_7
-    const v4, 0x7f0b0e80
+    const v4, 0x7f0b0ea6
 
     invoke-static {v4}, Lcom/samsung/android/settings/WifiApUtils;->getStringID(I)I
 
@@ -339,7 +339,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f0b0e7d
+    const v5, 0x7f0b0ea3
 
     invoke-virtual {v4, v5}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

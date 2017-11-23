@@ -740,7 +740,7 @@
 
     .line 294
     .local v1, "helper":Lcom/android/settings/ChooseLockSettingsHelper;
-    const v0, 0x7f0b07a3
+    const v0, 0x7f0b07bd
 
     invoke-virtual {p0, v0}, Lcom/samsung/android/settings/iris/IrisLockSettings;->getString(I)Ljava/lang/String;
 
@@ -809,7 +809,7 @@
 
     .line 305
     .local v1, "helper":Lcom/android/settings/ChooseLockSettingsHelper;
-    const v0, 0x7f0b10c2
+    const v0, 0x7f0b1249
 
     invoke-virtual {p0, v0}, Lcom/samsung/android/settings/iris/IrisLockSettings;->getString(I)Ljava/lang/String;
 
@@ -891,7 +891,7 @@
 
     const/4 v4, 0x0
 
-    const v5, 0x7f0b07a3
+    const v5, 0x7f0b07bd
 
     move-object v6, v3
 
@@ -987,7 +987,7 @@
 
     move-result-object v11
 
-    const v12, 0x7f0b07e1
+    const v12, 0x7f0b07fb
 
     invoke-virtual {v11, v12}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1037,7 +1037,7 @@
 
     move-result-object v11
 
-    const v12, 0x7f0b07e5
+    const v12, 0x7f0b07ff
 
     invoke-virtual {v11, v12}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1098,7 +1098,7 @@
 
     move-result-object v11
 
-    const v12, 0x7f0b07e3
+    const v12, 0x7f0b07fd
 
     invoke-virtual {v11, v12}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1118,7 +1118,7 @@
 
     move-result-object v12
 
-    const v13, 0x7f0b07e4
+    const v13, 0x7f0b07fe
 
     invoke-virtual {v12, v13}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1150,7 +1150,7 @@
 
     move-result-object v11
 
-    const v12, 0x7f0b07e6
+    const v12, 0x7f0b0800
 
     invoke-virtual {v11, v12}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1171,7 +1171,7 @@
 
     move-result-object v11
 
-    const v12, 0x7f0b07e2
+    const v12, 0x7f0b07fc
 
     invoke-virtual {v11, v12}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1326,21 +1326,21 @@
 
     .line 882
     :sswitch_0
-    const v0, 0x7f0b06fa
+    const v0, 0x7f0b0714
 
     .line 883
     goto :goto_0
 
     .line 887
     :sswitch_1
-    const v0, 0x7f0b06fc
+    const v0, 0x7f0b0716
 
     .line 888
     goto :goto_0
 
     .line 890
     :sswitch_2
-    const v0, 0x7f0b06fb
+    const v0, 0x7f0b0715
 
     .line 891
     goto :goto_0
@@ -1394,7 +1394,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0b07e0
+    const v4, 0x7f0b07fa
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1523,7 +1523,7 @@
     if-nez v5, :cond_0
 
     .line 822
-    const v7, 0x7f0b07ce
+    const v7, 0x7f0b07e8
 
     invoke-virtual {v0, v7}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
 
@@ -1536,7 +1536,7 @@
 
     invoke-direct {v7, p0}, Lcom/samsung/android/settings/iris/IrisLockSettings$6;-><init>(Lcom/samsung/android/settings/iris/IrisLockSettings;)V
 
-    const v8, 0x7f0b1457
+    const v8, 0x7f0b15dd
 
     invoke-virtual {v0, v8, v7}, Landroid/app/AlertDialog$Builder;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
 
@@ -1587,7 +1587,7 @@
     .local v4, "timeMsg":Ljava/lang/StringBuilder;
     iget-object v7, p0, Lcom/samsung/android/settings/iris/IrisLockSettings;->mContext:Landroid/content/Context;
 
-    const v8, 0x7f0b07ca
+    const v8, 0x7f0b07e4
 
     invoke-virtual {v7, v8}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1603,7 +1603,7 @@
     .line 794
     iget-object v7, p0, Lcom/samsung/android/settings/iris/IrisLockSettings;->mContext:Landroid/content/Context;
 
-    const v8, 0x7f0b07cb
+    const v8, 0x7f0b07e5
 
     invoke-virtual {v7, v8}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1629,7 +1629,7 @@
     .local v3, "proxiMsg":Ljava/lang/StringBuilder;
     iget-object v7, p0, Lcom/samsung/android/settings/iris/IrisLockSettings;->mContext:Landroid/content/Context;
 
-    const v8, 0x7f0b07cc
+    const v8, 0x7f0b07e6
 
     invoke-virtual {v7, v8}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1645,7 +1645,7 @@
     .line 801
     iget-object v7, p0, Lcom/samsung/android/settings/iris/IrisLockSettings;->mContext:Landroid/content/Context;
 
-    const v8, 0x7f0b07cd
+    const v8, 0x7f0b07e7
 
     invoke-virtual {v7, v8}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1671,7 +1671,7 @@
     .local v6, "unableMsg":Ljava/lang/StringBuilder;
     iget-object v7, p0, Lcom/samsung/android/settings/iris/IrisLockSettings;->mContext:Landroid/content/Context;
 
-    const v8, 0x7f0b07ec
+    const v8, 0x7f0b0806
 
     invoke-virtual {v7, v8}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1685,7 +1685,7 @@
     move-result-object v2
 
     .line 808
-    const v5, 0x7f0b07eb
+    const v5, 0x7f0b0805
 
     .line 809
     goto/16 :goto_0
@@ -1701,7 +1701,7 @@
     .local v1, "hwMsg":Ljava/lang/StringBuilder;
     iget-object v7, p0, Lcom/samsung/android/settings/iris/IrisLockSettings;->mContext:Landroid/content/Context;
 
-    const v8, 0x7f0b07ed
+    const v8, 0x7f0b0807
 
     invoke-virtual {v7, v8}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1715,7 +1715,7 @@
     move-result-object v2
 
     .line 814
-    const v5, 0x7f0b07eb
+    const v5, 0x7f0b0805
 
     .line 815
     goto/16 :goto_0
@@ -2312,7 +2312,7 @@
     :cond_14
     iget-object v2, p0, Lcom/samsung/android/settings/iris/IrisLockSettings;->mContext:Landroid/content/Context;
 
-    const v3, 0x7f0b071c
+    const v3, 0x7f0b0736
 
     invoke-virtual {p0, v3}, Lcom/samsung/android/settings/iris/IrisLockSettings;->getString(I)Ljava/lang/String;
 
@@ -2655,7 +2655,7 @@
     .line 698
     iget-object v2, p0, Lcom/samsung/android/settings/iris/IrisLockSettings;->mContext:Landroid/content/Context;
 
-    const v3, 0x7f0b07de
+    const v3, 0x7f0b07f8
 
     invoke-virtual {p0, v3}, Lcom/samsung/android/settings/iris/IrisLockSettings;->getString(I)Ljava/lang/String;
 
@@ -2781,7 +2781,7 @@
     invoke-static {v2, v3}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 137
-    const v2, 0x7f0b0714
+    const v2, 0x7f0b072e
 
     invoke-virtual {p0, v2}, Lcom/samsung/android/settings/iris/IrisLockSettings;->getString(I)Ljava/lang/String;
 

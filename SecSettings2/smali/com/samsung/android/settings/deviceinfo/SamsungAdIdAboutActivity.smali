@@ -90,7 +90,7 @@
     sput-object v2, Lcom/samsung/android/settings/deviceinfo/SamsungAdIdAboutActivity;->textView:Landroid/widget/TextView;
 
     .line 40
-    const v2, 0x7f0b0547
+    const v2, 0x7f0b055b
 
     invoke-virtual {p0, v2}, Lcom/samsung/android/settings/deviceinfo/SamsungAdIdAboutActivity;->getString(I)Ljava/lang/String;
 
@@ -98,7 +98,7 @@
 
     .line 41
     .local v0, "phrase1":Ljava/lang/String;
-    const v2, 0x7f0b0548
+    const v2, 0x7f0b055c
 
     invoke-virtual {p0, v2}, Lcom/samsung/android/settings/deviceinfo/SamsungAdIdAboutActivity;->getString(I)Ljava/lang/String;
 

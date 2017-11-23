@@ -136,7 +136,7 @@
     iput-boolean v0, p0, Lcom/samsung/android/settings/face/FaceEntry;->mIsWaitingResult:Z
 
     .line 237
-    const v0, 0x7f0b10c2
+    const v0, 0x7f0b1249
 
     invoke-virtual {p0, v0}, Lcom/samsung/android/settings/face/FaceEntry;->getString(I)Ljava/lang/String;
 
@@ -226,7 +226,7 @@
     aput-object v7, v6, v8
 
     .line 145
-    const v7, 0x7f0b068e
+    const v7, 0x7f0b06a8
 
     invoke-virtual {v5, v7, v6}, Landroid/content/res/Resources;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -241,7 +241,7 @@
     invoke-direct {v5, v6}, Landroid/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
 
     .line 148
-    const v6, 0x7f0b0685
+    const v6, 0x7f0b069f
 
     .line 147
     invoke-virtual {v5, v6}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
@@ -295,7 +295,7 @@
     if-eqz v5, :cond_1
 
     .line 164
-    const v5, 0x7f0b0714
+    const v5, 0x7f0b072e
 
     invoke-virtual {p0, v5}, Lcom/samsung/android/settings/face/FaceEntry;->getString(I)Ljava/lang/String;
 
@@ -403,7 +403,7 @@
 
     .prologue
     .line 275
-    const v1, 0x7f0b0688
+    const v1, 0x7f0b06a2
 
     if-ne p1, v1, :cond_0
 
@@ -422,7 +422,7 @@
     if-eqz v1, :cond_0
 
     .line 277
-    const p1, 0x7f0b0689
+    const p1, 0x7f0b06a3
 
     .line 280
     :cond_0
@@ -433,7 +433,7 @@
     invoke-direct {v1, v2}, Landroid/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
 
     .line 281
-    const v2, 0x7f0b0685
+    const v2, 0x7f0b069f
 
     .line 280
     invoke-virtual {v1, v2}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
@@ -481,7 +481,7 @@
     .param p1, "context"    # Landroid/content/Context;
 
     .prologue
-    const v5, 0x7f0b074c
+    const v5, 0x7f0b0766
 
     const/4 v4, 0x0
 
@@ -878,7 +878,7 @@
     invoke-static {v1, v2}, Landroid/util/secutil/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 79
-    const v1, 0x7f0b0714
+    const v1, 0x7f0b072e
 
     invoke-virtual {p0, v1}, Lcom/samsung/android/settings/face/FaceEntry;->getString(I)Ljava/lang/String;
 
@@ -1110,7 +1110,7 @@
     if-nez v1, :cond_5
 
     .line 111
-    const v1, 0x7f0b068b
+    const v1, 0x7f0b06a5
 
     invoke-direct {p0, v1}, Lcom/samsung/android/settings/face/FaceEntry;->showSensorErrorDialog(I)V
 

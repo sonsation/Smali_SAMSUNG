@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="data_saver_unrestricted_summary_chn">
+        <item quantity="other">در حالی که محدود کردن اینترنت همراه در پس‌زمینه فعال است، به %d برنامه اجازه داده می‌شود که بدون محدودیت از اینترنت همراه استفاده کنند.</item>
+        <item quantity="one">در حالی که محدود کردن اینترنت همراه در پس‌زمینه فعال است، به %d برنامه اجازه داده می‌شود که بدون محدودیت از اینترنت همراه استفاده کنند.</item>
+    </plurals>
     <plurals name="lock_timeout_hours">
         <item quantity="other">%d ساعت</item>
         <item quantity="one">۱ ساعت</item>

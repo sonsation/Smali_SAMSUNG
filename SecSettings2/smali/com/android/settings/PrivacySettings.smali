@@ -303,7 +303,7 @@
     :cond_0
     iget-object v0, p0, Lcom/android/settings/PrivacySettings;->mConfigure:Landroid/support/v7/preference/PreferenceScreen;
 
-    const v1, 0x7f0b16ab
+    const v1, 0x7f0b1831
 
     invoke-virtual {v0, v1}, Landroid/support/v7/preference/PreferenceScreen;->setSummary(I)V
 
@@ -413,7 +413,7 @@
     if-eqz v0, :cond_1
 
     .line 168
-    const v12, 0x7f0b1591
+    const v12, 0x7f0b1717
 
     .line 167
     :goto_0
@@ -505,7 +505,7 @@
     .restart local v7    # "manageLabel":Ljava/lang/String;
     .restart local v9    # "transport":Ljava/lang/String;
     :cond_1
-    const v12, 0x7f0b1592
+    const v12, 0x7f0b1718
 
     goto :goto_0
 
@@ -655,7 +655,7 @@
 
     .prologue
     .line 219
-    const v0, 0x7f0b1822
+    const v0, 0x7f0b19a8
 
     return v0
 .end method

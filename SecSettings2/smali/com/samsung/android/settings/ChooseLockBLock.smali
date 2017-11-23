@@ -80,7 +80,7 @@
     .line 48
     const-string/jumbo v1, ":android:show_fragment_title"
 
-    const v2, 0x7f0b087e
+    const v2, 0x7f0b089a
 
     invoke-virtual {v0, v1, v2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;I)Landroid/content/Intent;
 

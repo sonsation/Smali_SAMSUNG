@@ -957,7 +957,7 @@
 
     .line 723
     .local v0, "headerBar":Landroid/widget/LinearLayout;
-    const v1, 0x7f0200e0
+    const v1, 0x7f0200de
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->setBackgroundResource(I)V
 
@@ -1693,7 +1693,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f0b05d6
+    const v6, 0x7f0b05ea
 
     invoke-virtual {v5, v6}, Landroid/content/res/Resources;->getText(I)Ljava/lang/CharSequence;
 
@@ -1846,7 +1846,7 @@
 
     move-result-object v3
 
-    const v5, 0x7f0b05e7
+    const v5, 0x7f0b05fb
 
     invoke-virtual {v3, v5}, Landroid/content/res/Resources;->getText(I)Ljava/lang/CharSequence;
 
@@ -1881,7 +1881,7 @@
     .prologue
     const v3, 0x7f0d0165
 
-    const v2, 0x7f0205a1
+    const v2, 0x7f02059f
 
     .line 575
     if-eqz p1, :cond_5
@@ -1914,7 +1914,7 @@
     .line 580
     iget-object v0, p0, Lcom/samsung/android/settings/display/FontPreview;->mFontSizeSeekBar:Lcom/samsung/android/settings/widget/IntervalSeekBar;
 
-    const v1, 0x7f020581
+    const v1, 0x7f02057f
 
     invoke-virtual {v0, v1}, Lcom/samsung/android/settings/widget/IntervalSeekBar;->setDrawable(I)V
 
@@ -2018,7 +2018,7 @@
     .line 590
     iget-object v0, p0, Lcom/samsung/android/settings/display/FontPreview;->mFontSizeSeekBar:Lcom/samsung/android/settings/widget/IntervalSeekBar;
 
-    const v1, 0x7f020580
+    const v1, 0x7f02057e
 
     invoke-virtual {v0, v1}, Lcom/samsung/android/settings/widget/IntervalSeekBar;->setDrawable(I)V
 
@@ -2277,7 +2277,7 @@
 
     iget-object v4, p0, Lcom/samsung/android/settings/display/FontPreview;->mContext:Landroid/content/Context;
 
-    const v5, 0x7f0205a1
+    const v5, 0x7f02059f
 
     invoke-virtual {v4, v5}, Landroid/content/Context;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -2452,7 +2452,7 @@
 
     move-result-object v3
 
-    const v5, 0x7f0b05e5
+    const v5, 0x7f0b05f9
 
     invoke-virtual {v3, v5}, Landroid/content/res/Resources;->getText(I)Ljava/lang/CharSequence;
 
@@ -2491,7 +2491,7 @@
 
     move-result-object v3
 
-    const v5, 0x7f0b05e6
+    const v5, 0x7f0b05fa
 
     invoke-virtual {v3, v5}, Landroid/content/res/Resources;->getText(I)Ljava/lang/CharSequence;
 
@@ -3041,7 +3041,7 @@
     invoke-direct {v2, p0}, Landroid/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
 
     .line 1547
-    const v3, 0x7f0b05d5
+    const v3, 0x7f0b05e9
 
     .line 1546
     invoke-virtual {v2, v3}, Landroid/app/AlertDialog$Builder;->setMessage(I)Landroid/app/AlertDialog$Builder;
@@ -3053,7 +3053,7 @@
 
     invoke-direct {v3, p0, p1}, Lcom/samsung/android/settings/display/FontPreview$11;-><init>(Lcom/samsung/android/settings/display/FontPreview;Ljava/lang/String;)V
 
-    const v4, 0x7f0b1715
+    const v4, 0x7f0b189b
 
     .line 1546
     invoke-virtual {v2, v4, v3}, Landroid/app/AlertDialog$Builder;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
@@ -3118,7 +3118,7 @@
 
     check-cast v1, Landroid/widget/ImageView;
 
-    const v2, 0x7f0200ce
+    const v2, 0x7f0200cc
 
     invoke-virtual {v1, v2}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -3137,7 +3137,7 @@
 
     check-cast v1, Landroid/widget/ImageView;
 
-    const v2, 0x7f0200cf
+    const v2, 0x7f0200cd
 
     invoke-virtual {v1, v2}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -4344,7 +4344,7 @@
     if-eqz v3, :cond_1
 
     .line 283
-    const v3, 0x7f0b05b4
+    const v3, 0x7f0b05c8
 
     move-object/from16 v0, p0
 
@@ -4712,7 +4712,7 @@
 
     .line 290
     :cond_b
-    const v3, 0x7f0b05b4
+    const v3, 0x7f0b05c8
 
     move-object/from16 v0, p0
 
@@ -4749,7 +4749,7 @@
 
     .line 311
     .local v26, "startFontSize":Landroid/widget/TextView;
-    const v3, 0x7f0b0450
+    const v3, 0x7f0b0458
 
     move-object/from16 v0, v26
 
@@ -4768,7 +4768,7 @@
 
     .line 313
     .local v14, "endFontSize":Landroid/widget/TextSwitcher;
-    const v3, 0x7f0b044f
+    const v3, 0x7f0b0457
 
     move-object/from16 v0, p0
 
@@ -4985,7 +4985,7 @@
 
     .line 373
     .local v23, "point":Landroid/widget/ImageView;
-    const v3, 0x7f0b0987
+    const v3, 0x7f0b09a5
 
     move-object/from16 v0, p0
 
@@ -5097,7 +5097,7 @@
 
     check-cast v3, Landroid/widget/ImageView;
 
-    const v4, 0x7f0200cf
+    const v4, 0x7f0200cd
 
     invoke-virtual {v3, v4}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -5571,7 +5571,7 @@
     .param p1, "menu"    # Landroid/view/Menu;
 
     .prologue
-    const v3, 0x7f0205ad
+    const v3, 0x7f0205ab
 
     .line 1094
     invoke-super {p0, p1}, Lcom/android/settings/InstrumentedActivity;->onCreateOptionsMenu(Landroid/view/Menu;)Z
@@ -5633,7 +5633,7 @@
     .line 1110
     iget-object v1, p0, Lcom/samsung/android/settings/display/FontPreview;->mSaveButton:Landroid/widget/Button;
 
-    const v2, 0x7f0b0437
+    const v2, 0x7f0b043f
 
     invoke-virtual {v1, v2}, Landroid/widget/Button;->setText(I)V
 
@@ -5849,7 +5849,7 @@
 
     move-result-object v20
 
-    const v21, 0x7f0b05e9
+    const v21, 0x7f0b05fd
 
     invoke-virtual/range {v20 .. v21}, Landroid/content/res/Resources;->getText(I)Ljava/lang/CharSequence;
 
@@ -5879,7 +5879,7 @@
 
     move-result-object v20
 
-    const v21, 0x7f0b05cf
+    const v21, 0x7f0b05e3
 
     invoke-virtual/range {v20 .. v21}, Landroid/content/res/Resources;->getText(I)Ljava/lang/CharSequence;
 
@@ -5936,7 +5936,7 @@
 
     move-result-object v20
 
-    const v21, 0x7f0b05ce
+    const v21, 0x7f0b05e2
 
     invoke-virtual/range {v20 .. v21}, Landroid/content/res/Resources;->getText(I)Ljava/lang/CharSequence;
 
@@ -6165,7 +6165,7 @@
 
     move-result-object v20
 
-    const v21, 0x7f0b05cb
+    const v21, 0x7f0b05df
 
     invoke-virtual/range {v20 .. v21}, Landroid/content/res/Resources;->getText(I)Ljava/lang/CharSequence;
 
@@ -6520,7 +6520,7 @@
 
     move-result-object v20
 
-    const v21, 0x7f0b05cd
+    const v21, 0x7f0b05e1
 
     invoke-virtual/range {v20 .. v21}, Landroid/content/res/Resources;->getText(I)Ljava/lang/CharSequence;
 

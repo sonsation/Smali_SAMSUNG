@@ -261,7 +261,7 @@
     .param p1, "icicle"    # Landroid/os/Bundle;
 
     .prologue
-    const v7, 0x7f0b17e5
+    const v7, 0x7f0b196b
 
     const/4 v4, 0x1
 
@@ -695,7 +695,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b0c9c
+    const v1, 0x7f0b0cbe
 
     invoke-static {v0, v1, v2}, Landroid/widget/Toast;->makeText(Landroid/content/Context;II)Landroid/widget/Toast;
 

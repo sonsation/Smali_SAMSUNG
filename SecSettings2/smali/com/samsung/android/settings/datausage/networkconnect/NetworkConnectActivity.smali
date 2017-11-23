@@ -1225,7 +1225,7 @@
     :cond_0
     iget-object v3, p0, Lcom/samsung/android/settings/datausage/networkconnect/NetworkConnectActivity;->mDialog:Landroid/app/ProgressDialog;
 
-    const v4, 0x7f0b03cb
+    const v4, 0x7f0b03cd
 
     invoke-virtual {p0, v4}, Lcom/samsung/android/settings/datausage/networkconnect/NetworkConnectActivity;->getString(I)Ljava/lang/String;
 
@@ -1923,7 +1923,7 @@
     .line 149
     iget-object v7, p0, Lcom/samsung/android/settings/datausage/networkconnect/NetworkConnectActivity;->mWlanText:Landroid/widget/TextView;
 
-    const v8, 0x7f0b0cca
+    const v8, 0x7f0b0cec
 
     invoke-virtual {p0, v8}, Lcom/samsung/android/settings/datausage/networkconnect/NetworkConnectActivity;->getString(I)Ljava/lang/String;
 
@@ -1934,7 +1934,7 @@
     .line 150
     iget-object v7, p0, Lcom/samsung/android/settings/datausage/networkconnect/NetworkConnectActivity;->mMobileText:Landroid/widget/TextView;
 
-    const v8, 0x7f0b0cc9
+    const v8, 0x7f0b0ceb
 
     invoke-virtual {p0, v8}, Lcom/samsung/android/settings/datausage/networkconnect/NetworkConnectActivity;->getString(I)Ljava/lang/String;
 

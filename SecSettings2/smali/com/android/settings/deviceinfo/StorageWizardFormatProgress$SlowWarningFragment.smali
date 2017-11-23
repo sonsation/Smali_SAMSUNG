@@ -77,7 +77,7 @@
 
     aput-object v3, v5, v6
 
-    const v6, 0x7f0b138e
+    const v6, 0x7f0b1514
 
     invoke-virtual {p0, v6, v5}, Lcom/android/settings/deviceinfo/StorageWizardFormatProgress$SlowWarningFragment;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 

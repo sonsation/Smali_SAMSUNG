@@ -385,7 +385,7 @@
 
     if-eqz v17, :cond_2
 
-    const v5, 0x7f020384
+    const v5, 0x7f020382
 
     .line 225
     .local v5, "bubbleDrawableResId":I
@@ -505,7 +505,7 @@
     .restart local v9    # "messageTopPadding":I
     .restart local v10    # "metadataTopPadding":I
     :cond_2
-    const v5, 0x7f020385
+    const v5, 0x7f020383
 
     .restart local v5    # "bubbleDrawableResId":I
     goto :goto_2
@@ -568,7 +568,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0200d6
+    const v2, 0x7f0200d4
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 

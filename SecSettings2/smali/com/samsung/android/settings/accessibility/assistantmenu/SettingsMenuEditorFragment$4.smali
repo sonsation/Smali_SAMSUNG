@@ -43,7 +43,7 @@
     .param p2, "event"    # Landroid/view/MotionEvent;
 
     .prologue
-    const v2, 0x7f020379
+    const v2, 0x7f020377
 
     .line 502
     invoke-virtual {p2}, Landroid/view/MotionEvent;->getActionMasked()I
@@ -73,7 +73,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f02037a
+    const v1, 0x7f020378
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setBackgroundResource(I)V
 

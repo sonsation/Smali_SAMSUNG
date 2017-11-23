@@ -300,17 +300,17 @@
     sput v1, Lcom/android/settings/fingerprint/FingerprintProgressEffectView;->strokeWidth:I
 
     .line 150
-    const v1, 0x7f020115
+    const v1, 0x7f020113
 
     sput v1, Lcom/android/settings/fingerprint/FingerprintProgressEffectView;->inverseFingerResID:I
 
     .line 151
-    const v1, 0x7f02011a
+    const v1, 0x7f020118
 
     sput v1, Lcom/android/settings/fingerprint/FingerprintProgressEffectView;->completeResID:I
 
     .line 152
-    const v1, 0x7f02011b
+    const v1, 0x7f020119
 
     sput v1, Lcom/android/settings/fingerprint/FingerprintProgressEffectView;->completeShadowResID:I
 
@@ -354,17 +354,17 @@
     sput v1, Lcom/android/settings/fingerprint/FingerprintProgressEffectView;->strokeWidth:I
 
     .line 159
-    const v1, 0x7f02011e
+    const v1, 0x7f02011c
 
     sput v1, Lcom/android/settings/fingerprint/FingerprintProgressEffectView;->inverseFingerResID:I
 
     .line 160
-    const v1, 0x7f020114
+    const v1, 0x7f020112
 
     sput v1, Lcom/android/settings/fingerprint/FingerprintProgressEffectView;->completeResID:I
 
     .line 161
-    const v1, 0x7f020116
+    const v1, 0x7f020114
 
     sput v1, Lcom/android/settings/fingerprint/FingerprintProgressEffectView;->completeShadowResID:I
 

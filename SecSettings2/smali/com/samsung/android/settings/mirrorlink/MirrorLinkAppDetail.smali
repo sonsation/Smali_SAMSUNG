@@ -318,7 +318,7 @@
     .line 340
     iget-object v0, p0, Lcom/samsung/android/settings/mirrorlink/MirrorLinkAppDetail;->mValidCheck:Landroid/widget/TextView;
 
-    const v1, 0x7f0b0963
+    const v1, 0x7f0b0981
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -378,7 +378,7 @@
     .line 346
     iget-object v0, p0, Lcom/samsung/android/settings/mirrorlink/MirrorLinkAppDetail;->mValidCheck:Landroid/widget/TextView;
 
-    const v1, 0x7f0b0965
+    const v1, 0x7f0b0983
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -414,7 +414,7 @@
     .line 352
     iget-object v0, p0, Lcom/samsung/android/settings/mirrorlink/MirrorLinkAppDetail;->mValidCheck:Landroid/widget/TextView;
 
-    const v1, 0x7f0b0964
+    const v1, 0x7f0b0982
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -619,7 +619,7 @@
     const/4 v1, 0x0
 
     .line 304
-    const v0, 0x7f0b0962
+    const v0, 0x7f0b0980
 
     invoke-interface {p1, v1, v2, v1, v0}, Landroid/view/Menu;->add(IIII)Landroid/view/MenuItem;
 

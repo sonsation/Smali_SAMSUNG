@@ -118,7 +118,7 @@
     if-eqz v0, :cond_1
 
     .line 36
-    const v0, 0x7f0205b1
+    const v0, 0x7f0205af
 
     invoke-virtual {p0, v0}, Lcom/samsung/android/settings/widget/BottomBarButton;->setBackgroundResource(I)V
 

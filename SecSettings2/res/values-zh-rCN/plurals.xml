@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="data_saver_unrestricted_summary_chn">
+        <item quantity="other">已允许 %d 个应用程序在启用【限制后台流量】期间随意使用数据流量</item>
+        <item quantity="one">已允许 %d 个应用程序在启用【限制后台流量】期间随意使用数据流量</item>
+    </plurals>
     <plurals name="lock_timeout_hours">
         <item quantity="other">%d 小时</item>
         <item quantity="one">1 小时</item>

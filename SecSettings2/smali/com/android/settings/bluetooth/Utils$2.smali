@@ -50,7 +50,7 @@
 
     .prologue
     .line 176
-    const v0, 0x7f0b1164
+    const v0, 0x7f0b12ea
 
     invoke-static {p1, p2, v0}, Lcom/android/settings/bluetooth/Utils;->showError(Landroid/content/Context;Ljava/lang/String;I)V
 
@@ -106,7 +106,7 @@
 
     aput-object p2, v1, v3
 
-    const v2, 0x7f0b03e4
+    const v2, 0x7f0b03e6
 
     invoke-virtual {p1, v2, v1}, Landroid/content/Context;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -129,7 +129,7 @@
 
     aput-object p2, v1, v4
 
-    const v2, 0x7f0b03e3
+    const v2, 0x7f0b03e5
 
     invoke-virtual {p1, v2, v1}, Landroid/content/Context;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 

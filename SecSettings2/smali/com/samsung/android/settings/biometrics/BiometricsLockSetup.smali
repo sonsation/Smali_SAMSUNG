@@ -218,7 +218,7 @@
     if-eqz v3, :cond_0
 
     .line 66
-    const v4, 0x7f0b075a
+    const v4, 0x7f0b0774
 
     invoke-virtual {v3, v4}, Landroid/widget/TextView;->setText(I)V
 
@@ -227,7 +227,7 @@
     if-eqz v0, :cond_1
 
     .line 69
-    const v4, 0x7f0b075b
+    const v4, 0x7f0b0775
 
     invoke-virtual {v0, v4}, Landroid/widget/TextView;->setText(I)V
 
@@ -236,7 +236,7 @@
     if-eqz v2, :cond_2
 
     .line 72
-    const v4, 0x7f0b075c
+    const v4, 0x7f0b0776
 
     invoke-virtual {v2, v4}, Landroid/widget/TextView;->setText(I)V
 
@@ -246,7 +246,7 @@
     if-eqz v1, :cond_3
 
     .line 91
-    const v4, 0x7f0b076d
+    const v4, 0x7f0b0787
 
     invoke-virtual {v1, v4}, Landroid/widget/TextView;->setText(I)V
 
@@ -264,7 +264,7 @@
     if-eqz v3, :cond_5
 
     .line 76
-    const v4, 0x7f0b0698
+    const v4, 0x7f0b06b2
 
     invoke-virtual {v3, v4}, Landroid/widget/TextView;->setText(I)V
 
@@ -280,7 +280,7 @@
     if-eqz v4, :cond_7
 
     .line 80
-    const v4, 0x7f0b069a
+    const v4, 0x7f0b06b4
 
     invoke-virtual {v0, v4}, Landroid/widget/TextView;->setText(I)V
 
@@ -290,7 +290,7 @@
     if-eqz v2, :cond_2
 
     .line 86
-    const v4, 0x7f0b069b
+    const v4, 0x7f0b06b5
 
     invoke-virtual {v2, v4}, Landroid/widget/TextView;->setText(I)V
 
@@ -298,7 +298,7 @@
 
     .line 82
     :cond_7
-    const v4, 0x7f0b0699
+    const v4, 0x7f0b06b3
 
     invoke-virtual {v0, v4}, Landroid/widget/TextView;->setText(I)V
 
@@ -499,7 +499,7 @@
     invoke-static {v0, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 36
-    const v0, 0x7f0b0714
+    const v0, 0x7f0b072e
 
     invoke-virtual {p0, v0}, Lcom/samsung/android/settings/biometrics/BiometricsLockSetup;->getString(I)Ljava/lang/String;
 

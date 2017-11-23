@@ -403,7 +403,7 @@
     if-eqz v0, :cond_0
 
     .line 102
-    const v1, 0x7f0b05f7
+    const v1, 0x7f0b060b
 
     invoke-virtual {v0, v1}, Landroid/app/ActionBar;->setTitle(I)V
 
@@ -575,7 +575,7 @@
     aput-object v2, v1, v3
 
     .line 77
-    const v2, 0x7f0b05f9
+    const v2, 0x7f0b060d
 
     invoke-virtual {p0, v2, v1}, Lcom/samsung/android/settings/devicevisibility/DeviceVisibilitySettings;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 

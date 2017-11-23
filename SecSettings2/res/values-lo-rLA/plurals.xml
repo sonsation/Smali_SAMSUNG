@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="data_saver_unrestricted_summary_chn">
+        <item quantity="other">%d ແອັບຖືກອະນຸຍາດໃຫ້ໃຊ້ຂໍ້ມູນມືຖືໂດຍບໍ່ຕ້ອງມີການຈຳກັດ ໃນຂະນະທີ່ ຈຳກັດຂໍ້ມູນພື້ນຫຼັງເປີດໃຊ້ງານຢູ່.</item>
+        <item quantity="one">%d ແອັບຖືກອະນຸຍາດໃຫ້ໃຊ້ຂໍ້ມູນມືຖືໂດຍບໍ່ຕ້ອງມີການຈຳກັດ ໃນຂະນະທີ່ ຈຳກັດຂໍ້ມູນພື້ນຫຼັງເປີດໃຊ້ງານຢູ່.</item>
+    </plurals>
     <plurals name="lock_timeout_hours">
         <item quantity="other">%d ຊົ່ວໂມງ</item>
         <item quantity="one">1 ຊົ່ວໂມງ</item>

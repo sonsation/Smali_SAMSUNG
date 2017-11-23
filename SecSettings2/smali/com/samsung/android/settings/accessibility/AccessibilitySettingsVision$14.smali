@@ -280,7 +280,7 @@
     move-result-object v19
 
     .line 1686
-    const v20, 0x7f0b1570
+    const v20, 0x7f0b16f6
 
     .line 1685
     invoke-virtual/range {v19 .. v20}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -305,7 +305,7 @@
     move-result-object v19
 
     .line 1688
-    const v20, 0x7f0b029f
+    const v20, 0x7f0b02a1
 
     .line 1687
     invoke-virtual/range {v19 .. v20}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -453,7 +453,7 @@
     if-eqz v14, :cond_4
 
     .line 1711
-    const v18, 0x7f0b1952
+    const v18, 0x7f0b1ad8
 
     move-object/from16 v0, p1
 
@@ -549,7 +549,7 @@
     .line 1713
     .restart local v14    # "serviceEnabled":Z
     :cond_4
-    const v18, 0x7f0b1953
+    const v18, 0x7f0b1ad9
 
     move-object/from16 v0, p1
 

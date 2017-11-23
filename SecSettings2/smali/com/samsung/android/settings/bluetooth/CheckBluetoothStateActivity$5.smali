@@ -27,7 +27,7 @@
     .param p1, "this$0"    # Lcom/samsung/android/settings/bluetooth/CheckBluetoothStateActivity;
 
     .prologue
-    .line 191
+    .line 182
     iput-object p1, p0, Lcom/samsung/android/settings/bluetooth/CheckBluetoothStateActivity$5;->this$0:Lcom/samsung/android/settings/bluetooth/CheckBluetoothStateActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -41,7 +41,7 @@
     .locals 4
 
     .prologue
-    .line 194
+    .line 185
     const-wide/16 v2, 0xfa
 
     :try_start_0
@@ -49,7 +49,7 @@
     :try_end_0
     .catch Ljava/lang/InterruptedException; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 198
+    .line 189
     :goto_0
     const-string/jumbo v1, "CheckBluetoothStateActivity"
 
@@ -57,19 +57,19 @@
 
     invoke-static {v1, v2}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 199
+    .line 190
     const/4 v1, 0x0
 
     invoke-static {v1}, Lcom/samsung/android/settings/bluetooth/CheckBluetoothStateActivity;->-set0(Z)Z
 
-    .line 192
+    .line 183
     return-void
 
-    .line 195
+    .line 186
     :catch_0
     move-exception v0
 
-    .line 196
+    .line 187
     .local v0, "ignored":Ljava/lang/InterruptedException;
     const-string/jumbo v1, "CheckBluetoothStateActivity"
 

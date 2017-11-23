@@ -4961,7 +4961,7 @@
     if-eqz v1, :cond_0
 
     .line 2726
-    const v2, 0x7f0b091e
+    const v2, 0x7f0b093c
 
     .line 2733
     .local v2, "resourceId":I
@@ -4974,7 +4974,7 @@
     if-eqz v0, :cond_1
 
     .line 2728
-    const v2, 0x7f0b091c
+    const v2, 0x7f0b093a
 
     .restart local v2    # "resourceId":I
     goto :goto_0
@@ -4982,7 +4982,7 @@
     .line 2730
     .end local v2    # "resourceId":I
     :cond_1
-    const v2, 0x7f0b091d
+    const v2, 0x7f0b093b
 
     .restart local v2    # "resourceId":I
     goto :goto_0
@@ -5014,14 +5014,14 @@
     .local v0, "isProfile":Z
     if-eqz v0, :cond_0
 
-    const v1, 0x7f0b111e
+    const v1, 0x7f0b12a4
 
     :goto_0
     return v1
 
     .line 2740
     :cond_0
-    const v1, 0x7f0b111d
+    const v1, 0x7f0b12a3
 
     goto :goto_0
 .end method
@@ -6267,7 +6267,7 @@
     move v7, v4
 
     :goto_1
-    const v5, 0x7f0b187d
+    const v5, 0x7f0b1a03
 
     move-object v0, p0
 
@@ -6320,7 +6320,7 @@
 
     iget v0, p0, Lcom/android/settings/SettingsActivity;->mInitialTitleResId:I
 
-    const v1, 0x7f0b0680
+    const v1, 0x7f0b069a
 
     if-ne v1, v0, :cond_0
 
@@ -6721,7 +6721,7 @@
 
     iget v0, p0, Lcom/android/settings/SettingsActivity;->mInitialTitleResId:I
 
-    const v1, 0x7f0b07a3
+    const v1, 0x7f0b07bd
 
     if-ne v1, v0, :cond_0
 
@@ -8896,7 +8896,7 @@
 
     iget-object v2, v0, Lcom/android/settings/SettingsActivity;->mLeftPaneToolbar:Landroid/widget/Toolbar;
 
-    const v5, 0x7f0b107f
+    const v5, 0x7f0b1206
 
     invoke-virtual {v2, v5}, Landroid/widget/Toolbar;->setTitle(I)V
 
@@ -9502,7 +9502,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f0205dc
+    const v6, 0x7f0205da
 
     invoke-virtual {v5, v6}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -9519,7 +9519,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f0205dc
+    const v6, 0x7f0205da
 
     invoke-virtual {v5, v6}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -10173,7 +10173,7 @@
     if-eqz v2, :cond_26
 
     .line 1345
-    const v2, 0x7f0b107f
+    const v2, 0x7f0b1206
 
     move-object/from16 v0, p0
 
@@ -10454,7 +10454,7 @@
     const/4 v9, 0x0
 
     .line 1406
-    const v10, 0x7f0b187c
+    const v10, 0x7f0b1a02
 
     const/4 v11, 0x0
 
@@ -11139,7 +11139,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0b0f90
+    const v4, 0x7f0b0fb8
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -11151,7 +11151,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0b0f91
+    const v4, 0x7f0b0fb9
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -11320,7 +11320,7 @@
     if-eqz v0, :cond_0
 
     .line 727
-    const v0, 0x7f0b12c4
+    const v0, 0x7f0b144a
 
     invoke-virtual {p0, v0}, Lcom/android/settings/SettingsActivity;->getString(I)Ljava/lang/String;
 
@@ -12773,7 +12773,7 @@
     invoke-direct {v2}, Landroid/os/Bundle;-><init>()V
 
     .line 2811
-    const v3, 0x7f0b0480
+    const v3, 0x7f0b0489
 
     const/4 v6, 0x0
 
@@ -13210,7 +13210,7 @@
 
     const/4 v11, 0x0
 
-    const v12, 0x7f0b0f90
+    const v12, 0x7f0b0fb8
 
     invoke-interface {p1, v9, v10, v11, v12}, Landroid/view/Menu;->add(IIII)Landroid/view/MenuItem;
 
@@ -13242,7 +13242,7 @@
 
     const/4 v11, 0x0
 
-    const v12, 0x7f0b0f91
+    const v12, 0x7f0b0fb9
 
     invoke-interface {p1, v9, v10, v11, v12}, Landroid/view/Menu;->add(IIII)Landroid/view/MenuItem;
 

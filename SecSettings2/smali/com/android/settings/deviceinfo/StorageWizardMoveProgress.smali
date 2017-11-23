@@ -61,7 +61,7 @@
     .param p1, "returnCode"    # I
 
     .prologue
-    const v0, 0x7f0b14cf
+    const v0, 0x7f0b1655
 
     .line 86
     packed-switch p1, :pswitch_data_0
@@ -84,7 +84,7 @@
 
     .line 90
     :pswitch_2
-    const v0, 0x7f0b14d4
+    const v0, 0x7f0b165a
 
     invoke-virtual {p0, v0}, Lcom/android/settings/deviceinfo/StorageWizardMoveProgress;->getString(I)Ljava/lang/String;
 
@@ -94,7 +94,7 @@
 
     .line 92
     :pswitch_3
-    const v0, 0x7f0b14d0
+    const v0, 0x7f0b1656
 
     invoke-virtual {p0, v0}, Lcom/android/settings/deviceinfo/StorageWizardMoveProgress;->getString(I)Ljava/lang/String;
 
@@ -104,7 +104,7 @@
 
     .line 94
     :pswitch_4
-    const v0, 0x7f0b14d1
+    const v0, 0x7f0b1657
 
     invoke-virtual {p0, v0}, Lcom/android/settings/deviceinfo/StorageWizardMoveProgress;->getString(I)Ljava/lang/String;
 
@@ -114,7 +114,7 @@
 
     .line 96
     :pswitch_5
-    const v0, 0x7f0b14d2
+    const v0, 0x7f0b1658
 
     invoke-virtual {p0, v0}, Lcom/android/settings/deviceinfo/StorageWizardMoveProgress;->getString(I)Ljava/lang/String;
 
@@ -124,7 +124,7 @@
 
     .line 98
     :pswitch_6
-    const v0, 0x7f0b14d3
+    const v0, 0x7f0b1659
 
     invoke-virtual {p0, v0}, Lcom/android/settings/deviceinfo/StorageWizardMoveProgress;->getString(I)Ljava/lang/String;
 
@@ -222,7 +222,7 @@
 
     aput-object v0, v2, v6
 
-    const v3, 0x7f0b138b
+    const v3, 0x7f0b1511
 
     invoke-virtual {p0, v3, v2}, Lcom/android/settings/deviceinfo/StorageWizardMoveProgress;->setHeaderText(I[Ljava/lang/String;)V
 
@@ -235,7 +235,7 @@
 
     aput-object v0, v2, v5
 
-    const v3, 0x7f0b138c
+    const v3, 0x7f0b1512
 
     invoke-virtual {p0, v3, v2}, Lcom/android/settings/deviceinfo/StorageWizardMoveProgress;->setBodyText(I[Ljava/lang/String;)V
 

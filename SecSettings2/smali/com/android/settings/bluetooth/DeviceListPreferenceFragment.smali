@@ -691,7 +691,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0b1154
+    const v3, 0x7f0b12da
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -700,7 +700,7 @@
     iput-object v2, v1, Lcom/android/settings/search/SearchIndexableRaw;->screenTitle:Ljava/lang/String;
 
     .line 320
-    const v2, 0x7f020235
+    const v2, 0x7f020233
 
     iput v2, v1, Lcom/android/settings/search/SearchIndexableRaw;->iconResId:I
 

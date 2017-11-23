@@ -329,7 +329,7 @@
     .line 269
     iget-object v0, p0, Lcom/android/settings/bluetooth/BluetoothDiscoverableEnabler;->mDiscoveryPreference:Landroid/support/v7/preference/Preference;
 
-    const v1, 0x7f0b0fe3
+    const v1, 0x7f0b116b
 
     invoke-virtual {v0, v1}, Landroid/support/v7/preference/Preference;->setSummary(I)V
 
@@ -341,7 +341,7 @@
     :cond_0
     iget-object v0, p0, Lcom/android/settings/bluetooth/BluetoothDiscoverableEnabler;->mDiscoveryPreference:Landroid/support/v7/preference/Preference;
 
-    const v1, 0x7f0b0fe2
+    const v1, 0x7f0b116a
 
     invoke-virtual {v0, v1}, Landroid/support/v7/preference/Preference;->setSummary(I)V
 
@@ -463,7 +463,7 @@
     .line 161
     iget-object v1, p0, Lcom/android/settings/bluetooth/BluetoothDiscoverableEnabler;->mDiscoveryPreference:Landroid/support/v7/preference/Preference;
 
-    const v2, 0x7f0b0fe0
+    const v2, 0x7f0b1168
 
     invoke-virtual {v1, v2}, Landroid/support/v7/preference/Preference;->setSummary(I)V
 
@@ -491,7 +491,7 @@
     aput-object v0, v3, v4
 
     .line 164
-    const v4, 0x7f0b0fdf
+    const v4, 0x7f0b1167
 
     invoke-virtual {v2, v4, v3}, Landroid/content/Context;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 

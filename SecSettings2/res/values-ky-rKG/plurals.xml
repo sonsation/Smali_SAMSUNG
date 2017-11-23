@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="data_saver_unrestricted_summary_chn">
+        <item quantity="other">Фон маалыматтарын чектөө иштетилген учурда, %d колдонмого мобилдик маалыматтарды чектөөсүз колдонууга уруксат берилди.</item>
+        <item quantity="one">Фон маалыматтарын чектөө иштетилген учурда, %d колдонмого мобилдик маалыматтарды чектөөсүз колдонууга уруксат берилди.</item>
+    </plurals>
     <plurals name="lock_timeout_hours">
         <item quantity="other">%d саат</item>
         <item quantity="one">1 саат</item>

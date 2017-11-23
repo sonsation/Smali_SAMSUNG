@@ -843,7 +843,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0b0255
+    const v3, 0x7f0b0257
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -868,7 +868,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0b0257
+    const v3, 0x7f0b0259
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -886,7 +886,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0b0438
+    const v3, 0x7f0b0440
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -924,7 +924,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0b0256
+    const v3, 0x7f0b0258
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -967,9 +967,9 @@
     .locals 8
 
     .prologue
-    const v7, 0x7f0b1953
+    const v7, 0x7f0b1ad9
 
-    const v6, 0x7f0b1952
+    const v6, 0x7f0b1ad8
 
     const/4 v2, 0x1
 
@@ -1499,7 +1499,7 @@
 
     invoke-direct {v11, p0, v2, v8}, Lcom/samsung/android/settings/accessibility/AccessibilitySettingsHearing$5;-><init>(Lcom/samsung/android/settings/accessibility/AccessibilitySettingsHearing;Landroid/content/SharedPreferences$Editor;Landroid/widget/CheckBox;)V
 
-    const v12, 0x7f0b1492
+    const v12, 0x7f0b1618
 
     .line 510
     invoke-virtual {v10, v12, v11}, Landroid/app/AlertDialog$Builder;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
@@ -1614,7 +1614,7 @@
 
     invoke-direct {v11, p0}, Lcom/samsung/android/settings/accessibility/AccessibilitySettingsHearing$8;-><init>(Lcom/samsung/android/settings/accessibility/AccessibilitySettingsHearing;)V
 
-    const v12, 0x7f0b107b
+    const v12, 0x7f0b1046
 
     .line 549
     invoke-virtual {v10, v12, v11}, Landroid/app/AlertDialog$Builder;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
@@ -2047,7 +2047,7 @@
 
     move-result-object v13
 
-    const v14, 0x7f0b0258
+    const v14, 0x7f0b025a
 
     invoke-virtual {v13, v14}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -2276,7 +2276,7 @@
 
     move-result-object v15
 
-    const v16, 0x7f0b03fd
+    const v16, 0x7f0b0400
 
     invoke-virtual/range {v15 .. v16}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -2735,7 +2735,7 @@
 
     iget-object v12, v0, Lcom/samsung/android/settings/accessibility/AccessibilitySettingsHearing;->mCaptioningPreferenceScreen:Lcom/samsung/android/settings/SettingsSwitchPreference;
 
-    const v13, 0x7f0b1952
+    const v13, 0x7f0b1ad8
 
     invoke-virtual {v12, v13}, Lcom/samsung/android/settings/SettingsSwitchPreference;->setSummary(I)V
 
@@ -2804,7 +2804,7 @@
 
     iget-object v12, v0, Lcom/samsung/android/settings/accessibility/AccessibilitySettingsHearing;->mCaptioningPreferenceScreen:Lcom/samsung/android/settings/SettingsSwitchPreference;
 
-    const v13, 0x7f0b1953
+    const v13, 0x7f0b1ad9
 
     invoke-virtual {v12, v13}, Lcom/samsung/android/settings/SettingsSwitchPreference;->setSummary(I)V
 
@@ -2864,7 +2864,7 @@
 
     iget-object v12, v0, Lcom/samsung/android/settings/accessibility/AccessibilitySettingsHearing;->mSamsungCaptioningPreferenceScreen:Lcom/samsung/android/settings/SettingsSwitchPreference;
 
-    const v13, 0x7f0b1952
+    const v13, 0x7f0b1ad8
 
     invoke-virtual {v12, v13}, Lcom/samsung/android/settings/SettingsSwitchPreference;->setSummary(I)V
 
@@ -2933,7 +2933,7 @@
 
     iget-object v12, v0, Lcom/samsung/android/settings/accessibility/AccessibilitySettingsHearing;->mSamsungCaptioningPreferenceScreen:Lcom/samsung/android/settings/SettingsSwitchPreference;
 
-    const v13, 0x7f0b1953
+    const v13, 0x7f0b1ad9
 
     invoke-virtual {v12, v13}, Lcom/samsung/android/settings/SettingsSwitchPreference;->setSummary(I)V
 

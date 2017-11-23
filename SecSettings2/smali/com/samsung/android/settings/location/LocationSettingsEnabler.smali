@@ -205,7 +205,7 @@
     :pswitch_0
     iget-object v0, p0, Lcom/samsung/android/settings/location/LocationSettingsEnabler;->mSwitchPref:Landroid/preference/SwitchPreference;
 
-    const v1, 0x7f0b13fb
+    const v1, 0x7f0b1581
 
     invoke-virtual {v0, v1}, Landroid/preference/SwitchPreference;->setSummary(I)V
 
@@ -215,7 +215,7 @@
     :pswitch_1
     iget-object v0, p0, Lcom/samsung/android/settings/location/LocationSettingsEnabler;->mSwitchPref:Landroid/preference/SwitchPreference;
 
-    const v1, 0x7f0b13fa
+    const v1, 0x7f0b1580
 
     invoke-virtual {v0, v1}, Landroid/preference/SwitchPreference;->setSummary(I)V
 
@@ -247,7 +247,7 @@
     .line 160
     iget-object v0, p0, Lcom/samsung/android/settings/location/LocationSettingsEnabler;->mSwitchPref:Landroid/preference/SwitchPreference;
 
-    const v1, 0x7f0b0835
+    const v1, 0x7f0b0851
 
     invoke-virtual {v0, v1}, Landroid/preference/SwitchPreference;->setSummary(I)V
 
@@ -257,7 +257,7 @@
     :cond_1
     iget-object v0, p0, Lcom/samsung/android/settings/location/LocationSettingsEnabler;->mSwitchPref:Landroid/preference/SwitchPreference;
 
-    const v1, 0x7f0b0834
+    const v1, 0x7f0b0850
 
     invoke-virtual {v0, v1}, Landroid/preference/SwitchPreference;->setSummary(I)V
 
@@ -276,7 +276,7 @@
     .line 166
     iget-object v0, p0, Lcom/samsung/android/settings/location/LocationSettingsEnabler;->mSwitchPref:Landroid/preference/SwitchPreference;
 
-    const v1, 0x7f0b0836
+    const v1, 0x7f0b0852
 
     invoke-virtual {v0, v1}, Landroid/preference/SwitchPreference;->setSummary(I)V
 
@@ -286,7 +286,7 @@
     :cond_3
     iget-object v0, p0, Lcom/samsung/android/settings/location/LocationSettingsEnabler;->mSwitchPref:Landroid/preference/SwitchPreference;
 
-    const v1, 0x7f0b13f9
+    const v1, 0x7f0b157f
 
     invoke-virtual {v0, v1}, Landroid/preference/SwitchPreference;->setSummary(I)V
 
@@ -318,7 +318,7 @@
     .line 175
     iget-object v0, p0, Lcom/samsung/android/settings/location/LocationSettingsEnabler;->mSwitchPref:Landroid/preference/SwitchPreference;
 
-    const v1, 0x7f0b0832
+    const v1, 0x7f0b084e
 
     invoke-virtual {v0, v1}, Landroid/preference/SwitchPreference;->setSummary(I)V
 
@@ -328,7 +328,7 @@
     :cond_4
     iget-object v0, p0, Lcom/samsung/android/settings/location/LocationSettingsEnabler;->mSwitchPref:Landroid/preference/SwitchPreference;
 
-    const v1, 0x7f0b0831
+    const v1, 0x7f0b084d
 
     invoke-virtual {v0, v1}, Landroid/preference/SwitchPreference;->setSummary(I)V
 
@@ -347,7 +347,7 @@
     .line 181
     iget-object v0, p0, Lcom/samsung/android/settings/location/LocationSettingsEnabler;->mSwitchPref:Landroid/preference/SwitchPreference;
 
-    const v1, 0x7f0b0833
+    const v1, 0x7f0b084f
 
     invoke-virtual {v0, v1}, Landroid/preference/SwitchPreference;->setSummary(I)V
 
@@ -357,7 +357,7 @@
     :cond_6
     iget-object v0, p0, Lcom/samsung/android/settings/location/LocationSettingsEnabler;->mSwitchPref:Landroid/preference/SwitchPreference;
 
-    const v1, 0x7f0b13f8
+    const v1, 0x7f0b157e
 
     invoke-virtual {v0, v1}, Landroid/preference/SwitchPreference;->setSummary(I)V
 
@@ -546,7 +546,7 @@
 
     move-result-object v9
 
-    const v10, 0x7f0b0814
+    const v10, 0x7f0b0830
 
     invoke-virtual {v9, v10}, Landroid/content/res/Resources;->getText(I)Ljava/lang/CharSequence;
 
@@ -561,7 +561,7 @@
 
     move-result-object v9
 
-    const v10, 0x7f0b0815
+    const v10, 0x7f0b0831
 
     invoke-virtual {v9, v10}, Landroid/content/res/Resources;->getText(I)Ljava/lang/CharSequence;
 
@@ -581,7 +581,7 @@
 
     move-result-object v9
 
-    const v10, 0x7f0b043d
+    const v10, 0x7f0b0445
 
     invoke-virtual {v9, v10}, Landroid/content/res/Resources;->getText(I)Ljava/lang/CharSequence;
 
@@ -602,7 +602,7 @@
 
     move-result-object v9
 
-    const v10, 0x7f0b043e
+    const v10, 0x7f0b0446
 
     invoke-virtual {v9, v10}, Landroid/content/res/Resources;->getText(I)Ljava/lang/CharSequence;
 
@@ -705,7 +705,7 @@
 
     move-result-object v9
 
-    const v10, 0x7f0b0837
+    const v10, 0x7f0b0853
 
     invoke-virtual {v9, v10}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -722,7 +722,7 @@
 
     move-result-object v9
 
-    const v10, 0x7f0b0838
+    const v10, 0x7f0b0854
 
     invoke-virtual {v9, v10}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -738,7 +738,7 @@
 
     .line 324
     .local v2, "disableDialog":Landroid/app/AlertDialog$Builder;
-    const v9, 0x7f0b0839
+    const v9, 0x7f0b0855
 
     invoke-virtual {v2, v9}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
 
@@ -756,7 +756,7 @@
     invoke-direct {v9, p0}, Lcom/samsung/android/settings/location/LocationSettingsEnabler$4;-><init>(Lcom/samsung/android/settings/location/LocationSettingsEnabler;)V
 
     .line 327
-    const v10, 0x7f0b14b6
+    const v10, 0x7f0b163c
 
     invoke-virtual {v2, v10, v9}, Landroid/app/AlertDialog$Builder;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
 
@@ -766,7 +766,7 @@
     invoke-direct {v9, p0, p1}, Lcom/samsung/android/settings/location/LocationSettingsEnabler$5;-><init>(Lcom/samsung/android/settings/location/LocationSettingsEnabler;Ljava/lang/Object;)V
 
     .line 339
-    const v10, 0x7f0b14b7
+    const v10, 0x7f0b163d
 
     invoke-virtual {v2, v10, v9}, Landroid/app/AlertDialog$Builder;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
 

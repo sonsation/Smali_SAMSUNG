@@ -749,7 +749,7 @@
     .param p0, "mode"    # I
 
     .prologue
-    const v0, 0x7f0204b9
+    const v0, 0x7f0204b7
 
     .line 363
     packed-switch p0, :pswitch_data_0
@@ -769,13 +769,13 @@
 
     .line 367
     :pswitch_1
-    const v0, 0x7f0204b5
+    const v0, 0x7f0204b3
 
     return v0
 
     .line 369
     :pswitch_2
-    const v0, 0x7f0204b7
+    const v0, 0x7f0204b5
 
     return v0
 
@@ -800,7 +800,7 @@
     .param p0, "mode"    # I
 
     .prologue
-    const v0, 0x7f0204b8
+    const v0, 0x7f0204b6
 
     .line 348
     packed-switch p0, :pswitch_data_0
@@ -820,13 +820,13 @@
 
     .line 352
     :pswitch_1
-    const v0, 0x7f0204b4
+    const v0, 0x7f0204b2
 
     return v0
 
     .line 354
     :pswitch_2
-    const v0, 0x7f0204b6
+    const v0, 0x7f0204b4
 
     return v0
 
@@ -858,7 +858,7 @@
     if-ne p1, v1, :cond_0
 
     .line 464
-    const v1, 0x7f0b0adf
+    const v1, 0x7f0b0b00
 
     invoke-virtual {p0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -877,7 +877,7 @@
     if-ne p1, v1, :cond_1
 
     .line 466
-    const v1, 0x7f0b0add
+    const v1, 0x7f0b0afe
 
     invoke-virtual {p0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -889,7 +889,7 @@
     .line 468
     .end local v0    # "modeName":Ljava/lang/String;
     :cond_1
-    const v1, 0x7f0b0adb
+    const v1, 0x7f0b0afc
 
     invoke-virtual {p0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -2714,11 +2714,11 @@
     if-ne v0, v2, :cond_2
 
     .line 300
-    const v16, 0x7f02051b
+    const v16, 0x7f020519
 
     .line 301
     .local v16, "icon":I
-    const v2, 0x7f0b0ad8
+    const v2, 0x7f0b0af9
 
     move-object/from16 v0, p0
 
@@ -2741,7 +2741,7 @@
 
     aput-object v13, v3, v5
 
-    const v5, 0x7f0b0ad7
+    const v5, 0x7f0b0af8
 
     move-object/from16 v0, p0
 
@@ -2774,7 +2774,7 @@
     move-result-object v2
 
     .line 310
-    const v3, 0x7f0b0ae1
+    const v3, 0x7f0b0b02
 
     move-object/from16 v0, p0
 
@@ -2889,7 +2889,7 @@
     move-result-object v2
 
     .line 322
-    const v3, 0x7f0b0ad6
+    const v3, 0x7f0b0af7
 
     move-object/from16 v0, p0
 
@@ -2929,7 +2929,7 @@
     move-result-object v2
 
     .line 327
-    const v3, 0x7f0b0aeb
+    const v3, 0x7f0b0b0c
 
     move-object/from16 v0, p0
 
@@ -2947,7 +2947,7 @@
     move-result-object v2
 
     .line 328
-    const v3, 0x7f0b1491
+    const v3, 0x7f0b1617
 
     move-object/from16 v0, p0
 
@@ -3068,11 +3068,11 @@
     if-ne v0, v2, :cond_3
 
     .line 303
-    const v16, 0x7f02051c
+    const v16, 0x7f02051a
 
     .line 304
     .restart local v16    # "icon":I
-    const v2, 0x7f0b0ad9
+    const v2, 0x7f0b0afa
 
     move-object/from16 v0, p0
 
@@ -3087,11 +3087,11 @@
     .end local v12    # "currentModeContent":Ljava/lang/String;
     .end local v16    # "icon":I
     :cond_3
-    const v16, 0x7f02051a
+    const v16, 0x7f020518
 
     .line 307
     .restart local v16    # "icon":I
-    const v2, 0x7f0b0ada
+    const v2, 0x7f0b0afb
 
     move-object/from16 v0, p0
 
@@ -3141,7 +3141,7 @@
     .param p5, "bsm"    # Lcom/samsung/android/settings/powersaving/BrightnessSolutionManager;
 
     .prologue
-    const v5, 0x7f0b0a94
+    const v5, 0x7f0b0ab5
 
     const/4 v4, 0x0
 
@@ -3183,7 +3183,7 @@
     aput-object v2, v1, v3
 
     .line 591
-    const v2, 0x7f0b0ae3
+    const v2, 0x7f0b0b04
 
     invoke-virtual {p0, v2, v1}, Landroid/content/Context;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -3205,7 +3205,7 @@
     aput-object v2, v1, v4
 
     .line 594
-    const v2, 0x7f0b0ae2
+    const v2, 0x7f0b0b03
 
     invoke-virtual {p0, v2, v1}, Landroid/content/Context;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -3221,7 +3221,7 @@
 
     invoke-direct {v1, p5, p0, p2, p4}, Lcom/samsung/android/settings/boostmode/BoostUtils$1;-><init>(Lcom/samsung/android/settings/powersaving/BrightnessSolutionManager;Landroid/content/Context;ILjava/lang/String;)V
 
-    const v2, 0x7f0b0b57
+    const v2, 0x7f0b0b78
 
     .line 590
     invoke-virtual {v0, v2, v1}, Landroid/app/AlertDialog$Builder;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;

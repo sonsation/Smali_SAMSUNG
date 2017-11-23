@@ -55,7 +55,7 @@
 
     .line 1101
     .local v0, "isDialogPopped":Z
-    const v2, 0x7f0b0cf2
+    const v2, 0x7f0b0d14
 
     .line 1102
     .local v2, "message":I
@@ -88,7 +88,7 @@
 
     .line 1109
     :pswitch_2
-    const v2, 0x7f0b0cf0
+    const v2, 0x7f0b0d12
 
     .line 1111
     :pswitch_3

@@ -37,12 +37,12 @@
     .param p1, "this$0"    # Lcom/android/settings/datausage/DataUsageList;
 
     .prologue
-    .line 669
+    .line 665
     iput-object p1, p0, Lcom/android/settings/datausage/DataUsageList$3;->this$0:Lcom/android/settings/datausage/DataUsageList;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 670
+    .line 666
     return-void
 .end method
 
@@ -54,7 +54,7 @@
 
     const/4 v2, 0x0
 
-    .line 691
+    .line 687
     iget-object v0, p0, Lcom/android/settings/datausage/DataUsageList$3;->this$0:Lcom/android/settings/datausage/DataUsageList;
 
     invoke-static {v0}, Lcom/android/settings/datausage/DataUsageList;->-get0(Lcom/android/settings/datausage/DataUsageList;)Landroid/preference/PreferenceGroup;
@@ -69,7 +69,7 @@
 
     move v0, v1
 
-    .line 692
+    .line 688
     :goto_0
     iget-object v3, p0, Lcom/android/settings/datausage/DataUsageList$3;->this$0:Lcom/android/settings/datausage/DataUsageList;
 
@@ -83,11 +83,11 @@
 
     if-eqz v3, :cond_2
 
-    .line 691
+    .line 687
     :goto_1
     if-eq v0, v1, :cond_0
 
-    .line 693
+    .line 689
     iget-object v0, p0, Lcom/android/settings/datausage/DataUsageList$3;->this$0:Lcom/android/settings/datausage/DataUsageList;
 
     invoke-static {v0}, Lcom/android/settings/datausage/DataUsageList;->-get0(Lcom/android/settings/datausage/DataUsageList;)Landroid/preference/PreferenceGroup;
@@ -100,7 +100,7 @@
 
     if-eqz v0, :cond_3
 
-    .line 694
+    .line 690
     iget-object v0, p0, Lcom/android/settings/datausage/DataUsageList$3;->this$0:Lcom/android/settings/datausage/DataUsageList;
 
     invoke-virtual {v0}, Lcom/android/settings/datausage/DataUsageList;->getPreferenceScreen()Landroid/preference/PreferenceScreen;
@@ -115,7 +115,7 @@
 
     invoke-virtual {v0, v1}, Landroid/preference/PreferenceScreen;->addPreference(Landroid/preference/Preference;)Z
 
-    .line 695
+    .line 691
     iget-object v0, p0, Lcom/android/settings/datausage/DataUsageList$3;->this$0:Lcom/android/settings/datausage/DataUsageList;
 
     invoke-virtual {v0}, Lcom/android/settings/datausage/DataUsageList;->getPreferenceScreen()Landroid/preference/PreferenceScreen;
@@ -130,7 +130,7 @@
 
     invoke-virtual {v0, v1}, Landroid/preference/PreferenceScreen;->addPreference(Landroid/preference/Preference;)Z
 
-    .line 690
+    .line 686
     :cond_0
     :goto_2
     return-void
@@ -138,16 +138,16 @@
     :cond_1
     move v0, v2
 
-    .line 691
+    .line 687
     goto :goto_0
 
     :cond_2
     move v1, v2
 
-    .line 692
+    .line 688
     goto :goto_1
 
-    .line 697
+    .line 693
     :cond_3
     iget-object v0, p0, Lcom/android/settings/datausage/DataUsageList$3;->this$0:Lcom/android/settings/datausage/DataUsageList;
 
@@ -179,7 +179,7 @@
     .end annotation
 
     .prologue
-    .line 673
+    .line 669
     new-instance v0, Lcom/android/settingslib/net/SummaryForAllUidLoader;
 
     iget-object v1, p0, Lcom/android/settings/datausage/DataUsageList$3;->this$0:Lcom/android/settings/datausage/DataUsageList;
@@ -215,7 +215,7 @@
     .end annotation
 
     .prologue
-    .line 678
+    .line 674
     .local p1, "loader":Landroid/content/Loader;, "Landroid/content/Loader<Landroid/net/NetworkStats;>;"
     iget-object v1, p0, Lcom/android/settings/datausage/DataUsageList$3;->this$0:Lcom/android/settings/datausage/DataUsageList;
 
@@ -223,24 +223,24 @@
 
     iget-object v1, v1, Lcom/android/settings/datausage/TemplatePreference$NetworkServices;->mPolicyManager:Landroid/net/NetworkPolicyManager;
 
-    .line 679
+    .line 675
     const/4 v2, 0x1
 
-    .line 678
+    .line 674
     invoke-virtual {v1, v2}, Landroid/net/NetworkPolicyManager;->getUidsWithPolicy(I)[I
 
     move-result-object v0
 
-    .line 680
+    .line 676
     .local v0, "restrictedUids":[I
     iget-object v1, p0, Lcom/android/settings/datausage/DataUsageList$3;->this$0:Lcom/android/settings/datausage/DataUsageList;
 
     invoke-virtual {v1, p2, v0}, Lcom/android/settings/datausage/DataUsageList;->bindStats(Landroid/net/NetworkStats;[I)V
 
-    .line 681
+    .line 677
     invoke-direct {p0}, Lcom/android/settings/datausage/DataUsageList$3;->updateEmptyVisible()V
 
-    .line 677
+    .line 673
     return-void
 .end method
 
@@ -250,7 +250,7 @@
     .param p2, "data"    # Ljava/lang/Object;
 
     .prologue
-    .line 677
+    .line 673
     check-cast p2, Landroid/net/NetworkStats;
 
     .end local p2    # "data":Ljava/lang/Object;
@@ -272,7 +272,7 @@
     .end annotation
 
     .prologue
-    .line 686
+    .line 682
     .local p1, "loader":Landroid/content/Loader;, "Landroid/content/Loader<Landroid/net/NetworkStats;>;"
     iget-object v0, p0, Lcom/android/settings/datausage/DataUsageList$3;->this$0:Lcom/android/settings/datausage/DataUsageList;
 
@@ -284,9 +284,9 @@
 
     invoke-virtual {v0, v2, v1}, Lcom/android/settings/datausage/DataUsageList;->bindStats(Landroid/net/NetworkStats;[I)V
 
-    .line 687
+    .line 683
     invoke-direct {p0}, Lcom/android/settings/datausage/DataUsageList$3;->updateEmptyVisible()V
 
-    .line 685
+    .line 681
     return-void
 .end method

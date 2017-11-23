@@ -556,7 +556,7 @@
     iput v0, p0, Lcom/samsung/android/settings/face/FaceLockSettings;->mKeepSessionAndActivity:I
 
     .line 139
-    const v0, 0x7f0b0897
+    const v0, 0x7f0b08b4
 
     invoke-virtual {p0, v0}, Lcom/samsung/android/settings/face/FaceLockSettings;->getString(I)Ljava/lang/String;
 
@@ -666,21 +666,21 @@
 
     .line 278
     :sswitch_0
-    const v0, 0x7f0b06fa
+    const v0, 0x7f0b0714
 
     .line 279
     goto :goto_0
 
     .line 283
     :sswitch_1
-    const v0, 0x7f0b06fc
+    const v0, 0x7f0b0716
 
     .line 284
     goto :goto_0
 
     .line 286
     :sswitch_2
-    const v0, 0x7f0b06fb
+    const v0, 0x7f0b0715
 
     .line 287
     goto :goto_0
@@ -727,7 +727,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0b0762
+    const v2, 0x7f0b077c
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -740,7 +740,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0b0763
+    const v2, 0x7f0b077d
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -753,7 +753,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0b0764
+    const v2, 0x7f0b077e
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -918,7 +918,7 @@
     aput-object v7, v6, v8
 
     .line 226
-    const v7, 0x7f0b068e
+    const v7, 0x7f0b06a8
 
     invoke-virtual {v5, v7, v6}, Landroid/content/res/Resources;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -933,7 +933,7 @@
     invoke-direct {v5, v6}, Landroid/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
 
     .line 229
-    const v6, 0x7f0b0685
+    const v6, 0x7f0b069f
 
     .line 228
     invoke-virtual {v5, v6}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
@@ -987,7 +987,7 @@
     if-eqz v5, :cond_1
 
     .line 246
-    const v5, 0x7f0b0714
+    const v5, 0x7f0b072e
 
     invoke-virtual {p0, v5}, Lcom/samsung/android/settings/face/FaceLockSettings;->getString(I)Ljava/lang/String;
 
@@ -1189,7 +1189,7 @@
 
     const-string/jumbo v1, "com.samsung.android.settings.face.FaceSettings"
 
-    const v3, 0x7f0b0680
+    const v3, 0x7f0b069a
 
     const/4 v4, 0x0
 
@@ -1209,7 +1209,7 @@
 
     const/4 v4, 0x0
 
-    const v5, 0x7f0b074c
+    const v5, 0x7f0b0766
 
     const/4 v6, 0x0
 
@@ -2003,7 +2003,7 @@
     invoke-static {v0, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 76
-    const v0, 0x7f0b0714
+    const v0, 0x7f0b072e
 
     invoke-virtual {p0, v0}, Lcom/samsung/android/settings/face/FaceLockSettings;->getString(I)Ljava/lang/String;
 

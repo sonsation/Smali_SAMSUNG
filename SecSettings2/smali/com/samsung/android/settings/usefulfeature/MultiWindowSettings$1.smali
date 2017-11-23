@@ -40,9 +40,9 @@
     .param p2, "intent"    # Landroid/content/Intent;
 
     .prologue
-    const v5, 0x7f0b1952
+    const v5, 0x7f0b1ad8
 
-    const v6, 0x7f0b1953
+    const v6, 0x7f0b1ad9
 
     const/4 v9, 0x0
 

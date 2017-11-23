@@ -111,7 +111,7 @@
 
     move-result-object v8
 
-    const v9, 0x7f0b027e
+    const v9, 0x7f0b0280
 
     invoke-virtual {v8, v9}, Landroid/widget/Button;->setText(I)V
 
@@ -151,7 +151,7 @@
     move-result-object v9
 
     .line 796
-    const v10, 0x7f0b0279
+    const v10, 0x7f0b027b
 
     .line 795
     invoke-virtual {v9, v10}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -845,7 +845,7 @@
     move-result-object v9
 
     .line 924
-    const v10, 0x7f0b0277
+    const v10, 0x7f0b0279
 
     .line 923
     invoke-virtual {v9, v10}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;

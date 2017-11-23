@@ -708,7 +708,7 @@
 
     aput-object v1, v3, v4
 
-    const v4, 0x7f0b1958
+    const v4, 0x7f0b1ade
 
     invoke-virtual {p0, v4, v3}, Lcom/android/settings/accounts/AccountSettings;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -782,12 +782,12 @@
 
     .line 401
     .local v0, "preference":Lcom/android/settings/DimmableIconPreference;
-    const v1, 0x7f0b16ec
+    const v1, 0x7f0b1872
 
     invoke-virtual {v0, v1}, Lcom/android/settings/DimmableIconPreference;->setTitle(I)V
 
     .line 402
-    const v1, 0x7f02058f
+    const v1, 0x7f02058d
 
     invoke-virtual {v0, v1}, Lcom/android/settings/DimmableIconPreference;->setIcon(I)V
 
@@ -823,7 +823,7 @@
 
     .line 422
     .local v1, "preference":Landroid/preference/Preference;
-    const v2, 0x7f0b1acd
+    const v2, 0x7f0b1c53
 
     invoke-virtual {v1, v2}, Landroid/preference/Preference;->setTitle(I)V
 
@@ -832,7 +832,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f020512
+    const v3, 0x7f020510
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -890,12 +890,12 @@
 
     .line 411
     .local v0, "preference":Landroid/preference/Preference;
-    const v1, 0x7f0b16f0
+    const v1, 0x7f0b1876
 
     invoke-virtual {v0, v1}, Landroid/preference/Preference;->setTitle(I)V
 
     .line 412
-    const v1, 0x7f020594
+    const v1, 0x7f020592
 
     invoke-virtual {v0, v1}, Landroid/preference/Preference;->setIcon(I)V
 
@@ -1088,7 +1088,7 @@
     .line 485
     iget-object v3, p0, Lcom/android/settings/accounts/AccountSettings;->mProfileNotAvailablePreference:Landroid/preference/Preference;
 
-    const v4, 0x7f020104
+    const v4, 0x7f020102
 
     invoke-virtual {v3, v4}, Landroid/preference/Preference;->setIcon(I)V
 
@@ -1101,7 +1101,7 @@
     iget-object v3, p0, Lcom/android/settings/accounts/AccountSettings;->mProfileNotAvailablePreference:Landroid/preference/Preference;
 
     .line 488
-    const v4, 0x7f0b16ed
+    const v4, 0x7f0b1873
 
     .line 487
     invoke-virtual {v3, v4}, Landroid/preference/Preference;->setSummary(I)V
@@ -1200,7 +1200,7 @@
 
     aput-object v2, v4, v5
 
-    const v5, 0x7f0b12b0
+    const v5, 0x7f0b1436
 
     invoke-virtual {p0, v5, v4}, Lcom/android/settings/accounts/AccountSettings;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -1340,7 +1340,7 @@
     check-cast v3, Lcom/android/settings/AccessiblePreferenceCategory;
 
     .line 375
-    const v4, 0x7f0b12b1
+    const v4, 0x7f0b1437
 
     invoke-virtual {p0, v4}, Lcom/android/settings/accounts/AccountSettings;->getString(I)Ljava/lang/String;
 
@@ -1746,7 +1746,7 @@
     const-string/jumbo v4, "com.android.settings.accounts.ChooseAccountActivity"
 
     .line 276
-    const v5, 0x7f0b16ec
+    const v5, 0x7f0b1872
 
     const/4 v6, 0x0
 
@@ -1856,7 +1856,7 @@
     move-result-object v9
 
     .line 296
-    const v11, 0x7f0b1acd
+    const v11, 0x7f0b1c53
 
     const/4 v12, 0x0
 
@@ -2034,7 +2034,7 @@
 
     if-eqz v4, :cond_1
 
-    const v4, 0x7f0b1753
+    const v4, 0x7f0b18d9
 
     :goto_3
     invoke-interface {v2, v4}, Landroid/view/MenuItem;->setTitle(I)Landroid/view/MenuItem;
@@ -2050,7 +2050,7 @@
 
     .line 199
     :cond_1
-    const v4, 0x7f0b1751
+    const v4, 0x7f0b18d7
 
     goto :goto_3
 

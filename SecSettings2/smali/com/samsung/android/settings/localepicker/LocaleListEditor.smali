@@ -284,7 +284,7 @@
     .line 335
     iget-object v0, p0, Lcom/samsung/android/settings/localepicker/LocaleListEditor;->mDndAnimator:Lcom/samsung/android/animation/SemDragAndDropListAnimator;
 
-    const v1, 0x7f020351
+    const v1, 0x7f02034f
 
     invoke-virtual {v0, v1}, Lcom/samsung/android/animation/SemDragAndDropListAnimator;->setDragGrabHandleDrawable(I)V
 
@@ -494,7 +494,7 @@
     invoke-direct {v2, v3}, Landroid/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
 
     .line 223
-    const v3, 0x7f0b106b
+    const v3, 0x7f0b11f3
 
     .line 222
     invoke-virtual {v2, v3}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
@@ -502,7 +502,7 @@
     move-result-object v2
 
     .line 224
-    const v3, 0x7f0b106c
+    const v3, 0x7f0b11f4
 
     .line 222
     invoke-virtual {v2, v3}, Landroid/app/AlertDialog$Builder;->setMessage(I)Landroid/app/AlertDialog$Builder;
@@ -544,7 +544,7 @@
 
     move-result-object v2
 
-    const v4, 0x7f130004
+    const v4, 0x7f130005
 
     invoke-virtual {v2, v4, v0}, Landroid/content/res/Resources;->getQuantityString(II)Ljava/lang/String;
 
@@ -568,7 +568,7 @@
     move-result-object v2
 
     .line 246
-    const v3, 0x7f0b106a
+    const v3, 0x7f0b11f2
 
     .line 244
     invoke-virtual {v2, v3}, Landroid/app/AlertDialog$Builder;->setMessage(I)Landroid/app/AlertDialog$Builder;
@@ -715,7 +715,7 @@
     if-eqz v4, :cond_3
 
     .line 362
-    const v4, 0x7f0b1715
+    const v4, 0x7f0b189b
 
     invoke-interface {v0, v4}, Landroid/view/MenuItem;->setTitle(I)Landroid/view/MenuItem;
 
@@ -943,7 +943,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0b1513
+    const v4, 0x7f0b1699
 
     invoke-virtual {v3, v4}, Landroid/app/Activity;->setTitle(I)V
 

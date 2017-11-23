@@ -111,7 +111,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0b0a2f
+    const v4, 0x7f0b0a50
 
     invoke-static {v3, v4, v6}, Landroid/widget/Toast;->makeText(Landroid/content/Context;II)Landroid/widget/Toast;
 
@@ -167,12 +167,12 @@
 
     .line 157
     .local v0, "mAlertDialog":Landroid/app/AlertDialog$Builder;
-    const v3, 0x7f0b0a2a
+    const v3, 0x7f0b0a4b
 
     invoke-virtual {v0, v3}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
 
     .line 158
-    const v3, 0x7f0b0a2b
+    const v3, 0x7f0b0a4c
 
     invoke-virtual {v0, v3}, Landroid/app/AlertDialog$Builder;->setMessage(I)Landroid/app/AlertDialog$Builder;
 
@@ -197,7 +197,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0b0a2c
+    const v4, 0x7f0b0a4d
 
     invoke-static {v3, v4, v6}, Landroid/widget/Toast;->makeText(Landroid/content/Context;II)Landroid/widget/Toast;
 
@@ -215,7 +215,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0b0a30
+    const v4, 0x7f0b0a51
 
     invoke-static {v3, v4, v6}, Landroid/widget/Toast;->makeText(Landroid/content/Context;II)Landroid/widget/Toast;
 

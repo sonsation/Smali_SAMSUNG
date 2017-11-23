@@ -337,13 +337,13 @@
     if-eqz v2, :cond_1
 
     .line 844
-    const v2, 0x7f0b06cb
+    const v2, 0x7f0b06e5
 
     invoke-virtual {v0, v2}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
 
     .line 848
     :cond_1
-    const v2, 0x7f0b0757
+    const v2, 0x7f0b0771
 
     invoke-virtual {p0, v2}, Lcom/samsung/android/settings/face/FaceSettings;->getString(I)Ljava/lang/String;
 
@@ -351,7 +351,7 @@
 
     .line 850
     .local v1, "tempStr":Ljava/lang/String;
-    const v2, 0x7f0b0756
+    const v2, 0x7f0b0770
 
     invoke-virtual {v0, v2}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
 
@@ -365,7 +365,7 @@
     invoke-direct {v2, p0}, Lcom/samsung/android/settings/face/FaceSettings$4;-><init>(Lcom/samsung/android/settings/face/FaceSettings;)V
 
     .line 851
-    const v3, 0x7f0b0436
+    const v3, 0x7f0b043e
 
     invoke-virtual {v0, v3, v2}, Landroid/app/AlertDialog$Builder;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
 
@@ -419,7 +419,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0b0714
+    const v4, 0x7f0b072e
 
     invoke-virtual {p0, v4}, Lcom/samsung/android/settings/face/FaceSettings;->getString(I)Ljava/lang/String;
 
@@ -823,7 +823,7 @@
 
     .line 622
     .local v0, "builder":Landroid/app/AlertDialog$Builder;
-    const v2, 0x7f0b0683
+    const v2, 0x7f0b069d
 
     invoke-virtual {p0, v2}, Lcom/samsung/android/settings/face/FaceSettings;->getString(I)Ljava/lang/String;
 
@@ -836,7 +836,7 @@
     invoke-virtual {v0, v2}, Landroid/app/AlertDialog$Builder;->setTitle(Ljava/lang/CharSequence;)Landroid/app/AlertDialog$Builder;
 
     .line 625
-    const v2, 0x7f0b0758
+    const v2, 0x7f0b0772
 
     invoke-virtual {p0, v2}, Lcom/samsung/android/settings/face/FaceSettings;->getString(I)Ljava/lang/String;
 
@@ -852,7 +852,7 @@
     invoke-direct {v2, p0}, Lcom/samsung/android/settings/face/FaceSettings$2;-><init>(Lcom/samsung/android/settings/face/FaceSettings;)V
 
     .line 628
-    const v3, 0x7f0b0438
+    const v3, 0x7f0b0440
 
     invoke-virtual {v0, v3, v2}, Landroid/app/AlertDialog$Builder;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
 
@@ -901,7 +901,7 @@
     invoke-direct {v2, v0}, Landroid/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
 
     .line 905
-    const v3, 0x7f0b075d
+    const v3, 0x7f0b0777
 
     .line 904
     invoke-virtual {v2, v3}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
@@ -1131,7 +1131,7 @@
 
     .prologue
     .line 520
-    const v0, 0x7f0b180a
+    const v0, 0x7f0b1990
 
     return v0
 .end method
@@ -1370,7 +1370,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0b0714
+    const v3, 0x7f0b072e
 
     invoke-virtual {p0, v3}, Lcom/samsung/android/settings/face/FaceSettings;->getString(I)Ljava/lang/String;
 
@@ -1619,7 +1619,7 @@
     .line 598
     const/4 v0, 0x1
 
-    const v1, 0x7f0b0683
+    const v1, 0x7f0b069d
 
     invoke-interface {p1, v2, v0, v2, v1}, Landroid/view/Menu;->add(IIII)Landroid/view/MenuItem;
 

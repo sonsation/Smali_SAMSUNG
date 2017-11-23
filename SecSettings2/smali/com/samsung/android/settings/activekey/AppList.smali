@@ -630,7 +630,7 @@
     const-string/jumbo v3, "noaction"
 
     .line 139
-    const v4, 0x7f0b035b
+    const v4, 0x7f0b035d
 
     move-object/from16 v0, p0
 
@@ -643,7 +643,7 @@
     move-result-object v5
 
     .line 140
-    const v6, 0x7f02046b
+    const v6, 0x7f020469
 
     .line 139
     invoke-virtual {v5, v6}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
@@ -669,7 +669,7 @@
     const-string/jumbo v3, "torch"
 
     .line 143
-    const v4, 0x7f0b035c
+    const v4, 0x7f0b035e
 
     move-object/from16 v0, p0
 
@@ -682,7 +682,7 @@
     move-result-object v5
 
     .line 144
-    const v6, 0x7f020609
+    const v6, 0x7f020607
 
     .line 143
     invoke-virtual {v5, v6}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;

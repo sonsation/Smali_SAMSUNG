@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="data_saver_unrestricted_summary_chn">
+        <item quantity="other">%d एप्स को बैकग्राउंड डाटा प्रतिबंधित करें सक्षम होने के दौरान प्रतिबंधों के बिना मोबाइल डाटा उपयोग करने की अनुमति है।</item>
+        <item quantity="one">%d एप्स को बैकग्राउंड डाटा प्रतिबंधित करें सक्षम होने के दौरान प्रतिबंधों के बिना मोबाइल डाटा उपयोग करने की अनुमति है।</item>
+    </plurals>
     <plurals name="lock_timeout_hours">
         <item quantity="other">%d घंटे</item>
         <item quantity="one">1 घंटा</item>

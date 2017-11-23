@@ -144,7 +144,7 @@
     .line 114
     if-eqz p1, :cond_1
 
-    const v1, 0x7f0b1751
+    const v1, 0x7f0b18d7
 
     .line 113
     :goto_0
@@ -155,7 +155,7 @@
     .line 115
     if-eqz p1, :cond_2
 
-    const v1, 0x7f0b1752
+    const v1, 0x7f0b18d8
 
     .line 113
     :goto_1
@@ -214,13 +214,13 @@
 
     .line 114
     :cond_1
-    const v1, 0x7f0b1753
+    const v1, 0x7f0b18d9
 
     goto :goto_0
 
     .line 115
     :cond_2
-    const v1, 0x7f0b1754
+    const v1, 0x7f0b18da
 
     goto :goto_1
 .end method
@@ -244,7 +244,7 @@
     .line 184
     iget-object v4, p0, Lcom/samsung/android/settings/qstile/SecAccountTiles;->mContext:Landroid/content/Context;
 
-    const v5, 0x7f0b167a
+    const v5, 0x7f0b1800
 
     invoke-virtual {v4, v5}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -253,7 +253,7 @@
     aput-object v4, v3, v6
 
     .line 183
-    const v4, 0x7f0b0f9e
+    const v4, 0x7f0b0fc6
 
     invoke-virtual {v2, v4, v3}, Landroid/content/Context;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -310,7 +310,7 @@
     if-eqz v1, :cond_0
 
     .line 82
-    const v2, 0x7f02041f
+    const v2, 0x7f02041d
 
     invoke-static {p0, v2}, Landroid/graphics/drawable/Icon;->createWithResource(Landroid/content/Context;I)Landroid/graphics/drawable/Icon;
 
@@ -319,7 +319,7 @@
     invoke-virtual {v1, v2}, Landroid/service/quicksettings/Tile;->setIcon(Landroid/graphics/drawable/Icon;)V
 
     .line 83
-    const v2, 0x7f0b167a
+    const v2, 0x7f0b1800
 
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -515,7 +515,7 @@
     if-eqz v0, :cond_0
 
     .line 154
-    const v2, 0x7f0b1752
+    const v2, 0x7f0b18d8
 
     invoke-virtual {p0, v2}, Lcom/samsung/android/settings/qstile/SecAccountTiles;->getText(I)Ljava/lang/CharSequence;
 
@@ -551,7 +551,7 @@
 
     .line 156
     :cond_0
-    const v2, 0x7f0b1754
+    const v2, 0x7f0b18da
 
     invoke-virtual {p0, v2}, Lcom/samsung/android/settings/qstile/SecAccountTiles;->getText(I)Ljava/lang/CharSequence;
 
@@ -569,7 +569,7 @@
     .line 134
     iget-object v0, p0, Lcom/samsung/android/settings/qstile/SecAccountTiles;->mContext:Landroid/content/Context;
 
-    const v1, 0x7f0b167a
+    const v1, 0x7f0b1800
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

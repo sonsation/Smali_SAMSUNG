@@ -338,10 +338,10 @@
     .param p1, "currentUsbMode"    # I
 
     .prologue
-    .line 480
+    .line 485
     const/4 v0, 0x0
 
-    .line 481
+    .line 486
     .local v0, "currentIdx":I
     :try_start_0
     const-string/jumbo v3, "VZW"
@@ -356,7 +356,7 @@
 
     if-eqz v3, :cond_3
 
-    .line 482
+    .line 487
     const/4 v2, 0x0
 
     .local v2, "i":I
@@ -367,7 +367,7 @@
 
     if-ge v2, v3, :cond_2
 
-    .line 483
+    .line 488
     iget-object v3, p0, Lcom/android/settings/deviceinfo/UsbModeChooserActivity;->mBackend:Lcom/android/settings/deviceinfo/UsbBackend;
 
     sget-object v4, Lcom/android/settings/deviceinfo/UsbModeChooserActivity;->DEFAULT_MODES_VZW:[I
@@ -380,14 +380,14 @@
 
     if-eqz v3, :cond_0
 
-    .line 484
+    .line 489
     sget-object v3, Lcom/android/settings/deviceinfo/UsbModeChooserActivity;->DEFAULT_MODES_VZW:[I
 
     aget v3, v3, v2
 
     if-ne p1, v3, :cond_1
 
-    .line 485
+    .line 490
     sget-object v3, Lcom/android/settings/deviceinfo/UsbModeChooserActivity;->mContainerLayout:Landroid/widget/LinearLayout;
 
     invoke-virtual {v3, v0}, Landroid/widget/LinearLayout;->getChildAt(I)Landroid/view/View;
@@ -400,17 +400,17 @@
 
     invoke-interface {v3, v4}, Landroid/widget/Checkable;->setChecked(Z)V
 
-    .line 489
+    .line 494
     :goto_1
     add-int/lit8 v0, v0, 0x1
 
-    .line 482
+    .line 487
     :cond_0
     add-int/lit8 v2, v2, 0x1
 
     goto :goto_0
 
-    .line 487
+    .line 492
     :cond_1
     sget-object v3, Lcom/android/settings/deviceinfo/UsbModeChooserActivity;->mContainerLayout:Landroid/widget/LinearLayout;
 
@@ -428,21 +428,21 @@
 
     goto :goto_1
 
-    .line 504
+    .line 509
     .end local v2    # "i":I
     :catch_0
     move-exception v1
 
-    .line 505
+    .line 510
     .local v1, "e":Ljava/lang/Exception;
     invoke-virtual {v1}, Ljava/lang/Exception;->printStackTrace()V
 
-    .line 478
+    .line 483
     .end local v1    # "e":Ljava/lang/Exception;
     :cond_2
     return-void
 
-    .line 493
+    .line 498
     :cond_3
     const/4 v2, 0x0
 
@@ -455,7 +455,7 @@
 
     if-ge v2, v3, :cond_2
 
-    .line 494
+    .line 499
     iget-object v3, p0, Lcom/android/settings/deviceinfo/UsbModeChooserActivity;->mBackend:Lcom/android/settings/deviceinfo/UsbBackend;
 
     sget-object v4, Lcom/android/settings/deviceinfo/UsbModeChooserActivity;->DEFAULT_MODES:[I
@@ -468,14 +468,14 @@
 
     if-eqz v3, :cond_4
 
-    .line 495
+    .line 500
     sget-object v3, Lcom/android/settings/deviceinfo/UsbModeChooserActivity;->DEFAULT_MODES:[I
 
     aget v3, v3, v2
 
     if-ne p1, v3, :cond_5
 
-    .line 496
+    .line 501
     sget-object v3, Lcom/android/settings/deviceinfo/UsbModeChooserActivity;->mContainerLayout:Landroid/widget/LinearLayout;
 
     invoke-virtual {v3, v0}, Landroid/widget/LinearLayout;->getChildAt(I)Landroid/view/View;
@@ -488,17 +488,17 @@
 
     invoke-interface {v3, v4}, Landroid/widget/Checkable;->setChecked(Z)V
 
-    .line 500
+    .line 505
     :goto_3
     add-int/lit8 v0, v0, 0x1
 
-    .line 493
+    .line 498
     :cond_4
     add-int/lit8 v2, v2, 0x1
 
     goto :goto_2
 
-    .line 498
+    .line 503
     :cond_5
     sget-object v3, Lcom/android/settings/deviceinfo/UsbModeChooserActivity;->mContainerLayout:Landroid/widget/LinearLayout;
 
@@ -523,7 +523,7 @@
     .prologue
     const/4 v1, 0x0
 
-    .line 510
+    .line 515
     iget-object v0, p0, Lcom/android/settings/deviceinfo/UsbModeChooserActivity;->mDialog:Landroid/app/AlertDialog;
 
     if-eqz v0, :cond_0
@@ -536,15 +536,15 @@
 
     if-eqz v0, :cond_0
 
-    .line 511
+    .line 516
     iget-object v0, p0, Lcom/android/settings/deviceinfo/UsbModeChooserActivity;->mDialog:Landroid/app/AlertDialog;
 
     invoke-virtual {v0}, Landroid/app/AlertDialog;->dismiss()V
 
-    .line 512
+    .line 517
     iput-object v1, p0, Lcom/android/settings/deviceinfo/UsbModeChooserActivity;->mDialog:Landroid/app/AlertDialog;
 
-    .line 509
+    .line 514
     :cond_0
     return-void
 .end method
@@ -554,77 +554,35 @@
     .param p0, "mode"    # I
 
     .prologue
-    .line 517
+    .line 522
     packed-switch p0, :pswitch_data_0
 
-    .line 532
+    .line 528
     :pswitch_0
     const/4 v0, 0x0
 
     return v0
 
-    .line 519
-    :pswitch_1
-    invoke-static {}, Lcom/android/settings/Utils;->isTablet()Z
-
-    move-result v0
-
-    if-eqz v0, :cond_0
-
-    const v0, 0x7f0b0501
-
-    return v0
-
-    .line 520
-    :cond_0
-    const v0, 0x7f0b0503
-
-    return v0
-
-    .line 522
-    :pswitch_2
-    const v0, 0x7f0b19e1
-
-    return v0
-
     .line 524
-    :pswitch_3
-    const v0, 0x7f0b0505
+    :pswitch_1
+    const v0, 0x7f0b1b6f
 
     return v0
 
     .line 526
-    :pswitch_4
-    const v0, 0x7f0b19e9
+    :pswitch_2
+    const v0, 0x7f0b051a
 
     return v0
 
-    .line 528
-    :pswitch_5
-    const v0, 0x7f0b0507
-
-    return v0
-
-    .line 530
-    :pswitch_6
-    const v0, 0x7f0b0509
-
-    return v0
-
-    .line 517
+    .line 522
     nop
 
     :pswitch_data_0
-    .packed-switch 0x0
+    .packed-switch 0x4
         :pswitch_1
+        :pswitch_0
         :pswitch_2
-        :pswitch_3
-        :pswitch_0
-        :pswitch_4
-        :pswitch_0
-        :pswitch_5
-        :pswitch_0
-        :pswitch_6
     .end packed-switch
 .end method
 
@@ -633,16 +591,16 @@
     .param p0, "mode"    # I
 
     .prologue
-    .line 555
+    .line 550
     packed-switch p0, :pswitch_data_0
 
-    .line 570
+    .line 565
     :pswitch_0
     const/4 v0, 0x0
 
     return v0
 
-    .line 557
+    .line 552
     :pswitch_1
     invoke-static {}, Lcom/android/settings/Utils;->isTablet()Z
 
@@ -650,47 +608,47 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0b0501
+    const v0, 0x7f0b0514
 
     return v0
 
-    .line 558
+    .line 553
     :cond_0
-    const v0, 0x7f0b0502
-
-    return v0
-
-    .line 560
-    :pswitch_2
-    const v0, 0x7f0b19e1
-
-    return v0
-
-    .line 562
-    :pswitch_3
-    const v0, 0x7f0b0504
-
-    return v0
-
-    .line 564
-    :pswitch_4
-    const v0, 0x7f0b19e8
-
-    return v0
-
-    .line 566
-    :pswitch_5
-    const v0, 0x7f0b0506
-
-    return v0
-
-    .line 568
-    :pswitch_6
-    const v0, 0x7f0b0509
+    const v0, 0x7f0b0515
 
     return v0
 
     .line 555
+    :pswitch_2
+    const v0, 0x7f0b1b67
+
+    return v0
+
+    .line 557
+    :pswitch_3
+    const v0, 0x7f0b0517
+
+    return v0
+
+    .line 559
+    :pswitch_4
+    const v0, 0x7f0b1b6e
+
+    return v0
+
+    .line 561
+    :pswitch_5
+    const v0, 0x7f0b0519
+
+    return v0
+
+    .line 563
+    :pswitch_6
+    const v0, 0x7f0b051c
+
+    return v0
+
+    .line 550
     nop
 
     :pswitch_data_0
@@ -712,64 +670,52 @@
     .param p0, "mode"    # I
 
     .prologue
-    .line 536
+    .line 532
     packed-switch p0, :pswitch_data_0
 
-    .line 551
+    .line 546
     :pswitch_0
     const/4 v0, 0x0
 
     return v0
 
-    .line 538
+    .line 534
     :pswitch_1
-    invoke-static {}, Lcom/android/settings/Utils;->isTablet()Z
-
-    move-result v0
-
-    if-eqz v0, :cond_0
-
-    const v0, 0x7f0b19ae
-
-    return v0
-
-    .line 539
-    :cond_0
-    const v0, 0x7f0b19de
-
-    return v0
-
-    .line 541
-    :pswitch_2
-    const v0, 0x7f0b19e0
-
-    return v0
-
-    .line 543
-    :pswitch_3
-    const v0, 0x7f0b19e3
-
-    return v0
-
-    .line 545
-    :pswitch_4
-    const v0, 0x7f0b19e6
-
-    return v0
-
-    .line 547
-    :pswitch_5
-    const v0, 0x7f0b19eb
-
-    return v0
-
-    .line 549
-    :pswitch_6
-    const v0, 0x7f0b0508
+    const v0, 0x7f0b1b64
 
     return v0
 
     .line 536
+    :pswitch_2
+    const v0, 0x7f0b1b66
+
+    return v0
+
+    .line 538
+    :pswitch_3
+    const v0, 0x7f0b1b69
+
+    return v0
+
+    .line 540
+    :pswitch_4
+    const v0, 0x7f0b1b6c
+
+    return v0
+
+    .line 542
+    :pswitch_5
+    const v0, 0x7f0b1b71
+
+    return v0
+
+    .line 544
+    :pswitch_6
+    const v0, 0x7f0b051b
+
+    return v0
+
+    .line 532
     nop
 
     :pswitch_data_0
@@ -791,16 +737,16 @@
     .param p0, "mode"    # I
 
     .prologue
-    .line 574
+    .line 569
     packed-switch p0, :pswitch_data_0
 
-    .line 589
+    .line 584
     :pswitch_0
     const/4 v0, 0x0
 
     return v0
 
-    .line 576
+    .line 571
     :pswitch_1
     invoke-static {}, Lcom/android/settings/Utils;->isTablet()Z
 
@@ -808,47 +754,47 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0b19ae
+    const v0, 0x7f0b1b34
 
     return v0
 
-    .line 577
+    .line 572
     :cond_0
-    const v0, 0x7f0b19de
-
-    return v0
-
-    .line 579
-    :pswitch_2
-    const v0, 0x7f0b19e0
-
-    return v0
-
-    .line 581
-    :pswitch_3
-    const v0, 0x7f0b19e2
-
-    return v0
-
-    .line 583
-    :pswitch_4
-    const v0, 0x7f0b19e5
-
-    return v0
-
-    .line 585
-    :pswitch_5
-    const v0, 0x7f0b19ea
-
-    return v0
-
-    .line 587
-    :pswitch_6
-    const v0, 0x7f0b0508
+    const v0, 0x7f0b1b64
 
     return v0
 
     .line 574
+    :pswitch_2
+    const v0, 0x7f0b1b66
+
+    return v0
+
+    .line 576
+    :pswitch_3
+    const v0, 0x7f0b1b68
+
+    return v0
+
+    .line 578
+    :pswitch_4
+    const v0, 0x7f0b1b6b
+
+    return v0
+
+    .line 580
+    :pswitch_5
+    const v0, 0x7f0b1b70
+
+    return v0
+
+    .line 582
+    :pswitch_6
+    const v0, 0x7f0b051b
+
+    return v0
+
+    .line 569
     nop
 
     :pswitch_data_0
@@ -866,101 +812,101 @@
 .end method
 
 .method private inflateOption(IZLandroid/widget/LinearLayout;Z)V
-    .locals 6
+    .locals 7
     .param p1, "mode"    # I
     .param p2, "selected"    # Z
     .param p3, "container"    # Landroid/widget/LinearLayout;
     .param p4, "disallowedByAdmin"    # Z
 
     .prologue
+    const/4 v6, 0x0
+
     .line 399
-    iget-object v3, p0, Lcom/android/settings/deviceinfo/UsbModeChooserActivity;->mLayoutInflater:Landroid/view/LayoutInflater;
+    iget-object v4, p0, Lcom/android/settings/deviceinfo/UsbModeChooserActivity;->mLayoutInflater:Landroid/view/LayoutInflater;
 
-    const v4, 0x7f04024d
+    const v5, 0x7f04024d
 
-    const/4 v5, 0x0
+    invoke-virtual {v4, v5, p3, v6}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
-    invoke-virtual {v3, v4, p3, v5}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
+    move-result-object v3
+
+    .line 401
+    .local v3, "v":Landroid/view/View;
+    const v4, 0x1020016
+
+    invoke-virtual {v3, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v2
 
-    .line 401
-    .local v2, "v":Landroid/view/View;
-    const v3, 0x1020016
+    check-cast v2, Landroid/widget/TextView;
 
-    invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
+    .line 402
+    .local v2, "titleView":Landroid/widget/TextView;
+    const v4, 0x1020010
+
+    invoke-virtual {v3, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v1
 
     check-cast v1, Landroid/widget/TextView;
 
-    .line 402
-    .local v1, "titleView":Landroid/widget/TextView;
-    const v3, 0x1020010
-
-    invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
-
-    move-result-object v0
-
-    check-cast v0, Landroid/widget/TextView;
-
     .line 405
-    .local v0, "summaryView":Landroid/widget/TextView;
-    const-string/jumbo v3, "VZW"
+    .local v1, "summaryView":Landroid/widget/TextView;
+    const-string/jumbo v4, "VZW"
 
     invoke-static {}, Lcom/android/settings/Utils;->readSalesCode()Ljava/lang/String;
 
-    move-result-object v4
+    move-result-object v5
 
-    invoke-virtual {v3, v4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v4, v5}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
-    move-result v3
+    move-result v4
 
-    if-eqz v3, :cond_1
+    if-eqz v4, :cond_1
 
     .line 406
     invoke-static {p1}, Lcom/android/settings/deviceinfo/UsbModeChooserActivity;->getTitleVzw(I)I
 
-    move-result v3
+    move-result v4
 
-    invoke-virtual {v1, v3}, Landroid/widget/TextView;->setText(I)V
+    invoke-virtual {v2, v4}, Landroid/widget/TextView;->setText(I)V
 
     .line 407
     invoke-static {p1}, Lcom/android/settings/deviceinfo/UsbModeChooserActivity;->getSummaryVzw(I)I
 
-    move-result v3
+    move-result v4
 
-    invoke-virtual {v0, v3}, Landroid/widget/TextView;->setText(I)V
+    invoke-virtual {v1, v4}, Landroid/widget/TextView;->setText(I)V
 
-    .line 414
+    .line 419
     :goto_0
     if-eqz p4, :cond_0
 
-    .line 415
-    iget-object v3, p0, Lcom/android/settings/deviceinfo/UsbModeChooserActivity;->mEnforcedAdmin:Lcom/android/settingslib/RestrictedLockUtils$EnforcedAdmin;
+    .line 420
+    iget-object v4, p0, Lcom/android/settings/deviceinfo/UsbModeChooserActivity;->mEnforcedAdmin:Lcom/android/settingslib/RestrictedLockUtils$EnforcedAdmin;
 
-    if-eqz v3, :cond_2
+    if-eqz v4, :cond_3
 
-    .line 416
-    invoke-direct {p0, v2, v1, v0}, Lcom/android/settings/deviceinfo/UsbModeChooserActivity;->setDisabledByAdmin(Landroid/view/View;Landroid/widget/TextView;Landroid/widget/TextView;)V
+    .line 421
+    invoke-direct {p0, v3, v2, v1}, Lcom/android/settings/deviceinfo/UsbModeChooserActivity;->setDisabledByAdmin(Landroid/view/View;Landroid/widget/TextView;Landroid/widget/TextView;)V
 
-    .line 422
+    .line 427
     :cond_0
-    new-instance v3, Lcom/android/settings/deviceinfo/UsbModeChooserActivity$7;
+    new-instance v4, Lcom/android/settings/deviceinfo/UsbModeChooserActivity$7;
 
-    invoke-direct {v3, p0, p4, p1}, Lcom/android/settings/deviceinfo/UsbModeChooserActivity$7;-><init>(Lcom/android/settings/deviceinfo/UsbModeChooserActivity;ZI)V
+    invoke-direct {v4, p0, p4, p1}, Lcom/android/settings/deviceinfo/UsbModeChooserActivity$7;-><init>(Lcom/android/settings/deviceinfo/UsbModeChooserActivity;ZI)V
 
-    invoke-virtual {v2, v3}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    invoke-virtual {v3, v4}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    move-object v3, v2
+    move-object v4, v3
 
-    .line 462
-    check-cast v3, Landroid/widget/Checkable;
+    .line 467
+    check-cast v4, Landroid/widget/Checkable;
 
-    invoke-interface {v3, p2}, Landroid/widget/Checkable;->setChecked(Z)V
+    invoke-interface {v4, p2}, Landroid/widget/Checkable;->setChecked(Z)V
 
-    .line 463
-    invoke-virtual {p3, v2}, Landroid/widget/LinearLayout;->addView(Landroid/view/View;)V
+    .line 468
+    invoke-virtual {p3, v3}, Landroid/widget/LinearLayout;->addView(Landroid/view/View;)V
 
     .line 398
     return-void
@@ -969,21 +915,39 @@
     :cond_1
     invoke-static {p1}, Lcom/android/settings/deviceinfo/UsbModeChooserActivity;->getTitle(I)I
 
-    move-result v3
+    move-result v4
 
-    invoke-virtual {v1, v3}, Landroid/widget/TextView;->setText(I)V
+    invoke-virtual {v2, v4}, Landroid/widget/TextView;->setText(I)V
 
     .line 410
     invoke-static {p1}, Lcom/android/settings/deviceinfo/UsbModeChooserActivity;->getSummary(I)I
 
-    move-result v3
+    move-result v0
 
-    invoke-virtual {v0, v3}, Landroid/widget/TextView;->setText(I)V
+    .line 411
+    .local v0, "summaryReource":I
+    if-nez v0, :cond_2
+
+    .line 412
+    const/16 v4, 0x8
+
+    invoke-virtual {v1, v4}, Landroid/widget/TextView;->setVisibility(I)V
 
     goto :goto_0
 
-    .line 418
+    .line 414
     :cond_2
+    invoke-static {p1}, Lcom/android/settings/deviceinfo/UsbModeChooserActivity;->getSummary(I)I
+
+    move-result v4
+
+    invoke-virtual {v1, v4}, Landroid/widget/TextView;->setText(I)V
+
+    goto :goto_0
+
+    .line 423
+    .end local v0    # "summaryReource":I
+    :cond_3
     return-void
 .end method
 
@@ -996,18 +960,18 @@
     .prologue
     const/4 v2, 0x0
 
-    .line 467
+    .line 472
     iget-object v1, p0, Lcom/android/settings/deviceinfo/UsbModeChooserActivity;->mEnforcedAdmin:Lcom/android/settingslib/RestrictedLockUtils$EnforcedAdmin;
 
     if-eqz v1, :cond_0
 
-    .line 468
+    .line 473
     invoke-virtual {p2, v2}, Landroid/widget/TextView;->setEnabled(Z)V
 
-    .line 469
+    .line 474
     invoke-virtual {p3, v2}, Landroid/widget/TextView;->setEnabled(Z)V
 
-    .line 470
+    .line 475
     const v1, 0x7f110471
 
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1016,12 +980,12 @@
 
     invoke-virtual {v1, v2}, Landroid/view/View;->setVisibility(I)V
 
-    .line 471
+    .line 476
     invoke-virtual {p2}, Landroid/widget/TextView;->getCompoundDrawablesRelative()[Landroid/graphics/drawable/Drawable;
 
     move-result-object v0
 
-    .line 472
+    .line 477
     .local v0, "compoundDrawables":[Landroid/graphics/drawable/Drawable;
     aget-object v1, v0, v2
 
@@ -1029,7 +993,7 @@
 
     move-result-object v1
 
-    .line 473
+    .line 478
     const/high16 v2, 0x7f0d0000
 
     invoke-virtual {p0, v2}, Lcom/android/settings/deviceinfo/UsbModeChooserActivity;->getColor(I)I
@@ -1038,10 +1002,10 @@
 
     sget-object v3, Landroid/graphics/PorterDuff$Mode;->MULTIPLY:Landroid/graphics/PorterDuff$Mode;
 
-    .line 472
+    .line 477
     invoke-virtual {v1, v2, v3}, Landroid/graphics/drawable/Drawable;->setColorFilter(ILandroid/graphics/PorterDuff$Mode;)V
 
-    .line 466
+    .line 471
     .end local v0    # "compoundDrawables":[Landroid/graphics/drawable/Drawable;
     :cond_0
     return-void
@@ -1053,7 +1017,7 @@
     .locals 6
 
     .prologue
-    .line 593
+    .line 588
     const-string/jumbo v4, "activity"
 
     invoke-virtual {p0, v4}, Lcom/android/settings/deviceinfo/UsbModeChooserActivity;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
@@ -1062,7 +1026,7 @@
 
     check-cast v0, Landroid/app/ActivityManager;
 
-    .line 596
+    .line 591
     .local v0, "actMng":Landroid/app/ActivityManager;
     const v4, 0x7fffffff
 
@@ -1070,7 +1034,7 @@
 
     move-result-object v1
 
-    .line 598
+    .line 593
     .local v1, "list":Ljava/util/List;, "Ljava/util/List<Landroid/app/ActivityManager$RunningServiceInfo;>;"
     invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
@@ -1090,7 +1054,7 @@
 
     check-cast v2, Landroid/app/ActivityManager$RunningServiceInfo;
 
-    .line 600
+    .line 595
     .local v2, "rap":Landroid/app/ActivityManager$RunningServiceInfo;
     iget-object v4, v2, Landroid/app/ActivityManager$RunningServiceInfo;->service:Landroid/content/ComponentName;
 
@@ -1106,19 +1070,19 @@
 
     if-eqz v4, :cond_0
 
-    .line 601
+    .line 596
     const-string/jumbo v4, "UsbModeChooserActivity"
 
     const-string/jumbo v5, "checkSmartSwtichTransfer - return true"
 
     invoke-static {v4, v5}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 602
+    .line 597
     const/4 v4, 0x1
 
     return v4
 
-    .line 605
+    .line 600
     .end local v2    # "rap":Landroid/app/ActivityManager$RunningServiceInfo;
     :cond_1
     const-string/jumbo v4, "UsbModeChooserActivity"
@@ -1127,7 +1091,7 @@
 
     invoke-static {v4, v5}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 606
+    .line 601
     const/4 v4, 0x0
 
     return v4
@@ -1140,7 +1104,7 @@
     .prologue
     const/4 v4, 0x0
 
-    .line 611
+    .line 606
     const-string/jumbo v2, "VZW"
 
     invoke-static {}, Lcom/android/settings/Utils;->readSalesCode()Ljava/lang/String;
@@ -1153,14 +1117,14 @@
 
     if-eqz v2, :cond_1
 
-    .line 612
+    .line 607
     new-instance v1, Landroid/content/Intent;
 
     const-string/jumbo v2, "com.samsung.helphub.HELP"
 
     invoke-direct {v1, v2}, Landroid/content/Intent;-><init>(Ljava/lang/String;)V
 
-    .line 613
+    .line 608
     .local v1, "intent":Landroid/content/Intent;
     const-string/jumbo v2, "helphub:category"
 
@@ -1168,16 +1132,16 @@
 
     invoke-virtual {v1, v2, v3}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 614
+    .line 609
     invoke-virtual {p0, v1}, Lcom/android/settings/deviceinfo/UsbModeChooserActivity;->startActivity(Landroid/content/Intent;)V
 
-    .line 610
+    .line 605
     .end local v1    # "intent":Landroid/content/Intent;
     :cond_0
     :goto_0
     return-void
 
-    .line 616
+    .line 611
     :cond_1
     invoke-virtual {p0}, Lcom/android/settings/deviceinfo/UsbModeChooserActivity;->getApplicationContext()Landroid/content/Context;
 
@@ -1187,18 +1151,18 @@
 
     move-result-object v0
 
-    .line 617
+    .line 612
     .local v0, "helpMenuData":Lcom/android/settings/Utils$OnlineHelpMenuState;
     iget-boolean v2, v0, Lcom/android/settings/Utils$OnlineHelpMenuState;->removeTile:Z
 
     if-nez v2, :cond_0
 
-    .line 618
+    .line 613
     iget-object v2, v0, Lcom/android/settings/Utils$OnlineHelpMenuState;->intent:Landroid/content/Intent;
 
     if-eqz v2, :cond_0
 
-    .line 619
+    .line 614
     iget-object v2, v0, Lcom/android/settings/Utils$OnlineHelpMenuState;->intent:Landroid/content/Intent;
 
     invoke-virtual {p0, v2}, Lcom/android/settings/deviceinfo/UsbModeChooserActivity;->startActivity(Landroid/content/Intent;)V
@@ -1234,7 +1198,7 @@
     invoke-direct {v2, p0}, Landroid/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
 
     .line 261
-    const v5, 0x7f0b19ed
+    const v5, 0x7f0b1b73
 
     .line 260
     invoke-virtual {v2, v5}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
@@ -1264,7 +1228,7 @@
 
     invoke-direct {v5, p0}, Lcom/android/settings/deviceinfo/UsbModeChooserActivity$6;-><init>(Lcom/android/settings/deviceinfo/UsbModeChooserActivity;)V
 
-    const v6, 0x7f0b107a
+    const v6, 0x7f0b1202
 
     .line 260
     invoke-virtual {v2, v6, v5}, Landroid/app/AlertDialog$Builder;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
@@ -1536,7 +1500,7 @@
     move-result-object v3
 
     .line 307
-    const v4, 0x7f0b043a
+    const v4, 0x7f0b0442
 
     invoke-virtual {p0, v4}, Lcom/android/settings/deviceinfo/UsbModeChooserActivity;->getString(I)Ljava/lang/String;
 

@@ -195,7 +195,7 @@
 
     aput-object v0, v2, v4
 
-    const v3, 0x7f0b1923
+    const v3, 0x7f0b1aa9
 
     invoke-virtual {p0, v3, v2}, Lcom/android/settings/notification/ZenModeAutomationSettings;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -212,7 +212,7 @@
 
     .line 193
     :cond_0
-    const v2, 0x7f0b1953
+    const v2, 0x7f0b1ad9
 
     invoke-virtual {p0, v2}, Lcom/android/settings/notification/ZenModeAutomationSettings;->getString(I)Ljava/lang/String;
 
@@ -233,7 +233,7 @@
     aput-object v1, v2, v5
 
     .line 197
-    const v3, 0x7f0b1924
+    const v3, 0x7f0b1aaa
 
     invoke-virtual {p0, v3, v2}, Lcom/android/settings/notification/ZenModeAutomationSettings;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -258,7 +258,7 @@
 
     .line 215
     :pswitch_0
-    const v0, 0x7f0b18cf
+    const v0, 0x7f0b1a55
 
     invoke-virtual {p0, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -268,7 +268,7 @@
 
     .line 217
     :pswitch_1
-    const v0, 0x7f0b18ce
+    const v0, 0x7f0b1a54
 
     invoke-virtual {p0, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -278,7 +278,7 @@
 
     .line 219
     :pswitch_2
-    const v0, 0x7f0b18d0
+    const v0, 0x7f0b1a56
 
     invoke-virtual {p0, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -591,7 +591,7 @@
 
     aput-object p2, v1, v2
 
-    const v2, 0x7f0b1910
+    const v2, 0x7f0b1a96
 
     invoke-virtual {p0, v2, v1}, Lcom/android/settings/notification/ZenModeAutomationSettings;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -603,7 +603,7 @@
     move-result-object v0
 
     .line 127
-    const v1, 0x7f0b107a
+    const v1, 0x7f0b1202
 
     const/4 v2, 0x0
 
@@ -618,7 +618,7 @@
     invoke-direct {v1, p0, p1}, Lcom/android/settings/notification/ZenModeAutomationSettings$4;-><init>(Lcom/android/settings/notification/ZenModeAutomationSettings;Ljava/lang/String;)V
 
     .line 128
-    const v2, 0x7f0b1911
+    const v2, 0x7f0b1a97
 
     .line 125
     invoke-virtual {v0, v2, v1}, Landroid/app/AlertDialog$Builder;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
@@ -762,12 +762,12 @@
 
     .line 170
     .local v0, "p":Landroid/preference/Preference;
-    const v5, 0x7f02017d
+    const v5, 0x7f02017b
 
     invoke-virtual {v0, v5}, Landroid/preference/Preference;->setIcon(I)V
 
     .line 171
-    const v5, 0x7f0b190d
+    const v5, 0x7f0b1a93
 
     invoke-virtual {v0, v5}, Landroid/preference/Preference;->setTitle(I)V
 

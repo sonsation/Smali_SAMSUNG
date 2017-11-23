@@ -51,7 +51,7 @@
 
     .line 359
     :pswitch_0
-    const v0, 0x7f0b18c6
+    const v0, 0x7f0b1a4c
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -61,7 +61,7 @@
 
     .line 361
     :pswitch_1
-    const v0, 0x7f0b18c7
+    const v0, 0x7f0b1a4d
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -71,7 +71,7 @@
 
     .line 363
     :pswitch_2
-    const v0, 0x7f0b18c8
+    const v0, 0x7f0b1a4e
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

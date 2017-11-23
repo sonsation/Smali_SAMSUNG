@@ -27,7 +27,7 @@
     .param p1, "this$1"    # Lcom/android/settings/datausage/DataUsageList$6;
 
     .prologue
-    .line 846
+    .line 842
     iput-object p1, p0, Lcom/android/settings/datausage/DataUsageList$6$1;->this$1:Lcom/android/settings/datausage/DataUsageList$6;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -43,7 +43,7 @@
     .param p2, "which"    # I
 
     .prologue
-    .line 849
+    .line 845
     iget-object v0, p0, Lcom/android/settings/datausage/DataUsageList$6$1;->this$1:Lcom/android/settings/datausage/DataUsageList$6;
 
     iget-object v0, v0, Lcom/android/settings/datausage/DataUsageList$6;->this$0:Lcom/android/settings/datausage/DataUsageList;
@@ -52,6 +52,6 @@
 
     invoke-static {v0, v1}, Lcom/android/settings/datausage/DataUsageList;->-wrap1(Lcom/android/settings/datausage/DataUsageList;I)V
 
-    .line 848
+    .line 844
     return-void
 .end method

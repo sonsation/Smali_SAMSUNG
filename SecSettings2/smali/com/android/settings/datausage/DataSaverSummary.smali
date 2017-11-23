@@ -135,7 +135,7 @@
 
     .prologue
     .line 169
-    const v0, 0x7f0b181a
+    const v0, 0x7f0b19a0
 
     return v0
 .end method
@@ -519,7 +519,7 @@
 
     aput-object v9, v8, v10
 
-    const v9, 0x7f130022
+    const v9, 0x7f130023
 
     .line 215
     invoke-virtual {v7, v9, v2, v8}, Landroid/content/res/Resources;->getQuantityString(II[Ljava/lang/Object;)Ljava/lang/String;

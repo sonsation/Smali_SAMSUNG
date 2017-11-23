@@ -31,7 +31,7 @@
     <string name="bluetooth_disconnected">துண்டிக்கபட்டது</string>
     <string name="bluetooth_disconnecting">துண்டிக்கிறது…</string>
     <string name="bluetooth_connecting">இணைக்கிறது…</string>
-    <string name="bluetooth_connected">இணைக்கபட்டது.</string>
+    <string name="bluetooth_connected">இணைக்கபட்டது</string>
     <string name="bluetooth_pairing">இணைக்கிறது…</string>
     <string name="bluetooth_connected_no_headset">இணைக்கப்பட்டது (மொபைல் இல்லை)</string>
     <string name="bluetooth_connected_no_a2dp">இணைக்கப்பட்டது (மீடியா இல்லை)</string>
@@ -433,7 +433,7 @@ Enter the code you get from Verizon:"</string>
     <string name="answering_end_call_title">அழைப்புகளுக்கு பதிலளித்தல் மற்றும் முடித்தல்</string>
     <string name="audio_preference_title">கேட்டல்</string>
     <string name="mono_audio_title">மோனோ கேட்பொலி</string>
-    <string name="mono_audio_summary">நீங்கள் ஒரு இயர்ஃபோனை பயன்படுத்தும் போது கேட்பொலியை ஸ்டீரியோவிலிருந்து மோனோவுக்கு மாற்றவும்.</string>
+    <string name="mono_audio_summary">ஒரு காதில் கேட்க, கேட்பொலியை ஸ்டீரியோவிலிருந்து மொனோவிற்கு மாற்றவும்.</string>
     <string name="multi_window_title">மல்டி விண்டோ</string>
     <string name="magnifier_seekbar_plus_tts">கூட்டல்</string>
     <string name="magnifier_seekbar_minus_tts">கழித்தல்</string>
@@ -514,16 +514,18 @@ Enter the code you get from Verizon:"</string>
     <string name="direct_access_actions_universal_switch_title">யூனிவர்சல் சுவிட்ச்</string>
     <string name="sound_detector_title">குழந்தை அழுவதை கண்டறியும் டிடெக்டர்</string>
     <string name="sound_detector_main_title">ஒலி கண்டறிகருவிகள்</string>
-    <string name="sound_detector_main_description">அழைப்புமணி அல்லது குழந்தை அழுகையை சாதனம் கண்டறியும் போது விழிப்பூட்டல்களை பெறவும்.</string>
+    <string name="sound_detector_main_description">அழைப்பு மணி அல்லது குழந்தை அழுகையை ஃபோன் கண்டறியும் போது விழிப்பூட்டல்களை பெறவும்.</string>
     <string name="accessibility_easy_interaction_summary">ஒற்றை டேப் கொண்டு அலாரங்களை, நாள்காட்டி நிகழ்வுகளை மற்றும் டைமர் விழிப்பூட்டல்களை நிராகரிக்கவும் அல்லது ஸ்னூஸ் செய்யவும் மற்றும் உள்வரும் அழைப்புகளுக்கு பதிலளிக்கவும் அல்லது அவற்றை மறுக்கவும்.</string>
     <string name="accessibility_easy_interaction_summary_tablet_wifi">அலாரங்கள் மற்றும் நாட்காட்டி நிகழ்வுகளை நிறுத்த/ஸ்னூஸ் செய்ய டேப் செய்யவும்.</string>
-    <string name="all_sound_off">அனைத்து ஒலிகளையும் நிறுத்தவும்</string>
-    <string name="all_sound_off_summary">ஒலி முறையானது ஒலி என்பதற்கு அமைக்கப்பட்டிருந்தால் கூட, ஸ்பீக்கர்ஃபோன் உட்பட, ஒலிகள் எதையும் இயக்க வேண்டாம்.</string>
+    <string name="all_sound_off">எல்லா ஒலிகளையும் தடுக்கவும்</string>
+    <string name="all_sound_off_summary">ஃபோன் அழைப்புகள் உட்பட, ஒலி முறையானது ஒலிக்கவும் என அமைக்கப்பட்டிருந்தாலும் கூட, எல்லா ஒலிகளையும் அணைக்கவும்.</string>
     <string name="all_sound_off_dialog_summary">%1$s மற்றும் %2$s ஒரே நேரத்தில் செயல்படுத்த இயலாது. %3$s செயல்நீக்கப்படும்.</string>
+    <string name="all_sound_off_popup_description">எல்லா ஒலிகளையும் ஒலிதடுக்கவும் என்பதைப் பயன்படுத்த, %s-ஐ ஆஃப் செய்ய வேண்டும்.</string>
+    <string name="all_sound_turn_off_button">ஆஃப் செய்க</string>
     <string name="turn_off_all_sounds">அனைத்து ஒலிகளையும் நிறுத்தவும்</string>
     <string name="turn_off_all_sounds1">எல்லா ஒலிகளையும் அணைத்தல் மற்றும் பதிலளித்தல் தகவல் ஆகிய இரண்டையும் ஒரே நேரத்தில் இயக்க இயலாது.</string>
     <string name="turn_off_all_sounds2">எல்லா ஒலிகளையும் அணைத்தல் மற்றும் பதிலளித்தல் தகவல் ஆகிய இரண்டையும் ஒரே நேரத்தில் இயக்க இயலாது. பதிலளித்தல் தகவல் முடக்கப்படும்.</string>
-    <string name="turn_off_all_sounds_toast_with_sound_detector">ஒலி கண்டறியும் கருவி செயல்படுத்தப்பட்டிருக்கும் போது, எல்லா ஒலிகளையும் ஆஃப் செய்யவும் என்பதை செயல் நீக்க இயலாது. அவற்றை செயல் நீக்க, அமைவுகள் > அணுகல் > கேட்டல் > ஒலி கண்டறியும் கருவிகள் என்பதற்கு சென்று, எல்லா ஒலி கண்டறியும் கருவிகளையும் செயல் நீக்கவும்.</string>
+    <string name="turn_off_all_sounds_toast_with_sound_detector">ஒலி கண்டறியும் கருவிகள் இயங்கும் போது எல்லா ஒலிகளையும் தடுக்கவும் என்ற அம்சத்தை இயக்க இயலாது.</string>
     <string name="accessibility_categories_title">பிரிவுகள்</string>
     <string name="share_accessibility_settings">அணுகத்தன்மையை நிர்வகி</string>
     <string name="share_accessibility_settings_summary">உங்கள் அணுகல் அமைவுகளை இறக்குமதி செய்யவும் மற்றும் ஏற்றுமதி செய்யவும் அல்லது அவற்றை பிற சாதனங்களுடன் பகிரவும்.</string>
@@ -660,6 +662,7 @@ Enter the code you get from Verizon:"</string>
     <string name="deviceOption">சாதன தெரிவுகள்</string>
     <string name="lock">பூட்டு</string>
     <string name="powerOff">பவர் ஆஃப்</string>
+    <string name="unable_assistantmenu_while_sidesync">SideSync-ஐப் பயன்படுத்தும் போது துணை மெனுவை இயக்க இயலாது.</string>
     <string name="eamenableinfo">உதவி பிளஸைச் செயல்படுத்துவதற்கு குறைந்தது ஒரு பயன்பாடேனும் தேர்வுசெய்யவும்.</string>
     <string name="fetch_progress">தரவை ஏற்றுகிறது…</string>
     <string name="assistant_menu_enable_message">%s மற்றும் கீழே உள்ள தெரிவுகளை ஒரே நேரத்தில் செயல்படுத்த இயலாது. கீழே உள்ள தெரிவுகள் செயல்நீக்கப்படும்.</string>
@@ -766,7 +769,7 @@ Enter the code you get from Verizon:"</string>
     <string name="xcover_key_shortcut_battery_conserving_mode">Battery conserving mode</string>
     <string name="xcover_key_shortcut_normal_mode">இயல்பு முறை</string>
     <string name="flight_mode_enabled_toast">ஃப்ளைட் முறை செயல்படுத்தப்பட்டிருக்கையில் மொபைல் நெட்வொர்க்குகளை இணைக்க இயலாது. ஃப்ளைட் முறையை செயல்நீக்கி மீண்டும் முயலுக.</string>
-    <string name="airplane_mode_summary">அழைத்தல் மற்றும் மெசேஜிங் செயல்பாடுகளை செயல்நீக்கி, மொபைல் தரவை ஆஃப் செய்யவும்.</string>
+    <string name="airplane_mode_summary">அழைத்தல், மெசேஜிங் மற்றும் மொபைல் தரவை ஆஃப் செய்யவும்.</string>
     <string name="usb_not_support_mtp_usb3_dialog_title">அறிவிப்பு</string>
     <string name="airplane_mode_desc">Wi-Fi உட்பட நெட்வொர்க் அம்சங்களை அணைத்திட ஃப்ளைட் முறை அனுமதிக்கிறது. Wi-Fi பயன்படுத்த, அதை அமைவுகளில் அல்லது அறிவிப்பு பலகையில் செயல்படுத்துக</string>
     <string name="flight_mode_enable_popup_title">ஃப்ளைட் முறை செயல்படுத்துக</string>
@@ -906,6 +909,7 @@ Wi-Fi மற்றும் ப்ளூடூத் ஆகியவையும
     <string name="bluetooth_control_app_disable_summary">ப்ளூடூத் ஆஃப்பில்: %s</string>
     <string name="bluetooth_enter_pin_msg">%s உடன் இணைப்பதற்கு PIN உள்ளிடுக (0000 அல்லது 1234 முயற்சிக்கவும்).</string>
     <string name="bluetooth_pin_maximum_number_message">எழுத்துகளின் அதிகபட்ச எண்ணிக்கை அடையப்பட்டது.</string>
+    <string name="bluetooth_frp_permission_message">இந்த அழைப்பிற்காக ப்ளூடூத் சாதனத்தை பயன்படுத்த இயலாது.</string>
     <string name="settings_menu_done">முடிந்தது</string>
     <string name="usb_tethering_unavailable_subtext_tmo">USB not connected</string>
     <string name="usb_tethering_available_subtext_tmo">USB connected, check to tether</string>
@@ -946,6 +950,11 @@ Wi-Fi மற்றும் ப்ளூடூத் ஆகியவையும
 - ஸ்கிரீன்ஷாட்டில் வரையலாம்.
 - ஸ்கிரீன்ஷாட்டை க்ராப் செய்யலாம்.
 - ஸ்கிரீன்ஷாட்டை பகிரலாம்."</string>
+    <string name="smart_capture_summary">ஸ்கிரீன்ஷாட்டை எடுத்த பிறகு கூடுதல் தெரிவுகளைக் காட்டுக. ஸ்மார்ட் படம்பிடித்தல் மூலம் நீங்கள்:</string>
+    <string name="smart_capture_summary_1">திரையின் மறைந்துள்ள பகுதிகளைப் படமெடுக்கவும்.</string>
+    <string name="smart_capture_summary_2">ஸ்கிரீன்ஷாட்டில் வரையவும்.</string>
+    <string name="smart_capture_summary_3">ஸ்கிரீன்ஷாட்டை க்ராப் செய்யவும்.</string>
+    <string name="smart_capture_summary_4">ஸ்கிரீன்ஷாட்டைப் பகிர்க.</string>
     <string name="identify_unsaved_numbers_title">சேமிக்கப்படாத எண்களை அடையாளம் காண்க</string>
     <string name="identify_unsaved_numbers_title_usa">ஸ்பேம் எண்களைக் கண்டறிக</string>
     <string name="call_message_spam_filter_title">Call/message spam filter</string>
@@ -1042,6 +1051,7 @@ Wi-Fi மற்றும் ப்ளூடூத் ஆகியவையும
     <string name="fota_update_summary">ஃபேர்ம்வேரை சமீபத்திய பதிப்புக்கு புதுப்பித்து, சமீபத்திய அம்சங்களை பயன்படுத்த இங்கே டேப் செய்யவும்.</string>
     <string name="favorite_tab">துரித அமைவுகள்</string>
     <string name="device_maintenance_title">சாதனப் பராமரிப்பு</string>
+    <string name="memory_string">நினைவகம்</string>
     <string name="tab_favorite_edit">துரித அமைவுகளைத் திருத்துதல்</string>
     <string name="add_favorite_button">துரித அமைவுகளைத் திருத்துதல்</string>
     <string name="cloud_and_accounts_title">கிளௌடு மற்றும் கணக்குகள்</string>
@@ -1079,7 +1089,12 @@ Wi-Fi மற்றும் ப்ளூடூத் ஆகியவையும
     <string name="notification_settings_apps_title">பயன்பாட்டு அறிவிப்புகள்</string>
     <string name="international_roaming_setting">ரோமிங் அமைவுகள்</string>
     <string name="user_manual_mos">பயனர் கையேடு</string>
-    <string name="data_saver_description">தரவு பயன்பாட்டைக் குறைக்க உதவ, தரவுச் சேமிப்பான் ஆனது சில பயன்பாடுகளை பின்னணியில் தரவை அனுப்புவதை அல்லது பெறுவதைத் தடைசெய்கிறது. மேலும், தற்போது பயன்படுத்தப்படும் பயன்பாடுகள் தரவை அணுகலாம், எனினும் அது மிகவும் குறைவாகவே இருக்கும். எடுத்துக்காட்டாக, படிமங்களை டேப் செய்யும் வரை அது சரியாகக் காட்டப்படாது.</string>
+    <string name="data_saver_description">சில பயன்பாடுகளை பின்னணியில் தரவை அனுப்புவது அல்லது பெறுவதில் இருந்து தடுப்பதன் மூலம் உங்கள் தரவு பயன்பாட்டைக் குறைக்க தரவுச் சேமிப்பான் உதவுகிறது. தற்போது நீங்கள் பயன்படுத்தும் பயன்பாடுகள் மொபைல் தரவைப் பயன்படுத்தலாம், எனினும் அவை அவ்வப்போதே செய்யப்படும். எடுத்துக்காட்டாக, படிமங்களை டேப் செய்யும் வரை அவை காட்டப்படாது.</string>
+    <string name="unrestricted_data_saver_chn">வரம்பின்றி தரவைப் பயன்படுத்தவும்</string>
+    <string name="data_saver_description_chn">தரவு பயன்பாட்டைக் குறைக்க உதவ,பின்னணி தரவைக் கட்டுப்படுத்தவும் அம்சமானது சில பயன்பாடுகளை பின்னணியில் தரவை அனுப்புவதை அல்லது பெறுவதைத் தடைசெய்கிறது. மேலும், தற்போது பயன்படுத்தப்படும் பயன்பாடுகள் தரவை அணுகலாம், எனினும் அது மிகவும் குறைவாகவே இருக்கும். எடுத்துக்காட்டாக, படிமங்களை டேப் செய்யும் வரை அது சரியாகக் காட்டப்படாது.</string>
+    <string name="data_saver_title_chn">பின்னணி தரவைக் கட்டுப்படுத்தவும்</string>
+    <string name="unrestricted_app_title_chn">வரம்பின்றி தரவைப் பயன்படுத்தவும்</string>
+    <string name="unrestricted_app_summary_chn">பின்னணி தரவுக் கட்டுப்பாடு செயல்படுத்தப்பட்டிருக்கும் போது வரம்பின்றி மொபைல் தரவை இந்தப் பயன்பாடு பயன்படுத்தலாம்.</string>
     <string name="data_used_editor_subtitle">Enter the amount of data you have used this month:</string>
     <string name="traffic_vertify">Details</string>
     <string name="btn_tmo">Upgrade data service</string>
@@ -1131,7 +1146,9 @@ Data usage is measured by your phone. Your carrier may account for usage differe
     <string name="last_checked_date">கடைசியாக சரிபார்த்த நாள்:</string>
     <string name="auto_update">புதுப்பிப்பு. தானாக பதிவிறக்குக</string>
     <string name="auto_update_summary">Wi-Fi நெட்வொர்க்குடன் இணைக்கப்பட்டிருக்கும் போது மட்டும் மென்பொருள் புதுப்பிப்புகளைப் பதிவிறக்கவும். பதிவிறக்கத்தின் போதும் உங்கள் சாதனத்தை நீங்கள் தொடர்ந்து பயன்படுத்த இயலும்.</string>
-    <string name="scheduled_update">திட்டமிட்ட மெ.பொ புதுப்பிப்பு</string>
+    <string name="auto_update_over_wifi">Wi-Fi மூலம் தானாக பதிவிறக்குக</string>
+    <string name="auto_update_over_wifi_summary">Wi-Fi நெட்வொர்க்குடன் இணைக்கப்பட்டிருக்கும் போது மென்பொருள் புதுப்பிப்புகளைத் தானாக பதிவிறக்கவும். உங்கள் சேவை வழங்குநரைப் பொறுத்து, மொபைல் தரவைப் பயன்படுத்தி எந்த கூடுதல் கட்டணங்களும் இல்லாமல் புதுப்பிப்புகளும் பதிவிறக்கப்படலாம். பதிவிறக்கத்தின் போதும் உங்கள் ஃபோனை பயன்படுத்த இயலும்.</string>
+    <string name="scheduled_update">திட்டமிட மெ பொ புதுப்பிப்பு.</string>
     <string name="scheduled_update_summary_default">ஆஃப்</string>
     <string name="scheduled_update_summary_set_time">புதுப்பிப்பு %s-க்கு துவங்கும்</string>
     <string name="scheduled_update_summary_set_time_everyday">புதுப்பிப்பு ஒவ்வொரு நாளும் %s-க்கு துவங்கும்</string>
@@ -1172,9 +1189,9 @@ Data usage is measured by your phone. Your carrier may account for usage differe
     <string name="usb_use_file_transfers_summary_vzw">Transfer media files to a computer.</string>
     <string name="usb_use_file_transfers_summary">ஊடகக் கோப்புகளை MTP வழியே PC-க்கு இடமாற்றவும்.</string>
     <string name="usb_use_MIDI_summary_vzw">Use device for MIDI input.</string>
-    <string name="usb_use_MIDI_summary">இணைக்கப்பட்ட சாதனத்தை MIDI (இசைக் கருவி டிஜிட்டல் இடைமுகம்) இயக்கி அல்லது உள்ளீடு மூலமாக பயன்படுத்தவும்.</string>
-    <string name="usb_use_software_installation">Software Installation</string>
-    <string name="usb_use_software_installation_summary">Install Software Update and Repair tool for your device on a Mac or Windows computer.</string>
+    <string name="usb_use_MIDI_summary">இணைத்த சாதனத்தை, MIDI இயக்கியாக அல்லது உள்ளீட்டு ஆதாரமாகப் பயன்படுத்தவும்.</string>
+    <string name="usb_use_system_update">சிஸ்டம் புதுப்பிப்பு</string>
+    <string name="usb_use_system_update_summary">உங்கள் கணினியில் மென்பொருள் தரமேற்றுதல் உதவியாளரை நிறுவி, இந்த ஃபோனைப் புதுப்பிக்கவும் அல்லது பழுதுபார்க்கவும்.</string>
     <string name="sim_status_code">குறியீடு</string>
     <string name="sim_status_btn_update">SIM அட்டை நிலையைப் புதுப்பிக்கவும்</string>
     <string name="sim_status_updating">புதுப்பிக்கிறது…</string>
@@ -1263,7 +1280,7 @@ Where Can I Find More Information About the 3rd Party's Policies? Separately, if
     <string name="display_temperature">நிற சமநிலை</string>
     <string name="adjust_your_display_colour">வெள்ளை டோன்களின் தோற்றத்தை மாற்ற உங்கள் காட்சித்திரையில் நிறங்களைச் சரிபடுத்தவும்.</string>
     <string name="led_indicator_settings">LED சுட்டிகாட்டி</string>
-    <string name="led_indicator_settings_summary">சார்ஜ் செய்தல், குரல் பதிதல் அல்லது அறிவிப்புகளைப் பெறுதல் ஆகியவற்றின் போது, LED சுட்டிக்காட்டி ஒளிருமாறு செய்யவும்.</string>
+    <string name="led_indicator_settings_summary">ஒலி பதிவுசெய்தல், வாசிக்காத அறிவிப்புகள் மற்றும் மின்கல நிலைகளைக் காட்ட, திரை அணைந்திருக்கும் போது LED சுட்டிக்காட்டியை ஒளிரச் செய்யவும்.</string>
     <string name="screen_resolution_desc">சில உள்ளடக்கம் மங்கலாக தோன்றக்கூடும் அல்லது FHD அல்லது HD-இல் ஆதரிக்கப்படாமல் போகலாம்.</string>
     <string name="display_battery_percentage">மின்கல சதவிகிதம் காட்டுக</string>
     <string name="display_battery_percentage_summary">நிலைப் பட்டையில் மீதம் உள்ள மின்கல சக்தியை சதவிகிதமாக காட்டவும்.</string>
@@ -1292,7 +1309,7 @@ Where Can I Find More Information About the 3rd Party's Policies? Separately, if
     <string name="wallpaper">வால்பேப்பர்</string>
     <string name="lockscreen_wallpaper">பூட்டுத் திரை</string>
     <string name="status_bar">நிலைப் பட்டை</string>
-    <string name="recent_notification_status_bar_title">சமீபத்திய அறிவிப்புகளை மட்டும் காண்பி</string>
+    <string name="recent_notification_status_bar_title">சமீபத்திய அறிவிப்புகளை மட்டும் காட்டுக</string>
     <string name="recent_notification_status_bar_summary">நிலைப் பட்டையில் %d மிகச் சமீபத்திய அறிவிப்புகளை மட்டும் காண்க.</string>
     <string name="display_and_homescreen_title">காட்சி மற்றும் முகப்புத் திரை</string>
     <string name="navigationbar_title">நகர்தல் பட்டை</string>
@@ -1310,12 +1327,12 @@ Where Can I Find More Information About the 3rd Party's Policies? Separately, if
     <string name="blue_light_filter_off_time_next_day_summary_format">அடுத்த நாள் %s</string>
     <string name="blue_light_filter_user_schedule_title">தனிப்பயனாக்கிய திட்டம்</string>
     <string name="blue_light_filter_auto_schedule_title">சூரிய அஸ்தமனம் முதல் சூரிய உதயம் வரை</string>
-    <string name="blue_light_filter_desc">உங்களுக்கு நன்றாக உறக்கம் வர உதவ நீல ஒளி வடிகட்டியை பயன்படுத்துக. நீல ஒளி வடிகட்டியை நீங்கள் பயன்படுத்த விரும்பும் போது திட்டத்தை அமைக்கவும். சூரிய உதயம் முதல் சூரிய அஸ்தமனம் வரை பயன்படுத்த, இருப்பிடம் செயல்படுத்தப்பட வேண்டும்.</string>
-    <string name="blue_light_filter_enable_now">இப்போது செயல்படுத்துக</string>
+    <string name="blue_light_filter_desc">நன்றாக உறங்க இரவு நேரத்தில் நீல ஒளி வடிகட்டியைப் பயன்படுத்தவும். நீல ஒளி வடிகட்டியை எப்போது பயன்படுத்த வேண்டுமென்று கால அட்டவணையை அமைக்கலாம். சூரிய அஸ்தமனத்திலிருந்து உதயம் வரை பயன்படுத்த, இருப்பிடத்தை இயக்க வேண்டும்.</string>
+    <string name="blue_light_filter_enable_now">இப்போதே ஆன் செய்யவும்</string>
     <string name="blue_light_filter_enable_as_scheduled">திட்டமிட்டபடி செயல்படு.</string>
-    <string name="blue_light_filter_scheduled_toast">நீல ஒளி வடிகட்டி செயல்படுத்தப்பட்டது. இது திட்டமிட்ட முடிவு நேரத்தில் தானாக செயல்நீக்கப்படும்.</string>
+    <string name="blue_light_filter_scheduled_toast">நீல ஒளி வடிகட்டி இயக்கப்பட்டது. இது திட்டமிட்ட முடிவு நேரத்தில் தானாக அணைக்கப்படும்.</string>
     <string name="screen_mode_dlg_turn_off_blue_light_filter">ஒரே நேரத்தில் %s மற்றும் நீல ஒளி வடிகட்டியை பயன்படுத்த இயலாது. நீல ஒளி வடிகட்டி செயல்நீக்கப்படும்.</string>
-    <string name="blue_light_filter_dlg_turn_on_location">சூரிய உதயம் முதல் சூரிய அஸ்தமனம் வரை பயன்படுத்த, இருப்பிடம் செயல்படுத்தப்பட வேண்டும்.</string>
+    <string name="blue_light_filter_dlg_turn_on_location">சூரிய அஸ்தமனத்திலிருந்து உதயம் வரை பயன்படுத்த, இருப்பிடத்தை இயக்க வேண்டும்.</string>
     <string name="dlg_turn_on">ஆன் செய்க</string>
     <string name="screen_resolution_title">திரை தெளிவுதிறன்</string>
     <string name="screen_resolution_desc_title">திரை தெளிவுதிறனை மாற்றுக</string>
@@ -1422,6 +1439,10 @@ Where Can I Find More Information About the 3rd Party's Policies? Separately, if
     <string name="crypt_keeper_vzw_password_warning">Set the Screen lock password with at least %d characters and 1 number.</string>
     <string name="crypt_keeper_decrypt_title">சாதனம் மறைகுறிநீக்குக</string>
     <string name="crypt_keeper_decrypt_summary">சாதனம் மறைகுறியாக்கப்பட்டது.</string>
+    <string name="crypt_keeper_type_pin">PIN</string>
+    <string name="crypt_keeper_type_pattern">பேட்டர்ன்</string>
+    <string name="crypt_keeper_type_password">கடவுச்சொல்</string>
+    <string name="crypt_keeper_type_direction">திசைப் பூட்டு</string>
     <string name="crypt_keeper_confirm_title_dec">மறைகுறிநீக்கம் உறுதிப்படுத்துக</string>
     <string name="crypt_keeper_force_power_cycle_pattern">உங்கள் சாதனத்தை துவக்குவதற்கு, பவரை ஆஃப் செய்து, மீண்டும் பவரை ஆன் செய்து, பிறகு மீண்டும் முயற்சிக்கவும். சாதனத்தை துவக்கி, திரையை திறக்க நீங்கள் பேட்டர்னை வரைய வேண்டும். உங்கள் பின்சேமிப்பு PIN-ஐ உங்கள் சாதனத்தை துவக்க பயன்படுத்த இயலாது.</string>
     <string name="crypt_keeper_setup_description_dec">"சாதனம் மறைகுறிநீக்கப்படுகிறது. இதற்கு சிறிது நேரம் ஆகலாம். தயவுசெய்து காத்திருக்கவும்…
@@ -1511,6 +1532,7 @@ Where Can I Find More Information About the 3rd Party's Policies? Separately, if
     <string name="crypt_keeper_verify_failed_summary">உங்கள் சாதனத்தை மீண்டும் துவங்க இயலவில்லை. பொருத்த சரிபார்ப்பு தோல்வியடைந்தது. உங்கள் சாதனத்தை ஃபேக்டரி டீஃபால்ட் அமைவுகளுக்கு ரீசெட் செய்ய வேண்டும். இது உங்கள் எல்லா தரவையும் அழிக்கும்.</string>
     <string name="cryptkeeper_emergency_call">அவசர அழைப்பு</string>
     <string name="cryptkeeper_return_to_call">அழைப்புக்கு திரும்புக</string>
+    <string name="cryptkeeper_default_enter_msg">பாதுகாப்புக்காக உங்கள் ஃபோன் மறைகுறியாக்கப்பட்டது.</string>
     <string name="enter_password">உங்கள் சாதனத்தை துவக்க, உங்கள் கடவுச்சொல்லை உள்ளிடவும்.</string>
     <string name="enter_pin">உங்கள் சாதனத்தை துவக்க, உங்கள் PIN-ஐ உள்ளிடவும்.</string>
     <string name="enter_pattern">உங்கள் சாதனத்தை துவக்க, உங்கள் பேட்டர்னை வரையவும்.</string>
@@ -1520,11 +1542,13 @@ Where Can I Find More Information About the 3rd Party's Policies? Separately, if
     <string name="cryptkeeper_wrong_pin">தவறான PIN உள்ளிடப்பட்டது</string>
     <string name="cryptkeeper_wrong_direction">தவறான திசை வரையப்பட்டது</string>
     <string name="checking_decryption">சரிபார்க்கிறது…</string>
-    <string name="starting_android">ஆண்ட்ராய்டு துவங்குகிறது…</string>
     <string name="crypt_keeper_last_warn_wipe">உங்கள் சாதனத்தை அதன் ஃபேக்டரி டீஃபால்ட் அமைவுகளுக்கு ரீசெட் செய்யும் முன்பு துவங்க உங்களுக்கு 1 முயற்சி மீதம் உள்ளது. கோப்புகள் மற்றும் பதிவிறக்கப்பட்ட பயன்பாடுகள் உட்பட அனைத்து தரவையும் இது அழித்துவிடும்.</string>
     <string name="crypt_keeper_failed_title_dec">மறைகுறிநீக்கம் தோல்வி.</string>
     <string name="crypt_keeper_failed_summary_dec">இடையூறின் காரணமாக மறை நீக்கத்தை முடிக்க இயலவில்லை. பயன்படுத்தும் முன் ஃபேக்டரி ரீசெட் செய்யவேண்டும் (அனைத்து தரவையும் அழித்தல்).</string>
     <string name="crypt_keeper_set_screen_lock_type">திரைப்பூட்டு வகையை அமைக்கவும்</string>
+    <string name="encryption_interstitial_message">"ஃபோனைத் துவக்குவதற்கு முன் %s-ஐ உள்ளிடும்படி கேட்குமாறு அமைப்பதன் மூலம் இந்த ஃபோனை இன்னும் பாதுகாப்பாக வைக்கலாம். உங்கள் ஃபோன் தொலைந்தால் அல்லது திருடு போனால், இது உங்கள் தரவைப் பாதுகாக்கும். மின்னஞ்சல் ஒத்திசைவு போன்ற அம்சங்களை அணுகுவதற்கு சாதனத்தின் மறைகுறியாக்கக் கொள்கைகளுக்கு இணங்க சில பயன்பாடுகளுக்கு பாதுகாப்பான துவக்கம் தேவை.
+
+ஃபோன் துவங்கப்படும் வரை நீங்கள் அழைப்புகள், தகவல்கள் அல்லது அறிவிப்புகள் எதையும் பெற மாட்டீர்கள், அத்துடன் அலாரங்களும் ஒலிக்காது."</string>
     <string name="encryption_interstitial_message_kor">உங்கள் சாதனம் மறைகுறியாக்கப்பட்டது. தரவை மறைகுறிநீக்க சாதனத்தை பவர் ஆன் செய்யும் போது, தேவையான திரைப் பூட்டை தேர்வு செய்வதன் மூலம் உங்கள் மறைகுறியாக்கப்பட்ட தரவைப் பாதுகாக்கவும். இது தொலைந்த அல்லது திருடப்பட்ட சாதனங்களிலுள்ள தரவைப் பாதுகாக்க உதவும். அதன் தரவை மறைகுறிநீக்கம் செய்ய ஆன் செய்யும் போது நீங்கள் உங்கள் சாதனத்தை பூட்டுநீக்க வேண்டும். உங்கள் சாதனத்தை மறைகுறி நீக்கும் வரை, எந்தவொரு அழைப்புகள், தகவல்கள் அல்லது அறிவிப்புகளையும் நீங்கள் பெறமாட்டீர்கள்.</string>
     <string name="encryption_interstitial_message_direction">"சாதனம் பவர் ஆன் ஆகும் போது திசை பூட்டு தேவை என்பதைத் தேர்வு செய்வதன் மூலம் சாதனத்தைப் பாதுகாக்கலாம். தொலைந்த அல்லது திருடப்பட்ட சாதனங்களில் உள்ள தரவைப் பாதுகாக்க இது உதவுகிறது.
 
@@ -1546,6 +1570,7 @@ Where Can I Find More Information About the 3rd Party's Policies? Separately, if
 சாதனம் துவங்கும் வரை எந்த அழைப்புகள், தகவல்கள் அல்லது அறிவிப்புகளையும் நீங்கள் பெறமாட்டீர்கள் மற்றும் அலாரங்கள் ஒலிக்காது."</string>
     <string name="encryption_interstitial_error_message">உங்கள் சாதன தரவைப் பாதுகாக்க, உங்கள் திரைப் பூட்டு வகையை PIN, கடவுச்சொல், பேட்டர்ன் அல்லது கைரேகைப்பதிவாக மாற்றிவிட்டு, பிறகு மீண்டும் முயலவும்.</string>
     <string name="encryption_interstitial_error_message_direction">உங்கள் சாதன தரவைப் பாதுகாக்க, உங்கள் திரைப் பூட்டு வகையை PIN, கடவுச்சொல், பேட்டர்ன், திசை பூட்டு அல்லது கைரேகைப்பதிவாக மாற்றிவிட்டு, பிறகு மீண்டும் முயலவும்.</string>
+    <string name="encryption_interstitial_error_message_direction_without_fingerprint">உங்கள் சாதன தரவைப் பாதுகாக்க, உங்கள் திரைப் பூட்டு வகையை PIN, கடவுச்சொல், பேட்டர்ன் அல்லது திரைப் பூட்டாக மாற்றிவிட்டு, பிறகு மீண்டும் முயலவும்.</string>
     <string name="encryption_interstitial_error_message_iris_direction">உங்கள் சாதனத் தரவைப் பாதுகாக்க, உங்கள் திரைப் பூட்டு வகையை PIN, கடவுச்சொல், பேட்டர்ன், திசை பூட்டு, கைரேகைப்பதிவு அல்லது கருவிழியாக மாற்றிவிட்டு, பிறகு மீண்டும் முயலவும்.</string>
     <string name="encryption_interstitial_error_message_without_fingerprint">உங்கள் சாதன தரவைப் பாதுகாக்க, உங்கள் திரைப் பூட்டு வகையை PIN, கடவுச்சொல், அல்லது பேட்டர்ன் பதிவாக மாற்றிவிட்டு, பிறகு மீண்டும் முயலவும்.</string>
     <string name="encryption_interstitial_error_sktlock">பாதுகாப்பு பூட்டு மற்றும் பாதுகாப்பு துவக்கத்தை ஒரே நேரத்தில் செயல்படுத்த இயலாது. பாதுகாப்பற்ற பூட்டை தேர்வுசெய்து, மீண்டும் முயலவும்.</string>
@@ -1809,6 +1834,8 @@ You will also need it when:"</string>
 %s"</string>
     <string name="improve_location_title">Improve location accuracy</string>
     <string name="improve_location_summary">Use WLANs and mobile networks to provide more accurate information about the location of your device.</string>
+    <string name="send_last_location_title">கடைசி இருப்பிடத்தை அனுப்பவும்</string>
+    <string name="send_last_location_summary">உங்கள் ஃபோனின் மின்கலம், குறிப்பிட்ட அளவிற்கும் கீழ் குறையும் போது அதன் கடைசி இருப்பிடத்தை எனது மொபைல் கண்டுபிடிக்கவும் வழங்கிக்கு அனுப்ப அனுமதிக்கவும்.</string>
     <string name="high_power_description">தனிப்பட்ட பயன்பாடுகளுக்கான மின்கலப் பயன்பாட்டை உகந்ததாக்கவும் என்பதைச் செயல்படுத்துக. மின்கல பவரைச் சேமிக்க, மொபைல் நெட்வொர்க்குகள் அல்லது தரவை ஒத்திசைவக்கவும் என்பதைப் பயன்படுத்துகின்ற சில செயல்பாடுகள் கட்டுப்படுத்தப்படும்.</string>
     <string name="wifi_display_summary_off">ஆஃப்</string>
     <string name="battery_usage_description">இந்த திரை சாதனம் கடைசியாக முழு சார்ஜ் செய்யப்பட்டதிலிருந்து, மின்கல பயன்பாட்டு தரவை காண்பிக்கிறது.</string>
@@ -1904,6 +1931,8 @@ You will also need it when:"</string>
     <string name="iris_sensor_not_working_popup_title">கருவிழி கண்டறிதல் வேலை செய்யவில்லை</string>
     <string name="iris_sensor_not_working_msg">கருவிழி உணர்கருவி பதிலளிக்கவில்லை. பின்னர் மீண்டும் முயலவும்.</string>
     <string name="iris_go_to_samsung_theme">Samsung Themes-க்கு செல்க</string>
+    <string name="biometrics_dex_cant_use_msg">Samsung DeX %s-ஐப் பயன்படுத்த இயலாது.</string>
+    <string name="biometrics_dex_closed_to_switch">Samsung DeX-க்கு மாற %s மூடப்படும்.</string>
     <string name="knox_twofactor_bio_description">%s-ஐ பூட்டுநீக்க, உங்கள் பயோமெட்ரிக் பூட்டு வகையையும் இரண்டாம் பூட்டு வகையையும் தேர்வு செய்க.</string>
     <string name="fingerprint_registered">பதிவுசெய்த ரேகைப்பதிவுகள் தேர்ந்தெடுத்த பூட்டுநீக்க முறையுடன் பயன்படுத்தப்படும்.</string>
     <string name="knox_twofactor_description">Knox-ஐ மேலும் பாதுகாப்பானதாக ஆக்குவதற்கு, இரண்டு பூட்டு வகைகளைப் பயன்படுத்தவும். உங்கள் கைரேகைப் பதிவுகள், முதல் பூட்டு வகையாகப் பயன்படுத்தப்படும். கீழே இரண்டாவது பூட்டு வகையைத் தேர்வுசெய்யவும்.</string>
@@ -2001,8 +2030,8 @@ Determining your location will use the mobile network. Data usage will apply."</
     <string name="app_ops_settings_summary">பயன்பாட்டு அனுமதிகளைக் காணவும் அல்லது மாற்றவும்.</string>
     <string name="backup_key_for_applock_header">பயன்பாடுகளை பூட்ட அல்லது திறக்க கைரேகைப் பதிவு கண்டறிதலுடன் ஒன்றாகப் பயன்படுத்த பேட்டர்ன், PIN அல்லது கடவுச்சொல்லை அமைக்கவும்.</string>
     <string name="backup_key_for_privatemode_header">தனிப்பட்ட முறையை அணுக, கைரேகைப் பதிவு கண்டறிதலுடன் இணைத்து பயன்படுத்த பேட்டர்ன், PIN அல்லது கடவுச்சொல்லை அமைக்கவும்.</string>
-    <string name="status_added">சேர்க்கப்பட்டது</string>
     <string name="text_security_title_b2c">பூட்டு வகையைத் தேர்வு செய்யவும். பாதுகாப்பான கோப்புறையை எப்படி திறப்பது என்பது மறந்துவிட்டால், உங்கள் Samsung account-ஐப் பயன்படுத்தி உங்கள் பூட்டை நீங்கள் ரீசெட் செய்யலாம்.</string>
+    <string name="status_added">சேர்க்கப்பட்டது</string>
     <string name="lockpattern_backup_pin">பின்சேமிப்பு PIN</string>
     <string name="applock_type_fingerprint">ரேகைப்பதிவு</string>
     <string name="unlock_set_unlock_two_factor_title">இரு-நிலை சரிபார்ப்பு</string>
@@ -2218,7 +2247,7 @@ Determining your location will use the mobile network. Data usage will apply."</
     <string name="palm_swipe_title">பிடித்தலுக்கான உள்ளங்கை ஸ்வைப்</string>
     <string name="screen_recorder_title">Record screen</string>
     <string name="screen_recorder_summary">Record video screenshots while you use your device.</string>
-    <string name="multi_window_setting_title">பாப்-அப் காட்சி சைகை</string>
+    <string name="multi_window_setting_title">பாப்-அப் காட்சி செயல்பாடு</string>
     <string name="multi_window_setting_description">பயன்பாடானது திரையில் திறந்திருக்கும் போது, திரையின் மேல் ஏதேனும் மூலையிலிருந்து குறுக்காக கீழே ஸ்வைப் செய்வதன் மூலம் பயன்பாட்டின் அளவை சரிசெய்யலாம்.</string>
     <string name="multi_window_screen_title">மல்டி விண்டோ</string>
     <string name="multi_window_screen_summary">ஒரே நேரத்தில் ஒன்றுக்கும் மேற்பட்ட பயன்பாட்டை காட்டவும்.</string>
@@ -2258,18 +2287,19 @@ Determining your location will use the mobile network. Data usage will apply."</
     <string name="air_browse_note_summary">காட்சி முறையில் இருக்கையில் பக்கங்கள் இடையே நகரவும்.</string>
     <string name="data_usage_enable_mobile_summery">உங்கள் மொபைல் நெட்வொர்க் வழியாக இணையத்தை அணுகவும்.</string>
     <string name="data_usage_enable_mobile_warning_skt">மொபைல் நெட்வொர்க்குகளுடன் இணைப்பது உங்களுடைய தரவுத் திட்டத்தைச் சார்ந்து கூடுதல் கட்டணங்களுக்கு உட்படக்கூடும். தொடரவா?</string>
-    <string name="data_usage_enable_mobile_warning_ktt">மொபைல் நெட்வொர்க்குகளுடன் இணைப்பது உங்களுடைய தரவுத் திட்டத்தைச் சார்ந்து கூடுதல் கட்டணங்களுக்கு உட்படக்கூடும். தொடரவா?</string>
+    <string name="data_usage_enable_mobile_warning_ktt">மொபைல் தரவு ஆன் செய்யப்படும். மொபைல் நெட்வொர்க்குகளுக்கு இணைப்பதானது உங்கள் பணமளிப்புத் திட்டத்தின் அடிப்படையில் கூடுதல் கட்டணங்களை விளைவிக்கக்கூடும்.</string>
     <string name="data_usage_enable_mobile_warning_lgt">மொபைல் நெட்வொர்க்குகளுடன் இணைப்பது உங்களுடைய தரவுத் திட்டத்தைச் சார்ந்து கூடுதல் கட்டணங்களுக்கு உட்படக்கூடும். தொடரவா?</string>
     <string name="data_usage_disable_mobile_title">மொபைல் தரவை ஆஃப் செய்க</string>
     <string name="data_usage_disable_mobile_warning_skt">மொபைல் நெட்வொர்க் இணைப்பைத் துண்டித்தல் MMS மற்றும் 3G தரவு சேவைகளின் பயன்பாட்டை தடைசெய்யும். துண்டிக்கவா?</string>
     <string name="data_usage_disable_mobile_warning_ktt">மொபைல் நெட்வொர்க் இணைப்பைத் துண்டித்தல் MMS மற்றும் 3G தரவு சேவைகளின் பயன்பாட்டை தடைசெய்யும். துண்டிக்கவா?</string>
     <string name="data_usage_disable_mobile_warning_ktt_jb">மொபைல் நெட்வொர்க் இணைப்பைத் துண்டித்தல் MMS மற்றும் 3G தரவு சேவைகளின் பயன்பாட்டை தடைசெய்யும். துண்டிக்கவா?</string>
-    <string name="mobile_data_off_dialog_text_vzw">"Unless you use Wi-Fi, you will not be able to use the Internet, Email, or other apps that require a data connection.
+    <string name="data_usage_disable_mobile_warning_dcm">"If Mobile data is turned off, your device must be connected to a Wi-Fi network to use services that require a network connection.
 
-Turn off Mobile data?"</string>
-    <string name="mobile_data_off_dialog_text_common">"Wi-Fi பயன்படுத்தாமல் உங்களால் இணையம், மின்னஞ்சல் அல்லது தரவு இணைப்பு தேவைப்படும் பிற பயன்பாடுகளைப் பயன்படுத்த இயலாது.
-
-மொபைல் தரவு ஆஃப் செய்யப்படும்."</string>
+Mobile data will be turned off."</string>
+    <string name="mobile_data_off_dialog_text_vzw">"Unless you use Wi-Fi, you won't be able to use the Internet, Email or other apps that require a data connection. Turn off the mobile data connection?"</string>
+    <string name="mobile_data_off_dialog_text_volte">"Your phone's Video Calling function won't work when mobile data is off. Also, you won't be able to use the Internet, Email or other apps that need a data connection unless you use Wi-Fi. Turn off the mobile data connection?"</string>
+    <string name="mobile_data_off_dialog_text_common">Wi-Fi நெட்வொர்க்குடன் நீங்கள் இணையும் வரை, தரவு இணைப்பு தேவைப்படும் இணையம், மின்னஞ்சல் அல்லது பிற பயன்பாடுகளை உங்களால் பயன்படுத்த இயலாது.</string>
+    <string name="data_usage_turn_off_btn">ஆஃப் செய்க</string>
     <string name="wfd_settings_summary">உங்கள் சாதனத்தின் திரையை மற்றொரு சாதனத்துடன் பகிரவும்.</string>
     <string name="nfc_settings_advanced_explain">"டீஃபால்ட் NFC செயலாக்குதல் முறையை அமைக்கவும்.
 சில NFC பரிமாற்றங்கள் மற்றும் மொபைல் பணமளிப்புச் சேவைகளுக்கு வேறு டீஃபால்ட் NFC செயலாக்குதல் முறை தேவைப்படலாம்."</string>
@@ -2301,7 +2331,7 @@ Turn off Mobile data?"</string>
     <string name="nfc_please_wait">தயவுசெய்து காத்திருக்கவும்…</string>
     <string name="nfc_payment_no_sim_card">SIM அட்டை ஏதுமில்லை</string>
     <string name="nfc_disable_service_title">டீஃபால்ட் NFC முறையை மாற்றவா?</string>
-    <string name="nfc_disable_service_msg">நீங்கள் டீஃபால்ட் NFC செயலாக்க முறையை மாற்றினால், மற்றவை டேப்பில் உள்ள சில சேவைகள் ஆன் அல்லது ஆஃப் செய்யப்படும். இந்தச் சேவைகளை நிர்வகிக்க, NFC மற்றும் கட்டணம் > டேப் செய்து பணம் செலுத்தவும் > மற்றவை என்பதற்குச் சென்று, பிறகு ஒவ்வொரு சேவையையும் அதை ஆன் அல்லது ஆஃப் செய்ய தேர்வுசெய்யவும்.</string>
+    <string name="nfc_disable_service_msg">நீங்கள் டீஃபால்ட் NFC செயலாக்க முறையை மாற்றினால், மற்றவை டேபில் உள்ள சில சேவைகள் ஆன் அல்லது ஆஃப் செய்யப்படும். இந்தச் சேவைகளை நிர்வகிக்க, NFC மற்றும் கட்டணம் > டேப் செய்து பணம் செலுத்தவும் > மற்றவை என்பதற்குச் சென்று, பிறகு ஒவ்வொரு சேவையையும் அதை ஆன் அல்லது ஆஃப் செய்ய தேர்வுசெய்யவும்.</string>
     <string name="nfc_settings_advanced_setting">டீஃபால்ட் NFC முறை</string>
     <string name="nfc_settings_advanced_uicc">SE SIM அட்டை</string>
     <string name="nfc_settings_advanced_uicc_TTS">பாதுகாப்புக் கூறு SIM அட்டை</string>
@@ -2409,7 +2439,7 @@ Turn off Mobile data?"</string>
     <string name="zen_mode_events_summary">S Planner மற்றும் பிற நாட்காட்டி நிகழ்வுகளிலிருந்து அறிவிப்புகளை அனுமதிக்கவும்.</string>
     <string name="zen_mode_events_summary_na">நாட்காட்டி நிகழ்வுகள் மற்றும் பணிகளுக்கு அறிவிப்புகளை அனுமதிக்கவும்.</string>
     <string name="zen_mode_reminders_summary">நினைவூட்டல்களை, அவற்றை ஆதரிக்கின்ற பயன்பாடுகளிலிருந்து அனுமதிக்கவும்.</string>
-    <string name="dnd_app_noti_summary">பயன்பாட்டு அறிவிப்புகளை விதிவிலக்குகளாக அனுமதிக்க, முன்னுரிமை குறுக்கீடுகளாக அமைக்கவும்.</string>
+    <string name="dnd_app_noti_summary">நீங்கள் தேர்வுசெய்த பயன்பாடுகளில் இருந்து அறிவிப்புகளை அனுமதிக்கவும்.</string>
     <string name="no_exceptions_dcm_summary">Mute all calls and alerts, including Area Mail alarms.</string>
     <string name="dnd_screen_switch_summary">உங்கள் தனிப்பயன் விதிவிலக்குகளைத் தவிர, அனைத்து அழைப்புகள் மற்றும் விழிப்பூட்டல்களை ஒலிதடுக்கவும்.</string>
     <string name="app_notification_priority_app_list_title">முன்னுரிமை ப.பா. அறிவிப்.</string>
@@ -2456,7 +2486,7 @@ To unblock it and connect to other devices via a USB cable, insert a USIM/SIM ca
     <string name="personal_page_secretbox_disclaimer_title">கைதுறப்பு</string>
     <string name="personal_page_secretbox_disclaimer_message">மற்ற பயன்பாடுகள் உங்கள் தரவை அணுகும் போது தனிப்பட்ட முறையானது பாதுகாக்காது. வெளிப்புற வழங்கியுடன் தரவு ஒத்திசைப்பதிலிருந்து பாதுகாக்க உங்கள் சாதன அமைவுகளில் தயவுசெய்து தானாக ஒத்திசைத்தல் என்பதை செயல்நீக்கவும்.</string>
     <string name="personal_page_secretbox_disclaimer_message_vzw">Content moved into Private mode will be hidden and will not be shown when you exit from Private mode. Automatic syncing while in Private mode may allow that content to be visible in 3rd party apps. Check the automatic synchronization settings of your other applications before using Private mode.</string>
-    <string name="personal_page_tutorial_app_title_message">தனியாக நீங்கள் வைக்க விரும்பும் உள்ளடக்கத்தை மறைக்க, தனிப்பட்ட முறையை பயன்படுத்தவும். பின்வரும் பயன்பாட்டைப் பயன்படுத்தும் போது, தனிப்பட்டதில் நீங்கள் நகர்த்த விரும்பும் உருப்படிகளை தேர்வுசெய்து, பிறகு “மேலும்” என்பதை டேப் செய்து, தனிப்பட்டதிற்கு நகர்த்தவும் என்பதைத் தேர்வுசெய்யவும். தனிப்பட்டதிற்கு நகர்த்தப்பட்ட உள்ளடக்கத்தை, தனிப்பட்ட முறை செயல்படுத்தப்பட்டிருக்கும் போது மட்டுமே பார்க்க இயலும்.</string>
+    <string name="personal_page_tutorial_app_title_message">தனியாக நீங்கள் வைக்க விரும்பும் உள்ளடக்கத்தை மறைக்க, தனிப்பட்ட முறையை பயன்படுத்தவும். பின்வரும் பயன்பாடுகளைப் பயன்படுத்தும் போது, தனிப்பட்டதிற்கு நீங்கள் நகர்த்த விரும்பும் உருப்படிகளைத் தேர்வுசெய்து, பிறகு மேலும் தெரிவுகள் பொத்தானை டேப் செய்து, “தனிப்பட்டதிற்கு நகர்த்தவும்” என்பதைத் தேர்வுசெய்யவும். தனிப்பட்டதிற்கு நகர்த்தப்பட்ட உள்ளடக்கத்தை, தனிப்பட்ட முறை இயக்கப்பட்டிருக்கும் போது மட்டுமே பார்க்க இயலும்.</string>
     <string name="personal_page_inline_help">தனிப்பட்ட முறையைப் பயன்படுத்த, ஒரு அணுகல் வகை தேர்வுசெய்யவும். நீங்கள் உங்களது தனிப்பட்ட முறை அணுகல் வகையை மறந்துவிட்டால், அதை உங்களால் மீட்டெடுக்க இயலாது மற்றும் உங்கள் சாதனத்தை அதன் தொழிற்சாலை டீஃபால்ட் அமைவுகளுக்கு ரீசெட் செய்யும்வரை தனிப்பட்ட முறையைப் பயன்படுத்த இயலாது.</string>
     <string name="personal_page_backup_pin_summary">உங்கள் பேட்டர்னை நீங்கள் மறந்திருக்கும் பட்சத்தில், தனிப்பட்ட முறைக்காக ஒரு பின்சேமிப்பு PIN-ஐ உருவாக்கவும்.</string>
     <string name="personal_page_incorrect_pin">"தவறான PIN.
@@ -2846,6 +2876,7 @@ To unblock it and connect to other devices via a USB cable, insert a USIM/SIM ca
     <string name="samsung_backup_summary">உங்கள் தரவைப் பின்சேமிக்க, Samsung account பயன்படுத்தவும்.</string>
     <string name="samsung_restore_summary">உங்கள் பின்சேமிப்புத் தரவை மீள்சேமிக்க, உங்கள் Samsung account பயன்படுத்தவும்.</string>
     <string name="sns_settings_title">உங்கள் Wi-Fi இணைப்பு நிலையற்றதாக இருக்கும் போது மொபைல் தரவிற்கு மாறவும். நீங்கள் அதிகமாக பார்வையிட்ட பகுதிகளில் இருந்து சேமித்துள்ள Wi-Fi நெட்வொர்க்குகளுக்கும் உங்கள் ஃபோன் மாறும். சேமித்த Wi-Fi நெட்வொர்க்குகளில் ஸ்மார்ட் நெட்வொர்க் ஸ்விட்ச் தானாகவே இயக்கப்படும் அல்லது அணைக்கப்படும்.</string>
+    <string name="sns_settings_title_include_autowifi">உங்கள் Wi-Fi இணைப்பு நிலையற்றதாக இருக்கும் போது மொபைல் தரவிற்கு மாறவும். நீங்கள் அதிகமாக பார்வையிட்ட பகுதிகளில் இருந்து சேமித்துள்ள Wi-Fi நெட்வொர்க்குகளுக்கும் உங்கள் ஃபோன் மாறும். சேமித்த Wi-Fi நெட்வொர்க்குகளில் ஸ்மார்ட் நெட்வொர்க் ஸ்விட்ச் தானாகவே இயக்கப்படும் அல்லது அணைக்கப்படும்.</string>
     <string name="smart_bonding">பதிவிறக்க பூஸ்டர்</string>
     <string name="smart_bonding_popup_title">பதிவிறக்க பூஸ்டரை செயல்படுத்துக</string>
     <string name="smart_bonding_description_vzw">"Download large files (over %d MB) faster by using Wi-Fi and LTE networks at the same time. The Download booster icon will be shown on the status bar when Download booster is turned on.
@@ -3037,7 +3068,7 @@ Downloading via mobile networks may result in additional charges depending on yo
     <string name="wifi_on_dialog_summary">To switch to Wi-Fi, select a network</string>
     <string name="notifyme_later">இப்பொழுது இல்லை</string>
     <string name="wifi_p2p_help_message">Wi-Fi Direct Wi-Fi சாதனங்களை அச்சிட, கோப்பினை பகிர, ஒத்திசைக்க மற்றும் திரையைப் பகிர மிக எளிமையாகவும் மற்றும் மிக வசதியாகவும் நேரடியாக இணைக்க செயல்படுத்துகிறது. Wi-Fi Direct க்கு துணைபுரியும் சாதனங்களை இணைப்பது உங்கள் உள்ளடக்கத்தை பகிர உங்கள் தரவை ஒத்திசைக்க, நண்பர்களுடன் இணைந்திருக்க, விளையாட்டுக்கள், கேட்பொலி, நிகழ்படம் மற்றும் பல்வேறு பயன்பாடுகளை பயன்படுத்தி இயக்க வழி செய்கிறது.</string>
-    <string name="prev_button_label">முந்தைய</string>
+    <string name="prev_button_label">முந்தையது</string>
     <string name="wifi_sns_setting_alert_button_do_not_enable">செயல்படுத்த வேண்டாம்</string>
     <string name="wifi_smart_network_switch_aggressive_switching_summary">உங்கள் Wi-Fi இணைய இணைப்பு சற்றே நிலையற்று இருக்கும்போதும் இணையத்தை அணுக மொபைல் நெட்வொர்க்கை பயன்படுத்துவதற்கு மாறவும். இது உங்கள் தரவு பயன்பாட்டை அதிகரிக்கக் கூடும்.</string>
     <string name="wifi_smart_network_switch_aggressive_switching">ஆக்கிரோஷமான நிலைமாற்றம்</string>
@@ -3066,6 +3097,8 @@ Downloading via mobile networks may result in additional charges depending on yo
     <string name="wifi_manage_network">நெட்வொர்க்குகளை நிர்வகிக்கவும்</string>
     <string name="wlan_permission_available_message">Asks your permission to use WLAN via a pop-up</string>
     <string name="wlan_permission_available">Ask to use WLAN</string>
+    <string name="wifi_hotspot20_summary_tmo">கடவுச்சொல் இல்லாமல் ஹாட்ஸ்பாட் 2.0 செயல்படுத்தப்பட்ட Wi-Fi அணுகல் புள்ளிகளில் இடைவெளி இல்லாமல் இணைக்கலாம்.</string>
+    <string name="wifi_hotspot20_summary_dcm">Wi-Fi இயக்கப்பட்டிருக்கும் போது, ஹாட்ஸ்பாட் 2.0 Wi-Fi நெட்வொர்க்கை தானாக இணைக்கவும்.</string>
     <string name="wifi_hotspot20_summary">Hotspot 2.0-ஐ ஆதரிக்கும் Wi-Fi அணுகல் புள்ளிகளுடன் தானாகவே இணைக்கவும்.</string>
     <string name="wifi_hotspot20_enable">Hotspot 2.0</string>
     <string name="wifi_att_auto_connect_summary">Automatically connect to AT&amp;T Wi-Fi hotspot when detected</string>
@@ -3084,9 +3117,9 @@ Downloading via mobile networks may result in additional charges depending on yo
     <string name="wifi_auto_reconnect">தானாக மீண்டும் இணைக்கவும்</string>
     <string name="wifi_enable_warning_chn">Turning on WLAN will disable Mobile hotspot.</string>
     <string name="wifi_enable_warning_vzw">Wi-Fi துவக்குவது மொபைல் ஹாட்ஸ்பாட்டை செயல்நீக்கும். தொடரவா?</string>
-    <string name="wifi_enable_warning_tmo">Wi-Fi is turned off when Mobile HotSpot is active. To turn on Wi-Fi, please turn off Mobile HotSpot.</string>
+    <string name="wifi_enable_warning_tmo">மொபைல் ஹாட்ஸ்பாட் செயலில் இருக்கும் போது, Wi-Fi ஆஃப் செய்யப்படும். Wi-Fi-ஐ ஆன் செய்ய, மொபைல் ஹாட்ஸ்பாட்டை ஆஃப் செய்யவும்.</string>
     <string name="wifi_enable_warning_spr">Turning on Wi-Fi will disable Hotspot.</string>
-    <string name="wifi_enable_warning_mtr">Turning on Wi-Fi will turn off Mobile Hotspot. Continue?</string>
+    <string name="wifi_enable_warning_mtr">மொபைல் ஹாட்ஸ்பாட் செயலில் இருக்கும் போது, Wi-Fi ஆஃப் செய்யப்படும். Wi-Fi-ஐ ஆன் செய்ய, மொபைல் ஹாட்ஸ்பாட்டை ஆஃப் செய்யவும்.</string>
     <string name="wifi_enable_warning_usc">Turning on Wi-Fi will turn off Portable Wi-Fi hotspot. Continue?</string>
     <string name="wifi_enable_warning">Wi-Fi ஆன் செய்தால் மொபைல் ஹாட்ஸ்பாட் செயல்நீக்கப்படும்.</string>
     <string name="wifi_control_history_title">Wi-Fi கட்டுப்பாட்டு வரலாறு</string>
@@ -3120,9 +3153,9 @@ Downloading via mobile networks may result in additional charges depending on yo
     <string name="wifi_ap__wifi_sharing_vzw">Wi-Fi Sharing</string>
     <string name="wifi_ap__wifi_sharing">Wi-Fi பகிர்தல்</string>
     <string name="first_use_wifi_msg_mtr">Tap OK to learn more about using Mobile Hotspot.</string>
-    <string name="first_use_wifi_msg">Tap OK to learn more about using Mobile HotSpot.</string>
+    <string name="first_use_wifi_msg">மொபைல் ஹாட்ஸ்பாட் பயன்படுத்துவது குறித்து மேலும் அறிய “சரி” என்பதை டேப் செய்யவும்.</string>
     <string name="first_use_title_mtr">View Mobile Hotspot help</string>
-    <string name="first_use_title">View Mobile HotSpot help</string>
+    <string name="first_use_title">மொபைல் ஹாட்ஸ்பாட் உதவியைக் காண்க</string>
     <string name="wifi_ap_wifi_sharing_title">Wi-Fi பகிர்வு செ.படுத்துக</string>
     <string name="wifi_ap_wifi_sharing_status_enabled">செயல்படுத்தப்பட்டது</string>
     <string name="wifi_ap_wifi_sharing_status_disabled">செயல்நீக்கப்பட்டது</string>
@@ -3154,11 +3187,11 @@ Using Mobile hotspot increases battery consumption and data usage."</string>
 Mobile Hotspot uses mobile data from your data plan.
 
 We recommend keeping your phone plugged in to a charger while using Mobile Hotspot to save battery."</string>
-    <string name="wifi_ap_instruction_changeable_maxclient_tmo">"You can use your device as an Internet access point using Mobile HotSpot. This allows up to %d other devices to connect to it via Wi-Fi. The connected devices will have access to the Internet via your mobile network.
+    <string name="wifi_ap_instruction_changeable_maxclient_tmo">"மொபைல் ஹாட்ஸ்பாட்டைப் பயன்படுத்தி, இணைய அணுகல் புள்ளியாக உங்கள் சாதனத்தைப் பயன்படுத்தலாம். இது, Wi-Fi வழியாக இணைப்பதற்கு %d பிற சாதனங்கள் வரை அனுமதிக்கிறது. இணைக்கப்பட்ட சாதனங்கள் உங்கள் மொபைல் நெட்வொர்க் வழியாக இணையத்தின் அணுகலை பெறும்.
 
-You can create an allowed device profile and set the connection mode for it.
+நீங்கள் அனுமதிக்கப்பட்ட சாதன ப்ரொஃபைலை உருவாக்கி, அதற்கான இணைப்பு முறையை உருவாக்கலாம்.
 
-Using Mobile HotSpot increases battery consumption and data usage."</string>
+மொபைல் ஹாட்ஸ்பாட்டை பயன்படுத்துதல் மின்கல உபயோகம் மற்றும் தரவு பயன்பாட்டை அதிகரிக்கும்."</string>
     <string name="wifi_ap_instruction_changeable_maxclient_spr">"You can share your device's Hotspot with Wi-Fi enabled devices.
 
 After you start the Mobile Hotspot Wi-Fi router, connect using the controls on your Wi-Fi enabled device."</string>
@@ -3191,7 +3224,7 @@ To configure Smartphone Mobile Hotspot, tap on the menu icon, and then tap “Co
     <string name="wifi_ap_hide_ssid">எனது சாதனத்தை மறைக்கவும்</string>
     <string name="wifi_ap_wifi_off_warn_vzw">Mobile Hotspot uses your mobile data connection. Your Wi-Fi connection will be turned off.</string>
     <string name="wifi_ap_wifi_off_warn_spr">Enabling Hotspot will turn off Wi-Fi</string>
-    <string name="wifi_ap_wifi_off_warn_tmo">Wi-Fi is turned off when USB tethering or Mobile HotSpot is active. To turn on Wi-Fi, please turn off USB tethering or Mobile HotSpot.</string>
+    <string name="wifi_ap_wifi_off_warn_tmo">USB டித்தரிங் அல்லது மொபைல் ஹாட்ஸ்பாட் செயலில் இருக்கும் போது, Wi-Fi ஆஃப் செய்யப்படும். Wi-Fi-ஐ ஆன் செய்ய, USB டித்தரிங் அல்லது மொபைல் ஹாட்ஸ்பாட்டை ஆஃப் செய்யவும்.</string>
     <string name="wifi_ap_wifi_off_warn_chn">Enabling Mobile hotspot will turn off WLAN.</string>
     <string name="wifi_ap_wifi_off_warn_att">Turning on portable Wi-Fi hotspot will turn off Wi-Fi.</string>
     <string name="wifi_ap_wifi_off_warn_mtr">Wi-Fi is turned off when USB tethering or Mobile Hotspot is active. To turn on Wi-Fi, please turn off USB tethering or Mobile Hotspot.</string>
@@ -3262,6 +3295,7 @@ To configure Smartphone Mobile Hotspot, tap on the menu icon, and then tap “Co
     <string name="wifi_wps_onstart_pbc_mobileap">இணைக்க மற்ற சாதனத்தில் WPS பொத்தானை அழுத்தவும்.</string>
     <string name="wifi_wps_complete_mobileap">வேறு சாதனம் இப்போது உங்கள் சாதனத்திற்கு இணைக்கப்படுகிறது.</string>
     <string name="wifi_ap_disconnect_warn">சாதனத்தைத் துண்டிக்கவும்</string>
+    <string name="wifi_ap_change_policy_warn_mtr">The device currently connected will be disconnected from Portable Wi-Fi Hotspot.</string>
     <string name="wifi_ap_change_policy_warn">தற்போது இணைக்கப்பட்டுள்ள சாதனங்கள் அனைத்தும் மொபைல் ஹாட்ஸ்பாட்டிலிருந்து இணைப்புநீக்கப்படும்.</string>
     <string name="wifi_ap_warn_max_whitelist">அனுமதிக்கப்படும் அதிகபட்ச சாதனங்களின் எண்ணிக்கை (%d) அடையப்பட்டது.</string>
     <string name="wifiap_one_item_deleted">1 உருப்படி நீக்கப்படும்.</string>
@@ -3296,8 +3330,9 @@ Wi-Fi is now on."</string>
     <string name="wifi_tether_dialog_nosim_warning_title">மொபைல் ஹாட்ஸ்பாட்</string>
     <string name="wifi_tether_dialog_nosim_warning_chn">Insert a SIM card to use Mobile hotspot and other tethering functions.</string>
     <string name="wifi_tether_dialog_nosim_warning_vzw">Insert a SIM card to use Mobile Hotspot and other tethering options.</string>
-    <string name="wifi_tether_dialog_nosim_warning_tmo">"Please install SIM card in order to share your phone's data connection with other devices using Mobile Wi-Fi HotSpot or USB tethering for Internet access."</string>
-    <string name="wifi_tether_dialog_nosim_warning_spr">Insert SIM for using Hotspot include tethering</string>
+    <string name="wifi_tether_dialog_nosim_warning_tmo">இணைய அணுகலுக்காக உங்கள் ஃபோனின் தரவு இணைப்பை மொபைல் Wi-Fi ஹாட்ஸ்பாட் அல்லது USB டித்தரிங் பயன்படுத்தி பிற சாதனங்களுடன் பகிர SIM அட்டையை நிறுவவும்.</string>
+    <string name="wifi_tether_dialog_nosim_warning_mtr">"Please install SIM card in order to share your phone's data connection with other devices using Mobile Wi-Fi Hotspot or USB tethering for Internet access."</string>
+    <string name="wifi_tether_dialog_nosim_warning_spr">ஹாட்ஸ்பாட்டைப் பயன்படுத்த, SIM அட்டையை நுழைக்கவும்.</string>
     <string name="wifi_tether_dialog_nosim_warning_usc">மொபைல் ஹாட்ஸ்பாட்டைப் பயன்படுத்தவும், பிற டித்தரிங் அம்சங்களைப் பயன்படுத்தவும் SIM அட்டை உள்ளிடவும்.</string>
     <string name="wifi_tether_dialog_nosim_warning">மொபைல் ஹாட்ஸ்பாட்டைப் பயன்படுத்தவும், பிற டித்தரிங் அம்சங்களைப் பயன்படுத்தவும் SIM அட்டை உள்ளிடவும்.</string>
     <string name="mobileap_tmo">மொபைல் ஹாட்ஸ்பாட்</string>
@@ -3324,7 +3359,7 @@ Wi-Fi is now on."</string>
     <string name="wifi_ap_instruction_open_activate_color3_att">&lt;font color=\"%1$s\">%2$s&lt;/font> இணைக்கவும்.</string>
     <string name="wifi_ap_instruction_open_activate_color3">&lt;font color=\"%1$s\">%2$s&lt;/font> இணைக்கவும்.</string>
     <string name="wifi_ap_instruction_open_activate_color4_vzw">Enjoy your Mobile Hotspot.</string>
-    <string name="wifi_ap_instruction_open_activate_color4_tmo">Enjoy the internet using your personal Mobile HotSpot.</string>
+    <string name="wifi_ap_instruction_open_activate_color4_tmo">உங்கள் தனிப்பட்ட மொபைல் ஹாட்ஸ்பாட்டைப் பயன்படுத்தி, இணையத்தைப் பயன்படுத்தி மகிழவும்.</string>
     <string name="wifi_ap_instruction_open_activate_color4_spr">Enjoy the Internet with Hotspot.</string>
     <string name="wifi_ap_instruction_open_activate_color4_att">Enjoy the Internet using Mobile hotspot.</string>
     <string name="wifi_ap_instruction_open_activate_color4_mtr">Enjoy the Internet using portable Wi-Fi hotspot.</string>
@@ -3343,7 +3378,7 @@ Wi-Fi is now on."</string>
     <string name="wifi_ap_instruction_activate_color3_att">கடவுச்சொல்லாக &lt;font color=\"%1$s\">%3$s&lt;/font> என்பதை உள்ளிடுவதன் மூலம் &lt;font color=\"%1$s\">%2$s&lt;/font> உடன் இணைக்கவும்.</string>
     <string name="wifi_ap_instruction_activate_color3">கடவுச்சொல்லாக &lt;font color=\"%1$s\">%3$s&lt;/font> என்பதை உள்ளிடுவதன் மூலம் &lt;font color=\"%1$s\">%2$s&lt;/font> உடன் இணைக்கவும்.</string>
     <string name="wifi_ap_instruction_activate_color4_vzw">Enjoy your Mobile Hotspot.</string>
-    <string name="wifi_ap_instruction_activate_color4_tmo">Enjoy the internet using your personal Mobile HotSpot.</string>
+    <string name="wifi_ap_instruction_activate_color4_tmo">உங்கள் தனிப்பட்ட மொபைல் ஹாட்ஸ்பாட்டைப் பயன்படுத்தி, இணையத்தைப் பயன்படுத்தி மகிழவும்.</string>
     <string name="wifi_ap_instruction_activate_color4_spr">Enter &lt;font color=\"%1$s\">%3$s&lt;/font> in the &lt;font color=\"%1$s\">%4$s&lt;/font> field.</string>
     <string name="wifi_ap_instruction_activate_color4_att">Enjoy the Internet using Mobile hotspot.</string>
     <string name="wifi_ap_instruction_activate_color4_mtr">Enjoy the Internet using portable Wi-Fi hotspot.</string>
@@ -3365,16 +3400,16 @@ Wi-Fi is now on."</string>
     <string name="wifi_ap_instruction_activate_color_hidden3_chn">Connect to &lt;font color=\"%1$s\">%2$s&lt;/font> by entering &lt;font color=\"%1$s\">%3$s&lt;/font> as the password.</string>
     <string name="wifi_ap_instruction_activate_color_hidden3_tmo">Connect to &lt;font color=\"%1$s\">%2$s&lt;/font> by entering &lt;font color=\"%1$s\">%3$s&lt;/font> as the password.</string>
     <string name="wifi_ap_instruction_activate_color_hidden3">கடவுச்சொல்லாக &lt;font color=\"%1$s\">%3$s&lt;/font> என்பதை உள்ளிடுவதன் மூலம் &lt;font color=\"%1$s\">%2$s&lt;/font> உடன் இணைக்கவும்.</string>
-    <string name="wifi_ap_instruction_activate_color_hidden4_tmo">Enjoy the internet using your personal Mobile HotSpot.</string>
+    <string name="wifi_ap_instruction_activate_color_hidden4_tmo">உங்கள் தனிப்பட்ட மொபைல் ஹாட்ஸ்பாட்டைப் பயன்படுத்தி, இணையத்தைப் பயன்படுத்தி மகிழவும்.</string>
     <string name="wifi_ap_instruction_no_maxclient">"மொபைல் ஹாட்ஸ்பாட் உபயோகித்து இணைய அணுகல் புள்ளியாக உங்கள் சாதனத்தை உபயோகிக்கலாம். இது, Wi-Fi வழியாக இணைப்பதற்கு பிற சாதனங்கள் வரை அனுமதிக்கிறது. இணைத்துள்ள சாதனங்கள், உங்கள் மொபைல் நெட்வொர்க் வழியாக இணையத்திற்க்கான அணுகலைக் கொண்டிருக்கும்.
 
 அனுமதிக்கப்படுகிற சாதன ப்ரொஃபைலை உருவாக்கி அதற்கான இணைப்பு முறைமையை அமைக்கலாம்.
 
 மொபைல் ஹாட்ஸ்பாட் உபயோகிப்பதானது, மின்கல நுகர்வையும் தரவு உபயோகத்தையும் அதிகரிக்கிறது."</string>
     <string name="wifi_ap_instruction_configure_vzw">To change the Mobile Hotspot configuration, go to Settings > Mobile Hotspot and tethering > Mobile Hotspot > MORE, then select Configure Mobile Hotspot.</string>
-    <string name="wifi_ap_instruction_configure_tmo">To change the Mobile HotSpot configuration, tap the More options button, then select Configure Mobile HotSpot.</string>
+    <string name="wifi_ap_instruction_configure_tmo">மொபைல் ஹாட்ஸ்பாட் உள்ளமைவை மாற்ற, மேலும் தெரிவுகள் பொத்தானை டேப் செய்து மொபைல் ஹாட்ஸ்பாட் கட்டமைக்கவும் என்பதைத் தேர்வுசெய்யவும்.</string>
     <string name="wifi_ap_instruction_configure">மொபைல் ஹாட்ஸ்பாட் கட்டமைப்பை மாற்ற, மேலும் தெரிவுகள் பொத்தானை டேப் செய்து மொபைல் ஹாட்ஸ்பாட்டை கட்டமைக்கவும் என்பதைத் தேர்வுசெய்யவும்.</string>
-    <string name="wifi_ap_instruction_configure_non_grace_tmo">To change the Mobile HotSpot configuration, tap MORE, then select Configure Mobile HotSpot.</string>
+    <string name="wifi_ap_instruction_configure_non_grace_tmo">மொபைல் ஹாட்ஸ்பாட் உள்ளமைவை மாற்ற, மேலும் என்பதை டேப் செய்து, மொபைல் ஹாட்ஸ்பாட் கட்டமைக்கவும் என்பதைத் தேர்வுசெய்யவும்.</string>
     <string name="wifi_ap_instruction_configure_non_grace">மொபைல் ஹாட்ஸ்பாட் கட்டமைப்பை மாற்ற, “மேலும்” என்பதை டேப் செய்து, மொபைல் ஹாட்ஸ்பாட் உள்ளமை என்பதை தேர்வுசெய்யவும்.</string>
     <string name="wifi_ap_change_security">Change Security</string>
     <string name="wifi_ap_maxclient">அதிகபட்ச இணைப்புகள்</string>
@@ -3391,7 +3426,8 @@ Wi-Fi is now on."</string>
     <string name="wifi_tether_configure_ap_text_usc">Configure Wi-Fi hotspot</string>
     <string name="wifi_tether_configure_ap_text">மொபைல் ஹாட்ஸ்பாட்டை உள்ளமை</string>
     <string name="wifi_ap_hidessid_warning">Your phone will be visible to other devices</string>
-    <string name="wifi_ap_first_time_configuration">First time HotSpot configuration</string>
+    <string name="wifi_ap_first_time_configuration_mtr">முதல் முறை ஹாட்ஸ்பாட் கட்டமைவு</string>
+    <string name="wifi_ap_first_time_configuration">முதல் முறை ஹாட்ஸ்பாட் கட்டமைப்பு</string>
     <string name="title_wifi_notify_mobileap_is_on">Wi-Fi and Mobile Hotspot</string>
     <string name="wifi_ssid_max_byte_error">எழுத்துகளின் அதிகபட்ச எண்ணிக்கை அடையப்பட்டது.</string>
     <string name="tethering_attention_title">கவனம்</string>
@@ -3534,6 +3570,8 @@ Wi-Fi is now on."</string>
     <string name="master_clear_desc_music">இசை</string>
     <string name="master_clear_desc_pictures">படங்கள்</string>
     <string name="master_clear_desc_other_user_data">பிற அனைத்து பயனர் தரவு</string>
+    <string name="master_clear_not_enough_battery">உங்கள் ஃபோனை ரீசெட் செய்யும் முன்பு, குறைந்தது %d%% அளவுக்கு அதன் மின்கலத்தை சார்ஜ் செய்யவும்.</string>
+    <string name="master_clear_not_enough_battery_tablet">உங்கள் டேப்லெட்டை ரீசெட் செய்யும் முன்பு, குறைந்தது %d%% அளவுக்கு அதன் மின்கலத்தை சார்ஜ் செய்யவும்.</string>
     <string name="text_two_locktype">கைரேகைப்பதிவு மற்றும் %s</string>
     <string name="pref_lock_type_title">பூட்டு வகையை மாற்றவும்</string>
     <string name="pref_lock_type_summary">பூட்டு வகை</string>
@@ -3613,8 +3651,11 @@ Receiving SMS"</string>
     <string name="google_settings_popup_msg">Only a limited number of Google settings are available. Some actions may not work.</string>
     <string name="smart_lock_popup_msg">Only a limited number of Google settings are available. Some actions may not work.</string>
     <string name="prevent_to_change_by_device_policy">%s உபயோகிப்பதை பாதுகாப்புக் கொள்கை தடுக்கிறது.</string>
+    <string name="quick_tile_sync_title">ஒத்திசைவு</string>
     <string name="name_jerusalem">ஜெருசலேம்</string>
     <string name="name_israel">இஸ்ரேல்</string>
+    <string name="starting_android">ஆண்ட்ராய்டு துவங்குகிறது…</string>
+    <string name="okay">சரி</string>
     <string name="yes">ஆம்</string>
     <string name="no">இல்லை</string>
     <string name="create">உரு.</string>
@@ -3712,7 +3753,6 @@ Receiving SMS"</string>
     <string name="phone_info_label">சாதன விவரம்</string>
     <string name="proxy_settings_label">ப்ராக்ஸி அமைவுகள்</string>
     <string name="cancel">ரத்து</string>
-    <string name="okay">சரி</string>
     <string name="save">சேமி</string>
     <string name="done">முடிந்தது</string>
     <string name="settings_label">அமைவுகள்</string>
@@ -5347,4 +5387,6 @@ Receiving SMS"</string>
     <string name="ucm_pins_do_not_match">PINகள் பொருந்தவில்லை</string>
     <string name="ucm_failed_to_connect_smartcard">ஸ்மார்ட் அட்டையுடன் இணைக்க இயலவில்லை. சாதன நிர்வாகியைத் தொடர்பு கொள்க.</string>
     <string name="ucm_loading">லோடிங்…</string>
+    <string name="usb_use_software_installation">Software Installation</string>
+    <string name="usb_use_software_installation_summary">Install Software Update and Repair tool for your device on a Mac or Windows computer.</string>
 </resources>

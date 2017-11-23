@@ -354,7 +354,7 @@
     aput-object v8, v7, v9
 
     .line 1813
-    const v8, 0x7f0b039c
+    const v8, 0x7f0b039e
 
     invoke-virtual {v6, v8, v7}, Lcom/android/settings/applications/InstalledAppDetails;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -445,7 +445,7 @@
 
     iget-object v6, p0, Lcom/android/settings/applications/InstalledAppDetails$MemoryUpdater;->this$0:Lcom/android/settings/applications/InstalledAppDetails;
 
-    const v7, 0x7f0b19fb
+    const v7, 0x7f0b1b81
 
     invoke-virtual {v6, v7}, Lcom/android/settings/applications/InstalledAppDetails;->getString(I)Ljava/lang/String;
 

@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="data_saver_unrestricted_summary_chn">
+        <item quantity="other">%d ծրագրերի թույլատրված է շարժական տվյալներ օգտագործել առանց սահմանափակումների, քանի դեռ «Սահմանափակել ֆոնային տվյալները» ընձեռված է:</item>
+        <item quantity="one">%d ծրագրերի թույլատրված է շարժական տվյալներ օգտագործել առանց սահմանափակումների, քանի դեռ «Սահմանափակել ֆոնային տվյալները» ընձեռված է:</item>
+    </plurals>
     <plurals name="lock_timeout_hours">
         <item quantity="other">%d ժամ</item>
         <item quantity="one">1 ժամ</item>

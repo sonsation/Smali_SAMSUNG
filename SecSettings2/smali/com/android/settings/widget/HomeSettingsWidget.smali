@@ -54,7 +54,7 @@
     invoke-virtual {v1, v3, v2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Landroid/os/Parcelable;)Landroid/content/Intent;
 
     .line 68
-    const v3, 0x7f02049b
+    const v3, 0x7f020499
 
     invoke-static {p0, v3}, Landroid/content/Intent$ShortcutIconResource;->fromContext(Landroid/content/Context;I)Landroid/content/Intent$ShortcutIconResource;
 
@@ -69,7 +69,7 @@
     .line 70
     const-string/jumbo v3, "android.intent.extra.shortcut.NAME"
 
-    const v4, 0x7f0b03a8
+    const v4, 0x7f0b03aa
 
     invoke-virtual {p0, v4}, Lcom/android/settings/widget/HomeSettingsWidget;->getString(I)Ljava/lang/String;
 

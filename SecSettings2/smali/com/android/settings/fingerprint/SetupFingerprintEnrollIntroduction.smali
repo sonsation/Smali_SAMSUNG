@@ -85,7 +85,7 @@
 
     .line 66
     .local v4, "nextItem":Lcom/android/setupwizardlib/items/Item;
-    const v5, 0x7f0b10cd
+    const v5, 0x7f0b1254
 
     invoke-virtual {p0, v5}, Lcom/android/settings/fingerprint/SetupFingerprintEnrollIntroduction;->getText(I)Ljava/lang/CharSequence;
 
@@ -105,7 +105,7 @@
 
     .line 70
     .local v1, "cancelItem":Lcom/android/setupwizardlib/items/Item;
-    const v5, 0x7f0b10cc
+    const v5, 0x7f0b1253
 
     invoke-virtual {p0, v5}, Lcom/android/settings/fingerprint/SetupFingerprintEnrollIntroduction;->getText(I)Ljava/lang/CharSequence;
 

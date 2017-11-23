@@ -72,7 +72,7 @@
 
     iget-object v4, p0, Lcom/android/settings/AppHeader$1;->val$activity:Landroid/app/Activity;
 
-    const v1, 0x7f0b147d
+    const v1, 0x7f0b1603
 
     .line 100
     const/4 v5, 0x1

@@ -43,7 +43,7 @@
     .param p2, "which"    # I
 
     .prologue
-    const v8, 0x7f0b0dfe
+    const v8, 0x7f0b0e23
 
     const/4 v7, 0x1
 
@@ -269,7 +269,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0b0e00
+    const v3, 0x7f0b0e25
 
     invoke-static {v2, v3, v5}, Landroid/widget/Toast;->makeText(Landroid/content/Context;II)Landroid/widget/Toast;
 

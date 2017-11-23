@@ -906,6 +906,7 @@ Voit muuttaa tätä asetusta myöhemmin Bluetooth-asetukset-kohdassa."</string>
     <string name="bluetooth_control_app_disable_summary">Bluetooth ei käytössä: %s</string>
     <string name="bluetooth_enter_pin_msg">Muodosta pariliitos laitteen %s kanssa antamalla PIN-koodi (esim. 0000 tai 1234).</string>
     <string name="bluetooth_pin_maximum_number_message">Merkkien enimmäismäärä on saavutettu.</string>
+    <string name="bluetooth_frp_permission_message">Tähän puheluun ei voi käyttää Bluetooth-laitetta.</string>
     <string name="settings_menu_done">Valmis</string>
     <string name="usb_tethering_unavailable_subtext_tmo">USB not connected</string>
     <string name="usb_tethering_available_subtext_tmo">USB connected, check to tether</string>
@@ -1173,8 +1174,6 @@ Puhelimessa on vianmääritysohjelmisto, joka saattaa luvallasi kerätä puhelim
     <string name="usb_use_file_transfers_summary">Siirrä mediatiedostot tietokoneeseen MTP-yhteyden kautta.</string>
     <string name="usb_use_MIDI_summary_vzw">Use device for MIDI input.</string>
     <string name="usb_use_MIDI_summary">Käytä yhdistettyä laitetta MIDI (Musical Instrument Digital Interface) -soittimena tai syöttölähteenä.</string>
-    <string name="usb_use_software_installation">Software Installation</string>
-    <string name="usb_use_software_installation_summary">Install Software Update and Repair tool for your device on a Mac or Windows computer.</string>
     <string name="sim_status_code">Koodi</string>
     <string name="sim_status_btn_update">Päivitä SIM-kortin tila</string>
     <string name="sim_status_updating">Päivitetään…</string>
@@ -1520,7 +1519,6 @@ Salaus kestää vähintään tunnin. Varmista ennen aloittamista, että akku on 
     <string name="cryptkeeper_wrong_pin">Annettu väärä PIN-koodi</string>
     <string name="cryptkeeper_wrong_direction">Piirretty väärä suunta</string>
     <string name="checking_decryption">Tarkistetaan…</string>
-    <string name="starting_android">Android käynnistetään…</string>
     <string name="crypt_keeper_last_warn_wipe">Voit yrittää laitteen käynnistämistä enää kerran ennen tehdasasetusten palauttamista. Tällöin kaikki tiedot, myös tiedostot ja ladatut sovellukset, poistetaan.</string>
     <string name="crypt_keeper_failed_title_dec">Purku epäonnistui.</string>
     <string name="crypt_keeper_failed_summary_dec">Salauksen purkamista ei voi suorittaa loppuun keskeytyksen vuoksi. Palauta tehdasasetukset (poista kaikki tiedot) ennen käyttöä.</string>
@@ -2001,8 +1999,8 @@ Determining your location will use the mobile network. Data usage will apply."</
     <string name="app_ops_settings_summary">Näytä sovelluksen käyttöoikeudet tai muuta niitä.</string>
     <string name="backup_key_for_applock_header">Määritä sormenjälkitunnistuksen kanssa käytettävä kuvio, PIN-koodi tai salasana sovellusten lukitsemista tai lukituksen poistamista varten.</string>
     <string name="backup_key_for_privatemode_header">Määritä sormenjälkitunnistuksen kanssa käytettävä kuvio, PIN-koodi tai salasana yksityisen tilan käyttöä varten.</string>
-    <string name="status_added">Lisätty</string>
     <string name="text_security_title_b2c">Valitse lukitustapa. Jos unohdat, miten suojatun kansion lukitus poistetaan, voit nollata lukitustavan Samsung-tilisi avulla.</string>
+    <string name="status_added">Lisätty</string>
     <string name="lockpattern_backup_pin">Vara-PIN-koodi</string>
     <string name="applock_type_fingerprint">Sormenjälki</string>
     <string name="unlock_set_unlock_two_factor_title">Kaksivaiheinen vahvistus</string>
@@ -3615,6 +3613,8 @@ Tekstiviestin vastaanottaminen"</string>
     <string name="prevent_to_change_by_device_policy">Suojauskäytäntö estää sovelluksen %s käytön.</string>
     <string name="name_jerusalem">Jerusalem</string>
     <string name="name_israel">Israel</string>
+    <string name="starting_android">Android käynnistetään…</string>
+    <string name="okay">OK</string>
     <string name="yes">Kyllä</string>
     <string name="no">Ei</string>
     <string name="create">Luo</string>
@@ -3712,7 +3712,6 @@ Voit muuttaa tätä asetusta myöhemmin Bluetooth-asetukset-kohdassa."</string>
     <string name="phone_info_label">Laitteen tiedot</string>
     <string name="proxy_settings_label">Välityspalvelimen asetukset</string>
     <string name="cancel">Peruuta</string>
-    <string name="okay">OK</string>
     <string name="save">Tallenna</string>
     <string name="done">Valmis</string>
     <string name="settings_label">Asetukset</string>
@@ -5347,4 +5346,6 @@ Et saa puheluita, viestejä tai ilmoituksia eikä hälytyksiä anneta, ennen kui
     <string name="ucm_pins_do_not_match">PIN-koodit eivät täsmää</string>
     <string name="ucm_failed_to_connect_smartcard">Yhteyden muodostaminen älykorttiin epäonnistui. Ota yhteyttä laitteen järjestelmänvalvojaan.</string>
     <string name="ucm_loading">Ladataan…</string>
+    <string name="usb_use_software_installation">Software Installation</string>
+    <string name="usb_use_software_installation_summary">Install Software Update and Repair tool for your device on a Mac or Windows computer.</string>
 </resources>

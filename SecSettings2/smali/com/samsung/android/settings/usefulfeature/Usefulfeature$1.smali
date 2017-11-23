@@ -40,7 +40,7 @@
     .param p1, "selfChange"    # Z
 
     .prologue
-    const v1, 0x7f0b1952
+    const v1, 0x7f0b1ad8
 
     .line 293
     iget-object v2, p0, Lcom/samsung/android/settings/usefulfeature/Usefulfeature$1;->this$0:Lcom/samsung/android/settings/usefulfeature/Usefulfeature;
@@ -126,7 +126,7 @@
 
     .line 300
     :cond_2
-    const v1, 0x7f0b040c
+    const v1, 0x7f0b040f
 
     goto :goto_1
 
@@ -147,7 +147,7 @@
 
     .line 303
     :cond_4
-    const v1, 0x7f0b1953
+    const v1, 0x7f0b1ad9
 
     goto :goto_3
 .end method

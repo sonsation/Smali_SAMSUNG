@@ -94,7 +94,7 @@
     invoke-direct {v3, p0}, Lcom/samsung/android/settings/SecSetupLockScreenIntroActivity$LearnMoreDialog$1;-><init>(Lcom/samsung/android/settings/SecSetupLockScreenIntroActivity$LearnMoreDialog;)V
 
     .line 278
-    const v4, 0x7f0b0910
+    const v4, 0x7f0b092e
 
     .line 276
     invoke-virtual {v2, v4, v3}, Landroid/app/AlertDialog$Builder;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;

@@ -906,6 +906,7 @@ Wi-Fi және Bluetooth құрылғылары да өшіріледі, бір�
     <string name="bluetooth_control_app_disable_summary">Bluetooth өшірілді: %s</string>
     <string name="bluetooth_enter_pin_msg">%s құрылғысымен жұптастыру үшін PIN кодын енгізіңіз (0000 немесе 1234 енгізіп көріңіз)</string>
     <string name="bluetooth_pin_maximum_number_message">Ең көп таңбалар санына жетті.</string>
+    <string name="bluetooth_frp_permission_message">Осы қоңырау үшін Bluetooth құрылғысын пайдалану мүмкін емес.</string>
     <string name="settings_menu_done">Аяқталды</string>
     <string name="usb_tethering_unavailable_subtext_tmo">USB not connected</string>
     <string name="usb_tethering_available_subtext_tmo">USB connected, check to tether</string>
@@ -1173,8 +1174,6 @@ Data usage is measured by your phone. Your carrier may account for usage differe
     <string name="usb_use_file_transfers_summary">Мультимедиалық файлдарды компьютерге MTP қосылымы арқылы тасымалдаңыз.</string>
     <string name="usb_use_MIDI_summary_vzw">Use device for MIDI input.</string>
     <string name="usb_use_MIDI_summary">Қосылған құрылғыны MIDI (музыкалық аспаптың сандық интерфейсі) ойнатқышы не енгізу көзі ретінде пайдаланыңыз.</string>
-    <string name="usb_use_software_installation">Software Installation</string>
-    <string name="usb_use_software_installation_summary">Install Software Update and Repair tool for your device on a Mac or Windows computer.</string>
     <string name="sim_status_code">Кілтсөз</string>
     <string name="sim_status_btn_update">SIM карта күйін жаңарту</string>
     <string name="sim_status_updating">Жаңартуда…</string>
@@ -1520,7 +1519,6 @@ Samsung жарнамасының идентификаторын мобильді
     <string name="cryptkeeper_wrong_pin">Қате PIN енгізілді</string>
     <string name="cryptkeeper_wrong_direction">Қате бағыт сызылды</string>
     <string name="checking_decryption">Расталуда…</string>
-    <string name="starting_android">Android іске қосылуда…</string>
     <string name="crypt_keeper_last_warn_wipe">Құрылғы әдепкі зауыттық параметрлеріне қалпына келтірілмегенше, жұмысты бастау үшін сізде 1 әрекет қалды. Бұл файлдар мен жүктелген қолданбалар сияқты барлық деректерді өшіреді.</string>
     <string name="crypt_keeper_failed_title_dec">"Сипаттау
 үзіліп кетті."</string>
@@ -2002,8 +2000,8 @@ Determining your location will use the mobile network. Data usage will apply."</
     <string name="app_ops_settings_summary">Бағдарлама рұқсаттарын көру немесе өзгерту.</string>
     <string name="backup_key_for_applock_header">Қолданбаны құлыптау не құлпын ашу мақсатында саусақ ізін танумен бірге пайдалану үшін үлгіні, PIN кодын не құпия сөзді орнатыңыз.</string>
     <string name="backup_key_for_privatemode_header">Жеке режимге қатынасу үшін, саусақ ізін тану әдісімен бірге пайдаланылатын үлгіні, PIN кодты немесе құпия сөзді орнатыңыз.</string>
-    <string name="status_added">Қосылған</string>
     <string name="text_security_title_b2c">Құлыптау түрін таңдаңыз. Егер “Қауіпсіз қалтаның” құлпын ашу әдісін ұмытып қалсаңыз, онда Samsung есептік жазбаңызды пайдалану арқылы құлыпты қалпына келтіре аласыз.</string>
+    <string name="status_added">Қосылған</string>
     <string name="lockpattern_backup_pin">Сақтық PIN</string>
     <string name="applock_type_fingerprint">Саусақ ізі</string>
     <string name="unlock_set_unlock_two_factor_title">Екі сатылы тексеру</string>
@@ -3616,6 +3614,8 @@ Receiving SMS"</string>
     <string name="prevent_to_change_by_device_policy">Қауіпсіздік саясаты %s қолданбасын пайдалануға жол бермеді.</string>
     <string name="name_jerusalem">Иерусалим</string>
     <string name="name_israel">Израиль</string>
+    <string name="starting_android">Android іске қосылуда…</string>
+    <string name="okay">OK</string>
     <string name="yes">Иә</string>
     <string name="no">Жоқ</string>
     <string name="create">Жзу</string>
@@ -3713,7 +3713,6 @@ Receiving SMS"</string>
     <string name="phone_info_label">Құрылғы ақпараты</string>
     <string name="proxy_settings_label">Прокси баптаулары</string>
     <string name="cancel">Тоқтату</string>
-    <string name="okay">OK</string>
     <string name="save">Сақтау</string>
     <string name="done">Дайын</string>
     <string name="settings_label">Қон-лар</string>
@@ -5348,4 +5347,6 @@ Receiving SMS"</string>
     <string name="ucm_pins_do_not_match">PIN кодтар сәйкес келмейді</string>
     <string name="ucm_failed_to_connect_smartcard">Смарт картаға қосылмады. Құрылғы әкімшісіне хабарласыңыз</string>
     <string name="ucm_loading">Жазылуда…</string>
+    <string name="usb_use_software_installation">Software Installation</string>
+    <string name="usb_use_software_installation_summary">Install Software Update and Repair tool for your device on a Mac or Windows computer.</string>
 </resources>

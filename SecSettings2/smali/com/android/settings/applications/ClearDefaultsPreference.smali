@@ -526,7 +526,7 @@
     if-eqz v13, :cond_a
 
     .line 145
-    const v21, 0x7f0b1480
+    const v21, 0x7f0b1606
 
     move/from16 v0, v21
 
@@ -561,7 +561,7 @@
     if-eqz v8, :cond_2
 
     .line 156
-    const v21, 0x7f0b1495
+    const v21, 0x7f0b161b
 
     .line 155
     move/from16 v0, v21
@@ -641,7 +641,7 @@
     if-eqz v13, :cond_4
 
     .line 166
-    const v21, 0x7f0b1496
+    const v21, 0x7f0b161c
 
     move/from16 v0, v21
 
@@ -937,7 +937,7 @@
     .line 147
     .end local v20    # "useBullets":Z
     :cond_a
-    const v21, 0x7f0b19a2
+    const v21, 0x7f0b1b28
 
     move/from16 v0, v21
 

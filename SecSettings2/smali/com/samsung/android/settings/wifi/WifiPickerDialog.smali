@@ -360,7 +360,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0205cb
+    const v4, 0x7f0205c9
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -527,7 +527,7 @@
 
     .line 94
     :goto_0
-    const v3, 0x7f0b11ab
+    const v3, 0x7f0b1331
 
     invoke-virtual {p0, v3}, Lcom/samsung/android/settings/wifi/WifiPickerDialog;->setTitle(I)V
 

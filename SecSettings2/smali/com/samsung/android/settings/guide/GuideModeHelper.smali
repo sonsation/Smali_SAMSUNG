@@ -502,12 +502,12 @@
 
     .line 254
     .restart local v2    # "handPointer":Landroid/widget/ImageView;
-    const v9, 0x7f02051f
+    const v9, 0x7f02051d
 
     invoke-virtual {v2, v9}, Landroid/widget/ImageView;->setImageResource(I)V
 
     .line 256
-    const v9, 0x7f0b03d0
+    const v9, 0x7f0b03d2
 
     .line 255
     invoke-virtual {v7, v9}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;

@@ -125,7 +125,7 @@
     if-eqz v5, :cond_0
 
     .line 52
-    const v4, 0x7f130017
+    const v4, 0x7f130018
 
     .line 54
     .local v4, "titleId":I
@@ -160,7 +160,7 @@
     move-result-object v5
 
     .line 61
-    const v6, 0x7f130017
+    const v6, 0x7f130018
 
     .line 60
     invoke-virtual {v5, v6, v2}, Landroid/content/res/Resources;->getQuantityText(II)Ljava/lang/CharSequence;
@@ -170,7 +170,7 @@
     invoke-virtual {v0, v5, p0}, Landroid/app/AlertDialog$Builder;->setPositiveButton(Ljava/lang/CharSequence;Landroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
 
     .line 62
-    const v5, 0x7f0b107a
+    const v5, 0x7f0b1202
 
     invoke-virtual {v0, v5, v9}, Landroid/app/AlertDialog$Builder;->setNeutralButton(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
 
@@ -203,7 +203,7 @@
     aput-object v7, v6, v10
 
     .line 66
-    const v7, 0x7f130016
+    const v7, 0x7f130017
 
     invoke-virtual {v5, v7, v2, v6}, Landroid/content/res/Resources;->getQuantityString(II[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -223,7 +223,7 @@
     .end local v3    # "title":Ljava/lang/CharSequence;
     .end local v4    # "titleId":I
     :cond_0
-    const v4, 0x7f130014
+    const v4, 0x7f130015
 
     .restart local v4    # "titleId":I
     goto :goto_0
@@ -253,7 +253,7 @@
     aput-object v7, v6, v10
 
     .line 70
-    const v7, 0x7f130015
+    const v7, 0x7f130016
 
     .line 69
     invoke-virtual {v5, v7, v2, v6}, Landroid/content/res/Resources;->getQuantityString(II[Ljava/lang/Object;)Ljava/lang/String;
@@ -271,7 +271,7 @@
     invoke-virtual {v0, v5}, Landroid/app/AlertDialog$Builder;->setIcon(I)Landroid/app/AlertDialog$Builder;
 
     .line 75
-    const v5, 0x7f0b17b4
+    const v5, 0x7f0b193a
 
     invoke-virtual {v0, v5}, Landroid/app/AlertDialog$Builder;->setMessage(I)Landroid/app/AlertDialog$Builder;
 

@@ -771,7 +771,7 @@
 
     move-object/from16 v22, v0
 
-    const v23, 0x7f0b0c76
+    const v23, 0x7f0b0c98
 
     invoke-virtual/range {v22 .. v23}, Landroid/preference/Preference;->setSummary(I)V
 
@@ -789,7 +789,7 @@
 
     move-object/from16 v22, v0
 
-    const v23, 0x7f0b0c76
+    const v23, 0x7f0b0c98
 
     invoke-virtual/range {v22 .. v23}, Landroid/preference/Preference;->setSummary(I)V
 

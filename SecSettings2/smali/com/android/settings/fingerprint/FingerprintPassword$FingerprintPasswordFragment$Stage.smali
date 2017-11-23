@@ -46,9 +46,9 @@
     .locals 12
 
     .prologue
-    const v11, 0x7f0b0730
+    const v11, 0x7f0b074a
 
-    const v6, 0x7f0b072f
+    const v6, 0x7f0b0749
 
     const/4 v10, 0x2
 
@@ -61,12 +61,12 @@
 
     const-string/jumbo v1, "Introduction"
 
-    const v3, 0x7f0b06aa
+    const v3, 0x7f0b06c4
 
     .line 231
-    const v4, 0x7f0b113c
+    const v4, 0x7f0b12c2
 
-    const v5, 0x7f0b0736
+    const v5, 0x7f0b0750
 
     .line 230
     invoke-direct/range {v0 .. v5}, Lcom/android/settings/fingerprint/FingerprintPassword$FingerprintPasswordFragment$Stage;-><init>(Ljava/lang/String;IIII)V
@@ -79,7 +79,7 @@
     const-string/jumbo v4, "NeedToConfirm"
 
     .line 234
-    const v7, 0x7f0b1147
+    const v7, 0x7f0b12cd
 
     move v5, v9
 
@@ -96,7 +96,7 @@
     const-string/jumbo v4, "ConfirmWrong"
 
     .line 237
-    const v7, 0x7f0b113c
+    const v7, 0x7f0b12c2
 
     move v5, v10
 

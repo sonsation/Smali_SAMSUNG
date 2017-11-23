@@ -342,7 +342,7 @@
     .line 155
     iget-object v8, p0, Lcom/samsung/android/settings/lockappshortcut/LockAppShortcutSettings;->mShortcutOnLeft:Landroid/preference/PreferenceScreen;
 
-    const v9, 0x7f0b1953
+    const v9, 0x7f0b1ad9
 
     invoke-virtual {v8, v9}, Landroid/preference/PreferenceScreen;->setSummary(I)V
 
@@ -355,7 +355,7 @@
     .line 165
     iget-object v8, p0, Lcom/samsung/android/settings/lockappshortcut/LockAppShortcutSettings;->mShortcutOnRight:Landroid/preference/PreferenceScreen;
 
-    const v9, 0x7f0b1953
+    const v9, 0x7f0b1ad9
 
     invoke-virtual {v8, v9}, Landroid/preference/PreferenceScreen;->setSummary(I)V
 
@@ -431,7 +431,7 @@
     :cond_3
     iget-object v8, p0, Lcom/samsung/android/settings/lockappshortcut/LockAppShortcutSettings;->mShortcutOnLeft:Landroid/preference/PreferenceScreen;
 
-    const v9, 0x7f0b0895
+    const v9, 0x7f0b08b2
 
     invoke-virtual {v8, v9}, Landroid/preference/PreferenceScreen;->setSummary(I)V
 
@@ -471,7 +471,7 @@
 
     aput-object v11, v10, v12
 
-    const v11, 0x7f0b0894
+    const v11, 0x7f0b08b1
 
     invoke-virtual {v9, v11, v10}, Landroid/content/res/Resources;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -503,7 +503,7 @@
     :cond_7
     iget-object v8, p0, Lcom/samsung/android/settings/lockappshortcut/LockAppShortcutSettings;->mShortcutOnRight:Landroid/preference/PreferenceScreen;
 
-    const v9, 0x7f0b0895
+    const v9, 0x7f0b08b2
 
     invoke-virtual {v8, v9}, Landroid/preference/PreferenceScreen;->setSummary(I)V
 
@@ -543,7 +543,7 @@
 
     aput-object v11, v10, v12
 
-    const v11, 0x7f0b0894
+    const v11, 0x7f0b08b1
 
     invoke-virtual {v9, v11, v10}, Landroid/content/res/Resources;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 

@@ -57,7 +57,7 @@
 
     .line 840
     .local v4, "res":Landroid/content/res/Resources;
-    const v9, 0x7f0b10bc
+    const v9, 0x7f0b1243
 
     invoke-virtual {v4, v9}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -127,7 +127,7 @@
 
     .line 851
     .local v0, "data":Lcom/android/settings/search/SearchIndexableRaw;
-    const v9, 0x7f0b16ec
+    const v9, 0x7f0b1872
 
     invoke-virtual {v4, v9}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -171,7 +171,7 @@
 
     .line 858
     .restart local v0    # "data":Lcom/android/settings/search/SearchIndexableRaw;
-    const v9, 0x7f0b16f0
+    const v9, 0x7f0b1876
 
     invoke-virtual {v4, v9}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -193,7 +193,7 @@
 
     .line 864
     .restart local v0    # "data":Lcom/android/settings/search/SearchIndexableRaw;
-    const v9, 0x7f0b1acd
+    const v9, 0x7f0b1c53
 
     invoke-virtual {v4, v9}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

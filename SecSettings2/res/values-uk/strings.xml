@@ -909,6 +909,7 @@ Wi-Fi та Bluetooth також буде вимкнено, але їх можн�
     <string name="bluetooth_control_app_disable_summary">Bluetooth вимкнено: %s</string>
     <string name="bluetooth_enter_pin_msg">Введіть PIN-код, щоб утворити пару з %s (спробуйте 0000 або 1234).</string>
     <string name="bluetooth_pin_maximum_number_message">Досягнуто максимальної кількості символів.</string>
+    <string name="bluetooth_frp_permission_message">Неможливо використати пристрій Bluetooth під час цього виклику.</string>
     <string name="settings_menu_done">Готово</string>
     <string name="usb_tethering_unavailable_subtext_tmo">USB not connected</string>
     <string name="usb_tethering_available_subtext_tmo">USB connected, check to tether</string>
@@ -1176,8 +1177,6 @@ Data usage is measured by your phone. Your carrier may account for usage differe
     <string name="usb_use_file_transfers_summary">Передавання медіафайлів на ПК через підключення MTP.</string>
     <string name="usb_use_MIDI_summary_vzw">Use device for MIDI input.</string>
     <string name="usb_use_MIDI_summary">Використовуйте підключений пристрій як плеєр MIDI (цифровий інтерфейс музичних інструментів) або джерело вхідного сигналу.</string>
-    <string name="usb_use_software_installation">Software Installation</string>
-    <string name="usb_use_software_installation_summary">Install Software Update and Repair tool for your device on a Mac or Windows computer.</string>
     <string name="sim_status_code">Код</string>
     <string name="sim_status_btn_update">Оновити стан SIM-карти</string>
     <string name="sim_status_updating">Оновлення…</string>
@@ -1522,7 +1521,6 @@ Where Can I Find More Information About the 3rd Party's Policies? Separately, if
     <string name="cryptkeeper_wrong_pin">Введено хибний PIN-код</string>
     <string name="cryptkeeper_wrong_direction">Проведено у невірному напрямку</string>
     <string name="checking_decryption">Перевірка…</string>
-    <string name="starting_android">Запуск Android…</string>
     <string name="crypt_keeper_last_warn_wipe">У вас залишилась лише 1 спроба запуску пристрою перед тим, як його налаштування буде скинуто до стандартних. Це призведе до стирання всіх даних, у тому числі файлів та завантажених програм.</string>
     <string name="crypt_keeper_failed_title_dec">Збій дешифрування.</string>
     <string name="crypt_keeper_failed_summary_dec">Неможливо завершити дешифрування через переривання. Скиньте дані до заводських значень (стирання всіх даних) перед використанням.</string>
@@ -2003,8 +2001,8 @@ Determining your location will use the mobile network. Data usage will apply."</
     <string name="app_ops_settings_summary">Перегляньте або змініть дозволи програм.</string>
     <string name="backup_key_for_applock_header">Установити малюнок розблокування, PIN-код або пароль, які будуть використовуватись для блокування або розблокування програм разом із розпізнаванням за відбитком пальця.</string>
     <string name="backup_key_for_privatemode_header">Створіть малюнок розблокування, уведіть PIN-код або пароль, які будуть використовуватись для входу в особистий режим разом із розпізнаванням за відбитком пальця.</string>
-    <string name="status_added">Додано</string>
     <string name="text_security_title_b2c">Виберіть тип блокування. Якщо ви забудете спосіб блокування захищеної папки, його можна буде скинути за допомогою вашого облікового запису Samsung.</string>
+    <string name="status_added">Додано</string>
     <string name="lockpattern_backup_pin">Резервний PIN-код</string>
     <string name="applock_type_fingerprint">Відбиток пальця</string>
     <string name="unlock_set_unlock_two_factor_title">Перевірка у дві дії</string>
@@ -3617,6 +3615,8 @@ Receiving SMS"</string>
     <string name="prevent_to_change_by_device_policy">Політика безпеки забороняє використання %s.</string>
     <string name="name_jerusalem">Єрусалим</string>
     <string name="name_israel">Ізраїль</string>
+    <string name="starting_android">Запуск Android…</string>
+    <string name="okay">OK</string>
     <string name="yes">Так</string>
     <string name="no">Ні</string>
     <string name="create">Створити</string>
@@ -3714,7 +3714,6 @@ Receiving SMS"</string>
     <string name="phone_info_label">Інформація про пристрій</string>
     <string name="proxy_settings_label">Установки проксі</string>
     <string name="cancel">Скасувати</string>
-    <string name="okay">OK</string>
     <string name="save">Зберегти</string>
     <string name="done">Готово</string>
     <string name="settings_label">Налаштування</string>
@@ -5350,4 +5349,6 @@ Receiving SMS"</string>
     <string name="ucm_pins_do_not_match">PIN-коди не збігаються</string>
     <string name="ucm_failed_to_connect_smartcard">Не вдалося підключитися до смарт-карти. Зверніться до адміністратора пристрою</string>
     <string name="ucm_loading">Завантаження…</string>
+    <string name="usb_use_software_installation">Software Installation</string>
+    <string name="usb_use_software_installation_summary">Install Software Update and Repair tool for your device on a Mac or Windows computer.</string>
 </resources>

@@ -424,7 +424,7 @@
     .line 90
     iget-object v9, p0, Lcom/android/settings/wfd/Wfd_Certification;->mCertCategory:Landroid/preference/PreferenceGroup;
 
-    const v10, 0x7f0b119d
+    const v10, 0x7f0b1323
 
     invoke-virtual {v9, v10}, Landroid/preference/PreferenceGroup;->setTitle(I)V
 
@@ -460,7 +460,7 @@
 
     .line 99
     .local v6, "p":Landroid/preference/Preference;
-    const v9, 0x7f0b119e
+    const v9, 0x7f0b1324
 
     invoke-virtual {v6, v9}, Landroid/preference/Preference;->setTitle(I)V
 
@@ -517,7 +517,7 @@
 
     .line 150
     .local v0, "cbp":Landroid/preference/CheckBoxPreference;
-    const v9, 0x7f0b119f
+    const v9, 0x7f0b1325
 
     invoke-virtual {v0, v9}, Landroid/preference/CheckBoxPreference;->setTitle(I)V
 
@@ -541,7 +541,7 @@
 
     .line 167
     .restart local v0    # "cbp":Landroid/preference/CheckBoxPreference;
-    const v9, 0x7f0b11a0
+    const v9, 0x7f0b1326
 
     invoke-virtual {v0, v9}, Landroid/preference/CheckBoxPreference;->setTitle(I)V
 
@@ -647,7 +647,7 @@
 
     .line 193
     .local v8, "wpsValues":[Ljava/lang/String;
-    const v9, 0x7f0b11a3
+    const v9, 0x7f0b1329
 
     invoke-virtual {v3, v9}, Landroid/preference/ListPreference;->setTitle(I)V
 
@@ -760,7 +760,7 @@
 
     .line 215
     .local v2, "lcValues":[Ljava/lang/String;
-    const v9, 0x7f0b11a4
+    const v9, 0x7f0b132a
 
     invoke-virtual {v3, v9}, Landroid/preference/ListPreference;->setTitle(I)V
 
@@ -885,7 +885,7 @@
 
     .line 237
     .local v5, "ocValues":[Ljava/lang/String;
-    const v9, 0x7f0b11a5
+    const v9, 0x7f0b132b
 
     invoke-virtual {v3, v9}, Landroid/preference/ListPreference;->setTitle(I)V
 

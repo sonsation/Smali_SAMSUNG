@@ -173,7 +173,7 @@
 
     .line 186
     .local v0, "builder":Landroid/app/AlertDialog$Builder;
-    const v2, 0x7f0b0f16
+    const v2, 0x7f0b0f3c
 
     invoke-virtual {v0, v2}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
 
@@ -209,7 +209,7 @@
     invoke-static {v2, v3}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 189
-    const v2, 0x7f0b1093
+    const v2, 0x7f0b121a
 
     invoke-virtual {v0, v2}, Landroid/app/AlertDialog$Builder;->setMessage(I)Landroid/app/AlertDialog$Builder;
 
@@ -218,7 +218,7 @@
 
     invoke-direct {v2, p0, v1}, Lcom/samsung/android/settings/GlobalLteRoaming$4;-><init>(Lcom/samsung/android/settings/GlobalLteRoaming;Z)V
 
-    const v3, 0x7f0b14b6
+    const v3, 0x7f0b163c
 
     invoke-virtual {v0, v3, v2}, Landroid/app/AlertDialog$Builder;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
 
@@ -227,7 +227,7 @@
 
     invoke-direct {v2, p0, v1}, Lcom/samsung/android/settings/GlobalLteRoaming$5;-><init>(Lcom/samsung/android/settings/GlobalLteRoaming;Z)V
 
-    const v3, 0x7f0b107a
+    const v3, 0x7f0b1202
 
     invoke-virtual {v0, v3, v2}, Landroid/app/AlertDialog$Builder;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
 

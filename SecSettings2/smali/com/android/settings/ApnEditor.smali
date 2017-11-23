@@ -6009,7 +6009,7 @@
     .line 1558
     iget-object v8, p0, Lcom/android/settings/ApnEditor;->mRes:Landroid/content/res/Resources;
 
-    const v9, 0x7f0b13b3
+    const v9, 0x7f0b1539
 
     invoke-virtual {v8, v9}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -6033,7 +6033,7 @@
     .line 1560
     iget-object v8, p0, Lcom/android/settings/ApnEditor;->mRes:Landroid/content/res/Resources;
 
-    const v9, 0x7f0b13b4
+    const v9, 0x7f0b153a
 
     invoke-virtual {v8, v9}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -6056,7 +6056,7 @@
     .line 1562
     iget-object v8, p0, Lcom/android/settings/ApnEditor;->mRes:Landroid/content/res/Resources;
 
-    const v9, 0x7f0b13b5
+    const v9, 0x7f0b153b
 
     invoke-virtual {v8, v9}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -6081,7 +6081,7 @@
     .line 1564
     iget-object v8, p0, Lcom/android/settings/ApnEditor;->mRes:Landroid/content/res/Resources;
 
-    const v9, 0x7f0b13b6
+    const v9, 0x7f0b153c
 
     invoke-virtual {v8, v9}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -6098,7 +6098,7 @@
     .line 1568
     iget-object v8, p0, Lcom/android/settings/ApnEditor;->mRes:Landroid/content/res/Resources;
 
-    const v9, 0x7f0b0b47
+    const v9, 0x7f0b0b68
 
     invoke-virtual {v8, v9}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -6159,7 +6159,7 @@
     :cond_7
     iget-object v8, p0, Lcom/android/settings/ApnEditor;->mRes:Landroid/content/res/Resources;
 
-    const v9, 0x7f0b0b45
+    const v9, 0x7f0b0b66
 
     invoke-virtual {v8, v9}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -8730,7 +8730,7 @@
 
     move-result-object v2
 
-    const v4, 0x7f0b16c3
+    const v4, 0x7f0b1849
 
     invoke-virtual {v2, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -10015,7 +10015,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0b16c3
+    const v4, 0x7f0b1849
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -10308,7 +10308,7 @@
 
     move-result-object v9
 
-    const v10, 0x7f0b1393
+    const v10, 0x7f0b1519
 
     invoke-virtual {v9, v10}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -11410,11 +11410,11 @@
     .param p2, "inflater"    # Landroid/view/MenuInflater;
 
     .prologue
-    const v9, 0x7f0b13b0
+    const v9, 0x7f0b1536
 
     const/4 v8, 0x2
 
-    const v7, 0x7f0b13ae
+    const v7, 0x7f0b1534
 
     const/4 v6, 0x1
 
@@ -11523,7 +11523,7 @@
     :goto_3
     const/4 v3, 0x3
 
-    const v4, 0x7f0b13b1
+    const v4, 0x7f0b1537
 
     invoke-interface {p1, v5, v3, v5, v4}, Landroid/view/Menu;->add(IIII)Landroid/view/MenuItem;
 

@@ -20,7 +20,7 @@
     <string name="bluetooth_disconnected">Dínasctha</string>
     <string name="bluetooth_disconnecting">Ag dínascadh…</string>
     <string name="bluetooth_connecting">Ag nascadh…</string>
-    <string name="bluetooth_connected">Nasctha.</string>
+    <string name="bluetooth_connected">Nasctha</string>
     <string name="bluetooth_pairing">Ag péireáil…</string>
     <string name="bluetooth_profile_a2dp">Fuaim meán</string>
     <string name="bluetooth_profile_headset">Fuaim glao</string>
@@ -298,7 +298,7 @@ Enter the code you get from Verizon:"</string>
     <string name="answering_end_call_title">Glaonna a fhreagairt agus a scor</string>
     <string name="audio_preference_title">Éisteacht</string>
     <string name="mono_audio_title">Monafhuaim</string>
-    <string name="mono_audio_summary">Aistrigh an fhuaim ó steiréó go monafónach nuair a bhíonn cluasán amháin in úsáid agat</string>
+    <string name="mono_audio_summary">Athraigh an fhuaim ó steiréó go monafónach le héisteacht le cluas amháin.</string>
     <string name="multi_window_title">Ilfhuinneoga</string>
     <string name="magnifier_seekbar_plus_tts">Móide</string>
     <string name="magnifier_seekbar_minus_tts">Lúide</string>
@@ -379,16 +379,18 @@ Tabhair faoi deara: Tapáil faoi thrí le haghaidh oibreacha formhéadaithe gach
     <string name="direct_access_actions_universal_switch_title">Lasc uilíoch</string>
     <string name="sound_detector_title">Brathadóir Leanbh ag gol</string>
     <string name="sound_detector_main_title">Brathadóirí fuaime</string>
-    <string name="sound_detector_main_description">Faigh foláirimh nuair a bhraitheann an gléas caoineadh linbh nó an cloigín dorais.</string>
+    <string name="sound_detector_main_description">Faigh foláirimh nuair a bhraitheann an fón caoineadh linbh nó an cloigín dorais.</string>
     <string name="accessibility_easy_interaction_summary">Déan aláraim, imeachtaí féilire, agus foláirimh amadóra a ruaigeadh nó a chur ar néal codlata, agus glaonna isteach a fhreagairt nó diúltú dóibh le tapáil amháin.</string>
     <string name="accessibility_easy_interaction_summary_tablet_wifi">Tapáil le haláraim agus imeachtaí féilire a stopadh/chur ar néal codlata.</string>
-    <string name="all_sound_off">Cas gach fuaim as</string>
-    <string name="all_sound_off_summary">Ná seinn aon fhuaim, tríd an bhfón callaire san áireamh, fiú má bhíonn an mód fuaime socraithe chuig Fuaim.</string>
+    <string name="all_sound_off">Balbhaigh gach fuaim</string>
+    <string name="all_sound_off_summary">Cas as gach fuaim, lena n-áirítear glaonna fóin, fiú má bhíonn an mód fuaime socraithe chuig Fuaim.</string>
     <string name="all_sound_off_dialog_summary">Ní féidir %1$s agus %2$s a chumasú ag an am céanna. Díchumasófar %3$s.</string>
+    <string name="all_sound_off_popup_description">Le Balbhaigh gach fuaim a úsáid, ní foláir %s a chasadh as.</string>
+    <string name="all_sound_turn_off_button">Cas as</string>
     <string name="turn_off_all_sounds">Cas gach fuaim as</string>
     <string name="turn_off_all_sounds1">Ní féidir Cas as gach fuaim agus Teachtaireacht freagartha araon a chumasú</string>
     <string name="turn_off_all_sounds2">Ní féidir Cas as gach fuaim agus Teachtaireacht freagartha araon a chumasú. Díchumasófar Teachtaireacht freagartha.</string>
-    <string name="turn_off_all_sounds_toast_with_sound_detector">Ní féidir Cas as gach fuaim a dhíchumasú agus brathadóirí fuaime cumasaithe. Lena ndíchumasú, gabh chuig Socruithe > Inrochtaineacht > Éisteacht > Brathadóirí fuaime, ansin díchumasaigh gach brathadóir fuaime.</string>
+    <string name="turn_off_all_sounds_toast_with_sound_detector">Ní féidir Balbhaigh gach fuaim a chasadh as agus Brathadóirí fuaime casta air.</string>
     <string name="accessibility_categories_title">Catagóirí</string>
     <string name="share_accessibility_settings">Bainist. inrochtaineacht</string>
     <string name="share_accessibility_settings_summary">Iompórtáil agus easpórtáil do shocruithe inrochtaineachta, nó comhroinn le gléasanna eile iad.</string>
@@ -525,6 +527,7 @@ Agus an fheidhm seo cumasaithe, beidh Uathrothlú scáileáin díchumasaithe. Be
     <string name="deviceOption">Roghanna an ghléis</string>
     <string name="lock">Glasáil</string>
     <string name="powerOff">Cumhacht as</string>
+    <string name="unable_assistantmenu_while_sidesync">Ní féidir an Roghchlár cúntóra a chasadh air agus Taobhshioncronú á úsáid.</string>
     <string name="eamenableinfo">Le Cúntóir plus a chumasú, roghnaigh feidhmchlár amháin ar a laghad.</string>
     <string name="fetch_progress">Sonraí á lódáil…</string>
     <string name="assistant_menu_enable_message">Ní féidir %s agus na roghanna thíos a chumasú ag an am céanna. Díchumasófar na roghanna thíos.</string>
@@ -631,7 +634,7 @@ Tapáil anseo leis an ngné seo a íoslódáil."</string>
     <string name="xcover_key_shortcut_battery_conserving_mode">Battery conserving mode</string>
     <string name="xcover_key_shortcut_normal_mode">Gnáthmhód</string>
     <string name="flight_mode_enabled_toast">Ní féidir nascadh le líonraí móibíleacha agus mód Eitilte cumasaithe. Díchumasaigh mód Eitilte agus triail arís.</string>
-    <string name="airplane_mode_summary">Díchumasaigh feidhmeanna curtha glaonna agus teachtaireachtaí, agus cas as sonraí Móibíleacha.</string>
+    <string name="airplane_mode_summary">Cas as cur glaonna, cur teachtaireachtaí, agus Sonraí móibíleacha.</string>
     <string name="usb_not_support_mtp_usb3_dialog_title">Fógra</string>
     <string name="airplane_mode_desc">Cuirtear ar do chumas le mód eitilte gnéithe líonra a chasadh as, Wi-Fi san áireamh. Le Wi-Fi a úsáid, cas air é i Socruithe nó ar an bpainéal fógraí.</string>
     <string name="flight_mode_enable_popup_title">Cumasaigh Mód eitilte</string>
@@ -771,6 +774,7 @@ Is féidir leat é seo a athrú ar ball i socruithe Bluetooth."</string>
     <string name="bluetooth_control_app_disable_summary">Casadh Bluetooth as: %s</string>
     <string name="bluetooth_enter_pin_msg">Iontráil PIN le péireáil le %s (Triail 0000 nó 1234)</string>
     <string name="bluetooth_pin_maximum_number_message">Uaslíon na gcarachtar bainte amach.</string>
+    <string name="bluetooth_frp_permission_message">Ní féidir an gléas Bluetooth a úsáid don ghlao seo.</string>
     <string name="settings_menu_done">Déanta</string>
     <string name="usb_tethering_unavailable_subtext_tmo">USB not connected</string>
     <string name="usb_tethering_available_subtext_tmo">USB connected, check to tether</string>
@@ -811,6 +815,11 @@ Fiú agus Gabháil chliste díchumasaithe, is féidir leat a cuid gnéithe a roc
 - Tarraingt ar an seat scáileáin.
 - An seat scáileáin a bhearradh.
 - An seat scáileáin a chomhroinnt."</string>
+    <string name="smart_capture_summary">Taispeáin roghanna breise tar éis seat scáileáin a ghabháil. Le Gabháil chliste, is féidir:</string>
+    <string name="smart_capture_summary_1">Réimsí folaithe den scáileán a ghabháil.</string>
+    <string name="smart_capture_summary_2">Tarraingt ar an seat scáil.</string>
+    <string name="smart_capture_summary_3">Seat scáil. a bhearradh.</string>
+    <string name="smart_capture_summary_4">Seat scáil. a chomhroinnt</string>
     <string name="identify_unsaved_numbers_title">Aithin uimhreacha neamhshábháilte</string>
     <string name="identify_unsaved_numbers_title_usa">Aithin uimh. turscair</string>
     <string name="call_message_spam_filter_title">Call/message spam filter</string>
@@ -907,6 +916,7 @@ Fiú agus Gabháil chliste díchumasaithe, is féidir leat a cuid gnéithe a roc
     <string name="fota_update_summary">Tapáil anseo le dochtearraí a nuashonrú chuig an leagan is déanaí agus na gnéithe is déanaí a úsáid.</string>
     <string name="favorite_tab">Mearshocruithe</string>
     <string name="device_maintenance_title">Cothabháil an ghléis</string>
+    <string name="memory_string">Cuimhne</string>
     <string name="tab_favorite_edit">Cuir mearshocruithe in eagar</string>
     <string name="add_favorite_button">Cuir mearshocruithe in eagar</string>
     <string name="cloud_and_accounts_title">Néal agus cuntais</string>
@@ -944,7 +954,12 @@ Fiú agus Gabháil chliste díchumasaithe, is féidir leat a cuid gnéithe a roc
     <string name="notification_settings_apps_title">Fógraí feidhmchlár</string>
     <string name="international_roaming_setting">Socruithe fánaíochta</string>
     <string name="user_manual_mos">Lámhleabhar úsáideora</string>
-    <string name="data_saver_description">"D'fhonn cuidiú le húsáid sonraí a laghdú, cuireann Coigilteoir sonraí cosc ar roinnt feidhmchlár sonraí a sheoladh nó a fháil sa chúlra. Ina theannta sin, is féidir le feidhmchláir atá in úsáid faoi láthair sonraí a rochtain, ach ní cheadaítear dóibh amhlaidh a dhéanamh chomh minic céanna. Mar shampla, is féidir nach dtaispeánfar íomhánna i gceart go dtí go dtapálfaidh tú iad."</string>
+    <string name="data_saver_description">"Cuidíonn Coigilteoir sonraí leat gearradh siar ar d'úsáid sonraí trí chosc a chur ar roinnt feidhmchlár sonraí a sheoladh nó a fháil sa chúlra. Is féidir le feidhmchláir atá á n-úsáid agat faoi láthair sonraí móibíleacha a úsáid, ach ní cheadaítear dóibh amhlaidh a dhéanamh chomh minic céanna. Mar shampla, is féidir nach dtaispeánfar íomhánna i gceart go dtí go dtapálfaidh tú iad."</string>
+    <string name="unrestricted_data_saver_chn">Úsáid sonraí gan srianta</string>
+    <string name="data_saver_description_chn">"D'fhonn cuidiú le húsáid sonraí a laghdú, cuireann Cuir srian ar shonraí cúlra cosc ar roinnt feidhmchlár sonraí a sheoladh nó a fháil sa chúlra. Ina theannta sin, is féidir le feidhmchláir atá in úsáid faoi láthair sonraí a rochtain, ach ní cheadaítear dóibh amhlaidh a dhéanamh chomh minic céanna. Mar shampla, is féidir nach dtaispeánfar íomhánna i gceart go dtí go dtapálfaidh tú iad."</string>
+    <string name="data_saver_title_chn">Cuir srian ar shonraí cúlra</string>
+    <string name="unrestricted_app_title_chn">Úsáid sonraí gan srianta</string>
+    <string name="unrestricted_app_summary_chn">Is féidir leis an bhfeidhmchlár sonraí móibíleacha a úsáid gan srianta agus Cuir srian ar shonraí cúlra cumasaithe.</string>
     <string name="data_used_editor_subtitle">Enter the amount of data you have used this month:</string>
     <string name="traffic_vertify">Details</string>
     <string name="btn_tmo">Upgrade data service</string>
@@ -996,7 +1011,9 @@ Data usage is measured by your phone. Your carrier may account for usage differe
     <string name="last_checked_date">Seiceáil deiridh:</string>
     <string name="auto_update">Uath-íoslódáil nuashonruithe</string>
     <string name="auto_update_summary">Íoslódáil nuashonruithe bogearraí go huathoibríoch nuair a bhítear nasctha le líonra Wi-Fi. Beidh tú fós in ann do ghléas a úsáid le linn na híoslódála.</string>
-    <string name="scheduled_update">N.shon. b.earraí sceidealaithe</string>
+    <string name="auto_update_over_wifi">Uath-íoslódáil trí Wi-Fi</string>
+    <string name="auto_update_over_wifi_summary">Íoslódáil nuashonruithe bogearraí go huathoibríoch nuair atáthar nasctha le líonra Wi-Fi. Ag brath ar do sholáthraí seirbhísí, is féidir freisin go n-íoslódálfar nuashonruithe le sonraí móibíleacha gan táillí breise a ghearradh. Beidh tú fós in ann do ghléas a úsáid le linn na híoslódála.</string>
+    <string name="scheduled_update">Nuashonruithe sceidealaithe</string>
     <string name="scheduled_update_summary_default">As</string>
     <string name="scheduled_update_summary_set_time">Tosófar ar an nuashonrú ag %s</string>
     <string name="scheduled_update_summary_set_time_everyday">Tosófar ar an nuashonrú ag %s gach lá</string>
@@ -1029,7 +1046,7 @@ Tá bogearraí diagnóisice ar d'fhón ar féidir leo, le toiliú uait, sonraí 
     <string name="memory_mms_usage">MMS</string>
     <string name="user_owner">Úinéir</string>
     <string name="unable_to_charge_the_connected_device">Ní féidir cábla USB a úsáid le haghaidh %s.</string>
-    <string name="unable_to_change_usb_options_via_smart_switch">Ní féidir roghanna USB a athrú agus sonraí á n-aistriú trí Smart Switch.</string>
+    <string name="unable_to_change_usb_options_via_smart_switch">Ní féidir roghanna USB a athrú agus sonraí á n-aistriú le Smart Switch.</string>
     <string name="usb_configuring">Ag cumrú…</string>
     <string name="usb_use_none_summary">Ní féidir do shonraí gléis a aistriú.</string>
     <string name="usb_use_charging_only_summary_vzw">Just charge this phone.</string>
@@ -1037,9 +1054,9 @@ Tá bogearraí diagnóisice ar d'fhón ar féidir leo, le toiliú uait, sonraí 
     <string name="usb_use_file_transfers_summary_vzw">Transfer media files to a computer.</string>
     <string name="usb_use_file_transfers_summary">Aistrigh comhaid mheán chuig ríomhaire trí nasc MTP.</string>
     <string name="usb_use_MIDI_summary_vzw">Use device for MIDI input.</string>
-    <string name="usb_use_MIDI_summary">Úsáid an gléas nasctha mar sheinnteoir MIDI (Comhéadan Digiteach Uirlisí Ceoil) nó mar fhoinse ionchuir.</string>
-    <string name="usb_use_software_installation">Software Installation</string>
-    <string name="usb_use_software_installation_summary">Install Software Update and Repair tool for your device on a Mac or Windows computer.</string>
+    <string name="usb_use_MIDI_summary">Úsáid an gléas nasctha mar sheinnteoir MIDI nó mar fhoinse ionchuir.</string>
+    <string name="usb_use_system_update">Nuashonrú córais</string>
+    <string name="usb_use_system_update_summary">Suiteáil Cúntóir Uasghrádaithe Bogearraí ar do ríomhaire agus nuashonraigh nó deisigh an fón seo.</string>
     <string name="sim_status_code">Cód</string>
     <string name="sim_status_btn_update">Nuashon. stádas cárta SIM</string>
     <string name="sim_status_updating">Ag nuashonrú…</string>
@@ -1128,7 +1145,7 @@ Tapáil OK le méadú ar ghile thar na leibhéil shábháilte a cheadú."</strin
     <string name="display_temperature">Leibhéal dathanna</string>
     <string name="adjust_your_display_colour">Ceartaigh dathanna do thaispeána le cuma na dton bán a athrú.</string>
     <string name="led_indicator_settings">Táscaire LED</string>
-    <string name="led_indicator_settings_summary">Las an táscaire LED agus é á luchtú, ag taifeadadh gutha, nó ag fáil fógraí.</string>
+    <string name="led_indicator_settings_summary">Las an táscaire LED agus an scáileán casta as le stádais a thaispeáint faoi thaifeadadh fuaime, faoi fhógraí neamhléite, agus faoin gceallra.</string>
     <string name="screen_resolution_desc">Is féidir go mbeidh cuma dhoiléir ar roinnt inneachair nó nach mbeidh tacú ann dó in FHD nó in HD.</string>
     <string name="display_battery_percentage">Taisp. céatadán ceallra</string>
     <string name="display_battery_percentage_summary">Taispeáin an chumhacht cheallra atá fágtha mar chéatadán ar an mbarra stádais.</string>
@@ -1157,7 +1174,7 @@ Tapáil OK le méadú ar ghile thar na leibhéil shábháilte a cheadú."</strin
     <string name="wallpaper">Cúlbhrat</string>
     <string name="lockscreen_wallpaper">Glasáil an scáileán</string>
     <string name="status_bar">Barra stádais</string>
-    <string name="recent_notification_status_bar_title">Taisp. fógraí le déanaí amháin</string>
+    <string name="recent_notification_status_bar_title">Ná taispeáin ach fógraí le déanaí</string>
     <string name="recent_notification_status_bar_summary">Ná taispeáin ach íocóin na %d fógra is déanaí ar an mbarra stádais.</string>
     <string name="display_and_homescreen_title">Taispeáint &amp; scáil. baile</string>
     <string name="navigationbar_title">Barra nascleanúna</string>
@@ -1175,12 +1192,12 @@ Tapáil OK le méadú ar ghile thar na leibhéil shábháilte a cheadú."</strin
     <string name="blue_light_filter_off_time_next_day_summary_format">%s an lá dár gcionn</string>
     <string name="blue_light_filter_user_schedule_title">Sceideal saincheaptha</string>
     <string name="blue_light_filter_auto_schedule_title">Luí go héirí na gréine</string>
-    <string name="blue_light_filter_desc">Úsáid Scagaire solais ghoirm le cuidiú leat codladh níos fearr. Socraigh sceideal do na hamanna ar mian leat Scagaire solais ghoirm a úsáid. Le Luí go héirí na gréine a úsáid, ní mór Suíomh a chumasú.</string>
-    <string name="blue_light_filter_enable_now">Cumasaigh anois</string>
+    <string name="blue_light_filter_desc">Úsáid Scagaire solais ghoirm i rith na hoíche le cuidiú leat codladh níos fearr. Is féidir leat sceideal a shocrú do na hamanna ar mian leat Scagaire solais ghoirm a úsáid. Le Luí go héirí na gréine a úsáid, ní foláir do Shuíomh a bheith casta air.</string>
+    <string name="blue_light_filter_enable_now">Cas air anois</string>
     <string name="blue_light_filter_enable_as_scheduled">Cumasaigh de réir sceidil</string>
-    <string name="blue_light_filter_scheduled_toast">Scagaire solais ghoirm cumasaithe. Díchumasófar go huathoibríoch é ag an am deiridh atá sceidealaithe.</string>
+    <string name="blue_light_filter_scheduled_toast">Scagaire solais ghoirm casta air. Casfar as go huathoibríoch é ag an am deiridh atá sceidealaithe.</string>
     <string name="screen_mode_dlg_turn_off_blue_light_filter">Ní féidir %s agus Scagaire solais ghoirm a úsáid ag an am céanna. Díchumasófar Scagaire solais ghoirm.</string>
-    <string name="blue_light_filter_dlg_turn_on_location">Le Luí go héirí na gréine a úsáid, ní mór Suíomh a chumasú.</string>
+    <string name="blue_light_filter_dlg_turn_on_location">Le Luí go héirí na gréine a úsáid, ní foláir do Shuíomh a bheith casta air.</string>
     <string name="dlg_turn_on">Cas air</string>
     <string name="screen_resolution_title">Taifeach an scáileáin</string>
     <string name="screen_resolution_desc_title">Athraigh taifeach scáil.</string>
@@ -1287,6 +1304,10 @@ Tapáil OK le méadú ar ghile thar na leibhéil shábháilte a cheadú."</strin
     <string name="crypt_keeper_vzw_password_warning">Set the Screen lock password with at least %d characters and 1 number.</string>
     <string name="crypt_keeper_decrypt_title">Díchriptigh an gléas</string>
     <string name="crypt_keeper_decrypt_summary">Gléas criptithe.</string>
+    <string name="crypt_keeper_type_pin">PIN</string>
+    <string name="crypt_keeper_type_pattern">Patrún</string>
+    <string name="crypt_keeper_type_password">Pasfhocal</string>
+    <string name="crypt_keeper_type_direction">Glas treo</string>
     <string name="crypt_keeper_confirm_title_dec">Deimhnigh an díchriptiú</string>
     <string name="crypt_keeper_force_power_cycle_pattern">Le do ghléas a thosú, cas a chumhacht as, cas a chumhacht air arís, ansin triail arís. Ní mór duit an patrún a úsáideann tú a tharraingt leis an ngléas a thosú agus an scáileán a dhíghlasáil. Ní féidir do PIN cúltaca a úsáid le do ghléas a thosú.</string>
     <string name="crypt_keeper_setup_description_dec">"Gléas á dhíchriptiú. Is féidir go dtógfaidh sé seo tamall. Fan go fóill…
@@ -1376,6 +1397,7 @@ Tógann sé uair an chloig nó níos mó le criptiú. Cinntigh go bhfuil an ceal
     <string name="crypt_keeper_verify_failed_summary">Ní féidir do ghléas a atosú. Theip ar an bhfíorú sláine. Ní foláir go bhfillfear do ghléas ar na réamhshocruithe monarchan. Léirscriosfar do shonraí go léir leis sin.</string>
     <string name="cryptkeeper_emergency_call">Glao éigeandála</string>
     <string name="cryptkeeper_return_to_call">Fill ar ghlao</string>
+    <string name="cryptkeeper_default_enter_msg">"Tá d'fhón criptithe ar mhaithe le slándáil."</string>
     <string name="enter_password">Le do ghléas a thosú, iontráil do phasfhocal.</string>
     <string name="enter_pin">Le do ghléas a thosú, iontráil do PIN.</string>
     <string name="enter_pattern">Le do ghléas a thosú, tarraing do phatrún.</string>
@@ -1385,11 +1407,13 @@ Tógann sé uair an chloig nó níos mó le criptiú. Cinntigh go bhfuil an ceal
     <string name="cryptkeeper_wrong_pin">PIN mícheart iontráilte</string>
     <string name="cryptkeeper_wrong_direction">Treo mícheart tarraingthe</string>
     <string name="checking_decryption">Ag deimhniú…</string>
-    <string name="starting_android">Android á thosú…</string>
     <string name="crypt_keeper_last_warn_wipe">Níl ach 1 iarracht fágtha agat le do ghléas a thosú sula bhfillfear ar a réamhshocruithe monarchan é. Léirscriosfar na sonraí uile leis sin, lena n-áirítear comhaid agus feidhmchláir a íoslódáladh.</string>
     <string name="crypt_keeper_failed_title_dec">Theip ar dhíchriptiú.</string>
     <string name="crypt_keeper_failed_summary_dec">Ní féidir an díchriptiú a chur i gcrích mar cuireadh isteach air. Déan athshocrú chuig sonraí monarchan (rud a léirscriosfaidh gach sonra) roimh úsáid.</string>
     <string name="crypt_keeper_set_screen_lock_type">Socraigh cineál glas scáileáin</string>
+    <string name="encryption_interstitial_message">"Is féidir leat tuilleadh cosanta a thabhairt don fhón seo trína éileamh go n-iontráiltear do %s roimh thosú an fhóin. Cabhróidh sé sin le do chuid sonraí a chosaint má chailltear nó má ghoidtear an fón. Is féidir go n-éileofar Slántosú le roinnt feidhmchlár de réir Beartais criptithe gléis le gnéithe a rochtain, amhail sioncronú r-phoist.
+
+Ní bhfaighidh tú glaonna, teachtaireachtaí, ná fógraí, agus ní bhuailfear aláraim, go dtí go mbeidh an fón tosaithe."</string>
     <string name="encryption_interstitial_message_kor">Tá do ghléas criptithe. Cosain do shonraí criptithe trí ‘Éiligh ar ghlas scáil. sonraí a dhíchriptiú ar chasadh air’ a roghnú. Cosnófar sonraí ar ghléasanna a goideadh agus ar ghléasanna atá ar iarraidh leis sin. Beidh ort do ghléas a dhíghlasáil lena shonraí a dhíchriptiú gach uair a chasann tú a chumhacht air. Ní bhfaighidh tú glaonna, teachtaireachtaí, ná fógraí go dtí go ndíchripteoidh tú an ghléas.</string>
     <string name="encryption_interstitial_message_direction">"Cosain do ghléas trí Éiligh Glas treo a roghnú ar chumhacht an ghléis a chasadh air. Cosnófar sonraí ar ghléasanna a goideadh nó ar ghléasanna atá ar iarraidh leis sin.
 
@@ -1411,6 +1435,7 @@ Ní bhfaighidh tú glaonna, teachtaireachtaí, ná fógraí, agus ní bhuailfear
 Ní bhfaighidh tú glaonna, teachtaireachtaí, ná fógraí, agus ní bhuailfear aláraim, go dtí go mbeidh an gléas tosaithe."</string>
     <string name="encryption_interstitial_error_message">Le sonraí do ghléis a chosaint, athraigh an cineál glais scáileáin chuig PIN, Pasfhocal, Patrún, nó Méarlorg, ansin triail arís.</string>
     <string name="encryption_interstitial_error_message_direction">Le sonraí do ghléis a chosaint, athraigh do chineál glais scáileáin chuig PIN, Pasfhocal, Patrún, Glas treo, nó Méarloirg, ansin triail arís.</string>
+    <string name="encryption_interstitial_error_message_direction_without_fingerprint">Le sonraí do ghléis a chosaint, athraigh do chineál glais scáileáin chuig PIN, Pasfhocal, Patrún, nó Glas treo, ansin triail arís.</string>
     <string name="encryption_interstitial_error_message_iris_direction">Le sonraí do ghléis a chosaint, athraigh do chineál glas scáileáin chuig PIN, Pasfhocal, Patrún, Glas treo, Méarloirg, nó Inteacháin ansin triail arís.</string>
     <string name="encryption_interstitial_error_message_without_fingerprint">Le sonraí do ghléis a chosaint, athraigh do chineál glais scáileáin chuig PIN, Pasfhocal, nó Patrún, ansin triail arís.</string>
     <string name="encryption_interstitial_error_sktlock">Ní féidir Glas sábháilteachta agus Slántosú a chumasú ag an am céanna. Roghnaigh glas nach Glas sábháilteachta é agus triail arís.</string>
@@ -1674,6 +1699,8 @@ Sula n-iarrann tú deisiú faoin mbaránta, ní mór Glas athghníomhachtaithe a
 %s"</string>
     <string name="improve_location_title">Improve location accuracy</string>
     <string name="improve_location_summary">Use WLANs and mobile networks to provide more accurate information about the location of your device.</string>
+    <string name="send_last_location_title">Seol an suíomh deireanach</string>
+    <string name="send_last_location_summary">"Ceadaigh do d'fhóin a shuíomh deireanach a sheoladh chuig freastalaí Aimsigh M'Fhón Póca nuair a théann an ceallra faoi bhun leibhéal áirithe."</string>
     <string name="high_power_description">"Cumasaigh Optamaigh úsáid cheallra d'fheidhmchláir aonair. Cuirfear srian ar roinnt feidhmeanna, amhail siúd a úsáideann líonraí móibíleacha nó lena sioncronaítear sonraí, le cumhacht an cheallra a choigilt."</string>
     <string name="wifi_display_summary_off">As</string>
     <string name="battery_usage_description">Taispeántar ar an scáileán seo sonraí maidir le húsáid an cheallra ó lánluchtaíodh an gléas an uair dheireanach.</string>
@@ -1769,6 +1796,8 @@ Tá roghanna malartacha slándála le fáil ar do ghléas. Lean na treoracha uil
     <string name="iris_sensor_not_working_popup_title">Níl aithint inteacháin ag obair</string>
     <string name="iris_sensor_not_working_msg">Níl an braiteoir inteachán ag freagairt. Triail arís ar ball.</string>
     <string name="iris_go_to_samsung_theme">Gabh chuig Samsung Themes</string>
+    <string name="biometrics_dex_cant_use_msg">Ní féidir %s a úsáid in Samsung DeX.</string>
+    <string name="biometrics_dex_closed_to_switch">Dúnadh %s le haistriú chuig Samsung DeX.</string>
     <string name="knox_twofactor_bio_description">Roghnaigh do chineál glais bhithmhéadraigh agus an dara cineál glais atá agat le %s a dhíghlasáil.</string>
     <string name="fingerprint_registered">Úsáidfear na méarloirg cláraithe le modh díghlasála roghnaithe.</string>
     <string name="knox_twofactor_description">Úsáid dhá chineál glais le Knox a dhéanamh níos sláine fós. Bainfear úsáid as do mhéarloirg don chéad chineál glais. Roghnaigh dara cineál glais thíos.</string>
@@ -1866,8 +1895,8 @@ Determining your location will use the mobile network. Data usage will apply."</
     <string name="app_ops_settings_summary">Amharc ar cheadanna feidhmchláir nó athraigh iad.</string>
     <string name="backup_key_for_applock_header">Socraigh patrún, PIN, nó pasfhocal le húsáid in éineacht le hAithint méarloirg le feidhmchláir a ghlasáil nó a dhíghlasáil.</string>
     <string name="backup_key_for_privatemode_header">Socraigh patrún, PIN, nó pasfhocal le húsáid in éineacht le hAithint méarloirg le Mód príobháideach a rochtain.</string>
-    <string name="status_added">Curtha leis</string>
     <string name="text_security_title_b2c">Roghnaigh cineál glais. Má dhéanann tú dearmad ar an gcaoi a ndíghlasáiltear Fillteán Slán, is féidir leat do ghlas a athshocrú le do chuntas Samsung.</string>
+    <string name="status_added">Curtha leis</string>
     <string name="lockpattern_backup_pin">PIN cúltaca</string>
     <string name="applock_type_fingerprint">Méarlorg</string>
     <string name="unlock_set_unlock_two_factor_title">Fíorú dhá chéim</string>
@@ -2083,7 +2112,7 @@ Fiú má ghlantar d'fhón, beidh pasfhocal do chuntais Google de dhíth sula mbe
     <string name="palm_swipe_title">Svaidhpeáil boise le gabháil</string>
     <string name="screen_recorder_title">Record screen</string>
     <string name="screen_recorder_summary">Record video screenshots while you use your device.</string>
-    <string name="multi_window_setting_title">"Gluaisne d'Amh. mír aníos"</string>
+    <string name="multi_window_setting_title">Gníomh Amharc míre aníos</string>
     <string name="multi_window_setting_description">Agus feidhmchlár ar oscailt ar an scáileán, ceartaigh méid an fheidhmchláir trí svaidhpeáil síos go trasnánach ó cheachtar den dá chúinne ag barr an scáileáin.</string>
     <string name="multi_window_screen_title">Ilfhuinneoga</string>
     <string name="multi_window_screen_summary">Taispeáin níos mó ná feidhmchlár amháin ag an am céanna.</string>
@@ -2123,18 +2152,19 @@ Fiú má ghlantar d'fhón, beidh pasfhocal do chuntais Google de dhíth sula mbe
     <string name="air_browse_note_summary">Bog idir na leathanaigh agus tú i mód Amharc.</string>
     <string name="data_usage_enable_mobile_summery">Faigh rochtain ar an Idirlíon trí do líonra móibíleach.</string>
     <string name="data_usage_enable_mobile_warning_skt">Is féidir go ngearrfar táillí breise ar nascadh le líonraí móibíleacha ag brath ar do phlean sonraí. Ar aghaidh?</string>
-    <string name="data_usage_enable_mobile_warning_ktt">Is féidir go ngearrfar táillí breise ar nascadh le líonraí móibíleacha ag brath ar do phlean sonraí. Ar aghaidh?</string>
+    <string name="data_usage_enable_mobile_warning_ktt">Casfar Sonraí móibíleacha air. Is féidir go ngearrfar táillí breise ar nascadh le líonraí móibíleacha ag brath ar do phlean íocaíochta.</string>
     <string name="data_usage_enable_mobile_warning_lgt">Is féidir go ngearrfar táillí breise ar nascadh le líonraí móibíleacha ag brath ar do phlean sonraí. Ar aghaidh?</string>
     <string name="data_usage_disable_mobile_title">Cas as Sonraí móibíleacha</string>
     <string name="data_usage_disable_mobile_warning_skt">Má dhínasctar an líonra móibíleach, cuirfear srian ar úsáid seirbhísí sonraí MMS agus 3G. Dínascadh?</string>
     <string name="data_usage_disable_mobile_warning_ktt">Má dhínasctar an líonra móibíleach, cuirfear srian ar úsáid seirbhísí sonraí MMS agus 3G. Dínascadh?</string>
     <string name="data_usage_disable_mobile_warning_ktt_jb">Má dhínasctar an líonra móibíleach, cuirfear srian ar úsáid seirbhísí sonraí MMS agus 3G. Dínascadh?</string>
-    <string name="mobile_data_off_dialog_text_vzw">"Unless you use Wi-Fi, you will not be able to use the Internet, Email, or other apps that require a data connection.
+    <string name="data_usage_disable_mobile_warning_dcm">"If Mobile data is turned off, your device must be connected to a Wi-Fi network to use services that require a network connection.
 
-Turn off Mobile data?"</string>
-    <string name="mobile_data_off_dialog_text_common">"Mura n-úsáideann tú Wi-Fi, ní bheidh tú in ann an tIdirlíon, R-phost, ná feidhmchláir eile a bhfuil nasc sonraí de dhíth orthu a úsáid a thuilleadh.
-
-Casfar as sonraí móibíleacha."</string>
+Mobile data will be turned off."</string>
+    <string name="mobile_data_off_dialog_text_vzw">"Unless you use Wi-Fi, you won't be able to use the Internet, Email or other apps that require a data connection. Turn off the mobile data connection?"</string>
+    <string name="mobile_data_off_dialog_text_volte">"Your phone's Video Calling function won't work when mobile data is off. Also, you won't be able to use the Internet, Email or other apps that need a data connection unless you use Wi-Fi. Turn off the mobile data connection?"</string>
+    <string name="mobile_data_off_dialog_text_common">Mura nascann tú le líonra Wi-Fi, ní bheidh tú in ann an Idirlíon, R-phost, ná feidhmchláir eile a úsáid a bhfuil nasc líonra de dhíth orthu.</string>
+    <string name="data_usage_turn_off_btn">Cas as</string>
     <string name="wfd_settings_summary">Comhroinn scáileán do ghléis le gléas eile</string>
     <string name="nfc_settings_advanced_explain">"Socraigh an modh próiseála NFC réamhshocraithe.
 Is féidir go mbeidh modh próiseála NFC réamhshocraithe éagsúil de dhíth ar roinnt idirbhirt NFC agus seirbhísí íocaíochta móibíleacha."</string>
@@ -2274,7 +2304,7 @@ Is féidir go mbeidh modh próiseála NFC réamhshocraithe éagsúil de dhíth a
     <string name="zen_mode_events_summary">Ceadaigh fógraí ó S Planner agus ó imeachtaí féilire eile.</string>
     <string name="zen_mode_events_summary_na">Ceadaigh fógraí ó imeachtaí agus ó thascanna Féilire.</string>
     <string name="zen_mode_reminders_summary">Ceadaigh meabhrúcháin ó fheidhmchláir a bhfuil tacú iontu dóibh.</string>
-    <string name="dnd_app_noti_summary">Socraigh chuig Cur isteach tosaíochta le fógraí feidhmchláir a cheadú mar eisceachtaí.</string>
+    <string name="dnd_app_noti_summary">Ceadaigh fógraí ó fheidhmchláir a roghnaíonn tú.</string>
     <string name="no_exceptions_dcm_summary">Mute all calls and alerts, including Area Mail alarms.</string>
     <string name="dnd_screen_switch_summary">"Balbhaigh gach glao agus foláireamh, seachas d'eisceachtaí saincheaptha."</string>
     <string name="app_notification_priority_app_list_title">Fógraí ó f.ch. thosaíochta</string>
@@ -2321,7 +2351,7 @@ príobh."</string>
     <string name="personal_page_secretbox_disclaimer_title">Séanadh</string>
     <string name="personal_page_secretbox_disclaimer_message">Ní chosnaíonn Mód príobháideach do shonraí ar rochtain ó fheidhmchláir eile. Díchumasaigh na socruithe uathshioncronaithe ar do ghléas ionas nach féidir sonraí a shioncronú le freastalaithe seachtracha.</string>
     <string name="personal_page_secretbox_disclaimer_message_vzw">Content moved into Private mode will be hidden and will not be shown when you exit from Private mode. Automatic syncing while in Private mode may allow that content to be visible in 3rd party apps. Check the automatic synchronization settings of your other applications before using Private mode.</string>
-    <string name="personal_page_tutorial_app_title_message">Úsáid Mód príobháideach le hinneachar is mian leat a choimeád príobháideach a fholú. Agus na feidhmchláir seo a leanas á n-úsáid agat, roghnaigh míreanna is mian leat a bhogadh chuig Príobháideach, ansin tapáil an cnaipe TUILLEADH agus roghnaigh Bog chuig Príobháideach. Ní féidir inneachar a bogadh chuig Príobháideach a fheiceáil ach amháin nuair a bhíonn Mód príobháideach cumasaithe.</string>
+    <string name="personal_page_tutorial_app_title_message">Úsáid Mód príobháideach le hinneachar is mian leat a choimeád príobháideach a fholú. Agus na feidhmchláir seo a leanas á n-úsáid agat, roghnaigh míreanna is mian leat a bhogadh chuig Príobháideach, ansin tapáil an cnaipe Tuilleadh roghanna agus roghnaigh Bog chuig Príobháideach. Ní féidir inneachar a bogadh chuig Príobháideach a fheiceáil ach amháin nuair a bhíonn Mód príobháideach casta air.</string>
     <string name="personal_page_inline_help">Le Mód príobháideach a úsáid, roghnaigh cineál rochtana. Má dhéanann tú dearmad ar do chineál rochtana Móid phríobháidigh, ní bheidh tú in ann é a aisghabháil agus ní bheidh tú in ann Mód príobháideach a úsáid arís ach amháin má fhilltear do ghléas ar a réamhshocruithe monarchan.</string>
     <string name="personal_page_backup_pin_summary">Cruthaigh PIN cúltaca don Mhód príobháideach, i gcás go ndéanfaidh tú dearmad ar do phatrún.</string>
     <string name="personal_page_incorrect_pin">"PIN mícheart.
@@ -2711,6 +2741,7 @@ Dícheangail an luchtaire leis an bhfeidhm seo a chumasú/a dhíchumasú."</stri
     <string name="samsung_backup_summary">Úsáid do chuntas Samsung le cóip chúltaca a dhéanamh de do chuid sonraí.</string>
     <string name="samsung_restore_summary">Úsáid do chuntas Samsung le do shonraí cúltaca a aischur.</string>
     <string name="sns_settings_title">"Aistrigh chuig sonraí móibíleacha nuair a éiríonn do nasc Wi-Fi éagobhsaí. Is féidir le d'fhón aistriú chuig líonraí Wi-Fi sábháilte ó na háiteanna is minice cuairt freisin. Casfaidh Aistriú líonra cliste líonraí Wi-Fi sábháilte air nó as go huathoibríoch."</string>
+    <string name="sns_settings_title_include_autowifi">"Aistrigh chuig sonraí móibíleacha nuair a éiríonn do nasc Wi-Fi éagobhsaí. Is féidir le d'fhón aistriú chuig líonraí Wi-Fi sábháilte ó na háiteanna is minice cuairt freisin. Casfaidh Aistriú líonra cliste líonraí Wi-Fi sábháilte air nó as go huathoibríoch."</string>
     <string name="smart_bonding">Treis-íoslódálaí</string>
     <string name="smart_bonding_popup_title">Cumasaigh Treiseoir íoslódála</string>
     <string name="smart_bonding_description_vzw">"Download large files (over %d MB) faster by using Wi-Fi and LTE networks at the same time. The Download booster icon will be shown on the status bar when Download booster is turned on.
@@ -2931,6 +2962,8 @@ Downloading via mobile networks may result in additional charges depending on yo
     <string name="wifi_manage_network">Bainistigh líonraí</string>
     <string name="wlan_permission_available_message">Asks your permission to use WLAN via a pop-up</string>
     <string name="wlan_permission_available">Ask to use WLAN</string>
+    <string name="wifi_hotspot20_summary_tmo">Nasc go héasca le Baill theo mhóibíleacha Wi-Fi a bhfuil Hotspot 2.0 cumasaithe orthu ga gá duit pasfhocal a bheith agat.</string>
+    <string name="wifi_hotspot20_summary_dcm">Nasc go huathoibríoch le líonra Wi-Fi Hotspot 2.0 agus Wi-Fi casta air.</string>
     <string name="wifi_hotspot20_summary">Nasc go huathoibríoch le pointí rochtana Wi-Fi a bhfuil tacú iontu do Hotspot 2.0.</string>
     <string name="wifi_hotspot20_enable">Hotspot 2.0</string>
     <string name="wifi_att_auto_connect_summary">Automatically connect to AT&amp;T Wi-Fi hotspot when detected</string>
@@ -2949,9 +2982,9 @@ Downloading via mobile networks may result in additional charges depending on yo
     <string name="wifi_auto_reconnect">Uath-athnasc</string>
     <string name="wifi_enable_warning_chn">Turning on WLAN will disable Mobile hotspot.</string>
     <string name="wifi_enable_warning_vzw">Díchumasófar Ball Te Móibíleach má chastar Wi-Fi air. Ar aghaidh?</string>
-    <string name="wifi_enable_warning_tmo">Wi-Fi is turned off when Mobile HotSpot is active. To turn on Wi-Fi, please turn off Mobile HotSpot.</string>
+    <string name="wifi_enable_warning_tmo">Castar as Wi-Fi nuair a bhíonn Mobile HotSpot gníomhach. Le Wi-Fi a chasadh air, cas as Mobile HotSpot.</string>
     <string name="wifi_enable_warning_spr">Turning on Wi-Fi will disable Hotspot.</string>
-    <string name="wifi_enable_warning_mtr">Turning on Wi-Fi will turn off Mobile Hotspot. Continue?</string>
+    <string name="wifi_enable_warning_mtr">Castar as Wi-Fi nuair a bhíonn Ball te móibíleach gníomhach. Le Wi-Fi a chasadh air, cas as Ball te móibíleach.</string>
     <string name="wifi_enable_warning_usc">Turning on Wi-Fi will turn off Portable Wi-Fi hotspot. Continue?</string>
     <string name="wifi_enable_warning">Díchumasófar Ball te móibíleach má chastar air Wi-Fi.</string>
     <string name="wifi_control_history_title">Stair rialaithe Wi-Fi</string>
@@ -2985,9 +3018,9 @@ Downloading via mobile networks may result in additional charges depending on yo
     <string name="wifi_ap__wifi_sharing_vzw">Wi-Fi Sharing</string>
     <string name="wifi_ap__wifi_sharing">Comhroinnt Wi-Fi</string>
     <string name="first_use_wifi_msg_mtr">Tap OK to learn more about using Mobile Hotspot.</string>
-    <string name="first_use_wifi_msg">Tap OK to learn more about using Mobile HotSpot.</string>
+    <string name="first_use_wifi_msg">Tapáil OK le tuilleadh faisnéise a fháil faoi Mobile HotSpot a úsáid.</string>
     <string name="first_use_title_mtr">View Mobile Hotspot help</string>
-    <string name="first_use_title">View Mobile HotSpot help</string>
+    <string name="first_use_title">Amharc ar chabhair do Mobile HotSpot</string>
     <string name="wifi_ap_wifi_sharing_title">Cumas. C.roinnt Wi-Fi</string>
     <string name="wifi_ap_wifi_sharing_status_enabled">Cumasaithe</string>
     <string name="wifi_ap_wifi_sharing_status_disabled">Díchumasaithe</string>
@@ -3019,11 +3052,11 @@ Using Mobile hotspot increases battery consumption and data usage."</string>
 Mobile Hotspot uses mobile data from your data plan.
 
 We recommend keeping your phone plugged in to a charger while using Mobile Hotspot to save battery."</string>
-    <string name="wifi_ap_instruction_changeable_maxclient_tmo">"You can use your device as an Internet access point using Mobile HotSpot. This allows up to %d other devices to connect to it via Wi-Fi. The connected devices will have access to the Internet via your mobile network.
+    <string name="wifi_ap_instruction_changeable_maxclient_tmo">"Is féidir leat do ghléas a úsáid mar phointe rochtana Idirlín le Mobile HotSpot. Ligeann sé seo do suas le %d gléas eile nascadh leis trí Wi-Fi. Beidh rochtain ar an Idirlíon ag na gléasanna nasctha trí do líonra móibíleach.
 
-You can create an allowed device profile and set the connection mode for it.
+Is féidir leat próifíl gléasanna ceadaithe a chruthú agus an mód nasctha a shocrú lena haghaidh.
 
-Using Mobile HotSpot increases battery consumption and data usage."</string>
+Méadaítear úsáid an cheallra agus úsáid sonraí le Mobile HotSpot."</string>
     <string name="wifi_ap_instruction_changeable_maxclient_spr">"You can share your device's Hotspot with Wi-Fi enabled devices.
 
 After you start the Mobile Hotspot Wi-Fi router, connect using the controls on your Wi-Fi enabled device."</string>
@@ -3056,7 +3089,7 @@ To configure Smartphone Mobile Hotspot, tap on the menu icon, and then tap “Co
     <string name="wifi_ap_hide_ssid">Folaigh mo ghléas</string>
     <string name="wifi_ap_wifi_off_warn_vzw">Mobile Hotspot uses your mobile data connection. Your Wi-Fi connection will be turned off.</string>
     <string name="wifi_ap_wifi_off_warn_spr">Enabling Hotspot will turn off Wi-Fi</string>
-    <string name="wifi_ap_wifi_off_warn_tmo">Wi-Fi is turned off when USB tethering or Mobile HotSpot is active. To turn on Wi-Fi, please turn off USB tethering or Mobile HotSpot.</string>
+    <string name="wifi_ap_wifi_off_warn_tmo">Castar as Wi-Fi nuair a bhíonn Nascaireacht USB nó Mobile HotSpot gníomhach. Le Wi-Fi a chasadh air, cas as Nascaireacht USB nó Mobile HotSpot.</string>
     <string name="wifi_ap_wifi_off_warn_chn">Enabling Mobile hotspot will turn off WLAN.</string>
     <string name="wifi_ap_wifi_off_warn_att">Turning on portable Wi-Fi hotspot will turn off Wi-Fi.</string>
     <string name="wifi_ap_wifi_off_warn_mtr">Wi-Fi is turned off when USB tethering or Mobile Hotspot is active. To turn on Wi-Fi, please turn off USB tethering or Mobile Hotspot.</string>
@@ -3127,6 +3160,7 @@ Tar éis ainm nó pasfhocal an bhaill the mhóibíligh a athrú, ní foláir có
     <string name="wifi_wps_onstart_pbc_mobileap">Brúigh an cnaipe WPS ar an ngléas eile le nascadh.</string>
     <string name="wifi_wps_complete_mobileap">Tá an gléas eile nasctha anois le do ghléas.</string>
     <string name="wifi_ap_disconnect_warn">Dínasc gléas</string>
+    <string name="wifi_ap_change_policy_warn_mtr">The device currently connected will be disconnected from Portable Wi-Fi Hotspot.</string>
     <string name="wifi_ap_change_policy_warn">Déanfar gach gléas atá nasctha faoi láthair a dhínascadh ón mBall te móibíleach.</string>
     <string name="wifi_ap_warn_max_whitelist">Uaslíon na ngléasanna ceadaithe (%d) bainte amach.</string>
     <string name="wifiap_one_item_deleted">Scriosfar 1 mhír</string>
@@ -3161,8 +3195,9 @@ Wi-Fi is now on."</string>
     <string name="wifi_tether_dialog_nosim_warning_title">Ball te inaistrithe</string>
     <string name="wifi_tether_dialog_nosim_warning_chn">Insert a SIM card to use Mobile hotspot and other tethering functions.</string>
     <string name="wifi_tether_dialog_nosim_warning_vzw">Insert a SIM card to use Mobile Hotspot and other tethering options.</string>
-    <string name="wifi_tether_dialog_nosim_warning_tmo">"Please install SIM card in order to share your phone's data connection with other devices using Mobile Wi-Fi HotSpot or USB tethering for Internet access."</string>
-    <string name="wifi_tether_dialog_nosim_warning_spr">Insert SIM for using Hotspot include tethering</string>
+    <string name="wifi_tether_dialog_nosim_warning_tmo">"Suiteáil cárta SIM le nasc sonraí d'fhóin a chomhroinnt le gléasanna eile le Mobile Wi-Fi HotSpot nó le Nascaireacht USB do rochtain ar an Idirlíon."</string>
+    <string name="wifi_tether_dialog_nosim_warning_mtr">"Please install SIM card in order to share your phone's data connection with other devices using Mobile Wi-Fi Hotspot or USB tethering for Internet access."</string>
+    <string name="wifi_tether_dialog_nosim_warning_spr">Ionsáigh cárta SIM le Ball te a úsáid.</string>
     <string name="wifi_tether_dialog_nosim_warning_usc">Ionsáigh cárta SIM chun Ball Te Móibíleach agus feidhmeanna nascaireachta eile a úsáid.</string>
     <string name="wifi_tether_dialog_nosim_warning">Ionsáigh cárta SIM chun Ball Te Móibíleach agus feidhmeanna nascaireachta eile a úsáid.</string>
     <string name="mobileap_tmo">Ball Te Inaistrithe</string>
@@ -3189,7 +3224,7 @@ Wi-Fi is now on."</string>
     <string name="wifi_ap_instruction_open_activate_color3_att">Nasc le &lt;font color=\"%1$s\">%2$s&lt;/font>.</string>
     <string name="wifi_ap_instruction_open_activate_color3">Nasc le &lt;font color=\"%1$s\">%2$s&lt;/font>.</string>
     <string name="wifi_ap_instruction_open_activate_color4_vzw">Enjoy your Mobile Hotspot.</string>
-    <string name="wifi_ap_instruction_open_activate_color4_tmo">Enjoy the internet using your personal Mobile HotSpot.</string>
+    <string name="wifi_ap_instruction_open_activate_color4_tmo">Bain sult as an Idirlíon le do Mobile HotSpot pearsanta.</string>
     <string name="wifi_ap_instruction_open_activate_color4_spr">Enjoy the Internet with Hotspot.</string>
     <string name="wifi_ap_instruction_open_activate_color4_att">Enjoy the Internet using Mobile hotspot.</string>
     <string name="wifi_ap_instruction_open_activate_color4_mtr">Enjoy the Internet using portable Wi-Fi hotspot.</string>
@@ -3208,7 +3243,7 @@ Wi-Fi is now on."</string>
     <string name="wifi_ap_instruction_activate_color3_att">Nasc le &lt;font color=\"%1$s\">%2$s&lt;/font> ach &lt;font color=\"%1$s\">%3$s&lt;/font> a iontráil mar an pasfhocal.</string>
     <string name="wifi_ap_instruction_activate_color3">Nasc le &lt;font color=\"%1$s\">%2$s&lt;/font> ach &lt;font color=\"%1$s\">%3$s&lt;/font> a iontráil mar an pasfhocal.</string>
     <string name="wifi_ap_instruction_activate_color4_vzw">Enjoy your Mobile Hotspot.</string>
-    <string name="wifi_ap_instruction_activate_color4_tmo">Enjoy the internet using your personal Mobile HotSpot.</string>
+    <string name="wifi_ap_instruction_activate_color4_tmo">Bain sult as an Idirlíon le do Mobile HotSpot pearsanta.</string>
     <string name="wifi_ap_instruction_activate_color4_spr">Enter &lt;font color=\"%1$s\">%3$s&lt;/font> in the &lt;font color=\"%1$s\">%4$s&lt;/font> field.</string>
     <string name="wifi_ap_instruction_activate_color4_att">Enjoy the Internet using Mobile hotspot.</string>
     <string name="wifi_ap_instruction_activate_color4_mtr">Enjoy the Internet using portable Wi-Fi hotspot.</string>
@@ -3230,16 +3265,16 @@ Wi-Fi is now on."</string>
     <string name="wifi_ap_instruction_activate_color_hidden3_chn">Connect to &lt;font color=\"%1$s\">%2$s&lt;/font> by entering &lt;font color=\"%1$s\">%3$s&lt;/font> as the password.</string>
     <string name="wifi_ap_instruction_activate_color_hidden3_tmo">Connect to &lt;font color=\"%1$s\">%2$s&lt;/font> by entering &lt;font color=\"%1$s\">%3$s&lt;/font> as the password.</string>
     <string name="wifi_ap_instruction_activate_color_hidden3">Nasc le &lt;font color=\"%1$s\">%2$s&lt;/font> ach &lt;font color=\"%1$s\">%3$s&lt;/font> a iontráil mar an pasfhocal.</string>
-    <string name="wifi_ap_instruction_activate_color_hidden4_tmo">Enjoy the internet using your personal Mobile HotSpot.</string>
+    <string name="wifi_ap_instruction_activate_color_hidden4_tmo">Bain sult as an Idirlíon le do Mobile HotSpot pearsanta.</string>
     <string name="wifi_ap_instruction_no_maxclient">"Is féidir leat do ghléas a úsáid mar phointe rochtana Idirlín le Ball te móibíleach. Ceadófar do ghléasanna eile nascadh leis trí Wi-Fi leis sin. Beidh rochtain ar an Idirlíon ag na gléasanna nasctha trí do líonra móibíleach.
 
 Is féidir leat próifíl gléasanna ceadaithe a chruthú agus an mód nasctha a shocrú maidir leis.
 
 Méadaítear úsáid an cheallra agus úsáid sonraí le Ball te móibíleach."</string>
     <string name="wifi_ap_instruction_configure_vzw">To change the Mobile Hotspot configuration, go to Settings > Mobile Hotspot and tethering > Mobile Hotspot > MORE, then select Configure Mobile Hotspot.</string>
-    <string name="wifi_ap_instruction_configure_tmo">To change the Mobile HotSpot configuration, tap the More options button, then select Configure Mobile HotSpot.</string>
+    <string name="wifi_ap_instruction_configure_tmo">Le cumrú Mobile HotSpot a athrú, tapáil an cnaipe Tuilleadh roghanna agus roghnaigh Cumraigh Mobile HotSpot.</string>
     <string name="wifi_ap_instruction_configure">Le cumrú an Bhaill the mhóibíligh a athrú, tapáil an cnaipe Tuilleadh roghanna agus roghnaigh Cumraigh Ball te móibíleach.</string>
-    <string name="wifi_ap_instruction_configure_non_grace_tmo">To change the Mobile HotSpot configuration, tap MORE, then select Configure Mobile HotSpot.</string>
+    <string name="wifi_ap_instruction_configure_non_grace_tmo">Le cumrú an Mobile HotSpot a athrú, tapáil TUILLEADH, ansin roghnaigh Cumraigh Mobile HotSpot.</string>
     <string name="wifi_ap_instruction_configure_non_grace">Le cumrú an Bhaill the mhóibíligh a athrú, tapáil TUILLEADH agus roghnaigh Cumraigh Ball te móibíleach.</string>
     <string name="wifi_ap_change_security">Change Security</string>
     <string name="wifi_ap_maxclient">Naisc uasta</string>
@@ -3256,7 +3291,8 @@ Méadaítear úsáid an cheallra agus úsáid sonraí le Ball te móibíleach."<
     <string name="wifi_tether_configure_ap_text_usc">Configure Wi-Fi hotspot</string>
     <string name="wifi_tether_configure_ap_text">Cumraigh Ball te móibíleach</string>
     <string name="wifi_ap_hidessid_warning">Your phone will be visible to other devices</string>
-    <string name="wifi_ap_first_time_configuration">First time HotSpot configuration</string>
+    <string name="wifi_ap_first_time_configuration_mtr">Cumrú céaduaire Baill the mhóibíligh</string>
+    <string name="wifi_ap_first_time_configuration">Cumrú céaduaire HotSpot</string>
     <string name="title_wifi_notify_mobileap_is_on">Wi-Fi and Mobile Hotspot</string>
     <string name="wifi_ssid_max_byte_error">Uaslíon na gcarachtar bainte amach.</string>
     <string name="tethering_attention_title">Aire</string>
@@ -3399,6 +3435,8 @@ Faigh faisnéis faoi fhánaíocht trí ghlao saor in aisce a chur ar na seirbhí
     <string name="master_clear_desc_music">Ceol</string>
     <string name="master_clear_desc_pictures">Pictiúir</string>
     <string name="master_clear_desc_other_user_data">Gach sonraí úsáideora eile</string>
+    <string name="master_clear_not_enough_battery">"Luchtaigh do cheallra chuig %d%% ar a laghad roimh duit d'fhón a athshocrú."</string>
+    <string name="master_clear_not_enough_battery_tablet">Luchtaigh do cheallra chuig %d%% ar a laghad roimh duit do tháibléad a athshocrú.</string>
     <string name="text_two_locktype">Méarlorg agus %s</string>
     <string name="pref_lock_type_title">Athraigh cineál glais</string>
     <string name="pref_lock_type_summary">Cineál glais</string>
@@ -3478,8 +3516,11 @@ Receiving SMS"</string>
     <string name="google_settings_popup_msg">Only a limited number of Google settings are available. Some actions may not work.</string>
     <string name="smart_lock_popup_msg">Only a limited number of Google settings are available. Some actions may not work.</string>
     <string name="prevent_to_change_by_device_policy">Cuireann an beartas slándála cosc ar úsáid %s.</string>
+    <string name="quick_tile_sync_title">Sioncronú</string>
     <string name="name_jerusalem">Iarúsailéim</string>
     <string name="name_israel">Iosrael</string>
+    <string name="starting_android">Android á thosú…</string>
+    <string name="okay">OK</string>
     <string name="yes">Déan é</string>
     <string name="no">Ná déan é</string>
     <string name="create">Déan</string>
@@ -3577,7 +3618,6 @@ Is féidir é seo a athrú ar ball i socruithe Bluetooth."</string>
     <string name="phone_info_label">Faisnéis faoin ngléas</string>
     <string name="proxy_settings_label">Socruithe seachfhreastalaí</string>
     <string name="cancel">Cuir ar ceal</string>
-    <string name="okay">OK</string>
     <string name="save">Sábháil</string>
     <string name="done">Déanta</string>
     <string name="settings_label">Socruithe</string>
@@ -5201,4 +5241,6 @@ Ní bhfaighidh tú glaonna, teachtaireachtaí, ná fógraí, agus ní bhuailfear
     <string name="ucm_pins_do_not_match">Ní hionann an dá PIN</string>
     <string name="ucm_failed_to_connect_smartcard">Theip ar nascadh leis an gcárta cliste. Déan teagmháil le riarthóir an ghléis.</string>
     <string name="ucm_loading">Ag lódáil…</string>
+    <string name="usb_use_software_installation">Software Installation</string>
+    <string name="usb_use_software_installation_summary">Install Software Update and Repair tool for your device on a Mac or Windows computer.</string>
 </resources>

@@ -373,7 +373,7 @@
     invoke-virtual {p0, v4}, Lcom/android/settings/fingerprint/FingerprintEnrollIntroduction;->setContentView(I)V
 
     .line 70
-    const v4, 0x7f0b10c8
+    const v4, 0x7f0b124f
 
     invoke-virtual {p0, v4}, Lcom/android/settings/fingerprint/FingerprintEnrollIntroduction;->setHeaderText(I)V
 
@@ -416,7 +416,7 @@
 
     .line 77
     .local v1, "item":Lcom/android/setupwizardlib/items/Item;
-    const v4, 0x7f0b182a
+    const v4, 0x7f0b19b0
 
     invoke-virtual {p0, v4}, Lcom/android/settings/fingerprint/FingerprintEnrollIntroduction;->getString(I)Ljava/lang/String;
 
@@ -441,7 +441,7 @@
 
     .line 84
     :cond_0
-    const v4, 0x7f0b10c9
+    const v4, 0x7f0b1250
 
     invoke-virtual {p0, v4}, Lcom/android/settings/fingerprint/FingerprintEnrollIntroduction;->getText(I)Ljava/lang/CharSequence;
 

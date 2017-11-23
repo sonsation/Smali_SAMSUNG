@@ -954,7 +954,7 @@
     .line 648
     iget-object v4, p0, Lcom/samsung/android/settings/accessibility/AccessibilitySettings;->mDirectionLockPreference:Landroid/preference/PreferenceScreen;
 
-    const v7, 0x7f0b1115
+    const v7, 0x7f0b129b
 
     invoke-virtual {v4, v7}, Landroid/preference/PreferenceScreen;->setSummary(I)V
 
@@ -1022,7 +1022,7 @@
     .line 660
     iget-object v4, p0, Lcom/samsung/android/settings/accessibility/AccessibilitySettings;->mNotificationReminderPreference:Landroid/preference/PreferenceScreen;
 
-    const v5, 0x7f0b1952
+    const v5, 0x7f0b1ad8
 
     invoke-virtual {v4, v5}, Landroid/preference/PreferenceScreen;->setSummary(I)V
 
@@ -1062,7 +1062,7 @@
     :cond_6
     iget-object v4, p0, Lcom/samsung/android/settings/accessibility/AccessibilitySettings;->mNotificationReminderPreference:Landroid/preference/PreferenceScreen;
 
-    const v5, 0x7f0b1953
+    const v5, 0x7f0b1ad9
 
     invoke-virtual {v4, v5}, Landroid/preference/PreferenceScreen;->setSummary(I)V
 
@@ -1552,7 +1552,7 @@
     move-object/from16 v24, v0
 
     .line 794
-    const v25, 0x7f0b15be
+    const v25, 0x7f0b1744
 
     move-object/from16 v0, p0
 
@@ -1699,7 +1699,7 @@
     if-eqz v18, :cond_8
 
     .line 706
-    const v24, 0x7f0b1952
+    const v24, 0x7f0b1ad8
 
     move-object/from16 v0, p0
 
@@ -1747,7 +1747,7 @@
     .line 708
     .restart local v18    # "serviceEnabled":Z
     :cond_8
-    const v24, 0x7f0b1953
+    const v24, 0x7f0b1ad9
 
     move-object/from16 v0, p0
 
@@ -1967,7 +1967,7 @@
     if-eqz v24, :cond_b
 
     .line 769
-    const v24, 0x7f0b15bf
+    const v24, 0x7f0b1745
 
     move-object/from16 v0, p0
 
@@ -2002,7 +2002,7 @@
     const-string/jumbo v24, "settings_title"
 
     .line 776
-    const v25, 0x7f0b1590
+    const v25, 0x7f0b1716
 
     move-object/from16 v0, p0
 
@@ -2188,7 +2188,7 @@
 
     .prologue
     .line 233
-    const v0, 0x7f0b1814
+    const v0, 0x7f0b199a
 
     return v0
 .end method
@@ -2287,7 +2287,7 @@
     iput-object v8, v4, Lcom/samsung/android/settings/SettingsPreferenceFragmentLinkData;->intent:Landroid/content/Intent;
 
     .line 372
-    const v10, 0x7f0b05fa
+    const v10, 0x7f0b060e
 
     iput v10, v4, Lcom/samsung/android/settings/SettingsPreferenceFragmentLinkData;->titleRes:I
 
@@ -2329,7 +2329,7 @@
     iput-object v9, v5, Lcom/samsung/android/settings/SettingsPreferenceFragmentLinkData;->intent:Landroid/content/Intent;
 
     .line 381
-    const v10, 0x7f0b0af7
+    const v10, 0x7f0b0b18
 
     iput v10, v5, Lcom/samsung/android/settings/SettingsPreferenceFragmentLinkData;->titleRes:I
 
@@ -2637,7 +2637,7 @@
     invoke-direct {v0, v1}, Landroid/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
 
     .line 326
-    const v1, 0x7f0b029c
+    const v1, 0x7f0b029e
 
     .line 325
     invoke-virtual {v0, v1}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
@@ -2645,7 +2645,7 @@
     move-result-object v0
 
     .line 327
-    const v1, 0x7f0b029e
+    const v1, 0x7f0b02a0
 
     .line 325
     invoke-virtual {v0, v1}, Landroid/app/AlertDialog$Builder;->setMessage(I)Landroid/app/AlertDialog$Builder;
@@ -2658,7 +2658,7 @@
     invoke-direct {v1, p0}, Lcom/samsung/android/settings/accessibility/AccessibilitySettings$8;-><init>(Lcom/samsung/android/settings/accessibility/AccessibilitySettings;)V
 
     .line 328
-    const v2, 0x7f0b029d
+    const v2, 0x7f0b029f
 
     .line 325
     invoke-virtual {v0, v2, v1}, Landroid/app/AlertDialog$Builder;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;

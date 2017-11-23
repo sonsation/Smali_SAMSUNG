@@ -20,7 +20,7 @@
     <string name="bluetooth_disconnected">Rozłōnczono</string>
     <string name="bluetooth_disconnecting">Rozłōnczaniy…</string>
     <string name="bluetooth_connecting">Łōnczynie…</string>
-    <string name="bluetooth_connected">Połōnczōno.</string>
+    <string name="bluetooth_connected">Połōnczono</string>
     <string name="bluetooth_pairing">Pŏrowanie…</string>
     <string name="bluetooth_profile_a2dp">Multimedia audio</string>
     <string name="bluetooth_profile_headset">Gŏdka</string>
@@ -298,7 +298,7 @@ Enter the code you get from Verizon:"</string>
     <string name="answering_end_call_title">Ôdbiyraniy i kōńczynie gŏdek</string>
     <string name="audio_preference_title">Słuch</string>
     <string name="mono_audio_title">Dźwiynk mono</string>
-    <string name="mono_audio_summary">Przełōncz klang stereo na mono bez czas używania jednyj suchawki</string>
+    <string name="mono_audio_summary">Przełącz dźwięk ze stereo na mono, aby słuchać przy użyciu jednej słuchawki.</string>
     <string name="multi_window_title">Wiela ôkiyn</string>
     <string name="magnifier_seekbar_plus_tts">Plus</string>
     <string name="magnifier_seekbar_minus_tts">Minus</string>
@@ -379,16 +379,18 @@ Dorada: Tykniyńcie 3 razy coby powielgszyć fōnguje wszyndy ôkrōm tastatury.
     <string name="direct_access_actions_universal_switch_title">Szalter uniwersalny</string>
     <string name="sound_detector_title">Bajtlofōn</string>
     <string name="sound_detector_main_title">Wykrywacze źwiynku</string>
-    <string name="sound_detector_main_description">Dostŏwej alarmy kej maszina wykryje płacz bajtla abo zwōnek do dźwiyrzy.</string>
+    <string name="sound_detector_main_description">Otrzymuj alerty, gdy telefon wykryje płacz dziecka lub dzwonek do drzwi.</string>
     <string name="accessibility_easy_interaction_summary">Wyłōncz alarm abo zepnij drzimoły, wyłōncz/ȏdłōż alarmy zygŏra i nowiny ȏ przitrefiyniach kalyndŏrza a ȏdbier abo ȏdciep gŏdki do Cia bez jedno tykniyńcie</string>
     <string name="accessibility_easy_interaction_summary_tablet_wifi">Tyknij, coby wyłōnczyć alarm/załōnczyć drzimoły abo wyłōnczyć/ôdłożyć przitrefiynia z kalyndŏrza.</string>
-    <string name="all_sound_off">Wyłōncz wszyjske klangi</string>
-    <string name="all_sound_off_summary">Niy puszczej żŏdnych klangōw, w tym bez głośnik telefōnu, aji tyż eli nasztalowany tryb klangu to Klang.</string>
+    <string name="all_sound_off">Wycisz wszystkie dźwięki</string>
+    <string name="all_sound_off_summary">Wyłącz wszystkie dźwięki, w tym połączenia telefoniczne, nawet jeśli ustawiony tryb dźwięku to Dźwięk.</string>
     <string name="all_sound_off_dialog_summary">Fōnkcyje %1$s i %2$s niy mogōm być załōnczōne bez jedyn czas. Fōnkcyjŏ %3$s ôstanie wyłōczōnŏ.</string>
+    <string name="all_sound_off_popup_description">Aby korzystać z funkcji Wycisz wszystkie dźwięki, trzeba wyłączyć funkcję %s.</string>
+    <string name="all_sound_turn_off_button">Wyłącz</string>
     <string name="turn_off_all_sounds">Wyłōncz wszyjske klangi</string>
     <string name="turn_off_all_sounds1">Wyłōncz wszyjske klangi i Ôdpadaniy na wiadōmoś niy poradzōm fungować narŏz.</string>
     <string name="turn_off_all_sounds2">Wyłōncz wszyjske klangi i Ôdpadaniy na wiadōmoś niy poradzōm fōngować narŏz. Wyłōncza Ôdpadaniy na wiadōmoś.</string>
-    <string name="turn_off_all_sounds_toast_with_sound_detector">Niy idzie wyłōnczyć fōnkcyji Wyłōncz wszyjske klangi, kej sōm załōnczōne wykrywŏcze klangu. Coby je wyłōnczyć, przelyź do menu Sztalowanie > Do chycynio > Słuch > Wykrywŏcze klangu, a potym wyłōncz wszyjske wykrywŏcze klangōw.</string>
+    <string name="turn_off_all_sounds_toast_with_sound_detector">Nie można wyłączyć funkcji Wycisz wszystkie dźwięki przy włączonej funkcji Wykrywacze dźwięku.</string>
     <string name="accessibility_categories_title">Kategorie</string>
     <string name="share_accessibility_settings">Reskyruj dostympnościōm</string>
     <string name="share_accessibility_settings_summary">Importuj i eksportuj swoje nasztalowania dostympności abo udostympni je inkszym maszinōm.</string>
@@ -525,6 +527,7 @@ Kej ta fōnkcyjo je załōnczōno, fōnkcyjo Autōmatyczny zwyrt ekranu bydzie w
     <string name="deviceOption">Ôpcje masziny</string>
     <string name="lock">Zablokuj</string>
     <string name="powerOff">Wyłōnczanie</string>
+    <string name="unable_assistantmenu_while_sidesync">Niy idzie załōnczyć menu pōmagera przi używaniu serwisu SideSync.</string>
     <string name="eamenableinfo">Coby załōnczyć Pōmager plus, ôbier co nŏjmynij jedna aplikacyjŏ.</string>
     <string name="fetch_progress">Ładowanie danych…</string>
     <string name="assistant_menu_enable_message">%s i niżyj pokŏzane ôpcyje niy śmiōm być załōnczōne bez jedyn czas. Niżyj pokŏzane ôpcyje ôstanōm wyłōnczōne.</string>
@@ -631,7 +634,7 @@ Tyknij tukej, coby zebrać ta fōnkcyjŏ."</string>
     <string name="xcover_key_shortcut_battery_conserving_mode">Battery conserving mode</string>
     <string name="xcover_key_shortcut_normal_mode">Tryb normalny</string>
     <string name="flight_mode_enabled_toast">Kej tryb fliger je włōnczōny, niy idzie używać necu mŏbilniŏkowego. Wyłōncz tryb fliger i sprōbuj zajś.</string>
-    <string name="airplane_mode_summary">Wyłōncz fōnkcyje gŏdek i wiadōmości jak tyż dane mobilne.</string>
+    <string name="airplane_mode_summary">Wyłōncz gŏdki i posyłanie wiadōmości jak tyż dane mobilne.</string>
     <string name="usb_not_support_mtp_usb3_dialog_title">Dej pozōr</string>
     <string name="airplane_mode_desc">Tryb Fliger umożliwiŏ Wyłōnczynie fōnkcje necowych, w tym Wi-Fi. coby korzystać z neca Wi-Fi, Załōncz jōm w Sztalowaniach abo na panelu nowin.</string>
     <string name="flight_mode_enable_popup_title">Załōncz tryb Fliger</string>
@@ -771,6 +774,7 @@ Możesz zmiynić to niyskorzij, bez przeleziynie do nasztalowań Bluetooth."</st
     <string name="bluetooth_control_app_disable_summary">Wyłōnczōno Bluetooth: %s</string>
     <string name="bluetooth_enter_pin_msg">Podej PIN, coby skuplować z %s (Sprōbuj 0000 abo 1234).</string>
     <string name="bluetooth_pin_maximum_number_message">Szafniynto je nojwiynkszŏ wieloś znakōw.</string>
+    <string name="bluetooth_frp_permission_message">Nie można użyć urządzenia Bluetooth do tego połączenia.</string>
     <string name="settings_menu_done">Fertich</string>
     <string name="usb_tethering_unavailable_subtext_tmo">USB not connected</string>
     <string name="usb_tethering_available_subtext_tmo">USB connected, check to tether</string>
@@ -811,11 +815,16 @@ Ale tyż po wyłōnczyniu fōnkcyji Przechytywanie inteligyntne idzie mieć dost
 -kryślić po screenshocie,
 -przistrzic screenshot,
 -podać screenshot."</string>
+    <string name="smart_capture_summary">Pokaż dodatkowe opcje po przech. zrzutu ekranu. Dzięki Przechwytywaniu inteligentnemu można:</string>
+    <string name="smart_capture_summary_1">Przechwytywać ukryte obszary ekranu.</string>
+    <string name="smart_capture_summary_2">Rysować na zrzuc. ekranu.</string>
+    <string name="smart_capture_summary_3">Przycinać zrzut ekranu.</string>
+    <string name="smart_capture_summary_4">Udostępniać zrzut ekranu.</string>
     <string name="identify_unsaved_numbers_title">Idyntyfikacyjo niyzachowanych nōmerōw</string>
     <string name="identify_unsaved_numbers_title_usa">Idyntyfikuj nōmery spamu</string>
     <string name="call_message_spam_filter_title">Call/message spam filter</string>
     <string name="onehand_operation_summary">Napasuj wielgość i ukłŏd wyświetlŏcza, coby lekszyj kerować telefōnym jednōm rynkōm.</string>
-    <string name="direct_share_title">Podŏwanie dyrekt</string>
+    <string name="direct_share_title">Podŏw. dyrekt</string>
     <string name="direct_share_summary">Podej dalij zawartość ôkreślōnym ôsobōm z panelu podŏwaniŏ dalij we strzodku leda keryj aplikacyji.</string>
     <string name="direct_share_description">Ikōny fōnkcyji Podŏwanie dyrekt bydōm pokŏzane na wiyrchu panelu podŏwanio bez czas robiynio takich akcyji, co posyłanie wiadōmości abo e-maili w aplikacyjach ôbsugiwanych bez fōnkcyjo Google Podŏwanie dyrekt.</string>
     <string name="direct_share_description_chn">Ikōny fōnkcyji Podŏwanie dyrekt bydōm pokŏzane na wiyrchu panelu podŏwanio bez czas posyłanio wiadōmości abo e-maili w aplikacyjach ôbsugiwanych bez fōnkcyjo Podŏwanie dyrekt w systymie Android.</string>
@@ -907,6 +916,7 @@ Ale tyż po wyłōnczyniu fōnkcyji Przechytywanie inteligyntne idzie mieć dost
     <string name="fota_update_summary">Tyknij tukej, coby uaktualnić ôprogramowanie do nojnowszyj wersyji i używać nojnowszych fōnkcyji.</string>
     <string name="favorite_tab">Gibke nasztalowania</string>
     <string name="device_maintenance_title">Kōnserwacyjo masziny</string>
+    <string name="memory_string">Pamięć</string>
     <string name="tab_favorite_edit">Poprŏw gibkie nasztalowania</string>
     <string name="add_favorite_button">Poprŏw gibkie nasztalowania</string>
     <string name="cloud_and_accounts_title">Chmōra i kōnta</string>
@@ -944,7 +954,12 @@ Ale tyż po wyłōnczyniu fōnkcyji Przechytywanie inteligyntne idzie mieć dost
     <string name="notification_settings_apps_title">Nowina ôd aplikacyji</string>
     <string name="international_roaming_setting">Nasztalowania roamingu</string>
     <string name="user_manual_mos">Insztrukcyjo ôbsugi</string>
-    <string name="data_saver_description">Coby ulekszyć zmyńszanie użyciŏ danych, fōnkcyjŏ Szporowanie danych dozwolŏ niykerym aplikacyjōm posyłanie abo przijmowanie danych w tle. Ôkrōm tego terŏzki używane aplikacyje majōm dostymp do danych, ale mogōm go mieć rzŏdzij. Na przikłŏd ôbrŏzy mogōm niy być akuratnie pokŏzywane, kej ônych niy tykniesz.</string>
+    <string name="data_saver_description">Szporowanie danych ulekszo zmyńszanie spotrzebowanio danych, beztōż co niy dozwŏlo niykerym aplikacyjōm na posyłanie abo przijmowanie danych we tle. Terŏzki używane aplikacyje poradzōm używać danych mobilnych, ale możno co mynij utramyntnie. Do przikładu ôbrŏzki poradzōm niy być pokŏzywane do czasu kej sie ônych niy tyknie.</string>
+    <string name="unrestricted_data_saver_chn">Używaj danych bez ograniczeń</string>
+    <string name="data_saver_description_chn">Aby ułatwić zmniejszenie wykorzystania danych, funkcja Ograniczanie danych w tle uniemożliwia niektórym aplikacjom wysyłanie lub odbieranie danych w tle. Ponadto obecnie używane aplikacje mają dostęp do danych, ale mogą uzyskiwać go rzadziej. Na przykład obrazy mogą nie być właściwie wyświetlane do czasu ich dotknięcia.</string>
+    <string name="data_saver_title_chn">Ograniczanie danych w tle</string>
+    <string name="unrestricted_app_title_chn">Używaj danych bez ograniczeń</string>
+    <string name="unrestricted_app_summary_chn">Ta aplikacja może używać danych komórkowych bez ograniczeń przy włączonej funkcji Ograniczanie danych w tle.</string>
     <string name="data_used_editor_subtitle">Enter the amount of data you have used this month:</string>
     <string name="traffic_vertify">Details</string>
     <string name="btn_tmo">Zaktualizuj usługa</string>
@@ -996,7 +1011,9 @@ Data usage is measured by your phone. Your carrier may account for usage differe
     <string name="last_checked_date">Dziyń ôd piyrwyjszygo badniynciŏ:</string>
     <string name="auto_update">Zebiyrej uaktualniynia autōmat.</string>
     <string name="auto_update_summary">Autōmatycznie zebiyrej uaktualniynia ôprogramowanio bez czas zepniyńcio z necym Wi-Fi. Bez czas zebiyranio idzie dalij używać masziny.</string>
-    <string name="scheduled_update">Zaplanow. aktualiz. oprogram.</string>
+    <string name="auto_update_over_wifi">Automat. pobieraj przez Wi-Fi</string>
+    <string name="auto_update_over_wifi_summary">Automatycznie pobieraj aktualizacje oprogramowania podczas połączenia z siecią Wi-Fi. W zależności od dostawcy usług aktualizacje mogą być także pobierane za pośrednictwem danych komórkowych bez dodatkowych opłat. Podczas pobierania nadal będzie można korzystać z telefonu.</string>
+    <string name="scheduled_update">Zaplanowane akt. oprogramowania</string>
     <string name="scheduled_update_summary_default">Wył.</string>
     <string name="scheduled_update_summary_set_time">Uaktualniynie sztartnie ô godzinie %s</string>
     <string name="scheduled_update_summary_set_time_everyday">Uaktualniynie bydzie sztartować kożdy dziyń ô godzinie %s</string>
@@ -1029,7 +1046,7 @@ Twój telefon zawiera oprogramowanie diagnostyczne, które za Twoją zgodą moż
     <string name="memory_mms_usage">MMS</string>
     <string name="user_owner">Właściciyl</string>
     <string name="unable_to_charge_the_connected_device">Niy idzie używać kabla USB do %s.</string>
-    <string name="unable_to_change_usb_options_via_smart_switch">Niy idzie pōmiynić ôpcyji USB, kej posyłŏsz dane bez Smart Switch</string>
+    <string name="unable_to_change_usb_options_via_smart_switch">Niy idzie pōmiynić ôpcyji USB bez czas posyłanio danych bez aplikacyjo Smart Switch.</string>
     <string name="usb_configuring">Konfigurowanie…</string>
     <string name="usb_use_none_summary">Niy dŏ się posłać danych masziny</string>
     <string name="usb_use_charging_only_summary_vzw">Just charge this phone.</string>
@@ -1037,9 +1054,9 @@ Twój telefon zawiera oprogramowanie diagnostyczne, które za Twoją zgodą moż
     <string name="usb_use_file_transfers_summary_vzw">Transfer media files to a computer.</string>
     <string name="usb_use_file_transfers_summary">Prześlij pliki multimedialne do kōmputera bez zepniyńcie MTP.</string>
     <string name="usb_use_MIDI_summary_vzw">Use device for MIDI input.</string>
-    <string name="usb_use_MIDI_summary">Używej zepniyntyj masziny za pleyera MIDI (Musical Instrument Digital Interface) abo za zdrzōdło sygnału wchodowego.</string>
-    <string name="usb_use_software_installation">Software Installation</string>
-    <string name="usb_use_software_installation_summary">Install Software Update and Repair tool for your device on a Mac or Windows computer.</string>
+    <string name="usb_use_MIDI_summary">Używej zepniyntyj masziny za player MIDI abo zdrzōdło sygnału wstympnego.</string>
+    <string name="usb_use_system_update">Aktualizacyjŏ systymu</string>
+    <string name="usb_use_system_update_summary">Zainsztaluj Pōmagera uaktualnianiŏ ôprogramowaniŏ na kōmputrze i zaktualizuj abo sprŏw tyn telefōn.</string>
     <string name="sim_status_code">Kod</string>
     <string name="sim_status_btn_update">Aktual. sztatus karty SIM</string>
     <string name="sim_status_updating">Aktualizacyjŏ…</string>
@@ -1128,7 +1145,7 @@ Tyknij OK, coby przizwolić na zwielgszynie widności wiyncyj co bezpieczny pozi
     <string name="display_temperature">Balans farby</string>
     <string name="adjust_your_display_colour">Nasztaluj farby wyświetlŏcza, coby pōmiynić wyglōnd ôdcieni biŏłygo.</string>
     <string name="led_indicator_settings">Blyndka LED</string>
-    <string name="led_indicator_settings_summary">Świyć blyndka LED bez czas folowaniŏ, nagrywaniŏ abo dostŏwaniŏ nowinōw.</string>
+    <string name="led_indicator_settings_summary">Ôświycej blyndka LED przi wyłōnczōnym ekranie, coby pokŏzywać statusy nagrywanio klangu, niyprzeczytanych nowin co tyż baterji.</string>
     <string name="screen_resolution_desc">Tajla zawartości może być rozmytŏ abo niy może być ôbsugiwanŏ w rozdziylczości FHD abo HD.</string>
     <string name="display_battery_percentage">Pokŏż nafolowanie bateryji w %</string>
     <string name="display_battery_percentage_summary">Pokŏż reszta nafolowanio baterji za procynty na pŏsku stanu.</string>
@@ -1157,7 +1174,7 @@ Tyknij OK, coby przizwolić na zwielgszynie widności wiyncyj co bezpieczny pozi
     <string name="wallpaper">Tapeta</string>
     <string name="lockscreen_wallpaper">Ekran blokady</string>
     <string name="status_bar">Pŏsek stanu</string>
-    <string name="recent_notification_status_bar_title">Pokŏż ino niyd. nowiny</string>
+    <string name="recent_notification_status_bar_title">Pokŏż ino niydŏwne nowiny</string>
     <string name="recent_notification_status_bar_summary">Pokŏż ino ikōny niydŏwnych nowin (%d) na pŏsku stanu.</string>
     <string name="display_and_homescreen_title">Pokŏż i ekran sztartowy</string>
     <string name="navigationbar_title">Pasek nawigacji</string>
@@ -1175,12 +1192,12 @@ Tyknij OK, coby przizwolić na zwielgszynie widności wiyncyj co bezpieczny pozi
     <string name="blue_light_filter_off_time_next_day_summary_format">%s na drugi dziyń</string>
     <string name="blue_light_filter_user_schedule_title">Terminŏrz niytypowy</string>
     <string name="blue_light_filter_auto_schedule_title">Ôd zachodu do wschodu słōńca</string>
-    <string name="blue_light_filter_desc">Używej bez noc filtru światła modrego, coby lepij spać. Nasztaluj harmōnogram używanio filtru światła modrego. Coby użyć ôpcyji Ôd zachodu do wschodu słōńca, musisz załōnczyć fōnkcyjo Lokalizacyjo.</string>
-    <string name="blue_light_filter_enable_now">Załōncz terŏzki</string>
+    <string name="blue_light_filter_desc">Używaj w nocy filtru światła niebieskiego, aby lepiej spać. Możesz ustawić harmonogram korzystania z filtru światła niebieskiego. Aby użyć opcji Od zachodu do wschodu słońca, należy włączyć funkcję Lokalizacja.</string>
+    <string name="blue_light_filter_enable_now">Włącz teraz</string>
     <string name="blue_light_filter_enable_as_scheduled">Załōncz podug planu</string>
-    <string name="blue_light_filter_scheduled_toast">Załōnczōno filter modrygo światła. Bydzie autōmatycznie wyłōnczōny, kej przidzie ôbsztalowany czas sztopniyńciŏ.</string>
+    <string name="blue_light_filter_scheduled_toast">Włączono filtr światła niebieskiego. Zostanie on automatycznie wyłączony o zaplanowanym czasie zakończenia.</string>
     <string name="screen_mode_dlg_turn_off_blue_light_filter">Fōnkcyjŏ %s i filter modrygo światła niy mogōm być używane wrŏz. Filter modrygo światła bydzie wyłōnczōny.</string>
-    <string name="blue_light_filter_dlg_turn_on_location">Coby używać ôpcyji Ôd zachodu do wschodu słōńca, trza załōnczyć fōnkcyjo Lokalizacyjo.</string>
+    <string name="blue_light_filter_dlg_turn_on_location">Aby korzystać z opcji Od zachodu do wschodu słońca, trzeba włączyć funkcję Lokalizacja.</string>
     <string name="dlg_turn_on">Załōncz</string>
     <string name="screen_resolution_title">Rozdziylczoś ekranu</string>
     <string name="screen_resolution_desc_title">Pomiyń rozdziylcz. ekranu</string>
@@ -1252,9 +1269,9 @@ Tyknij OK, coby przizwolić na zwielgszynie widności wiyncyj co bezpieczny pozi
     <string name="intelligent_rotation_title">Szprytne ôbrŏcaniy</string>
     <string name="intelligent_help_0">Fōnkcyjŏ Smart stay mŏ durś załōnczōny ekran, kej na niygo spoziyrŏsz, skirz tego, co poznŏwŏ gymba bez przodni fotoaparat.</string>
     <string name="intelligent_help_1">Funkcja Smart stay działa najlepiej, gdy:</string>
-    <string name="intelligent_help_summary_0">Trzymaj telefon prosto i stabilnie.</string>
-    <string name="intelligent_help_summary_1">Jesteś w dobrze oświetlonym miejscu, ale nie w bezpośrednim świetle słonecznym.</string>
-    <string name="intelligent_help_summary_2">Przedni aparat nie jest używany przez inną aplikację.</string>
+    <string name="intelligent_help_summary_0">Trzimej telefōn dyrekt i sztabilnie.</string>
+    <string name="intelligent_help_summary_1">Je żeś w dobrze ôswiytlōnym placu, ale niy dyrekt w słōńcu.</string>
+    <string name="intelligent_help_summary_2">Przedni fotoaparat niy je terŏzki używany bez inkszŏ aplikacyjŏ.</string>
     <string name="enable_smartstay_title">Załōncz %s</string>
     <string name="device_visibility_title">Widoczność telefōnu</string>
     <string name="device_visibility_text">Zezwalaj innym urządzeniom na znajdowanie Twojego telefonu i przesyłanie plików.</string>
@@ -1287,6 +1304,10 @@ Tyknij OK, coby przizwolić na zwielgszynie widności wiyncyj co bezpieczny pozi
     <string name="crypt_keeper_vzw_password_warning">Set the Screen lock password with at least %d characters and 1 number.</string>
     <string name="crypt_keeper_decrypt_title">Ôdszifruj maszina</string>
     <string name="crypt_keeper_decrypt_summary">Maszina ôdszyfrowanŏ.</string>
+    <string name="crypt_keeper_type_pin">Kod PIN</string>
+    <string name="crypt_keeper_type_pattern">Muster</string>
+    <string name="crypt_keeper_type_password">Hasło</string>
+    <string name="crypt_keeper_type_direction">Blokada kerunkami</string>
     <string name="crypt_keeper_confirm_title_dec">Przichwol rozszifrowaniy</string>
     <string name="crypt_keeper_force_power_cycle_pattern">Coby sztartnōńć maszina, wyłōncz ônyj folowanie, załōncz jōm drugi rŏz, a potym badnij zajś. Musisz naszkryflać znak używany do sztartowanio masziny i ôdblokniyńcio ekranu. Niy śmiysz użyć na ibrchgo kodu PIN do sztartniyńcio masziny.</string>
     <string name="crypt_keeper_setup_description_dec">"Ôdszyfrowywanie masziny. Może to trocha zetrwać. Doczkej…
@@ -1376,6 +1397,7 @@ Szyfrowanie poradzi zetrwać nojmynij godzina. Przed sztartniyńciym bydź ziche
     <string name="crypt_keeper_verify_failed_summary">Niy idzie sztartnōńć masziny drugi rŏz. Weryfikacyjo integralności niy podarziła sie. Musisz dać nazŏd w maszinie dōmyślne sztalowanie fabryczne. Sprowi to wyciepanie wszyjskich danych.</string>
     <string name="cryptkeeper_emergency_call">Połōnczyniy alarmowe</string>
     <string name="cryptkeeper_return_to_call">Nazŏd do połōnczyniŏ</string>
+    <string name="cryptkeeper_default_enter_msg">Telefon jest zaszyfrowany dla bezpieczeństwa.</string>
     <string name="enter_password">Wkludź hasło, coby sztartnōńć maszina.</string>
     <string name="enter_pin">Wkludź kod PIN, coby sztartnōńć maszina.</string>
     <string name="enter_pattern">Naszkryflej znak, coby sztartnōńć maszina.</string>
@@ -1385,11 +1407,13 @@ Szyfrowanie poradzi zetrwać nojmynij godzina. Przed sztartniyńciym bydź ziche
     <string name="cryptkeeper_wrong_pin">Podany PIN je felerny</string>
     <string name="cryptkeeper_wrong_direction">Nakryślōny felerny kerunek</string>
     <string name="checking_decryption">Sprawdzanie…</string>
-    <string name="starting_android">Sztart systymu Android…</string>
     <string name="crypt_keeper_last_warn_wipe">Ôstała już ino 1 prōba sztartniyńcio masziny, zanim maszina bydzie zresetowano do dōmyślnych sztalowań fabrycznych. Sprŏwi to co bydōm wypucowane wszyjske dane, w tym pliki i zebrane aplikacyje.</string>
     <string name="crypt_keeper_failed_title_dec">Niy poradziłżech ôdszifrować</string>
     <string name="crypt_keeper_failed_summary_dec">Niy dŏ się zakōńczyć ôdszyfrowaniŏ skuli sztopniyńciŏ. Wrōć nazŏd nasztalowania fabryczne (wyciepnie to wszyjskie dane) przed użyciem.</string>
     <string name="crypt_keeper_set_screen_lock_type">Nasztaluj typ blokady ekrōnu</string>
+    <string name="encryption_interstitial_message">"Możesz dodatkowo chronić telefon, wymagając wprowadzenia %s przed uruchomieniem telefonu. Pomaga to chronić dane na zagubionych lub skradzionych urządzeniach. Niektóre aplikacje mogą wymagać Bezpiecznego uruchamiania zgodnie z zasadami szyfrowania urządzenia w celu uzyskania dostępu do funkcji, takich jak synchronizacja poczty e-mail.
+
+Nie będziesz odbierać żadnych połączeń, wiadomości czy powiadomień ani słyszeć alarmów do momentu uruchomienia telefonu."</string>
     <string name="encryption_interstitial_message_kor">Maszina je zaszyfrowano. Dŏwej pozōr na swoje zaszyfrowane dane, bez ôbranie ôpcyji Dopōminej sie blokniyńcio ekranu do ôdszyfrowanio danych po załōnczyniu masziny. Take sztalowanie pōmogo dŏwać pozōr na dane kej sie trefi stracynie abo ukradzynie masziny. Do ôdszyfrowanio danych po kŏżdym jednym załōnczyniu masziny wymŏgane bydzie ônyj ôdblokniyńcie. Maszina niy bydzie przijmować gŏdek, wiadōmości jak tyż nowin do czasu ôdszyfrowanio.</string>
     <string name="encryption_interstitial_message_direction">"Dŏwej pozōr na maszina tak, co trza blokady kerunkami nim jōm sztarniesz. Spōmŏgŏ to dŏwać pozōr na dane na stracōnych abo chabniyntych maszinach.
 
@@ -1411,6 +1435,7 @@ Niy bydziesz przijmować żodnych gŏdek, wiadōmości abo nowin ani słyszeć a
 Niy bydziesz przijmować żodnych gŏdek, wiadōmości abo nowin ani słyszeć alarmōw do czasu sztartniyńcio masziny."</string>
     <string name="encryption_interstitial_error_message">Coby chrōnić dane masziny, zamiyń zorta blokniyńcio ekranu na Kod PIN, Hasło, Znak abo Ôdcisk palca, a potym badnij drugi rŏz.</string>
     <string name="encryption_interstitial_error_message_direction">Coby chrōnić dane masziny, pomiyń typ blokniyńcio ekranu na Kod PIN, Hasło, Znak, Blokniyńcie kerunkami abo Ôdciski palcōw, a potym badnij drugi rŏz.</string>
+    <string name="encryption_interstitial_error_message_direction_without_fingerprint">Aby chronić dane urządzenia, zmień typ blokady ekranu na Kod PIN, Hasło, Symbol lub Blokada kierunkami, a następnie spróbuj ponownie.</string>
     <string name="encryption_interstitial_error_message_iris_direction">Coby chrōnić dane masziny, pōmiyń zorta blokniyńcio ekranu na Kod PIN, Hasło, Znak, Blokniyńcie kerōnkami, Ôdciski palcōw abo Tynczōwki, a potym badnij drugi rŏz.</string>
     <string name="encryption_interstitial_error_message_without_fingerprint">Coby chrōnić dane masziny, pōmiyń typ blokady ekranu na Kod PIN, Hasło abo Symbol, a potym badnij jeszcze rŏz.</string>
     <string name="encryption_interstitial_error_sktlock">Bezpiecznŏ blokada i bezpieczny sztart niy mogōm być załōnczōne narŏz. Ôbier blokada bez zapieczyń i wybadej jeszcze rŏz.</string>
@@ -1674,6 +1699,8 @@ Przed tym jak bydziesz dŏwōł do naprawy gwarancyjnyj, trza wyłōnczyć bloka
 %s"</string>
     <string name="improve_location_title">Improve location accuracy</string>
     <string name="improve_location_summary">Use WLANs and mobile networks to provide more accurate information about the location of your device.</string>
+    <string name="send_last_location_title">Wyślij ostatnią lokalizację</string>
+    <string name="send_last_location_summary">Zezwól na wysłanie ostatniej lokalizacji telefonu na serwer usługi Znajdź mój telefon, gdy naładowanie baterii spadnie poniżej pewnego poziomu.</string>
     <string name="high_power_description">Załōncz ôpcyjo Ôptymalizuj użycie baterii dlo kŏżdych jednych aplikacyji. Niykere fōnkcyje, np. bez używaniee z necōw mobilnych abo synchrōnizujące dane, bydōm ôgraniczōne, coby szporować nafolowanie baterii.</string>
     <string name="wifi_display_summary_off">Wył.</string>
     <string name="battery_usage_description">Tyn ekran pokozuje dane użycia baterii ôd czasu ôstatnigo cołkigo folowanio masziny.</string>
@@ -1769,6 +1796,8 @@ Urządzenie wyposażone jest w dodatkowe opcje zabezpieczeń. Aby z nich skorzys
     <string name="iris_sensor_not_working_popup_title">Rozpoznawanie tęczówek nie działa</string>
     <string name="iris_sensor_not_working_msg">Synsor tynczōwek niy ryaguje. Wybadej drugi rŏz potym.</string>
     <string name="iris_go_to_samsung_theme">Idź do Samsung Themes</string>
+    <string name="biometrics_dex_cant_use_msg">Nie można używać funkcji %s w aplikacji Samsung DeX.</string>
+    <string name="biometrics_dex_closed_to_switch">Zamknięto %s w celu przełączenia na Samsung DeX.</string>
     <string name="knox_twofactor_bio_description">Ôbier typ blokady biometrycznyj i drugi typ blokady do ôdblokowaniŏ %s.</string>
     <string name="fingerprint_registered">Byda użiwoł zaregistrowanych ôdciskōw ôd palcōw wrŏz z ôbranōm metodōm ôdmykaniŏ.</string>
     <string name="knox_twofactor_description">Użyj dwōch zortōw blokowaniŏ, coby aplikacyjŏ KNOX bōła jeszcze bardzij bezpiecznŏ. Twoje ôdciski palcōw bydōm używane jako piyrszŏ zorta blokowaniŏ. Niżyj ôbier drugŏ zorta.</string>
@@ -1866,8 +1895,8 @@ Determining your location will use the mobile network. Data usage will apply."</
     <string name="app_ops_settings_summary">Pokŏzanie abo zmiana dozwōlyń aplikacyji.</string>
     <string name="backup_key_for_applock_header">Nasztaluj znak, kod PIN abo hasło do używanio z poznŏwaniym ôdcisku palca ku cylu blokniyńcio i ôdblokniyńcio aplikacyji.</string>
     <string name="backup_key_for_privatemode_header">Nasztaluj znak, kod PIN abo hasło do używanio ze poznawaniym ôdcisku palca coby mieć dostymp do trybu prywatnego.</string>
-    <string name="status_added">Przidano</string>
     <string name="text_security_title_b2c">Ôbier typ blokniyńcio. Kej przepōmnisz, jak ôdbloknōńć Bezpieczny katalog, poradzisz wynulować blokniyńcie bez użycie kōnta Samsung.</string>
+    <string name="status_added">Przidano</string>
     <string name="lockpattern_backup_pin">Zapasowy PIN</string>
     <string name="applock_type_fingerprint">Odcisk palca</string>
     <string name="unlock_set_unlock_two_factor_title">Dwukrokowŏ weryfikacyjŏ</string>
@@ -1879,7 +1908,7 @@ Determining your location will use the mobile network. Data usage will apply."</
     <string name="info_and_app_shortcut_summary">Pokŏż podwōjny zygŏr, informacyje ô właścicielu masziny abo skrōty aplikacyji na ekranie blokniyńcio.</string>
     <string name="lock_app_shortcut_disabled_app">Wyłōnczōne %s. Ôbier inkszŏ aplikacyjŏ.</string>
     <string name="lock_app_shortcut_deleted_app">Aplikacja została odinstalowana. Wybierz inną aplikację.</string>
-    <string name="lock_app_shortcut_off_message">Włącz, aby wybrać skrót aplikacji do wyświetlenia na ekranie blokady.</string>
+    <string name="lock_app_shortcut_off_message">Załōncz, coby ôbrać skrōt aplikacyji do pokŏzywaniŏ na ekranie blokady.</string>
     <string name="silent_lock_title">Gymba</string>
     <string name="device_security_category">Bezpieczeństwo telefonu</string>
     <string name="lock_and_always_category">Ekran blokady i Always On Display</string>
@@ -1927,8 +1956,8 @@ Determining your location will use the mobile network. Data usage will apply."</
     <string name="lock_screen_app_shortcut_summary">Ôbier aplikacyje do ôdewrziniŏ z ekranu blokady.</string>
     <string name="lockscreen_notifications">Nowiny</string>
     <string name="work_profile_lockscreen_notifications">Nowina profilu fyrmowego</string>
-    <string name="lock_network_and_security">Blokuj sieć blokady i zabezp.</string>
-    <string name="lock_network_and_security_summary">Utrzymuj funkcje powiązane z siecią i zabezpieczeniami jako zablokowane po zablokowaniu telefonu, aby ułatwić zlokalizowanie go i ochronę w przypadku utraty lub kradzieży.</string>
+    <string name="lock_network_and_security">Blokuj nec blokady i zabezp.</string>
+    <string name="lock_network_and_security_summary">Trzimej fōnkcyje powiōnzane z necem i zabezpieczeniami jako zablokowane, kej zablokujesz telefōn, coby ulekszyć znŏlyziynie go i ôchrōna, kej go stracisz abo ci go chabnōm.</string>
     <string name="dualclock_settings_title">Podwōjny zygŏr</string>
     <string name="roamingclock_settings_title">Zegar dla roamingu</string>
     <string name="dualclock_settings_summary">Pokŏzuje lokalnŏ i dōmowŏ strefa czasowŏ przi roamingu.</string>
@@ -2082,9 +2111,9 @@ Hasło kōnta Google bydzie wymŏgane coby używać tego mobilniŏka bez inkszo 
     <string name="palm_swipe_title">Przejydź rynkōm, coby chycić.</string>
     <string name="screen_recorder_title">Record screen</string>
     <string name="screen_recorder_summary">Record video screenshots while you use your device.</string>
-    <string name="multi_window_setting_title">Gest pokoz. pop-up ȏkna</string>
+    <string name="multi_window_setting_title">Akcja widoku wyskakującego okna</string>
     <string name="multi_window_setting_description">Kej aplikacyjŏ je ôtwartŏ na ekranie, przejedź palcym na przek na spodek z jedynyj ze eki na wiyrchu ekranu, coby napasować wielgość aplikacyji.</string>
-    <string name="multi_window_screen_title">Wiela ôkiyn</string>
+    <string name="multi_window_screen_title">Wiele okien</string>
     <string name="multi_window_screen_summary">Pokŏzuj wiyncyj co jedna aplikacyjŏ narŏz.</string>
     <string name="multi_window_split_screen_title">Akcja widoku podzielon. ekranu</string>
     <string name="multi_window_split_screen_description_hwkey_1">Naciśnij i przytrzymaj klawisz Ostatnie, aby zmienić widok bieżącej aplikacji z pełnoekranowego na widok podzielonego ekranu.</string>
@@ -2096,7 +2125,7 @@ Hasło kōnta Google bydzie wymŏgane coby używać tego mobilniŏka bez inkszo 
     <string name="pick_up_guide_content">Telefōn bydzie dyrgotać, kej jōm chycisz, coby dać znać ô niyprzijyntych gŏdkach i niyprzeczytanych wiadōmościach.</string>
     <string name="pick_up_guide_content_except_message">Nastŏw maszina coby dyrgotała jak jōm dźwigniesz i bezto pedziała Ci ô niyôdebranych gŏdkach.</string>
     <string name="palm_swipe_guide_content">Coby złōnaczyć screenshot ekranu, przejedź bokiem dłōni po ekranie i cołki czas go trzimej.</string>
-    <string name="mute_guide_content">Aby wyciszyć połączenia przychodzące i alarmy, przykryj dłonią ekran lub odwróć telefon ekranem do dołu.</string>
+    <string name="mute_guide_content">Coby dać blank cicho gŏdki do Cia i alarmy, dekuj dłōniōm ekran abo ôdwrōć telefōn ekranem na spodek.</string>
     <string name="mute_guide_content_turnover">Coby dać blank ciszyj gŏdki do Cia i alarmy, ôdwrōć telefōn ekranem na spodek.</string>
     <string name="mute_guide_content_wifi">Coby dać blank ciszyj alarmy, dekuj dłōniōm ekran abo ôdwrōć telefōn ekranem na spodek.</string>
     <string name="page_description_template">Zajta %1$d z %2$d</string>
@@ -2122,18 +2151,19 @@ Hasło kōnta Google bydzie wymŏgane coby używać tego mobilniŏka bez inkszo 
     <string name="air_browse_note_summary">Skŏkej miyndzy zajtami we trybie Pokŏż.</string>
     <string name="data_usage_enable_mobile_summery">Dostōń dostymp do Internecu bez nec mobilny.</string>
     <string name="data_usage_enable_mobile_warning_skt">Łōnczyniy z necami mobilniŏkowymi może łōnaczyć narachowaniy dodatkowego płatu skuli paketu transmisyje danych. Idziesz dalij?</string>
-    <string name="data_usage_enable_mobile_warning_ktt">Łōnczyniy z necami mobilniŏkowymi może łōnaczyć narachowaniy dodatkowego płatu skuli paketu transmisyje danych. Idziesz dalij?</string>
+    <string name="data_usage_enable_mobile_warning_ktt">Fōnkcyjŏ Dane mobilne ôstanie załōnczōnŏ. Połōnczynie z necami mobilnymi może być ekstra płatne podug Twojij taryfy.</string>
     <string name="data_usage_enable_mobile_warning_lgt">Łōnczyniy z necami mobilniŏkowymi może łōnaczyć narachowaniy dodatkowego płatu skuli paketu transmisyje danych. Idziesz dalij?</string>
     <string name="data_usage_disable_mobile_title">Wyłōncz Dane mobilne</string>
     <string name="data_usage_disable_mobile_warning_skt">Ôdłōnczynie ôd neca mobilniŏkowego ôgraniczy używanie usug MMS i danych technologiji 3G. Rozłōnczyć?</string>
     <string name="data_usage_disable_mobile_warning_ktt">Ôdłōnczynie ôd neca mobilniŏkowego ôgraniczy używanie usug MMS i danych technologiji 3G. Rozłōnczyć?</string>
     <string name="data_usage_disable_mobile_warning_ktt_jb">Ôdłōnczynie ôd neca mobilniŏkowego ôgraniczy używanie usug MMS i danych technologiji 3G. Rozłōnczyć?</string>
-    <string name="mobile_data_off_dialog_text_vzw">"Unless you use Wi-Fi, you will not be able to use the Internet, Email, or other apps that require a data connection.
+    <string name="data_usage_disable_mobile_warning_dcm">"If Mobile data is turned off, your device must be connected to a Wi-Fi network to use services that require a network connection.
 
-Turn off Mobile data?"</string>
-    <string name="mobile_data_off_dialog_text_common">"Jak niy używŏsz neca Wi-Fi, niy bydzie myjglich używanie Interneca, aplikacyji E-mail i inkszych aplikacyjōw, kerym trza transmisyji danych.
-
-Dane mobilne ôstanōm wyłōnczōne."</string>
+Mobile data will be turned off."</string>
+    <string name="mobile_data_off_dialog_text_vzw">"Unless you use Wi-Fi, you won't be able to use the Internet, Email or other apps that require a data connection. Turn off the mobile data connection?"</string>
+    <string name="mobile_data_off_dialog_text_volte">"Your phone's Video Calling function won't work when mobile data is off. Also, you won't be able to use the Internet, Email or other apps that need a data connection unless you use Wi-Fi. Turn off the mobile data connection?"</string>
+    <string name="mobile_data_off_dialog_text_common">Eli niy zepniesz sie z necym Wi-Fi, niy bydzie szło używać Internecu, poczty e-mail abo inkszych aplikacyji, kerym trza zepniyńcio z necym.</string>
+    <string name="data_usage_turn_off_btn">Wyłącz</string>
     <string name="wfd_settings_summary">Udostympnij ekran masziny na inkszyj maszinie.</string>
     <string name="nfc_settings_advanced_explain">"Nastŏw dōmyślnŏ metoda przetwŏrzaniŏ NFC.
 Do niykerych transakcyjōw i płatōw mobilnych trza bydzie inkszyj dōmyślnyj metody przetwŏrzaniŏ NFC."</string>
@@ -2273,7 +2303,7 @@ Do niykerych transakcyjōw i płatōw mobilnych trza bydzie inkszyj dōmyślnyj 
     <string name="zen_mode_events_summary">Przizwŏlej na nowiny z S Terminŏrza i inksze przitrefiynia kalyndŏrza.</string>
     <string name="zen_mode_events_summary_na">Przizwolej na nowiny ze zadań i przitrefiyń Kalyndŏrza.</string>
     <string name="zen_mode_reminders_summary">Przitupluj przypōmniynia z aplikacyji, kere ône ôbsugujōm.</string>
-    <string name="dnd_app_noti_summary">Nastŏw jako zawodzania priorytetowe, coby dozwŏlić na nowiny ze aplikacyji jako wyjōntki.</string>
+    <string name="dnd_app_noti_summary">Przizwōl na nowiny z ôbranych aplikacyji.</string>
     <string name="no_exceptions_dcm_summary">Mute all calls and alerts, including Area Mail alarms.</string>
     <string name="dnd_screen_switch_summary">Wycisz wszyjske gŏdki i alerty poza niytypowymi wyjōntkami.</string>
     <string name="app_notification_priority_app_list_title">Nowina z aplik. prioryt.</string>
@@ -2320,7 +2350,7 @@ prywatny"</string>
     <string name="personal_page_secretbox_disclaimer_title">Zrzeczyniy sie praw</string>
     <string name="personal_page_secretbox_disclaimer_message">Tryb prywatny niy chrōni danych użytkownika przed dostympym ôd inkszych aplikacyjōw. Coby zapobiyc synchrōnizacyji danych ze serwerami zewnyntrznymi, wyłōncz nasztalowania autosynchrōnizacyji.</string>
     <string name="personal_page_secretbox_disclaimer_message_vzw">Content moved into Private mode will be hidden and will not be shown when you exit from Private mode. Automatic syncing while in Private mode may allow that content to be visible in 3rd party apps. Check the automatic synchronization settings of your other applications before using Private mode.</string>
-    <string name="personal_page_tutorial_app_title_message">Użyj Trybu prywatnego, coby skryć treść, kero mo być prywatno. Bez czas używanio niżyj danych aplikacyji ôbier dingsy, kere chcesz przeciepać do Prywatnych, a potym tyknij knefel WIYNCYJ I ôbier ôpcyjo Przeciep do Prywatnych. Zawartoś przeciepano do Prywatnych poradzi być widziano ino przi załōnczōnym Trybie prywatnym.</string>
+    <string name="personal_page_tutorial_app_title_message">Użyj Trybu prywatnego, aby ukryć zawartość, która ma pozostać prywatna. Podczas korzystania z poniższych aplikacji wybierz elementy, które chcesz przenieść do Prywatnych, a następnie dotknij przycisku Więcej opcji I wybierz opcję Przenieś do Prywatnych. Zawartość przeniesiona do Prywatnych może być widoczna tylko przy włączonym Trybie prywatnym.</string>
     <string name="personal_page_inline_help">Coby używać Trybu prywatnego ôbier zorta dostympu. Jak przepōmnisz zorty dostympu do Trybu prywatnego, niy bydziesz mōg jeji dostać nazŏd, a używanie Trybu prywatnego bydzie myjglich dopiyro po wynulowaniu masziny do nasztalowań fabrycznych.</string>
     <string name="personal_page_backup_pin_summary">Jak przepōmnisz symbol, złōnacz PIN ôd backupu dlŏ Trybu prywatnego.</string>
     <string name="personal_page_incorrect_pin">Felerny kod PIN. Sprōbuj jeszcze rŏz.</string>
@@ -2654,7 +2684,7 @@ Godzina: %4$s"</string>
     <string name="eth_toggle_summary_on">Połōncz z Ethernetowym necym.</string>
     <string name="eth_conf_summary">Nastŏw Ethernetowŏ maszina</string>
     <string name="auto_swipe_title">Autōm.nulow.do naszt.fab.</string>
-    <string name="auto_swipe_summary_common">Po %d nieprawidłowych próbach odblokowania telefonu zostanie on wyzerowany do domyślnych ustawień fabrycznych, a wszystkie jego dane zostaną usunięte, w tym pliki i pobrane aplikacje.</string>
+    <string name="auto_swipe_summary_common">Po %d felernych prōbach ôdblokowaniŏ telefōnu bydzie wynulowany do dōmyślnych nasztalowań, a wszyjskie jego dane bydōm wyciepane, w tym pliki i zebrane aplikacyje.</string>
     <string name="auto_swipe_summary_subuser">If you attempt to unlock your tablet incorrectly %d times, your account will be removed. All data on your account, including files and downloaded apps, will be deleted.</string>
     <string name="home_screen_settings_title">Sztartowy ekrōn</string>
     <string name="home_theme_settings_titles">Home screen and themes</string>
@@ -2709,6 +2739,7 @@ Godzina: %4$s"</string>
     <string name="samsung_backup_summary">Używej Kōnto Samsung do łōnaczyniŏ backupu danych.</string>
     <string name="samsung_restore_summary">Używej kōnta Samsung do wrōcaniŏ danych z backupu nazŏd.</string>
     <string name="sns_settings_title">Przełącz na dane komórkowe, gdy połączenie Wi-Fi stanie się niestabilne. Telefon może także przełączać się między zapisanymi sieciami Wi-Fi z najczęściej odwiedzanych obszarów. Inteligentne przełączanie sieci będzie automatycznie włączać i wyłączać zapisane sieci Wi-Fi.</string>
+    <string name="sns_settings_title_include_autowifi">Przepnij na dane mobilne, kej gŏdka Wi-Fi zrobi sie niysztabilno. Mobilniŏk poradzi tyż przepinać sie postrzōd zachowanymi necami Wi-Fi z nojwiyncyj nowiydzanych placōw. Inteligyntne przepinanie neca bydzie autōmatycznie załōnczać i wyłōnczać zachowane nece Wi-Fi.</string>
     <string name="smart_bonding">Pōmager zebiyraniŏ</string>
     <string name="smart_bonding_popup_title">Załōncz Pōmagera zebiyraniŏ</string>
     <string name="smart_bonding_description_vzw">"Download large files (over %d MB) faster by using Wi-Fi and LTE networks at the same time. The Download booster icon will be shown on the status bar when Download booster is turned on.
@@ -2929,6 +2960,8 @@ Downloading via mobile networks may result in additional charges depending on yo
     <string name="wifi_manage_network">Reskiyruj necami</string>
     <string name="wlan_permission_available_message">Pytŏ ô zwol, coby użiwać WLAN bez ôkiynko pop-up.</string>
     <string name="wlan_permission_available">Pytej, coby użić WLAN</string>
+    <string name="wifi_hotspot20_summary_tmo">Płynnie łącz się z punktami dostępu Wi-Fi obsługującymi Hotspot 2.0 bez użycia hasła.</string>
+    <string name="wifi_hotspot20_summary_dcm">Połącz automatycznie z siecią Wi-Fi Hotspot 2.0, gdy funkcja Wi-Fi jest włączona.</string>
     <string name="wifi_hotspot20_summary">Podpinej autōmatycznie do pōnktōw dostympu Wi-Fi z ôbsugōm sztandardu Hotspot 2.0.</string>
     <string name="wifi_hotspot20_enable">Hotspot 2.0</string>
     <string name="wifi_att_auto_connect_summary">Autōmatyczniy połōncz z AAT Wi-Fi hotspot kej wyrkyty</string>
@@ -2949,7 +2982,7 @@ Downloading via mobile networks may result in additional charges depending on yo
     <string name="wifi_enable_warning_vzw">Wyłōnczynie necu Wi-Fi spowoduje wyłōnczynie Mobile Hotspot. Iść dalij?</string>
     <string name="wifi_enable_warning_tmo">Wi-Fi je wyłōnczōne kej Mobile Hotspot je aktywny. Coby załōnczyć Wi-Fi, wyłōncz Mobile HotSpot.</string>
     <string name="wifi_enable_warning_spr">Załōnczynie Wi-Fi wyłōnczy mobilny hotspot.</string>
-    <string name="wifi_enable_warning_mtr">Załōnczenie Wi-Fi wyłōnczy Mobile Hotspot. Idziesz dalij?</string>
+    <string name="wifi_enable_warning_mtr">Sieć Wi-Fi jest wyłączona, gdy funkcja Mobile Hotspot jest aktywna. Aby włączyć sieć Wi-Fi, wyłącz funkcję Mobile Hotspot.</string>
     <string name="wifi_enable_warning_usc">Jak wyłōnczysz Mobilny Wi-Fi Hotspot, wyłōnczy sie Wi-Fi. Ijś dalij?</string>
     <string name="wifi_enable_warning">Załōnaczanie neca Wi-Fi wyłōnczy Router Wi-Fi.</string>
     <string name="wifi_control_history_title">Historia sterowania Wi-Fi</string>
@@ -2983,9 +3016,9 @@ Downloading via mobile networks may result in additional charges depending on yo
     <string name="wifi_ap__wifi_sharing_vzw">Wi-Fi Sharing</string>
     <string name="wifi_ap__wifi_sharing">Podŏwanie gŏdki Wi-Fi</string>
     <string name="first_use_wifi_msg_mtr">Tap OK to learn more about using Mobile Hotspot.</string>
-    <string name="first_use_wifi_msg">Tap OK to learn more about using Mobile HotSpot.</string>
+    <string name="first_use_wifi_msg">Dotknij OK, aby dowiedzieć się więcej na temat korzystania z Routera Wi-Fi.</string>
     <string name="first_use_title_mtr">View Mobile Hotspot help</string>
-    <string name="first_use_title">View Mobile HotSpot help</string>
+    <string name="first_use_title">Widok Pomocy Routera Wi-Fi</string>
     <string name="wifi_ap_wifi_sharing_title">Zał. pokŏz. poł. Wi-Fi</string>
     <string name="wifi_ap_wifi_sharing_status_enabled">Załōnczōne</string>
     <string name="wifi_ap_wifi_sharing_status_disabled">Wyłōnczōne</string>
@@ -3017,11 +3050,11 @@ Using Mobile hotspot increases battery consumption and data usage."</string>
 Mobile Hotspot uses mobile data from your data plan.
 
 We recommend keeping your phone plugged in to a charger while using Mobile Hotspot to save battery."</string>
-    <string name="wifi_ap_instruction_changeable_maxclient_tmo">"You can use your device as an Internet access point using Mobile HotSpot. This allows up to %d other devices to connect to it via Wi-Fi. The connected devices will have access to the Internet via your mobile network.
+    <string name="wifi_ap_instruction_changeable_maxclient_tmo">"Możesz używać urządzenia jako punktu dostępu do Internetu, korzystając z funkcji Router Wi-Fi. Umożliwia to podłączenie do niego maksymalnie %d innych urządzeń przez sieć Wi-Fi. Podłączone urządzenia będą miały dostęp do Internetu za pośrednictwem sieci komórkowej.
 
-You can create an allowed device profile and set the connection mode for it.
+Można utworzyć profil dozwolonego urządzenia i ustawić dla niego tryb połączenia.
 
-Using Mobile HotSpot increases battery consumption and data usage."</string>
+Korzystanie z Routera Wi-Fi zwiększa zużycie baterii i wykorzystanie danych."</string>
     <string name="wifi_ap_instruction_changeable_maxclient_spr">"You can share your device's Hotspot with Wi-Fi enabled devices.
 
 After you start the Mobile Hotspot Wi-Fi router, connect using the controls on your Wi-Fi enabled device."</string>
@@ -3125,6 +3158,7 @@ Po zmianie miana abo hasła routera Wi-Fi trza wygenerować nowy kod QR."</strin
     <string name="wifi_wps_onstart_pbc_mobileap">Naciśnij knefel WPS na inkszyj maszinie coby napoczōńć połōnczynie.</string>
     <string name="wifi_wps_complete_mobileap">Drugŏ maszina je terŏzki podłōnczōnŏ do Twojij masziny</string>
     <string name="wifi_ap_disconnect_warn">Ôdłōnczanie masziny</string>
+    <string name="wifi_ap_change_policy_warn_mtr">Rozłōncza maszina, kero terŏzki je połōnczōnŏ, z mobilnygo Wi-Fi Hotspotu.</string>
     <string name="wifi_ap_change_policy_warn">Wszyjskie terŏzki podłōnczone masziny bydōm odłōnczone ôd Routera Wi-Fi</string>
     <string name="wifi_ap_warn_max_whitelist">Szafniynto maksymalno wieloś zwōlōnych maszin (%d).</string>
     <string name="wifiap_one_item_deleted">1 elymynt ôstanie wyciepniynty</string>
@@ -3160,7 +3194,8 @@ Wi-Fi je terŏzki załōnczōne."</string>
     <string name="wifi_tether_dialog_nosim_warning_chn">Insert a SIM card to use Mobile hotspot and other tethering functions.</string>
     <string name="wifi_tether_dialog_nosim_warning_vzw">Wraź karta SIM, coby używać Wi-Fi hotspot abo inksze fōnkcyje łōnczyniŏ.</string>
     <string name="wifi_tether_dialog_nosim_warning_tmo">Zainsztaluj karta SIM coby szło podzielić dane z Twojij masziny z inkszymi maszinami, kere używajōm Mobile Wi-Fi HotSpot abo USB do łōnczyniŏ z necym.</string>
-    <string name="wifi_tether_dialog_nosim_warning_spr">Wraź karta SIM, coby używać Hotspotu</string>
+    <string name="wifi_tether_dialog_nosim_warning_mtr">"Please install SIM card in order to share your phone's data connection with other devices using Mobile Wi-Fi Hotspot or USB tethering for Internet access."</string>
+    <string name="wifi_tether_dialog_nosim_warning_spr">Włóż kartę SIM, aby korzystać z funkcji Hotspot.</string>
     <string name="wifi_tether_dialog_nosim_warning_usc">Wraź karta SIM, coby używać Router Wi-Fi i inksze fōnkcyje routera.</string>
     <string name="wifi_tether_dialog_nosim_warning">Wraź karta SIM, coby używać Router Wi-Fi i inksze fōnkcyje routera.</string>
     <string name="mobileap_tmo">Mobile Hotspot</string>
@@ -3187,7 +3222,7 @@ Wi-Fi je terŏzki załōnczōne."</string>
     <string name="wifi_ap_instruction_open_activate_color3_att">Połącz z &lt;font color=\"%1$s\">%2$s&lt;/font>.</string>
     <string name="wifi_ap_instruction_open_activate_color3">Połącz z &lt;font color=\"%1$s\">%2$s&lt;/font>.</string>
     <string name="wifi_ap_instruction_open_activate_color4_vzw">Enjoy your Mobile Hotspot.</string>
-    <string name="wifi_ap_instruction_open_activate_color4_tmo">Enjoy the internet using your personal Mobile HotSpot.</string>
+    <string name="wifi_ap_instruction_open_activate_color4_tmo">Korzystaj z Internetu przy użyciu osobistego Routera Wi-Fi.</string>
     <string name="wifi_ap_instruction_open_activate_color4_spr">Enjoy the Internet with Hotspot.</string>
     <string name="wifi_ap_instruction_open_activate_color4_att">Enjoy the Internet using Mobile hotspot.</string>
     <string name="wifi_ap_instruction_open_activate_color4_mtr">Enjoy the Internet using portable Wi-Fi hotspot.</string>
@@ -3206,7 +3241,7 @@ Wi-Fi je terŏzki załōnczōne."</string>
     <string name="wifi_ap_instruction_activate_color3_att">Połącz się z &lt;font color=\"%1$s\">%2$s&lt;/font>, wprowadzając &lt;font color=\"%1$s\">%3$s&lt;/font> jako hasło.</string>
     <string name="wifi_ap_instruction_activate_color3">Połącz się z &lt;font color=\"%1$s\">%2$s&lt;/font>, wprowadzając &lt;font color=\"%1$s\">%3$s&lt;/font> jako hasło.</string>
     <string name="wifi_ap_instruction_activate_color4_vzw">Enjoy your Mobile Hotspot.</string>
-    <string name="wifi_ap_instruction_activate_color4_tmo">Enjoy the internet using your personal Mobile HotSpot.</string>
+    <string name="wifi_ap_instruction_activate_color4_tmo">Korzystaj z Internetu przy użyciu osobistego Routera Wi-Fi.</string>
     <string name="wifi_ap_instruction_activate_color4_spr">Enter &lt;font color=\"%1$s\">%3$s&lt;/font> in the &lt;font color=\"%1$s\">%4$s&lt;/font> field.</string>
     <string name="wifi_ap_instruction_activate_color4_att">Enjoy the Internet using Mobile hotspot.</string>
     <string name="wifi_ap_instruction_activate_color4_mtr">Enjoy the Internet using portable Wi-Fi hotspot.</string>
@@ -3228,16 +3263,16 @@ Wi-Fi je terŏzki załōnczōne."</string>
     <string name="wifi_ap_instruction_activate_color_hidden3_chn">Connect to &lt;font color=\"%1$s\">%2$s&lt;/font> by entering &lt;font color=\"%1$s\">%3$s&lt;/font> as the password.</string>
     <string name="wifi_ap_instruction_activate_color_hidden3_tmo">Connect to &lt;font color=\"%1$s\">%2$s&lt;/font> by entering &lt;font color=\"%1$s\">%3$s&lt;/font> as the password.</string>
     <string name="wifi_ap_instruction_activate_color_hidden3">Połącz się z &lt;font color=\"%1$s\">%2$s&lt;/font>, wprowadzając &lt;font color=\"%1$s\">%3$s&lt;/font> jako hasło.</string>
-    <string name="wifi_ap_instruction_activate_color_hidden4_tmo">Enjoy the internet using your personal Mobile HotSpot.</string>
+    <string name="wifi_ap_instruction_activate_color_hidden4_tmo">Korzystaj z Internetu przy użyciu osobistego Routera Wi-Fi.</string>
     <string name="wifi_ap_instruction_no_maxclient">"Maszina idzie używać za pōnkt dostympu do interneca, bez użycie fōnkcyji Router Wi-Fi. Dozwŏlŏ to na pożyniynie z nim inkszych maszinōw bez nec Wi-Fi. Pożyniōne masziny bydōm miały dostymp do interneca bez nec mobilny.
 
 Idzie złōnaczyć profil dozwolōnyj masziny i nastawić dlŏ niego tryb połōnczyniŏ.
 
 Używanie fōnkcyji Router Wi-Fi zwielgszŏ spotrzebowanie bateryji i danych."</string>
     <string name="wifi_ap_instruction_configure_vzw">To change the Mobile Hotspot configuration, go to Settings > Mobile Hotspot and tethering > Mobile Hotspot > MORE, then select Configure Mobile Hotspot.</string>
-    <string name="wifi_ap_instruction_configure_tmo">To change the Mobile HotSpot configuration, tap the More options button, then select Configure Mobile HotSpot.</string>
+    <string name="wifi_ap_instruction_configure_tmo">Aby zmienić konfigurację Routera Wi-Fi, dotknij przycisku Więcej opcji, a następnie wybierz opcję Konfiguruj Router Wi-Fi.</string>
     <string name="wifi_ap_instruction_configure">Coby pōmiynić narychtowanie fōnkcyji Router Wi-Fi, tyknij knefel Wiyncyj ôpcyji, a potym ôbier ôpcyjo Rychtowanie fōnkcyji Router Wi-Fi.</string>
-    <string name="wifi_ap_instruction_configure_non_grace_tmo">To change the Mobile HotSpot configuration, tap MORE, then select Configure Mobile HotSpot.</string>
+    <string name="wifi_ap_instruction_configure_non_grace_tmo">Aby zmienić konfigurację Routera Wi-Fi, dotknij opcji WIĘCEJ i wybierz opcję Konfiguruj Router Wi-Fi.</string>
     <string name="wifi_ap_instruction_configure_non_grace">Coby zmiynić kōnfiguracyjŏ fōnkcyji Router Wi-Fi, tyknij knefel WIYNCYJ i ôbier ôpcyjŏ Nastôw Router Wi-Fi.</string>
     <string name="wifi_ap_change_security">Zmiyń ôchrōna</string>
     <string name="wifi_ap_maxclient">Makszymalnŏ wielość połōnczyń</string>
@@ -3254,6 +3289,7 @@ Używanie fōnkcyji Router Wi-Fi zwielgszŏ spotrzebowanie bateryji i danych."</
     <string name="wifi_tether_configure_ap_text_usc">Nasztaluj Wi-Fi Hotspot</string>
     <string name="wifi_tether_configure_ap_text">Złōnacz.fōnkcyji Router Wi-Fi</string>
     <string name="wifi_ap_hidessid_warning">Your phone will be visible to other devices</string>
+    <string name="wifi_ap_first_time_configuration_mtr">Pierwsza konfiguracja punktu dostępu</string>
     <string name="wifi_ap_first_time_configuration">Nasztŏwianiy HotSpotu piyrwszy rŏz</string>
     <string name="title_wifi_notify_mobileap_is_on">Wi-Fi and Mobile Hotspot</string>
     <string name="wifi_ssid_max_byte_error">Szafniynto je nojwiynkszŏ wieloś znakōw.</string>
@@ -3397,6 +3433,8 @@ Uzyskej info ô roamingu, dzwōniōnc na bezpłatnŏ nōmera ôbsugi kliynta roa
     <string name="master_clear_desc_music">Muzyka</string>
     <string name="master_clear_desc_pictures">Ôbrŏzki</string>
     <string name="master_clear_desc_other_user_data">Wszyjske dane inkszych użytkownikōw</string>
+    <string name="master_clear_not_enough_battery">Przed zresetowaniem telefonu naładuj baterię przynajmniej do poziomu %d%%.</string>
+    <string name="master_clear_not_enough_battery_tablet">Przed zresetowaniem tabletu naładuj baterię przynajmniej do poziomu %d%%.</string>
     <string name="text_two_locktype">Ôdcisk palca i %s</string>
     <string name="pref_lock_type_title">Pōmiyń typ blokady</string>
     <string name="pref_lock_type_summary">Zorta blokniyńcio</string>
@@ -3476,8 +3514,11 @@ Receiving SMS"</string>
     <string name="google_settings_popup_msg">Only a limited number of Google settings are available. Some actions may not work.</string>
     <string name="smart_lock_popup_msg">Only a limited number of Google settings are available. Some actions may not work.</string>
     <string name="prevent_to_change_by_device_policy">Prawidła bezpieczyństwa uniymożniajōm używanie aplikacyji %s.</string>
+    <string name="quick_tile_sync_title">Synchrōnizacyjŏ</string>
     <string name="name_jerusalem">Jerozolima</string>
     <string name="name_israel">Izrael</string>
+    <string name="starting_android">Sztart systymu Android…</string>
+    <string name="okay">OK</string>
     <string name="yes">Ja</string>
     <string name="no">Niy</string>
     <string name="create">Złōnacz</string>
@@ -3575,7 +3616,6 @@ Możesz zmiynić to niyskorzij, bez przeleziynie do nasztalowań Bluetooth."</st
     <string name="phone_info_label">Informacyje ô maszinōwie</string>
     <string name="proxy_settings_label">Nasztalowania serwera proxy</string>
     <string name="cancel">Pociep</string>
-    <string name="okay">OK</string>
     <string name="save">Zachowej</string>
     <string name="done">Fertich</string>
     <string name="settings_label">Nasztalowania</string>
@@ -5201,4 +5241,6 @@ Niy bydziesz przijmować żodnych gŏdek, wiadōmości abo nowin ani słyszeć a
     <string name="ucm_pins_do_not_match">Niypasowne kody PIN</string>
     <string name="ucm_failed_to_connect_smartcard">Połōnczyniy z kartōm elektrōnicznōm niy podarziło sie. Skōntaktuj sie z administratorym masziny.</string>
     <string name="ucm_loading">Ładuja…</string>
+    <string name="usb_use_software_installation">Software Installation</string>
+    <string name="usb_use_software_installation_summary">Install Software Update and Repair tool for your device on a Mac or Windows computer.</string>
 </resources>

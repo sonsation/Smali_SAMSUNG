@@ -1651,7 +1651,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b02d8
+    const v1, 0x7f0b02da
 
     invoke-virtual {p0, v1}, Lcom/samsung/android/settings/accessibility/directaccess/DirectAccessFragment;->getString(I)Ljava/lang/String;
 
@@ -3138,7 +3138,7 @@
     .line 479
     iget-object v10, p0, Lcom/samsung/android/settings/accessibility/directaccess/DirectAccessFragment;->mColorAdjustmentSwitch:Landroid/preference/SwitchPreference;
 
-    const v11, 0x7f0b02d2
+    const v11, 0x7f0b02d4
 
     invoke-virtual {v10, v11}, Landroid/preference/SwitchPreference;->setSummary(I)V
 
@@ -3168,7 +3168,7 @@
     .line 486
     iget-object v10, p0, Lcom/samsung/android/settings/accessibility/directaccess/DirectAccessFragment;->mAccessControlSwitch:Landroid/preference/SwitchPreference;
 
-    const v11, 0x7f0b02d5
+    const v11, 0x7f0b02d7
 
     invoke-virtual {v10, v11}, Landroid/preference/SwitchPreference;->setSummary(I)V
 
@@ -3183,7 +3183,7 @@
     .line 492
     iget-object v10, p0, Lcom/samsung/android/settings/accessibility/directaccess/DirectAccessFragment;->mPageReaderSwitch:Landroid/preference/SwitchPreference;
 
-    const v11, 0x7f0b02d3
+    const v11, 0x7f0b02d5
 
     invoke-virtual {p0, v11}, Lcom/samsung/android/settings/accessibility/directaccess/DirectAccessFragment;->getString(I)Ljava/lang/String;
 
@@ -3466,7 +3466,7 @@
     .line 520
     iget-object v10, p0, Lcom/samsung/android/settings/accessibility/directaccess/DirectAccessFragment;->mColorAdjustmentSwitch:Landroid/preference/SwitchPreference;
 
-    const v11, 0x7f0b02d2
+    const v11, 0x7f0b02d4
 
     invoke-virtual {v10, v11}, Landroid/preference/SwitchPreference;->setSummary(I)V
 
@@ -3496,7 +3496,7 @@
     .line 528
     iget-object v10, p0, Lcom/samsung/android/settings/accessibility/directaccess/DirectAccessFragment;->mAccessControlSwitch:Landroid/preference/SwitchPreference;
 
-    const v11, 0x7f0b02d5
+    const v11, 0x7f0b02d7
 
     invoke-virtual {v10, v11}, Landroid/preference/SwitchPreference;->setSummary(I)V
 

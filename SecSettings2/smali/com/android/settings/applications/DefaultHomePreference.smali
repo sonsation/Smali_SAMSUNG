@@ -67,7 +67,7 @@
     invoke-virtual {p0}, Lcom/android/settings/applications/DefaultHomePreference;->refreshHomeOptions()V
 
     .line 53
-    const v0, 0x7f0b03b0
+    const v0, 0x7f0b03b2
 
     invoke-virtual {p0, v0}, Lcom/android/settings/applications/DefaultHomePreference;->setResDescription(I)V
 
@@ -386,7 +386,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0b1284
+    const v4, 0x7f0b140a
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -397,7 +397,7 @@
     aput-object v3, v2, v4
 
     .line 70
-    const v3, 0x7f0b05b0
+    const v3, 0x7f0b05c4
 
     invoke-virtual {v1, v3, v2}, Landroid/content/res/Resources;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -460,7 +460,7 @@
     .line 81
     iget-object v1, p0, Lcom/android/settings/applications/DefaultHomePreference;->mContext:Landroid/content/Context;
 
-    const v2, 0x7f0b03b1
+    const v2, 0x7f0b03b3
 
     const/4 v3, 0x1
 
@@ -659,7 +659,7 @@
 
     move-result-object v11
 
-    const v12, 0x7f0b1290
+    const v12, 0x7f0b1416
 
     invoke-virtual {v11, v12}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

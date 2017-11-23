@@ -857,7 +857,7 @@
 
     .line 307
     .local v1, "headerBar":Landroid/widget/LinearLayout;
-    const v2, 0x7f0200e0
+    const v2, 0x7f0200de
 
     invoke-virtual {v1, v2}, Landroid/widget/LinearLayout;->setBackgroundResource(I)V
 
@@ -1155,7 +1155,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f0b05fa
+    const v5, 0x7f0b060e
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1164,7 +1164,7 @@
     aput-object v4, v3, v7
 
     .line 623
-    const v4, 0x7f0b05b0
+    const v4, 0x7f0b05c4
 
     invoke-virtual {v2, v4, v3}, Landroid/content/res/Resources;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -2294,7 +2294,7 @@
     .param p2, "inflater"    # Landroid/view/MenuInflater;
 
     .prologue
-    const v5, 0x7f0205af
+    const v5, 0x7f0205ad
 
     const/4 v4, 0x0
 
@@ -2326,7 +2326,7 @@
     .line 428
     iget-object v2, p0, Lcom/samsung/android/settings/easymode/EasyModeApp;->mSaveButton:Landroid/widget/Button;
 
-    const v3, 0x7f0b0430
+    const v3, 0x7f0b0438
 
     invoke-virtual {v2, v3}, Landroid/widget/Button;->setText(I)V
 

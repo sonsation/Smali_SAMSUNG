@@ -241,7 +241,7 @@
     .line 63
     iget-object v2, p0, Lcom/samsung/android/settings/lockscreen/AdditionalInformationSettings;->imgView:Landroid/widget/ImageView;
 
-    const v3, 0x7f020420
+    const v3, 0x7f02041e
 
     invoke-virtual {v2, v3}, Landroid/widget/ImageView;->setBackgroundResource(I)V
 

@@ -706,28 +706,28 @@
 
     .line 455
     :pswitch_1
-    const v1, 0x7f0b03c4
+    const v1, 0x7f0b03c6
 
     .line 456
     goto :goto_0
 
     .line 459
     :pswitch_2
-    const v1, 0x7f0b03c5
+    const v1, 0x7f0b03c7
 
     .line 460
     goto :goto_0
 
     .line 462
     :pswitch_3
-    const v1, 0x7f0b03c6
+    const v1, 0x7f0b03c8
 
     .line 463
     goto :goto_0
 
     .line 465
     :pswitch_4
-    const v1, 0x7f0b03ce
+    const v1, 0x7f0b03d0
 
     .line 466
     invoke-static {}, Lcom/samsung/android/settings/guide/GuideModeHelper;->isTablet()Z
@@ -791,7 +791,7 @@
 
     .line 492
     :pswitch_5
-    const v1, 0x7f0b03c5
+    const v1, 0x7f0b03c7
 
     .line 493
     const v0, 0x7f040121
@@ -2181,13 +2181,13 @@
     .param p1, "type"    # Lcom/samsung/android/settings/guide/BtSettingsGuider$GuideStates;
 
     .prologue
-    const v5, 0x7f0b03ce
+    const v5, 0x7f0b03d0
 
     const/4 v0, 0x1
 
     const/4 v2, 0x0
 
-    const v4, 0x7f0b03c5
+    const v4, 0x7f0b03c7
 
     const v3, 0x7f040121
 
@@ -2239,7 +2239,7 @@
 
     .line 310
     :pswitch_1
-    const v1, 0x7f0b03c4
+    const v1, 0x7f0b03c6
 
     invoke-direct {p0, v1, v3, p1}, Lcom/samsung/android/settings/guide/BtSettingsGuider;->showHelpDialog(IILcom/samsung/android/settings/guide/BtSettingsGuider$GuideStates;)V
 
@@ -2253,7 +2253,7 @@
 
     .line 322
     :pswitch_3
-    const v1, 0x7f0b03c6
+    const v1, 0x7f0b03c8
 
     invoke-direct {p0, v1, v3, p1}, Lcom/samsung/android/settings/guide/BtSettingsGuider;->showHelpDialog(IILcom/samsung/android/settings/guide/BtSettingsGuider$GuideStates;)V
 

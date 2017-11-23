@@ -540,7 +540,7 @@ Enter the code you get from Verizon:"</string>
     <string name="answering_call_title">Answering calls</string>
     <string name="audio_preference_title">Hearing</string>
     <string name="mono_audio_title">Mono audio</string>
-    <string name="mono_audio_summary">Switch audio from stereo to mono for when you are using one earphone.</string>
+    <string name="mono_audio_summary">Switch audio from stereo to mono for listening with one ear.</string>
     <string name="multi_window_title">Multi window</string>
     <string name="magnifier_seekbar_plus_tts">Plus</string>
     <string name="magnifier_seekbar_minus_tts">Minus</string>
@@ -621,16 +621,18 @@ Note: Triple tap for magnification works everywhere except the keyboard."</strin
     <string name="direct_access_actions_universal_switch_title">Universal switch</string>
     <string name="sound_detector_title">Baby crying detector</string>
     <string name="sound_detector_main_title">Sound detectors</string>
-    <string name="sound_detector_main_description">Receive alerts when the device detects a baby crying or the doorbell.</string>
+    <string name="sound_detector_main_description">Receive alerts when the phone detects a baby crying or the doorbell.</string>
     <string name="accessibility_easy_interaction_summary">Dismiss or snooze alarms, calendar events, and timer alerts, and answer or reject incoming calls with a single tap.</string>
     <string name="accessibility_easy_interaction_summary_tablet_wifi">Tap to stop/snooze alarms and calendar events</string>
-    <string name="all_sound_off">Turn off all sounds</string>
-    <string name="all_sound_off_summary">Do not play any sounds, including via the speakerphone, even if the sound mode is set to Sound.</string>
+    <string name="all_sound_off">Mute all sounds</string>
+    <string name="all_sound_off_summary">Turn off all sounds, including phone calls, even if the sound mode is set to Sound.</string>
     <string name="all_sound_off_dialog_summary">%1$s and %2$s cannot be enabled at the same time. %3$s will be disabled.</string>
+    <string name="all_sound_off_popup_description">To use Mute all sounds, %s needs to be turned off.</string>
+    <string name="all_sound_turn_off_button">Turn off</string>
     <string name="turn_off_all_sounds">Turn off all sounds</string>
     <string name="turn_off_all_sounds1">Turn off all sounds and answering message cannot both be enabled.</string>
     <string name="turn_off_all_sounds2">Turn off all sounds and answering message cannot both be enabled. Answering message will be disabled.</string>
-    <string name="turn_off_all_sounds_toast_with_sound_detector">Turn off all sounds cannot be disabled while sound detectors enabled. To disable them, go to Settings > Accessibility > Hearing > Sound detectors, then disable all sound detectors.</string>
+    <string name="turn_off_all_sounds_toast_with_sound_detector">"Can't use Mute all sounds while Sound detectors on."</string>
     <string name="accessibility_categories_title">Categories</string>
     <string name="share_accessibility_settings">Manage accessibility</string>
     <string name="share_accessibility_settings_summary">Import and export your accessibility settings, or share them with other devices.</string>
@@ -779,7 +781,7 @@ While this function is enabled, Auto rotate screen will be disabled. All calls, 
     <string name="deviceOption">Device options</string>
     <string name="lock">Lock</string>
     <string name="powerOff">Power off</string>
-    <string name="unable_assistantmenu_while_sidesync">Unable to enable Assistant menu while using SideSync.</string>
+    <string name="unable_assistantmenu_while_sidesync">"Can't turn on Assistant menu while using SideSync."</string>
     <string name="assistant_menu_unpin_message">To unpin application, press and hold the recents and back keys at the same time.</string>
     <string name="eamenableinfo">To enable Assistant plus, select at least one application.</string>
     <string name="fetch_progress">Loading data...</string>
@@ -902,7 +904,7 @@ Tap here to download this feature."</string>
     <string name="active_key_setting_dialog_title">Set up Active key</string>
     <string name="active_key_setting_dialog_contents">To use the Active key, assign apps or functions to it in Settings.</string>
     <string name="flight_mode_enabled_toast">Unable to connect to mobile networks while Flight mode is enabled. Disable Flight mode and try again.</string>
-    <string name="airplane_mode_summary">Disable calling and messaging functions, and turn off Mobile data.</string>
+    <string name="airplane_mode_summary">Turn off calling, messaging, and Mobile data.</string>
     <string name="usb_not_support_mtp_usb3_dialog_title">Notice</string>
     <string name="usb_mtp_usb3_dialog_turning_off_airplane_body">Turning off Airplane mode will end your USB 3.0 connection and stop any ongoing data transfers.</string>
     <string name="usb_mtp_usb3_dialog_turning_off_airplane_end_button">End USB 3.0</string>
@@ -1053,6 +1055,7 @@ Enable Bluetooth tethering on %2$s."</string>
     <string name="bt_error_btn_ok">OK</string>
     <string name="bluetooth_move_to_my_place">Copy to My place</string>
     <string name="bluetooth_pin_maximum_number_message">Maximum number of characters reached.</string>
+    <string name="bluetooth_frp_permission_message">"Can't use Bluetooth device for this call."</string>
     <string name="settings_menu_done">Done</string>
     <string name="usb_tethering_unavailable_subtext_tmo">USB not connected</string>
     <string name="usb_tethering_available_subtext_tmo">USB connected, check to tether</string>
@@ -1094,6 +1097,11 @@ Even while Smart capture is disabled, you can access its features via Air comman
 - Draw on the screenshot.
 - Crop the screenshot.
 - Share the screenshot."</string>
+    <string name="smart_capture_summary">Show additional options after capturing a screenshot. With Smart capture, you can:</string>
+    <string name="smart_capture_summary_1">Capture hidden areas of the screen.</string>
+    <string name="smart_capture_summary_2">Draw on the screenshot.</string>
+    <string name="smart_capture_summary_3">Crop the screenshot.</string>
+    <string name="smart_capture_summary_4">Share the screenshot.</string>
     <string name="identify_unsaved_numbers_title">Identify unsaved numbers</string>
     <string name="identify_unsaved_numbers_title_usa">Identify spam numbers</string>
     <string name="call_message_spam_filter_title">Call/message spam filter</string>
@@ -1209,6 +1217,7 @@ Even while Smart capture is disabled, you can access its features via Air comman
     <string name="fota_update_summary">Tap here to update the firmware to the latest version and use the latest features.</string>
     <string name="favorite_tab">Quick settings</string>
     <string name="device_maintenance_title">Device maintenance</string>
+    <string name="memory_string">Memory</string>
     <string name="tab_favorite_edit">Edit quick settings</string>
     <string name="add_favorite_button">Edit quick settings</string>
     <string name="cloud_and_accounts_title">Cloud and accounts</string>
@@ -1220,6 +1229,7 @@ Even while Smart capture is disabled, you can access its features via Air comman
     <string name="notifications_settings_summary">Block, allow, prioritise</string>
     <string name="ime_security_warning_title">Turn on the selected keyboard?</string>
     <string name="language_settings_summary">Add multiple languages below so that, if an app does not support your default language (at the top of the list), the next supported language in the list will be used instead. Move a language to the top of the list to set it as the default.</string>
+    <string name="language_settings_noti_desc">The languages supported in your country may differ from those shown on the display model.</string>
     <string name="more_connection_settings_title">More connection settings</string>
     <string name="lock_and_security_settings_title">Lock screen and security</string>
     <string name="privacy_and_safety_settings_title">Privacy and safety</string>
@@ -1227,6 +1237,7 @@ Even while Smart capture is disabled, you can access its features via Air comman
     <string name="panic_mode_description_text">Press the Power key quickly 3 times to call emergency number 112 when you are in an emergency situation. You can also send SOS messages and attach pictures to them.</string>
     <string name="panic_mode_description_text_wo_sos">Press the Power key quickly 3 times to call emergency number 112 when you are in an emergency situation.</string>
     <string name="panic_mode_settings_summary">Call emergency number 112 and send SOS messages by pressing the Power key 3 times.</string>
+    <string name="panic_mode_settings_summary_wo_sos">Call emergency number 112 by pressing the Power key 3 times.</string>
     <string name="privacy_and_emergency_settings_title">Privacy and emergency</string>
     <string name="wallpapers_themes_settings_title">Wallpapers and themes</string>
     <string name="t_security_skt">T security</string>
@@ -1246,7 +1257,12 @@ Even while Smart capture is disabled, you can access its features via Air comman
     <string name="notification_settings_apps_title">App notifications</string>
     <string name="international_roaming_setting">Roaming settings</string>
     <string name="user_manual_mos">User manual</string>
-    <string name="data_saver_description">To help reduce data usage, Data saver prevents some apps from sending or receiving data in the background. Also, apps that are currently in use can access data, but may do so less frequently. For example, images may not be shown properly until you tap them.</string>
+    <string name="data_saver_description">"Data saver helps cut down your data usage by preventing some apps from sending or receiving data in the background. Apps that you're currently using can use mobile data, but may do so less frequently. For example, images may not be shown until after you tap them."</string>
+    <string name="unrestricted_data_saver_chn">Use data without restrictions</string>
+    <string name="data_saver_description_chn">To help reduce data usage, Restrict background data prevents some apps from sending or receiving data in the background. Also, apps that are currently in use can access data, but may do so less frequently. For example, images may not be shown properly until you tap them.</string>
+    <string name="data_saver_title_chn">Restrict background data</string>
+    <string name="unrestricted_app_title_chn">Use data without restrictions</string>
+    <string name="unrestricted_app_summary_chn">This app can use mobile data without restrictions while Restrict background data is enabled.</string>
     <string name="data_used_editor_subtitle">Enter the amount of data you have used this month:</string>
     <string name="traffic_vertify">Details</string>
     <string name="btn_tmo">Upgrade data service</string>
@@ -1259,6 +1275,7 @@ Data usage is measured by your phone. Your carrier may account for usage differe
     <string name="international_data_roaming">International Data Roaming</string>
     <string name="data_usage_alert_at_warning_title">Alert me about data usage</string>
     <string name="data_usage_warning_popup_title">Data usage alert</string>
+    <string name="insert_sim_mobile_data_usage">Insert SIM card to view mobile data usage.</string>
     <string name="data_usage_warning_popup_content">Your phone will alert you when your mobile data usage reaches the amount you selected</string>
     <string name="background_data_restriction_never">Never</string>
     <string name="background_data_restriction_always">Always</string>
@@ -1306,6 +1323,8 @@ Data usage is measured by your phone. Your carrier may account for usage differe
     <string name="last_checked_date">Last checked on:</string>
     <string name="auto_update">Download update automatically</string>
     <string name="auto_update_summary">Download software updates automatically when connected to a Wi-Fi network. You will still be able to use your device during the download.</string>
+    <string name="auto_update_over_wifi">Auto download over Wi-Fi</string>
+    <string name="auto_update_over_wifi_summary">"Download software updates automatically when connected to a Wi-Fi network. Depending on your service provider, updates may also be downloaded using mobile data without any additional charges. You'll still be able to use your phone during the download."</string>
     <string name="scheduled_update">Scheduled software updates</string>
     <string name="scheduled_update_summary_default">Off</string>
     <string name="scheduled_update_summary_set_time">Update will start at %s</string>
@@ -1340,7 +1359,7 @@ Your phone includes diagnostic software that may, with your consent, automatical
     <string name="memory_mms_usage">MMS</string>
     <string name="user_owner">Owner</string>
     <string name="unable_to_charge_the_connected_device">Unable to use USB cable for %s.</string>
-    <string name="unable_to_change_usb_options_via_smart_switch">Unable to change USB options while transferring data via Smart Switch.</string>
+    <string name="unable_to_change_usb_options_via_smart_switch">"Can't change USB options while transferring data with Smart Switch."</string>
     <string name="usb_configuring">Configuring...</string>
     <string name="usb_use_none_summary">Your device data cannot be transferred.</string>
     <string name="usb_use_charging_only_summary_vzw">Just charge this phone.</string>
@@ -1348,9 +1367,9 @@ Your phone includes diagnostic software that may, with your consent, automatical
     <string name="usb_use_file_transfers_summary_vzw">Transfer media files to a computer.</string>
     <string name="usb_use_file_transfers_summary">Transfer media files to a PC via an MTP connection.</string>
     <string name="usb_use_MIDI_summary_vzw">Use device for MIDI input.</string>
-    <string name="usb_use_MIDI_summary">Use the connected device as a MIDI (Musical Instrument Digital Interface) player or input source.</string>
-    <string name="usb_use_software_installation">Software installation</string>
-    <string name="usb_use_software_installation_summary">Install software update and repair tool for your device on a Mac or Windows computer.</string>
+    <string name="usb_use_MIDI_summary">Use the connected device as a MIDI player or input source.</string>
+    <string name="usb_use_system_update">System update</string>
+    <string name="usb_use_system_update_summary">Install Software Upgrade Assistant on your computer and update or repair this phone.</string>
     <string name="subs_settings">SUBS Status</string>
     <string name="sim_status_code">Code</string>
     <string name="device_additional_status">Additional Status Info</string>
@@ -1376,6 +1395,7 @@ Your phone includes diagnostic software that may, with your consent, automatical
     <string name="device_info_battery_summary">"View your device's battery status, remaining power, and other information."</string>
     <string name="device_info_software_title">Software info</string>
     <string name="device_info_software_summary">View the currently installed Android version, baseband version, kernel version, build number, etc.</string>
+    <string name="brand_title">Brand</string>
     <string name="installment_balance">Instalment payments</string>
     <string name="installment_balance_summary">Outstanding</string>
     <string name="first_call_date">Date of first call made</string>
@@ -1453,7 +1473,7 @@ Tap OK to allow the brightness to be increased above safe levels."</string>
     <string name="display_temperature">Colour balance</string>
     <string name="adjust_your_display_colour">Adjust the colours of your display to change the appearance of white tones.</string>
     <string name="led_indicator_settings">LED indicator</string>
-    <string name="led_indicator_settings_summary">Light up the LED indicator when charging, voice recording, or receiving notifications.</string>
+    <string name="led_indicator_settings_summary">Light up the LED indicator when the screen is off to show statuses of sound recording, unread notifications, and battery.</string>
     <string name="screen_resolution_desc">Some content may appear blurry or may not be supported in FHD or HD.</string>
     <string name="display_battery_percentage">Display battery percentage</string>
     <string name="display_battery_percentage_summary">Show battery percentage on the status bar.</string>
@@ -1523,12 +1543,12 @@ Tap OK to allow the brightness to be increased above safe levels."</string>
     <string name="blue_light_filter_off_time_next_day_summary_format">%s next day</string>
     <string name="blue_light_filter_user_schedule_title">Custom schedule</string>
     <string name="blue_light_filter_auto_schedule_title">Sunset to sunrise</string>
-    <string name="blue_light_filter_desc">Use Blue light filter to help you sleep better. Set a schedule for when you want to use Blue light filter. To use Sunset to sunrise, Location must be enabled.</string>
-    <string name="blue_light_filter_enable_now">Enable now</string>
-    <string name="blue_light_filter_enable_as_scheduled">Enable as scheduled</string>
-    <string name="blue_light_filter_scheduled_toast">Blue light filter enabled. It will be automatically disabled at scheduled end time.</string>
+    <string name="blue_light_filter_desc">Use Blue light filter at night to help you sleep better. You can set a schedule for when you want to use Blue light filter. To use Sunset to sunrise, Location needs to be turned on.</string>
+    <string name="blue_light_filter_enable_now">Turn on now</string>
+    <string name="blue_light_filter_enable_as_scheduled">Turn on as scheduled</string>
+    <string name="blue_light_filter_scheduled_toast">Blue light filter turned on. It will be automatically turned off at scheduled end time.</string>
     <string name="screen_mode_dlg_turn_off_blue_light_filter">%s and Blue light filter cannot be used at the same time. Blue light filter will be disabled.</string>
-    <string name="blue_light_filter_dlg_turn_on_location">To use Sunset to sunrise, Location must be enabled.</string>
+    <string name="blue_light_filter_dlg_turn_on_location">To use Sunset to sunrise, Location needs to be turned on.</string>
     <string name="dlg_turn_on">TURN ON</string>
     <string name="screen_resolution_title">Screen resolution</string>
     <string name="screen_resolution_desc_title">Change screen resolution</string>
@@ -1644,6 +1664,10 @@ Tap OK to allow the brightness to be increased above safe levels."</string>
     <string name="crypt_keeper_vzw_password_warning">Set the Screen lock password with at least %d characters and 1 number.</string>
     <string name="crypt_keeper_decrypt_title">Decrypt Device</string>
     <string name="crypt_keeper_decrypt_summary">Device encrypted.</string>
+    <string name="crypt_keeper_type_pin">PIN</string>
+    <string name="crypt_keeper_type_pattern">Pattern</string>
+    <string name="crypt_keeper_type_password">Password</string>
+    <string name="crypt_keeper_type_direction">Direction lock</string>
     <string name="crypt_keeper_confirm_title_dec">Confirm decryption</string>
     <string name="crypt_keeper_force_power_cycle_pattern">To start up your device, power it off, power it on again, then try again. You must draw the pattern you use to start up the device and unlock the screen. Your backup PIN cannot be used to start up your device.</string>
     <string name="crypt_keeper_setup_description_dec">"Decrypting device. This may take some time. Please wait...
@@ -1737,6 +1761,7 @@ Encryption takes an hour or more. Before you start, ensure that the battery is c
     <string name="crypt_keeper_switch_input_method">Switch input method</string>
     <string name="cryptkeeper_emergency_call">Emergency call</string>
     <string name="cryptkeeper_return_to_call">Return to call</string>
+    <string name="cryptkeeper_default_enter_msg">Your phone is encrypted for security.</string>
     <string name="enter_password">To start up your device, enter your password.</string>
     <string name="enter_pin">To start up your device, enter your PIN.</string>
     <string name="enter_pattern">To start up your device, draw your pattern.</string>
@@ -1746,11 +1771,13 @@ Encryption takes an hour or more. Before you start, ensure that the battery is c
     <string name="cryptkeeper_wrong_pin">Incorrect PIN entered</string>
     <string name="cryptkeeper_wrong_direction">Incorrect direction drawn</string>
     <string name="checking_decryption">Verifying...</string>
-    <string name="starting_android">Starting Android...</string>
     <string name="crypt_keeper_last_warn_wipe">You have only 1 attempt left to start up your device before it is reset to its factory default settings. This will erase all data, including files and downloaded apps.</string>
     <string name="crypt_keeper_failed_title_dec">Decryption failed</string>
     <string name="crypt_keeper_failed_summary_dec">Unable to complete decryption because of interruption. Perform factory data reset (erasing all data) before use.</string>
     <string name="crypt_keeper_set_screen_lock_type">Set screen lock type</string>
+    <string name="encryption_interstitial_message">"You can further protect this phone by requiring your %s to be entered before the phone starts up. This helps protect your data if the phone is lost or stolen. Some apps may require Secure Startup according to Device encryption policies for access to features, such as email sync.
+
+You will not receive any calls, messages, or notifications, and alarms will not sound, until the phone has started up."</string>
     <string name="encryption_interstitial_message_kor">Your device is encrypted. Protect your encrypted data by selecting Require screen lock to decrypt data when device powers on. This helps protect data on lost or stolen devices. You will need to unlock your device to decrypt its data whenever you power it on. You will not receive any calls, messages, or notifications until you decrypt your device.</string>
     <string name="encryption_interstitial_message_direction">"Protect your device by selecting Require Direction lock when device powers on. This helps protect data on lost or stolen devices.
 
@@ -1772,6 +1799,7 @@ You will not receive any calls, messages, or notifications, and alarms will not 
 You will not receive any calls, messages, or notifications, and alarms will not sound, until the device has started up."</string>
     <string name="encryption_interstitial_error_message">To protect your device data, change your screen lock type to PIN, Password, Pattern, or Fingerprint, then try again.</string>
     <string name="encryption_interstitial_error_message_direction">To protect your device data, change your screen lock type to PIN, Password, Pattern, Direction lock, or Fingerprints, then try again.</string>
+    <string name="encryption_interstitial_error_message_direction_without_fingerprint">To protect your device data, change your screen lock type to PIN, Password, Pattern, or Direction lock, then try again.</string>
     <string name="encryption_interstitial_error_message_iris_direction">To protect your device data, change your screen lock type to PIN, Password, Pattern, Direction lock, Fingerprints, or Irises, then try again.</string>
     <string name="encryption_interstitial_error_message_without_fingerprint">To protect your device data, change your screen lock type to PIN, Password, or Pattern, then try again.</string>
     <string name="encryption_interstitial_error_sktlock">Safety lock and Secure startup cannot be enabled at same time. Select a non-Safety lock and try again.</string>
@@ -2187,6 +2215,8 @@ Alternative security options are available on your device. Please follow all the
     <string name="iris_sensor_not_working_msg">The iris sensor is not responding. Try again later.</string>
     <string name="iris_hw_problem_msg">If this keeps happening, restart your phone.</string>
     <string name="iris_go_to_samsung_theme">Go to Samsung Themes</string>
+    <string name="biometrics_dex_cant_use_msg">"Can't use %s in Samsung DeX."</string>
+    <string name="biometrics_dex_closed_to_switch">_%s closed to switch to Samsung DeX</string>
     <string name="knox_twofactor_bio_description">Select your biometric lock type and second lock type to unlock %s.</string>
     <string name="fingerprint_registered">Registered fingerprints will be used with selected unlock method.</string>
     <string name="knox_twofactor_description">Use two lock types to make KNOX even more secure. Your fingerprints will be used as the first lock type. Select a second lock type below.</string>
@@ -2362,12 +2392,13 @@ Attempts Remaining :"</string>
     <string name="app_ops_settings_summary">View or change application permissions.</string>
     <string name="backup_key_for_applock_header">Set a pattern, PIN, or password to use together with fingerprint recognition to lock or unlock apps.</string>
     <string name="backup_key_for_privatemode_header">Set a pattern, PIN, or password to use together with fingerprint recognition to access Private mode.</string>
-    <string name="status_added">Added</string>
     <string name="text_security_title_b2c">Select a lock type. If you forget how to unlock Secure Folder, you can reset your lock using your Samsung account.</string>
+    <string name="status_added">Added</string>
     <string name="lockpattern_backup_pin">Backup PIN</string>
     <string name="applock_type_fingerprint">Fingerprint</string>
     <string name="unlock_set_unlock_two_factor_title">Two-step verification</string>
     <string name="unlock_set_unlock_cac_pin_summary">Secured with smartcard PIN.</string>
+    <string name="unlock_set_unlock_off_summary" />
     <string name="b_unlock_title">Auto lock</string>
     <string name="unlock_set_unlock_direction_summary">Low security</string>
     <string name="unlock_set_direction_title">Direction lock</string>
@@ -2502,6 +2533,7 @@ To use screen pinning:
     <string name="setup_lock_screen_intro_check_box"><b>Protect this device</b> and require a PIN, pattern, or password to unlock the screen</string>
     <string name="setup_lock_screen_intro_radio_iris">Set up iris</string>
     <string name="setup_lock_screen_intro_radio_fingerprint">Set up fingerprint</string>
+    <string name="setup_lock_screen_intro_radio_face">Set up face recognition</string>
     <string name="setup_lock_screen_intro_radio_generic">Set up PIN, pattern or password</string>
     <string name="setup_lock_screen_intro_radio_no">No, thank you</string>
     <string name="setup_lock_screen_intro_success">Your screen lock has been set up successfully.</string>
@@ -2609,7 +2641,7 @@ To use screen pinning:
     <string name="palm_swipe_title">Palm swipe to capture</string>
     <string name="screen_recorder_title">Record screen</string>
     <string name="screen_recorder_summary">Record video screenshots while you use your device.</string>
-    <string name="multi_window_setting_title">Pop-up view gesture</string>
+    <string name="multi_window_setting_title">Pop-up view action</string>
     <string name="multi_window_setting_description">When an app is open on the screen, adjust the size of the app by swiping down diagonally from either top corner of the screen.</string>
     <string name="multi_window_screen_title">Multi window</string>
     <string name="multi_window_screen_summary">Show more than one app at the same time.</string>
@@ -2647,9 +2679,9 @@ To use screen pinning:
     <string name="air_browse_music_on_lock_screen_title">Music on lock screen</string>
     <string name="air_browse_music_on_lock_screen_summary">Change music tracks on the lock screen.</string>
     <string name="air_browse_note_summary">Move between pages while in view mode.</string>
-    <string name="data_usage_enable_mobile_summery">If Mobile data is turned off, your device must be connected to a Wi-Fi network to use services that require a network connection.</string>
+    <string name="data_usage_enable_mobile_summery">Access the internet through your mobile network.</string>
     <string name="data_usage_enable_mobile_warning_skt">Data Network allowed. When using data calls, you will incur additional charges according to your data call plan.</string>
-    <string name="data_usage_enable_mobile_warning_ktt">Data Network allowed. When using data calls, you will incur additional charges according to your data call plan.</string>
+    <string name="data_usage_enable_mobile_warning_ktt">Mobile data will be turned on. Connecting to mobile networks may result in additional charges depending on your payment plan.</string>
     <string name="data_usage_enable_mobile_warning_lgt">Data Network allowed. When using data calls, you will incur additional charges according to your data call plan.</string>
     <string name="data_usage_disable_mobile_title">Turn off Mobile data</string>
     <string name="data_usage_disable_mobile_warning_skt">"Data Network disallowed.
@@ -2660,11 +2692,13 @@ Data such as calendar events or emails will not be synchronized automatically."<
 Data such as calendar events or emails will not be synchronized automatically."</string>
     <string name="data_usage_disable_mobile_warning_lgt">"Data Network disallowed.
 Data such as calendar events or emails will not be synchronized automatically."</string>
-    <string name="mobile_data_off_dialog_text_vzw">"Unless you use Wi-Fi, you will not be able to use the Internet, Email, or other apps that require a data connection.
-Turn off Mobile data?"</string>
-    <string name="mobile_data_off_dialog_text_common">"Unless you use Wi-Fi, you will no longer be able to use Internet, Email, or other apps that require a data connection.
+    <string name="data_usage_disable_mobile_warning_dcm">"If Mobile data is turned off, your device must be connected to a Wi-Fi network to use services that require a network connection.
 
 Mobile data will be turned off."</string>
+    <string name="mobile_data_off_dialog_text_vzw">"Unless you use Wi-Fi, you won't be able to use the Internet, Email or other apps that require a data connection. Turn off the mobile data connection?"</string>
+    <string name="mobile_data_off_dialog_text_volte">"Your phone's Video Calling function won't work when mobile data is off. Also, you won't be able to use the Internet, Email or other apps that need a data connection unless you use Wi-Fi. Turn off the mobile data connection?"</string>
+    <string name="mobile_data_off_dialog_text_common">"Unless you connect to a Wi-Fi network, you won't be able to use Internet, Email, or other apps that require a network connection."</string>
+    <string name="data_usage_turn_off_btn">Turn off</string>
     <string name="remotelock_explained" />
     <string name="wfd_settings_summary">"Share your device's screen with another device."</string>
     <string name="nfc_settings_advanced_explain">"Set the default NFC processing method.
@@ -2814,7 +2848,7 @@ Some NFC transactions and mobile payment services may require a different defaul
     <string name="zen_mode_events_summary">Allow notifications from S Planner and other calendar events.</string>
     <string name="zen_mode_events_summary_na">Allow notifications from Calendar events and tasks.</string>
     <string name="zen_mode_reminders_summary">Allow reminders from apps that support them.</string>
-    <string name="dnd_app_noti_summary">Set as priority interruptions to allow app notifications as exceptions.</string>
+    <string name="dnd_app_noti_summary">Allow notifications from apps that you select.</string>
     <string name="no_exceptions_dcm_summary">Mute all calls and alerts, including Area Mail alarms.</string>
     <string name="dnd_screen_switch_summary">Mute all calls and alerts, except for your custom exceptions.</string>
     <string name="app_notification_priority_app_list_title">Priority app notifications</string>
@@ -2882,7 +2916,7 @@ mode"</string>
     <string name="personal_page_secretbox_disclaimer_title">Disclaimer</string>
     <string name="personal_page_secretbox_disclaimer_message">Private mode does not protect your data from being accessed by other applications. To prevent data from being synchronized with external servers, please disable auto-sync settings on your device.</string>
     <string name="personal_page_secretbox_disclaimer_message_vzw">Content moved into Private mode will be hidden and will not be shown when you exit from Private mode. Automatic syncing while in Private mode may allow that content to be visible in 3rd party apps. Check the automatic synchronization settings of your other applications before using Private mode.</string>
-    <string name="personal_page_tutorial_app_title_message">Use Private mode to hide content that you want to keep private. While you are using the following apps, select items you want to move to Private, then tap MORE and select Move to Private. Content that has been moved to Private can only be seen while Private mode is enabled.</string>
+    <string name="personal_page_tutorial_app_title_message">"Use Private mode to hide content that you want to keep private. While you're using the following apps, select items you want to move to Private, then tap the More options button and select Move to Private. Content that has been moved to Private can only be seen while Private mode is on."</string>
     <string name="personal_page_inline_help">To use Private mode, select an access type. If you forget your Private mode access type, you will not be able to recover it, and you will not be able to use Private mode unless you reset your device to its factory default settings.</string>
     <string name="personal_page_backup_pin_summary">Create a backup PIN for Private mode, in case you forget your pattern.</string>
     <string name="personal_page_incorrect_pin">Incorrect PIN. Try again.</string>
@@ -3270,7 +3304,7 @@ Disconnect the charger to enable/disable this function."</string>
     <string name="eth_toggle_summary_on">Connect to Ethernet network.</string>
     <string name="eth_conf_summary">Configure Ethernet device</string>
     <string name="auto_swipe_title">Auto factory reset</string>
-    <string name="auto_swipe_summary_common">If you attempt to unlock your device incorrectly %d times it will be reset to factory default settings and all data will be erased, including files and downloaded apps.</string>
+    <string name="auto_swipe_summary_common">After %d incorrect attempts to unlock your phone, it will be reset to factory default settings, and all data will be erased, including files and downloaded apps.</string>
     <string name="auto_swipe_summary_subuser">If you attempt to unlock your tablet incorrectly %d times, your account will be removed. All data on your account, including files and downloaded apps, will be deleted.</string>
     <string name="home_screen_settings_title">Home screen</string>
     <string name="home_theme_settings_titles">Home screen and themes</string>
@@ -3304,9 +3338,9 @@ Disconnect the charger to enable/disable this function."</string>
     <string name="giga_lte_nokt_sim">GiGA LTE cannot be enabled while a non-KT USIM card is inserted. Insert a KT USIM card and try again.</string>
     <string name="giga_lte_roaming">Unable to enable GiGA LTE while roaming internationally.</string>
     <string name="giga_lte_samrtbonding_wifi">Wi-Fi is currently turned off and Download booster is enabled. GiGA LTE and Download booster cannot be enabled at the same time. To enable GiGA LTE, Wi-Fi will be turned on and Download booster will be disabled. GiGA LTE uses Wi-Fi and mobile networks. Downloading via mobile networks may result in additional charges depending on your payment plan.</string>
-    <string name="giga_lte_booster_smart_wifi">GiGA LTE\ufffd? ?\ufffd용?\ufffd려\ufffd? ?\ufffd운로드부?\ufffd터가 Off가 ?\ufffd니??. Wi-Fi가 ?\ufffd제?? ?\ufffd태?\ufffd니??. GiGA LTE\ufffd? ?\ufffd행?\ufffd려\ufffd? Wi-Fi \ufffd? 모바?? ?\ufffd이?\ufffd\ufffd? 모두 ?\ufffd행 ?\ufffd세??. LTE ?\ufffd트?\ufffd크?\ufffd서 ?\ufffd용?? ?\ufffd이?\ufffd는 ?\ufffd공?\ufffd에?? 차감?\ufffd니??. Wi-Fi \ufffd? 모바?? ?\ufffd이?? ?\ufffd행 ?? ?\ufffd마?\ufffd네?\ufffd워?? 기능?? ?\ufffd께 ?\ufffd작?\ufffd니??.</string>
+    <string name="giga_lte_booster_smart_wifi">GiGA LTE를 사용하려면 다운로드부스터가 Off가 됩니다. Wi-Fi가 해제된 상태입니다. GiGA LTE를 실행하려면 Wi-Fi 및 모바일 데이터를 모두 실행 하세요. LTE 네트워크에서 사용한 데이터는 제공량에서 차감됩니다. Wi-Fi 및 모바일 데이터 실행 시 스마트네트워크 기능도 함께 동작됩니다.</string>
     <string name="giga_lte_samrtbonding_mobile">Mobile data is currently turned off and Download booster is enabled. GiGA LTE and Download booster cannot be enabled at the same time. To enable GiGA LTE, Mobile data will be turned on and Download booster will be disabled. Downloading via mobile networks may result in additional charges depending on your payment plan.</string>
-    <string name="giga_lte_booster_smart_mobile">GiGA LTE\ufffd? ?\ufffd용?\ufffd려\ufffd? ?\ufffd운로드부?\ufffd터가 Off가 ?\ufffd니??. 모바?\ufffd데?\ufffd터가 ?\ufffd제?? ?\ufffd태?\ufffd니??. GiGA LTE\ufffd? ?\ufffd행?\ufffd려\ufffd? Wi-Fi \ufffd? 모바?? ?\ufffd이?\ufffd\ufffd? 모두 ?\ufffd행 ?\ufffd세??. LTE ?\ufffd트?\ufffd크?\ufffd서 ?\ufffd용?? ?\ufffd이?\ufffd는 ?\ufffd공?\ufffd에?? 차감?\ufffd니??. Wi-Fi \ufffd? 모바?? ?\ufffd이?? ?\ufffd행 ?? ?\ufffd마?\ufffd네?\ufffd워?? 기능?? ?\ufffd께 ?\ufffd작?\ufffd니??.</string>
+    <string name="giga_lte_booster_smart_mobile">GiGA LTE를 사용하려면 다운로드부스터가 Off가 됩니다. 모바일데이터가 해제된 상태입니다. GiGA LTE를 실행하려면 Wi-Fi 및 모바일 데이터를 모두 실행 하세요. LTE 네트워크에서 사용한 데이터는 제공량에서 차감됩니다. Wi-Fi 및 모바일 데이터 실행 시 스마트네트워크 기능도 함께 동작됩니다.</string>
     <string name="band_lte_title">band LTE WiFi</string>
     <string name="band_lte_body">Enjoy higher data speeds by using LTE and Wi-Fi networks at the same time. Wi-Fi and Mobile data must be turned on to enable band LTE WiFi. Additional charges may apply depending on your payment plan. band LTE WiFi may not be available depending on content and network conditions.</string>
     <string name="band_lte_nosim_msg">No USIM card is inserted. Insert a USIM card and try again.</string>
@@ -3349,6 +3383,7 @@ Please activate Mobile Data in order to use 4.5Gbit"</string>
     <string name="samsung_backup_summary">Use your Samsung account to back up your data.</string>
     <string name="samsung_restore_summary">Use your Samsung account to restore your backup data.</string>
     <string name="sns_settings_title">Switch to using a mobile network to access the Internet when your Wi-Fi Internet connection becomes unstable. This may result in additional charges depending on your payment plan.</string>
+    <string name="sns_settings_title_include_autowifi">Switch to mobile data when your Wi-Fi connection becomes unstable. Your phone can also switch to saved Wi-Fi networks from the most frequently visited areas. Smart network switch will automatically turn on or off saved Wi-Fi networks.</string>
     <string name="smart_bonding">Download booster</string>
     <string name="smart_bonding_popup_title">Enable Download booster</string>
     <string name="smart_bonding_description_vzw">"Download large files (over %d MB) faster by using Wi-Fi and LTE networks at the same time. The Download booster icon will be shown on the status bar when Download booster is turned on.
@@ -3551,6 +3586,7 @@ Do you still want to connect?"</string>
     <string name="prev_button_label">Previous</string>
     <string name="wifi_sns_setting_alert_button_do_not_enable">Do not enable</string>
     <string name="wifi_smart_network_switch_aggressive_switching_summary">Switch to using a mobile network to access the Internet even when your Wi-Fi Internet connection is only slightly unstable. This may increase your data usage.</string>
+    <string name="wifi_smart_network_switch_aggressive_switching_vzw">Fast switching</string>
     <string name="wifi_smart_network_switch_aggressive_switching">Aggressive switching</string>
     <string name="wifi_smart_network_switch_normal_switching">Normal switching</string>
     <string name="tethering_attention_message">"When tethering is enabled, all packet transmission is regarded as communications made by connecting to a PC or other external device.
@@ -3581,6 +3617,8 @@ In this case, Packet communication charges may apply even when external devices 
     <string name="wifi_manage_network">Manage Networks</string>
     <string name="wlan_permission_available_message">Asks your permission to use WLAN via a pop-up</string>
     <string name="wlan_permission_available">Ask to use WLAN</string>
+    <string name="wifi_hotspot20_summary_tmo">Seamlessly connect to Hotspot 2.0 enabled Wi-Fi access points without needing a password.</string>
+    <string name="wifi_hotspot20_summary_dcm">Connect automatically to Wi-Fi access points that support Hotspot 2.0.</string>
     <string name="wifi_hotspot20_summary">Connect automatically to Wi-Fi access points that support Hotspot 2.0.</string>
     <string name="wifi_hotspot20_enable">Hotspot 2.0</string>
     <string name="wifi_att_auto_connect_summary">Automatically connect to AT&amp;T Wi-Fi hotspot when detected.</string>
@@ -3603,7 +3641,7 @@ In this case, Packet communication charges may apply even when external devices 
     <string name="wifi_enable_warning_vzw">Turning on Wi-Fi will disable Mobile Hotspot.</string>
     <string name="wifi_enable_warning_tmo">Wi-Fi is turned off when Mobile HotSpot is active. To turn on Wi-Fi, please turn off Mobile HotSpot.</string>
     <string name="wifi_enable_warning_spr">Turning on Wi-Fi will disable Hotspot.</string>
-    <string name="wifi_enable_warning_mtr">Turning on Wi-Fi will turn off Mobile Hotspot. Continue?</string>
+    <string name="wifi_enable_warning_mtr">Wi-Fi is turned off when Mobile HotSpot is active. To turn on Wi-Fi, please turn off Mobile HotSpot.</string>
     <string name="wifi_enable_warning_usc">Turning on Wi-Fi will turn off Portable Wi-Fi hotspot. Continue?</string>
     <string name="wifi_enable_warning">Turning on Wi-Fi will disable Mobile hotspot.</string>
     <string name="wifi_control_history_title">Wi-Fi control history</string>
@@ -3902,6 +3940,7 @@ Portable Wi-Fi hotspot allows your Android-powered device to be used as a mobile
     <string name="wifi_tether_dialog_nosim_warning_chn">Insert a SIM card to use Mobile hotspot and other tethering functions.</string>
     <string name="wifi_tether_dialog_nosim_warning_vzw">Insert a SIM card to use Mobile Hotspot and other tethering options.</string>
     <string name="wifi_tether_dialog_nosim_warning_tmo">"Please install SIM card in order to share your phone's data connection with other devices using Mobile Wi-Fi HotSpot or USB tethering for Internet access."</string>
+    <string name="wifi_tether_dialog_nosim_warning_mtr">"Please install SIM card in order to share your phone's data connection with other devices using Mobile Wi-Fi Hotspot or USB tethering for Internet access."</string>
     <string name="wifi_tether_dialog_nosim_warning_spr">Insert SIM for using Hotspot include tethering</string>
     <string name="wifi_tether_dialog_nosim_warning_att">Insert SIM for using portable Wi-Fi hotspot include tethering.</string>
     <string name="wifi_tether_dialog_nosim_warning_usc">Insert a SIM card to use Portable Wi-Fi hotspot and other tethering options.</string>
@@ -4214,6 +4253,8 @@ Incorrect"</string>
     <string name="master_clear_desc_music">Music</string>
     <string name="master_clear_desc_pictures">Pictures</string>
     <string name="master_clear_desc_other_user_data">All other user data</string>
+    <string name="master_clear_not_enough_battery">Charge your battery to at least %d%% before resetting your phone.</string>
+    <string name="master_clear_not_enough_battery_tablet">Charge your battery to at least %d%% before resetting your tablet.</string>
     <string name="store_mode_reset_title">Password Required</string>
     <string name="store_mode_reset_text">Enter the password to perform device reset in Store Demo Mode</string>
     <string name="text_two_locktype">Fingerprint and %s</string>
@@ -4297,8 +4338,16 @@ Receiving SMS"</string>
     <string name="google_settings_popup_msg">Only a limited number of Google settings are available. Some actions may not work.</string>
     <string name="smart_lock_popup_msg">Only a limited number of Google settings are available. Some actions may not work.</string>
     <string name="prevent_to_change_by_device_policy">Security policy prevents use of %s</string>
+    <string name="quick_tile_sync_title">Sync</string>
+    <string name="nfc_uim_checking">UIM Checking...</string>
+    <string name="nfc_uim_not_supported">Inserted UIM can not use NFC/Osaifu-Keitai lock function</string>
+    <string name="nfc_uim_not_supported_locked">ON. Inserted UIM can not use NFC/Osaifu-Keitai lock function</string>
+    <string name="nfc_uim_mno_unmatched">This is not KDDI UIM or is not supported NFC/Osaifu-Keitai lock function</string>
+    <string name="nfc_uim_mno_unmatched_locked">ON. This is not KDDI UIM or is not supported NFC/Osaifu-Keitai lock function</string>
     <string name="name_jerusalem">Jerusalem</string>
     <string name="name_israel">Israel</string>
+    <string name="starting_android">Starting Android...</string>
+    <string name="okay">OK</string>
     <string name="yes">Yes</string>
     <string name="no">No</string>
     <string name="create">Create</string>
@@ -4528,7 +4577,6 @@ You can change this later by going to Bluetooth settings."</string>
     <string name="sd_card_settings_label">SD card</string>
     <string name="proxy_settings_label">Proxy settings</string>
     <string name="cancel">Cancel</string>
-    <string name="okay">OK</string>
     <string name="forget">FORGET</string>
     <string name="save">Save</string>
     <string name="done">Done</string>
@@ -4675,7 +4723,6 @@ To resume using your phone, you need to perform a factory reset. When you set up
     <string name="unlock_set_unlock_launch_picker_change_summary">Change or disable pattern, PIN, or password.</string>
     <string name="unlock_set_unlock_launch_picker_enable_summary">Select screen lock method.</string>
     <string name="unlock_set_unlock_off_title">None</string>
-    <string name="unlock_set_unlock_off_summary" />
     <string name="unlock_set_unlock_none_title">Swipe</string>
     <string name="unlock_set_unlock_none_summary">No security</string>
     <string name="unlock_set_unlock_pattern_title">Pattern</string>
@@ -7080,18 +7127,18 @@ You will not receive any calls, messages, or notifications, and alarms will not 
     <string name="sharing_remote_bugreport_dialog_message">This bug report is being shared with your IT admin. Contact them for more details.</string>
     <string name="share_remote_bugreport_action">Share</string>
     <string name="decline_remote_bugreport_action">Decline</string>
-    <string name="usb_use_charging_only">Charging</string>
+    <string name="usb_use_charging_only">Charge this phone</string>
     <string name="usb_use_charging_only_desc">Just charge this device</string>
     <string name="usb_use_power_only">Supplying power</string>
     <string name="usb_use_power_only_desc">Charge the connected device via USB.</string>
     <string name="usb_use_file_transfers_vzw">File Transfer</string>
-    <string name="usb_use_file_transfers">Transferring media files</string>
+    <string name="usb_use_file_transfers">Transfer media files</string>
     <string name="usb_use_file_transfers_desc">Transfer files to Windows or Mac (MTP)</string>
     <string name="usb_use_photo_transfers_vzw">Photo Transfer</string>
     <string name="usb_use_photo_transfers">Transferring images</string>
     <string name="usb_use_photo_transfers_desc">Transfer photos or files if MTP is not supported (PTP)</string>
     <string name="usb_use_photo_transfers_summary_vzw">Transfer camera photos to a computer.</string>
-    <string name="usb_use_photo_transfers_summary">Transfer images and other files via a PTP connection if MTP is not supported.</string>
+    <string name="usb_use_photo_transfers_summary">"Select this mode if Transfer media files isn't working. You can only transfer image files."</string>
     <string name="usb_use_MIDI_vzw">MIDI</string>
     <string name="usb_use_MIDI">Connecting MIDI devices</string>
     <string name="usb_use_MIDI_desc">Use device for MIDI input</string>

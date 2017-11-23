@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="data_saver_unrestricted_summary_chn">
+        <item quantity="other">%d aplicații pot să utilizeze date mobile fără restricții cât timp funcția Restricționare date fundal este activată.</item>
+        <item quantity="one">%d aplicații pot să utilizeze date mobile fără restricții cât timp funcția Restricționare date fundal este activată.</item>
+    </plurals>
     <plurals name="lock_timeout_hours">
         <item quantity="other">%d ore</item>
         <item quantity="one">1 oră</item>

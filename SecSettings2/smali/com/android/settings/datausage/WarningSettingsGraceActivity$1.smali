@@ -874,7 +874,7 @@
 
     move-object/from16 v16, v0
 
-    const v17, 0x7f0b04bd
+    const v17, 0x7f0b04ce
 
     invoke-virtual/range {v16 .. v17}, Lcom/android/settings/datausage/WarningSettingsGraceActivity;->getString(I)Ljava/lang/String;
 

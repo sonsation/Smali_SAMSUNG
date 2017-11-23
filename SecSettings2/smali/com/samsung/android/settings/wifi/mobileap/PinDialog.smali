@@ -99,14 +99,14 @@
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
     .line 89
-    const v1, 0x7f0b11e1
+    const v1, 0x7f0b1367
 
     invoke-virtual {p0, v1}, Lcom/samsung/android/settings/wifi/mobileap/PinDialog;->setTitle(I)V
 
     .line 90
     iget-object v1, p0, Lcom/samsung/android/settings/wifi/mobileap/PinDialog;->mContext:Landroid/content/Context;
 
-    const v2, 0x7f0b0438
+    const v2, 0x7f0b0440
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -121,7 +121,7 @@
     .line 91
     iget-object v1, p0, Lcom/samsung/android/settings/wifi/mobileap/PinDialog;->mContext:Landroid/content/Context;
 
-    const v2, 0x7f0b107a
+    const v2, 0x7f0b1202
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

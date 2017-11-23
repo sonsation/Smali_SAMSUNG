@@ -604,7 +604,7 @@
 
     .prologue
     .line 791
-    const v0, 0x7f0b1817
+    const v0, 0x7f0b199d
 
     return v0
 .end method
@@ -1226,7 +1226,7 @@
     .line 346
     const/4 v4, 0x7
 
-    const v5, 0x7f0b11d4
+    const v5, 0x7f0b135a
 
     invoke-interface {p1, v6, v4, v6, v5}, Landroid/view/ContextMenu;->add(IIII)Landroid/view/MenuItem;
 
@@ -1387,7 +1387,7 @@
     .line 361
     const/16 v4, 0x8
 
-    const v5, 0x7f0b11d6
+    const v5, 0x7f0b135c
 
     invoke-interface {p1, v6, v4, v6, v5}, Landroid/view/ContextMenu;->add(IIII)Landroid/view/MenuItem;
 
@@ -1449,7 +1449,7 @@
 
     .line 369
     :cond_f
-    const v4, 0x7f0b11d7
+    const v4, 0x7f0b135d
 
     invoke-interface {p1, v6, v8, v6, v4}, Landroid/view/ContextMenu;->add(IIII)Landroid/view/MenuItem;
 
@@ -1469,7 +1469,7 @@
     .line 376
     const/16 v4, 0xa
 
-    const v5, 0x7f0b11d8
+    const v5, 0x7f0b135e
 
     invoke-interface {p1, v6, v4, v6, v5}, Landroid/view/ContextMenu;->add(IIII)Landroid/view/MenuItem;
 
@@ -1694,7 +1694,7 @@
     invoke-direct {v0, v1}, Landroid/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
 
     .line 622
-    const v1, 0x7f0b0cc2
+    const v1, 0x7f0b0ce4
 
     .line 621
     invoke-virtual {v0, v1}, Landroid/app/AlertDialog$Builder;->setMessage(I)Landroid/app/AlertDialog$Builder;
@@ -1702,7 +1702,7 @@
     move-result-object v0
 
     .line 623
-    const v1, 0x7f0b0cc1
+    const v1, 0x7f0b0ce3
 
     .line 621
     invoke-virtual {v0, v1}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
@@ -1719,7 +1719,7 @@
     invoke-direct {v1, p0}, Lcom/android/settings/wifi/WifiSettings$3;-><init>(Lcom/android/settings/wifi/WifiSettings;)V
 
     .line 625
-    const v2, 0x7f0b042f
+    const v2, 0x7f0b0437
 
     .line 621
     invoke-virtual {v0, v2, v1}, Landroid/app/AlertDialog$Builder;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
@@ -1732,7 +1732,7 @@
     invoke-direct {v1, p0}, Lcom/android/settings/wifi/WifiSettings$4;-><init>(Lcom/android/settings/wifi/WifiSettings;)V
 
     .line 633
-    const v2, 0x7f0b0438
+    const v2, 0x7f0b0440
 
     .line 621
     invoke-virtual {v0, v2, v1}, Landroid/app/AlertDialog$Builder;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
@@ -1958,7 +1958,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0b049b
+    const v4, 0x7f0b04a6
 
     invoke-static {v3, v4, v6}, Landroid/widget/Toast;->makeText(Landroid/content/Context;II)Landroid/widget/Toast;
 

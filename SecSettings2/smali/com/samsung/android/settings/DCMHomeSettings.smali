@@ -1387,7 +1387,7 @@
 
     aput-object v2, v4, v5
 
-    const v5, 0x7f0b03af
+    const v5, 0x7f0b03b1
 
     invoke-virtual {p0, v5, v4}, Lcom/samsung/android/settings/DCMHomeSettings;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -1435,7 +1435,7 @@
     .line 231
     .end local v0    # "dialog":Landroid/app/AlertDialog;
     :pswitch_0
-    const v3, 0x7f0b03a9
+    const v3, 0x7f0b03ab
 
     invoke-virtual {p0, v3}, Lcom/samsung/android/settings/DCMHomeSettings;->getString(I)Ljava/lang/String;
 
@@ -1445,7 +1445,7 @@
 
     .line 234
     :pswitch_1
-    const v3, 0x7f0b03ab
+    const v3, 0x7f0b03ad
 
     invoke-virtual {p0, v3}, Lcom/samsung/android/settings/DCMHomeSettings;->getString(I)Ljava/lang/String;
 
@@ -1460,7 +1460,7 @@
     if-eqz v3, :cond_1
 
     .line 238
-    const v3, 0x7f0b03ad
+    const v3, 0x7f0b03af
 
     invoke-virtual {p0, v3}, Lcom/samsung/android/settings/DCMHomeSettings;->getString(I)Ljava/lang/String;
 

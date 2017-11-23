@@ -273,7 +273,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0b0ffc
+    const v2, 0x7f0b1184
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -475,7 +475,7 @@
 
     iget v3, p0, Lcom/android/settings/bluetooth/DevicePickerFragment;->mFilterType:I
 
-    const v4, 0x7f0b1173
+    const v4, 0x7f0b12f9
 
     invoke-direct {p0, v2, v4, v3}, Lcom/android/settings/bluetooth/DevicePickerFragment;->addDeviceCategory(Lcom/samsung/android/settings/bluetooth/BluetoothDevicePreferenceGroup;II)V
 
@@ -545,7 +545,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0b03c9
+    const v3, 0x7f0b03cb
 
     invoke-static {v2, v3, v6}, Landroid/widget/Toast;->makeText(Landroid/content/Context;II)Landroid/widget/Toast;
 
@@ -609,7 +609,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0b03ca
+    const v3, 0x7f0b03cc
 
     invoke-static {v2, v3, v6}, Landroid/widget/Toast;->makeText(Landroid/content/Context;II)Landroid/widget/Toast;
 
@@ -729,7 +729,7 @@
     .param p1, "savedInstanceState"    # Landroid/os/Bundle;
 
     .prologue
-    const v5, 0x7f0b1001
+    const v5, 0x7f0b1189
 
     const/16 v4, 0xc
 
@@ -785,7 +785,7 @@
     if-eqz v2, :cond_2
 
     .line 256
-    const v2, 0x7f0b1154
+    const v2, 0x7f0b12da
 
     invoke-virtual {v0, v2}, Landroid/app/ActionBar;->setTitle(I)V
 
@@ -865,7 +865,7 @@
     .local v0, "mIsDiscovering":Z
     if-eqz v0, :cond_1
 
-    const v1, 0x7f0b1505
+    const v1, 0x7f0b168b
 
     :goto_0
     invoke-interface {p1, v3, v4, v3, v1}, Landroid/view/Menu;->add(IIII)Landroid/view/MenuItem;
@@ -903,7 +903,7 @@
 
     .line 197
     :cond_1
-    const v1, 0x7f0b0fec
+    const v1, 0x7f0b1174
 
     goto :goto_0
 
@@ -1383,7 +1383,7 @@
 
     iget-object v1, p0, Lcom/android/settings/bluetooth/DevicePickerFragment;->mScan:Landroid/view/MenuItem;
 
-    const v2, 0x7f0b0fec
+    const v2, 0x7f0b1174
 
     invoke-interface {v1, v2}, Landroid/view/MenuItem;->setTitle(I)Landroid/view/MenuItem;
 
@@ -1614,7 +1614,7 @@
 
     if-eqz p1, :cond_1
 
-    const v4, 0x7f0b1505
+    const v4, 0x7f0b168b
 
     :goto_0
     invoke-interface {v6, v4}, Landroid/view/MenuItem;->setTitle(I)Landroid/view/MenuItem;
@@ -1640,7 +1640,7 @@
 
     .line 365
     :cond_1
-    const v4, 0x7f0b0fec
+    const v4, 0x7f0b1174
 
     goto :goto_0
 

@@ -31,7 +31,7 @@
     <string name="bluetooth_disconnected">Shkëputur</string>
     <string name="bluetooth_disconnecting">Duke u shkëputur…</string>
     <string name="bluetooth_connecting">Po lidhem…</string>
-    <string name="bluetooth_connected">Lidhur.</string>
+    <string name="bluetooth_connected">Lidhur</string>
     <string name="bluetooth_pairing">Po çiftoj…</string>
     <string name="bluetooth_connected_no_headset">U lidh (pa telefon)</string>
     <string name="bluetooth_connected_no_a2dp">U lidh (nuk ka media)</string>
@@ -432,7 +432,7 @@ Enter the code you get from Verizon:"</string>
     <string name="answering_end_call_title">"Për t'iu përgjigjur thirrjeve dhe për t'i përfunduar"</string>
     <string name="audio_preference_title">Dëgjimi</string>
     <string name="mono_audio_title">Audio mono</string>
-    <string name="mono_audio_summary">Ndrysho audion nga stereo në mono, kur përdor një mikrokufje vetëm.</string>
+    <string name="mono_audio_summary">Ndrysho audion nga stereo në mono, për të dëgjuar me një vesh.</string>
     <string name="multi_window_title">Multi-window</string>
     <string name="magnifier_seekbar_plus_tts">Plus</string>
     <string name="magnifier_seekbar_minus_tts">Minus</string>
@@ -513,16 +513,18 @@ Shënim: Tri-trokitja për zmadhim funksionon kudo, me përjashtim të tastierë
     <string name="direct_access_actions_universal_switch_title">Çelësi universal</string>
     <string name="sound_detector_title">Detekt. i qarjes së bebes</string>
     <string name="sound_detector_main_title">Detektorët e tingullit</string>
-    <string name="sound_detector_main_description">Merr sinjalizime kur pajisja dallon të qarët e bebes ose zilen e derës.</string>
+    <string name="sound_detector_main_description">Merr sinjalizime kur telefoni dallon të qarët e bebes ose zilen e derës.</string>
     <string name="accessibility_easy_interaction_summary">Shpërfill ose përgjum alarmet, ngjarjet e kalendarit dhe sinjalizimet e kohëmatësit, si dhe përgjigju thirrjeve hyrëse ose refuzoji me një trokitje të vetme.</string>
     <string name="accessibility_easy_interaction_summary_tablet_wifi">Trokit për të ndalur/përgjumur alarmet dhe ngjarjet e kalendarit.</string>
-    <string name="all_sound_off">Fik të gjithë tingujt</string>
-    <string name="all_sound_off_summary">Mos luaj tinguj, as përmes telefolësit, edhe sikur regjimi zanor të jetë cilësuar si Tingull.</string>
+    <string name="all_sound_off">Heshto të gjithë tingujt</string>
+    <string name="all_sound_off_summary">Fiki të gjithë tingujt, përfshi thirrjet, edhe sikur regjimi zanor të jetë cilësuar si Tingull.</string>
     <string name="all_sound_off_dialog_summary">%1$s dhe %2$s nuk mund të aftësohen njëkohësisht. %3$s do të paaftësohet.</string>
+    <string name="all_sound_off_popup_description">Për të përdorur Heshto gjithë tingujt, duhet të fiket %s.</string>
+    <string name="all_sound_turn_off_button">Fike</string>
     <string name="turn_off_all_sounds">Fik të gjithë tingujt</string>
     <string name="turn_off_all_sounds1">Fik të gjithë tingujt dhe mesazhi i përgjigjes nuk mund të aftësohen të dyja njëkohësisht.</string>
     <string name="turn_off_all_sounds2">Fik të gjithë tingujt dhe mesazhi i përgjigjes nuk mund të aftësohen të dyja njëkohësisht. Mesazhi i përgjigjes do të paaftësohet.</string>
-    <string name="turn_off_all_sounds_toast_with_sound_detector">Fik të gjithë tingujt nuk mund të paaftësohet kur janë aftësuar detektorët e tingujve. Për t‘i paaftësuar këta, shko te Cilësimet > Aksesibiliteti > Dëgjimi > Detektorët e tingujve dhe atje paaftësoji të gjithë detektorët e tingujve.</string>
+    <string name="turn_off_all_sounds_toast_with_sound_detector">S‘mund të fikësh Heshto gjithë tingujt kur janë ndezur Detektorët e tingullit.</string>
     <string name="accessibility_categories_title">Kategoritë</string>
     <string name="share_accessibility_settings">Menaxho aksesshmërinë</string>
     <string name="share_accessibility_settings_summary">Importo dhe eksporto cilësimet e tua të aksesshmërisë, ose përbashkoji me pajisje të tjera.</string>
@@ -659,6 +661,7 @@ Gjatë kohës që ky funksion është aftësuar, Rrotullimi auto i ekranit do t�
     <string name="deviceOption">Opsionet e pajisjes</string>
     <string name="lock">Kyç</string>
     <string name="powerOff">Fik</string>
+    <string name="unable_assistantmenu_while_sidesync">S’mund ta ndezësh Menynë asistuese kur je duke përdorur SideSync.</string>
     <string name="eamenableinfo">Për të aftësuar Asistentin plus, përzgjidh së paku një aplikacion.</string>
     <string name="fetch_progress">Duke ngarkuar të dhëna…</string>
     <string name="assistant_menu_enable_message">%s dhe opsionet e mëposhtme nuk mund të aftësohen njëkohësisht. Opsionet e mëposhtme do të paaftësohen.</string>
@@ -765,7 +768,7 @@ Trokit këtu për ta shkarkuar këtë funksionalitet."</string>
     <string name="xcover_key_shortcut_battery_conserving_mode">Battery conserving mode</string>
     <string name="xcover_key_shortcut_normal_mode">Regjimi normal</string>
     <string name="flight_mode_enabled_toast">Nuk mund të lidhem me rrjetet celulare kur është aftësuar regjimi Avion. Çaktivizo regjimin Avion dhe provo sërish.</string>
-    <string name="airplane_mode_summary">Paaftëso funksionet e thirrjes dhe të mesazhimit, si dhe fik Të dhënat celulare.</string>
+    <string name="airplane_mode_summary">Fik thirrjet, mesazhimin dhe Të dhënat celulare.</string>
     <string name="usb_not_support_mtp_usb3_dialog_title">Lajm</string>
     <string name="airplane_mode_desc">Regjimi Avion të lejon të fikësh funksionalitete të rrjetit, përfshi edhe Wi-Fi. Për të përdorur Wi-Fi, ndize në Cilësimet ose panelin e njoftimeve.</string>
     <string name="flight_mode_enable_popup_title">aktivizo regjimin Avion</string>
@@ -905,6 +908,7 @@ Mund ta ndryshosh këtë më vonë që nga cilësimet Bluetooth."</string>
     <string name="bluetooth_control_app_disable_summary">Bluetooth u fik: %s</string>
     <string name="bluetooth_enter_pin_msg">"Fut kodin PIN për t'u çiftuar me %s (provo 0000 ose 1234)."</string>
     <string name="bluetooth_pin_maximum_number_message">U arrit numri maksimal i shenjave.</string>
+    <string name="bluetooth_frp_permission_message">S’mund të përdorësh pajisje Bluetooth për këtë thirrje.</string>
     <string name="settings_menu_done">Kryer</string>
     <string name="usb_tethering_unavailable_subtext_tmo">USB not connected</string>
     <string name="usb_tethering_available_subtext_tmo">USB connected, check to tether</string>
@@ -945,6 +949,11 @@ Edhe kur Kapja inteligjente është paaftësuar, mund t‘ia aksesosh funksional
 - Të vizatosh në pamjen e çastit.
 - Ta krasitësh pamjen e çastit.
 - Ta përbashkosh pamjen e çastit."</string>
+    <string name="smart_capture_summary">Trego opsione të mëtejshme, pasi të kapësh një pamje çasti. Me Kapjen inteligjente, mundesh:</string>
+    <string name="smart_capture_summary_1">Kap zona të fshehura të ekranit.</string>
+    <string name="smart_capture_summary_2">Vizato në pamjen e çastit.</string>
+    <string name="smart_capture_summary_3">Krasit pamjen e çastit.</string>
+    <string name="smart_capture_summary_4">Përbashko pamjen e çastit.</string>
     <string name="identify_unsaved_numbers_title">Identifiko numrat e paruajtur</string>
     <string name="identify_unsaved_numbers_title_usa">Identifiko numrat spam</string>
     <string name="call_message_spam_filter_title">Call/message spam filter</string>
@@ -1041,6 +1050,7 @@ Edhe kur Kapja inteligjente është paaftësuar, mund t‘ia aksesosh funksional
     <string name="fota_update_summary">Trokit këtu për të përditësuar firmuerin në versionin më të fundit dhe përdorur funksionalitetet më të fundit.</string>
     <string name="favorite_tab">Cilësimet e shpejta</string>
     <string name="device_maintenance_title">Mirëmbajtja e pajisjes</string>
+    <string name="memory_string">Kujtim</string>
     <string name="tab_favorite_edit">Redakto cilësimet e shpejta</string>
     <string name="add_favorite_button">Redakto cilësimet e shpejta</string>
     <string name="cloud_and_accounts_title">Reja dhe llogaritë</string>
@@ -1078,7 +1088,12 @@ Edhe kur Kapja inteligjente është paaftësuar, mund t‘ia aksesosh funksional
     <string name="notification_settings_apps_title">Njoftime të app-eve</string>
     <string name="international_roaming_setting">Cilësimet e roamingut</string>
     <string name="user_manual_mos">manuali i përdoruesit</string>
-    <string name="data_saver_description">Për të ulur përdorimin e të dhënave, Kursyesi i të dhënave nuk i lejon disa app-e që të dërgojnë ose të marrin të dhëna në sfond. Po ashtu, app-et aktualisht në përdorim mund të marrin akses në të dhënat, por më rrallë. Për shembull, imazhet mund të mos tregohen si duhet, derisa të trokasësh mbi to.</string>
+    <string name="data_saver_description">Kursyesi i të dhënave ndihmon që ta ulësh përdorimin e të dhënave duke mos i lejuar disa app-e që të dërgojnë ose të marrin të dhëna në sfond. App-et që ti përdor aktualisht, lejohen të përdorin të dhëna celulare, por do ta bëjnë këtë më rrallë. Për shembull, imazhet mund të tregohen vetëm pasi të trokasësh mbi to.</string>
+    <string name="unrestricted_data_saver_chn">Përdor të dhëna pa kufizime</string>
+    <string name="data_saver_description_chn">Për të ulur përdorimin e të dhënave, Kufizo të dhënat në sfond nuk i lejon disa app-e që të dërgojnë ose të marrin të dhëna në sfond. Po ashtu, app-et aktualisht në përdorim mund të marrin akses në të dhënat, por më rrallë. Për shembull, imazhet mund të mos tregohen si duhet, derisa të trokasësh mbi to.</string>
+    <string name="data_saver_title_chn">Kufizo të dhënat në sfond</string>
+    <string name="unrestricted_app_title_chn">Përdor të dhëna pa kufizime</string>
+    <string name="unrestricted_app_summary_chn">Ky app mund të përdorë të dhëna celulare pa kufizim kur është aftësuar Kufizo të dhënat në sfond.</string>
     <string name="data_used_editor_subtitle">Enter the amount of data you have used this month:</string>
     <string name="traffic_vertify">Details</string>
     <string name="btn_tmo">Upgrade data service</string>
@@ -1130,7 +1145,9 @@ Data usage is measured by your phone. Your carrier may account for usage differe
     <string name="last_checked_date">Përdorur së fundi më:</string>
     <string name="auto_update">Shkarko përditësimet auto.</string>
     <string name="auto_update_summary">Shkarko automatikisht përditësime të softuerit kur je lidhur me një rrjet Wi-Fi. Gjatë shkarkimit, gjithnjë do të mund ta përdorësh pajisjen.</string>
-    <string name="scheduled_update">Përditësimet e planëzuara SW</string>
+    <string name="auto_update_over_wifi">Shkarko auto përmes Wi-Fi</string>
+    <string name="auto_update_over_wifi_summary">Shkarko përditësimet e softuerit automatikisht, kur je lidhur me një rrjet Wi-Fi. Në varësi të ofruesit të shërbimit, përditësimet mund të shkarkohen edhe duke përdorur të dhëna celulare, pa ndonjë shpenzim shtesë. Gjithnjë mund ta përdorësh telefonin gjatë shkarkimit.</string>
+    <string name="scheduled_update">Përditësimet e softuerit</string>
     <string name="scheduled_update_summary_default">Fikur</string>
     <string name="scheduled_update_summary_set_time">Përditësimi do të nisë më %s</string>
     <string name="scheduled_update_summary_set_time_everyday">Përditësimi do të nisë çdo ditë më %s</string>
@@ -1163,7 +1180,7 @@ Telefoni yt përmban softuer diagnostik që, me pëlqimin tënd, mund të mbledh
     <string name="memory_mms_usage">MMS</string>
     <string name="user_owner">Pronari</string>
     <string name="unable_to_charge_the_connected_device">"S'mund të përdor kabllon USB për %s."</string>
-    <string name="unable_to_change_usb_options_via_smart_switch">Nuk mund t‘i ndryshoj opsionet USB kur po transferohen të dhëna përmes Smart Switch.</string>
+    <string name="unable_to_change_usb_options_via_smart_switch">S’mund t‘i ndryshoj opsionet USB kur po transferohen të dhëna me Smart Switch.</string>
     <string name="usb_configuring">Po konfiguron…</string>
     <string name="usb_use_none_summary">Të dhënat në pajisjen tënde nuk mund të transferohen.</string>
     <string name="usb_use_charging_only_summary_vzw">Just charge this phone.</string>
@@ -1171,9 +1188,9 @@ Telefoni yt përmban softuer diagnostik që, me pëlqimin tënd, mund të mbledh
     <string name="usb_use_file_transfers_summary_vzw">Transfer media files to a computer.</string>
     <string name="usb_use_file_transfers_summary">Transfero skedarë media te një PC, përmes një lidhjeje MTP.</string>
     <string name="usb_use_MIDI_summary_vzw">Use device for MIDI input.</string>
-    <string name="usb_use_MIDI_summary">Përdore pajisjen e lidhur si lexues MIDI (Musical Instrument Digital Interface ose Ndërfaqe Dixhitale për Instrumente Muzikore) ose burim hyrës.</string>
-    <string name="usb_use_software_installation">Software Installation</string>
-    <string name="usb_use_software_installation_summary">Install Software Update and Repair tool for your device on a Mac or Windows computer.</string>
+    <string name="usb_use_MIDI_summary">Përdore pajisjen e lidhur si lexues MIDI ose burim futës.</string>
+    <string name="usb_use_system_update">Përditësim i sistemit</string>
+    <string name="usb_use_system_update_summary">Instaloje Asistentin e Gradimit të Softuerit në kompjuter dhe përditësoje ose riparoje këtë telefon.</string>
     <string name="sim_status_code">Kodi</string>
     <string name="sim_status_btn_update">Përd. statusin kartës SIM</string>
     <string name="sim_status_updating">Duke përditësuar…</string>
@@ -1262,7 +1279,7 @@ Trokit mbi OK për të lejuar që ndriçimi të rritet mbi nivelet e sigurisë."
     <string name="display_temperature">Balanca e ngjyrave</string>
     <string name="adjust_your_display_colour">Përshtat ngjyrat e ekranit për të ndryshuar dukjen e toneve të bardha.</string>
     <string name="led_indicator_settings">Treguesi LED</string>
-    <string name="led_indicator_settings_summary">Ndiz indikatorin LED gjatë karikimit, regjistrimit zanor ose kur merr njoftime.</string>
+    <string name="led_indicator_settings_summary">Ndiz treguesin LED kur ekrani është i fikur, për të treguar statusin e regjistrimit zanor, njoftimeve të palexuara dhe baterisë.</string>
     <string name="screen_resolution_desc">Disa materiale mund të duken të shfokusuara ose mund të mos mbështeten në FHD ose HD.</string>
     <string name="display_battery_percentage">Trego % e baterisë</string>
     <string name="display_battery_percentage_summary">Trego energjinë e mbetur në bateri si përqindje në shiritin e statusit.</string>
@@ -1309,12 +1326,12 @@ Trokit mbi OK për të lejuar që ndriçimi të rritet mbi nivelet e sigurisë."
     <string name="blue_light_filter_off_time_next_day_summary_format">%s ditën pasuese</string>
     <string name="blue_light_filter_user_schedule_title">Orar i personalizuar</string>
     <string name="blue_light_filter_auto_schedule_title">Nga perëndimi në lindje</string>
-    <string name="blue_light_filter_desc">Përdor Filtrin e dritës së kaltër gjatë natës, që të flesh pastaj më mirë. Cakto një orar se kur dëshiron që ta përdorësh Filtrin e dritës së kaltër. Për të përdorur Nga perëndimi në lindje, duhet aftësuar Vendndodhja.</string>
-    <string name="blue_light_filter_enable_now">Aftëso tani</string>
+    <string name="blue_light_filter_desc">Përdor Filtrin e dritës së kaltër gjatë natës, që të flesh pastaj më mirë. Mund të caktosh një orar se kur dëshiron që ta përdorësh Filtrin e dritës së kaltër. Për të përdorur Nga perëndimi në lindje, duhet ndezur Vendndodhja.</string>
+    <string name="blue_light_filter_enable_now">Ndize tani</string>
     <string name="blue_light_filter_enable_as_scheduled">Aftëso sipas planit</string>
-    <string name="blue_light_filter_scheduled_toast">Filtri i dritës së kaltër u aftësua. Do të paaftësohet automatikisht në orën e mbarimit të planëzuar.</string>
+    <string name="blue_light_filter_scheduled_toast">Filtri i dritës së kaltër u ndez. Do të fiket automatikisht në orën e mbarimit të planëzuar.</string>
     <string name="screen_mode_dlg_turn_off_blue_light_filter">%s dhe Filtri i dritës së kaltër nuk mund të përdoren njëkohësisht. Filtri i dritës së kaltër do të paaftësohet.</string>
-    <string name="blue_light_filter_dlg_turn_on_location">Për të përdorur Nga perëndimi në lindje, duhet aftësuar Vendndodhja.</string>
+    <string name="blue_light_filter_dlg_turn_on_location">Për të përdorur Nga perëndimi në lindje, duhet ndezur Vendndodhja.</string>
     <string name="dlg_turn_on">Ndize</string>
     <string name="screen_resolution_title">Rezolucioni i ekranit</string>
     <string name="screen_resolution_desc_title">Ndrysho rezolucionin</string>
@@ -1421,6 +1438,10 @@ Trokit mbi OK për të lejuar që ndriçimi të rritet mbi nivelet e sigurisë."
     <string name="crypt_keeper_vzw_password_warning">Set the Screen lock password with at least %d characters and 1 number.</string>
     <string name="crypt_keeper_decrypt_title">Dekripto pajisjen</string>
     <string name="crypt_keeper_decrypt_summary">Pajisja e enkriptuar.</string>
+    <string name="crypt_keeper_type_pin">PIN</string>
+    <string name="crypt_keeper_type_pattern">Motivi</string>
+    <string name="crypt_keeper_type_password">Fjalëkalimi</string>
+    <string name="crypt_keeper_type_direction">Bllokim me drejtime</string>
     <string name="crypt_keeper_confirm_title_dec">Konfirmo dekriptimin</string>
     <string name="crypt_keeper_force_power_cycle_pattern">Për ta nisur pajisjen, fike, ndize prapë dhe pastaj provo sërish. Duhet të vizatosh motivin që ti përdor për ta nisur pajisjen dhe zhbllokuar ekranin. PIN-i rezervë nuk mund të përdoret për ta nisur pajisjen.</string>
     <string name="crypt_keeper_setup_description_dec">"Duke dekriptuar pajisjen. Kjo mund të marrë ca kohë. Prit pak…
@@ -1510,6 +1531,7 @@ Enkriptimi kërkon një orë ose më shumë. Para se të fillosh, sigurohu që b
     <string name="crypt_keeper_verify_failed_summary">Nuk mund ta rinis pajisjen. Verifikimi i integritetit dështoi. Duhet ta resetosh pajisjen në parazgjedhjet e fabrikës. Kjo do t‘i fshijë të gjitha të dhënat.</string>
     <string name="cryptkeeper_emergency_call">Telefonatë urgjence</string>
     <string name="cryptkeeper_return_to_call">Kthehu te thirrja</string>
+    <string name="cryptkeeper_default_enter_msg">Telefoni yt është enkriptuar për siguri.</string>
     <string name="enter_password">Për ta nisur pajisjen, fut fjalëkalimin.</string>
     <string name="enter_pin">Për ta nisur pajisjen, fut PIN-in.</string>
     <string name="enter_pattern">Për ta nisur pajisjen, vizatoje motivin.</string>
@@ -1519,11 +1541,13 @@ Enkriptimi kërkon një orë ose më shumë. Para se të fillosh, sigurohu që b
     <string name="cryptkeeper_wrong_pin">U fut një PIN i pasaktë</string>
     <string name="cryptkeeper_wrong_direction">Drejtimi u vizatua gabim</string>
     <string name="checking_decryption">Po verifikoj…</string>
-    <string name="starting_android">Duke nisur Android…</string>
     <string name="crypt_keeper_last_warn_wipe">Të ka mbetur vetëm 1 orvatje për ta nisur pajisjen, para se kjo të resetohet në parazgjedhjet e fabrikës. Resetimi do t‘i fshijë të gjitha të dhënat, përfshi skedarët dhe app-et e shkarkuara.</string>
     <string name="crypt_keeper_failed_title_dec">Deshifrimi dështoi.</string>
     <string name="crypt_keeper_failed_summary_dec">Nuk mund ta përfundoj dekriptimin për shkak të ndërprerjes. Kryej një ricilësim me të dhënat e fabrikës (duke i fshirë të gjitha të dhënat) para përdorimit.</string>
     <string name="crypt_keeper_set_screen_lock_type">Cilëso llojin e bllokimit</string>
+    <string name="encryption_interstitial_message">"Mund ta mbrosh më mirë këtë telefon duke kërkuar që të futet %s para se të niset telefoni. Kjo ndihmon për t’i mbrojtur të dhënat në qoftë se telefoni të humb ose ta vjedhin. Disa app-e mund të kërkojnë Nisje të sigurt në bazë të politikave të Enkriptimit të pajisjes, për të marrë akses në funksionalitete të tilla si sinkronizimi i e-postës.
+
+Nuk do të marrësh thirrje, mesazhe dhe njoftime dhe alarmet nuk do të bien, derisa telefoni të jetë nisur."</string>
     <string name="encryption_interstitial_message_kor">Pajisja jote është enkriptuar. Mbroji të dhënat e enkriptuara duke përzgjedhur Kërko bllokim ekrani për të dekriptuar të dhënat kur pajisja të ndizet. Kjo ndihmon për të mbrojtur të dhënat në pajisje të humbura ose të vjedhura. Do të duhet të zhbllokosh pajisjen për të dekriptuar të dhënat atje sa herë që e ndez. Nuk do të marrësh thirrje, mesazhe ose njoftime derisa ta dekriptosh pajisjen.</string>
     <string name="encryption_interstitial_message_direction">"Mbroje pajisjen tënde duke përzgjedhur Kërko Bllokim me drejtime kur të ndizet pajisja. Kjo ndihmon për të mbrojtur të dhënat në pajisje të humbura ose të vjedhura.
 
@@ -1545,6 +1569,7 @@ Nuk do të marrësh thirrje, mesazhe ose njoftime dhe alarmet nuk do të bien, d
 Nuk do të marrësh thirrje, mesazhe ose njoftime dhe alarmet nuk do të bien, derisa pajisja të jetë nisur."</string>
     <string name="encryption_interstitial_error_message">Për të mbrojtur të dhënat e pajisjes, ndryshoje llojin e bllokimit të ekranit në PIN, Fjalëkalim, Motiv ose Shenjë gishti dhe provo sërish.</string>
     <string name="encryption_interstitial_error_message_direction">Për të mbrojtur të dhënat e pajisjes, ndryshoje llojin e bllokimit të ekranit në PIN, Fjalëkalim, Motiv, Bllokim me drejtime ose Shenja gishti dhe provo sërish.</string>
+    <string name="encryption_interstitial_error_message_direction_without_fingerprint">Për të mbrojtur të dhënat e pajisjes, ndryshoje llojin e bllokimit të ekranit në PIN, Fjalëkalim, Motiv ose Bllokim me drejtime dhe provo sërish.</string>
     <string name="encryption_interstitial_error_message_iris_direction">Për të mbrojtur të dhënat e pajisjes, ndryshoje llojin e bllokimit të ekranit në PIN, Fjalëkalim, Motiv, Bllokim me drejtime, Shenja gishti ose Irise dhe provo sërish.</string>
     <string name="encryption_interstitial_error_message_without_fingerprint">Për të mbrojtur të dhënat e pajisjes, ndryshoje llojin e bllokimit të ekranit në PIN, Fjalëkalim ose Motiv dhe provo sërish.</string>
     <string name="encryption_interstitial_error_sktlock">Nuk mund të përdoret njëkohësisht edhe Kyçi i sigurisë edhe Nisja e sigurt. Përzgjidh një lloj të pasigurt Kyçi të sigurisë dhe provo sërish.</string>
@@ -1808,6 +1833,8 @@ Para se të kërkosh një riparim nën garanci, duhet të paaftësosh Bllokimin 
 %s"</string>
     <string name="improve_location_title">Improve location accuracy</string>
     <string name="improve_location_summary">Use WLANs and mobile networks to provide more accurate information about the location of your device.</string>
+    <string name="send_last_location_title">Dërgo vendndodhjen e fundit</string>
+    <string name="send_last_location_summary">Lejo telefonin të dërgojë vendndodhjen e vet të fundit te serveri Gjej celularin kur bateria bie nën një nivel të caktuar.</string>
     <string name="high_power_description">Aftëso Optimizo përdorimin e baterisë për app-e individuale. Disa funksione, si ato që përdorin rrjetet celulare ose sinkronizojnë të dhëna, do të bllokohen për të kursyer energji nga bateria.</string>
     <string name="wifi_display_summary_off">Fikur</string>
     <string name="battery_usage_description">Ky ekran tregon të dhëna të përdorimit të baterisë qëkur u karikua plotësisht pajisja.</string>
@@ -1903,6 +1930,8 @@ Në pajisje ke në dispozicion opsione alternative të sigurisë. Lutemi ndiq t�
     <string name="iris_sensor_not_working_popup_title">Njohja me iris nuk po punon</string>
     <string name="iris_sensor_not_working_msg">Sensori i irisit nuk po përgjigjet. Provo sërish më vonë.</string>
     <string name="iris_go_to_samsung_theme">Shko te Samsung Themes</string>
+    <string name="biometrics_dex_cant_use_msg">S’mund të përdorësh %s në Samsung DeX.</string>
+    <string name="biometrics_dex_closed_to_switch">%s u mbyll, për të kaluar në Samsung DeX.</string>
     <string name="knox_twofactor_bio_description">Përzgjidh llojin e bllokimit biometrik dhe një lloj të dytë bllokimi për ta zhbllokuar %s.</string>
     <string name="fingerprint_registered">Shenjat e gishtave të regjistruara do të përdoren me metodën e përzgjedhur të zhbllokimit.</string>
     <string name="knox_twofactor_description">Përdor dy mënyra bllokimi, për ta bërë Knox edhe më të sigurtë. Shenjat e gishtave do të përdoren si mënyrë e parë bllokimi. Përzgjidh një mënyrë të dytë bllokimi nga më poshtë.</string>
@@ -2000,8 +2029,8 @@ Determining your location will use the mobile network. Data usage will apply."</
     <string name="app_ops_settings_summary">Shih ose ndrysho lejet e aplikacioneve.</string>
     <string name="backup_key_for_applock_header">Cilëso një motiv, PIN ose fjalëkalim për ta përdorur së bashku me njohjen e shenjave të gishtit, për të kyçur ose shkyçur app-et.</string>
     <string name="backup_key_for_privatemode_header">Cilëso një motiv, PIN ose fjalëkalim për ta përdorur së bashku me njohjen e shenjave të gishtit, për akses në Regjimin privat.</string>
-    <string name="status_added">Shtuar</string>
     <string name="text_security_title_b2c">Përzgjidh një lloj bllokimi. Në qoftë se harron si ta zhbllokosh Dosjen e sigurt, mund ta resetosh bllokimin që nga llogaria Samsung.</string>
+    <string name="status_added">Shtuar</string>
     <string name="lockpattern_backup_pin">PIN-i rezervë</string>
     <string name="applock_type_fingerprint">Shenja e gishtit</string>
     <string name="unlock_set_unlock_two_factor_title">Verifikimi dy-hapash</string>
@@ -2217,9 +2246,9 @@ Edhe sikur telefonin të ta fshijnë, gjithnjë do të kërkohet llogaria jote G
     <string name="palm_swipe_title">Rrëshqit me pëllëmbë për të kapur</string>
     <string name="screen_recorder_title">Record screen</string>
     <string name="screen_recorder_summary">Record video screenshots while you use your device.</string>
-    <string name="multi_window_setting_title">Gjesti për pamje kërcyese</string>
+    <string name="multi_window_setting_title">Veprimi për pamje kërcyese</string>
     <string name="multi_window_setting_description">Kur një app është i hapur në ekran, përshtat madhësinë e app-it duke rrëshqitur poshtë diagonalisht nga cilido prej cepave lart të ekranit.</string>
-    <string name="multi_window_screen_title">Multi-window</string>
+    <string name="multi_window_screen_title">Multi-Window</string>
     <string name="multi_window_screen_summary">Trego më shumë se një app njëherësh.</string>
     <string name="multi_window_split_screen_title">Veprimi në pamjen ekran i ndarë</string>
     <string name="multi_window_split_screen_description_hwkey_1">Shtyp dhe mbaj tastin Së fundi për ta kaluar app-in e tanishëm nga pamja me ekran të plotë te pamja me ekran të ndarë.</string>
@@ -2257,18 +2286,19 @@ Edhe sikur telefonin të ta fshijnë, gjithnjë do të kërkohet llogaria jote G
     <string name="air_browse_note_summary">Zhvendosu mes faqeve kur je në regjimin Pamje.</string>
     <string name="data_usage_enable_mobile_summery">Merr akses në Internet përmes rrjetit tënd celular.</string>
     <string name="data_usage_enable_mobile_warning_skt">Lidhja me rrjetet celulare mund të shoqërohet me tarifa shtesë, në varësi të planit tënd të të dhënave. Vazhdojmë?</string>
-    <string name="data_usage_enable_mobile_warning_ktt">Lidhja me rrjetet celulare mund të shoqërohet me tarifa shtesë, në varësi të planit tënd të të dhënave. Vazhdojmë?</string>
+    <string name="data_usage_enable_mobile_warning_ktt">Të dhënat celulare do të ndizen. Lidhja me rrjetet celulare mund të sjellë shpenzime ekstra, në varësi të planit tënd të pagesës.</string>
     <string name="data_usage_enable_mobile_warning_lgt">Lidhja me rrjetet celulare mund të shoqërohet me tarifa shtesë, në varësi të planit tënd të të dhënave. Vazhdojmë?</string>
     <string name="data_usage_disable_mobile_title">Fik Të dhënat celulare</string>
     <string name="data_usage_disable_mobile_warning_skt">Duke shkëputur rrjetin celular do të bllokohet përdorimi i shërbimeve MMS dhe 3G të dhënash. Ta shkëput?</string>
     <string name="data_usage_disable_mobile_warning_ktt">Duke shkëputur rrjetin celular do të bllokohet përdorimi i shërbimeve MMS dhe 3G të dhënash. Ta shkëput?</string>
     <string name="data_usage_disable_mobile_warning_ktt_jb">Duke shkëputur rrjetin celular do të bllokohet përdorimi i shërbimeve MMS dhe 3G të dhënash. Ta shkëput?</string>
-    <string name="mobile_data_off_dialog_text_vzw">"Unless you use Wi-Fi, you will not be able to use the Internet, Email, or other apps that require a data connection.
+    <string name="data_usage_disable_mobile_warning_dcm">"If Mobile data is turned off, your device must be connected to a Wi-Fi network to use services that require a network connection.
 
-Turn off Mobile data?"</string>
-    <string name="mobile_data_off_dialog_text_common">"Me përjashtim të rastit kur përdor Wi-Fi, nuk do të mund të përdorësh Internetin, e-postën ose app-e të tjera që kërkojnë lidhje të dhënash.
-
-Të dhënat celulare do të fiken."</string>
+Mobile data will be turned off."</string>
+    <string name="mobile_data_off_dialog_text_vzw">"Unless you use Wi-Fi, you won't be able to use the Internet, Email or other apps that require a data connection. Turn off the mobile data connection?"</string>
+    <string name="mobile_data_off_dialog_text_volte">"Your phone's Video Calling function won't work when mobile data is off. Also, you won't be able to use the Internet, Email or other apps that need a data connection unless you use Wi-Fi. Turn off the mobile data connection?"</string>
+    <string name="mobile_data_off_dialog_text_common">Pa u lidhur me rrjetin Wi-Fi, nuk do të mund të përdorësh Internetin, e-postën ose app-e të tjera që kërkojnë lidhje me rrjetin.</string>
+    <string name="data_usage_turn_off_btn">Fik</string>
     <string name="wfd_settings_summary">Përbashko ekranin e pajisjes sate me një pajisje tjetër.</string>
     <string name="nfc_settings_advanced_explain">"Cilëso mënyrën e parazgjedhur të përpunimit NFC.
 Disa transaksione NFC dhe shërbime të pagesës celulare mund të kërkojnë një mënyrë tjetër të parazgjedhur të përpunimit NFC."</string>
@@ -2408,7 +2438,7 @@ Disa transaksione NFC dhe shërbime të pagesës celulare mund të kërkojnë nj
     <string name="zen_mode_events_summary">Lejo njoftime nga S Planner dhe ngjarje të tjera kalendari.</string>
     <string name="zen_mode_events_summary_na">Lejo njoftime nga ngjarje dhe detyra të Kalendarit.</string>
     <string name="zen_mode_reminders_summary">Lejo përkujtesa nga app-e që i mbështetin.</string>
-    <string name="dnd_app_noti_summary">"Cilëso si ndërprerje me përparësi për t'i lejuar njoftimet e app-eve si përjashtime."</string>
+    <string name="dnd_app_noti_summary">Lejo njoftimet nga app-et që përzgjedh.</string>
     <string name="no_exceptions_dcm_summary">Mute all calls and alerts, including Area Mail alarms.</string>
     <string name="dnd_screen_switch_summary">Heshto të gjitha thirrjet dhe sinjalizimet, veç përjashtimeve që ke caktuar vetë.</string>
     <string name="app_notification_priority_app_list_title">Njoftime app-e përparësi</string>
@@ -2455,7 +2485,7 @@ privat"</string>
     <string name="personal_page_secretbox_disclaimer_title">Shpërnjohje</string>
     <string name="personal_page_secretbox_disclaimer_message">Regjimi privat nuk e pengon hyrjen në të dhënat tuaja nga aplikacionet e tjera. Për të parandaluar sinkronizimin e të dhënave me serverë të jashtëm, ju lutemi të çaktivizoni parametrat e sinkronizimit automatik në pajisjen tuaj.</string>
     <string name="personal_page_secretbox_disclaimer_message_vzw">Content moved into Private mode will be hidden and will not be shown when you exit from Private mode. Automatic syncing while in Private mode may allow that content to be visible in 3rd party apps. Check the automatic synchronization settings of your other applications before using Private mode.</string>
-    <string name="personal_page_tutorial_app_title_message">Përdor Regjimin privat për të fshehur materiale që dëshiron t‘i mbash private. Kur je duke përdorur app-et e mëposhtme, përzgjidh çfarë dëshiron të çosh në Privat, pastaj trokit mbi MË TEJ dhe përzgjidh Zhvendos në Privat. Materialet që janë çuar në Privat mund të shihen vetëm kur të jetë aftësuar Regjimi privat.</string>
+    <string name="personal_page_tutorial_app_title_message">Përdor Regjimin privat për të fshehur materiale që dëshiron t‘i mbash private. Kur je duke përdorur app-et e mëposhtme, përzgjidh çfarë dëshiron të çosh në Privat, pastaj trokit mbi butonin Opsione të tjera dhe përzgjidh Zhvendos në Privat. Materialet që janë çuar në Privat mund të shihen vetëm kur të jetë ndezur Regjimi privat.</string>
     <string name="personal_page_inline_help">Për të përdorur regjimin Privat, përzgjidh një lloj aksesi. Në qoftë se e harron llojin e aksesit në regjimin Privat, nuk do të mund ta rikuperosh dhe nuk do të mund të përdorësh regjimin Privat, pa e resetuar pajisjen në cilësimet e parazgjedhura të fabrikës.</string>
     <string name="personal_page_backup_pin_summary">Krijo një PIN rezervë për regjimin Privat, në rast se e harron motivin.</string>
     <string name="personal_page_incorrect_pin">"PIN jokorrekt.
@@ -2845,6 +2875,7 @@ Shkëpute karikuesin, për ta aftësuar/paaftësuar këtë funksion."</string>
     <string name="samsung_backup_summary">Përdore llogarinë Samsung për të rezervuar të dhënat.</string>
     <string name="samsung_restore_summary">Përdore llogarinë Samsung për të restauruar të dhënat e rezervuara.</string>
     <string name="sns_settings_title">Kalo në të dhënat celulare kur lidhja jote Wi-Fi bëhet e paqëndrueshme. Edhe telefoni yt mund të kalojë në rrjete Wi-Fi të ruajtura, nga zonat e vizituara më shpesh. Këmbimi inteligjent i rrjetit do t’i ndezë ose fikë automatikisht rrjetet e ruajtura Wi-Fi.</string>
+    <string name="sns_settings_title_include_autowifi">Kalo në të dhënat celulare kur lidhja jote Wi-Fi bëhet e paqëndrueshme. Edhe telefoni yt mund të kalojë në rrjete Wi-Fi të ruajtura, nga zonat e vizituara më shpesh. Këmbimi inteligjent i rrjetit do t’i ndezë ose fikë automatikisht rrjetet e ruajtura Wi-Fi.</string>
     <string name="smart_bonding">Shkarko përmirësuesin</string>
     <string name="smart_bonding_popup_title">Aftëso Përmirës. e shkarkimit</string>
     <string name="smart_bonding_description_vzw">"Download large files (over %d MB) faster by using Wi-Fi and LTE networks at the same time. The Download booster icon will be shown on the status bar when Download booster is turned on.
@@ -3036,7 +3067,7 @@ Downloading via mobile networks may result in additional charges depending on yo
     <string name="wifi_on_dialog_summary">To switch to Wi-Fi, select a network</string>
     <string name="notifyme_later">Jo tani</string>
     <string name="wifi_p2p_help_message">Wi-Fi Direct-i u mundëson pajisjeve Wi-Fi të lidhen në mënyrë të drejtpërdrejtë, duke thjeshtuar e bërë më komod printimin, ndarjen e skedarëve, sinkronizimin dhe ndarjen e ekranit. Lidhja me pajisje që mbështesin Wi-Fi Direct mundëson ndarjen e përmbajtjeve me të tjerët, sinkronizimin e të dhënave, kalimin e kohës me shokët, luajtjen e lojërave, muzikës, videove e shumë të tjera me anë të aplikacioneve të ndryshme.</string>
-    <string name="prev_button_label">Mëparshëm</string>
+    <string name="prev_button_label">I mëparshëm</string>
     <string name="wifi_sns_setting_alert_button_do_not_enable">Mos aftëso</string>
     <string name="wifi_smart_network_switch_aggressive_switching_summary">Fillo të përdorësh një rrjet celular për të hyrë në Internet kur lidhja jote Wi-Fi bëhet sado pak e paqëndrueshme. Kjo mund të rritë përdorimin e të dhënave.</string>
     <string name="wifi_smart_network_switch_aggressive_switching">Këmbim agresiv</string>
@@ -3065,6 +3096,8 @@ Downloading via mobile networks may result in additional charges depending on yo
     <string name="wifi_manage_network">Menaxho rrjetet</string>
     <string name="wlan_permission_available_message">Asks your permission to use WLAN via a pop-up</string>
     <string name="wlan_permission_available">Ask to use WLAN</string>
+    <string name="wifi_hotspot20_summary_tmo">Lidhu pa problem me pikëhyrje Wi-Fi të aftësuara për Hotspot 2.0 pa pasur nevojë për fjalëkalim.</string>
+    <string name="wifi_hotspot20_summary_dcm">Lidhu automatikisht me rrjetin Wi-Fi Hotspot 2.0 kur Wi-Fi është ndezur.</string>
     <string name="wifi_hotspot20_summary">Lidhu automatikisht me pika aksesi Wi-Fi që mbështetin Hotspot 2.0.</string>
     <string name="wifi_hotspot20_enable">Hotspot 2.0</string>
     <string name="wifi_att_auto_connect_summary">Automatically connect to AT&amp;T Wi-Fi hotspot when detected</string>
@@ -3083,9 +3116,9 @@ Downloading via mobile networks may result in additional charges depending on yo
     <string name="wifi_auto_reconnect">Rilidhje auto</string>
     <string name="wifi_enable_warning_chn">Turning on WLAN will disable Mobile hotspot.</string>
     <string name="wifi_enable_warning_vzw">Po ta ndezësh Wi-Fi, Mobile Hotspot do të paaftësohet. Vazhdojmë?</string>
-    <string name="wifi_enable_warning_tmo">Wi-Fi is turned off when Mobile HotSpot is active. To turn on Wi-Fi, please turn off Mobile HotSpot.</string>
+    <string name="wifi_enable_warning_tmo">Wi-Fi është fikur, kur Shpërndarësja celulare është aktive. Për ta ndezur Wi-Fi, lutemi fike Shpërndarësen celulare.</string>
     <string name="wifi_enable_warning_spr">Turning on Wi-Fi will disable Hotspot.</string>
-    <string name="wifi_enable_warning_mtr">Turning on Wi-Fi will turn off Mobile Hotspot. Continue?</string>
+    <string name="wifi_enable_warning_mtr">Wi-Fi fiket, kur Shpërndarësja celulare është aktive. Për ta ndezur Wi-Fi, fike Shpërndarësen celulare.</string>
     <string name="wifi_enable_warning_usc">Turning on Wi-Fi will turn off Portable Wi-Fi hotspot. Continue?</string>
     <string name="wifi_enable_warning">Po ta ndezësh Wi-Fi, shpërndarësja celulare do të paaftësohet.</string>
     <string name="wifi_control_history_title">Historia e kontrollit Wi-Fi</string>
@@ -3119,9 +3152,9 @@ Downloading via mobile networks may result in additional charges depending on yo
     <string name="wifi_ap__wifi_sharing_vzw">Wi-Fi Sharing</string>
     <string name="wifi_ap__wifi_sharing">Përbashkimi Wi-Fi</string>
     <string name="first_use_wifi_msg_mtr">Tap OK to learn more about using Mobile Hotspot.</string>
-    <string name="first_use_wifi_msg">Tap OK to learn more about using Mobile HotSpot.</string>
+    <string name="first_use_wifi_msg">Trokit mbi OK, për të mësuar më shumë për përdorimin e Shpërndarëses celulare.</string>
     <string name="first_use_title_mtr">View Mobile Hotspot help</string>
-    <string name="first_use_title">View Mobile HotSpot help</string>
+    <string name="first_use_title">Shih ndihmën për Shpërndarësen celulare</string>
     <string name="wifi_ap_wifi_sharing_title">Aft. përbashk. Wi-Fi</string>
     <string name="wifi_ap_wifi_sharing_status_enabled">Aftësuar</string>
     <string name="wifi_ap_wifi_sharing_status_disabled">Paaftësuar</string>
@@ -3153,11 +3186,11 @@ Using Mobile hotspot increases battery consumption and data usage."</string>
 Mobile Hotspot uses mobile data from your data plan.
 
 We recommend keeping your phone plugged in to a charger while using Mobile Hotspot to save battery."</string>
-    <string name="wifi_ap_instruction_changeable_maxclient_tmo">"You can use your device as an Internet access point using Mobile HotSpot. This allows up to %d other devices to connect to it via Wi-Fi. The connected devices will have access to the Internet via your mobile network.
+    <string name="wifi_ap_instruction_changeable_maxclient_tmo">"Mund ta përdorësh pajisjen tënde si pikë aksesi në Internet me anë të Shpërndarëses celulare. Kjo lejon deri në %d pajisje të tjera të lidhen me të me anë të Wi-Fi. Pajisjet e lidhura do të kenë akses në Internet përmes rrjetit tënd celular.
 
-You can create an allowed device profile and set the connection mode for it.
+Mund të krijosh një profil të pajisjes së lejuar dhe të cilësosh regjimin e lidhjes për të.
 
-Using Mobile HotSpot increases battery consumption and data usage."</string>
+Shpërndarësja celulare konsumon më shumë energji nga bateria dhe rrit përdorimin e të dhënave."</string>
     <string name="wifi_ap_instruction_changeable_maxclient_spr">"You can share your device's Hotspot with Wi-Fi enabled devices.
 
 After you start the Mobile Hotspot Wi-Fi router, connect using the controls on your Wi-Fi enabled device."</string>
@@ -3190,7 +3223,7 @@ To configure Smartphone Mobile Hotspot, tap on the menu icon, and then tap “Co
     <string name="wifi_ap_hide_ssid">Fshih pajisjen time</string>
     <string name="wifi_ap_wifi_off_warn_vzw">Mobile Hotspot uses your mobile data connection. Your Wi-Fi connection will be turned off.</string>
     <string name="wifi_ap_wifi_off_warn_spr">Enabling Hotspot will turn off Wi-Fi</string>
-    <string name="wifi_ap_wifi_off_warn_tmo">Wi-Fi is turned off when USB tethering or Mobile HotSpot is active. To turn on Wi-Fi, please turn off USB tethering or Mobile HotSpot.</string>
+    <string name="wifi_ap_wifi_off_warn_tmo">Wi-Fi është fikur, kur Tetherimi USB ose Shpërndarësja celulare është aktive. Për ta ndezur Wi-Fi, lutemi fike Tetherimin USB ose Shpërndarësen celulare.</string>
     <string name="wifi_ap_wifi_off_warn_chn">Enabling Mobile hotspot will turn off WLAN.</string>
     <string name="wifi_ap_wifi_off_warn_att">Turning on portable Wi-Fi hotspot will turn off Wi-Fi.</string>
     <string name="wifi_ap_wifi_off_warn_mtr">Wi-Fi is turned off when USB tethering or Mobile Hotspot is active. To turn on Wi-Fi, please turn off USB tethering or Mobile Hotspot.</string>
@@ -3261,6 +3294,7 @@ Pasi të ndryshohet emri ose fjalëkalimi i shpërndarëses celulare, duhet krij
     <string name="wifi_wps_onstart_pbc_mobileap">"Shtyp butonin WPS në pajisjen tjetër, për t'u lidhur."</string>
     <string name="wifi_wps_complete_mobileap">Pajisja tjetër tani është lidhur me pajisjen tënde.</string>
     <string name="wifi_ap_disconnect_warn">Shkëpute pajisjen</string>
+    <string name="wifi_ap_change_policy_warn_mtr">The device currently connected will be disconnected from Portable Wi-Fi Hotspot.</string>
     <string name="wifi_ap_change_policy_warn">Të gjitha pajisjet aktualisht të lidhura do të shkëputen nga shpërndarësja celulare.</string>
     <string name="wifi_ap_warn_max_whitelist">U arrit numri maksimal i pajisjeve të lejuara (%d).</string>
     <string name="wifiap_one_item_deleted">Do të fshihet 1 artikull.</string>
@@ -3295,8 +3329,9 @@ Wi-Fi is now on."</string>
     <string name="wifi_tether_dialog_nosim_warning_title">Shpërndarëse për celularët</string>
     <string name="wifi_tether_dialog_nosim_warning_chn">Insert a SIM card to use Mobile hotspot and other tethering functions.</string>
     <string name="wifi_tether_dialog_nosim_warning_vzw">Insert a SIM card to use Mobile Hotspot and other tethering options.</string>
-    <string name="wifi_tether_dialog_nosim_warning_tmo">"Please install SIM card in order to share your phone's data connection with other devices using Mobile Wi-Fi HotSpot or USB tethering for Internet access."</string>
-    <string name="wifi_tether_dialog_nosim_warning_spr">Insert SIM for using Hotspot include tethering</string>
+    <string name="wifi_tether_dialog_nosim_warning_tmo">Instalo kartën SIM për të përbashkuar lidhjen me të dhëna të telefonit tënd me pajisje të tjera me anë të Shpërndarëses Wi-Fi celulare ose Tetherimit USB për akses në Internet.</string>
+    <string name="wifi_tether_dialog_nosim_warning_mtr">"Please install SIM card in order to share your phone's data connection with other devices using Mobile Wi-Fi Hotspot or USB tethering for Internet access."</string>
+    <string name="wifi_tether_dialog_nosim_warning_spr">Fut një kartë SIM për të përdorur Shpërndarësen.</string>
     <string name="wifi_tether_dialog_nosim_warning_usc">Fut një kartë SIM për të përdorur Shpërndarësen celulare dhe funksione të tjera tetherimi.</string>
     <string name="wifi_tether_dialog_nosim_warning">Fut një kartë SIM për të përdorur Shpërndarësen celulare dhe funksione të tjera tetherimi.</string>
     <string name="mobileap_tmo">Pikë shpërnd. për celul.</string>
@@ -3323,7 +3358,7 @@ Wi-Fi is now on."</string>
     <string name="wifi_ap_instruction_open_activate_color3_att">Lidhu me &lt;font color=\"%1$s\">%2$s&lt;/font>.</string>
     <string name="wifi_ap_instruction_open_activate_color3">Lidhu me &lt;font color=\"%1$s\">%2$s&lt;/font>.</string>
     <string name="wifi_ap_instruction_open_activate_color4_vzw">Enjoy your Mobile Hotspot.</string>
-    <string name="wifi_ap_instruction_open_activate_color4_tmo">Enjoy the internet using your personal Mobile HotSpot.</string>
+    <string name="wifi_ap_instruction_open_activate_color4_tmo">Shijoje Internetin duke përdorur Shpërndarësen tënde celulare personale.</string>
     <string name="wifi_ap_instruction_open_activate_color4_spr">Enjoy the Internet with Hotspot.</string>
     <string name="wifi_ap_instruction_open_activate_color4_att">Enjoy the Internet using Mobile hotspot.</string>
     <string name="wifi_ap_instruction_open_activate_color4_mtr">Enjoy the Internet using portable Wi-Fi hotspot.</string>
@@ -3342,7 +3377,7 @@ Wi-Fi is now on."</string>
     <string name="wifi_ap_instruction_activate_color3_att">Lidhu me &lt;font color=\"%1$s\">%2$s&lt;/font> duke futur &lt;font color=\"%1$s\">%3$s&lt;/font> si fjalëkalim.</string>
     <string name="wifi_ap_instruction_activate_color3">Lidhu me &lt;font color=\"%1$s\">%2$s&lt;/font> duke futur &lt;font color=\"%1$s\">%3$s&lt;/font> si fjalëkalim.</string>
     <string name="wifi_ap_instruction_activate_color4_vzw">Enjoy your Mobile Hotspot.</string>
-    <string name="wifi_ap_instruction_activate_color4_tmo">Enjoy the internet using your personal Mobile HotSpot.</string>
+    <string name="wifi_ap_instruction_activate_color4_tmo">Shijoje Internetin duke përdorur Shpërndarësen tënde celulare personale.</string>
     <string name="wifi_ap_instruction_activate_color4_spr">Enter &lt;font color=\"%1$s\">%3$s&lt;/font> in the &lt;font color=\"%1$s\">%4$s&lt;/font> field.</string>
     <string name="wifi_ap_instruction_activate_color4_att">Enjoy the Internet using Mobile hotspot.</string>
     <string name="wifi_ap_instruction_activate_color4_mtr">Enjoy the Internet using portable Wi-Fi hotspot.</string>
@@ -3364,16 +3399,16 @@ Wi-Fi is now on."</string>
     <string name="wifi_ap_instruction_activate_color_hidden3_chn">Connect to &lt;font color=\"%1$s\">%2$s&lt;/font> by entering &lt;font color=\"%1$s\">%3$s&lt;/font> as the password.</string>
     <string name="wifi_ap_instruction_activate_color_hidden3_tmo">Connect to &lt;font color=\"%1$s\">%2$s&lt;/font> by entering &lt;font color=\"%1$s\">%3$s&lt;/font> as the password.</string>
     <string name="wifi_ap_instruction_activate_color_hidden3">Lidhu me &lt;font color=\"%1$s\">%2$s&lt;/font> duke futur &lt;font color=\"%1$s\">%3$s&lt;/font> si fjalëkalim.</string>
-    <string name="wifi_ap_instruction_activate_color_hidden4_tmo">Enjoy the internet using your personal Mobile HotSpot.</string>
+    <string name="wifi_ap_instruction_activate_color_hidden4_tmo">Shijoje Internetin duke përdorur Shpërndarësen tënde celulare personale.</string>
     <string name="wifi_ap_instruction_no_maxclient">"Mund ta përdorësh pajisjen tënde si pikë aksesi në Internet me anë të shpërndarëses celulare. Kjo lejon pajisje të tjera të lidhen me të me anë të Wi-Fi. Pajisjet e lidhura do të kenë akses në Internet përmes rrjetit tënd celular.
 
 Mund të krijosh një profil të pajisjes së lejuar dhe të cilësosh regjimin e lidhjes për të.
 
 Shpërndarësja celulare konsumon më shumë energji nga bateria dhe rrit përdorimin e të dhënave."</string>
     <string name="wifi_ap_instruction_configure_vzw">To change the Mobile Hotspot configuration, go to Settings > Mobile Hotspot and tethering > Mobile Hotspot > MORE, then select Configure Mobile Hotspot.</string>
-    <string name="wifi_ap_instruction_configure_tmo">To change the Mobile HotSpot configuration, tap the More options button, then select Configure Mobile HotSpot.</string>
+    <string name="wifi_ap_instruction_configure_tmo">Për të ndryshuar konfigurimin e Shpërndarëses celulare, trokit mbi butonin Opsione të tjera, pastaj përzgjidh Konfiguro Shpërndarësen celulare.</string>
     <string name="wifi_ap_instruction_configure">Për të ndryshuar konfigurimin e Shpërndarëses celulare, trokit mbi butonin Opsione të tjera, pastaj përzgjidh Konfiguro Shpërndarësen celulare.</string>
-    <string name="wifi_ap_instruction_configure_non_grace_tmo">To change the Mobile HotSpot configuration, tap MORE, then select Configure Mobile HotSpot.</string>
+    <string name="wifi_ap_instruction_configure_non_grace_tmo">Për të ndryshuar konfigurimin e Shpërndarëses celulare, trokit mbi MË TEJ pastaj përzgjidh Konfiguro Shpërndarësen celulare.</string>
     <string name="wifi_ap_instruction_configure_non_grace">Për të ndryshuar konfigurimin e Shpërndarëses celulare, trokit mbi MË TEJ dhe përzgjidh Konfiguro Shpërndarësen celulare.</string>
     <string name="wifi_ap_change_security">Change Security</string>
     <string name="wifi_ap_maxclient">Maksimumi i lidhjeve</string>
@@ -3390,7 +3425,8 @@ Shpërndarësja celulare konsumon më shumë energji nga bateria dhe rrit përdo
     <string name="wifi_tether_configure_ap_text_usc">Configure Wi-Fi hotspot</string>
     <string name="wifi_tether_configure_ap_text">Konfiguro shpërndar. celulare</string>
     <string name="wifi_ap_hidessid_warning">Your phone will be visible to other devices</string>
-    <string name="wifi_ap_first_time_configuration">First time HotSpot configuration</string>
+    <string name="wifi_ap_first_time_configuration_mtr">Konfigurimi fillestar i Shpërndarëses</string>
+    <string name="wifi_ap_first_time_configuration">Konfigurimi fillestar i Shpërndarëses</string>
     <string name="title_wifi_notify_mobileap_is_on">Wi-Fi and Mobile Hotspot</string>
     <string name="wifi_ssid_max_byte_error">U arrit numri maksimal i shenjave.</string>
     <string name="tethering_attention_title">Kujdes</string>
@@ -3533,6 +3569,8 @@ Mëso më shumë për roaming duke marrë në telefon falas shërbimet e klienti
     <string name="master_clear_desc_music">Muzika</string>
     <string name="master_clear_desc_pictures">Fotot</string>
     <string name="master_clear_desc_other_user_data">Të gjitha të dhënat e tjera të përdoruesit</string>
+    <string name="master_clear_not_enough_battery">Karikoje baterinë të paktën deri në %d%% para se ta resetosh telefonin.</string>
+    <string name="master_clear_not_enough_battery_tablet">Karikoje baterinë të paktën deri në %d%% para se ta resetosh tabletën.</string>
     <string name="text_two_locktype">Shenjë gishti dhe %s</string>
     <string name="pref_lock_type_title">Ndrysho llojin e bllokimit</string>
     <string name="pref_lock_type_summary">Lloji i bllokimit</string>
@@ -3612,8 +3650,11 @@ Receiving SMS"</string>
     <string name="google_settings_popup_msg">Only a limited number of Google settings are available. Some actions may not work.</string>
     <string name="smart_lock_popup_msg">Only a limited number of Google settings are available. Some actions may not work.</string>
     <string name="prevent_to_change_by_device_policy">Politika e sigurisë nuk lejon përdorimin e %s.</string>
+    <string name="quick_tile_sync_title">Sinkronizim</string>
     <string name="name_jerusalem">Jeruzalem</string>
     <string name="name_israel">Izrael</string>
+    <string name="starting_android">Duke nisur Android…</string>
+    <string name="okay">OK</string>
     <string name="yes">Po</string>
     <string name="no">Jo</string>
     <string name="create">Krijo</string>
@@ -3711,7 +3752,6 @@ Mund ta ndryshosh këtë më vonë që nga cilësimet Bluetooth."</string>
     <string name="phone_info_label">Të dhëna për pajisjen</string>
     <string name="proxy_settings_label">Percaktimet e opsioneve proxy-t</string>
     <string name="cancel">Anullo</string>
-    <string name="okay">OK</string>
     <string name="save">Ruaj</string>
     <string name="done">Kryer</string>
     <string name="settings_label">Cilësimet</string>
@@ -5346,4 +5386,6 @@ Nuk do të marrësh thirrje, mesazhe ose njoftime dhe alarmet nuk do të bien, d
     <string name="ucm_pins_do_not_match">PIN-et nuk përkojnë</string>
     <string name="ucm_failed_to_connect_smartcard">Dështova të lidhem me kartën inteligjente. Lidhu me administratorin e pajisjes.</string>
     <string name="ucm_loading">Duke ngarkuar…</string>
+    <string name="usb_use_software_installation">Software Installation</string>
+    <string name="usb_use_software_installation_summary">Install Software Update and Repair tool for your device on a Mac or Windows computer.</string>
 </resources>

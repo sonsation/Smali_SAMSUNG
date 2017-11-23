@@ -141,7 +141,7 @@
     invoke-virtual {v2, v4}, Landroid/preference/PreferenceScreen;->setKey(Ljava/lang/String;)V
 
     .line 162
-    const v4, 0x7f0b033b
+    const v4, 0x7f0b033d
 
     invoke-virtual {p0, v4}, Lcom/android/settings/accounts/AccountPreferenceBase;->getString(I)Ljava/lang/String;
 
@@ -150,7 +150,7 @@
     invoke-virtual {v2, v4}, Landroid/preference/PreferenceScreen;->setTitle(Ljava/lang/CharSequence;)V
 
     .line 163
-    const v4, 0x7f0b033c
+    const v4, 0x7f0b033e
 
     invoke-virtual {p0, v4}, Lcom/android/settings/accounts/AccountPreferenceBase;->getString(I)Ljava/lang/String;
 

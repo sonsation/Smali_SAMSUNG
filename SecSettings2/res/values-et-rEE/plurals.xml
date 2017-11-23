@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="data_saver_unrestricted_summary_chn">
+        <item quantity="other">%d rakendusel on luba kasutada piiranguteta mobiilset andmesidet, kui funktsioon Taustaandmete piiramine on aktiveeritud.</item>
+        <item quantity="one">%d rakendusel on luba kasutada piiranguteta mobiilset andmesidet, kui funktsioon Taustaandmete piiramine on aktiveeritud.</item>
+    </plurals>
     <plurals name="lock_timeout_hours">
         <item quantity="other">%d tundi</item>
         <item quantity="one">1 tund</item>

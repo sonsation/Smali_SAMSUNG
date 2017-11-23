@@ -268,7 +268,7 @@
 
     iget-object v4, v4, Lcom/samsung/android/settings/wifi/WifiConfigControllerBase;->mSsidErrorText:Landroid/widget/TextView;
 
-    const v5, 0x7f0b0cf7
+    const v5, 0x7f0b0d19
 
     invoke-virtual {v4, v5}, Landroid/widget/TextView;->setText(I)V
 

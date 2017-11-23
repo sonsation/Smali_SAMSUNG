@@ -116,7 +116,7 @@
 
     .line 65
     .local v0, "descryptionPreference":Lcom/samsung/android/settings/UnclickablePreference;
-    const v7, 0x7f0b0a4a
+    const v7, 0x7f0b0a6b
 
     invoke-virtual {v0, v7}, Lcom/samsung/android/settings/UnclickablePreference;->setTitle(I)V
 

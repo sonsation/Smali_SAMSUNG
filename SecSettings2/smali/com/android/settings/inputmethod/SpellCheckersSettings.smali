@@ -147,7 +147,7 @@
     if-nez p1, :cond_0
 
     .line 142
-    const v0, 0x7f0b1aa1
+    const v0, 0x7f0b1c27
 
     invoke-virtual {p0, v0}, Lcom/android/settings/inputmethod/SpellCheckersSettings;->getString(I)Ljava/lang/String;
 
@@ -160,7 +160,7 @@
     if-nez p2, :cond_1
 
     .line 145
-    const v0, 0x7f0b155a
+    const v0, 0x7f0b16e0
 
     invoke-virtual {p0, v0}, Lcom/android/settings/inputmethod/SpellCheckersSettings;->getString(I)Ljava/lang/String;
 
@@ -213,7 +213,7 @@
 
     .line 79
     .local v1, "pref":Lcom/android/settings/inputmethod/SpellCheckerPreference;
-    const v2, 0x7f0b1a9f
+    const v2, 0x7f0b1c25
 
     invoke-virtual {v1, v2}, Lcom/android/settings/inputmethod/SpellCheckerPreference;->setTitle(I)V
 
@@ -263,7 +263,7 @@
     .line 84
     .restart local v0    # "count":I
     :cond_1
-    const v2, 0x7f0b1aa1
+    const v2, 0x7f0b1c27
 
     invoke-virtual {v1, v2}, Lcom/android/settings/inputmethod/SpellCheckerPreference;->setSummary(I)V
 
@@ -331,7 +331,7 @@
 
     .line 190
     .local v0, "builder":Landroid/app/AlertDialog$Builder;
-    const v9, 0x7f0b1513
+    const v9, 0x7f0b1699
 
     invoke-virtual {v0, v9}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
 
@@ -484,7 +484,7 @@
     aput-object v2, v1, v3
 
     .line 232
-    const v2, 0x7f0b151f
+    const v2, 0x7f0b16a5
 
     invoke-virtual {p0, v2, v1}, Lcom/android/settings/inputmethod/SpellCheckersSettings;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 

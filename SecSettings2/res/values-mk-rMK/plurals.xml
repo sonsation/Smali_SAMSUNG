@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="data_saver_unrestricted_summary_chn">
+        <item quantity="other">На %d апликации им е дозволено да користат мобилни податоци без ограничувања додека е овозможено Ограничи податоци во заднина.</item>
+        <item quantity="one">На %d апликации им е дозволено да користат мобилни податоци без ограничувања додека е овозможено Ограничи податоци во заднина.</item>
+    </plurals>
     <plurals name="lock_timeout_hours">
         <item quantity="other">%d часови</item>
         <item quantity="one">1 час</item>

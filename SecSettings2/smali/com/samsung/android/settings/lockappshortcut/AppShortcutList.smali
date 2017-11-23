@@ -960,7 +960,7 @@
 
     .line 212
     .local v0, "emptyView":Landroid/widget/TextView;
-    const v2, 0x7f0b0896
+    const v2, 0x7f0b08b3
 
     invoke-virtual {v0, v2}, Landroid/widget/TextView;->setText(I)V
 

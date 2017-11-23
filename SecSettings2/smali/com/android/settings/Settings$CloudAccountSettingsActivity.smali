@@ -43,7 +43,7 @@
     if-nez v0, :cond_0
 
     .line 365
-    const v0, 0x7f0b10bc
+    const v0, 0x7f0b1243
 
     invoke-virtual {p0, v0}, Lcom/android/settings/Settings$CloudAccountSettingsActivity;->setTitle(I)V
 

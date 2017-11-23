@@ -67,14 +67,14 @@
 
     :array_0
     .array-data 4
+        0x7f02036f
+        0x7f020370
         0x7f020371
         0x7f020372
         0x7f020373
         0x7f020374
         0x7f020375
         0x7f020376
-        0x7f020377
-        0x7f020378
     .end array-data
 .end method
 

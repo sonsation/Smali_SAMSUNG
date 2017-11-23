@@ -193,7 +193,7 @@
 
     aput-object v6, v5, v7
 
-    const v6, 0x7f0b0590
+    const v6, 0x7f0b05a4
 
     invoke-virtual {p0, v6, v5}, Lcom/samsung/android/settings/navigationbar/PressureTouchActionSettings;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -248,7 +248,7 @@
 
     aput-object v6, v5, v7
 
-    const v6, 0x7f0b0592
+    const v6, 0x7f0b05a6
 
     invoke-virtual {p0, v6, v5}, Lcom/samsung/android/settings/navigationbar/PressureTouchActionSettings;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -342,7 +342,7 @@
 
     .line 215
     .local v6, "cursor":Landroid/database/Cursor;
-    const v0, 0x7f0b0593
+    const v0, 0x7f0b05a7
 
     invoke-virtual {p0, v0}, Lcom/samsung/android/settings/navigationbar/PressureTouchActionSettings;->getString(I)Ljava/lang/String;
 

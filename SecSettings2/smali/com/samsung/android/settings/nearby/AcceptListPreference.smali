@@ -78,12 +78,12 @@
     iput-object p1, p0, Lcom/samsung/android/settings/nearby/AcceptListPreference;->context:Landroid/content/Context;
 
     .line 32
-    const v0, 0x7f0b037b
+    const v0, 0x7f0b037d
 
     invoke-virtual {p0, v0}, Lcom/samsung/android/settings/nearby/AcceptListPreference;->setPositiveButtonText(I)V
 
     .line 33
-    const v0, 0x7f0b042f
+    const v0, 0x7f0b0437
 
     invoke-virtual {p0, v0}, Lcom/samsung/android/settings/nearby/AcceptListPreference;->setNegativeButtonText(I)V
 
@@ -181,7 +181,7 @@
     .param p1, "state"    # Landroid/os/Bundle;
 
     .prologue
-    const v7, 0x7f0b0387
+    const v7, 0x7f0b0389
 
     const/4 v6, 0x1
 
@@ -332,7 +332,7 @@
     .line 77
     iget-object v4, p0, Lcom/samsung/android/settings/nearby/AcceptListPreference;->context:Landroid/content/Context;
 
-    const v5, 0x7f0b038b
+    const v5, 0x7f0b038d
 
     invoke-virtual {v4, v5}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -359,7 +359,7 @@
     invoke-direct {v4, p0}, Lcom/samsung/android/settings/nearby/AcceptListPreference$3;-><init>(Lcom/samsung/android/settings/nearby/AcceptListPreference;)V
 
     .line 85
-    const v5, 0x7f0b0438
+    const v5, 0x7f0b0440
 
     .line 75
     invoke-virtual {v3, v5, v4}, Landroid/app/AlertDialog$Builder;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;

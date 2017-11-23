@@ -432,7 +432,7 @@
     <string name="answering_end_call_title">接听和结束通话</string>
     <string name="audio_preference_title">听觉</string>
     <string name="mono_audio_title">单声道音频</string>
-    <string name="mono_audio_summary">在您使用单边耳机时将音频从立体声切换至单声道</string>
+    <string name="mono_audio_summary">用一个耳朵听时，将音频从立体声切换至单声道。</string>
     <string name="multi_window_title">多窗口</string>
     <string name="magnifier_seekbar_plus_tts">加</string>
     <string name="magnifier_seekbar_minus_tts">减</string>
@@ -513,16 +513,18 @@
     <string name="direct_access_actions_universal_switch_title">通用开关</string>
     <string name="sound_detector_title">宝宝哭声检测器</string>
     <string name="sound_detector_main_title">声音检测器</string>
-    <string name="sound_detector_main_description">设备检测到宝宝哭声或门铃时接收提示</string>
+    <string name="sound_detector_main_description">手机检测到宝宝哭声或门铃时接收提示</string>
     <string name="accessibility_easy_interaction_summary">一键解除或延迟闹钟、日历事件和定时器提醒以及接听或拒绝来电。</string>
     <string name="accessibility_easy_interaction_summary_tablet_wifi">点击可使闹钟和日历事件停止或推迟。</string>
-    <string name="all_sound_off">关闭所有声音</string>
-    <string name="all_sound_off_summary">即使声音模式已设置为有声，也不要播放任何声音，包括通过扬声器播放。</string>
+    <string name="all_sound_off">静音所有声音</string>
+    <string name="all_sound_off_summary">即使声音模式已设为有声，也关闭所有声音，包括手机通话。</string>
     <string name="all_sound_off_dialog_summary">%1$s 和 %2$s 无法同时启用。将禁用 %3$s。</string>
+    <string name="all_sound_off_popup_description">需要关闭%s才能使用【静音所有声音】。</string>
+    <string name="all_sound_turn_off_button">关闭</string>
     <string name="turn_off_all_sounds">关闭所有声音</string>
     <string name="turn_off_all_sounds1">关闭所有声音和应答信息无法同时启用。</string>
     <string name="turn_off_all_sounds2">关闭所有声音和应答信息无法同时启用。应答信息将被禁用。</string>
-    <string name="turn_off_all_sounds_toast_with_sound_detector">声音检测器启用期间无法禁用【关闭所有声音】。若要禁用，请进入【设置】>【辅助功能】>【听觉】>【声音检测器】，然后禁用所有声音检测器。</string>
+    <string name="turn_off_all_sounds_toast_with_sound_detector">开启声音检测器时无法关闭【静音所有声音】</string>
     <string name="accessibility_categories_title">类别</string>
     <string name="share_accessibility_settings">管理辅助工具</string>
     <string name="share_accessibility_settings_summary">导入和导出您的辅助工具设置，或将其与其他设备分享。</string>
@@ -659,6 +661,7 @@
     <string name="deviceOption">设备选项</string>
     <string name="lock">锁定</string>
     <string name="powerOff">关机</string>
+    <string name="unable_assistantmenu_while_sidesync">使用 S 窗口共享时无法启用悬浮菜单</string>
     <string name="eamenableinfo">若要启用助理加强版，请至少选择一个应用程序。</string>
     <string name="fetch_progress">正在载入数据…</string>
     <string name="assistant_menu_enable_message">%s和以下选项无法同时启用。将禁用以下选项。</string>
@@ -765,7 +768,7 @@
     <string name="xcover_key_shortcut_battery_conserving_mode">省电模式</string>
     <string name="xcover_key_shortcut_normal_mode">普通模式</string>
     <string name="flight_mode_enabled_toast">飞行模式启用时无法连接至移动网络。禁用飞行模式并重试。</string>
-    <string name="airplane_mode_summary">禁用通话和信息功能并关闭移动数据。</string>
+    <string name="airplane_mode_summary">关闭通话、信息及移动数据</string>
     <string name="usb_not_support_mtp_usb3_dialog_title">注意</string>
     <string name="airplane_mode_desc">飞行模式允许您关闭网络功能，包括 <cst>Wi-Fi</cst>。若要使用 <cst>Wi-Fi</cst>，请在设置或通知面板中将其开启。</string>
     <string name="flight_mode_enable_popup_title">启用飞行模式</string>
@@ -905,6 +908,7 @@
     <string name="bluetooth_control_app_disable_summary">已关闭蓝牙：%s</string>
     <string name="bluetooth_enter_pin_msg">输入蓝牙密码与%s配对(尝试 0000 或 1234)。</string>
     <string name="bluetooth_pin_maximum_number_message">已达到最大字符数</string>
+    <string name="bluetooth_frp_permission_message">此通话无法使用蓝牙设备</string>
     <string name="settings_menu_done">完成</string>
     <string name="usb_tethering_unavailable_subtext_tmo">USB 未连接</string>
     <string name="usb_tethering_available_subtext_tmo">已连接 USB，选择即可进行网络共享。</string>
@@ -945,6 +949,11 @@
 - 在屏幕截图上绘画。
 - 裁剪屏幕截图。
 - 分享屏幕截图。"</string>
+    <string name="smart_capture_summary">在捕捉屏幕截图后显示附加选项。通过智能截屏，您可以执行下列操作：</string>
+    <string name="smart_capture_summary_1">捕捉屏幕的隐藏区域。</string>
+    <string name="smart_capture_summary_2">在屏幕截图上绘图。</string>
+    <string name="smart_capture_summary_3">裁剪屏幕截图。</string>
+    <string name="smart_capture_summary_4">分享该屏幕截图。</string>
     <string name="identify_unsaved_numbers_title">识别未保存的号码</string>
     <string name="identify_unsaved_numbers_title_usa">识别垃圾信息号码</string>
     <string name="call_message_spam_filter_title">垃圾电话/消息过滤器</string>
@@ -1041,6 +1050,7 @@
     <string name="fota_update_summary">点击此处以更新固件至最新版本并使用最新功能</string>
     <string name="favorite_tab">快捷设置</string>
     <string name="device_maintenance_title">设备维护</string>
+    <string name="memory_string">内存</string>
     <string name="tab_favorite_edit">编辑快捷设置</string>
     <string name="add_favorite_button">编辑快捷设置</string>
     <string name="cloud_and_accounts_title">云和帐户</string>
@@ -1078,7 +1088,12 @@
     <string name="notification_settings_apps_title">应用程序通知</string>
     <string name="international_roaming_setting">国际漫游设置</string>
     <string name="user_manual_mos">用户手册</string>
-    <string name="data_saver_description">为帮助减少流量使用，【流量节省】功能可防止部分应用程序在后台发送和接收数据。同时，当前正在使用的应用程序可以访问数据，但访问频率会更低。例如，图片在点击后才显示。</string>
+    <string name="data_saver_description">【流量节省】功能通过防止部分应用程序在后台发送和接收数据，来帮助减少流量使用量。您当前正在使用的应用程序可以使用手机流量，但频率可能会降低。例如，图片可能在点击后才显示。</string>
+    <string name="unrestricted_data_saver_chn">随意使用数据流量</string>
+    <string name="data_saver_description_chn">为帮助减少流量使用，【限制后台流量】功能将防止部分应用程序在后台发送和接收数据。同时，当前正在使用的应用程序可以访问数据，但访问频率可能会降低。例如，图片可能在点击后才显示。</string>
+    <string name="data_saver_title_chn">限制后台流量</string>
+    <string name="unrestricted_app_title_chn">随意使用数据流量</string>
+    <string name="unrestricted_app_summary_chn">此应用程序可以在启用【限制后台流量】期间随意使用数据流量</string>
     <string name="data_used_editor_subtitle">输入本月已使用的流量：</string>
     <string name="traffic_vertify">详情</string>
     <string name="btn_tmo">升级数据服务</string>
@@ -1130,6 +1145,8 @@
     <string name="last_checked_date">上次检查时间：</string>
     <string name="auto_update">自动下载更新</string>
     <string name="auto_update_summary">当连接至 <cst>Wi-Fi</cst> 网络时自动下载软件更新。下载期间，您仍可以使用设备。</string>
+    <string name="auto_update_over_wifi">通过 <cst>Wi-Fi</cst> 自动下载</string>
+    <string name="auto_update_over_wifi_summary">在连接至 <cst>Wi-Fi</cst> 网络时自动下载系统更新。根据您的运营商，使用数据流量下载更新可能不产生任何额外费用。下载期间您仍可以使用手机。</string>
     <string name="scheduled_update">预定软件更新</string>
     <string name="scheduled_update_summary_default">关</string>
     <string name="scheduled_update_summary_set_time">将在%s开始更新</string>
@@ -1171,9 +1188,9 @@
     <string name="usb_use_file_transfers_summary_vzw">将媒体文件传输至电脑</string>
     <string name="usb_use_file_transfers_summary">通过 MTP 连接传输文件</string>
     <string name="usb_use_MIDI_summary_vzw">使用设备进行 MIDI 输入</string>
-    <string name="usb_use_MIDI_summary">将已连接的设备用作 MIDI (乐器数字接口) 播放器或输入源</string>
-    <string name="usb_use_software_installation">软件安装</string>
-    <string name="usb_use_software_installation_summary">在 Mac 或 Windows 电脑上为您的设备安装软件更新和修复工具</string>
+    <string name="usb_use_MIDI_summary">将所连接的设备作为 MIDI 播放器或输入源</string>
+    <string name="usb_use_system_update">系统更新</string>
+    <string name="usb_use_system_update_summary">在您的电脑上安装软件升级助理并更新或修复此手机</string>
     <string name="sim_status_code">信道号码</string>
     <string name="sim_status_btn_update">更新 SIM 卡状态</string>
     <string name="sim_status_updating">正在更新</string>
@@ -1262,7 +1279,7 @@
     <string name="display_temperature">颜色平衡</string>
     <string name="adjust_your_display_colour">调整显示的颜色，以更改白色区域的显示。</string>
     <string name="led_indicator_settings">LED 指示灯</string>
-    <string name="led_indicator_settings_summary">在充电、录音或接收通知时打开通知灯。</string>
+    <string name="led_indicator_settings_summary">屏幕熄灭时亮起 LED 指示灯来显示录音、未读通知和电池的状态</string>
     <string name="screen_resolution_desc">部分内容的显示可能会模糊，或者不支持 FHD 或 HD 格式。</string>
     <string name="display_battery_percentage">显示电量百分比</string>
     <string name="display_battery_percentage_summary">在状态栏上以百分比显示剩余电量</string>
@@ -1309,12 +1326,12 @@
     <string name="blue_light_filter_off_time_next_day_summary_format">次日%s</string>
     <string name="blue_light_filter_user_schedule_title">自定义调整</string>
     <string name="blue_light_filter_auto_schedule_title">日落至日出</string>
-    <string name="blue_light_filter_desc">使用蓝光过滤有助于您的睡眠。请设置要使用蓝光过滤的日程表。若要使用【日落至日出】，必须启用定位服务。</string>
-    <string name="blue_light_filter_enable_now">现在启用</string>
+    <string name="blue_light_filter_desc">在夜晚使用蓝光过滤有助于您的睡眠。请设置使用蓝光过滤的日程表。若要使用【日落至日出】，必须启用定位服务。</string>
+    <string name="blue_light_filter_enable_now">立即启用</string>
     <string name="blue_light_filter_enable_as_scheduled">按计划启用</string>
-    <string name="blue_light_filter_scheduled_toast">已启用蓝光过滤。将在预定的结束时间自动禁用。</string>
+    <string name="blue_light_filter_scheduled_toast">已启用启用蓝光过滤。它将在预定的结束时间自动关闭。</string>
     <string name="screen_mode_dlg_turn_off_blue_light_filter">%s 和蓝光过滤无法同时使用。将禁用蓝光过滤。</string>
-    <string name="blue_light_filter_dlg_turn_on_location">若要使用【日落至日出】，必须启用定位服务。</string>
+    <string name="blue_light_filter_dlg_turn_on_location">必须启用定位服务才能使用【日落至日出】。</string>
     <string name="dlg_turn_on">打开</string>
     <string name="screen_resolution_title">屏幕分辨率</string>
     <string name="screen_resolution_desc_title">更改屏幕分辨率</string>
@@ -1421,6 +1438,10 @@
     <string name="crypt_keeper_vzw_password_warning">请设置包含至少 %d 个字符和 1 个数字的屏幕锁定密码。</string>
     <string name="crypt_keeper_decrypt_title">解密设备</string>
     <string name="crypt_keeper_decrypt_summary">设备已加密。</string>
+    <string name="crypt_keeper_type_pin">数字密码</string>
+    <string name="crypt_keeper_type_pattern">图案</string>
+    <string name="crypt_keeper_type_password">密码</string>
+    <string name="crypt_keeper_type_direction">方向锁定</string>
     <string name="crypt_keeper_confirm_title_dec">确认解密</string>
     <string name="crypt_keeper_force_power_cycle_pattern">若要启动您的设备，请先关机，再重新开机，然后重试。您必须绘制出用于启动设备和解锁屏幕的图案。您的备用数字密码无法用于启动设备。</string>
     <string name="crypt_keeper_setup_description_dec">"正在解密设备。这可能需要一段时间。请稍候…
@@ -1510,6 +1531,7 @@
     <string name="crypt_keeper_verify_failed_summary">无法重启设备。完整性验证失败。您需要将设备恢复出厂默认设置，而这将会清除设备上的所有数据。</string>
     <string name="cryptkeeper_emergency_call">紧急呼叫</string>
     <string name="cryptkeeper_return_to_call">返回至通话</string>
+    <string name="cryptkeeper_default_enter_msg">出于安全考虑，您的手机已加密。</string>
     <string name="enter_password">若要启动您的设备，请输入您的混合密码。</string>
     <string name="enter_pin">若要启动您的设备，请输入您的数字密码。</string>
     <string name="enter_pattern">若要启动您的设备，请绘制您的图案。</string>
@@ -1519,11 +1541,13 @@
     <string name="cryptkeeper_wrong_pin">输入了不正确的数字密码</string>
     <string name="cryptkeeper_wrong_direction">方向绘制不正确</string>
     <string name="checking_decryption">验证…</string>
-    <string name="starting_android">正在启动 Android…</string>
     <string name="crypt_keeper_last_warn_wipe">您还可尝试启动设备 1 次，之后将重置为出厂默认设置。这将清除包括文件和已下载应用程序在内的所有数据。</string>
     <string name="crypt_keeper_failed_title_dec">解密失败</string>
     <string name="crypt_keeper_failed_summary_dec">由于中断无法完成解密。使用前进行出厂数据重置（删除所有数据）。</string>
     <string name="crypt_keeper_set_screen_lock_type">设置屏幕锁类型</string>
+    <string name="encryption_interstitial_message">"您可以通过要求在手机开机时输入%s来进一步保护该手机。这有助于在手机丢失或被盗时保护您的数据。根据设备访问各种功能 (如电子邮件同步) 的加密政策，部分应用程序可能要求安全启动。
+
+在手机启动之前，您不会收到任何来电、信息或通知，而且闹钟也不会响起。"</string>
     <string name="encryption_interstitial_message_kor">您的设备已加密。请选择【在设备开机时需要使用屏幕锁定方式解密数据】来保护已加密的数据，这可以帮助您保护丢失或被盗设备上的数据。每次设备开机时，您需要解锁设备才能解密数据。在您解密设备之前，将无法接收来电、信息或通知。</string>
     <string name="encryption_interstitial_message_direction">"通过要求在设备开机时输入方向锁定来保护您的设备。这可帮助保护丢失或被盗设备上的数据。
 
@@ -1545,6 +1569,7 @@
 在设备启动之前，您不会收到任何来电、信息或通知，并且闹钟也不会响起。"</string>
     <string name="encryption_interstitial_error_message">若要保护设备数据，请将您的屏幕锁定类型更改为数字密码、混合密码、图案或指纹，然后重试。</string>
     <string name="encryption_interstitial_error_message_direction">为保护设备数据，请将您的屏幕锁定类型更改为数字密码、混合密码、图案、方向锁定或指纹，然后重试。</string>
+    <string name="encryption_interstitial_error_message_direction_without_fingerprint">若要保护设备数据，请将您的屏幕锁定类型更改为数字密码、混合密码、图案或方向锁定，然后重试。</string>
     <string name="encryption_interstitial_error_message_iris_direction">为了保护设备数据，请将您的屏幕锁定类型更改为数字密码、混合密码、图案、方向锁定、指纹或虹膜，然后重试。</string>
     <string name="encryption_interstitial_error_message_without_fingerprint">为保护您的设备数据，请将屏幕锁定类型更改为数字密码、混合密码或图案，然后重试。</string>
     <string name="encryption_interstitial_error_sktlock">不能同时启用安全锁和安全启动。请选择一个非安全锁并重试。</string>
@@ -1808,6 +1833,8 @@
 %s"</string>
     <string name="improve_location_title">提高位置精确度</string>
     <string name="improve_location_summary">使用 WLAN 和移动网络来提供更精确的设备位置信息</string>
+    <string name="send_last_location_title">发送最后的位置</string>
+    <string name="send_last_location_summary">允许您的手机在电量降至特定水平时向【查找我的手机】服务器发送其最后的位置</string>
     <string name="high_power_description">为应用程序启用【优化电池使用量】。部分功能将受到限制，例如使用移动网络或同步数据。</string>
     <string name="wifi_display_summary_off">关</string>
     <string name="battery_usage_description">显示设备自上次充满电后的电量使用情况。</string>
@@ -1903,6 +1930,8 @@
     <string name="iris_sensor_not_working_popup_title">虹膜识别不工作</string>
     <string name="iris_sensor_not_working_msg">虹膜传感器未响应。请稍后重试。</string>
     <string name="iris_go_to_samsung_theme">进入主题商店</string>
+    <string name="biometrics_dex_cant_use_msg">无法在 Samsung DeX 中使用%s</string>
+    <string name="biometrics_dex_closed_to_switch">已关闭%s来切换至 Samsung DeX</string>
     <string name="knox_twofactor_bio_description">请选择用于解锁 %s 的生物识别锁定类型和第二锁定类型。</string>
     <string name="fingerprint_registered">已注册的指纹将用于选中的解锁方法</string>
     <string name="knox_twofactor_description">使用两种锁定类型以使 Knox 更加安全。您的指纹将用作第一种锁定类型。从下方选择第二种锁定类型。</string>
@@ -2000,8 +2029,8 @@
     <string name="app_ops_settings_summary">查看或更改应用程序许可</string>
     <string name="backup_key_for_applock_header">设置图案、数字密码或混合密码，将其与指纹识别一起用于锁定或解锁应用程序。</string>
     <string name="backup_key_for_privatemode_header">设置图案、数字密码或混合密码以将其与指纹识别一起用于访问【私密模式】</string>
-    <string name="status_added">已添加</string>
     <string name="text_security_title_b2c">请选择锁定类型。如果您忘记如何解锁安全文件夹，可以使用您的三星帐户重置锁定方式。</string>
+    <string name="status_added">已添加</string>
     <string name="lockpattern_backup_pin">备份数字密码</string>
     <string name="applock_type_fingerprint">指纹</string>
     <string name="unlock_set_unlock_two_factor_title">两步验证</string>
@@ -2061,7 +2090,7 @@
     <string name="lock_screen_app_shortcut_summary">选择可从锁定屏幕打开的应用程序</string>
     <string name="lockscreen_notifications">通知</string>
     <string name="work_profile_lockscreen_notifications">工作配置文件通知</string>
-    <string name="lock_network_and_security">锁定屏幕和安全</string>
+    <string name="lock_network_and_security">锁定网络和安全</string>
     <string name="lock_network_and_security_summary">在手机锁定期间保持网络和安全相关的功能锁定，这更有利于在手机丢失或被盗时进行定位和提供保护。</string>
     <string name="dualclock_settings_title">双时钟</string>
     <string name="roamingclock_settings_title">漫游时钟</string>
@@ -2217,7 +2246,7 @@
     <string name="palm_swipe_title">手掌滑动截屏</string>
     <string name="screen_recorder_title">录制屏幕</string>
     <string name="screen_recorder_summary">在您使用设备时录制屏幕视频</string>
-    <string name="multi_window_setting_title">弹出视图手势</string>
+    <string name="multi_window_setting_title">弹出视图动作</string>
     <string name="multi_window_setting_description">当屏幕上打开应用程序时，通过从屏幕顶部的任一角沿对角线向中心滑动来调整应用程序的尺寸。</string>
     <string name="multi_window_screen_title">多窗口</string>
     <string name="multi_window_screen_summary">同时显示多个应用程序。</string>
@@ -2231,7 +2260,7 @@
     <string name="pick_up_guide_content">您的手机将在您拿起时振动，以此来通知您有未接来电和未读的信息。</string>
     <string name="pick_up_guide_content_except_message">您的手机将在您拿起时振动，以通知您有未接来电。</string>
     <string name="palm_swipe_guide_content">请用手掌边沿滑过屏幕来截屏，滑动时请保持手掌边沿与屏幕接触。</string>
-    <string name="mute_guide_content">将手盖在屏幕上或朝下翻转手机即可将来电和闹钟转为静音。</string>
+    <string name="mute_guide_content">将手盖在屏幕上或朝下翻转手机即可将来电和闹钟转为静音</string>
     <string name="mute_guide_content_turnover">将手机翻转为屏幕朝下即可将来电和闹钟转为静音。</string>
     <string name="mute_guide_content_wifi">将手盖在屏幕上或将手机翻转为屏幕朝下，即可将闹钟转为静音。</string>
     <string name="page_description_template">第 %1$d 页，共 %2$d 页</string>
@@ -2257,18 +2286,19 @@
     <string name="air_browse_note_summary">在视图模式中的页面之间移动。</string>
     <string name="data_usage_enable_mobile_summery">通过您的移动网络访问互联网</string>
     <string name="data_usage_enable_mobile_warning_skt">根据您的流量套餐，连接至移动网络可能产生额外费用。是否继续？</string>
-    <string name="data_usage_enable_mobile_warning_ktt">根据您的流量套餐，连接至移动网络可能产生额外费用。是否继续？</string>
+    <string name="data_usage_enable_mobile_warning_ktt">将打开移动数据。根据您的资费套餐，连接至移动网络可能产生额外费用。</string>
     <string name="data_usage_enable_mobile_warning_lgt">根据您的流量套餐，连接至移动网络可能产生额外费用。是否继续？</string>
     <string name="data_usage_disable_mobile_title">关闭移动数据</string>
     <string name="data_usage_disable_mobile_warning_skt">断开移动网络将限制彩信和 3G 数据服务的使用。是否断开连接？</string>
     <string name="data_usage_disable_mobile_warning_ktt">断开移动网络将限制彩信和 3G 数据服务的使用。是否断开连接？</string>
     <string name="data_usage_disable_mobile_warning_ktt_jb">断开移动网络将限制彩信和 3G 数据服务的使用。是否断开连接？</string>
-    <string name="mobile_data_off_dialog_text_vzw">除非使用 <cst>Wi-Fi</cst>"，否则您将无法使用互联网、电子邮件或需要数据连接的其他应用程序。
+    <string name="data_usage_disable_mobile_warning_dcm">如果关闭移动数据，您的设备必须连接至 <cst>Wi-Fi</cst>" 网络才能使用需要网络连接的服务。
 
-是否关闭移动数据？"</string>
-    <string name="mobile_data_off_dialog_text_common">除非您使用 <cst>Wi-Fi</cst>"，否则您将不能再使用互联网、电子邮件或需要数据连接的其他应用程序。
-
-移动数据将关闭。"</string>
+将关闭移动数据。"</string>
+    <string name="mobile_data_off_dialog_text_vzw">除非您使用 <cst>Wi-Fi</cst>，否则您将无法使用互联网、电子邮件或需要数据连接的其他应用程序。是否关闭移动数据连接？</string>
+    <string name="mobile_data_off_dialog_text_volte">移动数据关闭时，手机的视频通话功能将无法工作。此外，除非您使用 <cst>Wi-Fi</cst>，否则您将无法使用互联网、电子邮件或需要数据连接的其他应用程序。是否关闭移动数据连接？</string>
+    <string name="mobile_data_off_dialog_text_common">除非连接至 <cst>Wi-Fi</cst> 网络，否则您将无法使用浏览器、邮件或需要网络连接的其他应用程序。</string>
+    <string name="data_usage_turn_off_btn">关闭</string>
     <string name="wfd_settings_summary">分享您的屏幕到其他显示器</string>
     <string name="nfc_settings_advanced_explain">"设置默认 NFC 处理方式。
 部分 NFC 交易和手机支付服务可能需要使用不同的 NFC 处理方式。"</string>
@@ -2408,7 +2438,7 @@
     <string name="zen_mode_events_summary">允许来自 S 日历的通知和其他日历事件。</string>
     <string name="zen_mode_events_summary_na">允许来自日历事件和任务的通知</string>
     <string name="zen_mode_reminders_summary">允许来自支持提醒功能的应用程序的提醒</string>
-    <string name="dnd_app_noti_summary">设置为优先打扰以允许应用程序通知作为例外</string>
+    <string name="dnd_app_noti_summary">允许来自所选应用程序的通知</string>
     <string name="no_exceptions_dcm_summary">将包括区域邮件提醒在内的所有通话和提醒调为静音</string>
     <string name="dnd_screen_switch_summary">将您的自定义例外之外的所有通话和提示静音</string>
     <string name="app_notification_priority_app_list_title">优先应用程序通知</string>
@@ -2455,7 +2485,7 @@
     <string name="personal_page_secretbox_disclaimer_title">免责声明</string>
     <string name="personal_page_secretbox_disclaimer_message">“私密模式”无法保护您的数据不会被其他应用程序访问。 要防止数据被同步至外部服务器，请禁用您设备上的自动同步设置。</string>
     <string name="personal_page_secretbox_disclaimer_message_vzw">将隐藏移至【私密模式】的内容，并且在您从【私密模式】中退出时将不会显示内容。在【私密模式】中自动同步可能会使该内容在第三方应用程序中可见。使用【私密模式】前，请检查其他应用程序的自动同步设置。</string>
-    <string name="personal_page_tutorial_app_title_message">使用私密模式以隐藏想要保持隐私的内容。使用以下应用程序时，选择想要移动至私密文件夹的内容，然后点击【更多】并选择【移动至私密文件夹】。只有在私密模式启用时才能看到已移动至私密文件夹的内容。</string>
+    <string name="personal_page_tutorial_app_title_message">使用私密模式以隐藏想要保持隐私的内容。使用以下应用程序时，请选择想要移动至私密文件夹的内容，然后点击【更多】选项按钮并选择【移动至私密文件夹】。只有在私密模式开启时才能看到已移动至私密文件夹的内容。</string>
     <string name="personal_page_inline_help">若要使用【私密模式】，请选择访问类型。如果忘记了【私密模式】访问类型，除非您将设备重置为出厂默认设置，否则将无法进行恢复，也将无法使用【私密模式】。</string>
     <string name="personal_page_backup_pin_summary">请创建【私密模式】的备用数字密码，以防您忘记图案。</string>
     <string name="personal_page_incorrect_pin">数字密码不正确。请重试。</string>
@@ -2844,6 +2874,7 @@
     <string name="samsung_backup_summary">使用您的三星帐户以备份数据</string>
     <string name="samsung_restore_summary">使用您的三星帐户以恢复备份数据</string>
     <string name="sns_settings_title">在 <cst>Wi-Fi</cst> 连接不稳定时，切换成使用手机流量。您的手机也可在经常访问的区域中切换到已保存的 <cst>Wi-Fi</cst> 网络。智能网络切换将自动开启或关闭已保存的 <cst>Wi-Fi</cst> 网络。</string>
+    <string name="sns_settings_title_include_autowifi">在 <cst>Wi-Fi</cst> 连接不稳定时，切换成使用手机流量。您的手机在经常访问的区域中也可切换到已保存的 <cst>Wi-Fi</cst> 网络。智能网络切换将自动开启或关闭已保存的 <cst>Wi-Fi</cst> 网络。</string>
     <string name="smart_bonding">下载加速器</string>
     <string name="smart_bonding_popup_title">启用下载加速器</string>
     <string name="smart_bonding_description_vzw">通过同时使用 <cst>Wi-Fi</cst>" 和 LTE 网络更快的下载大文件 (大于 %d MB 的文件)。下载加速器图标将在【下载加速器】打开时出现在状态栏上。
@@ -3064,6 +3095,8 @@
     <string name="wifi_manage_network">管理网络</string>
     <string name="wlan_permission_available_message">通过弹出窗口询问是否使用 WLAN</string>
     <string name="wlan_permission_available">询问是否使用 WLAN</string>
+    <string name="wifi_hotspot20_summary_tmo">在不需要密码的情况下无缝连接支持 Hotspot 2.0 的 <cst>Wi-Fi</cst> 接入点。</string>
+    <string name="wifi_hotspot20_summary_dcm">开启 <cst>Wi-Fi</cst> 时自动连接至 Hotspot 2.0 <cst>Wi-Fi</cst> 网络</string>
     <string name="wifi_hotspot20_summary">自动连接至支持 Hotspot 2.0 的 <cst>Wi-Fi</cst> 接入点。</string>
     <string name="wifi_hotspot20_enable">Hotspot 2.0</string>
     <string name="wifi_att_auto_connect_summary">发现时，自动连接到AT&amp;T <cst>Wi-Fi</cst>热点</string>
@@ -3084,7 +3117,7 @@
     <string name="wifi_enable_warning_vzw">打开 <cst>Wi-Fi</cst> 将禁用移动热点。是否继续？</string>
     <string name="wifi_enable_warning_tmo"><cst>Wi-Fi</cst> 在移动热点启动时关闭。若要开启 <cst>Wi-Fi</cst>，请关闭移动热点。</string>
     <string name="wifi_enable_warning_spr">打开 <cst>Wi-Fi</cst> 将禁用热点。</string>
-    <string name="wifi_enable_warning_mtr">打开 <cst>Wi-Fi</cst> 将关闭移动热点。继续？</string>
+    <string name="wifi_enable_warning_mtr"><cst>Wi-Fi</cst> 在移动热点启动时关闭。若要开启 <cst>Wi-Fi</cst>，请关闭移动热点。</string>
     <string name="wifi_enable_warning_usc">打开 <cst>Wi-Fi</cst> 将关闭便携式 <cst>Wi-Fi</cst> 热点。是否继续？</string>
     <string name="wifi_enable_warning">打开 <cst>Wi-Fi</cst> 将禁用移动热点。</string>
     <string name="wifi_control_history_title"><cst>Wi-Fi</cst> 控制历史记录</string>
@@ -3260,6 +3293,7 @@
     <string name="wifi_wps_onstart_pbc_mobileap">按下其他设备上的 WPS 按钮以连接。</string>
     <string name="wifi_wps_complete_mobileap">其他设备现已连接至您的设备。</string>
     <string name="wifi_ap_disconnect_warn">断开设备连接</string>
+    <string name="wifi_ap_change_policy_warn_mtr">当前连接的设备将从便携式 <cst>Wi-Fi</cst> 热点断开连接。</string>
     <string name="wifi_ap_change_policy_warn">当前连接的所有设备均将从移动热点断开连接。</string>
     <string name="wifi_ap_warn_max_whitelist">已达到最大允许设备数 (%d)。</string>
     <string name="wifiap_one_item_deleted">将删除 1 个项目。</string>
@@ -3295,7 +3329,8 @@
     <string name="wifi_tether_dialog_nosim_warning_chn">插入一张 SIM 卡以使用移动热点及其他网络共享功能。</string>
     <string name="wifi_tether_dialog_nosim_warning_vzw">插入一张 SIM 卡以使用移动热点及其他网络共享选项。</string>
     <string name="wifi_tether_dialog_nosim_warning_tmo">请安装 SIM 卡以便通过移动 <cst>Wi-Fi</cst> 热点或 USB 网络分享接入互联网来与其他设备分享您手机的数据连接。</string>
-    <string name="wifi_tether_dialog_nosim_warning_spr">插入 SIM 卡用于使用热点，包括网络共享</string>
+    <string name="wifi_tether_dialog_nosim_warning_mtr">请安装 SIM 卡以便通过移动 <cst>Wi-Fi</cst> 热点或 USB 网络分享接入互联网来与其他设备分享您手机的数据连接。</string>
+    <string name="wifi_tether_dialog_nosim_warning_spr">若要使用热点，请插入 SIM 卡。</string>
     <string name="wifi_tether_dialog_nosim_warning_usc">插入一张 SIM 卡以使用移动热点及其他网络共享功能。</string>
     <string name="wifi_tether_dialog_nosim_warning">插入一张 SIM 卡以使用移动热点及其他网络共享功能。</string>
     <string name="mobileap_tmo">移动热点</string>
@@ -3389,6 +3424,7 @@
     <string name="wifi_tether_configure_ap_text_usc">设置 <cst>Wi-Fi</cst> 热点</string>
     <string name="wifi_tether_configure_ap_text">配置移动热点</string>
     <string name="wifi_ap_hidessid_warning">您的手机将对其他设备可见</string>
+    <string name="wifi_ap_first_time_configuration_mtr">初次热点配置</string>
     <string name="wifi_ap_first_time_configuration">初次热点配置</string>
     <string name="title_wifi_notify_mobileap_is_on"><cst>Wi-Fi</cst> 和移动热点</string>
     <string name="wifi_ssid_max_byte_error">已达到最大字符数</string>
@@ -3532,6 +3568,8 @@
     <string name="master_clear_desc_music">音乐</string>
     <string name="master_clear_desc_pictures">图片</string>
     <string name="master_clear_desc_other_user_data">所有其他用户数据</string>
+    <string name="master_clear_not_enough_battery">重置手机之前，请将电池至少充电至 %d%%。</string>
+    <string name="master_clear_not_enough_battery_tablet">重置平板电脑之前，请将电池至少充电至 %d%%。</string>
     <string name="text_two_locktype">指纹和%s</string>
     <string name="pref_lock_type_title">更改锁定类型</string>
     <string name="pref_lock_type_summary">锁定类型</string>
@@ -3611,8 +3649,11 @@
     <string name="google_settings_popup_msg">Google 设置中部分项目受到限制，将无法操作。</string>
     <string name="smart_lock_popup_msg">Google 设置中部分项目受到限制，将无法操作。</string>
     <string name="prevent_to_change_by_device_policy">安全策略阻止使用%s</string>
+    <string name="quick_tile_sync_title">同步</string>
     <string name="name_jerusalem">耶路撒冷</string>
     <string name="name_israel">以色列</string>
+    <string name="starting_android">正在启动 Android…</string>
+    <string name="okay">确定</string>
     <string name="yes">是</string>
     <string name="no">否</string>
     <string name="create">创建</string>
@@ -3710,7 +3751,6 @@
     <string name="phone_info_label">设备信息</string>
     <string name="proxy_settings_label">代理设置</string>
     <string name="cancel">取消</string>
-    <string name="okay">确定</string>
     <string name="save">保存</string>
     <string name="done">完成</string>
     <string name="settings_label">设置</string>
@@ -5343,4 +5383,6 @@
     <string name="ucm_pins_do_not_match">数字密码不匹配</string>
     <string name="ucm_failed_to_connect_smartcard">连接至智能卡失败。请联系设备管理员。</string>
     <string name="ucm_loading">载入中…</string>
+    <string name="usb_use_software_installation">软件安装</string>
+    <string name="usb_use_software_installation_summary">在 Mac 或 Windows 电脑上为您的设备安装软件更新和修复工具</string>
 </resources>

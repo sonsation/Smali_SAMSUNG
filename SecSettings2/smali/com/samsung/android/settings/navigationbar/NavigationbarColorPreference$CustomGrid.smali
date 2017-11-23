@@ -207,7 +207,7 @@
     if-ne p1, v0, :cond_0
 
     .line 293
-    const v0, 0x7f02059b
+    const v0, 0x7f020599
 
     invoke-virtual {v6, v0}, Landroid/widget/ImageView;->setImageResource(I)V
 

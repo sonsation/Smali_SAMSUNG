@@ -120,7 +120,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0b0af8
+    const v3, 0x7f0b0b19
 
     invoke-virtual {v2, v3}, Landroid/preference/PreferenceScreen;->setSummary(I)V
 
@@ -155,7 +155,7 @@
 
     if-eqz v1, :cond_4
 
-    const v2, 0x7f0b1952
+    const v2, 0x7f0b1ad8
 
     :goto_3
     invoke-virtual {v3, v2}, Landroid/preference/PreferenceScreen;->setSummary(I)V
@@ -163,7 +163,7 @@
     goto :goto_2
 
     :cond_4
-    const v2, 0x7f0b1953
+    const v2, 0x7f0b1ad9
 
     goto :goto_3
 .end method

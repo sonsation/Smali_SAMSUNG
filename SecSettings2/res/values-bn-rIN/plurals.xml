@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="data_saver_unrestricted_summary_chn">
+        <item quantity="other">ব্যাকগ্রাউন্ড তথ্য সীমাবদ্ধ করুন সক্ষম থাকার সময় %dটি অ্যাপকে সীমাবদ্ধতা ছাড়া মোবাইল তথ্য ব্যবহার করার অনুমতি দেওয়া হয়েছে।</item>
+        <item quantity="one">ব্যাকগ্রাউন্ড তথ্য সীমাবদ্ধ করুন সক্ষম থাকার সময় %dটি অ্যাপকে সীমাবদ্ধতা ছাড়া মোবাইল তথ্য ব্যবহার করার অনুমতি দেওয়া হয়েছে।</item>
+    </plurals>
     <plurals name="lock_timeout_hours">
         <item quantity="other">%d ঘন্টা</item>
         <item quantity="one">1 ঘন্টা</item>

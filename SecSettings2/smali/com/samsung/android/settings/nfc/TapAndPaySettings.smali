@@ -394,7 +394,7 @@
     move-result-object v6
 
     .line 144
-    const v7, 0x7f0b09b6
+    const v7, 0x7f0b09d7
 
     invoke-virtual {p0, v7}, Lcom/samsung/android/settings/nfc/TapAndPaySettings;->getString(I)Ljava/lang/String;
 
@@ -423,7 +423,7 @@
     move-result-object v6
 
     .line 148
-    const v7, 0x7f0b09b7
+    const v7, 0x7f0b09d8
 
     invoke-virtual {p0, v7}, Lcom/samsung/android/settings/nfc/TapAndPaySettings;->getString(I)Ljava/lang/String;
 
@@ -539,7 +539,7 @@
 
     aput-object v7, v6, v8
 
-    const v7, 0x7f0b09bd
+    const v7, 0x7f0b09de
 
     invoke-virtual {p0, v7, v6}, Lcom/samsung/android/settings/nfc/TapAndPaySettings;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 

@@ -454,14 +454,14 @@
 
     .line 547
     .local v5, "useQuicktools":Z
-    const v4, 0x7f0b10b1
+    const v4, 0x7f0b1238
 
     .line 548
     .local v4, "titleRes":I
     if-eqz v5, :cond_b
 
     .line 549
-    const v4, 0x7f0b08d7
+    const v4, 0x7f0b08f4
 
     .line 551
     :cond_b

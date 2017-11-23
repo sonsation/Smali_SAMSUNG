@@ -34,7 +34,7 @@
     iput-object v0, p0, Lcom/android/settings/applications/DefaultBrowserPreference;->mPm:Landroid/content/pm/PackageManager;
 
     .line 51
-    const v0, 0x7f0b03b3
+    const v0, 0x7f0b03b5
 
     invoke-virtual {p0, v0}, Lcom/android/settings/applications/DefaultBrowserPreference;->setResDescription(I)V
 

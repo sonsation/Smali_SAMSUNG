@@ -31,7 +31,7 @@
     <string name="bluetooth_disconnected">Desligado</string>
     <string name="bluetooth_disconnecting">A desligar…</string>
     <string name="bluetooth_connecting">A ligar…</string>
-    <string name="bluetooth_connected">Ligado.</string>
+    <string name="bluetooth_connected">Ligado</string>
     <string name="bluetooth_pairing">A emparelhar…</string>
     <string name="bluetooth_connected_no_headset">Ligado (sem telefone)</string>
     <string name="bluetooth_connected_no_a2dp">Ligado (sem multimédia)</string>
@@ -433,7 +433,7 @@ Enter the code you get from Verizon:"</string>
     <string name="answering_end_call_title">Atender e terminar chamadas</string>
     <string name="audio_preference_title">Audição</string>
     <string name="mono_audio_title">Áudio mono</string>
-    <string name="mono_audio_summary">Mude o áudio de estéreo para mono quando estiver a utilizar um auricular.</string>
+    <string name="mono_audio_summary">Mudar áudio de estéreo para mono para ouvir com um ouvido.</string>
     <string name="multi_window_title">Multi-janela</string>
     <string name="magnifier_seekbar_plus_tts">Mais</string>
     <string name="magnifier_seekbar_minus_tts">Menos</string>
@@ -514,16 +514,18 @@ Nota: O toque triplo para ampliação funciona em todo o lado com excepção do 
     <string name="direct_access_actions_universal_switch_title">Botão Universal</string>
     <string name="sound_detector_title">Detector de bebé a chorar</string>
     <string name="sound_detector_main_title">Detectores de som</string>
-    <string name="sound_detector_main_description">Receba alertas quando o dispositivo detectar um bebé a chorar ou a campainha.</string>
+    <string name="sound_detector_main_description">Receber alertas quando o telefone detectar um bebé a chorar ou a campainha.</string>
     <string name="accessibility_easy_interaction_summary">Cancelar ou adiar alarmes, eventos da agenda e alertas do temporizador, e atender ou rejeitar chamadas recebidas com um só toque.</string>
     <string name="accessibility_easy_interaction_summary_tablet_wifi">Toque para parar/adiar alarmes e eventos da agenda.</string>
-    <string name="all_sound_off">Desligar todos os sons</string>
-    <string name="all_sound_off_summary">Não reproduzir sons, incluindo através da alta-voz, mesmo que o modo de som esteja definido para Som.</string>
+    <string name="all_sound_off">Silenciar todos os sons</string>
+    <string name="all_sound_off_summary">Desligar todos os sons, incluindo chamadas telefónicas, mesmo que o modo de som esteja definido para Som.</string>
     <string name="all_sound_off_dialog_summary">%1$s e %2$s não podem estar activados em simultâneo. O %3$s será desactivado.</string>
+    <string name="all_sound_off_popup_description">Para utilizar Silenciar todos os sons, é necessário desligar %s.</string>
+    <string name="all_sound_turn_off_button">Desligar</string>
     <string name="turn_off_all_sounds">Desligar todos os sons</string>
     <string name="turn_off_all_sounds1">A opção Desligar todos os sons e a mensagem de atendimento não podem estar activas ao mesmo tempo.</string>
     <string name="turn_off_all_sounds2">A opção Desligar todos os sons e a mensagem de atendimento não podem estar activas ao mesmo tempo. A mensagem de atendimento será desactivada.</string>
-    <string name="turn_off_all_sounds_toast_with_sound_detector">Desligar todos os sons não pode ser desactivado com quando os detectores de som estão activados. Para os desactivar, aceda a Definições > Acessibilidade > Audição > Detectores de som e desactive todos os detectores de som.</string>
+    <string name="turn_off_all_sounds_toast_with_sound_detector">Impossível desligar Silenciar todos os sons quando os Detectores de som estão ligados.</string>
     <string name="accessibility_categories_title">Categorias</string>
     <string name="share_accessibility_settings">Gerir a acessibilidade</string>
     <string name="share_accessibility_settings_summary">Importe e exporte as suas definições de acessibilidade, ou partilhe-as com outros dispositivos.</string>
@@ -660,6 +662,7 @@ Enquanto esta função estiver activa, a Rotação automática do ecrã estará 
     <string name="deviceOption">Opções do dispositivo</string>
     <string name="lock">Proteger</string>
     <string name="powerOff">Desligar</string>
+    <string name="unable_assistantmenu_while_sidesync">Impossível ligar o menu Assistente durante a utilização do SideSync.</string>
     <string name="eamenableinfo">Para activar o Assistente plus seleccione pelo menos uma aplicação.</string>
     <string name="fetch_progress">A carregar dados…</string>
     <string name="assistant_menu_enable_message">Impossível activar %s e as opções abaixo ao mesmo tempo. As opções abaixo serão desactivadas.</string>
@@ -766,7 +769,7 @@ Toque aqui para transferir esta funcionalidade."</string>
     <string name="xcover_key_shortcut_battery_conserving_mode">Modo conservação bateria</string>
     <string name="xcover_key_shortcut_normal_mode">Modo normal</string>
     <string name="flight_mode_enabled_toast">Impossível ligar às redes móveis enquanto o modo de Voo estiver activado. Desactive o modo de Voo e tente novamente.</string>
-    <string name="airplane_mode_summary">Desactivar funções de chamada e de mensagens, e desligar os Dados móveis.</string>
+    <string name="airplane_mode_summary">Desligar funções de chamadas, mensagens e Dados móveis.</string>
     <string name="usb_not_support_mtp_usb3_dialog_title">Notificação</string>
     <string name="airplane_mode_desc">O Modo de voo permite-lhe desligar as funções de rede, incluindo a rede Wi-Fi. Para utilizar a rede Wi-Fi, ligue-a em Definições ou no painel de notificação.</string>
     <string name="flight_mode_enable_popup_title">Activar modo de voo</string>
@@ -906,6 +909,7 @@ Pode alterar este parâmetros mais tarde nas Definições de Bluetooth."</string
     <string name="bluetooth_control_app_disable_summary">Bluetooth desligado: %s</string>
     <string name="bluetooth_enter_pin_msg">Introduza o PIN para emparelhar com %s (tente 0000 ou 1234).</string>
     <string name="bluetooth_pin_maximum_number_message">Número máximo de caracteres atingido.</string>
+    <string name="bluetooth_frp_permission_message">Impossível utilizar dispositivo Bluetooth nesta chamada.</string>
     <string name="settings_menu_done">Concluído</string>
     <string name="usb_tethering_unavailable_subtext_tmo">USB not connected</string>
     <string name="usb_tethering_available_subtext_tmo">USB connected, check to tether</string>
@@ -946,6 +950,11 @@ Mesmo quando a Captura inteligente está desactivada, pode aceder às respectiva
 - Desenhar sobre a captura de ecrã.
 - Cortar a captura de ecrã.
 - Partilhar a captura de ecrã."</string>
+    <string name="smart_capture_summary">Mostrar opções adicionais depois de obter uma captura de ecrã. Com a Captura inteligente pode:</string>
+    <string name="smart_capture_summary_1">Capturar áreas ocultas no ecrã.</string>
+    <string name="smart_capture_summary_2">Desenhar na captura de ecrã.</string>
+    <string name="smart_capture_summary_3">Cortar a captura de ecrã.</string>
+    <string name="smart_capture_summary_4">Partilhar a captura de ecrã.</string>
     <string name="identify_unsaved_numbers_title">Identificar números não guardados</string>
     <string name="identify_unsaved_numbers_title_usa">Identificar números de spam</string>
     <string name="call_message_spam_filter_title">Filtro spam de mensagens/chamadas</string>
@@ -1042,6 +1051,7 @@ Mesmo quando a Captura inteligente está desactivada, pode aceder às respectiva
     <string name="fota_update_summary">Toque aqui para actualizar o firmware para a versão mais recente e utilizar as funcionalidades mais recentes.</string>
     <string name="favorite_tab">Definições rápidas</string>
     <string name="device_maintenance_title">Manutenção do dispositivo</string>
+    <string name="memory_string">Memória</string>
     <string name="tab_favorite_edit">Editar definições rápidas</string>
     <string name="add_favorite_button">Editar definições rápidas</string>
     <string name="cloud_and_accounts_title">Cloud e contas</string>
@@ -1079,7 +1089,12 @@ Mesmo quando a Captura inteligente está desactivada, pode aceder às respectiva
     <string name="notification_settings_apps_title">Notificações de aplicação</string>
     <string name="international_roaming_setting">Definições de roaming</string>
     <string name="user_manual_mos">Manual do utilizador</string>
-    <string name="data_saver_description">Para ajudar a reduzir a utilização de dados, o Economizador de dados impede que algumas aplicações enviem ou recebam dados em segundo plano. Além disso, as aplicações que estão actualmente a ser usadas podem aceder a dados, mas podem fazê-lo com menos frequência. Por exemplo, as imagens podem não ser apresentadas correctamente até tocar nelas.</string>
+    <string name="data_saver_description">O Economizador de dados ajuda a reduzir a utilização de dados impedindo que algumas aplicações enviem ou recebam dados em segundo plano. As aplicações que está actualmente a usar podem utilizar a dados móveis, mas podem fazê-lo com menos frequência. Por exemplo, as imagens podem só ser apresentadas depois de tocar nelas.</string>
+    <string name="unrestricted_data_saver_chn">Utilizar dados sem restrições</string>
+    <string name="data_saver_description_chn">Para ajudar a reduzir a utilização de dados, Restringir dados de segundo plano impede que algumas aplicações enviem ou recebam dados em segundo plano. Além disso, as aplicações que estão actualmente a ser usadas podem aceder a dados, mas podem fazê-lo com menos frequência. Por exemplo, as imagens podem não ser apresentadas correctamente até tocar nelas.</string>
+    <string name="data_saver_title_chn">Restringir dados de segundo plano</string>
+    <string name="unrestricted_app_title_chn">Utilizar dados sem restrições</string>
+    <string name="unrestricted_app_summary_chn">Esta aplicação utiliza dados móveis sem restrições quando Restringir dados de segundo plano está activado.</string>
     <string name="data_used_editor_subtitle">Introduzir a quantidade de dados que utilizou este mês:</string>
     <string name="traffic_vertify">Detalhes</string>
     <string name="btn_tmo">Upgrade data service</string>
@@ -1131,7 +1146,9 @@ Data usage is measured by your phone. Your carrier may account for usage differe
     <string name="last_checked_date">Última verificação:</string>
     <string name="auto_update">Transferir actualizações automaticamente</string>
     <string name="auto_update_summary">Transfira actualizações de software automaticamente quando estiver ligado a uma rede Wi-Fi. Continuará a poder utilizar o seu dispositivo durante a transferência.</string>
-    <string name="scheduled_update">Actual. software programadas</string>
+    <string name="auto_update_over_wifi">Transferir auto. via Wi-Fi</string>
+    <string name="auto_update_over_wifi_summary">Transferir actualizações de software automaticamente quando ligado a uma rede Wi-Fi. Dependendo do seu fornecedor de serviços, as actualizações também poderão ser transferidas utilizando dados móveis sem quaisquer taxas adicionais. Continuará a poder utilizar o telefone durante a transferência.</string>
+    <string name="scheduled_update">Actualizações software programadas</string>
     <string name="scheduled_update_summary_default">Desligado</string>
     <string name="scheduled_update_summary_set_time">A actualização será iniciada às %s</string>
     <string name="scheduled_update_summary_set_time_everyday">A actualização será iniciada às %s todos os dias</string>
@@ -1172,9 +1189,9 @@ O seu telefone inclui software de diagnóstico que pode, com o seu consentimento
     <string name="usb_use_file_transfers_summary_vzw">Transfer media files to a computer.</string>
     <string name="usb_use_file_transfers_summary">Transferir ficheiros multimédia para um PC através de uma ligação MTP.</string>
     <string name="usb_use_MIDI_summary_vzw">Use device for MIDI input.</string>
-    <string name="usb_use_MIDI_summary">Utilize o dispositivo ligado como leitor MIDI (Musical Instrument Digital Interface) ou origem de entrada.</string>
-    <string name="usb_use_software_installation">Software Installation</string>
-    <string name="usb_use_software_installation_summary">Install Software Update and Repair tool for your device on a Mac or Windows computer.</string>
+    <string name="usb_use_MIDI_summary">Utilize o dispositivo ligado como leitor MIDI ou origem de entrada.</string>
+    <string name="usb_use_system_update">Actualização de sistema</string>
+    <string name="usb_use_system_update_summary">Instale o Assistente de Actualização de Software no seu computador e actualize ou repare este telefone.</string>
     <string name="sim_status_code">Código</string>
     <string name="sim_status_btn_update">Actual. estado cartão SIM</string>
     <string name="sim_status_updating">A actualizar…</string>
@@ -1263,7 +1280,7 @@ Toque em OK para permitir que o brilho seja aumentado acima dos níveis seguros.
     <string name="display_temperature">Equilíbrio de cores</string>
     <string name="adjust_your_display_colour">Ajustar as cores do seu ecrã para mudar o aspecto dos tons brancos.</string>
     <string name="led_indicator_settings">Indicador LED</string>
-    <string name="led_indicator_settings_summary">Acender o indicador LED quando o dispositivo está a carregar, a receber notificações ou uma gravação de voz está em curso.</string>
+    <string name="led_indicator_settings_summary">Acender o indicador LED quando o ecrã está desligado, para mostrar os estados da gravação de som, das notificações não lidas e da bateria.</string>
     <string name="screen_resolution_desc">Alguns conteúdos podem aparecer desfocados ou podem não ser suportados em FHD ou HD.</string>
     <string name="display_battery_percentage">Mostrar percent. bateria</string>
     <string name="display_battery_percentage_summary">Mostrar a energia restante na bateria como percentagem na barra de estado.</string>
@@ -1310,12 +1327,12 @@ Toque em OK para permitir que o brilho seja aumentado acima dos níveis seguros.
     <string name="blue_light_filter_off_time_next_day_summary_format">%s do dia seguinte</string>
     <string name="blue_light_filter_user_schedule_title">Horário personalizado</string>
     <string name="blue_light_filter_auto_schedule_title">Nascer do sol ao pôr do sol</string>
-    <string name="blue_light_filter_desc">Utilizar o Filtro de luz azul para o ajudar a dormir melhor. Defina um horário para quando quer utilizar o Filtro de luz azul. Para utilizar Pôr do sol ao nascer do sol, a Localização tem de ser activada.</string>
-    <string name="blue_light_filter_enable_now">Activar agora</string>
+    <string name="blue_light_filter_desc">Utilizar o Filtro de luz azul à noite para o ajudar a dormir melhor. Pode definir um horário para quando quer utilizar o Filtro de luz azul. Para utilizar Pôr-do-sol ao nascer do sol, a Localização tem de estar ligada.</string>
+    <string name="blue_light_filter_enable_now">Ligar agora</string>
     <string name="blue_light_filter_enable_as_scheduled">Activar como programado</string>
-    <string name="blue_light_filter_scheduled_toast">Filtro de luz azul activado. Será automaticamente desactivado à hora de fim programada.</string>
+    <string name="blue_light_filter_scheduled_toast">Filtro de luz azul ligado. Será automaticamente desligado à hora de fim programada.</string>
     <string name="screen_mode_dlg_turn_off_blue_light_filter">O %s e o Filtro de luz azul não podem ser utilizados em simultâneo. O Filtro de luz azul será desactivado.</string>
-    <string name="blue_light_filter_dlg_turn_on_location">Para utilizar Pôr do sol ao nascer do sol, a Localização tem de ser activada.</string>
+    <string name="blue_light_filter_dlg_turn_on_location">Para utilizar Pôr-do-sol ao nascer do sol, a Localização tem de estar ligada.</string>
     <string name="dlg_turn_on">Ligar</string>
     <string name="screen_resolution_title">Resolução do ecrã</string>
     <string name="screen_resolution_desc_title">Alterar resolução do ecrã</string>
@@ -1422,6 +1439,10 @@ Toque em OK para permitir que o brilho seja aumentado acima dos níveis seguros.
     <string name="crypt_keeper_vzw_password_warning">Set the Screen lock password with at least %d characters and 1 number.</string>
     <string name="crypt_keeper_decrypt_title">Desencriptar dispositivo</string>
     <string name="crypt_keeper_decrypt_summary">Dispositivo encriptado.</string>
+    <string name="crypt_keeper_type_pin">PIN</string>
+    <string name="crypt_keeper_type_pattern">Padrão</string>
+    <string name="crypt_keeper_type_password">Palavra-passe</string>
+    <string name="crypt_keeper_type_direction">Bloqueio de direcção</string>
     <string name="crypt_keeper_confirm_title_dec">Confirmar desencriptação</string>
     <string name="crypt_keeper_force_power_cycle_pattern">Para fazer o arranque do seu dispositivo, desligue-o e volte a ligá-lo, e depois tente novamente. É necessário desenhar o padrão que utiliza para fazer o arranque do dispositivo e desbloquear o ecrã. Não é possível utilizar o seu PIN para fazer o arranque do dispositivo.</string>
     <string name="crypt_keeper_setup_description_dec">"A desencriptar o dispositivo. Esta operação pode demorar algum tempo. Aguarde…
@@ -1511,6 +1532,7 @@ A encriptação demora uma hora ou mais. Antes de começar, certifique-se de que
     <string name="crypt_keeper_verify_failed_summary">Impossível reiniciar o dispositivo. A verificação de integridade falhou. Tem de repor o seu dispositivo com as predefinições de fábrica. Todos os seus dados serão eliminados.</string>
     <string name="cryptkeeper_emergency_call">Chamada de emergência</string>
     <string name="cryptkeeper_return_to_call">Regressar à chamada</string>
+    <string name="cryptkeeper_default_enter_msg">O seu telefone está encriptado por motivos de segurança.</string>
     <string name="enter_password">Para fazer o arranque do seu dispositivo, introduza a sua palavra-passe.</string>
     <string name="enter_pin">Para fazer o arranque do seu dispositivo, introduza o PIN.</string>
     <string name="enter_pattern">Para fazer o arranque do seu dispositivo, desenhe o seu padrão.</string>
@@ -1520,11 +1542,13 @@ A encriptação demora uma hora ou mais. Antes de começar, certifique-se de que
     <string name="cryptkeeper_wrong_pin">PIN incorrecto introduzido</string>
     <string name="cryptkeeper_wrong_direction">Direcção desenhada incorrecta</string>
     <string name="checking_decryption">A verificar…</string>
-    <string name="starting_android">A iniciar o Android…</string>
     <string name="crypt_keeper_last_warn_wipe">Dispõe de mais 1 tentativa para fazer o arranque do seu dispositivo, antes de o dispositivo ser reposto com as predefinições de fábrica. Isto irá eliminar todos os dados, incluindo ficheiros e aplicações transferidas.</string>
     <string name="crypt_keeper_failed_title_dec">Descodificação falhou.</string>
     <string name="crypt_keeper_failed_summary_dec">Impossível concluir a desencriptação devido a uma interrupção. Execute uma reposição de dados de fábrica (apagando todos os dados) antes da utilização.</string>
     <string name="crypt_keeper_set_screen_lock_type">Definir tipo bloqueio ecrã</string>
+    <string name="encryption_interstitial_message">"Pode aumentar a protecção deste telefone exigindo a introdução da sua/do seu %s antes de o telefone arrancar. Isto ajuda a proteger os seus dados em caso de perda ou roubo do seu telefone. Algumas aplicações requerem Arranque Seguro de acordo com as Políticas de encriptação do dispositivo, para acesso a funcionalidades como a sincronização de e-mail.
+
+Não receberá chamadas, mensagens ou notificações, e os alarmes não serão emitidos, até o telefone arrancar."</string>
     <string name="encryption_interstitial_message_kor">O seu dispositivo está encriptado. Proteja os seus dados encriptados, seleccionando Pedir bloqueio de ecrã para desencriptar dados quando o dispositivo é ligado. Isto ajuda a proteger os dados em dispositivos roubados ou perdidos. Será necessário desbloquear o seu dispositivo para desencriptar os respectivos dados, sempre que o ligar. Não receberá chamadas, mensagens ou notificações até desencriptar o dispositivo.</string>
     <string name="encryption_interstitial_message_direction">"Proteja o seu dispositivo seleccionando Pedir Bloqueio de direcção quando dispositivo se liga. Isto ajuda a proteger os dados em dispositivos roubados ou perdidos.
 
@@ -1546,6 +1570,7 @@ Não receberá chamadas, mensagens ou notificações, e os alarmes não irão so
 Não receberá chamadas, mensagens ou notificações, e os alarmes não irão soar, até o dispositivo arrancar."</string>
     <string name="encryption_interstitial_error_message">Para proteger os dados do seu dispositivo, altere o seu tipo de bloqueio do ecrã para PIN, Palavra-passe, Padrão ou Impressão Digital e tente novamente.</string>
     <string name="encryption_interstitial_error_message_direction">Para proteger os dados do seu dispositivo, altere o seu tipo de bloqueio do ecrã para PIN, Palavra-passe, Padrão, Bloqueio de direcção ou Impressões digitais, e tente novamente.</string>
+    <string name="encryption_interstitial_error_message_direction_without_fingerprint">Para proteger os dados do seu dispositivo, altere o seu tipo de bloqueio do ecrã para PIN, Palavra-passe, Padrão ou Bloqueio de direcção, e tente novamente.</string>
     <string name="encryption_interstitial_error_message_iris_direction">Para proteger os dados do seu dispositivo, altere o seu tipo de bloqueio do ecrã para PIN, Palavra-passe, Padrão, Bloqueio de direcção, Impressões digitais ou Íris, e tente novamente.</string>
     <string name="encryption_interstitial_error_message_without_fingerprint">Para proteger os dados do seu dispositivo, altere o seu tipo de bloqueio do ecrã para PIN, Palavra-passe ou Padrão e tente novamente.</string>
     <string name="encryption_interstitial_error_sktlock">O Bloqueio de segurança e o Arranque seguro não podem estar activados em simultâneo. Seleccione um Bloqueio não seguro e tente novamente.</string>
@@ -1809,6 +1834,8 @@ Antes de solicitar uma reparação ao abrigo da garantia, é necessário desacti
 %s"</string>
     <string name="improve_location_title">Melhorar precisão localiz.</string>
     <string name="improve_location_summary">Utilizar WLANs e redes móveis para fornecer informações mais exactas sobre a localização do seu dispositivo.</string>
+    <string name="send_last_location_title">Enviar última localização</string>
+    <string name="send_last_location_summary">Autorizar o seu telefone a enviar a última localização para o servidor de Localizar o Meu Telemóvel, quando a bateria cai abaixo de um determinado nível.</string>
     <string name="high_power_description">Active Optimizar a utilização da bateria para cada uma das aplicações. Algumas funções, tais como as que utilizam redes móveis ou sincronizam dados, serão restringidas para poupar energia da bateria.</string>
     <string name="wifi_display_summary_off">Desligado</string>
     <string name="battery_usage_description">Este ecrã mostra os dados de utilização da bateria desde o último carregamento total do dispositivo.</string>
@@ -1904,6 +1931,8 @@ Estão disponíveis opções de segurança alternativas no dispositivo. O Utiliz
     <string name="iris_sensor_not_working_popup_title">Reconhecimento de íris não funciona</string>
     <string name="iris_sensor_not_working_msg">O sensor de íris não está a responder. Tente novamente mais tarde.</string>
     <string name="iris_go_to_samsung_theme">Ir para o Samsung Themes</string>
+    <string name="biometrics_dex_cant_use_msg">Impossível utilizar %s no Samsung DeX.</string>
+    <string name="biometrics_dex_closed_to_switch">%s fechado para mudar para o Samsung DeX.</string>
     <string name="knox_twofactor_bio_description">Seleccione o seu tipo de bloqueio biométrico e um segundo tipo de bloqueio para desbloquear %s.</string>
     <string name="fingerprint_registered">As impressões digitais registadas serão utilizadas com o método de desbloqueio seleccionado.</string>
     <string name="knox_twofactor_description">Utilize dois tipos de bloqueio para tornar o Knox ainda mais seguro. As suas impressões digitais serão utilizadas como primeiro tipo de bloqueio. Seleccione abaixo um segundo tipo de bloqueio.</string>
@@ -2001,8 +2030,8 @@ Determining your location will use the mobile network. Data usage will apply."</
     <string name="app_ops_settings_summary">Ver ou alterar permissões de aplicação.</string>
     <string name="backup_key_for_applock_header">Defina um padrão, um PIN ou uma palavra-passe para utilizar juntamente com o reconhecimento de impressões digitais, para bloquear ou desbloquear aplicações.</string>
     <string name="backup_key_for_privatemode_header">Defina um padrão, um PIN ou uma palavra-passe para utilizar juntamente com o reconhecimento de impressões digitais, para aceder ao Modo privado.</string>
-    <string name="status_added">Adicionadas</string>
     <string name="text_security_title_b2c">Seleccione um tipo de bloqueio. Caso se esqueça de como desbloquear a Pasta Segura, pode repor o seu bloqueio utilizando a sua conta Samsung.</string>
+    <string name="status_added">Adicionadas</string>
     <string name="lockpattern_backup_pin">PIN de cópia de segurança</string>
     <string name="applock_type_fingerprint">Impressão digital</string>
     <string name="unlock_set_unlock_two_factor_title">Verificação de 2 passos</string>
@@ -2218,7 +2247,7 @@ Mesmo que o seu telefone seja limpo, a sua palavra-passe da Conta Google será n
     <string name="palm_swipe_title">Passar a mão para capturar</string>
     <string name="screen_recorder_title">Gravar ecrã</string>
     <string name="screen_recorder_summary">Grave capturas de ecrã de vídeo quando está a utilizar o seu dispositivo.</string>
-    <string name="multi_window_setting_title">Gesto de vista de pop-up</string>
+    <string name="multi_window_setting_title">Acção de vista de pop-ups</string>
     <string name="multi_window_setting_description">Quando uma aplicação estiver aberta no ecrã, ajuste o tamanho da aplicação, deslizando para baixo na diagonal a partir de um dos cantos superiores do ecrã.</string>
     <string name="multi_window_screen_title">Multi-janela</string>
     <string name="multi_window_screen_summary">Mostrar mais de uma aplicação em simultâneo.</string>
@@ -2258,18 +2287,19 @@ Mesmo que o seu telefone seja limpo, a sua palavra-passe da Conta Google será n
     <string name="air_browse_note_summary">Deslocar-se entre páginas em Modo de visualização.</string>
     <string name="data_usage_enable_mobile_summery">Aceder à Internet através da rede móvel.</string>
     <string name="data_usage_enable_mobile_warning_skt">A ligação a redes móveis pode implicar a cobrança de taxas extra dependendo do seu tarifário de dados. Continuar?</string>
-    <string name="data_usage_enable_mobile_warning_ktt">A ligação a redes móveis pode implicar a cobrança de taxas extra dependendo do seu tarifário de dados. Continuar?</string>
+    <string name="data_usage_enable_mobile_warning_ktt">Os Dados móveis serão ligados. A ligação a redes móveis pode resultar na cobrança de taxas adicionais, dependendo do seu tarifário.</string>
     <string name="data_usage_enable_mobile_warning_lgt">A ligação a redes móveis pode implicar a cobrança de taxas extra dependendo do seu tarifário de dados. Continuar?</string>
     <string name="data_usage_disable_mobile_title">Desligar Dados móveis</string>
     <string name="data_usage_disable_mobile_warning_skt">O desligamento da rede móvel irá restringir a utilização dos serviços de dados MMS e 3G. Desligar?</string>
     <string name="data_usage_disable_mobile_warning_ktt">O desligamento da rede móvel irá restringir a utilização dos serviços de dados MMS e 3G. Desligar?</string>
     <string name="data_usage_disable_mobile_warning_ktt_jb">O desligamento da rede móvel irá restringir a utilização dos serviços de dados MMS e 3G. Desligar?</string>
-    <string name="mobile_data_off_dialog_text_vzw">"Unless you use Wi-Fi, you will not be able to use the Internet, Email, or other apps that require a data connection.
+    <string name="data_usage_disable_mobile_warning_dcm">"Se os Dados móveis estiverem desligados, o seu dispositivo terá de ser ligado a uma rede Wi-Fi para utilizar os serviços que requerem uma ligação de rede.
 
-Turn off Mobile data?"</string>
-    <string name="mobile_data_off_dialog_text_common">"A não ser que utilize Wi-Fi, deixará de poder utilizar a Internet, o e-mail ou outras aplicações que exijam uma ligação de dados.
-
-Os Dados móveis serão desligados."</string>
+Os dados móveis serão desligados."</string>
+    <string name="mobile_data_off_dialog_text_vzw">"Unless you use Wi-Fi, you won't be able to use the Internet, Email or other apps that require a data connection. Turn off the mobile data connection?"</string>
+    <string name="mobile_data_off_dialog_text_volte">"Your phone's Video Calling function won't work when mobile data is off. Also, you won't be able to use the Internet, Email or other apps that need a data connection unless you use Wi-Fi. Turn off the mobile data connection?"</string>
+    <string name="mobile_data_off_dialog_text_common">A não ser que se ligue a uma rede Wi-Fi, não poderá utilizar a Internet, o E-mail ou outras aplicações que exijam uma ligação de rede.</string>
+    <string name="data_usage_turn_off_btn">Desligar</string>
     <string name="wfd_settings_summary">Partilhe o ecrã do seu dispositivo com outro dispositivo.</string>
     <string name="nfc_settings_advanced_explain">"Defina o método de processamento NFC padrão.
 Alguns serviços de pagamento móvel e transacções NFC podem exigir um método de processamento NFC padrão diferente."</string>
@@ -2409,7 +2439,7 @@ Alguns serviços de pagamento móvel e transacções NFC podem exigir um método
     <string name="zen_mode_events_summary">Permitir notificações do S Planner e outros eventos da agenda.</string>
     <string name="zen_mode_events_summary_na">Permitir notificações dos eventos e tarefas da Agenda.</string>
     <string name="zen_mode_reminders_summary">Permita lembretes de aplicações que os suportem.</string>
-    <string name="dnd_app_noti_summary">Defina como interrupções prioritárias para permitir notificações de aplicações como excepções.</string>
+    <string name="dnd_app_noti_summary">Permitir notificações das aplicações que seleccionar.</string>
     <string name="no_exceptions_dcm_summary">Silenciar todas as chamadas e alertas, incluindo alarmes de Area Mail.</string>
     <string name="dnd_screen_switch_summary">Silenciar todas as chamadas e todos os alertas, excepto as suas excepções personalizadas.</string>
     <string name="app_notification_priority_app_list_title">Notificações app prioritárias</string>
@@ -2456,7 +2486,7 @@ privado"</string>
     <string name="personal_page_secretbox_disclaimer_title">Termos de responsablidade</string>
     <string name="personal_page_secretbox_disclaimer_message">Os Conteúdos transferidos para o modo privado serão ocultados e não estarão visíveis quando o Modo Privado for encerrado. O Modo privado não impede que outras aplicações acedam aos seus dados, por isso os conteúdos poderão ser visíveis numa pasta diferente do seu Equipamento se este estiver com sincronização automática. Para evitar que os dados sejam sincronizados com servidores externos, desactive as definições de sincronização automática no seu dispositivo.</string>
     <string name="personal_page_secretbox_disclaimer_message_vzw">Content moved into Private mode will be hidden and will not be shown when you exit from Private mode. Automatic syncing while in Private mode may allow that content to be visible in 3rd party apps. Check the automatic synchronization settings of your other applications before using Private mode.</string>
-    <string name="personal_page_tutorial_app_title_message">Utilize o Modo privado para ocultar conteúdo que pretende manter privado. Enquanto estiver a utilizar as seguintes aplicações, seleccione os itens que quer mover para Privado, toque em MAIS e seleccione Mover para Privado. O conteúdo movido para Privado apenas poderá ser visto quando o Modo privado estiver activado.</string>
+    <string name="personal_page_tutorial_app_title_message">Utilize o Modo privado para ocultar conteúdo que pretende manter privado. Enquanto estiver a utilizar as seguintes aplicações, seleccione os itens que quer mover para Privado, depois toque no botão Mais opções e seleccione Mover para Privado. O conteúdo movido para Privado apenas poderá ser visto quando o Modo privado estiver ligado.</string>
     <string name="personal_page_inline_help">Para utilizar o Modo privado, seleccione um tipo de acesso. Caso se esqueça do tipo de acesso ao Modo privado, não o poderá recuperar e não poderá utilizar o Modo privado, a não ser que reponha as definições padrão do seu dispositivo.</string>
     <string name="personal_page_backup_pin_summary">Se se esquecer do seu padrão, crie um PIN de reserva do Modo privado.</string>
     <string name="personal_page_incorrect_pin">"PIN incorrecto.
@@ -2846,7 +2876,8 @@ Desligue o carregador para activar/desactivar esta função."</string>
     <string name="samsung_backup_summary">Utilize a sua conta Samsung para fazer cópia de segurança dos seus dados.</string>
     <string name="samsung_restore_summary">Utilize a sua conta Samsung para restaurar os seus dados de cópia de segurança.</string>
     <string name="sns_settings_title">Mudar para dados móveis quando a sua ligação de Internet Wi-Fi se torna instável. O telefone também pode mudar redes Wi-Fi guardadas das áreas visitadas com mais frequência. A Mudança de rede inteligente irá ligar ou desligar as redes Wi-Fi guardadas.</string>
-    <string name="smart_bonding">Transferir amplificador</string>
+    <string name="sns_settings_title_include_autowifi">Mudar para dados móveis quando a sua ligação de Internet Wi-Fi se torna instável. O telefone também pode mudar redes Wi-Fi guardadas das áreas visitadas com mais frequência. A Mudança de rede inteligente irá ligar ou desligar as redes Wi-Fi guardadas.</string>
+    <string name="smart_bonding">Download booster</string>
     <string name="smart_bonding_popup_title">Activar Intensif. de transfer</string>
     <string name="smart_bonding_description_vzw">"Download large files (over %d MB) faster by using Wi-Fi and LTE networks at the same time. The Download booster icon will be shown on the status bar when Download booster is turned on.
 
@@ -3066,6 +3097,8 @@ A transferência através das redes móveis pode implicar a cobrança de taxas a
     <string name="wifi_manage_network">Gerir redes</string>
     <string name="wlan_permission_available_message">Pede a sua autorização para utilizar a WLAN através de um pop-up</string>
     <string name="wlan_permission_available">Pedir para utilizar WLAN</string>
+    <string name="wifi_hotspot20_summary_tmo">Estabelecer ligação sem problemas com os pontos de acesso Wi-Fi activados pelo Hotspot 2.0 sem necessidade de palavra-passe.</string>
+    <string name="wifi_hotspot20_summary_dcm">Ligar automaticamente à rede Wi-Fi Hotspot 2.0. quando a rede Wi-Fi está ligada.</string>
     <string name="wifi_hotspot20_summary">Ligar automaticamente a pontos de acesso Wi-Fi que suportam Hotspot 2.0.</string>
     <string name="wifi_hotspot20_enable">Hotspot 2.0</string>
     <string name="wifi_att_auto_connect_summary">Automatically connect to AT&amp;T Wi-Fi hotspot when detected</string>
@@ -3084,9 +3117,9 @@ A transferência através das redes móveis pode implicar a cobrança de taxas a
     <string name="wifi_auto_reconnect">Voltar a ligar automaticamente</string>
     <string name="wifi_enable_warning_chn">Ligar a WLAN irá desactivar o PA móvel.</string>
     <string name="wifi_enable_warning_vzw">Ligar o Wi-Fi irá desactivar o PA Móvel. Continuar?</string>
-    <string name="wifi_enable_warning_tmo">Wi-Fi is turned off when Mobile HotSpot is active. To turn on Wi-Fi, please turn off Mobile HotSpot.</string>
+    <string name="wifi_enable_warning_tmo">O Wi-Fi está desligado quando o PA Móvel está activo. Para ligar o Wi-Fi, desligue o PA Móvel.</string>
     <string name="wifi_enable_warning_spr">Turning on Wi-Fi will disable Hotspot.</string>
-    <string name="wifi_enable_warning_mtr">Turning on Wi-Fi will turn off Mobile Hotspot. Continue?</string>
+    <string name="wifi_enable_warning_mtr">O Wi-Fi está desligado quando o PA Móvel está activo. Para ligar o Wi-Fi, desligue o PA Móvel.</string>
     <string name="wifi_enable_warning_usc">Turning on Wi-Fi will turn off Portable Wi-Fi hotspot. Continue?</string>
     <string name="wifi_enable_warning">Ligar o Wi-Fi irá desactivar o Hotspot portátil.</string>
     <string name="wifi_control_history_title">Histórico de controlo Wi-Fi</string>
@@ -3120,9 +3153,9 @@ A transferência através das redes móveis pode implicar a cobrança de taxas a
     <string name="wifi_ap__wifi_sharing_vzw">Wi-Fi Sharing</string>
     <string name="wifi_ap__wifi_sharing">Partilha de Wi-Fi</string>
     <string name="first_use_wifi_msg_mtr">Tap OK to learn more about using Mobile Hotspot.</string>
-    <string name="first_use_wifi_msg">Tap OK to learn more about using Mobile HotSpot.</string>
+    <string name="first_use_wifi_msg">Toque em OK para obter mais informações sobre a utilização do PA Móvel.</string>
     <string name="first_use_title_mtr">View Mobile Hotspot help</string>
-    <string name="first_use_title">View Mobile HotSpot help</string>
+    <string name="first_use_title">Ver ajuda do PA Móvel</string>
     <string name="wifi_ap_wifi_sharing_title">Activar Partilha Wi-Fi</string>
     <string name="wifi_ap_wifi_sharing_status_enabled">Activada</string>
     <string name="wifi_ap_wifi_sharing_status_disabled">Desactivado</string>
@@ -3154,11 +3187,11 @@ A utilização do PA móvel aumenta o consumo da bateria e a utilização dos da
 Mobile Hotspot uses mobile data from your data plan.
 
 We recommend keeping your phone plugged in to a charger while using Mobile Hotspot to save battery."</string>
-    <string name="wifi_ap_instruction_changeable_maxclient_tmo">"You can use your device as an Internet access point using Mobile HotSpot. This allows up to %d other devices to connect to it via Wi-Fi. The connected devices will have access to the Internet via your mobile network.
+    <string name="wifi_ap_instruction_changeable_maxclient_tmo">"Pode utilizar o seu dispositivo como um ponto de acesso à Internet utilizando o PA Móvel. Isto permite que até %d outros dispositivos estabeleçam ligação com este através de Wi-Fi. Os dispositivos ligados terão acesso à Internet através da sua rede móvel.
 
-You can create an allowed device profile and set the connection mode for it.
+Pode criar um perfil de dispositivo autorizado e definir o modo de ligação do dispositivo.
 
-Using Mobile HotSpot increases battery consumption and data usage."</string>
+A utilização do PA Móvel aumenta o consumo de bateria e a utilização dos dados móveis."</string>
     <string name="wifi_ap_instruction_changeable_maxclient_spr">"You can share your device's Hotspot with Wi-Fi enabled devices.
 
 After you start the Mobile Hotspot Wi-Fi router, connect using the controls on your Wi-Fi enabled device."</string>
@@ -3191,7 +3224,7 @@ To configure Smartphone Mobile Hotspot, tap on the menu icon, and then tap “Co
     <string name="wifi_ap_hide_ssid">Ocultar o meu dispositivo</string>
     <string name="wifi_ap_wifi_off_warn_vzw">Mobile Hotspot uses your mobile data connection. Your Wi-Fi connection will be turned off.</string>
     <string name="wifi_ap_wifi_off_warn_spr">Enabling Hotspot will turn off Wi-Fi</string>
-    <string name="wifi_ap_wifi_off_warn_tmo">Wi-Fi is turned off when USB tethering or Mobile HotSpot is active. To turn on Wi-Fi, please turn off USB tethering or Mobile HotSpot.</string>
+    <string name="wifi_ap_wifi_off_warn_tmo">O Wi-Fi está desligado quando a ancoragem USB ou o PA Móvel estão activos. Para ligar o Wi-Fi, desligue a ancoragem USB ou o PA Móvel.</string>
     <string name="wifi_ap_wifi_off_warn_chn">A activação do PA móvel irá desligar a WLAN.</string>
     <string name="wifi_ap_wifi_off_warn_att">Turning on portable Wi-Fi hotspot will turn off Wi-Fi.</string>
     <string name="wifi_ap_wifi_off_warn_mtr">Wi-Fi is turned off when USB tethering or Mobile Hotspot is active. To turn on Wi-Fi, please turn off USB tethering or Mobile Hotspot.</string>
@@ -3262,6 +3295,7 @@ Depois de alterar o nome ou a palavra-passe do PA móvel, é necessário gerar u
     <string name="wifi_wps_onstart_pbc_mobileap">Prima o botão WPS no outro dispositivo para fazer a ligação.</string>
     <string name="wifi_wps_complete_mobileap">O outro dispositivo já está ligado ao seu dispositivo.</string>
     <string name="wifi_ap_disconnect_warn">Desligar dispositivo</string>
+    <string name="wifi_ap_change_policy_warn_mtr">The device currently connected will be disconnected from Portable Wi-Fi Hotspot.</string>
     <string name="wifi_ap_change_policy_warn">Todos os dispositivos ligados actualmente serão desligados do Hotspot portátil.</string>
     <string name="wifi_ap_warn_max_whitelist">O número máximo de dispositivos autorizados (%d) foi atingido.</string>
     <string name="wifiap_one_item_deleted">1 item será eliminado.</string>
@@ -3296,8 +3330,9 @@ Wi-Fi is now on."</string>
     <string name="wifi_tether_dialog_nosim_warning_title">Hotspot portátil</string>
     <string name="wifi_tether_dialog_nosim_warning_chn">Insira um cartão SIM para utilizar o PA móvel e outras funções de ancoragem.</string>
     <string name="wifi_tether_dialog_nosim_warning_vzw">Insert a SIM card to use Mobile Hotspot and other tethering options.</string>
-    <string name="wifi_tether_dialog_nosim_warning_tmo">"Please install SIM card in order to share your phone's data connection with other devices using Mobile Wi-Fi HotSpot or USB tethering for Internet access."</string>
-    <string name="wifi_tether_dialog_nosim_warning_spr">Insert SIM for using Hotspot include tethering</string>
+    <string name="wifi_tether_dialog_nosim_warning_tmo">Instale o cartão SIM para partilhar a ligação de dados do seu telefone com outros dispositivos, utilizando o PA Wi-Fi Móvel ou a ancoragem USB para acesso à Internet.</string>
+    <string name="wifi_tether_dialog_nosim_warning_mtr">"Please install SIM card in order to share your phone's data connection with other devices using Mobile Wi-Fi Hotspot or USB tethering for Internet access."</string>
+    <string name="wifi_tether_dialog_nosim_warning_spr">Insira um cartão SIM para utilizar o PA.</string>
     <string name="wifi_tether_dialog_nosim_warning_usc">Insira um cartão SIM para utilizar o Hotspot portátil e outras funções de ancoragem.</string>
     <string name="wifi_tether_dialog_nosim_warning">Insira um cartão SIM para utilizar o Hotspot portátil e outras funções de ancoragem.</string>
     <string name="mobileap_tmo">Mobile Hotspot</string>
@@ -3324,7 +3359,7 @@ Wi-Fi is now on."</string>
     <string name="wifi_ap_instruction_open_activate_color3_att">Ligue a &lt;font color=\"%1$s\">%2$s&lt;/font>.</string>
     <string name="wifi_ap_instruction_open_activate_color3">Ligue a &lt;font color=\"%1$s\">%2$s&lt;/font>.</string>
     <string name="wifi_ap_instruction_open_activate_color4_vzw">Enjoy your Mobile Hotspot.</string>
-    <string name="wifi_ap_instruction_open_activate_color4_tmo">Enjoy the internet using your personal Mobile HotSpot.</string>
+    <string name="wifi_ap_instruction_open_activate_color4_tmo">Usufrua da Internet utilizando o seu PA Móvel pessoal.</string>
     <string name="wifi_ap_instruction_open_activate_color4_spr">Enjoy the Internet with Hotspot.</string>
     <string name="wifi_ap_instruction_open_activate_color4_att">Enjoy the Internet using Mobile hotspot.</string>
     <string name="wifi_ap_instruction_open_activate_color4_mtr">Enjoy the Internet using portable Wi-Fi hotspot.</string>
@@ -3343,7 +3378,7 @@ Wi-Fi is now on."</string>
     <string name="wifi_ap_instruction_activate_color3_att">Ligue a &lt;font color=\"%1$s\">%2$s&lt;/font> introduzindo &lt;font color=\"%1$s\">%3$s&lt;/font> como palavra-passe.</string>
     <string name="wifi_ap_instruction_activate_color3">Ligue a &lt;font color=\"%1$s\">%2$s&lt;/font> introduzindo &lt;font color=\"%1$s\">%3$s&lt;/font> como palavra-passe.</string>
     <string name="wifi_ap_instruction_activate_color4_vzw">Enjoy your Mobile Hotspot.</string>
-    <string name="wifi_ap_instruction_activate_color4_tmo">Enjoy the internet using your personal Mobile HotSpot.</string>
+    <string name="wifi_ap_instruction_activate_color4_tmo">Usufrua da Internet utilizando o seu PA Móvel pessoal.</string>
     <string name="wifi_ap_instruction_activate_color4_spr">Enter &lt;font color=\"%1$s\">%3$s&lt;/font> in the &lt;font color=\"%1$s\">%4$s&lt;/font> field.</string>
     <string name="wifi_ap_instruction_activate_color4_att">Enjoy the Internet using Mobile hotspot.</string>
     <string name="wifi_ap_instruction_activate_color4_mtr">Enjoy the Internet using portable Wi-Fi hotspot.</string>
@@ -3365,16 +3400,16 @@ Wi-Fi is now on."</string>
     <string name="wifi_ap_instruction_activate_color_hidden3_chn">Ligue a &lt;font color=\"%1$s\">%2$s&lt;/font> introduzindo &lt;font color=\"%1$s\">%3$s&lt;/font> como palavra-passe.</string>
     <string name="wifi_ap_instruction_activate_color_hidden3_tmo">Connect to &lt;font color=\"%1$s\">%2$s&lt;/font> by entering &lt;font color=\"%1$s\">%3$s&lt;/font> as the password.</string>
     <string name="wifi_ap_instruction_activate_color_hidden3">Ligue a &lt;font color=\"%1$s\">%2$s&lt;/font> introduzindo &lt;font color=\"%1$s\">%3$s&lt;/font> como palavra-passe.</string>
-    <string name="wifi_ap_instruction_activate_color_hidden4_tmo">Enjoy the internet using your personal Mobile HotSpot.</string>
+    <string name="wifi_ap_instruction_activate_color_hidden4_tmo">Usufrua da Internet utilizando o seu PA Móvel pessoal.</string>
     <string name="wifi_ap_instruction_no_maxclient">"Pode utilizar o seu dispositivo como um ponto de acesso à Internet utilizando o PA móvel. Isto permite que outros dispositivos estabeleçam ligação com este através de Wi-Fi. Os dispositivos ligados terão acesso à Internet através da sua rede móvel.
 
 Pode criar um perfil de dispositivo autorizado e definir o modo de ligação do dispositivo.
 
 A utilização do PA móvel aumenta o consumo da bateria e a utilização dos dados móveis."</string>
     <string name="wifi_ap_instruction_configure_vzw">To change the Mobile Hotspot configuration, go to Settings > Mobile Hotspot and tethering > Mobile Hotspot > MORE, then select Configure Mobile Hotspot.</string>
-    <string name="wifi_ap_instruction_configure_tmo">To change the Mobile HotSpot configuration, tap the More options button, then select Configure Mobile HotSpot.</string>
+    <string name="wifi_ap_instruction_configure_tmo">Para alterar a configuração do PA Móvel, toque no botão Mais opções e seleccione Configurar PA Móvel.</string>
     <string name="wifi_ap_instruction_configure">Para alterar a configuração do PA móvel, toque no botão Mais opções e seleccione Configurar PA móvel.</string>
-    <string name="wifi_ap_instruction_configure_non_grace_tmo">To change the Mobile HotSpot configuration, tap MORE, then select Configure Mobile HotSpot.</string>
+    <string name="wifi_ap_instruction_configure_non_grace_tmo">Para alterar a configuração do PA Móvel, toque em MAIS e depois seleccione Configurar PA Móvel.</string>
     <string name="wifi_ap_instruction_configure_non_grace">Para alterar a configuração do PA móvel, toque em MAIS e seleccione Configurar PA móvel.</string>
     <string name="wifi_ap_change_security">Change Security</string>
     <string name="wifi_ap_maxclient">Máximo de ligações</string>
@@ -3391,7 +3426,8 @@ A utilização do PA móvel aumenta o consumo da bateria e a utilização dos da
     <string name="wifi_tether_configure_ap_text_usc">Configure Wi-Fi hotspot</string>
     <string name="wifi_tether_configure_ap_text">Configurar Hotspot portátil</string>
     <string name="wifi_ap_hidessid_warning">Your phone will be visible to other devices</string>
-    <string name="wifi_ap_first_time_configuration">First time HotSpot configuration</string>
+    <string name="wifi_ap_first_time_configuration_mtr">Primeira configuração do PA</string>
+    <string name="wifi_ap_first_time_configuration">Primeira configuração do PA</string>
     <string name="title_wifi_notify_mobileap_is_on">Wi-Fi and Mobile Hotspot</string>
     <string name="wifi_ssid_max_byte_error">Número máximo de caracteres atingido.</string>
     <string name="tethering_attention_title">Atenção</string>
@@ -3534,6 +3570,8 @@ Informe-se sobre o roaming efectuando uma chamada gratuita para os serviços de 
     <string name="master_clear_desc_music">Música</string>
     <string name="master_clear_desc_pictures">Imagens</string>
     <string name="master_clear_desc_other_user_data">Todos os outros dados do utilizador</string>
+    <string name="master_clear_not_enough_battery">Carregue a bateria até pelo menos %d %% antes de repor o seu telefone.</string>
+    <string name="master_clear_not_enough_battery_tablet">Carregue a bateria até pelo menos %d %% antes de repor o seu tablet.</string>
     <string name="text_two_locktype">Impressão digital e %s</string>
     <string name="pref_lock_type_title">Alterar tipo de bloqueio</string>
     <string name="pref_lock_type_summary">Tipo de bloqueio</string>
@@ -3613,8 +3651,11 @@ Recepção de SMS"</string>
     <string name="google_settings_popup_msg">Só está disponível um número limitado de definições Google. Algumas acções podem não funcionar.</string>
     <string name="smart_lock_popup_msg">Só está disponível um número limitado de definições Google. Algumas acções podem não funcionar.</string>
     <string name="prevent_to_change_by_device_policy">A política de segurança impede a utilização de %s.</string>
+    <string name="quick_tile_sync_title">Sincronizar</string>
     <string name="name_jerusalem">Jerusalém</string>
     <string name="name_israel">Israel</string>
+    <string name="starting_android">A iniciar o Android…</string>
+    <string name="okay">OK</string>
     <string name="yes">Sim</string>
     <string name="no">Não</string>
     <string name="create">Criar</string>
@@ -3712,7 +3753,6 @@ Pode alterar este parâmetro mais tarde nas Definições de Bluetooth."</string>
     <string name="phone_info_label">Informações de dispositivo</string>
     <string name="proxy_settings_label">Definições de proxy</string>
     <string name="cancel">Cancelar</string>
-    <string name="okay">OK</string>
     <string name="save">Guardar</string>
     <string name="done">Concluir</string>
     <string name="settings_label">Definições</string>
@@ -5347,4 +5387,6 @@ Não receberá chamadas, mensagens ou notificações, e os alarmes não irão so
     <string name="ucm_pins_do_not_match">Os PINs não correspondem</string>
     <string name="ucm_failed_to_connect_smartcard">Falha ao ligar ao cartão inteligente. Contacte o administrador do dispositivo.</string>
     <string name="ucm_loading">A carregar…</string>
+    <string name="usb_use_software_installation">Software Installation</string>
+    <string name="usb_use_software_installation_summary">Install Software Update and Repair tool for your device on a Mac or Windows computer.</string>
 </resources>

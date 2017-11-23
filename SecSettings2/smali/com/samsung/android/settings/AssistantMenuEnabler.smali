@@ -553,7 +553,7 @@
     aput-object v5, v4, v6
 
     .line 390
-    const v5, 0x7f0b02ec
+    const v5, 0x7f0b02ee
 
     invoke-virtual {v3, v5, v4}, Landroid/content/res/Resources;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -694,7 +694,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0b0bff
+    const v4, 0x7f0b0c20
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -802,7 +802,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0b02ba
+    const v4, 0x7f0b02bc
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -893,7 +893,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0b0431
+    const v4, 0x7f0b0439
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -913,7 +913,7 @@
 
     invoke-direct {v3, p0}, Lcom/samsung/android/settings/AssistantMenuEnabler$2;-><init>(Lcom/samsung/android/settings/AssistantMenuEnabler;)V
 
-    const v4, 0x7f0b14b7
+    const v4, 0x7f0b163d
 
     .line 415
     invoke-virtual {v2, v4, v3}, Landroid/app/AlertDialog$Builder;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
@@ -1771,7 +1771,7 @@
     .line 127
     iget-object v5, p0, Lcom/samsung/android/settings/AssistantMenuEnabler;->mContext:Landroid/content/Context;
 
-    const v6, 0x7f0b02e8
+    const v6, 0x7f0b02ea
 
     invoke-static {v5, v6, v8}, Landroid/widget/Toast;->makeText(Landroid/content/Context;II)Landroid/widget/Toast;
 

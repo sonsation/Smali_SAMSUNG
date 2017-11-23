@@ -432,7 +432,7 @@ Verizonから入手したコードを入力してください。"</string>
     <string name="answering_end_call_title">通話応答/終了</string>
     <string name="audio_preference_title">聴覚</string>
     <string name="mono_audio_title">モノラル再生</string>
-    <string name="mono_audio_summary">モノラルイヤホンを使用する場合、オーディオをステレオからモノラルに変換します。</string>
+    <string name="mono_audio_summary">片方の耳で聴く際に、オーディオをステレオからモノラルに変換します。</string>
     <string name="multi_window_title">マルチウィンドウ</string>
     <string name="magnifier_seekbar_plus_tts">プラス</string>
     <string name="magnifier_seekbar_minus_tts">マイナス</string>
@@ -516,13 +516,15 @@ Verizonから入手したコードを入力してください。"</string>
     <string name="sound_detector_main_description">赤ちゃんの泣き声またはドアチャイムを検出したときに通知します。</string>
     <string name="accessibility_easy_interaction_summary">アラーム、カレンダー、タイマーの通知の解除、着信の応答や拒否を1回のタップで実行します。</string>
     <string name="accessibility_easy_interaction_summary_tablet_wifi">アラームとカレンダーイベントの停止、またはスヌーズをタップで行います。</string>
-    <string name="all_sound_off">全ての音をOFF</string>
-    <string name="all_sound_off_summary">サウンドモードが[サウンド]に設定されている場合でも、スピーカーホンを含めて全ての音を再生しません。</string>
+    <string name="all_sound_off">全ての音を消音</string>
+    <string name="all_sound_off_summary">サウンドモードが[サウンド]に設定されている場合でも、電話の通話を含む全ての音声はOFFになります。</string>
     <string name="all_sound_off_dialog_summary">%1$sと%2$sを同時に有効にすることはできません。%3$sが無効になります。</string>
+    <string name="all_sound_off_popup_description">[全ての音を消音]を使用するには、%sをOFFにする必要があります。</string>
+    <string name="all_sound_turn_off_button">OFF</string>
     <string name="turn_off_all_sounds">全ての音をOFF</string>
     <string name="turn_off_all_sounds1">[全ての音をOFF]と[伝言メモ]の両方を同時に有効にすることはできません。</string>
     <string name="turn_off_all_sounds2">全ての音をOFFと伝言メモの両方を有効にすることはできません。伝言メモが無効になります。</string>
-    <string name="turn_off_all_sounds_toast_with_sound_detector">[音を検出して通知]が有効な間は、[全ての音をOFF]を無効にすることはできません。無効にするには、[設定] > [ユーザー補助] > [聴覚] > [音を検出して通知]に移動し、全ての音の検出を無効にします。</string>
+    <string name="turn_off_all_sounds_toast_with_sound_detector">[音を検出して通知]がONの間、[全ての音を消音]をOFFにすることはできません。</string>
     <string name="accessibility_categories_title">カテゴリ</string>
     <string name="share_accessibility_settings">ユーザー補助を管理</string>
     <string name="share_accessibility_settings_summary">ユーザー補助設定をインポートおよびエクスポート、または他の端末と共有します。</string>
@@ -659,6 +661,7 @@ Verizonから入手したコードを入力してください。"</string>
     <string name="deviceOption">端末​オプション</string>
     <string name="lock">ロック</string>
     <string name="powerOff">電源OFF</string>
+    <string name="unable_assistantmenu_while_sidesync">SideSyncの使用中はアシスタントメニューをONにできません。</string>
     <string name="eamenableinfo">補助機能強化を有効にするには、最低1つのアプリケーションを選択してください。</string>
     <string name="fetch_progress">データを読み込み中…</string>
     <string name="assistant_menu_enable_message">%sと以下のオプションを同時に有効にすることはできません。以下のオプションが無効になります。</string>
@@ -765,7 +768,7 @@ Verizonから入手したコードを入力してください。"</string>
     <string name="xcover_key_shortcut_battery_conserving_mode">バッテリー温存モード</string>
     <string name="xcover_key_shortcut_normal_mode">標準モード</string>
     <string name="flight_mode_enabled_toast">機内モードが有効な間は、モバイルネットワークに接続できません。機内モードを無効にして、再度実行してください。</string>
-    <string name="airplane_mode_summary">通話およびメッセージ機能を無効にし、[モバイルデータ]をOFFにします。</string>
+    <string name="airplane_mode_summary">通話、メッセージ機能、および[モバイルデータ]をOFFにします。</string>
     <string name="usb_not_support_mtp_usb3_dialog_title">お知らせ</string>
     <string name="airplane_mode_desc">機内モードでは、Wi-Fiを含むネットワーク機能をOFFにすることができます。Wi-Fiを使用するには、設定または通知パネルでWi-FiをONにしてください。</string>
     <string name="flight_mode_enable_popup_title">機内ﾓｰﾄﾞを有効にする</string>
@@ -905,6 +908,7 @@ Bluetooth設定に移動すると、後からこの設定を変更すること�
     <string name="bluetooth_control_app_disable_summary">BluetoothをOFFで実行: %s</string>
     <string name="bluetooth_enter_pin_msg">%sとペアリングするためのPIN（0000または1234）を入力してください。</string>
     <string name="bluetooth_pin_maximum_number_message">最大文字数に達しました。</string>
+    <string name="bluetooth_frp_permission_message">この通話でBluetoothデバイスを使用することはできません。</string>
     <string name="settings_menu_done">完了</string>
     <string name="usb_tethering_unavailable_subtext_tmo">USB未接続</string>
     <string name="usb_tethering_available_subtext_tmo">USB接続中、テザリング可能</string>
@@ -945,13 +949,18 @@ Bluetooth設定に移動すると、後からこの設定を変更すること�
 - 画面キャプチャに描画
 - 画面キャプチャをトリミング
 - 画面キャプチャを共有"</string>
+    <string name="smart_capture_summary">画面をｷｬﾌﾟﾁｬすると、追加ｵﾌﾟｼｮﾝが表示されます。ｽﾏｰﾄｷｬﾌﾟﾁｬでは、以下の操作を実行できます。</string>
+    <string name="smart_capture_summary_1">ｽｸﾛｰﾙして表示できる領域を1枚の画像としてｷｬﾌﾟﾁｬ</string>
+    <string name="smart_capture_summary_2">画面キャプチャに描画</string>
+    <string name="smart_capture_summary_3">画面ｷｬﾌﾟﾁｬをﾄﾘﾐﾝｸﾞ</string>
+    <string name="smart_capture_summary_4">画面ｷｬﾌﾟﾁｬを共有</string>
     <string name="identify_unsaved_numbers_title">未登録の番号を特定</string>
     <string name="identify_unsaved_numbers_title_usa">迷惑電話番号を特定</string>
     <string name="call_message_spam_filter_title">迷惑電話/メッセージフィルター</string>
     <string name="onehand_operation_summary">片手で操作しやすいように、画面表示サイズとレイアウトを調整します。</string>
     <string name="direct_share_title">Direct share</string>
     <string name="direct_share_summary">共有パネルから、ダイレクトに特定の相手とコンテンツを共有します。</string>
-    <string name="direct_share_description">Google Direct share機能に対応するアプリでメッセージやEメール送信などの操作を実行している間、共有パネルの上部にDirect shareアイコンが表示されます。</string>
+    <string name="direct_share_description">Google Direct share機能に対応するアプリでメッセージやEメール送信などの操作を実行中は、共有パネルの上部にDirect shareアイコンが表示されます。</string>
     <string name="direct_share_description_chn">Android Direct share機能に対応するアプリでメッセージやEメール送信などの操作を実行している間、共有パネルの上部にDirect shareアイコンが表示されます。</string>
     <string name="aod_summary_clock">時計</string>
     <string name="aod_summary_calendar">カレンダー</string>
@@ -1041,6 +1050,7 @@ Bluetooth設定に移動すると、後からこの設定を変更すること�
     <string name="fota_update_summary">ファームウェアを最新バージョンに更新して最新の機能を利用するには、ここをタップします。</string>
     <string name="favorite_tab">クイック設定</string>
     <string name="device_maintenance_title">端末のメンテナンス</string>
+    <string name="memory_string">メモリ</string>
     <string name="tab_favorite_edit">クイック設定を編集</string>
     <string name="add_favorite_button">クイック設定を編集</string>
     <string name="cloud_and_accounts_title">クラウドとアカウント</string>
@@ -1078,7 +1088,12 @@ Bluetooth設定に移動すると、後からこの設定を変更すること�
     <string name="notification_settings_apps_title">アプリの通知</string>
     <string name="international_roaming_setting">ローミング設定</string>
     <string name="user_manual_mos">ユーザーマニュアル</string>
-    <string name="data_saver_description">データの使用量を減らすために、データセーバーは一部のアプリによるバックグラウンドでのデータの送受信を制限します。また、現在使用中のアプリはデータにアクセスすることができますが、アクセスの頻度が低下する場合があります。例えば、画像はタップされるまで正しく表示されない場合があります。</string>
+    <string name="data_saver_description">データセーバーは、一部のアプリによるバックグラウンドでのデータの送受信を制限することで、データの使用量を減らします。また、現在使用中のアプリはモバイルデータを使用することができますが、アクセス頻度が低下する場合があります。例えば、画像はタップされるまで表示されない場合があります。</string>
+    <string name="unrestricted_data_saver_chn">データを無制限に使用</string>
+    <string name="data_saver_description_chn">データの使用量を減らすために、[バックグラウンドデータを制限]は一部のアプリによるバックグラウンドでのデータの送受信を制限します。また、現在使用中のアプリはデータにアクセスすることができますが、アクセスの頻度が低下する場合があります。例えば、画像はタップされるまで正しく表示されない場合があります。</string>
+    <string name="data_saver_title_chn">バックグラウンドデータを制限</string>
+    <string name="unrestricted_app_title_chn">データを無制限に使用</string>
+    <string name="unrestricted_app_summary_chn">このアプリは、[バックグラウンドデータを制限]が有効な場合でもモバイルデータを無制限に使用することができます。</string>
     <string name="data_used_editor_subtitle">今月のデータ使用量を入力:</string>
     <string name="traffic_vertify">詳細</string>
     <string name="btn_tmo">Upgrade data service</string>
@@ -1130,6 +1145,8 @@ Bluetooth設定に移動すると、後からこの設定を変更すること�
     <string name="last_checked_date">最終確認日:</string>
     <string name="auto_update">更新を自動的にダウンロード</string>
     <string name="auto_update_summary">Wi-Fiネットワーク接続時に、ソフトウェア更新を自動的にダウンロードします。ダウンロード中も、端末は使用可能です。</string>
+    <string name="auto_update_over_wifi">Wi-Fi接続時に自動ダウンロード</string>
+    <string name="auto_update_over_wifi_summary">Wi-Fiネットワーク接続時に、ソフトウェア更新を自動的にダウンロードします。サービスプロバイダによっては、モバイルデータで更新がダウンロードされる場合がありますが、追加料金は発生しません。またダウンロード中も、端末は使用可能です。</string>
     <string name="scheduled_update">ソフトウェアの更新予約</string>
     <string name="scheduled_update_summary_default">OFF</string>
     <string name="scheduled_update_summary_set_time">%sに更新を開始</string>
@@ -1171,9 +1188,9 @@ Bluetooth設定に移動すると、後からこの設定を変更すること�
     <string name="usb_use_file_transfers_summary_vzw">メディアファイルをコンピューターに転送します。</string>
     <string name="usb_use_file_transfers_summary">MTP接続でメディアファイルをPCに転送します。</string>
     <string name="usb_use_MIDI_summary_vzw">MIDI入力に端末を使用します。</string>
-    <string name="usb_use_MIDI_summary">接続されたデバイスをMIDI(Musical Instrument Digital Interface)プレーヤーまたは入力ソースとして使用します。</string>
-    <string name="usb_use_software_installation">ソフトウェアのインストール</string>
-    <string name="usb_use_software_installation_summary">MacまたはWindowsコンピューターに端末のソフトウェア更新および修正ツールをインストールします。</string>
+    <string name="usb_use_MIDI_summary">接続されたデバイスをMIDIプレーヤーまたは入力ソースとして使用します。</string>
+    <string name="usb_use_system_update">システム更新</string>
+    <string name="usb_use_system_update_summary">PCにSoftware Upgrade Assistantをインストールして、この端末を更新または修復してください。</string>
     <string name="sim_status_code">コード</string>
     <string name="sim_status_btn_update">SIMカードの状態を更新</string>
     <string name="sim_status_updating">更新中…</string>
@@ -1262,7 +1279,7 @@ Samsungは本プライバシー規約の本文に記載されているとおり�
     <string name="display_temperature">カラーバランス</string>
     <string name="adjust_your_display_colour">画面の色を調整して、白の色調を変更します。</string>
     <string name="led_indicator_settings">LEDインジケーター</string>
-    <string name="led_indicator_settings_summary">充電、録音、または通知を受信したときに、LEDインジケーターを点灯します。</string>
+    <string name="led_indicator_settings_summary">画面OFF時に、サウンドを録音中や未読の通知があるとき、またはバッテリーの状態を表示するため、LEDインジケーターが点灯します。</string>
     <string name="screen_resolution_desc">一部のコンテンツが不鮮明に表示されたり、FHDやHDに対応していない可能性があります。</string>
     <string name="display_battery_percentage">バッテリー残量を表示</string>
     <string name="display_battery_percentage_summary">バッテリー残量(%)をステータスバーに表示します。</string>
@@ -1309,12 +1326,12 @@ Samsungは本プライバシー規約の本文に記載されているとおり�
     <string name="blue_light_filter_off_time_next_day_summary_format">翌日の%s</string>
     <string name="blue_light_filter_user_schedule_title">カスタムスケジュール</string>
     <string name="blue_light_filter_auto_schedule_title">日の入りから日の出まで</string>
-    <string name="blue_light_filter_desc">ブルーライトフィルターを使用すると、睡眠の前に画面の光が入眠の妨げにならないように、光を調整します。ブルーライトフィルターを使用するスケジュールを設定してください。[日の入りから日の出まで]を使用するには、位置情報を有効にする必要があります。</string>
-    <string name="blue_light_filter_enable_now">今すぐ有効化</string>
+    <string name="blue_light_filter_desc">夜間にブルーライトフィルターを使用すると、睡眠の前に画面の光が入眠の妨げにならないように、光を調整します。ブルーライトフィルターを使用するスケジュールを設定してください。[日の入りから日の出まで]を使用するには、位置情報をONにする必要があります。</string>
+    <string name="blue_light_filter_enable_now">今すぐON</string>
     <string name="blue_light_filter_enable_as_scheduled">予定時刻に有効化</string>
-    <string name="blue_light_filter_scheduled_toast">ブルーライトフィルターが有効です。予定終了時刻に自動的に無効にします。</string>
+    <string name="blue_light_filter_scheduled_toast">ブルーライトフィルターがONです。予定終了時刻に自動的にOFFになります。</string>
     <string name="screen_mode_dlg_turn_off_blue_light_filter">%sとブルーライトフィルターを同時に使用することはできません。ブルーライトフィルターは無効になります。</string>
-    <string name="blue_light_filter_dlg_turn_on_location">[日の入りから日の出まで]を使用するには、位置情報を有効にする必要があります。</string>
+    <string name="blue_light_filter_dlg_turn_on_location">[日の入りから日の出まで]を使用するには、位置情報をONにする必要があります。</string>
     <string name="dlg_turn_on">ON</string>
     <string name="screen_resolution_title">画面の解像度</string>
     <string name="screen_resolution_desc_title">画面の解像度を変更</string>
@@ -1386,7 +1403,7 @@ Samsungは本プライバシー規約の本文に記載されているとおり�
     <string name="intelligent_rotation_title">スマートローテーション</string>
     <string name="intelligent_help_0">スマートステイはフロントカメラで顔を認識し、ユーザーが画面を見ている間はディスプレイの点灯を継続します。</string>
     <string name="intelligent_help_1">スマートステイは、以下の状態の時に最適に動作します。</string>
-    <string name="intelligent_help_summary_0">端末をまっすぐに保持してください。</string>
+    <string name="intelligent_help_summary_0">端末を揺らさず、まっすぐに保持しているとき</string>
     <string name="intelligent_help_summary_1">明るい場所で、画面に直射日光が当たっていないとき</string>
     <string name="intelligent_help_summary_2">フロントカメラが他のアプリで使用されていないとき</string>
     <string name="enable_smartstay_title">[%s]を有効にする</string>
@@ -1421,6 +1438,10 @@ Samsungは本プライバシー規約の本文に記載されているとおり�
     <string name="crypt_keeper_vzw_password_warning">1つ以上の数字を含む、最低%d文字の画面ロックパスワードを設定してください。</string>
     <string name="crypt_keeper_decrypt_title">端末を復号</string>
     <string name="crypt_keeper_decrypt_summary">端末は暗号化済み</string>
+    <string name="crypt_keeper_type_pin">PIN</string>
+    <string name="crypt_keeper_type_pattern">パターン</string>
+    <string name="crypt_keeper_type_password">パスワード</string>
+    <string name="crypt_keeper_type_direction">ｽﾜｲﾌﾟｺﾝﾋﾞﾈｰｼｮﾝﾛｯｸ</string>
     <string name="crypt_keeper_confirm_title_dec">復号の確認</string>
     <string name="crypt_keeper_force_power_cycle_pattern">端末を起動するには、端末の電源をOFFにし、もう一度ONにしてから再度実行します。端末を起動して画面のロックを解除するには、パターンを入力してください。バックアップPINを端末の起動に使用することはできません。</string>
     <string name="crypt_keeper_setup_description_dec">"端末を復号化しています。この操作には時間がかかる可能性があります。しばらくお待ちください。
@@ -1510,6 +1531,7 @@ Samsungは本プライバシー規約の本文に記載されているとおり�
     <string name="crypt_keeper_verify_failed_summary">端末を再起動できません。整合性の認証に失敗しました。端末を工場出荷時の状態にリセットする必要があります。リセットすると、全てのデータが削除されます。</string>
     <string name="cryptkeeper_emergency_call">緊急通報</string>
     <string name="cryptkeeper_return_to_call">通話に戻る</string>
+    <string name="cryptkeeper_default_enter_msg">セキュリティのため、端末は暗号化されています。</string>
     <string name="enter_password">端末を起動するには、パスワードを入力してください。</string>
     <string name="enter_pin">端末を起動するには、PINを入力してください。</string>
     <string name="enter_pattern">端末を起動するには、パターンを入力してください。</string>
@@ -1519,11 +1541,13 @@ Samsungは本プライバシー規約の本文に記載されているとおり�
     <string name="cryptkeeper_wrong_pin">入力したPINが正しくありません</string>
     <string name="cryptkeeper_wrong_direction">スワイプの方向が正しくありません</string>
     <string name="checking_decryption">認証中…</string>
-    <string name="starting_android">Androidを起動中…</string>
     <string name="crypt_keeper_last_warn_wipe">端末の起動にあと1回失敗すると、端末が工場出荷時の状態にリセットされ、ファイルおよびダウンロードしたアプリを含む全てのデータが削除されます。</string>
     <string name="crypt_keeper_failed_title_dec">復号に失敗しました。</string>
     <string name="crypt_keeper_failed_summary_dec">中断したため、復号を完了できませんでした。使用前に工場出荷状態に初期化（全データの消去）を行ってください。</string>
     <string name="crypt_keeper_set_screen_lock_type">画面ロックの種類を設定</string>
+    <string name="encryption_interstitial_message">"端末を起動する前に%sの入力を要求することで、端末をより安全に保護することができます。端末が紛失または盗難された場合、データの保護に役立ちます。Eメール同期などの機能にアクセスするための端末の暗号化ポリシーにより、一部のアプリに安全な起動が必要になる場合があります。
+
+端末を起動するまで、着信、メッセージ、通知は受信せず、アラームは鳴動しません。"</string>
     <string name="encryption_interstitial_message_kor">端末は暗号化されています。[端末の電源ON時に画面ロックを要求してデータを復号]を選択すると、端末が紛失または盗難された場合に暗号化されたデータを保護することができます。端末の電源をONにするたびに、端末のロックを解除してデータを復号する必要があります。端末を復号するまで、着信、メッセージ、通知は受信しません。</string>
     <string name="encryption_interstitial_message_direction">"[端末の電源ON時にスワイプコンビネーションロックの方向入力を要求]を選択すると、端末が紛失または盗難された場合にデータを保護することができます。
 
@@ -1545,6 +1569,7 @@ Samsungは本プライバシー規約の本文に記載されているとおり�
 端末を起動するまで、着信、メッセージ、通知は受信せず、アラームは鳴動しません。"</string>
     <string name="encryption_interstitial_error_message">端末データを保護するために、画面ロックの種類をPIN、パスワード、パターン、指紋認証のいずれかに変更してから、再度実行してください。</string>
     <string name="encryption_interstitial_error_message_direction">端末データを保護するために、画面ロックの種類をPIN、パスワード、パターン、スワイプコンビネーションロック、指紋認証のいずれかに変更してから、再度実行してください。</string>
+    <string name="encryption_interstitial_error_message_direction_without_fingerprint">端末データを保護するために、画面ロックの種類をPIN、パスワード、パターン、スワイプコンビネーションロックのいずれかに変更してから、再度実行してください。</string>
     <string name="encryption_interstitial_error_message_iris_direction">端末データを保護するために、画面ロックの種類をPIN、パスワード、パターン、スワイプコンビネーションロック、指紋または虹彩認証のいずれかに変更してから、再度実行してください。</string>
     <string name="encryption_interstitial_error_message_without_fingerprint">端末データを保護するために、画面ロックの種類をPIN、パスワード、パターンのいずれかに変更してから、再度実行してください。</string>
     <string name="encryption_interstitial_error_sktlock">安全なロックと安全な起動を同時に有効にすることはできません。安全なロック以外を選択して、再度実行してください。</string>
@@ -1808,6 +1833,8 @@ Samsungは本プライバシー規約の本文に記載されているとおり�
 %s"</string>
     <string name="improve_location_title">位置情報の精度を向上</string>
     <string name="improve_location_summary">WLANとモバイルネットワークを使用して、この端末の正確な位置情報を提供します。</string>
+    <string name="send_last_location_title">最後に検出された位置情報を送信</string>
+    <string name="send_last_location_summary">バッテリー残量が一定のレベルを下回ったときに、最後に検出された位置情報を端末リモート追跡サーバーに送信することを端末に許可します。</string>
     <string name="high_power_description">アプリごとに[バッテリー使用量を最適化]を有効にできます。この機能を有効にすると、バッテリーの消費量を節約するため、モバイルネットワークを使用する機能やデータを同期する機能など一部の機能が制限されます。</string>
     <string name="wifi_display_summary_off">OFF</string>
     <string name="battery_usage_description">前回の充電完了時から現在までのバッテリー使用量を表示します。</string>
@@ -1903,6 +1930,8 @@ Samsungは本プライバシー規約の本文に記載されているとおり�
     <string name="iris_sensor_not_working_popup_title">虹彩認証が未動作</string>
     <string name="iris_sensor_not_working_msg">虹彩センサーが反応していません。後ほどお試しください。</string>
     <string name="iris_go_to_samsung_theme">Galaxy Themesに移動</string>
+    <string name="biometrics_dex_cant_use_msg">Samsung DeXでは%sを使用できません。</string>
+    <string name="biometrics_dex_closed_to_switch">Samsung DeXに切り替えるために、%sを終了しました。</string>
     <string name="knox_twofactor_bio_description">%sのロックを解除する生体認証の種類と、2番目に使用するロックの種類を選択してください。</string>
     <string name="fingerprint_registered">登録した指紋は選択したロック解除方法で使用できます。</string>
     <string name="knox_twofactor_description">Knoxをより安全にするためには、2種類のロックを使用します。最初のロックの種類として、指紋認証を使用します。2番目に使用するロックの種類を以下から選択してください。</string>
@@ -2000,8 +2029,8 @@ Samsungは本プライバシー規約の本文に記載されているとおり�
     <string name="app_ops_settings_summary">アプリケーションの権限を表示または変更</string>
     <string name="backup_key_for_applock_header">アプリをロック/ロック解除するには、指紋認証と一緒に使用するパターン、PIN、またはパスワードを設定します。</string>
     <string name="backup_key_for_privatemode_header">プライベートモードにアクセスするには、指紋認証と一緒に使用するパターン、PIN、またはパスワードを設定します。</string>
-    <string name="status_added">追加済み</string>
     <string name="text_security_title_b2c">ロックの種類を選択してください。セキュリティフォルダのロック解除方法を忘れた場合、Samsungアカウントを使用してロックをリセットすることができます。</string>
+    <string name="status_added">追加済み</string>
     <string name="lockpattern_backup_pin">バックアップPIN</string>
     <string name="applock_type_fingerprint">指紋認証</string>
     <string name="unlock_set_unlock_two_factor_title">2段階認証</string>
@@ -2013,7 +2042,7 @@ Samsungは本プライバシー規約の本文に記載されているとおり�
     <string name="info_and_app_shortcut_summary">デュアル時計、オーナー情報、アプリのショートカットをロック画面に表示します。</string>
     <string name="lock_app_shortcut_disabled_app">%sが無効になっています。別のアプリを選択してください。</string>
     <string name="lock_app_shortcut_deleted_app">アプリをアンインストールしました。別のアプリを選択してください。</string>
-    <string name="lock_app_shortcut_off_message">ロック画面に表示するアプリのショートカットを選択するには、ONにします。</string>
+    <string name="lock_app_shortcut_off_message">ロック画面に表示するアプリのショートカットを選択するには、ONにしてください。</string>
     <string name="silent_lock_title">顔別</string>
     <string name="device_security_category">端末のセキュリティ</string>
     <string name="lock_and_always_category">ロック画面とAlways On Display</string>
@@ -2061,8 +2090,8 @@ Samsungは本プライバシー規約の本文に記載されているとおり�
     <string name="lock_screen_app_shortcut_summary">ロック画面から起動するアプリを選択します。</string>
     <string name="lockscreen_notifications">通知</string>
     <string name="work_profile_lockscreen_notifications">業務用プロファイル通知</string>
-    <string name="lock_network_and_security">ﾈｯﾄﾜｰｸとｾｷｭﾘﾃｨのﾛｯｸ</string>
-    <string name="lock_network_and_security_summary">端末をロック中は、ネットワークおよびセキュリティ関連の機能がロックされたままになります。これにより、端末が紛失または盗難された場合、端末の位置を特定して保護しやすくなります。</string>
+    <string name="lock_network_and_security">ﾈｯﾄﾜｰｸとｾｷｭﾘﾃｨをﾛｯｸ</string>
+    <string name="lock_network_and_security_summary">端末がロックされている間、ネットワークおよびセキュリティに関する設定をロックします。これにより、端末が紛失または盗難された場合に、端末を保護したり、位置を特定したりしやすくなります。</string>
     <string name="dualclock_settings_title">デュアル時計</string>
     <string name="roamingclock_settings_title">ローミングクロック</string>
     <string name="dualclock_settings_summary">ローミング時に現在の都市とホーム都市のタイムゾーンを両方表示します。</string>
@@ -2217,7 +2246,7 @@ Samsungは本プライバシー規約の本文に記載されているとおり�
     <string name="palm_swipe_title">スワイプキャプチャ</string>
     <string name="screen_recorder_title">画面を録画</string>
     <string name="screen_recorder_summary">端末を使用している間の画面を録画します。</string>
-    <string name="multi_window_setting_title">ｽﾜｲﾌﾟでﾎﾟｯﾌﾟｱｯﾌﾟ表示</string>
+    <string name="multi_window_setting_title">スワイプでポップアップ表示</string>
     <string name="multi_window_setting_description">画面上でアプリが起動しているときに、画面の右上または左上から斜め下にスワイプして、アプリのサイズを調整することができます。</string>
     <string name="multi_window_screen_title">マルチウィンドウ</string>
     <string name="multi_window_screen_summary">複数のアプリを同時に表示します。</string>
@@ -2257,18 +2286,19 @@ Samsungは本プライバシー規約の本文に記載されているとおり�
     <string name="air_browse_note_summary">表示モードの状態でページの間を移動</string>
     <string name="data_usage_enable_mobile_summery">モバイルネットワークでインターネットにアクセスします。</string>
     <string name="data_usage_enable_mobile_warning_skt">モバイルネットワークへの接続はデータプランによっては追加料金が発生する可能性があります。続行しますか？</string>
-    <string name="data_usage_enable_mobile_warning_ktt">モバイルネットワークへの接続はデータプランによっては追加料金が発生する可能性があります。続行しますか？</string>
+    <string name="data_usage_enable_mobile_warning_ktt">モバイルデータをONにします。モバイルネットワークに接続すると、料金プランによっては追加料金が発生する可能性があります。</string>
     <string name="data_usage_enable_mobile_warning_lgt">モバイルネットワークへの接続はデータプランによっては追加料金が発生する可能性があります。続行しますか？</string>
     <string name="data_usage_disable_mobile_title">モバイルデータをOFF</string>
     <string name="data_usage_disable_mobile_warning_skt">モバイルネットワークを切断すると、MMSと3Gデータサービスの使用が制限されます。切断しますか？</string>
     <string name="data_usage_disable_mobile_warning_ktt">モバイルネットワークを切断すると、MMSと3Gデータサービスの使用が制限されます。切断しますか？</string>
     <string name="data_usage_disable_mobile_warning_ktt_jb">モバイルネットワークを切断すると、MMSと3Gデータサービスの使用が制限されます。切断しますか？</string>
-    <string name="mobile_data_off_dialog_text_vzw">"Wi-Fiを使用しない場合、ブラウザ、Eメール、その他データ接続が必要なアプリを使用できません。
-
-モバイルデータをOFFにしますか？"</string>
-    <string name="mobile_data_off_dialog_text_common">"Wi-Fiを使用しない場合、データ接続が必要なブラウザ、Eメール、その他のアプリを使用できません。
+    <string name="data_usage_disable_mobile_warning_dcm">"モバイルデータがOFFの場合、ネットワーク接続を必要とするサービスを使用するには、端末をWi-Fiネットワークに接続する必要があります。
 
 モバイルデータをOFFにします。"</string>
+    <string name="mobile_data_off_dialog_text_vzw">Wi-Fiを使用しない場合、ブラウザ、Eメール、その他データ接続が必要なアプリを使用できません。モバイルデータ接続をOFFにしますか？</string>
+    <string name="mobile_data_off_dialog_text_volte">モバイルデータがOFFの場合、端末のビデオコール機能を使用できません。また、Wi-Fiを使用しない場合、ブラウザ、Eメール、その他データ接続が必要なアプリを使用できません。モバイルデータ接続をOFFにしますか？</string>
+    <string name="mobile_data_off_dialog_text_common">Wi-Fiネットワークに接続しない場合、ブラウザやEメール、またはネットワーク接続を必要とする他のアプリを使用することはできません。</string>
+    <string name="data_usage_turn_off_btn">OFF</string>
     <string name="wfd_settings_summary">端末の画面を他のデバイスと共有します。</string>
     <string name="nfc_settings_advanced_explain">"標準のNFC処理方法を設定します。
 NFC決済およびモバイル決済サービスによっては、別の標準のNFC処理方法が必要な場合があります。"</string>
@@ -2408,7 +2438,7 @@ NFC決済およびモバイル決済サービスによっては、別の標準�
     <string name="zen_mode_events_summary">Sプランナーおよびその他のカレンダーイベントからの通知を許可します。</string>
     <string name="zen_mode_events_summary_na">カレンダーのイベントおよびタスクからの通知を許可します。</string>
     <string name="zen_mode_reminders_summary">リマインダー機能に対応するアプリからの通知を許可します。</string>
-    <string name="dnd_app_noti_summary">重要な通知として設定するアプリを選択し、通知を許可します。</string>
+    <string name="dnd_app_noti_summary">選択したアプリの通知を許可します。</string>
     <string name="no_exceptions_dcm_summary">エリアメールのアラームを含む全ての通知や着信を消音にします。</string>
     <string name="dnd_screen_switch_summary">選択した例外を除いて、全ての着信や通知を消音にします。</string>
     <string name="app_notification_priority_app_list_title">重要アプリの通知</string>
@@ -2455,7 +2485,7 @@ NFC決済およびモバイル決済サービスによっては、別の標準�
     <string name="personal_page_secretbox_disclaimer_title">免責条項</string>
     <string name="personal_page_secretbox_disclaimer_message">プライベートモードでは、他のアプリケーションによるデータへのアクセスを防ぐことはできません。 データが外部サーバーと同期するのを防止するには、お客様のデバイスの自動同期設定を無効にしてください。</string>
     <string name="personal_page_secretbox_disclaimer_message_vzw">プライベートに移動したコンテンツは非表示になり、プライベートモードを終了しても表示されません。プライベートモード中に自動同期すると、サードパーティアプリでそのコンテンツが表示される場合があります。プライベートモード使用前に、他のアプリケーションの自動同期設定を確認してください。</string>
-    <string name="personal_page_tutorial_app_title_message">プライベートモードを使用して、秘密にしたいコンテンツを非表示にすることができます。以下のアプリを使用しているときに、[プライベート]に移動するアイテムを選択し、[その他]をタップして[プライベートに移動]を選択してください。[プライベート]に移動したコンテンツは、プライベートモードが有効な間のみ表示できます。</string>
+    <string name="personal_page_tutorial_app_title_message">プライベートモードを使用して、秘密にしたいコンテンツを非表示にすることができます。以下のアプリを使用しているときに、[プライベート]に移動するアイテムを選択し、他のオプションボタンをタップして[プライベートに移動]を選択してください。[プライベート]に移動したコンテンツは、プライベートモードがONの間のみ表示できます。</string>
     <string name="personal_page_inline_help">プライベートモードを使用するには、アクセスタイプを選択してください。プライベートモードのアクセスタイプを忘れた場合、復元できません。プライベートモードを再度使用するには、端末を工場出荷時の状態にリセットする必要があります。</string>
     <string name="personal_page_backup_pin_summary">パターンを忘れた場合のために、プライベートモードで使用するバックアップPINを作成してください。</string>
     <string name="personal_page_incorrect_pin">PINが間違っています。再度入力してください。</string>
@@ -2542,7 +2572,7 @@ NFC決済およびモバイル決済サービスによっては、別の標準�
     <string name="boost_mode_game_title">ゲームモード</string>
     <string name="boost_mode_game_summary">ゲームをよりスムーズに実行してゲームの操作性を向上させます。Game LauncherがONになり、ほとんどのアプリでGame Toolsボタンが表示されます。</string>
     <string name="boost_mode_warning_summary">このモードでは、バッテリーが著しく消耗される可能性があります。</string>
-    <string name="boost_mode_exclusive_popup_title">%sをOFFにしますか？</string>
+    <string name="boost_mode_exclusive_popup_title">[%s]をOFFにしますか？</string>
     <string name="boost_mode_exclusive_popup_text">%1$sを使用するには、%2$sをOFFにする必要があります。</string>
     <string name="boost_mode_change_process_disabling_description">%sをOFFにしています…</string>
     <string name="boost_mode_change_process_disabled_description">%sがOFFになりました。</string>
@@ -2775,7 +2805,7 @@ NFC決済およびモバイル決済サービスによっては、別の標準�
     <string name="onehand_settings_hardware_key_title">画面にキーを表示</string>
     <string name="onehand_settings_hardware_key_summary">ホームキー、戻るキー、履歴キーを表示します。</string>
     <string name="onehand_settings_dialog_title">片手モードをONにしますか？</string>
-    <string name="onehand_settings_dialog_text">片手モードと以下の機能を同時に使用することはできません。これらの機能をOFFにします。</string>
+    <string name="onehand_settings_dialog_text">片手モードと以下の機能を同時に使用することはできません。以下の機能をOFFにします。</string>
     <string name="onehand_settings_cover_toast">片手モードを使用するには、キーボードカバーを取り外してください。</string>
     <string name="eth_dev_list">イーサネットデバイスを選択</string>
     <string name="eth_con_type">接続タイプ</string>
@@ -2789,7 +2819,7 @@ NFC決済およびモバイル決済サービスによっては、別の標準�
     <string name="eth_toggle_summary_on">イーサネットネットワークに接続</string>
     <string name="eth_conf_summary">イーサネットデバイスを設定</string>
     <string name="auto_swipe_title">自動初期化</string>
-    <string name="auto_swipe_summary_common">正しくないロック解除を%d回実行すると、端末が工場出荷時の状態にリセットされ、ファイルおよびダウンロードしたアプリを含む全てのデータが削除されます。</string>
+    <string name="auto_swipe_summary_common">端末のロック解除に%d回失敗すると、端末が工場出荷時の状態にリセットされ、ファイルおよびダウンロードしたアプリを含む全てのデータが削除されます。</string>
     <string name="auto_swipe_summary_subuser">タブレットのロック解除に%d回失敗するとアカウントが削除され、ファイルおよびダウンロードしたアプリを含むアカウントの全てのデータが削除されます。</string>
     <string name="home_screen_settings_title">ホーム画面</string>
     <string name="home_theme_settings_titles">ホーム画面とテーマ</string>
@@ -2844,6 +2874,7 @@ NFC決済およびモバイル決済サービスによっては、別の標準�
     <string name="samsung_backup_summary">データをバックアップするにはSamsungアカウントを使用してください。</string>
     <string name="samsung_restore_summary">Samsungアカウントを使用して、バックアップデータを復元します。</string>
     <string name="sns_settings_title">Wi-Fi接続が不安定な場合、モバイルデータに切り替えます。最もよく行くエリアから保存されたWi-Fiネットワークに切り替えることもできます。スマートネットワーク切り替えは、保存されたWi-FiネットワークのON/OFFを自動的に切り替えます。</string>
+    <string name="sns_settings_title_include_autowifi">Wi-Fi接続が不安定な場合、モバイルデータに切り替えます。最もよく行くエリアから保存されたWi-Fiネットワークに切り替えることもできます。スマートネットワーク切り替えは、保存されたWi-FiネットワークのON/OFFを自動的に切り替えます。</string>
     <string name="smart_bonding">ハイブリッドダウンロード</string>
     <string name="smart_bonding_popup_title">ハイブリッドダウンロードを有効にする</string>
     <string name="smart_bonding_description_vzw">"Download large files (over %d MB) faster by using Wi-Fi and LTE networks at the same time. The Download booster icon will be shown on the status bar when Download booster is turned on.
@@ -2947,7 +2978,7 @@ Downloading via mobile networks uses your data plan."</string>
     <string name="user_add_user_message_vzw">新しいユーザーのアカウントを作成するには、[OK]をタップしてください。</string>
     <string name="adv_vpn">Advanced IPsec VPN</string>
     <string name="basic_vpn_settings">基本VPN</string>
-    <string name="incoming_call">音声着信</string>
+    <string name="incoming_call">着信</string>
     <string name="restrict_data">データ使用制限</string>
     <string name="vpn_add">VPNの追加</string>
     <string name="vpn_ocsp_server_url">OCSPのWebアドレス(http://server address:port)</string>
@@ -3035,7 +3066,7 @@ Downloading via mobile networks uses your data plan."</string>
     <string name="wifi_on_dialog_summary">Wi-Fiに切り替えるため、ネットワークを選択</string>
     <string name="notifyme_later">今はしない</string>
     <string name="wifi_p2p_help_message">Wi-Fi Directは、より簡単で便利にWi-Fiデバイスの直接接続、印刷、ファイル共有、同期、画面共有ができるようにします。Wi-Fi Directに対応したデバイスに接続すると、コンテンツの共有、データの同期、友達との交流やゲーム、音楽、動画の再生等を様々なアプリケーションで利用できます。</string>
-    <string name="prev_button_label">編集前の画像</string>
+    <string name="prev_button_label">前へ</string>
     <string name="wifi_sns_setting_alert_button_do_not_enable">有効にしない</string>
     <string name="wifi_smart_network_switch_aggressive_switching_summary">Wi-Fiインターネット接続が少しでも不安定な場合、モバイルネットワークに切り替えてインターネットにアクセスします。データ使用量が増加する可能性があります。</string>
     <string name="wifi_smart_network_switch_aggressive_switching">積極的に切り替え</string>
@@ -3064,6 +3095,8 @@ Downloading via mobile networks uses your data plan."</string>
     <string name="wifi_manage_network">ネットワークを管理</string>
     <string name="wlan_permission_available_message">WLANを使用する前に、ポップアップを表示して許可を確認します。</string>
     <string name="wlan_permission_available">WLANを使用前に確認</string>
+    <string name="wifi_hotspot20_summary_tmo">パスワードを入力することなく、Hotspot 2.0対応のWi-Fiアクセスポイントにシームレスに接続します。</string>
+    <string name="wifi_hotspot20_summary_dcm">Hotspot 2.0に対応するWi-Fiアクセスポイントに自動的に接続します</string>
     <string name="wifi_hotspot20_summary">Hotspot 2.0に対応するWi-Fiアクセスポイントに自動的に接続します。</string>
     <string name="wifi_hotspot20_enable">Hotspot 2.0</string>
     <string name="wifi_att_auto_connect_summary">AT&amp;T Wi-Fiテザリングが検出された場合、自動的に接続します。</string>
@@ -3082,9 +3115,9 @@ Downloading via mobile networks uses your data plan."</string>
     <string name="wifi_auto_reconnect">自動再接続</string>
     <string name="wifi_enable_warning_chn">WLANをONにすると、WLANテザリングが無効になります。</string>
     <string name="wifi_enable_warning_vzw">Wi-FiをONにすると、Wi-Fiテザリングが無効になります。続行しますか？</string>
-    <string name="wifi_enable_warning_tmo">Wi-Fi is turned off when Mobile HotSpot is active. To turn on Wi-Fi, please turn off Mobile HotSpot.</string>
+    <string name="wifi_enable_warning_tmo">Wi-Fiテザリングが有効な場合、Wi-FiはOFFになります。Wi-FiをONにするには、Wi-FiテザリングをOFFにしてください。</string>
     <string name="wifi_enable_warning_spr">Wi-FiをONにすると、ホットスポットが無効になります。</string>
-    <string name="wifi_enable_warning_mtr">Wi-FiをONにすると、Wi-FiテザリングがOFFになります。続行しますか？</string>
+    <string name="wifi_enable_warning_mtr">Wi-Fiテザリングが有効な場合、Wi-FiはOFFになります。Wi-FiをONにするには、Wi-FiテザリングをOFFにしてください。</string>
     <string name="wifi_enable_warning_usc">Wi-Fi をONにすると、ポータブルWi-FiテザリングがOFFになります。続行しますか？</string>
     <string name="wifi_enable_warning">Wi-FiをONにすると、Wi-Fiテザリングが無効になります。</string>
     <string name="wifi_control_history_title">Wi-Fi制御履歴</string>
@@ -3189,7 +3222,7 @@ Wi-Fiテザリングを設定するには、メニューアイコンをタップ
     <string name="wifi_ap_hide_ssid">マイデバイスを非表示</string>
     <string name="wifi_ap_wifi_off_warn_vzw">Mobile Hotspot uses your mobile data connection. Your Wi-Fi connection will be turned off.</string>
     <string name="wifi_ap_wifi_off_warn_spr">ホットスポットを有効にすると、Wi-FiがOFFになります。</string>
-    <string name="wifi_ap_wifi_off_warn_tmo">Wi-Fi is turned off when USB tethering or Mobile HotSpot is active. To turn on Wi-Fi, please turn off USB tethering or Mobile HotSpot.</string>
+    <string name="wifi_ap_wifi_off_warn_tmo">USBテザリングまたはWi-Fiテザリングが有効な場合、Wi-FiはOFFになります。Wi-FiをONにするには、USBテザリングまたはWi-FiテザリングをOFFにしてください。</string>
     <string name="wifi_ap_wifi_off_warn_chn">WLANテザリングを有効にすると、WLANがOFFになります。</string>
     <string name="wifi_ap_wifi_off_warn_att">ポータブルWi-FiテザリングをONにすると、Wi-FiがOFFになります。</string>
     <string name="wifi_ap_wifi_off_warn_mtr">USBテザリングまたはWi-Fiテザリングが有効な場合、Wi-FiはOFFになります。Wi-FiをONにするには、USBテザリングまたはWi-FiテザリングをOFFにしてください。</string>
@@ -3260,6 +3293,7 @@ Wi-Fiテザリング名またはパスワードを変更した後は、新たに
     <string name="wifi_wps_onstart_pbc_mobileap">接続する他のデバイスでWPSボタンを押してください。</string>
     <string name="wifi_wps_complete_mobileap">他のデバイスがこの端末に接続されました。</string>
     <string name="wifi_ap_disconnect_warn">デバイスの接続を解除</string>
+    <string name="wifi_ap_change_policy_warn_mtr">現在接続しているデバイスをポータブルWi-Fiテザリングから接続解除します。</string>
     <string name="wifi_ap_change_policy_warn">Wi-Fiテザリングに接続されている全てのデバイスの接続が解除されます。</string>
     <string name="wifi_ap_warn_max_whitelist">許可デバイスの最大数(%d台)に達しています。</string>
     <string name="wifiap_one_item_deleted">1件のアイテムを削除します。</string>
@@ -3294,8 +3328,9 @@ Wi-FiをONにします。"</string>
     <string name="wifi_tether_dialog_nosim_warning_title">Wi-Fiテザリング</string>
     <string name="wifi_tether_dialog_nosim_warning_chn">WLANテザリングと他のテザリング機能を使用するには、SIMカードを挿入してください。</string>
     <string name="wifi_tether_dialog_nosim_warning_vzw">Wi-Fiテザリングや他のテザリングオプションを使用するには、SIMカードを挿入してください。</string>
-    <string name="wifi_tether_dialog_nosim_warning_tmo">"Please install SIM card in order to share your phone's data connection with other devices using Mobile Wi-Fi HotSpot or USB tethering for Internet access."</string>
-    <string name="wifi_tether_dialog_nosim_warning_spr">SIMを挿入して、テザリングを含むホットスポットを使用します。</string>
+    <string name="wifi_tether_dialog_nosim_warning_tmo">インターネットへのアクセスにモバイルWi-FiテザリングまたはUSBテザリングを使用してこの端末のデータ接続を他の端末と共有するために、SIMカードを挿入してください。</string>
+    <string name="wifi_tether_dialog_nosim_warning_mtr">インターネットへのアクセスにモバイルWi-FiホットスポットまたはUSBテザリングを使用してこの端末のデータ接続を他の端末と共有するために、SIMカードを挿入してください。</string>
+    <string name="wifi_tether_dialog_nosim_warning_spr">テザリングに使用するSIMカードを挿入してください。</string>
     <string name="wifi_tether_dialog_nosim_warning_usc">Wi-Fiテザリングと他のテザリング機能を使用するには、SIMカードを挿入してください。</string>
     <string name="wifi_tether_dialog_nosim_warning">Wi-Fiテザリングと他のテザリング機能を使用するには、SIMカードを挿入してください。</string>
     <string name="mobileap_tmo">Wi-Fiテザリング</string>
@@ -3322,7 +3357,7 @@ Wi-FiをONにします。"</string>
     <string name="wifi_ap_instruction_open_activate_color3_att">&lt;font color=\"%1$s\">%2$s&lt;/font>に接続します。</string>
     <string name="wifi_ap_instruction_open_activate_color3">&lt;font color=\"%1$s\">%2$s&lt;/font>に接続します。</string>
     <string name="wifi_ap_instruction_open_activate_color4_vzw">Wi-Fiテザリングをお楽しみください。</string>
-    <string name="wifi_ap_instruction_open_activate_color4_tmo">Enjoy the internet using your personal Mobile HotSpot.</string>
+    <string name="wifi_ap_instruction_open_activate_color4_tmo">Wi-Fiテザリングを使用してインターネットをお楽しみください。</string>
     <string name="wifi_ap_instruction_open_activate_color4_spr">テザリングでインターネットをお楽しみください。</string>
     <string name="wifi_ap_instruction_open_activate_color4_att">Wi-Fiテザリングを使用してインターネットをお楽しみください。</string>
     <string name="wifi_ap_instruction_open_activate_color4_mtr">Enjoy the Internet using portable Wi-Fi hotspot.</string>
@@ -3341,7 +3376,7 @@ Wi-FiをONにします。"</string>
     <string name="wifi_ap_instruction_activate_color3_att">パスワードとして&lt;font color=\"%1$s\">%3$s&lt;/font>を入力し、&lt;font color=\"%1$s\">%2$s&lt;/font>に接続します。</string>
     <string name="wifi_ap_instruction_activate_color3">パスワードとして&lt;font color=\"%1$s\">%3$s&lt;/font>を入力し、&lt;font color=\"%1$s\">%2$s&lt;/font>に接続します。</string>
     <string name="wifi_ap_instruction_activate_color4_vzw">Wi-Fiテザリングをお楽しみください。</string>
-    <string name="wifi_ap_instruction_activate_color4_tmo">Enjoy the internet using your personal Mobile HotSpot.</string>
+    <string name="wifi_ap_instruction_activate_color4_tmo">Wi-Fiテザリングを使用してインターネットをお楽しみください。</string>
     <string name="wifi_ap_instruction_activate_color4_spr">Enter &lt;font color=\"%1$s\">%3$s&lt;/font> in the &lt;font color=\"%1$s\">%4$s&lt;/font> field.</string>
     <string name="wifi_ap_instruction_activate_color4_att">Wi-Fiテザリングを使用してインターネットをお楽しみください。</string>
     <string name="wifi_ap_instruction_activate_color4_mtr">Enjoy the Internet using portable Wi-Fi hotspot.</string>
@@ -3363,7 +3398,7 @@ Wi-FiをONにします。"</string>
     <string name="wifi_ap_instruction_activate_color_hidden3_chn">パスワードに&lt;font color=\"%1$s\">%3$s&lt;/font>を入力して&lt;font color=\"%1$s\">%2$s&lt;/font>に接続します。</string>
     <string name="wifi_ap_instruction_activate_color_hidden3_tmo">Connect to &lt;font color=\"%1$s\">%2$s&lt;/font> by entering &lt;font color=\"%1$s\">%3$s&lt;/font> as the password.</string>
     <string name="wifi_ap_instruction_activate_color_hidden3">パスワードとして&lt;font color=\"%1$s\">%3$s&lt;/font>を入力し、&lt;font color=\"%1$s\">%2$s&lt;/font>に接続します。</string>
-    <string name="wifi_ap_instruction_activate_color_hidden4_tmo">Enjoy the internet using your personal Mobile HotSpot.</string>
+    <string name="wifi_ap_instruction_activate_color_hidden4_tmo">Wi-Fiテザリングを使用してインターネットをお楽しみください。</string>
     <string name="wifi_ap_instruction_no_maxclient">"Wi-Fiテザリングを使用して、インターネットアクセスポイントとして端末を使用できます。Wi-Fiで他のデバイスを接続できます。接続されたデバイスは、端末のモバイルネットワークでインターネットにアクセスできます。
 
 許可デバイスリストを作成し、許可デバイスの接続モードを設定できます。
@@ -3389,7 +3424,8 @@ Wi-FiをONにします。"</string>
     <string name="wifi_tether_configure_ap_text_usc">Wi-Fiテザリング設定</string>
     <string name="wifi_tether_configure_ap_text">Wi-Fiテザリングを設定</string>
     <string name="wifi_ap_hidessid_warning">Your phone will be visible to other devices</string>
-    <string name="wifi_ap_first_time_configuration">First time HotSpot configuration</string>
+    <string name="wifi_ap_first_time_configuration_mtr">初めてのWi-Fiテザリング設定</string>
+    <string name="wifi_ap_first_time_configuration">Wi-Fiテザリングの初期設定</string>
     <string name="title_wifi_notify_mobileap_is_on">Wi-Fi and Mobile Hotspot</string>
     <string name="wifi_ssid_max_byte_error">最大文字数に達しました。</string>
     <string name="tethering_attention_title">注意</string>
@@ -3532,6 +3568,8 @@ Wi-FiをONにします。"</string>
     <string name="master_clear_desc_music">音楽</string>
     <string name="master_clear_desc_pictures">画像</string>
     <string name="master_clear_desc_other_user_data">その他全てのユーザーデータ</string>
+    <string name="master_clear_not_enough_battery">端末をリセットする前に、バッテリーが%d%%以上になるまで充電してください。</string>
+    <string name="master_clear_not_enough_battery_tablet">タブレットをリセットする前に、バッテリーが%d%%以上になるまで充電してください。</string>
     <string name="text_two_locktype">指紋認証と%s</string>
     <string name="pref_lock_type_title">ロックの種類を変更</string>
     <string name="pref_lock_type_summary">ロックの種類</string>
@@ -3611,8 +3649,16 @@ SMS受信"</string>
     <string name="google_settings_popup_msg">限られた件数のGoogle設定のみ利用できます。一部の操作は機能しない場合があります。</string>
     <string name="smart_lock_popup_msg">限られた件数のGoogle設定のみ利用できます。一部の操作は機能しない場合があります。</string>
     <string name="prevent_to_change_by_device_policy">%sの使用は、セキュリティポリシーによって制限されています。</string>
+    <string name="quick_tile_sync_title">同期</string>
+    <string name="nfc_uim_checking">UIM 確認中…</string>
+    <string name="nfc_uim_not_supported">挿入されたUIMでは、おサイフケイータイ ロック 機能をお使いいただけません。</string>
+    <string name="nfc_uim_not_supported_locked">ON. 挿入されたUIMでは、おサイフケイータイ ロック 機能をお使いいただけません。</string>
+    <string name="nfc_uim_mno_unmatched">現在のUIMはKDDI用ではない、もしくは、おサイフケイータイ ロック 機能に対応しないUIMとなります。</string>
+    <string name="nfc_uim_mno_unmatched_locked">ON.現在のUIMはKDDI用ではない、もしくは、おサイフケイータイ ロック 機能に対応しないUIMとなります。</string>
     <string name="name_jerusalem">エルサレム</string>
     <string name="name_israel">イスラエル</string>
+    <string name="starting_android">Androidを起動中…</string>
+    <string name="okay">OK</string>
     <string name="yes">はい</string>
     <string name="no">いいえ</string>
     <string name="create">作成</string>
@@ -3710,7 +3756,6 @@ Bluetooth設定に移動すると、後からこの設定を変更すること�
     <string name="phone_info_label">端末情報</string>
     <string name="proxy_settings_label">プロキシ設定</string>
     <string name="cancel">キャンセル</string>
-    <string name="okay">OK</string>
     <string name="save">保存</string>
     <string name="done">完了</string>
     <string name="settings_label">設定</string>
@@ -5343,4 +5388,6 @@ Bluetooth設定に移動すると、後からこの設定を変更すること�
     <string name="ucm_pins_do_not_match">PINが一致しません</string>
     <string name="ucm_failed_to_connect_smartcard">スマートカードへの接続に失敗しました。端末の管理者にお問い合わせください。</string>
     <string name="ucm_loading">読み込み中…</string>
+    <string name="usb_use_software_installation">ソフトウェアのインストール</string>
+    <string name="usb_use_software_installation_summary">MacまたはWindowsコンピューターに端末のソフトウェア更新および修正ツールをインストールします。</string>
 </resources>

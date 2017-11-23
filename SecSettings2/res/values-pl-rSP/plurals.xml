@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="data_saver_unrestricted_summary_chn">
+        <item quantity="other">Zezwolono %d aplikacjom na korzystanie z danych komórkowych bez ograniczeń przy włączonej funkcji Ograniczanie danych w tle.</item>
+        <item quantity="one">Zezwolono %d aplikacjom na korzystanie z danych komórkowych bez ograniczeń przy włączonej funkcji Ograniczanie danych w tle.</item>
+    </plurals>
     <plurals name="lock_timeout_hours">
         <item quantity="other">%d godz.</item>
         <item quantity="one">1 godz.</item>

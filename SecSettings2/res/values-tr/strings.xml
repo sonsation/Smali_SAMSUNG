@@ -31,7 +31,7 @@
     <string name="bluetooth_disconnected">Bağlantı kesildi</string>
     <string name="bluetooth_disconnecting">Bağlantı kesiliyor…</string>
     <string name="bluetooth_connecting">Bağlanılıyor…</string>
-    <string name="bluetooth_connected">Bağlantı kuruldu.</string>
+    <string name="bluetooth_connected">Bağlandı</string>
     <string name="bluetooth_pairing">Eşleştiriliyor…</string>
     <string name="bluetooth_connected_no_headset">Bağlandı (telefon yok)</string>
     <string name="bluetooth_connected_no_a2dp">Bağlandı (medya yok)</string>
@@ -433,7 +433,7 @@ Enter the code you get from Verizon:"</string>
     <string name="answering_end_call_title">Arama yanıtlama ve sonlandırma</string>
     <string name="audio_preference_title">Duyma</string>
     <string name="mono_audio_title">Mono Ses</string>
-    <string name="mono_audio_summary">Tek bir kulaklık kullanırken sesi stereodan monoya değiştirin.</string>
+    <string name="mono_audio_summary">"Tek kulaktan dinlemek için sesi stereo'dan mono'ya geçirin."</string>
     <string name="multi_window_title">Çoklu pencere</string>
     <string name="magnifier_seekbar_plus_tts">Artı</string>
     <string name="magnifier_seekbar_minus_tts">Eksi</string>
@@ -514,16 +514,18 @@ Not: Üçlü dokunma ile klavye dışındaki her bölgeyi büyütebilirsiniz."</
     <string name="direct_access_actions_universal_switch_title">Evrensel anahtar</string>
     <string name="sound_detector_title">Bebek ağlaması algılayıcı</string>
     <string name="sound_detector_main_title">Ses algılayıcılar</string>
-    <string name="sound_detector_main_description">Cihaz bir bebek ağlaması veya kapı zili algıladığında uyarı alın.</string>
+    <string name="sound_detector_main_description">Telefon bir bebek ağlaması veya kapı zili algıladığında uyarı alın.</string>
     <string name="accessibility_easy_interaction_summary">Alarmları, takvim etkinliklerini ve zamanlayıcı uyarılarını kapatın veya erteleyin; gelen aramaları tek bir dokunuşla yanıtlayın veya reddedin.</string>
     <string name="accessibility_easy_interaction_summary_tablet_wifi">Alarmları ve takvim etkinliklerini durdurmak/susturmak için dokunun.</string>
     <string name="all_sound_off">Tüm sesleri kapat</string>
-    <string name="all_sound_off_summary">Ses modu Ses olarak ayarlansa bile hoparlör yoluyla dahil olmak üzere hiçbir ses oynatmaz.</string>
+    <string name="all_sound_off_summary">Ses modu Ses çal olarak ayarlansa bile telefon aramaları dahil olmak üzere tüm sesleri kapatır.</string>
     <string name="all_sound_off_dialog_summary">%1$s ve %2$s aynı anda etkinleştirilemez. %3$s devre dışı bırakılacak.</string>
+    <string name="all_sound_off_popup_description">Tüm sesleri kapat özelliğini kullanmak için %s kapatılmalıdır.</string>
+    <string name="all_sound_turn_off_button">Kapat</string>
     <string name="turn_off_all_sounds">Tüm sesleri kapat</string>
     <string name="turn_off_all_sounds1">Tüm sesleri kapat ve yanıtlama mesajı aynı anda etkinleştirilemez.</string>
     <string name="turn_off_all_sounds2">Tüm sesleri kapat ve yanıtlama mesajı aynı anda etkinleştirilemez. Yanıtlama mesajı devre dışı bırakılacak.</string>
-    <string name="turn_off_all_sounds_toast_with_sound_detector">Tüm sesleri kapat seçeneği, ses algılayıcılar etkinken devre dışı bırakılamaz. Devre dışı bırakmak için Ayarlar > Erişilebilirlik > İşitme > Ses algılayıcılar bölümüne gidin, ardından tüm ses algılayıcıları devre dışı bırakın.</string>
+    <string name="turn_off_all_sounds_toast_with_sound_detector">Ses algılayıcılar açıkken Tüm sesleri kapat özelliği kapatılamaz.</string>
     <string name="accessibility_categories_title">Kategoriler</string>
     <string name="share_accessibility_settings">Erişebilirliği yönetin</string>
     <string name="share_accessibility_settings_summary">Erişilebilirlik ayarlarınızı içe ve dışa aktarın veya diğer cihazlarla paylaşın</string>
@@ -660,6 +662,7 @@ Bu işlev etkinleştirildiğinde, Ekranı otomatik döndür devre dışı bırak
     <string name="deviceOption">Cihaz seçenekleri</string>
     <string name="lock">Kilitle</string>
     <string name="powerOff">Kapat</string>
+    <string name="unable_assistantmenu_while_sidesync">SideSync kullanılırken Asistan menüsü açılamıyor.</string>
     <string name="eamenableinfo">"Assistant plus'ı etkinleştirmek için en az bir uygulama seçin."</string>
     <string name="fetch_progress">Veriler yükleniyor…</string>
     <string name="assistant_menu_enable_message">%s ve aşağıdaki seçenekler aynı anda etkinleştirilemez. Aşağıdaki seçenekler devre dışı bırakılacak.</string>
@@ -766,7 +769,7 @@ Bu özelliği indirmek için buraya dokunun."</string>
     <string name="xcover_key_shortcut_battery_conserving_mode">Battery conserving mode</string>
     <string name="xcover_key_shortcut_normal_mode">Normal mod</string>
     <string name="flight_mode_enabled_toast">Uçuş modu etkinken, mobil ağlara bağlanamıyor. Uçuş modunu devre dışı bırakın ve tekrar deneyin.</string>
-    <string name="airplane_mode_summary">Arama ve mesajlaşma işlevlerini devre dışı bırakın ve Mobil veriyi kapatın.</string>
+    <string name="airplane_mode_summary">Arama, mesajlaşma ve Mobil veriyi kapatın.</string>
     <string name="usb_not_support_mtp_usb3_dialog_title">Dikkat</string>
     <string name="airplane_mode_desc">"Uçuş modu Wi-Fi dahil ağ özelliklerini devre dışı bırakmanızı sağlar. Wi-Fi'ı kullanmak için Ayarlar'dan veya bildirim panelinden açın."</string>
     <string name="flight_mode_enable_popup_title">Uçuş modunu etkinleştir</string>
@@ -906,6 +909,7 @@ Bunu daha sonra Bluetooth ayarlarına giderek değiştirebilirsiniz."</string>
     <string name="bluetooth_control_app_disable_summary">Bluetooth kapatıldı: %s</string>
     <string name="bluetooth_enter_pin_msg">%s ile eşleşme için PIN girin (0000 veya 1234’ü deneyin).</string>
     <string name="bluetooth_pin_maximum_number_message">Maksimum karakter sayısına ulaşıldı.</string>
+    <string name="bluetooth_frp_permission_message">Bu arama için Bluetooth cihazı kullanılamaz.</string>
     <string name="settings_menu_done">Tamamlandı</string>
     <string name="usb_tethering_unavailable_subtext_tmo">USB not connected</string>
     <string name="usb_tethering_available_subtext_tmo">USB connected, check to tether</string>
@@ -946,6 +950,11 @@ Akıllı yakalama devre dışıyken bile Temassız komut yoluyla özelliklerine 
 - Ekran görüntüsü üzerine çizim yapabilirsiniz.
 - Ekran görüntüsünü kırpabilirsiniz.
 - Ekran görüntüsünü paylaşabilirsiniz."</string>
+    <string name="smart_capture_summary">Ekran görüntüsü yakalandıktan sonra ek seçenekleri gösterir. Akıllı yakalama ile:</string>
+    <string name="smart_capture_summary_1">Ekranın gizli alanlarını yakalayın.</string>
+    <string name="smart_capture_summary_2">Ekran görüntsü üzrne çzn.</string>
+    <string name="smart_capture_summary_3">Ekran görüntüsünü kırpın.</string>
+    <string name="smart_capture_summary_4">Ekran görüntüsnü paylaşn.</string>
     <string name="identify_unsaved_numbers_title">Kaydedilmemiş numaraları tanımla</string>
     <string name="identify_unsaved_numbers_title_usa">Spam numaralarını tanımla</string>
     <string name="call_message_spam_filter_title">Call/message spam filter</string>
@@ -1042,6 +1051,7 @@ Akıllı yakalama devre dışıyken bile Temassız komut yoluyla özelliklerine 
     <string name="fota_update_summary">Ürün yazılımını en son sürüme güncellemek ve en yeni özellikleri kullanmak için buraya dokunun.</string>
     <string name="favorite_tab">Hızlı ayarlar</string>
     <string name="device_maintenance_title">Cihaz bakımı</string>
+    <string name="memory_string">Hafıza</string>
     <string name="tab_favorite_edit">Hızlı ayarları düzenle</string>
     <string name="add_favorite_button">Hızlı ayarları düzenle</string>
     <string name="cloud_and_accounts_title">Cloud ve hesaplar</string>
@@ -1079,7 +1089,12 @@ Akıllı yakalama devre dışıyken bile Temassız komut yoluyla özelliklerine 
     <string name="notification_settings_apps_title">Uygulama bildirimleri</string>
     <string name="international_roaming_setting">Dolaşım ayarları</string>
     <string name="user_manual_mos">Cep Telefonu Kullanım Kılavuzu</string>
-    <string name="data_saver_description">Veri tasarrufu, veri kullanımını azaltmaya yardımcı olmak için bazı uygulamaların arka planda veri gönderip almasını engeller. Ayrıca şu anda kullanılmakta olan uygulamalar verilere erişebilir ancak bunu daha az sıklıkla yapabilir. Örneğin görüntüler, siz üzerine dokunana kadar düzgün şekilde gösterilmeyebilir.</string>
+    <string name="data_saver_description">Veri tasarrufu, bazı uygulamaların arka planda veri göndermesini veya almasını engelleyerek veri kullanımınızı azaltmaya yardımcı olur. Şu anda kullandığınız uygulamalar mobil veri kullanabilir ancak bunu daha az sıklıkla yapabilir. Örneğin görüntüler, siz üzerine dokunana kadar gösterilmeyebilir.</string>
+    <string name="unrestricted_data_saver_chn">Kısıtlama olmadan veri kullanın</string>
+    <string name="data_saver_description_chn">Arka plan verilerini kısıtla, veri kullanımını azaltmaya yardımcı olmak için bazı uygulamaların arka planda veri gönderip almasını engeller. Ayrıca şu anda kullanılmakta olan uygulamalar verilere erişebilir ancak bunu daha az sıklıkla yapabilir. Örneğin görüntüler, siz üzerine dokunana kadar düzgün şekilde gösterilmeyebilir.</string>
+    <string name="data_saver_title_chn">Arka plan verilerini kısıtla</string>
+    <string name="unrestricted_app_title_chn">Kısıtlama olmadan veri kullanın</string>
+    <string name="unrestricted_app_summary_chn">Bu uygulama, Arka plan verilerini kısıtla etkinken kısıtlama olmadan mobil veri kullanabilir.</string>
     <string name="data_used_editor_subtitle">Enter the amount of data you have used this month:</string>
     <string name="traffic_vertify">Details</string>
     <string name="btn_tmo">Upgrade data service</string>
@@ -1131,7 +1146,9 @@ Data usage is measured by your phone. Your carrier may account for usage differe
     <string name="last_checked_date">Son kontrol tarihi:</string>
     <string name="auto_update">Güncellemeleri otomatik indir</string>
     <string name="auto_update_summary">Yazılım güncellemelerini, bir Wi-Fi ağına bağlanıldığında otomatik olarak indirin. İndirme sırasında cihazınızı kullanabileceksiniz.</string>
-    <string name="scheduled_update">Planlı yazılım güncellemeleri</string>
+    <string name="auto_update_over_wifi">Wi-Fi üzerinden otomatik indir</string>
+    <string name="auto_update_over_wifi_summary">Yazılım güncellemeleri, bir Wi-Fi ağına bağlanıldığında otomatik olarak indirilir. Servis sağlayıcınıza bağlı olarak, güncellemeler ek ücret olmaksızın mobil veri kullanılarak da indirilebilir. İndirme sırasında telefonunuzu kullanabileceksiniz.</string>
+    <string name="scheduled_update">Planlanan yazılm güncellemeleri</string>
     <string name="scheduled_update_summary_default">Kapalı</string>
     <string name="scheduled_update_summary_set_time">Güncelleme %s saatinde başlayacaktır</string>
     <string name="scheduled_update_summary_set_time_everyday">Güncelleme her gün %s saatinde başlayacaktır</string>
@@ -1172,9 +1189,9 @@ Telefonunuz, sizin onayınızla telefonunuzdan tanılama ve kullanım verilerini
     <string name="usb_use_file_transfers_summary_vzw">Transfer media files to a computer.</string>
     <string name="usb_use_file_transfers_summary">"Medya dosyalarını MTP bağlantısıyla bir PC'ye aktarın."</string>
     <string name="usb_use_MIDI_summary_vzw">Use device for MIDI input.</string>
-    <string name="usb_use_MIDI_summary">Bağlı cihazı bir MIDI (Müzik Enstrümanları Dijital Arabirimi) oynatıcı veya giriş kaynağı olarak kullanın.</string>
-    <string name="usb_use_software_installation">Software Installation</string>
-    <string name="usb_use_software_installation_summary">Install Software Update and Repair tool for your device on a Mac or Windows computer.</string>
+    <string name="usb_use_MIDI_summary">Bağlı cihazı bir MIDI oynatıcısı veya giriş kaynağı olarak kullanın.</string>
+    <string name="usb_use_system_update">Sistem güncellemesi</string>
+    <string name="usb_use_system_update_summary">"Yazılım Yükseltme Asistanı'nı bilgisayarınıza yükleyin ve bu telefonu güncelleyin veya onarın."</string>
     <string name="sim_status_code">Kod</string>
     <string name="sim_status_btn_update">SIM kart durumnu güncelle</string>
     <string name="sim_status_updating">Güncelleniyor…</string>
@@ -1263,7 +1280,7 @@ Parlaklığın güvenli seviyelerin üzerine çıkmasına izin vermek için Tama
     <string name="display_temperature">Renk dengesi</string>
     <string name="adjust_your_display_colour">Beyaz tonlarının görünüşünü değiştirmek için ekranınızın renklerini ayarlayın.</string>
     <string name="led_indicator_settings">LED göstergesi</string>
-    <string name="led_indicator_settings_summary">Şarj, ses kaydı veya bildirim alma sırasında LED göstergeyi yakar.</string>
+    <string name="led_indicator_settings_summary">Ekran kapalıyken ses kaydı, okunmamış bildirimler ve pil durumlarını göstermek için LED göstergesini yakar.</string>
     <string name="screen_resolution_desc">"Bazı içerikler bulanık olabilir veya FHD ya da HD'de desteklenmeyebilir."</string>
     <string name="display_battery_percentage">Pil yüzdesini göster</string>
     <string name="display_battery_percentage_summary">Kalan pil gücünü durum çubuğunda yüzde olarak gösterir.</string>
@@ -1292,7 +1309,7 @@ Parlaklığın güvenli seviyelerin üzerine çıkmasına izin vermek için Tama
     <string name="wallpaper">Duvar kağıdı</string>
     <string name="lockscreen_wallpaper">Kilit ekranı</string>
     <string name="status_bar">Durum çubuğu</string>
-    <string name="recent_notification_status_bar_title">Sadece son bildrmlri gstr</string>
+    <string name="recent_notification_status_bar_title">Sadece son bildirimleri göster</string>
     <string name="recent_notification_status_bar_summary">Durum çubuğunda sadece en son %d bildirimin simgesini göster.</string>
     <string name="display_and_homescreen_title">Ekran ve ana ekran</string>
     <string name="navigationbar_title">Navigasyon çubuğu</string>
@@ -1310,12 +1327,12 @@ Parlaklığın güvenli seviyelerin üzerine çıkmasına izin vermek için Tama
     <string name="blue_light_filter_off_time_next_day_summary_format">%s sonraki gün</string>
     <string name="blue_light_filter_user_schedule_title">Özel program</string>
     <string name="blue_light_filter_auto_schedule_title">Gün batımından gün doğumuna</string>
-    <string name="blue_light_filter_desc">Daha iyi uyumanıza yardımcı olması için Mavi ışık filtresini kullanın. Mavi ışık filtresini kullanmak istediğiniz zamanlar için bir program belirleyin. Gün batımından gün doğumuna seçeneğini kullanmak için Konum etkinleştirilmelidir.</string>
-    <string name="blue_light_filter_enable_now">Şimdi etkinleştir</string>
+    <string name="blue_light_filter_desc">Daha iyi uyumanıza yardımcı olması için geceleri Mavi ışık filtresi kullanın. Mavi ışık filtresini kullanmak istediğiniz zamanlar için bir program ayarlayabilirsiniz. Gün batımından gün doğumuna seçeneğini kullanmak için Konum açılmalıdır.</string>
+    <string name="blue_light_filter_enable_now">Şimdi aç</string>
     <string name="blue_light_filter_enable_as_scheduled">Planlandığı gibi etknlştr</string>
-    <string name="blue_light_filter_scheduled_toast">Mavi ışık filtresi etkin. Programlanan bitiş saatinde otomatik olarak devre dışı bırakılacak.</string>
+    <string name="blue_light_filter_scheduled_toast">Mavi ışık filtresi açık. Programlanan bitiş zamanında otomatik olarak kapatılacak.</string>
     <string name="screen_mode_dlg_turn_off_blue_light_filter">%s ve Mavi ışık filtresi aynı anda kullanılamaz. Mavi ışık filtresi devre dışı bırakılacak.</string>
-    <string name="blue_light_filter_dlg_turn_on_location">Gün batımından gün doğumuna seçeneğini kullanmak için Konum etkinleştirilmelidir.</string>
+    <string name="blue_light_filter_dlg_turn_on_location">Gün batımından gün doğumuna seçeneğini kullanmak için Konum açılmalıdır.</string>
     <string name="dlg_turn_on">Aç</string>
     <string name="screen_resolution_title">Ekran çözünürlüğü</string>
     <string name="screen_resolution_desc_title">Ekran çözünürlüğnü değştr</string>
@@ -1422,6 +1439,10 @@ Parlaklığın güvenli seviyelerin üzerine çıkmasına izin vermek için Tama
     <string name="crypt_keeper_vzw_password_warning">Set the Screen lock password with at least %d characters and 1 number.</string>
     <string name="crypt_keeper_decrypt_title">Cihazı şifrele</string>
     <string name="crypt_keeper_decrypt_summary">Cihaz şifrelendi.</string>
+    <string name="crypt_keeper_type_pin">PIN</string>
+    <string name="crypt_keeper_type_pattern">Desen</string>
+    <string name="crypt_keeper_type_password">Şifre</string>
+    <string name="crypt_keeper_type_direction">Yön kilidi</string>
     <string name="crypt_keeper_confirm_title_dec">Şifre çözmeyi onayla</string>
     <string name="crypt_keeper_force_power_cycle_pattern">"Cihazınızı başlatmak için kapatıp tekrar açın, ardından tekrar deneyin. Cihazı başlatmak ve ekran kilidini açmak için kullandığınız deseni çizmeniz gerekir. Yedek PIN'iniz cihazınızı başlatmak için kullanılamaz."</string>
     <string name="crypt_keeper_setup_description_dec">"Cihazın şifresi çözülüyor. Bu işlem biraz zaman alabilir. Lütfen bekleyin…
@@ -1511,6 +1532,7 @@ Parlaklığın güvenli seviyelerin üzerine çıkmasına izin vermek için Tama
     <string name="crypt_keeper_verify_failed_summary">Cihazınız yeniden başlatılamıyor. Bütünlük doğrulaması başarısız. Cihazınızı varsayılan fabrika ayarlarına sıfırlamanız gerekiyor. Bu işlem tüm verilerinizi silecek.</string>
     <string name="cryptkeeper_emergency_call">Acil arama</string>
     <string name="cryptkeeper_return_to_call">Aramaya geri dön</string>
+    <string name="cryptkeeper_default_enter_msg">Telefonunuz güvenlik nedeniyle şifrelenir.</string>
     <string name="enter_password">Cihazınızı başlatmak için şifrenizi girin.</string>
     <string name="enter_pin">"Cihazınızı başlatmak için PIN'inizi girin."</string>
     <string name="enter_pattern">Cihazınızı başlatmak için deseninizi çizin.</string>
@@ -1520,11 +1542,13 @@ Parlaklığın güvenli seviyelerin üzerine çıkmasına izin vermek için Tama
     <string name="cryptkeeper_wrong_pin">Yanlış PIN girildi</string>
     <string name="cryptkeeper_wrong_direction">Hatalı yön çizildi</string>
     <string name="checking_decryption">Doğrulanıyor…</string>
-    <string name="starting_android">Android başlatılıyor…</string>
     <string name="crypt_keeper_last_warn_wipe">Cihazınız varsayılan fabrika ayarlarına sıfırlanmadan önce cihazınızı başlatmak için sadece 1 deneme hakkınız kaldı. Bu işlem, dosyalar ve indirilen uygulamalar dahil olmak üzere tüm verileri siler.</string>
     <string name="crypt_keeper_failed_title_dec">Şifreleme hatası.</string>
     <string name="crypt_keeper_failed_summary_dec">Kesinti nedeniyle şifre çözme tamamlanamıyor. Kullanmadan önce fabrika verilerine sıfırlama (tüm verileri siler) yapın.</string>
     <string name="crypt_keeper_set_screen_lock_type">Ekran kilidi türünü ayarla</string>
+    <string name="encryption_interstitial_message">"Telefon başlatılmadan önce %s girilmesini gerektirerek bu telefonu daha fazla koruyabilirsiniz. Bu, telefon kaybolur veya çalınırsa verilerinizi korumaya yardımcı olur. Bazı uygulamalar, e-posta eşitleme gibi özelliklere erişmek için Cihaz şifreleme ilkeleri uyarınca Güvenli Başlatma gerektirebilir.
+
+Telefon başlatılana kadar arama, mesaj veya bildirim almazsınız ve alarmlar çalmaz."</string>
     <string name="encryption_interstitial_message_kor">Cihazınız şifreli. Cihaz açıldığında, Verilerin şifresini açmak için ekran kilidi gerektir öğesini seçerek şifrelenmiş verilerinizi koruyun. Bu, kaybolan veya çalınan cihazlardaki verileri korumaya yardımcı olur. Cihazı her açtığınızda verilerinizin şifresini çözmek için cihazınızın kilidini açmanız gerekecektir. Cihazınızın şifresini çözene kadar hiçbir arama, mesaj veya bildirim almayacaksınız.</string>
     <string name="encryption_interstitial_message_direction">"Cihaz açıldığında Yön kilidi gerektir öğesini seçerek cihazınızı koruyun. Bu, kaybolan veya çalınan cihazlardaki verileri korumaya yardımcı olur.
 
@@ -1546,6 +1570,7 @@ Cihaz başlatılana kadar arama, mesaj veya bildirim almazsınız ve alarmlar ç
 Cihaz başlatılana kadar arama, mesaj veya bildirim almazsınız ve alarmlar çalmaz."</string>
     <string name="encryption_interstitial_error_message">Cihazınızın verilerini korumak için ekran kilidi türünüzü PIN, Şifre, Desen veya Parmak izi olarak değiştirip tekrar deneyin.</string>
     <string name="encryption_interstitial_error_message_direction">Cihazınızın verilerini korumak için ekran kilidi türünüzü PIN, Şifre, Desen, Yön kilidi veya Parmak izi olarak değiştirip tekrar deneyin.</string>
+    <string name="encryption_interstitial_error_message_direction_without_fingerprint">Cihazınızın verilerini korumak için ekran kilidi türünüzü PIN, Şifre, Desen veya Yön kilidi olarak değiştirip tekrar deneyin.</string>
     <string name="encryption_interstitial_error_message_iris_direction">Cihazınızın verilerini korumak için ekran kilidi türünüzü PIN, Şifre, Desen, Yön kilidi, Parmak izleri veya İrisler olarak değiştirip tekrar deneyin.</string>
     <string name="encryption_interstitial_error_message_without_fingerprint">Cihazınızın verilerini korumak için ekran kilidi türünüzü PIN, Şifre veya Desen olarak değiştirip tekrar deneyin.</string>
     <string name="encryption_interstitial_error_sktlock">Güvenlik kilidi ve Güvenli başlatma aynı anda etkinleştirilemez. Güvenlik kilidi dışında bir kilit seçip tekrar deneyin.</string>
@@ -1634,6 +1659,7 @@ Cihaz başlatılana kadar arama, mesaj veya bildirim almazsınız ve alarmlar ç
     <string name="knox_fingerprint_delete_fingerprint_popup_message">Parmak iziyle kilit açma şu anda Knox kilit açma yöntemi olarak ayarlı. Başka bir yöntem seçip tekrar deneyin.</string>
     <string name="knox_fingerprint_delete_fingerprint_popup_title">Parmak izi kaldırılamıyor</string>
     <string name="fingerprint_confirm_percent_for_talkback">Yüzde %d tamamlandı.</string>
+    <string name="fingerprint_confirm_percent_format">%%%d</string>
     <string name="fingerprint_disclaimer_message">Parmak izi tanıma özelliğinin çalışması için parmak izi bilgilerinizin cihazınıza eklenmiş olması gerekir. Parmak izinizi ekledikten sonra isteğinize göre aşağıdaki işlevler için parmak izinizi kullanabilirsiniz:</string>
     <string name="fingerprint_data_has_been_corrupted">Parmak izi verileri bozulmuş. Parmak izlerinizi tekrar ekleyin.</string>
     <string name="fingerprint_web">Web oturum açma</string>
@@ -1692,7 +1718,7 @@ Parmak izi kilidini etkinleştirmek için ETKİNLEŞTİR öğesine dokunun. Ard�
     <string name="fingerprint_samsungpass_description_internet">İnternet</string>
     <string name="fingerprint_samsungpass_summary">Kimliğinizi, %s ve desteklenen diğer uygulamalarla doğrulamak için parmak izlerinizi kullanın.</string>
     <string name="fingerprint_invalid_rename_character">Karakter geçersiz.</string>
-    <string name="fingerprint_maximum_rename_character">Maksimum karakter sayısına (%d) ulaşıldı</string>
+    <string name="fingerprint_maximum_rename_character">Maksimum karakter sayısına (%d) ulaşıldı.</string>
     <string name="fingerprint_rename_positivebutton">Yeniden adlandır</string>
     <string name="select_fingerprints">Parmak izlerini seç</string>
     <string name="fingerprint_rename_enter_text">Metin girin</string>
@@ -1809,6 +1835,8 @@ Garanti kapsamında onarım talebinde bulunmanız için Yeniden etkinleştirme k
 %s"</string>
     <string name="improve_location_title">Improve location accuracy</string>
     <string name="improve_location_summary">Use WLANs and mobile networks to provide more accurate information about the location of your device.</string>
+    <string name="send_last_location_title">Son konumu gönder</string>
+    <string name="send_last_location_summary">Telefonunuzun pili belirli bir düzeyin altına indiğinde son konumunu Cihazımı Bul sunucusuna göndermesine izin verin.</string>
     <string name="high_power_description">Tekil uygulamalar için Pil kullanımını optimize et seçeneğini etkinleştirin. Mobil ağları kullanan veya verileri eşitleyenler gibi bazı işlevler, pil gücünden tasarruf etmek için kısıtlanacak.</string>
     <string name="wifi_display_summary_off">Kapalı</string>
     <string name="battery_usage_description">Bu ekran, cihazın son tamamen şarj işleminden bu yana pil kullanım verilerini gösterir.</string>
@@ -1904,6 +1932,8 @@ Alternatif güvenlik seçenekleri cihazınızda mevcuttur. Lütfen bu özelliği
     <string name="iris_sensor_not_working_popup_title">İris tanıma çalışmıyor</string>
     <string name="iris_sensor_not_working_msg">İris sensörü yanıt vermiyor. Daha sonra tekrar deneyin.</string>
     <string name="iris_go_to_samsung_theme">"Samsung Themes'e git"</string>
+    <string name="biometrics_dex_cant_use_msg">"Samsung DeX'te %s kullanılamaz."</string>
+    <string name="biometrics_dex_closed_to_switch">"Samsung DeX'e geçmek için %s kapatıldı."</string>
     <string name="knox_twofactor_bio_description">%s kilidini açmak için biometrik kilit türünüzü ve ikinci kilit türünüzü seçin.</string>
     <string name="fingerprint_registered">Kayıtlı parmak izleri seçilen kilit açma yöntemi ile birlikte kullanılacaktır.</string>
     <string name="knox_twofactor_description">"Knox'u çok daha güvenli hale getirmek için iki kilit türü kullanın. Parmak izleriniz birinci kilit türü olarak kullanılacak. Aşağıdan ikinci bir kilit türü seçin."</string>
@@ -2001,8 +2031,8 @@ Determining your location will use the mobile network. Data usage will apply."</
     <string name="app_ops_settings_summary">Uygulama izinlerini görüntüleyin veya değiştirin.</string>
     <string name="backup_key_for_applock_header">Uygulamaları kilitlemek veya uygulamaların kilidini açmak için parmak izi tanımayla birlikte kullanılacak bir desen, PIN veya şifre belirleyin.</string>
     <string name="backup_key_for_privatemode_header">Özel moda erişim için parmak izi tanımayla birlikte kullanılacak bir desen, PIN veya şifre belirleyin.</string>
-    <string name="status_added">Ekli</string>
     <string name="text_security_title_b2c">"Bir kilit türü seçin. Güvenli Klasör'ün kilidini nasıl açacağınızı unutursanız Samsung account'unuzu kullanarak kilidinizi sıfırlayabilirsiniz."</string>
+    <string name="status_added">Ekli</string>
     <string name="lockpattern_backup_pin">Yedek PIN</string>
     <string name="applock_type_fingerprint">Parmak izi</string>
     <string name="unlock_set_unlock_two_factor_title">İki adımlı doğrulama</string>
@@ -2218,7 +2248,7 @@ Telefonunuz silinse bile birinin bu telefonu kullanabilmesi için Google Hesabı
     <string name="palm_swipe_title">Ekranı yakalamak için elinizin kenarı ile kaydırın</string>
     <string name="screen_recorder_title">Record screen</string>
     <string name="screen_recorder_summary">Record video screenshots while you use your device.</string>
-    <string name="multi_window_setting_title">Açlr pncre görünümü hrkti</string>
+    <string name="multi_window_setting_title">Açılır pencere görünümü eylemi</string>
     <string name="multi_window_setting_description">Ekranda bir uygulama açıkken ekranın üstteki bir köşesinden diyagonal olarak aşağı kaydırarak uygulamanın boyutunu ayarlayın.</string>
     <string name="multi_window_screen_title">Çoklu pencere</string>
     <string name="multi_window_screen_summary">Aynı anda birden fazla uygulama gösterir.</string>
@@ -2258,18 +2288,19 @@ Telefonunuz silinse bile birinin bu telefonu kullanabilmesi için Google Hesabı
     <string name="air_browse_note_summary">Görünüm modundayken sayfalar arasında hareket edin.</string>
     <string name="data_usage_enable_mobile_summery">İnternete mobil ağınız üzerinden erişin.</string>
     <string name="data_usage_enable_mobile_warning_skt">Mobil ağlara bağlanmak veri planınıza bağlı olarak ekstra ücrete tabi olabilir. Devam edilsin mi?</string>
-    <string name="data_usage_enable_mobile_warning_ktt">Mobil ağlara bağlanmak veri planınıza bağlı olarak ekstra ücrete tabi olabilir. Devam edilsin mi?</string>
+    <string name="data_usage_enable_mobile_warning_ktt">Mobil veri açılacak. Mobil ağlara bağlandığınızda ödeme planınıza bağlı olarak ek ücretler uygulanabilir.</string>
     <string name="data_usage_enable_mobile_warning_lgt">Mobil ağlara bağlanmak veri planınıza bağlı olarak ekstra ücrete tabi olabilir. Devam edilsin mi?</string>
     <string name="data_usage_disable_mobile_title">Mobil verileri kapat</string>
     <string name="data_usage_disable_mobile_warning_skt">Mobil ağ bağlantısını kesmek MMS ve 3G veri hizmetlerinin kullanımını sınırlandırır. Bağlantı kesilsin mi?</string>
     <string name="data_usage_disable_mobile_warning_ktt">Mobil ağ bağlantısını kesmek MMS ve 3G veri hizmetlerinin kullanımını sınırlandırır. Bağlantı kesilsin mi?</string>
     <string name="data_usage_disable_mobile_warning_ktt_jb">Mobil ağ bağlantısını kesmek MMS ve 3G veri hizmetlerinin kullanımını sınırlandırır. Bağlantı kesilsin mi?</string>
-    <string name="mobile_data_off_dialog_text_vzw">"Unless you use Wi-Fi, you will not be able to use the Internet, Email, or other apps that require a data connection.
+    <string name="data_usage_disable_mobile_warning_dcm">"If Mobile data is turned off, your device must be connected to a Wi-Fi network to use services that require a network connection.
 
-Turn off Mobile data?"</string>
-    <string name="mobile_data_off_dialog_text_common">"Wi-Fi kullanmadıkça, İnterneti, E-postayı veya veri bağlantısı gerektiren diğer uygulamaları artık kullanamayacaksınız.
-
-Mobil veri devre dışı bırakılacak."</string>
+Mobile data will be turned off."</string>
+    <string name="mobile_data_off_dialog_text_vzw">"Unless you use Wi-Fi, you won't be able to use the Internet, Email or other apps that require a data connection. Turn off the mobile data connection?"</string>
+    <string name="mobile_data_off_dialog_text_volte">"Your phone's Video Calling function won't work when mobile data is off. Also, you won't be able to use the Internet, Email or other apps that need a data connection unless you use Wi-Fi. Turn off the mobile data connection?"</string>
+    <string name="mobile_data_off_dialog_text_common">Bir Wi-Fi ağına bağlanmadıkça İnterneti, E-postayı veya ağ bağlantısı gerektiren diğer uygulamaları kullanamayacaksınız.</string>
+    <string name="data_usage_turn_off_btn">Kapat</string>
     <string name="wfd_settings_summary">Cihazınızın ekranını bir başka cihaz ile paylaşın.</string>
     <string name="nfc_settings_advanced_explain">"Varsayılan NFC işleme yöntemini belirleyin.
 Bazı NFC işlemleri ve mobil ödeme servisleri farklı bir varsayılan NFC işleme yöntemi gerektirebilir."</string>
@@ -2409,7 +2440,7 @@ Bazı NFC işlemleri ve mobil ödeme servisleri farklı bir varsayılan NFC işl
     <string name="zen_mode_events_summary">S Planlayıcı ve diğer takvim etkinliklerinden bildirimlere izin verir.</string>
     <string name="zen_mode_events_summary_na">Takvim etkinlikleri ve görevlerinden gelen bildirimlere izin ver.</string>
     <string name="zen_mode_reminders_summary">Destekleyen uygulamalardan hatırlatmalara izin ver.</string>
-    <string name="dnd_app_noti_summary">Uygulama bildirimlerine istisna olarak izin vermek için bunları öncelikli kesintiler olarak ayarlayın.</string>
+    <string name="dnd_app_noti_summary">Seçtiğiniz uygulamaların bildirimlerine izin verin.</string>
     <string name="no_exceptions_dcm_summary">Mute all calls and alerts, including Area Mail alarms.</string>
     <string name="dnd_screen_switch_summary">Özel istisnalarınız dışında tüm aramaları ve uyarıları sessize alın.</string>
     <string name="app_notification_priority_app_list_title">Öncelikli uyg. bildirimlri</string>
@@ -2456,7 +2487,7 @@ mod"</string>
     <string name="personal_page_secretbox_disclaimer_title">Yasal Uyarı</string>
     <string name="personal_page_secretbox_disclaimer_message">Özel mod, diğer uygulamaların verilerinize erişmesini engellemez. Verilerin harici sunucularla senkronize olmasını engellemek için lütfen cihaz ayarlarınızdan otomatik senkronizasyonu kaldırın.</string>
     <string name="personal_page_secretbox_disclaimer_message_vzw">Content moved into Private mode will be hidden and will not be shown when you exit from Private mode. Automatic syncing while in Private mode may allow that content to be visible in 3rd party apps. Check the automatic synchronization settings of your other applications before using Private mode.</string>
-    <string name="personal_page_tutorial_app_title_message">"Özel kalmasını istediğiniz içeriği gizlemek için Özel modu kullanın. Aşağıdaki uygulamaları kullanırken, Özel'e taşımak istediğiniz öğeleri seçin, ardından DAHA FAZLA öğesine dokunup Özel'e Taşı öğesini seçin. Özel'e taşınan içerik sadece Özel mod etkinken görülebilir."</string>
+    <string name="personal_page_tutorial_app_title_message">"Özel kalmasını istediğiniz içeriği gizlemek için Özel modu kullanın. Aşağıdaki uygulamaları kullanırken Özel'e taşımak istediğiniz öğeleri seçin, ardından Daha fazla seçenek tuşuna dokunup Özel'e Taşı öğesini seçin. Özel'e taşınan içerik sadece Özel mod açıkken görülebilir."</string>
     <string name="personal_page_inline_help">Özel modu kullanmak için bir erişim türü seçin. Özel mod erişim türünüzü unutursanız kurtaramazsınız ve cihazınızı varsayılan fabrika ayarlarına sıfırlayana kadar Özel modu kullanamazsınız.</string>
     <string name="personal_page_backup_pin_summary">Deseninizi unutmanız durumunda Özel mod için bir yedek PIN oluşturun.</string>
     <string name="personal_page_incorrect_pin">"Hatalı PIN.
@@ -2846,7 +2877,8 @@ Bu işlevi etkinleştirmek/devre dışı bırakmak için şarj cihazının bağl
     <string name="samsung_backup_summary">"Verilerinizi yedeklemek için Samsung account'unuzu kullanın."</string>
     <string name="samsung_restore_summary">"Yedekleme verilerinizi geri yüklemek için Samsung account'ınızı kullanın."</string>
     <string name="sns_settings_title">Wi-Fi bağlantınız dengesiz olduğunda mobil veriye geçin. Telefonunuz en sık ziyaret edilen alanlardan kayıtlı Wi-Fi ağlarına da geçebilir. Akıllı ağ anahtarı, kayıtlı Wi-Fi ağlarını otomatik olarak açar veya kapatır.</string>
-    <string name="smart_bonding">Güçlendirici indir</string>
+    <string name="sns_settings_title_include_autowifi">Wi-Fi bağlantınız dengesiz olduğunda mobil veriye geçin. Telefonunuz en sık ziyaret edilen alanlardan kayıtlı Wi-Fi ağlarına da geçebilir. Akıllı ağ anahtarı, kayıtlı Wi-Fi ağlarını otomatik olarak açar veya kapatır.</string>
+    <string name="smart_bonding">İndirme Güçlendiricisi</string>
     <string name="smart_bonding_popup_title">İndirme güçlendircsni etknlştr</string>
     <string name="smart_bonding_description_vzw">"Download large files (over %d MB) faster by using Wi-Fi and LTE networks at the same time. The Download booster icon will be shown on the status bar when Download booster is turned on.
 
@@ -3066,6 +3098,8 @@ Downloading via mobile networks may result in additional charges depending on yo
     <string name="wifi_manage_network">Ağları yönetin</string>
     <string name="wlan_permission_available_message">Asks your permission to use WLAN via a pop-up</string>
     <string name="wlan_permission_available">Ask to use WLAN</string>
+    <string name="wifi_hotspot20_summary_tmo">Hotspot 2.0 özellikli Wi-Fi erişim noktalarına şifre gerekmeksizin sorunsuz şekilde bağlanın.</string>
+    <string name="wifi_hotspot20_summary_dcm">Wi-Fi açıkken Hotspot 2.0 Wi-Fi ağına otomatik olarak bağlanın.</string>
     <string name="wifi_hotspot20_summary">Hotspot 2.0 desteği sunan Wi-Fi erişim noktalarına otomatik olarak bağlanın.</string>
     <string name="wifi_hotspot20_enable">Hotspot 2.0</string>
     <string name="wifi_att_auto_connect_summary">Automatically connect to AT&amp;T Wi-Fi hotspot when detected</string>
@@ -3084,9 +3118,9 @@ Downloading via mobile networks may result in additional charges depending on yo
     <string name="wifi_auto_reconnect">Otomatik yeniden bağlan</string>
     <string name="wifi_enable_warning_chn">Turning on WLAN will disable Mobile hotspot.</string>
     <string name="wifi_enable_warning_vzw">"Wi-Fi'yi açmak Mobile Hotspot devre dışı bırakacak. Devam edilsin mi?"</string>
-    <string name="wifi_enable_warning_tmo">Wi-Fi is turned off when Mobile HotSpot is active. To turn on Wi-Fi, please turn off Mobile HotSpot.</string>
+    <string name="wifi_enable_warning_tmo">"Mobil Erişim Noktası etkinken Wi-Fi kapatılır. Wi-Fi'ı açmak için lütfen Mobil Erişim Noktası'nı kapatın."</string>
     <string name="wifi_enable_warning_spr">Turning on Wi-Fi will disable Hotspot.</string>
-    <string name="wifi_enable_warning_mtr">Turning on Wi-Fi will turn off Mobile Hotspot. Continue?</string>
+    <string name="wifi_enable_warning_mtr">"Mobil Erişim Noktası etkinken Wi-Fi kapatılır. Wi-Fi'ı açmak için lütfen Mobil Erişim Noktası'nı kapatın."</string>
     <string name="wifi_enable_warning_usc">Turning on Wi-Fi will turn off Portable Wi-Fi hotspot. Continue?</string>
     <string name="wifi_enable_warning">Wi-Fi’ın açılması, Mobil erişim noktasını devre dışı bırakır.</string>
     <string name="wifi_control_history_title">Wi-Fi kontrol geçmişi</string>
@@ -3120,9 +3154,9 @@ Downloading via mobile networks may result in additional charges depending on yo
     <string name="wifi_ap__wifi_sharing_vzw">Wi-Fi Sharing</string>
     <string name="wifi_ap__wifi_sharing">Wi-Fi paylaşımı</string>
     <string name="first_use_wifi_msg_mtr">Tap OK to learn more about using Mobile Hotspot.</string>
-    <string name="first_use_wifi_msg">Tap OK to learn more about using Mobile HotSpot.</string>
+    <string name="first_use_wifi_msg">"Mobil Erişim Noktası'nı kullanmayla ilgili daha fazla bilgi edinmek için Tamam öğesine dokunun."</string>
     <string name="first_use_title_mtr">View Mobile Hotspot help</string>
-    <string name="first_use_title">View Mobile HotSpot help</string>
+    <string name="first_use_title">Mobil Erişim Noktası yardımını görüntüle</string>
     <string name="wifi_ap_wifi_sharing_title">Wi-Fi paylaşımını aç</string>
     <string name="wifi_ap_wifi_sharing_status_enabled">Etkinleştirildi</string>
     <string name="wifi_ap_wifi_sharing_status_disabled">Devre dışı bırakıldı</string>
@@ -3154,11 +3188,11 @@ Using Mobile hotspot increases battery consumption and data usage."</string>
 Mobile Hotspot uses mobile data from your data plan.
 
 We recommend keeping your phone plugged in to a charger while using Mobile Hotspot to save battery."</string>
-    <string name="wifi_ap_instruction_changeable_maxclient_tmo">"You can use your device as an Internet access point using Mobile HotSpot. This allows up to %d other devices to connect to it via Wi-Fi. The connected devices will have access to the Internet via your mobile network.
+    <string name="wifi_ap_instruction_changeable_maxclient_tmo">"Mobil Erişim Noktası'nı kullanarak cihazınızı bir İnternet erişim noktası olarak kullanabilirsiniz. Bu sayede %d adede kadar cihaz Wi-Fi yoluyla cihazınıza bağlanabilir. Bağlı cihazlar, mobil ağınız üzerinden İnternete erişir.
 
-You can create an allowed device profile and set the connection mode for it.
+İzin verilen bir cihaz profili oluşturup bunun için bağlantı modunu ayarlayabilirsiniz.
 
-Using Mobile HotSpot increases battery consumption and data usage."</string>
+Mobil Erişim Noktası'nın kullanılması pil tüketimini ve veri kullanımını artırır."</string>
     <string name="wifi_ap_instruction_changeable_maxclient_spr">"You can share your device's Hotspot with Wi-Fi enabled devices.
 
 After you start the Mobile Hotspot Wi-Fi router, connect using the controls on your Wi-Fi enabled device."</string>
@@ -3191,7 +3225,7 @@ To configure Smartphone Mobile Hotspot, tap on the menu icon, and then tap “Co
     <string name="wifi_ap_hide_ssid">Cihazımı gizle</string>
     <string name="wifi_ap_wifi_off_warn_vzw">Mobile Hotspot uses your mobile data connection. Your Wi-Fi connection will be turned off.</string>
     <string name="wifi_ap_wifi_off_warn_spr">Enabling Hotspot will turn off Wi-Fi</string>
-    <string name="wifi_ap_wifi_off_warn_tmo">Wi-Fi is turned off when USB tethering or Mobile HotSpot is active. To turn on Wi-Fi, please turn off USB tethering or Mobile HotSpot.</string>
+    <string name="wifi_ap_wifi_off_warn_tmo">"USB bağlanma veya Mobil Erişim Noktası etkinken Wi-Fi kapatılır. Wi-Fi'ı açmak için lütfen USB bağlanma veya Mobil Erişim Noktası'nı kapatın."</string>
     <string name="wifi_ap_wifi_off_warn_chn">Enabling Mobile hotspot will turn off WLAN.</string>
     <string name="wifi_ap_wifi_off_warn_att">Turning on portable Wi-Fi hotspot will turn off Wi-Fi.</string>
     <string name="wifi_ap_wifi_off_warn_mtr">Wi-Fi is turned off when USB tethering or Mobile Hotspot is active. To turn on Wi-Fi, please turn off USB tethering or Mobile Hotspot.</string>
@@ -3262,6 +3296,7 @@ Mobil erişim noktası ismini veya şifresini değiştirdikten sonra, yeni bir Q
     <string name="wifi_wps_onstart_pbc_mobileap">Bağlanmak için diğer cihazdaki WPS tuşuna basın.</string>
     <string name="wifi_wps_complete_mobileap">Diğer cihaz artık cihazınıza bağlı.</string>
     <string name="wifi_ap_disconnect_warn">Cihazın bağlantısını kes</string>
+    <string name="wifi_ap_change_policy_warn_mtr">The device currently connected will be disconnected from Portable Wi-Fi Hotspot.</string>
     <string name="wifi_ap_change_policy_warn">Şu anda bağlı olan tüm cihazların Mobil erişim noktasıyla bağlantısı kesilecek.</string>
     <string name="wifi_ap_warn_max_whitelist">İzin verilen maksimum cihaz sayısına (%d) ulaşıldı.</string>
     <string name="wifiap_one_item_deleted">1 öğe silinecek.</string>
@@ -3296,8 +3331,9 @@ Wi-Fi is now on."</string>
     <string name="wifi_tether_dialog_nosim_warning_title">Mobil erişim noktası</string>
     <string name="wifi_tether_dialog_nosim_warning_chn">Insert a SIM card to use Mobile hotspot and other tethering functions.</string>
     <string name="wifi_tether_dialog_nosim_warning_vzw">Insert a SIM card to use Mobile Hotspot and other tethering options.</string>
-    <string name="wifi_tether_dialog_nosim_warning_tmo">"Please install SIM card in order to share your phone's data connection with other devices using Mobile Wi-Fi HotSpot or USB tethering for Internet access."</string>
-    <string name="wifi_tether_dialog_nosim_warning_spr">Insert SIM for using Hotspot include tethering</string>
+    <string name="wifi_tether_dialog_nosim_warning_tmo">"İnternet erişimi için Mobil Wi-Fi Erişim Noktası'nı veya USB bağlanmayı kullanarak telefonunuzun veri bağlantısını diğer cihazlarla paylaşmak için lütfen SIM kart takın."</string>
+    <string name="wifi_tether_dialog_nosim_warning_mtr">"Please install SIM card in order to share your phone's data connection with other devices using Mobile Wi-Fi Hotspot or USB tethering for Internet access."</string>
+    <string name="wifi_tether_dialog_nosim_warning_spr">Erişim noktasını kullanmak için bir SIM kart takın.</string>
     <string name="wifi_tether_dialog_nosim_warning_usc">Mobil erişim noktasını ve diğer internet paylaşımı işlevlerini kullanmak için bir SIM kart takın.</string>
     <string name="wifi_tether_dialog_nosim_warning">Mobil erişim noktasını ve diğer internet paylaşımı işlevlerini kullanmak için bir SIM kart takın.</string>
     <string name="mobileap_tmo">Taşınabilir Wi-Fi alanı</string>
@@ -3324,7 +3360,7 @@ Wi-Fi is now on."</string>
     <string name="wifi_ap_instruction_open_activate_color3_att">&lt;font color=\"%1$s\">%2$s&lt;/font> ağına bağlanın.</string>
     <string name="wifi_ap_instruction_open_activate_color3">&lt;font color=\"%1$s\">%2$s&lt;/font> ağına bağlanın.</string>
     <string name="wifi_ap_instruction_open_activate_color4_vzw">Enjoy your Mobile Hotspot.</string>
-    <string name="wifi_ap_instruction_open_activate_color4_tmo">Enjoy the internet using your personal Mobile HotSpot.</string>
+    <string name="wifi_ap_instruction_open_activate_color4_tmo">Kişisel Mobil Erişim Noktanızı kullanarak İnternetin keyfini çıkarın.</string>
     <string name="wifi_ap_instruction_open_activate_color4_spr">Enjoy the Internet with Hotspot.</string>
     <string name="wifi_ap_instruction_open_activate_color4_att">Enjoy the Internet using Mobile hotspot.</string>
     <string name="wifi_ap_instruction_open_activate_color4_mtr">Enjoy the Internet using portable Wi-Fi hotspot.</string>
@@ -3343,7 +3379,7 @@ Wi-Fi is now on."</string>
     <string name="wifi_ap_instruction_activate_color3_att">&lt;font color=\"%1$s\">%2$s&lt;/font> ağına şu şifreyi girerek bağlanın: &lt;font color=\"%1$s\">%3$s&lt;/font>.</string>
     <string name="wifi_ap_instruction_activate_color3">&lt;font color=\"%1$s\">%2$s&lt;/font> ağına şu şifreyi girerek bağlanın: &lt;font color=\"%1$s\">%3$s&lt;/font>.</string>
     <string name="wifi_ap_instruction_activate_color4_vzw">Enjoy your Mobile Hotspot.</string>
-    <string name="wifi_ap_instruction_activate_color4_tmo">Enjoy the internet using your personal Mobile HotSpot.</string>
+    <string name="wifi_ap_instruction_activate_color4_tmo">Kişisel Mobil Erişim Noktanızı kullanarak İnternetin keyfini çıkarın.</string>
     <string name="wifi_ap_instruction_activate_color4_spr">Enter &lt;font color=\"%1$s\">%3$s&lt;/font> in the &lt;font color=\"%1$s\">%4$s&lt;/font> field.</string>
     <string name="wifi_ap_instruction_activate_color4_att">Enjoy the Internet using Mobile hotspot.</string>
     <string name="wifi_ap_instruction_activate_color4_mtr">Enjoy the Internet using portable Wi-Fi hotspot.</string>
@@ -3365,16 +3401,16 @@ Wi-Fi is now on."</string>
     <string name="wifi_ap_instruction_activate_color_hidden3_chn">Connect to &lt;font color=\"%1$s\">%2$s&lt;/font> by entering &lt;font color=\"%1$s\">%3$s&lt;/font> as the password.</string>
     <string name="wifi_ap_instruction_activate_color_hidden3_tmo">Connect to &lt;font color=\"%1$s\">%2$s&lt;/font> by entering &lt;font color=\"%1$s\">%3$s&lt;/font> as the password.</string>
     <string name="wifi_ap_instruction_activate_color_hidden3">&lt;font color=\"%1$s\">%2$s&lt;/font> ağına şu şifreyi girerek bağlanın: &lt;font color=\"%1$s\">%3$s&lt;/font>.</string>
-    <string name="wifi_ap_instruction_activate_color_hidden4_tmo">Enjoy the internet using your personal Mobile HotSpot.</string>
+    <string name="wifi_ap_instruction_activate_color_hidden4_tmo">Kişisel Mobil Erişim Noktanızı kullanarak İnternetin keyfini çıkarın.</string>
     <string name="wifi_ap_instruction_no_maxclient">"Mobil erişim noktasını kullanarak cihazınızı bir İnternet erişim noktasına dönüştürebilirsiniz. Böylece diğer cihazlar Wi-Fi yoluyla cihazınıza bağlanabilir. Bağlı cihazlar mobil ağınız yoluyla İnternete erişir.
 
 İzin verilen bir cihaz profili oluşturup ilgili bağlantı modunu ayarlayabilirsiniz.
 
 Mobil erişim noktasının kullanılması pil tüketimini ve veri kullanımını artırır."</string>
     <string name="wifi_ap_instruction_configure_vzw">To change the Mobile Hotspot configuration, go to Settings > Mobile Hotspot and tethering > Mobile Hotspot > MORE, then select Configure Mobile Hotspot.</string>
-    <string name="wifi_ap_instruction_configure_tmo">To change the Mobile HotSpot configuration, tap the More options button, then select Configure Mobile HotSpot.</string>
+    <string name="wifi_ap_instruction_configure_tmo">Mobil Erişim Noktası yapılandırmasını değiştirmek için Daha fazla seçenek tuşuna dokunun, ardından Mobil Erişim Noktasını Yapılandır öğesini seçin.</string>
     <string name="wifi_ap_instruction_configure">Mobil erişim noktası yapılandırmasını değiştirmek için Daha fazla seçenek tuşuna dokunun, ardından Mobil erişim noktasını yapılandır öğesini seçin.</string>
-    <string name="wifi_ap_instruction_configure_non_grace_tmo">To change the Mobile HotSpot configuration, tap MORE, then select Configure Mobile HotSpot.</string>
+    <string name="wifi_ap_instruction_configure_non_grace_tmo">Mobil Erişim Noktası yapılandırmasını değiştirmek için DAHA FAZLA öğesine dokunup Mobil Erişim Noktasını Yapılandır öğesini seçin.</string>
     <string name="wifi_ap_instruction_configure_non_grace">Mobil erişim noktası yapılandırmasını değiştirmek için DAHA FAZLA öğesine dokunup Mobil erişim noktasını yapılandır öğesini seçin.</string>
     <string name="wifi_ap_change_security">Change Security</string>
     <string name="wifi_ap_maxclient">Maksimum bağlantı</string>
@@ -3391,7 +3427,8 @@ Mobil erişim noktasının kullanılması pil tüketimini ve veri kullanımını
     <string name="wifi_tether_configure_ap_text_usc">Configure Wi-Fi hotspot</string>
     <string name="wifi_tether_configure_ap_text">Mobil erişm noktasnı yapılandr</string>
     <string name="wifi_ap_hidessid_warning">Your phone will be visible to other devices</string>
-    <string name="wifi_ap_first_time_configuration">First time HotSpot configuration</string>
+    <string name="wifi_ap_first_time_configuration_mtr">İlk Erişim Noktası yapılandırması</string>
+    <string name="wifi_ap_first_time_configuration">İlk Erişim Noktası yapılandırması</string>
     <string name="title_wifi_notify_mobileap_is_on">Wi-Fi and Mobile Hotspot</string>
     <string name="wifi_ssid_max_byte_error">Maksimum karakter sayısına ulaşıldı.</string>
     <string name="tethering_attention_title">Dikkat</string>
@@ -3534,6 +3571,8 @@ Dolaşım müşteri hizmetlerini ücretsiz arayarak dolaşım hakkında bilgi al
     <string name="master_clear_desc_music">Müzik</string>
     <string name="master_clear_desc_pictures">Resimler</string>
     <string name="master_clear_desc_other_user_data">Tüm diğer kullanıcı verileri</string>
+    <string name="master_clear_not_enough_battery">Telefonunuzu sıfırlamadan önce pilinizi en az %%%d düzeyine kadar şarj edin.</string>
+    <string name="master_clear_not_enough_battery_tablet">Tabletinizi sıfırlamadan önce pilinizi en az %%%d düzeyine kadar şarj edin.</string>
     <string name="text_two_locktype">Parmak izi ve %s</string>
     <string name="pref_lock_type_title">Kilit türünü değiştir</string>
     <string name="pref_lock_type_summary">Kilit türü</string>
@@ -3613,8 +3652,11 @@ Receiving SMS"</string>
     <string name="google_settings_popup_msg">Only a limited number of Google settings are available. Some actions may not work.</string>
     <string name="smart_lock_popup_msg">Only a limited number of Google settings are available. Some actions may not work.</string>
     <string name="prevent_to_change_by_device_policy">Güvenlik ilkesi, %s kullanımını engelliyor.</string>
+    <string name="quick_tile_sync_title">Senkronizasyon</string>
     <string name="name_jerusalem">Kudüs</string>
     <string name="name_israel">İsrail</string>
+    <string name="starting_android">Android başlatılıyor…</string>
+    <string name="okay">Tamam</string>
     <string name="yes">Evet</string>
     <string name="no">Hayır</string>
     <string name="create">Oluştur</string>
@@ -3712,7 +3754,6 @@ Bunu daha sonra Bluetooth ayarlarına giderek değiştirebilirsiniz."</string>
     <string name="phone_info_label">Cihaz bilgisi</string>
     <string name="proxy_settings_label">Proxy ayarları</string>
     <string name="cancel">İptal</string>
-    <string name="okay">Tamam</string>
     <string name="save">Kaydet</string>
     <string name="done">Tamam</string>
     <string name="settings_label">Ayarlar</string>
@@ -5347,4 +5388,6 @@ Cihaz başlatılana kadar arama, mesaj veya bildirim almazsınız ve alarmlar ç
     <string name="ucm_pins_do_not_match">"PIN'ler eşleşmiyor"</string>
     <string name="ucm_failed_to_connect_smartcard">Akıllı karta bağlanılamadı. Cihaz yöneticisine başvurun.</string>
     <string name="ucm_loading">Yükleniyor…</string>
+    <string name="usb_use_software_installation">Software Installation</string>
+    <string name="usb_use_software_installation_summary">Install Software Update and Repair tool for your device on a Mac or Windows computer.</string>
 </resources>

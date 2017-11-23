@@ -238,7 +238,7 @@
     const/4 v2, 0x0
 
     .line 105
-    const v4, 0x7f0b179a
+    const v4, 0x7f0b1920
 
     .line 106
     const v5, 0x7f1106d5
@@ -281,7 +281,7 @@
     const/4 v2, 0x1
 
     .line 115
-    const v4, 0x7f0b179b
+    const v4, 0x7f0b1921
 
     .line 116
     const v5, 0x7f1106dc

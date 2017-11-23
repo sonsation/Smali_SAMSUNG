@@ -148,7 +148,7 @@
 
     .line 230
     .local v0, "enabledTalkbackName":Ljava/lang/String;
-    const v3, 0x7f0b0429
+    const v3, 0x7f0b0431
 
     invoke-virtual {p0, v3}, Lcom/samsung/android/settings/SmartStaySettings;->getString(I)Ljava/lang/String;
 
@@ -166,7 +166,7 @@
 
     .line 232
     .local v2, "popup_title":Ljava/lang/String;
-    const v3, 0x7f0b042a
+    const v3, 0x7f0b0432
 
     invoke-virtual {p0, v3}, Lcom/samsung/android/settings/SmartStaySettings;->getString(I)Ljava/lang/String;
 
@@ -177,7 +177,7 @@
     new-array v4, v4, [Ljava/lang/Object;
 
     .line 233
-    const v5, 0x7f0b05b5
+    const v5, 0x7f0b05c9
 
     invoke-virtual {p0, v5}, Lcom/samsung/android/settings/SmartStaySettings;->getString(I)Ljava/lang/String;
 
@@ -215,7 +215,7 @@
 
     invoke-direct {v4, p0}, Lcom/samsung/android/settings/SmartStaySettings$5;-><init>(Lcom/samsung/android/settings/SmartStaySettings;)V
 
-    const v5, 0x7f0b042b
+    const v5, 0x7f0b0433
 
     .line 234
     invoke-virtual {v3, v5, v4}, Landroid/app/AlertDialog$Builder;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
@@ -272,7 +272,7 @@
     invoke-direct {p0}, Lcom/samsung/android/settings/SmartStaySettings;->dismissAllDialog()V
 
     .line 261
-    const v2, 0x7f0b0429
+    const v2, 0x7f0b0431
 
     invoke-virtual {p0, v2}, Lcom/samsung/android/settings/SmartStaySettings;->getString(I)Ljava/lang/String;
 
@@ -294,7 +294,7 @@
 
     .line 263
     .local v1, "popup_title":Ljava/lang/String;
-    const v2, 0x7f0b042a
+    const v2, 0x7f0b0432
 
     invoke-virtual {p0, v2}, Lcom/samsung/android/settings/SmartStaySettings;->getString(I)Ljava/lang/String;
 
@@ -305,7 +305,7 @@
     new-array v3, v3, [Ljava/lang/Object;
 
     .line 264
-    const v4, 0x7f0b05b5
+    const v4, 0x7f0b05c9
 
     invoke-virtual {p0, v4}, Lcom/samsung/android/settings/SmartStaySettings;->getString(I)Ljava/lang/String;
 
@@ -348,7 +348,7 @@
 
     invoke-direct {v3, p0}, Lcom/samsung/android/settings/SmartStaySettings$8;-><init>(Lcom/samsung/android/settings/SmartStaySettings;)V
 
-    const v4, 0x7f0b042b
+    const v4, 0x7f0b0433
 
     .line 266
     invoke-virtual {v2, v4, v3}, Landroid/app/AlertDialog$Builder;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
@@ -764,7 +764,7 @@
     if-eqz v3, :cond_1
 
     .line 89
-    const v3, 0x7f0204c0
+    const v3, 0x7f0204be
 
     invoke-virtual {v2, v3}, Landroid/widget/ImageView;->setImageResource(I)V
 

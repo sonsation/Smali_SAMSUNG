@@ -41,7 +41,7 @@
     .locals 11
 
     .prologue
-    const v3, 0x7f0b03de
+    const v3, 0x7f0b03e0
 
     const/4 v10, 0x1
 

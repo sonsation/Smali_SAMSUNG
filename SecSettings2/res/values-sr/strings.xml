@@ -31,7 +31,7 @@
     <string name="bluetooth_disconnected">Prekinuta veza</string>
     <string name="bluetooth_disconnecting">Prekidanje veze…</string>
     <string name="bluetooth_connecting">Povezivanje…</string>
-    <string name="bluetooth_connected">Povezan.</string>
+    <string name="bluetooth_connected">Veza je uspostavljena</string>
     <string name="bluetooth_pairing">Uparivanje…</string>
     <string name="bluetooth_connected_no_headset">Повезано (без телефона)</string>
     <string name="bluetooth_connected_no_a2dp">Повезано (без медија)</string>
@@ -433,7 +433,7 @@ Enter the code you get from Verizon:"</string>
     <string name="answering_end_call_title">Prihvatanje i završavanje poziva</string>
     <string name="audio_preference_title">Sluh</string>
     <string name="mono_audio_title">Mono zvuk</string>
-    <string name="mono_audio_summary">Prebaci zvuk sa stereo zvuka na mono kada koristiš jednu slušalicu.</string>
+    <string name="mono_audio_summary">Prebacite audio sa stereo na mono radi slušanja jednim uvom.</string>
     <string name="multi_window_title">Više prozora</string>
     <string name="magnifier_seekbar_plus_tts">Plus</string>
     <string name="magnifier_seekbar_minus_tts">Minus</string>
@@ -514,16 +514,18 @@ Napomena: Triput kucni da bi uvećanje funkcionisalo svuda osim na tastaturi."</
     <string name="direct_access_actions_universal_switch_title">Univerzalni prekidač</string>
     <string name="sound_detector_title">Detektor plača bebe</string>
     <string name="sound_detector_main_title">Detektori zvuka</string>
-    <string name="sound_detector_main_description">Primi upozorenja kada uređaj detektuje plač bebe ili zvuk zvona na vratima.</string>
+    <string name="sound_detector_main_description">Prijem upozorenja kada telefon detektuje plač bebe ili zvuk zvona na vratima.</string>
     <string name="accessibility_easy_interaction_summary">Odbaci ili odloži alarme, događaje u kalendaru i upozorenja tajmera i odgovori na dolazne pozive ili ih odbij jednim kucanjem.</string>
     <string name="accessibility_easy_interaction_summary_tablet_wifi">Kucni za prekidanje/odlaganje alarma i događaja u kalendaru.</string>
-    <string name="all_sound_off">Isključi sve zvuke</string>
-    <string name="all_sound_off_summary">Ne reprodukuj nikakve zvukove, uključujući i one putem spikerfona čak iako je režim zvuka podešen na Zvuk.</string>
+    <string name="all_sound_off">Utišaj sve zvukove</string>
+    <string name="all_sound_off_summary">Isključite sve zvukove, uključujući zvukove telefonskih poziva čak i ako je režim zvuka podešen na Zvuk.</string>
     <string name="all_sound_off_dialog_summary">%1$s i %2$s ne mogu da se omoguće istovremeno. %3$s će biti onemogućen.</string>
+    <string name="all_sound_off_popup_description">Da biste koristili funkciju Utišaj sve zvukove, morate da isključite %s.</string>
+    <string name="all_sound_turn_off_button">Isključi</string>
     <string name="turn_off_all_sounds">Isključi sve zvuke</string>
     <string name="turn_off_all_sounds1">Isključivanje svih zvukova i poruka za odgovor ne mogu biti omogućeni istovremeno.</string>
     <string name="turn_off_all_sounds2">Isključivanje svih zvukova i poruka za odgovor ne mogu biti omogućeni istovremeno. Poruka za odgovor će biti onemogućena.</string>
-    <string name="turn_off_all_sounds_toast_with_sound_detector">Opcija Isključi sve zvuke ne može da se onemogući dok su omogućeni detektori zvuka. Da biste ih onemogućili, idite na opciju Podešavanja > Pristupačnost > Sluh > Detektori zvuka, a zatim onemogućite sve detektore zvuka.</string>
+    <string name="turn_off_all_sounds_toast_with_sound_detector">Nije moguće isključiti opciju Utišaj sve zvukove dok je uključena funkcija Detektori zvuka.</string>
     <string name="accessibility_categories_title">Kategorije</string>
     <string name="share_accessibility_settings">Organizac. pristupačnosti</string>
     <string name="share_accessibility_settings_summary">Uvezi i izvezi podešavanja pristupačnosti ili ih podeli sa drugim uređajima.</string>
@@ -660,6 +662,7 @@ Dok je ova funkcija omogućena, opcija Automatski rotiraj ekran će biti onemogu
     <string name="deviceOption">Opcije uređaja</string>
     <string name="lock">Zaključavanje</string>
     <string name="powerOff">Isključivanje</string>
+    <string name="unable_assistantmenu_while_sidesync">Ne može da se uključi Pomoćni meni kada se koristi SideSync.</string>
     <string name="eamenableinfo">Da bi omogućio/la Napredni pomoćni meni, izaberi barem jednu aplikaciju.</string>
     <string name="fetch_progress">Učitavanje podataka…</string>
     <string name="assistant_menu_enable_message">Ne mogu se istovremeno omogućiti %s i opcije u nastavku. Opcije će biti onemogućene.</string>
@@ -766,7 +769,7 @@ Kucnite ovde da biste preuzeli ovu funkciju."</string>
     <string name="xcover_key_shortcut_battery_conserving_mode">Battery conserving mode</string>
     <string name="xcover_key_shortcut_normal_mode">Normalni režim</string>
     <string name="flight_mode_enabled_toast">Povezivanje na mobilne mreže nije moguće kada je omogućen režim letenja. Onemogući režim letenja i pokušaj ponovo.</string>
-    <string name="airplane_mode_summary">Onemogućite funkcije pozivanja i slanja poruka i isključite Mobilne podatke.</string>
+    <string name="airplane_mode_summary">Isključite pozivanje, razmenu poruka i Mobilne podatke.</string>
     <string name="usb_not_support_mtp_usb3_dialog_title">Beleška</string>
     <string name="airplane_mode_desc">Režim letenja ti omogućava da isključiš funkcije mreže, uključujući i Wi-Fi. Da bi koristio/la Wi-Fi, uključi ga u Podešavanjima ili u panelu sa obaveštenjima.</string>
     <string name="flight_mode_enable_popup_title">Omogući režim letenja</string>
@@ -906,6 +909,7 @@ Možeš da promeniš ovo kasnije odlaskom na Bluetooth podešavanja."</string>
     <string name="bluetooth_control_app_disable_summary">Isključeni Bluetooth: %s</string>
     <string name="bluetooth_enter_pin_msg">Unesi PIN radi uparivanja sa %s (probaj 0000 ili 1234).</string>
     <string name="bluetooth_pin_maximum_number_message">Dostignut je maksimalan broj karaktera.</string>
+    <string name="bluetooth_frp_permission_message">Nije moguće koristiti Bluetooth uređaj za ovaj poziv.</string>
     <string name="settings_menu_done">Gotovo</string>
     <string name="usb_tethering_unavailable_subtext_tmo">USB not connected</string>
     <string name="usb_tethering_available_subtext_tmo">USB connected, check to tether</string>
@@ -946,6 +950,11 @@ Možeš da promeniš ovo kasnije odlaskom na Bluetooth podešavanja."</string>
 - Crtate na snimku ekrana.
 - Sečete snimak ekrana.
 - Delite snimak ekrana."</string>
+    <string name="smart_capture_summary">Prikažite dodatne opcije nakon snimanja snimka ekrana. Koristeći Pametno snimanje možete da:</string>
+    <string name="smart_capture_summary_1">Snimite skrivene oblasti ekrana.</string>
+    <string name="smart_capture_summary_2">Crtajte po snimku ekrana.</string>
+    <string name="smart_capture_summary_3">Isecite snimak ekrana.</string>
+    <string name="smart_capture_summary_4">Delite snimak ekrana.</string>
     <string name="identify_unsaved_numbers_title">Identifikuj nesačuvane brojeve</string>
     <string name="identify_unsaved_numbers_title_usa">Identifikuj spam brojeve</string>
     <string name="call_message_spam_filter_title">Call/message spam filter</string>
@@ -1042,6 +1051,7 @@ Možeš da promeniš ovo kasnije odlaskom na Bluetooth podešavanja."</string>
     <string name="fota_update_summary">Kucnite ovde za ažuriranje firmvera na najnoviju verziju i korišćenje najnovijih funkcija.</string>
     <string name="favorite_tab">Brza podešavanja</string>
     <string name="device_maintenance_title">Održavanje uređaja</string>
+    <string name="memory_string">Memorija</string>
     <string name="tab_favorite_edit">Izmeni brza podešavanja</string>
     <string name="add_favorite_button">Izmeni brza podešavanja</string>
     <string name="cloud_and_accounts_title">Oblak i nalozi</string>
@@ -1079,7 +1089,12 @@ Možeš da promeniš ovo kasnije odlaskom na Bluetooth podešavanja."</string>
     <string name="notification_settings_apps_title">Obaveštenja o aplikaciji</string>
     <string name="international_roaming_setting">Podešavanja rominga</string>
     <string name="user_manual_mos">Uputstvo za upotrebu</string>
-    <string name="data_saver_description">Da bi se smanjila upotreba podataka, Čuvar podataka sprečava da neke aplikacije šalju i primaju podatke u pozadini. Takođe, aplikacije koje su trenutno u upotrebi mogu da pristupaju podacima, ali ne tako često. Na primer, slike se možda neće prikazivati pravilno dok ne kucnete na njih.</string>
+    <string name="data_saver_description">Čuvar podataka vam pomaže da smanjite upotrebu podataka tako što sprečava da neke aplikacije šalju ili primaju podatke u pozadini. Aplikacije koje trenutno koristite mogu da koriste mobilne podatke, ali ne tako često. Na primer, slike se možda neće prikazivati sve dok ne kucnete na njih.</string>
+    <string name="unrestricted_data_saver_chn">Koristi podatke bez ograničenja</string>
+    <string name="data_saver_description_chn">Da bi se smanjila upotreba podataka, funkcija Zabrana prenosa podataka u pozadini sprečava da neke aplikacije šalju i primaju podatke u pozadini. Takođe, aplikacije koje su trenutno u upotrebi mogu da pristupaju podacima, ali ne tako često. Na primer, slike se možda neće prikazivati pravilno dok ne kucnete na njih.</string>
+    <string name="data_saver_title_chn">Zabrana prenosa podataka u pozadini</string>
+    <string name="unrestricted_app_title_chn">Koristi podatke bez ograničenja</string>
+    <string name="unrestricted_app_summary_chn">Ova aplikacija može da koristi mobilne podatke bez ograničenja dok je omogućena funkcija Zabrana prenosa podataka u pozadini.</string>
     <string name="data_used_editor_subtitle">Enter the amount of data you have used this month:</string>
     <string name="traffic_vertify">Details</string>
     <string name="btn_tmo">Upgrade data service</string>
@@ -1131,6 +1146,8 @@ Data usage is measured by your phone. Your carrier may account for usage differe
     <string name="last_checked_date">Poslednja provera dana:</string>
     <string name="auto_update">Automatski preuzmi ažuriranja</string>
     <string name="auto_update_summary">Automatski preuzmite ažuriranja softvera kada se povežete na Wi-Fi mrežu. I dalje ćete moći da koristite uređaj tokom preuzimanja.</string>
+    <string name="auto_update_over_wifi">Autom. preuzmi preko Wi-Fi-ja</string>
+    <string name="auto_update_over_wifi_summary">Automatsko preuzimanje ažuriranja softvera kada se povežete na Wi-Fi mrežu. U zavisnosti od provajdera usluga, ažuriranja mogu da se preuzmu i korišćenjem mobilnih podataka bez ikakvih dodatnih troškova. I dalje ćete moći da koristite telefon tokom preuzimanja.</string>
     <string name="scheduled_update">Zakazana ažuriranja softvera</string>
     <string name="scheduled_update_summary_default">Isključeno</string>
     <string name="scheduled_update_summary_set_time">Ažuriranje će početi u %s</string>
@@ -1164,7 +1181,7 @@ Telefon sadrži dijagnostički softver koji može da, uz vašu saglasnost, autom
     <string name="memory_mms_usage">MMS</string>
     <string name="user_owner">Vlasnik</string>
     <string name="unable_to_charge_the_connected_device">Nije moguće koristiti USB kabl za funkciju %s.</string>
-    <string name="unable_to_change_usb_options_via_smart_switch">Nije moguće promeniti opcije USB-a tokom prenosa podataka putem aplikacije Smart Switch.</string>
+    <string name="unable_to_change_usb_options_via_smart_switch">Nije moguće promeniti opcije USB-a tokom prenosa podataka pomoću aplikacije Smart Switch.</string>
     <string name="usb_configuring">Konfigurisane…</string>
     <string name="usb_use_none_summary">Podaci uređaja ne mogu da se prenesu.</string>
     <string name="usb_use_charging_only_summary_vzw">Just charge this phone.</string>
@@ -1172,9 +1189,9 @@ Telefon sadrži dijagnostički softver koji može da, uz vašu saglasnost, autom
     <string name="usb_use_file_transfers_summary_vzw">Transfer media files to a computer.</string>
     <string name="usb_use_file_transfers_summary">Prenesite medijske fajlove na računar putem MTP veze.</string>
     <string name="usb_use_MIDI_summary_vzw">Use device for MIDI input.</string>
-    <string name="usb_use_MIDI_summary">Koristite povezani uređaj kao MIDI (Musical Instrument Digital Interface) plejer ili ulazni izvor.</string>
-    <string name="usb_use_software_installation">Software Installation</string>
-    <string name="usb_use_software_installation_summary">Install Software Update and Repair tool for your device on a Mac or Windows computer.</string>
+    <string name="usb_use_MIDI_summary">Koristite povezani uređaj kao MIDI plejer ili ulazni izvor.</string>
+    <string name="usb_use_system_update">Ažuriranje sistema</string>
+    <string name="usb_use_system_update_summary">Instalirajte alatku Pomoćnik za nadogradnju softvera na računaru i ažurirajte ili popravite ovaj telefon.</string>
     <string name="sim_status_code">Kod</string>
     <string name="sim_status_btn_update">Ažuri. status SIM kartice</string>
     <string name="sim_status_updating">Ažuriranje…</string>
@@ -1263,7 +1280,7 @@ Kucnite na OK da biste dozvolili da se osvetljenje poveća iznad bezbednih nivoa
     <string name="display_temperature">Balans boje</string>
     <string name="adjust_your_display_colour">Prilagodite boje svog ekrana da biste promenili izgled tonova bele boje.</string>
     <string name="led_indicator_settings">LED indikator</string>
-    <string name="led_indicator_settings_summary">LED indikator se pali tokom punjenja, snimanja govora ili prijema obaveštenja.</string>
+    <string name="led_indicator_settings_summary">LED indikator svetli kada je ekran isključen kako bi prikazao statuse snimanja zvuka, nepročitanih obaveštenja i baterije.</string>
     <string name="screen_resolution_desc">Neki sadržaj može da se pojavi zamagljen ili možda neće biti podržan u FHD ili HD rezoluciji.</string>
     <string name="display_battery_percentage">Prikaži procenat baterije</string>
     <string name="display_battery_percentage_summary">Prikaži preostalu energiju baterije kao procenat na statusnoj traci.</string>
@@ -1292,7 +1309,7 @@ Kucnite na OK da biste dozvolili da se osvetljenje poveća iznad bezbednih nivoa
     <string name="wallpaper">Tapet</string>
     <string name="lockscreen_wallpaper">Zaključan ekran</string>
     <string name="status_bar">Statusna linija</string>
-    <string name="recent_notification_status_bar_title">Prikaži samo nedavna obavešt.</string>
+    <string name="recent_notification_status_bar_title">Prikaži samo nedavna obaveštenja</string>
     <string name="recent_notification_status_bar_summary">Na statusnoj traci prikaži samo sledeći broj najnovijih ikona obaveštenja: %d.</string>
     <string name="display_and_homescreen_title">Ekran i početni ekran</string>
     <string name="navigationbar_title">Traka za navigaciju</string>
@@ -1310,12 +1327,12 @@ Kucnite na OK da biste dozvolili da se osvetljenje poveća iznad bezbednih nivoa
     <string name="blue_light_filter_off_time_next_day_summary_format">%s sledećeg dana</string>
     <string name="blue_light_filter_user_schedule_title">Prilagođeno zakazivanje</string>
     <string name="blue_light_filter_auto_schedule_title">Od zalaska do izlaska sunca</string>
-    <string name="blue_light_filter_desc">Koristite Filter plavog svetla da biste bolje spavali. Zakažite vreme kada želite da koristite Filter plavog svetla. Da biste koristili opciju Od zalaska do izlaska sunca, morate da omogućite opciju Lokacija.</string>
-    <string name="blue_light_filter_enable_now">Omogući odmah</string>
+    <string name="blue_light_filter_desc">Koristite Filter plavog svetla noću da biste bolje spavali. Možete da zakažete vreme kada želite da koristite Filter plavog svetla. Da biste koristili opciju Od zalaska do izlaska sunca, morate da uključite opciju Lokacija.</string>
+    <string name="blue_light_filter_enable_now">Uključi sada</string>
     <string name="blue_light_filter_enable_as_scheduled">Omogući kao planirano</string>
-    <string name="blue_light_filter_scheduled_toast">Filter plavog svetla je omogućen. On će automatski biti onemogućen u planirano vreme završetka.</string>
+    <string name="blue_light_filter_scheduled_toast">Funkcija Filter plavog svetla je uključena. Ona će se automatski isključiti u planirano vreme završetka.</string>
     <string name="screen_mode_dlg_turn_off_blue_light_filter">Funkcije %s i Filter plavog svetla ne mogu da se koriste istovremeno. Funkcija Filter plavog svetla će se onemogućiti.</string>
-    <string name="blue_light_filter_dlg_turn_on_location">Da biste koristili opciju Od zalaska do izlaska sunca, morate da omogućite opciju Lokacija.</string>
+    <string name="blue_light_filter_dlg_turn_on_location">Da biste koristili opciju Od zalaska do izlaska sunca, morate da uključite opciju Lokacija.</string>
     <string name="dlg_turn_on">Uključi</string>
     <string name="screen_resolution_title">Rezolucija ekrana</string>
     <string name="screen_resolution_desc_title">Promena rezolucije ekrana</string>
@@ -1422,6 +1439,10 @@ Kucnite na OK da biste dozvolili da se osvetljenje poveća iznad bezbednih nivoa
     <string name="crypt_keeper_vzw_password_warning">Set the Screen lock password with at least %d characters and 1 number.</string>
     <string name="crypt_keeper_decrypt_title">Dešifruj uređaj</string>
     <string name="crypt_keeper_decrypt_summary">Uređaj je šifrovan.</string>
+    <string name="crypt_keeper_type_pin">PIN kod</string>
+    <string name="crypt_keeper_type_pattern">Oblik</string>
+    <string name="crypt_keeper_type_password">Lozinka</string>
+    <string name="crypt_keeper_type_direction">Pravac zaključavanja</string>
     <string name="crypt_keeper_confirm_title_dec">Potvrdi dešifrovanje</string>
     <string name="crypt_keeper_force_power_cycle_pattern">Da biste pokrenuli uređaj, isključite ga i ponovo ga uključite, a zatim pokušajte ponovo. Morate da nacrtate obrazac koji koristite za pokretanje uređaja i otključavanje ekrana. Vaš alternativni PIN kod ne može da se koristi za pokretanje uređaja.</string>
     <string name="crypt_keeper_setup_description_dec">"Dešifruje se uređaj. Ovo može da potraje. Sačekaj…
@@ -1511,6 +1532,7 @@ Tokom procesa dešifrovanja, SD kartica ne može da se koristi."</string>
     <string name="crypt_keeper_verify_failed_summary">Nije moguće restartovati uređaj. Verifikacija integriteta nije uspela. Potrebno je da resetujete uređaj na podrazumevana fabrička podešavanja. To će obrisati sve vaše podatke.</string>
     <string name="cryptkeeper_emergency_call">Pozivi u hitnim slučajevima</string>
     <string name="cryptkeeper_return_to_call">Vrati se na poziv</string>
+    <string name="cryptkeeper_default_enter_msg">Telefon je šifrovan radi bezbednosti.</string>
     <string name="enter_password">Da biste pokrenuli uređaj, unesite svoju lozinku.</string>
     <string name="enter_pin">Da biste pokrenuli uređaj, unesite svoj PIN kod.</string>
     <string name="enter_pattern">Da biste pokrenuli uređaj, nacrtajte svoj obrazac.</string>
@@ -1520,11 +1542,13 @@ Tokom procesa dešifrovanja, SD kartica ne može da se koristi."</string>
     <string name="cryptkeeper_wrong_pin">Unet je neispravan PIN kod</string>
     <string name="cryptkeeper_wrong_direction">Nacrtan je netačan pravac</string>
     <string name="checking_decryption">Provera…</string>
-    <string name="starting_android">Pokreće se Android…</string>
     <string name="crypt_keeper_last_warn_wipe">Preostao vam je još samo 1 pokušaj za pokretanje uređaja pre nego što se on resetuje na svoja podrazumevana fabrička podešavanja. Ovo će obrisati sve podatke, uključujući fajlove i preuzete aplikacije.</string>
     <string name="crypt_keeper_failed_title_dec">Dešifrovanje neuspešno.</string>
     <string name="crypt_keeper_failed_summary_dec">Dešifrovanje nije moguće izvršiti zbog prekidanja. Vrati na fabrička podešavanja (obrisaće se svi podaci) pre upotrebe.</string>
     <string name="crypt_keeper_set_screen_lock_type">Podesi tip zaključav. ekrana</string>
+    <string name="encryption_interstitial_message">"Možete dodatno da zaštitite ovaj telefon tako što ćete zahtevati da se pre pokretanja telefona unese %s. Ova funkcija pomaže u zaštiti podataka ako je telefon izgubljen ili ukraden. Neke aplikacije mogu da zahtevaju funkciju Bezbedno pokretanje u skladu sa Politikama šifrovanja uređaja za pristup funkcijama kao što je sinhronizacija e-pošte.
+
+Dok se telefon ne pokrene, nećete primati pozive, poruke niti obaveštenja i alarmi se neće oglašavati."</string>
     <string name="encryption_interstitial_message_kor">Vaš uređaj je šifrovan. Zaštitite svoje šifrovane podatke tako što ćete izabrati opciju Zahtevaj da zaključan ekran dešifruje podatke kada se uređaj uključuje. Ova funkcija pomaže u zaštiti podataka na izgubljenim ili ukradenim uređajima. Moraćete da otključavate uređaj kad god se on uključuje da biste dešifrovali njegove podatke. Nećete primati nikakve pozive, poruke niti obaveštenja dok ne dešifrujete uređaj.</string>
     <string name="encryption_interstitial_message_direction">"Zaštitite svoj uređaj tako što ćete izabrati opciju Zahtevaj Pravac zaključavanja kada se uključi uređaj. Ova funkcija pomaže u zaštiti podataka na izgubljenim ili ukradenim uređajima.
 
@@ -1546,6 +1570,7 @@ Dok se uređaj ne pokrene, nećete primati pozive, poruke niti obaveštenja i al
 Dok se uređaj ne pokrene, nećete primati pozive, poruke niti obaveštenja i alarmi se neće oglašavati."</string>
     <string name="encryption_interstitial_error_message">Da biste zaštitili podatke uređaja, promenite tip zaključavanja ekrana na opciju PIN kod, Lozinka, Obrazac ili Otisak prsta, a zatim pokušajte ponovo.</string>
     <string name="encryption_interstitial_error_message_direction">Da biste zaštitili podatke uređaja, promenite tip zaključavanja ekrana na opciju PIN kod, Lozinka, Obrazac, Pravac zaključavanja ili Otisci prstiju, a zatim pokušajte ponovo.</string>
+    <string name="encryption_interstitial_error_message_direction_without_fingerprint">Da biste zaštitili podatke uređaja, promenite tip zaključavanja ekrana na opciju PIN kod, Lozinka, Obrazac ili Pravac zaključavanja, a zatim pokušajte ponovo.</string>
     <string name="encryption_interstitial_error_message_iris_direction">Da biste zaštitili podatke uređaja, promenite tip zaključavanja ekrana na opciju PIN kod, Lozinka, Obrazac, Pravac zaključavanja, Otisci prstiju ili Dužice, a zatim pokušajte ponovo.</string>
     <string name="encryption_interstitial_error_message_without_fingerprint">Da biste zaštitili podatke uređaja, promenite tip zaključavanja ekrana na opciju PIN kod, Lozinka ili Obrazac, a zatim pokušajte ponovo.</string>
     <string name="encryption_interstitial_error_sktlock">Bezbedno zaključavanje i Bezbedno pokretanje ne mogu da se omoguće istovremeno. Izaberite zaključavanje koje nije Bezbedno zaključavanje i pokušajte ponovo.</string>
@@ -1809,6 +1834,8 @@ Pre nego što zatražiš popravku pod garancijom, moraš da onemogućiš opciju 
 %s"</string>
     <string name="improve_location_title">Improve location accuracy</string>
     <string name="improve_location_summary">Use WLANs and mobile networks to provide more accurate information about the location of your device.</string>
+    <string name="send_last_location_title">Pošalji poslednju lokaciju</string>
+    <string name="send_last_location_summary">Dozvolite da telefon šalje svoju poslednju lokaciju na server Pronađi moj mobilni kada energija baterije padne ispod određenog nivoa.</string>
     <string name="high_power_description">Omogućite opciju Optimizuj upotrebu baterije za pojedinačne aplikacije. Da bi se uštedela energija baterije, neke funkcije kao što su one koje koriste mobilne mreže ili sinhronizaciju podataka će biti ograničene.</string>
     <string name="wifi_display_summary_off">Isključeno</string>
     <string name="battery_usage_description">Ovaj ekran prikazuje podatke o upotrebi baterije nakon poslednjeg punjenja uređaja u potpunosti.</string>
@@ -1904,6 +1931,8 @@ Alternativne bezbednosne opcije su dostupne na vašem uređaju. Pratite sva uput
     <string name="iris_sensor_not_working_popup_title">Funkcija Prepoznavanje dužice ne radi</string>
     <string name="iris_sensor_not_working_msg">Senzor za dužicu ne reaguje. Pokušaj ponovo kasnije.</string>
     <string name="iris_go_to_samsung_theme">Idi na Samsung Themes</string>
+    <string name="biometrics_dex_cant_use_msg">Ne može da se koristi aplikacija/funkcija %s u aplikaciji Samsung DeX.</string>
+    <string name="biometrics_dex_closed_to_switch">Aplikacija %s je zatvorena da bi se prešlo na aplikaciju Samsung DeX.</string>
     <string name="knox_twofactor_bio_description">Izaberite biometrički tip zaključavanja i drugi tip zaključavanja da biste otključali uređaj %s.</string>
     <string name="fingerprint_registered">Registrovani otisci prstiju će se koristiti sa izabranim načinom otključavanja.</string>
     <string name="knox_twofactor_description">Radi dodatne bezbednosti Knoxa koristi dva tipa zaključavanja. Tvoji otisci prstiju koristiće se kao prvi tip zaključavanja. Izaberi drugi tip zaključavanja u nastavku.</string>
@@ -2001,8 +2030,8 @@ Determining your location will use the mobile network. Data usage will apply."</
     <string name="app_ops_settings_summary">Prikaži ili promeni dozvole za aplikaciju.</string>
     <string name="backup_key_for_applock_header">Podesite obrazac, PIN kod ili lozinku koju ćete koristiti zajedno sa prepoznavanjem otiska prsta za zaključavanje ili otključavanje aplikacija.</string>
     <string name="backup_key_for_privatemode_header">Podesite obrazac, PIN kod ili lozinku koju ćete koristiti zajedno sa prepoznavanjem otiska prsta za pristup Privatnom režimu.</string>
-    <string name="status_added">Dodato</string>
     <string name="text_security_title_b2c">Izaberite tip zaključavanja. Ukoliko zaboravite kako se otključava Bezbedan folder, možete da resetujete zaključavanje koristeći Samsung nalog.</string>
+    <string name="status_added">Dodato</string>
     <string name="lockpattern_backup_pin">Bekap PIN</string>
     <string name="applock_type_fingerprint">Otisak prsta</string>
     <string name="unlock_set_unlock_two_factor_title">Potvrda u dva koraka</string>
@@ -2218,7 +2247,7 @@ Da bi zakačio/la neku aplikaciju na ekran:
     <string name="palm_swipe_title">Prevuci dlanom za snimanje</string>
     <string name="screen_recorder_title">Record screen</string>
     <string name="screen_recorder_summary">Record video screenshots while you use your device.</string>
-    <string name="multi_window_setting_title">Pokret iskačućeg prikaza</string>
+    <string name="multi_window_setting_title">Radnja za iskačući prikaz</string>
     <string name="multi_window_setting_description">Kada se neka aplikacija otvori na ekranu, prilagodite veličinu aplikacije tako što ćete je prevući nadole dijagonalno iz bilo kog gornjeg ugla ekrana.</string>
     <string name="multi_window_screen_title">Više prozora</string>
     <string name="multi_window_screen_summary">Prikažite više aplikacija istovremeno.</string>
@@ -2258,18 +2287,19 @@ Da bi zakačio/la neku aplikaciju na ekran:
     <string name="air_browse_note_summary">Prelazi s jedne stranice na drugu dok si u režimu Prikaz.</string>
     <string name="data_usage_enable_mobile_summery">Pristupite internetu putem mobilne mreže.</string>
     <string name="data_usage_enable_mobile_warning_skt">Povezivanje na mrežu mobilne telefonije može dovesti do dodatnih troškova u zavisnosti od paketa za prenos podataka. Nastaviti?</string>
-    <string name="data_usage_enable_mobile_warning_ktt">Povezivanje na mrežu mobilne telefonije može dovesti do dodatnih troškova u zavisnosti od paketa za prenos podataka. Nastaviti?</string>
+    <string name="data_usage_enable_mobile_warning_ktt">Mobilni podaci će biti uključeni. Povezivanje na mobilne mreže može dovesti do dodatnih troškova u zavisnosti od tarifnog paketa.</string>
     <string name="data_usage_enable_mobile_warning_lgt">Povezivanje na mrežu mobilne telefonije može dovesti do dodatnih troškova u zavisnosti od paketa za prenos podataka. Nastaviti?</string>
     <string name="data_usage_disable_mobile_title">Isključi Podatke za mobilne uređaje</string>
     <string name="data_usage_disable_mobile_warning_skt">Prekidanjem mobilne mreže ograničiće se korišćenje usluga prenosa MMS i 3G podataka. Prekinuti vezu?</string>
     <string name="data_usage_disable_mobile_warning_ktt">Prekidanjem mobilne mreže ograničiće se korišćenje usluga prenosa MMS i 3G podataka. Prekinuti vezu?</string>
     <string name="data_usage_disable_mobile_warning_ktt_jb">Prekidanjem mobilne mreže ograničiće se korišćenje usluga prenosa MMS i 3G podataka. Prekinuti vezu?</string>
-    <string name="mobile_data_off_dialog_text_vzw">"Unless you use Wi-Fi, you will not be able to use the Internet, Email, or other apps that require a data connection.
+    <string name="data_usage_disable_mobile_warning_dcm">"If Mobile data is turned off, your device must be connected to a Wi-Fi network to use services that require a network connection.
 
-Turn off Mobile data?"</string>
-    <string name="mobile_data_off_dialog_text_common">"Ukoliko ne koristiš Wi-Fi, više nećeš moći da koristiš Internet, E-poštu ili druge aplikacije koje zahtevaju vezu za prenos podataka.
-
-Prenos podataka putem mobilne mreže će biti isključen."</string>
+Mobile data will be turned off."</string>
+    <string name="mobile_data_off_dialog_text_vzw">"Unless you use Wi-Fi, you won't be able to use the Internet, Email or other apps that require a data connection. Turn off the mobile data connection?"</string>
+    <string name="mobile_data_off_dialog_text_volte">"Your phone's Video Calling function won't work when mobile data is off. Also, you won't be able to use the Internet, Email or other apps that need a data connection unless you use Wi-Fi. Turn off the mobile data connection?"</string>
+    <string name="mobile_data_off_dialog_text_common">Ukoliko niste povezani na Wi-Fi mrežu, nećete moći da koristite Internet, E-poštu ili druge aplikacije koje zahtevaju mrežnu vezu.</string>
+    <string name="data_usage_turn_off_btn">Isključi</string>
     <string name="wfd_settings_summary">Deli ekran svog uređaja sa drugim uređajem.</string>
     <string name="nfc_settings_advanced_explain">"Podesi podrazumevani način NFC obrade.
 Neke NFC transakcije i usluge plaćanja mobilnim telefonom mogu da zahtevaju drugačiji način NFC obrade."</string>
@@ -2409,7 +2439,7 @@ Neke NFC transakcije i usluge plaćanja mobilnim telefonom mogu da zahtevaju dru
     <string name="zen_mode_events_summary">Dozvolite obaveštenja iz S planera i druge događaje iz kalendara.</string>
     <string name="zen_mode_events_summary_na">Dozvoli obaveštenja događaja i zadataka u Kalendaru.</string>
     <string name="zen_mode_reminders_summary">Dozvolite podsetnike za aplikacije koje ih podržavaju.</string>
-    <string name="dnd_app_noti_summary">Podesi prioritetne prekide da bi dozvolio/la obaveštenja o aplikacijama kao izuzetke.</string>
+    <string name="dnd_app_noti_summary">Dozvolite obaveštenja aplikacija koje izaberete.</string>
     <string name="no_exceptions_dcm_summary">Mute all calls and alerts, including Area Mail alarms.</string>
     <string name="dnd_screen_switch_summary">Isključite ton za sve pozive i upozorenja, osim za prilagođene izuzetke.</string>
     <string name="app_notification_priority_app_list_title">Obaveštenja priorit. apl.</string>
@@ -2456,7 +2486,7 @@ režim"</string>
     <string name="personal_page_secretbox_disclaimer_title">Odricanje odgovornosti</string>
     <string name="personal_page_secretbox_disclaimer_message">Privatan režim ne štiti vaše podatke od pristupa drugih aplikacija. Da se podaci više ne bi sinhronizovali sa spoljnim serverima, onemogućite postavke automatskog sinhronizovanja na uređaju.</string>
     <string name="personal_page_secretbox_disclaimer_message_vzw">Content moved into Private mode will be hidden and will not be shown when you exit from Private mode. Automatic syncing while in Private mode may allow that content to be visible in 3rd party apps. Check the automatic synchronization settings of your other applications before using Private mode.</string>
-    <string name="personal_page_tutorial_app_title_message">Koristite Privatni režim da biste sakrili sadržaj koji želite da zadržite u privatnosti. Dok koristite sledeće aplikacije, izaberite stavke koje želite da premestite u folder Privatno, a zatim kucnite na JOŠ i izaberite opciju Premesti u folder Privatno. Sadržaj koji ste premestili u folder Privatno može da se vidi samo kada je omogućen Privatni režim.</string>
+    <string name="personal_page_tutorial_app_title_message">Koristite Privatni režim da biste sakrili sadržaj koji želite da zadržite u privatnosti. Dok koristite sledeće aplikacije, izaberite stavke koje želite da premestite u folder Privatno, a zatim kucnite na dugme Još opcija i izaberite opciju Premesti u folder Privatno. Sadržaj koji ste premestili u folder Privatno može da se vidi samo kada je uključen Privatni režim.</string>
     <string name="personal_page_inline_help">Da bi koristio/la Privatni režim, izaberi neki tip pristupa. Ako zaboraviš svoj tip pristupa za Privatni režim, nećeš moći da ga vratiš i nećeš moći da koristiš Privatni režim, osim ako ne resetuješ podešavanja uređaja na njegova podrazumevana fabrička podešavanja.</string>
     <string name="personal_page_backup_pin_summary">Kreiraj bekap PIN koda za Privatni režim u slučaju da zaboraviš obrazac.</string>
     <string name="personal_page_incorrect_pin">"Neispravan PIN.
@@ -2846,6 +2876,7 @@ Iskopčajte punjač da biste omogućili/onemogućili ovu funkciju."</string>
     <string name="samsung_backup_summary">Koristi Samsung nalog radi bekapovanja tvojih podataka.</string>
     <string name="samsung_restore_summary">Koristi svoj Samsung nalog da bi vratio/la bekapovane podatke.</string>
     <string name="sns_settings_title">Prelazak na mobilne podatke kada Wi-Fi veza postane nestabilna. Telefon može da pređe i na sačuvane Wi-Fi mreže najčešće posećenih oblasti. Funkcija Pametna promena mreže će automatski uključiti ili isključiti sačuvane Wi-Fi mreže.</string>
+    <string name="sns_settings_title_include_autowifi">Prelazak na mobilne podatke kada Wi-Fi veza postane nestabilna. Telefon može da pređe i na sačuvane Wi-Fi mreže najčešće posećenih oblasti. Funkcija Pametna promena mreže će automatski uključiti ili isključiti sačuvane Wi-Fi mreže.</string>
     <string name="smart_bonding">Akcelerator preuzimanja</string>
     <string name="smart_bonding_popup_title">Omogući Akcelerator preuzimanja</string>
     <string name="smart_bonding_description_vzw">"Download large files (over %d MB) faster by using Wi-Fi and LTE networks at the same time. The Download booster icon will be shown on the status bar when Download booster is turned on.
@@ -3037,7 +3068,7 @@ Downloading via mobile networks may result in additional charges depending on yo
     <string name="wifi_on_dialog_summary">To switch to Wi-Fi, select a network</string>
     <string name="notifyme_later">Ne sada</string>
     <string name="wifi_p2p_help_message">Wi-Fi Direct omogućava direktno povezivanje Wi-Fi uređaja čime štampanje, deljenje fajlova, sinhronizacija i deljenje ekrana postaje jednostavnije i prihvatljivije. Povezivanje na uređaje koji podržavaju Wi-Fi Direct omogućava deljenje sadržaja, sinhronizovanje podataka, druženje sa prijateljima, igranje igara, audio, video i još mnogo toga, koristeći različite aplikacije.</string>
-    <string name="prev_button_label">Prethodna</string>
+    <string name="prev_button_label">Prethodno</string>
     <string name="wifi_sns_setting_alert_button_do_not_enable">Ne dozvoli</string>
     <string name="wifi_smart_network_switch_aggressive_switching_summary">Prebacite se na upotrebu mobilne mreže da biste pristupili Internetu čak i kada je vaša Wi-Fi Internet samo neznatno nestabilna. Ovo može da poveća upotrebu podataka.</string>
     <string name="wifi_smart_network_switch_aggressive_switching">Agresivno prebacivanje</string>
@@ -3066,6 +3097,8 @@ Downloading via mobile networks may result in additional charges depending on yo
     <string name="wifi_manage_network">Upravljaj mrežama</string>
     <string name="wlan_permission_available_message">Asks your permission to use WLAN via a pop-up</string>
     <string name="wlan_permission_available">Ask to use WLAN</string>
+    <string name="wifi_hotspot20_summary_tmo">Bez teškoća se povežite na Wi-Fi pristupne tačke na kojima je omogućen Hotspot 2.0 bez lozinke.</string>
+    <string name="wifi_hotspot20_summary_dcm">Automatsko povezivanje na Hotspot 2.0 Wi-Fi mrežu dok je Wi-Fi uključen.</string>
     <string name="wifi_hotspot20_summary">Automatsko povezivanje sa Wi-Fi pristupnim tačkama koje podržavaju Hotspot 2.0.</string>
     <string name="wifi_hotspot20_enable">Hotspot 2.0</string>
     <string name="wifi_att_auto_connect_summary">Automatically connect to AT&amp;T Wi-Fi hotspot when detected</string>
@@ -3084,9 +3117,9 @@ Downloading via mobile networks may result in additional charges depending on yo
     <string name="wifi_auto_reconnect">Automatsko ponovno povezivanje</string>
     <string name="wifi_enable_warning_chn">Turning on WLAN will disable Mobile hotspot.</string>
     <string name="wifi_enable_warning_vzw">Uključivanje Wi-Fi-ja će onemogućiti Mobile Hotspot. Nastaviti?</string>
-    <string name="wifi_enable_warning_tmo">Wi-Fi is turned off when Mobile HotSpot is active. To turn on Wi-Fi, please turn off Mobile HotSpot.</string>
+    <string name="wifi_enable_warning_tmo">Wi-Fi je isključen kada je aktivna funkcija Mobilna pristupna tačka. Da biste isključili Wi-Fi, isključite funkciju Mobilna pristupna tačka.</string>
     <string name="wifi_enable_warning_spr">Turning on Wi-Fi will disable Hotspot.</string>
-    <string name="wifi_enable_warning_mtr">Turning on Wi-Fi will turn off Mobile Hotspot. Continue?</string>
+    <string name="wifi_enable_warning_mtr">Wi-Fi je isključen kada je aktivna funkcija Mobilna pristupna tačka. Da biste uključili Wi-Fi, isključite funkciju Mobilna pristupna tačka.</string>
     <string name="wifi_enable_warning_usc">Turning on Wi-Fi will turn off Portable Wi-Fi hotspot. Continue?</string>
     <string name="wifi_enable_warning">Uključivanje Wi-Fi-ja će onemogućiti Mobilnu pristupnu tačku.</string>
     <string name="wifi_control_history_title">Istorija kontrole Wi-Fi veze</string>
@@ -3120,9 +3153,9 @@ Downloading via mobile networks may result in additional charges depending on yo
     <string name="wifi_ap__wifi_sharing_vzw">Wi-Fi Sharing</string>
     <string name="wifi_ap__wifi_sharing">Deljenje putem Wi-Fi veze</string>
     <string name="first_use_wifi_msg_mtr">Tap OK to learn more about using Mobile Hotspot.</string>
-    <string name="first_use_wifi_msg">Tap OK to learn more about using Mobile HotSpot.</string>
+    <string name="first_use_wifi_msg">Kucnite na OK da biste saznali više o upotrebi funkcije Mobilna pristupna tačka.</string>
     <string name="first_use_title_mtr">View Mobile Hotspot help</string>
-    <string name="first_use_title">View Mobile HotSpot help</string>
+    <string name="first_use_title">Prikažite pomoć za funkciju Mobilna pristupna tačka</string>
     <string name="wifi_ap_wifi_sharing_title">Omog. Wi-Fi deljenje</string>
     <string name="wifi_ap_wifi_sharing_status_enabled">Omogućeno</string>
     <string name="wifi_ap_wifi_sharing_status_disabled">Onemogućeno</string>
@@ -3154,11 +3187,11 @@ Using Mobile hotspot increases battery consumption and data usage."</string>
 Mobile Hotspot uses mobile data from your data plan.
 
 We recommend keeping your phone plugged in to a charger while using Mobile Hotspot to save battery."</string>
-    <string name="wifi_ap_instruction_changeable_maxclient_tmo">"You can use your device as an Internet access point using Mobile HotSpot. This allows up to %d other devices to connect to it via Wi-Fi. The connected devices will have access to the Internet via your mobile network.
+    <string name="wifi_ap_instruction_changeable_maxclient_tmo">"Možete da koristite uređaj kao pristupnu tačku za Internet koristeći Mobilnu pristupnu tačku. Ovo vam omogućava da na njega povežete i do %d drugih uređaja putem Wi-Fi mreže. Povezani uređaji će imati pristup Internetu putem vaše mobilne mreže.
 
-You can create an allowed device profile and set the connection mode for it.
+Možete da kreirate dozvoljeni profil uređaja i podesite režim veze za njega.
 
-Using Mobile HotSpot increases battery consumption and data usage."</string>
+Korišćenjem Mobilne pristupne tačke povećava se potrošnja baterije i upotreba podataka."</string>
     <string name="wifi_ap_instruction_changeable_maxclient_spr">"You can share your device's Hotspot with Wi-Fi enabled devices.
 
 After you start the Mobile Hotspot Wi-Fi router, connect using the controls on your Wi-Fi enabled device."</string>
@@ -3191,7 +3224,7 @@ To configure Smartphone Mobile Hotspot, tap on the menu icon, and then tap “Co
     <string name="wifi_ap_hide_ssid">Sakrij moj uređaj</string>
     <string name="wifi_ap_wifi_off_warn_vzw">Mobile Hotspot uses your mobile data connection. Your Wi-Fi connection will be turned off.</string>
     <string name="wifi_ap_wifi_off_warn_spr">Enabling Hotspot will turn off Wi-Fi</string>
-    <string name="wifi_ap_wifi_off_warn_tmo">Wi-Fi is turned off when USB tethering or Mobile HotSpot is active. To turn on Wi-Fi, please turn off USB tethering or Mobile HotSpot.</string>
+    <string name="wifi_ap_wifi_off_warn_tmo">Wi-Fi je isključen kada je aktivna funkcija USB vezivanje ili Mobilna pristupna tačka. Da biste uključili Wi-Fi, isključite funkciju USB vezivanje ili Mobilna pristupna tačka.</string>
     <string name="wifi_ap_wifi_off_warn_chn">Enabling Mobile hotspot will turn off WLAN.</string>
     <string name="wifi_ap_wifi_off_warn_att">Turning on portable Wi-Fi hotspot will turn off Wi-Fi.</string>
     <string name="wifi_ap_wifi_off_warn_mtr">Wi-Fi is turned off when USB tethering or Mobile Hotspot is active. To turn on Wi-Fi, please turn off USB tethering or Mobile Hotspot.</string>
@@ -3262,6 +3295,7 @@ Nakon promene naziva mobilne pristupne tačke ili lozinke, novi QR kod mora da s
     <string name="wifi_wps_onstart_pbc_mobileap">Pritisni WPS dugme na drugom uređaju radi povezivanja.</string>
     <string name="wifi_wps_complete_mobileap">Drugi uređaj je sada povezan na tvoj uređaj.</string>
     <string name="wifi_ap_disconnect_warn">Isključi uređaj</string>
+    <string name="wifi_ap_change_policy_warn_mtr">The device currently connected will be disconnected from Portable Wi-Fi Hotspot.</string>
     <string name="wifi_ap_change_policy_warn">Prekinuće se veza svih trenutno povezanih uređaja i Mobilne pristupne tačke.</string>
     <string name="wifi_ap_warn_max_whitelist">Dostignut je maksimalan broj dozvoljenih uređaja (%d).</string>
     <string name="wifiap_one_item_deleted">1 stavka će biti izbrisana.</string>
@@ -3296,8 +3330,9 @@ Wi-Fi is now on."</string>
     <string name="wifi_tether_dialog_nosim_warning_title">Mobilna pristupna tačka</string>
     <string name="wifi_tether_dialog_nosim_warning_chn">Insert a SIM card to use Mobile hotspot and other tethering functions.</string>
     <string name="wifi_tether_dialog_nosim_warning_vzw">Insert a SIM card to use Mobile Hotspot and other tethering options.</string>
-    <string name="wifi_tether_dialog_nosim_warning_tmo">"Please install SIM card in order to share your phone's data connection with other devices using Mobile Wi-Fi HotSpot or USB tethering for Internet access."</string>
-    <string name="wifi_tether_dialog_nosim_warning_spr">Insert SIM for using Hotspot include tethering</string>
+    <string name="wifi_tether_dialog_nosim_warning_tmo">Instalirajte SIM karticu da biste delili vezu za prenos podataka telefona sa drugim uređajima koji koriste Mobilnu Wi-Fi pristupnu tačku ili USB vezivanje za pristup Internetu.</string>
+    <string name="wifi_tether_dialog_nosim_warning_mtr">"Please install SIM card in order to share your phone's data connection with other devices using Mobile Wi-Fi Hotspot or USB tethering for Internet access."</string>
+    <string name="wifi_tether_dialog_nosim_warning_spr">Ubacite SIM karticu da biste koristili funkciju Pristupna tačka.</string>
     <string name="wifi_tether_dialog_nosim_warning_usc">Ubaci SIM karticu da bi koristio/la Mobilnu pristupnu tačku kao i druge funkcije vezivanja.</string>
     <string name="wifi_tether_dialog_nosim_warning">Ubaci SIM karticu da bi koristio/la Mobilnu pristupnu tačku kao i druge funkcije vezivanja.</string>
     <string name="mobileap_tmo">Mobilna pristupna tačka</string>
@@ -3324,7 +3359,7 @@ Wi-Fi is now on."</string>
     <string name="wifi_ap_instruction_open_activate_color3_att">Poveži se na &lt;font color=\"%1$s\">%2$s&lt;/font>.</string>
     <string name="wifi_ap_instruction_open_activate_color3">Poveži se na &lt;font color=\"%1$s\">%2$s&lt;/font>.</string>
     <string name="wifi_ap_instruction_open_activate_color4_vzw">Enjoy your Mobile Hotspot.</string>
-    <string name="wifi_ap_instruction_open_activate_color4_tmo">Enjoy the internet using your personal Mobile HotSpot.</string>
+    <string name="wifi_ap_instruction_open_activate_color4_tmo">Uživajte u internetu koristeći ličnu Mobilnu pristupnu tačku.</string>
     <string name="wifi_ap_instruction_open_activate_color4_spr">Enjoy the Internet with Hotspot.</string>
     <string name="wifi_ap_instruction_open_activate_color4_att">Enjoy the Internet using Mobile hotspot.</string>
     <string name="wifi_ap_instruction_open_activate_color4_mtr">Enjoy the Internet using portable Wi-Fi hotspot.</string>
@@ -3343,7 +3378,7 @@ Wi-Fi is now on."</string>
     <string name="wifi_ap_instruction_activate_color3_att">Poveži se na &lt;font color=\"%1$s\">%2$s&lt;/font> tako što ćeš uneti &lt;font color=\"%1$s\">%3$s&lt;/font> kao lozinku.</string>
     <string name="wifi_ap_instruction_activate_color3">Poveži se na &lt;font color=\"%1$s\">%2$s&lt;/font> tako što ćeš uneti &lt;font color=\"%1$s\">%3$s&lt;/font> kao lozinku.</string>
     <string name="wifi_ap_instruction_activate_color4_vzw">Enjoy your Mobile Hotspot.</string>
-    <string name="wifi_ap_instruction_activate_color4_tmo">Enjoy the internet using your personal Mobile HotSpot.</string>
+    <string name="wifi_ap_instruction_activate_color4_tmo">Uživajte u internetu koristeći ličnu Mobilnu pristupnu tačku.</string>
     <string name="wifi_ap_instruction_activate_color4_spr">Enter &lt;font color=\"%1$s\">%3$s&lt;/font> in the &lt;font color=\"%1$s\">%4$s&lt;/font> field.</string>
     <string name="wifi_ap_instruction_activate_color4_att">Enjoy the Internet using Mobile hotspot.</string>
     <string name="wifi_ap_instruction_activate_color4_mtr">Enjoy the Internet using portable Wi-Fi hotspot.</string>
@@ -3365,16 +3400,16 @@ Wi-Fi is now on."</string>
     <string name="wifi_ap_instruction_activate_color_hidden3_chn">Connect to &lt;font color=\"%1$s\">%2$s&lt;/font> by entering &lt;font color=\"%1$s\">%3$s&lt;/font> as the password.</string>
     <string name="wifi_ap_instruction_activate_color_hidden3_tmo">Connect to &lt;font color=\"%1$s\">%2$s&lt;/font> by entering &lt;font color=\"%1$s\">%3$s&lt;/font> as the password.</string>
     <string name="wifi_ap_instruction_activate_color_hidden3">Poveži se na &lt;font color=\"%1$s\">%2$s&lt;/font> tako što ćeš uneti &lt;font color=\"%1$s\">%3$s&lt;/font> kao lozinku.</string>
-    <string name="wifi_ap_instruction_activate_color_hidden4_tmo">Enjoy the internet using your personal Mobile HotSpot.</string>
+    <string name="wifi_ap_instruction_activate_color_hidden4_tmo">Uživajte u internetu koristeći ličnu Mobilnu pristupnu tačku.</string>
     <string name="wifi_ap_instruction_no_maxclient">"Možeš da koristiš uređaj kao pristupnu tačku za Internet koristeći Mobilnu pristupnu tačku. To dozvoljava drugim uređajima da se povežu na njega putem Wi-Fi veze. Povezani uređaji će imati pristup Internetu putem tvoje mobilne mreže.
 
 Možeš da kreiraš profil dozvoljenih uređaja i podesiš režim veze za njega.
 
 Korišćenjem Mobilne pristupne tačke povećava se potrošnja baterije i upotreba podataka."</string>
     <string name="wifi_ap_instruction_configure_vzw">To change the Mobile Hotspot configuration, go to Settings > Mobile Hotspot and tethering > Mobile Hotspot > MORE, then select Configure Mobile Hotspot.</string>
-    <string name="wifi_ap_instruction_configure_tmo">To change the Mobile HotSpot configuration, tap the More options button, then select Configure Mobile HotSpot.</string>
+    <string name="wifi_ap_instruction_configure_tmo">Da biste promenili konfiguraciju Mobilne pristupne tačke, kucnite na dugme Još opcija, a zatim izaberite opciju Konfiguriši mobilnu pristupnu tačku.</string>
     <string name="wifi_ap_instruction_configure">Da biste promenili konfiguraciju Mobilne pristupne tačke, kucnite na dugme Još opcija, a zatim izaberite opciju Konfiguriši mobilnu pristupnu tačku.</string>
-    <string name="wifi_ap_instruction_configure_non_grace_tmo">To change the Mobile HotSpot configuration, tap MORE, then select Configure Mobile HotSpot.</string>
+    <string name="wifi_ap_instruction_configure_non_grace_tmo">Da biste promenili konfiguraciju Mobilne pristupne tačke, kucnite na JOŠ, a zatim izaberite opciju Konfiguriši mobilnu pristupnu tačku.</string>
     <string name="wifi_ap_instruction_configure_non_grace">Da bi promenio/la konfiguraciju Mobilne pristupne tačke, kucni na JOŠ i izaberi Konfiguriši mobilnu pristupnu tačku.</string>
     <string name="wifi_ap_change_security">Change Security</string>
     <string name="wifi_ap_maxclient">Maksimalno veza</string>
@@ -3391,7 +3426,8 @@ Korišćenjem Mobilne pristupne tačke povećava se potrošnja baterije i upotre
     <string name="wifi_tether_configure_ap_text_usc">Configure Wi-Fi hotspot</string>
     <string name="wifi_tether_configure_ap_text">Konf. Mobilnu pristupnu tačku</string>
     <string name="wifi_ap_hidessid_warning">Your phone will be visible to other devices</string>
-    <string name="wifi_ap_first_time_configuration">First time HotSpot configuration</string>
+    <string name="wifi_ap_first_time_configuration_mtr">Prva konfiguracija Pristupne tačke</string>
+    <string name="wifi_ap_first_time_configuration">Prva konfiguracija Pristupne tačke</string>
     <string name="title_wifi_notify_mobileap_is_on">Wi-Fi and Mobile Hotspot</string>
     <string name="wifi_ssid_max_byte_error">Dostignut je maksimalan broj karaktera.</string>
     <string name="tethering_attention_title">Pažnja</string>
@@ -3534,6 +3570,8 @@ Saznaj o romingu tako što ćeš besplatno pozvati korisničku službu za roming
     <string name="master_clear_desc_music">Muzika</string>
     <string name="master_clear_desc_pictures">Slike</string>
     <string name="master_clear_desc_other_user_data">Svi drugi korisnički podaci</string>
+    <string name="master_clear_not_enough_battery">Dopunite bateriju barem do %d%% pre nego što resetujete telefon.</string>
+    <string name="master_clear_not_enough_battery_tablet">Dopunite bateriju barem do %d%% pre nego što resetujete tablet računar.</string>
     <string name="text_two_locktype">Otisak prsta i %s</string>
     <string name="pref_lock_type_title">Promena tipa zaključavanja</string>
     <string name="pref_lock_type_summary">Tip zaključavanja</string>
@@ -3613,8 +3651,11 @@ Receiving SMS"</string>
     <string name="google_settings_popup_msg">Only a limited number of Google settings are available. Some actions may not work.</string>
     <string name="smart_lock_popup_msg">Only a limited number of Google settings are available. Some actions may not work.</string>
     <string name="prevent_to_change_by_device_policy">Politika bezbednosti sprečava korišćenje aplikacije %s.</string>
+    <string name="quick_tile_sync_title">Sinhronizacija</string>
     <string name="name_jerusalem">Jerusalim</string>
     <string name="name_israel">Izrael</string>
+    <string name="starting_android">Pokreće se Android…</string>
+    <string name="okay">OK</string>
     <string name="yes">Da</string>
     <string name="no">Ne</string>
     <string name="create">Kreiraj</string>
@@ -3712,7 +3753,6 @@ Možeš da promeniš ovo kasnije odlaskom na Bluetooth podešavanja."</string>
     <string name="phone_info_label">Informacije o uređaju</string>
     <string name="proxy_settings_label">Podešavanja proksija</string>
     <string name="cancel">Otkaži</string>
-    <string name="okay">OK</string>
     <string name="save">Sačuvaj</string>
     <string name="done">Gotovo</string>
     <string name="settings_label">Podešavanja</string>
@@ -5347,4 +5387,6 @@ Dok se uređaj ne pokrene, nećete primati pozive, poruke niti obaveštenja i al
     <string name="ucm_pins_do_not_match">PIN kodovi se ne podudaraju</string>
     <string name="ucm_failed_to_connect_smartcard">Nije moguće povezivanje na pametnu karticu. Kontaktiraj administratora uređaja.</string>
     <string name="ucm_loading">Učitavanje…</string>
+    <string name="usb_use_software_installation">Software Installation</string>
+    <string name="usb_use_software_installation_summary">Install Software Update and Repair tool for your device on a Mac or Windows computer.</string>
 </resources>

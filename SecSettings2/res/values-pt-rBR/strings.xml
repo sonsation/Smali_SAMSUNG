@@ -906,6 +906,7 @@ Os dados de aplicativos podem incluir informações pessoais, como contatos, men
     <string name="bluetooth_control_app_disable_summary">Bluetooth desativado: %s</string>
     <string name="bluetooth_enter_pin_msg">Insira o PIN para parear com %s (tente 0000 ou 1234).</string>
     <string name="bluetooth_pin_maximum_number_message">Número máximo de caracteres atingido.</string>
+    <string name="bluetooth_frp_permission_message">Não é possível usar um aparelho Bluetooth para esta chamada.</string>
     <string name="settings_menu_done">Concluído</string>
     <string name="usb_tethering_unavailable_subtext_tmo">USB não conectado</string>
     <string name="usb_tethering_available_subtext_tmo">USB conectado, verifique para ancorar</string>
@@ -1173,8 +1174,6 @@ Seu telefone inclui um software de diagnóstico que pode, com a sua autorizaçã
     <string name="usb_use_file_transfers_summary">Transfira arquivos de mídia para um PC por uma conexão MTP.</string>
     <string name="usb_use_MIDI_summary_vzw">Use o aparelho para entrada MIDI.</string>
     <string name="usb_use_MIDI_summary">Use o aparelho conectado como um MIDI (Musical Instrument Digital Interface) player ou uma fonte de entrada.</string>
-    <string name="usb_use_software_installation">Instalação de software</string>
-    <string name="usb_use_software_installation_summary">Instale a ferramenta Reparo e atualização de software para o seu aparelho em um computador Mac ou Windows.</string>
     <string name="sim_status_code">Código</string>
     <string name="sim_status_btn_update">Atualizar status do chip</string>
     <string name="sim_status_updating">Atualizando…</string>
@@ -1522,7 +1521,6 @@ A codificação demora uma hora ou mais. Antes de começar, verifique se a bater
     <string name="cryptkeeper_wrong_pin">PIN incorreto inserido</string>
     <string name="cryptkeeper_wrong_direction">Direção incorreta desenhada</string>
     <string name="checking_decryption">Verificando..</string>
-    <string name="starting_android">Iniciando o Android…</string>
     <string name="crypt_keeper_last_warn_wipe">Resta apenas mais 1 tentativa para inicializar o aparelho antes que ele seja redefinido para as configurações padrão de fábrica. Isso apagará todos os dados, incluindo arquivos e aplicativos baixados.</string>
     <string name="crypt_keeper_failed_title_dec">Erro ao decodificar.</string>
     <string name="crypt_keeper_failed_summary_dec">Não foi possível terminar a decodificação por causa da interrupção. Realize o reinício dos dados de fábrica (apagando todos os dados) antes de usar.</string>
@@ -2003,8 +2001,8 @@ A determinação da sua localização utilizará a rede móvel. O uso de dados s
     <string name="app_ops_settings_summary">Visualize ou altere as permissões de aplicativo.</string>
     <string name="backup_key_for_applock_header">Defina um padrão, um PIN ou uma senha para usar junto com o reconhecimento de impressão digital para bloquear ou desbloquear aplicativos.</string>
     <string name="backup_key_for_privatemode_header">Defina um padrão, um PIN ou uma senha para usar junto com o reconhecimento de impressão digital para acessar o Modo privado.</string>
-    <string name="status_added">Adicionada</string>
     <string name="text_security_title_b2c">Selecione um tipo de bloqueio. Se você esquecer como desbloquear a Pasta Segura, poderá restaurar o bloqueio usando sua conta Samsung.</string>
+    <string name="status_added">Adicionada</string>
     <string name="lockpattern_backup_pin">Inserir PIN de Backup</string>
     <string name="applock_type_fingerprint">Impressão digital</string>
     <string name="unlock_set_unlock_two_factor_title">Verific. em duas etapas</string>
@@ -3617,6 +3615,8 @@ Receiving SMS"</string>
     <string name="prevent_to_change_by_device_policy">A política de segurança evita o uso de %s.</string>
     <string name="name_jerusalem">Jerusalém</string>
     <string name="name_israel">Israel</string>
+    <string name="starting_android">Iniciando o Android…</string>
+    <string name="okay">OK</string>
     <string name="yes">Sim</string>
     <string name="no">Não</string>
     <string name="create">Criar</string>
@@ -3714,7 +3714,6 @@ Receiving SMS"</string>
     <string name="phone_info_label">Informações do dispositivo</string>
     <string name="proxy_settings_label">Config. de proxy</string>
     <string name="cancel">Cancelar</string>
-    <string name="okay">OK</string>
     <string name="save">Salvar</string>
     <string name="done">OK</string>
     <string name="settings_label">Config.</string>
@@ -5349,4 +5348,6 @@ Você não receberá nenhuma chamada, mensagem ou notificação e os alarmes nã
     <string name="ucm_pins_do_not_match">Os PINs não correspondem</string>
     <string name="ucm_failed_to_connect_smartcard">Falha ao se conectar ao cartão inteligente. Entre em contato com o administrador do dispositivo.</string>
     <string name="ucm_loading">Carregando…</string>
+    <string name="usb_use_software_installation">Instalação de software</string>
+    <string name="usb_use_software_installation_summary">Instale a ferramenta Reparo e atualização de software para o seu aparelho em um computador Mac ou Windows.</string>
 </resources>

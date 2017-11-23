@@ -81,7 +81,7 @@
 
     aput-object v1, v4, v5
 
-    const v5, 0x7f0b0769
+    const v5, 0x7f0b0783
 
     invoke-virtual {v3, v5, v4}, Landroid/content/res/Resources;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -96,7 +96,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0b110c
+    const v4, 0x7f0b1292
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -110,7 +110,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0b110e
+    const v4, 0x7f0b1294
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -124,7 +124,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0b110a
+    const v4, 0x7f0b1290
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -151,7 +151,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0b1106
+    const v4, 0x7f0b128d
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -165,7 +165,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0b1108
+    const v4, 0x7f0b128e
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -179,7 +179,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0b027a
+    const v4, 0x7f0b027c
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -337,7 +337,7 @@
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
     .line 62
-    const v0, 0x7f0b0768
+    const v0, 0x7f0b0782
 
     invoke-virtual {p0, v0}, Lcom/samsung/android/settings/face/UseFaceLockSettings;->setTitle(I)V
 

@@ -277,7 +277,7 @@
     if-eqz v1, :cond_1
 
     .line 309
-    const v0, 0x7f0b0c52
+    const v0, 0x7f0b0c74
 
     .line 320
     :cond_0
@@ -313,13 +313,13 @@
     if-nez v1, :cond_4
 
     .line 314
-    const v0, 0x7f0b0c54
+    const v0, 0x7f0b0c76
 
     goto :goto_0
 
     .line 312
     :cond_3
-    const v0, 0x7f0b0c55
+    const v0, 0x7f0b0c77
 
     .line 311
     goto :goto_0
@@ -335,7 +335,7 @@
     if-nez v1, :cond_0
 
     .line 316
-    const v0, 0x7f0b0c53
+    const v0, 0x7f0b0c75
 
     goto :goto_0
 .end method
@@ -345,7 +345,7 @@
 
     .prologue
     .line 274
-    const v0, 0x7f0b0c48
+    const v0, 0x7f0b0c6a
 
     .line 276
     .local v0, "popupMsgId":I
@@ -362,7 +362,7 @@
     if-eqz v1, :cond_0
 
     .line 277
-    const v0, 0x7f0b0c47
+    const v0, 0x7f0b0c69
 
     .line 280
     :cond_0
@@ -375,7 +375,7 @@
     if-eqz v1, :cond_2
 
     .line 281
-    const v0, 0x7f0b0c4f
+    const v0, 0x7f0b0c71
 
     .line 302
     :cond_1
@@ -424,7 +424,7 @@
     if-eqz v1, :cond_6
 
     .line 290
-    const v0, 0x7f0b0c4b
+    const v0, 0x7f0b0c6d
 
     goto :goto_0
 
@@ -443,19 +443,19 @@
     if-eqz v1, :cond_5
 
     .line 284
-    const v0, 0x7f0b0c4d
+    const v0, 0x7f0b0c6f
 
     goto :goto_0
 
     .line 286
     :cond_5
-    const v0, 0x7f0b0c4e
+    const v0, 0x7f0b0c70
 
     goto :goto_0
 
     .line 292
     :cond_6
-    const v0, 0x7f0b0c4c
+    const v0, 0x7f0b0c6e
 
     goto :goto_0
 
@@ -483,13 +483,13 @@
     if-eqz v1, :cond_8
 
     .line 296
-    const v0, 0x7f0b0c49
+    const v0, 0x7f0b0c6b
 
     goto :goto_0
 
     .line 298
     :cond_8
-    const v0, 0x7f0b0c4a
+    const v0, 0x7f0b0c6c
 
     goto :goto_0
 .end method
@@ -678,7 +678,7 @@
     .locals 11
 
     .prologue
-    const v10, 0x7f0b1082
+    const v10, 0x7f0b1209
 
     const v9, 0x104000a
 
@@ -731,7 +731,7 @@
 
     .line 190
     .local v2, "res":Landroid/content/res/Resources;
-    const v4, 0x7f0b0c56
+    const v4, 0x7f0b0c78
 
     invoke-virtual {v2, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -806,7 +806,7 @@
     invoke-direct {v4, v5}, Landroid/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
 
     .line 200
-    const v5, 0x7f0b0c4f
+    const v5, 0x7f0b0c71
 
     .line 199
     invoke-virtual {v4, v5}, Landroid/app/AlertDialog$Builder;->setMessage(I)Landroid/app/AlertDialog$Builder;
@@ -814,7 +814,7 @@
     move-result-object v4
 
     .line 201
-    const v5, 0x7f0b0c42
+    const v5, 0x7f0b0c64
 
     .line 199
     invoke-virtual {v4, v5}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
@@ -890,7 +890,7 @@
     move-result-object v5
 
     .line 217
-    const v6, 0x7f0b0c51
+    const v6, 0x7f0b0c73
 
     .line 216
     invoke-virtual {v5, v6}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -907,7 +907,7 @@
     move-result-object v4
 
     .line 218
-    const v5, 0x7f0b0c50
+    const v5, 0x7f0b0c72
 
     .line 215
     invoke-virtual {v4, v5}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
@@ -962,7 +962,7 @@
     invoke-virtual {v0, v1}, Landroid/app/AlertDialog$Builder;->setMessage(I)Landroid/app/AlertDialog$Builder;
 
     .line 233
-    const v4, 0x7f0b0c43
+    const v4, 0x7f0b0c65
 
     invoke-virtual {v0, v4}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
 
@@ -1265,12 +1265,12 @@
 
     .line 368
     .local v0, "mAlertDialog":Landroid/app/AlertDialog$Builder;
-    const v2, 0x7f0b0c42
+    const v2, 0x7f0b0c64
 
     invoke-virtual {v0, v2}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
 
     .line 369
-    const v2, 0x7f0b0c15
+    const v2, 0x7f0b0c36
 
     invoke-virtual {v0, v2}, Landroid/app/AlertDialog$Builder;->setMessage(I)Landroid/app/AlertDialog$Builder;
 
@@ -1282,7 +1282,7 @@
     if-eqz v2, :cond_8
 
     .line 371
-    const v2, 0x7f0b0c23
+    const v2, 0x7f0b0c44
 
     invoke-virtual {v0, v2}, Landroid/app/AlertDialog$Builder;->setMessage(I)Landroid/app/AlertDialog$Builder;
 
@@ -1333,7 +1333,7 @@
 
     .line 373
     :cond_9
-    const v2, 0x7f0b0c2c
+    const v2, 0x7f0b0c4d
 
     invoke-virtual {v0, v2}, Landroid/app/AlertDialog$Builder;->setMessage(I)Landroid/app/AlertDialog$Builder;
 
@@ -1644,7 +1644,7 @@
     .line 154
     iget-object v1, p0, Lcom/samsung/android/settings/smartbonding/SmartBondingEnabler;->mSwitchPref:Landroid/preference/SwitchPreference;
 
-    const v2, 0x7f0b1952
+    const v2, 0x7f0b1ad8
 
     invoke-virtual {v1, v2}, Landroid/preference/SwitchPreference;->setSummary(I)V
 
@@ -1675,7 +1675,7 @@
     :cond_7
     iget-object v1, p0, Lcom/samsung/android/settings/smartbonding/SmartBondingEnabler;->mSwitchPref:Landroid/preference/SwitchPreference;
 
-    const v2, 0x7f0b1953
+    const v2, 0x7f0b1ad9
 
     invoke-virtual {v1, v2}, Landroid/preference/SwitchPreference;->setSummary(I)V
 

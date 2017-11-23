@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="data_saver_unrestricted_summary_chn">
+        <item quantity="other">%d alkalmazás használhatja korlátozás nélküli a mobilinternetet, amikor be van kapcsolva a Háttér-adatkapcsolat korlátozása üzemmód.</item>
+        <item quantity="one">%d alkalmazás használhatja korlátozás nélküli a mobilinternetet, amikor be van kapcsolva a Háttér-adatkapcsolat korlátozása üzemmód.</item>
+    </plurals>
     <plurals name="lock_timeout_hours">
         <item quantity="other">%d óra</item>
         <item quantity="one">1 óra</item>

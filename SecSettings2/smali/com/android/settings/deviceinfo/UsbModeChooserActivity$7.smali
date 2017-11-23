@@ -33,7 +33,7 @@
     .param p3, "val$mode"    # I
 
     .prologue
-    .line 422
+    .line 427
     iput-object p1, p0, Lcom/android/settings/deviceinfo/UsbModeChooserActivity$7;->this$0:Lcom/android/settings/deviceinfo/UsbModeChooserActivity;
 
     iput-boolean p2, p0, Lcom/android/settings/deviceinfo/UsbModeChooserActivity$7;->val$disallowedByAdmin:Z
@@ -56,7 +56,7 @@
 
     const/4 v3, 0x1
 
-    .line 425
+    .line 430
     iget-boolean v0, p0, Lcom/android/settings/deviceinfo/UsbModeChooserActivity$7;->val$disallowedByAdmin:Z
 
     if-eqz v0, :cond_0
@@ -69,7 +69,7 @@
 
     if-eqz v0, :cond_0
 
-    .line 427
+    .line 432
     iget-object v0, p0, Lcom/android/settings/deviceinfo/UsbModeChooserActivity$7;->this$0:Lcom/android/settings/deviceinfo/UsbModeChooserActivity;
 
     iget-object v1, p0, Lcom/android/settings/deviceinfo/UsbModeChooserActivity$7;->this$0:Lcom/android/settings/deviceinfo/UsbModeChooserActivity;
@@ -78,13 +78,13 @@
 
     move-result-object v1
 
-    .line 426
+    .line 431
     invoke-static {v0, v1}, Lcom/android/settingslib/RestrictedLockUtils;->sendShowAdminSupportDetailsIntent(Landroid/content/Context;Lcom/android/settingslib/RestrictedLockUtils$EnforcedAdmin;)V
 
-    .line 428
+    .line 433
     return-void
 
-    .line 430
+    .line 435
     :cond_0
     invoke-static {}, Landroid/app/ActivityManager;->isUserAMonkey()Z
 
@@ -102,7 +102,7 @@
 
     if-eq v0, v1, :cond_4
 
-    .line 432
+    .line 437
     :cond_1
     iget v0, p0, Lcom/android/settings/deviceinfo/UsbModeChooserActivity$7;->val$mode:I
 
@@ -116,17 +116,17 @@
 
     if-eqz v0, :cond_2
 
-    .line 433
+    .line 438
     const-string/jumbo v0, "UsbModeChooserActivity"
 
     const-string/jumbo v1, "onClick() : return doing role swap to supplying power"
 
     invoke-static {v0, v1}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 434
+    .line 439
     return-void
 
-    .line 436
+    .line 441
     :cond_2
     const-string/jumbo v0, "UsbModeChooserActivity"
 
@@ -152,7 +152,7 @@
 
     invoke-static {v0, v1}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 437
+    .line 442
     iget-object v0, p0, Lcom/android/settings/deviceinfo/UsbModeChooserActivity$7;->this$0:Lcom/android/settings/deviceinfo/UsbModeChooserActivity;
 
     invoke-static {v0}, Lcom/android/settings/deviceinfo/UsbModeChooserActivity;->-get1(Lcom/android/settings/deviceinfo/UsbModeChooserActivity;)I
@@ -161,17 +161,17 @@
 
     if-ne v0, v3, :cond_3
 
-    .line 438
+    .line 443
     iget-object v0, p0, Lcom/android/settings/deviceinfo/UsbModeChooserActivity$7;->this$0:Lcom/android/settings/deviceinfo/UsbModeChooserActivity;
 
     invoke-virtual {v0}, Lcom/android/settings/deviceinfo/UsbModeChooserActivity;->checkSmartSwtichTransfer()Z
 
     move-result v0
 
-    .line 437
+    .line 442
     if-eqz v0, :cond_3
 
-    .line 439
+    .line 444
     iget-object v0, p0, Lcom/android/settings/deviceinfo/UsbModeChooserActivity$7;->this$0:Lcom/android/settings/deviceinfo/UsbModeChooserActivity;
 
     invoke-virtual {v0}, Lcom/android/settings/deviceinfo/UsbModeChooserActivity;->getApplicationContext()Landroid/content/Context;
@@ -184,10 +184,10 @@
 
     move-result-object v1
 
-    .line 440
-    const v2, 0x7f0b04ff
+    .line 445
+    const v2, 0x7f0b0512
 
-    .line 439
+    .line 444
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
     move-result-object v1
@@ -198,10 +198,10 @@
 
     invoke-virtual {v0}, Landroid/widget/Toast;->show()V
 
-    .line 442
+    .line 447
     return-void
 
-    .line 444
+    .line 449
     :cond_3
     iget-object v0, p0, Lcom/android/settings/deviceinfo/UsbModeChooserActivity$7;->this$0:Lcom/android/settings/deviceinfo/UsbModeChooserActivity;
 
@@ -209,7 +209,7 @@
 
     invoke-static {v0, v1}, Lcom/android/settings/deviceinfo/UsbModeChooserActivity;->-wrap0(Lcom/android/settings/deviceinfo/UsbModeChooserActivity;I)V
 
-    .line 446
+    .line 451
     iget-object v0, p0, Lcom/android/settings/deviceinfo/UsbModeChooserActivity$7;->this$0:Lcom/android/settings/deviceinfo/UsbModeChooserActivity;
 
     invoke-static {v0}, Lcom/android/settings/deviceinfo/UsbModeChooserActivity;->-get0(Lcom/android/settings/deviceinfo/UsbModeChooserActivity;)Lcom/android/settings/deviceinfo/UsbBackend;
@@ -220,49 +220,49 @@
 
     invoke-virtual {v0, v1}, Lcom/android/settings/deviceinfo/UsbBackend;->setMode(I)V
 
-    .line 448
+    .line 453
     iget v0, p0, Lcom/android/settings/deviceinfo/UsbModeChooserActivity$7;->val$mode:I
 
     if-ne v0, v3, :cond_5
 
-    .line 449
+    .line 454
     iget-object v0, p0, Lcom/android/settings/deviceinfo/UsbModeChooserActivity$7;->this$0:Lcom/android/settings/deviceinfo/UsbModeChooserActivity;
 
     invoke-static {v0, v3}, Lcom/android/settings/deviceinfo/UsbModeChooserActivity;->-set5(Lcom/android/settings/deviceinfo/UsbModeChooserActivity;Z)Z
 
-    .line 450
+    .line 455
     iget-object v0, p0, Lcom/android/settings/deviceinfo/UsbModeChooserActivity$7;->this$0:Lcom/android/settings/deviceinfo/UsbModeChooserActivity;
 
     invoke-virtual {v0}, Lcom/android/settings/deviceinfo/UsbModeChooserActivity;->getApplicationContext()Landroid/content/Context;
 
     move-result-object v0
 
-    .line 451
+    .line 456
     iget-object v1, p0, Lcom/android/settings/deviceinfo/UsbModeChooserActivity$7;->this$0:Lcom/android/settings/deviceinfo/UsbModeChooserActivity;
 
     invoke-virtual {v1}, Lcom/android/settings/deviceinfo/UsbModeChooserActivity;->getResources()Landroid/content/res/Resources;
 
     move-result-object v1
 
-    const v2, 0x7f0b0500
+    const v2, 0x7f0b0513
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
     move-result-object v1
 
-    .line 450
+    .line 455
     invoke-static {v0, v1, v4}, Landroid/widget/Toast;->makeText(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;
 
     move-result-object v0
 
     invoke-virtual {v0}, Landroid/widget/Toast;->show()V
 
-    .line 424
+    .line 429
     :cond_4
     :goto_0
     return-void
 
-    .line 454
+    .line 459
     :cond_5
     iget-object v0, p0, Lcom/android/settings/deviceinfo/UsbModeChooserActivity$7;->this$0:Lcom/android/settings/deviceinfo/UsbModeChooserActivity;
 
@@ -270,14 +270,14 @@
 
     invoke-static {v0, v1}, Lcom/android/settings/deviceinfo/UsbModeChooserActivity;->-set0(Lcom/android/settings/deviceinfo/UsbModeChooserActivity;I)I
 
-    .line 455
+    .line 460
     const-string/jumbo v0, "UsbModeChooserActivity"
 
     const-string/jumbo v1, "Finish by set mode"
 
     invoke-static {v0, v1}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 456
+    .line 461
     iget-object v0, p0, Lcom/android/settings/deviceinfo/UsbModeChooserActivity$7;->this$0:Lcom/android/settings/deviceinfo/UsbModeChooserActivity;
 
     invoke-static {v0}, Lcom/android/settings/deviceinfo/UsbModeChooserActivity;->-wrap1(Lcom/android/settings/deviceinfo/UsbModeChooserActivity;)V

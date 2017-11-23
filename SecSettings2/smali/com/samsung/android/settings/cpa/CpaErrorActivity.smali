@@ -177,7 +177,7 @@
     iput-object v3, v2, Lcom/android/internal/app/AlertController$AlertParams;->mView:Landroid/view/View;
 
     .line 67
-    const v3, 0x7f0b03ef
+    const v3, 0x7f0b03f1
 
     invoke-virtual {p0, v3}, Lcom/samsung/android/settings/cpa/CpaErrorActivity;->getString(I)Ljava/lang/String;
 

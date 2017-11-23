@@ -444,7 +444,7 @@
     move-result-object v3
 
     .line 167
-    const v4, 0x7f020406
+    const v4, 0x7f020404
 
     .line 166
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
@@ -483,7 +483,7 @@
     move-result-object v3
 
     .line 173
-    const v4, 0x7f020405
+    const v4, 0x7f020403
 
     .line 172
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
@@ -522,7 +522,7 @@
     move-result-object v3
 
     .line 179
-    const v4, 0x7f020407
+    const v4, 0x7f020405
 
     .line 178
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
@@ -561,7 +561,7 @@
     move-result-object v3
 
     .line 185
-    const v4, 0x7f020404
+    const v4, 0x7f020402
 
     .line 184
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
@@ -965,7 +965,7 @@
     iget-object v8, p0, Lcom/samsung/android/settings/powersaving/LowBatteryActivity;->mOffTextMain:Landroid/widget/TextView;
 
     .line 287
-    const v5, 0x7f0b0aa5
+    const v5, 0x7f0b0ac6
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getText(I)Ljava/lang/CharSequence;
 
@@ -1004,7 +1004,7 @@
     iget-object v8, p0, Lcom/samsung/android/settings/powersaving/LowBatteryActivity;->mMidTextMain:Landroid/widget/TextView;
 
     .line 296
-    const v5, 0x7f0b0aa7
+    const v5, 0x7f0b0ac8
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getText(I)Ljava/lang/CharSequence;
 
@@ -1043,7 +1043,7 @@
     iget-object v8, p0, Lcom/samsung/android/settings/powersaving/LowBatteryActivity;->mMaxTextMain:Landroid/widget/TextView;
 
     .line 306
-    const v5, 0x7f0b0aa6
+    const v5, 0x7f0b0ac7
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getText(I)Ljava/lang/CharSequence;
 
@@ -1785,7 +1785,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0b0aa5
+    const v2, 0x7f0b0ac6
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getText(I)Ljava/lang/CharSequence;
 
@@ -1800,7 +1800,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0b0aa7
+    const v2, 0x7f0b0ac8
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getText(I)Ljava/lang/CharSequence;
 
@@ -1815,7 +1815,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0b0aa6
+    const v2, 0x7f0b0ac7
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getText(I)Ljava/lang/CharSequence;
 

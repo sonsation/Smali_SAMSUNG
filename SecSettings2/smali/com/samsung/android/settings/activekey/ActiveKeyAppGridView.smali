@@ -671,7 +671,7 @@
     const-string/jumbo v9, "torch"
 
     .line 367
-    const v5, 0x7f0b035c
+    const v5, 0x7f0b035e
 
     move-object/from16 v0, p0
 
@@ -684,7 +684,7 @@
 
     move-result-object v5
 
-    const v11, 0x7f020609
+    const v11, 0x7f020607
 
     invoke-virtual {v5, v11}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -1005,7 +1005,7 @@
     if-eqz v3, :cond_2
 
     .line 180
-    const v3, 0x7f0b0350
+    const v3, 0x7f0b0352
 
     invoke-virtual {v0, v3}, Landroid/widget/TextView;->setText(I)V
 
@@ -1102,7 +1102,7 @@
     .line 182
     .restart local v0    # "emptyView":Landroid/widget/TextView;
     :cond_2
-    const v3, 0x7f0b0896
+    const v3, 0x7f0b08b3
 
     invoke-virtual {v0, v3}, Landroid/widget/TextView;->setText(I)V
 

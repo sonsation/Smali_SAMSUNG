@@ -44,7 +44,7 @@
     .line 115
     iget-object v3, p0, Lcom/android/settings/wifi/WifiNoInternetDialog;->mAlert:Lcom/android/internal/app/AlertController;
 
-    const v4, 0x7f02026a
+    const v4, 0x7f020268
 
     invoke-virtual {v3, v4}, Lcom/android/internal/app/AlertController;->setIcon(I)V
 
@@ -58,7 +58,7 @@
     iput-object v3, v0, Lcom/android/internal/app/AlertController$AlertParams;->mTitle:Ljava/lang/CharSequence;
 
     .line 119
-    const v3, 0x7f0b1217
+    const v3, 0x7f0b139d
 
     invoke-virtual {p0, v3}, Lcom/android/settings/wifi/WifiNoInternetDialog;->getString(I)Ljava/lang/String;
 
@@ -67,7 +67,7 @@
     iput-object v3, v0, Lcom/android/internal/app/AlertController$AlertParams;->mMessage:Ljava/lang/CharSequence;
 
     .line 120
-    const v3, 0x7f0b0fa1
+    const v3, 0x7f0b1129
 
     invoke-virtual {p0, v3}, Lcom/android/settings/wifi/WifiNoInternetDialog;->getString(I)Ljava/lang/String;
 
@@ -76,7 +76,7 @@
     iput-object v3, v0, Lcom/android/internal/app/AlertController$AlertParams;->mPositiveButtonText:Ljava/lang/CharSequence;
 
     .line 121
-    const v3, 0x7f0b0fa2
+    const v3, 0x7f0b112a
 
     invoke-virtual {p0, v3}, Lcom/android/settings/wifi/WifiNoInternetDialog;->getString(I)Ljava/lang/String;
 
@@ -126,7 +126,7 @@
     .line 131
     iget-object v3, p0, Lcom/android/settings/wifi/WifiNoInternetDialog;->mAlwaysAllow:Landroid/widget/CheckBox;
 
-    const v4, 0x7f0b1218
+    const v4, 0x7f0b139e
 
     invoke-virtual {p0, v4}, Lcom/android/settings/wifi/WifiNoInternetDialog;->getString(I)Ljava/lang/String;
 

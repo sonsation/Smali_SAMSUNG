@@ -174,7 +174,7 @@
     new-array v1, v5, [Ljava/lang/CharSequence;
 
     .line 92
-    const v2, 0x7f0b0581
+    const v2, 0x7f0b0595
 
     invoke-virtual {p0, v2}, Lcom/samsung/android/settings/navigationbar/NavigationBarSettings;->getString(I)Ljava/lang/String;
 
@@ -183,7 +183,7 @@
     aput-object v2, v1, v3
 
     .line 93
-    const v2, 0x7f0b0582
+    const v2, 0x7f0b0596
 
     invoke-virtual {p0, v2}, Lcom/samsung/android/settings/navigationbar/NavigationBarSettings;->getString(I)Ljava/lang/String;
 

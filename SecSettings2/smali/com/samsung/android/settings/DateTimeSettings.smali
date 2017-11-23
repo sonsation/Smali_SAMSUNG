@@ -904,7 +904,7 @@
     .locals 14
 
     .prologue
-    const v13, 0x7f0b08d3
+    const v13, 0x7f0b08f0
 
     const/4 v9, 0x1
 
@@ -1079,7 +1079,7 @@
     .line 217
     iget-object v8, p0, Lcom/samsung/android/settings/DateTimeSettings;->mAutoTimePref:Lcom/android/settingslib/SecRestrictedSwitchPreference;
 
-    const v11, 0x7f0b109b
+    const v11, 0x7f0b1222
 
     invoke-virtual {v8, v11}, Lcom/android/settingslib/SecRestrictedSwitchPreference;->setSummary(I)V
 
@@ -1254,7 +1254,7 @@
 
     move-result-object v11
 
-    const v12, 0x7f0b0b61
+    const v12, 0x7f0b0b82
 
     invoke-virtual {v11, v12}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -3445,7 +3445,7 @@
 
     .prologue
     .line 597
-    const v1, 0x7f0b0b28
+    const v1, 0x7f0b0b49
 
     invoke-static {v1}, Lcom/samsung/android/settings/TimeDisplaySchemeSettings;->newInstance(I)Lcom/samsung/android/settings/TimeDisplaySchemeSettings;
 

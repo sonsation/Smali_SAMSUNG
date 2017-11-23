@@ -544,7 +544,7 @@
 
     .line 313
     .local v1, "lockType":Ljava/lang/String;
-    const v3, 0x7f0b06f7
+    const v3, 0x7f0b0711
 
     invoke-virtual {p0, v3}, Lcom/samsung/android/settings/iris/UseAdditionalBiometrics;->getString(I)Ljava/lang/String;
 
@@ -580,7 +580,7 @@
 
     aput-object v0, v4, v5
 
-    const v5, 0x7f0b07bd
+    const v5, 0x7f0b07d7
 
     invoke-virtual {v3, v5, v4}, Landroid/content/res/Resources;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -594,7 +594,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0b110c
+    const v4, 0x7f0b1292
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -608,7 +608,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0b110e
+    const v4, 0x7f0b1294
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -622,7 +622,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0b110a
+    const v4, 0x7f0b1290
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -636,7 +636,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0b0891
+    const v4, 0x7f0b08ae
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1198,7 +1198,7 @@
     iput-object v1, p0, Lcom/samsung/android/settings/iris/UseAdditionalBiometrics;->mIrisManager:Lcom/samsung/android/camera/iris/SemIrisManager;
 
     .line 104
-    const v1, 0x7f0b07bc
+    const v1, 0x7f0b07d6
 
     invoke-virtual {p0, v1}, Lcom/samsung/android/settings/iris/UseAdditionalBiometrics;->setTitle(I)V
 

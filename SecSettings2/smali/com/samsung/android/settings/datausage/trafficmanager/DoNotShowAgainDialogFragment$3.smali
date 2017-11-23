@@ -310,7 +310,7 @@
     const/4 v2, 0x0
 
     .line 130
-    const v3, 0x7f0b0f86
+    const v3, 0x7f0b0fae
 
     const/4 v4, 0x0
 
@@ -353,7 +353,7 @@
     const/4 v3, 0x0
 
     .line 134
-    const v4, 0x7f0b0f86
+    const v4, 0x7f0b0fae
 
     const/4 v5, 0x0
 

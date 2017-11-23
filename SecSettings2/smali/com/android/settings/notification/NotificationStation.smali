@@ -846,7 +846,7 @@
     if-eqz v23, :cond_3
 
     .line 283
-    const v23, 0x7f0b1aa2
+    const v23, 0x7f0b1c28
 
     move-object/from16 v0, p0
 
@@ -898,7 +898,7 @@
 
     .line 291
     .local v19, "sb":Landroid/text/SpannableStringBuilder;
-    const v23, 0x7f0b1aa3
+    const v23, 0x7f0b1c29
 
     move-object/from16 v0, p0
 
@@ -910,7 +910,7 @@
 
     .line 292
     .local v8, "delim":Ljava/lang/String;
-    const v23, 0x7f0b1aa4
+    const v23, 0x7f0b1c2a
 
     move-object/from16 v0, p0
 
@@ -957,7 +957,7 @@
     move-result-object v23
 
     .line 296
-    const v24, 0x7f0b1aa5
+    const v24, 0x7f0b1c2b
 
     move-object/from16 v0, p0
 
@@ -1002,7 +1002,7 @@
     move-result-object v23
 
     .line 300
-    const v24, 0x7f0b1ab5
+    const v24, 0x7f0b1c3b
 
     move-object/from16 v0, p0
 
@@ -1058,7 +1058,7 @@
     move-result-object v23
 
     .line 305
-    const v24, 0x7f0b1aa6
+    const v24, 0x7f0b1c2c
 
     move-object/from16 v0, p0
 
@@ -1099,7 +1099,7 @@
     if-eqz v23, :cond_4
 
     .line 310
-    const v23, 0x7f0b1aa7
+    const v23, 0x7f0b1c2d
 
     move-object/from16 v0, p0
 
@@ -1133,7 +1133,7 @@
     move-result-object v23
 
     .line 314
-    const v24, 0x7f0b1ab8
+    const v24, 0x7f0b1c3e
 
     move-object/from16 v0, p0
 
@@ -1166,7 +1166,7 @@
     if-eqz v23, :cond_d
 
     .line 317
-    const v23, 0x7f0b1aba
+    const v23, 0x7f0b1c40
 
     move-object/from16 v0, p0
 
@@ -1195,7 +1195,7 @@
     move-result-object v23
 
     .line 324
-    const v24, 0x7f0b1ab9
+    const v24, 0x7f0b1c3f
 
     move-object/from16 v0, p0
 
@@ -1228,7 +1228,7 @@
     if-eqz v23, :cond_f
 
     .line 327
-    const v23, 0x7f0b1aba
+    const v23, 0x7f0b1c40
 
     move-object/from16 v0, p0
 
@@ -1258,7 +1258,7 @@
     move-result-object v23
 
     .line 337
-    const v24, 0x7f0b1aa8
+    const v24, 0x7f0b1c2e
 
     move-object/from16 v0, p0
 
@@ -1314,7 +1314,7 @@
     move-result-object v23
 
     .line 343
-    const v24, 0x7f0b1aa9
+    const v24, 0x7f0b1c2f
 
     .line 342
     move-object/from16 v0, p0
@@ -1365,7 +1365,7 @@
     move-result-object v23
 
     .line 348
-    const v24, 0x7f0b1aaa
+    const v24, 0x7f0b1c30
 
     move-object/from16 v0, p0
 
@@ -1450,7 +1450,7 @@
     move-result-object v23
 
     .line 356
-    const v24, 0x7f0b1aab
+    const v24, 0x7f0b1c31
 
     .line 355
     move-object/from16 v0, p0
@@ -1507,7 +1507,7 @@
     move-result-object v23
 
     .line 362
-    const v24, 0x7f0b1aac
+    const v24, 0x7f0b1c32
 
     .line 361
     move-object/from16 v0, p0
@@ -1562,7 +1562,7 @@
     move-result-object v23
 
     .line 381
-    const v24, 0x7f0b1aad    # 1.849012E38f
+    const v24, 0x7f0b1c33
 
     .line 380
     move-object/from16 v0, p0
@@ -1620,7 +1620,7 @@
     move-result-object v23
 
     .line 388
-    const v24, 0x7f0b1aae
+    const v24, 0x7f0b1c34
 
     .line 387
     move-object/from16 v0, p0
@@ -1678,7 +1678,7 @@
     move-result-object v23
 
     .line 395
-    const v24, 0x7f0b1aaf
+    const v24, 0x7f0b1c35
 
     .line 394
     move-object/from16 v0, p0
@@ -1748,7 +1748,7 @@
     move-result-object v23
 
     .line 401
-    const v24, 0x7f0b1ab0
+    const v24, 0x7f0b1c36
 
     move-object/from16 v0, p0
 
@@ -1818,7 +1818,7 @@
     move-result-object v23
 
     .line 406
-    const v24, 0x7f0b1ab1
+    const v24, 0x7f0b1c37
 
     .line 405
     move-object/from16 v0, p0
@@ -1863,7 +1863,7 @@
     move-result-object v23
 
     .line 411
-    const v24, 0x7f0b1aad    # 1.849012E38f
+    const v24, 0x7f0b1c33
 
     .line 410
     move-object/from16 v0, p0
@@ -1920,7 +1920,7 @@
     move-result-object v23
 
     .line 417
-    const v24, 0x7f0b1ab2
+    const v24, 0x7f0b1c38
 
     .line 416
     move-object/from16 v0, p0
@@ -2053,7 +2053,7 @@
     .restart local v19    # "sb":Landroid/text/SpannableStringBuilder;
     .restart local v20    # "sbn":Landroid/service/notification/StatusBarNotification;
     :cond_e
-    const v23, 0x7f0b1abb
+    const v23, 0x7f0b1c41
 
     :try_start_1
     move-object/from16 v0, p0
@@ -2138,7 +2138,7 @@
     .line 334
     .end local v22    # "vi":I
     :cond_11
-    const v23, 0x7f0b1abb
+    const v23, 0x7f0b1c41
 
     move-object/from16 v0, p0
 
@@ -2178,7 +2178,7 @@
     move-result-object v23
 
     .line 370
-    const v24, 0x7f0b1abc
+    const v24, 0x7f0b1c42
 
     .line 369
     move-object/from16 v0, p0
@@ -2211,7 +2211,7 @@
     move-result-object v23
 
     .line 374
-    const v24, 0x7f0b1abd
+    const v24, 0x7f0b1c43
 
     .line 373
     move-object/from16 v0, p0
@@ -2251,7 +2251,7 @@
     move-result-object v23
 
     .line 426
-    const v24, 0x7f0b1ab3
+    const v24, 0x7f0b1c39
 
     .line 425
     move-object/from16 v0, p0
@@ -2319,7 +2319,7 @@
     move-result-object v23
 
     .line 435
-    const v24, 0x7f0b1ab4
+    const v24, 0x7f0b1c3a
 
     .line 434
     move-object/from16 v0, p0
@@ -2489,7 +2489,7 @@
     move-result-object v23
 
     .line 447
-    const v24, 0x7f0b1ab6
+    const v24, 0x7f0b1c3c
 
     move-object/from16 v0, p0
 
@@ -2537,7 +2537,7 @@
     move-result-object v23
 
     .line 451
-    const v24, 0x7f0b1ab7
+    const v24, 0x7f0b1c3d
 
     move-object/from16 v0, p0
 

@@ -248,7 +248,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0b078b
+    const v3, 0x7f0b07a5
 
     invoke-static {v2, v3, v5}, Landroid/widget/Toast;->makeText(Landroid/content/Context;II)Landroid/widget/Toast;
 
@@ -392,7 +392,7 @@
 
     move-result-object v15
 
-    const v16, 0x7f0b077a
+    const v16, 0x7f0b0794
 
     invoke-virtual/range {v15 .. v16}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -484,7 +484,7 @@
 
     move-result-object v15
 
-    const v16, 0x7f0b078f
+    const v16, 0x7f0b07a9
 
     const/16 v17, 0x0
 
@@ -585,7 +585,7 @@
 
     move-result-object v15
 
-    const v16, 0x7f0b0790
+    const v16, 0x7f0b07aa
 
     const/16 v17, 0x0
 
@@ -689,7 +689,7 @@
 
     move-result-object v15
 
-    const v16, 0x7f0b0789
+    const v16, 0x7f0b07a3
 
     const/16 v17, 0x0
 
@@ -727,7 +727,7 @@
 
     move-result-object v15
 
-    const v16, 0x7f0b0791
+    const v16, 0x7f0b07ab
 
     const/16 v17, 0x0
 
@@ -900,7 +900,7 @@
 
     move-result-object v15
 
-    const v16, 0x7f0b0785
+    const v16, 0x7f0b079f
 
     const/16 v17, 0x0
 
@@ -1872,7 +1872,7 @@
     const/4 v1, 0x0
 
     .line 201
-    const v0, 0x7f0b1780
+    const v0, 0x7f0b1906
 
     invoke-interface {p1, v1, v1, v1, v0}, Landroid/view/Menu;->add(IIII)Landroid/view/MenuItem;
 
@@ -1954,7 +1954,7 @@
 
     .line 234
     .local v1, "textView":Landroid/widget/TextView;
-    const v2, 0x7f0b0788
+    const v2, 0x7f0b07a2
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(I)V
 
@@ -2451,7 +2451,7 @@
     invoke-direct {v3, v4}, Landroid/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
 
     .line 371
-    const v4, 0x7f0b0445
+    const v4, 0x7f0b044d
 
     .line 370
     invoke-virtual {v3, v4}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;

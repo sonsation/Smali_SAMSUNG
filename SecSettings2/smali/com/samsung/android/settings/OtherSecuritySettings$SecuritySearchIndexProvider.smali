@@ -465,7 +465,7 @@
 
     .line 1064
     .local v2, "res":Landroid/content/res/Resources;
-    const v8, 0x7f0b10bd
+    const v8, 0x7f0b1244
 
     invoke-virtual {v2, v8}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -551,7 +551,7 @@
 
     .line 1088
     .restart local v0    # "data":Lcom/android/settings/search/SearchIndexableRaw;
-    const v8, 0x7f0b12d7
+    const v8, 0x7f0b145d
 
     invoke-virtual {v2, v8}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -601,7 +601,7 @@
     iput-object v8, v0, Lcom/android/settings/search/SearchIndexableRaw;->key:Ljava/lang/String;
 
     .line 1101
-    const v8, 0x7f0b0b88
+    const v8, 0x7f0b0ba9
 
     invoke-virtual {v2, v8}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -617,7 +617,7 @@
     if-nez v8, :cond_7
 
     .line 1103
-    const v8, 0x7f0b0b89
+    const v8, 0x7f0b0baa
 
     invoke-virtual {v2, v8}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -666,7 +666,7 @@
     if-eqz v8, :cond_9
 
     .line 1122
-    const v5, 0x7f0b168e
+    const v5, 0x7f0b1814
 
     .line 1125
     .local v5, "storageSummaryRes":I
@@ -683,7 +683,7 @@
     iput-object v8, v0, Lcom/android/settings/search/SearchIndexableRaw;->key:Ljava/lang/String;
 
     .line 1127
-    const v8, 0x7f0b168d
+    const v8, 0x7f0b1813
 
     invoke-virtual {v2, v8}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -743,7 +743,7 @@
     iput-object v8, v0, Lcom/android/settings/search/SearchIndexableRaw;->key:Ljava/lang/String;
 
     .line 1141
-    const v8, 0x7f0b0b9f
+    const v8, 0x7f0b0bc0
 
     invoke-virtual {v2, v8}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -797,7 +797,7 @@
     if-nez v8, :cond_8
 
     .line 1106
-    const v8, 0x7f0b0b8a
+    const v8, 0x7f0b0bab
 
     invoke-virtual {v2, v8}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -809,7 +809,7 @@
 
     .line 1108
     :cond_8
-    const v8, 0x7f0b0b8b
+    const v8, 0x7f0b0bac
 
     invoke-virtual {v2, v8}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -823,7 +823,7 @@
     .restart local v1    # "keyStore":Landroid/security/KeyStore;
     .restart local v7    # "um":Landroid/os/UserManager;
     :cond_9
-    const v5, 0x7f0b168f
+    const v5, 0x7f0b1815
 
     .restart local v5    # "storageSummaryRes":I
     goto :goto_3
@@ -934,7 +934,7 @@
 
     move-result-object v7
 
-    const v8, 0x7f0b12d6
+    const v8, 0x7f0b145c
 
     invoke-virtual {v7, v8}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -953,7 +953,7 @@
 
     move-result-object v7
 
-    const v8, 0x7f0b12d7
+    const v8, 0x7f0b145d
 
     invoke-virtual {v7, v8}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

@@ -1584,7 +1584,7 @@
     if-eqz v3, :cond_4
 
     .line 1057
-    const v9, 0x7f020104
+    const v9, 0x7f020102
 
     .line 1059
     .local v9, "iconResId":I
@@ -2135,7 +2135,7 @@
     if-eqz v18, :cond_8
 
     .line 1350
-    const v18, 0x7f0204ee
+    const v18, 0x7f0204ec
 
     move/from16 v0, v18
 
@@ -2160,7 +2160,7 @@
 
     move/from16 v18, v0
 
-    const v19, 0x7f020104
+    const v19, 0x7f020102
 
     move/from16 v0, v18
 
@@ -2509,7 +2509,7 @@
     invoke-virtual {v8, v0}, Landroid/widget/ImageView;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
 
     .line 1391
-    const v18, 0x7f020104
+    const v18, 0x7f020102
 
     move/from16 v0, v18
 

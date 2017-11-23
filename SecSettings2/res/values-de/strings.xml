@@ -433,7 +433,7 @@ Geben Sie dann den Code ein, den Sie von Verizon erhalten:"</string>
     <string name="answering_end_call_title">Anrufe beantworten und beenden</string>
     <string name="audio_preference_title">Hörbehinderung</string>
     <string name="mono_audio_title">Mono-Audio</string>
-    <string name="mono_audio_summary">Audio von „Stereo“ auf „Mono“ umschalten, wenn ein einzelner Ohrhörer verwendet wird.</string>
+    <string name="mono_audio_summary">Audio zum Hören mit einem Ohr von „Stereo“ auf „Mono“ umschalten.</string>
     <string name="multi_window_title">Multi Window</string>
     <string name="magnifier_seekbar_plus_tts">Plus</string>
     <string name="magnifier_seekbar_minus_tts">Minus</string>
@@ -514,16 +514,18 @@ Hinweis: Die Dreifach-Tipp-Vergrößern funktioniert überall, außer auf der Ta
     <string name="direct_access_actions_universal_switch_title">Universeller Steuerbefehl</string>
     <string name="sound_detector_title">Babyfon</string>
     <string name="sound_detector_main_title">Tonerkennung</string>
-    <string name="sound_detector_main_description">Benachrichtigungen erhalten, wenn das Gerät die Türklingel oder ein weinendes Baby erkennt.</string>
+    <string name="sound_detector_main_description">Benachrichtigungen erhalten, wenn das Telefon ein schreiendes Baby oder die Türklingel erkennt.</string>
     <string name="accessibility_easy_interaction_summary">Einmal tippen, um Alarme, Kalenderereignisse und zeitgesteuerte Alarme zu stoppen oder zu verzögern und eingehende Anrufe anzunehmen oder abzulehnen.</string>
     <string name="accessibility_easy_interaction_summary_tablet_wifi">Tippen, um Alarme und Kalenderereignisse zu stoppen oder zu verzögern.</string>
-    <string name="all_sound_off">Alle Töne ausschalten</string>
-    <string name="all_sound_off_summary">Keine Töne wiedergeben, auch nicht über Lautsprecher oder wenn der Tonmodus auf „Ton“ festgelegt ist.</string>
+    <string name="all_sound_off">Alle Sounds stummschalten</string>
+    <string name="all_sound_off_summary">Alle Töne einschließlich Telefonanrufen ausschalten, auch wenn der Tonmodus auf „Ton“ festgelegt ist.</string>
     <string name="all_sound_off_dialog_summary">%1$s und %2$s können nicht gleichzeitig aktiviert werden. %3$s wird deaktiviert.</string>
+    <string name="all_sound_off_popup_description">%s muss ausgeschaltet sein, um „Alle Sounds stummschalten“ zu verwenden.</string>
+    <string name="all_sound_turn_off_button">Ausschalten</string>
     <string name="turn_off_all_sounds">Alle Töne ausschalten</string>
     <string name="turn_off_all_sounds1">„Alle Töne ausschalten“ und „Ansage“ können nicht beide aktiviert werden.</string>
     <string name="turn_off_all_sounds2">„Alle Töne ausschalten“ und „Ansage“ können nicht beide aktiviert werden. „Ansage“ wird deaktiviert.</string>
-    <string name="turn_off_all_sounds_toast_with_sound_detector">„Alle Töne ausschalten“ kann nicht deaktiviert werden, solange die Tonerkennung aktiviert ist. Wechseln Sie zum Deaktivieren zu „Einstellungen > Eingabehilfe > Hörbehinderung > Tonerkennung“ und deaktivieren Sie die Tonerkennung.</string>
+    <string name="turn_off_all_sounds_toast_with_sound_detector">„Alle Sounds stummschalten“ kann nicht ausgeschaltet werden, wenn die Tonerkennung aktiviert ist.</string>
     <string name="accessibility_categories_title">Kategorien</string>
     <string name="share_accessibility_settings">Eingabehilfen verwalten</string>
     <string name="share_accessibility_settings_summary">Eingabehilfeeinstellungen importieren und exportieren oder mit einem anderen Gerät gemeinsam verwenden.</string>
@@ -661,6 +663,7 @@ tigungsfeld"</string>
     <string name="deviceOption">Geräteoptionen</string>
     <string name="lock">Schützen</string>
     <string name="powerOff">Ausschalten</string>
+    <string name="unable_assistantmenu_while_sidesync">Das Assistentenmenü kann während der Verwendung von SideSync nicht eingeschaltet werden.</string>
     <string name="eamenableinfo">Wählen Sie mindestens eine Anwendung aus, um Assistant Plus zu aktivieren.</string>
     <string name="fetch_progress">Daten werden geladen…</string>
     <string name="assistant_menu_enable_message">%s und die Optionen unten können nicht gleichzeitig aktiviert werden. Die Optionen unten werden deaktiviert.</string>
@@ -767,7 +770,7 @@ Hier tippen, um diese Funktion herunterzuladen."</string>
     <string name="xcover_key_shortcut_battery_conserving_mode">Battery conserving mode</string>
     <string name="xcover_key_shortcut_normal_mode">Normalmodus</string>
     <string name="flight_mode_enabled_toast">Bei aktiviertem Offline-Modus kann keine Verbindung mit mobilen Netzwerken hergestellt werden. Deaktiviere den Offline-Modus und versuche es erneut.</string>
-    <string name="airplane_mode_summary">Deaktivieren Sie Anruf- und Nachrichtenfunktionen sowie mobile Daten.</string>
+    <string name="airplane_mode_summary">Anruf- und Nachrichtenfunktionen sowie mobile Daten ausschalten.</string>
     <string name="usb_not_support_mtp_usb3_dialog_title">Hinweis</string>
     <string name="airplane_mode_desc">Mit dem Offline-Modus können Sie Datennetzwerkfunktionen einschließlich WLAN ausschalten. Wenn Sie WLAN verwenden möchten, müssen Sie die Funktion im Einstellungs- oder Benachrichtigungsfeld erneut einschalten.</string>
     <string name="flight_mode_enable_popup_title">Offline-Modus aktivieren</string>
@@ -907,6 +910,7 @@ Sie können diese Einstellungen später unter den Bluetooth-Einstellungen änder
     <string name="bluetooth_control_app_disable_summary">Bluetooth ausgeschaltet: %s</string>
     <string name="bluetooth_enter_pin_msg">PIN eingeben, um mit %s zu koppeln (Versuchen Sie 0000 oder 1234)</string>
     <string name="bluetooth_pin_maximum_number_message">Maximale Anzahl von Zeichen erreicht.</string>
+    <string name="bluetooth_frp_permission_message">Es kann kein Bluetooth-Gerät für diesen Anruf verwendet werden.</string>
     <string name="settings_menu_done">OK</string>
     <string name="usb_tethering_unavailable_subtext_tmo">Keine USB-Verbindung</string>
     <string name="usb_tethering_available_subtext_tmo">USB verbunden, Tethering auswählen</string>
@@ -947,6 +951,11 @@ Auch wenn Smart-Aufnahme deaktiviert ist, können Sie auf diese Funktionen über
 - Auf dem Screenshot zeichnen.
 - Den Screenshot zuschneiden.
 - Den Screenshot freigeben."</string>
+    <string name="smart_capture_summary">Nach der Aufnahme eines Screenshots weitere Optionen anzeigen. Mit Smart-Aufnahme können Sie:</string>
+    <string name="smart_capture_summary_1">Screenshot mit ausgeblendeten Bereichen erstellen.</string>
+    <string name="smart_capture_summary_2">Auf Screenshot zeichnen.</string>
+    <string name="smart_capture_summary_3">Screenshot zuschneiden.</string>
+    <string name="smart_capture_summary_4">Screenshot freigeben.</string>
     <string name="identify_unsaved_numbers_title">Identifizieren nicht gespeicherter Nummern</string>
     <string name="identify_unsaved_numbers_title_usa">Spam-Nummern identifizieren</string>
     <string name="call_message_spam_filter_title">Anruf-/Nachrichten-Spam-Filter</string>
@@ -1043,6 +1052,7 @@ Auch wenn Smart-Aufnahme deaktiviert ist, können Sie auf diese Funktionen über
     <string name="fota_update_summary">Hier tippen, um die Firmware auf die neueste Version zu aktualisieren und die neuesten Funktionen zu verwenden.</string>
     <string name="favorite_tab">Schnelleinstellungen</string>
     <string name="device_maintenance_title">Gerätewartung</string>
+    <string name="memory_string">Speicher</string>
     <string name="tab_favorite_edit">Schnelleinstellungen bearbeiten</string>
     <string name="add_favorite_button">Schnelleinstellungen bearbeiten</string>
     <string name="cloud_and_accounts_title">Cloud und Konten</string>
@@ -1080,7 +1090,12 @@ Auch wenn Smart-Aufnahme deaktiviert ist, können Sie auf diese Funktionen über
     <string name="notification_settings_apps_title">App-Benachrichtigungen</string>
     <string name="international_roaming_setting">Roaming-Einstellungen</string>
     <string name="user_manual_mos">Benutzerhandbuch</string>
-    <string name="data_saver_description">Datensparen verhindert, dass einige Apps Daten im Hintergrund senden oder empfangen, und reduziert somit die Datennutzung. Außerdem können aktuell verwendete Apps u. U. seltener auf Daten zugreifen. Bilder werden z. B. erst richtig angezeigt, wenn Sie darauf tippen.</string>
+    <string name="data_saver_description">Datensparen verringert Ihre Datennutzung, indem verhindert wird, dass einige Apps Daten im Hintergrund senden oder empfangen. Apps, die Sie derzeit verwenden, können mobile Daten (jedoch u. U. seltener) verwenden. Bilder werden z. B. erst richtig angezeigt, nachdem Sie darauf tippen.</string>
+    <string name="unrestricted_data_saver_chn">Daten ohne Beschränkung verw.</string>
+    <string name="data_saver_description_chn">Das Einschränken der Hintergrunddaten verhindert, dass einige Apps Daten im Hintergrund senden oder empfangen, und reduziert somit die Datennutzung. Außerdem können aktuell verwendete Apps u. U. seltener auf Daten zugreifen. Bilder werden z. B. erst richtig angezeigt, wenn Sie darauf tippen.</string>
+    <string name="data_saver_title_chn">Einschränken der Hintergrunddaten</string>
+    <string name="unrestricted_app_title_chn">Daten ohne Beschränkung verw.</string>
+    <string name="unrestricted_app_summary_chn">Diese App darf mobile Daten ohne Beschränkungen verwenden, wenn „Hintergrunddaten einschränken“ aktiviert ist.</string>
     <string name="data_used_editor_subtitle">Geben Sie die Datenmenge ein, die Sie diesen Monat genutzt haben:</string>
     <string name="traffic_vertify">Details</string>
     <string name="btn_tmo">Upgrade für Datendienst ausführen</string>
@@ -1132,6 +1147,8 @@ Die Datennutzung wird von Ihrem Telefon protokolliert. Da Ihr Dienstanbieter die
     <string name="last_checked_date">Zuletzt überprüft am:</string>
     <string name="auto_update">Automatische Aktualisierung</string>
     <string name="auto_update_summary">Software-Updates bei bestehender WLAN-Verbindung automatisch herunterladen. Sie können Ihr Gerät während des Downloads weiterhin nutzen.</string>
+    <string name="auto_update_over_wifi">Automatisch über WLAN laden</string>
+    <string name="auto_update_over_wifi_summary">Software-Updates automatisch herunterladen, wenn eine WLAN-Verbindung besteht. Je nach Dienstanbieter können Aktualisierungen ohne Zusatzkosten auch über mobile Daten heruntergeladen werden. Sie können Ihr Telefon während des Downloads weiterhin verwenden.</string>
     <string name="scheduled_update">Geplante Software-Updates</string>
     <string name="scheduled_update_summary_default">Aus</string>
     <string name="scheduled_update_summary_set_time">Aktualisierung startet um %s</string>
@@ -1165,7 +1182,7 @@ Ihr Telefon verfügt über Diagnosesoftware, die mit Ihrer Zustimmung automatisc
     <string name="memory_mms_usage">MMS</string>
     <string name="user_owner">Besitzer</string>
     <string name="unable_to_charge_the_connected_device">USB-Kabel kann nicht für „%s“ verwendet werden.</string>
-    <string name="unable_to_change_usb_options_via_smart_switch">USB-Optionen können nicht geändert werden, wenn Daten über Smart Switch übertragen werden.</string>
+    <string name="unable_to_change_usb_options_via_smart_switch">USB-Optionen können nicht geändert werden, wenn Daten mit Smart Switch übertragen werden.</string>
     <string name="usb_configuring">Konfigurieren…</string>
     <string name="usb_use_none_summary">Ihre Gerätedaten können nicht übertragen werden.</string>
     <string name="usb_use_charging_only_summary_vzw">Dieses Telefon nur aufladen.</string>
@@ -1173,9 +1190,9 @@ Ihr Telefon verfügt über Diagnosesoftware, die mit Ihrer Zustimmung automatisc
     <string name="usb_use_file_transfers_summary_vzw">Mediendateien auf einen Computer übertragen.</string>
     <string name="usb_use_file_transfers_summary">Mediendateien über eine MTP-Verbindung auf einen PC übertragen.</string>
     <string name="usb_use_MIDI_summary_vzw">Gerät für MIDI-Eingabe verwenden.</string>
-    <string name="usb_use_MIDI_summary">Das verbundene Gerät als ein MIDI-Player (Musical Instrument Digital Interface) oder eine Eingangsquelle verwenden.</string>
-    <string name="usb_use_software_installation">Software-Installation</string>
-    <string name="usb_use_software_installation_summary">Software-Update und Reparaturtool für Ihr Gerät auf einem Mac- oder Windows-Computer installieren.</string>
+    <string name="usb_use_MIDI_summary">Das verbundene Gerät als MIDI-Player oder Eingabequelle verwenden.</string>
+    <string name="usb_use_system_update">System-Update</string>
+    <string name="usb_use_system_update_summary">Installieren Sie Software Upgrade Assistant auf Ihrem Computer und aktualisieren oder reparieren Sie dieses Telefon.</string>
     <string name="sim_status_code">Code</string>
     <string name="sim_status_btn_update">SIM-Kartenstatus aktual.</string>
     <string name="sim_status_updating">Aktualisierung…</string>
@@ -1264,7 +1281,7 @@ Tippen Sie auf „OK“, um zuzulassen, dass die Helligkeit über die sicheren S
     <string name="display_temperature">Farbbalance</string>
     <string name="adjust_your_display_colour">Die Farben Ihrer Anzeige anpassen, um die Darstellung weißer Töne zu ändern.</string>
     <string name="led_indicator_settings">LED-Anzeige</string>
-    <string name="led_indicator_settings_summary">Beim Laden, Aufnehmen von Sprache und Erhalten von Benachrichtigungen die LED-Anzeige aufleuchten lassen.</string>
+    <string name="led_indicator_settings_summary">Wenn der Bildschirm ausgeschaltet ist, die LED-Anzeige einschalten, um den Status von Tonaufnahmen, ungelesenen Benachrichtigungen und des Akkus anzuzeigen.</string>
     <string name="screen_resolution_desc">Manche Inhalte werden möglicherweise verschwommen angezeigt oder nicht in FHD oder HD unterstützt.</string>
     <string name="display_battery_percentage">Akkuladung in % anzeigen</string>
     <string name="display_battery_percentage_summary">Verbleibende Akkuladung auf der Statusleiste in Prozent angeben.</string>
@@ -1293,7 +1310,7 @@ Tippen Sie auf „OK“, um zuzulassen, dass die Helligkeit über die sicheren S
     <string name="wallpaper">Hintergrundbild</string>
     <string name="lockscreen_wallpaper">Sperrbildschirm</string>
     <string name="status_bar">Statusleiste</string>
-    <string name="recent_notification_status_bar_title">Nur neueste Benachr. Anzeigen</string>
+    <string name="recent_notification_status_bar_title">Nur neueste Benachrichtigungen</string>
     <string name="recent_notification_status_bar_summary">Nur die %d neuesten Benachrichtigungssymbole in der Statusleiste anzeigen.</string>
     <string name="display_and_homescreen_title">Anzeige und Startbildschirm</string>
     <string name="navigationbar_title">Navigationsleiste</string>
@@ -1311,12 +1328,12 @@ Tippen Sie auf „OK“, um zuzulassen, dass die Helligkeit über die sicheren S
     <string name="blue_light_filter_off_time_next_day_summary_format">%s am nächsten Tag</string>
     <string name="blue_light_filter_user_schedule_title">Benutzerdefinierter Zeitplan</string>
     <string name="blue_light_filter_auto_schedule_title">Sonnenuntergang bis Sonnenaufgang</string>
-    <string name="blue_light_filter_desc">Verwenden Sie den Blaufilter, damit Sie besser schlafen. Legen Sie einen Zeitplan für die Verwendung des Blaufilters fest. Zur Verwendung der Option „Sonnenaufgang bis -untergang“ muss Standort aktiviert sein.</string>
-    <string name="blue_light_filter_enable_now">Jetzt aktivieren</string>
-    <string name="blue_light_filter_enable_as_scheduled">Wie geplant aktivieren</string>
-    <string name="blue_light_filter_scheduled_toast">Blaufilter aktiviert. Er wird zur geplanten Endzeit automatisch deaktiviert.</string>
+    <string name="blue_light_filter_desc">Verwenden Sie nachts den Blaufilter, damit Sie besser schlafen. Sie können einen Zeitplan für die Verwendung von Blaufilter festlegen. Zur Verwendung der Option „Sonnenuntergang bis -aufgang“ muss Standort aktiviert sein.</string>
+    <string name="blue_light_filter_enable_now">Jetzt einschalten</string>
+    <string name="blue_light_filter_enable_as_scheduled">Zeitplan festlegen</string>
+    <string name="blue_light_filter_scheduled_toast">Blaufilter eingeschaltet. Er wird zur geplanten Endzeit automatisch ausgeschaltet.</string>
     <string name="screen_mode_dlg_turn_off_blue_light_filter">%s und der Blaufilter können nicht gleichzeitig verwendet werden. Der Blaufilter wird deaktiviert.</string>
-    <string name="blue_light_filter_dlg_turn_on_location">Zur Verwendung der Option „Sonnenaufgang bis -untergang“, muss Standort aktiviert sein.</string>
+    <string name="blue_light_filter_dlg_turn_on_location">Zur Verwendung der Option „Sonnenuntergang bis -aufgang“ muss Standort aktiviert sein.</string>
     <string name="dlg_turn_on">Einschalten</string>
     <string name="screen_resolution_title">Bildschirmauflösung</string>
     <string name="screen_resolution_desc_title">Bildschirmauflösung ändern</string>
@@ -1389,8 +1406,8 @@ Tippen Sie auf „OK“, um zuzulassen, dass die Helligkeit über die sicheren S
     <string name="intelligent_help_0">Mit Smart Stay bleibt der Bildschirm dank Gesichtserkennung mit der vorderen Kamera so lange eingeschaltet, wie Sie den Bildschirm ansehen.</string>
     <string name="intelligent_help_1">Smart Stay funktioniert am besten, wenn:</string>
     <string name="intelligent_help_summary_0">das Telefon ruhig und gerade gehalten wird.</string>
-    <string name="intelligent_help_summary_1">Sie befinden sich an einem gut beleuchtet Ort aber nicht in direktem Sonnenlicht.</string>
-    <string name="intelligent_help_summary_2">Die Frontkamera wird nicht von einer App verwendet.</string>
+    <string name="intelligent_help_summary_1">Sie sich an einem gut beleuchteten Ort befinden, aber nicht in direktem Sonnenlicht.</string>
+    <string name="intelligent_help_summary_2">Die Frontkamera nicht von einer App verwendet wird.</string>
     <string name="enable_smartstay_title">%s aktivieren</string>
     <string name="device_visibility_title">Telefonsichtbarkeit</string>
     <string name="device_visibility_text">Anderen Geräten erlauben, Ihr Telefon zu finden und Dateien zu übertragen.</string>
@@ -1423,6 +1440,10 @@ Tippen Sie auf „OK“, um zuzulassen, dass die Helligkeit über die sicheren S
     <string name="crypt_keeper_vzw_password_warning">Richten Sie ein Sperrbildschirmpasswort mit mindestens %d Zeichen und 1 Zahl ein.</string>
     <string name="crypt_keeper_decrypt_title">Gerät entschlüsseln</string>
     <string name="crypt_keeper_decrypt_summary">Gerät verschlüsselt</string>
+    <string name="crypt_keeper_type_pin">PIN</string>
+    <string name="crypt_keeper_type_pattern">Muster</string>
+    <string name="crypt_keeper_type_password">Passwort</string>
+    <string name="crypt_keeper_type_direction">Richtungssperre</string>
     <string name="crypt_keeper_confirm_title_dec">Entschlüsselung bestätigen</string>
     <string name="crypt_keeper_force_power_cycle_pattern">Wenn Sie Ihr Gerät starten möchten, schalten Sie es aus und wieder ein und versuchen Sie es daraufhin erneut. Sie müssen das Muster, das Sie zum Starten des Geräts und zum Entsperren des Bildschirms verwenden, zeichnen. Ihre Sicherungs-PIN kann nicht zum Starten des Geräts verwendet werden.</string>
     <string name="crypt_keeper_setup_description_dec">"Gerät wird entschlüsselt. Dies kann einige Zeit dauern. Bitte warten…
@@ -1512,6 +1533,7 @@ Die Verschlüsselung kann eine Stunde oder länger dauern. Stellen Sie vor Begin
     <string name="crypt_keeper_verify_failed_summary">Ihr Gerät kann nicht neu gestartet werden. Die Integritätsüberprüfung ist fehlgeschlagen. Sie müssen Ihr Gerät auf die Werkseinstellungen zurücksetzen. Dabei werden alle Ihre Daten gelöscht.</string>
     <string name="cryptkeeper_emergency_call">Notruf</string>
     <string name="cryptkeeper_return_to_call">Zum Anruf zurückkehren</string>
+    <string name="cryptkeeper_default_enter_msg">Ihr Telefon ist zur Sicherheit verschlüsselt.</string>
     <string name="enter_password">Geben Sie Ihr Passwort ein, um das Gerät zu starten.</string>
     <string name="enter_pin">Geben Sie Ihre PIN ein, um das Gerät zu starten.</string>
     <string name="enter_pattern">Zeichnen Sie Ihr Muster, um das Gerät zu starten.</string>
@@ -1521,11 +1543,13 @@ Die Verschlüsselung kann eine Stunde oder länger dauern. Stellen Sie vor Begin
     <string name="cryptkeeper_wrong_pin">PIN-Eingabe ungültig</string>
     <string name="cryptkeeper_wrong_direction">Falsche Richtung gezeichnet</string>
     <string name="checking_decryption">Wird überprüft…</string>
-    <string name="starting_android">Android wird gestartet…</string>
     <string name="crypt_keeper_last_warn_wipe">Sie haben nur noch 1 Versuch, Ihr Gerät zu starten, bevor es auf die Werkseinstellungen zurückgesetzt wird. Dabei werden alle Daten, auch Dateien und heruntergeladene Apps, gelöscht.</string>
     <string name="crypt_keeper_failed_title_dec">Entschlüsselung fehlgeschlagen</string>
     <string name="crypt_keeper_failed_summary_dec">Entschlüsselung aufgrund einer Unterbrechung nicht abgeschlossen. Vor Verwendung auf Werkseinstellungen zurücksetzen (alle Daten werden gelöscht).</string>
     <string name="crypt_keeper_set_screen_lock_type">Sperrbildschirmtyp festlegen</string>
+    <string name="encryption_interstitial_message">"Sie können dieses Telefon zusätzlich schützen, indem vor dem Starten des Geräts die %s-Eingabe angefordert wird. Diese Funktion schützt Ihre Daten, wenn Ihr Gerät verloren geht oder es gestohlen wurde. „Sicherer Start“ ist für einige Apps aufgrund der Richtlinien zur Geräteverschlüsselung für den Zugriff auf Funktionen wie E-Mail-Synchronisierung erforderlich.
+
+Sie erhalten keine Anrufe, Nachrichten oder Benachrichtigungen und es werden keine Alarme wiedergegeben, bis das Telefon gestartet wurde."</string>
     <string name="encryption_interstitial_message_kor">Ihr Gerät ist verschlüsselt. Schützen Sie Ihre verschlüsselten Daten, indem Sie „Zur Datenentschlüsselung bei Gerätestart Bildschirmsperre anfordern“ auswählen. Diese Funktion schützt Ihre Daten, wenn Ihr Gerät verloren geht oder es gestohlen wurde. Bei jedem Einschalten des Geräts müssen Sie es entsperren, um die Gerätedaten zu entschlüsseln. Sie erhalten keine Anrufe, Nachrichten oder Benachrichtigungen, bis Sie Ihr Gerät entschlüsseln.</string>
     <string name="encryption_interstitial_message_direction">"Schützen Sie Ihr Gerät, indem Sie „Bei Gerätestart Richtungssperre anfordern“ auswählen. Diese Funktion schützt Ihre Daten, wenn Ihr Gerät verloren geht oder es gestohlen wurde.
 
@@ -1547,6 +1571,7 @@ Sie erhalten keine Anrufe, Nachrichten oder Benachrichtigungen und es werden kei
 Sie erhalten keine Anrufe, Nachrichten oder Benachrichtigungen und es werden keine Alarme wiedergegeben, bis das Gerät gestartet wurde."</string>
     <string name="encryption_interstitial_error_message">Ändern Sie zum Schutz Ihrer Gerätedaten den Sperrbildschirmtyp auf PIN, Passwort, Muster oder Fingerabdruck. Versuchen Sie es dann erneut.</string>
     <string name="encryption_interstitial_error_message_direction">Ändern Sie zum Schutz Ihrer Gerätedaten den Sperrbildschirmtyp zu PIN, Passwort, Muster, Richtungssperre oder Fingerabdrücke. Versuchen Sie es dann erneut.</string>
+    <string name="encryption_interstitial_error_message_direction_without_fingerprint">Ändern Sie zum Schutz Ihrer Gerätedaten den Sperrbildschirmtyp zu PIN, Passwort, Muster oder Richtungssperre. Versuchen Sie es dann erneut.</string>
     <string name="encryption_interstitial_error_message_iris_direction">Ändern Sie zum Schutz Ihrer Gerätedaten den Sperrbildschirmtyp zu PIN, Passwort, Muster, Richtungssperre, Fingerabdrücke oder Iris. Versuchen Sie es dann erneut.</string>
     <string name="encryption_interstitial_error_message_without_fingerprint">Ändern Sie zum Schutz Ihrer Gerätedaten den Sperrbildschirmtyp auf PIN, Passwort oder Muster. Versuchen Sie es dann erneut.</string>
     <string name="encryption_interstitial_error_sktlock">Die Sicherheitssperre und der sichere Start können nicht gleichzeitig aktiviert sein. Wählen Sie keine Sicherheitssperre aus und versuchen Sie es erneut.</string>
@@ -1810,6 +1835,8 @@ Bevor Sie eine Reparatur als Garantieleistung vornehmen lassen, muss die Reaktiv
 %s"</string>
     <string name="improve_location_title">Standortgenauigk. verbessern</string>
     <string name="improve_location_summary">WLAN und mobile Netze verwenden, um genauere Informationen über den Standort Ihres Geräts bereitzustellen.</string>
+    <string name="send_last_location_title">Letzten Standort senden</string>
+    <string name="send_last_location_summary">Zulassen, dass Ihr Telefon den letzten Standort an den Server von Find My Mobile sendet, wenn die Akkuladung ein bestimmtes Niveau unterschreitet.</string>
     <string name="high_power_description">Aktivieren Sie „Akkuverbrauch optimieren“ für einzelne Apps. Einige Funktionen, z. B. solche, die mobile Netze verwenden oder Daten synchronisieren, werden eingeschränkt, um Akkuladung zu sparen.</string>
     <string name="wifi_display_summary_off">Aus</string>
     <string name="battery_usage_description">Dieser Bildschirm zeigt die Akkuverwendung, seitdem das Gerät das letzte Mal voll geladen war.</string>
@@ -1905,6 +1932,8 @@ An Ihrem Gerät stehen alternative Sicherheitsoptionen zur Verfügung. Bitte bea
     <string name="iris_sensor_not_working_popup_title">Iriserkennung funktioniert nicht</string>
     <string name="iris_sensor_not_working_msg">Der Irissensor reagiert nicht. Versuchen Sie es später erneut.</string>
     <string name="iris_go_to_samsung_theme">Zu Samsung Themes</string>
+    <string name="biometrics_dex_cant_use_msg">%s kann in Samsung DeX nicht verwendet werden.</string>
+    <string name="biometrics_dex_closed_to_switch">%s geschlossen, um zu Samsung DeX zu wechseln.</string>
     <string name="knox_twofactor_bio_description">Wählen Sie Ihren biometrischen Sperrtyp und den zweiten Sperrtyp aus, um %s zu entsperren.</string>
     <string name="fingerprint_registered">Registrierte Fingerabdrücke werden mit der ausgewählten Entsperrmethode verwendet.</string>
     <string name="knox_twofactor_description">Verwenden Sie zwei Sperrtypen, um Knox noch sicherer zu machen. Ihre Fingerabdrücke werden als erster Sperrtyp verwendet. Wählen Sie unten einen zweiten Sperrtyp aus.</string>
@@ -2002,8 +2031,8 @@ Für die Bestimmung Ihres Standorts wird das Mobilfunknetz genutzt. Dabei kommt 
     <string name="app_ops_settings_summary">Anwendungsberechtigungen anzeigen oder ändern.</string>
     <string name="backup_key_for_applock_header">Muster, PIN oder Passwort zur gemeinsamen Verwendung mit der Fingerabdruckerkennung festlegen, um Apps zu schützen bzw. deren Schutz aufzuheben.</string>
     <string name="backup_key_for_privatemode_header">Muster, PIN oder Passwort zur gemeinsamen Verwendung mit der Fingerabdruckerkennung für den Zugriff auf den privaten Modus festlegen.</string>
-    <string name="status_added">Hinzugefügt</string>
     <string name="text_security_title_b2c">Wählen Sie einen Sperrtyp aus. Falls Sie vergessen, wie Sie den sicheren Ordner entsperren, können Sie Ihre Sperre mit Ihrem Samsung Konto zurücksetzen.</string>
+    <string name="status_added">Hinzugefügt</string>
     <string name="lockpattern_backup_pin">Sicherungs-PIN</string>
     <string name="applock_type_fingerprint">Fingerabdruck</string>
     <string name="unlock_set_unlock_two_factor_title">Zweistufige Überprüfung</string>
@@ -2219,7 +2248,7 @@ Sogar, wenn Ihr Telefon gelöscht wird, ist vor Verwendung des Telefons immer no
     <string name="palm_swipe_title">Screenshot</string>
     <string name="screen_recorder_title">Bildschirm aufnehmen</string>
     <string name="screen_recorder_summary">Videos vom Bildschirm aufnehmen, wenn Sie Ihr Gerät verwenden.</string>
-    <string name="multi_window_setting_title">Geste für Pop-up-Ansicht</string>
+    <string name="multi_window_setting_title">Geste für Pop-up-Aktion</string>
     <string name="multi_window_setting_description">Wenn eine App auf dem Bildschirm geöffnet ist, passen Sie ihre Größe an, indem Sie diagonal aus einer oberen Bildschirmecke streichen.</string>
     <string name="multi_window_screen_title">Multi Window</string>
     <string name="multi_window_screen_summary">Mehr als eine App gleichzeitig anzeigen.</string>
@@ -2259,18 +2288,19 @@ Sogar, wenn Ihr Telefon gelöscht wird, ist vor Verwendung des Telefons immer no
     <string name="air_browse_note_summary">Im Anzeigemodus zwischen Seiten wechseln.</string>
     <string name="data_usage_enable_mobile_summery">Über Ihr mobiles Netz auf das Internet zugreifen.</string>
     <string name="data_usage_enable_mobile_warning_skt">Bei einer Verbindung mit einem mobilen Netz fallen je nach Tarif möglicherweise zusätzliche Gebühren an. Fortfahren?</string>
-    <string name="data_usage_enable_mobile_warning_ktt">Bei einer Verbindung mit einem mobilen Netz fallen je nach Tarif möglicherweise zusätzliche Gebühren an. Fortfahren?</string>
+    <string name="data_usage_enable_mobile_warning_ktt">Mobile Daten werden eingeschaltet. Bei einer Verbindung mit einem mobilen Netzwerk fallen je nach Tarif möglicherweise zusätzliche Gebühren an.</string>
     <string name="data_usage_enable_mobile_warning_lgt">Bei einer Verbindung mit einem mobilen Netz fallen je nach Tarif möglicherweise zusätzliche Gebühren an. Fortfahren?</string>
     <string name="data_usage_disable_mobile_title">Deaktivierung von mobilen Daten</string>
     <string name="data_usage_disable_mobile_warning_skt">Durch das Trennen der Verbindung zum Mobilnetzwerk wird die Verwendung von MMS und 3G-Daten eingeschränkt. Trennen?</string>
     <string name="data_usage_disable_mobile_warning_ktt">Durch das Trennen der Verbindung zum Mobilnetzwerk wird die Verwendung von MMS und 3G-Daten eingeschränkt. Trennen?</string>
     <string name="data_usage_disable_mobile_warning_ktt_jb">Durch das Trennen der Verbindung zum Mobilnetzwerk wird die Verwendung von MMS und 3G-Daten eingeschränkt. Trennen?</string>
-    <string name="mobile_data_off_dialog_text_vzw">"Sie können das Internet, E-Mail oder andere Apps, die eine Datenverbindung benötigen, nicht mehr verwenden, außer Sie nutzen WLAN.
+    <string name="data_usage_disable_mobile_warning_dcm">"If Mobile data is turned off, your device must be connected to a Wi-Fi network to use services that require a network connection.
 
-Mobile Daten deaktivieren?"</string>
-    <string name="mobile_data_off_dialog_text_common">"Sie können das Internet, E-Mail oder andere Anwendungen, die eine Datenverbindung benötigen, nicht mehr verwenden, außer Sie nutzen WLAN.
-
-Mobile Daten werden deaktiviert."</string>
+Mobile data will be turned off."</string>
+    <string name="mobile_data_off_dialog_text_vzw">Sie können das Internet, E-Mail oder andere Apps, die eine Datenverbindung benötigen, nur verwenden, wenn Sie WLAN nutzen. Mobile Datenverbindung ausschalten?</string>
+    <string name="mobile_data_off_dialog_text_volte">Die Videoanruffunktion Ihres Telefons funktioniert nicht, wenn „Mobile Daten“ ausgeschaltet ist. Sie können dann auch Internet, E-Mail oder andere Anwendungen, die eine Datenverbindung benötigen, nur verwenden, wenn Sie WLAN nutzen. Mobile Datenverbindung ausschalten?</string>
+    <string name="mobile_data_off_dialog_text_common">Sie können das Internet, E-Mail oder andere Anwendungen, die eine Netzwerkverbindung benötigen, nur dann verwenden, wenn Sie mit einem WLAN-Netzwerk verbunden sind.</string>
+    <string name="data_usage_turn_off_btn">Ausschalten</string>
     <string name="wfd_settings_summary">Bildschirm Ihres Geräts für ein anderes Gerät freigeben</string>
     <string name="nfc_settings_advanced_explain">"Legen Sie die Standard-NFC-Methode fest.
 Für einige NFC-Transaktionen und mobile Zahlungsdienste ist möglicherweise eine andere Standard-NFC-Methode erforderlich."</string>
@@ -2406,10 +2436,11 @@ Für einige NFC-Transaktionen und mobile Zahlungsdienste ist möglicherweise ein
     <string name="scheduling_switch_summary">„Nicht stören“ zu geplanten Zeiten automatisch aktivieren und deaktivieren.</string>
     <string name="no_exceptions_summary">Alle Anrufe, Alarme und Medien stummschalten.</string>
     <string name="alarms_only_summary">Nur Alarmen erlauben bei aktiviertem „Nicht stören“-Modus zu klingeln oder zu vibrieren.</string>
+    <string name="custrom_summary">Benutzerdefinierte Ausnahmen festlegen, die bei aktiviertem „Nicht stören“-Modus klingeln und vibrieren dürfen.</string>
     <string name="zen_mode_events_summary">Benachrichtigungen von S Planner und andere Kalenderereignisse zulassen.</string>
     <string name="zen_mode_events_summary_na">Benachrichtigungen von Kalenderereignissen und Aufgaben zulassen.</string>
     <string name="zen_mode_reminders_summary">Erinnerungen von Apps zulassen, die sie unterstützen.</string>
-    <string name="dnd_app_noti_summary">Als vorrangige Unterbrechungen festlegen, damit App-Benachrichtigungen als Ausnahmen zugelassen werden.</string>
+    <string name="dnd_app_noti_summary">Benachrichtigungen von ausgewählten Apps zulassen.</string>
     <string name="no_exceptions_dcm_summary">Mute all calls and alerts, including Area Mail alarms.</string>
     <string name="dnd_screen_switch_summary">Alle Anrufe und Signale stummschalten, außer für die von Ihnen eingerichteten Ausnahmen.</string>
     <string name="app_notification_priority_app_list_title">Benachr. bevorzugter Apps</string>
@@ -2456,7 +2487,7 @@ Modus"</string>
     <string name="personal_page_secretbox_disclaimer_title">Haftungsausschluss</string>
     <string name="personal_page_secretbox_disclaimer_message">Der private Modus schützt Ihre Daten nicht vor einem Zugriff durch andere Anwendungen. Um zu verhindern, dass Ihre Daten mit externen Servern synchronisiert werden, deaktivieren Sie bitte die Einstellungen zur automatischen Synchronisierung auf Ihrem Gerät.</string>
     <string name="personal_page_secretbox_disclaimer_message_vzw">Inhalte, die in den privaten Modus verschoben werden, werden ausgeblendet und nicht angezeigt, wenn Sie den privaten Modus beenden. Eine automatische Synchronisierung im privaten Modus kann dazu führen, dass Inhalt für Apps von Drittanbietern sichtbar ist. Überprüfen Sie die Einstellungen zur automatischen Synchronisierung Ihrer anderen Anwendungen, bevor Sie den privaten Modus verwenden.</string>
-    <string name="personal_page_tutorial_app_title_message">Nutzen Sie den privaten Modus, um Inhalte zu verbergen, die vertraulich bleiben sollen. Wenn Sie die folgenden Apps verwenden, wählen Sie die Elemente aus, die Sie als privat markieren möchten. Tippen Sie dann auf die Schaltfläche „MEHR“ und wählen Sie „Nach Privat verschieben“ aus. Inhalt der als privat markiert wurde kann nur bei aktiviertem privaten Modus angezeigt werden.</string>
+    <string name="personal_page_tutorial_app_title_message">Nutzen Sie den privaten Modus, um Inhalte zu verbergen, die vertraulich bleiben sollen. Wenn Sie die folgenden Apps verwenden, wählen Sie die Elemente aus, die Sie als privat markieren möchten. Tippen Sie dann auf die Schaltfläche „Weitere Optionen“ und wählen Sie „Nach Privat verschieben“ aus. Inhalt, der als privat markiert wurde, kann nur bei eingeschaltetem privaten Modus angezeigt werden.</string>
     <string name="personal_page_inline_help">Wählen Sie einen Zugriffstyp aus, um den privaten Modus zu verwenden. Die Entsperrmethode des jeweiligen Zugriffstyps kann nicht wiederhergestellt werden, falls Sie sie einmal vergessen. Um den privaten Modus wieder verwenden zu können, müssen Sie Ihr Gerät auf die Werkseinstellungen zurücksetzen.</string>
     <string name="personal_page_backup_pin_summary">Erstellen Sie eine Sicherungs-PIN für den privaten Modus, für den Fall, dass Sie Ihr Muster vergessen.</string>
     <string name="personal_page_incorrect_pin">"Ungültige PIN.
@@ -2846,6 +2877,7 @@ Trennen Sie das Ladegerät, um diese Funktion zu aktivieren/deaktivieren."</stri
     <string name="samsung_backup_summary">Samsung Konto verwenden, um Ihre Daten zu sichern.</string>
     <string name="samsung_restore_summary">Samsung Konto verwenden, um Sicherungsdaten wiederherzustellen.</string>
     <string name="sns_settings_title">Zu mobilen Daten wechseln, wenn Ihre WLAN-Verbindung instabil wird. Ihr Telefon kann auch zu gespeicherten WLANs aus den am häufigsten besuchten Bereichen wechseln. Der intelligente Netzwechsel schaltet gespeicherte WLANs automatisch aus oder ein.</string>
+    <string name="sns_settings_title_include_autowifi">Zu mobilen Daten wechseln, wenn Ihre WLAN-Verbindung instabil wird. Ihr Telefon kann auch zu gespeicherten WLANs aus den am häufigsten besuchten Bereichen wechseln. Der intelligente Netzwechsel schaltet gespeicherte WLANs automatisch aus oder ein.</string>
     <string name="smart_bonding">Download-Booster</string>
     <string name="smart_bonding_popup_title">Download-Booster aktivieren</string>
     <string name="smart_bonding_description_vzw">"Große Dateien (über %d MB) werden durch gleichzeitige Nutzung von WLAN und LTE schneller heruntergeladen. Das Symbol für den Download-Booster wird bei eingeschaltetem Download-Booster in der Statusleiste angezeigt.
@@ -3037,7 +3069,7 @@ Downloading via mobile networks may result in additional charges depending on yo
     <string name="wifi_on_dialog_summary">Auswahl eines Netzwerks zum Wechsel des WLANs</string>
     <string name="notifyme_later">Nicht jetzt</string>
     <string name="wifi_p2p_help_message">Wi-Fi Direct ermöglicht es WLAN-Geräten eine direkte Verbindung herzustellen und sorgt dafür, dass Druckvorgänge, Datenaustausch, Synchronisierung und die gemeinsame Nutzung von Bildschirmen einfacher und bequemer durchgeführt werden können. Durch die Verbindungsherstellung zu Wi-Fi Direct unterstützenden Geräten können Inhalte freigegeben, Daten synchronisiert, Kontakt mit Freunden aufgenommen sowie Spiele, Audiodateien, Videos und vieles mehr mit zahlreichen Anwendungen genutzt werden.</string>
-    <string name="prev_button_label">Zurück</string>
+    <string name="prev_button_label">Vorherige</string>
     <string name="wifi_sns_setting_alert_button_do_not_enable">Nicht aktivieren</string>
     <string name="wifi_smart_network_switch_aggressive_switching_summary">Den Internetzugriff auch dann zu einem mobilen Netz wechseln, wenn Ihre WLAN-Internetverbindung nur ein wenig instabil ist. Dadurch kann sich Ihr genutztes Datenvolumen erhöhen.</string>
     <string name="wifi_smart_network_switch_aggressive_switching">Aggressives Wechseln</string>
@@ -3066,6 +3098,8 @@ Downloading via mobile networks may result in additional charges depending on yo
     <string name="wifi_manage_network">Netzwerke Verwalten</string>
     <string name="wlan_permission_available_message">Über ein Pop-up die Genehmigung zur Verwendung von WLAN anfordern</string>
     <string name="wlan_permission_available">WLAN-Verwendung anfordern</string>
+    <string name="wifi_hotspot20_summary_tmo">Stellen Sie nahtlos eine Verbindung mit Hotspot 2.0-fähigen WLAN-Access Points her, ohne dass ein Passwort erforderlich ist.</string>
+    <string name="wifi_hotspot20_summary_dcm">Automatisch mit Hotspot 2.0 WLAN verbinden, wenn WLAN eingeschaltet ist.</string>
     <string name="wifi_hotspot20_summary">Automatisch mit WLAN-Zugangspunkten verbinden, die Hotspot 2.0 unterstützen.</string>
     <string name="wifi_hotspot20_enable">Hotspot 2.0</string>
     <string name="wifi_att_auto_connect_summary">Automatisch mit AT&amp;T WLAN-Hotspot verbinden, wenn dieser erkannt wird.</string>
@@ -3084,9 +3118,9 @@ Downloading via mobile networks may result in additional charges depending on yo
     <string name="wifi_auto_reconnect">Automatisch erneut verbinden</string>
     <string name="wifi_enable_warning_chn">Durch das Einschalten von WLAN wird Mobile Hotspot deaktiviert.</string>
     <string name="wifi_enable_warning_vzw">Durch das Einschalten von WLAN wird Mobile Hotspot deaktiviert. Fortfahren?</string>
-    <string name="wifi_enable_warning_tmo">Wenn Mobile HotSpot aktiv ist, wird das WLAN ausgeschaltet. Zum Einschalten des WLAN den Mobile Hotspot ausschalten.</string>
+    <string name="wifi_enable_warning_tmo">Wenn Mobile HotSpot aktiv ist, wird das WLAN ausgeschaltet. Zum Einschalten des WLAN den Mobile HotSpot ausschalten.</string>
     <string name="wifi_enable_warning_spr">Durch das Einschalten von WLAN wird Hotspot deaktiviert.</string>
-    <string name="wifi_enable_warning_mtr">Durch das Einschalten von WLAN wird Mobile Hotspot ausgeschaltet. Fortfahren?</string>
+    <string name="wifi_enable_warning_mtr">Wenn Mobile Hotspot aktiv ist, wird das WLAN ausgeschaltet. Zum Einschalten des WLAN den Mobile Hotspot ausschalten.</string>
     <string name="wifi_enable_warning_usc">Beim Einschalten von WLAN wird der mobile WLAN-Hotspots ausgeschaltet. Fortfahren?</string>
     <string name="wifi_enable_warning">Durch das Einschalten von WLAN wird Mobile Hotspot deaktiviert.</string>
     <string name="wifi_control_history_title">WLAN-Steuerungsverlauf</string>
@@ -3120,9 +3154,9 @@ Downloading via mobile networks may result in additional charges depending on yo
     <string name="wifi_ap__wifi_sharing_vzw">WLAN-Freigabe</string>
     <string name="wifi_ap__wifi_sharing">WLAN-Freigabe</string>
     <string name="first_use_wifi_msg_mtr">Tippen Sie auf „OK“, um mehr über die Verwendung von Mobile Hotspot zu erfahren.</string>
-    <string name="first_use_wifi_msg">Tippen Sie auf „OK“, um mehr über die Verwendung von Mobile Hotspot zu erfahren.</string>
+    <string name="first_use_wifi_msg">Tippen Sie auf „OK“, um mehr über die Verwendung von Mobile HotSpot zu erfahren.</string>
     <string name="first_use_title_mtr">Anzeigen der Hilfe zu Mobile Hotspot</string>
-    <string name="first_use_title">Anzeigen der Hilfe zu Mobile Hotspot</string>
+    <string name="first_use_title">Anzeigen der Hilfe zu Mobile HotSpot</string>
     <string name="wifi_ap_wifi_sharing_title">WLAN freigeben</string>
     <string name="wifi_ap_wifi_sharing_status_enabled">Aktiviert</string>
     <string name="wifi_ap_wifi_sharing_status_disabled">Deaktiviert</string>
@@ -3154,11 +3188,11 @@ Die Verwendung von Mobile Hotspots verbraucht mehr Akkuladung und erhöht Ihre D
 Mobile Hotspot nutzt mobile Daten aus Ihrem Tarif.
 
 Es wird empfohlen, das Telefon bei der Verwendung von Mobile Hotspot an ein Ladegerät anzuschließen, um Akkuladung zu sparen."</string>
-    <string name="wifi_ap_instruction_changeable_maxclient_tmo">"Sie können Ihr Gerät unter Verwendung von Mobile Hotspot als Internet-Zugangspunkt verwenden. So können sich bis zu %d andere Geräte über WLAN verbinden. Die verbundenen Geräte können dann über Ihr mobiles Netz auf das Internet zugreifen.
+    <string name="wifi_ap_instruction_changeable_maxclient_tmo">"Sie können Ihr Gerät unter Verwendung von Mobile HotSpot als Internet-Zugangspunkt verwenden. So können sich bis zu %d andere Geräte über WLAN verbinden. Die verbundenen Geräte können dann über Ihr mobiles Netz auf das Internet zugreifen.
 
 Sie können ein Profil zugelassener Geräte erstellen und den Verbindungsmodus darauf einstellen.
 
-Die Verwendung von Mobile Hotspot verbraucht mehr Akkuleistung und erhöht Ihre Datennutzung."</string>
+Die Verwendung von Mobile HotSpot verbraucht mehr Akkuleistung und erhöht Ihre Datennutzung."</string>
     <string name="wifi_ap_instruction_changeable_maxclient_spr">"Sie können den Hotspot Ihres Geräts für WLAN-fähige Geräte freigeben.
 
 Stellen Sie nach dem Starten des Mobile Hotspot-WLAN-Routers mithilfe der Steuerelemente auf dem WLAN-fähigen Gerät eine Verbindung her."</string>
@@ -3218,7 +3252,7 @@ Um Smartphone Mobile Hotspot einzurichten, tippen Sie auf das Menüsymbol und da
     <string name="wifi_ap_allow_only_allowlist">Nur zugelassene Geräte können sich verbinden.</string>
     <string name="wifi_ap_allow_device_already_added">%1$s (%2$s) wurde bereits als %3$s hinzugefügt.</string>
     <string name="wifi_ap_menu_configure_hotspot_spr">Hotspot konfigurieren</string>
-    <string name="wifi_ap_menu_configure_hotspot_tmo">Mobile Hotspot konfigurieren</string>
+    <string name="wifi_ap_menu_configure_hotspot_tmo">Mobile HotSpot konfigurieren</string>
     <string name="wifi_ap_menu_configure_hotspot_att">Mobile Hotspot konfigurieren</string>
     <string name="wifi_ap_menu_configure_hotspot">Mobile Hotspot konfigurieren</string>
     <string name="wifi_ap_menu_timeout">Timeout-Einstellungen</string>
@@ -3262,6 +3296,7 @@ Nachdem der Name oder das Passwort des mobilen Hotspots geändert wurde muss ein
     <string name="wifi_wps_onstart_pbc_mobileap">Auf dem anderen Gerät die WPS-Taste drücken, um eine Verbindung herzustellen.</string>
     <string name="wifi_wps_complete_mobileap">Das Gerät ist jetzt mit Ihrem Gerät verbunden.</string>
     <string name="wifi_ap_disconnect_warn">Gerät trennen</string>
+    <string name="wifi_ap_change_policy_warn_mtr">Das derzeit verbundene Gerät wird vom mobilen WLAN-Hotspot getrennt.</string>
     <string name="wifi_ap_change_policy_warn">Alle derzeit verbundenen Geräte werden vom Mobile Hotspot getrennt.</string>
     <string name="wifi_ap_warn_max_whitelist">Maximale Anzahl an zugelassenen Geräten (%d) erreicht.</string>
     <string name="wifiap_one_item_deleted">1 Element wird gelöscht.</string>
@@ -3290,17 +3325,18 @@ WLAN ist jetzt aktiviert."</string>
     <string name="wifi_ap_channel_2g">2,4 GHz</string>
     <string name="wifi_ap_channel_5g">5 GHz</string>
     <string name="wifi_ap_channel_5g_prefer">5-GHz-Band verwenden, wenn verfügbar</string>
-    <string name="wifi_tether_dialog_nosim_warning_title_tmo">Mobile Hotspot</string>
+    <string name="wifi_tether_dialog_nosim_warning_title_tmo">Mobile HotSpot</string>
     <string name="wifi_tether_dialog_nosim_warning_title_spr">Hotspot</string>
     <string name="wifi_tether_dialog_nosim_warning_title_att">Mobile Hotspot</string>
     <string name="wifi_tether_dialog_nosim_warning_title">Mobile Hotspot</string>
     <string name="wifi_tether_dialog_nosim_warning_chn">Setzen Sie eine SIM-Karte ein, um Mobile Hotspot und andere Tethering-Funktionen zu verwenden.</string>
     <string name="wifi_tether_dialog_nosim_warning_vzw">Setzen Sie eine SIM-Karte ein, um Mobile Hotspot und andere Tethering-Optionen zu verwenden.</string>
-    <string name="wifi_tether_dialog_nosim_warning_tmo">Legen Sie die SIM-Karte ein, um Ihre mobile Datenverbindung und den Internetzugang über Mobile WLAN Hotspot oder USB-Tethering mit anderen Geräten zu teilen.</string>
-    <string name="wifi_tether_dialog_nosim_warning_spr">SIM-Karte einsetzen, um Hotspot und Tethering zu verwenden</string>
+    <string name="wifi_tether_dialog_nosim_warning_tmo">Legen Sie die SIM-Karte ein, um Ihre mobile Datenverbindung und den Internetzugang über Mobile WLAN HotSpot oder USB-Tethering mit anderen Geräten zu teilen.</string>
+    <string name="wifi_tether_dialog_nosim_warning_mtr">Legen Sie die SIM-Karte ein, um Ihre mobile Datenverbindung und den Internetzugang über Mobile WLAN Hotspot oder USB-Tethering mit anderen Geräten zu teilen.</string>
+    <string name="wifi_tether_dialog_nosim_warning_spr">Eine SIM-Karte einsetzen, um Hotspot zu verwenden.</string>
     <string name="wifi_tether_dialog_nosim_warning_usc">Setzen Sie eine SIM-Karte ein, um Mobile Hotspot und andere Tethering-Funktionen zu verwenden.</string>
     <string name="wifi_tether_dialog_nosim_warning">Setzen Sie eine SIM-Karte ein, um Mobile Hotspot und andere Tethering-Funktionen zu verwenden.</string>
-    <string name="mobileap_tmo">Mobile Hotspot</string>
+    <string name="mobileap_tmo">Mobile HotSpot</string>
     <string name="mobileap_spr">Hotspot</string>
     <string name="mobileap_att">Mobile Hotspot</string>
     <string name="mobileap">Mobile Hotspot</string>
@@ -3324,7 +3360,7 @@ WLAN ist jetzt aktiviert."</string>
     <string name="wifi_ap_instruction_open_activate_color3_att">Stellen Sie eine Verbindung mit &lt;font color=\"%1$s\">%2$s&lt;/font> her.</string>
     <string name="wifi_ap_instruction_open_activate_color3">Stellen Sie eine Verbindung mit &lt;font color=\"%1$s\">%2$s&lt;/font> her.</string>
     <string name="wifi_ap_instruction_open_activate_color4_vzw">Viel Spaß mit dem Mobile Hotspot.</string>
-    <string name="wifi_ap_instruction_open_activate_color4_tmo">Viel Spaß im Internet mit Ihrem persönlichen Mobile Hotspot.</string>
+    <string name="wifi_ap_instruction_open_activate_color4_tmo">Viel Spaß im Internet mit Ihrem persönlichen Mobile HotSpot.</string>
     <string name="wifi_ap_instruction_open_activate_color4_spr">Viel Spaß im Internet mit Hotspot.</string>
     <string name="wifi_ap_instruction_open_activate_color4_att">Viel Spaß im Internet mit Mobile Hotspot.</string>
     <string name="wifi_ap_instruction_open_activate_color4_mtr">Viel Spaß im Internet mit dem mobilen WLAN-Hotspot.</string>
@@ -3343,7 +3379,7 @@ WLAN ist jetzt aktiviert."</string>
     <string name="wifi_ap_instruction_activate_color3_att">Stellen Sie eine Verbindung mit &lt;font color=\"%1$s\">%2$s&lt;/font> her, indem Sie als Passwort &lt;font color=\"%1$s\">%3$s&lt;/font> eingeben.</string>
     <string name="wifi_ap_instruction_activate_color3">Stellen Sie eine Verbindung mit &lt;font color=\"%1$s\">%2$s&lt;/font> her, indem Sie als Passwort &lt;font color=\"%1$s\">%3$s&lt;/font> eingeben.</string>
     <string name="wifi_ap_instruction_activate_color4_vzw">Viel Spaß mit dem Mobile Hotspot.</string>
-    <string name="wifi_ap_instruction_activate_color4_tmo">Viel Spaß im Internet mit Ihrem persönlichen Mobile Hotspot.</string>
+    <string name="wifi_ap_instruction_activate_color4_tmo">Viel Spaß im Internet mit Ihrem persönlichen Mobile HotSpot.</string>
     <string name="wifi_ap_instruction_activate_color4_spr">Geben Sie &lt;font color=\"%1$s\">%3$s&lt;/font> im Feld &lt;font color=\"%1$s\">%4$s&lt;/font> ein.</string>
     <string name="wifi_ap_instruction_activate_color4_att">Viel Spaß im Internet mit Mobile Hotspot.</string>
     <string name="wifi_ap_instruction_activate_color4_mtr">Viel Spaß im Internet mit dem mobilen WLAN-Hotspot.</string>
@@ -3365,16 +3401,16 @@ WLAN ist jetzt aktiviert."</string>
     <string name="wifi_ap_instruction_activate_color_hidden3_chn">Stellen Sie eine Verbindung mit &lt;font color=\"%1$s\">%2$s&lt;/font> her, indem Sie als Passwort &lt;font color=\"%1$s\">%3$s&lt;/font> eingeben.</string>
     <string name="wifi_ap_instruction_activate_color_hidden3_tmo">Stellen Sie eine Verbindung mit &lt;font color=\"%1$s\">%2$s&lt;/font> her, indem Sie als Passwort &lt;font color=\"%1$s\">%3$s&lt;/font> eingeben.</string>
     <string name="wifi_ap_instruction_activate_color_hidden3">Stellen Sie eine Verbindung mit &lt;font color=\"%1$s\">%2$s&lt;/font> her, indem Sie als Passwort &lt;font color=\"%1$s\">%3$s&lt;/font> eingeben.</string>
-    <string name="wifi_ap_instruction_activate_color_hidden4_tmo">Viel Spaß im Internet mit Ihrem persönlichen Mobile Hotspot.</string>
+    <string name="wifi_ap_instruction_activate_color_hidden4_tmo">Viel Spaß im Internet mit Ihrem persönlichen Mobile HotSpot.</string>
     <string name="wifi_ap_instruction_no_maxclient">"Sie können Ihr Gerät unter Verwendung von Mobile Hotspot als Internet-Access Point verwenden. So können sich andere Geräte über WLAN verbinden. Die verbundenen Geräte können dann über Ihr mobiles Netz auf das Internet zugreifen.
 
 Sie können ein Profil zugelassener Geräte erstellen und den Verbindungsmodus darauf einstellen.
 
 Die Verwendung von Mobile Hotspots verbraucht mehr Akkuladung und erhöht Ihre Datennutzung."</string>
     <string name="wifi_ap_instruction_configure_vzw">Um die Mobile Hotspot-Konfiguration zu ändern, wechseln Sie zu „Einstellungen > Mobile Hotspot und Tethering > Mobile Hotspot > MEHR“ und wählen Sie dann „Mobile Hotspot konfigurieren“ aus.</string>
-    <string name="wifi_ap_instruction_configure_tmo">Tippen Sie zum Ändern der Mobile Hotspot-Konfiguration auf „Weitere Optionen“ und wählen Sie „Mobile Hotspot konfigurieren“ aus.</string>
+    <string name="wifi_ap_instruction_configure_tmo">Tippen Sie zum Ändern der Mobile HotSpot-Konfiguration auf „Weitere Optionen“ und wählen Sie „Mobile HotSpot konfigurieren“ aus.</string>
     <string name="wifi_ap_instruction_configure">Tippen Sie zum Ändern der Mobile Hotspot-Konfiguration auf die Schaltfläche „Weitere Optionen“ und wählen Sie „Mobile Hotspot konfigurieren“ aus.</string>
-    <string name="wifi_ap_instruction_configure_non_grace_tmo">Tippen Sie zum Ändern der Mobile Hotspot-Konfiguration auf „MEHR“ und wählen Sie „Mobile Hotspot konfigurieren“ aus.</string>
+    <string name="wifi_ap_instruction_configure_non_grace_tmo">Tippen Sie zum Ändern der Mobile HotSpot-Konfiguration auf „MEHR“ und wählen Sie „Mobile HotSpot konfigurieren“ aus.</string>
     <string name="wifi_ap_instruction_configure_non_grace">Tippen Sie zum Ändern der Mobile Hotspot-Konfiguration auf „MEHR“ und wählen Sie „Mobile Hotspot konfigurieren“ aus.</string>
     <string name="wifi_ap_change_security">Sicherheit ändern</string>
     <string name="wifi_ap_maxclient">Maximale Anzahl an Verbindungen</string>
@@ -3386,12 +3422,13 @@ Die Verwendung von Mobile Hotspots verbraucht mehr Akkuladung und erhöht Ihre D
     <string name="wifi_tether_enabled_subtext_att">Mobiler WLAN-Hotspot %1$s ist aktiv.</string>
     <string name="wifi_tether_enabled_subtext">Mobile hotspot (%s) wird verwendet.</string>
     <string name="wifi_tether_configure_ap_text_vzw">Mobile Hotspot konfigurieren</string>
-    <string name="wifi_tether_configure_ap_text_tmo">Mobile Hotspot konfigurieren</string>
+    <string name="wifi_tether_configure_ap_text_tmo">Mobile HotSpot konfigurieren</string>
     <string name="wifi_tether_configure_ap_text_spr">Hotspot konfigurieren</string>
     <string name="wifi_tether_configure_ap_text_usc">WLAN-Hotspot konfigurieren</string>
     <string name="wifi_tether_configure_ap_text">Mobile Hotspot konfigurieren</string>
     <string name="wifi_ap_hidessid_warning">Ihr Telefon ist für andere Geräte sichtbar.</string>
-    <string name="wifi_ap_first_time_configuration">Erstmalige Hotspot-Konfiguration</string>
+    <string name="wifi_ap_first_time_configuration_mtr">Erstmalige Hotspot-Konfiguration</string>
+    <string name="wifi_ap_first_time_configuration">Erstmalige HotSpot-Konfiguration</string>
     <string name="title_wifi_notify_mobileap_is_on">WLAN und Mobile Hotspot</string>
     <string name="wifi_ssid_max_byte_error">Maximale Anzahl von Zeichen erreicht.</string>
     <string name="tethering_attention_title">Information</string>
@@ -3534,6 +3571,8 @@ Rufen Sie den Roaming-Kundendienst kostenlos an und informieren Sie sich über R
     <string name="master_clear_desc_music">Musik</string>
     <string name="master_clear_desc_pictures">Bilder</string>
     <string name="master_clear_desc_other_user_data">Alle anderen Benutzerdaten</string>
+    <string name="master_clear_not_enough_battery">Laden Sie den Akku vor dem Zurücksetzen Ihres Telefons auf mindestens %d %% auf.</string>
+    <string name="master_clear_not_enough_battery_tablet">Laden Sie den Akku vor dem Zurücksetzen Ihres Tablets auf mindestens %d %% auf.</string>
     <string name="text_two_locktype">Fingerabdruck und %s</string>
     <string name="pref_lock_type_title">Sperrtyp ändern</string>
     <string name="pref_lock_type_summary">Sperrtyp</string>
@@ -3613,8 +3652,11 @@ Empfangen von SMS"</string>
     <string name="google_settings_popup_msg">Es ist nur eine begrenzte Anzahl an Google-Einstellungen verfügbar. Einige Aktionen funktionieren möglicherweise nicht.</string>
     <string name="smart_lock_popup_msg">Es ist nur eine begrenzte Anzahl an Google-Einstellungen verfügbar. Einige Aktionen funktionieren möglicherweise nicht.</string>
     <string name="prevent_to_change_by_device_policy">Sicherheitsrichtlinie verhindert die Verwendung von %s.</string>
+    <string name="quick_tile_sync_title">Sync</string>
     <string name="name_jerusalem">Jerusalem</string>
     <string name="name_israel">Israel</string>
+    <string name="starting_android">Android wird gestartet…</string>
+    <string name="okay">OK</string>
     <string name="yes">Ja</string>
     <string name="no">Nein</string>
     <string name="create">Erstellen</string>
@@ -3712,7 +3754,6 @@ Sie können diese Einstellungen später unter den Bluetooth-Einstellungen änder
     <string name="phone_info_label">Geräteinfo</string>
     <string name="proxy_settings_label">Proxy-Einstellungen</string>
     <string name="cancel">Abbrechen</string>
-    <string name="okay">OK</string>
     <string name="save">Speichern</string>
     <string name="done">Fertig</string>
     <string name="settings_label">Einstellungen</string>
@@ -5345,4 +5386,6 @@ Sie erhalten keine Anrufe, Nachrichten oder Benachrichtigungen und es werden kei
     <string name="ucm_pins_do_not_match">Keine PIN-Übereinstimmung</string>
     <string name="ucm_failed_to_connect_smartcard">Es kann keine Verbindung mit der Smart Card hergestellt werden. Wenden Sie sich an den Geräteadministrator.</string>
     <string name="ucm_loading">Lädt…</string>
+    <string name="usb_use_software_installation">Software-Installation</string>
+    <string name="usb_use_software_installation_summary">Software-Update und Reparaturtool für Ihr Gerät auf einem Mac- oder Windows-Computer installieren.</string>
 </resources>

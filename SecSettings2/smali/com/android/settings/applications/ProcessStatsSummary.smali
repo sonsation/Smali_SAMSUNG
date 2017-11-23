@@ -223,7 +223,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0b1a02
+    const v3, 0x7f0b1b88
 
     move-object v0, p0
 
@@ -553,7 +553,7 @@
 
     aput-object v5, v23, v24
 
-    const v24, 0x7f130020
+    const v24, 0x7f130021
 
     .line 108
     move-object/from16 v0, v22

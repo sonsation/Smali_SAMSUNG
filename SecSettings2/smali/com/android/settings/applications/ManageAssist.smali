@@ -87,7 +87,7 @@
 
     aput-object v0, v7, v10
 
-    const v8, 0x7f0b19b0
+    const v8, 0x7f0b1b36
 
     invoke-virtual {p0, v8, v7}, Lcom/android/settings/applications/ManageAssist;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -99,7 +99,7 @@
 
     aput-object v0, v7, v10
 
-    const v8, 0x7f0b19b1
+    const v8, 0x7f0b1b37
 
     invoke-virtual {p0, v8, v7}, Lcom/android/settings/applications/ManageAssist;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -136,7 +136,7 @@
     move-result-object v7
 
     .line 226
-    const v8, 0x7f0b19b2
+    const v8, 0x7f0b1b38
 
     .line 223
     invoke-virtual {v7, v8, v4}, Landroid/app/AlertDialog$Builder;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
@@ -144,7 +144,7 @@
     move-result-object v7
 
     .line 227
-    const v8, 0x7f0b19b3
+    const v8, 0x7f0b1b39
 
     const/4 v9, 0x0
 

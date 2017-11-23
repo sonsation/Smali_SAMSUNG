@@ -47,7 +47,7 @@
     new-array v0, v0, [I
 
     .line 2134
-    const v1, 0x7f020326
+    const v1, 0x7f020324
 
     aput v1, v0, v2
 
@@ -116,7 +116,7 @@
     if-eqz v0, :cond_1
 
     .line 2150
-    const v0, 0x7f0b1194
+    const v0, 0x7f0b131a
 
     invoke-virtual {p0, v0}, Lcom/android/settings/wfd/WifiDisplaySettings$RoutePreference;->setSummary(I)V
 
@@ -130,7 +130,7 @@
 
     .line 2152
     :cond_1
-    const v0, 0x7f0b1195
+    const v0, 0x7f0b131b
 
     invoke-virtual {p0, v0}, Lcom/android/settings/wfd/WifiDisplaySettings$RoutePreference;->setSummary(I)V
 
@@ -154,7 +154,7 @@
     if-ne v0, v1, :cond_3
 
     .line 2160
-    const v0, 0x7f0b1196
+    const v0, 0x7f0b131c
 
     invoke-virtual {p0, v0}, Lcom/android/settings/wfd/WifiDisplaySettings$RoutePreference;->setSummary(I)V
 
@@ -162,7 +162,7 @@
 
     .line 2162
     :cond_3
-    const v0, 0x7f0b1197
+    const v0, 0x7f0b131d
 
     invoke-virtual {p0, v0}, Lcom/android/settings/wfd/WifiDisplaySettings$RoutePreference;->setSummary(I)V
 

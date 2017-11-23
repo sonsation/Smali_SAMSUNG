@@ -28,7 +28,7 @@
     if-nez v3, :cond_0
 
     .line 47
-    const v3, 0x7f0b19a3
+    const v3, 0x7f0b1b29
 
     invoke-virtual {v0, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -49,7 +49,7 @@
     if-ne v3, v5, :cond_1
 
     .line 53
-    const v2, 0x7f0b19a4
+    const v2, 0x7f0b1b2a
 
     .line 55
     .local v2, "whichVersion":I
@@ -67,7 +67,7 @@
     .line 54
     .end local v2    # "whichVersion":I
     :cond_1
-    const v2, 0x7f0b19a5
+    const v2, 0x7f0b1b2b
 
     .restart local v2    # "whichVersion":I
     goto :goto_0

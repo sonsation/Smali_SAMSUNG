@@ -76,7 +76,7 @@
     .local v1, "title":Ljava/lang/CharSequence;
     sget-object v2, Lcom/android/settings/deviceinfo/StorageItemPreference;->mContext:Landroid/content/Context;
 
-    const v3, 0x7f0b1323
+    const v3, 0x7f0b14a9
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -90,7 +90,7 @@
 
     sget-object v2, Lcom/android/settings/deviceinfo/StorageItemPreference;->mContext:Landroid/content/Context;
 
-    const v3, 0x7f0b1321
+    const v3, 0x7f0b14a7
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -105,7 +105,7 @@
     .line 73
     sget-object v2, Lcom/android/settings/deviceinfo/StorageItemPreference;->mContext:Landroid/content/Context;
 
-    const v3, 0x7f0b04fa
+    const v3, 0x7f0b050d
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

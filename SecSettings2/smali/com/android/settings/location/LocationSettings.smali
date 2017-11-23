@@ -457,7 +457,7 @@
     invoke-virtual {v5, p1}, Lcom/android/settingslib/SecRestrictedSwitchPreference;->setEnabled(Z)V
 
     .line 425
-    const v3, 0x7f0b1953
+    const v3, 0x7f0b1ad9
 
     .line 426
     .local v3, "summaryResId":I
@@ -483,7 +483,7 @@
     if-eqz v2, :cond_4
 
     .line 431
-    const v3, 0x7f0b1953
+    const v3, 0x7f0b1ad9
 
     .line 433
     :goto_2
@@ -510,7 +510,7 @@
 
     .line 431
     :cond_4
-    const v3, 0x7f0b1952
+    const v3, 0x7f0b1ad8
 
     goto :goto_2
 .end method
@@ -878,7 +878,7 @@
     if-eqz v17, :cond_6
 
     .line 348
-    const v17, 0x7f0b13ff
+    const v17, 0x7f0b1585
 
     move/from16 v0, v17
 
@@ -1023,7 +1023,7 @@
     .restart local v14    # "request":Lcom/android/settingslib/location/RecentLocationApps$Request;
     .restart local v15    # "request$iterator":Ljava/util/Iterator;
     :cond_6
-    const v17, 0x7f0b1400
+    const v17, 0x7f0b1586
 
     move/from16 v0, v17
 
@@ -1138,7 +1138,7 @@
     invoke-virtual {v5, v0}, Landroid/preference/Preference;->setLayoutResource(I)V
 
     .line 363
-    const v17, 0x7f0b13fd
+    const v17, 0x7f0b1583
 
     move/from16 v0, v17
 
@@ -1238,25 +1238,25 @@
 
     .line 532
     :pswitch_0
-    const v0, 0x7f0b13fb
+    const v0, 0x7f0b1581
 
     return v0
 
     .line 534
     :pswitch_1
-    const v0, 0x7f0b13fa
+    const v0, 0x7f0b1580
 
     return v0
 
     .line 536
     :pswitch_2
-    const v0, 0x7f0b13f9
+    const v0, 0x7f0b157f
 
     return v0
 
     .line 538
     :pswitch_3
-    const v0, 0x7f0b13f8
+    const v0, 0x7f0b157e
 
     return v0
 
@@ -1412,7 +1412,7 @@
 
     .prologue
     .line 526
-    const v0, 0x7f0b1826
+    const v0, 0x7f0b19ac
 
     return v0
 .end method
@@ -1545,7 +1545,7 @@
     .line 504
     const/4 v0, 0x1
 
-    const v1, 0x7f0b1405
+    const v1, 0x7f0b158b
 
     invoke-interface {p1, v2, v0, v2, v1}, Landroid/view/Menu;->add(IIII)Landroid/view/MenuItem;
 
@@ -1859,7 +1859,7 @@
     move-result-object v1
 
     .line 516
-    const v3, 0x7f0b1406
+    const v3, 0x7f0b158c
 
     .line 517
     const/4 v6, 0x0

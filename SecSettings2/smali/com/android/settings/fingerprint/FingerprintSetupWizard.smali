@@ -467,7 +467,7 @@
 
     .prologue
     .line 216
-    const v1, 0x7f0b0688
+    const v1, 0x7f0b06a2
 
     .line 218
     .local v1, "stringID":I
@@ -484,7 +484,7 @@
     if-eqz v2, :cond_0
 
     .line 219
-    const v1, 0x7f0b0689
+    const v1, 0x7f0b06a3
 
     .line 222
     :cond_0
@@ -493,7 +493,7 @@
     invoke-direct {v2, p0}, Landroid/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
 
     .line 223
-    const v3, 0x7f0b0685
+    const v3, 0x7f0b069f
 
     .line 222
     invoke-virtual {v2, v3}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
@@ -862,7 +862,7 @@
 
     new-array v1, v1, [Ljava/lang/Object;
 
-    const v2, 0x7f0b0680
+    const v2, 0x7f0b069a
 
     invoke-virtual {p0, v2}, Lcom/android/settings/fingerprint/FingerprintSetupWizard;->getString(I)Ljava/lang/String;
 
@@ -870,7 +870,7 @@
 
     aput-object v2, v1, v3
 
-    const v2, 0x7f0b0731
+    const v2, 0x7f0b074b
 
     invoke-virtual {p0, v2, v1}, Lcom/android/settings/fingerprint/FingerprintSetupWizard;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -996,7 +996,7 @@
     .prologue
     const v7, 0x7f0b022e
 
-    const v6, 0x7f0205ae
+    const v6, 0x7f0205ac
 
     const/4 v5, 0x0
 
@@ -1125,7 +1125,7 @@
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
 
-    const v4, 0x7f0b06e6
+    const v4, 0x7f0b0700
 
     invoke-virtual {p0, v4}, Lcom/android/settings/fingerprint/FingerprintSetupWizard;->getString(I)Ljava/lang/String;
 
@@ -1173,7 +1173,7 @@
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
 
-    const v4, 0x7f0b0435
+    const v4, 0x7f0b043d
 
     invoke-virtual {p0, v4}, Lcom/android/settings/fingerprint/FingerprintSetupWizard;->getString(I)Ljava/lang/String;
 
@@ -1277,7 +1277,7 @@
 
     .line 125
     .local v1, "register_arrow":Landroid/widget/ImageView;
-    const v2, 0x7f020490
+    const v2, 0x7f02048e
 
     invoke-virtual {v1, v2}, Landroid/widget/ImageView;->setImageResource(I)V
 

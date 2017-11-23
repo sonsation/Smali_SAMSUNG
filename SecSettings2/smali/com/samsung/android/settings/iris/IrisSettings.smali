@@ -1408,7 +1408,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0b07b1
+    const v4, 0x7f0b07cb
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1420,7 +1420,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f0b07b2
+    const v6, 0x7f0b07cc
 
     invoke-virtual {v5, v6}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1665,7 +1665,7 @@
 
     .line 690
     .local v0, "builder":Landroid/app/AlertDialog$Builder;
-    const v3, 0x7f0b07c6
+    const v3, 0x7f0b07e0
 
     invoke-virtual {p0, v3}, Lcom/samsung/android/settings/iris/IrisSettings;->getString(I)Ljava/lang/String;
 
@@ -1699,7 +1699,7 @@
 
     .line 695
     :cond_0
-    const v3, 0x7f0b07c7
+    const v3, 0x7f0b07e1
 
     invoke-virtual {p0, v3}, Lcom/samsung/android/settings/iris/IrisSettings;->getString(I)Ljava/lang/String;
 
@@ -1710,7 +1710,7 @@
     invoke-virtual {v0, v2}, Landroid/app/AlertDialog$Builder;->setMessage(Ljava/lang/CharSequence;)Landroid/app/AlertDialog$Builder;
 
     .line 699
-    const v3, 0x7f0b0436
+    const v3, 0x7f0b043e
 
     invoke-virtual {p0, v3}, Lcom/samsung/android/settings/iris/IrisSettings;->getString(I)Ljava/lang/String;
 
@@ -2254,7 +2254,7 @@
     :cond_0
     const/4 v0, 0x1
 
-    const v1, 0x7f0b043c
+    const v1, 0x7f0b0444
 
     invoke-interface {p1, v2, v0, v2, v1}, Landroid/view/Menu;->add(IIII)Landroid/view/MenuItem;
 
@@ -2262,7 +2262,7 @@
     :cond_1
     const/4 v0, 0x2
 
-    const v1, 0x7f0b07e0
+    const v1, 0x7f0b07fa
 
     invoke-interface {p1, v2, v0, v2, v1}, Landroid/view/Menu;->add(IIII)Landroid/view/MenuItem;
 
@@ -2411,7 +2411,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f0b07e0
+    const v6, 0x7f0b07fa
 
     invoke-virtual {v5, v6}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -3001,7 +3001,7 @@
 
     const-string/jumbo v1, "com.samsung.android.settings.iris.IrisPreveiwStyleFragment"
 
-    const v5, 0x7f0b07a7
+    const v5, 0x7f0b07c1
 
     move-object v6, v3
 
@@ -3040,7 +3040,7 @@
 
     new-array v1, v1, [Ljava/lang/Object;
 
-    const v3, 0x7f0b07b0
+    const v3, 0x7f0b07ca
 
     invoke-virtual {p0, v3}, Lcom/samsung/android/settings/iris/IrisSettings;->getString(I)Ljava/lang/String;
 
@@ -3048,7 +3048,7 @@
 
     aput-object v3, v1, v4
 
-    const v3, 0x7f0b05b0
+    const v3, 0x7f0b05c4
 
     invoke-virtual {p0, v3, v1}, Lcom/samsung/android/settings/iris/IrisSettings;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -3223,17 +3223,17 @@
 
     .line 599
     .local v0, "builder":Landroid/app/AlertDialog$Builder;
-    const v2, 0x7f0b07e9
+    const v2, 0x7f0b0803
 
     invoke-virtual {v0, v2}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
 
     .line 600
-    const v2, 0x7f0b07ea
+    const v2, 0x7f0b0804
 
     invoke-virtual {v0, v2}, Landroid/app/AlertDialog$Builder;->setMessage(I)Landroid/app/AlertDialog$Builder;
 
     .line 601
-    const v2, 0x7f0b0b56
+    const v2, 0x7f0b0b77
 
     invoke-virtual {p0, v2}, Lcom/samsung/android/settings/iris/IrisSettings;->getString(I)Ljava/lang/String;
 

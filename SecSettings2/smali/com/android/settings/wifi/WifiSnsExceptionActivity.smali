@@ -133,7 +133,7 @@
     .prologue
     const/4 v6, 0x0
 
-    const v9, 0x7f0b1239
+    const v9, 0x7f0b13bf
 
     const/4 v5, 0x2
 
@@ -206,7 +206,7 @@
     .line 149
     iget-object v4, p0, Lcom/android/settings/wifi/WifiSnsExceptionActivity;->mContext:Landroid/content/Context;
 
-    const v5, 0x7f0b123a
+    const v5, 0x7f0b13c0
 
     invoke-virtual {v4, v5}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -234,14 +234,14 @@
     invoke-virtual {v0, v2}, Landroid/app/AlertDialog$Builder;->setView(Landroid/view/View;)Landroid/app/AlertDialog$Builder;
 
     .line 155
-    const v3, 0x7f0b1238
+    const v3, 0x7f0b13be
 
     invoke-virtual {v0, v3}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
 
     .line 157
     iget-object v3, p0, Lcom/android/settings/wifi/WifiSnsExceptionActivity;->mContext:Landroid/content/Context;
 
-    const v4, 0x7f0b1219
+    const v4, 0x7f0b139f
 
     invoke-virtual {v3, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -254,7 +254,7 @@
     .line 158
     iget-object v3, p0, Lcom/android/settings/wifi/WifiSnsExceptionActivity;->mContext:Landroid/content/Context;
 
-    const v4, 0x7f0b121f
+    const v4, 0x7f0b13a5
 
     invoke-virtual {v3, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

@@ -100,7 +100,7 @@
     invoke-direct {v3, p0}, Lcom/android/settings/wifi/WifiSetupActivity$WifiSkipDialog$1;-><init>(Lcom/android/settings/wifi/WifiSetupActivity$WifiSkipDialog;)V
 
     .line 262
-    const v4, 0x7f0b1220
+    const v4, 0x7f0b13a6
 
     .line 259
     invoke-virtual {v2, v4, v3}, Landroid/app/AlertDialog$Builder;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
@@ -113,7 +113,7 @@
     invoke-direct {v3, p0}, Lcom/android/settings/wifi/WifiSetupActivity$WifiSkipDialog$2;-><init>(Lcom/android/settings/wifi/WifiSetupActivity$WifiSkipDialog;)V
 
     .line 270
-    const v4, 0x7f0b1221
+    const v4, 0x7f0b13a7
 
     .line 259
     invoke-virtual {v2, v4, v3}, Landroid/app/AlertDialog$Builder;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;

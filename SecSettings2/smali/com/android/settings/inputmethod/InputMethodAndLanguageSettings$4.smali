@@ -274,7 +274,7 @@
 
     .line 1119
     .local v8, "indexables":Ljava/util/List;, "Ljava/util/List<Lcom/android/settings/search/SearchIndexableRaw;>;"
-    const v17, 0x7f0b1511
+    const v17, 0x7f0b1697
 
     move-object/from16 v0, p1
 
@@ -330,7 +330,7 @@
     iput-object v0, v7, Lcom/android/settings/search/SearchIndexableRaw;->key:Ljava/lang/String;
 
     .line 1126
-    const v17, 0x7f0b1513
+    const v17, 0x7f0b1699
 
     move-object/from16 v0, p1
 
@@ -375,7 +375,7 @@
     iput-object v0, v7, Lcom/android/settings/search/SearchIndexableRaw;->key:Ljava/lang/String;
 
     .line 1136
-    const v17, 0x7f0b17a8
+    const v17, 0x7f0b192e
 
     move-object/from16 v0, p1
 
@@ -393,7 +393,7 @@
     iput-object v14, v7, Lcom/android/settings/search/SearchIndexableRaw;->screenTitle:Ljava/lang/String;
 
     .line 1138
-    const v17, 0x7f0b188f
+    const v17, 0x7f0b1a15
 
     move-object/from16 v0, p1
 
@@ -434,7 +434,7 @@
     iput-object v0, v7, Lcom/android/settings/search/SearchIndexableRaw;->key:Ljava/lang/String;
 
     .line 1145
-    const v17, 0x7f0b1539
+    const v17, 0x7f0b16bf
 
     move-object/from16 v0, p1
 
@@ -626,7 +626,7 @@
     .line 1237
     .restart local v11    # "keyboardLayout":Landroid/hardware/input/KeyboardLayout;
     :cond_4
-    const v17, 0x7f0b1537
+    const v17, 0x7f0b16bd
 
     move-object/from16 v0, p1
 
@@ -665,7 +665,7 @@
     iput-object v0, v7, Lcom/android/settings/search/SearchIndexableRaw;->key:Ljava/lang/String;
 
     .line 1254
-    const v17, 0x7f0b155e
+    const v17, 0x7f0b16e4
 
     .line 1253
     move-object/from16 v0, p1
@@ -743,7 +743,7 @@
     iput-object v14, v7, Lcom/android/settings/search/SearchIndexableRaw;->screenTitle:Ljava/lang/String;
 
     .line 1266
-    const v17, 0x7f0b1891
+    const v17, 0x7f0b1a17
 
     move-object/from16 v0, p1
 
@@ -778,7 +778,7 @@
     iput-object v0, v7, Lcom/android/settings/search/SearchIndexableRaw;->key:Ljava/lang/String;
 
     .line 1273
-    const v17, 0x7f0b152f
+    const v17, 0x7f0b16b5
 
     move-object/from16 v0, p1
 
@@ -815,7 +815,7 @@
     iput-object v0, v7, Lcom/android/settings/search/SearchIndexableRaw;->key:Ljava/lang/String;
 
     .line 1279
-    const v17, 0x7f0b1530
+    const v17, 0x7f0b16b6
 
     move-object/from16 v0, p1
 
@@ -859,7 +859,7 @@
     iput-object v0, v7, Lcom/android/settings/search/SearchIndexableRaw;->key:Ljava/lang/String;
 
     .line 1287
-    const v17, 0x7f0b1532
+    const v17, 0x7f0b16b8
 
     move-object/from16 v0, p1
 
@@ -874,7 +874,7 @@
     iput-object v0, v7, Lcom/android/settings/search/SearchIndexableRaw;->title:Ljava/lang/String;
 
     .line 1288
-    const v17, 0x7f0b1533
+    const v17, 0x7f0b16b9
 
     move-object/from16 v0, p1
 
@@ -889,7 +889,7 @@
     iput-object v0, v7, Lcom/android/settings/search/SearchIndexableRaw;->summaryOn:Ljava/lang/String;
 
     .line 1289
-    const v17, 0x7f0b1533
+    const v17, 0x7f0b16b9
 
     move-object/from16 v0, p1
 
@@ -927,7 +927,7 @@
     iput-object v0, v7, Lcom/android/settings/search/SearchIndexableRaw;->key:Ljava/lang/String;
 
     .line 1298
-    const v17, 0x7f0b1523
+    const v17, 0x7f0b16a9
 
     move-object/from16 v0, p1
 
@@ -964,7 +964,7 @@
     iput-object v0, v7, Lcom/android/settings/search/SearchIndexableRaw;->key:Ljava/lang/String;
 
     .line 1305
-    const v17, 0x7f0b1524
+    const v17, 0x7f0b16aa
 
     move-object/from16 v0, p1
 
@@ -1001,7 +1001,7 @@
     iput-object v0, v7, Lcom/android/settings/search/SearchIndexableRaw;->key:Ljava/lang/String;
 
     .line 1312
-    const v17, 0x7f0b1528
+    const v17, 0x7f0b16ae
 
     move-object/from16 v0, p1
 

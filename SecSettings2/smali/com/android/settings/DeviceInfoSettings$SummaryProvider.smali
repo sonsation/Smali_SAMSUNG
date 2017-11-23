@@ -50,9 +50,9 @@
     .param p1, "listening"    # Z
 
     .prologue
-    const v4, 0x7f0b141c
+    const v4, 0x7f0b15a2
 
-    const v3, 0x7f0b1301
+    const v3, 0x7f0b1487
 
     .line 776
     if-eqz p1, :cond_0
@@ -120,7 +120,7 @@
     .line 780
     iget-object v2, p0, Lcom/android/settings/DeviceInfoSettings$SummaryProvider;->mContext:Landroid/content/Context;
 
-    const v3, 0x7f0b04f8
+    const v3, 0x7f0b050b
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -209,7 +209,7 @@
     .line 785
     iget-object v2, p0, Lcom/android/settings/DeviceInfoSettings$SummaryProvider;->mContext:Landroid/content/Context;
 
-    const v3, 0x7f0b04ee
+    const v3, 0x7f0b0501
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -251,7 +251,7 @@
     aput-object v4, v3, v5
 
     .line 788
-    const v4, 0x7f0b1a55
+    const v4, 0x7f0b1bdb
 
     invoke-virtual {v2, v4, v3}, Landroid/content/Context;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 

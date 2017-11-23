@@ -369,7 +369,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0b09c9
+    const v3, 0x7f0b09ea
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -391,7 +391,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0b09cb
+    const v3, 0x7f0b09ec
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -440,7 +440,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0b09cc
+    const v3, 0x7f0b09ed
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -463,7 +463,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0b09ce
+    const v3, 0x7f0b09ef
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1025,7 +1025,7 @@
     invoke-direct {v2, p0, v3}, Landroid/app/AlertDialog$Builder;-><init>(Landroid/content/Context;I)V
 
     .line 291
-    const v3, 0x7f0b09c6
+    const v3, 0x7f0b09e7
 
     .line 290
     invoke-virtual {v2, v3}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
@@ -1033,7 +1033,7 @@
     move-result-object v2
 
     .line 292
-    const v3, 0x7f0b09c7
+    const v3, 0x7f0b09e8
 
     .line 290
     invoke-virtual {v2, v3}, Landroid/app/AlertDialog$Builder;->setMessage(I)Landroid/app/AlertDialog$Builder;
@@ -1045,7 +1045,7 @@
 
     invoke-direct {v3, p0, p1, v1}, Lcom/samsung/android/settings/nfc/NfcAdvancedRoutingSetting$1;-><init>(Lcom/samsung/android/settings/nfc/NfcAdvancedRoutingSetting;Ljava/lang/String;I)V
 
-    const v4, 0x7f0b1983
+    const v4, 0x7f0b1b09
 
     .line 290
     invoke-virtual {v2, v4, v3}, Landroid/app/AlertDialog$Builder;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;

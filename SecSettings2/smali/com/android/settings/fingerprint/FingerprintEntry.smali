@@ -314,7 +314,7 @@
     iput-boolean v0, p0, Lcom/android/settings/fingerprint/FingerprintEntry;->mIsWaitingResult:Z
 
     .line 322
-    const v0, 0x7f0b10c2
+    const v0, 0x7f0b1249
 
     invoke-virtual {p0, v0}, Lcom/android/settings/fingerprint/FingerprintEntry;->getString(I)Ljava/lang/String;
 
@@ -406,7 +406,7 @@
     aput-object v7, v6, v8
 
     .line 178
-    const v7, 0x7f0b068e
+    const v7, 0x7f0b06a8
 
     invoke-virtual {v5, v7, v6}, Landroid/content/res/Resources;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -421,7 +421,7 @@
     invoke-direct {v5, v6}, Landroid/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
 
     .line 181
-    const v6, 0x7f0b0685
+    const v6, 0x7f0b069f
 
     .line 180
     invoke-virtual {v5, v6}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
@@ -475,7 +475,7 @@
     if-eqz v5, :cond_1
 
     .line 198
-    const v5, 0x7f0b0714
+    const v5, 0x7f0b072e
 
     invoke-virtual {p0, v5}, Lcom/android/settings/fingerprint/FingerprintEntry;->getString(I)Ljava/lang/String;
 
@@ -589,7 +589,7 @@
     invoke-direct {v1, v2}, Landroid/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
 
     .line 401
-    const v2, 0x7f0b0685
+    const v2, 0x7f0b069f
 
     .line 400
     invoke-virtual {v1, v2}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
@@ -597,7 +597,7 @@
     move-result-object v1
 
     .line 402
-    const v2, 0x7f0b06d1
+    const v2, 0x7f0b06eb
 
     .line 400
     invoke-virtual {v1, v2}, Landroid/app/AlertDialog$Builder;->setMessage(I)Landroid/app/AlertDialog$Builder;
@@ -642,7 +642,7 @@
 
     .prologue
     .line 375
-    const v1, 0x7f0b0688
+    const v1, 0x7f0b06a2
 
     if-ne p1, v1, :cond_0
 
@@ -661,7 +661,7 @@
     if-eqz v1, :cond_0
 
     .line 377
-    const p1, 0x7f0b0689
+    const p1, 0x7f0b06a3
 
     .line 380
     :cond_0
@@ -672,7 +672,7 @@
     invoke-direct {v1, v2}, Landroid/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
 
     .line 381
-    const v2, 0x7f0b0685
+    const v2, 0x7f0b069f
 
     .line 380
     invoke-virtual {v1, v2}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
@@ -770,7 +770,7 @@
 
     .line 428
     :cond_0
-    const v0, 0x7f0b0688
+    const v0, 0x7f0b06a2
 
     invoke-direct {p0, v0}, Lcom/android/settings/fingerprint/FingerprintEntry;->showSensorErrorDialog(I)V
 
@@ -960,7 +960,7 @@
 
     const/4 v4, 0x0
 
-    const v5, 0x7f0b0680
+    const v5, 0x7f0b069a
 
     const/4 v6, 0x0
 
@@ -993,7 +993,7 @@
 
     const-string/jumbo v1, "com.android.settings.fingerprint.FingerprintSettings"
 
-    const v3, 0x7f0b0680
+    const v3, 0x7f0b069a
 
     const/4 v4, 0x0
 
@@ -1013,7 +1013,7 @@
 
     const/4 v4, 0x0
 
-    const v5, 0x7f0b0680
+    const v5, 0x7f0b069a
 
     const/4 v6, 0x0
 
@@ -1320,7 +1320,7 @@
     .param p1, "savedInstanceState"    # Landroid/os/Bundle;
 
     .prologue
-    const v8, 0x7f0b0688
+    const v8, 0x7f0b06a2
 
     const/4 v7, 0x0
 
@@ -1370,7 +1370,7 @@
 
     new-array v5, v5, [Ljava/lang/Object;
 
-    const v6, 0x7f0b0680
+    const v6, 0x7f0b069a
 
     invoke-virtual {p0, v6}, Lcom/android/settings/fingerprint/FingerprintEntry;->getString(I)Ljava/lang/String;
 
@@ -1378,7 +1378,7 @@
 
     aput-object v6, v5, v7
 
-    const v6, 0x7f0b0731
+    const v6, 0x7f0b074b
 
     invoke-virtual {p0, v6, v5}, Lcom/android/settings/fingerprint/FingerprintEntry;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -1412,7 +1412,7 @@
     invoke-static {v4, v5}, Landroid/util/secutil/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 111
-    const v4, 0x7f0b0714
+    const v4, 0x7f0b072e
 
     invoke-virtual {p0, v4}, Lcom/android/settings/fingerprint/FingerprintEntry;->getString(I)Ljava/lang/String;
 

@@ -279,7 +279,7 @@
     .line 254
     iget-object v1, p0, Lcom/samsung/android/settings/iris/IrisAuthenticateDialog;->mCancelBtn:Landroid/widget/TextView;
 
-    const v2, 0x7f0202d5
+    const v2, 0x7f0202d3
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setBackgroundResource(I)V
 

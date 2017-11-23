@@ -185,7 +185,7 @@
 
     check-cast v1, Landroid/widget/ImageView;
 
-    const v2, 0x7f0200ce
+    const v2, 0x7f0200cc
 
     invoke-virtual {v1, v2}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -204,7 +204,7 @@
 
     check-cast v1, Landroid/widget/ImageView;
 
-    const v2, 0x7f0200cf
+    const v2, 0x7f0200cd
 
     invoke-virtual {v1, v2}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -601,7 +601,7 @@
 
     move-result-object v8
 
-    const v9, 0x7f0b0be9
+    const v9, 0x7f0b0c0a
 
     invoke-virtual {v8, v9}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -839,7 +839,7 @@
     invoke-virtual {v6, v8}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 377
-    const v8, 0x7f0b02ba
+    const v8, 0x7f0b02bc
 
     invoke-virtual {p0, v8}, Lcom/samsung/android/settings/NewOneHandOperationSettings;->getString(I)Ljava/lang/String;
 
@@ -915,7 +915,7 @@
 
     move-result-object v8
 
-    const v9, 0x7f0b157a
+    const v9, 0x7f0b1700
 
     invoke-virtual {v8, v9}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -938,7 +938,7 @@
 
     move-result-object v8
 
-    const v9, 0x7f0b158c
+    const v9, 0x7f0b1712
 
     invoke-virtual {v8, v9}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -1011,7 +1011,7 @@
 
     move-result-object v8
 
-    const v9, 0x7f0b0bea
+    const v9, 0x7f0b0c0b
 
     invoke-virtual {v8, v9}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -1318,7 +1318,7 @@
 
     .line 230
     .local v6, "point":Landroid/widget/ImageView;
-    const v8, 0x7f0b0987
+    const v8, 0x7f0b09a5
 
     invoke-virtual {p0, v8}, Lcom/samsung/android/settings/NewOneHandOperationSettings;->getString(I)Ljava/lang/String;
 
@@ -1392,7 +1392,7 @@
 
     check-cast v8, Landroid/widget/ImageView;
 
-    const v9, 0x7f0200cf
+    const v9, 0x7f0200cd
 
     invoke-virtual {v8, v9}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -1662,7 +1662,7 @@
     .line 160
     iget-object v1, p0, Lcom/samsung/android/settings/NewOneHandOperationSettings;->mButtonType:Lcom/samsung/android/settings/SecRadioButtonPreference;
 
-    const v2, 0x7f0b0be6
+    const v2, 0x7f0b0c07
 
     invoke-virtual {v1, v2}, Lcom/samsung/android/settings/SecRadioButtonPreference;->setSummary(I)V
 
@@ -1691,7 +1691,7 @@
     .line 528
     const/4 v1, 0x1
 
-    const v2, 0x7f0b043c
+    const v2, 0x7f0b0444
 
     invoke-interface {p1, v3, v1, v3, v2}, Landroid/view/Menu;->add(IIII)Landroid/view/MenuItem;
 
@@ -2217,7 +2217,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0b0beb
+    const v4, 0x7f0b0c0c
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

@@ -316,7 +316,7 @@
     if-nez v1, :cond_8
 
     .line 152
-    const v9, 0x7f0b1803
+    const v9, 0x7f0b1989
 
     invoke-virtual {p0, v9}, Lcom/samsung/android/settings/nfc/PaymentDefaultDialog;->getString(I)Ljava/lang/String;
 
@@ -349,7 +349,7 @@
     iput-object v3, v4, Lcom/android/internal/app/AlertController$AlertParams;->mMessage:Ljava/lang/CharSequence;
 
     .line 156
-    const v9, 0x7f0b1802
+    const v9, 0x7f0b1988
 
     invoke-virtual {p0, v9}, Lcom/samsung/android/settings/nfc/PaymentDefaultDialog;->getString(I)Ljava/lang/String;
 
@@ -358,7 +358,7 @@
     iput-object v9, v4, Lcom/android/internal/app/AlertController$AlertParams;->mTitle:Ljava/lang/CharSequence;
 
     .line 157
-    const v9, 0x7f0b0438
+    const v9, 0x7f0b0440
 
     invoke-virtual {p0, v9}, Lcom/samsung/android/settings/nfc/PaymentDefaultDialog;->getString(I)Ljava/lang/String;
 
@@ -368,7 +368,7 @@
 
     .line 167
     :goto_1
-    const v9, 0x7f0b0fa2
+    const v9, 0x7f0b112a
 
     invoke-virtual {p0, v9}, Lcom/samsung/android/settings/nfc/PaymentDefaultDialog;->getString(I)Ljava/lang/String;
 
@@ -392,7 +392,7 @@
     .end local v2    # "formatString":Ljava/lang/String;
     .end local v3    # "msg":Ljava/lang/String;
     :cond_8
-    const v9, 0x7f0b1804
+    const v9, 0x7f0b198a
 
     invoke-virtual {p0, v9}, Lcom/samsung/android/settings/nfc/PaymentDefaultDialog;->getString(I)Ljava/lang/String;
 
@@ -440,7 +440,7 @@
     iput-object v3, v4, Lcom/android/internal/app/AlertController$AlertParams;->mMessage:Ljava/lang/CharSequence;
 
     .line 164
-    const v9, 0x7f0b09be
+    const v9, 0x7f0b09df
 
     invoke-virtual {p0, v9}, Lcom/samsung/android/settings/nfc/PaymentDefaultDialog;->getString(I)Ljava/lang/String;
 
@@ -449,7 +449,7 @@
     iput-object v9, v4, Lcom/android/internal/app/AlertController$AlertParams;->mTitle:Ljava/lang/CharSequence;
 
     .line 165
-    const v9, 0x7f0b09bf
+    const v9, 0x7f0b09e0
 
     invoke-virtual {p0, v9}, Lcom/samsung/android/settings/nfc/PaymentDefaultDialog;->getString(I)Ljava/lang/String;
 

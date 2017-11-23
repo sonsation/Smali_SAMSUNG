@@ -27,7 +27,7 @@
     .param p1, "this$0"    # Lcom/android/settings/datausage/DataUsageList;
 
     .prologue
-    .line 840
+    .line 836
     iput-object p1, p0, Lcom/android/settings/datausage/DataUsageList$6;->this$0:Lcom/android/settings/datausage/DataUsageList;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -42,7 +42,7 @@
     .param p1, "v"    # Landroid/view/View;
 
     .prologue
-    .line 843
+    .line 839
     new-instance v0, Landroid/app/AlertDialog$Builder;
 
     iget-object v1, p0, Lcom/android/settings/datausage/DataUsageList$6;->this$0:Lcom/android/settings/datausage/DataUsageList;
@@ -53,18 +53,18 @@
 
     invoke-direct {v0, v1}, Landroid/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
 
-    .line 844
+    .line 840
     .local v0, "mAlertDialog":Landroid/app/AlertDialog$Builder;
-    const v1, 0x7f0b04b8
+    const v1, 0x7f0b04c9
 
     invoke-virtual {v0, v1}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
 
-    .line 845
-    const v1, 0x7f0b04b9
+    .line 841
+    const v1, 0x7f0b04ca
 
     invoke-virtual {v0, v1}, Landroid/app/AlertDialog$Builder;->setMessage(I)Landroid/app/AlertDialog$Builder;
 
-    .line 846
+    .line 842
     new-instance v1, Lcom/android/settings/datausage/DataUsageList$6$1;
 
     invoke-direct {v1, p0}, Lcom/android/settings/datausage/DataUsageList$6$1;-><init>(Lcom/android/settings/datausage/DataUsageList$6;)V
@@ -73,16 +73,16 @@
 
     invoke-virtual {v0, v2, v1}, Landroid/app/AlertDialog$Builder;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
 
-    .line 852
+    .line 848
     const/high16 v1, 0x1040000
 
     const/4 v2, 0x0
 
     invoke-virtual {v0, v1, v2}, Landroid/app/AlertDialog$Builder;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
 
-    .line 853
+    .line 849
     invoke-virtual {v0}, Landroid/app/AlertDialog$Builder;->show()Landroid/app/AlertDialog;
 
-    .line 842
+    .line 838
     return-void
 .end method

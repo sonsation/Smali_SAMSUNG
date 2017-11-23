@@ -446,7 +446,7 @@
     iput-object v0, v1, Lcom/samsung/android/settings/SettingsPreferenceFragmentLinkData;->intent:Landroid/content/Intent;
 
     .line 426
-    const v3, 0x7f0b0483
+    const v3, 0x7f0b048c
 
     iput v3, v1, Lcom/samsung/android/settings/SettingsPreferenceFragmentLinkData;->titleRes:I
 
@@ -1037,7 +1037,7 @@
 
     move-object/from16 v20, v0
 
-    const v21, 0x7f0b0b2a
+    const v21, 0x7f0b0b4b
 
     invoke-virtual/range {v20 .. v21}, Landroid/preference/PreferenceScreen;->setTitle(I)V
 

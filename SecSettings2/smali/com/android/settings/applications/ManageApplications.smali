@@ -457,22 +457,22 @@
     .line 207
     :array_0
     .array-data 4
-        0x7f0b19cb
-        0x7f0b1990
-        0x7f0b1990
-        0x7f0b1991
-        0x7f0b14a9
-        0x7f0b1999
-        0x7f0b1994
-        0x7f0b1996
-        0x7f0b1998
-        0x7f0b1997
-        0x7f0b1992
-        0x7f0b1993
-        0x7f0b1995
-        0x7f0b1990
-        0x7f0b1a1f
-        0x7f0b1a25
+        0x7f0b1b51
+        0x7f0b1b16
+        0x7f0b1b16
+        0x7f0b1b17
+        0x7f0b162f
+        0x7f0b1b1f
+        0x7f0b1b1a
+        0x7f0b1b1c
+        0x7f0b1b1e
+        0x7f0b1b1d
+        0x7f0b1b18
+        0x7f0b1b19
+        0x7f0b1b1b
+        0x7f0b1b16
+        0x7f0b1ba5
+        0x7f0b1bab
     .end array-data
 .end method
 
@@ -595,7 +595,7 @@
     iput-object v6, v3, Lcom/samsung/android/settings/SettingsPreferenceFragmentLinkData;->intent:Landroid/content/Intent;
 
     .line 612
-    const v9, 0x7f0b1303
+    const v9, 0x7f0b1489
 
     iput v9, v3, Lcom/samsung/android/settings/SettingsPreferenceFragmentLinkData;->titleRes:I
 
@@ -630,7 +630,7 @@
     iput-object v0, v4, Lcom/samsung/android/settings/SettingsPreferenceFragmentLinkData;->intent:Landroid/content/Intent;
 
     .line 622
-    const v9, 0x7f0b15da
+    const v9, 0x7f0b1760
 
     iput v9, v4, Lcom/samsung/android/settings/SettingsPreferenceFragmentLinkData;->titleRes:I
 
@@ -664,14 +664,14 @@
 
     .line 628
     .local v8, "useQuicktools":Z
-    const v7, 0x7f0b0892
+    const v7, 0x7f0b08af
 
     .line 629
     .local v7, "titleRes":I
     if-eqz v8, :cond_3
 
     .line 630
-    const v7, 0x7f0b089b
+    const v7, 0x7f0b08b8
 
     .line 632
     :cond_3
@@ -1786,7 +1786,7 @@
 
     .line 2238
     .local v1, "bixbyFragment":Ljava/lang/Class;, "Ljava/lang/Class<*>;"
-    const v2, 0x7f0b147d
+    const v2, 0x7f0b1603
 
     .line 2239
     .local v2, "bixbyTitleRes":I
@@ -1808,7 +1808,7 @@
     const-class v1, Lcom/android/settings/notification/AppNotificationSettings;
 
     .line 2241
-    const v2, 0x7f0b18e2
+    const v2, 0x7f0b1a68
 
     .line 2244
     :cond_7
@@ -1922,7 +1922,7 @@
     .line 806
     const-class v0, Lcom/android/settings/applications/InstalledAppDetails;
 
-    const v1, 0x7f0b147d
+    const v1, 0x7f0b1603
 
     invoke-direct {p0, v0, v1}, Lcom/android/settings/applications/ManageApplications;->startAppInfoFragment(Ljava/lang/Class;I)V
 
@@ -1935,7 +1935,7 @@
     const-class v0, Lcom/android/settings/notification/AppNotificationSettings;
 
     .line 782
-    const v1, 0x7f0b18e2
+    const v1, 0x7f0b1a68
 
     .line 781
     invoke-direct {p0, v0, v1}, Lcom/android/settings/applications/ManageApplications;->startAppInfoFragment(Ljava/lang/Class;I)V
@@ -1946,7 +1946,7 @@
     :pswitch_1
     const-class v0, Lcom/android/settings/applications/AppLaunchSettings;
 
-    const v1, 0x7f0b03a1
+    const v1, 0x7f0b03a3
 
     invoke-direct {p0, v0, v1}, Lcom/android/settings/applications/ManageApplications;->startAppInfoFragment(Ljava/lang/Class;I)V
 
@@ -1956,7 +1956,7 @@
     :pswitch_2
     const-class v0, Lcom/android/settings/applications/UsageAccessDetails;
 
-    const v1, 0x7f0b19bb
+    const v1, 0x7f0b1b41
 
     invoke-direct {p0, v0, v1}, Lcom/android/settings/applications/ManageApplications;->startAppInfoFragment(Ljava/lang/Class;I)V
 
@@ -1966,7 +1966,7 @@
     :pswitch_3
     const-class v0, Lcom/android/settings/applications/AppStorageSettings;
 
-    const v1, 0x7f0b1303
+    const v1, 0x7f0b1489
 
     invoke-direct {p0, v0, v1}, Lcom/android/settings/applications/ManageApplications;->startAppInfoFragment(Ljava/lang/Class;I)V
 
@@ -3072,7 +3072,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0b14c7
+    const v4, 0x7f0b164d
 
     invoke-virtual {v3, v4}, Landroid/app/Activity;->getText(I)Ljava/lang/CharSequence;
 
@@ -3405,7 +3405,7 @@
     if-nez v0, :cond_1
 
     .line 924
-    const v0, 0x7f0b1812
+    const v0, 0x7f0b1998
 
     :goto_0
     invoke-virtual {p0}, Lcom/android/settings/applications/ManageApplications;->getClass()Ljava/lang/Class;
@@ -3435,7 +3435,7 @@
 
     .line 924
     :cond_1
-    const v0, 0x7f0b1811
+    const v0, 0x7f0b1997
 
     goto :goto_0
 .end method
@@ -3756,7 +3756,7 @@
     .line 483
     iget-object v2, p0, Lcom/android/settings/applications/ManageApplications;->mFuncDesc:Landroid/widget/TextView;
 
-    const v3, 0x7f0b1a1a
+    const v3, 0x7f0b1ba0
 
     invoke-virtual {v2, v3}, Landroid/widget/TextView;->setText(I)V
 
@@ -3884,7 +3884,7 @@
     .line 485
     iget-object v2, p0, Lcom/android/settings/applications/ManageApplications;->mFuncDesc:Landroid/widget/TextView;
 
-    const v3, 0x7f0b1a2a
+    const v3, 0x7f0b1bb0
 
     invoke-virtual {v2, v3}, Landroid/widget/TextView;->setText(I)V
 
@@ -3901,7 +3901,7 @@
     .line 487
     iget-object v2, p0, Lcom/android/settings/applications/ManageApplications;->mFuncDesc:Landroid/widget/TextView;
 
-    const v3, 0x7f0b0797
+    const v3, 0x7f0b07b1
 
     invoke-virtual {v2, v3}, Landroid/widget/TextView;->setText(I)V
 
@@ -4367,7 +4367,7 @@
 
     const/4 v4, 0x0
 
-    const v5, 0x7f0b19bf
+    const v5, 0x7f0b1b45
 
     .line 1059
     const/4 v6, 0x0
@@ -4401,7 +4401,7 @@
 
     const/4 v4, 0x0
 
-    const v5, 0x7f0b03a6
+    const v5, 0x7f0b03a8
 
     .line 1064
     const/4 v6, 0x0
@@ -4575,7 +4575,7 @@
 
     const/4 v10, 0x0
 
-    const v11, 0x7f0b1abe
+    const v11, 0x7f0b1c44
 
     .line 1107
     const/4 v12, 0x0
@@ -5121,7 +5121,7 @@
 
     .line 2129
     :cond_b
-    const v0, 0x7f0b1994
+    const v0, 0x7f0b1b1a
 
     invoke-virtual {p0, v0}, Lcom/android/settings/applications/ManageApplications;->getString(I)Ljava/lang/String;
 
@@ -5138,7 +5138,7 @@
     if-eqz v0, :cond_d
 
     .line 2131
-    const v0, 0x7f0b1996
+    const v0, 0x7f0b1b1c
 
     invoke-virtual {p0, v0}, Lcom/android/settings/applications/ManageApplications;->getString(I)Ljava/lang/String;
 
@@ -5215,7 +5215,7 @@
     if-eqz v0, :cond_e
 
     .line 2133
-    const v0, 0x7f0b1998
+    const v0, 0x7f0b1b1e
 
     invoke-virtual {p0, v0}, Lcom/android/settings/applications/ManageApplications;->getString(I)Ljava/lang/String;
 
@@ -5234,7 +5234,7 @@
     if-eqz v0, :cond_c
 
     .line 2135
-    const v0, 0x7f0b1997
+    const v0, 0x7f0b1b1d
 
     invoke-virtual {p0, v0}, Lcom/android/settings/applications/ManageApplications;->getString(I)Ljava/lang/String;
 

@@ -1355,7 +1355,7 @@
     :goto_0
     iget-object v6, p0, Lcom/samsung/android/settings/boostmode/BoostModeCustomFragment;->mSecBrightness:Lcom/android/settings/widget/SecIntervalSeekbarPreference;
 
-    const v7, 0x7f0b08b5
+    const v7, 0x7f0b08d2
 
     invoke-virtual {p0, v7}, Lcom/samsung/android/settings/boostmode/BoostModeCustomFragment;->getString(I)Ljava/lang/String;
 
@@ -1470,7 +1470,7 @@
 
     move-result-object v6
 
-    const v7, 0x7f0b05a7
+    const v7, 0x7f0b05bb
 
     invoke-virtual {v6, v7}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1482,7 +1482,7 @@
 
     move-result-object v6
 
-    const v7, 0x7f0b05aa
+    const v7, 0x7f0b05be
 
     invoke-virtual {v6, v7}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1494,7 +1494,7 @@
 
     move-result-object v6
 
-    const v7, 0x7f0b05a8
+    const v7, 0x7f0b05bc
 
     invoke-virtual {v6, v7}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1506,7 +1506,7 @@
 
     move-result-object v6
 
-    const v7, 0x7f0b05ab
+    const v7, 0x7f0b05bf
 
     invoke-virtual {v6, v7}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1518,7 +1518,7 @@
 
     move-result-object v6
 
-    const v7, 0x7f0b05a9
+    const v7, 0x7f0b05bd
 
     invoke-virtual {v6, v7}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1530,7 +1530,7 @@
 
     move-result-object v6
 
-    const v7, 0x7f0b05ac
+    const v7, 0x7f0b05c0
 
     invoke-virtual {v6, v7}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1572,7 +1572,7 @@
     .line 176
     iget-object v6, p0, Lcom/samsung/android/settings/boostmode/BoostModeCustomFragment;->mScreenSeekBar:Lcom/android/settings/widget/SecIntervalSeekbarPreference;
 
-    const v7, 0x7f0b0aac
+    const v7, 0x7f0b0acd
 
     invoke-virtual {v6, v7}, Lcom/android/settings/widget/SecIntervalSeekbarPreference;->setSummary(I)V
 
@@ -1705,7 +1705,7 @@
 
     .line 374
     .local v2, "headerBar":Landroid/widget/LinearLayout;
-    const v3, 0x7f0200e0
+    const v3, 0x7f0200de
 
     invoke-virtual {v2, v3}, Landroid/widget/LinearLayout;->setBackgroundResource(I)V
 
@@ -1750,7 +1750,7 @@
     .line 380
     iget-object v3, p0, Lcom/samsung/android/settings/boostmode/BoostModeCustomFragment;->mSaveButton:Landroid/widget/Button;
 
-    const v4, 0x7f0b0437
+    const v4, 0x7f0b043f
 
     invoke-virtual {v3, v4}, Landroid/widget/Button;->setText(I)V
 
@@ -1904,7 +1904,7 @@
     .param p1, "newConfig"    # Landroid/content/res/Configuration;
 
     .prologue
-    const v1, 0x7f0205ad
+    const v1, 0x7f0205ab
 
     .line 509
     iget-object v0, p0, Lcom/samsung/android/settings/boostmode/BoostModeCustomFragment;->mContext:Landroid/content/Context;
@@ -1928,7 +1928,7 @@
     .line 512
     iget-object v0, p0, Lcom/samsung/android/settings/boostmode/BoostModeCustomFragment;->mResetButton:Landroid/widget/TextView;
 
-    const v1, 0x7f0205b0
+    const v1, 0x7f0205ae
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setBackgroundResource(I)V
 
@@ -2080,7 +2080,7 @@
     .param p2, "inflater"    # Landroid/view/MenuInflater;
 
     .prologue
-    const v3, 0x7f0205ad
+    const v3, 0x7f0205ab
 
     .line 458
     iget-object v1, p0, Lcom/samsung/android/settings/boostmode/BoostModeCustomFragment;->mActionBar:Landroid/app/ActionBar;
@@ -2261,7 +2261,7 @@
     .line 325
     iget-object v3, p0, Lcom/samsung/android/settings/boostmode/BoostModeCustomFragment;->mResetButton:Landroid/widget/TextView;
 
-    const v4, 0x7f0205b0
+    const v4, 0x7f0205ae
 
     invoke-virtual {v3, v4}, Landroid/widget/TextView;->setBackgroundResource(I)V
 

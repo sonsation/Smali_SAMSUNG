@@ -156,7 +156,7 @@
     :cond_0
     iget-object v0, p0, Lcom/android/settings/fingerprint/FingerprintUiHelper;->mIcon:Landroid/widget/ImageView;
 
-    const v1, 0x7f0201a6
+    const v1, 0x7f0201a4
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -223,7 +223,7 @@
     move-result-object v0
 
     .line 96
-    const v1, 0x7f0b19a9
+    const v1, 0x7f0b1b2f
 
     .line 95
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -257,7 +257,7 @@
     .line 101
     iget-object v0, p0, Lcom/android/settings/fingerprint/FingerprintUiHelper;->mIcon:Landroid/widget/ImageView;
 
-    const v1, 0x7f0201a8
+    const v1, 0x7f0201a6
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -343,7 +343,7 @@
     .line 60
     iget-object v0, p0, Lcom/android/settings/fingerprint/FingerprintUiHelper;->mIcon:Landroid/widget/ImageView;
 
-    const v1, 0x7f0201a5
+    const v1, 0x7f0201a3
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 

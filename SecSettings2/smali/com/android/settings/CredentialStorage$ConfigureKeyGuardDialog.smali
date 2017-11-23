@@ -80,7 +80,7 @@
 
     .line 687
     .local v1, "isDirectionLockOn":I
-    const v3, 0x7f0b0952
+    const v3, 0x7f0b0970
 
     invoke-virtual {p1, v3}, Lcom/android/settings/CredentialStorage;->getString(I)Ljava/lang/String;
 
@@ -95,7 +95,7 @@
     invoke-direct {v3, p1}, Landroid/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
 
     .line 691
-    const v4, 0x7f0b0956
+    const v4, 0x7f0b0974
 
     .line 690
     invoke-virtual {v3, v4}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
@@ -144,7 +144,7 @@
     .line 679
     .end local v2    # "message":Ljava/lang/String;
     :cond_1
-    const v3, 0x7f0b0954
+    const v3, 0x7f0b0972
 
     invoke-virtual {p1, v3}, Lcom/android/settings/CredentialStorage;->getString(I)Ljava/lang/String;
 

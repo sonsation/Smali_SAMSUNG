@@ -95,7 +95,7 @@
     aput-object v4, v3, v5
 
     .line 1246
-    const v4, 0x7f0b0935
+    const v4, 0x7f0b0953
 
     .line 1245
     invoke-virtual {v2, v4, v3}, Lcom/samsung/android/settings/accessibility/directionlock/ConfirmLockDirection;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
@@ -135,7 +135,7 @@
     aput-object v4, v3, v5
 
     .line 1250
-    const v4, 0x7f0b0936
+    const v4, 0x7f0b0954
 
     .line 1249
     invoke-virtual {v2, v4, v3}, Lcom/samsung/android/settings/accessibility/directionlock/ConfirmLockDirection;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
@@ -173,7 +173,7 @@
     aput-object v4, v3, v5
 
     .line 1254
-    const v4, 0x7f0b0937
+    const v4, 0x7f0b0955
 
     .line 1253
     invoke-virtual {v2, v4, v3}, Lcom/samsung/android/settings/accessibility/directionlock/ConfirmLockDirection;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
@@ -213,7 +213,7 @@
     aput-object v4, v3, v5
 
     .line 1264
-    const v4, 0x7f0b0938
+    const v4, 0x7f0b0956
 
     .line 1263
     invoke-virtual {v2, v4, v3}, Lcom/samsung/android/settings/accessibility/directionlock/ConfirmLockDirection;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
@@ -244,7 +244,7 @@
     aput-object v4, v3, v5
 
     .line 1268
-    const v4, 0x7f0b0934
+    const v4, 0x7f0b0952
 
     .line 1267
     invoke-virtual {v2, v4, v3}, Lcom/samsung/android/settings/accessibility/directionlock/ConfirmLockDirection;->getString(I[Ljava/lang/Object;)Ljava/lang/String;

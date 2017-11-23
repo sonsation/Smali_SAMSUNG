@@ -944,7 +944,7 @@
 
     move-result-object v12
 
-    const v13, 0x7f0b04bd
+    const v13, 0x7f0b04ce
 
     invoke-virtual {p0, v13}, Lcom/android/settings/datausage/WarningSettingsGraceActivity;->getString(I)Ljava/lang/String;
 

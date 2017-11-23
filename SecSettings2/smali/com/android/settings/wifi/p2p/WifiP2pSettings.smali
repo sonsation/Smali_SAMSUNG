@@ -568,9 +568,9 @@
 
     .prologue
     .line 1003
-    const v0, 0x7f0b0ce3
+    const v0, 0x7f0b0d05
 
-    const v1, 0x7f0b0ce6
+    const v1, 0x7f0b0d08
 
     const/4 v2, 0x0
 
@@ -761,7 +761,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0b0d44
+    const v2, 0x7f0b0d69
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1839,7 +1839,7 @@
     .line 1074
     iget-object v0, p0, Lcom/android/settings/wifi/p2p/WifiP2pSettings;->mTextToSpeech:Landroid/speech/tts/TextToSpeech;
 
-    const v1, 0x7f0b0cdc
+    const v1, 0x7f0b0cfe
 
     invoke-virtual {p0, v1}, Lcom/android/settings/wifi/p2p/WifiP2pSettings;->getString(I)Ljava/lang/String;
 
@@ -1979,7 +1979,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f0205d5
+    const v5, 0x7f0205d3
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -2080,7 +2080,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f0205d4
+    const v5, 0x7f0205d2
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -3696,7 +3696,7 @@
 
     move-result-object v10
 
-    const v11, 0x7f0b0ce2
+    const v11, 0x7f0b0d04
 
     const/4 v12, 0x1
 
@@ -3729,7 +3729,7 @@
 
     move-result-object v10
 
-    const v11, 0x7f0b0ce5
+    const v11, 0x7f0b0d07
 
     const/4 v12, 0x1
 

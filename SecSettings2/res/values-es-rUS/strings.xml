@@ -906,6 +906,7 @@ Puede cambiar esta opción más tarde desde los ajustes de Bluetooth."</string>
     <string name="bluetooth_control_app_disable_summary">Bluetooth desactivado: %s</string>
     <string name="bluetooth_enter_pin_msg">Introducir PIN para vincular con %s (intente 0000 o 1234).</string>
     <string name="bluetooth_pin_maximum_number_message">Se alcanzó el número máximo de caracteres.</string>
+    <string name="bluetooth_frp_permission_message">No es posible usar un dispositivo Bluetooth para esta llamada.</string>
     <string name="settings_menu_done">Realizado</string>
     <string name="usb_tethering_unavailable_subtext_tmo">USB no conectado</string>
     <string name="usb_tethering_available_subtext_tmo">USB conectado, verificar para anclar a red</string>
@@ -1173,8 +1174,6 @@ Su teléfono incluye software de diagnóstico que puede, con su consentimiento, 
     <string name="usb_use_file_transfers_summary">Transferir archivos multimedia a una PC vía una conexión MTP.</string>
     <string name="usb_use_MIDI_summary_vzw">Usar dispositivo para entrada MIDI.</string>
     <string name="usb_use_MIDI_summary">Usar el dispositivo conectado como fuente de entrada o reproductor MIDI (siglas en inglés de Interfaz digital de instrumentos musicales).</string>
-    <string name="usb_use_software_installation">Instalación de software</string>
-    <string name="usb_use_software_installation_summary">Instale Actualización de software y la herramienta Reparación correspondiente a su dispositivo en una computadora Mac o Windows.</string>
     <string name="sim_status_code">Código</string>
     <string name="sim_status_btn_update">Actualizar estado SIM</string>
     <string name="sim_status_updating">Actualizando…</string>
@@ -1522,7 +1521,6 @@ El proceso de encriptado puede tardar más de una hora. Antes de comenzar, aseg�
     <string name="cryptkeeper_wrong_pin">Se introdujo un PIN incorrecto</string>
     <string name="cryptkeeper_wrong_direction">Dirección dibujada incorrecta</string>
     <string name="checking_decryption">Verificando…</string>
-    <string name="starting_android">Iniciando Android…</string>
     <string name="crypt_keeper_last_warn_wipe">Solo queda 1 intento para iniciar el dispositivo antes de que se restablezca a los ajustes predeterminados. Se eliminarán todos los datos, incluidos los archivos y las aplicaciones descargadas.</string>
     <string name="crypt_keeper_failed_title_dec">"Error de
 desencriptación."</string>
@@ -2004,8 +2002,8 @@ Al determinar su ubicación se usará la red móvil. Se aplicará el uso de dato
     <string name="app_ops_settings_summary">Vea o cambie los permisos de la aplicación.</string>
     <string name="backup_key_for_applock_header">Defina un patrón, un PIN o una contraseña para usar junto con el reconocimiento por huella digital para bloquear o desbloquear aplicaciones.</string>
     <string name="backup_key_for_privatemode_header">Defina un patrón, PIN o contraseña para usar con el reconocimiento de huellas digital para acceder al modo Privado.</string>
-    <string name="status_added">Añadida</string>
     <string name="text_security_title_b2c">Seleccione un tipo de bloqueo. Si olvida como desbloquear Carpeta segura, puede restablecer el bloqueo a través de su cuenta Samsung.</string>
+    <string name="status_added">Añadida</string>
     <string name="lockpattern_backup_pin">PIN de respaldo</string>
     <string name="applock_type_fingerprint">Huella digital</string>
     <string name="unlock_set_unlock_two_factor_title">Verificación de dos pasos</string>
@@ -3617,6 +3615,8 @@ Receiving SMS"</string>
     <string name="prevent_to_change_by_device_policy">La política de seguridad impide el uso de %s.</string>
     <string name="name_jerusalem">Jerusalén</string>
     <string name="name_israel">Israel</string>
+    <string name="starting_android">Iniciando Android…</string>
+    <string name="okay">Aceptar</string>
     <string name="yes">Sí</string>
     <string name="no">No</string>
     <string name="create">Crear</string>
@@ -3714,7 +3714,6 @@ Puede cambiar esta opción más tarde desde los ajustes de Bluetooth."</string>
     <string name="phone_info_label">Información del dispositivo</string>
     <string name="proxy_settings_label">Ajustes de Proxy</string>
     <string name="cancel">Cancelar</string>
-    <string name="okay">Aceptar</string>
     <string name="save">Guardar</string>
     <string name="done">Realiz.</string>
     <string name="settings_label">Ajustes</string>
@@ -5346,4 +5345,6 @@ No recibirá llamadas, mensajes ni notificaciones, y no sonarán las alarmas, ha
     <string name="ucm_pins_do_not_match">Los PIN no coinciden</string>
     <string name="ucm_failed_to_connect_smartcard">No se pudo conectar a la tarjeta inteligente. Contáctese con el administrador del dispositivo.</string>
     <string name="ucm_loading">Cargando…</string>
+    <string name="usb_use_software_installation">Instalación de software</string>
+    <string name="usb_use_software_installation_summary">Instale Actualización de software y la herramienta Reparación correspondiente a su dispositivo en una computadora Mac o Windows.</string>
 </resources>

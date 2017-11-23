@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="data_saver_unrestricted_summary_chn">
+        <item quantity="other">%d хэрэглүүрт Арын өгөгдлийг хязгаарлахыг идэвхжүүлэлгүйгээр мобайл дата ашиглахыг зөвшөөрсөн.</item>
+        <item quantity="one">%d хэрэглүүрт Арын өгөгдлийг хязгаарлахыг идэвхжүүлэлгүйгээр мобайл дата ашиглахыг зөвшөөрсөн.</item>
+    </plurals>
     <plurals name="lock_timeout_hours">
         <item quantity="other">%d цаг</item>
         <item quantity="one">1 цаг</item>

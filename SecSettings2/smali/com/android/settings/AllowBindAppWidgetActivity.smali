@@ -313,7 +313,7 @@
 
     .line 118
     .local v1, "ap":Lcom/android/internal/app/AlertController$AlertParams;
-    const v7, 0x7f0b1562
+    const v7, 0x7f0b16e8
 
     invoke-virtual {p0, v7}, Lcom/android/settings/AllowBindAppWidgetActivity;->getString(I)Ljava/lang/String;
 
@@ -326,7 +326,7 @@
 
     aput-object v5, v7, v10
 
-    const v8, 0x7f0b1563
+    const v8, 0x7f0b16e9
 
     invoke-virtual {p0, v8, v7}, Lcom/android/settings/AllowBindAppWidgetActivity;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -335,7 +335,7 @@
     iput-object v7, v1, Lcom/android/internal/app/AlertController$AlertParams;->mMessage:Ljava/lang/CharSequence;
 
     .line 120
-    const v7, 0x7f0b0fa3
+    const v7, 0x7f0b112b
 
     invoke-virtual {p0, v7}, Lcom/android/settings/AllowBindAppWidgetActivity;->getString(I)Ljava/lang/String;
 
@@ -397,7 +397,7 @@
 
     aput-object v5, v8, v10
 
-    const v9, 0x7f0b1564
+    const v9, 0x7f0b16ea
 
     invoke-virtual {p0, v9, v8}, Lcom/android/settings/AllowBindAppWidgetActivity;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 

@@ -417,7 +417,7 @@
     .line 173
     iget-object v0, p0, Lcom/android/settings/SimPersoLockSettings;->mRes:Landroid/content/res/Resources;
 
-    const v1, 0x7f0b0850
+    const v1, 0x7f0b086c
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -441,7 +441,7 @@
     :cond_0
     iget-object v0, p0, Lcom/android/settings/SimPersoLockSettings;->mRes:Landroid/content/res/Resources;
 
-    const v1, 0x7f0b0851
+    const v1, 0x7f0b086d
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -477,7 +477,7 @@
     if-lt v0, v1, :cond_2
 
     .line 185
-    const v0, 0x7f0b0872
+    const v0, 0x7f0b088e
 
     invoke-static {p0, v0, v3}, Landroid/widget/Toast;->makeText(Landroid/content/Context;II)Landroid/widget/Toast;
 
@@ -502,7 +502,7 @@
     .line 188
     iget-object v0, p0, Lcom/android/settings/SimPersoLockSettings;->mRes:Landroid/content/res/Resources;
 
-    const v1, 0x7f0b0870
+    const v1, 0x7f0b088c
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -520,7 +520,7 @@
     :cond_3
     iget-object v0, p0, Lcom/android/settings/SimPersoLockSettings;->mRes:Landroid/content/res/Resources;
 
-    const v1, 0x7f0b0854
+    const v1, 0x7f0b0870
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -589,7 +589,7 @@
     if-lt v0, v1, :cond_0
 
     .line 146
-    const v0, 0x7f0b0872
+    const v0, 0x7f0b088e
 
     invoke-static {p0, v0, v3}, Landroid/widget/Toast;->makeText(Landroid/content/Context;II)Landroid/widget/Toast;
 
@@ -616,7 +616,7 @@
     .line 149
     iget-object v0, p0, Lcom/android/settings/SimPersoLockSettings;->mRes:Landroid/content/res/Resources;
 
-    const v1, 0x7f0b0870
+    const v1, 0x7f0b088c
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -634,7 +634,7 @@
     :cond_1
     iget-object v0, p0, Lcom/android/settings/SimPersoLockSettings;->mRes:Landroid/content/res/Resources;
 
-    const v1, 0x7f0b0854
+    const v1, 0x7f0b0870
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -655,7 +655,7 @@
     .line 161
     iget-object v0, p0, Lcom/android/settings/SimPersoLockSettings;->mRes:Landroid/content/res/Resources;
 
-    const v1, 0x7f0b0856
+    const v1, 0x7f0b0872
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -764,7 +764,7 @@
     :cond_0
     iget-object v0, p0, Lcom/android/settings/SimPersoLockSettings;->mHeaderText:Landroid/widget/TextView;
 
-    const v1, 0x7f0b086a
+    const v1, 0x7f0b0886
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -776,7 +776,7 @@
     :cond_1
     iget-object v0, p0, Lcom/android/settings/SimPersoLockSettings;->mHeaderText:Landroid/widget/TextView;
 
-    const v1, 0x7f0b084b
+    const v1, 0x7f0b0867
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -798,7 +798,7 @@
     :cond_2
     iget-object v0, p0, Lcom/android/settings/SimPersoLockSettings;->mHeaderText:Landroid/widget/TextView;
 
-    const v1, 0x7f0b086b
+    const v1, 0x7f0b0887
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -808,7 +808,7 @@
     :cond_3
     iget-object v0, p0, Lcom/android/settings/SimPersoLockSettings;->mHeaderText:Landroid/widget/TextView;
 
-    const v1, 0x7f0b084c
+    const v1, 0x7f0b0868
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -830,7 +830,7 @@
     .line 289
     iget-object v0, p0, Lcom/android/settings/SimPersoLockSettings;->mHeaderText:Landroid/widget/TextView;
 
-    const v1, 0x7f0b086e
+    const v1, 0x7f0b088a
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -845,7 +845,7 @@
     .line 291
     iget-object v0, p0, Lcom/android/settings/SimPersoLockSettings;->mHeaderText:Landroid/widget/TextView;
 
-    const v1, 0x7f0b0873
+    const v1, 0x7f0b088f
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -855,7 +855,7 @@
     :cond_5
     iget-object v0, p0, Lcom/android/settings/SimPersoLockSettings;->mHeaderText:Landroid/widget/TextView;
 
-    const v1, 0x7f0b0852
+    const v1, 0x7f0b086e
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -872,7 +872,7 @@
     .line 297
     iget-object v0, p0, Lcom/android/settings/SimPersoLockSettings;->mHeaderText:Landroid/widget/TextView;
 
-    const v1, 0x7f0b086f
+    const v1, 0x7f0b088b
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -887,7 +887,7 @@
     .line 299
     iget-object v0, p0, Lcom/android/settings/SimPersoLockSettings;->mHeaderText:Landroid/widget/TextView;
 
-    const v1, 0x7f0b0874
+    const v1, 0x7f0b0890
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -897,7 +897,7 @@
     :cond_8
     iget-object v0, p0, Lcom/android/settings/SimPersoLockSettings;->mHeaderText:Landroid/widget/TextView;
 
-    const v1, 0x7f0b0853
+    const v1, 0x7f0b086f
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -919,7 +919,7 @@
     :cond_9
     iget-object v0, p0, Lcom/android/settings/SimPersoLockSettings;->mHeaderText:Landroid/widget/TextView;
 
-    const v1, 0x7f0b0871
+    const v1, 0x7f0b088d
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -929,7 +929,7 @@
     :cond_a
     iget-object v0, p0, Lcom/android/settings/SimPersoLockSettings;->mHeaderText:Landroid/widget/TextView;
 
-    const v1, 0x7f0b0855
+    const v1, 0x7f0b0871
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -1160,7 +1160,7 @@
     .line 345
     iget-object v0, p0, Lcom/android/settings/SimPersoLockSettings;->mProgressDialog:Landroid/app/ProgressDialog;
 
-    const v1, 0x7f0b0857
+    const v1, 0x7f0b0873
 
     invoke-virtual {p0, v1}, Lcom/android/settings/SimPersoLockSettings;->getString(I)Ljava/lang/String;
 
@@ -1208,7 +1208,7 @@
     if-lt v0, v1, :cond_0
 
     .line 356
-    const v0, 0x7f0b0872
+    const v0, 0x7f0b088e
 
     const/4 v1, 0x0
 
@@ -1259,7 +1259,7 @@
     if-nez v2, :cond_0
 
     .line 369
-    const v2, 0x7f0b084d
+    const v2, 0x7f0b0869
 
     invoke-static {p0, v2, v4}, Landroid/widget/Toast;->makeText(Landroid/content/Context;II)Landroid/widget/Toast;
 
@@ -1300,7 +1300,7 @@
 
     .line 375
     :cond_2
-    const v2, 0x7f0b086c
+    const v2, 0x7f0b0888
 
     invoke-static {p0, v2, v4}, Landroid/widget/Toast;->makeText(Landroid/content/Context;II)Landroid/widget/Toast;
 
@@ -1314,7 +1314,7 @@
 
     .line 379
     :cond_3
-    const v2, 0x7f0b084e
+    const v2, 0x7f0b086a
 
     invoke-static {p0, v2, v4}, Landroid/widget/Toast;->makeText(Landroid/content/Context;II)Landroid/widget/Toast;
 
@@ -1425,7 +1425,7 @@
     if-eqz v2, :cond_6
 
     .line 399
-    const v2, 0x7f0b086d
+    const v2, 0x7f0b0889
 
     invoke-static {p0, v2, v4}, Landroid/widget/Toast;->makeText(Landroid/content/Context;II)Landroid/widget/Toast;
 
@@ -1443,7 +1443,7 @@
 
     .line 403
     :cond_6
-    const v2, 0x7f0b084f
+    const v2, 0x7f0b086b
 
     invoke-static {p0, v2, v4}, Landroid/widget/Toast;->makeText(Landroid/content/Context;II)Landroid/widget/Toast;
 
@@ -1633,7 +1633,7 @@
     if-eqz v0, :cond_1
 
     .line 226
-    const v2, 0x7f0b02a1
+    const v2, 0x7f0b02a3
 
     invoke-virtual {v0, v2}, Landroid/app/ActionBar;->setTitle(I)V
 
@@ -1670,7 +1670,7 @@
     if-eqz v0, :cond_4
 
     .line 231
-    const v2, 0x7f0b02a4
+    const v2, 0x7f0b02a6
 
     invoke-virtual {v0, v2}, Landroid/app/ActionBar;->setTitle(I)V
 

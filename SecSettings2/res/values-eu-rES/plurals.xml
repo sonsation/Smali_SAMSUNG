@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="data_saver_unrestricted_summary_chn">
+        <item quantity="other">%d aplikaziok datu mugikorrak inongo mugarik gabe erabiltzeko baimena dute Mugatu atzealdeko datuak gaituta dagoenean.</item>
+        <item quantity="one">%d aplikaziok datu mugikorrak inongo mugarik gabe erabiltzeko baimena dute Mugatu atzealdeko datuak gaituta dagoenean.</item>
+    </plurals>
     <plurals name="lock_timeout_hours">
         <item quantity="other">%d ordu</item>
         <item quantity="one">Ordu 1</item>

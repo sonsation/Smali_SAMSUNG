@@ -22,7 +22,7 @@
     .locals 0
 
     .prologue
-    .line 2322
+    .line 2325
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -36,7 +36,7 @@
     .param p2, "summaryLoader"    # Lcom/android/settings/dashboard/SummaryLoader;
 
     .prologue
-    .line 2326
+    .line 2329
     new-instance v0, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings$SummaryProvider;
 
     invoke-direct {v0, p1, p2}, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings$SummaryProvider;-><init>(Landroid/content/Context;Lcom/android/settings/dashboard/SummaryLoader;)V

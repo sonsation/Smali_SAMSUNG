@@ -31,7 +31,7 @@
     <string name="bluetooth_disconnected">Frakoblet</string>
     <string name="bluetooth_disconnecting">Kobler fra…</string>
     <string name="bluetooth_connecting">Kobler til…</string>
-    <string name="bluetooth_connected">Tilkoblet.</string>
+    <string name="bluetooth_connected">Tilkoblet</string>
     <string name="bluetooth_pairing">Sammenkobler…</string>
     <string name="bluetooth_connected_no_headset">Tilkobling (ingen telefon)</string>
     <string name="bluetooth_connected_no_a2dp">Tilkoblet (ingen medier)</string>
@@ -433,7 +433,7 @@ Enter the code you get from Verizon:"</string>
     <string name="answering_end_call_title">Besvare anrop og avslutte samtaler</string>
     <string name="audio_preference_title">Hørsel</string>
     <string name="mono_audio_title">Monolyd</string>
-    <string name="mono_audio_summary">Bytt lyd fra stereo til mono når du bruker én hodetelefon.</string>
+    <string name="mono_audio_summary">Bytt lyd fra stereo til mono for å lytte på ett øre.</string>
     <string name="multi_window_title">Flervindu</string>
     <string name="magnifier_seekbar_plus_tts">Pluss</string>
     <string name="magnifier_seekbar_minus_tts">Minus</string>
@@ -514,16 +514,18 @@ Legg merke til: Å trykke raskt tre ganger for å forstørre fungerer alle stede
     <string name="direct_access_actions_universal_switch_title">Universalbryter</string>
     <string name="sound_detector_title">Barnegråtdetektor</string>
     <string name="sound_detector_main_title">Lyddetektorer</string>
-    <string name="sound_detector_main_description">Motta varsler når enheten oppdager barnegråt eller ringeklokken.</string>
+    <string name="sound_detector_main_description">Motta varsler når telefonen oppdager barnegråt eller ringeklokken.</string>
     <string name="accessibility_easy_interaction_summary">Bruk ett enkelt trykk til å deaktivere eller dempe alarmer, kalenderhendelser og nedtellingsvarsler samt besvare eller avvise innkommende anrop.</string>
     <string name="accessibility_easy_interaction_summary_tablet_wifi">Trykk for å stoppe/slumre alarmer og kalenderhendelser.</string>
-    <string name="all_sound_off">Slå av alle lyder</string>
-    <string name="all_sound_off_summary">Ikke spill av noen lyder, inkludert via høyttaleren, selv om lydmodusen er angitt til Lyd.</string>
+    <string name="all_sound_off">Demp alle lyder</string>
+    <string name="all_sound_off_summary">Slå av alle lyder, inkludert telefonanrop, selv om lydmodusen er angitt til Lyd.</string>
     <string name="all_sound_off_dialog_summary">%1$s og %2$s kan ikke være aktivert samtidig. %3$s blir deaktivert.</string>
+    <string name="all_sound_off_popup_description">For å bruke Demp alle lyder må %s være slått av.</string>
+    <string name="all_sound_turn_off_button">Slå av</string>
     <string name="turn_off_all_sounds">Slå av alle lyder</string>
     <string name="turn_off_all_sounds1">Slå av alle lyder og svarmelding kan ikke være aktivert samtidig.</string>
     <string name="turn_off_all_sounds2">Slå av alle lyder og svarmelding kan ikke være aktivert samtidig. Deaktiverer svarmelding.</string>
-    <string name="turn_off_all_sounds_toast_with_sound_detector">Slå av alle lyder kan ikke være deaktivert mens lyddetektorer er aktivert. For å deaktivere dem går du til Innstillinger > Tilgjengelighet > Hørsel > Lyddetektorer og deaktiverer alle lyddetektorer.</string>
+    <string name="turn_off_all_sounds_toast_with_sound_detector">Kan ikke slå av Demp alle lyder mens Lyddetektorer er på.</string>
     <string name="accessibility_categories_title">Kategorier</string>
     <string name="share_accessibility_settings">Adm. tilgjengelighet</string>
     <string name="share_accessibility_settings_summary">Importer og eksporter tilgjengelighetsinnstillingene dine, eller del dem med andre enheter.</string>
@@ -660,6 +662,7 @@ Når denne funksjonen er aktivert, vil Roter skjerm automatisk være deaktivert.
     <string name="deviceOption">Enhetsalternativer</string>
     <string name="lock">Lås</string>
     <string name="powerOff">Slå av</string>
+    <string name="unable_assistantmenu_while_sidesync">Kan ikke slå på Assistentmeny mens du bruker SideSync.</string>
     <string name="eamenableinfo">Velg minst én app for å aktivere Assistent pluss.</string>
     <string name="fetch_progress">Laster data…</string>
     <string name="assistant_menu_enable_message">%s og alternativene nedenfor kan ikke være aktivert samtidig. Alternativene nedenfor blir deaktivert.</string>
@@ -766,7 +769,7 @@ Trykk her for å laste ned denne funksjonen."</string>
     <string name="xcover_key_shortcut_battery_conserving_mode">Battery conserving mode</string>
     <string name="xcover_key_shortcut_normal_mode">Normal modus</string>
     <string name="flight_mode_enabled_toast">Kan ikke koble til mobilnett mens Flymodus er aktivert. Deaktiver Flymodus og prøv på nytt.</string>
-    <string name="airplane_mode_summary">Deaktiver anrops- og meldingsfunksjoner, og slå av mobildata.</string>
+    <string name="airplane_mode_summary">Slå av anrop, meldinger og Mobildata.</string>
     <string name="usb_not_support_mtp_usb3_dialog_title">Merknad</string>
     <string name="airplane_mode_desc">Flymodus lar deg slå av nettverksfunksjoner, deriblant Wi-Fi. For å bruke Wi-Fi må du slå det på i Innstillinger eller på varselspanelet.</string>
     <string name="flight_mode_enable_popup_title">Aktiver Flymodus</string>
@@ -906,6 +909,7 @@ Du kan endre dette senere i Bluetooth-innstillinger."</string>
     <string name="bluetooth_control_app_disable_summary">Slo av Bluetooth: %s</string>
     <string name="bluetooth_enter_pin_msg">Skriv inn PIN-kode for å pare med %s (Prøv 0000 eller 1234).</string>
     <string name="bluetooth_pin_maximum_number_message">Maksimalt antall tegn er nådd.</string>
+    <string name="bluetooth_frp_permission_message">Kan ikke bruke Bluetooth-enhet til dette anropet.</string>
     <string name="settings_menu_done">Utført</string>
     <string name="usb_tethering_unavailable_subtext_tmo">USB not connected</string>
     <string name="usb_tethering_available_subtext_tmo">USB connected, check to tether</string>
@@ -946,6 +950,11 @@ Selv om Smart bilde av skjermen er deaktivert, har du tilgang til funksjonene vi
 – tegne på bildet av skjermen
 – beskjære bildet av skjermen
 – dele bildet av skjermen"</string>
+    <string name="smart_capture_summary">Vis flere alternativer når du har tatt et bilde av skjermen. Med Smart bilde av skj. kan du:</string>
+    <string name="smart_capture_summary_1">Ta bilde av skjulte områder på skjermen.</string>
+    <string name="smart_capture_summary_2">Tegn på bildet av skjerm.</string>
+    <string name="smart_capture_summary_3">Beskjær bildet av skjerm.</string>
+    <string name="smart_capture_summary_4">Del bildet av skjerm.</string>
     <string name="identify_unsaved_numbers_title">Identifiser ulagrede numre</string>
     <string name="identify_unsaved_numbers_title_usa">Identifiser spamnumre</string>
     <string name="call_message_spam_filter_title">Call/message spam filter</string>
@@ -1042,6 +1051,7 @@ Selv om Smart bilde av skjermen er deaktivert, har du tilgang til funksjonene vi
     <string name="fota_update_summary">Trykk her for å oppdatere fastvaren til den nyeste versjonen og bruke de nyeste funksjonene.</string>
     <string name="favorite_tab">Hurtigvalg</string>
     <string name="device_maintenance_title">Enhetsvedlikehold</string>
+    <string name="memory_string">Minne</string>
     <string name="tab_favorite_edit">Rediger hurtigvalg</string>
     <string name="add_favorite_button">Rediger hurtigvalg</string>
     <string name="cloud_and_accounts_title">Nettsky og kontoer</string>
@@ -1079,7 +1089,12 @@ Selv om Smart bilde av skjermen er deaktivert, har du tilgang til funksjonene vi
     <string name="notification_settings_apps_title">Appvarsler</string>
     <string name="international_roaming_setting">Roaminginnstillinger</string>
     <string name="user_manual_mos">Brukerhåndbok</string>
-    <string name="data_saver_description">For å bidra til å redusere databruk hindrer Datasparing at enkelte apper sender eller mottar data i bakgrunnen. I tillegg kan apper som for øyeblikket er i bruk, ha tilgang til data, men kan bruke det mindre regelmessig. Det kan for eksempel hende at bilder ikke vises som de skal, før du trykker på dem.</string>
+    <string name="data_saver_description">Datasparing bidrar til å kutte ned databruken ved å hindre at enkelte apper sender eller mottar data i bakgrunnen. Apper som du for øyeblikket bruker, kan bruke mobildata, men kan bruke det mindre regelmessig. Det kan for eksempel hende at bilder ikke vises som de skal før du trykker på dem.</string>
+    <string name="unrestricted_data_saver_chn">Bruk data uten begrensninger</string>
+    <string name="data_saver_description_chn">For å bidra til å redusere databruk hindrer Begrens bakgrunnsdata at enkelte apper sender eller mottar data i bakgrunnen. I tillegg kan apper som for øyeblikket er i bruk, ha tilgang til data, men kan bruke det mindre regelmessig. Det kan for eksempel hende at bilder ikke vises som de skal, før du trykker på dem.</string>
+    <string name="data_saver_title_chn">Begrens bakgrunnsdata</string>
+    <string name="unrestricted_app_title_chn">Bruk data uten begrensninger</string>
+    <string name="unrestricted_app_summary_chn">Denne appen kan bruke mobildata uten begrensninger mens Begrens bakgrunnsdata er aktivert.</string>
     <string name="data_used_editor_subtitle">Enter the amount of data you have used this month:</string>
     <string name="traffic_vertify">Details</string>
     <string name="btn_tmo">Upgrade data service</string>
@@ -1131,7 +1146,9 @@ Data usage is measured by your phone. Your carrier may account for usage differe
     <string name="last_checked_date">Sist sjekket den:</string>
     <string name="auto_update">Last ned oppdateringer automatisk</string>
     <string name="auto_update_summary">Last ned programvareoppdateringer automatisk når du er koblet til et Wi-Fi-nettverk. Du kan fortsatt bruke enheten under nedlastingen.</string>
-    <string name="scheduled_update">Planlagte oppdateringer</string>
+    <string name="auto_update_over_wifi">Last ned automatisk over Wi-Fi</string>
+    <string name="auto_update_over_wifi_summary">Last ned programvareoppdateringer automatisk når du er koblet til et Wi-Fi-nettverk. Avhengig av tjenesteleverandøren kan oppdateringer også lastes ned ved å bruke mobildata uten ekstra kostnader. Du vil fortsatt kunne bruke telefonen under nedlastingen.</string>
+    <string name="scheduled_update">Planlagte programvareoppdat.</string>
     <string name="scheduled_update_summary_default">Av</string>
     <string name="scheduled_update_summary_set_time">Oppdateringen starter kl. %s</string>
     <string name="scheduled_update_summary_set_time_everyday">Oppdateringen starter kl. %s hver dag</string>
@@ -1164,7 +1181,7 @@ Telefonen din omfatter programvare for diagnostikk som kan, med ditt samtykke, a
     <string name="memory_mms_usage">MMS</string>
     <string name="user_owner">Eier</string>
     <string name="unable_to_charge_the_connected_device">Kan ikke bruke USB-kabel for %s.</string>
-    <string name="unable_to_change_usb_options_via_smart_switch">Kan ikke endre USB-alternativer under overføring av data via Smart Switch.</string>
+    <string name="unable_to_change_usb_options_via_smart_switch">Kan ikke endre USB-alternativer under overføring av data med Smart Switch.</string>
     <string name="usb_configuring">Konfigurerer…</string>
     <string name="usb_use_none_summary">Dataene på enheten kan ikke overføres.</string>
     <string name="usb_use_charging_only_summary_vzw">Just charge this phone.</string>
@@ -1172,9 +1189,9 @@ Telefonen din omfatter programvare for diagnostikk som kan, med ditt samtykke, a
     <string name="usb_use_file_transfers_summary_vzw">Transfer media files to a computer.</string>
     <string name="usb_use_file_transfers_summary">Overfør mediefiler til en datamaskin via en MTP-tilkobling.</string>
     <string name="usb_use_MIDI_summary_vzw">Use device for MIDI input.</string>
-    <string name="usb_use_MIDI_summary">Bruk den tilkoblede enheten som en MIDI-avspiller (Musical Instrument Digital Interface) eller inndatakilde.</string>
-    <string name="usb_use_software_installation">Software Installation</string>
-    <string name="usb_use_software_installation_summary">Install Software Update and Repair tool for your device on a Mac or Windows computer.</string>
+    <string name="usb_use_MIDI_summary">Bruk den tilkoblede enheten som en MIDI-avspiller eller inndatakilde.</string>
+    <string name="usb_use_system_update">Systemoppdatering</string>
+    <string name="usb_use_system_update_summary">Installer Programvareoppgraderingsassistent på datamaskinen, og oppdater eller reparer denne telefonen.</string>
     <string name="sim_status_code">Kode</string>
     <string name="sim_status_btn_update">Oppdater SIM-kortstatus</string>
     <string name="sim_status_updating">Oppdaterer…</string>
@@ -1263,7 +1280,7 @@ Trykk på OK for å tillate at lysstyrken økes over sikre nivåer."</string>
     <string name="display_temperature">Fargebalanse</string>
     <string name="adjust_your_display_colour">Juster fargene på skjermen for å endre visningen av hvittoner.</string>
     <string name="led_indicator_settings">LED-indikator</string>
-    <string name="led_indicator_settings_summary">Lys opp LED-indikatoren når enheten lader, tar opp tale eller mottar varsler.</string>
+    <string name="led_indicator_settings_summary">Slå på LED-indikatoren når skjermen er av for å vise statuser for lydopptak, uleste varsler og batteriet.</string>
     <string name="screen_resolution_desc">Det kan hende at noe innhold kan virke uskarpt eller ikke støttes i FHD eller HD.</string>
     <string name="display_battery_percentage">Vis batterinivå</string>
     <string name="display_battery_percentage_summary">Vis gjenværende batteristrøm i prosent på statuslinjen.</string>
@@ -1310,12 +1327,12 @@ Trykk på OK for å tillate at lysstyrken økes over sikre nivåer."</string>
     <string name="blue_light_filter_off_time_next_day_summary_format">%s neste dag</string>
     <string name="blue_light_filter_user_schedule_title">Tilpasset tidsplan</string>
     <string name="blue_light_filter_auto_schedule_title">Solnedgang til soloppgang</string>
-    <string name="blue_light_filter_desc">Bruk Blått lys-filter for å hjelpe deg med å sove bedre. Angi en tidsplan for når du vil bruke Blått lys-filter. For å bruke Solnedgang til soloppgang må Posisjon være aktivert.</string>
-    <string name="blue_light_filter_enable_now">Aktiver nå</string>
+    <string name="blue_light_filter_desc">Bruk Blått lys-filter om natten for å hjelpe deg med å sove bedre. Du kan angi en tidsplan for når du vil bruke Blått lys-filter. For å bruke Solnedgang til soloppgang må Posisjon være slått på.</string>
+    <string name="blue_light_filter_enable_now">Slå på nå</string>
     <string name="blue_light_filter_enable_as_scheduled">Aktiver som planlagt</string>
-    <string name="blue_light_filter_scheduled_toast">Blått lys-filter er aktivert. Det blir automatisk deaktivert ved den planlagte sluttiden.</string>
+    <string name="blue_light_filter_scheduled_toast">Blått lys-filter ble slått på. Det blir automatisk slått av ved den planlagte sluttiden.</string>
     <string name="screen_mode_dlg_turn_off_blue_light_filter">%s og Blått lys-filter kan ikke brukes samtidig. Blått lys-filter blir deaktivert.</string>
-    <string name="blue_light_filter_dlg_turn_on_location">For å bruke Solnedgang til soloppgang må Posisjon være aktivert.</string>
+    <string name="blue_light_filter_dlg_turn_on_location">For å bruke Solnedgang til soloppgang må Posisjon være slått på.</string>
     <string name="dlg_turn_on">Slå på</string>
     <string name="screen_resolution_title">Skjermoppløsning</string>
     <string name="screen_resolution_desc_title">Endre skjermoppløsning</string>
@@ -1422,6 +1439,10 @@ Trykk på OK for å tillate at lysstyrken økes over sikre nivåer."</string>
     <string name="crypt_keeper_vzw_password_warning">Set the Screen lock password with at least %d characters and 1 number.</string>
     <string name="crypt_keeper_decrypt_title">Dekrypter enhet</string>
     <string name="crypt_keeper_decrypt_summary">Enhet kryptert.</string>
+    <string name="crypt_keeper_type_pin">PIN-kode</string>
+    <string name="crypt_keeper_type_pattern">Mønster</string>
+    <string name="crypt_keeper_type_password">Passord</string>
+    <string name="crypt_keeper_type_direction">Retningslås</string>
     <string name="crypt_keeper_confirm_title_dec">Bekreft kryptering</string>
     <string name="crypt_keeper_force_power_cycle_pattern">For å starte opp enheten må du slå den av, slå den på igjen og prøve på nytt. Du må tegne mønsteret du brukte til å starte opp enheten og låse opp skjermen. Den alternative PIN-koden kan ikke brukes til å starte opp enheten.</string>
     <string name="crypt_keeper_setup_description_dec">"Dekrypterer enhet. Dette kan ta litt tid. Vent litt…
@@ -1511,6 +1532,7 @@ Kryptering tar én time eller mer. Før du starter, må du passe på at batterie
     <string name="crypt_keeper_verify_failed_summary">Kan ikke starte enheten på nytt. Integritetsbekreftelsen mislyktes. Du må tilbakestille enheten din til fabrikkinnstillinger. Dette sletter alle data.</string>
     <string name="cryptkeeper_emergency_call">Nødanrop</string>
     <string name="cryptkeeper_return_to_call">Returner til samtale</string>
+    <string name="cryptkeeper_default_enter_msg">Telefonen er kryptert for sikkerhet.</string>
     <string name="enter_password">Angi passordet for å starte opp enheten.</string>
     <string name="enter_pin">Angi PIN-koden for å starte opp enheten.</string>
     <string name="enter_pattern">Tegn mønsteret for å starte opp enheten.</string>
@@ -1520,11 +1542,13 @@ Kryptering tar én time eller mer. Før du starter, må du passe på at batterie
     <string name="cryptkeeper_wrong_pin">Feil PIN-kode angitt</string>
     <string name="cryptkeeper_wrong_direction">Feil retning er tegnet</string>
     <string name="checking_decryption">Kontrollerer…</string>
-    <string name="starting_android">Starter Android…</string>
     <string name="crypt_keeper_last_warn_wipe">Du har bare 1 forsøk igjen til å starte opp enheten før den tilbakestilles til fabrikkinnstillinger. Dette sletter alle data, inkludert filer og nedlastede apper.</string>
     <string name="crypt_keeper_failed_title_dec">Dekryptering mislyktes.</string>
     <string name="crypt_keeper_failed_summary_dec">Kan ikke fullføre dekrypteringen på grunn av avbrytelse. Tilbakestill til fabrikkstandarder (fjerning av alle data) før bruk.</string>
     <string name="crypt_keeper_set_screen_lock_type">Angi skjermlåstype</string>
+    <string name="encryption_interstitial_message">"Du kan beskytte denne telefonen ytterligere ved å kreve at %s blir angitt før telefonen starter opp. Dette bidrar til å beskytte dataene hvis telefonen er mistet eller stjålet. Enkelte apper kan kreve Sikker oppstart i henhold til policyer for Enhetskryptering for tilgang til funksjoner, som e-postsynkronisering.
+
+Du vil ikke motta noen anrop, meldinger eller varsler, og alarmer vil ikke lyde, før telefonen har startet opp."</string>
     <string name="encryption_interstitial_message_kor">Enheten din er kryptert. Beskytt de krypterte dataene ved å velge Krev skjermlås for å dekryptere data når enhet slås på. Dette bidrar til å beskytte data på enheter som er mistet eller stjålet. Du må låse opp enheten for å dekryptere dataene når du slår den på. Du vil ikke motta noen anrop, meldinger eller varsler før du dekrypterer enheten.</string>
     <string name="encryption_interstitial_message_direction">"Beskytt enheten din ved å velge Krev Retningslås når enheten slås på. Dette bidrar til å beskytte data på enheter som er mistet eller stjålet.
 
@@ -1546,6 +1570,7 @@ Du vil ikke motta noen anrop, meldinger eller varsler, og alarmer vil ikke lyde,
 Du vil ikke motta noen anrop, meldinger eller varsler, og alarmer vil ikke lyde, før enheten har startet opp."</string>
     <string name="encryption_interstitial_error_message">For å beskytte enhetsdataene endrer du skjermlåstypen til PIN-kode, Passord, Mønster eller Fingeravtrykk og prøver igjen.</string>
     <string name="encryption_interstitial_error_message_direction">For å beskytte enhetsdataene endrer du skjermlåstypen til PIN-kode, Passord, Mønster, Retningslås eller Fingeravtrykk og prøver igjen.</string>
+    <string name="encryption_interstitial_error_message_direction_without_fingerprint">For å beskytte enhetsdataene endrer du skjermlåstypen til PIN-kode, Passord, Mønster eller Retningslås og prøver igjen.</string>
     <string name="encryption_interstitial_error_message_iris_direction">For å beskytte enhetsdataene endrer du skjermlåstypen til PIN-kode, Passord, Mønster, Retningslås, Fingeravtrykk eller Iriser og prøver igjen.</string>
     <string name="encryption_interstitial_error_message_without_fingerprint">For å beskytte enhetsdataene må du endre skjermlåstypen til PIN-kode, Passord eller Mønster og prøve igjen.</string>
     <string name="encryption_interstitial_error_sktlock">Sikkerhetslås og Sikker oppstart kan ikke være aktivert samtidig. Velg en ikke-sikkerhetslås, og prøv igjen.</string>
@@ -1809,6 +1834,8 @@ Før du ber om en garantireparasjon, må Reaktiveringslås deaktiveres. Pass på
 %s"</string>
     <string name="improve_location_title">Improve location accuracy</string>
     <string name="improve_location_summary">Use WLANs and mobile networks to provide more accurate information about the location of your device.</string>
+    <string name="send_last_location_title">Send siste posisjon</string>
+    <string name="send_last_location_summary">Gi telefonen tillatelse til å sende den siste posisjonen til Finn min mobil-serveren når batteriet går under et bestemt nivå.</string>
     <string name="high_power_description">Aktiver Optimaliser batteribruk for individuelle apper. Enkelte funksjoner, som de som bruker mobilnett eller synkroniserer data, blir begrenset for å spare batteristrøm.</string>
     <string name="wifi_display_summary_off">Av</string>
     <string name="battery_usage_description">Dette skjermbildet viser batteribruksdata siden enheten sist var fulladet.</string>
@@ -1904,6 +1931,8 @@ Det finnes andre tilgjengelige sikkerhetsalternativer på enheten. Følg alle in
     <string name="iris_sensor_not_working_popup_title">Irisgjenkjenning fungerer ikke</string>
     <string name="iris_sensor_not_working_msg">Irissensoren svarer ikke. Prøv igjen senere.</string>
     <string name="iris_go_to_samsung_theme">Gå til Samsung Themes</string>
+    <string name="biometrics_dex_cant_use_msg">Kan ikke bruke %s i Samsung DeX.</string>
+    <string name="biometrics_dex_closed_to_switch">%s ble lukket for å bytte til Samsung DeX.</string>
     <string name="knox_twofactor_bio_description">Velg biometrisk låstype og en annen låstype for å låse opp %s.</string>
     <string name="fingerprint_registered">Registrerte fingeravtrykk blir brukt med valgt opplåsingsmetode.</string>
     <string name="knox_twofactor_description">Bruk to låsetyper for å gjøre Knox enda sikrere. Fingeravtrykkene dine blir brukt som første låsetype. Velg den andre låsetypen nedenfor.</string>
@@ -2001,8 +2030,8 @@ Determining your location will use the mobile network. Data usage will apply."</
     <string name="app_ops_settings_summary">Vise eller endre apptillatelser.</string>
     <string name="backup_key_for_applock_header">Angi mønster, PIN-kode eller passord å bruke sammen med fingeravtrykksgjenkjenning for å låse eller låse opp apper.</string>
     <string name="backup_key_for_privatemode_header">Angi mønster, PIN-kode eller passord å bruke sammen med fingeravtrykksgjenkjenning for å åpne Privatmodus.</string>
-    <string name="status_added">Lagt til</string>
     <string name="text_security_title_b2c">Velg en låstype. Hvis du glemmer hvordan du låser opp Sikker mappe, kan du tilbakestille låsen ved å bruke Samsung-kontoen din.</string>
+    <string name="status_added">Lagt til</string>
     <string name="lockpattern_backup_pin">Sikkerhetskopierings-PIN-kode</string>
     <string name="applock_type_fingerprint">Fingeravtrykk</string>
     <string name="unlock_set_unlock_two_factor_title">Totrinns bekreftelse</string>
@@ -2218,7 +2247,7 @@ Selv om telefonen blir slettet, må Google-kontopassordet ditt oppgis før noen 
     <string name="palm_swipe_title">Dra håndflaten over for å ta et bilde</string>
     <string name="screen_recorder_title">Record screen</string>
     <string name="screen_recorder_summary">Record video screenshots while you use your device.</string>
-    <string name="multi_window_setting_title">Sprettoppvisningsbev.</string>
+    <string name="multi_window_setting_title">Sprettoppvisningshandling</string>
     <string name="multi_window_setting_description">Når en app er åpen på skjermen, justerer du størrelsen på appen ved å stryke ned diagonalt fra et hjørne øverst på skjermen.</string>
     <string name="multi_window_screen_title">Flervindu</string>
     <string name="multi_window_screen_summary">Vis flere enn én app samtidig.</string>
@@ -2258,18 +2287,19 @@ Selv om telefonen blir slettet, må Google-kontopassordet ditt oppgis før noen 
     <string name="air_browse_note_summary">Gå mellom sider i Visningsmodus.</string>
     <string name="data_usage_enable_mobile_summery">Få tilgang til Internett gjennom mobilnettet.</string>
     <string name="data_usage_enable_mobile_warning_skt">Tilkobling til mobilnett kan medføre ekstra kostnader, avhengig av abonnementet ditt. Fortsette?</string>
-    <string name="data_usage_enable_mobile_warning_ktt">Tilkobling til mobilnett kan medføre ekstra kostnader, avhengig av abonnementet ditt. Fortsette?</string>
+    <string name="data_usage_enable_mobile_warning_ktt">Mobildata blir slått på. Tilkobling til mobilnett kan medføre ekstra kostnader, avhengig av abonnementet ditt.</string>
     <string name="data_usage_enable_mobile_warning_lgt">Tilkobling til mobilnett kan medføre ekstra kostnader, avhengig av abonnementet ditt. Fortsette?</string>
     <string name="data_usage_disable_mobile_title">Slå av mobildata</string>
     <string name="data_usage_disable_mobile_warning_skt">Deaktivering av mobilnettet vil begrense bruken av MMS- og 3G-datatjenester. Koble fra?</string>
     <string name="data_usage_disable_mobile_warning_ktt">Deaktivering av mobilnettet vil begrense bruken av MMS- og 3G-datatjenester. Koble fra?</string>
     <string name="data_usage_disable_mobile_warning_ktt_jb">Deaktivering av mobilnettet vil begrense bruken av MMS- og 3G-datatjenester. Koble fra?</string>
-    <string name="mobile_data_off_dialog_text_vzw">"Unless you use Wi-Fi, you will not be able to use the Internet, Email, or other apps that require a data connection.
+    <string name="data_usage_disable_mobile_warning_dcm">"If Mobile data is turned off, your device must be connected to a Wi-Fi network to use services that require a network connection.
 
-Turn off Mobile data?"</string>
-    <string name="mobile_data_off_dialog_text_common">"Med mindre du bruker Wi-Fi, vil du ikke lenger kunne bruke Internett, E-post eller andre apper som krever en dataforbindelse.
-
-Mobildata blir slått av."</string>
+Mobile data will be turned off."</string>
+    <string name="mobile_data_off_dialog_text_vzw">"Unless you use Wi-Fi, you won't be able to use the Internet, Email or other apps that require a data connection. Turn off the mobile data connection?"</string>
+    <string name="mobile_data_off_dialog_text_volte">"Your phone's Video Calling function won't work when mobile data is off. Also, you won't be able to use the Internet, Email or other apps that need a data connection unless you use Wi-Fi. Turn off the mobile data connection?"</string>
+    <string name="mobile_data_off_dialog_text_common">Med mindre du kobler deg til et Wi-Fi-nettverk, vil du ikke kunne bruke Internett, E-post eller andre apper som krever en nettverkstilkobling.</string>
+    <string name="data_usage_turn_off_btn">Slå av</string>
     <string name="wfd_settings_summary">Del enhetsskjermen med en annen enhet.</string>
     <string name="nfc_settings_advanced_explain">"Angi standard behandlingsmetode for NFC.
 Enkelte NFC-transaksjoner og mobilbetalingstjenester kan kreve en annen standard behandlingsmetode for NFC."</string>
@@ -2409,7 +2439,7 @@ Enkelte NFC-transaksjoner og mobilbetalingstjenester kan kreve en annen standard
     <string name="zen_mode_events_summary">Tillat varsler fra S Planner og andre kalenderhendelser.</string>
     <string name="zen_mode_events_summary_na">Tillat varsler fra kalenderhendelser og oppgaver.</string>
     <string name="zen_mode_reminders_summary">Tillat påminnelser fra apper som støtter dem.</string>
-    <string name="dnd_app_noti_summary">Angi som prioriterte forstyrrelser for å tillate appvarsler som unntak.</string>
+    <string name="dnd_app_noti_summary">Tillat varsler fra apper som du velger.</string>
     <string name="no_exceptions_dcm_summary">Mute all calls and alerts, including Area Mail alarms.</string>
     <string name="dnd_screen_switch_summary">Demp lyden for alle anrop og varsler, unntatt for tilpassede unntak.</string>
     <string name="app_notification_priority_app_list_title">Prioriterte appvarsler</string>
@@ -2456,7 +2486,7 @@ modus"</string>
     <string name="personal_page_secretbox_disclaimer_title">Ansvarsfraskrivelse</string>
     <string name="personal_page_secretbox_disclaimer_message">Privatmodus beskytter ikke dataene mot andre programmer. For å forhindre at data blir synkronisert med eksterne servere kan du deaktivere innstillingene for automatisk synkronisering på enheten.</string>
     <string name="personal_page_secretbox_disclaimer_message_vzw">Content moved into Private mode will be hidden and will not be shown when you exit from Private mode. Automatic syncing while in Private mode may allow that content to be visible in 3rd party apps. Check the automatic synchronization settings of your other applications before using Private mode.</string>
-    <string name="personal_page_tutorial_app_title_message">Bruk Privatmodus til å skjule innhold som du vil holde privat. Når du bruker følgende apper, velger du elementene du vil flytte til Privat, trykker på MER og velger deretter Flytt til Privat. Innhold som har blitt flyttet til Privat, kan bare ses mens Privatmodus er aktivert.</string>
+    <string name="personal_page_tutorial_app_title_message">Bruk Privatmodus til å skjule innhold som du vil holde privat. Når du bruker følgende apper, velger du elementene du vil flytte til Privat, trykker på Flere alternativer-knappen og velger deretter Flytt til Privat. Innhold som har blitt flyttet til Privat, kan bare ses mens Privatmodus er på.</string>
     <string name="personal_page_inline_help">For å bruke Privatmodus må du velge en tilgangstype. Hvis du glemmer tilgangstypen for Privatmodus, vil du ikke kunne gjenopprette den, og du vil ikke kunne bruke Privatmodus med mindre du tilbakestiller enheten til fabrikkinnstillinger.</string>
     <string name="personal_page_backup_pin_summary">Opprett en reserve-PIN-kode for Privatmodus i tilfelle du glemmer mønsteret.</string>
     <string name="personal_page_incorrect_pin">"Feil PIN.
@@ -2846,6 +2876,7 @@ Koble fra laderen for å aktivere/deaktivere denne funksjonen."</string>
     <string name="samsung_backup_summary">Bruk Samsung-kontoen din til å sikkerhetskopiere data.</string>
     <string name="samsung_restore_summary">Bruk Samsung-kontoen din til å gjenopprette sikkerhetskopierte data.</string>
     <string name="sns_settings_title">Bytt til mobildata når Wi-Fi-tilkoblingen blir ustabil. Telefonen kan også bytte til lagrede Wi-Fi-nettverk fra de oftest besøkte områdene. Smart nettverksbytte slår automatisk på eller av lagrede Wi-Fi-nettverk.</string>
+    <string name="sns_settings_title_include_autowifi">Bytt til mobildata når Wi-Fi-tilkoblingen blir ustabil. Telefonen kan også bytte til lagrede Wi-Fi-nettverk fra de oftest besøkte områdene. Smart nettverksbytte slår automatisk på eller av lagrede Wi-Fi-nettverk.</string>
     <string name="smart_bonding">Download booster</string>
     <string name="smart_bonding_popup_title">Aktiver Download booster</string>
     <string name="smart_bonding_description_vzw">"Download large files (over %d MB) faster by using Wi-Fi and LTE networks at the same time. The Download booster icon will be shown on the status bar when Download booster is turned on.
@@ -3066,6 +3097,8 @@ Downloading via mobile networks may result in additional charges depending on yo
     <string name="wifi_manage_network">Administrer nettverk</string>
     <string name="wlan_permission_available_message">Asks your permission to use WLAN via a pop-up</string>
     <string name="wlan_permission_available">Ask to use WLAN</string>
+    <string name="wifi_hotspot20_summary_tmo">Koble sømløst til Hotspot 2.0-aktiverte Wi-Fi-tilgangspunkter uten å trenge et passord.</string>
+    <string name="wifi_hotspot20_summary_dcm">Koble automatisk til Hotspot 2.0 Wi-Fi-nettverk når Wi-Fi er på.</string>
     <string name="wifi_hotspot20_summary">Koble automatisk til Wi-Fi-tilgangspunkter som støtter Hotspot 2.0.</string>
     <string name="wifi_hotspot20_enable">Hotspot 2.0</string>
     <string name="wifi_att_auto_connect_summary">Automatically connect to AT&amp;T Wi-Fi hotspot when detected</string>
@@ -3084,9 +3117,9 @@ Downloading via mobile networks may result in additional charges depending on yo
     <string name="wifi_auto_reconnect">Automatisk tilkobling på nytt</string>
     <string name="wifi_enable_warning_chn">Turning on WLAN will disable Mobile hotspot.</string>
     <string name="wifi_enable_warning_vzw">Når Wi-Fi slås på, vil Mobile Hotspot deaktiveres. Fortsette?</string>
-    <string name="wifi_enable_warning_tmo">Wi-Fi is turned off when Mobile HotSpot is active. To turn on Wi-Fi, please turn off Mobile HotSpot.</string>
+    <string name="wifi_enable_warning_tmo">Wi-Fi er slått av når Mobil trådløssone er aktiv. For å slå på Wi-Fi må du slå av Mobil trådløssone.</string>
     <string name="wifi_enable_warning_spr">Turning on Wi-Fi will disable Hotspot.</string>
-    <string name="wifi_enable_warning_mtr">Turning on Wi-Fi will turn off Mobile Hotspot. Continue?</string>
+    <string name="wifi_enable_warning_mtr">Wi-Fi er slått av når Mobile Hotspot er aktiv. For å slå på Wi-Fi må du slå av Mobile Hotspot.</string>
     <string name="wifi_enable_warning_usc">Turning on Wi-Fi will turn off Portable Wi-Fi hotspot. Continue?</string>
     <string name="wifi_enable_warning">Når Wi-Fi slås på, deaktiveres mobil trådløssone.</string>
     <string name="wifi_control_history_title">Wi-Fi-kontrollogg</string>
@@ -3120,9 +3153,9 @@ Downloading via mobile networks may result in additional charges depending on yo
     <string name="wifi_ap__wifi_sharing_vzw">Wi-Fi Sharing</string>
     <string name="wifi_ap__wifi_sharing">Wi-Fi-deling</string>
     <string name="first_use_wifi_msg_mtr">Tap OK to learn more about using Mobile Hotspot.</string>
-    <string name="first_use_wifi_msg">Tap OK to learn more about using Mobile HotSpot.</string>
+    <string name="first_use_wifi_msg">Trykk på OK for å finne ut mer om bruk av Mobil trådløssone.</string>
     <string name="first_use_title_mtr">View Mobile Hotspot help</string>
-    <string name="first_use_title">View Mobile HotSpot help</string>
+    <string name="first_use_title">Vis hjelp for Mobil trådløssone</string>
     <string name="wifi_ap_wifi_sharing_title">Aktiver Wi-Fi-deling</string>
     <string name="wifi_ap_wifi_sharing_status_enabled">Aktivert</string>
     <string name="wifi_ap_wifi_sharing_status_disabled">Deaktivert</string>
@@ -3154,11 +3187,11 @@ Using Mobile hotspot increases battery consumption and data usage."</string>
 Mobile Hotspot uses mobile data from your data plan.
 
 We recommend keeping your phone plugged in to a charger while using Mobile Hotspot to save battery."</string>
-    <string name="wifi_ap_instruction_changeable_maxclient_tmo">"You can use your device as an Internet access point using Mobile HotSpot. This allows up to %d other devices to connect to it via Wi-Fi. The connected devices will have access to the Internet via your mobile network.
+    <string name="wifi_ap_instruction_changeable_maxclient_tmo">"Du kan bruke enheten som et Internett-tilgangspunkt ved å bruke Mobil trådløssone. Dette gjør at opptil %d andre enheter kan koble seg til det via Wi-Fi. De tilkoblede enhetene har tilgang til Internett via mobilnettet ditt.
 
-You can create an allowed device profile and set the connection mode for it.
+Du kan opprette en tillatt enhet-profil, og angi tilkoblingsmodusen for den.
 
-Using Mobile HotSpot increases battery consumption and data usage."</string>
+Bruk av Mobil trådløssone øker batteriforbruket og databruken din."</string>
     <string name="wifi_ap_instruction_changeable_maxclient_spr">"You can share your device's Hotspot with Wi-Fi enabled devices.
 
 After you start the Mobile Hotspot Wi-Fi router, connect using the controls on your Wi-Fi enabled device."</string>
@@ -3191,7 +3224,7 @@ To configure Smartphone Mobile Hotspot, tap on the menu icon, and then tap “Co
     <string name="wifi_ap_hide_ssid">Skjul min enhet</string>
     <string name="wifi_ap_wifi_off_warn_vzw">Mobile Hotspot uses your mobile data connection. Your Wi-Fi connection will be turned off.</string>
     <string name="wifi_ap_wifi_off_warn_spr">Enabling Hotspot will turn off Wi-Fi</string>
-    <string name="wifi_ap_wifi_off_warn_tmo">Wi-Fi is turned off when USB tethering or Mobile HotSpot is active. To turn on Wi-Fi, please turn off USB tethering or Mobile HotSpot.</string>
+    <string name="wifi_ap_wifi_off_warn_tmo">Wi-Fi er slått av når Internettdeling via USB eller Mobil trådløssone er aktiv. For å slå på Wi-Fi må du slå av Internettdeling via USB eller Mobil trådløssone.</string>
     <string name="wifi_ap_wifi_off_warn_chn">Enabling Mobile hotspot will turn off WLAN.</string>
     <string name="wifi_ap_wifi_off_warn_att">Turning on portable Wi-Fi hotspot will turn off Wi-Fi.</string>
     <string name="wifi_ap_wifi_off_warn_mtr">Wi-Fi is turned off when USB tethering or Mobile Hotspot is active. To turn on Wi-Fi, please turn off USB tethering or Mobile Hotspot.</string>
@@ -3262,6 +3295,7 @@ Når du har endret navnet eller passordet for den mobile trådløssonen, må du 
     <string name="wifi_wps_onstart_pbc_mobileap">Trykk på WPS-knappen på den andre enheten for å koble til.</string>
     <string name="wifi_wps_complete_mobileap">Den andre enheten er nå koblet til enheten din.</string>
     <string name="wifi_ap_disconnect_warn">Koble fra enhet</string>
+    <string name="wifi_ap_change_policy_warn_mtr">The device currently connected will be disconnected from Portable Wi-Fi Hotspot.</string>
     <string name="wifi_ap_change_policy_warn">Alle enheter som for tiden er koblet til, blir koblet fra mobil trådløssone.</string>
     <string name="wifi_ap_warn_max_whitelist">Maksimalt antall tillatte enheter (%d) er nådd.</string>
     <string name="wifiap_one_item_deleted">1 element vil bli slettet.</string>
@@ -3296,8 +3330,9 @@ Wi-Fi is now on."</string>
     <string name="wifi_tether_dialog_nosim_warning_title">Mobil trådløssone</string>
     <string name="wifi_tether_dialog_nosim_warning_chn">Insert a SIM card to use Mobile hotspot and other tethering functions.</string>
     <string name="wifi_tether_dialog_nosim_warning_vzw">Insert a SIM card to use Mobile Hotspot and other tethering options.</string>
-    <string name="wifi_tether_dialog_nosim_warning_tmo">"Please install SIM card in order to share your phone's data connection with other devices using Mobile Wi-Fi HotSpot or USB tethering for Internet access."</string>
-    <string name="wifi_tether_dialog_nosim_warning_spr">Insert SIM for using Hotspot include tethering</string>
+    <string name="wifi_tether_dialog_nosim_warning_tmo">Installer SIM-kort for å dele telefonens datatilkobling med andre enheter ved å bruke Mobile Wi-Fi HotSpot eller Internettdeling via USB for Internettilgang.</string>
+    <string name="wifi_tether_dialog_nosim_warning_mtr">"Please install SIM card in order to share your phone's data connection with other devices using Mobile Wi-Fi Hotspot or USB tethering for Internet access."</string>
+    <string name="wifi_tether_dialog_nosim_warning_spr">Sett inn et SIM-kort for å bruke Hotspot.</string>
     <string name="wifi_tether_dialog_nosim_warning_usc">Sett inn SIM-kort for å bruke Internettdeling.</string>
     <string name="wifi_tether_dialog_nosim_warning">Sett inn SIM-kort for å bruke Internettdeling.</string>
     <string name="mobileap_tmo">Mobile Hotspot</string>
@@ -3324,7 +3359,7 @@ Wi-Fi is now on."</string>
     <string name="wifi_ap_instruction_open_activate_color3_att">Koble til &lt;font color=\"%1$s\">%2$s&lt;/font>.</string>
     <string name="wifi_ap_instruction_open_activate_color3">Koble til &lt;font color=\"%1$s\">%2$s&lt;/font>.</string>
     <string name="wifi_ap_instruction_open_activate_color4_vzw">Enjoy your Mobile Hotspot.</string>
-    <string name="wifi_ap_instruction_open_activate_color4_tmo">Enjoy the internet using your personal Mobile HotSpot.</string>
+    <string name="wifi_ap_instruction_open_activate_color4_tmo">Surf på Internett ved å bruke din personlige Mobil trådløssone.</string>
     <string name="wifi_ap_instruction_open_activate_color4_spr">Enjoy the Internet with Hotspot.</string>
     <string name="wifi_ap_instruction_open_activate_color4_att">Enjoy the Internet using Mobile hotspot.</string>
     <string name="wifi_ap_instruction_open_activate_color4_mtr">Enjoy the Internet using portable Wi-Fi hotspot.</string>
@@ -3343,7 +3378,7 @@ Wi-Fi is now on."</string>
     <string name="wifi_ap_instruction_activate_color3_att">Koble til &lt;font color=\"%1$s\">%2$s&lt;/font> ved å angi &lt;font color=\"%1$s\">%3$s&lt;/font> som passordet.</string>
     <string name="wifi_ap_instruction_activate_color3">Koble til &lt;font color=\"%1$s\">%2$s&lt;/font> ved å angi &lt;font color=\"%1$s\">%3$s&lt;/font> som passordet.</string>
     <string name="wifi_ap_instruction_activate_color4_vzw">Enjoy your Mobile Hotspot.</string>
-    <string name="wifi_ap_instruction_activate_color4_tmo">Enjoy the internet using your personal Mobile HotSpot.</string>
+    <string name="wifi_ap_instruction_activate_color4_tmo">Surf på Internett ved å bruke din personlige Mobil trådløssone.</string>
     <string name="wifi_ap_instruction_activate_color4_spr">Enter &lt;font color=\"%1$s\">%3$s&lt;/font> in the &lt;font color=\"%1$s\">%4$s&lt;/font> field.</string>
     <string name="wifi_ap_instruction_activate_color4_att">Enjoy the Internet using Mobile hotspot.</string>
     <string name="wifi_ap_instruction_activate_color4_mtr">Enjoy the Internet using portable Wi-Fi hotspot.</string>
@@ -3365,16 +3400,16 @@ Wi-Fi is now on."</string>
     <string name="wifi_ap_instruction_activate_color_hidden3_chn">Connect to &lt;font color=\"%1$s\">%2$s&lt;/font> by entering &lt;font color=\"%1$s\">%3$s&lt;/font> as the password.</string>
     <string name="wifi_ap_instruction_activate_color_hidden3_tmo">Connect to &lt;font color=\"%1$s\">%2$s&lt;/font> by entering &lt;font color=\"%1$s\">%3$s&lt;/font> as the password.</string>
     <string name="wifi_ap_instruction_activate_color_hidden3">Koble til &lt;font color=\"%1$s\">%2$s&lt;/font> ved å angi &lt;font color=\"%1$s\">%3$s&lt;/font> som passordet.</string>
-    <string name="wifi_ap_instruction_activate_color_hidden4_tmo">Enjoy the internet using your personal Mobile HotSpot.</string>
+    <string name="wifi_ap_instruction_activate_color_hidden4_tmo">Surf på Internett ved å bruke din personlige Mobil trådløssone.</string>
     <string name="wifi_ap_instruction_no_maxclient">"Du kan bruke enheten som et Internett-tilgangspunkt ved å bruke mobil trådløssone. Dette gjør at andre enheter kan koble seg til det via Wi-Fi. De tilkoblede enhetene har tilgang til Internett via mobilnettet ditt.
 
 Du kan opprette en tillatt enhet-profil, og angi tilkoblingsmodusen for den.
 
 Bruk av mobil trådløssone øker batteriforbruket og databruken din."</string>
     <string name="wifi_ap_instruction_configure_vzw">To change the Mobile Hotspot configuration, go to Settings > Mobile Hotspot and tethering > Mobile Hotspot > MORE, then select Configure Mobile Hotspot.</string>
-    <string name="wifi_ap_instruction_configure_tmo">To change the Mobile HotSpot configuration, tap the More options button, then select Configure Mobile HotSpot.</string>
+    <string name="wifi_ap_instruction_configure_tmo">For å endre oppsettet for Mobil trådløssone trykker du på Flere alternativer-knappen og velger Sett opp Mobil trådløssone.</string>
     <string name="wifi_ap_instruction_configure">For å endre konfigurasjonen for mobil trådløssone trykker du på Flere alternativer-knappen og velger Konfigurer mobil trådløssone.</string>
-    <string name="wifi_ap_instruction_configure_non_grace_tmo">To change the Mobile HotSpot configuration, tap MORE, then select Configure Mobile HotSpot.</string>
+    <string name="wifi_ap_instruction_configure_non_grace_tmo">For å endre oppsettet for Mobil trådløssone trykker du på MER og velger Sett opp Mobil trådløssone.</string>
     <string name="wifi_ap_instruction_configure_non_grace">For å endre konfigurasjonen for mobil trådløssone trykker du på MER og velger Konfigurer mobil trådløssone.</string>
     <string name="wifi_ap_change_security">Change Security</string>
     <string name="wifi_ap_maxclient">Maksimalt antall tilkoblinger</string>
@@ -3391,7 +3426,8 @@ Bruk av mobil trådløssone øker batteriforbruket og databruken din."</string>
     <string name="wifi_tether_configure_ap_text_usc">Configure Wi-Fi hotspot</string>
     <string name="wifi_tether_configure_ap_text">Sett opp trådløssone</string>
     <string name="wifi_ap_hidessid_warning">Your phone will be visible to other devices</string>
-    <string name="wifi_ap_first_time_configuration">First time HotSpot configuration</string>
+    <string name="wifi_ap_first_time_configuration_mtr">Første gangs Hotspot-oppsett</string>
+    <string name="wifi_ap_first_time_configuration">Første gangs HotSpot-oppsett</string>
     <string name="title_wifi_notify_mobileap_is_on">Wi-Fi and Mobile Hotspot</string>
     <string name="wifi_ssid_max_byte_error">Maksimalt antall tegn er nådd.</string>
     <string name="tethering_attention_title">OBS!</string>
@@ -3534,6 +3570,8 @@ Du kan finne ut mer om roaming ved gratis å ringe til roamingkundeservice."</st
     <string name="master_clear_desc_music">Musikk</string>
     <string name="master_clear_desc_pictures">Bilder</string>
     <string name="master_clear_desc_other_user_data">Alle andre brukerdata</string>
+    <string name="master_clear_not_enough_battery">Lad batteriet til minst %d %% før du nullstiller telefonen.</string>
+    <string name="master_clear_not_enough_battery_tablet">Lad batteriet til minst %d %% før du nullstiller nettbrettet.</string>
     <string name="text_two_locktype">Fingeravtrykk og %s</string>
     <string name="pref_lock_type_title">Endre låsetype</string>
     <string name="pref_lock_type_summary">Låstype</string>
@@ -3613,8 +3651,11 @@ Receiving SMS"</string>
     <string name="google_settings_popup_msg">Only a limited number of Google settings are available. Some actions may not work.</string>
     <string name="smart_lock_popup_msg">Only a limited number of Google settings are available. Some actions may not work.</string>
     <string name="prevent_to_change_by_device_policy">Sikkerhetspolicyen hindrer bruk av %s.</string>
+    <string name="quick_tile_sync_title">Synkroniser</string>
     <string name="name_jerusalem">Jerusalem</string>
     <string name="name_israel">Israel</string>
+    <string name="starting_android">Starter Android…</string>
+    <string name="okay">OK</string>
     <string name="yes">Ja</string>
     <string name="no">Nei</string>
     <string name="create">Opprett</string>
@@ -3712,7 +3753,6 @@ Du kan endre dette senere i Bluetooth-innstillinger."</string>
     <string name="phone_info_label">Enhetsinformasjon</string>
     <string name="proxy_settings_label">Proxyinnstillinger</string>
     <string name="cancel">Avbryt</string>
-    <string name="okay">OK</string>
     <string name="save">Lagre</string>
     <string name="done">OK</string>
     <string name="settings_label">Innstillinger</string>
@@ -5347,4 +5387,6 @@ Du vil ikke motta noen anrop, meldinger eller varsler, og alarmer vil ikke lyde,
     <string name="ucm_pins_do_not_match">PIN-kodene stemmer ikke</string>
     <string name="ucm_failed_to_connect_smartcard">Kunne ikke koble til smartkortet. Kontakt enhetsadministratoren.</string>
     <string name="ucm_loading">Åpner…</string>
+    <string name="usb_use_software_installation">Software Installation</string>
+    <string name="usb_use_software_installation_summary">Install Software Update and Repair tool for your device on a Mac or Windows computer.</string>
 </resources>

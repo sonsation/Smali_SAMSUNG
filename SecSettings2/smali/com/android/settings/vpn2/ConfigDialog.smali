@@ -570,7 +570,7 @@
 
     .line 703
     .local v3, "context":Landroid/content/Context;
-    const v7, 0x7f0b1206
+    const v7, 0x7f0b138c
 
     invoke-virtual {v3, v7}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -3070,7 +3070,7 @@
 
     move-object/from16 v29, v0
 
-    const v30, 0x7f0b177c
+    const v30, 0x7f0b1902
 
     .line 309
     move-object/from16 v0, p0
@@ -3107,7 +3107,7 @@
 
     move-object/from16 v29, v0
 
-    const v30, 0x7f0b177d
+    const v30, 0x7f0b1903
 
     .line 311
     move-object/from16 v0, p0
@@ -3459,7 +3459,7 @@
 
     if-eqz v27, :cond_12
 
-    const v27, 0x7f0b1783
+    const v27, 0x7f0b1909
 
     :goto_6
     move-object/from16 v0, p0
@@ -3584,7 +3584,7 @@
     if-eqz v27, :cond_4
 
     .line 381
-    const v27, 0x7f0b1784
+    const v27, 0x7f0b190a
 
     move/from16 v0, v27
 
@@ -3687,7 +3687,7 @@
     invoke-virtual {v0, v1}, Landroid/widget/EditText;->setSelection(I)V
 
     .line 394
-    const v27, 0x7f0b1780
+    const v27, 0x7f0b1906
 
     move/from16 v0, v27
 
@@ -3720,7 +3720,7 @@
     .end local v20    # "server":Ljava/lang/String;
     .end local v21    # "serverEdit":Landroid/widget/EditText;
     :goto_8
-    const v27, 0x7f0b177e
+    const v27, 0x7f0b1904
 
     move/from16 v0, v27
 
@@ -4577,7 +4577,7 @@
 
     .line 354
     :cond_12
-    const v27, 0x7f0b0ca2
+    const v27, 0x7f0b0cc4
 
     goto/16 :goto_6
 
@@ -4685,7 +4685,7 @@
 
     aput-object v28, v27, v29
 
-    const v28, 0x7f0b1785
+    const v28, 0x7f0b190b
 
     move/from16 v0, v28
 
@@ -4739,7 +4739,7 @@
     invoke-virtual {v0, v1}, Landroid/widget/EditText;->setSelection(I)V
 
     .line 404
-    const v27, 0x7f0b1781
+    const v27, 0x7f0b1907
 
     move/from16 v0, v27
 
@@ -4910,7 +4910,7 @@
 
     iget-object v3, v3, Lcom/android/internal/net/VpnProfile;->ipsecCaCert:Ljava/lang/String;
 
-    const v4, 0x7f0b177c
+    const v4, 0x7f0b1902
 
     .line 508
     invoke-direct {p0, v1, v2, v4, v3}, Lcom/android/settings/vpn2/ConfigDialog;->loadCertificates(Landroid/widget/Spinner;Ljava/lang/String;ILjava/lang/String;)V

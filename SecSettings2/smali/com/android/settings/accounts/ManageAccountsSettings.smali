@@ -1918,7 +1918,7 @@
 
     aput-object v31, v35, v36
 
-    const v36, 0x7f0b16f9
+    const v36, 0x7f0b187f
 
     .line 541
     move-object/from16 v0, v34
@@ -2084,7 +2084,7 @@
 
     iget-object v4, v3, Landroid/accounts/Account;->name:Ljava/lang/String;
 
-    const v3, 0x7f0b16ea
+    const v3, 0x7f0b1870
 
     move-object v5, p0
 
@@ -2181,7 +2181,7 @@
     move-result-object v6
 
     .line 704
-    const v7, 0x7f0b10bb
+    const v7, 0x7f0b1242
 
     .line 702
     invoke-direct {v5, p0, v6, v7}, Lcom/android/settings/accounts/ManageAccountsSettings$FragmentStarter;-><init>(Lcom/android/settings/accounts/ManageAccountsSettings;Ljava/lang/String;I)V
@@ -2570,7 +2570,7 @@
     const/4 v4, 0x0
 
     .line 271
-    const v2, 0x7f0b0338
+    const v2, 0x7f0b033a
 
     invoke-virtual {p0, v2}, Lcom/android/settings/accounts/ManageAccountsSettings;->getString(I)Ljava/lang/String;
 
@@ -2584,7 +2584,7 @@
 
     .line 272
     .local v1, "syncNow":Landroid/view/MenuItem;
-    const v2, 0x7f0b0339
+    const v2, 0x7f0b033b
 
     invoke-virtual {p0, v2}, Lcom/android/settings/accounts/ManageAccountsSettings;->getString(I)Ljava/lang/String;
 

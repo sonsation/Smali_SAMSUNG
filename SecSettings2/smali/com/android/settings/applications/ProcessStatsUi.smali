@@ -378,7 +378,7 @@
     .line 82
     const/4 v0, 0x1
 
-    const v1, 0x7f0b19fc
+    const v1, 0x7f0b1b82
 
     invoke-interface {p1, v2, v0, v2, v1}, Landroid/view/Menu;->add(IIII)Landroid/view/MenuItem;
 
@@ -389,7 +389,7 @@
     .line 83
     const/4 v0, 0x2
 
-    const v1, 0x7f0b19fd
+    const v1, 0x7f0b1b83
 
     invoke-interface {p1, v2, v0, v2, v1}, Landroid/view/Menu;->add(IIII)Landroid/view/MenuItem;
 
@@ -584,7 +584,7 @@
 
     if-eqz v3, :cond_0
 
-    const v3, 0x7f0b19f6
+    const v3, 0x7f0b1b7c
 
     :goto_0
     invoke-virtual {v6, v3}, Landroid/preference/PreferenceGroup;->setTitle(I)V
@@ -647,7 +647,7 @@
     .end local v13    # "memInfo":Lcom/android/settings/applications/ProcStatsData$MemInfo;
     .end local v14    # "pkgEntries":Ljava/util/List;, "Ljava/util/List<Lcom/android/settings/applications/ProcStatsPackageEntry;>;"
     :cond_0
-    const v3, 0x7f0b19f5
+    const v3, 0x7f0b1b7b
 
     goto :goto_0
 

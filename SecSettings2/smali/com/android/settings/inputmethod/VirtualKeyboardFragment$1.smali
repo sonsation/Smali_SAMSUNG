@@ -55,7 +55,7 @@
 
     .line 188
     .local v8, "indexable":Lcom/android/settings/search/SearchIndexableRaw;
-    const v22, 0x7f0b1524
+    const v22, 0x7f0b16aa
 
     move-object/from16 v0, p1
 

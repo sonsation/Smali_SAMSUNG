@@ -146,7 +146,7 @@
 
     aput-object v6, v5, v7
 
-    const v6, 0x7f0b0d0f
+    const v6, 0x7f0b0d32
 
     invoke-virtual {v4, v6, v5}, Landroid/content/Context;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -167,7 +167,7 @@
     .line 116
     iget-object v4, p0, Lcom/android/settings/wifi/WifiSnsDisabledConnectionWarning;->mContext:Landroid/content/Context;
 
-    const v5, 0x7f0b1240
+    const v5, 0x7f0b13c6
 
     invoke-virtual {v4, v5}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -191,19 +191,19 @@
 
     .line 119
     .local v0, "newDialog":Landroid/app/AlertDialog$Builder;
-    const v3, 0x7f0b123b
+    const v3, 0x7f0b13c1
 
     invoke-virtual {v0, v3}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
 
     .line 120
-    const v3, 0x7f0b123c
+    const v3, 0x7f0b13c2
 
     invoke-virtual {v0, v3}, Landroid/app/AlertDialog$Builder;->setMessage(I)Landroid/app/AlertDialog$Builder;
 
     .line 121
     iget-object v3, p0, Lcom/android/settings/wifi/WifiSnsDisabledConnectionWarning;->mContext:Landroid/content/Context;
 
-    const v4, 0x7f0b1219
+    const v4, 0x7f0b139f
 
     invoke-virtual {v3, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -216,7 +216,7 @@
     .line 122
     iget-object v3, p0, Lcom/android/settings/wifi/WifiSnsDisabledConnectionWarning;->mContext:Landroid/content/Context;
 
-    const v4, 0x7f0b121f
+    const v4, 0x7f0b13a5
 
     invoke-virtual {v3, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

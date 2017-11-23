@@ -666,7 +666,7 @@
     .param p1, "state"    # Z
 
     .prologue
-    const v0, 0x7f0b1952
+    const v0, 0x7f0b1ad8
 
     .line 236
     invoke-static {}, Lcom/android/settings/Utils;->isSupportGraceUX()Z
@@ -723,7 +723,7 @@
 
     .line 241
     :cond_2
-    const v0, 0x7f0b1953
+    const v0, 0x7f0b1ad9
 
     goto :goto_2
 .end method

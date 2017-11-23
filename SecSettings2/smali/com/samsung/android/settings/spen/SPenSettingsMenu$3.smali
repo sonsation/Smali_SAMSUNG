@@ -40,7 +40,7 @@
     .param p1, "selfChange"    # Z
 
     .prologue
-    const v3, 0x7f0b1952
+    const v3, 0x7f0b1ad8
 
     const/4 v1, 0x1
 
@@ -147,7 +147,7 @@
 
     .line 189
     :cond_1
-    const v0, 0x7f0b0828
+    const v0, 0x7f0b0844
 
     goto :goto_1
 
@@ -188,7 +188,7 @@
 
     .line 195
     :cond_4
-    const v3, 0x7f0b1953
+    const v3, 0x7f0b1ad9
 
     goto :goto_4
 .end method

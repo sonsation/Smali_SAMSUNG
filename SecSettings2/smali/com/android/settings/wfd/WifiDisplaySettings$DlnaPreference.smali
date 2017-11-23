@@ -52,10 +52,10 @@
     invoke-direct {p0, p2}, Landroid/preference/Preference;-><init>(Landroid/content/Context;)V
 
     .line 1987
-    const v5, 0x7f020326
+    const v5, 0x7f020324
 
     .line 1988
-    const v6, 0x7f020601
+    const v6, 0x7f0205ff
 
     .line 1986
     filled-new-array {v5, v6}, [I
@@ -189,7 +189,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f0b0ebe
+    const v6, 0x7f0b0ee4
 
     invoke-virtual {v5, v6}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -298,7 +298,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f0b0ec0
+    const v6, 0x7f0b0ee6
 
     invoke-virtual {v5, v6}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

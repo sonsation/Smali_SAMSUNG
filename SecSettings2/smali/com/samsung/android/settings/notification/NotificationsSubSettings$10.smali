@@ -497,7 +497,7 @@
     if-nez v3, :cond_0
 
     .line 1118
-    const v3, 0x7f0b0465
+    const v3, 0x7f0b046d
 
     invoke-virtual {v1, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -507,7 +507,7 @@
 
     .line 1120
     :cond_0
-    const v3, 0x7f0b09f8
+    const v3, 0x7f0b0a19
 
     invoke-virtual {v1, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

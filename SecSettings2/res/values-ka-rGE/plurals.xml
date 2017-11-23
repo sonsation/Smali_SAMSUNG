@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="data_saver_unrestricted_summary_chn">
+        <item quantity="other">%d აპლიკაციას აქვს მობილურ მონაცემთა შეუზღუდავად გამოყენების ნებართვა, როდესაც „ფონურ მონაცემთა შეზღუდვა“ ჩართულია.</item>
+        <item quantity="one">%d აპლიკაციას აქვს მობილურ მონაცემთა შეუზღუდავად გამოყენების ნებართვა, როდესაც „ფონურ მონაცემთა შეზღუდვა“ ჩართულია.</item>
+    </plurals>
     <plurals name="lock_timeout_hours">
         <item quantity="other">%d საათი</item>
         <item quantity="one">1 საათი</item>

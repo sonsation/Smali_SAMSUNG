@@ -129,7 +129,7 @@
 
     aput-object v6, v5, v7
 
-    const v6, 0x7f0b1366
+    const v6, 0x7f0b14ec
 
     invoke-virtual {p0, v6, v5}, Lcom/android/settings/deviceinfo/PrivateVolumeForget$ForgetConfirmFragment;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -146,7 +146,7 @@
 
     aput-object v6, v5, v7
 
-    const v6, 0x7f0b1367
+    const v6, 0x7f0b14ed
 
     invoke-virtual {p0, v6, v5}, Lcom/android/settings/deviceinfo/PrivateVolumeForget$ForgetConfirmFragment;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -160,12 +160,12 @@
     invoke-direct {v5, p0, v4, v2}, Lcom/android/settings/deviceinfo/PrivateVolumeForget$ForgetConfirmFragment$1;-><init>(Lcom/android/settings/deviceinfo/PrivateVolumeForget$ForgetConfirmFragment;Landroid/os/storage/StorageManager;Ljava/lang/String;)V
 
     .line 106
-    const v6, 0x7f0b1346
+    const v6, 0x7f0b14cc
 
     invoke-virtual {v0, v6, v5}, Landroid/app/AlertDialog$Builder;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
 
     .line 114
-    const v5, 0x7f0b107a
+    const v5, 0x7f0b1202
 
     const/4 v6, 0x0
 

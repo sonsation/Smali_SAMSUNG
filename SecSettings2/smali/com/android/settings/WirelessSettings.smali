@@ -106,7 +106,7 @@
 
     .prologue
     .line 413
-    const v0, 0x7f0b181c
+    const v0, 0x7f0b19a2
 
     return v0
 .end method
@@ -347,7 +347,7 @@
 
     move-result-object v18
 
-    const v19, 0x7f0b048b
+    const v19, 0x7f0b0495
 
     invoke-virtual/range {v18 .. v19}, Landroid/support/v7/preference/PreferenceScreen;->setTitle(I)V
 
@@ -1220,7 +1220,7 @@
     .locals 13
 
     .prologue
-    const v12, 0x7f0b13f2
+    const v12, 0x7f0b1578
 
     const/4 v9, 0x0
 
@@ -1478,7 +1478,7 @@
     if-eqz v8, :cond_5
 
     .line 160
-    const v8, 0x7f0b13f1
+    const v8, 0x7f0b1577
 
     .line 159
     invoke-virtual {v6, v8}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -1536,7 +1536,7 @@
     if-nez v8, :cond_8
 
     .line 172
-    const v8, 0x7f0b13f3
+    const v8, 0x7f0b1579
 
     invoke-virtual {v6, v8}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1548,7 +1548,7 @@
 
     .line 175
     :cond_8
-    const v8, 0x7f0b13f4
+    const v8, 0x7f0b157a
 
     invoke-virtual {v6, v8}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

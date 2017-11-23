@@ -130,7 +130,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0b0421
+    const v2, 0x7f0b0429
 
     invoke-virtual {v1, v2}, Lcom/samsung/android/settings/SettingsSwitchPreference;->setSummary(I)V
 
@@ -159,7 +159,7 @@
 
     if-eqz v1, :cond_4
 
-    const v1, 0x7f0b1952
+    const v1, 0x7f0b1ad8
 
     :goto_3
     invoke-virtual {v4, v1}, Lcom/samsung/android/settings/SettingsSwitchPreference;->setSummary(I)V
@@ -194,7 +194,7 @@
 
     .line 412
     :cond_4
-    const v1, 0x7f0b1953
+    const v1, 0x7f0b1ad9
 
     goto :goto_3
 

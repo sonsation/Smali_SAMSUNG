@@ -256,7 +256,7 @@
 
     .line 300
     .local v1, "e":Landroid/content/pm/PackageManager$NameNotFoundException;
-    const v10, 0x7f0201b3
+    const v10, 0x7f0201b1
 
     invoke-virtual {p0, v10}, Lcom/android/settings/notification/ZenModeAutomationSettings$ZenRulePreference;->setIcon(I)V
 

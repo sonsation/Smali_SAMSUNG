@@ -96,7 +96,7 @@
 
     .line 145
     .local v1, "contentBuilder":Ljava/lang/StringBuilder;
-    const v4, 0x7f0b03eb
+    const v4, 0x7f0b03ed
 
     invoke-virtual {p0, v4}, Lcom/samsung/android/settings/bluetooth/BluetoothDualPlaySettings;->getText(I)Ljava/lang/CharSequence;
 
@@ -110,7 +110,7 @@
     invoke-virtual {v1, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 147
-    const v4, 0x7f0b03ec
+    const v4, 0x7f0b03ee
 
     invoke-virtual {p0, v4}, Lcom/samsung/android/settings/bluetooth/BluetoothDualPlaySettings;->getText(I)Ljava/lang/CharSequence;
 

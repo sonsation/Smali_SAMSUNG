@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="data_saver_unrestricted_summary_chn">
+        <item quantity="other">ਬੈਕਗ੍ਰਾਉਂਡ ਡੈਟਾ ਪ੍ਰਤੀਬੰਧਿਤ ਕਰੋ ਦੇ ਸਮਰੱਥ ਹੋਣ ਦੌਰਾਨ %d ਐਪਸ ਨੂੰ ਪਾਬੰਦੀਆਂ ਤੋਂ ਬਿਨਾਂ ਮੋਬਾਈਲ ਡੈਟਾ ਦੀ ਵਰਤੋਂ ਕਰਨ ਦੀ ਆਗਿਆ ਹੈ।</item>
+        <item quantity="one">ਬੈਕਗ੍ਰਾਉਂਡ ਡੈਟਾ ਪ੍ਰਤੀਬੰਧਿਤ ਕਰੋ ਦੇ ਸਮਰੱਥ ਹੋਣ ਦੌਰਾਨ %d ਐਪਸ ਨੂੰ ਪਾਬੰਦੀਆਂ ਤੋਂ ਬਿਨਾਂ ਮੋਬਾਈਲ ਡੈਟਾ ਦੀ ਵਰਤੋਂ ਕਰਨ ਦੀ ਆਗਿਆ ਹੈ।</item>
+    </plurals>
     <plurals name="lock_timeout_hours">
         <item quantity="other">%d ਘੰਟੇ</item>
         <item quantity="one">1 ਘੰਟਾ</item>

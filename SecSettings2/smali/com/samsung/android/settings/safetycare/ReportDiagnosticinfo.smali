@@ -201,7 +201,7 @@
     .line 166
     iget-object v1, p0, Lcom/samsung/android/settings/safetycare/ReportDiagnosticinfo;->mLearnMoreImage:Landroid/widget/ImageView;
 
-    const v2, 0x7f020422
+    const v2, 0x7f020420
 
     invoke-virtual {v1, v2}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -216,7 +216,7 @@
     .line 169
     iget-object v1, p0, Lcom/samsung/android/settings/safetycare/ReportDiagnosticinfo;->mLearnMoreImage:Landroid/widget/ImageView;
 
-    const v2, 0x7f020421
+    const v2, 0x7f02041f
 
     invoke-virtual {v1, v2}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -255,7 +255,7 @@
 
     .line 70
     .local v7, "p":Lcom/android/internal/app/AlertController$AlertParams;
-    const v11, 0x7f0b04ef
+    const v11, 0x7f0b0502
 
     invoke-virtual {p0, v11}, Lcom/samsung/android/settings/safetycare/ReportDiagnosticinfo;->getText(I)Ljava/lang/CharSequence;
 
@@ -336,7 +336,7 @@
     .line 77
     new-instance v2, Landroid/text/SpannableString;
 
-    const v11, 0x7f0b043a
+    const v11, 0x7f0b0442
 
     invoke-virtual {p0, v11}, Lcom/samsung/android/settings/safetycare/ReportDiagnosticinfo;->getString(I)Ljava/lang/String;
 
@@ -381,7 +381,7 @@
     .line 81
     iget-object v11, p0, Lcom/samsung/android/settings/safetycare/ReportDiagnosticinfo;->mLearnMoreImage:Landroid/widget/ImageView;
 
-    const v12, 0x7f020421
+    const v12, 0x7f02041f
 
     invoke-virtual {v11, v12}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -515,7 +515,7 @@
     invoke-virtual {v11, v12}, Landroid/widget/LinearLayout;->setVisibility(I)V
 
     .line 127
-    const v11, 0x7f0b045e
+    const v11, 0x7f0b0466
 
     invoke-virtual {p0, v11}, Lcom/samsung/android/settings/safetycare/ReportDiagnosticinfo;->getText(I)Ljava/lang/CharSequence;
 
@@ -524,7 +524,7 @@
     iput-object v11, v7, Lcom/android/internal/app/AlertController$AlertParams;->mPositiveButtonText:Ljava/lang/CharSequence;
 
     .line 128
-    const v11, 0x7f0b045f
+    const v11, 0x7f0b0467
 
     invoke-virtual {p0, v11}, Lcom/samsung/android/settings/safetycare/ReportDiagnosticinfo;->getText(I)Ljava/lang/CharSequence;
 

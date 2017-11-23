@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="data_saver_unrestricted_summary_chn">
+        <item quantity="other">பின்னணி தரவுக் கட்டுப்பாடு செயல்படுத்தப்பட்டிருக்கும் போது வரம்பின்றி மொபைல் தரவைப் பயன்படுத்த %d பயன்பாடுகள் அனுமதிக்கப்பட்டுள்ளன.</item>
+        <item quantity="one">பின்னணி தரவுக் கட்டுப்பாடு செயல்படுத்தப்பட்டிருக்கும் போது வரம்பின்றி மொபைல் தரவைப் பயன்படுத்த %d பயன்பாடுகள் அனுமதிக்கப்பட்டுள்ளன.</item>
+    </plurals>
     <plurals name="lock_timeout_hours">
         <item quantity="other">%d மணி நேரம்</item>
         <item quantity="one">1 மணிநேரம்</item>

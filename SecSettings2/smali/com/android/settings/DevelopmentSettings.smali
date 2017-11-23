@@ -454,7 +454,7 @@
     move-result-object v2
 
     .line 1958
-    const v3, 0x7f0b1492
+    const v3, 0x7f0b1618
 
     .line 1955
     invoke-virtual {v2, v3, v0}, Landroid/app/AlertDialog$Builder;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
@@ -518,7 +518,7 @@
     invoke-direct {v2, v3}, Landroid/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
 
     .line 2557
-    const v3, 0x7f0b1ac2
+    const v3, 0x7f0b1c48
 
     .line 2556
     invoke-virtual {v2, v3}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
@@ -526,7 +526,7 @@
     move-result-object v2
 
     .line 2558
-    const v3, 0x7f0b1ac3
+    const v3, 0x7f0b1c49
 
     .line 2556
     invoke-virtual {v2, v3}, Landroid/app/AlertDialog$Builder;->setMessage(I)Landroid/app/AlertDialog$Builder;
@@ -534,7 +534,7 @@
     move-result-object v2
 
     .line 2559
-    const v3, 0x7f0b107b
+    const v3, 0x7f0b1046
 
     .line 2556
     invoke-virtual {v2, v3, v0}, Landroid/app/AlertDialog$Builder;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
@@ -1773,7 +1773,7 @@
     move-result-object v1
 
     .line 2188
-    const v3, 0x7f0b19ef
+    const v3, 0x7f0b1b75
 
     const/4 v6, 0x0
 
@@ -5356,7 +5356,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b1a71    # 1.8489998E38f
+    const v1, 0x7f0b1bf7
 
     const/4 v2, 0x1
 

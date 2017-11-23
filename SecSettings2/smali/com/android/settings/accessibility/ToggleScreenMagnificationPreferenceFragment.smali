@@ -407,7 +407,7 @@
 
     move-result-object v10
 
-    const v11, 0x7f0b157a
+    const v11, 0x7f0b1700
 
     invoke-virtual {v10, v11}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -416,7 +416,7 @@
     aput-object v10, v9, v12
 
     .line 384
-    const v10, 0x7f0b0299
+    const v10, 0x7f0b029b
 
     invoke-virtual {v8, v10, v9}, Landroid/app/Activity;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 

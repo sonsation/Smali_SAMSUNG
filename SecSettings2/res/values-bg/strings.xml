@@ -31,7 +31,7 @@
     <string name="bluetooth_disconnected">Изключен</string>
     <string name="bluetooth_disconnecting">Изключване…</string>
     <string name="bluetooth_connecting">Свързване…</string>
-    <string name="bluetooth_connected">Свързан.</string>
+    <string name="bluetooth_connected">Свързано</string>
     <string name="bluetooth_pairing">Свързване…</string>
     <string name="bluetooth_connected_no_headset">Свързано (без телефона)</string>
     <string name="bluetooth_connected_no_a2dp">Свързано (без мултимедията)</string>
@@ -433,7 +433,7 @@ Enter the code you get from Verizon:"</string>
     <string name="answering_end_call_title">Отговаряне и прекратяване на разговори</string>
     <string name="audio_preference_title">Слух</string>
     <string name="mono_audio_title">Моно звук</string>
-    <string name="mono_audio_summary">Превключете звука от стерео на моно, когато използвате една слушалка.</string>
+    <string name="mono_audio_summary">Превключете звука от стерео на моно, за да слушате с едно ухо.</string>
     <string name="multi_window_title">Много прозорци</string>
     <string name="magnifier_seekbar_plus_tts">Плюс</string>
     <string name="magnifier_seekbar_minus_tts">Минус</string>
@@ -514,16 +514,18 @@ Enter the code you get from Verizon:"</string>
     <string name="direct_access_actions_universal_switch_title">Универсален превключвател</string>
     <string name="sound_detector_title">Детектор за детски плач</string>
     <string name="sound_detector_main_title">Звукови детектори</string>
-    <string name="sound_detector_main_description">Получавайте известия, когато устройството открива звънеца на вратата или детски плач.</string>
+    <string name="sound_detector_main_description">Получавайте известия, когато телефонът открива звънеца на вратата или детски плач.</string>
     <string name="accessibility_easy_interaction_summary">Спирайте или отлагайте аларми, събития от календара и предупреждения за таймери и приемайте или отхвърляйте входящи повиквания само с едно чукване.</string>
     <string name="accessibility_easy_interaction_summary_tablet_wifi">Чукнете, за да спрете/отложите аларми и събития от календара.</string>
-    <string name="all_sound_off">Изключ. на всички звуци</string>
-    <string name="all_sound_off_summary">Не възпроизвеждайте никакви звуци, включително чрез високоговорителя, дори като звуковият режим е зададен на „Звук“.</string>
+    <string name="all_sound_off">Заглушаване на всички звуци</string>
+    <string name="all_sound_off_summary">Изключете всички звуци, включително телефонните повиквания дори ако звуковият режим е зададен на „Звук“.</string>
     <string name="all_sound_off_dialog_summary">%1$s и %2$s не може да са активирани едновременно. %3$s ще бъде деактивирано.</string>
+    <string name="all_sound_off_popup_description">За да използвате „Заглушаване на всички звуци“, %s трябва да се изключи.</string>
+    <string name="all_sound_turn_off_button">Изключване</string>
     <string name="turn_off_all_sounds">Изключ. на всички звуци</string>
     <string name="turn_off_all_sounds1">Изключване на всички звуци и съобщение за отговор не могат да са активирани едновременно.</string>
     <string name="turn_off_all_sounds2">Изключване на всички звуци и съобщение за отговор не могат да са активирани едновременно. Съобщение за отговор ще бъде деактивирано.</string>
-    <string name="turn_off_all_sounds_toast_with_sound_detector">„Изключване на всички звуци“ не може да бъде деактивирано, докато са активирани звуковите детектори. За да ги деактивирате, отидете на Настройки > Достъпност > Слух > Звукови детектори, след което деактивирайте всички звукови детектори.</string>
+    <string name="turn_off_all_sounds_toast_with_sound_detector">Не може да се изключи „Заглушаване на всички звуци“, докато „Звукови детектори“ е включено.</string>
     <string name="accessibility_categories_title">Категории</string>
     <string name="share_accessibility_settings">Управление на достъпност</string>
     <string name="share_accessibility_settings_summary">Импортирайте и експортирайте своите настройки за достъпност или ги споделете с други устройства.</string>
@@ -660,6 +662,7 @@ Enter the code you get from Verizon:"</string>
     <string name="deviceOption">Опции за устройството</string>
     <string name="lock">Заключване</string>
     <string name="powerOff">Изключен</string>
+    <string name="unable_assistantmenu_while_sidesync">Не може да се включи „Помощно меню“, докато използвате SideSync.</string>
     <string name="eamenableinfo">За да активирате Помощник плюс, изберете поне едно приложение.</string>
     <string name="fetch_progress">Зареждане на данни…</string>
     <string name="assistant_menu_enable_message">%s и опциите по-долу не може да са активирани по едно и също време. Опциите по-долу ще бъдат деактивирани.</string>
@@ -766,7 +769,7 @@ Enter the code you get from Verizon:"</string>
     <string name="xcover_key_shortcut_battery_conserving_mode">Battery conserving mode</string>
     <string name="xcover_key_shortcut_normal_mode">Нормален режим</string>
     <string name="flight_mode_enabled_toast">Не може да се свърже към мобилни мрежи, когато е активиран режим Полет. Деактивирайте режим Полет и опитайте отново.</string>
-    <string name="airplane_mode_summary">Деактивирайте функциите за повиквания и съобщения и изключете мобилните данни.</string>
+    <string name="airplane_mode_summary">Изключете функциите за разговори, съобщения и мобилни данни.</string>
     <string name="usb_not_support_mtp_usb3_dialog_title">Известие</string>
     <string name="airplane_mode_desc">Режим Полет ви позволява да изключите мрежовите функции, включително Wi-Fi. За да използвате Wi-Fi, включете я в Настройки или в панела за известяване.</string>
     <string name="flight_mode_enable_popup_title">Активиране на режим Полет</string>
@@ -906,6 +909,7 @@ Wi-Fi и Bluetooth също ще бъдат изключени, но може д
     <string name="bluetooth_control_app_disable_summary">Изключен Bluetooth: %s</string>
     <string name="bluetooth_enter_pin_msg">Въведете PIN за свързване с %s (пробвайте 0000 или 1234).</string>
     <string name="bluetooth_pin_maximum_number_message">Достигнат е максималният брой символи.</string>
+    <string name="bluetooth_frp_permission_message">Не може да се използва Bluetooth устройство за това повикване.</string>
     <string name="settings_menu_done">Готово</string>
     <string name="usb_tethering_unavailable_subtext_tmo">USB not connected</string>
     <string name="usb_tethering_available_subtext_tmo">USB connected, check to tether</string>
@@ -946,11 +950,16 @@ Wi-Fi и Bluetooth също ще бъдат изключени, но може д
 – Рисувате върху екранната снимка.
 – Изрязвате екранната снимка.
 – Споделяте екранната снимка."</string>
+    <string name="smart_capture_summary">Покажете допълнителни опции след заснемане на екранна снимка. Със „Смарт заснемане“ можете:</string>
+    <string name="smart_capture_summary_1">Заснемете скрити области на екрана.</string>
+    <string name="smart_capture_summary_2">Рисув. по екран. снимка.</string>
+    <string name="smart_capture_summary_3">Изреж. екранната снимка.</string>
+    <string name="smart_capture_summary_4">Споделете екран. снимка.</string>
     <string name="identify_unsaved_numbers_title">Идентифициране на незаписаните номера</string>
     <string name="identify_unsaved_numbers_title_usa">Идентифицир. спам номера</string>
     <string name="call_message_spam_filter_title">Call/message spam filter</string>
     <string name="onehand_operation_summary">Регулирайте размера на дисплея и оформлението за по-лесно управление на телефона само с една ръка.</string>
-    <string name="direct_share_title">Директно споделяне</string>
+    <string name="direct_share_title">Директно сподел.</string>
     <string name="direct_share_summary">Споделяйте съдържание с конкретни хора директно чрез панела за споделяне от всяко приложение.</string>
     <string name="direct_share_description">Иконите за „Директно споделяне“ ще се показват в горната част на панела за споделяне, докато се извършват действия, като например изпращане на съобщения или имейли, в приложения, поддържани от функцията за директно споделяне на Google.</string>
     <string name="direct_share_description_chn">Иконите за „Директно споделяне“ ще се показват в горната част на панела за споделяне, докато се извършват действия, като например изпращане на съобщения или имейли, в приложения, поддържани от функцията за директно споделяне на Android.</string>
@@ -1042,6 +1051,7 @@ Wi-Fi и Bluetooth също ще бъдат изключени, но може д
     <string name="fota_update_summary">Докоснете тук, за да актуализирате фърмуера с последната версия и да използвате последните функции.</string>
     <string name="favorite_tab">Бързи настройки</string>
     <string name="device_maintenance_title">Поддръжка на устройството</string>
+    <string name="memory_string">Памет</string>
     <string name="tab_favorite_edit">Редактиране на бързи настройки</string>
     <string name="add_favorite_button">Редактиране на бързи настройки</string>
     <string name="cloud_and_accounts_title">Облак и акаунти</string>
@@ -1079,7 +1089,12 @@ Wi-Fi и Bluetooth също ще бъдат изключени, но може д
     <string name="notification_settings_apps_title">Уведомления за приложения</string>
     <string name="international_roaming_setting">Настройки за роуминг</string>
     <string name="user_manual_mos">Ръководство на потребителя</string>
-    <string name="data_saver_description">За да помогне за намаляване на използването на данни, „Записване на данни“ предотвратява изпращането или получаването на данни от някои приложения във фонов режим. Освен това, приложенията, които се използват в момента, могат да получат достъп до данните, но по-рядко. Например изображенията може да не се показват правилно, докато не ги докоснете.</string>
+    <string name="data_saver_description">„Записване на данни“ помага за намаляване на използването на данни, като предотвратява изпращането или получаването на данни от някои приложения във фонов режим. Приложенията, които използвате в момента, могат да използват мобилни данни, но по-рядко. Например изображенията може да не се показват правилно, докато не ги докоснете.</string>
+    <string name="unrestricted_data_saver_chn">Използв. данни без ограничения</string>
+    <string name="data_saver_description_chn">За да помогне за намаляване на използването на данни, „Ограничаване на данни във фонов режим“ предотвратява изпращането или получаването на данни от някои приложения във фонов режим. Освен това, приложенията, които се използват в момента, могат да получат достъп до данните, но по-рядко. Например изображенията може да не се показват правилно, докато не ги докоснете.</string>
+    <string name="data_saver_title_chn">Ограничаване на данни във фонов режим</string>
+    <string name="unrestricted_app_title_chn">Използв. данни без ограничения</string>
+    <string name="unrestricted_app_summary_chn">Това приложение може да използва мобилни данни без ограничения, докато „Ограничаване на данни във фонов режим“ е активирано.</string>
     <string name="data_used_editor_subtitle">Enter the amount of data you have used this month:</string>
     <string name="traffic_vertify">Details</string>
     <string name="btn_tmo">Upgrade data service</string>
@@ -1131,7 +1146,9 @@ Data usage is measured by your phone. Your carrier may account for usage differe
     <string name="last_checked_date">Последно проверено на:</string>
     <string name="auto_update">Авто изтегляне на актуализации</string>
     <string name="auto_update_summary">Изтеглете софтуерни актуализации автоматично, когато сте свързани към Wi-Fi мрежа. Ще можете все още да използвате устройството си по време на изтеглянето.</string>
-    <string name="scheduled_update">Планирани актуал. на софтуера</string>
+    <string name="auto_update_over_wifi">Авто изтегляне през Wi-Fi</string>
+    <string name="auto_update_over_wifi_summary">Изтегляйте софтуерни актуализации автоматично, когато сте свързани с Wi-Fi мрежа. В зависимост от доставчика на услуги актуализациите могат да се изтеглят също така и чрез мобилни данни без допълнителни такси. Ще можете да използвате телефона по време на изтеглянето.</string>
+    <string name="scheduled_update">Планирани софтуерни актуализ.</string>
     <string name="scheduled_update_summary_default">Изключи</string>
     <string name="scheduled_update_summary_set_time">Актуализацията ще започне в %s</string>
     <string name="scheduled_update_summary_set_time_everyday">Актуализацията ще започва в %s всеки ден</string>
@@ -1164,7 +1181,7 @@ Data usage is measured by your phone. Your carrier may account for usage differe
     <string name="memory_mms_usage">MMS</string>
     <string name="user_owner">Притежател</string>
     <string name="unable_to_charge_the_connected_device">Не може да се използва USB кабел за %s.</string>
-    <string name="unable_to_change_usb_options_via_smart_switch">Не може да се променят опциите за USB, докато се прехвърлят данни чрез Smart Switch.</string>
+    <string name="unable_to_change_usb_options_via_smart_switch">Не може да се променят опциите за USB, докато се прехвърлят данни със Smart Switch.</string>
     <string name="usb_configuring">Конфигуриране…</string>
     <string name="usb_use_none_summary">Данните на устройството ви не могат да бъдат прехвърлени.</string>
     <string name="usb_use_charging_only_summary_vzw">Just charge this phone.</string>
@@ -1172,9 +1189,9 @@ Data usage is measured by your phone. Your carrier may account for usage differe
     <string name="usb_use_file_transfers_summary_vzw">Transfer media files to a computer.</string>
     <string name="usb_use_file_transfers_summary">Прехвърляйте мултимедийни файлове към компютър чрез MTP връзка.</string>
     <string name="usb_use_MIDI_summary_vzw">Use device for MIDI input.</string>
-    <string name="usb_use_MIDI_summary">Използвайте свързаното устройство като MIDI (цифров интерфейс за музикални инструменти) плейър или входен източник.</string>
-    <string name="usb_use_software_installation">Software Installation</string>
-    <string name="usb_use_software_installation_summary">Install Software Update and Repair tool for your device on a Mac or Windows computer.</string>
+    <string name="usb_use_MIDI_summary">Използвайте свързаното устройство като MIDI плейър или входен източник.</string>
+    <string name="usb_use_system_update">Системна актуализация</string>
+    <string name="usb_use_system_update_summary">Инсталирайте Помощника за софтуерна надстройка на компютъра и актуализирайте или поправете този телефон.</string>
     <string name="sim_status_code">Код</string>
     <string name="sim_status_btn_update">Актуал. състояние на SIM</string>
     <string name="sim_status_updating">Актуализиране…</string>
@@ -1263,7 +1280,7 @@ Where Can I Find More Information About the 3rd Party's Policies? Separately, if
     <string name="display_temperature">Баланс на цветовете</string>
     <string name="adjust_your_display_colour">Регулирайте цветовете на дисплея, за да промените облика на белите тонове.</string>
     <string name="led_indicator_settings">Светодиоден индикатор</string>
-    <string name="led_indicator_settings_summary">Включете LED индикатора по време на зареждане, гласов запис или получаване на уведомления.</string>
+    <string name="led_indicator_settings_summary">Включете LED индикатора, когато екранът е изключен, за да се покаже състоянието на записване на звук, непрочетените уведомления и батерията.</string>
     <string name="screen_resolution_desc">Част от съдържанието може да изглежда замъглено или може да не се поддържа в FHD или HD.</string>
     <string name="display_battery_percentage">Показване процент батерия</string>
     <string name="display_battery_percentage_summary">Покажете оставащия заряд на батерията като процент в лентата на състоянието.</string>
@@ -1292,7 +1309,7 @@ Where Can I Find More Information About the 3rd Party's Policies? Separately, if
     <string name="wallpaper">Тапет</string>
     <string name="lockscreen_wallpaper">Заключен екран</string>
     <string name="status_bar">Лента на състоянието</string>
-    <string name="recent_notification_status_bar_title">Показ. само скорошни уведомл.</string>
+    <string name="recent_notification_status_bar_title">Пок. само скорошни уведомления</string>
     <string name="recent_notification_status_bar_summary">Покажете само %d най-скорошни икони на уведомления в лентата за състояние.</string>
     <string name="display_and_homescreen_title">Показване на начал. екран</string>
     <string name="navigationbar_title">Лента за навигация</string>
@@ -1310,12 +1327,12 @@ Where Can I Find More Information About the 3rd Party's Policies? Separately, if
     <string name="blue_light_filter_off_time_next_day_summary_format">%s следващ ден</string>
     <string name="blue_light_filter_user_schedule_title">Персонализиран график</string>
     <string name="blue_light_filter_auto_schedule_title">От залез до изгрев</string>
-    <string name="blue_light_filter_desc">Използвайте филтъра за синя светлина, за да спите по-добре. Задайте график на използване на филтъра за синя светлина. За да използвате „От залез до изгрев“, трябва да е активирано „Местоположение“.</string>
-    <string name="blue_light_filter_enable_now">Активиране сега</string>
+    <string name="blue_light_filter_desc">Използвайте филтъра за синя светлина нощем, за да спите по-добре. Можете да зададете график за часа на използване на филтъра за синя светлина. За да използвате „От залез до изгрев“, трябва да е включено „Местоположение“.</string>
+    <string name="blue_light_filter_enable_now">Включване сега</string>
     <string name="blue_light_filter_enable_as_scheduled">Активиране като планирано</string>
-    <string name="blue_light_filter_scheduled_toast">Филтърът за синя светлина е активиран. Ще се деактивира автоматично в планирания краен час.</string>
+    <string name="blue_light_filter_scheduled_toast">Филтърът за синя светлина е включен. Ще се изключи автоматично в планирания краен час.</string>
     <string name="screen_mode_dlg_turn_off_blue_light_filter">%s и филтърът за синя светлина не може да се използват едновременно. Филтърът за синя светлина ще бъде деактивиран.</string>
-    <string name="blue_light_filter_dlg_turn_on_location">За да използвате „От залез до изгрев“, „Местоположение“ трябва да е активирано.</string>
+    <string name="blue_light_filter_dlg_turn_on_location">За да се използва „От залез до изгрев“, „Местоположение“ трябва да е включено.</string>
     <string name="dlg_turn_on">Включване</string>
     <string name="screen_resolution_title">Разделит. способн. екран</string>
     <string name="screen_resolution_desc_title">Пром. раздел. спос. екран</string>
@@ -1422,6 +1439,10 @@ Where Can I Find More Information About the 3rd Party's Policies? Separately, if
     <string name="crypt_keeper_vzw_password_warning">Set the Screen lock password with at least %d characters and 1 number.</string>
     <string name="crypt_keeper_decrypt_title">Дешифр. у-во</string>
     <string name="crypt_keeper_decrypt_summary">У-вото е шифр.</string>
+    <string name="crypt_keeper_type_pin">PIN</string>
+    <string name="crypt_keeper_type_pattern">Шаблон</string>
+    <string name="crypt_keeper_type_password">Парола</string>
+    <string name="crypt_keeper_type_direction">Заключване на посока</string>
     <string name="crypt_keeper_confirm_title_dec">Потвърдете дешифрирането</string>
     <string name="crypt_keeper_force_power_cycle_pattern">За да стартирате устройството, го изключете, включете го отново, след което опитайте отново. Трябва да начертаете шаблона, който използвате за стартиране на устройството, за да го стартирате и да отключите екрана. Резервният PIN не може да се използва за стартиране на устройството.</string>
     <string name="crypt_keeper_setup_description_dec">"Дешифриране на устройството. Това може да отнеме известно време. Изчакайте…
@@ -1511,6 +1532,7 @@ Where Can I Find More Information About the 3rd Party's Policies? Separately, if
     <string name="crypt_keeper_verify_failed_summary">Не може да се рестартира устройството. Потвърждаването на цялостността беше неуспешно. Трябва да нулирате устройството до фабричните настройки по подразбиране. Това ще изтрие всичките ви данни.</string>
     <string name="cryptkeeper_emergency_call">Спешно повикване</string>
     <string name="cryptkeeper_return_to_call">Връщане към повикване</string>
+    <string name="cryptkeeper_default_enter_msg">Телефонът е шифрован от съображения за защита.</string>
     <string name="enter_password">За да стартирате устройството, въведете своята парола.</string>
     <string name="enter_pin">За да стартирате устройството, въведете своя PIN.</string>
     <string name="enter_pattern">За да стартирате устройството, начертайте шаблона си.</string>
@@ -1520,11 +1542,13 @@ Where Can I Find More Information About the 3rd Party's Policies? Separately, if
     <string name="cryptkeeper_wrong_pin">Въведен е неправилен PIN</string>
     <string name="cryptkeeper_wrong_direction">Начертана е неправилна посока</string>
     <string name="checking_decryption">Проверка…</string>
-    <string name="starting_android">Стартиране на Android…</string>
     <string name="crypt_keeper_last_warn_wipe">Остава ви само 1 опит за стартиране на устройството, преди то да се нулира до фабричните настройки по подразбиране. Това ще изтрие всички данни, включително файловете и изтеглените приложения.</string>
     <string name="crypt_keeper_failed_title_dec">Дешифрирането неуспешно</string>
     <string name="crypt_keeper_failed_summary_dec">Дешифрирането не бе възможно поради прекъсване. Извършете нулиране с фабричните данни (изтриване на всички ваши данни) преди използване.</string>
     <string name="crypt_keeper_set_screen_lock_type">Задав. тип закл. на екрана</string>
+    <string name="encryption_interstitial_message">"Може да подобрите защитата на този телефон, като изисквате въвеждане на %s преди стартиране на телефона. Това помага за защита на данните, ако телефонът бъде изгубен или откраднат. Някои приложения може да изискват „Защитено стартиране“ съгласно политиките за шифроване на устройства за достъп до функции, като например синхронизиране на имейл.
+
+Няма да получавате никакви повиквания, съобщения или уведомления, а алармите няма да се задействат, докато телефонът не се стартира."</string>
     <string name="encryption_interstitial_message_kor">Устройството е шифровано. Защитете шифрованите данни, като изберете „Искане за заключване на екрана за дешифриране на данни, когато устройството се включи“. Това ще помогне да се защитят данните на изгубени или откраднати устройства. Ще трябва да отключите устройството, за да дешифрирате данните, когато го включите. Няма да получавате никакви повиквания, съобщения или уведомления, докато дешифрирате устройството.</string>
     <string name="encryption_interstitial_message_direction">"Защитете устройствата си, като изберете „Искане на заключване с посока при включване на устройството“. Това помага за защита на данните при загубени или откраднати устройства.
 
@@ -1546,6 +1570,7 @@ Where Can I Find More Information About the 3rd Party's Policies? Separately, if
 Няма да получавате обаждания, съобщения или уведомления, а алармите няма да се включват, докато устройството не стартира."</string>
     <string name="encryption_interstitial_error_message">За да защитите данните на устройството, променете типа на заключване на екрана на PIN, парола, шаблон или пръстов отпечатък, след което опитайте отново.</string>
     <string name="encryption_interstitial_error_message_direction">За да защитите данните на устройството, променете типа на заключване на екрана на PIN, парола, шаблон, заключване на посока или пръстови отпечатъци, след което опитайте отново.</string>
+    <string name="encryption_interstitial_error_message_direction_without_fingerprint">За да защитите данните на устройството, променете типа на заключване на екрана на PIN, парола, шаблон или заключване на посока, след което опитайте отново.</string>
     <string name="encryption_interstitial_error_message_iris_direction">За да защитите данните на устройството, променете типа на заключване на екрана на PIN, парола, шаблон, заключване на посока, пръстови отпечатъци или ириси, след което опитайте отново.</string>
     <string name="encryption_interstitial_error_message_without_fingerprint">За да защитите данните на устройството, променете типа на заключване на екрана на PIN, парола или шаблон, след което опитайте отново.</string>
     <string name="encryption_interstitial_error_sktlock">„Безопасно заключване“ и „Защитено стартиране“ не може да се активират едновременно. Изберете незащитен тип на заключване и опитайте отново.</string>
@@ -1809,6 +1834,8 @@ You will also need it when:"</string>
 %s"</string>
     <string name="improve_location_title">Improve location accuracy</string>
     <string name="improve_location_summary">Use WLANs and mobile networks to provide more accurate information about the location of your device.</string>
+    <string name="send_last_location_title">Изпращане последно местоп.</string>
+    <string name="send_last_location_summary">Позволете на телефона да изпрати последното си местоположение в сървъра на „Намери моя телефон“, когато батерията спадне под определено ниво.</string>
     <string name="high_power_description">Активирайте „Оптимизиране на ползването на батерията“ за отделни приложения. Някои функции, като тези, които използват мобилни мрежи или синхронизирани данни, ще бъдат ограничени при запазването на заряда на батерията.</string>
     <string name="wifi_display_summary_off">Изключи</string>
     <string name="battery_usage_description">Този екран показва данните за използване на батерията от последното пълно зареждане на устройството.</string>
@@ -1904,6 +1931,8 @@ You will also need it when:"</string>
     <string name="iris_sensor_not_working_popup_title">Разпознаването на ириси не работи</string>
     <string name="iris_sensor_not_working_msg">Сензорът за ириси не отговаря. Опитайте отново по-късно.</string>
     <string name="iris_go_to_samsung_theme">Към Samsung Themes</string>
+    <string name="biometrics_dex_cant_use_msg">Не може да се използва %s в Samsung DeX.</string>
+    <string name="biometrics_dex_closed_to_switch">%s се затвори, за да превключи на Samsung DeX.</string>
     <string name="knox_twofactor_bio_description">Изберете биометричен тип на заключване и втори тип на заключване, за да отключите %s.</string>
     <string name="fingerprint_registered">Регистрираните пръстови отпечатъци ще се използват с избрания метод на отключване.</string>
     <string name="knox_twofactor_description">Използвайте два типа заключване, за да направите Knox още по-защитен. Вашите пръстови отпечатъци ще бъдат използвани като първи тип заключване. Изберете втори тип заключване по-долу.</string>
@@ -2001,8 +2030,8 @@ Determining your location will use the mobile network. Data usage will apply."</
     <string name="app_ops_settings_summary">Прегледайте или променете разрешенията за приложение.</string>
     <string name="backup_key_for_applock_header">Задайте шаблон, PIN или парола, които да използвате заедно с разпознаването на пръстов отпечатък, за да отключвате или заключвате приложения.</string>
     <string name="backup_key_for_privatemode_header">Задайте шаблон, PIN или парола, които да използвате заедно с разпознаването на пръстов отпечатък за достъп до Личен режим.</string>
-    <string name="status_added">Добавени</string>
     <string name="text_security_title_b2c">Изберете тип на заключване. Ако забравите как се отключва „Защитена папка“, може да нулирате заключването с помощта на вашия Samsung акаунт.</string>
+    <string name="status_added">Добавени</string>
     <string name="lockpattern_backup_pin">Резервен PIN</string>
     <string name="applock_type_fingerprint">Пръстов отпечатък</string>
     <string name="unlock_set_unlock_two_factor_title">Потвържд. в две стъпки</string>
@@ -2218,7 +2247,7 @@ Determining your location will use the mobile network. Data usage will apply."</
     <string name="palm_swipe_title">Плъзнете с длан за заснемане</string>
     <string name="screen_recorder_title">Record screen</string>
     <string name="screen_recorder_summary">Record video screenshots while you use your device.</string>
-    <string name="multi_window_setting_title">Жест за изскачащ изглед</string>
+    <string name="multi_window_setting_title">Действие за изскачащ изглед</string>
     <string name="multi_window_setting_description">Когато дадено приложение е отворено на екрана, регулирайте размера на приложението, като плъзнете надолу по диагонал от единия горен ъгъл на екрана.</string>
     <string name="multi_window_screen_title">Много прозорци</string>
     <string name="multi_window_screen_summary">Покажете повече от едно приложение едновременно.</string>
@@ -2258,18 +2287,19 @@ Determining your location will use the mobile network. Data usage will apply."</
     <string name="air_browse_note_summary">Придвижване между страници, докато сте в режим Преглед.</string>
     <string name="data_usage_enable_mobile_summery">Получете достъп до интернет чрез мобилната мрежа.</string>
     <string name="data_usage_enable_mobile_warning_skt">Свързването към мобилни мрежи може да начисли допълнителни такси, в зависимост от плана ви за данни. Продължаване?</string>
-    <string name="data_usage_enable_mobile_warning_ktt">Свързването към мобилни мрежи може да начисли допълнителни такси, в зависимост от плана ви за данни. Продължаване?</string>
+    <string name="data_usage_enable_mobile_warning_ktt">„Мобилни данни“ ще се включи. Свързването към мобилни мрежи може да доведе до допълнителни такси в зависимост от плана ви на плащане.</string>
     <string name="data_usage_enable_mobile_warning_lgt">Свързването към мобилни мрежи може да начисли допълнителни такси, в зависимост от плана ви за данни. Продължаване?</string>
     <string name="data_usage_disable_mobile_title">Изключване на Мобилни данни</string>
     <string name="data_usage_disable_mobile_warning_skt">Изключването на мобилната мрежа ще ограничи използването на MMS и 3G услуги за данни. Изключване?</string>
     <string name="data_usage_disable_mobile_warning_ktt">Изключването на мобилната мрежа ще ограничи използването на MMS и 3G услуги за данни. Изключване?</string>
     <string name="data_usage_disable_mobile_warning_ktt_jb">Изключването на мобилната мрежа ще ограничи използването на MMS и 3G услуги за данни. Изключване?</string>
-    <string name="mobile_data_off_dialog_text_vzw">"Unless you use Wi-Fi, you will not be able to use the Internet, Email, or other apps that require a data connection.
+    <string name="data_usage_disable_mobile_warning_dcm">"If Mobile data is turned off, your device must be connected to a Wi-Fi network to use services that require a network connection.
 
-Turn off Mobile data?"</string>
-    <string name="mobile_data_off_dialog_text_common">"Освен ако не използвате Wi-Fi, повече няма да можете да използвате „Интернет“, „Имейл“ или други приложения, които изискват връзка за данни.
-
-Мобилните данни ще бъдат изключени."</string>
+Mobile data will be turned off."</string>
+    <string name="mobile_data_off_dialog_text_vzw">"Unless you use Wi-Fi, you won't be able to use the Internet, Email or other apps that require a data connection. Turn off the mobile data connection?"</string>
+    <string name="mobile_data_off_dialog_text_volte">"Your phone's Video Calling function won't work when mobile data is off. Also, you won't be able to use the Internet, Email or other apps that need a data connection unless you use Wi-Fi. Turn off the mobile data connection?"</string>
+    <string name="mobile_data_off_dialog_text_common">Освен ако не се свържете към Wi-Fi мрежа, няма да можете да използвате „Интернет“, „Имейл“ или други приложения, които изискват мрежова връзка.</string>
+    <string name="data_usage_turn_off_btn">Изкл.</string>
     <string name="wfd_settings_summary">Споделете екрана на своето устройство с друго устройство.</string>
     <string name="nfc_settings_advanced_explain">"Задайте метода за NFC обработка по подразбиране.
 Някои NFC трансакции и услуги за мобилно плащане може да изискват друг мето за NFC обработка."</string>
@@ -2409,7 +2439,7 @@ Turn off Mobile data?"</string>
     <string name="zen_mode_events_summary">Разрешете уведомления от S Planner и други календарни събития.</string>
     <string name="zen_mode_events_summary_na">Разрешете уведомления от събитията и задачите в „Календар“.</string>
     <string name="zen_mode_reminders_summary">Позволете напомняния от приложения, които ги поддържат.</string>
-    <string name="dnd_app_noti_summary">Настройте приоритетни прекъсвания да позволяват уведомления на приложения като изключения.</string>
+    <string name="dnd_app_noti_summary">Позволете уведомления от избрани от вас приложения.</string>
     <string name="no_exceptions_dcm_summary">Mute all calls and alerts, including Area Mail alarms.</string>
     <string name="dnd_screen_switch_summary">Заглушете всички повиквания и известия, с изключение на вашите избрани изключения.</string>
     <string name="app_notification_priority_app_list_title">Увед. за приор. приложения</string>
@@ -2456,7 +2486,7 @@ To unblock it and connect to other devices via a USB cable, insert a USIM/SIM ca
     <string name="personal_page_secretbox_disclaimer_title">Отказ от отговорност</string>
     <string name="personal_page_secretbox_disclaimer_message">Личен режим не защитава достъпа до вашите данни от други приложения. За да предотвратите синхронизиране на данните с външни сървъри, моля изключете настройките за автоматична синхронизация на вашето устройство.</string>
     <string name="personal_page_secretbox_disclaimer_message_vzw">Content moved into Private mode will be hidden and will not be shown when you exit from Private mode. Automatic syncing while in Private mode may allow that content to be visible in 3rd party apps. Check the automatic synchronization settings of your other applications before using Private mode.</string>
-    <string name="personal_page_tutorial_app_title_message">Използвайте Личен режим, за да скриете съдържание, което искате да запазите лично. Докато използвате приложенията по-долу, изберете елементите, които искате да преместите в „Лични“, след което докоснете ОЩЕ и изберете „Преместване в лични“, Съдържанието, което е преместено в „Лични“, може да се вижда само докато Личен режим е активиран.</string>
+    <string name="personal_page_tutorial_app_title_message">Използвайте Личен режим, за да скриете съдържание, което искате да запазите лично. Докато използвате приложенията по-долу, изберете елементите, които искате да преместите в „Лични“, след което докоснете „Още опции“ и изберете „Преместване в лични“, Съдържанието, което е преместено в „Лични“, може да се вижда само докато Личен режим е включен.</string>
     <string name="personal_page_inline_help">За да използвате Личен режим, изберете тип на достъп. Ако забравите типа на достъп на Личен режим, няма да можете да го възстановите и няма да можете да използвате Личен режим, освен ако не нулирате устройството към фабричните настройки по подразбиране.</string>
     <string name="personal_page_backup_pin_summary">Създайте резервен PIN за Личен режим, в случай че забравите шаблона си.</string>
     <string name="personal_page_incorrect_pin">"Неправилен PIN.
@@ -2846,6 +2876,7 @@ To unblock it and connect to other devices via a USB cable, insert a USIM/SIM ca
     <string name="samsung_backup_summary">Използвайте своя Samsung акаунт, за да архивирате данните си.</string>
     <string name="samsung_restore_summary">Използвайте своя Samsung акаунт, за да възстановите архивираните данни.</string>
     <string name="sns_settings_title">Превключете на мобилни данни, когато Wi-Fi връзката стане нестабилна. Телефонът може също така да превключи на записаните Wi-Fi мрежи от най-често посещаваните области. „Превключване на умна мрежа“ автоматично ще включи или изключи записаните Wi-Fi мрежи.</string>
+    <string name="sns_settings_title_include_autowifi">Превключете на мобилни данни, когато Wi-Fi връзката стане нестабилна. Телефонът може също така да превключи на записаните Wi-Fi мрежи от най-често посещаваните области. „Превключване на умна мрежа“ автоматично ще включи или изключи записаните Wi-Fi мрежи.</string>
     <string name="smart_bonding">Ускорител на изтегляне</string>
     <string name="smart_bonding_popup_title">Активир. на Ускор. на изтегл.</string>
     <string name="smart_bonding_description_vzw">"Download large files (over %d MB) faster by using Wi-Fi and LTE networks at the same time. The Download booster icon will be shown on the status bar when Download booster is turned on.
@@ -3037,7 +3068,7 @@ Downloading via mobile networks may result in additional charges depending on yo
     <string name="wifi_on_dialog_summary">To switch to Wi-Fi, select a network</string>
     <string name="notifyme_later">Не сега</string>
     <string name="wifi_p2p_help_message">Wi-Fi Direct позволява на Wi-Fi устройства да се свързват директно, като прави печата, споделянето на файлове, синхронизирането и споделянето на екрани много по-просто и по-удобно. Свързването към устройства, които поддържат Wi-Fi Direct, позволява да споделяте съдържанието си, да синхронизирате данните си, да се социализирате с приятелите си, да играете игри, да възпроизвеждате аудио, видео и много други, с помощта на различни приложения.</string>
-    <string name="prev_button_label">Предиш.</string>
+    <string name="prev_button_label">Предишен</string>
     <string name="wifi_sns_setting_alert_button_do_not_enable">Да не се активира</string>
     <string name="wifi_smart_network_switch_aggressive_switching_summary">Превключете на използване на мобилна мрежа за достъп до интернет дори когато интернет връзката с Wi-Fi е само леко нестабилна. Това може да увеличи използването на данни.</string>
     <string name="wifi_smart_network_switch_aggressive_switching">Агресивно превключване</string>
@@ -3066,6 +3097,8 @@ Downloading via mobile networks may result in additional charges depending on yo
     <string name="wifi_manage_network">Управляване на мрежи</string>
     <string name="wlan_permission_available_message">Asks your permission to use WLAN via a pop-up</string>
     <string name="wlan_permission_available">Ask to use WLAN</string>
+    <string name="wifi_hotspot20_summary_tmo">Свързвайте се безпроблемно към Wi-Fi точки за достъп с възможност за Hotspot 2.0 без необходимост от парола.</string>
+    <string name="wifi_hotspot20_summary_dcm">Свържете се автоматично към Hotspot 2.0 Wi-Fi мрежа, когато Wi-Fi е включено.</string>
     <string name="wifi_hotspot20_summary">Свържете се автоматично към Wi-Fi точки за достъп, които поддържат Hotspot 2.0.</string>
     <string name="wifi_hotspot20_enable">Hotspot 2.0</string>
     <string name="wifi_att_auto_connect_summary">Automatically connect to AT&amp;T Wi-Fi hotspot when detected</string>
@@ -3084,9 +3117,9 @@ Downloading via mobile networks may result in additional charges depending on yo
     <string name="wifi_auto_reconnect">Авто повторно свързване</string>
     <string name="wifi_enable_warning_chn">Turning on WLAN will disable Mobile hotspot.</string>
     <string name="wifi_enable_warning_vzw">Включването на Wi-Fi ще деактивира Mobile Hotspot. Продължаване?</string>
-    <string name="wifi_enable_warning_tmo">Wi-Fi is turned off when Mobile HotSpot is active. To turn on Wi-Fi, please turn off Mobile HotSpot.</string>
+    <string name="wifi_enable_warning_tmo">Wi-Fi е изключена, когато „Мобилна точка за достъп“ е активно. За да включите Wi-Fi, изключете „Мобилна точка за достъп“.</string>
     <string name="wifi_enable_warning_spr">Turning on Wi-Fi will disable Hotspot.</string>
-    <string name="wifi_enable_warning_mtr">Turning on Wi-Fi will turn off Mobile Hotspot. Continue?</string>
+    <string name="wifi_enable_warning_mtr">Wi-Fi е изключена, когато „Мобилна точка за достъп“ е активно. За да включите Wi-Fi, изключете „Мобилна точка за достъп“.</string>
     <string name="wifi_enable_warning_usc">Turning on Wi-Fi will turn off Portable Wi-Fi hotspot. Continue?</string>
     <string name="wifi_enable_warning">Включването на Wi-Fi ще деактивира Mobile hotspot.</string>
     <string name="wifi_control_history_title">Хронология на Wi-Fi контрол</string>
@@ -3120,9 +3153,9 @@ Downloading via mobile networks may result in additional charges depending on yo
     <string name="wifi_ap__wifi_sharing_vzw">Wi-Fi Sharing</string>
     <string name="wifi_ap__wifi_sharing">Wi-Fi споделяне</string>
     <string name="first_use_wifi_msg_mtr">Tap OK to learn more about using Mobile Hotspot.</string>
-    <string name="first_use_wifi_msg">Tap OK to learn more about using Mobile HotSpot.</string>
+    <string name="first_use_wifi_msg">Докоснете OK, за да научите повече за използването на „Мобилна точка за достъп“.</string>
     <string name="first_use_title_mtr">View Mobile Hotspot help</string>
-    <string name="first_use_title">View Mobile HotSpot help</string>
+    <string name="first_use_title">Преглед на помощ за „Мобилна точка за достъп“</string>
     <string name="wifi_ap_wifi_sharing_title">Вкл. Wi-Fi споделяне</string>
     <string name="wifi_ap_wifi_sharing_status_enabled">Активирано</string>
     <string name="wifi_ap_wifi_sharing_status_disabled">Деактивирано</string>
@@ -3154,11 +3187,11 @@ Using Mobile hotspot increases battery consumption and data usage."</string>
 Mobile Hotspot uses mobile data from your data plan.
 
 We recommend keeping your phone plugged in to a charger while using Mobile Hotspot to save battery."</string>
-    <string name="wifi_ap_instruction_changeable_maxclient_tmo">"You can use your device as an Internet access point using Mobile HotSpot. This allows up to %d other devices to connect to it via Wi-Fi. The connected devices will have access to the Internet via your mobile network.
+    <string name="wifi_ap_instruction_changeable_maxclient_tmo">"Можете да използвате устройството си като точка за достъп до интернет, като използвате „Мобилна точка за достъп“. Това позволява до %d други устройства да се свържат към него през Wi-Fi. Свързаните устройства ще имат достъп до интернет през вашата мобилна мрежа.
 
-You can create an allowed device profile and set the connection mode for it.
+Можете да създадете профил за разрешени устройства и да настроите режима на връзка за него.
 
-Using Mobile HotSpot increases battery consumption and data usage."</string>
+Използването на „Мобилна точка за достъп“ увеличава консумацията на енергия на батерията и потреблението ви на данни."</string>
     <string name="wifi_ap_instruction_changeable_maxclient_spr">"You can share your device's Hotspot with Wi-Fi enabled devices.
 
 After you start the Mobile Hotspot Wi-Fi router, connect using the controls on your Wi-Fi enabled device."</string>
@@ -3191,7 +3224,7 @@ To configure Smartphone Mobile Hotspot, tap on the menu icon, and then tap “Co
     <string name="wifi_ap_hide_ssid">Скрий моето устройство</string>
     <string name="wifi_ap_wifi_off_warn_vzw">Mobile Hotspot uses your mobile data connection. Your Wi-Fi connection will be turned off.</string>
     <string name="wifi_ap_wifi_off_warn_spr">Enabling Hotspot will turn off Wi-Fi</string>
-    <string name="wifi_ap_wifi_off_warn_tmo">Wi-Fi is turned off when USB tethering or Mobile HotSpot is active. To turn on Wi-Fi, please turn off USB tethering or Mobile HotSpot.</string>
+    <string name="wifi_ap_wifi_off_warn_tmo">Wi-Fi е изключена, когато USB тетъринг или „Мобилна точка за достъп“ е активно. За да включите Wi-Fi, изключете USB тетъринг или „Мобилна точка за достъп“.</string>
     <string name="wifi_ap_wifi_off_warn_chn">Enabling Mobile hotspot will turn off WLAN.</string>
     <string name="wifi_ap_wifi_off_warn_att">Turning on portable Wi-Fi hotspot will turn off Wi-Fi.</string>
     <string name="wifi_ap_wifi_off_warn_mtr">Wi-Fi is turned off when USB tethering or Mobile Hotspot is active. To turn on Wi-Fi, please turn off USB tethering or Mobile Hotspot.</string>
@@ -3262,6 +3295,7 @@ To configure Smartphone Mobile Hotspot, tap on the menu icon, and then tap “Co
     <string name="wifi_wps_onstart_pbc_mobileap">Натиснете бутона WPS на другото устройство, за да се свържете.</string>
     <string name="wifi_wps_complete_mobileap">Другото устройство вече е свързано към вашето устройство.</string>
     <string name="wifi_ap_disconnect_warn">Изключ. на вр. на устройството</string>
+    <string name="wifi_ap_change_policy_warn_mtr">The device currently connected will be disconnected from Portable Wi-Fi Hotspot.</string>
     <string name="wifi_ap_change_policy_warn">Всички устройства, свързани в момента, ще бъдат прекъснати от Mobile hotspot.</string>
     <string name="wifi_ap_warn_max_whitelist">Достигнат е максималният брой разрешени устройства (%d).</string>
     <string name="wifiap_one_item_deleted">1 елемент ще бъде изтрит.</string>
@@ -3296,8 +3330,9 @@ Wi-Fi is now on."</string>
     <string name="wifi_tether_dialog_nosim_warning_title">Mobile hotspot</string>
     <string name="wifi_tether_dialog_nosim_warning_chn">Insert a SIM card to use Mobile hotspot and other tethering functions.</string>
     <string name="wifi_tether_dialog_nosim_warning_vzw">Insert a SIM card to use Mobile Hotspot and other tethering options.</string>
-    <string name="wifi_tether_dialog_nosim_warning_tmo">"Please install SIM card in order to share your phone's data connection with other devices using Mobile Wi-Fi HotSpot or USB tethering for Internet access."</string>
-    <string name="wifi_tether_dialog_nosim_warning_spr">Insert SIM for using Hotspot include tethering</string>
+    <string name="wifi_tether_dialog_nosim_warning_tmo">Поставете SIM карта, за да споделите връзката за данни на телефона с други устройства чрез Мобилна точка за достъп до Wi-Fi или USB тетъринг за достъп до „Интернет“.</string>
+    <string name="wifi_tether_dialog_nosim_warning_mtr">"Please install SIM card in order to share your phone's data connection with other devices using Mobile Wi-Fi Hotspot or USB tethering for Internet access."</string>
+    <string name="wifi_tether_dialog_nosim_warning_spr">Поставете SIM карта, за да използвате Hotspot.</string>
     <string name="wifi_tether_dialog_nosim_warning_usc">Поставете SIM карта, за да използвате Mobile hotspot и други функции на привързване.</string>
     <string name="wifi_tether_dialog_nosim_warning">Поставете SIM карта, за да използвате Mobile hotspot и други функции на привързване.</string>
     <string name="mobileap_tmo">Mobile Hotspot</string>
@@ -3324,7 +3359,7 @@ Wi-Fi is now on."</string>
     <string name="wifi_ap_instruction_open_activate_color3_att">Осъществена връзка с &lt;font color=\"%1$s\">%2$s&lt;/font>.</string>
     <string name="wifi_ap_instruction_open_activate_color3">Осъществена връзка с &lt;font color=\"%1$s\">%2$s&lt;/font>.</string>
     <string name="wifi_ap_instruction_open_activate_color4_vzw">Enjoy your Mobile Hotspot.</string>
-    <string name="wifi_ap_instruction_open_activate_color4_tmo">Enjoy the internet using your personal Mobile HotSpot.</string>
+    <string name="wifi_ap_instruction_open_activate_color4_tmo">Наслаждавайте се на интернет чрез лична „Мобилна точка за достъп“.</string>
     <string name="wifi_ap_instruction_open_activate_color4_spr">Enjoy the Internet with Hotspot.</string>
     <string name="wifi_ap_instruction_open_activate_color4_att">Enjoy the Internet using Mobile hotspot.</string>
     <string name="wifi_ap_instruction_open_activate_color4_mtr">Enjoy the Internet using portable Wi-Fi hotspot.</string>
@@ -3343,7 +3378,7 @@ Wi-Fi is now on."</string>
     <string name="wifi_ap_instruction_activate_color3_att">Свържете се с &lt;font color=\"%1$s\">%2$s&lt;/font>, като въведете &lt;font color=\"%1$s\">%3$s&lt;/font> като паролата.</string>
     <string name="wifi_ap_instruction_activate_color3">Свържете се с &lt;font color=\"%1$s\">%2$s&lt;/font>, като въведете &lt;font color=\"%1$s\">%3$s&lt;/font> като паролата.</string>
     <string name="wifi_ap_instruction_activate_color4_vzw">Enjoy your Mobile Hotspot.</string>
-    <string name="wifi_ap_instruction_activate_color4_tmo">Enjoy the internet using your personal Mobile HotSpot.</string>
+    <string name="wifi_ap_instruction_activate_color4_tmo">Наслаждавайте се на интернет чрез лична „Мобилна точка за достъп“.</string>
     <string name="wifi_ap_instruction_activate_color4_spr">Enter &lt;font color=\"%1$s\">%3$s&lt;/font> in the &lt;font color=\"%1$s\">%4$s&lt;/font> field.</string>
     <string name="wifi_ap_instruction_activate_color4_att">Enjoy the Internet using Mobile hotspot.</string>
     <string name="wifi_ap_instruction_activate_color4_mtr">Enjoy the Internet using portable Wi-Fi hotspot.</string>
@@ -3365,16 +3400,16 @@ Wi-Fi is now on."</string>
     <string name="wifi_ap_instruction_activate_color_hidden3_chn">Connect to &lt;font color=\"%1$s\">%2$s&lt;/font> by entering &lt;font color=\"%1$s\">%3$s&lt;/font> as the password.</string>
     <string name="wifi_ap_instruction_activate_color_hidden3_tmo">Connect to &lt;font color=\"%1$s\">%2$s&lt;/font> by entering &lt;font color=\"%1$s\">%3$s&lt;/font> as the password.</string>
     <string name="wifi_ap_instruction_activate_color_hidden3">Свържете се с &lt;font color=\"%1$s\">%2$s&lt;/font>, като въведете &lt;font color=\"%1$s\">%3$s&lt;/font> като паролата.</string>
-    <string name="wifi_ap_instruction_activate_color_hidden4_tmo">Enjoy the internet using your personal Mobile HotSpot.</string>
+    <string name="wifi_ap_instruction_activate_color_hidden4_tmo">Наслаждавайте се на интернет чрез лична „Мобилна точка за достъп“.</string>
     <string name="wifi_ap_instruction_no_maxclient">"Можете да използвате устройството си като точка за достъп до интернет, като използвате Мобилна точка за достъп. Това позволява други устройства да се свържат към него през Wi-Fi. Свързаните устройства ще имат достъп до интернет през вашата мобилна мрежа.
 
 Можете да създадете профил за разрешени устройства и да зададете режима на връзка за него.
 
 Използването на Мобилна точка за достъп увеличава консумацията на заряд на батерията и потреблението на данни."</string>
     <string name="wifi_ap_instruction_configure_vzw">To change the Mobile Hotspot configuration, go to Settings > Mobile Hotspot and tethering > Mobile Hotspot > MORE, then select Configure Mobile Hotspot.</string>
-    <string name="wifi_ap_instruction_configure_tmo">To change the Mobile HotSpot configuration, tap the More options button, then select Configure Mobile HotSpot.</string>
+    <string name="wifi_ap_instruction_configure_tmo">За да промените конфигурацията на „Мобилна точка за достъп“, докоснете бутона за още опции, след което изберете „Конфигуриране на Мобилна точка за достъп“.</string>
     <string name="wifi_ap_instruction_configure">За да промените конфигурация на Мобилна точка за достъп, докоснете бутона „Още опции“, след което изберете „Конфигуриране на мобилна точка за достъп“.</string>
-    <string name="wifi_ap_instruction_configure_non_grace_tmo">To change the Mobile HotSpot configuration, tap MORE, then select Configure Mobile HotSpot.</string>
+    <string name="wifi_ap_instruction_configure_non_grace_tmo">За да промените конфигурацията на „Мобилна точка за достъп“, докоснете ОЩЕ, след което изберете „Конфигуриране на Мобилна точка за достъп“.</string>
     <string name="wifi_ap_instruction_configure_non_grace">За да промените конфигурация на Мобилна точка за достъп, докоснете ОЩЕ и изберете „Конфигуриране на мобилна точка за достъп“.</string>
     <string name="wifi_ap_change_security">Change Security</string>
     <string name="wifi_ap_maxclient">Максимален брой връзки</string>
@@ -3391,7 +3426,8 @@ Wi-Fi is now on."</string>
     <string name="wifi_tether_configure_ap_text_usc">Configure Wi-Fi hotspot</string>
     <string name="wifi_tether_configure_ap_text">Конфиг. на Mobile hotspot</string>
     <string name="wifi_ap_hidessid_warning">Your phone will be visible to other devices</string>
-    <string name="wifi_ap_first_time_configuration">First time HotSpot configuration</string>
+    <string name="wifi_ap_first_time_configuration_mtr">Първон. конфигурация точка за достъп</string>
+    <string name="wifi_ap_first_time_configuration">Първоначална конфигурация на точка за достъп</string>
     <string name="title_wifi_notify_mobileap_is_on">Wi-Fi and Mobile Hotspot</string>
     <string name="wifi_ssid_max_byte_error">Достигнат е максималният брой символи.</string>
     <string name="tethering_attention_title">Внимание</string>
@@ -3534,6 +3570,8 @@ Wi-Fi is now on."</string>
     <string name="master_clear_desc_music">Музика</string>
     <string name="master_clear_desc_pictures">Изображения</string>
     <string name="master_clear_desc_other_user_data">Всички други потребителски данни</string>
+    <string name="master_clear_not_enough_battery">Заредете батерията до най-малко %d%%, преди да нулирате телефона.</string>
+    <string name="master_clear_not_enough_battery_tablet">Заредете батерията до най-малко %d%%, преди да нулирате таблета.</string>
     <string name="text_two_locktype">Пръстов отпечатък и %s</string>
     <string name="pref_lock_type_title">Промяна на типа заключване</string>
     <string name="pref_lock_type_summary">Тип на заключване</string>
@@ -3613,8 +3651,11 @@ Receiving SMS"</string>
     <string name="google_settings_popup_msg">Only a limited number of Google settings are available. Some actions may not work.</string>
     <string name="smart_lock_popup_msg">Only a limited number of Google settings are available. Some actions may not work.</string>
     <string name="prevent_to_change_by_device_policy">Политиката за защита пречи на използването на %s.</string>
+    <string name="quick_tile_sync_title">Синхр.</string>
     <string name="name_jerusalem">Йерусалим</string>
     <string name="name_israel">Израел</string>
+    <string name="starting_android">Стартиране на Android…</string>
+    <string name="okay">OK</string>
     <string name="yes">Да</string>
     <string name="no">Не</string>
     <string name="create">Създай</string>
@@ -3712,7 +3753,6 @@ Receiving SMS"</string>
     <string name="phone_info_label">Информация за устройството</string>
     <string name="proxy_settings_label">Настройки на прокси</string>
     <string name="cancel">Отмени</string>
-    <string name="okay">OK</string>
     <string name="save">Запази</string>
     <string name="done">Готово</string>
     <string name="settings_label">Настройки</string>
@@ -5347,4 +5387,6 @@ Receiving SMS"</string>
     <string name="ucm_pins_do_not_match">PIN кодовете не съвпадат</string>
     <string name="ucm_failed_to_connect_smartcard">Неуспешно свързване към смарт картата. Свържете се с администратора на устройството.</string>
     <string name="ucm_loading">Зареждане</string>
+    <string name="usb_use_software_installation">Software Installation</string>
+    <string name="usb_use_software_installation_summary">Install Software Update and Repair tool for your device on a Mac or Windows computer.</string>
 </resources>

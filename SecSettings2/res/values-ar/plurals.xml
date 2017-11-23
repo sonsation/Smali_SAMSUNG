@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="data_saver_unrestricted_summary_chn">
+        <item quantity="other">يُسمح لـ %d من التطبيقات باستخدام بيانات الهاتف المحمول من دون قيود عندما يكون خيار تقييد بيانات الخلفية مفعلاً.</item>
+        <item quantity="one">يُسمح لـ %d من التطبيقات باستخدام بيانات الهاتف المحمول من دون قيود عندما يكون خيار تقييد بيانات الخلفية مفعلاً.</item>
+    </plurals>
     <plurals name="lock_timeout_hours">
         <item quantity="other">%d ساعات</item>
         <item quantity="one">ساعة واحدة</item>

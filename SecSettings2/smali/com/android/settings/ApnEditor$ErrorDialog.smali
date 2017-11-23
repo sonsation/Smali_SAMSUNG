@@ -81,7 +81,7 @@
     .param p1, "savedInstanceState"    # Landroid/os/Bundle;
 
     .prologue
-    const v5, 0x7f0b0b46
+    const v5, 0x7f0b0b67
 
     const v4, 0x104000a
 
@@ -114,7 +114,7 @@
     invoke-direct {v1, v2}, Landroid/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
 
     .line 2138
-    const v2, 0x7f0b13b2
+    const v2, 0x7f0b1538
 
     .line 2137
     invoke-virtual {v1, v2}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
@@ -134,7 +134,7 @@
 
     invoke-direct {v2, p0}, Lcom/android/settings/ApnEditor$ErrorDialog$1;-><init>(Lcom/android/settings/ApnEditor$ErrorDialog;)V
 
-    const v3, 0x7f0b08e1
+    const v3, 0x7f0b08fe
 
     .line 2137
     invoke-virtual {v1, v3, v2}, Landroid/app/AlertDialog$Builder;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
@@ -166,7 +166,7 @@
     invoke-direct {v1, v2}, Landroid/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
 
     .line 2153
-    const v2, 0x7f0b11b3
+    const v2, 0x7f0b1339
 
     .line 2152
     invoke-virtual {v1, v2}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;

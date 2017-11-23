@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="data_saver_unrestricted_summary_chn">
+        <item quantity="other">កម្មវិធី %d ត្រូវ​បាន​អនុញ្ញាត​ឲ្យ​ប្រើ​ទិន្នន័យ​ចល័ត​ដោយ​គ្មាន​កំហិត ខណៈពេល​បាន​បើកប្រើ កំហិត​ទិន្នន័យ​ផ្ទៃខាងក្រោយ។</item>
+        <item quantity="one">កម្មវិធី %d ត្រូវ​បាន​អនុញ្ញាត​ឲ្យ​ប្រើ​ទិន្នន័យ​ចល័ត​ដោយ​គ្មាន​កំហិត ខណៈពេល​បាន​បើកប្រើ កំហិត​ទិន្នន័យ​ផ្ទៃខាងក្រោយ។</item>
+    </plurals>
     <plurals name="lock_timeout_hours">
         <item quantity="other">%d ម៉ោង</item>
         <item quantity="one">1 ម៉ោង</item>

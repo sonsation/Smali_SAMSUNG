@@ -305,7 +305,7 @@
 
     .line 390
     .local v0, "status":Landroid/widget/TextView;
-    const v1, 0x7f0b0666
+    const v1, 0x7f0b0fd1
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 

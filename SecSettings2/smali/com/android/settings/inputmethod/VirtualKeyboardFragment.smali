@@ -342,7 +342,7 @@
     :cond_3
     iget-object v3, p0, Lcom/android/settings/inputmethod/VirtualKeyboardFragment;->mAddVirtualKeyboardScreen:Landroid/preference/Preference;
 
-    const v5, 0x7f02058f
+    const v5, 0x7f02058d
 
     invoke-virtual {v3, v5}, Landroid/preference/Preference;->setIcon(I)V
 

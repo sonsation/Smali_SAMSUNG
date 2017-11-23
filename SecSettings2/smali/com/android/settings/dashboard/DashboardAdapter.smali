@@ -376,7 +376,7 @@
     move-result-object v2
 
     .line 738
-    const v3, 0x7f0205b1
+    const v3, 0x7f0205af
 
     .line 737
     invoke-virtual {v2, v3}, Landroid/view/View;->setBackgroundResource(I)V
@@ -1936,7 +1936,7 @@
     :cond_0
     iget-object v0, p0, Lcom/android/settings/dashboard/DashboardAdapter;->mContext:Landroid/content/Context;
 
-    const v1, 0x7f0b0b14
+    const v1, 0x7f0b0b35
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1952,7 +1952,7 @@
     :cond_1
     iget-object v0, p0, Lcom/android/settings/dashboard/DashboardAdapter;->mContext:Landroid/content/Context;
 
-    const v1, 0x7f0b0b32
+    const v1, 0x7f0b0b53
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -2022,7 +2022,7 @@
     :cond_2
     iget-object v2, p0, Lcom/android/settings/dashboard/DashboardAdapter;->mContext:Landroid/content/Context;
 
-    const v3, 0x7f0b12f5
+    const v3, 0x7f0b147b
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -2088,7 +2088,7 @@
 
     .line 933
     .local v3, "messageView":Landroid/widget/TextView;
-    const v4, 0x7f0b0f9c
+    const v4, 0x7f0b0fc4
 
     invoke-virtual {v3, v4}, Landroid/widget/TextView;->setText(I)V
 
@@ -2108,7 +2108,7 @@
 
     invoke-direct {v5, p0, v0, p1}, Lcom/android/settings/dashboard/DashboardAdapter$7;-><init>(Lcom/android/settings/dashboard/DashboardAdapter;Landroid/widget/CheckBox;Lcom/android/settingslib/drawer/Tile;)V
 
-    const v6, 0x7f0b0438
+    const v6, 0x7f0b0440
 
     .line 934
     invoke-virtual {v4, v6, v5}, Landroid/app/AlertDialog$Builder;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
@@ -2120,7 +2120,7 @@
 
     invoke-direct {v5, p0}, Lcom/android/settings/dashboard/DashboardAdapter$8;-><init>(Lcom/android/settings/dashboard/DashboardAdapter;)V
 
-    const v6, 0x7f0b042f
+    const v6, 0x7f0b0437
 
     .line 934
     invoke-virtual {v4, v6, v5}, Landroid/app/AlertDialog$Builder;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
@@ -2162,7 +2162,7 @@
     .param p1, "tile"    # Lcom/android/settingslib/drawer/Tile;
 
     .prologue
-    const v1, 0x7f0b1286
+    const v1, 0x7f0b140c
 
     .line 893
     iget-object v0, p0, Lcom/android/settings/dashboard/DashboardAdapter;->mContext:Landroid/content/Context;
@@ -2216,7 +2216,7 @@
     :cond_1
     iget-object v0, p0, Lcom/android/settings/dashboard/DashboardAdapter;->mContext:Landroid/content/Context;
 
-    const v1, 0x7f0b0484
+    const v1, 0x7f0b048d
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -2574,7 +2574,7 @@
     .line 408
     iget-object v1, p1, Lcom/android/settings/dashboard/DashboardAdapter$DashboardItemHolder;->itemView:Landroid/view/View;
 
-    const v2, 0x7f0200e5
+    const v2, 0x7f0200e3
 
     invoke-virtual {v1, v2}, Landroid/view/View;->setBackgroundResource(I)V
 
@@ -2584,7 +2584,7 @@
     :cond_1
     iget-object v1, p1, Lcom/android/settings/dashboard/DashboardAdapter$DashboardItemHolder;->itemView:Landroid/view/View;
 
-    const v2, 0x7f020466
+    const v2, 0x7f020464
 
     invoke-virtual {v1, v2}, Landroid/view/View;->setBackgroundResource(I)V
 
@@ -3087,7 +3087,7 @@
     :cond_a
     iget-object v10, p0, Lcom/android/settings/dashboard/DashboardAdapter;->mContext:Landroid/content/Context;
 
-    const v11, 0x7f0b04a4
+    const v11, 0x7f0b04af
 
     invoke-virtual {v10, v11}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -3114,7 +3114,7 @@
     .line 274
     iget-object v10, p0, Lcom/android/settings/dashboard/DashboardAdapter;->mContext:Landroid/content/Context;
 
-    const v11, 0x7f0b12ba
+    const v11, 0x7f0b1440
 
     invoke-virtual {v10, v11}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -3146,7 +3146,7 @@
     .line 278
     iget-object v10, p0, Lcom/android/settings/dashboard/DashboardAdapter;->mContext:Landroid/content/Context;
 
-    const v11, 0x7f0b10bc
+    const v11, 0x7f0b1243
 
     invoke-virtual {v10, v11}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -3169,7 +3169,7 @@
     .line 281
     iget-object v10, p0, Lcom/android/settings/dashboard/DashboardAdapter;->mContext:Landroid/content/Context;
 
-    const v11, 0x7f020265
+    const v11, 0x7f020263
 
     invoke-static {v10, v11}, Landroid/graphics/drawable/Icon;->createWithResource(Landroid/content/Context;I)Landroid/graphics/drawable/Icon;
 
@@ -3249,7 +3249,7 @@
 
     iget-object v11, p0, Lcom/android/settings/dashboard/DashboardAdapter;->mContext:Landroid/content/Context;
 
-    const v12, 0x7f0b047a
+    const v12, 0x7f0b0482
 
     invoke-virtual {v11, v12}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -3274,7 +3274,7 @@
     .line 289
     iget-object v11, p0, Lcom/android/settings/dashboard/DashboardAdapter;->mContext:Landroid/content/Context;
 
-    const v12, 0x7f0b047b
+    const v12, 0x7f0b0483
 
     invoke-virtual {v11, v12}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -3294,7 +3294,7 @@
     .line 290
     iget-object v10, p0, Lcom/android/settings/dashboard/DashboardAdapter;->mContext:Landroid/content/Context;
 
-    const v11, 0x7f0204e7
+    const v11, 0x7f0204e5
 
     invoke-static {v10, v11}, Landroid/graphics/drawable/Icon;->createWithResource(Landroid/content/Context;I)Landroid/graphics/drawable/Icon;
 
@@ -3317,7 +3317,7 @@
     :cond_10
     iget-object v10, p0, Lcom/android/settings/dashboard/DashboardAdapter;->mContext:Landroid/content/Context;
 
-    const v11, 0x7f0b0496
+    const v11, 0x7f0b04a1
 
     invoke-virtual {v10, v11}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -3328,7 +3328,7 @@
     .line 294
     iget-object v10, p0, Lcom/android/settings/dashboard/DashboardAdapter;->mContext:Landroid/content/Context;
 
-    const v11, 0x7f0204ee
+    const v11, 0x7f0204ec
 
     invoke-static {v10, v11}, Landroid/graphics/drawable/Icon;->createWithResource(Landroid/content/Context;I)Landroid/graphics/drawable/Icon;
 

@@ -443,7 +443,7 @@
     if-eqz v4, :cond_0
 
     .line 842
-    const v4, 0x7f0b0f7b
+    const v4, 0x7f0b0fa3
 
     invoke-virtual {v3, v4}, Landroid/widget/TextView;->setText(I)V
 
@@ -455,7 +455,7 @@
 
     .line 845
     .local v0, "builder":Landroid/app/AlertDialog$Builder;
-    const v4, 0x7f0b0f80
+    const v4, 0x7f0b0fa8
 
     invoke-virtual {v0, v4}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
 
@@ -465,7 +465,7 @@
     invoke-virtual {v0, v4}, Landroid/app/AlertDialog$Builder;->setView(Landroid/view/View;)Landroid/app/AlertDialog$Builder;
 
     .line 847
-    const v4, 0x7f0b1757
+    const v4, 0x7f0b18dd
 
     invoke-virtual {v0, v4, p0}, Landroid/app/AlertDialog$Builder;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
 
@@ -490,7 +490,7 @@
 
     invoke-direct {v4, p0, v1}, Lcom/samsung/android/settings/datausage/trafficmanager/SecSummaryLayoutCHN$BytesEditorCHNFragment$2;-><init>(Lcom/samsung/android/settings/datausage/trafficmanager/SecSummaryLayoutCHN$BytesEditorCHNFragment;Landroid/content/Context;)V
 
-    const v5, 0x7f0b0f81
+    const v5, 0x7f0b0fa9
 
     invoke-virtual {v0, v5, v4}, Landroid/app/AlertDialog$Builder;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
 

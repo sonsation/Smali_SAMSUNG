@@ -61,7 +61,7 @@
 
     .line 79
     .local v0, "carrierBrandalpha":Ljava/lang/String;
-    const v6, 0x7f0b0540
+    const v6, 0x7f0b0554
 
     invoke-virtual {p0, v6}, Lcom/samsung/android/settings/deviceinfo/legal/PrivacyAlertProceedDialogActivity;->getString(I)Ljava/lang/String;
 
@@ -111,7 +111,7 @@
     invoke-static {v6, v7}, Landroid/util/Log;->secD(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 90
-    const v6, 0x7f0b053e
+    const v6, 0x7f0b0552
 
     invoke-virtual {p0, v6}, Lcom/samsung/android/settings/deviceinfo/legal/PrivacyAlertProceedDialogActivity;->getString(I)Ljava/lang/String;
 
@@ -225,7 +225,7 @@
 
     .line 97
     :cond_2
-    const v6, 0x7f0b053f
+    const v6, 0x7f0b0553
 
     invoke-virtual {p0, v6}, Lcom/samsung/android/settings/deviceinfo/legal/PrivacyAlertProceedDialogActivity;->getString(I)Ljava/lang/String;
 
@@ -233,7 +233,7 @@
 
     .line 99
     :cond_3
-    const v6, 0x7f0b053d
+    const v6, 0x7f0b0551
 
     invoke-virtual {p0, v6}, Lcom/samsung/android/settings/deviceinfo/legal/PrivacyAlertProceedDialogActivity;->getString(I)Ljava/lang/String;
 
@@ -281,7 +281,7 @@
     invoke-virtual {v0, v1}, Landroid/app/AlertDialog$Builder;->setView(Landroid/view/View;)Landroid/app/AlertDialog$Builder;
 
     .line 54
-    const v2, 0x7f0b0f14
+    const v2, 0x7f0b0f3a
 
     invoke-virtual {v0, v2}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
 

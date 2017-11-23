@@ -145,12 +145,12 @@
     if-nez v2, :cond_1
 
     .line 777
-    const v2, 0x7f0b1753
+    const v2, 0x7f0b18d9
 
     invoke-virtual {v0, v2}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
 
     .line 778
-    const v2, 0x7f0b1754
+    const v2, 0x7f0b18da
 
     invoke-virtual {v0, v2}, Landroid/app/AlertDialog$Builder;->setMessage(I)Landroid/app/AlertDialog$Builder;
 
@@ -178,12 +178,12 @@
 
     .line 780
     :cond_1
-    const v2, 0x7f0b1751
+    const v2, 0x7f0b18d7
 
     invoke-virtual {v0, v2}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
 
     .line 781
-    const v2, 0x7f0b1752
+    const v2, 0x7f0b18d8
 
     invoke-virtual {v0, v2}, Landroid/app/AlertDialog$Builder;->setMessage(I)Landroid/app/AlertDialog$Builder;
 

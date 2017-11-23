@@ -860,7 +860,7 @@
     .prologue
     const v4, 0x7f110661
 
-    const v3, 0x7f020383
+    const v3, 0x7f020381
 
     const/4 v2, -0x1
 
@@ -3330,7 +3330,7 @@
     .line 297
     iget-object v0, p0, Lcom/samsung/android/settings/accessibility/assistantmenu/SettingsMenuEditorFragment;->mControlBar:Landroid/widget/ImageView;
 
-    const v1, 0x7f020379
+    const v1, 0x7f020377
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setBackgroundResource(I)V
 
@@ -6337,7 +6337,7 @@
 
     .prologue
     .line 382
-    const v0, 0x7f0b0433
+    const v0, 0x7f0b043b
 
     invoke-interface {p1, v0}, Landroid/view/Menu;->add(I)Landroid/view/MenuItem;
 

@@ -31,7 +31,7 @@
     <string name="bluetooth_disconnected">खंडित केले</string>
     <string name="bluetooth_disconnecting">खंडीत करत आहे…</string>
     <string name="bluetooth_connecting">जोडला जात आहे…</string>
-    <string name="bluetooth_connected">जोडले.</string>
+    <string name="bluetooth_connected">कनेक्ट केले</string>
     <string name="bluetooth_pairing">संलग्न करीत आहे…</string>
     <string name="bluetooth_connected_no_headset">कनेक्ट केले (फोन नाही)</string>
     <string name="bluetooth_connected_no_a2dp">कनेक्ट केले (मीडिया नाही)</string>
@@ -433,7 +433,7 @@ Enter the code you get from Verizon:"</string>
     <string name="answering_end_call_title">कॉल्सचे उत्तर देणे आणि समाप्त करणे</string>
     <string name="audio_preference_title">श्रवण</string>
     <string name="mono_audio_title">मोनो ऑडिओ</string>
-    <string name="mono_audio_summary">जेव्हा आपण एकच इयरफोन वापरत असाल तेव्हा आवाज स्टिरीयो वरून मोनो वर स्वीच करा.</string>
+    <string name="mono_audio_summary">एका कानाने ऐकण्या साठी स्टिरिओ ते मोनो ऑडिओ स्विच करा.</string>
     <string name="multi_window_title">मल्टी विंडो</string>
     <string name="magnifier_seekbar_plus_tts">प्लस</string>
     <string name="magnifier_seekbar_minus_tts">वजा</string>
@@ -514,16 +514,18 @@ Enter the code you get from Verizon:"</string>
     <string name="direct_access_actions_universal_switch_title">यूनिव्‍हर्सल स्विच</string>
     <string name="sound_detector_title">बाळाचे रडणे डिटेक्‍टर</string>
     <string name="sound_detector_main_title">ध्‍वनी डिटेक्‍टर्स</string>
-    <string name="sound_detector_main_description">उपकरणाने बाळाचे रडणे किंवा डोअरबेल शोधल्‍यावर सतर्कता प्राप्‍त करा.</string>
+    <string name="sound_detector_main_description">फोनने बाळाचे रडणे किंवा डोअरबेल शोधल्‍यावर सतर्कता प्राप्‍त करा.</string>
     <string name="accessibility_easy_interaction_summary">अलार्म्‍स दिनदर्शिका उपक्रमांना आणि टायमर अलर्ट्स डिसमिस आणि स्‍नूझ करा आणि एकेरी टॅप सह इनकमिंग कॉल्‍सचे उत्‍तर द्या आणि रद्द करा.</string>
     <string name="accessibility_easy_interaction_summary_tablet_wifi">अलार्म्‍स आणि कॅलेंडर उपक्रम थांबवण्‍यासाठी/स्‍नूझ करण्‍यासाठी टॅप करा.</string>
-    <string name="all_sound_off">सर्व आवाज बंद करा</string>
-    <string name="all_sound_off_summary">ध्वनी मोड ध्वनीवर सेट केलेला असतानाही, स्पीकरफोनसह कोणताही ध्वनी प्ले करू नका.</string>
+    <string name="all_sound_off">सर्व आवाज मूक करा</string>
+    <string name="all_sound_off_summary">सर्व आवाज बंद करा, ज्या मध्ये फोन कॉल्सचा समावेश आहे, अगदी आवाज मोड आवाज वर सेट केलेला असतानाही.</string>
     <string name="all_sound_off_dialog_summary">%1$s आणि %2$s समान वेळी सक्षम करू शकत नाही. %3$s अक्षम करण्‍यात येईल.</string>
+    <string name="all_sound_off_popup_description">सर्व आवाज मूक करा वापरण्या साठी, %s बंद करणे गरजेचे आहे.</string>
+    <string name="all_sound_turn_off_button">बंद करा</string>
     <string name="turn_off_all_sounds">सर्व आवाज बंद करा</string>
     <string name="turn_off_all_sounds1">सर्व ध्‍वनी बंद करणे आणि संदेशांचे उत्‍तर देणे दोन्‍ही सक्षम करता येऊ शकणार नाहीत.</string>
     <string name="turn_off_all_sounds2">सर्व ध्‍वनी बंद करणे आणि संदेशांचे उत्‍तर देणे दोन्‍ही सक्षम करता येऊ शकणार नाही. संदेशांचे उत्‍तर देणे अक्षम केले जाईल.</string>
-    <string name="turn_off_all_sounds_toast_with_sound_detector">ध्‍वनी डिटेक्‍टर्स सक्षम असताना सर्व ध्वनी बंद करा अक्षम करू शकत नाही. त्यांना अक्षम करण्यासाठी, सेटिंग्स > ऍक्‍सेसिबिलिटी > ऐकणे > ध्‍वनी डिटेक्‍टर्स वर जा, नंतर सर्व ध्‍वनी डिटेक्‍टर्स अक्षम करा.</string>
+    <string name="turn_off_all_sounds_toast_with_sound_detector">ध्वनी डिटेक्टर्स चालू असताना सर्व ध्वनी मूक करा बंद करू शकत नाही.</string>
     <string name="accessibility_categories_title">श्रेण्या</string>
     <string name="share_accessibility_settings">एक्सीसेबिलीटी व्यवस्थापित करा</string>
     <string name="share_accessibility_settings_summary">आपल्‍या एक्सीसेबिलीटी सेटिंग्स आयात आणि निर्यात करा किंवा त्‍यांना अन्‍य उपकरणांसह शेअर करा.</string>
@@ -660,6 +662,7 @@ Enter the code you get from Verizon:"</string>
     <string name="deviceOption">उपकरण पर्याय</string>
     <string name="lock">लॉक</string>
     <string name="powerOff">पॉवर बंद</string>
+    <string name="unable_assistantmenu_while_sidesync">SideSync वापरत असताना सहाय्यक मेनू चालू करू शकत नाही.</string>
     <string name="eamenableinfo">सहायक प्‍लस सक्षम करण्‍यासाठी, किमान एक “अनुप्रयोग” निवडा.</string>
     <string name="fetch_progress">डेटा लोड करत आहे…</string>
     <string name="assistant_menu_enable_message">%s आणि खालील पर्याय समान वेळी सक्षम करू शकत नाही. खालील पर्याय अक्षम केले जातील.</string>
@@ -766,7 +769,7 @@ Enter the code you get from Verizon:"</string>
     <string name="xcover_key_shortcut_battery_conserving_mode">Battery conserving mode</string>
     <string name="xcover_key_shortcut_normal_mode">सामान्‍य मोड</string>
     <string name="flight_mode_enabled_toast">फ्लाइट मोड सक्षम असताना मोबाइल नेटवर्क्सशी कनेक्ट करण्यात अक्षम आहे. फ्लाइट मोड अक्षम करा आणि पुन्हा प्रयत्न करा.</string>
-    <string name="airplane_mode_summary">कॉलिंग आणि संदेश प्रेषण फंक्शन्स अक्षम करा आणि मोबाईल डेटा बंद करा.</string>
+    <string name="airplane_mode_summary">कॉलिंग आणि संदेश प्रेषण आणि मोबाईल डेटा बंद करा.</string>
     <string name="usb_not_support_mtp_usb3_dialog_title">सूचना</string>
     <string name="airplane_mode_desc">फ्लाइट मोड आपल्‍याला Wi-Fi सह, नेटवर्क वैशिष्‍ट्ये बंद करण्‍याची अनुमती देते. Wi-Fi वापरण्‍यासाठी, हे सेटिंग्स किंवा अधिसूचना पॅनेलमध्‍ये चालू करा.</string>
     <string name="flight_mode_enable_popup_title">फ्लाइट मोड सक्षम करा</string>
@@ -906,6 +909,7 @@ Wi-Fi आणि ब्‍लुटूथ देखील बंद होईल,
     <string name="bluetooth_control_app_disable_summary">ब्‍लुटूथ बंद करा: %s</string>
     <string name="bluetooth_enter_pin_msg">%s-शी पेयर करण्यासाठी PIN प्रविष्ट करा (0000 किंवा 1234 वापरून पाहा).</string>
     <string name="bluetooth_pin_maximum_number_message">वर्णांची अधिकतम संख्या गाठली.</string>
+    <string name="bluetooth_frp_permission_message">या कॉल साठी ब्लुटूथ उपकरण वापरू शकत नाही.</string>
     <string name="settings_menu_done">झाले</string>
     <string name="usb_tethering_unavailable_subtext_tmo">USB not connected</string>
     <string name="usb_tethering_available_subtext_tmo">USB connected, check to tether</string>
@@ -946,6 +950,11 @@ Wi-Fi आणि ब्‍लुटूथ देखील बंद होईल,
 - स्क्रीनशॉटवर रेखाटू शकता.
 - स्क्रीनशॉट क्रॉप करू शकता.
 - स्क्रीनशॉट सामायिक करू शकता."</string>
+    <string name="smart_capture_summary">स्क्रीनशॉट कॅप्चर केल्यांनतर अतिरिक्‍त पर्याय दर्शवा. स्मार्ट कॅप्चरसह, आपण हे करू शकता:</string>
+    <string name="smart_capture_summary_1">स्क्रीनचे लपलेले क्षेत्र कॅप्चर करा.</string>
+    <string name="smart_capture_summary_2">स्क्रीनशॉट वर ड्रॉ करा.</string>
+    <string name="smart_capture_summary_3">स्क्रीनशॉट क्रॉप करा.</string>
+    <string name="smart_capture_summary_4">स्क्रीनशॉट सामायिक करा.</string>
     <string name="identify_unsaved_numbers_title">जतन न केलेले क्रमांक ओळखा</string>
     <string name="identify_unsaved_numbers_title_usa">स्‍पॅम क्रमांक ओळखा</string>
     <string name="call_message_spam_filter_title">Call/message spam filter</string>
@@ -1042,6 +1051,7 @@ Wi-Fi आणि ब्‍लुटूथ देखील बंद होईल,
     <string name="fota_update_summary">नवीनतम आवृत्‍तीसाठी फर्मवेअर अद्ययावत करण्याकरिता येथे टॅप करा आणि नवीनतम वैशिष्ट्ये वापरा.</string>
     <string name="favorite_tab">त्वरित सेटिंग्स</string>
     <string name="device_maintenance_title">उपकरण व्‍यवस्‍थापन</string>
+    <string name="memory_string">मेमरी</string>
     <string name="tab_favorite_edit">जलद सेटिंग्‍स संपादित करा</string>
     <string name="add_favorite_button">जलद सेटिंग्‍स संपादित करा</string>
     <string name="cloud_and_accounts_title">क्लाउड आणि खाती</string>
@@ -1079,7 +1089,12 @@ Wi-Fi आणि ब्‍लुटूथ देखील बंद होईल,
     <string name="notification_settings_apps_title">अनुप्रयोग अधिसूचना</string>
     <string name="international_roaming_setting">रोमिंगची सेटिंग्स</string>
     <string name="user_manual_mos">प्रयोक्ता मॅन्युअल</string>
-    <string name="data_saver_description">डेटा वापर कमी करण्यात मदत करण्या साठी, डेटा सेव्हर काही अनुप्रयोगांना पार्श्वभूमी मध्ये पाठवण्यापासून किंवा प्राप्त करण्यास पासून प्रतिबंधित करते. तसेच, आता वापरत असलेले अनुप्रयोग डेटा ऍक्सेस करू शकतात, परंतु ते कधी कधी करू शकतात. उदाहरणार्थ, आपण त्यांना टॅप करेपर्यंत प्रतिमा योग्य रित्या दर्शवल्या जाणार नाहीत.</string>
+    <string name="data_saver_description">डेटा सेव्हर पार्श्वभूमी मध्ये डेटा पाठवण्या किंवा प्राप्त करण्यापासून काही अनुप्रयोगांना प्रतिबंधित करून आपला डेटा वापर कमी करा. आपण सध्या वापरत असलेले अनुप्रयोग मोबाईल डेटा वापरू शकतात, परंतु आपण कधीकधी करू शकता. उदाहरणार्थ, आपण त्यांना टॅप करेपर्यंत प्रतिमा योग्य रित्या दर्शवल्या जाणार नाहीत.</string>
+    <string name="unrestricted_data_saver_chn">प्रतिबंधा शिवाय डेटा वापरा</string>
+    <string name="data_saver_description_chn">डेटा वापर कमी करण्यात मदत करण्या साठी, पार्श्वभूमी डेटा प्रतिबंध काही अनुप्रयोगांना पार्श्वभूमी मध्ये डेटा पाठवण्या पासून किंवा प्राप्त करण्या पासून प्रतिबंधित करतो. याशिवाय, आत्ता वापरात असलेले अनुप्रयोग डेटा ऍक्सेस करू शकतात, परंतु ते तसे कमी वेळा करू शकतात. उदाहरणार्थ, आपण त्यांना टॅप करे पर्यंत प्रतिमा योग्य रित्या दर्शवल्या जाणार नाहीत.</string>
+    <string name="data_saver_title_chn">पार्श्वभूमी डेटा प्रतिबंधित करा</string>
+    <string name="unrestricted_app_title_chn">प्रतिबंधा शिवाय डेटा वापरा</string>
+    <string name="unrestricted_app_summary_chn">हा अनुप्रयोग पार्श्वभूमी डेटा प्रतिबंधित करा सक्षम केलेले असताना प्रतिबंधा शिवाय मोबाइल डेटा वापरू शकतो.</string>
     <string name="data_used_editor_subtitle">Enter the amount of data you have used this month:</string>
     <string name="traffic_vertify">Details</string>
     <string name="btn_tmo">Upgrade data service</string>
@@ -1131,6 +1146,8 @@ Data usage is measured by your phone. Your carrier may account for usage differe
     <string name="last_checked_date">रोजी अंतिम तपासलेले:</string>
     <string name="auto_update">अद्ययावते स्वयंचलितपणे डाउनलोड करा</string>
     <string name="auto_update_summary">Wi-Fi नेटवर्कशी कनेक्‍ट केलेले असताना सॉफ्टवेअर अद्ययावते स्वयंचलितपणे डाउनलोड करा. आपण अजूनही डाउनलोड करण्याचा दरम्यान आपले उपकरण वापरण्यास सक्षम असाल.</string>
+    <string name="auto_update_over_wifi">Wi-Fi वर स्‍वयं डाउनलोड करा</string>
+    <string name="auto_update_over_wifi_summary">Wi-Fi नेटवर्कशी कनेक्‍ट केलेले असताना सॉफ्टवेअर अद्ययावते स्वयंचलितपणे डाउनलोड करा. आपल्या सेवा प्रदात्यावर आधारित, कोणत्याही अतिरिक्‍त शुल्काशिवाय मोबाईल डेटा वापरून अद्ययावते डाउनलोड देखील करू शकतो. आपण अजूनही डाउनलोड दरम्यान आपला फोन वापरण्यास सक्षम असाल.</string>
     <string name="scheduled_update">शेड्यूल केलेली सॉफ्टवेअर अद्ययावते</string>
     <string name="scheduled_update_summary_default">बंद</string>
     <string name="scheduled_update_summary_set_time">अद्ययावत %s वेळी सुरू होईल</string>
@@ -1164,7 +1181,7 @@ Data usage is measured by your phone. Your carrier may account for usage differe
     <string name="memory_mms_usage">MMS</string>
     <string name="user_owner">मालक</string>
     <string name="unable_to_charge_the_connected_device">%s साठी USB केबल वापरण्यात अक्षम.</string>
-    <string name="unable_to_change_usb_options_via_smart_switch">स्मार्ट स्विच द्वारे डेटा स्‍थानांतरित करताना USB पर्याय बदलण्यास अक्षम.</string>
+    <string name="unable_to_change_usb_options_via_smart_switch">Smart Switch सह डेटा स्थानांतरित करत असताना USB पर्याय बदलू शकत नाही.</string>
     <string name="usb_configuring">कॉन्फिगर होत आहे…</string>
     <string name="usb_use_none_summary">आपला उपकरण डेटा स्‍थानांतरित केला जाऊ शकणार नाही.</string>
     <string name="usb_use_charging_only_summary_vzw">Just charge this phone.</string>
@@ -1172,9 +1189,9 @@ Data usage is measured by your phone. Your carrier may account for usage differe
     <string name="usb_use_file_transfers_summary_vzw">Transfer media files to a computer.</string>
     <string name="usb_use_file_transfers_summary">MTP कनेक्शनद्वारे PC वर मीडिया फाइल्स स्‍थानांतरित करा.</string>
     <string name="usb_use_MIDI_summary_vzw">Use device for MIDI input.</string>
-    <string name="usb_use_MIDI_summary">MIDI (संगीत वाद्य डिजिटल इंटरफेस) प्लेअर किंवा निविष्‍ट स्त्रोत म्हणून कनेक्ट केलेले उपकरण वापरा.</string>
-    <string name="usb_use_software_installation">Software Installation</string>
-    <string name="usb_use_software_installation_summary">Install Software Update and Repair tool for your device on a Mac or Windows computer.</string>
+    <string name="usb_use_MIDI_summary">MIDI प्लेअर किंवा निविष्ट स्त्रोत म्हणून कनेक्ट केलेले उपकरण वापरा.</string>
+    <string name="usb_use_system_update">सिस्टम अद्ययावत</string>
+    <string name="usb_use_system_update_summary">आपल्या कॉम्प्युटर वर सॉफ्टवेअर अपग्रेड साहाय्यक इन्स्टॉल करा आणि हा फोन अद्ययावत किंवा दुरुस्त करा.</string>
     <string name="sim_status_code">कोड</string>
     <string name="sim_status_btn_update">अद्ययावत SIM कार्ड स्थिती</string>
     <string name="sim_status_updating">अद्ययावत करीत आहे…</string>
@@ -1263,7 +1280,7 @@ Where Can I Find More Information About the 3rd Party's Policies? Separately, if
     <string name="display_temperature">रंग संतुलन</string>
     <string name="adjust_your_display_colour">पांढर्‍या टोंन्सचे दृश्य बदलण्यासाठी आपल्या प्रदर्शनाचे रंग समायोजित करा.</string>
     <string name="led_indicator_settings">LED सूचक</string>
-    <string name="led_indicator_settings_summary">चार्जिंग, आवाज रेकॉर्डिंग किंवा अधिसूचना प्राप्‍त होताना LED निर्देशक प्रकाशिक होतो.</string>
+    <string name="led_indicator_settings_summary">ध्वनी रेकॉर्डिंग, न वाचलेल्या अधिसूचना आणि बॅटरीची स्थिती दर्शवण्या साठी स्क्रीन बंद असताना LED निर्देशक प्रकाशित करा.</string>
     <string name="screen_resolution_desc">FHD किंवा HD मध्ये काही सामग्री अस्पष्ट दिसू शकते किंवा समर्थित असू शकत नाही.</string>
     <string name="display_battery_percentage">बॅटरी टक्केवारी दर्शवा</string>
     <string name="display_battery_percentage_summary">स्थिती बारवर बॅटरी टक्केवारीच्या रूपात दर्शवा.</string>
@@ -1310,12 +1327,12 @@ Where Can I Find More Information About the 3rd Party's Policies? Separately, if
     <string name="blue_light_filter_off_time_next_day_summary_format">%s पुढील दिवस</string>
     <string name="blue_light_filter_user_schedule_title">सानुकूल शेड्यूल</string>
     <string name="blue_light_filter_auto_schedule_title">सूर्यास्त ते सूर्योदय</string>
-    <string name="blue_light_filter_desc">आपली झोप अधिक चांगली करण्यास मदत करण्यासाठी निळा प्रकाश फिल्टर वापरा. आपण निळा प्रकाश फिल्टर वापरू इच्छिता तेव्हा शेड्यूल सेट करा. सूर्यास्त ते सूर्योदय वापरण्यासाठी, स्थान सक्षम करणे आवश्यक आहे.</string>
-    <string name="blue_light_filter_enable_now">आता सक्षम करा</string>
+    <string name="blue_light_filter_desc">आपली झोप अधिक चांगली होण्यास मदत करण्या साठी रात्री निळा प्रकाश फिल्टर वापरा. आपण निळा प्रकाश फिल्टर वापरू इच्छित असताना शेड्यूल सेट करू शकता. सूर्यास्त ते सुर्योदय वापरण्या साठी, स्थान चालू करणे आवश्यक आहे.</string>
+    <string name="blue_light_filter_enable_now">आत्ता चालू करायचे</string>
     <string name="blue_light_filter_enable_as_scheduled">शेड्यूल केल्‍याप्रमाणे सक्षम करा</string>
-    <string name="blue_light_filter_scheduled_toast">ब्ल्यू लाइट फिल्टर सक्षम केला. हे शेड्यूल केलेल्‍या समाप्‍त वेळेवर स्‍वयंचलितपणे अक्षम होईल.</string>
+    <string name="blue_light_filter_scheduled_toast">ब्ल्यू लाइट फिल्टर चालू केले. हे शेड्यूल केलेल्‍या समाप्‍त वेळेवर स्‍वयंचलित पणे बंद होईल.</string>
     <string name="screen_mode_dlg_turn_off_blue_light_filter">%s आणि निळा प्रकाश फिल्टर एकाच वेळी वापरू शकत नाही. निळा प्रकाश फिल्टर अक्षम केला जाईल.</string>
-    <string name="blue_light_filter_dlg_turn_on_location">सूर्यास्त ते सूर्योदय वापरण्यासाठी, स्थान सक्षम करणे आवश्यक आहे.</string>
+    <string name="blue_light_filter_dlg_turn_on_location">सूर्यास्त ते सुर्योदय वापरण्या साठी, स्थान चालू करणे आवश्यक आहे.</string>
     <string name="dlg_turn_on">चालू करा</string>
     <string name="screen_resolution_title">स्‍क्रीन रिझोल्युशन</string>
     <string name="screen_resolution_desc_title">स्क्रीन रिझोल्युशन बदला</string>
@@ -1422,6 +1439,10 @@ Where Can I Find More Information About the 3rd Party's Policies? Separately, if
     <string name="crypt_keeper_vzw_password_warning">Set the Screen lock password with at least %d characters and 1 number.</string>
     <string name="crypt_keeper_decrypt_title">उपकरण डिक्रिप्ट करा.</string>
     <string name="crypt_keeper_decrypt_summary">उपकरण एन्क्रिप्ट केला.</string>
+    <string name="crypt_keeper_type_pin">PIN</string>
+    <string name="crypt_keeper_type_pattern">पॅटर्न</string>
+    <string name="crypt_keeper_type_password">पासवर्ड</string>
+    <string name="crypt_keeper_type_direction">दिशा लॉक</string>
     <string name="crypt_keeper_confirm_title_dec">डिक्रिप्शन कन्फर्म करा.</string>
     <string name="crypt_keeper_force_power_cycle_pattern">आपले उपकरण सुरू करण्यासाठी, ते बंद करा, पुन्हा चालू करा, नंतर पुन्हा प्रयत्न करा. आपण उपकरण सुरू करण्यासाठी वापरलेला पॅटर्न ड्रॉ करा आणि स्क्रीन अनलॉक करा. आपला बॅकअप PIN आपले उपकरण सुरू करण्यासाठी वापरणे शक्य नाही.</string>
     <string name="crypt_keeper_setup_description_dec">"उपकरण डिक्रीप्ट करणे. ह्याला काही वेळ लागू शकतो. कृपया प्रतीक्षा करा…
@@ -1511,6 +1532,7 @@ Where Can I Find More Information About the 3rd Party's Policies? Separately, if
     <string name="crypt_keeper_verify_failed_summary">आपल्या उपकरणाचा पुनरारंभ करण्यास अक्षम. अखंडता पडताळणी अयशस्वी झाली आहे. आपल्याला फॅक्टरी डिफॉल्ट सेटिंग्सवर आपल्या उपकरणाची पुन्हा मांडणी करणे गरजेचे आहे. हे आपला सर्व डेटा खोडेल.</string>
     <string name="cryptkeeper_emergency_call">संकटकाळीन कॉल</string>
     <string name="cryptkeeper_return_to_call">कॉलवर परत या</string>
+    <string name="cryptkeeper_default_enter_msg">सुरक्षे साठी आपला फोन एनक्रिप्ट केला आहे.</string>
     <string name="enter_password">आपले उपकरण सुरू करण्यासाठी, आपला पासवर्ड प्रविष्ट करा.</string>
     <string name="enter_pin">आपले उपकरण सुरू करण्यासाठी, आपला PIN प्रविष्ट करा.</string>
     <string name="enter_pattern">आपले उपकरण सुरू करण्यासाठी, आपले पॅटर्न ड्रॉ करा.</string>
@@ -1520,11 +1542,13 @@ Where Can I Find More Information About the 3rd Party's Policies? Separately, if
     <string name="cryptkeeper_wrong_pin">चुकीचा PIN प्रविष्ट केला</string>
     <string name="cryptkeeper_wrong_direction">चुकीची दिशा ड्रॉ केली</string>
     <string name="checking_decryption">पडताळणी होत आहे…</string>
-    <string name="starting_android">एनड्रॉइड सुरू करत आहे…</string>
     <string name="crypt_keeper_last_warn_wipe">आपल्या उपकरणाची त्याच्या फॅक्टरी डिफॉल्ट सेटिंग्‍सवर पुन्हा मांडणी करण्यापूर्वी ते सुरू करण्यासाठी आपल्याजवळ केवळ 1 प्रयत्न शिल्लक आहे. यामुळे सर्व डेटा खोडला जाईल, ज्यात फाइल्स आणि डाउनलोड केलेल्या अनुप्रयोगांचा समावेश आहे.</string>
     <string name="crypt_keeper_failed_title_dec">डिक्रिप्शन अयशस्वी.</string>
     <string name="crypt_keeper_failed_summary_dec">अडथळ्या मुळे विकोडन पूर्ण करण्यात अक्षम. वापर करण्यापूर्वी फॅक्टरी माहिती सामग्री पुन्हा मांडणी (सर्व माहिती सामग्री पुसून टाकणे) करा.</string>
     <string name="crypt_keeper_set_screen_lock_type">स्‍क्रीन लॉक प्रकार सेट करा</string>
+    <string name="encryption_interstitial_message">"आपण यापुढे हा फोन संरक्षित करू शकता त्यासाठी तो सुरू होण्या पूर्वी आपला %s प्रविष्ट करणे आवश्यक आहे. जर आपला फोन गमावला असेल किंवा चोरीला गेला असेल तर यामुळे आपले डेटा संरक्षित होण्या साठी मदत होईल. ईमेल सिंक सारखी वैशिष्ट्ये ऍक्सेस करण्या साठी उपकरण एनक्रिप्शन धोरणां नुसार काही अनुप्रयोगांना सुरक्षित स्टार्टअप आवश्यक असू शकते.
+
+फोन स्टार्ट होत नाही तोपर्यंत आपण कोणतेही कॉल्स, संदेश किंवा अधिसूचना प्राप्त करणार नाही आणि अलार्म्स वाजणार नाहीत."</string>
     <string name="encryption_interstitial_message_kor">आपले उपकरण एन्क्रिप्‍ट केले आहे. उपकरण चालू असताना डेटा डिक्रिप्‍ट करण्यासाठी आवश्‍यक स्क्रीन लॉक निवडून आपला एन्क्रिप्‍ट केलेला डेटा संरक्षित करा. हे गमावलेल्या किंवा चोरीस गेलेल्या उपकरणांवरील डेटा संरक्षित करण्यास मदत करते. जेव्हा आपण उपकरण चालू कराल तेव्हा आपल्याला त्याचा डेटा डिक्रिप्‍ट करण्यासाठी आपले उपकरण अनलॉक करणे आवश्यक असेल. आपण आपले उपकरण डिक्रिप्‍ट करेपर्यंत आपल्‍याला कोणतेही कॉल्‍स, संदेश किंवा अधिसूचना प्राप्‍त होणार नाहीत.</string>
     <string name="encryption_interstitial_message_direction">"उपकरण चालू असताना “आवश्यक दिशा लॉक” निवडून आपले उपकरण संरक्षित करा. हे हरविलेल्या किंवा चोरीला गेलेल्या उपकरणांवरील डेटा संरक्षित करण्यास मदत करते.
 
@@ -1546,6 +1570,7 @@ Where Can I Find More Information About the 3rd Party's Policies? Separately, if
 आपल्याला कोणतेही कॉल्स, संदेश किंवा अधिसूचना प्राप्त होणार नाहीत आणि उपकरण सुरू होईपर्यंत अलार्म्स वाजणार नाहीत."</string>
     <string name="encryption_interstitial_error_message">आपला उपकरण डेटा संरक्षित करण्यासाठी, आपला स्क्रीन लॉक प्रकार PIN, पासवर्ड, पॅटर्न किंवा फिंगरप्रिंटवर बदला, नंतर पुन्हा प्रयत्न करा.</string>
     <string name="encryption_interstitial_error_message_direction">आपला उपकरण डेटा संरक्षित करण्यासाठी, आपला स्क्रीन लॉक प्रकार PIN, पासवर्ड, पॅटर्न, दिशा लॉक किंवा फिंगरप्रिंट्सवर बदला, नंतर पुन्हा प्रयत्न करा.</string>
+    <string name="encryption_interstitial_error_message_direction_without_fingerprint">आपला उपकरण डेटा संरक्षित करण्या साठी, आपला स्क्रीन लॉक प्रकार PIN, पासवर्ड, पॅटर्न किंवा दिशा लॉकवर बदला, नंतर पुन्हा प्रयत्न करा.</string>
     <string name="encryption_interstitial_error_message_iris_direction">आपला उपकरण डेटा संरक्षित करण्यासाठी, आपला स्क्रीन लॉक प्रकार PIN, पासवर्ड, पॅटर्न, दिशा लॉक फिंगरप्रिंट्स किंवा इरिसेसवर बदला, नंतर पुन्हा प्रयत्न करा.</string>
     <string name="encryption_interstitial_error_message_without_fingerprint">आपला उपकरण डेटा संरक्षित करण्यासाठी, आपला स्क्रीन लॉक प्रकार PIN, पासवर्ड, पॅटर्नवर बदला, नंतर पुन्हा प्रयत्न करा.</string>
     <string name="encryption_interstitial_error_sktlock">सुरक्षा लॉक आणि सुरक्षा प्रारंभ त्याच वेळी सक्षम केले जाऊ शकत नाही. सुरक्षा-नसलेले लॉक निवडा आणि पुन्हा प्रयत्न करा.</string>
@@ -1809,6 +1834,8 @@ You will also need it when:"</string>
 %s"</string>
     <string name="improve_location_title">Improve location accuracy</string>
     <string name="improve_location_summary">Use WLANs and mobile networks to provide more accurate information about the location of your device.</string>
+    <string name="send_last_location_title">अंतिम स्थान पाठवा</string>
+    <string name="send_last_location_summary">विशिष्ट स्तरा खाली बॅटरी गेल्या वर त्याचे अंतिम स्थान माझा मोबाइल शोधा सर्व्हर वर पाठवण्या साठी आपल्या फोनला अनुमती द्या.</string>
     <string name="high_power_description">व्यक्तिगत अनुप्रयोगांसाठी बॅटरी वापर ऑप्टिमाइझ करणे सक्षम करा. काही फंक्शन्स, जसे की जी मोबाईल नेटवर्क्स किंवा डेटा सिंक करणे वापरतात त्यांना बॅटरी पॉवर जतन करण्यासाठी प्रतिबंधित केले जाईल.</string>
     <string name="wifi_display_summary_off">बंद</string>
     <string name="battery_usage_description">ही स्क्रीन उपकरण अंतिम पूर्ण चार्ज केल्यापासून बॅटरी वापर डेटा दर्शवते.</string>
@@ -1904,6 +1931,8 @@ You will also need it when:"</string>
     <string name="iris_sensor_not_working_popup_title">इरिस ओळख काम करत नाही</string>
     <string name="iris_sensor_not_working_msg">इरिस सेन्सर प्रतिसाद देत नाही. नंतर पुन्हा प्रयत्न करा.</string>
     <string name="iris_go_to_samsung_theme">Samsung Themes वर जा</string>
+    <string name="biometrics_dex_cant_use_msg">Samsung DeX मध्ये %s वापरू शकत नाही.</string>
+    <string name="biometrics_dex_closed_to_switch">Samsung DeX वर स्विच करण्या साठी %s बंद केले.</string>
     <string name="knox_twofactor_bio_description">%s अनलॉक करण्यासाठी आपला बायोमेट्रिक लॉक प्रकार आणि दुसरा लॉक प्रकार निवडा.</string>
     <string name="fingerprint_registered">नोंदणीकृत फिंगरप्रिंट्स निवडलेल्या अनलॉक पद्धतीसह वापरल्या जातील.</string>
     <string name="knox_twofactor_description">Knox अधिक सुरक्षित करण्‍यासाठी दोन लॉक प्रकार वापरा. आपल्‍या फिंगरप्रिंट्स प्रथम लॉक प्रकार म्हणून वापरण्यात येतील. खालील दुसरा लॉक प्रकार निवडा.</string>
@@ -2001,8 +2030,8 @@ Determining your location will use the mobile network. Data usage will apply."</
     <string name="app_ops_settings_summary">अनुप्रयोग परवानग्‍या पहा किंवा बदला.</string>
     <string name="backup_key_for_applock_header">अनुप्रयोग लॉक किंवा अनलॉक करण्यासाठी फिंगरप्रिंट ओळखीसह एकत्र वापरण्याकरिता पॅटर्न, PIN किंवा पासवर्ड सेट करा.</string>
     <string name="backup_key_for_privatemode_header">गोपनीय मोड ऍक्सेस करण्यासाठी फिंगरप्रिंट मान्यतेसह एकत्र वापरण्यासाठी पॅटर्न, PIN किंवा पासवर्ड सेट करा.</string>
-    <string name="status_added">जोडले</string>
     <string name="text_security_title_b2c">लॉक प्रकार निवडा. सुरक्षित फोल्डर कसा अनलॉक करायचा हे आपण विसरल्यास, आपण आपले Samsung account वापरून आपल्या लॉकची पुन्हा मांडणी करू शकता.</string>
+    <string name="status_added">जोडले</string>
     <string name="lockpattern_backup_pin">बॅकअप PIN</string>
     <string name="applock_type_fingerprint">फिंगरप्रिंट</string>
     <string name="unlock_set_unlock_two_factor_title">दोन-पाऊल पडताळणी</string>
@@ -2218,9 +2247,9 @@ Determining your location will use the mobile network. Data usage will apply."</
     <string name="palm_swipe_title">कॅप्चर करण्यासाठी पंजा स्वाईप.</string>
     <string name="screen_recorder_title">Record screen</string>
     <string name="screen_recorder_summary">Record video screenshots while you use your device.</string>
-    <string name="multi_window_setting_title">पॉप-अप दृश्य हावभाव</string>
+    <string name="multi_window_setting_title">पॉप-अप दृश्य क्रिया</string>
     <string name="multi_window_setting_description">अनुप्रयोग स्क्रीन वर खुला असताना, स्क्रीनच्या शीर्ष कोपर्‍या मधून तिरपे खाली स्वाइप करून अनुप्रयोगाचा आकार समायोजित करा.</string>
-    <string name="multi_window_screen_title">मल्टी विंडो</string>
+    <string name="multi_window_screen_title">मल्टि विंडो</string>
     <string name="multi_window_screen_summary">एकाच वेळी एका पेक्षा एक अनुप्रयोग दर्शवा.</string>
     <string name="multi_window_split_screen_title">स्प्लिट स्क्रीन दृश्य क्रिया</string>
     <string name="multi_window_split_screen_description_hwkey_1">संपूर्ण स्क्रीन दृश्या मधून स्प्लिट स्क्रीन दृश्यावर वर्तमान अनुप्रयोग बदलण्या साठी अलीकडील कीस दाबा आणि होल्ड करा.</string>
@@ -2258,18 +2287,19 @@ Determining your location will use the mobile network. Data usage will apply."</
     <string name="air_browse_note_summary">व्‍ह्यू मोड मध्‍ये असताना पृष्‍ठांच्‍या दरम्‍यान हलवा.</string>
     <string name="data_usage_enable_mobile_summery">आपल्या मोबाइल नेटवर्क द्वारे इंटरनेट ऍक्सेस करा.</string>
     <string name="data_usage_enable_mobile_warning_skt">मोबाईल नेटवर्कवर कनेक्ट करताना आपल्या डेटा प्लॅन प्रमाणे अधिक शुल्क लागू शकेल. पुढे चालू?</string>
-    <string name="data_usage_enable_mobile_warning_ktt">मोबाईल नेटवर्कवर कनेक्ट करताना आपल्या डेटा प्लॅन प्रमाणे अधिक शुल्क लागू शकेल. पुढे चालू?</string>
+    <string name="data_usage_enable_mobile_warning_ktt">मोबाईल डेटा चालू करण्‍यात येईल. मोबाईल नेटवर्क्‍सशी कनेक्ट केल्यास आपल्या देय योजनेनुसार अतिरिक्त शुल्क लागू शकते.</string>
     <string name="data_usage_enable_mobile_warning_lgt">मोबाईल नेटवर्कवर कनेक्ट करताना आपल्या डेटा प्लॅन प्रमाणे अधिक शुल्क लागू शकेल. पुढे चालू?</string>
     <string name="data_usage_disable_mobile_title">मोबाईल डेटा बंद करा</string>
     <string name="data_usage_disable_mobile_warning_skt">मोबाईलचे नेटवर्क डिस्कनेक्ट केल्यामुळे MMS आणि 3G डेटा सर्व्हिसेस वर मर्यादा येईल. डिस्कनेक्ट करायचे?</string>
     <string name="data_usage_disable_mobile_warning_ktt">मोबाईलचे नेटवर्क डिस्कनेक्ट केल्यामुळे MMS आणि 3G डेटा सर्व्हिसेस वर मर्यादा येईल. डिस्कनेक्ट करायचे?</string>
     <string name="data_usage_disable_mobile_warning_ktt_jb">मोबाईलचे नेटवर्क डिस्कनेक्ट केल्यामुळे MMS आणि 3G डेटा सर्व्हिसेस वर मर्यादा येईल. डिस्कनेक्ट करायचे?</string>
-    <string name="mobile_data_off_dialog_text_vzw">"Unless you use Wi-Fi, you will not be able to use the Internet, Email, or other apps that require a data connection.
+    <string name="data_usage_disable_mobile_warning_dcm">"If Mobile data is turned off, your device must be connected to a Wi-Fi network to use services that require a network connection.
 
-Turn off Mobile data?"</string>
-    <string name="mobile_data_off_dialog_text_common">"आपण Wi-Fi चा वापर करेपर्यंत आपण इंटरनेट, ईमेल किंवा डेटा कनेक्शनची आवश्यकता असलेले इतर अनुप्रयोग वापरु शकत नाही.
-
-मोबाईल डेटा बंद होईल."</string>
+Mobile data will be turned off."</string>
+    <string name="mobile_data_off_dialog_text_vzw">"Unless you use Wi-Fi, you won't be able to use the Internet, Email or other apps that require a data connection. Turn off the mobile data connection?"</string>
+    <string name="mobile_data_off_dialog_text_volte">"Your phone's Video Calling function won't work when mobile data is off. Also, you won't be able to use the Internet, Email or other apps that need a data connection unless you use Wi-Fi. Turn off the mobile data connection?"</string>
+    <string name="mobile_data_off_dialog_text_common">आपण Wi-Fi नेटवर्कशी कनेक्‍ट होईपर्यंत, आपण इंटरनेट, ईमेल किंवा डेटा कनेक्‍शनची आवश्‍यकता असलेले अन्य अनुप्रयोग वापरू शकणार नाही.</string>
+    <string name="data_usage_turn_off_btn">बंद करा</string>
     <string name="wfd_settings_summary">इतर उपकरण बरोबर आपल्या उपकरणची स्क्रीन सामायिक करा.</string>
     <string name="nfc_settings_advanced_explain">"डिफॉल्‍ट NFC प्रक्रिया पद्धत सेट करा.
 काही NFC व्‍यवहार आणि मोबाईल देय सेवांना विविध डिफॉल्‍ट NFC प्रक्रिया पद्धत आवश्‍यक असू शकते."</string>
@@ -2409,7 +2439,7 @@ Turn off Mobile data?"</string>
     <string name="zen_mode_events_summary">S Planner आणि अन्य दिनदर्शिका उपक्रमांमधून अधिसूचनांना अनुमती द्या.</string>
     <string name="zen_mode_events_summary_na">दिनदर्शिका उपक्रम आणि कार्यांमधून अधिसूचनांना अनुमती द्या.</string>
     <string name="zen_mode_reminders_summary">त्यांना समर्थन देणार्‍या अनुप्रयोगांपासून रिमाइंडर्सना अनुमती द्या.</string>
-    <string name="dnd_app_noti_summary">अपवाद म्‍हणून अनुप्रयोग अधिसूचनांना अनुमती देण्‍यासाठी प्राधान्‍य व्‍यत्‍यये सेट करा.</string>
+    <string name="dnd_app_noti_summary">आपण निवडलेल्या अनुप्रयोगां मधून अधिसूचनांना अनुमती द्या.</string>
     <string name="no_exceptions_dcm_summary">Mute all calls and alerts, including Area Mail alarms.</string>
     <string name="dnd_screen_switch_summary">आपले सानुकूल अपवाद वगळता, सर्व कॉल्‍स आणि सतर्कता मूक करा.</string>
     <string name="app_notification_priority_app_list_title">प्राधान्य अनुप्रयोग अधिसूचना</string>
@@ -2456,7 +2486,7 @@ To unblock it and connect to other devices via a USB cable, insert a USIM/SIM ca
     <string name="personal_page_secretbox_disclaimer_title">अस्वीकरण</string>
     <string name="personal_page_secretbox_disclaimer_message">गोपनीय मोड आपला डेटा अन्‍य अनुप्रयोगांद्वारे ऍक्‍सेस करण्‍यापासून संरक्षित करणार नाही. बाह्य सर्व्‍हर्ससह डेटा सिंक्रोनाइझ होण्‍यापासून प्रतिबंधित करण्‍यासाठी, कृपया आपल्‍या उपकरणावर स्‍वयं-सिंक अक्षम करा.</string>
     <string name="personal_page_secretbox_disclaimer_message_vzw">Content moved into Private mode will be hidden and will not be shown when you exit from Private mode. Automatic syncing while in Private mode may allow that content to be visible in 3rd party apps. Check the automatic synchronization settings of your other applications before using Private mode.</string>
-    <string name="personal_page_tutorial_app_title_message">आपण खाजगी ठेवू इच्छित असलेली सामग्री लपविण्यासाठी गोपनीय मोड वापरा. आपण खालील अनुप्रयोग वापरत असताना, आपण खाजगीवर हलवू इच्छित असलेले आयटम्स निवडा, नंतर “अधिक” टॅप करा आणि “खाजगीवर हलवा” निवडा. खाजगीवर निवडलेली सामग्री केवळ गोपनीय मोड सक्षम असतना पाहिली जाऊ शकते.</string>
+    <string name="personal_page_tutorial_app_title_message">आपण खाजगी ठेवू इच्छित असलेली सामग्री लपविण्या साठी गोपनीय मोड वापरा. आपण खालील अनुप्रयोग वापरत असताना, आपण खाजगीवर हलवू इच्छित असलेले आयटम्स निवडा, नंतर “अधिक” पर्याय बटणा वर टॅप करा आणि “खाजगीवर हलवा” निवडा. खाजगीवर हलवलेली सामग्री केवळ गोपनीय मोड सक्षम असतना पाहिली जाऊ शकते.</string>
     <string name="personal_page_inline_help">गोपनीय मोड वापरण्‍यासाठी, “ऍक्‍सेस प्रकार” निवडा. आपण आपला गोपनीय मोड ऍक्‍सेस प्रकार विसरला असल्‍यास, आपण तो रिकव्‍हर करण्‍यास सक्षम नसाल आणि आपण आपल्‍या उपकरणाची त्‍याच्‍या फॅक्‍टरी डिफॉल्‍ट सेटिंग्‍सवर पुन्‍हा मांडणी करेपर्यंत खाजगी मोड वापरण्‍यास सक्षम नसाल.</string>
     <string name="personal_page_backup_pin_summary">आपण आपला पॅटर्न विसरला असल्‍यास, गोपनीय मोडसाठी बॅकअप PIN तयार करा.</string>
     <string name="personal_page_incorrect_pin">"अयोग्य PIN.
@@ -2846,6 +2876,7 @@ To unblock it and connect to other devices via a USB cable, insert a USIM/SIM ca
     <string name="samsung_backup_summary">आपल्‍या डेटाचे बॅकअप घेण्‍यासाठी Samsung account वापरा.</string>
     <string name="samsung_restore_summary">आपला बॅकअप डेटा पूर्वस्थित करण्‍यासाठी आपले Samsung account वापरा.</string>
     <string name="sns_settings_title">आपले Wi-Fi कनेक्शन अस्थिर झाल्यावर मोबाईल डेटा वर स्विच करा. आपण आपला फोन सर्वाधिक भेट दिलेल्या क्षेत्रां मधून जतन केलेल्या Wi-Fi नेटवर्क्स वर देखील स्विच करू शकता. स्मार्ट नेटवर्क स्विच जतन केलेली Wi-Fi नेटवर्क्स स्वयंचलित पणे चालू किंवा बंद करू शकतो.</string>
+    <string name="sns_settings_title_include_autowifi">आपले Wi-Fi कनेक्शन अस्थिर झाल्यावर मोबाईल डेटा वर स्विच करा. आपण आपला फोन सर्वाधिक भेट दिलेल्या क्षेत्रां मधून जतन केलेल्या Wi-Fi नेटवर्क्स वर देखील स्विच करू शकता. स्मार्ट नेटवर्क स्विच जतन केलेली Wi-Fi नेटवर्क्स स्वयंचलित पणे चालू किंवा बंद करू शकतो.</string>
     <string name="smart_bonding">बूस्टर डाउनलोड करा</string>
     <string name="smart_bonding_popup_title">डाऊनलोड बूस्टर सक्षम करा</string>
     <string name="smart_bonding_description_vzw">"Download large files (over %d MB) faster by using Wi-Fi and LTE networks at the same time. The Download booster icon will be shown on the status bar when Download booster is turned on.
@@ -3066,6 +3097,8 @@ Downloading via mobile networks may result in additional charges depending on yo
     <string name="wifi_manage_network">नेटवर्क्स व्यवस्थापित करा.</string>
     <string name="wlan_permission_available_message">Asks your permission to use WLAN via a pop-up</string>
     <string name="wlan_permission_available">Ask to use WLAN</string>
+    <string name="wifi_hotspot20_summary_tmo">पासवर्डची आवश्यकता नसताना हॉटस्पॉट 2.0 सक्षम Wi-Fi ऍक्सेस पॉइंट्सशी सिमलेसली कनेक्ट करा.</string>
+    <string name="wifi_hotspot20_summary_dcm">Wi-Fi चालू असताना हॉटस्पॉट 2.0 Wi-Fi नेटवर्कशी स्वयंचलितपणे कनेक्ट करा.</string>
     <string name="wifi_hotspot20_summary">Hotspot 2.0 ला समर्थित असलेल्या Wi-Fi ऍक्सेस पॉइंट्सशी स्वयंचलितपणे कनेक्ट करा.</string>
     <string name="wifi_hotspot20_enable">Hotspot 2.0</string>
     <string name="wifi_att_auto_connect_summary">Automatically connect to AT&amp;T Wi-Fi hotspot when detected</string>
@@ -3084,9 +3117,9 @@ Downloading via mobile networks may result in additional charges depending on yo
     <string name="wifi_auto_reconnect">स्‍वयं पुन्‍हा कनेक्‍ट</string>
     <string name="wifi_enable_warning_chn">Turning on WLAN will disable Mobile hotspot.</string>
     <string name="wifi_enable_warning_vzw">Wi-Fi चालू ठेवणे मोबाइल हॉटस्पॉट अक्षम करेल. चालू ठेवायचे?</string>
-    <string name="wifi_enable_warning_tmo">Wi-Fi is turned off when Mobile HotSpot is active. To turn on Wi-Fi, please turn off Mobile HotSpot.</string>
+    <string name="wifi_enable_warning_tmo">मोबाईल हॉटस्पॉट सक्रिय असताना Wi-Fi बंद केले आहे. Wi-Fi चालू करण्या साठी, कृपया मोबाईल हॉटस्पॉट बंद करा.</string>
     <string name="wifi_enable_warning_spr">Turning on Wi-Fi will disable Hotspot.</string>
-    <string name="wifi_enable_warning_mtr">Turning on Wi-Fi will turn off Mobile Hotspot. Continue?</string>
+    <string name="wifi_enable_warning_mtr">मोबाईल हॉटस्पॉट सक्रिय असताना Wi-Fi बंद केले आहे. Wi-Fi चालू करण्या साठी, कृपया मोबाईल हॉटस्पॉट बंद करा.</string>
     <string name="wifi_enable_warning_usc">Turning on Wi-Fi will turn off Portable Wi-Fi hotspot. Continue?</string>
     <string name="wifi_enable_warning">Wi-Fi चालू ठेवणे मोबाईल हॉटस्पॉट अक्षम करेल.</string>
     <string name="wifi_control_history_title">Wi-Fi नियंत्रण इतिहास</string>
@@ -3120,9 +3153,9 @@ Downloading via mobile networks may result in additional charges depending on yo
     <string name="wifi_ap__wifi_sharing_vzw">Wi-Fi Sharing</string>
     <string name="wifi_ap__wifi_sharing">Wi-Fi सामायिकरण</string>
     <string name="first_use_wifi_msg_mtr">Tap OK to learn more about using Mobile Hotspot.</string>
-    <string name="first_use_wifi_msg">Tap OK to learn more about using Mobile HotSpot.</string>
+    <string name="first_use_wifi_msg">मोबाईल हॉटस्पॉट वापरून अधिक जाणून घेण्या साठी “ठीक” टॅप करा.</string>
     <string name="first_use_title_mtr">View Mobile Hotspot help</string>
-    <string name="first_use_title">View Mobile HotSpot help</string>
+    <string name="first_use_title">मोबाइल हॉटस्पॉट मदत पहा</string>
     <string name="wifi_ap_wifi_sharing_title">Wi-Fi सामायिक करणे सक्षम करा</string>
     <string name="wifi_ap_wifi_sharing_status_enabled">सक्रिय</string>
     <string name="wifi_ap_wifi_sharing_status_disabled">अक्षम केले</string>
@@ -3154,11 +3187,11 @@ Using Mobile hotspot increases battery consumption and data usage."</string>
 Mobile Hotspot uses mobile data from your data plan.
 
 We recommend keeping your phone plugged in to a charger while using Mobile Hotspot to save battery."</string>
-    <string name="wifi_ap_instruction_changeable_maxclient_tmo">"You can use your device as an Internet access point using Mobile HotSpot. This allows up to %d other devices to connect to it via Wi-Fi. The connected devices will have access to the Internet via your mobile network.
+    <string name="wifi_ap_instruction_changeable_maxclient_tmo">"मोबाईल हॉटस्पॉट वापरून आपण इंटरनेट ऍक्सेस पॉइंट म्हणून आपले उपकरण वापरू शकता. Wi-Fi द्वारे त्यास कनेक्ट करण्या साठी हे %d पर्यंत अन्य उपकरणांना अनुमती देते. कनेक्ट केलेल्या उपकरणांना आपल्या मोबाइल नेटवर्क द्वारे इंटरनेट मध्ये ऍक्सेस असेल.
 
-You can create an allowed device profile and set the connection mode for it.
+आपण अनुमती दिलेली उपकरण प्रोफाइल तयार करू शकता आणि त्यासाठी कनेक्शन मोड सेट करू शकता.
 
-Using Mobile HotSpot increases battery consumption and data usage."</string>
+मोबाइल हॉटस्पॉट वापरल्याने बॅटरी खपत आणि डेटा वापर वाढतो."</string>
     <string name="wifi_ap_instruction_changeable_maxclient_spr">"You can share your device's Hotspot with Wi-Fi enabled devices.
 
 After you start the Mobile Hotspot Wi-Fi router, connect using the controls on your Wi-Fi enabled device."</string>
@@ -3191,7 +3224,7 @@ To configure Smartphone Mobile Hotspot, tap on the menu icon, and then tap “Co
     <string name="wifi_ap_hide_ssid">माझे उपकरण लपवा</string>
     <string name="wifi_ap_wifi_off_warn_vzw">Mobile Hotspot uses your mobile data connection. Your Wi-Fi connection will be turned off.</string>
     <string name="wifi_ap_wifi_off_warn_spr">Enabling Hotspot will turn off Wi-Fi</string>
-    <string name="wifi_ap_wifi_off_warn_tmo">Wi-Fi is turned off when USB tethering or Mobile HotSpot is active. To turn on Wi-Fi, please turn off USB tethering or Mobile HotSpot.</string>
+    <string name="wifi_ap_wifi_off_warn_tmo">USB टेथरिंग किंवा मोबाईल हॉटस्पॉट सक्रिय असताना Wi-Fi बंद केले आहे. Wi-Fi चालू करण्या साठी, कृपया USB टेथरिंग किंवा मोबाईल हॉटस्पॉट बंद करा.</string>
     <string name="wifi_ap_wifi_off_warn_chn">Enabling Mobile hotspot will turn off WLAN.</string>
     <string name="wifi_ap_wifi_off_warn_att">Turning on portable Wi-Fi hotspot will turn off Wi-Fi.</string>
     <string name="wifi_ap_wifi_off_warn_mtr">Wi-Fi is turned off when USB tethering or Mobile Hotspot is active. To turn on Wi-Fi, please turn off USB tethering or Mobile Hotspot.</string>
@@ -3262,6 +3295,7 @@ To configure Smartphone Mobile Hotspot, tap on the menu icon, and then tap “Co
     <string name="wifi_wps_onstart_pbc_mobileap">कनेक्ट करण्यासाठी अन्य उपकरणावर WPS बटण दाबा.</string>
     <string name="wifi_wps_complete_mobileap">आपल्या उपकरणाशी आता अन्य उपकरण कनेक्ट केले आहे.</string>
     <string name="wifi_ap_disconnect_warn">उपकरण डिस्कनेक्ट करा</string>
+    <string name="wifi_ap_change_policy_warn_mtr">The device currently connected will be disconnected from Portable Wi-Fi Hotspot.</string>
     <string name="wifi_ap_change_policy_warn">सध्या कनेक्ट केलेले सर्व उपकरणे मोबाईल हॉटस्पॉटवरून डिस्कनेक्ट केले जातील.</string>
     <string name="wifi_ap_warn_max_whitelist">अनुमत कमाल उपकरणांची संख्या (%d) गाठली.</string>
     <string name="wifiap_one_item_deleted">1 आयटेम हटवला जाईल.</string>
@@ -3296,8 +3330,9 @@ Wi-Fi is now on."</string>
     <string name="wifi_tether_dialog_nosim_warning_title">मोबाईल हॉटस्पॉट</string>
     <string name="wifi_tether_dialog_nosim_warning_chn">Insert a SIM card to use Mobile hotspot and other tethering functions.</string>
     <string name="wifi_tether_dialog_nosim_warning_vzw">Insert a SIM card to use Mobile Hotspot and other tethering options.</string>
-    <string name="wifi_tether_dialog_nosim_warning_tmo">"Please install SIM card in order to share your phone's data connection with other devices using Mobile Wi-Fi HotSpot or USB tethering for Internet access."</string>
-    <string name="wifi_tether_dialog_nosim_warning_spr">Insert SIM for using Hotspot include tethering</string>
+    <string name="wifi_tether_dialog_nosim_warning_tmo">कृपया इंटरनेट ऍक्सेस साठी मोबाईल Wi-Fi हॉटस्‍पॉट किंवा USB टेथरिंग वापरून आपल्या फोनचे डेटा कनेक्शन अन्य उपकरणां सह सामायिक करण्या साठी SIM कार्ड इन्‍स्‍टॉल करा.</string>
+    <string name="wifi_tether_dialog_nosim_warning_mtr">"Please install SIM card in order to share your phone's data connection with other devices using Mobile Wi-Fi Hotspot or USB tethering for Internet access."</string>
+    <string name="wifi_tether_dialog_nosim_warning_spr">हॉटस्पॉट वापरण्या साठी SIM कार्ड समाविष्ट करा.</string>
     <string name="wifi_tether_dialog_nosim_warning_usc">मोबाईल हॉटस्पॉट आणि इतर टेथरिंग कार्ये वापरण्यासाठी एक SIM कार्ड प्रविष्‍ट करा.</string>
     <string name="wifi_tether_dialog_nosim_warning">मोबाईल हॉटस्पॉट आणि इतर टेथरिंग कार्ये वापरण्यासाठी एक SIM कार्ड प्रविष्‍ट करा.</string>
     <string name="mobileap_tmo">मोबाईल हॉटस्पॉट</string>
@@ -3324,7 +3359,7 @@ Wi-Fi is now on."</string>
     <string name="wifi_ap_instruction_open_activate_color3_att">&lt;font color=\"%1$s\">%2$s&lt;/font> शी कनेक्‍ट करा.</string>
     <string name="wifi_ap_instruction_open_activate_color3">&lt;font color=\"%1$s\">%2$s&lt;/font> शी कनेक्‍ट करा.</string>
     <string name="wifi_ap_instruction_open_activate_color4_vzw">Enjoy your Mobile Hotspot.</string>
-    <string name="wifi_ap_instruction_open_activate_color4_tmo">Enjoy the internet using your personal Mobile HotSpot.</string>
+    <string name="wifi_ap_instruction_open_activate_color4_tmo">आपला वैयक्तिक मोबाईल हॉटस्पॉट वापरून इंटरनेटचा आनंद घ्या.</string>
     <string name="wifi_ap_instruction_open_activate_color4_spr">Enjoy the Internet with Hotspot.</string>
     <string name="wifi_ap_instruction_open_activate_color4_att">Enjoy the Internet using Mobile hotspot.</string>
     <string name="wifi_ap_instruction_open_activate_color4_mtr">Enjoy the Internet using portable Wi-Fi hotspot.</string>
@@ -3343,7 +3378,7 @@ Wi-Fi is now on."</string>
     <string name="wifi_ap_instruction_activate_color3_att">पासवर्ड म्‍हणून &lt;font color=\"%1$s\">%3$s&lt;/font> प्रविष्‍ट करून &lt;font color=\"%1$s\">%2$s&lt;/font> शी कनेक्‍ट करा.</string>
     <string name="wifi_ap_instruction_activate_color3">पासवर्ड म्‍हणून &lt;font color=\"%1$s\">%3$s&lt;/font> प्रविष्‍ट करून &lt;font color=\"%1$s\">%2$s&lt;/font> शी कनेक्‍ट करा.</string>
     <string name="wifi_ap_instruction_activate_color4_vzw">Enjoy your Mobile Hotspot.</string>
-    <string name="wifi_ap_instruction_activate_color4_tmo">Enjoy the internet using your personal Mobile HotSpot.</string>
+    <string name="wifi_ap_instruction_activate_color4_tmo">आपला वैयक्तिक मोबाईल हॉटस्पॉट वापरून इंटरनेटचा आनंद घ्या.</string>
     <string name="wifi_ap_instruction_activate_color4_spr">Enter &lt;font color=\"%1$s\">%3$s&lt;/font> in the &lt;font color=\"%1$s\">%4$s&lt;/font> field.</string>
     <string name="wifi_ap_instruction_activate_color4_att">Enjoy the Internet using Mobile hotspot.</string>
     <string name="wifi_ap_instruction_activate_color4_mtr">Enjoy the Internet using portable Wi-Fi hotspot.</string>
@@ -3365,16 +3400,16 @@ Wi-Fi is now on."</string>
     <string name="wifi_ap_instruction_activate_color_hidden3_chn">Connect to &lt;font color=\"%1$s\">%2$s&lt;/font> by entering &lt;font color=\"%1$s\">%3$s&lt;/font> as the password.</string>
     <string name="wifi_ap_instruction_activate_color_hidden3_tmo">Connect to &lt;font color=\"%1$s\">%2$s&lt;/font> by entering &lt;font color=\"%1$s\">%3$s&lt;/font> as the password.</string>
     <string name="wifi_ap_instruction_activate_color_hidden3">पासवर्ड म्‍हणून &lt;font color=\"%1$s\">%3$s&lt;/font> प्रविष्‍ट करून &lt;font color=\"%1$s\">%2$s&lt;/font> शी कनेक्‍ट करा.</string>
-    <string name="wifi_ap_instruction_activate_color_hidden4_tmo">Enjoy the internet using your personal Mobile HotSpot.</string>
+    <string name="wifi_ap_instruction_activate_color_hidden4_tmo">आपला वैयक्तिक मोबाईल हॉटस्पॉट वापरून इंटरनेटचा आनंद घ्या.</string>
     <string name="wifi_ap_instruction_no_maxclient">"आपण मोबाईल हॉटस्‍पॉट वापरून आपले उपकरण इंटरनेट ऍक्‍सेस पॉइंट म्‍हणून वापरू शकता. हे अन्य उपकरणांना Wi-Fi द्वारे त्‍याच्‍याशी कनेक्‍ट करण्‍याची अनुमती देतो. कनेक्‍ट केलेल्‍या उपकरणांना आपल्‍या मोबाईल नेटवर्कद्वारे इंटरनेटवर ऍक्‍सेस असेल.
 
 आपण अनुमत उपकरणांची प्रोफाइल तयार करू शकता आणि त्याच्यासाठी कनेक्शन मोड सेट करू शकता.
 
 मोबाईल हॉटस्पॉट वापरल्याने बॅटरी खपत आणि डेटा वापर वाढतो."</string>
     <string name="wifi_ap_instruction_configure_vzw">To change the Mobile Hotspot configuration, go to Settings > Mobile Hotspot and tethering > Mobile Hotspot > MORE, then select Configure Mobile Hotspot.</string>
-    <string name="wifi_ap_instruction_configure_tmo">To change the Mobile HotSpot configuration, tap the More options button, then select Configure Mobile HotSpot.</string>
+    <string name="wifi_ap_instruction_configure_tmo">मोबाइल हॉटस्पॉट कॉन्फिगरेशन बदलण्या साठी, अधिक पर्याय बटण टॅप करा, नंतर “मोबाईल हॉटस्पॉट कॉन्फिगर करा” निवडा.</string>
     <string name="wifi_ap_instruction_configure">मोबाईल हॉटस्पॉट कॉन्फिगरेशन बदलण्यासाठी, अधिक पर्याय बटण टॅप करा, नंतर “मोबाईल हॉटस्पॉट कॉन्फिगर करा” निवडा.</string>
-    <string name="wifi_ap_instruction_configure_non_grace_tmo">To change the Mobile HotSpot configuration, tap MORE, then select Configure Mobile HotSpot.</string>
+    <string name="wifi_ap_instruction_configure_non_grace_tmo">मोबाईल हॉटस्पॉट कॉ‍न्फिगरेशन बदलण्या साठी, “अधिक” टॅप करा आणि “मोबाईल हॉटस्पॉट कॉन्फिगर करा” निवडा.</string>
     <string name="wifi_ap_instruction_configure_non_grace">मोबाईल हॉटस्पॉट कॉ‍न्फिगरेशन बदलण्यासाठी, “अधिक” टॅप करा आणि “मोबाईल हॉटस्पॉट कॉन्फिगर करणे” निवडा.</string>
     <string name="wifi_ap_change_security">Change Security</string>
     <string name="wifi_ap_maxclient">अधिकतम कनेक्शन्स</string>
@@ -3391,7 +3426,8 @@ Wi-Fi is now on."</string>
     <string name="wifi_tether_configure_ap_text_usc">Configure Wi-Fi hotspot</string>
     <string name="wifi_tether_configure_ap_text">मोबाईल हॉटस्पॉट कॉन्फिगर करा</string>
     <string name="wifi_ap_hidessid_warning">Your phone will be visible to other devices</string>
-    <string name="wifi_ap_first_time_configuration">First time HotSpot configuration</string>
+    <string name="wifi_ap_first_time_configuration_mtr">प्रथम वेळेस हॉटस्पॉट कॉन्फिगरेशन</string>
+    <string name="wifi_ap_first_time_configuration">पहिल्यांदा हॉटस्पॉट कॉन्फिगरेशन</string>
     <string name="title_wifi_notify_mobileap_is_on">Wi-Fi and Mobile Hotspot</string>
     <string name="wifi_ssid_max_byte_error">वर्णांची अधिकतम संख्या गाठली.</string>
     <string name="tethering_attention_title">लक्ष द्या</string>
@@ -3534,6 +3570,8 @@ Wi-Fi is now on."</string>
     <string name="master_clear_desc_music">संगीत</string>
     <string name="master_clear_desc_pictures">चित्रे</string>
     <string name="master_clear_desc_other_user_data">सर्व इतर प्रयोक्ता डेटा</string>
+    <string name="master_clear_not_enough_battery">आपल्या फोनची पुन्हा मांडणी करण्या पूर्वी आपली बॅटरी किमान %d%% पर्यंत चार्ज करा.</string>
+    <string name="master_clear_not_enough_battery_tablet">आपल्या टॅबलेटची पुन्हा मांडणी करण्या पूर्वी आपली बॅटरी किमान %d%% पर्यंत चार्ज करा.</string>
     <string name="text_two_locktype">फिंगरप्रिंट आणि %s</string>
     <string name="pref_lock_type_title">लॉक प्रकार बदला</string>
     <string name="pref_lock_type_summary">लॉक प्रकार</string>
@@ -3613,8 +3651,11 @@ Receiving SMS"</string>
     <string name="google_settings_popup_msg">Only a limited number of Google settings are available. Some actions may not work.</string>
     <string name="smart_lock_popup_msg">Only a limited number of Google settings are available. Some actions may not work.</string>
     <string name="prevent_to_change_by_device_policy">सुरक्षा धोरण %s चा वापर प्रतिबं‍धित करते.</string>
+    <string name="quick_tile_sync_title">सिंक</string>
     <string name="name_jerusalem">जेरुसलेम</string>
     <string name="name_israel">इस्राइल</string>
+    <string name="starting_android">एनड्रॉइड सुरू करत आहे…</string>
+    <string name="okay">ठीक</string>
     <string name="yes">होय</string>
     <string name="no">नाही</string>
     <string name="create">तयार करा</string>
@@ -3712,7 +3753,6 @@ Receiving SMS"</string>
     <string name="phone_info_label">उपकरणाची माहिती.</string>
     <string name="proxy_settings_label">प्रॉक्सी सेटिंग</string>
     <string name="cancel">रद्द</string>
-    <string name="okay">ठीक</string>
     <string name="save">जतन करा</string>
     <string name="done">झाले</string>
     <string name="settings_label">सेटिंग्स</string>
@@ -5347,4 +5387,6 @@ Receiving SMS"</string>
     <string name="ucm_pins_do_not_match">PIN जुळले नाहीत</string>
     <string name="ucm_failed_to_connect_smartcard">स्‍मार्ट कार्डला कनेक्‍ट करण्‍यात अयशस्‍वी. उपकरण प्रशासकाशी संपर्क साधा.</string>
     <string name="ucm_loading">लोड होत आहे…</string>
+    <string name="usb_use_software_installation">Software Installation</string>
+    <string name="usb_use_software_installation_summary">Install Software Update and Repair tool for your device on a Mac or Windows computer.</string>
 </resources>

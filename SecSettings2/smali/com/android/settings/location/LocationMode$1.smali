@@ -41,9 +41,9 @@
     .locals 9
 
     .prologue
-    const v8, 0x7f0b13f8
+    const v8, 0x7f0b157e
 
-    const v7, 0x7f0b13f9
+    const v7, 0x7f0b157f
 
     const/4 v6, 0x0
 
@@ -585,7 +585,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f0b13fa
+    const v6, 0x7f0b1580
 
     invoke-virtual {v5, v6}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

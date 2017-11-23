@@ -46,7 +46,7 @@
     .locals 16
 
     .prologue
-    const v5, 0x7f0b113c
+    const v5, 0x7f0b12c2
 
     const/4 v15, 0x2
 
@@ -59,10 +59,10 @@
 
     const-string/jumbo v1, "Introduction"
 
-    const v3, 0x7f0b142f
+    const v3, 0x7f0b15b5
 
     .line 190
-    const v4, 0x7f0b1431
+    const v4, 0x7f0b15b7
 
     .line 189
     invoke-direct/range {v0 .. v5}, Lcom/samsung/android/settings/notification/VolumeLimiterSettings$Stage;-><init>(Ljava/lang/String;IIII)V
@@ -74,13 +74,13 @@
 
     const-string/jumbo v7, "NeedToConfirm"
 
-    const v9, 0x7f0b1432
+    const v9, 0x7f0b15b8
 
     .line 194
-    const v10, 0x7f0b1434
+    const v10, 0x7f0b15ba
 
     .line 195
-    const v11, 0x7f0b1147
+    const v11, 0x7f0b12cd
 
     .line 193
     invoke-direct/range {v6 .. v11}, Lcom/samsung/android/settings/notification/VolumeLimiterSettings$Stage;-><init>(Ljava/lang/String;IIII)V
@@ -92,10 +92,10 @@
 
     const-string/jumbo v10, "ConfirmWrong"
 
-    const v12, 0x7f0b1435
+    const v12, 0x7f0b15bb
 
     .line 198
-    const v13, 0x7f0b1436
+    const v13, 0x7f0b15bc
 
     move v11, v15
 

@@ -230,11 +230,11 @@
 
     .line 879
     .local v6, "res":Landroid/content/res/Resources;
-    const v5, 0x7f0b048c
+    const v5, 0x7f0b0496
 
     .line 880
     .local v5, "parentTitle":I
-    const v9, 0x7f0b08c4
+    const v9, 0x7f0b08e1
 
     invoke-virtual {v6, v9}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -311,7 +311,7 @@
     iput-object v8, v2, Lcom/android/settings/search/SearchIndexableRaw;->screenTitle:Ljava/lang/String;
 
     .line 893
-    const v9, 0x7f0b048c
+    const v9, 0x7f0b0496
 
     iput v9, v2, Lcom/android/settings/search/SearchIndexableRaw;->parentTitleRes:I
 
@@ -371,7 +371,7 @@
 
     .line 902
     :cond_1
-    const v9, 0x7f0b08dc
+    const v9, 0x7f0b08f9
 
     invoke-virtual {v6, v9}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -398,7 +398,7 @@
     .restart local v2    # "data":Lcom/android/settings/search/SearchIndexableRaw;
     .restart local v3    # "i":I
     :cond_3
-    const v9, 0x7f0b10ac
+    const v9, 0x7f0b1233
 
     invoke-virtual {v6, v9}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

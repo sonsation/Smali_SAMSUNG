@@ -344,13 +344,13 @@
     iput v0, p0, Lcom/android/settings/datausage/AppDataUsage;->RESTRICTION_DURING_ROAMING:I
 
     .line 159
-    const v0, 0x7f0b04b1
+    const v0, 0x7f0b04c2
 
     .line 160
-    const v1, 0x7f0b04b2
+    const v1, 0x7f0b04c3
 
     .line 161
-    const v2, 0x7f0b04b3
+    const v2, 0x7f0b04c4
 
     .line 158
     filled-new-array {v0, v1, v2}, [I
@@ -2205,7 +2205,7 @@
     move-object/from16 v23, v0
 
     .line 306
-    const v24, 0x7f0b04b1
+    const v24, 0x7f0b04c2
 
     move-object/from16 v0, p0
 
@@ -2220,7 +2220,7 @@
     aput-object v24, v23, v25
 
     .line 307
-    const v24, 0x7f0b04b2
+    const v24, 0x7f0b04c3
 
     move-object/from16 v0, p0
 
@@ -2235,7 +2235,7 @@
     aput-object v24, v23, v25
 
     .line 308
-    const v24, 0x7f0b04b3
+    const v24, 0x7f0b04c4
 
     move-object/from16 v0, p0
 

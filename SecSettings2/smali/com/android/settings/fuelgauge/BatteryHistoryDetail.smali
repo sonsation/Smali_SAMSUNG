@@ -226,7 +226,7 @@
     .line 103
     iget-object v2, p0, Lcom/android/settings/fuelgauge/BatteryHistoryDetail;->mChargingParser:Lcom/android/settings/fuelgauge/BatteryFlagParser;
 
-    const v3, 0x7f0b15e5
+    const v3, 0x7f0b176b
 
     const v4, 0x7f110180
 
@@ -235,7 +235,7 @@
     .line 104
     iget-object v2, p0, Lcom/android/settings/fuelgauge/BatteryHistoryDetail;->mScreenOn:Lcom/android/settings/fuelgauge/BatteryFlagParser;
 
-    const v3, 0x7f0b15e6
+    const v3, 0x7f0b176c
 
     const v4, 0x7f11017f
 
@@ -244,7 +244,7 @@
     .line 105
     iget-object v2, p0, Lcom/android/settings/fuelgauge/BatteryHistoryDetail;->mGpsParser:Lcom/android/settings/fuelgauge/BatteryFlagParser;
 
-    const v3, 0x7f0b15e7
+    const v3, 0x7f0b176d
 
     const v4, 0x7f11017c
 
@@ -253,7 +253,7 @@
     .line 106
     iget-object v2, p0, Lcom/android/settings/fuelgauge/BatteryHistoryDetail;->mFlashlightParser:Lcom/android/settings/fuelgauge/BatteryFlagParser;
 
-    const v3, 0x7f0b15e9
+    const v3, 0x7f0b176f
 
     .line 107
     const v4, 0x7f11017b
@@ -264,7 +264,7 @@
     .line 108
     iget-object v2, p0, Lcom/android/settings/fuelgauge/BatteryHistoryDetail;->mCameraParser:Lcom/android/settings/fuelgauge/BatteryFlagParser;
 
-    const v3, 0x7f0b15e8
+    const v3, 0x7f0b176e
 
     const v4, 0x7f11017a
 
@@ -273,7 +273,7 @@
     .line 109
     iget-object v2, p0, Lcom/android/settings/fuelgauge/BatteryHistoryDetail;->mWifiParser:Lcom/android/settings/fuelgauge/BatteryWifiParser;
 
-    const v3, 0x7f0b15ea
+    const v3, 0x7f0b1770
 
     const v4, 0x7f11017d
 
@@ -282,7 +282,7 @@
     .line 110
     iget-object v2, p0, Lcom/android/settings/fuelgauge/BatteryHistoryDetail;->mCpuParser:Lcom/android/settings/fuelgauge/BatteryFlagParser;
 
-    const v3, 0x7f0b15eb
+    const v3, 0x7f0b1771
 
     const v4, 0x7f11017e
 
@@ -291,7 +291,7 @@
     .line 111
     iget-object v2, p0, Lcom/android/settings/fuelgauge/BatteryHistoryDetail;->mPhoneParser:Lcom/android/settings/fuelgauge/BatteryCellParser;
 
-    const v3, 0x7f0b15ec
+    const v3, 0x7f0b1772
 
     const v4, 0x7f110179
 

@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="data_saver_unrestricted_summary_chn">
+        <item quantity="other">"পৃষ্ঠভূমি ডাটা প্ৰতিবন্ধ সক্ষম হৈ থাকোতে কোনো প্ৰতিবন্ধ নথকাকৈ ম'বাইল ডাটা ব্যৱহাৰ কৰিবলৈ %d টা এপ অনুমতি প্ৰাপ্ত।"</item>
+        <item quantity="one">"পৃষ্ঠভূমি ডাটা প্ৰতিবন্ধ সক্ষম হৈ থাকোতে কোনো প্ৰতিবন্ধ নথকাকৈ ম'বাইল ডাটা ব্যৱহাৰ কৰিবলৈ %d টা এপ অনুমতি প্ৰাপ্ত।"</item>
+    </plurals>
     <plurals name="lock_timeout_hours">
         <item quantity="other">%d ঘণ্টা</item>
         <item quantity="one">1 ঘণ্টা</item>

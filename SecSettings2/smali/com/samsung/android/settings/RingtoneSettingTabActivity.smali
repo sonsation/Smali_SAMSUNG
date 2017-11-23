@@ -70,9 +70,9 @@
     .param p1, "Sim_id"    # I
 
     .prologue
-    const v7, 0x7f0b053a
+    const v7, 0x7f0b054e
 
-    const v6, 0x7f0b0539
+    const v6, 0x7f0b054d
 
     const/4 v5, 0x0
 

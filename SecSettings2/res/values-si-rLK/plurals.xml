@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="data_saver_unrestricted_summary_chn">
+        <item quantity="other">පසුබිම් දත්ත සීමා කිරීම සක්‍රිය අතරේ සීමා කිරීම් නොමැතිව ජංගම දත්ත භාවිතා කිරීමට යෙදුම් %dකට ඉඩ ලබා දේ.</item>
+        <item quantity="one">පසුබිම් දත්ත සීමා කිරීම සක්‍රිය අතරේ සීමා කිරීම් නොමැතිව ජංගම දත්ත භාවිතා කිරීමට යෙදුම් %dකට ඉඩ ලබා දේ.</item>
+    </plurals>
     <plurals name="lock_timeout_hours">
         <item quantity="other">%d පැය</item>
         <item quantity="one">පැය 1</item>

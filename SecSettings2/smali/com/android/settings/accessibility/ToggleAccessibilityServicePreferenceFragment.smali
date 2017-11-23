@@ -252,7 +252,7 @@
 
     aput-object v6, v5, v8
 
-    const v6, 0x7f0b02ac
+    const v6, 0x7f0b02ae
 
     invoke-virtual {p0, v6, v5}, Lcom/android/settings/accessibility/ToggleAccessibilityServicePreferenceFragment;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -455,7 +455,7 @@
 
     .prologue
     .line 745
-    const v0, 0x7f0b15b9
+    const v0, 0x7f0b173f
 
     .line 746
     .local v0, "resId":I
@@ -507,13 +507,13 @@
 
     .line 748
     :sswitch_0
-    const v0, 0x7f0b15b7
+    const v0, 0x7f0b173d
 
     goto :goto_0
 
     .line 752
     :sswitch_1
-    const v0, 0x7f0b15b8
+    const v0, 0x7f0b173e
 
     goto :goto_0
 
@@ -611,7 +611,7 @@
     aput-object v19, v18, v20
 
     .line 505
-    const v19, 0x7f0b15b5
+    const v19, 0x7f0b173b
 
     move-object/from16 v0, p0
 
@@ -678,7 +678,7 @@
     aput-object v19, v18, v20
 
     .line 517
-    const v19, 0x7f0b15b3
+    const v19, 0x7f0b1739
 
     move-object/from16 v0, p0
 
@@ -805,7 +805,7 @@
     invoke-direct {v0, v1, v2}, Lcom/android/settings/accessibility/ToggleAccessibilityServicePreferenceFragment;->setCapabilitiesText(Landroid/widget/TextView;Z)V
 
     .line 541
-    const v18, 0x7f0b15ba
+    const v18, 0x7f0b1740
 
     move-object/from16 v0, p0
 
@@ -1085,7 +1085,7 @@
     .restart local v14    # "imageView":Landroid/widget/ImageView;
     .restart local v16    # "labelView":Landroid/widget/TextView;
     :cond_2
-    const v18, 0x7f0b15bb
+    const v18, 0x7f0b1741
 
     move-object/from16 v0, p0
 
@@ -2857,7 +2857,7 @@
     aput-object v20, v19, v21
 
     .line 328
-    const v20, 0x7f0b15bd
+    const v20, 0x7f0b1743
 
     move-object/from16 v0, p0
 
@@ -2928,7 +2928,7 @@
     iput v0, v1, Lcom/android/settings/accessibility/ToggleAccessibilityServicePreferenceFragment;->mShownDialogId:I
 
     .line 338
-    const v18, 0x7f0b0c5a
+    const v18, 0x7f0b0c7c
 
     move-object/from16 v0, p0
 
@@ -2940,7 +2940,7 @@
 
     .line 339
     .local v16, "title":Ljava/lang/CharSequence;
-    const v18, 0x7f0b0c5b
+    const v18, 0x7f0b0c7d
 
     move-object/from16 v0, p0
 
@@ -2985,7 +2985,7 @@
     move-result-object v18
 
     .line 434
-    const v19, 0x7f0b179c
+    const v19, 0x7f0b1922
 
     .line 430
     move-object/from16 v0, v18
@@ -3040,7 +3040,7 @@
     if-nez v18, :cond_4
 
     .line 344
-    const v18, 0x7f0b02ae
+    const v18, 0x7f0b02b0
 
     move-object/from16 v0, p0
 
@@ -3052,7 +3052,7 @@
 
     .line 345
     .local v16, "title":Ljava/lang/CharSequence;
-    const v18, 0x7f0b02af
+    const v18, 0x7f0b02b1
 
     move-object/from16 v0, p0
 
@@ -3103,7 +3103,7 @@
     move-result-object v18
 
     .line 368
-    const v19, 0x7f0b1506
+    const v19, 0x7f0b168c
 
     .line 363
     move-object/from16 v0, v18
@@ -3117,7 +3117,7 @@
     move-result-object v18
 
     .line 369
-    const v19, 0x7f0b0431
+    const v19, 0x7f0b0439
 
     .line 363
     move-object/from16 v0, v18
@@ -3177,7 +3177,7 @@
 
     aput-object v19, v18, v20
 
-    const v19, 0x7f0b05f6
+    const v19, 0x7f0b060a
 
     move-object/from16 v0, p0
 
@@ -3191,7 +3191,7 @@
 
     .line 348
     .local v16, "title":Ljava/lang/CharSequence;
-    const v18, 0x7f0b02af
+    const v18, 0x7f0b02b1
 
     move-object/from16 v0, p0
 
@@ -3208,7 +3208,7 @@
     .local v13, "message":Ljava/lang/CharSequence;
     .local v16, "title":Ljava/lang/CharSequence;
     :cond_5
-    const v18, 0x7f0b02ad
+    const v18, 0x7f0b02af
 
     move-object/from16 v0, p0
 
@@ -3220,7 +3220,7 @@
 
     .line 351
     .local v16, "title":Ljava/lang/CharSequence;
-    const v18, 0x7f0b02af
+    const v18, 0x7f0b02b1
 
     move-object/from16 v0, p0
 
@@ -3273,7 +3273,7 @@
 
     aput-object v19, v18, v20
 
-    const v19, 0x7f0b02ac
+    const v19, 0x7f0b02ae
 
     move-object/from16 v0, p0
 
@@ -3326,7 +3326,7 @@
     aput-object v19, v18, v20
 
     .line 359
-    const v19, 0x7f0b02b3
+    const v19, 0x7f0b02b5
 
     move-object/from16 v0, p0
 
@@ -3355,7 +3355,7 @@
     iput v0, v1, Lcom/android/settings/accessibility/ToggleAccessibilityServicePreferenceFragment;->mShownDialogId:I
 
     .line 373
-    const v18, 0x7f0b02b0
+    const v18, 0x7f0b02b2
 
     move-object/from16 v0, p0
 
@@ -3376,7 +3376,7 @@
     if-nez v18, :cond_8
 
     .line 375
-    const v18, 0x7f0b02ae
+    const v18, 0x7f0b02b0
 
     move-object/from16 v0, p0
 
@@ -3400,7 +3400,7 @@
 
     aput-object v5, v18, v19
 
-    const v19, 0x7f0b02b2
+    const v19, 0x7f0b02b4
 
     move-object/from16 v0, p0
 
@@ -3453,7 +3453,7 @@
     move-result-object v18
 
     .line 399
-    const v19, 0x7f0b1506
+    const v19, 0x7f0b168c
 
     .line 394
     move-object/from16 v0, v18
@@ -3467,7 +3467,7 @@
     move-result-object v18
 
     .line 400
-    const v19, 0x7f0b0431
+    const v19, 0x7f0b0439
 
     .line 394
     move-object/from16 v0, v18
@@ -3527,7 +3527,7 @@
 
     aput-object v19, v18, v20
 
-    const v19, 0x7f0b05f6
+    const v19, 0x7f0b060a
 
     move-object/from16 v0, p0
 
@@ -3567,7 +3567,7 @@
 
     aput-object v5, v18, v19
 
-    const v19, 0x7f0b02b3
+    const v19, 0x7f0b02b5
 
     move-object/from16 v0, p0
 
@@ -3586,7 +3586,7 @@
     .local v13, "message":Ljava/lang/CharSequence;
     .local v16, "title":Ljava/lang/CharSequence;
     :cond_9
-    const v18, 0x7f0b02ad
+    const v18, 0x7f0b02af
 
     move-object/from16 v0, p0
 
@@ -3610,7 +3610,7 @@
 
     aput-object v5, v18, v19
 
-    const v19, 0x7f0b02b1
+    const v19, 0x7f0b02b3
 
     move-object/from16 v0, p0
 
@@ -3665,7 +3665,7 @@
 
     aput-object v19, v18, v20
 
-    const v19, 0x7f0b02ac
+    const v19, 0x7f0b02ae
 
     move-object/from16 v0, p0
 
@@ -3718,7 +3718,7 @@
     aput-object v19, v18, v20
 
     .line 390
-    const v19, 0x7f0b02b3
+    const v19, 0x7f0b02b5
 
     move-object/from16 v0, p0
 
@@ -3804,7 +3804,7 @@
 
     aput-object v19, v18, v20
 
-    const v19, 0x7f0b05f6
+    const v19, 0x7f0b060a
 
     move-object/from16 v0, p0
 
@@ -3856,7 +3856,7 @@
     aput-object v19, v18, v20
 
     .line 413
-    const v19, 0x7f0b02ac
+    const v19, 0x7f0b02ae
 
     move-object/from16 v0, p0
 
@@ -4124,7 +4124,7 @@
     move-result-object v18
 
     .line 459
-    const v19, 0x7f0b14b7
+    const v19, 0x7f0b163d
 
     .line 454
     move-object/from16 v0, v18

@@ -771,6 +771,7 @@ You can change this later by going to Bluetooth settings."</string>
     <string name="bluetooth_control_app_disable_summary">Turned off Bluetooth: %s</string>
     <string name="bluetooth_enter_pin_msg">Enter PIN to pair with %s (Try 0000 or 1234).</string>
     <string name="bluetooth_pin_maximum_number_message">Maximum number of characters reached.</string>
+    <string name="bluetooth_frp_permission_message">"Can't use Bluetooth device for this call."</string>
     <string name="settings_menu_done">Done</string>
     <string name="usb_tethering_unavailable_subtext_tmo">USB not connected</string>
     <string name="usb_tethering_available_subtext_tmo">USB connected, check to tether</string>
@@ -1038,8 +1039,6 @@ Your phone includes diagnostic software that may, with your consent, automatical
     <string name="usb_use_file_transfers_summary">Transfer media files to a computer via an MTP connection.</string>
     <string name="usb_use_MIDI_summary_vzw">Use device for MIDI input.</string>
     <string name="usb_use_MIDI_summary">Use the connected device as a MIDI (Musical Instrument Digital Interface) player or input source.</string>
-    <string name="usb_use_software_installation">Software Installation</string>
-    <string name="usb_use_software_installation_summary">Install Software Update and Repair tool for your device on a Mac or Windows computer.</string>
     <string name="sim_status_code">Code</string>
     <string name="sim_status_btn_update">Update SIM card status</string>
     <string name="sim_status_updating">Updating…</string>
@@ -1385,7 +1384,6 @@ Encryption takes an hour or more. Before you start, make sure that the battery i
     <string name="cryptkeeper_wrong_pin">Incorrect PIN entered</string>
     <string name="cryptkeeper_wrong_direction">Incorrect direction drawn</string>
     <string name="checking_decryption">Verifying…</string>
-    <string name="starting_android">Starting Android…</string>
     <string name="crypt_keeper_last_warn_wipe">You have only 1 attempt left to start up your <cst>device</cst> before it is reset to its factory default settings. This will erase all data, including files and downloaded apps.</string>
     <string name="crypt_keeper_failed_title_dec">Decryption failed.</string>
     <string name="crypt_keeper_failed_summary_dec">Unable to complete decryption because of interruption. Perform factory data reset (erasing all data) before use.</string>
@@ -1866,8 +1864,8 @@ Determining your location will use the mobile network. Data usage will apply."</
     <string name="app_ops_settings_summary">View or change application permissions.</string>
     <string name="backup_key_for_applock_header">Set a pattern, PIN, or password to use together with fingerprint recognition to lock or unlock apps.</string>
     <string name="backup_key_for_privatemode_header">Set a pattern, PIN, or password to use together with fingerprint recognition to access Private mode.</string>
-    <string name="status_added">Added</string>
     <string name="text_security_title_b2c">Select a lock type. If you forget how to unlock Secure Folder, you can reset your lock using your Samsung account.</string>
+    <string name="status_added">Added</string>
     <string name="lockpattern_backup_pin">Backup PIN</string>
     <string name="applock_type_fingerprint">Fingerprint</string>
     <string name="unlock_set_unlock_two_factor_title">Two-step verification</string>
@@ -3479,6 +3477,8 @@ Receiving SMS"</string>
     <string name="prevent_to_change_by_device_policy">Security policy prevents use of %s.</string>
     <string name="name_jerusalem">Jerusalem</string>
     <string name="name_israel">Israel</string>
+    <string name="starting_android">Starting Android…</string>
+    <string name="okay">OK</string>
     <string name="yes">Yes</string>
     <string name="no">No</string>
     <string name="create">Create</string>
@@ -3576,7 +3576,6 @@ You can change this later by going to Bluetooth settings."</string>
     <string name="phone_info_label"><cst>Device</cst> info</string>
     <string name="proxy_settings_label">Proxy settings</string>
     <string name="cancel">Cancel</string>
-    <string name="okay">OK</string>
     <string name="save">Save</string>
     <string name="done">Done</string>
     <string name="settings_label">Settings</string>
@@ -5202,4 +5201,6 @@ You will not receive any calls, messages, or notifications, and alarms will not 
     <string name="ucm_pins_do_not_match">PINs do not match</string>
     <string name="ucm_failed_to_connect_smartcard">Failed to connect to the smart card. Contact the <cst>device</cst> administrator.</string>
     <string name="ucm_loading">Loading…</string>
+    <string name="usb_use_software_installation">Software Installation</string>
+    <string name="usb_use_software_installation_summary">Install Software Update and Repair tool for your device on a Mac or Windows computer.</string>
 </resources>

@@ -2005,7 +2005,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0b0714
+    const v4, 0x7f0b072e
 
     invoke-virtual {p0, v4}, Lcom/android/settings/fingerprint/FingerprintSettings;->getString(I)Ljava/lang/String;
 
@@ -2716,7 +2716,7 @@
 
     move-result-object v6
 
-    const v7, 0x7f0b0703
+    const v7, 0x7f0b071d
 
     invoke-virtual {v6, v7}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -2728,7 +2728,7 @@
 
     move-result-object v8
 
-    const v9, 0x7f0b0702
+    const v9, 0x7f0b071c
 
     invoke-virtual {v8, v9}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -3263,7 +3263,7 @@
 
     new-array v2, v2, [Ljava/lang/Object;
 
-    const v3, 0x7f0b0680
+    const v3, 0x7f0b069a
 
     invoke-virtual {p0, v3}, Lcom/android/settings/fingerprint/FingerprintSettings;->getString(I)Ljava/lang/String;
 
@@ -3271,7 +3271,7 @@
 
     aput-object v3, v2, v4
 
-    const v3, 0x7f0b0731
+    const v3, 0x7f0b074b
 
     invoke-virtual {p0, v3, v2}, Lcom/android/settings/fingerprint/FingerprintSettings;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -3644,7 +3644,7 @@
 
     const-string/jumbo v1, "com.android.settings.fingerprint.FingerprintSettings_MultiSelect"
 
-    const v3, 0x7f0b0680
+    const v3, 0x7f0b069a
 
     const/4 v4, 0x0
 
@@ -3669,7 +3669,7 @@
 
     const/16 v4, 0x3ef
 
-    const v5, 0x7f0b0680
+    const v5, 0x7f0b069a
 
     const/4 v6, 0x0
 
@@ -3771,7 +3771,7 @@
     invoke-virtual {v3, v5}, Landroid/preference/Preference;->setKey(Ljava/lang/String;)V
 
     .line 708
-    const v5, 0x7f0b06e2
+    const v5, 0x7f0b06fc
 
     invoke-virtual {v3, v5}, Landroid/preference/Preference;->setTitle(I)V
 
@@ -3992,7 +3992,7 @@
     invoke-virtual {v4, v5}, Landroid/preference/Preference;->setKey(Ljava/lang/String;)V
 
     .line 720
-    const v5, 0x7f0b06dd
+    const v5, 0x7f0b06f7
 
     invoke-virtual {v4, v5}, Landroid/preference/Preference;->setTitle(I)V
 
@@ -4567,11 +4567,11 @@
     .param p1, "menu"    # Landroid/view/Menu;
 
     .prologue
-    const v8, 0x7f0b043c
+    const v8, 0x7f0b0444
 
     const/4 v7, 0x2
 
-    const v6, 0x7f0b042e
+    const v6, 0x7f0b0436
 
     const/4 v5, 0x1
 
@@ -4931,7 +4931,7 @@
 
     .prologue
     .line 1125
-    const v0, 0x7f0b182a
+    const v0, 0x7f0b19b0
 
     return v0
 .end method
@@ -6141,7 +6141,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0b0714
+    const v4, 0x7f0b072e
 
     invoke-virtual {p0, v4}, Lcom/android/settings/fingerprint/FingerprintSettings;->getString(I)Ljava/lang/String;
 

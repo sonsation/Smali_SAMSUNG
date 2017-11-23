@@ -131,7 +131,7 @@
     invoke-direct {v1, v2}, Landroid/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
 
     .line 66
-    const v2, 0x7f0b10d0
+    const v2, 0x7f0b1257
 
     .line 65
     invoke-virtual {v1, v2, p0}, Landroid/app/AlertDialog$Builder;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
@@ -139,7 +139,7 @@
     move-result-object v1
 
     .line 67
-    const v2, 0x7f0b10d1    # 1.8485E38f
+    const v2, 0x7f0b1258
 
     .line 65
     invoke-virtual {v1, v2, p0}, Landroid/app/AlertDialog$Builder;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
@@ -156,7 +156,7 @@
     if-eqz v1, :cond_0
 
     .line 69
-    const v1, 0x7f0b10ce
+    const v1, 0x7f0b1255
 
     .line 65
     :goto_0
@@ -168,7 +168,7 @@
 
     .line 70
     :cond_0
-    const v1, 0x7f0b10cf
+    const v1, 0x7f0b1256
 
     goto :goto_0
 .end method

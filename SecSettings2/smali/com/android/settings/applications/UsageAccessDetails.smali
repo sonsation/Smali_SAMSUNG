@@ -185,28 +185,28 @@
 
     move-result-object v1
 
-    const v2, 0x7f0b19bb
+    const v2, 0x7f0b1b41
 
     invoke-virtual {v1, v2}, Landroid/preference/PreferenceScreen;->setTitle(I)V
 
     .line 84
     iget-object v1, p0, Lcom/android/settings/applications/UsageAccessDetails;->mSwitchPref:Landroid/preference/SwitchPreference;
 
-    const v2, 0x7f0b19bc
+    const v2, 0x7f0b1b42
 
     invoke-virtual {v1, v2}, Landroid/preference/SwitchPreference;->setTitle(I)V
 
     .line 85
     iget-object v1, p0, Lcom/android/settings/applications/UsageAccessDetails;->mUsagePrefs:Landroid/preference/Preference;
 
-    const v2, 0x7f0b19bd
+    const v2, 0x7f0b1b43
 
     invoke-virtual {v1, v2}, Landroid/preference/Preference;->setTitle(I)V
 
     .line 86
     iget-object v1, p0, Lcom/android/settings/applications/UsageAccessDetails;->mUsageDesc:Lcom/samsung/android/settings/UnclickablePreference;
 
-    const v2, 0x7f0b19be
+    const v2, 0x7f0b1b44
 
     invoke-virtual {v1, v2}, Lcom/samsung/android/settings/UnclickablePreference;->setTitle(I)V
 
@@ -331,7 +331,7 @@
     move-result-object v2
 
     .line 119
-    const v3, 0x7f0b1a11
+    const v3, 0x7f0b1b97
 
     .line 116
     invoke-virtual {v2, v3}, Landroid/app/AlertDialog$Builder;->setMessage(I)Landroid/app/AlertDialog$Builder;
@@ -339,7 +339,7 @@
     move-result-object v2
 
     .line 120
-    const v3, 0x7f0b107b
+    const v3, 0x7f0b1046
 
     .line 116
     invoke-virtual {v2, v3, v4}, Landroid/app/AlertDialog$Builder;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;

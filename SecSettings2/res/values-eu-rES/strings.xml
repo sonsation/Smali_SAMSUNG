@@ -433,7 +433,7 @@ Enter the code you get from Verizon:"</string>
     <string name="answering_end_call_title">Deiak erantzutea eta amaitzea</string>
     <string name="audio_preference_title">Entzumena</string>
     <string name="mono_audio_title">Mono audioa</string>
-    <string name="mono_audio_summary">Aldatu audioa estereotik monora aurikular bakarra erabiltzen duzunean</string>
+    <string name="mono_audio_summary">Aldatu audioa estereotik monora belarri batez entzuteko.</string>
     <string name="multi_window_title">Leiho anitza</string>
     <string name="magnifier_seekbar_plus_tts">Gehi</string>
     <string name="magnifier_seekbar_minus_tts">Ken</string>
@@ -514,16 +514,18 @@ Oharra: hiru aldiz ukituta edonon erabil daiteke lupa, teklatuan izan ezik."</st
     <string name="direct_access_actions_universal_switch_title">Etengailu orokorra</string>
     <string name="sound_detector_title">Haur negar detektagailua</string>
     <string name="sound_detector_main_title">Soinu detektagailuak</string>
-    <string name="sound_detector_main_description">Jaso alertak, gailuak haur negarra edo ateko txirrina detektatzen badu.</string>
+    <string name="sound_detector_main_description">Jaso alertak, telefonoak haur negarra edo ateko txirrina detektatzen badu.</string>
     <string name="accessibility_easy_interaction_summary">Baztertu edo atzeratu alarmak, egutegiko gertaerak eta tenporizadore alertak, eta erantzun edo ukatu sarrera deiak behin ukituz.</string>
     <string name="accessibility_easy_interaction_summary_tablet_wifi">Ukitu alarma eta egutegiko gertaerak gelditu/atzeratzeko.</string>
-    <string name="all_sound_off">Itzali soinu guztiak</string>
-    <string name="all_sound_off_summary">Ez erreproduzitu soinurik, ezta bozgorailutik ere, nahiz eta soinu modua Soinua gisa ezarrita egon.</string>
+    <string name="all_sound_off">Isilarazi soinu guztiak</string>
+    <string name="all_sound_off_summary">Desaktibatu soinu guztiak, telefono deiak barne, nahiz eta soinu modua Soinua gisa ezarrita egon.</string>
     <string name="all_sound_off_dialog_summary">%1$s eta %2$s ezin dira aldi berean gaitu. %3$s desgaituko da.</string>
+    <string name="all_sound_off_popup_description">Isilarazi soinu guztiak erabiltzeko, %s desaktibatu behar da.</string>
+    <string name="all_sound_turn_off_button">Desaktibatu</string>
     <string name="turn_off_all_sounds">Itzali soinu guztiak</string>
     <string name="turn_off_all_sounds1">Ezin dira itzali soinu guztiak eta mezua erantzutea batera gaitu</string>
     <string name="turn_off_all_sounds2">Ezin dira itzali soinu guztiak eta mezua erantzutea batera gaitu. Mezua erantzutea desgaituko da.</string>
-    <string name="turn_off_all_sounds_toast_with_sound_detector">Desaktibatu soinu guztiak aukera ezin da desgaitu soinu detektagailuak gaituta badaude. Haiek desgaitzeko, zoaz Ezarpenak > Erabilerraztasuna > Entzumena > Soinu detektagailuak atalera, eta desgaitu soinu detektagailu guztiak.</string>
+    <string name="turn_off_all_sounds_toast_with_sound_detector">Ezin da desaktibatu Isilarazi soinu guztiak Soinu detektagailuak eginbidea aktibatuta badago.</string>
     <string name="accessibility_categories_title">Kategoriak</string>
     <string name="share_accessibility_settings">Kudeatu erabilgarritasuna</string>
     <string name="share_accessibility_settings_summary">Inportatu eta esportatu zure irisgarritasun ezarpenak, edo partekatu beste gailu batzuekin</string>
@@ -660,6 +662,7 @@ Funtzioa gaituta dagoenean, Biratu automatikoki pantaila aukera desgaituko da. J
     <string name="deviceOption">Gailuaren aukerak</string>
     <string name="lock">Babestu</string>
     <string name="powerOff">Itzali</string>
+    <string name="unable_assistantmenu_while_sidesync">Ezin da aktibatu Laguntzailearen menua SideSync erabili bitartean.</string>
     <string name="eamenableinfo">Laguntzaile gehigarria gaitzeko, hautatu gutxienez aplikazio bat.</string>
     <string name="fetch_progress">Datuak kargatzen…</string>
     <string name="assistant_menu_enable_message">%s eta beheko aukerak ezin dituzu aldi berean gaitu. Beheko aukerak desgaituko dira.</string>
@@ -766,7 +769,7 @@ Ukitu hau eginbidea deskargatzeko."</string>
     <string name="xcover_key_shortcut_battery_conserving_mode">Battery conserving mode</string>
     <string name="xcover_key_shortcut_normal_mode">Modu normala</string>
     <string name="flight_mode_enabled_toast">Ezin da sare mugikorretara konektatu Hegaldi modua gaituta dagoen bitartean. Ezgaitu Hegaldi modua eta saiatu berriz.</string>
-    <string name="airplane_mode_summary">Desgaitu dei eta mezu funtzioak eta desaktibatu Datu mugikorrak.</string>
+    <string name="airplane_mode_summary">Desaktibatu deiak, mezularitza eta datu mugikorrak.</string>
     <string name="usb_not_support_mtp_usb3_dialog_title">Oharra</string>
     <string name="airplane_mode_desc">Hegaldi moduak sareko eginbideak itzaltzea ahalbidetzen dizu, baita Wi-Fia ere. Wi-Fia erabiltzeko, piztu Ezarpenetan edo jakinarazpen panelean.</string>
     <string name="flight_mode_enable_popup_title">Gaitu Hegaldi modua</string>
@@ -906,6 +909,7 @@ Aukera hori geroago alda dezakezu, Bluetooth ezarpenetara joanda."</string>
     <string name="bluetooth_control_app_disable_summary">Bluetooth desaktibat.: %s</string>
     <string name="bluetooth_enter_pin_msg">Idatzi PINa %s-erekin parekatzeko (saiatu 0000 edo 1234 erabilita)</string>
     <string name="bluetooth_pin_maximum_number_message">Gehieneko karaktere kopurura iritsi zara.</string>
+    <string name="bluetooth_frp_permission_message">Ezin da erabili Bluetooth gailua dei honetan.</string>
     <string name="settings_menu_done">Amaituta</string>
     <string name="usb_tethering_unavailable_subtext_tmo">USB not connected</string>
     <string name="usb_tethering_available_subtext_tmo">USB connected, check to tether</string>
@@ -946,11 +950,16 @@ Smart capture desgaituta badago ere, Air command bidez atzitu ahal izango dituzu
 - Pantaila kapturan marraztu.
 - Pantaila kaptura ebaki.
 - Pantaila kaptura partekatu."</string>
+    <string name="smart_capture_summary">Pantaila kapturak ateratakoan, erakutsi aukerak. Smart capture-rekin, hau guztia egingo duzu:</string>
+    <string name="smart_capture_summary_1">Kapturatu pantailako eremu ezkutuak.</string>
+    <string name="smart_capture_summary_2">Marraztu pant. argazkian.</string>
+    <string name="smart_capture_summary_3">Moztu pantaila kaptura.</string>
+    <string name="smart_capture_summary_4">Partekatu pant. argazkia.</string>
     <string name="identify_unsaved_numbers_title">Identifikatu gorde gabeko zenbakiak</string>
     <string name="identify_unsaved_numbers_title_usa">Identifikatu spam zenb.</string>
     <string name="call_message_spam_filter_title">Call/message spam filter</string>
     <string name="onehand_operation_summary">Egokitu pantailaren neurria eta itxura, telefonoa esku bakarrarekin errazago kontrolatzeko.</string>
-    <string name="direct_share_title">Partekatze zuzena</string>
+    <string name="direct_share_title">Partek. zuzenean</string>
     <string name="direct_share_summary">Partekatu edukia pertsona jakinekin edozein aplikaziotako partekatze paneletik zuzenean.</string>
     <string name="direct_share_description">Partekatze zuzenaren ikonoak partekatze panelaren goialdean erakutsiko dira ekintzak gauzatzen diren bitartean, hala nola Google Partekatze zuzena funtzioarekin bateragarriak diren aplikazioetan mezuak edo mezu elektronikoak bidaltzean.</string>
     <string name="direct_share_description_chn">Partekatze zuzenaren ikonoak partekatze panelaren goialdean erakutsiko dira ekintzak gauzatzen diren bitartean, hala nola Android Partekatze zuzena funtzioarekin bateragarriak diren aplikazioetan mezuak edo mezu elektronikoak bidaltzean.</string>
@@ -1042,6 +1051,7 @@ Smart capture desgaituta badago ere, Air command bidez atzitu ahal izango dituzu
     <string name="fota_update_summary">Ukitu hau firmwarea azken bertsiora eguneratzeko eta azken eginbideak erabiltzeko.</string>
     <string name="favorite_tab">Ezarpen azkarrak</string>
     <string name="device_maintenance_title">Gailuaren mantentze lanak</string>
+    <string name="memory_string">Memoria</string>
     <string name="tab_favorite_edit">Editatu Ezarpen azkarrak</string>
     <string name="add_favorite_button">Editatu Ezarpen azkarrak</string>
     <string name="cloud_and_accounts_title">Hodeia eta kontuak</string>
@@ -1079,7 +1089,12 @@ Smart capture desgaituta badago ere, Air command bidez atzitu ahal izango dituzu
     <string name="notification_settings_apps_title">Aplikazio jakinarazpenak</string>
     <string name="international_roaming_setting">Ibiltaritza ezarpenak</string>
     <string name="user_manual_mos">Erabiltzailearen esku liburua</string>
-    <string name="data_saver_description">Datu erabilera murrizteko, atzealdean datuak bidaltzea eta jasotzea eragozten die Datu aurrezleak zenbait aplikaziori. Gainera, une horretan erabiltzen ari diren aplikazioek datuak atzi ditzakete, baina ez hain maiz. Adibidez, baliteke irudiak ongi ez ikustea ukitzen dituzun arte.</string>
+    <string name="data_saver_description">Datu erabilera murrizten laguntzen dizu Datu aurrezleak atzealdean datuak bidaltzea eta jasotzea eragozten baitie. Gainera, une horretan erabiltzen ari zaren aplikazioek datu mugikorrak erabil ditzakete, baina ez hain maiz. Adibidez, baliteke irudiak ongi ez ikustea ukitzen dituzunean.</string>
+    <string name="unrestricted_data_saver_chn">Erabili datuak mugarik gabe</string>
+    <string name="data_saver_description_chn">Datu erabilera murrizteko, atzealdean datuak bidaltzea eta jasotzea eragozten die Mugatu atzealdeko datuak eginbideak zenbait aplikaziori. Gainera, une horretan erabiltzen ari diren aplikazioek datuak atzi ditzakete, baina ez hain maiz. Adibidez, baliteke irudiak ongi ez ikustea ukitzen dituzun arte.</string>
+    <string name="data_saver_title_chn">Mugatu atzealdeko datuak</string>
+    <string name="unrestricted_app_title_chn">Erabili datuak mugarik gabe</string>
+    <string name="unrestricted_app_summary_chn">Aplikazio honek datu mugikorrak inongo mugarik gabe erabil ditzake Mugatu atzealdeko datuak gaituta dagoenean.</string>
     <string name="data_used_editor_subtitle">Enter the amount of data you have used this month:</string>
     <string name="traffic_vertify">Details</string>
     <string name="btn_tmo">Upgrade data service</string>
@@ -1131,7 +1146,9 @@ Data usage is measured by your phone. Your carrier may account for usage differe
     <string name="last_checked_date">Azken egiaztapena:</string>
     <string name="auto_update">Deskargatu eguneraketak auto.</string>
     <string name="auto_update_summary">Deskargatu software eguneraketak automatikoki Wi-Fi sarera konektatzean. Deskargatu bitartean ere erabili ahal izango duzu gailua.</string>
-    <string name="scheduled_update">Software eguneraketa program.</string>
+    <string name="auto_update_over_wifi">Deskargatu auto. Wi-Fi bidez</string>
+    <string name="auto_update_over_wifi_summary">Deskargatu software eguneraketak automatikoki Wi-Fi sare batera konektatuta zaudenean. Zerbitzu hornitzailearen arabera, baliteke eguneraketak datu mugikorren bidez deskargatuta ere kostu gehigarririk ez sortzea. Deskargatu bitartean, telefonoa erabili ahalko duzu.</string>
+    <string name="scheduled_update">Software eguneraketa programatuak</string>
     <string name="scheduled_update_summary_default">Desaktibatuta</string>
     <string name="scheduled_update_summary_set_time">Eguneraketa ordu honetan hasiko da: %s</string>
     <string name="scheduled_update_summary_set_time_everyday">Eguneraketa ordu honetan hasiko da egunero: %s</string>
@@ -1172,9 +1189,9 @@ Telefonoak diagnosi softwarea du eta, zure onespenarekin, automatikoki bilduko d
     <string name="usb_use_file_transfers_summary_vzw">Transfer media files to a computer.</string>
     <string name="usb_use_file_transfers_summary">Transferitu multimedia fitxategiak PCra MTP konexio bidez.</string>
     <string name="usb_use_MIDI_summary_vzw">Use device for MIDI input.</string>
-    <string name="usb_use_MIDI_summary">Erabili konektatutako gailua MIDI (Musical Instrument Digital Interface) erreproduzigailu edo iturburu gisa.</string>
-    <string name="usb_use_software_installation">Software Installation</string>
-    <string name="usb_use_software_installation_summary">Install Software Update and Repair tool for your device on a Mac or Windows computer.</string>
+    <string name="usb_use_MIDI_summary">Erabili konektatutako gailua MIDI erreproduzigailu edo iturburu gisa.</string>
+    <string name="usb_use_system_update">Sistemaren eguneraketa</string>
+    <string name="usb_use_system_update_summary">Instalatu Softwarea bertsio berritzeko laguntzailea ordenagailuan, eta eguneratu edo konpondu telefonoa.</string>
     <string name="sim_status_code">Kodea</string>
     <string name="sim_status_btn_update">Eguneratu SIM egoera</string>
     <string name="sim_status_updating">Eguneratzen…</string>
@@ -1263,7 +1280,7 @@ Argitasuna segurtasun mailatik gora ezartzeko, ukitu ADOS."</string>
     <string name="display_temperature">Koloreen balantzea</string>
     <string name="adjust_your_display_colour">Doitu pantailaren koloreak zuriaren itxura aldatzeko.</string>
     <string name="led_indicator_settings">LED adierazlea</string>
-    <string name="led_indicator_settings_summary">Piztu LED adierazlea gailua kargatzean, ahotsa grabatzean edo jakinarazpenak jasotzean.</string>
+    <string name="led_indicator_settings_summary">Pantaila itzalita dagoenean, piztu LED adierazlea soinu grabaketen, irakurri gabeko jakinarazpenen eta bateriaren egoera erakusteko.</string>
     <string name="screen_resolution_desc">Baliteke edukia lausotuta agertzea edo FHD/HD formatuekin bateragarria ez izatea.</string>
     <string name="display_battery_percentage">Erakutsi bateria ehunekoa</string>
     <string name="display_battery_percentage_summary">Erakutsi geratzen den bateriaren ehunekoa egoera barran.</string>
@@ -1310,12 +1327,12 @@ Argitasuna segurtasun mailatik gora ezartzeko, ukitu ADOS."</string>
     <string name="blue_light_filter_off_time_next_day_summary_format">%s hurrengo eguna</string>
     <string name="blue_light_filter_user_schedule_title">Programatu modu pertsonalizatuan</string>
     <string name="blue_light_filter_auto_schedule_title">Ilunabarretik egunsentira</string>
-    <string name="blue_light_filter_desc">Erabili Argi urdinaren iragazkia hobeto lo egin ahal izateko. Programatu noiz erabili nahi duzun Argi urdinaren iragazkia. Ilunabarretik egunsentira eginbidea erabiltzeko, Kokapena gaitu behar da.</string>
-    <string name="blue_light_filter_enable_now">Gaitu orain</string>
+    <string name="blue_light_filter_desc">Erabili gauean Argi urdinaren iragazkia hobeto lo egin ahal izateko. Argi urdinaren iragazkia noiz erabili nahi duzun programa dezakezu. Ilunabarretik egunsentira eginbidea erabiltzeko, Kokapena aktibatu behar da.</string>
+    <string name="blue_light_filter_enable_now">Aktibatu</string>
     <string name="blue_light_filter_enable_as_scheduled">Gaitu programatu gisa</string>
-    <string name="blue_light_filter_scheduled_toast">Argi urdinaren iragazkia gaituta dago. Automatikoki desgaituko da antolatutako amaiera orduan.</string>
+    <string name="blue_light_filter_scheduled_toast">Argi urdinaren iragazkia aktibatuta dago. Automatikoki desaktibatuko da antolatutako amaiera orduan.</string>
     <string name="screen_mode_dlg_turn_off_blue_light_filter">%s eta Argi urdinaren iragazkia ezin dira aldi berean erabili. Argi urdinaren iragazkia desgaituko da.</string>
-    <string name="blue_light_filter_dlg_turn_on_location">Ilunabarretik egunsentira eginbidea erabiltzeko, Kokapena gaitu behar da.</string>
+    <string name="blue_light_filter_dlg_turn_on_location">Ilunabarretik egunsentira eginbidea erabiltzeko, Kokapenak aktibatuta behar da.</string>
     <string name="dlg_turn_on">Aktibatu</string>
     <string name="screen_resolution_title">Pantaila bereizmena</string>
     <string name="screen_resolution_desc_title">Aldatu pant. bereizmena</string>
@@ -1422,6 +1439,10 @@ Argitasuna segurtasun mailatik gora ezartzeko, ukitu ADOS."</string>
     <string name="crypt_keeper_vzw_password_warning">Set the Screen lock password with at least %d characters and 1 number.</string>
     <string name="crypt_keeper_decrypt_title">Desenkriptatu gailua</string>
     <string name="crypt_keeper_decrypt_summary">Gailua enkriptatuta</string>
+    <string name="crypt_keeper_type_pin">PINa</string>
+    <string name="crypt_keeper_type_pattern">Diseinua</string>
+    <string name="crypt_keeper_type_password">Pasahitza</string>
+    <string name="crypt_keeper_type_direction">Keinu bidezko blokeoa</string>
     <string name="crypt_keeper_confirm_title_dec">Baieztatu desenkriptatzea</string>
     <string name="crypt_keeper_force_power_cycle_pattern">Gailua abiarazteko, itzali eta piztu gailua, eta saiatu berriz. Gailua abiarazteko eta pantaila desblokeatzeko patroia marraztu behar duzu. Babeskopia PINa ezin da erabili gailua abiarazteko.</string>
     <string name="crypt_keeper_setup_description_dec">"Gailua desenkriptatzen. Baliteke zenbait denbora behar izatea. Itxaron…
@@ -1511,6 +1532,7 @@ Baliteke enkriptatzeko ordubete edo gehiago behar izatea. Hasi baino lehen, ziur
     <string name="crypt_keeper_verify_failed_summary">Ezin da gailua berrabiarazi. Osotasunaren egiaztapenak huts egin du. Gailuan fabrikako ezarpen lehenetsiak berrezarri behar dituzu, baina hori eginez gero, datu guztiak garbituko dira.</string>
     <string name="cryptkeeper_emergency_call">Emergentzia deia</string>
     <string name="cryptkeeper_return_to_call">Itzuli deira</string>
+    <string name="cryptkeeper_default_enter_msg">Telefonoa enkriptatuta dago zure segurtasuna bermatzeko.</string>
     <string name="enter_password">Gailua abiarazteko, idatzi pasahitza.</string>
     <string name="enter_pin">Gailua abiarazteko, idatzi PINa.</string>
     <string name="enter_pattern">Gailua abiarazteko, marraztu patroia.</string>
@@ -1520,12 +1542,14 @@ Baliteke enkriptatzeko ordubete edo gehiago behar izatea. Hasi baino lehen, ziur
     <string name="cryptkeeper_wrong_pin">PIN okerra adierazi duzu</string>
     <string name="cryptkeeper_wrong_direction">Keinu okerra marraztu da</string>
     <string name="checking_decryption">Egiaztatzen…</string>
-    <string name="starting_android">Android abiarazten…</string>
     <string name="crypt_keeper_last_warn_wipe">Gailua abiarazteko 1 saiakera geratzen zaizu; saiakerak agortuz gero, gailuan fabrikako ezarpenak berrezarriko dira. Horren ondorioz, datu guztiak ezabatuko dira, baita fitxategiak eta deskargatutako aplikazioak ere.</string>
     <string name="crypt_keeper_failed_title_dec">"Dekodeketa
 errorea"</string>
     <string name="crypt_keeper_failed_summary_dec">Ezin da desekriptatzea osatu eten egin delako. Berrezarri fabrikako datuak (zure datu guztiak ezabatuz) erabili aurretik.</string>
     <string name="crypt_keeper_set_screen_lock_type">Ezarri pantaila blokeo mota</string>
+    <string name="encryption_interstitial_message">"Telefonoa gehiago babes dezakezu, telefonoa berrabiarazteko %s idazteko eskatuz. Telefonoa galtzen edo lapurtzen badizute, datuak babesten lagunduko dizu. Zenbait aplikaziok Abiarazte segurua beharko dute eginbideak atzitzeko (adibidez, posta elektronikoa sinkronizatzea).
+
+Ez duzu jasoko deirik, mezurik edo jakinarazpenik, eta alarmek ez dute joko, telefonoa abiarazten duzun arte."</string>
     <string name="encryption_interstitial_message_kor">Enkriptatuta dago gailua. Babestu enkriptatutako datuak, gailua pizten duzunean Eskatu blokeo pantaila hautatuta. Horrela, datuak babestuko dira, gailua galtzen baduzu edo lapurtzen badizute. Gailuaren babesa kendu beharko duzu bertak odatuak desenkriptatzeko gailua pizten duzun bakoitzean. Ez duzu deirik, mezurik edo jakinarazpenik jasoko gailua desenkriptatzen duzun arte.</string>
     <string name="encryption_interstitial_message_direction">"Babestu gailua Eskatu keinu bidezko blokeoa hautatuta gailua pizten denean. Horrela, datuak babestuko dira, gailua galtzen baduzu edo lapurtzen badizute.
 
@@ -1547,6 +1571,7 @@ Ez duzu deirik, mezurik edo jakinarazpenik jasoko, eta alarmek ez dute joko, gai
 Ez duzu deirik, mezurik edo jakinarazpenik jasoko, eta alarmek ez dute joko, gailua abiarazten duzun arte."</string>
     <string name="encryption_interstitial_error_message">Gailuko datuak babesteko, aldatu pantaila blokeo mota eta ezarri PINa, Pasahitza, Patroia edo Hatz aztarna. Ondoren, saiatu berriz.</string>
     <string name="encryption_interstitial_error_message_direction">Gailuko datuak babesteko, aldatu pantaila blokeo mota eta ezarri PINa, Pasahitza, Patroia, Keinu bidezko blokeoa edo Hatz aztarnak. Ondoren, saiatu berriz.</string>
+    <string name="encryption_interstitial_error_message_direction_without_fingerprint">Gailuko datuak babesteko, aldatu pantaila blokeo mota eta ezarri PINa, Pasahitza, Patroia edo Keinu bidezko blokeoa, eta saiatu berriz.</string>
     <string name="encryption_interstitial_error_message_iris_direction">Gailuko datuak babesteko, aldatu pantaila blokeo mota eta ezarri PINa, Pasahitza, Patroia, Keinu bidezko blokeoa, Hatz aztarnak edo Irisak. Ondoren, saiatu berriz.</string>
     <string name="encryption_interstitial_error_message_without_fingerprint">Gailuko datuak babesteko, aldatu pantaila blokeo mota eta ezarri PINa, Pasahitza edo Patroia. Ondoren, saiatu berriz.</string>
     <string name="encryption_interstitial_error_sktlock">Segurtasun blokeoa eta Abiarazte segurua ezin dituzu aldi berean gaitu. Hautatu segurua ez den blokeoa eta saiatu berriz.</string>
@@ -1810,6 +1835,8 @@ Bermearen baitako konponketa bat eskatu aurretik, Berraktibatze blokeoa desgaitu
 %s"</string>
     <string name="improve_location_title">Improve location accuracy</string>
     <string name="improve_location_summary">Use WLANs and mobile networks to provide more accurate information about the location of your device.</string>
+    <string name="send_last_location_title">Bidali azken kokapena</string>
+    <string name="send_last_location_summary">Baimendu telefonoari azken kokapena Bilatu nire mugikorra zerbitzarira bidaltzea bateria maila jakin batera iristen denean.</string>
     <string name="high_power_description">Gaitu Optimizatu bateria erabilera banako aplikazioetan. Funtzio batzuk, hala nola sare mugikorrak edo datu sinkronizazioa darabiltzatenak, mugatuta egongo dira bateria aurrezteko.</string>
     <string name="wifi_display_summary_off">Desaktibatuta</string>
     <string name="battery_usage_description">Pantaila honek bateria erabileraren datuak erakusten ditu, gailua azken aldiz guztiz kargatu zenetik hasita.</string>
@@ -1905,6 +1932,8 @@ Gailuan dituzu ordezko segurtasun aukerak. Jarraitu eginbide hau erabiltzeko jar
     <string name="iris_sensor_not_working_popup_title">Irisen hautemateak ez du funtzionatzen</string>
     <string name="iris_sensor_not_working_msg">Irisen sentsoreak ez du erantzuten. Saiatu berriz geroago.</string>
     <string name="iris_go_to_samsung_theme">Zoaz Samsung Themes-era</string>
+    <string name="biometrics_dex_cant_use_msg">Ezin da erabili %s Samsung DeX-en.</string>
+    <string name="biometrics_dex_closed_to_switch">%s itxi da Samsung DeX ezartzeko.</string>
     <string name="knox_twofactor_bio_description">Hautatu %s desblokeatzeko blokeo mota biometrikoa eta bigarren blokeo mota.</string>
     <string name="fingerprint_registered">Erregistratutako hatz aztarnak hautatutako desblokeo metodoarekin hautatuko dira.</string>
     <string name="knox_twofactor_description">Erabili bi blokeo modu Knox are seguruagoa izan dadin. Hatz aztarnak lehen blokeo modu gisa erabiliko dira. Hautatu bigarren blokeo mota bat behean.</string>
@@ -2002,8 +2031,8 @@ Determining your location will use the mobile network. Data usage will apply."</
     <string name="app_ops_settings_summary">Ikusi edo aldatu aplikazio baimenak.</string>
     <string name="backup_key_for_applock_header">Aplikazioak blokeatu edo desblokeatzeko, ezarri hatz aztarnarekin batera erabili nahi duzun patroia, PINa edo pasahitza.</string>
     <string name="backup_key_for_privatemode_header">Ezarri Modu pribatuan sartzeko hatz aztarnarekin batera erabili nahi duzun patroia, PINa edo pasahitza.</string>
-    <string name="status_added">Gehituta</string>
     <string name="text_security_title_b2c">Hautatu blokeo mota. Karpeta segurua desblokeatzeko era ahaztuz gero, Samsung account kontuaren bidez berrezar dezakezu blokeoa.</string>
+    <string name="status_added">Gehituta</string>
     <string name="lockpattern_backup_pin">Egin PINaren babes kopia</string>
     <string name="applock_type_fingerprint">Hatz aztarna</string>
     <string name="unlock_set_unlock_two_factor_title">Bi pausoko egiaztapena</string>
@@ -2219,9 +2248,9 @@ Telefono datuak ezabatzen badira ere, Google kontuaren pasahitza eskatuko da tel
     <string name="palm_swipe_title">Irristatu esku-azpia kapturatzeko</string>
     <string name="screen_recorder_title">Record screen</string>
     <string name="screen_recorder_summary">Record video screenshots while you use your device.</string>
-    <string name="multi_window_setting_title">Agerkari ikusp. keinua</string>
+    <string name="multi_window_setting_title">Ikuspegi gainerakorraren ekintza</string>
     <string name="multi_window_setting_description">Aplikazioa pantailan irekita dagoela, doitu aplikazioaren neurria pantailaren goialdeko ertz batetik behera diagonalean irristatuta.</string>
-    <string name="multi_window_screen_title">Leiho anitza</string>
+    <string name="multi_window_screen_title">Multiwindow</string>
     <string name="multi_window_screen_summary">Erakutsi aplikazio bat baino gehiago aldi berean.</string>
     <string name="multi_window_split_screen_title">Bereizitako pantailaren ekintza</string>
     <string name="multi_window_split_screen_description_hwkey_1">Uneko aplikazioa pantaila osotik bereizitako pantaila ikuspegira aldatzeko, sakatu eta eutsi Azkenak teklari.</string>
@@ -2259,18 +2288,19 @@ Telefono datuak ezabatzen badira ere, Google kontuaren pasahitza eskatuko da tel
     <string name="air_browse_note_summary">Mugitu orrietan Ikuspegi moduan</string>
     <string name="data_usage_enable_mobile_summery">Sartu Interneten sare mugikorraren bidez.</string>
     <string name="data_usage_enable_mobile_warning_skt">Baliteke sare mugikorretara konektatzeak kostu osagarriak eragitea zure datu planaren arabera. Jarraitu?</string>
-    <string name="data_usage_enable_mobile_warning_ktt">Baliteke sare mugikorretara konektatzeak kostu osagarriak eragitea zure datu planaren arabera. Jarraitu?</string>
+    <string name="data_usage_enable_mobile_warning_ktt">Datu mugikorrak aktibatuko dira. Baliteke sare mugikorretara konektatzeak kostu osagarriak eragitea zure tarifaren arabera.</string>
     <string name="data_usage_enable_mobile_warning_lgt">Baliteke sare mugikorretara konektatzeak kostu osagarriak eragitea zure datu planaren arabera. Jarraitu?</string>
     <string name="data_usage_disable_mobile_title">Itzali datu mugikorrak</string>
     <string name="data_usage_disable_mobile_warning_skt">Sare mugikorra deskonektatzeak MMS eta 3G datu zerbitzuen erabilera mugatuko du. Deskonektatu?</string>
     <string name="data_usage_disable_mobile_warning_ktt">Sare mugikorra deskonektatzeak MMS eta 3G datu zerbitzuen erabilera mugatuko du. Deskonektatu?</string>
     <string name="data_usage_disable_mobile_warning_ktt_jb">Sare mugikorra deskonektatzeak MMS eta 3G datu zerbitzuen erabilera mugatuko du. Deskonektatu?</string>
-    <string name="mobile_data_off_dialog_text_vzw">"Unless you use Wi-Fi, you will not be able to use the Internet, Email, or other apps that require a data connection.
+    <string name="data_usage_disable_mobile_warning_dcm">"If Mobile data is turned off, your device must be connected to a Wi-Fi network to use services that require a network connection.
 
-Turn off Mobile data?"</string>
-    <string name="mobile_data_off_dialog_text_common">"Wi-Fi erabili ezean, aurrerantzean ezingo dituzu Internet, Posta elektronikoa edo datu konexioa behar duten bestelako aplikazioak erabili.
-
-Datu mugikorrak desaktibatuko dira."</string>
+Mobile data will be turned off."</string>
+    <string name="mobile_data_off_dialog_text_vzw">"Unless you use Wi-Fi, you won't be able to use the Internet, Email or other apps that require a data connection. Turn off the mobile data connection?"</string>
+    <string name="mobile_data_off_dialog_text_volte">"Your phone's Video Calling function won't work when mobile data is off. Also, you won't be able to use the Internet, Email or other apps that need a data connection unless you use Wi-Fi. Turn off the mobile data connection?"</string>
+    <string name="mobile_data_off_dialog_text_common">Wi-Fi sare batera konektatzen ez bazara, ezingo dituzu erabili Internet, Posta elektronikoa edo sare konexioa behar duten bestelako aplikazioak.</string>
+    <string name="data_usage_turn_off_btn">Desaktib.</string>
     <string name="wfd_settings_summary">Partekatu zure gailuaren pantaila beste gailu batekin</string>
     <string name="nfc_settings_advanced_explain">"Ezarri NFC prozesatzeko metodo lehenetsia.
 NFC transakzio eta mugikorreko ordainketa zerbitzu batzuek NFC prozesatzeko beste metodo lehenetsi bat behar izan dezakete agian."</string>
@@ -2410,7 +2440,7 @@ NFC transakzio eta mugikorreko ordainketa zerbitzu batzuek NFC prozesatzeko best
     <string name="zen_mode_events_summary">Baimendu S Planner-eko jakinarazpenak eta egutegiko beste gertaera batzuk.</string>
     <string name="zen_mode_events_summary_na">Baimendu Egutegia aplikazioko gertaeren eta atazen jakinarazpenak.</string>
     <string name="zen_mode_reminders_summary">Baimendu abisuak onartzen dituzten aplikazioen abisuak.</string>
-    <string name="dnd_app_noti_summary">Ezarri lehentasunezko eten gisa, aplikazio jakinarazpenak salbuespentzat har daitezen.</string>
+    <string name="dnd_app_noti_summary">Baimendu hautatu dituzun aplikazioen jakinarazpenak.</string>
     <string name="no_exceptions_dcm_summary">Mute all calls and alerts, including Area Mail alarms.</string>
     <string name="dnd_screen_switch_summary">Mututu dei eta alerta guztiak, salbuespen pertsonalizatuei dagozkienak izan ezik.</string>
     <string name="app_notification_priority_app_list_title">Leh. aplik. jakinarazpenak</string>
@@ -2457,7 +2487,7 @@ pribatua"</string>
     <string name="personal_page_secretbox_disclaimer_title">Ezespena</string>
     <string name="personal_page_secretbox_disclaimer_message">Modu pribatuak ez ditu datuak beste aplikazio batzuetatik atzitzetik babesten. Datuak kanpoko zerbitzarietatik sinkronizatzea saihesteko, desgaitu sinkronizazio automatikoaren ezarpenak gailuan.</string>
     <string name="personal_page_secretbox_disclaimer_message_vzw">Content moved into Private mode will be hidden and will not be shown when you exit from Private mode. Automatic syncing while in Private mode may allow that content to be visible in 3rd party apps. Check the automatic synchronization settings of your other applications before using Private mode.</string>
-    <string name="personal_page_tutorial_app_title_message">Erabili Modu pribatua, pribatuan gorde nahi duzun edukia ezkutatzeko. Aplikazio hauek erabiltzen ari zarela, hautatu Modu pribatura mugitu nahi dituzun elementuak, ukitu GEHIAGO eta hautatu Mugitu modu pribatura. Modu pribatura eramandako edukia Modu pribatua gaituta badago soilik ikus daiteke.</string>
+    <string name="personal_page_tutorial_app_title_message">Erabili Modu pribatua pribatuan gorde nahi duzun edukia ezkutatzeko. Aplikazio hauek erabiltzen ari zarela, hautatu Modu pribatura mugitu nahi dituzun elementuak, ukitu Aukera gehiago botoia eta hautatu Mugitu modu pribatura. Modu pribatura eramandako edukia Modu pribatua aktibatuta badago soilik ikus daiteke.</string>
     <string name="personal_page_inline_help">Modu pribatua erabiltzeko, hautatu sarbide mota. Modu pribatuko sarbide mota ahazten baduzu, ezingo duzu berreskuratu. Modu pribatua berriz erabiltzeko, gailuaren fabrikako ezarpen lehenetsiak berrezarri behar dituzu.</string>
     <string name="personal_page_backup_pin_summary">Sortu Modu pribatuaren babeskopia PINa, patroia ahazten baduzu erabil dezazun.</string>
     <string name="personal_page_incorrect_pin">"PIN okerra.
@@ -2847,6 +2877,7 @@ Funtzioa gaitzeko edo desgaitzeko, deskonektatu kargagailua."</string>
     <string name="samsung_backup_summary">Erabili zure Samsung account datuen babeskopiak egiteko.</string>
     <string name="samsung_restore_summary">Erabili zure Samsung account babeskopiako datuak leheneratzeko.</string>
     <string name="sns_settings_title">Wi-Fi konexioa egonkorra ez denean, aldatu datu mugikorretara. Maiz joaten zaren tokietako Wi-Fi sareetara alda daiteke ere telefonoa. Smart network switch automatikoki aktibatuko edo desaktibatuko ditu gordetako Wi-Fi sareak.</string>
+    <string name="sns_settings_title_include_autowifi">Wi-Fi konexioa egonkorra ez denean, aldatu datu mugikorretara. Maiz joaten zaren tokietako Wi-Fi sareetara alda daiteke ere telefonoa. Smart network switch automatikoki aktibatuko edo desaktibatuko ditu gordetako Wi-Fi sareak.</string>
     <string name="smart_bonding">Download booster</string>
     <string name="smart_bonding_popup_title">Gaitu Download booster</string>
     <string name="smart_bonding_description_vzw">"Download large files (over %d MB) faster by using Wi-Fi and LTE networks at the same time. The Download booster icon will be shown on the status bar when Download booster is turned on.
@@ -3067,6 +3098,8 @@ Downloading via mobile networks may result in additional charges depending on yo
     <string name="wifi_manage_network">Kudeatu sareak</string>
     <string name="wlan_permission_available_message">Asks your permission to use WLAN via a pop-up</string>
     <string name="wlan_permission_available">Ask to use WLAN</string>
+    <string name="wifi_hotspot20_summary_tmo">Konektatu erraz Hotspot 2.0 gaituta duten Wi-Fi sarbide puntuetara pasahitzik erabili behar gabe.</string>
+    <string name="wifi_hotspot20_summary_dcm">Konektatu automatikoki Hotspot 2.0 Wi-Fi sarera Wi-Fi eginbidea aktibatuta dagoenean.</string>
     <string name="wifi_hotspot20_summary">Konektatu automatikoki Hotspot 2.0rekin bateragarriak diren Wi-Fi sarbide puntuetara.</string>
     <string name="wifi_hotspot20_enable">Hotspot 2.0</string>
     <string name="wifi_att_auto_connect_summary">Automatically connect to AT&amp;T Wi-Fi hotspot when detected</string>
@@ -3085,9 +3118,9 @@ Downloading via mobile networks may result in additional charges depending on yo
     <string name="wifi_auto_reconnect">Konektatu berriro automatikoki</string>
     <string name="wifi_enable_warning_chn">Turning on WLAN will disable Mobile hotspot.</string>
     <string name="wifi_enable_warning_vzw">Wi-Fi pizteak Mobile Hotspot ezgaituko du. Jarraitu?</string>
-    <string name="wifi_enable_warning_tmo">Wi-Fi is turned off when Mobile HotSpot is active. To turn on Wi-Fi, please turn off Mobile HotSpot.</string>
+    <string name="wifi_enable_warning_tmo">Wi-Fi eginbidea desaktibatzen da Konexioa partekatzea eginbidea aktibo dagoenean. Wi-Fi eginbidea aktibatzeko, desaktibatu Konexioa partekatzea.</string>
     <string name="wifi_enable_warning_spr">Turning on Wi-Fi will disable Hotspot.</string>
-    <string name="wifi_enable_warning_mtr">Turning on Wi-Fi will turn off Mobile Hotspot. Continue?</string>
+    <string name="wifi_enable_warning_mtr">Wi-Fi eginbidea desaktibatzen da Mobile Hotspot aktibo dagoenean. Wi-Fi eginbidea aktibatzeko, desaktibatu Mobile Hotspot.</string>
     <string name="wifi_enable_warning_usc">Turning on Wi-Fi will turn off Portable Wi-Fi hotspot. Continue?</string>
     <string name="wifi_enable_warning">Wi-Fi pizteak Partekatutako konexioa ezgaituko du.</string>
     <string name="wifi_control_history_title">Wi-Fi kontrolaren historia</string>
@@ -3121,9 +3154,9 @@ Downloading via mobile networks may result in additional charges depending on yo
     <string name="wifi_ap__wifi_sharing_vzw">Wi-Fi Sharing</string>
     <string name="wifi_ap__wifi_sharing">Wi-Fi partekatzea</string>
     <string name="first_use_wifi_msg_mtr">Tap OK to learn more about using Mobile Hotspot.</string>
-    <string name="first_use_wifi_msg">Tap OK to learn more about using Mobile HotSpot.</string>
+    <string name="first_use_wifi_msg">Konexioa partekatzea erabiltzeari buruzko informazio gehiago lortzeko, ukitu ADOS.</string>
     <string name="first_use_title_mtr">View Mobile Hotspot help</string>
-    <string name="first_use_title">View Mobile HotSpot help</string>
+    <string name="first_use_title">Ikusi Konexioa partekatzea eginbidearen laguntza</string>
     <string name="wifi_ap_wifi_sharing_title">Gaitu Wi-Fi partek.</string>
     <string name="wifi_ap_wifi_sharing_status_enabled">Gaituta</string>
     <string name="wifi_ap_wifi_sharing_status_disabled">Ezgaituta</string>
@@ -3155,11 +3188,11 @@ Using Mobile hotspot increases battery consumption and data usage."</string>
 Mobile Hotspot uses mobile data from your data plan.
 
 We recommend keeping your phone plugged in to a charger while using Mobile Hotspot to save battery."</string>
-    <string name="wifi_ap_instruction_changeable_maxclient_tmo">"You can use your device as an Internet access point using Mobile HotSpot. This allows up to %d other devices to connect to it via Wi-Fi. The connected devices will have access to the Internet via your mobile network.
+    <string name="wifi_ap_instruction_changeable_maxclient_tmo">"Zure gailua Interneteko sarbide puntu gisa erabil dezakezu Konexioa partekatzea eginbidearen bidez. Hala, beste %d gailu ere konektatu ahalko dira hartara Wi-Fi bidez. Konektatutako gailuek Interneteko sarbidea izango dute zure sare mugikorraren bitartez.
 
-You can create an allowed device profile and set the connection mode for it.
+Baimendutako gailuaren profila sortu eta haren konexio modua ezar dezakezu.
 
-Using Mobile HotSpot increases battery consumption and data usage."</string>
+Konexioa partekatzea eginbidea erabiliz gero, bateria gehiago kontsumituko da eta datu erabilera areagotuko da."</string>
     <string name="wifi_ap_instruction_changeable_maxclient_spr">"You can share your device's Hotspot with Wi-Fi enabled devices.
 
 After you start the Mobile Hotspot Wi-Fi router, connect using the controls on your Wi-Fi enabled device."</string>
@@ -3192,7 +3225,7 @@ To configure Smartphone Mobile Hotspot, tap on the menu icon, and then tap “Co
     <string name="wifi_ap_hide_ssid">Ezkutatu nire gailua</string>
     <string name="wifi_ap_wifi_off_warn_vzw">Mobile Hotspot uses your mobile data connection. Your Wi-Fi connection will be turned off.</string>
     <string name="wifi_ap_wifi_off_warn_spr">Enabling Hotspot will turn off Wi-Fi</string>
-    <string name="wifi_ap_wifi_off_warn_tmo">Wi-Fi is turned off when USB tethering or Mobile HotSpot is active. To turn on Wi-Fi, please turn off USB tethering or Mobile HotSpot.</string>
+    <string name="wifi_ap_wifi_off_warn_tmo">Wi-Fi eginbidea desaktibatzen da USB kable bidezko konexio partekatzea eginbidea aktibo dagoenean. Wi-Fi eginbidea aktibatzeko, desaktibatu USB kable bidezko konexio partekatzea edo Konexioa partekatzea.</string>
     <string name="wifi_ap_wifi_off_warn_chn">Enabling Mobile hotspot will turn off WLAN.</string>
     <string name="wifi_ap_wifi_off_warn_att">Turning on portable Wi-Fi hotspot will turn off Wi-Fi.</string>
     <string name="wifi_ap_wifi_off_warn_mtr">Wi-Fi is turned off when USB tethering or Mobile Hotspot is active. To turn on Wi-Fi, please turn off USB tethering or Mobile Hotspot.</string>
@@ -3263,6 +3296,7 @@ Wi-Fi eremuaren izena edo pasahitza aldatzen duzunean, QR kode berri bat sortu b
     <string name="wifi_wps_onstart_pbc_mobileap">Sakatu beste gailuko WPS botoia konektatzeko.</string>
     <string name="wifi_wps_complete_mobileap">Beste gailua zure gailura konektatuta dago orain.</string>
     <string name="wifi_ap_disconnect_warn">Deskonektatu gailua</string>
+    <string name="wifi_ap_change_policy_warn_mtr">The device currently connected will be disconnected from Portable Wi-Fi Hotspot.</string>
     <string name="wifi_ap_change_policy_warn">Orain konektatutako gailu guztiak Wi-Fi eremutik deskonektatuko dira.</string>
     <string name="wifi_ap_warn_max_whitelist">Baimendutako gailuen gehieneko kopurura (%d) iritsi zara.</string>
     <string name="wifiap_one_item_deleted">Elementu 1 ezabatuko da</string>
@@ -3297,8 +3331,9 @@ Wi-Fi is now on."</string>
     <string name="wifi_tether_dialog_nosim_warning_title">Partekatutako konexioa</string>
     <string name="wifi_tether_dialog_nosim_warning_chn">Insert a SIM card to use Mobile hotspot and other tethering functions.</string>
     <string name="wifi_tether_dialog_nosim_warning_vzw">Insert a SIM card to use Mobile Hotspot and other tethering options.</string>
-    <string name="wifi_tether_dialog_nosim_warning_tmo">"Please install SIM card in order to share your phone's data connection with other devices using Mobile Wi-Fi HotSpot or USB tethering for Internet access."</string>
-    <string name="wifi_tether_dialog_nosim_warning_spr">Insert SIM for using Hotspot include tethering</string>
+    <string name="wifi_tether_dialog_nosim_warning_tmo">Zure telefonoaren datu konexioa beste gailu batzuekin partekatzeko mugikorreko Wi-Fi Konexioa partekatzea edo USB kable bidezko konexio partekatzea erabilita, instalatu SIM txartela.</string>
+    <string name="wifi_tether_dialog_nosim_warning_mtr">"Please install SIM card in order to share your phone's data connection with other devices using Mobile Wi-Fi Hotspot or USB tethering for Internet access."</string>
+    <string name="wifi_tether_dialog_nosim_warning_spr">Sartu SIM txartela Hotspot erabiltzeko.</string>
     <string name="wifi_tether_dialog_nosim_warning_usc">Sartu SIM txartel bat, Partekatutako konexioa eta kable bidez konektatzeko beste funtzio batzuk erabiltzeko.</string>
     <string name="wifi_tether_dialog_nosim_warning">Sartu SIM txartel bat, Partekatutako konexioa eta kable bidez konektatzeko beste funtzio batzuk erabiltzeko.</string>
     <string name="mobileap_tmo">Partekatutako konexioa</string>
@@ -3325,7 +3360,7 @@ Wi-Fi is now on."</string>
     <string name="wifi_ap_instruction_open_activate_color3_att">Konektatu &lt;font color=\"%1$s\">%2$s&lt;/font> eginbidera.</string>
     <string name="wifi_ap_instruction_open_activate_color3">Konektatu &lt;font color=\"%1$s\">%2$s&lt;/font> eginbidera.</string>
     <string name="wifi_ap_instruction_open_activate_color4_vzw">Enjoy your Mobile Hotspot.</string>
-    <string name="wifi_ap_instruction_open_activate_color4_tmo">Enjoy the internet using your personal Mobile HotSpot.</string>
+    <string name="wifi_ap_instruction_open_activate_color4_tmo">Gozatu Internetez zure Konexioa partekatzea eginbide pertsonala erabilita.</string>
     <string name="wifi_ap_instruction_open_activate_color4_spr">Enjoy the Internet with Hotspot.</string>
     <string name="wifi_ap_instruction_open_activate_color4_att">Enjoy the Internet using Mobile hotspot.</string>
     <string name="wifi_ap_instruction_open_activate_color4_mtr">Enjoy the Internet using portable Wi-Fi hotspot.</string>
@@ -3344,7 +3379,7 @@ Wi-Fi is now on."</string>
     <string name="wifi_ap_instruction_activate_color3_att">Konektatu &lt;font color=\"%1$s\">%2$s&lt;/font> eginbidera &lt;font color=\"%1$s\">%3$s&lt;/font> idatzita pasahitz gisa.</string>
     <string name="wifi_ap_instruction_activate_color3">Konektatu &lt;font color=\"%1$s\">%2$s&lt;/font> eginbidera &lt;font color=\"%1$s\">%3$s&lt;/font> idatzita pasahitz gisa.</string>
     <string name="wifi_ap_instruction_activate_color4_vzw">Enjoy your Mobile Hotspot.</string>
-    <string name="wifi_ap_instruction_activate_color4_tmo">Enjoy the internet using your personal Mobile HotSpot.</string>
+    <string name="wifi_ap_instruction_activate_color4_tmo">Gozatu Internetez zure Konexioa partekatzea eginbide pertsonala erabilita.</string>
     <string name="wifi_ap_instruction_activate_color4_spr">Enter &lt;font color=\"%1$s\">%3$s&lt;/font> in the &lt;font color=\"%1$s\">%4$s&lt;/font> field.</string>
     <string name="wifi_ap_instruction_activate_color4_att">Enjoy the Internet using Mobile hotspot.</string>
     <string name="wifi_ap_instruction_activate_color4_mtr">Enjoy the Internet using portable Wi-Fi hotspot.</string>
@@ -3366,16 +3401,16 @@ Wi-Fi is now on."</string>
     <string name="wifi_ap_instruction_activate_color_hidden3_chn">Connect to &lt;font color=\"%1$s\">%2$s&lt;/font> by entering &lt;font color=\"%1$s\">%3$s&lt;/font> as the password.</string>
     <string name="wifi_ap_instruction_activate_color_hidden3_tmo">Connect to &lt;font color=\"%1$s\">%2$s&lt;/font> by entering &lt;font color=\"%1$s\">%3$s&lt;/font> as the password.</string>
     <string name="wifi_ap_instruction_activate_color_hidden3">Konektatu &lt;font color=\"%1$s\">%2$s&lt;/font> eginbidera &lt;font color=\"%1$s\">%3$s&lt;/font> idatzita pasahitz gisa.</string>
-    <string name="wifi_ap_instruction_activate_color_hidden4_tmo">Enjoy the internet using your personal Mobile HotSpot.</string>
+    <string name="wifi_ap_instruction_activate_color_hidden4_tmo">Gozatu Internetez zure Konexioa partekatzea eginbide pertsonala erabilita.</string>
     <string name="wifi_ap_instruction_no_maxclient">"Gailua Interneteko sarbide puntu gisa erabil dezakezu Partekatutako konexioaren bidez. Hala, beste gailu ere konektatu ahalko dira Wi-Fi bidez. Konektatutako gailuek Interneteko sarbidea izango dute zure sare mugikorraren bitartez.
 
 Baimendutako gailuaren profila sortu eta horren konexio modua ezar dezakezu.
 
 Partekatutako konexioa erabiltzeak bateria gehiago kontsumitzen du eta zure datu erabilera handitzen du."</string>
     <string name="wifi_ap_instruction_configure_vzw">To change the Mobile Hotspot configuration, go to Settings > Mobile Hotspot and tethering > Mobile Hotspot > MORE, then select Configure Mobile Hotspot.</string>
-    <string name="wifi_ap_instruction_configure_tmo">To change the Mobile HotSpot configuration, tap the More options button, then select Configure Mobile HotSpot.</string>
+    <string name="wifi_ap_instruction_configure_tmo">Konexioa partekatzea eginbidearen konfigurazioa aldatzeko, ukitu Aukera gehiago botoia eta hautatu Konfiguratu Konexioa partekatzea.</string>
     <string name="wifi_ap_instruction_configure">Konexioa partekatzea eginbidearen konfigurazioa aldatzeko, ukitu Aukera gehiago botoia eta hautatu Konfiguratu Konexioa partekatzea.</string>
-    <string name="wifi_ap_instruction_configure_non_grace_tmo">To change the Mobile HotSpot configuration, tap MORE, then select Configure Mobile HotSpot.</string>
+    <string name="wifi_ap_instruction_configure_non_grace_tmo">Konexioa partekatzea eginbidearen konfigurazioa aldatzeko, ukitu GEHIAGO eta hautatu Konfiguratu Konexioa partekatzea.</string>
     <string name="wifi_ap_instruction_configure_non_grace">Partekatutako konexioaren konfigurazioa aldatzeko, ukitu GEHIAGO eta hautatu Konfiguratu Partekatutako konexioa.</string>
     <string name="wifi_ap_change_security">Change Security</string>
     <string name="wifi_ap_maxclient">Gehienezko konexioak</string>
@@ -3392,7 +3427,8 @@ Partekatutako konexioa erabiltzeak bateria gehiago kontsumitzen du eta zure datu
     <string name="wifi_tether_configure_ap_text_usc">Configure Wi-Fi hotspot</string>
     <string name="wifi_tether_configure_ap_text">Konfiguratu Partekatutako konexioa</string>
     <string name="wifi_ap_hidessid_warning">Your phone will be visible to other devices</string>
-    <string name="wifi_ap_first_time_configuration">First time HotSpot configuration</string>
+    <string name="wifi_ap_first_time_configuration_mtr">Konexioa partekatzeko lehen konfigurazioa</string>
+    <string name="wifi_ap_first_time_configuration">Konexioa partekatzeko lehen konfigurazioa</string>
     <string name="title_wifi_notify_mobileap_is_on">Wi-Fi and Mobile Hotspot</string>
     <string name="wifi_ssid_max_byte_error">Gehieneko karaktere kopurura iritsi zara.</string>
     <string name="tethering_attention_title">Oharra</string>
@@ -3535,6 +3571,8 @@ Lortu ibiltaritzari buruzko informazioa ibiltaritzaren doako bezero zerbitzura d
     <string name="master_clear_desc_music">Musika</string>
     <string name="master_clear_desc_pictures">Irudiak</string>
     <string name="master_clear_desc_other_user_data">Erabiltzailearen bestelako datu guztiak</string>
+    <string name="master_clear_not_enough_battery">Kargatu bateria gutxienez %%%d(e)ra arte, telefonoa berrezarri aurretik.</string>
+    <string name="master_clear_not_enough_battery_tablet">Kargatu bateria gutxienez %%%d(e)ra arte, tableta berrezarri aurretik.</string>
     <string name="text_two_locktype">Hatz aztarna eta %s</string>
     <string name="pref_lock_type_title">Aldatu blokeo mota</string>
     <string name="pref_lock_type_summary">Blokeo mota</string>
@@ -3614,8 +3652,11 @@ Receiving SMS"</string>
     <string name="google_settings_popup_msg">Only a limited number of Google settings are available. Some actions may not work.</string>
     <string name="smart_lock_popup_msg">Only a limited number of Google settings are available. Some actions may not work.</string>
     <string name="prevent_to_change_by_device_policy">Segurtasun politikak %s erabilera galarazten du.</string>
+    <string name="quick_tile_sync_title">Sink</string>
     <string name="name_jerusalem">Jerusalem</string>
     <string name="name_israel">Israel</string>
+    <string name="starting_android">Android abiarazten…</string>
+    <string name="okay">Ados</string>
     <string name="yes">Bai</string>
     <string name="no">Ez</string>
     <string name="create">Sortu</string>
@@ -3713,7 +3754,6 @@ Aukera hori geroago alda dezakezu, Bluetooth ezarpenetara joanda."</string>
     <string name="phone_info_label">Gailuaren informazioa</string>
     <string name="proxy_settings_label">Proxy ezarpenak</string>
     <string name="cancel">Ezeztatu</string>
-    <string name="okay">Ados</string>
     <string name="save">Gorde</string>
     <string name="done">Egina</string>
     <string name="settings_label">Ezarpenak</string>
@@ -5348,4 +5388,6 @@ Ez duzu deirik, mezurik edo jakinarazpenik jasoko, eta alarmek ez dute joko, gai
     <string name="ucm_pins_do_not_match">PINak ez datoz bat</string>
     <string name="ucm_failed_to_connect_smartcard">Huts egin da txartel adimendunera konektatzean. Jarri harremanetan gailuaren administratzailearekin.</string>
     <string name="ucm_loading">Kargatzen…</string>
+    <string name="usb_use_software_installation">Software Installation</string>
+    <string name="usb_use_software_installation_summary">Install Software Update and Repair tool for your device on a Mac or Windows computer.</string>
 </resources>

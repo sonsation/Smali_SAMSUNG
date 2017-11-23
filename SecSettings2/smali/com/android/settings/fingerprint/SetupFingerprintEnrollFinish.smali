@@ -141,7 +141,7 @@
 
     .line 68
     .local v0, "message":Landroid/widget/TextView;
-    const v4, 0x7f0b10de
+    const v4, 0x7f0b1265
 
     invoke-virtual {v0, v4}, Landroid/widget/TextView;->setText(I)V
 

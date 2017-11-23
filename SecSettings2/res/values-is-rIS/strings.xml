@@ -907,6 +907,7 @@ Hægt er að breyta þessu síðar í stillingum Bluetooth."</string>
     <string name="bluetooth_control_app_disable_summary">Slökkt á Bluetooth: %s</string>
     <string name="bluetooth_enter_pin_msg">Sláðu inn PIN-númer til að para við %s (prófaðu 0000 eða 1234).</string>
     <string name="bluetooth_pin_maximum_number_message">Hámarksfjölda stafa hefur verið náð.</string>
+    <string name="bluetooth_frp_permission_message">Ekki er hægt að nota Bluetooth-tæki í þessu símtali.</string>
     <string name="settings_menu_done">Lokið</string>
     <string name="usb_tethering_unavailable_subtext_tmo">USB not connected</string>
     <string name="usb_tethering_available_subtext_tmo">USB connected, check to tether</string>
@@ -1174,8 +1175,6 @@ Data usage is measured by your phone. Your carrier may account for usage differe
     <string name="usb_use_file_transfers_summary">Flytja efnisskrár yfir í tölvu um MTP-tengingu.</string>
     <string name="usb_use_MIDI_summary_vzw">Use device for MIDI input.</string>
     <string name="usb_use_MIDI_summary">Notaðu tengt tæki sem MIDI-spilara (Musical Instrument Digital Interface) eða uppsprettu.</string>
-    <string name="usb_use_software_installation">Software Installation</string>
-    <string name="usb_use_software_installation_summary">Install Software Update and Repair tool for your device on a Mac or Windows computer.</string>
     <string name="sim_status_code">Kóði</string>
     <string name="sim_status_btn_update">Uppfæra stöðu SIM-korts</string>
     <string name="sim_status_updating">Verið er að uppfæra…</string>
@@ -1521,7 +1520,6 @@ Dulkóðun tekur minnst klukkustund. Áður en hafist er handa skaltu tryggja a�
     <string name="cryptkeeper_wrong_pin">Rangt PIN-númer slegið inn</string>
     <string name="cryptkeeper_wrong_direction">Röng stefna dregin</string>
     <string name="checking_decryption">Verið er að sannreyna…</string>
-    <string name="starting_android">Ræsi Android…</string>
     <string name="crypt_keeper_last_warn_wipe">Þú átt aðeins 1 tilraun eftir til að ræsa tækið þitt áður en það verður endurstillt á sjálfgefnar grunnstillingar framleiðanda. Öllum gögnum verður eytt, þ.m.t. skrám og sóttum forritum.</string>
     <string name="crypt_keeper_failed_title_dec">Dulráðning mistókst.</string>
     <string name="crypt_keeper_failed_summary_dec">Ekki tókst að ljúka við afkóðun vegna truflunar. Núllstilltu (eyða öllum gögnum) fyrir notkun.</string>
@@ -2002,8 +2000,8 @@ Determining your location will use the mobile network. Data usage will apply."</
     <string name="app_ops_settings_summary">Skoða eða breyta heimildum forrita.</string>
     <string name="backup_key_for_applock_header">Veldu mynstur, PIN-númer eða lykilorð sem þú vilt nota með fingrafarakennslum til að læsa eða opna forrit.</string>
     <string name="backup_key_for_privatemode_header">Veldu mynstur, PIN-númer eða lykilorð sem þú vilt nota með fingrafarakennslum til að opna „Einkastillingu“.</string>
-    <string name="status_added">Bætt við</string>
     <string name="text_security_title_b2c">Veldu lásgerð. Ef þú gleymir því hvernig þú opnar örugga möppu geturðu endurstillt lásinn í gegnum Samsung-reikninginn þinn.</string>
+    <string name="status_added">Bætt við</string>
     <string name="lockpattern_backup_pin">Vara-PIN</string>
     <string name="applock_type_fingerprint">Fingrafar</string>
     <string name="unlock_set_unlock_two_factor_title">Tvíþætt staðfesting</string>
@@ -3616,6 +3614,8 @@ Receiving SMS"</string>
     <string name="prevent_to_change_by_device_policy">Öryggisstefna kemur í veg fyrir notkun á %s.</string>
     <string name="name_jerusalem">Jerúsalem</string>
     <string name="name_israel">Ísrael</string>
+    <string name="starting_android">Ræsi Android…</string>
+    <string name="okay">Í lagi</string>
     <string name="yes">Já</string>
     <string name="no">Nei</string>
     <string name="create">Búa til</string>
@@ -3713,7 +3713,6 @@ Hægt er að breyta þessu síðar í stillingum Bluetooth."</string>
     <string name="phone_info_label">Um tækið</string>
     <string name="proxy_settings_label">Stilling staðgengilsnetþjóns</string>
     <string name="cancel">Hætta við</string>
-    <string name="okay">Í lagi</string>
     <string name="save">Vista</string>
     <string name="done">Lokið</string>
     <string name="settings_label">Stillingar</string>
@@ -5346,4 +5345,6 @@ Hvaða notandi sem er getur samþykkt uppfærðar forritsheimildir fyrir hönd a
     <string name="ucm_pins_do_not_match">PIN-númerin stemma ekki</string>
     <string name="ucm_failed_to_connect_smartcard">Mistókst að tengjast snjallkortinu. Hafðu samband við stjórnanda tækisins.</string>
     <string name="ucm_loading">Hleð…</string>
+    <string name="usb_use_software_installation">Software Installation</string>
+    <string name="usb_use_software_installation_summary">Install Software Update and Repair tool for your device on a Mac or Windows computer.</string>
 </resources>

@@ -78,12 +78,12 @@
     iput-object p1, p0, Lcom/samsung/android/settings/nearby/RejectListPreference;->context:Landroid/content/Context;
 
     .line 32
-    const v0, 0x7f0b037b
+    const v0, 0x7f0b037d
 
     invoke-virtual {p0, v0}, Lcom/samsung/android/settings/nearby/RejectListPreference;->setPositiveButtonText(I)V
 
     .line 33
-    const v0, 0x7f0b042f
+    const v0, 0x7f0b0437
 
     invoke-virtual {p0, v0}, Lcom/samsung/android/settings/nearby/RejectListPreference;->setNegativeButtonText(I)V
 
@@ -273,7 +273,7 @@
     .line 75
     iget-object v4, p0, Lcom/samsung/android/settings/nearby/RejectListPreference;->context:Landroid/content/Context;
 
-    const v5, 0x7f0b0389
+    const v5, 0x7f0b038b
 
     invoke-virtual {v4, v5}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -287,7 +287,7 @@
     .line 76
     iget-object v4, p0, Lcom/samsung/android/settings/nearby/RejectListPreference;->context:Landroid/content/Context;
 
-    const v5, 0x7f0b0375
+    const v5, 0x7f0b0377
 
     invoke-virtual {v4, v5}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -314,7 +314,7 @@
     invoke-direct {v4, p0}, Lcom/samsung/android/settings/nearby/RejectListPreference$3;-><init>(Lcom/samsung/android/settings/nearby/RejectListPreference;)V
 
     .line 84
-    const v5, 0x7f0b0438
+    const v5, 0x7f0b0440
 
     .line 74
     invoke-virtual {v3, v5, v4}, Landroid/app/AlertDialog$Builder;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;

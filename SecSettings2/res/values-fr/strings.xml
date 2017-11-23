@@ -906,6 +906,7 @@ Vous pouvez modifier cette option ultérieurement dans les paramètres Bluetooth
     <string name="bluetooth_control_app_disable_summary">Bluetooth désactivé : %s</string>
     <string name="bluetooth_enter_pin_msg">"Saisissez le code PIN pour l'appairage à %s (Essayez 0000 ou 1234)."</string>
     <string name="bluetooth_pin_maximum_number_message">Nombre maximal de caractères atteint.</string>
+    <string name="bluetooth_frp_permission_message">"Impossible d'utiliser un appareil Bluetooth pour cet appel."</string>
     <string name="settings_menu_done">Effectué</string>
     <string name="usb_tethering_unavailable_subtext_tmo">USB non connecté</string>
     <string name="usb_tethering_available_subtext_tmo">USB connecté. Cochez pour activer le modem</string>
@@ -1173,8 +1174,6 @@ Votre téléphone inclut un logiciel de diagnostic qui peut, avec votre accord, 
     <string name="usb_use_file_transfers_summary">Transférez les fichiers média vers un PC via une connexion MTP.</string>
     <string name="usb_use_MIDI_summary_vzw">"Utilisez l'appareil en tant qu'entrée MIDI."</string>
     <string name="usb_use_MIDI_summary">"Utilisez l'appareil connecté en tant que lecteur MIDI (interface numérique des instruments de musique) ou source d'entrée."</string>
-    <string name="usb_use_software_installation">Installation de logiciel</string>
-    <string name="usb_use_software_installation_summary">"Installez l'outil Mise à jour logicielle et réparation pour votre appareil sur un ordinateur Mac ou Windows."</string>
     <string name="sim_status_code">Code</string>
     <string name="sim_status_btn_update">MàJ état de la carte SIM</string>
     <string name="sim_status_updating">Mise à jour…</string>
@@ -1520,7 +1519,6 @@ Le cryptage prend une heure ou plus. Avant de démarrer, assurez-vous que la bat
     <string name="cryptkeeper_wrong_pin">Code PIN saisi incorrect</string>
     <string name="cryptkeeper_wrong_direction">Direction tracée incorrecte</string>
     <string name="checking_decryption">Vérification…</string>
-    <string name="starting_android">"Démarrage d'Android en cours…"</string>
     <string name="crypt_keeper_last_warn_wipe">"Il ne vous reste plus qu'un essai pour démarrer votre appareil avant que ses paramètres par défaut ne soient rétablis. Toutes les données seront effacées, y compris les fichiers et les applications téléchargées."</string>
     <string name="crypt_keeper_failed_title_dec">Échec de décryptage.</string>
     <string name="crypt_keeper_failed_summary_dec">"Impossible de terminer le décryptage en raison d'une interruption. Réinitialisez les données par défaut (efface toutes les données) avant utilisation."</string>
@@ -2001,8 +1999,8 @@ La détermination de votre position requiert une connexion à un réseau mobile.
     <string name="app_ops_settings_summary">"Affichez ou modifiez les autorisations de l'application."</string>
     <string name="backup_key_for_applock_header">Définissez un modèle, un code PIN ou un mot de passe à utiliser avec la reconnaissance par empreintes pour verrouiller ou déverrouiller les applications.</string>
     <string name="backup_key_for_privatemode_header">Définissez un modèle, un code PIN ou un mot de passe à utiliser avec la reconnaissance par empreintes pour accéder au mode Privé.</string>
-    <string name="status_added">Ajouté(e)s</string>
     <string name="text_security_title_b2c">Sélectionnez un type de verrouillage. Si vous oubliez comment déverrouiller Dossier sécurisé, vous pouvez réinitialiser votre verrouillage via votre compte Samsung.</string>
+    <string name="status_added">Ajouté(e)s</string>
     <string name="lockpattern_backup_pin">Code PIN de secours</string>
     <string name="applock_type_fingerprint">Empreinte</string>
     <string name="unlock_set_unlock_two_factor_title">Validation en deux étapes</string>
@@ -3615,6 +3613,8 @@ Réception SMS"</string>
     <string name="prevent_to_change_by_device_policy">"La politique de sécurité empêche l'utilisation de l'application %s."</string>
     <string name="name_jerusalem">Jérusalem</string>
     <string name="name_israel">Israël</string>
+    <string name="starting_android">"Démarrage d'Android en cours…"</string>
+    <string name="okay">OK</string>
     <string name="yes">Oui</string>
     <string name="no">Non</string>
     <string name="create">Créer</string>
@@ -3712,7 +3712,6 @@ Vous pouvez modifier cette option ultérieurement dans les paramètres Bluetooth
     <string name="phone_info_label">Informations sur le périphérique</string>
     <string name="proxy_settings_label">Paramètres du proxy</string>
     <string name="cancel">Annuler</string>
-    <string name="okay">OK</string>
     <string name="save">Enregistrer</string>
     <string name="done">OK</string>
     <string name="settings_label">Paramètres</string>
@@ -5347,4 +5346,6 @@ Vous ne recevrez aucun appel, aucun message ou aucune notification, et les alarm
     <string name="ucm_pins_do_not_match">Codes PIN non correspondants</string>
     <string name="ucm_failed_to_connect_smartcard">"Échec de la connexion à la carte à puce. Contactez l'administrateur de l'appareil."</string>
     <string name="ucm_loading">Chargement en cours.</string>
+    <string name="usb_use_software_installation">Installation de logiciel</string>
+    <string name="usb_use_software_installation_summary">"Installez l'outil Mise à jour logicielle et réparation pour votre appareil sur un ordinateur Mac ou Windows."</string>
 </resources>

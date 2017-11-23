@@ -1564,14 +1564,14 @@
 
     invoke-direct {v1, v2}, Landroid/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
 
-    const v2, 0x7f0b0685
+    const v2, 0x7f0b069f
 
     invoke-virtual {v1, v2}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
 
     move-result-object v1
 
     .line 926
-    const v2, 0x7f0b0688
+    const v2, 0x7f0b06a2
 
     .line 925
     invoke-virtual {v1, v2}, Landroid/app/AlertDialog$Builder;->setMessage(I)Landroid/app/AlertDialog$Builder;
@@ -2063,9 +2063,9 @@
     .param p1, "savedInstanceState"    # Landroid/os/Bundle;
 
     .prologue
-    const v8, 0x7f0b0680
+    const v8, 0x7f0b069a
 
-    const v7, 0x7f0b07f7
+    const v7, 0x7f0b0813
 
     const/4 v2, 0x1
 
@@ -2442,7 +2442,7 @@
 
     new-array v5, v2, [Ljava/lang/Object;
 
-    const v6, 0x7f0b07a3
+    const v6, 0x7f0b07bd
 
     invoke-virtual {p0, v6}, Lcom/samsung/android/settings/KnoxChooseLockTwoFactor$KnoxChooseLockTwoFactorFragment;->getString(I)Ljava/lang/String;
 
@@ -3429,7 +3429,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f020568
+    const v2, 0x7f020566
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 

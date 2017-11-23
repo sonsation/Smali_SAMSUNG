@@ -576,7 +576,7 @@
     .line 161
     iget-object v3, p0, Lcom/android/settings/tts/TtsEnginePreference;->mContext:Landroid/content/Context;
 
-    const v6, 0x7f020284
+    const v6, 0x7f020282
 
     invoke-virtual {v3, v6}, Landroid/content/Context;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 

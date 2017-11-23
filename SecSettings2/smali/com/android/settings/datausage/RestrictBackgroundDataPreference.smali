@@ -133,7 +133,7 @@
     invoke-super {p0, p1, p2}, Lcom/android/settings/CustomDialogPreference;->onPrepareDialogBuilder(Landroid/app/AlertDialog$Builder;Landroid/content/DialogInterface$OnClickListener;)V
 
     .line 81
-    const v0, 0x7f0b175c
+    const v0, 0x7f0b18e2
 
     invoke-virtual {p1, v0}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
 
@@ -149,7 +149,7 @@
     if-eqz v0, :cond_0
 
     .line 83
-    const v0, 0x7f0b175e
+    const v0, 0x7f0b18e4
 
     invoke-virtual {p1, v0}, Landroid/app/AlertDialog$Builder;->setMessage(I)Landroid/app/AlertDialog$Builder;
 
@@ -171,7 +171,7 @@
 
     .line 85
     :cond_0
-    const v0, 0x7f0b175d    # 1.84884E38f
+    const v0, 0x7f0b18e3
 
     invoke-virtual {p1, v0}, Landroid/app/AlertDialog$Builder;->setMessage(I)Landroid/app/AlertDialog$Builder;
 

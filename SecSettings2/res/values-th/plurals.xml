@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="data_saver_unrestricted_summary_chn">
+        <item quantity="other">อนุญาต %d แอพให้ใช้ข้อมูลมือถือโดยไม่มีข้อจำกัดในขณะที่เปิดใช้งานจำกัดข้อมูลพื้นหลัง</item>
+        <item quantity="one">อนุญาต %d แอพให้ใช้ข้อมูลมือถือโดยไม่มีข้อจำกัดในขณะที่เปิดใช้งานจำกัดข้อมูลพื้นหลัง</item>
+    </plurals>
     <plurals name="lock_timeout_hours">
         <item quantity="other">%d ​ชั่วโมง</item>
         <item quantity="one">1 ชั่วโมง</item>

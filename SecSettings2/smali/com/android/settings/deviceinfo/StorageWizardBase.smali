@@ -577,7 +577,7 @@
     .line 120
     iget-object v3, p0, Lcom/android/settings/deviceinfo/StorageWizardBase;->mCustomLL:Landroid/view/ViewGroup;
 
-    const v4, 0x7f0205ae
+    const v4, 0x7f0205ac
 
     invoke-virtual {v3, v4}, Landroid/view/ViewGroup;->setBackgroundResource(I)V
 

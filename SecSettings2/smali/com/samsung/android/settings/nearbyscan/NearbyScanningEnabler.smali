@@ -261,7 +261,7 @@
 
     if-ne v0, v3, :cond_1
 
-    const v1, 0x7f0b1952
+    const v1, 0x7f0b1ad8
 
     :goto_0
     invoke-virtual {v2, v1}, Lcom/android/settings/SecSettingsSwitchPreference;->setSummary(I)V
@@ -294,7 +294,7 @@
 
     .line 60
     :cond_1
-    const v1, 0x7f0b1953
+    const v1, 0x7f0b1ad9
 
     goto :goto_0
 
@@ -566,7 +566,7 @@
 
     if-ne v2, v4, :cond_3
 
-    const v3, 0x7f0b1952
+    const v3, 0x7f0b1ad8
 
     :goto_1
     invoke-virtual {v6, v3}, Lcom/android/settings/SecSettingsSwitchPreference;->setSummary(I)V
@@ -599,7 +599,7 @@
     .end local v1    # "e":Ljava/lang/Exception;
     .restart local v2    # "nsValue":I
     :cond_3
-    const v3, 0x7f0b1953
+    const v3, 0x7f0b1ad9
 
     goto :goto_1
 

@@ -128,7 +128,7 @@
     invoke-direct {v4, v5, v3}, Landroid/app/AlertDialog$Builder;-><init>(Landroid/content/Context;I)V
 
     .line 128
-    const v3, 0x7f0b0cb7
+    const v3, 0x7f0b0cd9
 
     .line 127
     invoke-virtual {v4, v3}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
@@ -150,7 +150,7 @@
 
     aput-object v5, v4, v6
 
-    const v5, 0x7f0b0cb8
+    const v5, 0x7f0b0cda
 
     invoke-virtual {p0, v5, v4}, Lcom/samsung/android/settings/wifi/WifiWarningDialog;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -162,7 +162,7 @@
     move-result-object v3
 
     .line 130
-    const v4, 0x7f0b0438
+    const v4, 0x7f0b0440
 
     .line 127
     invoke-virtual {v3, v4, v0}, Landroid/app/AlertDialog$Builder;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
@@ -170,7 +170,7 @@
     move-result-object v3
 
     .line 131
-    const v4, 0x7f0b042f
+    const v4, 0x7f0b0437
 
     .line 127
     invoke-virtual {v3, v4, v0}, Landroid/app/AlertDialog$Builder;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;

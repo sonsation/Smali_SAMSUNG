@@ -125,7 +125,7 @@
     invoke-virtual {v1}, Ljava/io/FileOutputStream;->close()V
 
     .line 110
-    const v1, 0x7f0b0b99
+    const v1, 0x7f0b0bba
 
     invoke-virtual {p0, v1}, Lcom/samsung/android/settings/location/SatelliteViewLog;->getString(I)Ljava/lang/String;
 
@@ -340,7 +340,7 @@
 
     .line 62
     :cond_1
-    const v2, 0x7f0b0b99
+    const v2, 0x7f0b0bba
 
     :try_start_1
     invoke-virtual {p0, v2}, Lcom/samsung/android/settings/location/SatelliteViewLog;->getString(I)Ljava/lang/String;

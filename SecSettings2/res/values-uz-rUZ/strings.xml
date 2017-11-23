@@ -906,6 +906,7 @@ Buni keyinroq Bluetooth parametrlarida o‘zgartirishingiz mumkin."</string>
     <string name="bluetooth_control_app_disable_summary">Bluetooth o‘chirildi: %s</string>
     <string name="bluetooth_enter_pin_msg">%s bilan juftlash uchun PIN-kodni kiriting. (0000 yoki 1234 kiritib ko‘ring)</string>
     <string name="bluetooth_pin_maximum_number_message">Belgilar soni maksimal miqdorga yetdi.</string>
+    <string name="bluetooth_frp_permission_message">Bu qo‘ng‘iroq uchun Bluetooth qurilmadan foydalanib bo‘lmaydi.</string>
     <string name="settings_menu_done">Bajarildi</string>
     <string name="usb_tethering_unavailable_subtext_tmo">USB not connected</string>
     <string name="usb_tethering_available_subtext_tmo">USB connected, check to tether</string>
@@ -1173,8 +1174,6 @@ Telefon telefoningizdan tashxis va ishlatish haqidagi ma’lumotlarni, ruxsating
     <string name="usb_use_file_transfers_summary">Media fayllarni ShKga MTP ulanish orqali uzatish.</string>
     <string name="usb_use_MIDI_summary_vzw">Use device for MIDI input.</string>
     <string name="usb_use_MIDI_summary">Ulangan qurilmadan MIDI (Musiqiy Instrument Raqamli Interfeysi) pleyer yoki kiritish manbai sifatida foydalaning.</string>
-    <string name="usb_use_software_installation">Software Installation</string>
-    <string name="usb_use_software_installation_summary">Install Software Update and Repair tool for your device on a Mac or Windows computer.</string>
     <string name="sim_status_code">Kod</string>
     <string name="sim_status_btn_update">SIM-karta holat. yangila</string>
     <string name="sim_status_updating">Yangilanmoqda…</string>
@@ -1520,7 +1519,6 @@ Shifrlash bir yoki bir necha soatni olishi mumkin. Boshlashdan oldin batareya za
     <string name="cryptkeeper_wrong_pin">Noto‘g‘ri PIN-kod kiritildi</string>
     <string name="cryptkeeper_wrong_direction">Noto‘g‘ri yo‘nalish chizilgan</string>
     <string name="checking_decryption">Tekshirilmoqda…</string>
-    <string name="starting_android">Android ishga tushirilmoqda…</string>
     <string name="crypt_keeper_last_warn_wipe">Qurilmangizni qayta ishga tushirishga yana 1 ta noto‘g‘ri urinish uni ishlab chiqaruvchining birlamchi parametrlariga tashlanadi. Bu barcha fayllar va yuklab olingan ilovalarni o‘chirib yuboradi.</string>
     <string name="crypt_keeper_failed_title_dec">Shifrdan chiqarilmadi.</string>
     <string name="crypt_keeper_failed_summary_dec">Uzilish sababli shifrdan chiqarishni yakunlab bo‘lmadi. Foydalanishdan avval ishlab chiqaruvchi parametrlariga qaytaring (barcha ma’lumotlarni o‘chiradi).</string>
@@ -2001,8 +1999,8 @@ Determining your location will use the mobile network. Data usage will apply."</
     <string name="app_ops_settings_summary">Ilova ruxsatlarini ko‘rib chiqish yoki o‘zgartirish.</string>
     <string name="backup_key_for_applock_header">Ilovalarni bloklash yoki blokdan chiqarishda barmoq izini tanish bilan birga ishlatiladigan chizma, PIN-kod yoki parolni o‘rnating.</string>
     <string name="backup_key_for_privatemode_header">Maxfiyga rejimga kirishda barmoq izi bilan birgalikda foydalaniladigan chizma, PIN-kod yoki parolni o‘rnating.</string>
-    <string name="status_added">Qo‘shildi</string>
     <string name="text_security_title_b2c">Bloklash turini tanlang. Xavfsiz jildni blokdan chiqarish usulini esdan chiqqan bo‘lsa, Samsung hisob qaydnomasi yordamida blokni tashlashingiz mumkin.</string>
+    <string name="status_added">Qo‘shildi</string>
     <string name="lockpattern_backup_pin">Arxivlash PIN-kodi</string>
     <string name="applock_type_fingerprint">Barmoq izi</string>
     <string name="unlock_set_unlock_two_factor_title">Ikki bosqichli tekshirish</string>
@@ -3614,6 +3612,8 @@ Receiving SMS"</string>
     <string name="prevent_to_change_by_device_policy">Xavfsizlik siyosati %s ishlatilishiga yo‘l qo‘ymayapti.</string>
     <string name="name_jerusalem">Iyerusalim</string>
     <string name="name_israel">Isroil</string>
+    <string name="starting_android">Android ishga tushirilmoqda…</string>
+    <string name="okay">OK</string>
     <string name="yes">Ha</string>
     <string name="no">Yo‘q</string>
     <string name="create">Yaratish</string>
@@ -3711,7 +3711,6 @@ Buni keyinroq Bluetooth parametrlarida o‘zgartirishingiz mumkin."</string>
     <string name="phone_info_label">Qurilma ma’lumoti</string>
     <string name="proxy_settings_label">Proksi parametrlari</string>
     <string name="cancel">Bekor qilish</string>
-    <string name="okay">OK</string>
     <string name="save">Saqlash</string>
     <string name="done">OK</string>
     <string name="settings_label">Parametrlar</string>
@@ -5346,4 +5345,6 @@ Qurilma ishga tushirilguniga qadar qo‘ng‘iroq, xabar yoki bildirishnomalarni
     <string name="ucm_pins_do_not_match">PIN-kodlar mos emas</string>
     <string name="ucm_failed_to_connect_smartcard">Smart kartaga ulanib bo‘lmadi. Qurilma ma’muri bilan bog‘laning</string>
     <string name="ucm_loading">Yuklanmoqda…</string>
+    <string name="usb_use_software_installation">Software Installation</string>
+    <string name="usb_use_software_installation_summary">Install Software Update and Repair tool for your device on a Mac or Windows computer.</string>
 </resources>

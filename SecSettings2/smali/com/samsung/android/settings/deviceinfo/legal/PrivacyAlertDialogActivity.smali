@@ -46,7 +46,7 @@
 
     .line 54
     .local v0, "contentView":Landroid/widget/TextView;
-    const v2, 0x7f0b053b
+    const v2, 0x7f0b054f
 
     invoke-virtual {p0, v2}, Lcom/samsung/android/settings/deviceinfo/legal/PrivacyAlertDialogActivity;->getString(I)Ljava/lang/String;
 
@@ -113,7 +113,7 @@
 
     .line 42
     .local v0, "p":Lcom/android/internal/app/AlertController$AlertParams;
-    const v1, 0x7f0b0f14
+    const v1, 0x7f0b0f3a
 
     invoke-virtual {p0, v1}, Lcom/samsung/android/settings/deviceinfo/legal/PrivacyAlertDialogActivity;->getString(I)Ljava/lang/String;
 
@@ -129,7 +129,7 @@
     iput-object v1, v0, Lcom/android/internal/app/AlertController$AlertParams;->mView:Landroid/view/View;
 
     .line 44
-    const v1, 0x7f0b053c
+    const v1, 0x7f0b0550
 
     invoke-virtual {p0, v1}, Lcom/samsung/android/settings/deviceinfo/legal/PrivacyAlertDialogActivity;->getString(I)Ljava/lang/String;
 
@@ -141,7 +141,7 @@
     iput-object p0, v0, Lcom/android/internal/app/AlertController$AlertParams;->mPositiveButtonListener:Landroid/content/DialogInterface$OnClickListener;
 
     .line 46
-    const v1, 0x7f0b107a
+    const v1, 0x7f0b1202
 
     invoke-virtual {p0, v1}, Lcom/samsung/android/settings/deviceinfo/legal/PrivacyAlertDialogActivity;->getString(I)Ljava/lang/String;
 

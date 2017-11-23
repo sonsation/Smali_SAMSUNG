@@ -258,7 +258,7 @@
     iput-object v0, v1, Lcom/samsung/android/settings/SettingsPreferenceFragmentLinkData;->intent:Landroid/content/Intent;
 
     .line 241
-    const v4, 0x7f0b10bc
+    const v4, 0x7f0b1243
 
     iput v4, v1, Lcom/samsung/android/settings/SettingsPreferenceFragmentLinkData;->titleRes:I
 
@@ -301,7 +301,7 @@
     iput-object v0, v2, Lcom/samsung/android/settings/SettingsPreferenceFragmentLinkData;->intent:Landroid/content/Intent;
 
     .line 249
-    const v4, 0x7f0b0b06
+    const v4, 0x7f0b0b27
 
     iput v4, v2, Lcom/samsung/android/settings/SettingsPreferenceFragmentLinkData;->titleRes:I
 
@@ -331,7 +331,7 @@
     iput-object v0, v3, Lcom/samsung/android/settings/SettingsPreferenceFragmentLinkData;->intent:Landroid/content/Intent;
 
     .line 256
-    const v4, 0x7f0b171a
+    const v4, 0x7f0b18a0
 
     iput v4, v3, Lcom/samsung/android/settings/SettingsPreferenceFragmentLinkData;->titleRes:I
 

@@ -158,7 +158,7 @@
 
     .line 134
     .local v1, "description_text":Landroid/widget/TextView;
-    const v8, 0x7f0b090d
+    const v8, 0x7f0b092b
 
     invoke-virtual {p0, v8}, Lcom/samsung/android/settings/SecSetupLockScreenIntroActivity;->getString(I)Ljava/lang/String;
 
@@ -226,7 +226,7 @@
     move-result-object v8
 
     .line 165
-    const v9, 0x7f0b0d04
+    const v9, 0x7f0b0d27
 
     .line 164
     invoke-virtual {v8, v9}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -353,7 +353,7 @@
     move-result-object v8
 
     .line 169
-    const v9, 0x7f0b0443
+    const v9, 0x7f0b044b
 
     .line 168
     invoke-virtual {v8, v9}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;

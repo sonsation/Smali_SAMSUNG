@@ -104,7 +104,7 @@
 
     .prologue
     .line 115
-    const v0, 0x7f0b04af
+    const v0, 0x7f0b04bf
 
     invoke-virtual {p1, v0}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
 
@@ -119,7 +119,7 @@
     move-result-object v0
 
     .line 117
-    const v1, 0x7f0b04b0
+    const v1, 0x7f0b04c1
 
     .line 115
     invoke-virtual {v0, v1}, Landroid/app/AlertDialog$Builder;->setMessage(I)Landroid/app/AlertDialog$Builder;

@@ -690,7 +690,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f0b06de
+    const v5, 0x7f0b06f8
 
     invoke-virtual {p0, v5}, Lcom/android/settings/fingerprint/FingerprintPassword$FingerprintPasswordFragment;->getString(I)Ljava/lang/String;
 
@@ -950,9 +950,9 @@
     .locals 11
 
     .prologue
-    const v10, 0x7f0b0736
+    const v10, 0x7f0b0750
 
-    const v9, 0x7f0b06aa
+    const v9, 0x7f0b06c4
 
     const/4 v4, 0x1
 
@@ -1004,7 +1004,7 @@
     .line 881
     iget-object v6, p0, Lcom/android/settings/fingerprint/FingerprintPassword$FingerprintPasswordFragment;->mCancelButton:Landroid/widget/Button;
 
-    const v7, 0x7f0b1148
+    const v7, 0x7f0b12ce
 
     invoke-virtual {v6, v7}, Landroid/widget/Button;->setText(I)V
 
@@ -1088,7 +1088,7 @@
     :cond_2
     iget-object v6, p0, Lcom/android/settings/fingerprint/FingerprintPassword$FingerprintPasswordFragment;->mCancelButton:Landroid/widget/Button;
 
-    const v7, 0x7f0b072d
+    const v7, 0x7f0b0747
 
     invoke-virtual {v6, v7}, Landroid/widget/Button;->setText(I)V
 
@@ -1120,7 +1120,7 @@
     :cond_4
     iget-object v5, p0, Lcom/android/settings/fingerprint/FingerprintPassword$FingerprintPasswordFragment;->mHeaderText:Landroid/widget/TextView;
 
-    const v6, 0x7f0b089f
+    const v6, 0x7f0b08bc
 
     invoke-virtual {v5, v6}, Landroid/widget/TextView;->setText(I)V
 
@@ -1283,7 +1283,7 @@
     if-eqz v28, :cond_0
 
     .line 563
-    const v28, 0x7f0b071e
+    const v28, 0x7f0b0738
 
     move-object/from16 v0, p0
 
@@ -1304,7 +1304,7 @@
     if-eqz v28, :cond_1
 
     .line 567
-    const v28, 0x7f0b073c
+    const v28, 0x7f0b0756
 
     move-object/from16 v0, p0
 
@@ -1357,7 +1357,7 @@
 
     aput-object v29, v28, v30
 
-    const v29, 0x7f0b113a
+    const v29, 0x7f0b12c0
 
     move-object/from16 v0, p0
 
@@ -1412,7 +1412,7 @@
 
     aput-object v29, v28, v30
 
-    const v29, 0x7f0b113d
+    const v29, 0x7f0b12c3
 
     move-object/from16 v0, p0
 
@@ -1491,7 +1491,7 @@
 
     .line 593
     :cond_4
-    const v28, 0x7f0b1141
+    const v28, 0x7f0b12c7
 
     move-object/from16 v0, p0
 
@@ -1608,7 +1608,7 @@
 
     .line 615
     :cond_a
-    const v28, 0x7f0b113f
+    const v28, 0x7f0b12c5
 
     move-object/from16 v0, p0
 
@@ -1661,7 +1661,7 @@
 
     move/from16 v29, v0
 
-    const v30, 0x7f130006
+    const v30, 0x7f130007
 
     .line 618
     move-object/from16 v0, v28
@@ -1730,7 +1730,7 @@
 
     move/from16 v29, v0
 
-    const v30, 0x7f130009
+    const v30, 0x7f13000a
 
     .line 622
     move-object/from16 v0, v28
@@ -1799,7 +1799,7 @@
 
     move/from16 v29, v0
 
-    const v30, 0x7f130007
+    const v30, 0x7f130008
 
     .line 626
     move-object/from16 v0, v28
@@ -1868,7 +1868,7 @@
 
     move/from16 v29, v0
 
-    const v30, 0x7f130008
+    const v30, 0x7f130009
 
     .line 630
     move-object/from16 v0, v28
@@ -1937,7 +1937,7 @@
 
     move/from16 v29, v0
 
-    const v30, 0x7f13000a
+    const v30, 0x7f13000b
 
     .line 634
     move-object/from16 v0, v28
@@ -2006,7 +2006,7 @@
 
     move/from16 v29, v0
 
-    const v30, 0x7f13000b
+    const v30, 0x7f13000c
 
     .line 638
     move-object/from16 v0, v28
@@ -2099,7 +2099,7 @@
     if-nez v19, :cond_15
 
     .line 649
-    const v28, 0x7f0b1142
+    const v28, 0x7f0b12c8
 
     move-object/from16 v0, p0
 
@@ -2134,7 +2134,7 @@
     if-nez v22, :cond_16
 
     .line 653
-    const v28, 0x7f0b1143
+    const v28, 0x7f0b12c9
 
     move-object/from16 v0, p0
 
@@ -2468,7 +2468,7 @@
 
     aput-object v29, v28, v30
 
-    const v29, 0x7f0b08eb
+    const v29, 0x7f0b0908
 
     move-object/from16 v0, p0
 
@@ -2525,7 +2525,7 @@
 
     aput-object v29, v28, v30
 
-    const v29, 0x7f0b08ea
+    const v29, 0x7f0b0907
 
     move-object/from16 v0, p0
 
@@ -2564,7 +2564,7 @@
 
     aput-object v29, v28, v30
 
-    const v29, 0x7f0b08ed
+    const v29, 0x7f0b090a
 
     move-object/from16 v0, p0
 
@@ -2587,7 +2587,7 @@
     if-ne v13, v0, :cond_1d
 
     .line 698
-    const v28, 0x7f0b08ec
+    const v28, 0x7f0b0909
 
     move-object/from16 v0, p0
 
@@ -2626,7 +2626,7 @@
 
     aput-object v29, v28, v30
 
-    const v29, 0x7f0b08ee
+    const v29, 0x7f0b090b
 
     move-object/from16 v0, p0
 
@@ -2645,7 +2645,7 @@
     if-nez v18, :cond_19
 
     .line 704
-    const v28, 0x7f0b08ef
+    const v28, 0x7f0b090c
 
     move-object/from16 v0, p0
 
@@ -3677,7 +3677,7 @@
 
     iget-object v12, v0, Lcom/android/settings/fingerprint/FingerprintPassword$FingerprintPasswordFragment;->mPasswordDesc:Landroid/widget/TextView;
 
-    const v13, 0x7f0b071d
+    const v13, 0x7f0b0737
 
     invoke-virtual {v12, v13}, Landroid/widget/TextView;->setText(I)V
 
@@ -3771,7 +3771,7 @@
 
     iget-object v12, v0, Lcom/android/settings/fingerprint/FingerprintPassword$FingerprintPasswordFragment;->mCancelButton:Landroid/widget/Button;
 
-    const v13, 0x7f02036e
+    const v13, 0x7f02036c
 
     invoke-virtual {v12, v13}, Landroid/widget/Button;->setBackgroundResource(I)V
 
@@ -3780,7 +3780,7 @@
 
     iget-object v12, v0, Lcom/android/settings/fingerprint/FingerprintPassword$FingerprintPasswordFragment;->mNextButton:Landroid/widget/Button;
 
-    const v13, 0x7f02036e
+    const v13, 0x7f02036c
 
     invoke-virtual {v12, v13}, Landroid/widget/Button;->setBackgroundResource(I)V
 
@@ -4042,7 +4042,7 @@
     if-eqz v12, :cond_c
 
     .line 428
-    const v9, 0x7f0b06dd
+    const v9, 0x7f0b06f7
 
     .line 433
     :goto_4
@@ -4248,7 +4248,7 @@
     .restart local v7    # "preferenceActivity":Landroid/preference/PreferenceActivity;
     .restart local v9    # "titleid":I
     :cond_c
-    const v9, 0x7f0b06a9
+    const v9, 0x7f0b06c3
 
     goto/16 :goto_4
 .end method

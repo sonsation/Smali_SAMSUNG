@@ -129,7 +129,7 @@
     aput-object v4, v3, v5
 
     .line 1139
-    const v4, 0x7f0b0935
+    const v4, 0x7f0b0953
 
     .line 1138
     invoke-virtual {v2, v4, v3}, Lcom/android/settings/ConfirmLockPassword$ConfirmLockPasswordFragment;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
@@ -165,7 +165,7 @@
     aput-object v4, v3, v5
 
     .line 1143
-    const v4, 0x7f0b0936
+    const v4, 0x7f0b0954
 
     .line 1142
     invoke-virtual {v2, v4, v3}, Lcom/android/settings/ConfirmLockPassword$ConfirmLockPasswordFragment;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
@@ -199,7 +199,7 @@
     aput-object v4, v3, v5
 
     .line 1147
-    const v4, 0x7f0b0937
+    const v4, 0x7f0b0955
 
     .line 1146
     invoke-virtual {v2, v4, v3}, Lcom/android/settings/ConfirmLockPassword$ConfirmLockPasswordFragment;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
@@ -235,7 +235,7 @@
     aput-object v4, v3, v5
 
     .line 1151
-    const v4, 0x7f0b0938
+    const v4, 0x7f0b0956
 
     .line 1150
     invoke-virtual {v2, v4, v3}, Lcom/android/settings/ConfirmLockPassword$ConfirmLockPasswordFragment;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
@@ -262,7 +262,7 @@
     aput-object v4, v3, v5
 
     .line 1155
-    const v4, 0x7f0b0934
+    const v4, 0x7f0b0952
 
     .line 1154
     invoke-virtual {v2, v4, v3}, Lcom/android/settings/ConfirmLockPassword$ConfirmLockPasswordFragment;->getString(I[Ljava/lang/Object;)Ljava/lang/String;

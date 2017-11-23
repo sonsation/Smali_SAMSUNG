@@ -424,7 +424,7 @@
 
     .line 472
     :cond_0
-    const v2, 0x7f0b0642
+    const v2, 0x7f0b065a
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getText(I)Ljava/lang/CharSequence;
 
@@ -593,7 +593,7 @@
 
     .line 536
     .local v0, "settingsActivity":Lcom/android/settings/SettingsActivity;
-    const v3, 0x7f0b10fb
+    const v3, 0x7f0b1282
 
     const/4 v4, 0x0
 
@@ -629,7 +629,7 @@
 
     .line 541
     .local v1, "settingsActivity":Lcom/android/settings/PreferenceActivity;
-    const v4, 0x7f0b10fb
+    const v4, 0x7f0b1282
 
     const/4 v5, 0x0
 
@@ -979,7 +979,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0b0676
+    const v4, 0x7f0b0690
 
     invoke-static {v3, v4, v6}, Landroid/widget/Toast;->makeText(Landroid/content/Context;II)Landroid/widget/Toast;
 
@@ -1021,7 +1021,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0b066a
+    const v4, 0x7f0b0682
 
     invoke-virtual {p0, v4}, Lcom/android/settings/CryptKeeperInterstitial;->getString(I)Ljava/lang/String;
 
@@ -1234,11 +1234,11 @@
     sparse-switch v3, :sswitch_data_0
 
     .line 361
-    const v4, 0x7f0b1970
+    const v4, 0x7f0b1af6
 
     .line 362
     .local v4, "titleId":I
-    const v2, 0x7f0b1973
+    const v2, 0x7f0b1af9
 
     .line 367
     .local v2, "messageId":I
@@ -1323,11 +1323,11 @@
     .end local v2    # "messageId":I
     .end local v4    # "titleId":I
     :sswitch_0
-    const v4, 0x7f0b196f
+    const v4, 0x7f0b1af5
 
     .line 349
     .restart local v4    # "titleId":I
-    const v2, 0x7f0b1972
+    const v2, 0x7f0b1af8
 
     .line 350
     .restart local v2    # "messageId":I
@@ -1337,11 +1337,11 @@
     .end local v2    # "messageId":I
     .end local v4    # "titleId":I
     :sswitch_1
-    const v4, 0x7f0b067a
+    const v4, 0x7f0b0694
 
     .line 353
     .restart local v4    # "titleId":I
-    const v2, 0x7f0b067b
+    const v2, 0x7f0b0695
 
     .line 354
     .restart local v2    # "messageId":I
@@ -1351,11 +1351,11 @@
     .end local v2    # "messageId":I
     .end local v4    # "titleId":I
     :sswitch_2
-    const v4, 0x7f0b196e
+    const v4, 0x7f0b1af4
 
     .line 358
     .restart local v4    # "titleId":I
-    const v2, 0x7f0b1971
+    const v2, 0x7f0b1af7
 
     .line 359
     .restart local v2    # "messageId":I
@@ -1403,7 +1403,7 @@
     invoke-direct {v5, v6}, Landroid/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
 
     .line 388
-    const v6, 0x7f0b0677
+    const v6, 0x7f0b0691
 
     invoke-virtual {p0, v6}, Lcom/android/settings/CryptKeeperInterstitial;->getString(I)Ljava/lang/String;
 
@@ -1821,11 +1821,11 @@
 
     .line 162
     :cond_0
-    const v2, 0x7f0b0679
+    const v2, 0x7f0b0693
 
     .line 163
     .local v2, "disableId":I
-    const v1, 0x7f0b1961
+    const v1, 0x7f0b1ae7
 
     .line 164
     .local v1, "continueId":I
@@ -1837,12 +1837,12 @@
     if-ne v5, v13, :cond_e
 
     .line 227
-    const v9, 0x7f0b1967
+    const v9, 0x7f0b1aed
 
     .line 232
     .local v9, "msgId":I
     :goto_0
-    const v4, 0x7f0b196a
+    const v4, 0x7f0b1af0
 
     .line 236
     .local v4, "enableId":I
@@ -1865,7 +1865,7 @@
 
     iget-object v13, v0, Lcom/android/settings/CryptKeeperInterstitial;->mChangePWButton:Landroid/widget/Button;
 
-    const v14, 0x7f0b1961
+    const v14, 0x7f0b1ae7
 
     invoke-virtual {v13, v14}, Landroid/widget/Button;->setText(I)V
 
@@ -1900,7 +1900,7 @@
 
     iget-object v13, v0, Lcom/android/settings/CryptKeeperInterstitial;->mDontRequirePasswordToDecryptButton:Landroid/widget/CheckedTextView;
 
-    const v14, 0x7f0b0679
+    const v14, 0x7f0b0693
 
     invoke-virtual {v13, v14}, Landroid/widget/CheckedTextView;->setText(I)V
 
@@ -2078,7 +2078,7 @@
     if-eqz v13, :cond_4
 
     .line 170
-    const v9, 0x7f0b0674
+    const v9, 0x7f0b068e
 
     .line 180
     .restart local v9    # "msgId":I
@@ -2103,7 +2103,7 @@
 
     iget-object v13, v0, Lcom/android/settings/CryptKeeperInterstitial;->mChangePWButton:Landroid/widget/Button;
 
-    const v14, 0x7f0b066a
+    const v14, 0x7f0b0682
 
     invoke-virtual {v13, v14}, Landroid/widget/Button;->setText(I)V
 
@@ -2113,7 +2113,7 @@
     .line 172
     .end local v9    # "msgId":I
     :cond_4
-    const v9, 0x7f0b0673
+    const v9, 0x7f0b068c
 
     .restart local v9    # "msgId":I
     goto :goto_5
@@ -2121,7 +2121,7 @@
     .line 175
     .end local v9    # "msgId":I
     :cond_5
-    const v9, 0x7f0b0672
+    const v9, 0x7f0b068b
 
     .restart local v9    # "msgId":I
     goto :goto_5
@@ -2129,7 +2129,7 @@
     .line 178
     .end local v9    # "msgId":I
     :cond_6
-    const v9, 0x7f0b0675
+    const v9, 0x7f0b068f
 
     .restart local v9    # "msgId":I
     goto :goto_5
@@ -2142,12 +2142,12 @@
     if-ne v5, v13, :cond_7
 
     .line 186
-    const v9, 0x7f0b1966
+    const v9, 0x7f0b1aec
 
     .line 191
     .restart local v9    # "msgId":I
     :goto_6
-    const v4, 0x7f0b1969
+    const v4, 0x7f0b1aef
 
     .line 192
     .restart local v4    # "enableId":I
@@ -2162,7 +2162,7 @@
     if-ne v6, v13, :cond_8
 
     .line 188
-    const v9, 0x7f0b066f
+    const v9, 0x7f0b0688
 
     .restart local v9    # "msgId":I
     goto :goto_6
@@ -2170,7 +2170,7 @@
     .line 190
     .end local v9    # "msgId":I
     :cond_8
-    const v9, 0x7f0b1963
+    const v9, 0x7f0b1ae9
 
     .restart local v9    # "msgId":I
     goto :goto_6
@@ -2183,12 +2183,12 @@
     if-ne v5, v13, :cond_9
 
     .line 195
-    const v9, 0x7f0b066d
+    const v9, 0x7f0b0686
 
     .line 200
     .restart local v9    # "msgId":I
     :goto_7
-    const v4, 0x7f0b0678
+    const v4, 0x7f0b0692
 
     .line 201
     .restart local v4    # "enableId":I
@@ -2203,7 +2203,7 @@
     if-ne v6, v13, :cond_a
 
     .line 197
-    const v9, 0x7f0b0671
+    const v9, 0x7f0b068a
 
     .restart local v9    # "msgId":I
     goto :goto_7
@@ -2211,7 +2211,7 @@
     .line 199
     .end local v9    # "msgId":I
     :cond_a
-    const v9, 0x7f0b066c
+    const v9, 0x7f0b0685
 
     .restart local v9    # "msgId":I
     goto :goto_7
@@ -2224,12 +2224,12 @@
     if-ne v5, v13, :cond_b
 
     .line 205
-    const v9, 0x7f0b1965
+    const v9, 0x7f0b1aeb
 
     .line 210
     .restart local v9    # "msgId":I
     :goto_8
-    const v4, 0x7f0b1968
+    const v4, 0x7f0b1aee
 
     .line 211
     .restart local v4    # "enableId":I
@@ -2244,7 +2244,7 @@
     if-ne v6, v13, :cond_c
 
     .line 207
-    const v9, 0x7f0b066e
+    const v9, 0x7f0b0687
 
     .restart local v9    # "msgId":I
     goto :goto_8
@@ -2252,7 +2252,7 @@
     .line 209
     .end local v9    # "msgId":I
     :cond_c
-    const v9, 0x7f0b1962
+    const v9, 0x7f0b1ae8
 
     .restart local v9    # "msgId":I
     goto :goto_8
@@ -2269,11 +2269,11 @@
     if-eqz v7, :cond_d
 
     .line 215
-    const v9, 0x7f0b1962
+    const v9, 0x7f0b1ae8
 
     .line 223
     .restart local v9    # "msgId":I
-    const v4, 0x7f0b196a
+    const v4, 0x7f0b1af0
 
     .line 224
     .restart local v4    # "enableId":I
@@ -2283,7 +2283,7 @@
     .end local v4    # "enableId":I
     .end local v9    # "msgId":I
     :cond_d
-    const v9, 0x7f0b0672
+    const v9, 0x7f0b068b
 
     .line 218
     .restart local v9    # "msgId":I
@@ -2323,7 +2323,7 @@
     if-ne v6, v13, :cond_f
 
     .line 229
-    const v9, 0x7f0b0670
+    const v9, 0x7f0b0689
 
     .restart local v9    # "msgId":I
     goto/16 :goto_0
@@ -2331,7 +2331,7 @@
     .line 231
     .end local v9    # "msgId":I
     :cond_f
-    const v9, 0x7f0b1964
+    const v9, 0x7f0b1aea
 
     .restart local v9    # "msgId":I
     goto/16 :goto_0

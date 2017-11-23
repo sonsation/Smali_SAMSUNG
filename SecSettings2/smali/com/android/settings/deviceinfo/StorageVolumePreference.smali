@@ -185,7 +185,7 @@
     if-eqz v18, :cond_4
 
     .line 78
-    const v18, 0x7f02045e
+    const v18, 0x7f02045c
 
     move-object/from16 v0, p1
 
@@ -326,7 +326,7 @@
 
     aput-object v12, v18, v19
 
-    const v19, 0x7f0b1354
+    const v19, 0x7f0b14da
 
     move-object/from16 v0, p1
 
@@ -398,7 +398,7 @@
     iput v0, v1, Lcom/android/settings/deviceinfo/StorageVolumePreference;->mColor:I
 
     .line 109
-    const v18, 0x7f020460
+    const v18, 0x7f02045e
 
     move-object/from16 v0, p1
 
@@ -476,7 +476,7 @@
     .line 80
     .end local v5    # "icon":Landroid/graphics/drawable/Drawable;
     :cond_4
-    const v18, 0x7f02045f
+    const v18, 0x7f02045d
 
     move-object/from16 v0, p1
 
@@ -674,7 +674,7 @@
     .line 161
     iget-object v2, p0, Lcom/android/settings/deviceinfo/StorageVolumePreference;->mContext:Landroid/content/Context;
 
-    const v3, 0x7f0b1341
+    const v3, 0x7f0b14c7
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

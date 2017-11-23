@@ -43,7 +43,7 @@
     if-eqz v0, :cond_0
 
     .line 138
-    const v0, 0x7f0b089b
+    const v0, 0x7f0b08b8
 
     invoke-virtual {p0, v0}, Lcom/android/settings/Settings$ShowInformationActivity;->setTitle(I)V
 

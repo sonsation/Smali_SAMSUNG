@@ -332,7 +332,7 @@
     if-nez v3, :cond_1
 
     .line 85
-    const v1, 0x7f0b0949
+    const v1, 0x7f0b0967
 
     invoke-virtual {p0, v1}, Lcom/android/settings/ConfirmDeviceCredentialActivity;->getString(I)Ljava/lang/String;
 

@@ -164,7 +164,7 @@
 
     iget-object v6, v6, Lcom/samsung/android/settings/wifi/WifiConfigControllerBase;->mPasswordErrorText:Landroid/widget/TextView;
 
-    const v7, 0x7f0b0cf7
+    const v7, 0x7f0b0d19
 
     invoke-virtual {v6, v7}, Landroid/widget/TextView;->setText(I)V
 
@@ -266,7 +266,7 @@
 
     iget-object v6, v6, Lcom/samsung/android/settings/wifi/WifiConfigControllerBase;->mPasswordErrorText:Landroid/widget/TextView;
 
-    const v7, 0x7f0b0cf7
+    const v7, 0x7f0b0d19
 
     invoke-virtual {v6, v7}, Landroid/widget/TextView;->setText(I)V
 
@@ -442,7 +442,7 @@
 
     iget-object v6, v6, Lcom/samsung/android/settings/wifi/WifiConfigControllerBase;->mPasswordErrorText:Landroid/widget/TextView;
 
-    const v7, 0x7f0b0cf7
+    const v7, 0x7f0b0d19
 
     invoke-virtual {v6, v7}, Landroid/widget/TextView;->setText(I)V
 

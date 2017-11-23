@@ -320,7 +320,7 @@
     invoke-virtual {v9, v12}, Lcom/samsung/android/widget/SemNumberPicker;->setWrapSelectorWheel(Z)V
 
     .line 479
-    const v9, 0x7f0b1755
+    const v9, 0x7f0b18db
 
     invoke-virtual {v0, v9}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
 
@@ -331,7 +331,7 @@
     move-result-object v9
 
     .line 481
-    const v10, 0x7f0b1757
+    const v10, 0x7f0b18dd
 
     .line 479
     invoke-virtual {v9, v10, p0}, Landroid/app/AlertDialog$Builder;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;

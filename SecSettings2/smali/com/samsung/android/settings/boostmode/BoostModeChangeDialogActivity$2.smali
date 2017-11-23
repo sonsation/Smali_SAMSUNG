@@ -314,7 +314,7 @@
 
     iget-object v4, p0, Lcom/samsung/android/settings/boostmode/BoostModeChangeDialogActivity$2;->this$0:Lcom/samsung/android/settings/boostmode/BoostModeChangeDialogActivity;
 
-    const v5, 0x7f0b0ac0
+    const v5, 0x7f0b0ae1
 
     invoke-virtual {v4, v5}, Lcom/samsung/android/settings/boostmode/BoostModeChangeDialogActivity;->getString(I)Ljava/lang/String;
 

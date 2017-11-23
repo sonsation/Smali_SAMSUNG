@@ -31,7 +31,7 @@
     <string name="bluetooth_disconnected">Nadiskonekta</string>
     <string name="bluetooth_disconnecting">Nagdidiskonekta…</string>
     <string name="bluetooth_connecting">Kumukonekta…</string>
-    <string name="bluetooth_connected">Nakakonekta.</string>
+    <string name="bluetooth_connected">Nakakonekta</string>
     <string name="bluetooth_pairing">Pini-pair…</string>
     <string name="bluetooth_connected_no_headset">Nakakonekta (walang telepono)</string>
     <string name="bluetooth_connected_no_a2dp">Nakakonekta (walang media)</string>
@@ -433,7 +433,7 @@ Enter the code you get from Verizon:"</string>
     <string name="answering_end_call_title">Pagsagot at pagtapos sa mga tawag</string>
     <string name="audio_preference_title">Pandinig</string>
     <string name="mono_audio_title">Mono audio</string>
-    <string name="mono_audio_summary">Ilipat ang audio mula stereo patungong mono kapag gumagamit ka ng isang earphone.</string>
+    <string name="mono_audio_summary">Palitan ang audio mula stereo at gawing mono para sa pakikinig sa isang tainga.</string>
     <string name="multi_window_title">Maraming window</string>
     <string name="magnifier_seekbar_plus_tts">Plus</string>
     <string name="magnifier_seekbar_minus_tts">Minus</string>
@@ -514,16 +514,18 @@ Note: Mag-tap nang tatlong beses para gumana ang pagma-magnify kahit saan maliba
     <string name="direct_access_actions_universal_switch_title">Universal na switch</string>
     <string name="sound_detector_title">Baby crying detector</string>
     <string name="sound_detector_main_title">Mga detector ng tunog</string>
-    <string name="sound_detector_main_description">Tumanggap ng mga alert kapag nakapag-detect ang device ng umiiyak na sanggol o ng doorbell.</string>
+    <string name="sound_detector_main_description">Tumanggap ng mga alert kapag nakadetekta ang telepono ng umiiyak na sanggol o doorbell.</string>
     <string name="accessibility_easy_interaction_summary">Mag-dismiss o mag-snooze ng mga alarm, kaganapan sa kalendaryo, at alerto sa timer, at sagutin o tanggihan ang mga papasok na tawag gamit ang isang pag-tap.</string>
     <string name="accessibility_easy_interaction_summary_tablet_wifi">I-tap upang ihinto/i-snooze ang mga alarm at kaganapan sa kalendaryo.</string>
-    <string name="all_sound_off">I-off ang lahat ng tunog.</string>
-    <string name="all_sound_off_summary">Huwag mag-play ng anumang tunog, pati na sa speakerphone, kahit na naka-set ang tunog sa Sound.</string>
+    <string name="all_sound_off">I-mute lahat ng tunog</string>
+    <string name="all_sound_off_summary">I-off lahat ng tunog, kabilang ang mga tawag sa telepono, kahit na nakaset sa Sound ang sound mode.</string>
     <string name="all_sound_off_dialog_summary">Ang %1$s at %2$s ay hindi mapapagana nang magkasabay. Ang %3$s ay hindi pagaganahin.</string>
+    <string name="all_sound_off_popup_description">Para magamit ang Mute all sounds, kailangang i-off ang %s.</string>
+    <string name="all_sound_turn_off_button">Naka-off</string>
     <string name="turn_off_all_sounds">I-off ang lahat ng tunog.</string>
     <string name="turn_off_all_sounds1">Hindi maaaring paganahin nang magkasabay ang i-off ang lahat ng tunog at answering message.</string>
     <string name="turn_off_all_sounds2">Hindi maaaring paganahin nang magkasabay ang i-off ang lahat ng tunog at answering message. Hindi papaganahin ang answering message.</string>
-    <string name="turn_off_all_sounds_toast_with_sound_detector">Hindi mapagana ang Turn off all sounds habang gumagana ang mga sound detector. Para hindi paganahin ang mga ito, pumunta sa Settings > Accessibility > Hearing > Sound detectors, tapos hindi paganahin ang mga sound detector.</string>
+    <string name="turn_off_all_sounds_toast_with_sound_detector">Hindi mai-off ang Mute all sounds habang naka-on ang Sound detectors.</string>
     <string name="accessibility_categories_title">Categories</string>
     <string name="share_accessibility_settings">Manage accessibility</string>
     <string name="share_accessibility_settings_summary">I-import at i-export ang iyong mga setting ng accessibility, o ibahagi ang mga ito sa iba pang mga device.</string>
@@ -660,6 +662,7 @@ Habang gumagana ang function na ito, hindi papaganahin ang Awto rotate screen. I
     <string name="deviceOption">Mga pagpipilian sa device</string>
     <string name="lock">I-lock</string>
     <string name="powerOff">I-off ang power</string>
+    <string name="unable_assistantmenu_while_sidesync">Hindi mai-on ang Assistant menu habang ginagamit ang SideSync.</string>
     <string name="eamenableinfo">Upang paganahin ang Assistant plus, pumili ng kahit isang application.</string>
     <string name="fetch_progress">Naglo-load ng data…</string>
     <string name="assistant_menu_enable_message">Hindi mapapagana nang sabay ang %s at ang mga opsyon sa ibaba. Hindi pagaganahin ang mga opsyon sa ibaba.</string>
@@ -766,7 +769,7 @@ I-tap dito para i-download ang feature na ito."</string>
     <string name="xcover_key_shortcut_battery_conserving_mode">Battery conserving mode</string>
     <string name="xcover_key_shortcut_normal_mode">Normal mode</string>
     <string name="flight_mode_enabled_toast">Hindi nakakakonekta sa mga mobile network habang nasa Flight mode. Huwag paganahin ang Flight mode at subukang muli.</string>
-    <string name="airplane_mode_summary">Huwag paganahin ang mga function sa pagtawag at pagmensahe at i-off ang Mobile data.</string>
+    <string name="airplane_mode_summary">I-off ang mga function na pagtawag, pagmensahe at Mobile data.</string>
     <string name="usb_not_support_mtp_usb3_dialog_title">Paunawa</string>
     <string name="airplane_mode_desc">Pinapayagan ka ng flight mode na mag-off ng mga feature ng network, kasama ang Wi-Fi. Upang gumamit ng Wi-Fi, i-on ito sa Mga Setting o sa notification panel.</string>
     <string name="flight_mode_enable_popup_title">Paganahin ang Flight mode</string>
@@ -906,6 +909,7 @@ Maaari mong palitan ito mamaya sa pagpunta sa mga setting ng Bluetooth."</string
     <string name="bluetooth_control_app_disable_summary">Nai-off ang Bluetooth: %s</string>
     <string name="bluetooth_enter_pin_msg">Maglagay ng PIN na ipe-pair sa %s (Subukan ang 0000 o ang 1234).</string>
     <string name="bluetooth_pin_maximum_number_message">Naabot na ang maximum na bilang ng mga character.</string>
+    <string name="bluetooth_frp_permission_message">Hindi magagamit ang Bluetooth device para sa tawag na ito.</string>
     <string name="settings_menu_done">Tapos na</string>
     <string name="usb_tethering_unavailable_subtext_tmo">USB not connected</string>
     <string name="usb_tethering_available_subtext_tmo">USB connected, check to tether</string>
@@ -946,6 +950,11 @@ Kahit na hindi gumagana ang Smart capture, maa-access mo ang mga feature nito ga
 - Gumuhit sa screenshot.
 - I-crop ang screenshot.
 - Ibahagi ang screenshot."</string>
+    <string name="smart_capture_summary">Ipakita ang mga dagdag na opsiyon pagkatapos kumuha ng screenshot. Gamit ang Smart capture, magagawa mong:</string>
+    <string name="smart_capture_summary_1">Kunan ang mga nakatagong area ng screen.</string>
+    <string name="smart_capture_summary_2">Gumuhit sa screenshot.</string>
+    <string name="smart_capture_summary_3">Tabasan ang screenshot.</string>
+    <string name="smart_capture_summary_4">Ibahagi ang screenshot.</string>
     <string name="identify_unsaved_numbers_title">Kilalanin ang mga numerong hindi naka-save</string>
     <string name="identify_unsaved_numbers_title_usa">Tukuyin, mga spam na numero</string>
     <string name="call_message_spam_filter_title">Call/message spam filter</string>
@@ -1042,6 +1051,7 @@ Kahit na hindi gumagana ang Smart capture, maa-access mo ang mga feature nito ga
     <string name="fota_update_summary">I-tap dito para i-update ang firmware sa pinakahuling bersiyon at gamitin ang mga pinakabagong tampok.</string>
     <string name="favorite_tab">Mga quick setting</string>
     <string name="device_maintenance_title">Pagmantini sa device</string>
+    <string name="memory_string">Memory</string>
     <string name="tab_favorite_edit">I-edit ang mga quick setting</string>
     <string name="add_favorite_button">I-edit ang mga quick setting</string>
     <string name="cloud_and_accounts_title">Cloud at mga account</string>
@@ -1079,7 +1089,12 @@ Kahit na hindi gumagana ang Smart capture, maa-access mo ang mga feature nito ga
     <string name="notification_settings_apps_title">Mga notification ng app</string>
     <string name="international_roaming_setting">Mga setting ng roaming</string>
     <string name="user_manual_mos">Manual ng user</string>
-    <string name="data_saver_description">Para makatulong na makabawas sa paggamit ng data, pinipigilan ng Data saver ang ilang app na magpadala o tumanggap ng data sa background. Gayundin, ang mga app na kasalukuyang ginagamit ay makaka-access ng data, ngunit mas madalang lang nitong magagawa. Halimbawa, maaaring hindi maipakita nang maayos ang mga larawan hanggang sa i-tap mo ang mga ito.</string>
+    <string name="data_saver_description">Nakatutulong ang Data saver na mabawasan ang paggamit mo ng data sa pamamagitan ng pagpigil sa ilang app na magpadala o tumanggap ng data sa background. Makagagamit ng mobile data ang mga app na kasalukuyan mong ginagamit, pero mas madalang nilang magagawa ito. Halimbawa, maaaring hindi ipakita ang mga larawan hanggang sa i-tap mo ang mga ito.</string>
+    <string name="unrestricted_data_saver_chn">Gumamit ng data nang walang pagbabawal</string>
+    <string name="data_saver_description_chn">Para makatulong na makabawas sa paggamit ng data, pinipigilan ng Restrict background data ang ilang app na magpadala o tumanggap ng data sa background. Gayundin, makaka-access ng data ang mga app na kasalukuyang ginagamit, ngunit mas madalang itong magagawa. Halimbawa, maaaring hindi maipakita nang maayos ang mga larawan hanggang sa i-tap mo ang mga ito.</string>
+    <string name="data_saver_title_chn">Ipagbawal ang background data</string>
+    <string name="unrestricted_app_title_chn">Gumamit ng data nang walang pagbabawal</string>
+    <string name="unrestricted_app_summary_chn">Makagagamit ang app na itong mobile data nang walang pagbabawal habang gumagana ang Restrict background data.</string>
     <string name="data_used_editor_subtitle">Enter the amount of data you have used this month:</string>
     <string name="traffic_vertify">Details</string>
     <string name="btn_tmo">Upgrade data service</string>
@@ -1131,7 +1146,9 @@ Data usage is measured by your phone. Your carrier may account for usage differe
     <string name="last_checked_date">Huling tiningnan noong:</string>
     <string name="auto_update">Awtomatikong i-download ang mga update</string>
     <string name="auto_update_summary">Mag-download ng mga update ng software kapag nakakonekta sa isang Wi-Fi network. Magagamit mo pa rin ang device mo habang nagda-download.</string>
-    <string name="scheduled_update">Nakaiskedyul software updates</string>
+    <string name="auto_update_over_wifi">I-awto download gamit ang Wi-Fi</string>
+    <string name="auto_update_over_wifi_summary">Awtomatikong mag-download ng mga update ng software kapag nakakonekta sa isang Wi-Fi network. Depende sa service provider mo, maaari din i-download ang mga update na gamit ang mobile data na walang anumang dagdag na singil. Magagamit mo pa rin ang telepono mo habang nagda-download.</string>
+    <string name="scheduled_update">Mga naka-schedule na update sa software</string>
     <string name="scheduled_update_summary_default">Naka-off</string>
     <string name="scheduled_update_summary_set_time">Magsisimula ang update sa ganap na %s</string>
     <string name="scheduled_update_summary_set_time_everyday">Magsisimula ang update sa ganap na %s bawat araw</string>
@@ -1172,9 +1189,9 @@ May kasamang diagnostic software ang telepono mo na maaaring, kapag pinayagan mo
     <string name="usb_use_file_transfers_summary_vzw">Transfer media files to a computer.</string>
     <string name="usb_use_file_transfers_summary">Ilipat ang mga media file sa isang PC gamit ang isang MTP connection.</string>
     <string name="usb_use_MIDI_summary_vzw">Use device for MIDI input.</string>
-    <string name="usb_use_MIDI_summary">Gamitin ang nakakonektang device bilang MIDI (Musical Instrument Digital Interface) player o pagmumulan ng input.</string>
-    <string name="usb_use_software_installation">Software Installation</string>
-    <string name="usb_use_software_installation_summary">Install Software Update and Repair tool for your device on a Mac or Windows computer.</string>
+    <string name="usb_use_MIDI_summary">Gamitin ang nakakonektang device bilang MIDI player o pagmumulan ng input.</string>
+    <string name="usb_use_system_update">Update sa system</string>
+    <string name="usb_use_system_update_summary">I-install ang Software Upgrade Assistant sa computer mo at i-update o kumpunihin ang teleponong ito.</string>
     <string name="sim_status_code">Code</string>
     <string name="sim_status_btn_update">I-update ang status ng SIM card</string>
     <string name="sim_status_updating">Ina-update…</string>
@@ -1263,7 +1280,7 @@ I-tap ang OK para payagan na mataasan ang liwanag nang lagpas sa ligtas na level
     <string name="display_temperature">Balanse ng kulay</string>
     <string name="adjust_your_display_colour">I-adjust ang mga kulay ng display mo para baguhin ang paglitaw ng mga puti.</string>
     <string name="led_indicator_settings">LED indicator</string>
-    <string name="led_indicator_settings_summary">Buksan ang LED indicator kapag nagcha-charge, voice recording o tumatanggap ng mga notification.</string>
+    <string name="led_indicator_settings_summary">Pailawin ang LED indicator kapag naka-off ang screen para ipakita ang mga status ng pag-record ng tunog, mga notification na hindi nabasa at baterya.</string>
     <string name="screen_resolution_desc">Maaaring tila malabo ang ilang content o hindi suportado sa FHD o HD.</string>
     <string name="display_battery_percentage">Pakita porsiyento ng baterya</string>
     <string name="display_battery_percentage_summary">Ipakita ang nalalabing karga ng baterya bilang porsiyento sa status bar.</string>
@@ -1292,7 +1309,7 @@ I-tap ang OK para payagan na mataasan ang liwanag nang lagpas sa ligtas na level
     <string name="wallpaper">Wallpaper</string>
     <string name="lockscreen_wallpaper">Lock screen</string>
     <string name="status_bar">Status bar</string>
-    <string name="recent_notification_status_bar_title">Ipakita ang kamakailang notification lang</string>
+    <string name="recent_notification_status_bar_title">Ipakita ang mga kamakailang notification lang</string>
     <string name="recent_notification_status_bar_summary">Ipakita lang ang %d pinakabagong notification icon sa status bar.</string>
     <string name="display_and_homescreen_title">Display at home screen</string>
     <string name="navigationbar_title">Navigation bar</string>
@@ -1310,12 +1327,12 @@ I-tap ang OK para payagan na mataasan ang liwanag nang lagpas sa ligtas na level
     <string name="blue_light_filter_off_time_next_day_summary_format">%s sa susunod na araw</string>
     <string name="blue_light_filter_user_schedule_title">Custom na schedule</string>
     <string name="blue_light_filter_auto_schedule_title">Sunset to sunrise</string>
-    <string name="blue_light_filter_desc">Gamitin ang Blue light filter para tulungan kang makatulog nang mas mabuti. Mag-set ng iskedyul kung kailan mo nais gamitin ang Blue light filter. Para gamitin ang Sunset to sunrise, dapat paganahin ang Location.</string>
-    <string name="blue_light_filter_enable_now">Paganahin ngayon</string>
+    <string name="blue_light_filter_desc">Gamitin ang Blue light filter kung gabi para tulungan kang makatulog nang mas mabuti. Mag-set ng schedule kung kailan mo nais gamitin ang Blue light filter. Para magamit ang Sunset to sunrise, kailangang naka-on ang Location.</string>
+    <string name="blue_light_filter_enable_now">Naka-on ngayon</string>
     <string name="blue_light_filter_enable_as_scheduled">Paganahin ayon sa schedule</string>
-    <string name="blue_light_filter_scheduled_toast">Pinagana ang Blue light filter. Awtomatiko itong hindi pagaganahin pagsapit ng nakatakdang oras ng wakas.</string>
+    <string name="blue_light_filter_scheduled_toast">Naka-on ang Blue light filter. Awtomatiko itong io-off pagsapit ng nakatakdang oras ng wakas.</string>
     <string name="screen_mode_dlg_turn_off_blue_light_filter">Hindi magagamit ang %s at Blue light filter nang sabay. Hindi papaganahin ang Blue light filter.</string>
-    <string name="blue_light_filter_dlg_turn_on_location">Para gamitin ang Sunset to sunrise, dapat paganahin ang Location.</string>
+    <string name="blue_light_filter_dlg_turn_on_location">Para magamit ang Sunset to sunrise, kailangang naka-on ang Location.</string>
     <string name="dlg_turn_on">I-on</string>
     <string name="screen_resolution_title">Resolution ng screen</string>
     <string name="screen_resolution_desc_title">Baguhin ang resolution ng screen</string>
@@ -1422,6 +1439,10 @@ I-tap ang OK para payagan na mataasan ang liwanag nang lagpas sa ligtas na level
     <string name="crypt_keeper_vzw_password_warning">Set the Screen lock password with at least %d characters and 1 number.</string>
     <string name="crypt_keeper_decrypt_title">I-decrypt ang device</string>
     <string name="crypt_keeper_decrypt_summary">Na-encrypt na ang device.</string>
+    <string name="crypt_keeper_type_pin">PIN</string>
+    <string name="crypt_keeper_type_pattern">Pattern</string>
+    <string name="crypt_keeper_type_password">Password</string>
+    <string name="crypt_keeper_type_direction">Lock ng direksyon</string>
     <string name="crypt_keeper_confirm_title_dec">Kumpirmahin ang pag-decrypt.</string>
     <string name="crypt_keeper_force_power_cycle_pattern">Para i-startup ang device mo, i-off ito, muling i-on at subukang muli. Dapat mong iguhit ang pattern na ginagamit mo para i-startup ang device at i-unlock ang screen. Hindi magagamit ang backup PIN mo para i-startup ang device mo.</string>
     <string name="crypt_keeper_setup_description_dec">"Dini-decrypt ang device. Maaaring tumagal ito. Mangyaring maghintay…
@@ -1511,6 +1532,7 @@ Inaabot ang pag-encrypt ng isang oras o higit pa. Bago ka magsimula, tiyaking na
     <string name="crypt_keeper_verify_failed_summary">Hindi mai-restart ang device mo. Nabigo ang pag-verify sa integridad. Kailangan mong i-reset ang device mo sa mga factory default na setting. Buburahin nito ang lahat ng data mo.</string>
     <string name="cryptkeeper_emergency_call">Emergency call</string>
     <string name="cryptkeeper_return_to_call">Bumalik sa tawag.</string>
+    <string name="cryptkeeper_default_enter_msg">Naka-encrypt ang telepono mo para sa seguridad.</string>
     <string name="enter_password">Para i-startup ang device mo, ipasok ang password mo.</string>
     <string name="enter_pin">Para i-startup ang device mo, ipasok ang PIN mo.</string>
     <string name="enter_pattern">Para i-startup ang device mo, iguhit ang pattern mo.</string>
@@ -1520,11 +1542,13 @@ Inaabot ang pag-encrypt ng isang oras o higit pa. Bago ka magsimula, tiyaking na
     <string name="cryptkeeper_wrong_pin">Nagpasok ng maling PIN</string>
     <string name="cryptkeeper_wrong_direction">Iginuhin ang maling direksyon</string>
     <string name="checking_decryption">Bine-verify…</string>
-    <string name="starting_android">Sinisimulan ang Android…</string>
     <string name="crypt_keeper_last_warn_wipe">Mayroon ka na lang 1 tangkang nalalabi para i-start up ang device mo bago ito i-reset sa factory default na setting nito. Buburahin nito ang lahat ng data, kasama ang mga file at mga nai-download na app.</string>
     <string name="crypt_keeper_failed_title_dec">Decryption failed.</string>
     <string name="crypt_keeper_failed_summary_dec">Hindi makumpleto ang pag-decrypt dahil sa pagkaantala. Magsagawa ng factory data reset (buburahin nito ang lahat ng data) bago gamitin.</string>
     <string name="crypt_keeper_set_screen_lock_type">Itakda ang uri ng lock screen</string>
+    <string name="encryption_interstitial_message">"Lalo mo pang mapoprotektahan ang telepono na ito sa paghingi na ipasok ang %s mo bago mag-startup ang telepono. Nakatutulong ito na protektahan ang data mo kung mawala o manakaw ang telepono. Maaaring hingin ng ilang app ang Secure Startup ayon sa mga patakaran sa pag-encrypt ng device para ma-access ang mga feature, gaya ng Email sync.
+
+Hindi ka makatatanggap ng anumang tawag, mensahe o notification at hindi tutunog ang mga alarma, hanggang sa mag-start up ang telepono."</string>
     <string name="encryption_interstitial_message_kor">Naka-encrypt ang device mo. Protektahan ang naka-encrypt na data mo sa pamamagitan ng pagpili sa Require screen lock kapag nag-on ang device. Nakatutulong ito na protektahan ang data sa mga nawala o nanakaw na device. Kakailanganin mong i-unlock ang device mo para i-decrypt ang data nito sa tuwing i-on mo ito. Hindi ka makatatanggap ng anumang tawag, mensahe o notification hanggang sa i-decrypt mo ang device mo.</string>
     <string name="encryption_interstitial_message_direction">"Protektahan ang device mo sa pamamagitan ng pagpili sa Require Direction lock kapag nag-on ang device. Nakatutulong ito na protektahan ang data sa mga nawala o nanakaw na device.
 
@@ -1546,6 +1570,7 @@ Hindi ka makatatanggap ng anumang tawag, mensahe o notification at hindi tutunog
 Hindi ka makatatanggap ng anumang tawag, mensahe o notification at hindi tutunog ang mga alarma, hanggang sa mag-startup ang device."</string>
     <string name="encryption_interstitial_error_message">Para protektahan ang data ng device mo, baguhin ang ur ng screen lock mo sa PIN, Password, Pattern o Fingerprint, tapos subukang muli.</string>
     <string name="encryption_interstitial_error_message_direction">Para protektahan ang data ng device mo, baguhin ang uri ng screen lock mo sa PIN, Password, Pattern o Direction lock o Fingerprints, tapos subukang muli.</string>
+    <string name="encryption_interstitial_error_message_direction_without_fingerprint">Para protektahan ang data ng device mo, baguhin ang uri ng screen lock mo sa PIN, Password, Pattern o Direction lock, tapos subukang muli.</string>
     <string name="encryption_interstitial_error_message_iris_direction">Para protektahan ang data ng device mo, baguhin ang uri ng screen lock mo sa PIN, Password, Pattern, Direction lock, Fingerprints o Irises, tapos subukang muli.</string>
     <string name="encryption_interstitial_error_message_without_fingerprint">Para protektahan ang data ng device mo, baguhin ang uri ng screen lock mo sa PIN, Password o Pattern, tapos subukang muli.</string>
     <string name="encryption_interstitial_error_sktlock">Hindi maaaring paganahin nang sabay ang Safety lock at Secure startup. Pumili ng non-Safety lock at subukang muli.</string>
@@ -1692,7 +1717,7 @@ Para paganahin ang Fingerprint lock, i-tap ang ENABLE. Pagkatapos ay maaari nang
     <string name="fingerprint_samsungpass_description_internet">Internet</string>
     <string name="fingerprint_samsungpass_summary">Gamitin ang mga fingerprint mo para i-verify ang pagkakakilanlan mo sa %s at iba pang suportadong app.</string>
     <string name="fingerprint_invalid_rename_character">Di-wasto ang character.</string>
-    <string name="fingerprint_maximum_rename_character">Naabot na ang maximum na bilang ng mga character na (%d)</string>
+    <string name="fingerprint_maximum_rename_character">Naabot na ang maximum na bilang ng mga character na (%d).</string>
     <string name="fingerprint_rename_positivebutton">Palitan ng pangalan</string>
     <string name="select_fingerprints">Pumili ng mga fingerprint</string>
     <string name="fingerprint_rename_enter_text">Magpasok ng text</string>
@@ -1809,6 +1834,8 @@ Bago ka humiling ng pagkukumpuni sa bisa ng warranty, dapat hindi paganahin ang 
 %s"</string>
     <string name="improve_location_title">Improve location accuracy</string>
     <string name="improve_location_summary">Use WLANs and mobile networks to provide more accurate information about the location of your device.</string>
+    <string name="send_last_location_title">Ipadala ang huling lokasyon</string>
+    <string name="send_last_location_summary">Payagan ang telepono mo na ipadala ang pinakabago nitong lokasyon sa Find My Mobile server kapag bumaba sa partikular na level ang baterya.</string>
     <string name="high_power_description">Paganahin ang Optimize battery usage para sa mga indibidwal na app. Ang ilang function, gaya ng mga gumagamit ng mobile network o sync data, ay babawalan para makatipid ng karga ng baterya.</string>
     <string name="wifi_display_summary_off">I-off</string>
     <string name="battery_usage_description">Ipinapakita ng screen na ito ang data sa paggamit ng baterya mula nang huling nai-full charge ang device.</string>
@@ -1904,6 +1931,8 @@ May mga kahaliling opsyon sa seguridad sa device mo. Pakisunod ang lahat ng tagu
     <string name="iris_sensor_not_working_popup_title">Hindi gumagana ang Iris recognition</string>
     <string name="iris_sensor_not_working_msg">Hindi tumutugon ang sensor ng iris. Subukan muli mamaya.</string>
     <string name="iris_go_to_samsung_theme">Pumunta sa Samsung Themes</string>
+    <string name="biometrics_dex_cant_use_msg">Hindi magagamit ang %s sa Samsung DeX.</string>
+    <string name="biometrics_dex_closed_to_switch">Nagsara ang %s para lumipat sa Samsung DeX.</string>
     <string name="knox_twofactor_bio_description">Piliin ang uri ng biometric lock at ikalawang uri ng lock para i-unlock ang %s.</string>
     <string name="fingerprint_registered">Gagamitin ang mga nakarehistrong fingerprint sa piniling paraan ng pag-unlock.</string>
     <string name="knox_twofactor_description">Gumamit ng dalawang uri ng lock para gawing mas secure ang Knox. Ang iyong mga fingerprint ay gagamitin bilang unang uri ng lock. Pumili ng pangalawang uri ng lock sa ibaba.</string>
@@ -2001,8 +2030,8 @@ Determining your location will use the mobile network. Data usage will apply."</
     <string name="app_ops_settings_summary">Tingnan o baguhin ang mga pahintulot ng application.</string>
     <string name="backup_key_for_applock_header">Mag-set ng pattern, PIN o password na gagamitin kasabay ng fingerprint recognition para mai-lock o i-unlock ang mga app.</string>
     <string name="backup_key_for_privatemode_header">Mag-set ng pattern, PIN o password na gagamitin kasabay ng pagkilala sa fingerprint para ma-access ang Private mode.</string>
-    <string name="status_added">Idinagdag</string>
     <string name="text_security_title_b2c">Pumili ng uri ng lock. Kung makalimutan mo kung paano i-unlock ang Secure Folder, maaari mong i-reset ang lock mo gamit ang Samsung account mo.</string>
+    <string name="status_added">Idinagdag</string>
     <string name="lockpattern_backup_pin">Backup na PIN</string>
     <string name="applock_type_fingerprint">Fingerprint</string>
     <string name="unlock_set_unlock_two_factor_title">Two-step na beripikasyon</string>
@@ -2218,9 +2247,9 @@ Kahit na mai-wipe ang telepono mo, kakailanganin ang password ng Google Account 
     <string name="palm_swipe_title">Palm swipe to capture</string>
     <string name="screen_recorder_title">Record screen</string>
     <string name="screen_recorder_summary">Record video screenshots while you use your device.</string>
-    <string name="multi_window_setting_title">Gesture para sa pop-up view</string>
+    <string name="multi_window_setting_title">Aksiyon ng pop-up view</string>
     <string name="multi_window_setting_description">Kapag nakabukas ang isang app sa screen, i-adjust ang laki ng app sa pamamagitan ng pag-swipe pababa nang pa-diagonal mula sa alinmang itaas na sulok ng screen.</string>
-    <string name="multi_window_screen_title">Maraming window</string>
+    <string name="multi_window_screen_title">Multi window</string>
     <string name="multi_window_screen_summary">Ipakita ang higit sa isang app nang sabay.</string>
     <string name="multi_window_split_screen_title">Aksiyon para sa Split screen view</string>
     <string name="multi_window_split_screen_description_hwkey_1">I-press at i-hold ang Recents key para baguhin ang kasalukuyang app mula full screen view papuntang split screen view.</string>
@@ -2258,18 +2287,19 @@ Kahit na mai-wipe ang telepono mo, kakailanganin ang password ng Google Account 
     <string name="air_browse_note_summary">Magpalipat-lipat sa mga pahina habang nasa View mode.</string>
     <string name="data_usage_enable_mobile_summery">I-access ang internet sa pamamagitan ng mobile network mo.</string>
     <string name="data_usage_enable_mobile_warning_skt">Ang pagkonekta sa mga mobile network ay maaaring magdulot ng mga karagdagang singil depende sa iyong data plan. Magpatuloy?</string>
-    <string name="data_usage_enable_mobile_warning_ktt">Ang pagkonekta sa mga mobile network ay maaaring magdulot ng mga karagdagang singil depende sa iyong data plan. Magpatuloy?</string>
+    <string name="data_usage_enable_mobile_warning_ktt">Io-on ang Mobile data. Maaaring magresulta sa karagdagang singil ang pagkonekta sa mga mobile network depende sa iyong plan sa pagbabayad.</string>
     <string name="data_usage_enable_mobile_warning_lgt">Ang pagkonekta sa mga mobile network ay maaaring magdulot ng mga karagdagang singil depende sa iyong data plan. Magpatuloy?</string>
     <string name="data_usage_disable_mobile_title">I-off ang Mobile data</string>
     <string name="data_usage_disable_mobile_warning_skt">Kapag nadiskonekta ang mobile network, malilimitahan ang paggamit ng mga serbisyo ng MMS at 3G data. Magdiskonekta?</string>
     <string name="data_usage_disable_mobile_warning_ktt">Kapag nadiskonekta ang mobile network, malilimitahan ang paggamit ng mga serbisyo ng MMS at 3G data. Magdiskonekta?</string>
     <string name="data_usage_disable_mobile_warning_ktt_jb">Kapag nadiskonekta ang mobile network, malilimitahan ang paggamit ng mga serbisyo ng MMS at 3G data. Magdiskonekta?</string>
-    <string name="mobile_data_off_dialog_text_vzw">"Unless you use Wi-Fi, you will not be able to use the Internet, Email, or other apps that require a data connection.
+    <string name="data_usage_disable_mobile_warning_dcm">"If Mobile data is turned off, your device must be connected to a Wi-Fi network to use services that require a network connection.
 
-Turn off Mobile data?"</string>
-    <string name="mobile_data_off_dialog_text_common">"Maliban kung gagamit ka ng Wi-Fi, hindi mo na magagamit ang Internet, Email o iba pang app na kinakailangan ng koneksyon sa data.
-
-I-o-off ang mobile data."</string>
+Mobile data will be turned off."</string>
+    <string name="mobile_data_off_dialog_text_vzw">"Unless you use Wi-Fi, you won't be able to use the Internet, Email or other apps that require a data connection. Turn off the mobile data connection?"</string>
+    <string name="mobile_data_off_dialog_text_volte">"Your phone's Video Calling function won't work when mobile data is off. Also, you won't be able to use the Internet, Email or other apps that need a data connection unless you use Wi-Fi. Turn off the mobile data connection?"</string>
+    <string name="mobile_data_off_dialog_text_common">Maliban kung kokonekta ka sa isang Wi-Fi network, hindi mo magagamit ang Internet, Email o iba pang app na kailangan ng koneksiyon sa network.</string>
+    <string name="data_usage_turn_off_btn">I-off</string>
     <string name="wfd_settings_summary">Ibahagi sa ibang device ang screen ng iyong device.</string>
     <string name="nfc_settings_advanced_explain">"Itakda ang default na pamamaraan sa proseso ng NFC.
 Ilang mga trasaksyon ng NFC at serbisyo sa pagabayad sa mobile ay kailangan ng ibang default na pamamaraan sa proseso ng NFC."</string>
@@ -2409,7 +2439,7 @@ Ilang mga trasaksyon ng NFC at serbisyo sa pagabayad sa mobile ay kailangan ng i
     <string name="zen_mode_events_summary">Payagan ang mga notification mula sa S Planner at iba pang kaganapan ng kalendaryo.</string>
     <string name="zen_mode_events_summary_na">Payagan ang mga notification mula sa mga kaganapan ng Calendar a mga gawain.</string>
     <string name="zen_mode_reminders_summary">Payagan ang mga paalala mula sa mga app na sumusuporta sa mga ito.</string>
-    <string name="dnd_app_noti_summary">I-set bilang prayoridad na mga pagkagambala para payagan ang mga notification ng app bilang mga eksepsyon.</string>
+    <string name="dnd_app_noti_summary">Payagan ang mga notifications mula sa mga app na pipiliin mo.</string>
     <string name="no_exceptions_dcm_summary">Mute all calls and alerts, including Area Mail alarms.</string>
     <string name="dnd_screen_switch_summary">I-mute ang lahat ng tawag at alerto, maliban sa mga pinili mong hindi isama.</string>
     <string name="app_notification_priority_app_list_title">Mga prayoridad na notification ng app</string>
@@ -2456,7 +2486,7 @@ mode"</string>
     <string name="personal_page_secretbox_disclaimer_title">Disclaimer</string>
     <string name="personal_page_secretbox_disclaimer_message">Hindi pinoprotektahan ng private mode ang data mo mula sa pag-access ng iba pang application. Para pigilan na ma-synchronize ang data sa mga panlabas na server, huwag paganahin ang mga auto-sync na setting sa device mo.</string>
     <string name="personal_page_secretbox_disclaimer_message_vzw">Content moved into Private mode will be hidden and will not be shown when you exit from Private mode. Automatic syncing while in Private mode may allow that content to be visible in 3rd party apps. Check the automatic synchronization settings of your other applications before using Private mode.</string>
-    <string name="personal_page_tutorial_app_title_message">Gamitin ang Private mode para itago ang content na nais mong panatilihing pribado. Habang ginagamit mo ang mga sumusunod na app, piliin ang mga item na nais mong ilipat sa Private, tapos ay i-tap ang MORE at piliin ang Move to Private. Ang content na nailipat sa Private ay makikita lang habang gumagana ang Private mode.</string>
+    <string name="personal_page_tutorial_app_title_message">Gamitin ang Private mode para itago ang content na nais mong panatilihing pribado. Habang ginagamit mo ang mga sumusunod na app, piliin ang mga item na nais mong ilipat sa Private, tapos ay i-tap ang More options button at piliin ang Move to Private. Maaari lang makita ang content na inilipat sa Private habang naka-on ang Private mode.</string>
     <string name="personal_page_inline_help">Para gamitin ang Private mode, pumili ng uri ng pag-access. Kung makakalimutan mo ang iyong uri sa pag-access sa Private mode, hindi mo na mababawi ito at hindi mo magagamit ang Private mode maliban lang kung ire-reset mo ang iyong device sa mga default na setting ng factory.</string>
     <string name="personal_page_backup_pin_summary">Lumikha ng backup PIN para sa Private mode, sakaling makalimutan mo ang pattern mo.</string>
     <string name="personal_page_incorrect_pin">Mali ang PIN. Subukang muli.</string>
@@ -2845,6 +2875,7 @@ Idiskonekta ang charger para paganahin/hindi paganahin ang function na ito."</st
     <string name="samsung_backup_summary">Gamitin ang Samsung account mo para i-back up ang data mo.</string>
     <string name="samsung_restore_summary">Gamitin ang iyong Samsung account para ibalik ang data ng iyong backup.</string>
     <string name="sns_settings_title">Lumipat sa mobile data kapag hindi na matatag ang koneksiyon mo sa Wi-Fi. Makalilipat din ang telepono mo sa mga naka-save na Wi-Fi network mula sa mga pinakamadalas bisitahing lugar. Awtomatikong io-on o io-off ng Smart network switch ang mga naka-save na Wi-Fi network.</string>
+    <string name="sns_settings_title_include_autowifi">Lumipat sa mobile data kapag hindi na matatag ang koneksiyon mo sa Wi-Fi. Makalilipat din ang telepono mo sa mga naka-save na Wi-Fi network mula sa mga pinakamadalas bisitahing lugar. Awtomatikong io-on o io-off ng Smart network switch ang mga naka-save na Wi-Fi network.</string>
     <string name="smart_bonding">Pampabilis ng download</string>
     <string name="smart_bonding_popup_title">Paganahin ang Download booster</string>
     <string name="smart_bonding_description_vzw">"Download large files (over %d MB) faster by using Wi-Fi and LTE networks at the same time. The Download booster icon will be shown on the status bar when Download booster is turned on.
@@ -3065,6 +3096,8 @@ Downloading via mobile networks may result in additional charges depending on yo
     <string name="wifi_manage_network">Pamahalaan ang mga network</string>
     <string name="wlan_permission_available_message">Hinihingi ang iyong pahintulot na gamitin ang WLAN sa pamamagitan ng pop-up.</string>
     <string name="wlan_permission_available">Hilinging gamitin WLAN</string>
+    <string name="wifi_hotspot20_summary_tmo">Walang-sabit na kumonekta sa mga Wi-Fi access point na pinagana para sa Hotspot 2.0 nang hindi nangangailangan ng password.</string>
+    <string name="wifi_hotspot20_summary_dcm">Awtomatikong kumonekta sa Hotspot 2.0 Wi-Fi network habang naka-on ang Wi-Fi.</string>
     <string name="wifi_hotspot20_summary">Awtomatikong kumonekta sa mga Wi-Fi access point na sumusuporta sa Hotspot 2.0.</string>
     <string name="wifi_hotspot20_enable">Hotspot 2.0</string>
     <string name="wifi_att_auto_connect_summary">Automatically connect to AT&amp;T Wi-Fi hotspot when detected</string>
@@ -3083,9 +3116,9 @@ Downloading via mobile networks may result in additional charges depending on yo
     <string name="wifi_auto_reconnect">Mag-auto reconnect</string>
     <string name="wifi_enable_warning_chn">Turning on WLAN will disable Mobile hotspot.</string>
     <string name="wifi_enable_warning_vzw">Kapag na-on ang Wi-Fi, hindi papaganahin ang Mobile Hotspot. Magpatuloy?</string>
-    <string name="wifi_enable_warning_tmo">Wi-Fi is turned off when Mobile HotSpot is active. To turn on Wi-Fi, please turn off Mobile HotSpot.</string>
+    <string name="wifi_enable_warning_tmo">Ino-off ang Wi-Fi kapag aktibo ang Mobile HotSpot. Para i-on ang Wi-Fi, paki-off ang Mobile HotSpot.</string>
     <string name="wifi_enable_warning_spr">Turning on Wi-Fi will disable Hotspot.</string>
-    <string name="wifi_enable_warning_mtr">Turning on Wi-Fi will turn off Mobile Hotspot. Continue?</string>
+    <string name="wifi_enable_warning_mtr">Ino-off ang Wi-Fi kapag aktibo ang Mobile Hotspot. Para i-on ang Wi-Fi, paki-off ang Mobile Hotspot.</string>
     <string name="wifi_enable_warning_usc">Turning on Wi-Fi will turn off Portable Wi-Fi hotspot. Continue?</string>
     <string name="wifi_enable_warning">Hindi papaganahin ang Mobile hotspot kapag naka-on ang Wi-Fi</string>
     <string name="wifi_control_history_title">History ng pagkontrol sa Wi-Fi</string>
@@ -3119,9 +3152,9 @@ Downloading via mobile networks may result in additional charges depending on yo
     <string name="wifi_ap__wifi_sharing_vzw">Wi-Fi Sharing</string>
     <string name="wifi_ap__wifi_sharing">Wi-Fi sharing</string>
     <string name="first_use_wifi_msg_mtr">Tap OK to learn more about using Mobile Hotspot.</string>
-    <string name="first_use_wifi_msg">Tap OK to learn more about using Mobile HotSpot.</string>
+    <string name="first_use_wifi_msg">I-tap ang OK para alamin pa ang tungkol sa paggamit ng Mobile HotSpot.</string>
     <string name="first_use_title_mtr">View Mobile Hotspot help</string>
-    <string name="first_use_title">View Mobile HotSpot help</string>
+    <string name="first_use_title">Tingnan ang tulong sa Mobile HotSpot</string>
     <string name="wifi_ap_wifi_sharing_title">Paganahin ang Wi-Fi sharing</string>
     <string name="wifi_ap_wifi_sharing_status_enabled">Pinagana</string>
     <string name="wifi_ap_wifi_sharing_status_disabled">Hindi pinagana</string>
@@ -3153,11 +3186,11 @@ Using Mobile hotspot increases battery consumption and data usage."</string>
 Mobile Hotspot uses mobile data from your data plan.
 
 We recommend keeping your phone plugged in to a charger while using Mobile Hotspot to save battery."</string>
-    <string name="wifi_ap_instruction_changeable_maxclient_tmo">"You can use your device as an Internet access point using Mobile HotSpot. This allows up to %d other devices to connect to it via Wi-Fi. The connected devices will have access to the Internet via your mobile network.
+    <string name="wifi_ap_instruction_changeable_maxclient_tmo">"Magagamit mo ang device mo bilang isang Internet access point gamit ang Mobile HotSpot. Pinapayagan nito na hanggang %d iba pang device na kumonekta rito sa pamamagitan ng Wi-Fi. Magkakaroon ng access ang mga nakakonektang device sa Internet gamit ang mobile network mo.
 
-You can create an allowed device profile and set the connection mode for it.
+Makalilikha ka ng profile ng mga pinapayagang device at maise-set ang connection mode para rito.
 
-Using Mobile HotSpot increases battery consumption and data usage."</string>
+Nakadaragdag ang paggamit ng Mobile HotSpot sa konsumo sa baterya at paggamit ng data."</string>
     <string name="wifi_ap_instruction_changeable_maxclient_spr">"Maibabahagi mo ang Hotspot ng iyong device sa mga device na nakakagamit ng Wi-Fi.
 
 Pagkatapos mong simulan ang Wi-Fi router ng Mobile Hotspot, kumonekta gamit ang mga kontrol sa iyong device na nakakagamit ng Wi-Fi."</string>
@@ -3190,7 +3223,7 @@ To configure Smartphone Mobile Hotspot, tap on the menu icon, and then tap “Co
     <string name="wifi_ap_hide_ssid">Itago ang aking device</string>
     <string name="wifi_ap_wifi_off_warn_vzw">Mobile Hotspot uses your mobile data connection. Your Wi-Fi connection will be turned off.</string>
     <string name="wifi_ap_wifi_off_warn_spr">Enabling Hotspot will turn off Wi-Fi</string>
-    <string name="wifi_ap_wifi_off_warn_tmo">Wi-Fi is turned off when USB tethering or Mobile HotSpot is active. To turn on Wi-Fi, please turn off USB tethering or Mobile HotSpot.</string>
+    <string name="wifi_ap_wifi_off_warn_tmo">Ino-off ang Wi-Fi kapag aktibo ang USB tethering o Mobile HotSpot. Para i-on ang Wi-Fi, paki-off ang USB tethering o Mobile HotSpot.</string>
     <string name="wifi_ap_wifi_off_warn_chn">Enabling Mobile hotspot will turn off WLAN.</string>
     <string name="wifi_ap_wifi_off_warn_att">Turning on portable Wi-Fi hotspot will turn off Wi-Fi.</string>
     <string name="wifi_ap_wifi_off_warn_mtr">Wi-Fi is turned off when USB tethering or Mobile Hotspot is active. To turn on Wi-Fi, please turn off USB tethering or Mobile Hotspot.</string>
@@ -3261,6 +3294,7 @@ Pagkatapos baguhin ang pangalan o password ng mobile hotspot, isang bagong QR co
     <string name="wifi_wps_onstart_pbc_mobileap">Pindutin ang button na WPS sa kabilang device para kumonekta.</string>
     <string name="wifi_wps_complete_mobileap">Nakakonekta na ngayon ang kabilang device sa iyong device.</string>
     <string name="wifi_ap_disconnect_warn">Idiskonekta ang device</string>
+    <string name="wifi_ap_change_policy_warn_mtr">The device currently connected will be disconnected from Portable Wi-Fi Hotspot.</string>
     <string name="wifi_ap_change_policy_warn">Ang lahat ng device na kasalukuyang nakakonekta ay madidiskonekta mula sa Mobile hotspot.</string>
     <string name="wifi_ap_warn_max_whitelist">Naabot na ang maximum na bilang ng mga pinapayagang device (%d).</string>
     <string name="wifiap_one_item_deleted">1 item ang ide-delete.</string>
@@ -3295,8 +3329,9 @@ Naka-on na ngayon ang Wi-Fi."</string>
     <string name="wifi_tether_dialog_nosim_warning_title">Mobile hotspot</string>
     <string name="wifi_tether_dialog_nosim_warning_chn">Insert a SIM card to use Mobile hotspot and other tethering functions.</string>
     <string name="wifi_tether_dialog_nosim_warning_vzw">Insert a SIM card to use Mobile Hotspot and other tethering options.</string>
-    <string name="wifi_tether_dialog_nosim_warning_tmo">"Please install SIM card in order to share your phone's data connection with other devices using Mobile Wi-Fi HotSpot or USB tethering for Internet access."</string>
-    <string name="wifi_tether_dialog_nosim_warning_spr">Insert SIM for using Hotspot include tethering</string>
+    <string name="wifi_tether_dialog_nosim_warning_tmo">Paki-install ang SIM card para maibahagi ang data connection ng telepono mo sa iba pang device na gumagamit ng Mobile Wi-Fi HotSpot o USB tethering para sa Internet access.</string>
+    <string name="wifi_tether_dialog_nosim_warning_mtr">"Please install SIM card in order to share your phone's data connection with other devices using Mobile Wi-Fi Hotspot or USB tethering for Internet access."</string>
+    <string name="wifi_tether_dialog_nosim_warning_spr">Magkabit ng SIM card para magamit ang Hotspot.</string>
     <string name="wifi_tether_dialog_nosim_warning_usc">Maglagay ng SIM card para magamit ang Mobile hotspot at iba pang mga function sa pag-tether.</string>
     <string name="wifi_tether_dialog_nosim_warning">Maglagay ng SIM card para magamit ang Mobile hotspot at iba pang mga function sa pag-tether.</string>
     <string name="mobileap_tmo">Mobile HotSpot</string>
@@ -3323,7 +3358,7 @@ Naka-on na ngayon ang Wi-Fi."</string>
     <string name="wifi_ap_instruction_open_activate_color3_att">Kumonekta sa &lt;font color=\"%1$s\">%2$s&lt;/font>.</string>
     <string name="wifi_ap_instruction_open_activate_color3">Kumonekta sa &lt;font color=\"%1$s\">%2$s&lt;/font>.</string>
     <string name="wifi_ap_instruction_open_activate_color4_vzw">Enjoy your Mobile Hotspot.</string>
-    <string name="wifi_ap_instruction_open_activate_color4_tmo">Enjoy the internet using your personal Mobile HotSpot.</string>
+    <string name="wifi_ap_instruction_open_activate_color4_tmo">I-enjoy ang internet gamit ang sarili mong Mobile HotSpot.</string>
     <string name="wifi_ap_instruction_open_activate_color4_spr">Enjoy the Internet with Hotspot.</string>
     <string name="wifi_ap_instruction_open_activate_color4_att">Enjoy the Internet using Mobile hotspot.</string>
     <string name="wifi_ap_instruction_open_activate_color4_mtr">Enjoy the Internet using portable Wi-Fi hotspot.</string>
@@ -3342,7 +3377,7 @@ Naka-on na ngayon ang Wi-Fi."</string>
     <string name="wifi_ap_instruction_activate_color3_att">Kumonekta sa &lt;font color=\"%1$s\">%2$s&lt;/font> sa pamamagitan ng pagpasok ng &lt;font color=\"%1$s\">%3$s&lt;/font> bilang ang password.</string>
     <string name="wifi_ap_instruction_activate_color3">Kumonekta sa &lt;font color=\"%1$s\">%2$s&lt;/font> sa pamamagitan ng pagpasok ng &lt;font color=\"%1$s\">%3$s&lt;/font> bilang ang password.</string>
     <string name="wifi_ap_instruction_activate_color4_vzw">Enjoy your Mobile Hotspot.</string>
-    <string name="wifi_ap_instruction_activate_color4_tmo">Enjoy the internet using your personal Mobile HotSpot.</string>
+    <string name="wifi_ap_instruction_activate_color4_tmo">I-enjoy ang internet gamit ang sarili mong Mobile HotSpot.</string>
     <string name="wifi_ap_instruction_activate_color4_spr">Enter &lt;font color=\"%1$s\">%3$s&lt;/font> in the &lt;font color=\"%1$s\">%4$s&lt;/font> field.</string>
     <string name="wifi_ap_instruction_activate_color4_att">Enjoy the Internet using Mobile hotspot.</string>
     <string name="wifi_ap_instruction_activate_color4_mtr">Enjoy the Internet using portable Wi-Fi hotspot.</string>
@@ -3364,16 +3399,16 @@ Naka-on na ngayon ang Wi-Fi."</string>
     <string name="wifi_ap_instruction_activate_color_hidden3_chn">Connect to &lt;font color=\"%1$s\">%2$s&lt;/font> by entering &lt;font color=\"%1$s\">%3$s&lt;/font> as the password.</string>
     <string name="wifi_ap_instruction_activate_color_hidden3_tmo">Connect to &lt;font color=\"%1$s\">%2$s&lt;/font> by entering &lt;font color=\"%1$s\">%3$s&lt;/font> as the password.</string>
     <string name="wifi_ap_instruction_activate_color_hidden3">Kumonekta sa &lt;font color=\"%1$s\">%2$s&lt;/font> sa pamamagitan ng pagpasok ng &lt;font color=\"%1$s\">%3$s&lt;/font> bilang ang password.</string>
-    <string name="wifi_ap_instruction_activate_color_hidden4_tmo">Enjoy the internet using your personal Mobile HotSpot.</string>
+    <string name="wifi_ap_instruction_activate_color_hidden4_tmo">I-enjoy ang internet gamit ang sarili mong Mobile HotSpot.</string>
     <string name="wifi_ap_instruction_no_maxclient">"Maaari mong gamitin ang iyong device bilang isang Internet access point gamit ang Mobile hotspot. Pinapayagan nito ang ibang device na kumonekta dito sa pamamagitan ng Wi-Fi. Magkakaroon ng access ang mga nakakonektang device sa Internet sa pamamagitan ng iyong mobile network.
 
 Maaari kang lumikha ng pinapayagang profile ng device at i-set ang koneksyon mode para dito.
 
 Ang paggamit sa Mobile hotspot ay pinatataas ang konsumo sa baterya at paggamit ng data."</string>
     <string name="wifi_ap_instruction_configure_vzw">To change the Mobile Hotspot configuration, go to Settings > Mobile Hotspot and tethering > Mobile Hotspot > MORE, then select Configure Mobile Hotspot.</string>
-    <string name="wifi_ap_instruction_configure_tmo">To change the Mobile HotSpot configuration, tap the More options button, then select Configure Mobile HotSpot.</string>
+    <string name="wifi_ap_instruction_configure_tmo">Para baguhin ang kumpigurasyon ng Mobile HotSpot, i-tap ang More options button, tapos piliin ang Configure Mobile HotSpot.</string>
     <string name="wifi_ap_instruction_configure">Para baguhin ang configuration ng Mobile hotspot, i-tap ang More options button, tapos piliin ang Configure Mobile hotspot.</string>
-    <string name="wifi_ap_instruction_configure_non_grace_tmo">To change the Mobile HotSpot configuration, tap MORE, then select Configure Mobile HotSpot.</string>
+    <string name="wifi_ap_instruction_configure_non_grace_tmo">Para baguhin ang kumpigurasyon ng Mobile HotSpot, i-tap ang MORE, tapos piliin ang Configure Mobile HotSpot.</string>
     <string name="wifi_ap_instruction_configure_non_grace">Para baguhin ang kumpigurasyon ng Mobile hotspot, i-tap ang HIGIT PA at piliin ang I-configure ang Mobile hotspot.</string>
     <string name="wifi_ap_change_security">Change Security</string>
     <string name="wifi_ap_maxclient">Maximum na mga koneksyon</string>
@@ -3390,7 +3425,8 @@ Ang paggamit sa Mobile hotspot ay pinatataas ang konsumo sa baterya at paggamit 
     <string name="wifi_tether_configure_ap_text_usc">Configure Wi-Fi hotspot</string>
     <string name="wifi_tether_configure_ap_text">I-configure ang Mobile hotspot</string>
     <string name="wifi_ap_hidessid_warning">Makikita ng iba pang mga device ang iyong telepono.</string>
-    <string name="wifi_ap_first_time_configuration">First time HotSpot configuration</string>
+    <string name="wifi_ap_first_time_configuration_mtr">Pag-configure ng Hotspot sa unang pagkakataon</string>
+    <string name="wifi_ap_first_time_configuration">Pag-configure ng HotSpot sa unang pagkakataon</string>
     <string name="title_wifi_notify_mobileap_is_on">Wi-Fi and Mobile Hotspot</string>
     <string name="wifi_ssid_max_byte_error">Naabot na ang maximum na bilang ng mga character.</string>
     <string name="tethering_attention_title">Atensyon</string>
@@ -3533,6 +3569,8 @@ Alamin ang tungkol sa roaming sa pamamagitan ng pagtawag sa mga serbisyo sa cust
     <string name="master_clear_desc_music">Musika</string>
     <string name="master_clear_desc_pictures">Mga Litrato</string>
     <string name="master_clear_desc_other_user_data">Lahat ng iba pang data ng user</string>
+    <string name="master_clear_not_enough_battery">I-charge ang baterya mo sa %d%% man lang bago i-reset ang telepono mo.</string>
+    <string name="master_clear_not_enough_battery_tablet">I-charge ang baterya mo sa %d%% man lang bago i-reset ang tablet mo.</string>
     <string name="text_two_locktype">Fingerprint at %s</string>
     <string name="pref_lock_type_title">Baguhin ang uri ng lock</string>
     <string name="pref_lock_type_summary">Uri ng Lock</string>
@@ -3612,8 +3650,11 @@ Receiving SMS"</string>
     <string name="google_settings_popup_msg">Only a limited number of Google settings are available. Some actions may not work.</string>
     <string name="smart_lock_popup_msg">Only a limited number of Google settings are available. Some actions may not work.</string>
     <string name="prevent_to_change_by_device_policy">Pinipigilan ng patakaran sa seguridad ang paggamit ng %s.</string>
+    <string name="quick_tile_sync_title">I-sync</string>
     <string name="name_jerusalem">Jerusalem</string>
     <string name="name_israel">Israel</string>
+    <string name="starting_android">Sinisimulan ang Android…</string>
+    <string name="okay">OK</string>
     <string name="yes">Oo</string>
     <string name="no">Hindi</string>
     <string name="create">Lumikha</string>
@@ -3711,7 +3752,6 @@ Maaari mong palitan ito mamaya sa pagpunta sa mga setting ng Bluetooth."</string
     <string name="phone_info_label">Impormasyon ng device</string>
     <string name="proxy_settings_label">Mga setting ng proxy</string>
     <string name="cancel">Ikansela</string>
-    <string name="okay">OK</string>
     <string name="save">I-save</string>
     <string name="done">Tapos na</string>
     <string name="settings_label">Mga Setting</string>
@@ -5346,4 +5386,6 @@ Hindi ka makatatanggap ng anumang tawag, mensahe o notification at hindi tutunog
     <string name="ucm_pins_do_not_match">Hindi magkatugma ang mga PIN</string>
     <string name="ucm_failed_to_connect_smartcard">Nabigong kumonekta sa smart card. Makipag-ugnay sa administrator ng device.</string>
     <string name="ucm_loading">Naglo-load…</string>
+    <string name="usb_use_software_installation">Software Installation</string>
+    <string name="usb_use_software_installation_summary">Install Software Update and Repair tool for your device on a Mac or Windows computer.</string>
 </resources>

@@ -3011,7 +3011,7 @@
     .param p1, "menu"    # Landroid/view/Menu;
 
     .prologue
-    const v3, 0x7f0205ad
+    const v3, 0x7f0205ab
 
     .line 420
     invoke-super {p0, p1}, Lcom/android/settings/InstrumentedActivity;->onCreateOptionsMenu(Landroid/view/Menu;)Z
@@ -3073,7 +3073,7 @@
     .line 437
     iget-object v1, p0, Lcom/samsung/android/settings/display/DisplayScalingActivity;->mSaveButton:Landroid/widget/Button;
 
-    const v2, 0x7f0b17b3
+    const v2, 0x7f0b1939
 
     invoke-virtual {v1, v2}, Landroid/widget/Button;->setText(I)V
 

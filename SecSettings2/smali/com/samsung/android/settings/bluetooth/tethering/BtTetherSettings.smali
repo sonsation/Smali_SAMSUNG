@@ -170,7 +170,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0b03d3
+    const v2, 0x7f0b03d5
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -202,7 +202,7 @@
     invoke-static {v0, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 523
-    const v0, 0x7f0b03d9
+    const v0, 0x7f0b03db
 
     invoke-virtual {p1, v0}, Landroid/preference/PreferenceGroup;->setTitle(I)V
 
@@ -404,7 +404,7 @@
 
     invoke-direct {v11, v12}, Landroid/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
 
-    const v12, 0x7f0b0e30
+    const v12, 0x7f0b0e56
 
     invoke-virtual {v11, v12}, Landroid/app/AlertDialog$Builder;->setMessage(I)Landroid/app/AlertDialog$Builder;
 
@@ -415,7 +415,7 @@
 
     invoke-direct {v12, p0}, Lcom/samsung/android/settings/bluetooth/tethering/BtTetherSettings$2;-><init>(Lcom/samsung/android/settings/bluetooth/tethering/BtTetherSettings;)V
 
-    const v13, 0x7f0b14b6
+    const v13, 0x7f0b163c
 
     .line 338
     invoke-virtual {v11, v13, v12}, Landroid/app/AlertDialog$Builder;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
@@ -479,7 +479,7 @@
     .line 352
     iget-object v11, p0, Lcom/samsung/android/settings/bluetooth/tethering/BtTetherSettings;->mActivity:Landroid/app/Activity;
 
-    const v12, 0x7f0b03f8
+    const v12, 0x7f0b03fb
 
     const/4 v13, 0x0
 
@@ -1042,7 +1042,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0b03d7
+    const v3, 0x7f0b03d9
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1060,7 +1060,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0b03d8
+    const v3, 0x7f0b03da
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1125,7 +1125,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0b03da
+    const v2, 0x7f0b03dc
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1143,7 +1143,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0b03db
+    const v2, 0x7f0b03dd
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

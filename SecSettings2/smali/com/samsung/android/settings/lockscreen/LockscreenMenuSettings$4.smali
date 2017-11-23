@@ -27,7 +27,7 @@
     .param p1, "this$0"    # Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;
 
     .prologue
-    .line 2719
+    .line 2722
     iput-object p1, p0, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings$4;->this$0:Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -43,7 +43,7 @@
     .prologue
     const/4 v6, 0x0
 
-    .line 2722
+    .line 2725
     iget-object v4, p0, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings$4;->this$0:Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;
 
     invoke-static {v4}, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;->-get5(Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;)Lcom/samsung/android/settings/bixby/EmSettingsManager;
@@ -54,7 +54,7 @@
 
     move-result-object v3
 
-    .line 2723
+    .line 2726
     .local v3, "stateId":Ljava/lang/String;
     const-string/jumbo v4, "UnknownSourcesOn"
 
@@ -64,7 +64,7 @@
 
     if-eqz v4, :cond_4
 
-    .line 2724
+    .line 2727
     iget-object v4, p0, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings$4;->this$0:Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;
 
     invoke-static {v4}, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;->-get19(Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;)Lcom/android/settingslib/SecRestrictedSwitchPreference;
@@ -77,7 +77,7 @@
 
     if-nez v4, :cond_1
 
-    .line 2726
+    .line 2729
     iget-object v4, p0, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings$4;->this$0:Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;
 
     invoke-static {v4}, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;->-get5(Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;)Lcom/samsung/android/settings/bixby/EmSettingsManager;
@@ -88,12 +88,12 @@
 
     invoke-virtual {v4, v5}, Lcom/samsung/android/settings/bixby/EmSettingsManager;->sendResponse(Lcom/samsung/android/app/executor/ExecutorMediator$ResponseResults;)V
 
-    .line 2890
+    .line 2893
     :cond_0
     :goto_0
     return-void
 
-    .line 2728
+    .line 2731
     :cond_1
     iget-object v4, p0, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings$4;->this$0:Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;
 
@@ -107,7 +107,7 @@
 
     if-eqz v4, :cond_2
 
-    .line 2729
+    .line 2732
     iget-object v4, p0, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings$4;->this$0:Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;
 
     invoke-static {v4}, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;->-get5(Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;)Lcom/samsung/android/settings/bixby/EmSettingsManager;
@@ -122,7 +122,7 @@
 
     invoke-virtual {v4, v5, v6, v7}, Lcom/samsung/android/settings/bixby/EmSettingsManager;->setNlgScreenParam(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2730
+    .line 2733
     iget-object v4, p0, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings$4;->this$0:Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;
 
     invoke-static {v4}, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;->-get5(Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;)Lcom/samsung/android/settings/bixby/EmSettingsManager;
@@ -133,7 +133,7 @@
 
     invoke-virtual {v4, v5}, Lcom/samsung/android/settings/bixby/EmSettingsManager;->requestNlg(Ljava/lang/String;)V
 
-    .line 2731
+    .line 2734
     iget-object v4, p0, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings$4;->this$0:Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;
 
     invoke-static {v4}, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;->-get5(Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;)Lcom/samsung/android/settings/bixby/EmSettingsManager;
@@ -146,7 +146,7 @@
 
     goto :goto_0
 
-    .line 2733
+    .line 2736
     :cond_2
     iget-object v4, p0, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings$4;->this$0:Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;
 
@@ -162,7 +162,7 @@
 
     invoke-virtual {v4, v5}, Lcom/android/settingslib/SecRestrictedSwitchPreference;->performClick(Landroid/preference/PreferenceScreen;)V
 
-    .line 2734
+    .line 2737
     iget-object v4, p0, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings$4;->this$0:Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;
 
     invoke-static {v4}, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;->-get5(Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;)Lcom/samsung/android/settings/bixby/EmSettingsManager;
@@ -175,7 +175,7 @@
 
     if-eqz v4, :cond_3
 
-    .line 2735
+    .line 2738
     iget-object v4, p0, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings$4;->this$0:Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;
 
     invoke-static {v4}, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;->-get5(Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;)Lcom/samsung/android/settings/bixby/EmSettingsManager;
@@ -190,7 +190,7 @@
 
     invoke-virtual {v4, v5, v6, v7}, Lcom/samsung/android/settings/bixby/EmSettingsManager;->setNlgScreenParam(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2736
+    .line 2739
     iget-object v4, p0, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings$4;->this$0:Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;
 
     invoke-static {v4}, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;->-get5(Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;)Lcom/samsung/android/settings/bixby/EmSettingsManager;
@@ -201,7 +201,7 @@
 
     invoke-virtual {v4, v5}, Lcom/samsung/android/settings/bixby/EmSettingsManager;->requestNlg(Ljava/lang/String;)V
 
-    .line 2738
+    .line 2741
     :cond_3
     iget-object v4, p0, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings$4;->this$0:Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;
 
@@ -215,7 +215,7 @@
 
     goto :goto_0
 
-    .line 2741
+    .line 2744
     :cond_4
     const-string/jumbo v4, "UnknownSourcesOff"
 
@@ -225,7 +225,7 @@
 
     if-eqz v4, :cond_8
 
-    .line 2742
+    .line 2745
     iget-object v4, p0, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings$4;->this$0:Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;
 
     invoke-static {v4}, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;->-get19(Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;)Lcom/android/settingslib/SecRestrictedSwitchPreference;
@@ -238,7 +238,7 @@
 
     if-nez v4, :cond_5
 
-    .line 2744
+    .line 2747
     iget-object v4, p0, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings$4;->this$0:Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;
 
     invoke-static {v4}, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;->-get5(Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;)Lcom/samsung/android/settings/bixby/EmSettingsManager;
@@ -251,7 +251,7 @@
 
     goto/16 :goto_0
 
-    .line 2746
+    .line 2749
     :cond_5
     iget-object v4, p0, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings$4;->this$0:Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;
 
@@ -265,7 +265,7 @@
 
     if-nez v4, :cond_6
 
-    .line 2748
+    .line 2751
     iget-object v4, p0, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings$4;->this$0:Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;
 
     invoke-static {v4}, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;->-get5(Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;)Lcom/samsung/android/settings/bixby/EmSettingsManager;
@@ -280,7 +280,7 @@
 
     invoke-virtual {v4, v5, v6, v7}, Lcom/samsung/android/settings/bixby/EmSettingsManager;->setNlgScreenParam(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2749
+    .line 2752
     iget-object v4, p0, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings$4;->this$0:Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;
 
     invoke-static {v4}, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;->-get5(Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;)Lcom/samsung/android/settings/bixby/EmSettingsManager;
@@ -291,7 +291,7 @@
 
     invoke-virtual {v4, v5}, Lcom/samsung/android/settings/bixby/EmSettingsManager;->requestNlg(Ljava/lang/String;)V
 
-    .line 2750
+    .line 2753
     iget-object v4, p0, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings$4;->this$0:Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;
 
     invoke-static {v4}, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;->-get5(Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;)Lcom/samsung/android/settings/bixby/EmSettingsManager;
@@ -304,7 +304,7 @@
 
     goto/16 :goto_0
 
-    .line 2752
+    .line 2755
     :cond_6
     iget-object v4, p0, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings$4;->this$0:Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;
 
@@ -320,7 +320,7 @@
 
     invoke-virtual {v4, v5}, Lcom/android/settingslib/SecRestrictedSwitchPreference;->performClick(Landroid/preference/PreferenceScreen;)V
 
-    .line 2753
+    .line 2756
     iget-object v4, p0, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings$4;->this$0:Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;
 
     invoke-static {v4}, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;->-get5(Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;)Lcom/samsung/android/settings/bixby/EmSettingsManager;
@@ -333,7 +333,7 @@
 
     if-eqz v4, :cond_7
 
-    .line 2754
+    .line 2757
     iget-object v4, p0, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings$4;->this$0:Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;
 
     invoke-static {v4}, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;->-get5(Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;)Lcom/samsung/android/settings/bixby/EmSettingsManager;
@@ -348,7 +348,7 @@
 
     invoke-virtual {v4, v5, v6, v7}, Lcom/samsung/android/settings/bixby/EmSettingsManager;->setNlgScreenParam(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2755
+    .line 2758
     iget-object v4, p0, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings$4;->this$0:Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;
 
     invoke-static {v4}, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;->-get5(Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;)Lcom/samsung/android/settings/bixby/EmSettingsManager;
@@ -359,7 +359,7 @@
 
     invoke-virtual {v4, v5}, Lcom/samsung/android/settings/bixby/EmSettingsManager;->requestNlg(Ljava/lang/String;)V
 
-    .line 2757
+    .line 2760
     :cond_7
     iget-object v4, p0, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings$4;->this$0:Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;
 
@@ -373,7 +373,7 @@
 
     goto/16 :goto_0
 
-    .line 2760
+    .line 2763
     :cond_8
     const-string/jumbo v4, "OtherSecuritySettings"
 
@@ -383,7 +383,7 @@
 
     if-eqz v4, :cond_a
 
-    .line 2761
+    .line 2764
     iget-object v4, p0, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings$4;->this$0:Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;
 
     invoke-static {v4}, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;->-get20(Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;)Landroid/preference/Preference;
@@ -396,7 +396,7 @@
 
     if-nez v4, :cond_9
 
-    .line 2763
+    .line 2766
     iget-object v4, p0, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings$4;->this$0:Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;
 
     invoke-static {v4}, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;->-get5(Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;)Lcom/samsung/android/settings/bixby/EmSettingsManager;
@@ -409,7 +409,7 @@
 
     goto/16 :goto_0
 
-    .line 2765
+    .line 2768
     :cond_9
     iget-object v4, p0, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings$4;->this$0:Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;
 
@@ -425,7 +425,7 @@
 
     invoke-virtual {v4, v5}, Landroid/preference/Preference;->performClick(Landroid/preference/PreferenceScreen;)V
 
-    .line 2766
+    .line 2769
     iget-object v4, p0, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings$4;->this$0:Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;
 
     invoke-static {v4}, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;->-get5(Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;)Lcom/samsung/android/settings/bixby/EmSettingsManager;
@@ -438,7 +438,7 @@
 
     goto/16 :goto_0
 
-    .line 2768
+    .line 2771
     :cond_a
     const-string/jumbo v4, "Irises"
 
@@ -448,7 +448,7 @@
 
     if-eqz v4, :cond_d
 
-    .line 2769
+    .line 2772
     invoke-static {}, Lcom/android/settings/Utils;->isSupportIris()Z
 
     move-result v4
@@ -471,25 +471,25 @@
 
     if-nez v4, :cond_b
 
-    .line 2770
+    .line 2773
     invoke-static {}, Lcom/android/settings/Utils;->isLDUModel()Z
 
     move-result v4
 
-    .line 2769
+    .line 2772
     if-nez v4, :cond_b
 
-    .line 2770
+    .line 2773
     sget-object v4, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;->mContext:Landroid/content/Context;
 
     invoke-static {v4}, Lcom/android/settings/Utils;->isSharedDeviceEnabled(Landroid/content/Context;)Z
 
     move-result v4
 
-    .line 2769
+    .line 2772
     if-eqz v4, :cond_c
 
-    .line 2772
+    .line 2775
     :cond_b
     iget-object v4, p0, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings$4;->this$0:Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;
 
@@ -503,7 +503,7 @@
 
     goto/16 :goto_0
 
-    .line 2774
+    .line 2777
     :cond_c
     iget-object v4, p0, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings$4;->this$0:Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;
 
@@ -519,7 +519,7 @@
 
     invoke-virtual {v4, v5}, Landroid/preference/Preference;->performClick(Landroid/preference/PreferenceScreen;)V
 
-    .line 2775
+    .line 2778
     iget-object v4, p0, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings$4;->this$0:Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;
 
     invoke-static {v4}, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;->-get5(Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;)Lcom/samsung/android/settings/bixby/EmSettingsManager;
@@ -532,7 +532,7 @@
 
     goto/16 :goto_0
 
-    .line 2777
+    .line 2780
     :cond_d
     const-string/jumbo v4, "Fingerprints"
 
@@ -542,7 +542,7 @@
 
     if-eqz v4, :cond_10
 
-    .line 2778
+    .line 2781
     iget-object v4, p0, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings$4;->this$0:Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;
 
     invoke-virtual {v4}, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;->getActivity()Landroid/app/Activity;
@@ -563,25 +563,25 @@
 
     if-nez v4, :cond_e
 
-    .line 2779
+    .line 2782
     sget-object v4, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;->mContext:Landroid/content/Context;
 
     invoke-static {v4}, Lcom/android/settings/Utils;->isShopDemo(Landroid/content/Context;)Z
 
     move-result v4
 
-    .line 2778
+    .line 2781
     if-nez v4, :cond_e
 
-    .line 2779
+    .line 2782
     invoke-static {}, Lcom/android/settings/Utils;->isLDUModel()Z
 
     move-result v4
 
-    .line 2778
+    .line 2781
     if-eqz v4, :cond_f
 
-    .line 2781
+    .line 2784
     :cond_e
     iget-object v4, p0, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings$4;->this$0:Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;
 
@@ -595,7 +595,7 @@
 
     goto/16 :goto_0
 
-    .line 2783
+    .line 2786
     :cond_f
     iget-object v4, p0, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings$4;->this$0:Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;
 
@@ -611,7 +611,7 @@
 
     invoke-virtual {v4, v5}, Landroid/preference/Preference;->performClick(Landroid/preference/PreferenceScreen;)V
 
-    .line 2784
+    .line 2787
     iget-object v4, p0, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings$4;->this$0:Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;
 
     invoke-static {v4}, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;->-get5(Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;)Lcom/samsung/android/settings/bixby/EmSettingsManager;
@@ -622,7 +622,7 @@
 
     invoke-virtual {v4, v5}, Lcom/samsung/android/settings/bixby/EmSettingsManager;->setClientVisibility(Z)V
 
-    .line 2785
+    .line 2788
     iget-object v4, p0, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings$4;->this$0:Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;
 
     invoke-static {v4}, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;->-get5(Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;)Lcom/samsung/android/settings/bixby/EmSettingsManager;
@@ -635,7 +635,7 @@
 
     goto/16 :goto_0
 
-    .line 2787
+    .line 2790
     :cond_10
     const-string/jumbo v4, "ScreenLockType"
 
@@ -645,7 +645,7 @@
 
     if-eqz v4, :cond_16
 
-    .line 2788
+    .line 2791
     invoke-static {}, Lcom/android/settings/Utils;->isLDUModel()Z
 
     move-result v4
@@ -660,7 +660,7 @@
 
     if-eqz v4, :cond_12
 
-    .line 2790
+    .line 2793
     :cond_11
     iget-object v4, p0, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings$4;->this$0:Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;
 
@@ -674,7 +674,7 @@
 
     goto/16 :goto_0
 
-    .line 2792
+    .line 2795
     :cond_12
     iget-object v4, p0, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings$4;->this$0:Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;
 
@@ -688,7 +688,7 @@
 
     if-nez v4, :cond_13
 
-    .line 2794
+    .line 2797
     iget-object v4, p0, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings$4;->this$0:Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;
 
     invoke-static {v4}, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;->-get5(Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;)Lcom/samsung/android/settings/bixby/EmSettingsManager;
@@ -701,7 +701,7 @@
 
     goto/16 :goto_0
 
-    .line 2796
+    .line 2799
     :cond_13
     iget-object v4, p0, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings$4;->this$0:Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;
 
@@ -731,7 +731,7 @@
 
     if-eqz v4, :cond_14
 
-    .line 2797
+    .line 2800
     iget-object v4, p0, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings$4;->this$0:Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;
 
     invoke-static {v4}, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;->-get10(Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;)Landroid/preference/Preference;
@@ -746,7 +746,7 @@
 
     invoke-virtual {v4, v5}, Landroid/preference/Preference;->performClick(Landroid/preference/PreferenceScreen;)V
 
-    .line 2798
+    .line 2801
     iget-object v4, p0, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings$4;->this$0:Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;
 
     invoke-static {v4}, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;->-get5(Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;)Lcom/samsung/android/settings/bixby/EmSettingsManager;
@@ -761,7 +761,7 @@
 
     invoke-virtual {v4, v5, v6, v7}, Lcom/samsung/android/settings/bixby/EmSettingsManager;->setNlgScreenParam(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2799
+    .line 2802
     iget-object v4, p0, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings$4;->this$0:Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;
 
     invoke-static {v4}, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;->-get5(Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;)Lcom/samsung/android/settings/bixby/EmSettingsManager;
@@ -774,7 +774,7 @@
 
     goto/16 :goto_0
 
-    .line 2802
+    .line 2805
     :cond_14
     iget-object v4, p0, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings$4;->this$0:Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;
 
@@ -790,7 +790,7 @@
 
     invoke-virtual {v4, v5}, Landroid/preference/Preference;->performClick(Landroid/preference/PreferenceScreen;)V
 
-    .line 2803
+    .line 2806
     iget-object v4, p0, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings$4;->this$0:Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;
 
     invoke-static {v4}, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;->-get5(Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;)Lcom/samsung/android/settings/bixby/EmSettingsManager;
@@ -803,7 +803,7 @@
 
     if-eqz v4, :cond_15
 
-    .line 2804
+    .line 2807
     iget-object v4, p0, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings$4;->this$0:Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;
 
     invoke-static {v4}, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;->-get5(Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;)Lcom/samsung/android/settings/bixby/EmSettingsManager;
@@ -818,7 +818,7 @@
 
     invoke-virtual {v4, v5, v6, v7}, Lcom/samsung/android/settings/bixby/EmSettingsManager;->setNlgScreenParam(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2805
+    .line 2808
     iget-object v4, p0, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings$4;->this$0:Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;
 
     invoke-static {v4}, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;->-get5(Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;)Lcom/samsung/android/settings/bixby/EmSettingsManager;
@@ -829,7 +829,7 @@
 
     invoke-virtual {v4, v5}, Lcom/samsung/android/settings/bixby/EmSettingsManager;->requestNlg(Ljava/lang/String;)V
 
-    .line 2807
+    .line 2810
     :cond_15
     iget-object v4, p0, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings$4;->this$0:Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;
 
@@ -843,7 +843,7 @@
 
     goto/16 :goto_0
 
-    .line 2811
+    .line 2814
     :cond_16
     const-string/jumbo v4, "SmartLock"
 
@@ -853,7 +853,7 @@
 
     if-eqz v4, :cond_1a
 
-    .line 2812
+    .line 2815
     iget-object v4, p0, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings$4;->this$0:Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;
 
     invoke-static {v4}, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;->-get18(Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;)Lcom/samsung/android/settingslib/RestrictedPreference;
@@ -902,7 +902,7 @@
 
     if-eqz v4, :cond_18
 
-    .line 2813
+    .line 2816
     :cond_17
     iget-object v4, p0, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings$4;->this$0:Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;
 
@@ -918,7 +918,7 @@
 
     invoke-virtual {v4, v5, v6, v7}, Lcom/samsung/android/settings/bixby/EmSettingsManager;->setNlgScreenParam(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2814
+    .line 2817
     iget-object v4, p0, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings$4;->this$0:Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;
 
     invoke-static {v4}, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;->-get5(Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;)Lcom/samsung/android/settings/bixby/EmSettingsManager;
@@ -929,7 +929,7 @@
 
     invoke-virtual {v4, v5}, Lcom/samsung/android/settings/bixby/EmSettingsManager;->requestNlg(Ljava/lang/String;)V
 
-    .line 2815
+    .line 2818
     iget-object v4, p0, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings$4;->this$0:Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;
 
     invoke-static {v4}, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;->-get5(Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;)Lcom/samsung/android/settings/bixby/EmSettingsManager;
@@ -942,7 +942,7 @@
 
     goto/16 :goto_0
 
-    .line 2817
+    .line 2820
     :cond_18
     iget-object v4, p0, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings$4;->this$0:Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;
 
@@ -958,7 +958,7 @@
 
     invoke-virtual {v4, v5}, Lcom/samsung/android/settingslib/RestrictedPreference;->performClick(Landroid/preference/PreferenceScreen;)V
 
-    .line 2818
+    .line 2821
     iget-object v4, p0, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings$4;->this$0:Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;
 
     invoke-static {v4}, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;->-get5(Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;)Lcom/samsung/android/settings/bixby/EmSettingsManager;
@@ -971,7 +971,7 @@
 
     if-eqz v4, :cond_19
 
-    .line 2819
+    .line 2822
     iget-object v4, p0, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings$4;->this$0:Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;
 
     invoke-static {v4}, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;->-get5(Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;)Lcom/samsung/android/settings/bixby/EmSettingsManager;
@@ -986,7 +986,7 @@
 
     invoke-virtual {v4, v5, v6, v7}, Lcom/samsung/android/settings/bixby/EmSettingsManager;->setNlgScreenParam(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2820
+    .line 2823
     iget-object v4, p0, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings$4;->this$0:Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;
 
     invoke-static {v4}, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;->-get5(Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;)Lcom/samsung/android/settings/bixby/EmSettingsManager;
@@ -997,7 +997,7 @@
 
     invoke-virtual {v4, v5}, Lcom/samsung/android/settings/bixby/EmSettingsManager;->requestNlg(Ljava/lang/String;)V
 
-    .line 2822
+    .line 2825
     :cond_19
     iget-object v4, p0, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings$4;->this$0:Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;
 
@@ -1011,7 +1011,7 @@
 
     goto/16 :goto_0
 
-    .line 2825
+    .line 2828
     :cond_1a
     const-string/jumbo v4, "AppShortcuts"
 
@@ -1021,7 +1021,7 @@
 
     if-eqz v4, :cond_1c
 
-    .line 2826
+    .line 2829
     iget-object v4, p0, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings$4;->this$0:Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;
 
     invoke-static {v4}, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;->-get8(Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;)Landroid/preference/PreferenceScreen;
@@ -1040,7 +1040,7 @@
 
     if-eqz v4, :cond_1b
 
-    .line 2830
+    .line 2833
     iget-object v4, p0, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings$4;->this$0:Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;
 
     invoke-static {v4}, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;->-get8(Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;)Landroid/preference/PreferenceScreen;
@@ -1055,7 +1055,7 @@
 
     invoke-virtual {v4, v5}, Landroid/preference/PreferenceScreen;->performClick(Landroid/preference/PreferenceScreen;)V
 
-    .line 2831
+    .line 2834
     iget-object v4, p0, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings$4;->this$0:Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;
 
     invoke-static {v4}, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;->-get5(Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;)Lcom/samsung/android/settings/bixby/EmSettingsManager;
@@ -1068,7 +1068,7 @@
 
     goto/16 :goto_0
 
-    .line 2828
+    .line 2831
     :cond_1b
     iget-object v4, p0, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings$4;->this$0:Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;
 
@@ -1082,7 +1082,7 @@
 
     goto/16 :goto_0
 
-    .line 2833
+    .line 2836
     :cond_1c
     const-string/jumbo v4, "InformationAndQuickTools"
 
@@ -1092,7 +1092,7 @@
 
     if-eqz v4, :cond_1e
 
-    .line 2834
+    .line 2837
     iget-object v4, p0, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings$4;->this$0:Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;
 
     invoke-static {v4}, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;->-get17(Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;)Landroid/preference/PreferenceScreen;
@@ -1101,7 +1101,7 @@
 
     if-eqz v4, :cond_1d
 
-    .line 2835
+    .line 2838
     iget-object v4, p0, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings$4;->this$0:Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;
 
     invoke-static {v4}, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;->-get9(Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;)Lcom/android/internal/widget/LockPatternUtils;
@@ -1116,10 +1116,10 @@
 
     move-result v4
 
-    .line 2834
+    .line 2837
     if-eqz v4, :cond_1d
 
-    .line 2837
+    .line 2840
     iget-object v4, p0, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings$4;->this$0:Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;
 
     invoke-static {v4}, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;->-get5(Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;)Lcom/samsung/android/settings/bixby/EmSettingsManager;
@@ -1132,7 +1132,7 @@
 
     goto/16 :goto_0
 
-    .line 2839
+    .line 2842
     :cond_1d
     iget-object v4, p0, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings$4;->this$0:Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;
 
@@ -1148,7 +1148,7 @@
 
     invoke-virtual {v4, v5}, Landroid/preference/PreferenceScreen;->performClick(Landroid/preference/PreferenceScreen;)V
 
-    .line 2840
+    .line 2843
     iget-object v4, p0, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings$4;->this$0:Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;
 
     invoke-static {v4}, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;->-get5(Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;)Lcom/samsung/android/settings/bixby/EmSettingsManager;
@@ -1161,7 +1161,7 @@
 
     goto/16 :goto_0
 
-    .line 2842
+    .line 2845
     :cond_1e
     const-string/jumbo v4, "Notifications"
 
@@ -1171,7 +1171,7 @@
 
     if-eqz v4, :cond_21
 
-    .line 2843
+    .line 2846
     iget-object v4, p0, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings$4;->this$0:Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;
 
     invoke-static {v4}, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;->-get9(Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;)Lcom/android/internal/widget/LockPatternUtils;
@@ -1188,7 +1188,7 @@
 
     if-eqz v4, :cond_1f
 
-    .line 2845
+    .line 2848
     iget-object v4, p0, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings$4;->this$0:Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;
 
     invoke-static {v4}, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;->-get5(Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;)Lcom/samsung/android/settings/bixby/EmSettingsManager;
@@ -1201,7 +1201,7 @@
 
     goto/16 :goto_0
 
-    .line 2847
+    .line 2850
     :cond_1f
     invoke-static {}, Lcom/android/settings/Utils;->isSupportNotificationsIconsOnly()Z
 
@@ -1209,7 +1209,7 @@
 
     if-eqz v4, :cond_20
 
-    .line 2848
+    .line 2851
     iget-object v4, p0, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings$4;->this$0:Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;
 
     invoke-static {v4}, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;->-get12(Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;)Lcom/android/settingslib/SecRestrictedSettingsSwitchPreference;
@@ -1224,7 +1224,7 @@
 
     invoke-virtual {v4, v5}, Lcom/android/settingslib/SecRestrictedSettingsSwitchPreference;->performClick(Landroid/preference/PreferenceScreen;)V
 
-    .line 2849
+    .line 2852
     iget-object v4, p0, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings$4;->this$0:Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;
 
     invoke-static {v4}, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;->-get5(Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;)Lcom/samsung/android/settings/bixby/EmSettingsManager;
@@ -1237,7 +1237,7 @@
 
     goto/16 :goto_0
 
-    .line 2851
+    .line 2854
     :cond_20
     iget-object v4, p0, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings$4;->this$0:Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;
 
@@ -1253,7 +1253,7 @@
 
     invoke-virtual {v4, v5}, Landroid/preference/PreferenceScreen;->performClick(Landroid/preference/PreferenceScreen;)V
 
-    .line 2852
+    .line 2855
     iget-object v4, p0, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings$4;->this$0:Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;
 
     invoke-static {v4}, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;->-get5(Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;)Lcom/samsung/android/settings/bixby/EmSettingsManager;
@@ -1266,7 +1266,7 @@
 
     goto/16 :goto_0
 
-    .line 2855
+    .line 2858
     :cond_21
     const-string/jumbo v4, "AlwaysOnDisplay"
 
@@ -1276,7 +1276,7 @@
 
     if-eqz v4, :cond_27
 
-    .line 2856
+    .line 2859
     invoke-static {}, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;->-get21()Landroid/os/PowerManager;
 
     move-result-object v4
@@ -1285,7 +1285,7 @@
 
     move-result v0
 
-    .line 2857
+    .line 2860
     .local v0, "bPowerSaving":Z
     iget-object v4, p0, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings$4;->this$0:Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;
 
@@ -1303,7 +1303,7 @@
 
     const/4 v2, 0x1
 
-    .line 2859
+    .line 2862
     .local v2, "isNegativeColorEnabled":Z
     :goto_1
     if-eqz v0, :cond_22
@@ -1335,7 +1335,7 @@
 
     if-ne v4, v5, :cond_25
 
-    .line 2861
+    .line 2864
     :cond_23
     iget-object v4, p0, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings$4;->this$0:Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;
 
@@ -1349,7 +1349,7 @@
 
     goto/16 :goto_0
 
-    .line 2857
+    .line 2860
     .end local v2    # "isNegativeColorEnabled":Z
     :cond_24
     const/4 v2, 0x0
@@ -1357,11 +1357,11 @@
     .restart local v2    # "isNegativeColorEnabled":Z
     goto :goto_1
 
-    .line 2859
+    .line 2862
     :cond_25
     if-nez v2, :cond_23
 
-    .line 2863
+    .line 2866
     iget-object v4, p0, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings$4;->this$0:Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;
 
     invoke-static {v4}, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;->-get3(Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;)Lcom/samsung/android/settings/SettingsSwitchPreference;
@@ -1376,7 +1376,7 @@
 
     invoke-virtual {v4, v5}, Lcom/samsung/android/settings/SettingsSwitchPreference;->performClick(Landroid/preference/PreferenceScreen;)V
 
-    .line 2864
+    .line 2867
     iget-object v4, p0, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings$4;->this$0:Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;
 
     invoke-static {v4}, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;->-get5(Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;)Lcom/samsung/android/settings/bixby/EmSettingsManager;
@@ -1389,7 +1389,7 @@
 
     if-eqz v4, :cond_26
 
-    .line 2865
+    .line 2868
     iget-object v4, p0, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings$4;->this$0:Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;
 
     invoke-static {v4}, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;->-get5(Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;)Lcom/samsung/android/settings/bixby/EmSettingsManager;
@@ -1400,7 +1400,7 @@
 
     invoke-virtual {v4, v5}, Lcom/samsung/android/settings/bixby/EmSettingsManager;->requestNlg(Ljava/lang/String;)V
 
-    .line 2867
+    .line 2870
     :cond_26
     iget-object v4, p0, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings$4;->this$0:Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;
 
@@ -1414,7 +1414,7 @@
 
     goto/16 :goto_0
 
-    .line 2870
+    .line 2873
     .end local v0    # "bPowerSaving":Z
     .end local v2    # "isNegativeColorEnabled":Z
     :cond_27
@@ -1426,7 +1426,7 @@
 
     if-eqz v4, :cond_29
 
-    .line 2871
+    .line 2874
     iget-object v4, p0, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings$4;->this$0:Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;
 
     invoke-static {v4}, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;->-get9(Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;)Lcom/android/internal/widget/LockPatternUtils;
@@ -1443,7 +1443,7 @@
 
     if-nez v4, :cond_28
 
-    .line 2872
+    .line 2875
     iget-object v4, p0, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings$4;->this$0:Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;
 
     invoke-static {v4}, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;->-get5(Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;)Lcom/samsung/android/settings/bixby/EmSettingsManager;
@@ -1458,7 +1458,7 @@
 
     invoke-virtual {v4, v5, v6, v7}, Lcom/samsung/android/settings/bixby/EmSettingsManager;->setNlgScreenParam(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2873
+    .line 2876
     iget-object v4, p0, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings$4;->this$0:Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;
 
     invoke-static {v4}, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;->-get5(Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;)Lcom/samsung/android/settings/bixby/EmSettingsManager;
@@ -1469,7 +1469,7 @@
 
     invoke-virtual {v4, v5}, Lcom/samsung/android/settings/bixby/EmSettingsManager;->requestNlg(Ljava/lang/String;)V
 
-    .line 2874
+    .line 2877
     iget-object v4, p0, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings$4;->this$0:Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;
 
     invoke-static {v4}, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;->-get5(Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;)Lcom/samsung/android/settings/bixby/EmSettingsManager;
@@ -1482,7 +1482,7 @@
 
     goto/16 :goto_0
 
-    .line 2876
+    .line 2879
     :cond_28
     iget-object v4, p0, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings$4;->this$0:Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;
 
@@ -1498,7 +1498,7 @@
 
     invoke-virtual {v4, v5}, Landroid/preference/PreferenceScreen;->performClick(Landroid/preference/PreferenceScreen;)V
 
-    .line 2877
+    .line 2880
     iget-object v4, p0, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings$4;->this$0:Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;
 
     invoke-static {v4}, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;->-get5(Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;)Lcom/samsung/android/settings/bixby/EmSettingsManager;
@@ -1511,7 +1511,7 @@
 
     goto/16 :goto_0
 
-    .line 2880
+    .line 2883
     :cond_29
     const-string/jumbo v4, "EncryptSdcard"
 
@@ -1529,7 +1529,7 @@
 
     if-eqz v4, :cond_0
 
-    .line 2881
+    .line 2884
     :cond_2a
     new-instance v1, Lcom/samsung/android/security/SemSdCardEncryption;
 
@@ -1541,7 +1541,7 @@
 
     invoke-direct {v1, v4}, Lcom/samsung/android/security/SemSdCardEncryption;-><init>(Landroid/content/Context;)V
 
-    .line 2882
+    .line 2885
     .local v1, "dem":Lcom/samsung/android/security/SemSdCardEncryption;
     invoke-virtual {v1}, Lcom/samsung/android/security/SemSdCardEncryption;->isEncryptionSupported()Z
 
@@ -1549,7 +1549,7 @@
 
     if-eqz v4, :cond_2b
 
-    .line 2883
+    .line 2886
     iget-object v4, p0, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings$4;->this$0:Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;
 
     invoke-static {v4}, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;->-get15(Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;)Landroid/preference/PreferenceScreen;
@@ -1564,7 +1564,7 @@
 
     invoke-virtual {v4, v5}, Landroid/preference/PreferenceScreen;->performClick(Landroid/preference/PreferenceScreen;)V
 
-    .line 2884
+    .line 2887
     iget-object v4, p0, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings$4;->this$0:Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;
 
     invoke-static {v4}, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;->-get5(Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;)Lcom/samsung/android/settings/bixby/EmSettingsManager;
@@ -1577,7 +1577,7 @@
 
     goto/16 :goto_0
 
-    .line 2886
+    .line 2889
     :cond_2b
     iget-object v4, p0, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings$4;->this$0:Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;
 

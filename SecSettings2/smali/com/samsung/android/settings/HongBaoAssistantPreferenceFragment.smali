@@ -284,7 +284,7 @@
     :cond_0
     iget-object v2, p0, Lcom/samsung/android/settings/HongBaoAssistantPreferenceFragment;->mNotificationSound:Landroid/preference/SwitchPreference;
 
-    const v3, 0x7f0b1953
+    const v3, 0x7f0b1ad9
 
     invoke-virtual {v2, v3}, Landroid/preference/SwitchPreference;->setSummary(I)V
 
@@ -311,7 +311,7 @@
     :cond_2
     iget-object v2, p0, Lcom/samsung/android/settings/HongBaoAssistantPreferenceFragment;->mNotificationSound:Landroid/preference/SwitchPreference;
 
-    const v3, 0x7f0b0c93
+    const v3, 0x7f0b0cb5
 
     invoke-virtual {v2, v3}, Landroid/preference/SwitchPreference;->setSummary(I)V
 
@@ -363,7 +363,7 @@
     .prologue
     const/4 v8, 0x3
 
-    const v7, 0x7f0b0c8f
+    const v7, 0x7f0b0cb1
 
     const/4 v6, 0x2
 
@@ -426,7 +426,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0b0c90
+    const v2, 0x7f0b0cb2
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -439,7 +439,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0b0c91
+    const v2, 0x7f0b0cb3
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -452,7 +452,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0b0c92
+    const v2, 0x7f0b0cb4
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -478,7 +478,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0b0c93
+    const v2, 0x7f0b0cb5
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -529,7 +529,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0b0c90
+    const v2, 0x7f0b0cb2
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -542,7 +542,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0b0c91
+    const v2, 0x7f0b0cb3
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -557,7 +557,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0b0c92
+    const v2, 0x7f0b0cb4
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -884,7 +884,7 @@
     :cond_2
     iget-object v3, p0, Lcom/samsung/android/settings/HongBaoAssistantPreferenceFragment;->mNotificationSound:Landroid/preference/SwitchPreference;
 
-    const v5, 0x7f0b1953
+    const v5, 0x7f0b1ad9
 
     invoke-virtual {v3, v5}, Landroid/preference/SwitchPreference;->setSummary(I)V
 

@@ -222,7 +222,7 @@
     .line 232
     .end local v2    # "localIntent1":Landroid/content/Intent;
     :pswitch_3
-    const v5, 0x7f0b090f
+    const v5, 0x7f0b092d
 
     invoke-static {v5}, Lcom/samsung/android/settings/SecSetupLockScreenIntroActivity$SkipDialog;->newInstance(I)Lcom/samsung/android/settings/SecSetupLockScreenIntroActivity$SkipDialog;
 

@@ -476,7 +476,7 @@
     check-cast v3, Landroid/widget/TextView;
 
     .line 132
-    const v5, 0x7f0b18e0
+    const v5, 0x7f0b1a66
 
     .line 131
     invoke-virtual {v3, v5}, Landroid/widget/TextView;->setText(I)V
@@ -484,7 +484,7 @@
     .line 133
     iget-object v3, p0, Lcom/android/settings/notification/RedactionInterstitial$RedactionInterstitialFragment;->mShowAllButton:Lcom/android/settings/RestrictedRadioButton;
 
-    const v5, 0x7f0b18dd
+    const v5, 0x7f0b1a63
 
     invoke-virtual {v3, v5}, Lcom/android/settings/RestrictedRadioButton;->setText(I)V
 
@@ -492,7 +492,7 @@
     iget-object v3, p0, Lcom/android/settings/notification/RedactionInterstitial$RedactionInterstitialFragment;->mRedactSensitiveButton:Lcom/android/settings/RestrictedRadioButton;
 
     .line 135
-    const v5, 0x7f0b18de
+    const v5, 0x7f0b1a64
 
     .line 134
     invoke-virtual {v3, v5}, Lcom/android/settings/RestrictedRadioButton;->setText(I)V
@@ -507,7 +507,7 @@
     check-cast v3, Landroid/widget/RadioButton;
 
     .line 137
-    const v5, 0x7f0b18df
+    const v5, 0x7f0b1a65
 
     .line 136
     invoke-virtual {v3, v5}, Landroid/widget/RadioButton;->setText(I)V
@@ -617,7 +617,7 @@
     .line 152
     iget-object v3, p0, Lcom/android/settings/notification/RedactionInterstitial$RedactionInterstitialFragment;->mDoneButton:Landroid/widget/Button;
 
-    const v4, 0x7f02036e
+    const v4, 0x7f02036c
 
     invoke-virtual {v3, v4}, Landroid/widget/Button;->setBackgroundResource(I)V
 

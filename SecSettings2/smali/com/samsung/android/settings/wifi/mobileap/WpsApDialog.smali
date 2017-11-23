@@ -259,7 +259,7 @@
     .param p2, "intent"    # Landroid/content/Intent;
 
     .prologue
-    const v10, 0x7f0b11e8
+    const v10, 0x7f0b136e
 
     const/16 v12, 0xca
 
@@ -339,7 +339,7 @@
     .line 324
     iget-object v9, p0, Lcom/samsung/android/settings/wifi/mobileap/WpsApDialog;->mContext:Landroid/content/Context;
 
-    const v10, 0x7f0b0def
+    const v10, 0x7f0b0e14
 
     invoke-virtual {v9, v10}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -725,7 +725,7 @@
     .line 124
     iget-object v0, p0, Lcom/samsung/android/settings/wifi/mobileap/WpsApDialog;->mTextView:Landroid/widget/TextView;
 
-    const v1, 0x7f0b11e2
+    const v1, 0x7f0b1368
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -782,14 +782,14 @@
     sput-boolean v0, Lcom/android/settings/wifi/WifiSettings;->mWpsInProgress:Z
 
     .line 144
-    const v0, 0x7f0b11e1
+    const v0, 0x7f0b1367
 
     invoke-virtual {p0, v0}, Lcom/samsung/android/settings/wifi/mobileap/WpsApDialog;->setTitle(I)V
 
     .line 146
     iget-object v0, p0, Lcom/samsung/android/settings/wifi/mobileap/WpsApDialog;->mContext:Landroid/content/Context;
 
-    const v1, 0x7f0b121f
+    const v1, 0x7f0b13a5
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -832,7 +832,7 @@
     .locals 13
 
     .prologue
-    const v12, 0x7f0b11e8
+    const v12, 0x7f0b136e
 
     const/16 v11, 0xca
 
@@ -921,7 +921,7 @@
 
     iget-object v1, p0, Lcom/samsung/android/settings/wifi/mobileap/WpsApDialog;->mContext:Landroid/content/Context;
 
-    const v2, 0x7f0b0dec
+    const v2, 0x7f0b0e11
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1004,7 +1004,7 @@
 
     iget-object v1, p0, Lcom/samsung/android/settings/wifi/mobileap/WpsApDialog;->mContext:Landroid/content/Context;
 
-    const v2, 0x7f0b0ded
+    const v2, 0x7f0b0e12
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1106,7 +1106,7 @@
 
     iget-object v1, p0, Lcom/samsung/android/settings/wifi/mobileap/WpsApDialog;->mContext:Landroid/content/Context;
 
-    const v2, 0x7f0b0dee
+    const v2, 0x7f0b0e13
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

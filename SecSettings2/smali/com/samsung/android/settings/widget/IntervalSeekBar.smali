@@ -227,7 +227,7 @@
     iput-object p1, p0, Lcom/samsung/android/settings/widget/IntervalSeekBar;->mContext:Landroid/content/Context;
 
     .line 53
-    const v0, 0x7f020581
+    const v0, 0x7f02057f
 
     invoke-virtual {p0, v0}, Lcom/samsung/android/settings/widget/IntervalSeekBar;->setDrawable(I)V
 

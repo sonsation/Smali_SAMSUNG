@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="data_saver_unrestricted_summary_chn">
+        <item quantity="other">പശ്ചാത്തല ഡാറ്റ നിയന്ത്രിതമാക്കുക പ്രാപ്തമാക്കിയ സമയത്ത് നിയന്ത്രണങ്ങളില്ലാതെ മൊബൈൽ ഡാറ്റ ഉപയോഗിക്കാൻ %d ആപ്ലിക്കേഷനുകളെ അനുവദിച്ചു.</item>
+        <item quantity="one">പശ്ചാത്തല ഡാറ്റ നിയന്ത്രിതമാക്കുക പ്രാപ്തമാക്കിയ സമയത്ത് നിയന്ത്രണങ്ങളില്ലാതെ മൊബൈൽ ഡാറ്റ ഉപയോഗിക്കാൻ %d ആപ്ലിക്കേഷനുകളെ അനുവദിച്ചു.</item>
+    </plurals>
     <plurals name="lock_timeout_hours">
         <item quantity="other">%d മണിക്കൂര്‍</item>
         <item quantity="one">1 മണിക്കൂര്‍</item>

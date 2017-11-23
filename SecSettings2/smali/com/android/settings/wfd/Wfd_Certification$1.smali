@@ -85,7 +85,7 @@
 
     .line 118
     .local v0, "b":Landroid/widget/Button;
-    const v3, 0x7f0b11a1
+    const v3, 0x7f0b1327
 
     invoke-virtual {v0, v3}, Landroid/widget/Button;->setText(I)V
 
@@ -108,7 +108,7 @@
 
     .line 127
     .restart local v0    # "b":Landroid/widget/Button;
-    const v3, 0x7f0b11a2
+    const v3, 0x7f0b1328
 
     invoke-virtual {v0, v3}, Landroid/widget/Button;->setText(I)V
 

@@ -77,7 +77,7 @@
     .line 889
     iget-object v0, p0, Lcom/samsung/android/settings/face/FaceSettings$1;->this$0:Lcom/samsung/android/settings/face/FaceSettings;
 
-    const v1, 0x7f0b075e
+    const v1, 0x7f0b0778
 
     invoke-static {v0, v1}, Lcom/samsung/android/settings/face/FaceSettings;->-wrap0(Lcom/samsung/android/settings/face/FaceSettings;I)V
 

@@ -1344,7 +1344,7 @@
 
     move-result-object v19
 
-    const v20, 0x7f0b0f4f
+    const v20, 0x7f0b0f75
 
     invoke-virtual/range {v19 .. v20}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1373,7 +1373,7 @@
 
     move-result-object v19
 
-    const v20, 0x7f0b0f50
+    const v20, 0x7f0b0f76
 
     invoke-virtual/range {v19 .. v20}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1405,7 +1405,7 @@
 
     move-result-object v19
 
-    const v20, 0x7f0b0f51
+    const v20, 0x7f0b0f77
 
     invoke-virtual/range {v19 .. v20}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1437,7 +1437,7 @@
 
     move-result-object v19
 
-    const v20, 0x7f0b0f52
+    const v20, 0x7f0b0f78
 
     invoke-virtual/range {v19 .. v20}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1469,7 +1469,7 @@
 
     move-result-object v19
 
-    const v20, 0x7f0b0f53
+    const v20, 0x7f0b0f79
 
     invoke-virtual/range {v19 .. v20}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1501,7 +1501,7 @@
 
     move-result-object v19
 
-    const v20, 0x7f0b0f54
+    const v20, 0x7f0b0f7a
 
     invoke-virtual/range {v19 .. v20}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1532,7 +1532,7 @@
 
     move-result-object v19
 
-    const v20, 0x7f0b0b49
+    const v20, 0x7f0b0b6a
 
     invoke-virtual/range {v19 .. v20}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1602,7 +1602,7 @@
 
     move-result-object v19
 
-    const v20, 0x7f0b1063
+    const v20, 0x7f0b11eb
 
     invoke-virtual/range {v19 .. v20}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1735,7 +1735,7 @@
 
     .line 324
     .local v11, "mExternalTitle":Landroid/widget/TextView;
-    const v18, 0x7f0b1307
+    const v18, 0x7f0b148d
 
     move/from16 v0, v18
 
@@ -1758,7 +1758,7 @@
 
     .line 326
     .local v10, "mExternalSummary":Landroid/widget/TextView;
-    const v18, 0x7f0b1308
+    const v18, 0x7f0b148e
 
     move/from16 v0, v18
 
@@ -2967,7 +2967,7 @@
     move-result-object v1
 
     .line 192
-    const v3, 0x7f0b13c3
+    const v3, 0x7f0b1549
 
     const/4 v6, 0x0
 

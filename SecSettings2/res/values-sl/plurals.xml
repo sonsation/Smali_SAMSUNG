@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="data_saver_unrestricted_summary_chn">
+        <item quantity="other">Nekaj (%d) aplikacijam je dovoljena uporaba prenosa podatkov prek mobilnega omrežja brez omejitev, ko je omogočena funkcija Omejitev podatkov v ozadju.</item>
+        <item quantity="one">Nekaj (%d) aplikacijam je dovoljena uporaba prenosa podatkov prek mobilnega omrežja brez omejitev, ko je omogočena funkcija Omejitev podatkov v ozadju.</item>
+    </plurals>
     <plurals name="lock_timeout_hours">
         <item quantity="other">%d ur</item>
         <item quantity="one">1 ura</item>

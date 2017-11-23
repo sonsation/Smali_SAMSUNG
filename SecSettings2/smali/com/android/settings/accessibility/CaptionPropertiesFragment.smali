@@ -255,7 +255,7 @@
     .param p3, "styleId"    # I
 
     .prologue
-    const v7, 0x7f0b15a3
+    const v7, 0x7f0b1729
 
     .line 248
     invoke-virtual {p1, p3}, Lcom/android/internal/widget/SubtitleView;->setStyle(I)V
@@ -4618,7 +4618,7 @@
     aput v12, v1, v12
 
     .line 352
-    const v9, 0x7f0b15a7
+    const v9, 0x7f0b172d
 
     invoke-virtual {p0, v9}, Lcom/android/settings/accessibility/CaptionPropertiesFragment;->getString(I)Ljava/lang/String;
 
@@ -5009,7 +5009,7 @@
     .locals 10
 
     .prologue
-    const v9, 0x7f0b15a2
+    const v9, 0x7f0b1728
 
     .line 216
     invoke-virtual {p0}, Lcom/android/settings/accessibility/CaptionPropertiesFragment;->getActivity()Landroid/app/Activity;

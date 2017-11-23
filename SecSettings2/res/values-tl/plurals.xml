@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="data_saver_unrestricted_summary_chn">
+        <item quantity="other">%d app ang pinayagan na gumamit ng mobile data nang walang pagbabawal habang gumagana ang Restrict background data.</item>
+        <item quantity="one">%d app ang pinayagan na gumamit ng mobile data nang walang pagbabawal habang gumagana ang Restrict background data.</item>
+    </plurals>
     <plurals name="lock_timeout_hours">
         <item quantity="other">%d (na) oras</item>
         <item quantity="one">1 oras</item>

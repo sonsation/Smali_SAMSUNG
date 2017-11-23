@@ -195,7 +195,7 @@
 
     .line 554
     :cond_0
-    const v0, 0x7f0b152d
+    const v0, 0x7f0b16b3
 
     invoke-virtual {p0, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

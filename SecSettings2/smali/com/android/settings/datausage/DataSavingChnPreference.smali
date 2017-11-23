@@ -62,7 +62,7 @@
     iput-object v0, p0, Lcom/android/settings/datausage/DataSavingChnPreference;->mSavingServiceConnection:Landroid/content/ServiceConnection;
 
     .line 50
-    const v0, 0x7f0b0f8d
+    const v0, 0x7f0b0fb5
 
     invoke-virtual {p0, v0}, Lcom/android/settings/datausage/DataSavingChnPreference;->setSummary(I)V
 

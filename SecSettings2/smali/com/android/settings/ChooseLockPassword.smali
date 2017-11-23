@@ -1112,7 +1112,7 @@
 
     if-eqz v1, :cond_6
 
-    const v1, 0x7f0b0a72
+    const v1, 0x7f0b0a93
 
     invoke-virtual {p0, v1}, Lcom/android/settings/ChooseLockPassword;->getText(I)Ljava/lang/CharSequence;
 
@@ -1147,7 +1147,7 @@
     .line 299
     .restart local v0    # "msg":Ljava/lang/CharSequence;
     :cond_6
-    const v1, 0x7f0b0a74
+    const v1, 0x7f0b0a95
 
     invoke-virtual {p0, v1}, Lcom/android/settings/ChooseLockPassword;->getText(I)Ljava/lang/CharSequence;
 
@@ -1161,7 +1161,7 @@
 
     if-eqz v1, :cond_8
 
-    const v1, 0x7f0b1431
+    const v1, 0x7f0b15b7
 
     invoke-virtual {p0, v1}, Lcom/android/settings/ChooseLockPassword;->getText(I)Ljava/lang/CharSequence;
 
@@ -1171,7 +1171,7 @@
 
     .line 302
     :cond_8
-    const v1, 0x7f0b142f
+    const v1, 0x7f0b15b5
 
     invoke-virtual {p0, v1}, Lcom/android/settings/ChooseLockPassword;->getText(I)Ljava/lang/CharSequence;
 

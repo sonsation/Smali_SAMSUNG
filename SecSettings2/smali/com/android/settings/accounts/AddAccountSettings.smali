@@ -452,7 +452,7 @@
     if-eqz v2, :cond_1
 
     .line 146
-    const v2, 0x7f0b17d1
+    const v2, 0x7f0b1957
 
     const/4 v3, 0x1
 
@@ -526,7 +526,7 @@
 
     .line 167
     .local v0, "helper":Lcom/android/settings/ChooseLockSettingsHelper;
-    const v2, 0x7f0b1101
+    const v2, 0x7f0b1288
 
     invoke-virtual {p0, v2}, Lcom/android/settings/accounts/AddAccountSettings;->getString(I)Ljava/lang/String;
 

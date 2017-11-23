@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="data_saver_unrestricted_summary_chn">
+        <item quantity="other">પૃષ્ઠભૂમિ ડેટાને પ્રતિબંધિત કરો અક્ષમ કરેલું હોય ત્યારે %d એપ્સને વિના પ્રતિબંધોએ મોબાઇલ ડેટાનો ઉપયોગ કરવાની મંજૂરી છે.</item>
+        <item quantity="one">પૃષ્ઠભૂમિ ડેટાને પ્રતિબંધિત કરો અક્ષમ કરેલું હોય ત્યારે %d એપ્સને વિના પ્રતિબંધોએ મોબાઇલ ડેટાનો ઉપયોગ કરવાની મંજૂરી છે.</item>
+    </plurals>
     <plurals name="lock_timeout_hours">
         <item quantity="other">%d કલાક</item>
         <item quantity="one">1 કલાક</item>

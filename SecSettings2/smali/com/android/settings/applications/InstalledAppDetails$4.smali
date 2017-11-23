@@ -82,7 +82,7 @@
     if-nez p2, :cond_1
 
     .line 1943
-    const v3, 0x7f0b198f
+    const v3, 0x7f0b1b15
 
     .line 1942
     invoke-virtual {v1, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -127,7 +127,7 @@
     aput-object v4, v3, v5
 
     .line 1949
-    const v4, 0x7f13001d
+    const v4, 0x7f13001e
 
     .line 1948
     invoke-virtual {v1, v4, p3, v3}, Landroid/content/res/Resources;->getQuantityString(II[Ljava/lang/Object;)Ljava/lang/String;
@@ -145,7 +145,7 @@
     if-nez v3, :cond_3
 
     .line 1954
-    const v3, 0x7f0b198e
+    const v3, 0x7f0b1b14
 
     .line 1953
     invoke-virtual {v1, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;

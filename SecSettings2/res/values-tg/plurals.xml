@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="data_saver_unrestricted_summary_chn">
+        <item quantity="other">%d барномаҳо иҷозат доранд, ки ҳангоми фаъол будани Маҳдуд кардани иттилооти пасзамина иттилооти мобилиро бе маҳдудият истифода баранд.</item>
+        <item quantity="one">%d барномаҳо иҷозат доранд, ки ҳангоми фаъол будани Маҳдуд кардани иттилооти пасзамина иттилооти мобилиро бе маҳдудият истифода баранд.</item>
+    </plurals>
     <plurals name="lock_timeout_hours">
         <item quantity="other">%d соат</item>
         <item quantity="one">1 соат</item>

@@ -73,7 +73,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b02d5
+    const v1, 0x7f0b02d7
 
     invoke-virtual {v0, v1}, Landroid/preference/SwitchPreference;->setSummary(I)V
 

@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="data_saver_unrestricted_summary_chn">
+        <item quantity="other">Tá cead ag %d feidhmchlár sonraí móibíleacha a úsáid gan srianta agus Cuir srian ar shonraí cúlra cumasaithe.</item>
+        <item quantity="one">Tá cead ag %d feidhmchlár sonraí móibíleacha a úsáid gan srianta agus Cuir srian ar shonraí cúlra cumasaithe.</item>
+    </plurals>
     <plurals name="lock_timeout_hours">
         <item quantity="other">%d uair an chloig</item>
         <item quantity="one">1 uair an chloig</item>

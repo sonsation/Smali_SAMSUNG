@@ -376,7 +376,7 @@
     if-eqz v7, :cond_5
 
     .line 4007
-    const v0, 0x7f0b06bf
+    const v0, 0x7f0b06d9
 
     invoke-virtual {p0, v0}, Lcom/android/settings/ChooseLockGeneric$ChooseLockGenericFragment$FactoryResetProtectionWarningDialog;->getString(I)Ljava/lang/String;
 
@@ -389,7 +389,7 @@
     if-eqz p1, :cond_3
 
     .line 4027
-    const v0, 0x7f0b07c8
+    const v0, 0x7f0b07e2
 
     invoke-virtual {p0, v0}, Lcom/android/settings/ChooseLockGeneric$ChooseLockGenericFragment$FactoryResetProtectionWarningDialog;->getString(I)Ljava/lang/String;
 
@@ -425,7 +425,7 @@
     invoke-direct/range {v0 .. v5}, Lcom/android/settings/ChooseLockGeneric$ChooseLockGenericFragment$FactoryResetProtectionWarningDialog$3;-><init>(Lcom/android/settings/ChooseLockGeneric$ChooseLockGenericFragment$FactoryResetProtectionWarningDialog;Landroid/hardware/fingerprint/FingerprintManager;Landroid/app/Activity;Landroid/os/Bundle;Z)V
 
     .line 4110
-    const v1, 0x7f0b0436
+    const v1, 0x7f0b043e
 
     .line 4108
     invoke-virtual {v14, v1, v0}, Landroid/app/AlertDialog$Builder;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
@@ -448,7 +448,7 @@
     invoke-direct {v1, p0}, Lcom/android/settings/ChooseLockGeneric$ChooseLockGenericFragment$FactoryResetProtectionWarningDialog$4;-><init>(Lcom/android/settings/ChooseLockGeneric$ChooseLockGenericFragment$FactoryResetProtectionWarningDialog;)V
 
     .line 4141
-    const v5, 0x7f0b107a
+    const v5, 0x7f0b1202
 
     .line 4108
     invoke-virtual {v0, v5, v1}, Landroid/app/AlertDialog$Builder;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
@@ -481,7 +481,7 @@
     .line 4158
     iget-object v0, p0, Lcom/android/settings/ChooseLockGeneric$ChooseLockGenericFragment$FactoryResetProtectionWarningDialog;->mDeleteAllDialog:Landroid/app/AlertDialog;
 
-    const v1, 0x7f0b06cb
+    const v1, 0x7f0b06e5
 
     invoke-virtual {v0, v1}, Landroid/app/AlertDialog;->setTitle(I)V
 
@@ -506,7 +506,7 @@
     .end local v13    # "strMessage":Ljava/lang/String;
     .restart local v7    # "enabledFingeprrintRelatedFunc":Z
     :cond_5
-    const v0, 0x7f0b06af
+    const v0, 0x7f0b06c9
 
     invoke-virtual {p0, v0}, Lcom/android/settings/ChooseLockGeneric$ChooseLockGenericFragment$FactoryResetProtectionWarningDialog;->getString(I)Ljava/lang/String;
 
@@ -533,7 +533,7 @@
 
     aput-object v1, v0, v5
 
-    const v1, 0x7f0b06c0
+    const v1, 0x7f0b06da
 
     invoke-virtual {p0, v1, v0}, Lcom/android/settings/ChooseLockGeneric$ChooseLockGenericFragment$FactoryResetProtectionWarningDialog;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -557,7 +557,7 @@
 
     aput-object v1, v0, v5
 
-    const v1, 0x7f0b06b0
+    const v1, 0x7f0b06ca
 
     invoke-virtual {p0, v1, v0}, Lcom/android/settings/ChooseLockGeneric$ChooseLockGenericFragment$FactoryResetProtectionWarningDialog;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -575,7 +575,7 @@
     if-ne v12, v0, :cond_9
 
     .line 4020
-    const v0, 0x7f0b06b1
+    const v0, 0x7f0b06cb
 
     invoke-virtual {p0, v0}, Lcom/android/settings/ChooseLockGeneric$ChooseLockGenericFragment$FactoryResetProtectionWarningDialog;->getString(I)Ljava/lang/String;
 
@@ -599,7 +599,7 @@
 
     aput-object v1, v0, v5
 
-    const v1, 0x7f0b06b2
+    const v1, 0x7f0b06cc
 
     invoke-virtual {p0, v1, v0}, Lcom/android/settings/ChooseLockGeneric$ChooseLockGenericFragment$FactoryResetProtectionWarningDialog;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -634,7 +634,7 @@
 
     .line 4220
     .local v2, "mLockPatternUtils":Lcom/android/internal/widget/LockPatternUtils;
-    const v4, 0x7f0b07c6
+    const v4, 0x7f0b07e0
 
     invoke-virtual {p0, v4}, Lcom/android/settings/ChooseLockGeneric$ChooseLockGenericFragment$FactoryResetProtectionWarningDialog;->getString(I)Ljava/lang/String;
 
@@ -665,7 +665,7 @@
 
     .line 4225
     :cond_0
-    const v4, 0x7f0b07c7
+    const v4, 0x7f0b07e1
 
     invoke-virtual {p0, v4}, Lcom/android/settings/ChooseLockGeneric$ChooseLockGenericFragment$FactoryResetProtectionWarningDialog;->getString(I)Ljava/lang/String;
 
@@ -691,7 +691,7 @@
     invoke-direct {v5, p0, v1, v0}, Lcom/android/settings/ChooseLockGeneric$ChooseLockGenericFragment$FactoryResetProtectionWarningDialog$6;-><init>(Lcom/android/settings/ChooseLockGeneric$ChooseLockGenericFragment$FactoryResetProtectionWarningDialog;Landroid/app/Activity;Landroid/os/Bundle;)V
 
     .line 4230
-    const v6, 0x7f0b0436
+    const v6, 0x7f0b043e
 
     .line 4228
     invoke-virtual {v4, v6, v5}, Landroid/app/AlertDialog$Builder;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
@@ -704,7 +704,7 @@
     invoke-direct {v5, p0}, Lcom/android/settings/ChooseLockGeneric$ChooseLockGenericFragment$FactoryResetProtectionWarningDialog$7;-><init>(Lcom/android/settings/ChooseLockGeneric$ChooseLockGenericFragment$FactoryResetProtectionWarningDialog;)V
 
     .line 4252
-    const v6, 0x7f0b107a
+    const v6, 0x7f0b1202
 
     .line 4228
     invoke-virtual {v4, v6, v5}, Landroid/app/AlertDialog$Builder;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
@@ -764,7 +764,7 @@
 
     .line 3862
     .local v0, "array":Ljava/util/ArrayList;, "Ljava/util/ArrayList<Ljava/lang/String;>;"
-    const v1, 0x7f0b091b
+    const v1, 0x7f0b0939
 
     invoke-virtual {p0, v1}, Lcom/android/settings/ChooseLockGeneric$ChooseLockGenericFragment$FactoryResetProtectionWarningDialog;->getString(I)Ljava/lang/String;
 
@@ -777,7 +777,7 @@
 
     .line 3878
     :goto_0
-    const v1, 0x7f0b107a
+    const v1, 0x7f0b1202
 
     invoke-virtual {p0, v1}, Lcom/android/settings/ChooseLockGeneric$ChooseLockGenericFragment$FactoryResetProtectionWarningDialog;->getString(I)Ljava/lang/String;
 
@@ -790,7 +790,7 @@
 
     .line 3866
     :pswitch_0
-    const v1, 0x7f0b0922
+    const v1, 0x7f0b0940
 
     invoke-virtual {p0, v1}, Lcom/android/settings/ChooseLockGeneric$ChooseLockGenericFragment$FactoryResetProtectionWarningDialog;->getString(I)Ljava/lang/String;
 
@@ -803,7 +803,7 @@
     invoke-virtual {v0, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
     .line 3867
-    const v1, 0x7f0b0923
+    const v1, 0x7f0b0941
 
     invoke-virtual {p0, v1}, Lcom/android/settings/ChooseLockGeneric$ChooseLockGenericFragment$FactoryResetProtectionWarningDialog;->getString(I)Ljava/lang/String;
 
@@ -819,7 +819,7 @@
 
     .line 3870
     :pswitch_1
-    const v1, 0x7f0b0924
+    const v1, 0x7f0b0942
 
     invoke-virtual {p0, v1}, Lcom/android/settings/ChooseLockGeneric$ChooseLockGenericFragment$FactoryResetProtectionWarningDialog;->getString(I)Ljava/lang/String;
 
@@ -832,7 +832,7 @@
     invoke-virtual {v0, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
     .line 3871
-    const v1, 0x7f0b0925
+    const v1, 0x7f0b0943
 
     invoke-virtual {p0, v1}, Lcom/android/settings/ChooseLockGeneric$ChooseLockGenericFragment$FactoryResetProtectionWarningDialog;->getString(I)Ljava/lang/String;
 
@@ -848,7 +848,7 @@
 
     .line 3874
     :pswitch_2
-    const v1, 0x7f0b0926
+    const v1, 0x7f0b0944
 
     invoke-virtual {p0, v1}, Lcom/android/settings/ChooseLockGeneric$ChooseLockGenericFragment$FactoryResetProtectionWarningDialog;->getString(I)Ljava/lang/String;
 
@@ -861,7 +861,7 @@
     invoke-virtual {v0, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
     .line 3875
-    const v1, 0x7f0b0927
+    const v1, 0x7f0b0945
 
     invoke-virtual {p0, v1}, Lcom/android/settings/ChooseLockGeneric$ChooseLockGenericFragment$FactoryResetProtectionWarningDialog;->getString(I)Ljava/lang/String;
 
@@ -1741,7 +1741,7 @@
 
     move-result-object v13
 
-    const v14, 0x7f0b0921
+    const v14, 0x7f0b093f
 
     invoke-virtual {v13, v14}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1753,7 +1753,7 @@
 
     move-result-object v13
 
-    const v14, 0x7f0b0920
+    const v14, 0x7f0b093e
 
     invoke-virtual {v13, v14}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

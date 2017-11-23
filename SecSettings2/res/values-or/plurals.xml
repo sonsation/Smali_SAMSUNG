@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="data_saver_unrestricted_summary_chn">
+        <item quantity="other">ପୃଷ୍ଠପଟ ଡାଟା ପ୍ରତିବନ୍ଧ ସକ୍ଷମ ହୋଇଥିବା ସମୟରେ ପ୍ରତିବନ୍ଧକ ବ୍ୟତୀତ ମୋବାଇଲ୍ ଡାଟା ବ୍ୟବହାର କରିବାକୁ %dଟି ଆପ୍ଲିକେସନକୁ ଅନୁମତି ଦିଅନ୍ତୁ।</item>
+        <item quantity="one">ପୃଷ୍ଠପଟ ଡାଟା ପ୍ରତିବନ୍ଧ ସକ୍ଷମ ହୋଇଥିବା ସମୟରେ ପ୍ରତିବନ୍ଧକ ବ୍ୟତୀତ ମୋବାଇଲ୍ ଡାଟା ବ୍ୟବହାର କରିବାକୁ %dଟି ଆପ୍ଲିକେସନକୁ ଅନୁମତି ଦିଅନ୍ତୁ।</item>
+    </plurals>
     <plurals name="lock_timeout_hours">
         <item quantity="other">%d ଘଣ୍ଟା</item>
         <item quantity="one">1 ଘଣ୍ଟା</item>

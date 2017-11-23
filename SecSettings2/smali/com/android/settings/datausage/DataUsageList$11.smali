@@ -27,7 +27,7 @@
     .param p1, "this$0"    # Lcom/android/settings/datausage/DataUsageList;
 
     .prologue
-    .line 519
+    .line 515
     iput-object p1, p0, Lcom/android/settings/datausage/DataUsageList$11;->this$0:Lcom/android/settings/datausage/DataUsageList;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -44,22 +44,22 @@
     .prologue
     move-object v1, p1
 
-    .line 522
+    .line 518
     check-cast v1, Lcom/android/settings/datausage/AppDataUsagePreference;
 
-    .line 523
+    .line 519
     .local v1, "pref":Lcom/android/settings/datausage/AppDataUsagePreference;
     invoke-virtual {v1}, Lcom/android/settings/datausage/AppDataUsagePreference;->getItem()Lcom/android/settingslib/AppItem;
 
     move-result-object v0
 
-    .line 524
+    .line 520
     .local v0, "item":Lcom/android/settingslib/AppItem;
     iget-object v2, p0, Lcom/android/settings/datausage/DataUsageList$11;->this$0:Lcom/android/settings/datausage/DataUsageList;
 
     invoke-static {v2, v0}, Lcom/android/settings/datausage/DataUsageList;->-wrap3(Lcom/android/settings/datausage/DataUsageList;Lcom/android/settingslib/AppItem;)V
 
-    .line 525
+    .line 521
     const/4 v2, 0x1
 
     return v2

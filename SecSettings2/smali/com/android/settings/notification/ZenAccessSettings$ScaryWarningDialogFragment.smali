@@ -72,7 +72,7 @@
     aput-object v1, v6, v7
 
     .line 234
-    const v7, 0x7f0b1a06
+    const v7, 0x7f0b1b8c
 
     invoke-virtual {v5, v7, v6}, Landroid/content/res/Resources;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -85,7 +85,7 @@
     move-result-object v5
 
     .line 237
-    const v6, 0x7f0b1a07
+    const v6, 0x7f0b1b8d
 
     .line 236
     invoke-virtual {v5, v6}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -120,7 +120,7 @@
     invoke-direct {v6, p0, v2}, Lcom/android/settings/notification/ZenAccessSettings$ScaryWarningDialogFragment$1;-><init>(Lcom/android/settings/notification/ZenAccessSettings$ScaryWarningDialogFragment;Ljava/lang/String;)V
 
     .line 242
-    const v7, 0x7f0b0fa4
+    const v7, 0x7f0b112c
 
     .line 238
     invoke-virtual {v5, v7, v6}, Landroid/app/AlertDialog$Builder;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
@@ -133,7 +133,7 @@
     invoke-direct {v6, p0}, Lcom/android/settings/notification/ZenAccessSettings$ScaryWarningDialogFragment$2;-><init>(Lcom/android/settings/notification/ZenAccessSettings$ScaryWarningDialogFragment;)V
 
     .line 248
-    const v7, 0x7f0b1213
+    const v7, 0x7f0b1399
 
     .line 238
     invoke-virtual {v5, v7, v6}, Landroid/app/AlertDialog$Builder;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;

@@ -144,7 +144,7 @@
     new-array v3, v8, [Ljava/lang/CharSequence;
 
     .line 155
-    const v4, 0x7f0b19a6
+    const v4, 0x7f0b1b2c
 
     invoke-virtual {p0, v4}, Lcom/android/settings/applications/AppLaunchSettings;->getString(I)Ljava/lang/String;
 
@@ -153,7 +153,7 @@
     aput-object v4, v3, v5
 
     .line 156
-    const v4, 0x7f0b19a7
+    const v4, 0x7f0b1b2d
 
     invoke-virtual {p0, v4}, Lcom/android/settings/applications/AppLaunchSettings;->getString(I)Ljava/lang/String;
 
@@ -162,7 +162,7 @@
     aput-object v4, v3, v6
 
     .line 157
-    const v4, 0x7f0b19a8
+    const v4, 0x7f0b1b2e
 
     invoke-virtual {p0, v4}, Lcom/android/settings/applications/AppLaunchSettings;->getString(I)Ljava/lang/String;
 
@@ -518,7 +518,7 @@
     if-nez p1, :cond_0
 
     .line 130
-    const v2, 0x7f0b19a3
+    const v2, 0x7f0b1b29
 
     invoke-virtual {v0, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -531,7 +531,7 @@
     if-ne p1, v2, :cond_1
 
     .line 135
-    const v1, 0x7f0b19a4
+    const v1, 0x7f0b1b2a
 
     .line 138
     .local v1, "summary":I
@@ -553,7 +553,7 @@
     .line 136
     .end local v1    # "summary":I
     :cond_1
-    const v1, 0x7f0b19a5
+    const v1, 0x7f0b1b2b
 
     .restart local v1    # "summary":I
     goto :goto_0
@@ -800,7 +800,7 @@
     move-result-object v1
 
     .line 253
-    const v3, 0x7f0b197a
+    const v3, 0x7f0b1b00
 
     const/4 v6, 0x0
 

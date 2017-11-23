@@ -31,7 +31,7 @@
     <string name="bluetooth_disconnected">غیر منسلک ہو گیا</string>
     <string name="bluetooth_disconnecting">کنیکشن توڑ رہا ہے۔۔۔</string>
     <string name="bluetooth_connecting">جڑ رہا ہے</string>
-    <string name="bluetooth_connected">منسلک ہوگیا۔</string>
+    <string name="bluetooth_connected">مربوط</string>
     <string name="bluetooth_pairing">جوڑ رہا ہے…</string>
     <string name="bluetooth_connected_no_headset">مربوط (کوئی فون نہیں ہے)</string>
     <string name="bluetooth_connected_no_a2dp">مربوط (کوئی میڈیا نہیں ہے)</string>
@@ -433,7 +433,7 @@ Enter the code you get from Verizon:"</string>
     <string name="answering_end_call_title">کالز کا جواب دینا اور انھیں ختم کرنا</string>
     <string name="audio_preference_title">سماعت</string>
     <string name="mono_audio_title">مونو آڈیو</string>
-    <string name="mono_audio_summary">جب آپ ایک ایئر فون استعمال کررہے ہوں تو آڈیو کو اسٹیریو سے مونو پر سوئچ کریں</string>
+    <string name="mono_audio_summary">ایک کان سے سننے کے لیے اسٹیریو سے مونو تک آڈیو سوئچ کریں۔</string>
     <string name="multi_window_title">کئی دریچہ</string>
     <string name="magnifier_seekbar_plus_tts">پلس</string>
     <string name="magnifier_seekbar_minus_tts">منفی</string>
@@ -514,16 +514,18 @@ Enter the code you get from Verizon:"</string>
     <string name="direct_access_actions_universal_switch_title">یونیورسل سوئچ</string>
     <string name="sound_detector_title">بے بی کرائنگ ڈیٹیکٹر</string>
     <string name="sound_detector_main_title">آواز کا ڈیٹیکٹر</string>
-    <string name="sound_detector_main_description">جب آلہ کو بچے کے رونے یا دروازے کی گھنٹی کا پتہ چلے تو انتباہات وصول کریں۔</string>
+    <string name="sound_detector_main_description">جب فون کو بے بی کرائنگ یا دروازے کی گھنٹی کا پتہ چلے تو انتباہات وصول کریں۔</string>
     <string name="accessibility_easy_interaction_summary">الارمز، کیلنڈر واقعات اور وقتی یادہانیوں کو رد یا سنوز کریں یا صرف ایک تھپکی کے ساتھ آنے والی کالوں کا جواب دیں یا انکار کریں۔</string>
     <string name="accessibility_easy_interaction_summary_tablet_wifi">روکنے/الارمز ملتوی کرنے اور کیلنڈر وقوعہ جات کے لئے تھپتھپائیں۔</string>
-    <string name="all_sound_off">سب آوازیں آف کریں</string>
-    <string name="all_sound_off_summary">کسی بھی قسم کی آواز نہ چلائیں، بشمول اسپیکر فون کے ذریعے، آواز موڈ آواز پر سیٹ ہونے پر بھی۔</string>
+    <string name="all_sound_off">تمام آوازیں خاموش کریں</string>
+    <string name="all_sound_off_summary">بشمول فون کالز کے، تمام آوازیں آف کریں، یہاں تک کہ اگر کوئی موڈ آواز کے لیے سیٹ ہے۔</string>
     <string name="all_sound_off_dialog_summary">%1$s اور %2$s ایک ہی وقت میں نہیں اہل نہیں کیے جا سکتے ہیں۔ %3$s غیر فعال کر دیا جائے گا۔</string>
+    <string name="all_sound_off_popup_description">تمام خاموش آوازوں کا استعمال کرنے کے لیے، %s آف کیے جانے کی ضرورت ہے۔</string>
+    <string name="all_sound_turn_off_button">آف کریں</string>
     <string name="turn_off_all_sounds">سب آوازیں آف کریں</string>
     <string name="turn_off_all_sounds1">تمام آوازیں اور پیغام کا جواب دینا آف کريں دونوں ایک ساتھ اہل نہیں بنائے جاسکتے</string>
     <string name="turn_off_all_sounds2">تمام آوازیں اور پیغام کا جواب دینا آف کريں دونوں ایک ساتھ اہل نہیں بنائے جاسکتے۔ پیغام کا جواب دینا نا اہل بنادیا جائے گا۔</string>
-    <string name="turn_off_all_sounds_toast_with_sound_detector">تمام آواز بند کرنا آواز کے ڈیٹیکٹرز اہل کنے کے دوران نااہل نہیں ہوسکتا۔ اہیں نااہل کرنے کے لیے، سیٹنگز > رسائی > سماعت > آواز کے ڈیٹیکٹر پر جائیں، پھر تمام آواز کے ڈیٹیکٹرز کو نااہل کریں۔</string>
+    <string name="turn_off_all_sounds_toast_with_sound_detector">آواز ڈیٹیکٹر آن ہونے کے وقت تمام آوازیں خاموش نہیں کرسکتے۔</string>
     <string name="accessibility_categories_title">زمرے</string>
     <string name="share_accessibility_settings">رسائی پذیری بندوبست کریں</string>
     <string name="share_accessibility_settings_summary">اپنی رسائی پذیری ترتیبات کو درآمد یا برآمد کریں، یا انہیں دیگر آلات کے ساتھ بانٹیں۔</string>
@@ -660,6 +662,7 @@ Enter the code you get from Verizon:"</string>
     <string name="deviceOption">آلہ کے اختیارات</string>
     <string name="lock">لاک</string>
     <string name="powerOff">پاور آف</string>
+    <string name="unable_assistantmenu_while_sidesync">‏SideSync استعمال کرنے پر معاون مینو پر آن نہیں کرسکتے۔</string>
     <string name="eamenableinfo">معاون پلس فعال کرنے کیلئے، کم از کم [ایک ایپلیکیشن] منتخب کریں۔</string>
     <string name="fetch_progress">کوائف لوڈ کررہا ہے…</string>
     <string name="assistant_menu_enable_message">%s اور درج ذیل اختیارات ایک ہی وقت میں اہل نہیں ہو سکتے ہیں۔ ذیل کے اختیارات غیر فعال ہو جائیں گے۔</string>
@@ -766,7 +769,7 @@ Enter the code you get from Verizon:"</string>
     <string name="xcover_key_shortcut_battery_conserving_mode">Battery conserving mode</string>
     <string name="xcover_key_shortcut_normal_mode">عام موڈ</string>
     <string name="flight_mode_enabled_toast">جب فلائٹ موڈ اہل بنادیا گیا ہو موبائل نیٹ ورکس سے جڑنے سے قاصر۔ فلائٹ موڈ نا اہل بنائیں اور دوبارہ کوشش کریں۔</string>
-    <string name="airplane_mode_summary">کالنگ اور پیغام رسانی فنکشنز کو نااہل کریں، اور موبائل ڈیٹا کو بند کریں۔</string>
+    <string name="airplane_mode_summary">کالنگ، پیغام رسانی، اور موبائل ڈیٹا کو آف کریں۔</string>
     <string name="usb_not_support_mtp_usb3_dialog_title">نوٹس</string>
     <string name="airplane_mode_desc">فلائٹ موڈ آپ کو نیٹ ورک خصوصیات بشمول Wi-Fi، آف کرنے کی اجازت دیتا ہے۔ Wi-Fi استعمال کرنے کیلئے اسے سیٹنگز یا اعلامیہ پینل میں آن کریں۔</string>
     <string name="flight_mode_enable_popup_title">فلائٹ موڈ اہل کریں</string>
@@ -906,6 +909,7 @@ Wi-Fi اور بلیوٹوتھ کو بھی آف کر دیا جائے گا لیک�
     <string name="bluetooth_control_app_disable_summary">بلیوٹوتھ بند کریں: %s</string>
     <string name="bluetooth_enter_pin_msg">‏%s کے ساتھ جوڑی بنانے کے لئے پن درج کریں (آزمائیں 0000 یا 1234)</string>
     <string name="bluetooth_pin_maximum_number_message">حروف کی زیادہ سے زیادہ تعداد پہنچ گئی۔</string>
+    <string name="bluetooth_frp_permission_message">اس کال کے لیے بلیوٹوتھ آلہ کا استعمال نہیں کیا جاسکتا۔</string>
     <string name="settings_menu_done">مکمل</string>
     <string name="usb_tethering_unavailable_subtext_tmo">USB not connected</string>
     <string name="usb_tethering_available_subtext_tmo">USB connected, check to tether</string>
@@ -946,11 +950,16 @@ Wi-Fi اور بلیوٹوتھ کو بھی آف کر دیا جائے گا لیک�
 - اسکرین شاٹ پر بنائیں۔
 - اسکرین شاٹ کراپ کریں۔
 - اسکرین شاٹ شیئرکریں۔"</string>
+    <string name="smart_capture_summary">اسکرین شاٹ کیپچر کرنے کے بعد اضافی اختیارات دکھائیں۔ اسمارٹ کیپچر کے ذریعہ، آپ کرسکتے ہیں:</string>
+    <string name="smart_capture_summary_1">اسکرین کے پوشیدہ علاقوں کو کیپچر کریں۔</string>
+    <string name="smart_capture_summary_2">اسکرین شاٹ پر بنائیں۔</string>
+    <string name="smart_capture_summary_3">اسکرین شاٹ کو چھانٹیں۔</string>
+    <string name="smart_capture_summary_4">اسکرین شاٹ شیئر کریں۔</string>
     <string name="identify_unsaved_numbers_title">غیر محفوظ شدہ نمبروں کی شناخت کریں</string>
     <string name="identify_unsaved_numbers_title_usa">سپام نمبرز کی شناخت کریں</string>
     <string name="call_message_spam_filter_title">Call/message spam filter</string>
     <string name="onehand_operation_summary">اپنے فون کو ایک ہاتھ سے آسانی کے ساتھ کنٹرول کرنے کے لیے ڈسپلے سائز اور لے آؤٹ کے مطابق کریں۔</string>
-    <string name="direct_share_title">براہ راست شئیر کریں</string>
+    <string name="direct_share_title">براہ راست شیئر کریں</string>
     <string name="direct_share_summary">کسی ایپلیکیشن سے شیئرنگ پینل کے ذریعہ براہ راست مخصوص لوگوں کے ساتھ مواد شیئر کریں۔</string>
     <string name="direct_share_description">جب Google براہ راست شیئر فنکشن کے ذریعہ تعاون یافتہ ایپلیکیشنز میں پیغامات یا ای میل بھیجنے کے اعمال انجام دے رہا ہو توبراہ راست شیئر شبیہ شیئرنگ پینل کے بالائی میں دکھایا جائے گا۔</string>
     <string name="direct_share_description_chn">جب Android براہ راست شئیر فنکشن کے ذریعہ تعاون یافتہ ایپلیکیشنز میں پیغامات یا ای میل بھیجنے کے اعمال انجام دے رہا ہو، توبراہ راست شئیر شبیہ کو شئیرنگ پینل کے بالائی میں دکھایا جائے گا۔</string>
@@ -1042,6 +1051,7 @@ Wi-Fi اور بلیوٹوتھ کو بھی آف کر دیا جائے گا لیک�
     <string name="fota_update_summary">فرم وئیر کو تازہ ترین ورژن میں اپ ڈیٹ کرنے اور نئی خصوصیات کا استعمال کرنے کے لیے یہاں تھپکی دیں۔</string>
     <string name="favorite_tab">فوری سیٹنگز</string>
     <string name="device_maintenance_title">آلہ کی بحالی</string>
+    <string name="memory_string">میموری</string>
     <string name="tab_favorite_edit">فوری سیٹنگز کی تدوین کریں</string>
     <string name="add_favorite_button">فوری سیٹنگز کی تدوین کریں</string>
     <string name="cloud_and_accounts_title">کلاؤڈ اور اکاؤنٹ</string>
@@ -1079,7 +1089,12 @@ Wi-Fi اور بلیوٹوتھ کو بھی آف کر دیا جائے گا لیک�
     <string name="notification_settings_apps_title">‏‫ایپلیکیشن کی اطلاعات</string>
     <string name="international_roaming_setting">گشت کرنے کی سیٹنگز</string>
     <string name="user_manual_mos">صارف کا رہنما کتابچہ</string>
-    <string name="data_saver_description">ڈیٹا کا استعمال کم کرنے میں مدد کے لیے، ڈیٹا سرور کچھ اپیلیکیشنز کو پس منظر میں بھیجنے یا وصول کرنے سے بچاتا ہے۔ نیز، فی الحال زیر استعمال ایپلیکیشنز ڈیٹا تک رسائی کرسکتا ہے، لیکن اتنا ہی کم اثر انداز ہوسکتا ہے۔ مثلا، تصویریں صحیح طورپر نہیں دکھائی جاسکتی جب تک آپ اس پر تھپکی نہ دے دیں۔</string>
+    <string name="data_saver_description">ڈیٹا سیور پس منظر میں ڈیٹا بھیجنے یا وصول کرنے سے کچھ ایپلیکیشنز کو بچاکر آپ کے ڈیٹا کے استعمال کو کرنے میں مدد کرتا ہے۔ فی الحال آپ کے زیر استعمال ایپلیکیشنز موبائل ڈیٹا کا استعمال کرسکتا ہے، لیکن اتنا کم بھی ہوسکتا ہے۔ مثلا، تصویریں نہیں دکھائی جاسکتی جب تک آپ اس پر تھپکی نہ دے دیں۔</string>
+    <string name="unrestricted_data_saver_chn">بغیر پابندیوں کے ڈیٹا استعمال کریں</string>
+    <string name="data_saver_description_chn">ڈیٹا کا استعمال کم کرنے میں مدد کے لیے، پس منظر کا محدود ڈیٹا کچھ اپیلیکیشنز کو پس منظر میں بھیجنے یا وصول کرنے سے بچاتا ہے۔ نیز، فی الحال زیر استعمال ایپلیکیشنز ڈیٹا تک رسائی کرسکتا ہے، لیکن اتنا ہی کم اثر انداز ہوسکتا ہے۔ مثلا، تصاویر صحیح طورپر نہیں دکھائی جاسکتی جب تک آپ اس پر تھپکی نہ دے دیں۔</string>
+    <string name="data_saver_title_chn">پس منظر کا ڈیٹا محدود کریں</string>
+    <string name="unrestricted_app_title_chn">بغیر پابندیوں کے ڈیٹا استعمال کریں</string>
+    <string name="unrestricted_app_summary_chn">ڈیٹا کی تحدید کیے بغیر محدود پس منظر کا ڈیٹا کے اہل ہونے پر یہ ایپلیکیشنز موبائل ڈیٹا استعمال کرسکتا ہے۔</string>
     <string name="data_used_editor_subtitle">Enter the amount of data you have used this month:</string>
     <string name="traffic_vertify">Details</string>
     <string name="btn_tmo">Upgrade data service</string>
@@ -1131,7 +1146,9 @@ Data usage is measured by your phone. Your carrier may account for usage differe
     <string name="last_checked_date">آخری بار چیک کیا گیا:</string>
     <string name="auto_update">خود بخود اپ ڈیٹس ڈاؤن لوڈ کریں</string>
     <string name="auto_update_summary">ایک Wi-Fi نیٹ ورک سے مربوط ہونے پر خود کار طورپر سافٹ ویئر اپ ڈیٹ ڈاؤن لوڈ کریں۔ آپ اس کے بعد بھی ڈاؤن لوڈ کے دوران اپنا آلہ استعمال کرنے کے قابل ہوں گے۔</string>
-    <string name="scheduled_update">شیڈیول سافٹ ویئر تازہ کاریاں</string>
+    <string name="auto_update_over_wifi">خودکار ڈاؤن لوڈ Wi-Fi سے زیادہ</string>
+    <string name="auto_update_over_wifi_summary">کسی Wi-Fi نیٹ ورک سے مربوط ہونے پر خود کار طورپر سافٹ ویئر اپ ڈیٹ ڈاؤن لوڈ کریں۔ آپ کے خدمت فراہم کنندہ پر منحصر، بغیر کسی اضافی چارجز کے موبائل ڈیٹا کا استعمال کرکے اپ ڈیٹس بھی ڈاؤن لوڈ کیا جاسکتا ہے۔ آپ ڈاؤن لوڈ کے دوران بھی اپنا فون استعمال کرنے کے قابل ہوں گے۔</string>
+    <string name="scheduled_update">شیڈیول کردہ سافٹ ویئر اپ ڈیٹ ہوتا ہے</string>
     <string name="scheduled_update_summary_default">آف</string>
     <string name="scheduled_update_summary_set_time">اپ ڈیٹ %s پر شروع ہوگا</string>
     <string name="scheduled_update_summary_set_time_everyday">اپ ڈیٹ ہر دن %s پر شروع ہوگا</string>
@@ -1164,7 +1181,7 @@ Data usage is measured by your phone. Your carrier may account for usage differe
     <string name="memory_mms_usage">MMS</string>
     <string name="user_owner">مالک</string>
     <string name="unable_to_charge_the_connected_device">%s کے لیے USB کیبل استعمال کرنے سے قاصر۔</string>
-    <string name="unable_to_change_usb_options_via_smart_switch">‏Smart Switch کے ذریعے ڈیٹا منتقل کرتے ہوئے USB اختیارات کو تبدیل کرنے سے قاصر۔</string>
+    <string name="unable_to_change_usb_options_via_smart_switch">‏Smart Switch کے ذریعے ڈیٹا منتقل کرتے ہوئے USB اختیارات کو تبدیل نہیں کرسکتے۔</string>
     <string name="usb_configuring">تشکیل کررہا ہے…</string>
     <string name="usb_use_none_summary">آپ کے آلے کے کوائف منتقل نہیں کئے جا سکتے ہیں۔</string>
     <string name="usb_use_charging_only_summary_vzw">Just charge this phone.</string>
@@ -1172,9 +1189,9 @@ Data usage is measured by your phone. Your carrier may account for usage differe
     <string name="usb_use_file_transfers_summary_vzw">Transfer media files to a computer.</string>
     <string name="usb_use_file_transfers_summary">ایک MTP کنکشن کے ذریعے PC پر میڈیا فائلز منتقل کریں۔</string>
     <string name="usb_use_MIDI_summary_vzw">Use device for MIDI input.</string>
-    <string name="usb_use_MIDI_summary">جڑے ہوئے آلہ کو ایک MIDI (موسیقی آلہ کا ڈیجیٹل انٹرفیس) پلیئر یا ان پٹ ماخذ کے بطور استعمال کریں۔</string>
-    <string name="usb_use_software_installation">Software Installation</string>
-    <string name="usb_use_software_installation_summary">Install Software Update and Repair tool for your device on a Mac or Windows computer.</string>
+    <string name="usb_use_MIDI_summary">جڑے ہوئے آلہ کو بطور MIDI پلیئر یا ان پٹ ماخذ کو استعمال کریں۔</string>
+    <string name="usb_use_system_update">سسٹم اپ ڈیٹ</string>
+    <string name="usb_use_system_update_summary">اپنے کمپیوٹر پر سافٹ ویئر اپ گریڈ معاون نصب کریں اور اس فون کو اپ ڈیٹ یا مرمت کریں۔</string>
     <string name="sim_status_code">کوڈ</string>
     <string name="sim_status_btn_update">‏SIM کارڈ کی صورتحال اپ ڈیٹ کریں</string>
     <string name="sim_status_updating">اپ ڈیٹ کر رہا ہے…</string>
@@ -1263,7 +1280,7 @@ Where Can I Find More Information About the 3rd Party's Policies? Separately, if
     <string name="display_temperature">رنگ بیلینس</string>
     <string name="adjust_your_display_colour">سفید ٹونز کے ظہور کو تبدیل کرنے کے لیے اپنے ڈسپلے کے رنگ کو مطابق کریں۔</string>
     <string name="led_indicator_settings">‏LED اشارہ نما</string>
-    <string name="led_indicator_settings_summary">چارج کرتے وقت LED اشاریہ جلائیں، آواز ریکارڈ کریں، یا اطلاعات موصول کریں۔</string>
+    <string name="led_indicator_settings_summary">اسکرین آف ہوجانے کے وقت آواز ریکارڈنگ، بغیر پڑھا ہوا نوٹیفکیشنز، اور بیٹری کی صورتحال دکھانے کے لیے LED انڈیکیٹر کی روشنی جلائیں۔</string>
     <string name="screen_resolution_desc">کچھ مواد دھندلے پن کے ساتھ ظاہر ہوسکتا ہے اور FHD یا HD میں معاون نہیں ہوسکتا۔</string>
     <string name="display_battery_percentage">بیٹری فیصد دکھائیں</string>
     <string name="display_battery_percentage_summary">بقایا بیٹری پاور کو بطور فیصد کے حالت بار پر دکھائیں۔</string>
@@ -1310,12 +1327,12 @@ Where Can I Find More Information About the 3rd Party's Policies? Separately, if
     <string name="blue_light_filter_off_time_next_day_summary_format">%s اگلے دن</string>
     <string name="blue_light_filter_user_schedule_title">کسٹم شیڈیول</string>
     <string name="blue_light_filter_auto_schedule_title">غروب آفتاب طلوع آفتاب کے لیے ہے</string>
-    <string name="blue_light_filter_desc">آپ کو بہتر سلیپ میں مدد کے لیے نیلی لائٹ فلٹر استعمال کریں۔ جب آپ نیلی لائٹ فلٹر استعمال کرنا چاہتے ہوں تو ایک شیڈول سیٹ کریں۔ غروب آفتاب کو طلوع آفتاب میں استعمال کرنے کے لیے، مقام اہل ہونی چاہئے۔</string>
-    <string name="blue_light_filter_enable_now">ابھی اہل کریں</string>
+    <string name="blue_light_filter_desc">اپنی بہترین نیند میں مدد کے لیے رات میں نیلی روشنی فلٹر استعمال کریں۔ اپنی پسندیدہ نیلی روشنی فلٹر استعمال کرنے پر ایک شیڈول سیٹ کرسکتے ہیں۔ غروب آفتاب سے طلوع آفتاب استعمال کرنے کے لیے، مقام کو آن کیے جانے کی ضرورت ہے۔</string>
+    <string name="blue_light_filter_enable_now">ابھی آن کریں</string>
     <string name="blue_light_filter_enable_as_scheduled">شیڈیول کے بطور اہل کریں</string>
-    <string name="blue_light_filter_scheduled_toast">نیلا لائٹ فلٹر اہل ہوگیا ہے۔ یہ شیڈول کردہ اختتام وقت پر خودکار طورپر نااہل ہوجائے گا۔</string>
+    <string name="blue_light_filter_scheduled_toast">نیلی لائٹ فلٹر آن ہوگيا۔ یہ خودکار طور پر مقررہ وقت کے اختتام پر بند کر دیا جائے گا۔</string>
     <string name="screen_mode_dlg_turn_off_blue_light_filter">%s اور نیلے روشنی فلٹر ایک ہی وقت میں استعمال نہیں کئے جاسکتے۔ نیلے روشنی فلٹر نااہل ہوگا۔</string>
-    <string name="blue_light_filter_dlg_turn_on_location">غروب آفتاب کو طلوع آفتاب میں استعمال کرنے کے لیے، مقام اہل ہونی چاہئے۔</string>
+    <string name="blue_light_filter_dlg_turn_on_location">غروب آفتاب سے طلوع آفتاب استعمال کرنے کے لیے، مقام کو آن کیے جانے کی ضرورت ہے۔</string>
     <string name="dlg_turn_on">آن کریں</string>
     <string name="screen_resolution_title">اسکرین کی جزیات کاری</string>
     <string name="screen_resolution_desc_title">اسکرین جزیات کاری تبدیل کریں</string>
@@ -1422,6 +1439,10 @@ Where Can I Find More Information About the 3rd Party's Policies? Separately, if
     <string name="crypt_keeper_vzw_password_warning">Set the Screen lock password with at least %d characters and 1 number.</string>
     <string name="crypt_keeper_decrypt_title">آلہ کی خفیہ کشائی کریں</string>
     <string name="crypt_keeper_decrypt_summary">آلہ کی خفیہ کاری ہوگئی۔</string>
+    <string name="crypt_keeper_type_pin">پن</string>
+    <string name="crypt_keeper_type_pattern">نمونہ</string>
+    <string name="crypt_keeper_type_password">پاس ورڈ</string>
+    <string name="crypt_keeper_type_direction">سمت مقفل</string>
     <string name="crypt_keeper_confirm_title_dec">خفیہ کشائی کی تصدیق کریں</string>
     <string name="crypt_keeper_force_power_cycle_pattern">اپنا آلہ شروع کرنے کے لیے، اسے آف کریں، پھر سے دوبارہ آن کریں، پھر دوبارہ کوشش کریں۔ آپ کو ایک نمونہ بنانے کی ضرورت ہے جو آلہ کو شروع کرنے اور اسکرین کو انلاک کرنے کے لیے استعمال کرتے ہیں۔ آپ کا آلہ شروع کرنے کے لیے آپ کا بیک اپ پن استعمال نہیں کیا جاسکتا۔</string>
     <string name="crypt_keeper_setup_description_dec">"آلہ کی خفیہ کشائی کرنا۔ اس میں کچھ وقت لگ سکتا ہے۔ براہ کرم انتظار کریں…
@@ -1511,6 +1532,7 @@ Where Can I Find More Information About the 3rd Party's Policies? Separately, if
     <string name="crypt_keeper_verify_failed_summary">آپ کا آلہ دوبارہ اسٹارٹ کرنے سے قاصر۔ تصدیق کی سالمیت ناکام ہوگئی۔ آپ کو اپنے آلہ کو فیکٹری کے طے شدہ سیٹنگز پر پھر سیٹ کرنے کی ضرورت ہے۔ اس سے آپ کا تمام ڈیٹا مٹا دیا جائے گا۔</string>
     <string name="cryptkeeper_emergency_call">ایمرجنسی کال</string>
     <string name="cryptkeeper_return_to_call">کال پر واپس جائیں</string>
+    <string name="cryptkeeper_default_enter_msg">آپ کا فون سیکیورٹی کے لیے خفیہ کردیا گيا ہے۔</string>
     <string name="enter_password">اپنا آلہ شروع کرنے کے لیے، اپنا پاس ورڈ درج کریں۔</string>
     <string name="enter_pin">اپنا آلہ شروع کرنے کے لیے، اپنا پن درج کریں۔</string>
     <string name="enter_pattern">اپنا آلہ شروع کرنے کے لیے، اپنا نمونہ بنائیں۔</string>
@@ -1520,11 +1542,13 @@ Where Can I Find More Information About the 3rd Party's Policies? Separately, if
     <string name="cryptkeeper_wrong_pin">غلط پن درج کیا گیا</string>
     <string name="cryptkeeper_wrong_direction">غلط سمت بنائی گئی</string>
     <string name="checking_decryption">تصدیق کررہا ہے…</string>
-    <string name="starting_android">‏Android شروع کررہا ہے…</string>
     <string name="crypt_keeper_last_warn_wipe">فیکٹری ڈیفالٹ سیٹنگز پر پھر سیٹ کرنے سے قبل آپ کے پاس اپنے آلہ کو اسٹارٹ کرنے کے لیے صرف 1 کوشش بچی ہے۔ اس سے تمام ڈیٹا مٹ جائے گا، بشمول فائلز اور ڈاؤن لوڈ کردہ ایپلیکیشنز کے۔</string>
     <string name="crypt_keeper_failed_title_dec">ڈیکرپشن فیل۔</string>
     <string name="crypt_keeper_failed_summary_dec">خلل پیدا ہونے کی وجہ سے خفیہ کشائی مکمل کرنے سے قاصر۔ استعمال سے پہلے فیکٹری کوائف پھر سیٹ انجام دیں (تمام کوائف مٹا کر)۔</string>
     <string name="crypt_keeper_set_screen_lock_type">اسکرین لاک قسم سیٹ کریں</string>
+    <string name="encryption_interstitial_message">"فون کے شروع ہونے سے پہلے اپنا %s درج کیے جانے کو ضروری بنا کر آپ اپنے فون کی مزید حفاظت کر سکتے ہيں۔ یہ مدد آپ کے فون کے چوری یا گم ہونے پر آپ کے ڈیٹا کو محفوظ کرتا ہے۔ بعض ایپلیکیشنز کو خصوصیات تک رسائی کے لیے آلہ کی خفیہ کاری پالیسیاں کے مطابق محفوظ اسٹارٹ اپ کی ضرورت پڑسکتی ہے، جیسے ای میل سنک۔
+
+آپ کوئی بھی کالز، پیغامات، یا نوٹیفکیشنز وصول نہیں کریں گے، اور فون اسٹارٹ کیے جانے تک، الارمز کی آواز نہیں ہوگی۔"</string>
     <string name="encryption_interstitial_message_kor">آپ کے آلہ کی خفیہ کاری ہو گئی۔ آلہ کے پاور آن ہونے پر ڈیٹا کی خفیہ کشائی کرنے کے لیے ضروری اسکرین لاک منتخب کرکے اپنے خفیہ کار ڈیٹا کی حفاظت کریں۔ اس سے برباد یا چوری ہونے پر آلات کے ڈیٹا محفوظ رکھنے میں مدد ملتی ہے۔ جب بھی آپ اسے آن کرتے ہيں اس کے ڈیٹا کی خفیہ کشائی کرنے کے لیے آپ کو اپنے آلہ کو انلاک کرنے کی ضرورت ہوگی۔ آپ کوئی کالز، پیغامات، یا اطلاعات وصول نہیں کر پائنگے جب تک آپ اپنے آلہ کی خفیہ کشائی نہی کرتے۔</string>
     <string name="encryption_interstitial_message_direction">"آلہ کے پاور آن ہونے پر [مطلوبہ سمت لاک] منتخب کرکے اپنے آلہ کی حفاظت کریں۔ یہ ضائع یا چوری کی ہوئی آلات پر ڈیٹا کی حفاظت میں مدد کرتا ہے۔
 
@@ -1546,6 +1570,7 @@ Where Can I Find More Information About the 3rd Party's Policies? Separately, if
 آپ کوئی کالز، پیغامات، یا نوٹیفکیشنز وصول نہیں کریں گے، اور جب تک آلہ شروع نہ ہوجائے، الارمز آواز نہیں کرے گا۔"</string>
     <string name="encryption_interstitial_error_message">اپنے آلہ کے ڈیٹا کی حفاظت کرنے کے لیے، اپنی اسکرین لاک کی قسم کو پن، پاس ورڈ، نمونہ یا فنگر پرنٹس میں تبدیل کریں، پھر دوبارہ کوشش کریں۔</string>
     <string name="encryption_interstitial_error_message_direction">اپنے آلہ کے ڈیٹا کو محفوظ کرنے کے لیے، پن، پاس ورڈ، نمونہ، سمت لاک، یا فنگرپرنٹس میں اپنے اسکرین لاک قسم کو تبدیل کریں، پھر دوبارہ کوشش کریں۔</string>
+    <string name="encryption_interstitial_error_message_direction_without_fingerprint">اپنے آلہ کے ڈیٹا کی حفاظت کرنے کے لیے، اپنی اسکرین لاک کی قسم کو پن، پاس ورڈ، نمونہ یا سمت لاک میں تبدیل کریں، پھر دوبارہ کوشش کریں۔</string>
     <string name="encryption_interstitial_error_message_iris_direction">اپنے آلہ کے ڈیٹا کو محفوظ کرنے کے لیے، پن، پاس ورڈ، نمونہ، سمت لاک، فنگرپرنٹس، یا آئریسز میں اپنے اسکرین لاک قسم کو تبدیل کریں، پھر دوبارہ کوشش کریں۔</string>
     <string name="encryption_interstitial_error_message_without_fingerprint">اپنے آلہ کے ڈیٹا کو محفوظ کرنے کے لیے، پن، پاس ورڈ، یا نمونہ میں اپنے اسکرین لاک قسم کو تبدیل کریں، پھر دوبارہ کوشش کریں۔</string>
     <string name="encryption_interstitial_error_sktlock">تحفظ لاک اور محفوظ اسٹارٹ اپ ایک ہی وقت میں اہل نہیں ہوسکتے۔ غیرتحفظ لاک منتخب کریں اور دوبارہ کوشش کریں۔</string>
@@ -1809,6 +1834,8 @@ You will also need it when:"</string>
 %s"</string>
     <string name="improve_location_title">Improve location accuracy</string>
     <string name="improve_location_summary">Use WLANs and mobile networks to provide more accurate information about the location of your device.</string>
+    <string name="send_last_location_title">آخری مقام بھیجیں</string>
+    <string name="send_last_location_summary">جب بیٹری ایک خاص سطح سے نیچے آجائے تو سرور میں میرا موبائل ڈھونڈیں پر اپنے فون کو آخری مقام بھیجنے کی اجازت دیں۔</string>
     <string name="high_power_description">انفرادی ایپلیکیشنز کے لیے بیٹری کو احسن بننا اہل کریں۔ کچھ فنکشنز، جیسے کہ وہ جو موبائل نیٹ ورک یا مطابقت پذیر ڈیٹا استعمال کرتے ہيں، بیٹری پاور بچانے کے لیے روک دیے جائے گے۔</string>
     <string name="wifi_display_summary_off">آف</string>
     <string name="battery_usage_description">یہ اسکرین بیٹری کا استعمال کردہ ڈیٹا دکھاتا ہے آخری بار آلہ مکمل چارج ہونے کے بعد سے۔</string>
@@ -1904,6 +1931,8 @@ You will also need it when:"</string>
     <string name="iris_sensor_not_working_popup_title">آئریس کی شناخت کام نہیں کررہی ہے</string>
     <string name="iris_sensor_not_working_msg">آئریسز سینسر جواب نہیں دے رہا ہے۔ بعد میں دوبارہ کوشش کریں۔</string>
     <string name="iris_go_to_samsung_theme">‏Samsung Themes پر جائیں</string>
+    <string name="biometrics_dex_cant_use_msg">‏Samsung DeX میں %s کا استعمال نہیں کرسکتے۔</string>
+    <string name="biometrics_dex_closed_to_switch">‏Samsung DeX پر سوئچ کرنے کے لیے %s بند ہوگيا۔</string>
     <string name="knox_twofactor_bio_description">اپنا بایومیٹرک لاک قسم اور %s انلاک کرنے کے لیے دوسرا لاک قسم منتخب کریں۔</string>
     <string name="fingerprint_registered">منتخب ان لاک طریقے کے ساتھ رجسٹرڈ فنگر پرنٹس استعمال کیے جائیں گے۔</string>
     <string name="knox_twofactor_description">‏Knox کو مذید محفوظ بنانے کے لیے دو مقفل قسم کا استعمال کریں۔ آپ کے فنگرپرنٹس پہلے مقفل قسم کے بطور استعمال کی جائے گی۔ نیچے ایک دوسری مقفل قسم کو منتخب کریں۔</string>
@@ -2001,8 +2030,8 @@ Determining your location will use the mobile network. Data usage will apply."</
     <string name="app_ops_settings_summary">ایپلیکیشن کی اجازتوں کو دیکھیں یا تبدیل کریں۔</string>
     <string name="backup_key_for_applock_header">لاک یا انلاک کرنے کے لیے فنگرپرنٹ کی پہچان سے ایک ساتھ استعمال کرنے کے لیے نمونہ، پِن، یا پاس ورڈ سیٹ کریں۔</string>
     <string name="backup_key_for_privatemode_header">نمونہ، پن یا پاس ورڈ سیٹ کریں جو آپ ذاتی موڈ تک رسائی کے لیے انگلی کے نشان کے ہمراہ استعمال کریں گے۔</string>
-    <string name="status_added">شامل کیا گیا</string>
     <string name="text_security_title_b2c">لاک قسم منتخب کریں۔ اگر آپ محفوظ فولڈر کو انلاک کرنے کا طریقہ بھول چکے ہیں، تو آپ اپنا Samsung account استعمال کرکے اپنی لاک پھر سیٹ کرسکتے ہیں۔</string>
+    <string name="status_added">شامل کیا گیا</string>
     <string name="lockpattern_backup_pin">بیک اپ پن</string>
     <string name="applock_type_fingerprint">فنگرپرنٹ</string>
     <string name="unlock_set_unlock_two_factor_title">دو-مرحلہ میں تصدیق</string>
@@ -2218,9 +2247,9 @@ Determining your location will use the mobile network. Data usage will apply."</
     <string name="palm_swipe_title">کھینچنے کے لئے ہتھیلی سے چلتی ہوئی ضرب لگائیں</string>
     <string name="screen_recorder_title">Record screen</string>
     <string name="screen_recorder_summary">Record video screenshots while you use your device.</string>
-    <string name="multi_window_setting_title">پاپ اپ منظر اشارات</string>
+    <string name="multi_window_setting_title">پاپ اپ منظر کا عمل</string>
     <string name="multi_window_setting_description">جب کوئی ایپلیکیشن اسکرین پر کھل جاتا ہے، تو اسکرین کے اوپری کونے سے نیچے کی جانب ترچھا سوائپ کرکے ایپلیکیشن کے سائز کے مطابق کریں۔</string>
-    <string name="multi_window_screen_title">کئی دریچہ</string>
+    <string name="multi_window_screen_title">ملٹی ونڈو</string>
     <string name="multi_window_screen_summary">ایک ہی وقت میں ایک ایپلیکیشن سے زیادہ دکھائیں۔</string>
     <string name="multi_window_split_screen_title">اسکرین منظر کا عمل اسپلپ کریں</string>
     <string name="multi_window_split_screen_description_hwkey_1">تقسیم اسکرین منظر کرنے کے لیے پورا اسکرین منظر سے موجودہ ایپلیکیشن تبدیل کرنے کے لیے حالیہ کیی کو دباکے ہولڈ کریں۔</string>
@@ -2258,18 +2287,19 @@ Determining your location will use the mobile network. Data usage will apply."</
     <string name="air_browse_note_summary">منظر مزاج میں صفحات کے درمیاں حرکت دیں۔</string>
     <string name="data_usage_enable_mobile_summery">اپنے موبائل نیٹ ورک کے ذریعے انٹرنیٹ سے رسائی کریں۔</string>
     <string name="data_usage_enable_mobile_warning_skt">موبائل نیٹ ورکس سے جڑنے سے آپ کے ڈیٹا منصوبہ پر منحصر اضافی اخراجات آ سکتے ہیں۔ جاری رکھیں?</string>
-    <string name="data_usage_enable_mobile_warning_ktt">موبائل نیٹ ورکس سے جڑنے سے آپ کے ڈیٹا منصوبہ پر منحصر اضافی اخراجات آ سکتے ہیں۔ جاری رکھیں?</string>
+    <string name="data_usage_enable_mobile_warning_ktt">موبائل ڈیٹا آن کردیا جائے گا۔ موبائل نیٹ ورک سے جڑنے کے نتیجے میں آپ کے ادائیگی کے منصوبہ کے مطابق اضافی اخراجات عائد ہوسکتے ہیں۔</string>
     <string name="data_usage_enable_mobile_warning_lgt">موبائل نیٹ ورکس سے جڑنے سے آپ کے ڈیٹا منصوبہ پر منحصر اضافی اخراجات آ سکتے ہیں۔ جاری رکھیں?</string>
     <string name="data_usage_disable_mobile_title">موبائل ڈیٹا آف کریں</string>
     <string name="data_usage_disable_mobile_warning_skt">موبائل نیٹ ورک منقطع کرنے سے MMS اور 3G ڈیٹا خدمات کا استعمال محدود ہوجائے گا۔ منقطع کریں?</string>
     <string name="data_usage_disable_mobile_warning_ktt">موبائل نیٹ ورک منقطع کرنے سے MMS اور 3G ڈیٹا خدمات کا استعمال محدود ہوجائے گا۔ منقطع کریں?</string>
     <string name="data_usage_disable_mobile_warning_ktt_jb">موبائل نیٹ ورک منقطع کرنے سے MMS اور 3G ڈیٹا خدمات کا استعمال محدود ہوجائے گا۔ منقطع کریں?</string>
-    <string name="mobile_data_off_dialog_text_vzw">"Unless you use Wi-Fi, you will not be able to use the Internet, Email, or other apps that require a data connection.
+    <string name="data_usage_disable_mobile_warning_dcm">"If Mobile data is turned off, your device must be connected to a Wi-Fi network to use services that require a network connection.
 
-Turn off Mobile data?"</string>
-    <string name="mobile_data_off_dialog_text_common">"جب تک آپ Wi-Fi استعمال کرتے ہیں، آپ انٹرنیٹ، ای میل، یا دیگر ایپلیکیشنز کا استعمال کرنے کے قابل نہیں ہوں گے جن کے لیے ایک ڈیٹا کنکشن درکار ہے۔
-
-موبائل ڈیٹا بند ہو جائے گا۔"</string>
+Mobile data will be turned off."</string>
+    <string name="mobile_data_off_dialog_text_vzw">"Unless you use Wi-Fi, you won't be able to use the Internet, Email or other apps that require a data connection. Turn off the mobile data connection?"</string>
+    <string name="mobile_data_off_dialog_text_volte">"Your phone's Video Calling function won't work when mobile data is off. Also, you won't be able to use the Internet, Email or other apps that need a data connection unless you use Wi-Fi. Turn off the mobile data connection?"</string>
+    <string name="mobile_data_off_dialog_text_common">جب تک آپ ایک Wi-Fi نیٹ ورک سے نہ جڑیں، تو آپ انٹرنیٹ، ای میل، یا دوسری ایپلیکیشنز استعمال کرنے کے قابل نہ ہوں گے جن کے لیے ڈیٹا کنیکشن درکار ہے۔</string>
+    <string name="data_usage_turn_off_btn">آف کریں</string>
     <string name="wfd_settings_summary">اپنے آلہ کی اسکرین کی دوسرے آلہ کے ساتھ شراکت کریں</string>
     <string name="nfc_settings_advanced_explain">"ڈیفالٹ NFC پروسیسنگ کا طریقہ سیٹ کریں۔
 کچھ NFC لین دین اور موبائل ادائیگی کی خدمات کے لیے مختلف ڈیفالٹ NFC پروسیسنگ کا طریقہ درکار ہوسکتا ہے۔"</string>
@@ -2409,7 +2439,7 @@ Turn off Mobile data?"</string>
     <string name="zen_mode_events_summary">‏S پلانر اور دیگر کیلنڈر وقوعات سے نوٹیفکیشنز کو اجازت دیں۔</string>
     <string name="zen_mode_events_summary_na">کیلنڈر وقوعات اور ٹاسکس سے نوٹیفکیشنز کی اجازت دیں۔</string>
     <string name="zen_mode_reminders_summary">ایپلیکیشنز کے ذریعے دہانی کی اجازت دیں جو انہیں تائید کرتے ہیں۔</string>
-    <string name="dnd_app_noti_summary">ترجیحی مداخلت کے طور پر سیٹ کریں تاکہ ایپ اطلاعات کو بطور استثنیٰ اجازت مل سکے۔</string>
+    <string name="dnd_app_noti_summary">ایپلیکیشنز کی تمام نوٹیفکیشنز کو اجازت دیں جسے آپ منتخب کرتے ہیں۔</string>
     <string name="no_exceptions_dcm_summary">Mute all calls and alerts, including Area Mail alarms.</string>
     <string name="dnd_screen_switch_summary">اپنے کسٹم مستثنیات کے علاوہ، تمام کالز اور انتباہات کو خاموش کریں۔</string>
     <string name="app_notification_priority_app_list_title">ایپلیکیشن کی نوٹیفکیشنز کی ترجیح</string>
@@ -2456,7 +2486,7 @@ To unblock it and connect to other devices via a USB cable, insert a USIM/SIM ca
     <string name="personal_page_secretbox_disclaimer_title">دستبرداری</string>
     <string name="personal_page_secretbox_disclaimer_message">ذاتی موڈ ‬دیگرایپلیکیشنز کو آپ کے ڈیٹا تک رسائی حاصل کرنے سے نہیں روکتا ہے۔ اپنے ڈیٹا کو بیرونی سرورز کے ساتھ ‏ سنکرونائیز‬ ہونے سے بچانے کے لیے، برائے مہربانی اپنے آلہ میں ‏ آٹو سنک سیٹنگز کو نااہل کردیں۔</string>
     <string name="personal_page_secretbox_disclaimer_message_vzw">Content moved into Private mode will be hidden and will not be shown when you exit from Private mode. Automatic syncing while in Private mode may allow that content to be visible in 3rd party apps. Check the automatic synchronization settings of your other applications before using Private mode.</string>
-    <string name="personal_page_tutorial_app_title_message">ان مواد کو چھپانے کے لیے ذاتی موڈ کا استعمال کریں جنہیں آپ ذاتی رکھنا چاہتے ہیں۔ جب آپ درج ذیل ایپلیکیشنز کا استعمال کر رہے ہوں، تو ان اشیاء کو منتخب کریں جنہیں آپ ذاتی میں منتقل کرنا چاہتے ہیں، پھر [مزید] پر تھپکی دیں اور [ذاتی میں منتقل] کریں کو منتخب کریں۔ وہ مواد ذاتی منتقل کردیا گیا ہے جسے صرف ذاتی موڈ کے اہل ہونے کے وقت دیکھا جاسکتا ہے۔</string>
+    <string name="personal_page_tutorial_app_title_message">جس مواد کو آپ ذاتی رکھنا چاہتے ہیں اسے چھپانے کیلئے ذاتی موڈ استعمال کریں۔ جب آپ درج ذیل ایپلیکیشنز کا استعمال کر رہے ہوں، تو ان اشیاء کو منتخب کریں جنہیں آپ ذاتی میں منتقل کرنا چاہتے ہیں، پھر مزید اختیارات بٹن پر تھپکی دیں اور [ذاتی میں منتقل کریں] کو منتخب کریں۔ وہ مواد ذاتی میں منتقل کردیا گیا ہے جسے صرف ذاتی موڈ کے آن ہونے کے وقت دیکھا جاسکتا ہے۔</string>
     <string name="personal_page_inline_help">ذاتی موڈ کو استعمال کرنے کے لیے، [رسائی کی ایک قسم] منتخب کریں۔ اگر آپ اپنا ذاتی موڈ رسائی کی قسم بھول چکے ہوں، تو آپ اسے بحال نہیں کر سکتے، اور آپ ذاتی موڈ کا استعمال نہیں کر سکتے جب تک کہ آپ اپنے آلہ کو اس کی فیکٹری ڈیفالٹ سیٹنگز پر پھرسیٹ نہیں کر لیتے۔</string>
     <string name="personal_page_backup_pin_summary">ذاتی موڈ کیلئے بیک اپ پن تخلیق کریں،ہو سکتا ہے آپ اپنا نمونہ بھول جائیں۔</string>
     <string name="personal_page_incorrect_pin">غلط پن۔ دوبارہ کوشش کریں۔</string>
@@ -2845,6 +2875,7 @@ To unblock it and connect to other devices via a USB cable, insert a USIM/SIM ca
     <string name="samsung_backup_summary">اپنے ڈیٹا کا بیک اپ لینے کیلئے اپنا Samsung account استعمال کریں۔</string>
     <string name="samsung_restore_summary">اپنا بیک اپ ڈیٹا بحال کرنے کے لیے اپنے Samsung account کا استعمال کریں۔</string>
     <string name="sns_settings_title">اپنے Wi-Fi کنیکشن کا غیرمستحکم ہونے کی وجہ سے موبائل ڈیٹا میں سوئچ کریں۔ آپ کا فون اکثر دورہ کیے گیے علاقوں سے محفوظ کیے گيے Wi-Fi نیٹ ورکس پر بھی سوئچ کرسکتا ہے۔ اسمارٹ نیٹ ورک سوئچ محفوظ کیے گيے Wi-Fi نیٹ ورکس کو خودکار طورپر آن یا آف کرے گا۔</string>
+    <string name="sns_settings_title_include_autowifi">اپنے Wi-Fi کنیکشن کا غیرمستحکم ہونے کی وجہ سے موبائل ڈیٹا میں سوئچ کریں۔ آپ کا فون اکثر دورہ کیے گیے علاقوں سے محفوظ کیے گيے Wi-Fi نیٹ ورکس پر بھی سوئچ کرسکتا ہے۔ اسمارٹ نیٹ ورک سوئچ محفوظ کیے گيے Wi-Fi نیٹ ورکس کو خودکار طورپر آن یا آف کرے گا۔</string>
     <string name="smart_bonding">ڈاؤن لوڈ بوسٹر</string>
     <string name="smart_bonding_popup_title">ڈاؤن لوڈ بوسٹر فعال کریں</string>
     <string name="smart_bonding_description_vzw">"Download large files (over %d MB) faster by using Wi-Fi and LTE networks at the same time. The Download booster icon will be shown on the status bar when Download booster is turned on.
@@ -3036,7 +3067,7 @@ Downloading via mobile networks may result in additional charges depending on yo
     <string name="wifi_on_dialog_summary">To switch to Wi-Fi, select a network</string>
     <string name="notifyme_later">ابھی نہیں</string>
     <string name="wifi_p2p_help_message">‏Wi-Fi Direct Wi-Fi آلات کو براہ راست کنکٹ ہونے کے قابل بناتا ہے، پرنٹ کرنے، فائل شیئر کرنے، ہم وقت کرنے، اسکرین شیئر کرنے کو زیادہ آسان اور سادہ بناتے ہوئے۔ Wi-Fi Direct کا تائید کرنے والے آلات سے کنکٹ ہونا مختلف ایپلیکیشنز استعمال کرتے ہوئے مواد شیئر کرنے، ڈیٹا ہم وقت کرنے، دوستوں کے ساتھ گھلنے ملنے، گیمز، آڈیو، ویڈیو کھیلنے کو ممکن بناتا ہے۔</string>
-    <string name="prev_button_label">پچھلا</string>
+    <string name="prev_button_label">سابقہ</string>
     <string name="wifi_sns_setting_alert_button_do_not_enable">اہل نہ کریں</string>
     <string name="wifi_smart_network_switch_aggressive_switching_summary">جب آپ کا Wi-Fi انٹرنیٹ کنکشن صرف تھوڑا سا غیرمستحکم ہو تو تب بھی انٹرنیٹ تک رسائی کے لیے موبائل نیٹ ورک استعمال کرنے کے لیے سوئچ کریں۔ یہ آپ کے ڈیٹا کے استعمال کو بڑھا سکتا ہے۔</string>
     <string name="wifi_smart_network_switch_aggressive_switching">جارحانہ سوئچنگ</string>
@@ -3065,6 +3096,8 @@ Downloading via mobile networks may result in additional charges depending on yo
     <string name="wifi_manage_network">نیٹ ورکس بندوبست کریں</string>
     <string name="wlan_permission_available_message">Asks your permission to use WLAN via a pop-up</string>
     <string name="wlan_permission_available">Ask to use WLAN</string>
+    <string name="wifi_hotspot20_summary_tmo">بغیر کسی رکاوٹ کے اہل شدہ Wi-Fi رسائی پوائنٹس کو کسی پاس ورڈ کی ضرورت کے بغیر ہاٹ اسپاٹ 2.0 سے جوڑیں۔</string>
+    <string name="wifi_hotspot20_summary_dcm">‏Wi-Fi آن ہونے کے وقت ہاٹ اسپاٹ 2.0 Wi-Fi نیٹ ورک خودکار طورپر جوڑیں۔</string>
     <string name="wifi_hotspot20_summary">اس معاون Hotspot 2.0 Wi-Fi رسائی پوائنٹ میں خودکار طورپر جوڑیں۔</string>
     <string name="wifi_hotspot20_enable">Hotspot 2.0</string>
     <string name="wifi_att_auto_connect_summary">Automatically connect to AT&amp;T Wi-Fi hotspot when detected</string>
@@ -3083,9 +3116,9 @@ Downloading via mobile networks may result in additional charges depending on yo
     <string name="wifi_auto_reconnect">خودکار دوبارہ جوڑیں</string>
     <string name="wifi_enable_warning_chn">Turning on WLAN will disable Mobile hotspot.</string>
     <string name="wifi_enable_warning_vzw">‏Wi-Fi آن کرنے سے Mobile Hotspot نا اہل ہوجائے گا۔ جاری رکھیں؟</string>
-    <string name="wifi_enable_warning_tmo">Wi-Fi is turned off when Mobile HotSpot is active. To turn on Wi-Fi, please turn off Mobile HotSpot.</string>
+    <string name="wifi_enable_warning_tmo">‏Wi-Fi موبائل ہاٹ اسپاٹ کے فعال ہونے پر آف کردیا جاتا ہے۔ Wi-Fi آن کرنے کے لیے، براہ کرم موبائل ہاٹ اسپاٹ آف کریں۔</string>
     <string name="wifi_enable_warning_spr">Turning on Wi-Fi will disable Hotspot.</string>
-    <string name="wifi_enable_warning_mtr">Turning on Wi-Fi will turn off Mobile Hotspot. Continue?</string>
+    <string name="wifi_enable_warning_mtr">موبائل ہاٹ اسپاٹ فعال ہونے پر Wi-Fi آف ہوجاتا ہے۔ Wi-Fi آن کرنے کے لیے، براہ کرم موبائل ہاٹ اسپاٹ آف کریں۔</string>
     <string name="wifi_enable_warning_usc">Turning on Wi-Fi will turn off Portable Wi-Fi hotspot. Continue?</string>
     <string name="wifi_enable_warning">‏Wi-Fi چالو کرنا موبائل ہاٹ اسپاٹ کو غیر فعال کردے گا۔</string>
     <string name="wifi_control_history_title">‏Wi-Fi کنٹرول ہسٹری</string>
@@ -3119,9 +3152,9 @@ Downloading via mobile networks may result in additional charges depending on yo
     <string name="wifi_ap__wifi_sharing_vzw">Wi-Fi Sharing</string>
     <string name="wifi_ap__wifi_sharing">‏Wi-Fi شیئرنگ</string>
     <string name="first_use_wifi_msg_mtr">Tap OK to learn more about using Mobile Hotspot.</string>
-    <string name="first_use_wifi_msg">Tap OK to learn more about using Mobile HotSpot.</string>
+    <string name="first_use_wifi_msg">موبائل ہاٹ اسپاٹ استعمال کرنے کے متعلق مزید سیکھنے کے لیے [ٹھیک ہے] پر تھپکی دیں۔</string>
     <string name="first_use_title_mtr">View Mobile Hotspot help</string>
-    <string name="first_use_title">View Mobile HotSpot help</string>
+    <string name="first_use_title">موبائل ہاٹ اسپاٹ مدد دیکھیں</string>
     <string name="wifi_ap_wifi_sharing_title">‏Wi-Fi شیئرنگ اہل کریں</string>
     <string name="wifi_ap_wifi_sharing_status_enabled">فعال</string>
     <string name="wifi_ap_wifi_sharing_status_disabled">نا اہل بنادیا</string>
@@ -3153,11 +3186,11 @@ Using Mobile hotspot increases battery consumption and data usage."</string>
 Mobile Hotspot uses mobile data from your data plan.
 
 We recommend keeping your phone plugged in to a charger while using Mobile Hotspot to save battery."</string>
-    <string name="wifi_ap_instruction_changeable_maxclient_tmo">"You can use your device as an Internet access point using Mobile HotSpot. This allows up to %d other devices to connect to it via Wi-Fi. The connected devices will have access to the Internet via your mobile network.
+    <string name="wifi_ap_instruction_changeable_maxclient_tmo">"موبائل ہاٹ اسپاٹ استعمال کرکے آپ اپنے آلے کو بطور انٹرنیٹ رسائی پوائنٹ استعمال کرسکتے ہیں۔ یہ Wi-Fi کے ذریعہ اس سے %d تک آلات کو جڑنے کی اجازت دیتا ہے۔ مربوط آلات کو موبائل نیٹ ورک کے ذریعہ انٹرنیٹ تک رسائی ہوگی۔
 
-You can create an allowed device profile and set the connection mode for it.
+آپ ایک اجازت شدہ آلہ کا پروفائل بنا سکتے ہیں اور اس کے لیے کنیکشن موڈ سیٹ کر سکتے ہیں۔
 
-Using Mobile HotSpot increases battery consumption and data usage."</string>
+موبائل ہاٹ اسپاٹ استعمال کرنے سے بیٹری کی کھپت اور ڈیٹا کا استعمال کم ہوتا ہے۔"</string>
     <string name="wifi_ap_instruction_changeable_maxclient_spr">"You can share your device's Hotspot with Wi-Fi enabled devices.
 
 After you start the Mobile Hotspot Wi-Fi router, connect using the controls on your Wi-Fi enabled device."</string>
@@ -3190,7 +3223,7 @@ To configure Smartphone Mobile Hotspot, tap on the menu icon, and then tap “Co
     <string name="wifi_ap_hide_ssid">میرا آلہ چھپائیں</string>
     <string name="wifi_ap_wifi_off_warn_vzw">Mobile Hotspot uses your mobile data connection. Your Wi-Fi connection will be turned off.</string>
     <string name="wifi_ap_wifi_off_warn_spr">Enabling Hotspot will turn off Wi-Fi</string>
-    <string name="wifi_ap_wifi_off_warn_tmo">Wi-Fi is turned off when USB tethering or Mobile HotSpot is active. To turn on Wi-Fi, please turn off USB tethering or Mobile HotSpot.</string>
+    <string name="wifi_ap_wifi_off_warn_tmo">‏USB ٹیتھرنگ یا موبائل ہاٹ اسپاٹ کے فعال ہونے پر Wi-Fi آف ہوجاتا ہے۔ Wi-Fi آن کرنے کے لیے، براہ کرم USB ٹیتھرنگ یا موبائل ہاٹ اسپاٹ آف کریں۔</string>
     <string name="wifi_ap_wifi_off_warn_chn">Enabling Mobile hotspot will turn off WLAN.</string>
     <string name="wifi_ap_wifi_off_warn_att">Turning on portable Wi-Fi hotspot will turn off Wi-Fi.</string>
     <string name="wifi_ap_wifi_off_warn_mtr">Wi-Fi is turned off when USB tethering or Mobile Hotspot is active. To turn on Wi-Fi, please turn off USB tethering or Mobile Hotspot.</string>
@@ -3261,6 +3294,7 @@ To configure Smartphone Mobile Hotspot, tap on the menu icon, and then tap “Co
     <string name="wifi_wps_onstart_pbc_mobileap">مربوط کرنے کیلئے دیگر آلہ پر WPS بٹن دبائیں۔</string>
     <string name="wifi_wps_complete_mobileap">آپ کے آلہ سے اب دیگر آلہ مربوط ہے۔</string>
     <string name="wifi_ap_disconnect_warn">آلہ غیر مربوط کریں</string>
+    <string name="wifi_ap_change_policy_warn_mtr">The device currently connected will be disconnected from Portable Wi-Fi Hotspot.</string>
     <string name="wifi_ap_change_policy_warn">فی الحال مربوط تمام آلات موبائل ہاٹ اسپاٹ سے منقطع ہو جائیں گے۔</string>
     <string name="wifi_ap_warn_max_whitelist">مجاز آلات کی زیادہ سے زیادہ تعداد (%d) کو پہنچ گیا۔</string>
     <string name="wifiap_one_item_deleted">1 شے حذف کردی جائے گی</string>
@@ -3295,8 +3329,9 @@ Wi-Fi is now on."</string>
     <string name="wifi_tether_dialog_nosim_warning_title">موبائل ہاٹ اسپاٹ</string>
     <string name="wifi_tether_dialog_nosim_warning_chn">Insert a SIM card to use Mobile hotspot and other tethering functions.</string>
     <string name="wifi_tether_dialog_nosim_warning_vzw">Insert a SIM card to use Mobile Hotspot and other tethering options.</string>
-    <string name="wifi_tether_dialog_nosim_warning_tmo">"Please install SIM card in order to share your phone's data connection with other devices using Mobile Wi-Fi HotSpot or USB tethering for Internet access."</string>
-    <string name="wifi_tether_dialog_nosim_warning_spr">Insert SIM for using Hotspot include tethering</string>
+    <string name="wifi_tether_dialog_nosim_warning_tmo">براہ کرم دوسروں کے آلات سے موبائلWi-Fi ہاٹ اسپاٹ یا انٹرنیٹ رسائی کے لیے USB ٹیتھرنگ استعمال کرکے اپنے فون کا ڈیٹا کنیکشن شیئر کرنے کی ترتیب سے SIM کارڈ نصب کریں۔</string>
+    <string name="wifi_tether_dialog_nosim_warning_mtr">"Please install SIM card in order to share your phone's data connection with other devices using Mobile Wi-Fi Hotspot or USB tethering for Internet access."</string>
+    <string name="wifi_tether_dialog_nosim_warning_spr">ہاٹ اسپاٹ استعمال کرنے کے لیے کوئی SIM کارڈ داخل کریں۔</string>
     <string name="wifi_tether_dialog_nosim_warning_usc">موبائل ہاٹ اسپاٹ اور دیگر ٹیتھرنگ فنکشنز استعمال کرنے کیلئے SIM کارڈ داخل کریں۔</string>
     <string name="wifi_tether_dialog_nosim_warning">موبائل ہاٹ اسپاٹ اور دیگر ٹیتھرنگ فنکشنز استعمال کرنے کیلئے SIM کارڈ داخل کریں۔</string>
     <string name="mobileap_tmo">موبائل ہاٹ سپاٹ</string>
@@ -3323,7 +3358,7 @@ Wi-Fi is now on."</string>
     <string name="wifi_ap_instruction_open_activate_color3_att">‏&lt;font color=\"%1$s\">%2$s&lt;/font> سے جڑیں۔</string>
     <string name="wifi_ap_instruction_open_activate_color3">‏&lt;font color=\"%1$s\">%2$s&lt;/font> سے جڑیں۔</string>
     <string name="wifi_ap_instruction_open_activate_color4_vzw">Enjoy your Mobile Hotspot.</string>
-    <string name="wifi_ap_instruction_open_activate_color4_tmo">Enjoy the internet using your personal Mobile HotSpot.</string>
+    <string name="wifi_ap_instruction_open_activate_color4_tmo">اپنا ذاتی موبائل ہاٹ اسپاٹ استعمال کرکے انٹرنیٹ سے لطف اندوز ہوں۔</string>
     <string name="wifi_ap_instruction_open_activate_color4_spr">Enjoy the Internet with Hotspot.</string>
     <string name="wifi_ap_instruction_open_activate_color4_att">Enjoy the Internet using Mobile hotspot.</string>
     <string name="wifi_ap_instruction_open_activate_color4_mtr">Enjoy the Internet using portable Wi-Fi hotspot.</string>
@@ -3342,7 +3377,7 @@ Wi-Fi is now on."</string>
     <string name="wifi_ap_instruction_activate_color3_att">‏&lt;font color=\"%1$s\">%2$s&lt;/font> سے جڑیں &lt;font color=\"%1$s\">%3$s&lt;/font> کو پاسورڈ کے طور پر داخل کرکے۔</string>
     <string name="wifi_ap_instruction_activate_color3">‏&lt;font color=\"%1$s\">%2$s&lt;/font> سے جڑیں &lt;font color=\"%1$s\">%3$s&lt;/font> کو پاسورڈ کے طور پر داخل کرکے۔</string>
     <string name="wifi_ap_instruction_activate_color4_vzw">Enjoy your Mobile Hotspot.</string>
-    <string name="wifi_ap_instruction_activate_color4_tmo">Enjoy the internet using your personal Mobile HotSpot.</string>
+    <string name="wifi_ap_instruction_activate_color4_tmo">اپنا ذاتی موبائل ہاٹ اسپاٹ استعمال کرکے انٹرنیٹ سے لطف اندوز ہوں۔</string>
     <string name="wifi_ap_instruction_activate_color4_spr">Enter &lt;font color=\"%1$s\">%3$s&lt;/font> in the &lt;font color=\"%1$s\">%4$s&lt;/font> field.</string>
     <string name="wifi_ap_instruction_activate_color4_att">Enjoy the Internet using Mobile hotspot.</string>
     <string name="wifi_ap_instruction_activate_color4_mtr">Enjoy the Internet using portable Wi-Fi hotspot.</string>
@@ -3364,16 +3399,16 @@ Wi-Fi is now on."</string>
     <string name="wifi_ap_instruction_activate_color_hidden3_chn">Connect to &lt;font color=\"%1$s\">%2$s&lt;/font> by entering &lt;font color=\"%1$s\">%3$s&lt;/font> as the password.</string>
     <string name="wifi_ap_instruction_activate_color_hidden3_tmo">Connect to &lt;font color=\"%1$s\">%2$s&lt;/font> by entering &lt;font color=\"%1$s\">%3$s&lt;/font> as the password.</string>
     <string name="wifi_ap_instruction_activate_color_hidden3">‏&lt;font color=\"%1$s\">%2$s&lt;/font> سے جڑیں &lt;font color=\"%1$s\">%3$s&lt;/font> کو پاسورڈ کے طور پر داخل کرکے۔</string>
-    <string name="wifi_ap_instruction_activate_color_hidden4_tmo">Enjoy the internet using your personal Mobile HotSpot.</string>
+    <string name="wifi_ap_instruction_activate_color_hidden4_tmo">اپنا ذاتی موبائل ہاٹ اسپاٹ استعمال کرکے انٹرنیٹ سے لطف اندوز ہوں۔</string>
     <string name="wifi_ap_instruction_no_maxclient">"موبائل ہاٹ اسپاٹ استعمال کرکے آپ اپنے آلہ کو بطور انٹرنیٹ رسائی پوائنٹ استعمال کرسکتے ہیں۔ یہ دیگر آلات کو بذریعہ Wi-Fi اس سے جڑنے کی اجازت دیتا ہے۔ مربوط آلات کو آپ کے موبائل نیٹ ورک کے ذریعے انٹرنیٹ تک رسائی حاصل ہوگی۔
 
 آپ ایک مجاز آلہ کا پروفائل بنا سکتے ہیں اور اس کے لیے کنکشن موڈ سیٹ کر سکتے ہیں۔
 
 موبائل ہاٹ اسپاٹ استعمال کرنے سے بیٹری کی کھپت اور ڈیٹا کے استعمال میں اضافہ ہو جاتا ہے۔"</string>
     <string name="wifi_ap_instruction_configure_vzw">To change the Mobile Hotspot configuration, go to Settings > Mobile Hotspot and tethering > Mobile Hotspot > MORE, then select Configure Mobile Hotspot.</string>
-    <string name="wifi_ap_instruction_configure_tmo">To change the Mobile HotSpot configuration, tap the More options button, then select Configure Mobile HotSpot.</string>
+    <string name="wifi_ap_instruction_configure_tmo">موبائل ہاٹ اسپاٹ کی ترتیب تبدیل کرنے کے لیے، مزید اختیارات بٹن پر تھپکی دیں، پھر [موبائل ہاٹ اسپاٹ ترتیب دیں] کو منتخب کریں۔</string>
     <string name="wifi_ap_instruction_configure">موبائل ہاٹ اسپاٹ کی ترتیب تبدیل کرنے کے لیے، مزید اختیارات بٹن پر تھپکی دیں،پھر [موبائل ہاٹ اسپاٹ ترتیب دیں] کو منتخب کریں۔</string>
-    <string name="wifi_ap_instruction_configure_non_grace_tmo">To change the Mobile HotSpot configuration, tap MORE, then select Configure Mobile HotSpot.</string>
+    <string name="wifi_ap_instruction_configure_non_grace_tmo">موبائل ہاٹ اسپاٹ کی ترتیب تبدیل کرنے کے لیے، مزید پر تھپکی دیں، پھر [موبائل ہاٹ اسپاٹ ترتیب دیں] کو منتخب کریں۔</string>
     <string name="wifi_ap_instruction_configure_non_grace">موبائل ہاٹ اسپاٹ کی ترتیب تبدیل کرنے کے لیے، [مزید] پر تھپکی دیں اور موبائل ہاٹ اسپاٹ ترتیب دیں کو منتخب کریں۔</string>
     <string name="wifi_ap_change_security">Change Security</string>
     <string name="wifi_ap_maxclient">کنکشنزکی انتہا</string>
@@ -3390,7 +3425,8 @@ Wi-Fi is now on."</string>
     <string name="wifi_tether_configure_ap_text_usc">Configure Wi-Fi hotspot</string>
     <string name="wifi_tether_configure_ap_text">موبائل ہاٹ اسپاٹ کو ترتیب دیں</string>
     <string name="wifi_ap_hidessid_warning">Your phone will be visible to other devices</string>
-    <string name="wifi_ap_first_time_configuration">First time HotSpot configuration</string>
+    <string name="wifi_ap_first_time_configuration_mtr">پہلی مرتبہ ہاٹ اسپاٹ کی کنفیگریشن</string>
+    <string name="wifi_ap_first_time_configuration">پہلی مرتبہ ہاٹ اسپاٹ کی تشکیل</string>
     <string name="title_wifi_notify_mobileap_is_on">Wi-Fi and Mobile Hotspot</string>
     <string name="wifi_ssid_max_byte_error">حروف کی زیادہ سے زیادہ تعداد پہنچ گئی۔</string>
     <string name="tethering_attention_title">توجہ</string>
@@ -3533,6 +3569,8 @@ Wi-Fi is now on."</string>
     <string name="master_clear_desc_music">میوزک</string>
     <string name="master_clear_desc_pictures">تصویریں</string>
     <string name="master_clear_desc_other_user_data">سبھی دیگر صارف ڈیٹا</string>
+    <string name="master_clear_not_enough_battery">اپنا فون پھر سیٹ کرنے سے قبل اپنی بیٹری کم از کم %d%% چارج کرلیں۔</string>
+    <string name="master_clear_not_enough_battery_tablet">اپنا ٹیبلیٹ پھر سیٹ کرنے سے قبل اپنی بیٹری کم از کم %d%% چارج کرلیں۔</string>
     <string name="text_two_locktype">فنگر پرنٹ اور %s</string>
     <string name="pref_lock_type_title">لاک کی قسم کو تبدیل کریں</string>
     <string name="pref_lock_type_summary">لاک کی قسم</string>
@@ -3612,8 +3650,11 @@ Receiving SMS"</string>
     <string name="google_settings_popup_msg">Only a limited number of Google settings are available. Some actions may not work.</string>
     <string name="smart_lock_popup_msg">Only a limited number of Google settings are available. Some actions may not work.</string>
     <string name="prevent_to_change_by_device_policy">سلامتی پالیسی %s کے استعمال کو روکتی ہے۔</string>
+    <string name="quick_tile_sync_title">سنک</string>
     <string name="name_jerusalem">بیت المقدس</string>
     <string name="name_israel">اسرائیل</string>
+    <string name="starting_android">‏Android شروع کررہا ہے…</string>
+    <string name="okay">ٹھیک ہے</string>
     <string name="yes">ہاں</string>
     <string name="no">نہیں</string>
     <string name="create">تخلیق</string>
@@ -3711,7 +3752,6 @@ Receiving SMS"</string>
     <string name="phone_info_label">آلہ کی معلومات</string>
     <string name="proxy_settings_label">سیٹینگ پروکسی</string>
     <string name="cancel">منسوخ</string>
-    <string name="okay">ٹھیک ہے</string>
     <string name="save">محفوظ کریں</string>
     <string name="done">مکمل</string>
     <string name="settings_label">سیٹنگز</string>
@@ -5346,4 +5386,6 @@ Receiving SMS"</string>
     <string name="ucm_pins_do_not_match">پن مماثل نہیں ہے</string>
     <string name="ucm_failed_to_connect_smartcard">اسمارٹ کارڈ سے جڑنا ناکام ہوگیا۔ آلہ ایڈمنسٹریٹر سے رابطہ کریں۔</string>
     <string name="ucm_loading">لوڈنگ…</string>
+    <string name="usb_use_software_installation">Software Installation</string>
+    <string name="usb_use_software_installation_summary">Install Software Update and Repair tool for your device on a Mac or Windows computer.</string>
 </resources>

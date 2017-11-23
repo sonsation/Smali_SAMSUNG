@@ -81,7 +81,7 @@
     .param p1, "btState"    # I
 
     .prologue
-    const v5, 0x7f0b100b
+    const v5, 0x7f0b1193
 
     const/4 v4, 0x1
 
@@ -103,7 +103,7 @@
 
     .line 157
     .local v0, "p":Lcom/android/internal/app/AlertController$AlertParams;
-    const v1, 0x7f0b1002
+    const v1, 0x7f0b118a
 
     invoke-virtual {p0, v1}, Lcom/android/settings/bluetooth/RequestPermissionActivity;->getString(I)Ljava/lang/String;
 
@@ -165,7 +165,7 @@
     if-nez v1, :cond_2
 
     .line 169
-    const v1, 0x7f0b1005
+    const v1, 0x7f0b118d
 
     invoke-virtual {p0, v1}, Lcom/android/settings/bluetooth/RequestPermissionActivity;->getString(I)Ljava/lang/String;
 
@@ -175,7 +175,7 @@
 
     .line 173
     :goto_1
-    const v1, 0x7f0b0fa1
+    const v1, 0x7f0b1129
 
     invoke-virtual {p0, v1}, Lcom/android/settings/bluetooth/RequestPermissionActivity;->getString(I)Ljava/lang/String;
 
@@ -184,7 +184,7 @@
     iput-object v1, v0, Lcom/android/internal/app/AlertController$AlertParams;->mPositiveButtonText:Ljava/lang/CharSequence;
 
     .line 174
-    const v1, 0x7f0b0fa2
+    const v1, 0x7f0b112a
 
     invoke-virtual {p0, v1}, Lcom/android/settings/bluetooth/RequestPermissionActivity;->getString(I)Ljava/lang/String;
 
@@ -215,7 +215,7 @@
 
     aput-object v2, v1, v3
 
-    const v2, 0x7f0b1004
+    const v2, 0x7f0b118c    # 1.848538E38f
 
     invoke-virtual {p0, v2, v1}, Lcom/android/settings/bluetooth/RequestPermissionActivity;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 

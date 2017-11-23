@@ -147,7 +147,7 @@
     .locals 6
 
     .prologue
-    const v5, 0x7f0b1368
+    const v5, 0x7f0b14ee
 
     .line 122
     const/4 v0, 0x1
@@ -163,19 +163,19 @@
     sput-object v0, Lcom/android/settings/deviceinfo/PrivateVolumeSettings;->ITEMS_NO_SHOW_SHARED:[I
 
     .line 128
-    const v0, 0x7f0b1323
+    const v0, 0x7f0b14a9
 
     .line 129
-    const v1, 0x7f0b1321
+    const v1, 0x7f0b14a7
 
     .line 130
-    const v2, 0x7f0b04fa
+    const v2, 0x7f0b050d
 
     .line 131
-    const v3, 0x7f0b04f9
+    const v3, 0x7f0b050c
 
     .line 132
-    const v4, 0x7f0b136d
+    const v4, 0x7f0b14f3
 
     .line 127
     filled-new-array {v0, v1, v2, v3, v4}, [I
@@ -185,10 +185,10 @@
     sput-object v0, Lcom/android/settings/deviceinfo/PrivateVolumeSettings;->ITEMS_SHOW_SHARED:[I
 
     .line 137
-    const v0, 0x7f0b04fb
+    const v0, 0x7f0b050e
 
     .line 140
-    const v1, 0x7f0b136b
+    const v1, 0x7f0b14f1
 
     .line 135
     filled-new-array {v5, v0, v1}, [I
@@ -214,13 +214,13 @@
 
     :array_0
     .array-data 4
-        0x7f0b1323
-        0x7f0b1321
-        0x7f0b04fa
-        0x7f0b1368
-        0x7f0b04fb
-        0x7f0b136b
-        0x7f0b136d
+        0x7f0b14a9
+        0x7f0b14a7
+        0x7f0b050d
+        0x7f0b14ee
+        0x7f0b050e
+        0x7f0b14f1
+        0x7f0b14f3
     .end array-data
 .end method
 
@@ -402,13 +402,13 @@
     .line 396
     aget v2, v1, v0
 
-    const v3, 0x7f0b04f9
+    const v3, 0x7f0b050c
 
     if-eq v2, v3, :cond_1
 
     aget v2, v1, v0
 
-    const v3, 0x7f0b04fb
+    const v3, 0x7f0b050e
 
     if-ne v2, v3, :cond_6
 
@@ -450,7 +450,7 @@
     :cond_6
     aget v2, v1, v0
 
-    const v3, 0x7f0b136b
+    const v3, 0x7f0b14f1
 
     if-ne v2, v3, :cond_2
 
@@ -508,7 +508,7 @@
 
     .line 420
     :goto_1
-    const v1, 0x7f0b1323
+    const v1, 0x7f0b14a9
 
     if-ne p2, v1, :cond_2
 
@@ -564,7 +564,7 @@
 
     .line 422
     :cond_2
-    const v1, 0x7f0b1321
+    const v1, 0x7f0b14a7
 
     if-ne p2, v1, :cond_3
 
@@ -577,7 +577,7 @@
 
     .line 424
     :cond_3
-    const v1, 0x7f0b04fa
+    const v1, 0x7f0b050d
 
     if-ne p2, v1, :cond_4
 
@@ -590,7 +590,7 @@
 
     .line 427
     :cond_4
-    const v1, 0x7f0b1324
+    const v1, 0x7f0b14aa
 
     invoke-virtual {v0, v1}, Lcom/android/settings/deviceinfo/StorageItemPreference;->setSummary(I)V
 
@@ -860,7 +860,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f0b04fd
+    const v5, 0x7f0b0510
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -912,7 +912,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f0b0b3c
+    const v5, 0x7f0b0b5d
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1259,7 +1259,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b04f9
+    const v1, 0x7f0b050c
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->setTitle(I)V
 
@@ -1609,18 +1609,18 @@
     :sswitch_data_0
     .sparse-switch
         0x0 -> :sswitch_c
-        0x7f0b04f9 -> :sswitch_b
-        0x7f0b04fa -> :sswitch_a
-        0x7f0b04fb -> :sswitch_1
-        0x7f0b04fc -> :sswitch_7
-        0x7f0b1321 -> :sswitch_9
-        0x7f0b1323 -> :sswitch_8
-        0x7f0b1368 -> :sswitch_0
-        0x7f0b1369 -> :sswitch_2
-        0x7f0b136a -> :sswitch_3
-        0x7f0b136b -> :sswitch_4
-        0x7f0b136c -> :sswitch_6
-        0x7f0b136d -> :sswitch_5
+        0x7f0b050c -> :sswitch_b
+        0x7f0b050d -> :sswitch_a
+        0x7f0b050e -> :sswitch_1
+        0x7f0b050f -> :sswitch_7
+        0x7f0b14a7 -> :sswitch_9
+        0x7f0b14a9 -> :sswitch_8
+        0x7f0b14ee -> :sswitch_0
+        0x7f0b14ef -> :sswitch_2
+        0x7f0b14f0 -> :sswitch_3
+        0x7f0b14f1 -> :sswitch_4
+        0x7f0b14f2 -> :sswitch_6
+        0x7f0b14f3 -> :sswitch_5
     .end sparse-switch
 .end method
 
@@ -2024,7 +2024,7 @@
     move-result-object v2
 
     .line 544
-    const v3, 0x7f0b1341
+    const v3, 0x7f0b14c7
 
     move-object v0, p0
 
@@ -2056,7 +2056,7 @@
     move-result-object v2
 
     .line 549
-    const v3, 0x7f0b1342
+    const v3, 0x7f0b14c8
 
     move-object v0, p0
 
@@ -2286,7 +2286,7 @@
 
     const/4 v5, 0x0
 
-    const v6, 0x7f0b1368
+    const v6, 0x7f0b14ee
 
     const/4 v7, 0x0
 
@@ -2855,7 +2855,7 @@
 
     move-result-object v7
 
-    const v8, 0x7f0b04f9
+    const v8, 0x7f0b050c
 
     const/4 v9, 0x0
 
@@ -2939,16 +2939,16 @@
     :sswitch_data_0
     .sparse-switch
         0x0 -> :sswitch_a
-        0x7f0b04f9 -> :sswitch_9
-        0x7f0b04fb -> :sswitch_8
-        0x7f0b04fc -> :sswitch_7
-        0x7f0b1348 -> :sswitch_6
-        0x7f0b1368 -> :sswitch_0
-        0x7f0b1369 -> :sswitch_1
-        0x7f0b136a -> :sswitch_2
-        0x7f0b136b -> :sswitch_3
-        0x7f0b136c -> :sswitch_5
-        0x7f0b136d -> :sswitch_4
+        0x7f0b050c -> :sswitch_9
+        0x7f0b050e -> :sswitch_8
+        0x7f0b050f -> :sswitch_7
+        0x7f0b14ce -> :sswitch_6
+        0x7f0b14ee -> :sswitch_0
+        0x7f0b14ef -> :sswitch_1
+        0x7f0b14f0 -> :sswitch_2
+        0x7f0b14f1 -> :sswitch_3
+        0x7f0b14f2 -> :sswitch_5
+        0x7f0b14f3 -> :sswitch_4
     .end sparse-switch
 .end method
 
@@ -3040,7 +3040,7 @@
 
     .line 520
     :goto_0
-    const v6, 0x7f0b1343
+    const v6, 0x7f0b14c9
 
     invoke-interface {v0, v6}, Landroid/view/MenuItem;->setTitle(I)Landroid/view/MenuItem;
 
@@ -3659,7 +3659,7 @@
 
     move-object/from16 v23, v0
 
-    const v24, 0x7f0b1355
+    const v24, 0x7f0b14db
 
     move-object/from16 v0, p0
 
@@ -3734,7 +3734,7 @@
     aput-object v25, v24, v26
 
     .line 296
-    const v25, 0x7f0b1356
+    const v25, 0x7f0b14dc    # 1.84871E38f
 
     move-object/from16 v0, p0
 
@@ -4112,7 +4112,7 @@
     if-lez v23, :cond_16
 
     .line 335
-    const v23, 0x7f0b1351
+    const v23, 0x7f0b14d7
 
     move-object/from16 v0, p0
 
@@ -4232,7 +4232,7 @@
     .line 345
     .end local v10    # "otherUsers":Landroid/preference/PreferenceGroup;
     :cond_16
-    const v23, 0x7f0b136c
+    const v23, 0x7f0b14f2
 
     const/16 v24, 0x0
 
@@ -4283,7 +4283,7 @@
     .line 352
     :cond_18
     :goto_c
-    const v23, 0x7f0b1348
+    const v23, 0x7f0b14ce
 
     move-object/from16 v0, p0
 
@@ -4386,7 +4386,7 @@
     .restart local v16    # "totalBytes":J
     .restart local v18    # "usedBytes":J
     :cond_1b
-    const v23, 0x7f0b04fc
+    const v23, 0x7f0b050f
 
     const/16 v24, 0x0
 

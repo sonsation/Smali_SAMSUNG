@@ -134,7 +134,7 @@
     if-gtz v1, :cond_2
 
     .line 64
-    const v1, 0x7f0b1738
+    const v1, 0x7f0b18be
 
     invoke-virtual {p0, v1}, Lcom/android/settings/datausage/AppDataUsagePreference;->setSummary(I)V
 

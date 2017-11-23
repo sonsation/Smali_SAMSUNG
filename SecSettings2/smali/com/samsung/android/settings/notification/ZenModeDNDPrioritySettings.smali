@@ -224,7 +224,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0b1931
+    const v2, 0x7f0b1ab7
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -237,7 +237,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0b1932
+    const v2, 0x7f0b1ab8
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -250,7 +250,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0b1933
+    const v2, 0x7f0b1ab9
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -263,7 +263,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0b08b5
+    const v2, 0x7f0b08d2
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -543,7 +543,7 @@
     aput-object v5, v4, v7
 
     .line 322
-    const v5, 0x7f0b193b
+    const v5, 0x7f0b1ac1
 
     invoke-virtual {v3, v5, v4}, Landroid/content/Context;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -610,7 +610,7 @@
     :cond_1
     iget-object v2, p0, Lcom/samsung/android/settings/notification/ZenModeDNDPrioritySettings;->mEvents:Landroid/preference/SwitchPreference;
 
-    const v3, 0x7f0b0a39
+    const v3, 0x7f0b0a5a
 
     invoke-virtual {v2, v3}, Landroid/preference/SwitchPreference;->setSummary(I)V
 
@@ -625,14 +625,14 @@
     .line 365
     iget-object v2, p0, Lcom/samsung/android/settings/notification/ZenModeDNDPrioritySettings;->mNoException:Lcom/samsung/android/settings/notification/RadioPreference;
 
-    const v3, 0x7f0b0a3c
+    const v3, 0x7f0b0a5d
 
     invoke-virtual {v2, v3}, Lcom/samsung/android/settings/notification/RadioPreference;->setSummary(I)V
 
     .line 366
     iget-object v2, p0, Lcom/samsung/android/settings/notification/ZenModeDNDPrioritySettings;->mAlarm:Landroid/preference/SwitchPreference;
 
-    const v3, 0x7f0b0a31
+    const v3, 0x7f0b0a52
 
     invoke-virtual {v2, v3}, Landroid/preference/SwitchPreference;->setSummary(I)V
 
@@ -976,7 +976,7 @@
     .line 424
     iget-object v0, p0, Lcom/samsung/android/settings/notification/ZenModeDNDPrioritySettings;->mContext:Landroid/content/Context;
 
-    const v1, 0x7f0b1922
+    const v1, 0x7f0b1aa8
 
     const/4 v2, 0x0
 

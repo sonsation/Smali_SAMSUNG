@@ -191,7 +191,7 @@
     move-result-object v1
 
     .line 397
-    const v2, 0x7f0b05a2
+    const v2, 0x7f0b05b6
 
     .line 395
     invoke-virtual {v1, v2}, Landroid/app/AlertDialog$Builder;->setMessage(I)Landroid/app/AlertDialog$Builder;
@@ -203,7 +203,7 @@
 
     invoke-direct {v2, p0}, Lcom/samsung/android/settings/bluelightfilter/BlueLightFilterSettings$2;-><init>(Lcom/samsung/android/settings/bluelightfilter/BlueLightFilterSettings;)V
 
-    const v3, 0x7f0b14b7
+    const v3, 0x7f0b163d
 
     .line 395
     invoke-virtual {v1, v3, v2}, Landroid/app/AlertDialog$Builder;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
@@ -215,7 +215,7 @@
 
     invoke-direct {v2, p0}, Lcom/samsung/android/settings/bluelightfilter/BlueLightFilterSettings$3;-><init>(Lcom/samsung/android/settings/bluelightfilter/BlueLightFilterSettings;)V
 
-    const v3, 0x7f0b05a3
+    const v3, 0x7f0b05b7
 
     .line 395
     invoke-virtual {v1, v3, v2}, Landroid/app/AlertDialog$Builder;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
@@ -921,7 +921,7 @@
 
     aput-object v10, v9, v11
 
-    const v10, 0x7f0b059a
+    const v10, 0x7f0b05ae
 
     invoke-virtual {v8, v10, v9}, Landroid/content/res/Resources;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -1372,7 +1372,7 @@
 
     move-result-object v2
 
-    const v5, 0x7f0b05a0
+    const v5, 0x7f0b05b4
 
     invoke-virtual {p0, v5}, Lcom/samsung/android/settings/bluelightfilter/BlueLightFilterSettings;->getString(I)Ljava/lang/String;
 
@@ -2152,7 +2152,7 @@
 
     aput-object v8, v7, v10
 
-    const v8, 0x7f0b059a
+    const v8, 0x7f0b05ae
 
     invoke-virtual {v6, v8, v7}, Landroid/content/res/Resources;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 

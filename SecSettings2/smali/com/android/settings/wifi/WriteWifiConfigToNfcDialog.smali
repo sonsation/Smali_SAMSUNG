@@ -868,9 +868,9 @@
     .param p1, "tag"    # Landroid/nfc/Tag;
 
     .prologue
-    const v5, 0x7f0b18af
+    const v5, 0x7f0b1a35
 
-    const v6, 0x7f0b18ae
+    const v6, 0x7f0b1a34
 
     .line 268
     invoke-static {p1}, Landroid/nfc/tech/Ndef;->get(Landroid/nfc/Tag;)Landroid/nfc/tech/Ndef;
@@ -933,7 +933,7 @@
     .line 296
     iget-object v4, p0, Lcom/android/settings/wifi/WriteWifiConfigToNfcDialog;->mLabelView:Landroid/widget/TextView;
 
-    const v5, 0x7f0b18ad
+    const v5, 0x7f0b1a33
 
     invoke-direct {p0, v4, v5}, Lcom/android/settings/wifi/WriteWifiConfigToNfcDialog;->setViewText(Landroid/widget/TextView;I)V
 
@@ -1180,7 +1180,7 @@
     .line 250
     iget-object v3, p0, Lcom/android/settings/wifi/WriteWifiConfigToNfcDialog;->mLabelView:Landroid/widget/TextView;
 
-    const v4, 0x7f0b18ab
+    const v4, 0x7f0b1a31
 
     invoke-virtual {v3, v4}, Landroid/widget/TextView;->setText(I)V
 
@@ -1701,7 +1701,7 @@
     :cond_2
     iget-object v5, p0, Lcom/android/settings/wifi/WriteWifiConfigToNfcDialog;->mPasswordErrorView:Landroid/widget/TextView;
 
-    const v6, 0x7f0b0cbd
+    const v6, 0x7f0b0cdf
 
     invoke-virtual {v5, v6}, Landroid/widget/TextView;->setText(I)V
 
@@ -1773,7 +1773,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0b18a9
+    const v2, 0x7f0b1a2f
 
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1815,7 +1815,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0b18aa
+    const v2, 0x7f0b1a30
 
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1836,7 +1836,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0b18aa
+    const v2, 0x7f0b1a30
 
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -2060,7 +2060,7 @@
     .line 343
     iget-object v2, p0, Lcom/android/settings/wifi/WriteWifiConfigToNfcDialog;->mPasswordErrorView:Landroid/widget/TextView;
 
-    const v3, 0x7f0b0cf7
+    const v3, 0x7f0b0d19
 
     invoke-virtual {v2, v3}, Landroid/widget/TextView;->setText(I)V
 

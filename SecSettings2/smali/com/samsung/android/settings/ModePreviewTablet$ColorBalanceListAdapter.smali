@@ -115,14 +115,14 @@
     .line 510
     iget-object v2, v0, Lcom/samsung/android/settings/ModePreviewTablet$ViewHolder;->title:Landroid/widget/TextView;
 
-    const v3, 0x7f0b0554
+    const v3, 0x7f0b0568
 
     invoke-virtual {v2, v3}, Landroid/widget/TextView;->setText(I)V
 
     .line 511
     iget-object v2, v0, Lcom/samsung/android/settings/ModePreviewTablet$ViewHolder;->summary:Landroid/widget/TextView;
 
-    const v3, 0x7f0b0555
+    const v3, 0x7f0b0569
 
     invoke-virtual {v2, v3}, Landroid/widget/TextView;->setText(I)V
 

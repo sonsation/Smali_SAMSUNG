@@ -526,7 +526,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f0b0b2c
+    const v5, 0x7f0b0b4d
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -802,7 +802,7 @@
     .line 200
     iget-object v2, p0, Lcom/samsung/android/settings/LteModeActivity;->mContext:Landroid/content/Context;
 
-    const v3, 0x7f0b0361
+    const v3, 0x7f0b0363
 
     invoke-static {v2, v3, v5}, Landroid/widget/Toast;->makeText(Landroid/content/Context;II)Landroid/widget/Toast;
 

@@ -334,7 +334,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0b0594
+    const v3, 0x7f0b05a8
 
     invoke-virtual {p0, v3}, Lcom/samsung/android/settings/qstile/BluelightFilterTiles;->getString(I)Ljava/lang/String;
 

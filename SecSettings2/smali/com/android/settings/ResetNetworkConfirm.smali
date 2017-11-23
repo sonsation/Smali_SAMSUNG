@@ -267,13 +267,13 @@
     if-eqz v0, :cond_0
 
     .line 343
-    const v1, 0x7f0b0ba1
+    const v1, 0x7f0b0bc2
 
     invoke-virtual {p0, v1}, Lcom/android/settings/ResetNetworkConfirm;->getString(I)Ljava/lang/String;
 
     move-result-object v1
 
-    const v2, 0x7f0b0ba3
+    const v2, 0x7f0b0bc4
 
     invoke-virtual {p0, v2}, Lcom/android/settings/ResetNetworkConfirm;->getString(I)Ljava/lang/String;
 
@@ -355,7 +355,7 @@
     .line 332
     iget-object v0, p0, Lcom/android/settings/ResetNetworkConfirm;->progressDialog:Landroid/app/ProgressDialog;
 
-    const v1, 0x7f0b0c0a
+    const v1, 0x7f0b0c2b
 
     invoke-virtual {v0, v1}, Landroid/app/ProgressDialog;->setTitle(I)V
 
@@ -367,7 +367,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0b13d2
+    const v2, 0x7f0b1558
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

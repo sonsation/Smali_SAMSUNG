@@ -465,7 +465,7 @@
     .locals 8
 
     .prologue
-    const v7, 0x7f0b0a14
+    const v7, 0x7f0b0a35
 
     const/4 v3, 0x1
 
@@ -608,7 +608,7 @@
     .line 243
     iget-object v2, p0, Lcom/samsung/android/settings/notification/VibrationsSettings;->mVibrationOnTouch:Landroid/support/v14/preference/SwitchPreference;
 
-    const v5, 0x7f0b09fd
+    const v5, 0x7f0b0a1e
 
     invoke-virtual {v2, v5}, Landroid/support/v14/preference/SwitchPreference;->setSummary(I)V
 
@@ -630,7 +630,7 @@
     .line 253
     iget-object v2, p0, Lcom/samsung/android/settings/notification/VibrationsSettings;->mKeyboardVibration:Landroid/support/v14/preference/SwitchPreference;
 
-    const v4, 0x7f0b0a11
+    const v4, 0x7f0b0a32
 
     invoke-virtual {v2, v4}, Landroid/support/v14/preference/SwitchPreference;->setSummary(I)V
 

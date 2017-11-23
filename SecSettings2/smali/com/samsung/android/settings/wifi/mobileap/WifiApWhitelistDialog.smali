@@ -865,7 +865,7 @@
     if-nez v4, :cond_3
 
     .line 145
-    const v4, 0x7f0b0d81
+    const v4, 0x7f0b0da6
 
     invoke-virtual {p0, v4}, Lcom/samsung/android/settings/wifi/mobileap/WifiApWhitelistDialog;->setTitle(I)V
 
@@ -894,7 +894,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f0b0435
+    const v5, 0x7f0b043d
 
     invoke-virtual {v4, v5}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -910,7 +910,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f0b107a
+    const v5, 0x7f0b1202
 
     invoke-virtual {v4, v5}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -985,7 +985,7 @@
     if-ne v4, v11, :cond_4
 
     .line 152
-    const v4, 0x7f0b0d81
+    const v4, 0x7f0b0da6
 
     invoke-virtual {p0, v4}, Lcom/samsung/android/settings/wifi/mobileap/WifiApWhitelistDialog;->setTitle(I)V
 
@@ -1018,7 +1018,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f0b0435
+    const v5, 0x7f0b043d
 
     invoke-virtual {v4, v5}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1039,7 +1039,7 @@
     if-ne v4, v5, :cond_5
 
     .line 159
-    const v4, 0x7f0b0da7
+    const v4, 0x7f0b0dcc
 
     invoke-virtual {p0, v4}, Lcom/samsung/android/settings/wifi/mobileap/WifiApWhitelistDialog;->setTitle(I)V
 
@@ -1081,7 +1081,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f0b0e39
+    const v6, 0x7f0b0e5f
 
     invoke-static {v5, v6}, Lcom/samsung/android/settings/WifiApUtils;->getString(Landroid/content/Context;I)Ljava/lang/String;
 
@@ -1139,7 +1139,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f0b0436
+    const v5, 0x7f0b043e
 
     invoke-virtual {v4, v5}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1154,7 +1154,7 @@
     .line 170
     .end local v3    # "whiteList":Landroid/net/wifi/WifiApWhiteList;
     :cond_5
-    const v4, 0x7f0b042e
+    const v4, 0x7f0b0436
 
     invoke-virtual {p0, v4}, Lcom/samsung/android/settings/wifi/mobileap/WifiApWhitelistDialog;->setTitle(I)V
 
@@ -1243,7 +1243,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f0b042e
+    const v5, 0x7f0b0436
 
     invoke-virtual {v4, v5}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

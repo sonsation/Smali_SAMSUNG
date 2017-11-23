@@ -755,7 +755,7 @@
     if-ne v0, v1, :cond_0
 
     .line 254
-    const v0, 0x7f0b10d8
+    const v0, 0x7f0b125f
 
     invoke-virtual {p0, v0}, Lcom/android/settings/fingerprint/FingerprintEnrollEnrolling;->setHeaderText(I)V
 
@@ -775,7 +775,7 @@
 
     .line 258
     :cond_0
-    const v0, 0x7f0b10da
+    const v0, 0x7f0b1261
 
     .line 259
     const/4 v1, 0x1
@@ -928,7 +928,7 @@
     invoke-virtual {p0, v0}, Lcom/android/settings/fingerprint/FingerprintEnrollEnrolling;->setContentView(I)V
 
     .line 98
-    const v0, 0x7f0b10d8
+    const v0, 0x7f0b125f
 
     invoke-virtual {p0, v0}, Lcom/android/settings/fingerprint/FingerprintEnrollEnrolling;->setHeaderText(I)V
 
@@ -1092,7 +1092,7 @@
     packed-switch p1, :pswitch_data_0
 
     .line 282
-    const v0, 0x7f0b10e8
+    const v0, 0x7f0b126f
 
     .line 285
     .local v0, "msgId":I
@@ -1119,7 +1119,7 @@
     .line 278
     .end local v0    # "msgId":I
     :pswitch_0
-    const v0, 0x7f0b10e7
+    const v0, 0x7f0b126e
 
     .line 279
     .restart local v0    # "msgId":I

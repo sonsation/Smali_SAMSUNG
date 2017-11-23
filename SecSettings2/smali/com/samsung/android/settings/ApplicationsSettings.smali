@@ -626,7 +626,7 @@
     .line 135
     iget-object v0, p0, Lcom/samsung/android/settings/ApplicationsSettings;->mAppManager:Landroid/preference/PreferenceScreen;
 
-    const v1, 0x7f0204cc
+    const v1, 0x7f0204ca
 
     invoke-virtual {v0, v1}, Landroid/preference/PreferenceScreen;->setIcon(I)V
 
@@ -638,7 +638,7 @@
     .line 137
     sget-object v0, Lcom/samsung/android/settings/ApplicationsSettings;->mAppPermission:Landroid/preference/PreferenceScreen;
 
-    const v1, 0x7f0204cd
+    const v1, 0x7f0204cb
 
     invoke-virtual {v0, v1}, Landroid/preference/PreferenceScreen;->setIcon(I)V
 
@@ -650,7 +650,7 @@
     .line 139
     iget-object v0, p0, Lcom/samsung/android/settings/ApplicationsSettings;->mAppLauncher:Landroid/preference/PreferenceScreen;
 
-    const v1, 0x7f0204ce
+    const v1, 0x7f0204cc
 
     invoke-virtual {v0, v1}, Landroid/preference/PreferenceScreen;->setIcon(I)V
 

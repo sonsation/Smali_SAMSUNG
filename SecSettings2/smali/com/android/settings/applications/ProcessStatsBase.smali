@@ -106,14 +106,14 @@
     sput-object v0, Lcom/android/settings/applications/ProcessStatsBase;->sDurations:[J
 
     .line 62
-    const v0, 0x7f0b1656
+    const v0, 0x7f0b17dc
 
-    const v1, 0x7f0b1657
+    const v1, 0x7f0b17dd
 
     .line 63
-    const v2, 0x7f0b1658
+    const v2, 0x7f0b17de
 
-    const v3, 0x7f0b1659
+    const v3, 0x7f0b17df
 
     .line 61
     filled-new-array {v0, v1, v2, v3}, [I
@@ -211,7 +211,7 @@
     move-result-object v1
 
     .line 152
-    const v3, 0x7f0b19f7
+    const v3, 0x7f0b1b7d
 
     move-object v0, p0
 

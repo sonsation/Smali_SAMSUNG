@@ -110,7 +110,7 @@
     invoke-virtual {p0, v2, v0}, Lcom/android/settings/applications/DefaultEmergencyPreference;->setPackageNames([Ljava/lang/CharSequence;Ljava/lang/CharSequence;)V
 
     .line 66
-    const v2, 0x7f0b03b7
+    const v2, 0x7f0b03b9
 
     invoke-virtual {p0, v2}, Lcom/android/settings/applications/DefaultEmergencyPreference;->setResDescription(I)V
 

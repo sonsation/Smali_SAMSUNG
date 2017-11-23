@@ -93,7 +93,7 @@
     .param p1, "aPassword"    # Ljava/lang/String;
 
     .prologue
-    const v3, 0x7f0b0f6f
+    const v3, 0x7f0b0f97
 
     const/4 v2, 0x0
 
@@ -129,7 +129,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b0f6e
+    const v1, 0x7f0b0f96
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -254,7 +254,7 @@
     .param p1, "aPassword"    # Ljava/lang/String;
 
     .prologue
-    const v3, 0x7f0b0f6f
+    const v3, 0x7f0b0f97
 
     const/4 v2, 0x0
 
@@ -281,7 +281,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b0f70
+    const v1, 0x7f0b0f98
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -343,7 +343,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b0f71
+    const v1, 0x7f0b0f99
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -543,7 +543,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0b0438
+    const v2, 0x7f0b0440
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

@@ -532,7 +532,7 @@
     .line 373
     iget-object v6, p0, Lcom/samsung/android/settings/datausage/trafficmanager/SecSummaryLayoutCHN;->mResInstance:Landroid/content/res/Resources;
 
-    const v7, 0x7f0b1740
+    const v7, 0x7f0b18c6
 
     invoke-virtual {v6, v7}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -2754,7 +2754,7 @@
 
     const/4 v6, 0x1
 
-    const v5, 0x7f0b0f7d
+    const v5, 0x7f0b0fa5
 
     const/16 v3, 0x8
 
@@ -2770,7 +2770,7 @@
 
     iget-object v1, p0, Lcom/samsung/android/settings/datausage/trafficmanager/SecSummaryLayoutCHN;->mResInstance:Landroid/content/res/Resources;
 
-    const v2, 0x7f0b1769
+    const v2, 0x7f0b18ef
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -2817,7 +2817,7 @@
 
     iget-object v1, p0, Lcom/samsung/android/settings/datausage/trafficmanager/SecSummaryLayoutCHN;->mResInstance:Landroid/content/res/Resources;
 
-    const v2, 0x7f0b1769
+    const v2, 0x7f0b18ef
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -3015,7 +3015,7 @@
 
     iget-object v2, p0, Lcom/samsung/android/settings/datausage/trafficmanager/SecSummaryLayoutCHN;->mResInstance:Landroid/content/res/Resources;
 
-    const v3, 0x7f0b0f7e
+    const v3, 0x7f0b0fa6
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -3056,7 +3056,7 @@
 
     iget-object v2, p0, Lcom/samsung/android/settings/datausage/trafficmanager/SecSummaryLayoutCHN;->mResInstance:Landroid/content/res/Resources;
 
-    const v3, 0x7f0b0f7e
+    const v3, 0x7f0b0fa6
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -3109,7 +3109,7 @@
 
     aput-object v3, v2, v6
 
-    const v3, 0x7f0b0f7c
+    const v3, 0x7f0b0fa4
 
     invoke-virtual {v1, v3, v2}, Landroid/content/res/Resources;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -3136,7 +3136,7 @@
 
     aput-object v3, v2, v6
 
-    const v3, 0x7f0b0f7c
+    const v3, 0x7f0b0fa4
 
     invoke-virtual {v1, v3, v2}, Landroid/content/res/Resources;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -3332,7 +3332,7 @@
 
     iget-object v1, p0, Lcom/samsung/android/settings/datausage/trafficmanager/SecSummaryLayoutCHN;->mResInstance:Landroid/content/res/Resources;
 
-    const v2, 0x7f0b0f7f
+    const v2, 0x7f0b0fa7
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -3345,7 +3345,7 @@
 
     iget-object v1, p0, Lcom/samsung/android/settings/datausage/trafficmanager/SecSummaryLayoutCHN;->mResInstance:Landroid/content/res/Resources;
 
-    const v2, 0x7f0b0f7f
+    const v2, 0x7f0b0fa7
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -3549,7 +3549,7 @@
     const-string/jumbo v2, "titleResId"
 
     .line 1051
-    const v3, 0x7f0b043f
+    const v3, 0x7f0b0447
 
     .line 1050
     invoke-virtual {v0, v2, v3}, Landroid/os/Bundle;->putInt(Ljava/lang/String;I)V
@@ -3557,21 +3557,21 @@
     .line 1052
     const-string/jumbo v2, "positiveResId"
 
-    const v3, 0x7f0b0438
+    const v3, 0x7f0b0440
 
     invoke-virtual {v0, v2, v3}, Landroid/os/Bundle;->putInt(Ljava/lang/String;I)V
 
     .line 1053
     const-string/jumbo v2, "negativeResId"
 
-    const v3, 0x7f0b042f
+    const v3, 0x7f0b0437
 
     invoke-virtual {v0, v2, v3}, Landroid/os/Bundle;->putInt(Ljava/lang/String;I)V
 
     .line 1054
     const-string/jumbo v2, "bodyResId"
 
-    const v3, 0x7f0b0f8b
+    const v3, 0x7f0b0fb3
 
     invoke-virtual {v0, v2, v3}, Landroid/os/Bundle;->putInt(Ljava/lang/String;I)V
 
@@ -3600,7 +3600,7 @@
     .locals 9
 
     .prologue
-    const v8, 0x7f0b0f8e
+    const v8, 0x7f0b0fb6
 
     const/16 v1, 0x8
 
@@ -4043,7 +4043,7 @@
 
     iget-object v5, p0, Lcom/samsung/android/settings/datausage/trafficmanager/SecSummaryLayoutCHN;->mResInstance:Landroid/content/res/Resources;
 
-    const v6, 0x7f0b1a74    # 1.8490004E38f
+    const v6, 0x7f0b1bfa
 
     invoke-virtual {v5, v6}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -4542,7 +4542,7 @@
     const-string/jumbo v4, "titleResId"
 
     .line 1036
-    const v5, 0x7f0b0f85
+    const v5, 0x7f0b0fad
 
     .line 1035
     invoke-virtual {v0, v4, v5}, Landroid/os/Bundle;->putInt(Ljava/lang/String;I)V
@@ -4550,21 +4550,21 @@
     .line 1037
     const-string/jumbo v4, "positiveResId"
 
-    const v5, 0x7f0b043d
+    const v5, 0x7f0b0445
 
     invoke-virtual {v0, v4, v5}, Landroid/os/Bundle;->putInt(Ljava/lang/String;I)V
 
     .line 1038
     const-string/jumbo v4, "negativeResId"
 
-    const v5, 0x7f0b043e
+    const v5, 0x7f0b0446
 
     invoke-virtual {v0, v4, v5}, Landroid/os/Bundle;->putInt(Ljava/lang/String;I)V
 
     .line 1039
     const-string/jumbo v4, "bodyResId"
 
-    const v5, 0x7f0b0f84
+    const v5, 0x7f0b0fac
 
     invoke-virtual {v0, v4, v5}, Landroid/os/Bundle;->putInt(Ljava/lang/String;I)V
 

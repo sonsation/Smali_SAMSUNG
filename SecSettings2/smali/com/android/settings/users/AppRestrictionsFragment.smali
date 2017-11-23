@@ -228,7 +228,7 @@
 
     .line 486
     .local v1, "packageName":Ljava/lang/String;
-    const v3, 0x7f02024a
+    const v3, 0x7f020248
 
     invoke-virtual {p2, v3}, Lcom/android/settings/users/AppRestrictionsFragment$AppRestrictionsPreference;->setIcon(I)V
 
@@ -589,7 +589,7 @@
     aput-object v1, v0, v2
 
     .line 468
-    const v1, 0x7f0b1845
+    const v1, 0x7f0b19cb
 
     invoke-virtual {p0, v1, v0}, Lcom/android/settings/users/AppRestrictionsFragment;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -609,7 +609,7 @@
     aput-object v1, v0, v2
 
     .line 471
-    const v1, 0x7f0b1843
+    const v1, 0x7f0b19c9
 
     invoke-virtual {p0, v1, v0}, Lcom/android/settings/users/AppRestrictionsFragment;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -624,7 +624,7 @@
     if-eqz v0, :cond_2
 
     .line 474
-    const v0, 0x7f0b1844
+    const v0, 0x7f0b19ca
 
     invoke-virtual {p0, v0}, Lcom/android/settings/users/AppRestrictionsFragment;->getString(I)Ljava/lang/String;
 
@@ -992,7 +992,7 @@
     invoke-virtual {v4, p0}, Landroid/preference/Preference;->setOnPreferenceChangeListener(Landroid/preference/Preference$OnPreferenceChangeListener;)V
 
     .line 862
-    const v7, 0x7f020104
+    const v7, 0x7f020102
 
     invoke-virtual {v4, v7}, Landroid/preference/Preference;->setIcon(I)V
 
@@ -1953,7 +1953,7 @@
 
     aput-object v2, v6, v8
 
-    const v7, 0x7f0b0c98
+    const v7, 0x7f0b0cba
 
     invoke-virtual {v5, v7, v6}, Landroid/content/res/Resources;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -1973,7 +1973,7 @@
 
     aput-object v2, v6, v8
 
-    const v7, 0x7f0b0c99
+    const v7, 0x7f0b0cbb
 
     invoke-virtual {v5, v7, v6}, Landroid/content/res/Resources;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -2111,7 +2111,7 @@
 
     aput-object v4, v7, v9
 
-    const v8, 0x7f0b0c96
+    const v8, 0x7f0b0cb8
 
     invoke-virtual {v6, v8, v7}, Landroid/content/res/Resources;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -2135,7 +2135,7 @@
 
     aput-object v1, v7, v11
 
-    const v8, 0x7f0b0c97
+    const v8, 0x7f0b0cb9
 
     invoke-virtual {v6, v8, v7}, Landroid/content/res/Resources;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 

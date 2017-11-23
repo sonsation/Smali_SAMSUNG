@@ -549,7 +549,7 @@
 
     .line 62
     .local v1, "screen":Landroid/preference/PreferenceScreen;
-    const v2, 0x7f0b1526
+    const v2, 0x7f0b16ac
 
     invoke-virtual {v0, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

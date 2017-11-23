@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="data_saver_unrestricted_summary_chn">
+        <item quantity="other">%d program tillåts använda mobildata utan begränsningar när Begränsa bakgrundsdata är aktiverat.</item>
+        <item quantity="one">%d program tillåts använda mobildata utan begränsningar när Begränsa bakgrundsdata är aktiverat.</item>
+    </plurals>
     <plurals name="lock_timeout_hours">
         <item quantity="other">%d timmar</item>
         <item quantity="one">1 timme</item>

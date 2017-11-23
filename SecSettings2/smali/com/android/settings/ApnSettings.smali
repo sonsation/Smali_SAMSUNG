@@ -2165,7 +2165,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0b0539
+    const v4, 0x7f0b054d
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -2212,7 +2212,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0b053a
+    const v4, 0x7f0b054e
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -2317,7 +2317,7 @@
     invoke-virtual {v3, v0}, Landroid/app/AlertDialog$Builder;->setView(Landroid/view/View;)Landroid/app/AlertDialog$Builder;
 
     .line 956
-    const v4, 0x7f0b0435
+    const v4, 0x7f0b043d
 
     invoke-virtual {v3, v4}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
 
@@ -3426,7 +3426,7 @@
 
     .line 932
     .local v0, "mAlertDialog":Landroid/app/AlertDialog$Builder;
-    const v1, 0x7f0b0b48
+    const v1, 0x7f0b0b69
 
     invoke-virtual {v0, v1}, Landroid/app/AlertDialog$Builder;->setMessage(I)Landroid/app/AlertDialog$Builder;
 
@@ -3435,7 +3435,7 @@
 
     invoke-direct {v1, p0}, Lcom/android/settings/ApnSettings$11;-><init>(Lcom/android/settings/ApnSettings;)V
 
-    const v2, 0x7f0b0433
+    const v2, 0x7f0b043b
 
     invoke-virtual {v0, v2, v1}, Landroid/app/AlertDialog$Builder;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
 
@@ -4221,7 +4221,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0b13b7
+    const v2, 0x7f0b153d
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -4254,7 +4254,7 @@
     .param p2, "inflater"    # Landroid/view/MenuInflater;
 
     .prologue
-    const v6, 0x7f0b0435
+    const v6, 0x7f0b043d
 
     const/4 v5, 0x2
 
@@ -4327,7 +4327,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0b13b8
+    const v2, 0x7f0b153e
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -4526,7 +4526,7 @@
 
     aput-object v18, v17, v19
 
-    const v18, 0x7f0b1866
+    const v18, 0x7f0b19ec
 
     move/from16 v0, v18
 

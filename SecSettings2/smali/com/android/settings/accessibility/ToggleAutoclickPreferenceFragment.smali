@@ -64,19 +64,19 @@
 
     .prologue
     .line 72
-    const v0, 0x7f13000e
+    const v0, 0x7f13000f
 
     .line 73
-    const v1, 0x7f13000f
+    const v1, 0x7f130010
 
     .line 74
-    const v2, 0x7f130010
+    const v2, 0x7f130011
 
     .line 75
-    const v3, 0x7f130011
+    const v3, 0x7f130012
 
     .line 76
-    const v4, 0x7f130012
+    const v4, 0x7f130013
 
     .line 71
     filled-new-array {v0, v1, v2, v3, v4}, [I
@@ -344,7 +344,7 @@
     .locals 13
 
     .prologue
-    const v12, 0x7f0b158c
+    const v12, 0x7f0b1712
 
     const/4 v11, 0x0
 
@@ -401,7 +401,7 @@
 
     move-result-object v9
 
-    const v10, 0x7f0b0bdd
+    const v10, 0x7f0b0bfe
 
     invoke-virtual {v9, v10}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -496,7 +496,7 @@
     aput-object v9, v8, v11
 
     .line 216
-    const v9, 0x7f0b02ec
+    const v9, 0x7f0b02ee
 
     invoke-virtual {p0, v9, v8}, Lcom/android/settings/accessibility/ToggleAutoclickPreferenceFragment;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -535,7 +535,7 @@
 
     move-result-object v9
 
-    const v10, 0x7f0b0438
+    const v10, 0x7f0b0440
 
     invoke-virtual {v9, v10}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -555,7 +555,7 @@
 
     invoke-direct {v9, p0}, Lcom/android/settings/accessibility/ToggleAutoclickPreferenceFragment$2;-><init>(Lcom/android/settings/accessibility/ToggleAutoclickPreferenceFragment;)V
 
-    const v10, 0x7f0b107a
+    const v10, 0x7f0b1202
 
     .line 220
     invoke-virtual {v8, v10, v9}, Landroid/app/AlertDialog$Builder;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
@@ -935,7 +935,7 @@
     invoke-super {p0, p1, p2}, Lcom/android/settings/accessibility/ToggleFeaturePreferenceFragment;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
 
     .line 183
-    const v0, 0x7f0b158c
+    const v0, 0x7f0b1712
 
     invoke-virtual {p0, v0}, Lcom/android/settings/accessibility/ToggleAutoclickPreferenceFragment;->getString(I)Ljava/lang/String;
 

@@ -159,7 +159,7 @@
 
     check-cast v1, Landroid/widget/ImageView;
 
-    const v2, 0x7f0200ce
+    const v2, 0x7f0200cc
 
     invoke-virtual {v1, v2}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -178,7 +178,7 @@
 
     check-cast v1, Landroid/widget/ImageView;
 
-    const v2, 0x7f0200cf
+    const v2, 0x7f0200cd
 
     invoke-virtual {v1, v2}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -335,7 +335,7 @@
 
     .line 220
     .local v4, "point":Landroid/widget/ImageView;
-    const v6, 0x7f0b0987
+    const v6, 0x7f0b09a5
 
     invoke-virtual {p0, v6}, Lcom/samsung/android/settings/usefulfeature/MultiWindowSettings;->getString(I)Ljava/lang/String;
 
@@ -403,7 +403,7 @@
 
     check-cast v6, Landroid/widget/ImageView;
 
-    const v7, 0x7f0200cf
+    const v7, 0x7f0200cd
 
     invoke-virtual {v6, v7}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -636,7 +636,7 @@
     .line 355
     const/4 v1, 0x1
 
-    const v2, 0x7f0b043c
+    const v2, 0x7f0b0444
 
     invoke-interface {p1, v3, v1, v3, v2}, Landroid/view/Menu;->add(IIII)Landroid/view/MenuItem;
 
@@ -760,9 +760,9 @@
     .param p2, "objValue"    # Ljava/lang/Object;
 
     .prologue
-    const v6, 0x7f0b1953
+    const v6, 0x7f0b1ad9
 
-    const v5, 0x7f0b1952
+    const v5, 0x7f0b1ad8
 
     const/4 v4, 0x1
 
@@ -989,11 +989,11 @@
     .locals 10
 
     .prologue
-    const v4, 0x7f0b1952
+    const v4, 0x7f0b1ad8
 
     const/4 v9, 0x0
 
-    const v5, 0x7f0b1953
+    const v5, 0x7f0b1ad9
 
     const/4 v8, 0x0
 

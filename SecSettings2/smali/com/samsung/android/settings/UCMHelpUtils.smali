@@ -129,7 +129,7 @@
     .param p1, "errorCode"    # I
 
     .prologue
-    const v7, 0x7f0b0b85
+    const v7, 0x7f0b0ba6
 
     const/4 v6, 0x1
 
@@ -265,7 +265,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0b0b83
+    const v3, 0x7f0b0ba4
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -295,7 +295,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0b0b84
+    const v3, 0x7f0b0ba5
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -353,7 +353,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0b0b86
+    const v3, 0x7f0b0ba7
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

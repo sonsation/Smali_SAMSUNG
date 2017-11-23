@@ -493,19 +493,19 @@
     packed-switch v0, :pswitch_data_0
 
     .line 384
-    const v1, 0x7f0b1adc
+    const v1, 0x7f0b1c62
 
     return v1
 
     .line 373
     :pswitch_0
-    const v1, 0x7f0b08f0
+    const v1, 0x7f0b090d
 
     return v1
 
     .line 375
     :pswitch_1
-    const v1, 0x7f0b1ad9
+    const v1, 0x7f0b1c5f    # 1.8491E38f
 
     return v1
 
@@ -513,24 +513,24 @@
     :pswitch_2
     iget-object v1, p0, Lcom/android/settings/ConfirmUCMLockPassword$ConfirmUCMLockPasswordFragment;->mHeaderTextView:Landroid/widget/TextView;
 
-    const v2, 0x7f0b1ae5
+    const v2, 0x7f0b1c6b
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(I)V
 
     .line 378
-    const v1, 0x7f0b1ad7
+    const v1, 0x7f0b1c5d
 
     return v1
 
     .line 380
     :pswitch_3
-    const v1, 0x7f0b1ad8
+    const v1, 0x7f0b1c5e
 
     return v1
 
     .line 382
     :pswitch_4
-    const v1, 0x7f0b1aeb
+    const v1, 0x7f0b1c71
 
     return v1
 
@@ -552,7 +552,7 @@
 
     .prologue
     .line 366
-    const v0, 0x7f0b1434
+    const v0, 0x7f0b15ba
 
     return v0
 .end method
@@ -582,7 +582,7 @@
 
     aput-object v2, v1, v3
 
-    const v2, 0x7f0b0ec3
+    const v2, 0x7f0b0ee9
 
     invoke-virtual {p0, v2, v1}, Lcom/android/settings/ConfirmUCMLockPassword$ConfirmUCMLockPasswordFragment;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -602,7 +602,7 @@
 
     aput-object v2, v1, v3
 
-    const v2, 0x7f0b0ec4
+    const v2, 0x7f0b0eea
 
     invoke-virtual {p0, v2, v1}, Lcom/android/settings/ConfirmUCMLockPassword$ConfirmUCMLockPasswordFragment;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -1848,7 +1848,7 @@
     iput-object v2, v0, Lcom/android/settings/ConfirmUCMLockPassword$ConfirmUCMLockPasswordFragment;->progDlg:Landroid/app/ProgressDialog;
 
     .line 256
-    const v2, 0x7f0b1add
+    const v2, 0x7f0b1c63
 
     move-object/from16 v0, p0
 
@@ -2484,7 +2484,7 @@
     iget-object v2, v0, Lcom/android/settings/ConfirmUCMLockPassword$ConfirmUCMLockPasswordFragment;->mChooseLockSettingsHelper:Lcom/android/settings/ChooseLockSettingsHelper;
 
     .line 361
-    const v3, 0x7f0b1101
+    const v3, 0x7f0b1288
 
     move-object/from16 v0, p0
 
@@ -2994,7 +2994,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0b1432
+    const v4, 0x7f0b15b8
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -3073,7 +3073,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0b1434
+    const v4, 0x7f0b15ba
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

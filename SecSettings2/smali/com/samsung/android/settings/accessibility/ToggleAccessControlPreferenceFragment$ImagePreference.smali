@@ -123,7 +123,7 @@
     if-eqz v4, :cond_4
 
     .line 444
-    const v4, 0x7f0202d0
+    const v4, 0x7f0202ce
 
     invoke-virtual {v3, v4}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -159,7 +159,7 @@
     .line 442
     .restart local v3    # "interactionHelpImage":Landroid/widget/ImageView;
     :cond_3
-    const v4, 0x7f0202cb
+    const v4, 0x7f0202c9
 
     invoke-virtual {v3, v4}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -184,7 +184,7 @@
     if-eqz v2, :cond_5
 
     .line 451
-    const v4, 0x7f0202cc
+    const v4, 0x7f0202ca
 
     invoke-virtual {v3, v4}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -208,7 +208,7 @@
     .line 453
     .end local v1    # "frameAnim":Landroid/graphics/drawable/AnimationDrawable;
     :cond_5
-    const v4, 0x7f0202c7
+    const v4, 0x7f0202c5
 
     invoke-virtual {v3, v4}, Landroid/widget/ImageView;->setImageResource(I)V
 

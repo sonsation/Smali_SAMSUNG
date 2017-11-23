@@ -70,7 +70,7 @@
 
     .line 196
     :cond_0
-    const v3, 0x7f0b18da
+    const v3, 0x7f0b1a60
 
     if-eq v2, v3, :cond_2
 
@@ -79,7 +79,7 @@
     .line 197
     .local v0, "enabled":Z
     :goto_0
-    const v3, 0x7f0b18d8
+    const v3, 0x7f0b1a5e
 
     if-ne v2, v3, :cond_3
 

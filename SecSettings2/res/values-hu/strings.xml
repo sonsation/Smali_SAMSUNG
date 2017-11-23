@@ -31,7 +31,7 @@
     <string name="bluetooth_disconnected">Szétkapcsolva</string>
     <string name="bluetooth_disconnecting">Szétkapcsolás…</string>
     <string name="bluetooth_connecting">Kapcsolódás…</string>
-    <string name="bluetooth_connected">Csatlakoztatva.</string>
+    <string name="bluetooth_connected">Csatlakoztatva</string>
     <string name="bluetooth_pairing">Párosítás…</string>
     <string name="bluetooth_connected_no_headset">Csatlakoztatva (nincs telefon)</string>
     <string name="bluetooth_connected_no_a2dp">Csatlakoztatva (nincs hordozó)</string>
@@ -433,7 +433,7 @@ Enter the code you get from Verizon:"</string>
     <string name="answering_end_call_title">Hívások fogadása és befejezése</string>
     <string name="audio_preference_title">Hallás</string>
     <string name="mono_audio_title">Monó hang</string>
-    <string name="mono_audio_summary">Féloldalas fülhallgató használata esetén kapcsolja át a hangbeállítást sztereóról monóra.</string>
+    <string name="mono_audio_summary">Sztereóról monóra kapcsolja a hangot az egy füllel történő hallgatáshoz.</string>
     <string name="multi_window_title">Több ablak</string>
     <string name="magnifier_seekbar_plus_tts">Plusz</string>
     <string name="magnifier_seekbar_minus_tts">Mínusz</string>
@@ -514,16 +514,18 @@ Megjegyzés: a háromszori érintéssel történő nagyítás a billentyűzet ki
     <string name="direct_access_actions_universal_switch_title">Univerzális kapcsoló</string>
     <string name="sound_detector_title">Bébiőr</string>
     <string name="sound_detector_main_title">Hangészlelők</string>
-    <string name="sound_detector_main_description">Jelzést kap róla, ha az eszköz babasírást vagy csengetést észlel.</string>
+    <string name="sound_detector_main_description">Jelzést kap róla, ha a telefon babasírást vagy csengetést észlel.</string>
     <string name="accessibility_easy_interaction_summary">Ébresztés, naptáresemény vagy időzítő jelzésének elutasítása vagy szüneteltetése, illetve bejövő hívások fogadása vagy elutasítása egy érintéssel.</string>
     <string name="accessibility_easy_interaction_summary_tablet_wifi">Érintse meg riasztások és naptáresemények leállításához/szüneteltetéséhez.</string>
-    <string name="all_sound_off">Minden hang kikapcsolása</string>
-    <string name="all_sound_off_summary">Az eszközön – a kihangosítót is beleértve – még akkor sem szólal meg semmilyen hang, ha a Hangmód beállítása Hang.</string>
+    <string name="all_sound_off">Teljes némítás</string>
+    <string name="all_sound_off_summary">Minden hang kikapcsol, a telefonhívásokat is beleértve, akkor is, ha a hangmód beállítása Hang.</string>
     <string name="all_sound_off_dialog_summary">A(z) %1$s és a(z) %2$s nem kapcsolható be egyszerre. A(z) %3$s kikapcsol.</string>
+    <string name="all_sound_off_popup_description">A Teljes némítás csak a %s kikapcsolása után használható.</string>
+    <string name="all_sound_turn_off_button">Kikapcsolás</string>
     <string name="turn_off_all_sounds">Minden hang kikapcsolása</string>
     <string name="turn_off_all_sounds1">A minden hang kikapcsolása és a fogadóüzenet nem engedélyezhető egyszerre.</string>
     <string name="turn_off_all_sounds2">A minden hang kikapcsolása és a fogadóüzenet nem engedélyezhető egyszerre. A fogadóüzenet le lesz tiltva.</string>
-    <string name="turn_off_all_sounds_toast_with_sound_detector">Amíg a hangészlelők be vannak kapcsolva, nem kapcsolható ki a Minden hang kikapcsolása funkció. A hangészlelőket a Beállítások > Kisegítő lehetőségek > Hallás > Hangészlelők menüpontban kapcsolhatja ki.</string>
+    <string name="turn_off_all_sounds_toast_with_sound_detector">A Teljes némítás nem kapcsolható ki bekapcsolt Hangészlelők mellett.</string>
     <string name="accessibility_categories_title">Kategóriák</string>
     <string name="share_accessibility_settings">Kisegítő lehetőségek</string>
     <string name="share_accessibility_settings_summary">Kisegítő lehetőségek beállításainak importálása és exportálása, illetve megosztása más eszközökkel.</string>
@@ -660,6 +662,7 @@ Amíg ez a funkció be van kapcsolva, a képernyő automatikus elforgatása nem 
     <string name="deviceOption">Eszköz opciói</string>
     <string name="lock">Védelem</string>
     <string name="powerOff">Kikapcsolás</string>
+    <string name="unable_assistantmenu_while_sidesync">A SideSync használata közben nem kapcsolható be a Segítő menü.</string>
     <string name="eamenableinfo">A Segítő plusz engedélyezéséhez válasszon ki legalább egy alkalmazást.</string>
     <string name="fetch_progress">Adatok betöltése…</string>
     <string name="assistant_menu_enable_message">A(z) %s és az alábbi lehetőségek nem kapcsolhatók be egyszerre. Az alábbi lehetőségek kikapcsolnak.</string>
@@ -766,7 +769,7 @@ A funkció letöltéséhez érintse meg itt."</string>
     <string name="xcover_key_shortcut_battery_conserving_mode">Battery conserving mode</string>
     <string name="xcover_key_shortcut_normal_mode">Normál mód</string>
     <string name="flight_mode_enabled_toast">Amíg a Repülő üzemmód be van kapcsolva, nem lehet a mobilhálózathoz kapcsolódni. Tiltsa le a Repülő üzemmódot, és próbálja újra.</string>
-    <string name="airplane_mode_summary">Kikapcsolnak a hívás- és az üzenetfunkciók, valamint a Mobilinternet-kapcsolat.</string>
+    <string name="airplane_mode_summary">A hívások, az üzenetküldés és a mobilinternet kikapcsolása.</string>
     <string name="usb_not_support_mtp_usb3_dialog_title">Jegyzet</string>
     <string name="airplane_mode_desc">A Repülő üzemmóddal kikapcsolhatók a hálózati funkciók, köztük a Wi-Fi. Ha használni szeretné a Wi-Fi-t, kapcsolja be a Beállításokban vagy az értesítési panelen.</string>
     <string name="flight_mode_enable_popup_title">Repülő üzemmód engedélyezése</string>
@@ -906,6 +909,7 @@ Ezt később módosíthatja a Bluetooth-beállításokban."</string>
     <string name="bluetooth_control_app_disable_summary">Kikapcsolta a BT-t: %s</string>
     <string name="bluetooth_enter_pin_msg">Adja meg a PIN-t a(z) %s eszköz párosításához. (Próbálkozzon a 0000 vagy az 1234 kóddal.)</string>
     <string name="bluetooth_pin_maximum_number_message">Elérte a karakterek maximális számát.</string>
+    <string name="bluetooth_frp_permission_message">Ehhez a híváshoz nem használható Bluetooth-eszköz.</string>
     <string name="settings_menu_done">Kész</string>
     <string name="usb_tethering_unavailable_subtext_tmo">USB not connected</string>
     <string name="usb_tethering_available_subtext_tmo">USB connected, check to tether</string>
@@ -946,11 +950,16 @@ A Gyors funkciók használatával akkor is hozzáférhet az Intelligens felvéte
 – Rajzolhat a képernyőfelvételekre.
 – Körülvághatja a képernyőfelvételeket.
 – Megoszthatja a képernyőfelvételeket."</string>
+    <string name="smart_capture_summary">További lehetőségek mutatása a képernyőfotó rögzítése után. Az Intelligens felvétel funkciói:</string>
+    <string name="smart_capture_summary_1">A képernyő nem látható területeinek rögzítése.</string>
+    <string name="smart_capture_summary_2">Rajzolás a képernyőfotóra.</string>
+    <string name="smart_capture_summary_3">Képernyőfotó körülvágása.</string>
+    <string name="smart_capture_summary_4">Képernyőfotó megosztása.</string>
     <string name="identify_unsaved_numbers_title">Ismeretlen számok azonosítása</string>
     <string name="identify_unsaved_numbers_title_usa">Nemkívánatos számok azon.</string>
     <string name="call_message_spam_filter_title">Call/message spam filter</string>
     <string name="onehand_operation_summary">A képernyőméret és -elrendezés módosítása úgy, hogy egyszerűbb legyen egy kézzel vezérelni a telefont.</string>
-    <string name="direct_share_title">Közvetlen megosztás</string>
+    <string name="direct_share_title">Közvetl. megoszt.</string>
     <string name="direct_share_summary">Közvetlenül az alkalmazások megosztási paneléről oszthatja meg a tartalmakat adott személyekkel.</string>
     <string name="direct_share_description">A Közvetlen megosztás ikonjai a megosztási panel felső részén jelennek meg, amikor bizonyos tevékenységeket végez – például üzeneteket vagy e-maileket küld – a Google Közvetlen megosztás funkció által támogatott alkalmazásokban.</string>
     <string name="direct_share_description_chn">A Közvetlen megosztás ikonjai a megosztási panel felső részén jelennek meg, amikor bizonyos tevékenységeket végez – például üzenetet vagy e-mailt küld – az Android Közvetlen megosztás funkció által támogatott alkalmazásokban.</string>
@@ -1042,6 +1051,7 @@ A Gyors funkciók használatával akkor is hozzáférhet az Intelligens felvéte
     <string name="fota_update_summary">Megérintve a szoftver legfrissebb verziójára frissíthet, és használatba veheti a legújabb funkciókat.</string>
     <string name="favorite_tab">Gyorsbeállítás</string>
     <string name="device_maintenance_title">Eszköz karbantartása</string>
+    <string name="memory_string">Memória</string>
     <string name="tab_favorite_edit">Gyorsbeállítás szerkesztése</string>
     <string name="add_favorite_button">Gyorsbeállítás szerkesztése</string>
     <string name="cloud_and_accounts_title">Felhő és fiókok</string>
@@ -1079,7 +1089,12 @@ A Gyors funkciók használatával akkor is hozzáférhet az Intelligens felvéte
     <string name="notification_settings_apps_title">Alkalmazások értesítései</string>
     <string name="international_roaming_setting">Roamingbeállítások</string>
     <string name="user_manual_mos">Felhasználói kézikönyv</string>
-    <string name="data_saver_description">Az adathasználat csökkentése érdekében az Adattakarékos üzemmód megakadályozza, hogy egyes alkalmazások adatokat küldjenek és fogadjanak a háttérben. Ezenkívül a jelenleg használatban lévő alkalmazások is csak ritkábban férhetnek hozzá az adatokhoz. Előfordulhat például, hogy a képek addig nem jelennek meg megfelelően, amíg meg nem érinti őket.</string>
+    <string name="data_saver_description">Az Adattakarékos üzemmód segít csökkenteni az adathasználati költségeket azzal, hogy megakadályoz egyes alkalmazásokat a háttérben történő adatküldésben és -fogadásban. A jelenleg használatban lévő alkalmazások használhatják a mobilinternetet, de előfordulhat, hogy csak ritkábban férhetnek hozzá az adatokhoz. Előfordulhat például, hogy a képek addig nem jelennek meg, amíg meg nem érinti őket.</string>
+    <string name="unrestricted_data_saver_chn">Korlátozás nélküli adathasználat</string>
+    <string name="data_saver_description_chn">Az adathasználat csökkentése érdekében a Háttér-adatkapcsolat korlátozása funkció megakadályozza, hogy egyes alkalmazások adatokat küldjenek és fogadjanak a háttérben. Ezenkívül a jelenleg használatban lévő alkalmazások is csak ritkábban férhetnek hozzá az adatokhoz. Előfordulhat például, hogy a képek addig nem jelennek meg megfelelően, amíg meg nem érinti őket.</string>
+    <string name="data_saver_title_chn">Háttér-adatkapcsolat korlátozása</string>
+    <string name="unrestricted_app_title_chn">Korlátozás nélküli adathasználat</string>
+    <string name="unrestricted_app_summary_chn">Az alkalmazás akkor is korlátozás nélkül használhatja a mobilinternetet, ha be van kapcsolva a Háttér-adatkapcsolat korlátozása.</string>
     <string name="data_used_editor_subtitle">Enter the amount of data you have used this month:</string>
     <string name="traffic_vertify">Details</string>
     <string name="btn_tmo">Upgrade data service</string>
@@ -1131,6 +1146,8 @@ Data usage is measured by your phone. Your carrier may account for usage differe
     <string name="last_checked_date">Legutóbbi keresés:</string>
     <string name="auto_update">Automatikus frissítésletöltés</string>
     <string name="auto_update_summary">A szoftverfrissítések automatikus letöltése, amikor az eszköz Wi-Fi-hálózathoz kapcsolódik. A letöltés ideje alatt használhatja az eszközt.</string>
+    <string name="auto_update_over_wifi">Automatikus letöltés Wi-Fi-n</string>
+    <string name="auto_update_over_wifi_summary">Wi-Fi-kapcsolat esetén automatikusan letölti a szoftverfrissítéseket. A szolgáltatótól függően előfordulhat, hogy mobilinterneten keresztül is további költség nélkül tölthetők le a frissítések. A letöltés ideje alatt használhatja a telefont.</string>
     <string name="scheduled_update">Ütemezett szoftverfrissítések</string>
     <string name="scheduled_update_summary_default">Ki</string>
     <string name="scheduled_update_summary_set_time">A frissítés ekkor indul: %s</string>
@@ -1164,7 +1181,7 @@ A telefonján olyan diagnosztikai szoftver található, amely az Ön beleegyezé
     <string name="memory_mms_usage">MMS</string>
     <string name="user_owner">Tulajdonos</string>
     <string name="unable_to_charge_the_connected_device">Az USB-kábel nem használható a(z) %s funkcióhoz.</string>
-    <string name="unable_to_change_usb_options_via_smart_switch">A Smart Switch használatával történő adatátvitel közben nem lehet módosítani az USB-beállításokat.</string>
+    <string name="unable_to_change_usb_options_via_smart_switch">A Smart Switch használatával végzett adatátvitel közben nem lehet módosítani az USB-beállításokat.</string>
     <string name="usb_configuring">Konfigurálás…</string>
     <string name="usb_use_none_summary">Nem lehet átvinni az eszköz adatait.</string>
     <string name="usb_use_charging_only_summary_vzw">Just charge this phone.</string>
@@ -1173,8 +1190,8 @@ A telefonján olyan diagnosztikai szoftver található, amely az Ön beleegyezé
     <string name="usb_use_file_transfers_summary">Médiafájlok átvitele számítógépre MTP-kapcsolaton keresztül.</string>
     <string name="usb_use_MIDI_summary_vzw">Use device for MIDI input.</string>
     <string name="usb_use_MIDI_summary">A csatlakoztatott eszközt MIDI-lejátszóként vagy bemeneti forrásként is használhatja.</string>
-    <string name="usb_use_software_installation">Software Installation</string>
-    <string name="usb_use_software_installation_summary">Install Software Update and Repair tool for your device on a Mac or Windows computer.</string>
+    <string name="usb_use_system_update">Rendszerfrissítés</string>
+    <string name="usb_use_system_update_summary">Telepítse a Szoftverfrissítő asszisztenst a számítógépre, és frissítse vagy javítsa a telefont.</string>
     <string name="sim_status_code">Kód</string>
     <string name="sim_status_btn_update">SIM-kártya áll. frissít.</string>
     <string name="sim_status_updating">Frissítés…</string>
@@ -1263,7 +1280,7 @@ Az OK gombot megérintve engedélyezheti a fényerő biztonságosnál magasabb s
     <string name="display_temperature">Színegyensúly</string>
     <string name="adjust_your_display_colour">A fehér színtónusok megjelenésének módosításához átállíthatja a kijelző színeit.</string>
     <string name="led_indicator_settings">LED jelzés</string>
-    <string name="led_indicator_settings_summary">Töltéskor, hangrögzítéskor és értesítés érkezése esetén világít a jelző-LED.</string>
+    <string name="led_indicator_settings_summary">Kikapcsolt képernyőnél a jelző-LED világítása jelzi a hangrögzítés állapotát, az olvasatlan értesítéseket, valamint az akkumulátor töltöttségét.</string>
     <string name="screen_resolution_desc">Egyes tartalmak elmosódva jelenhetnek meg, vagy nem támogatják az FHD- és a HD-felbontást.</string>
     <string name="display_battery_percentage">Akku.töltöttség megjelen.</string>
     <string name="display_battery_percentage_summary">Az állapotsorban megjeleníti az akkumulátor aktuális töltöttségét százalékos értékként.</string>
@@ -1292,7 +1309,7 @@ Az OK gombot megérintve engedélyezheti a fényerő biztonságosnál magasabb s
     <string name="wallpaper">Háttérkép</string>
     <string name="lockscreen_wallpaper">Képernyő lezárása</string>
     <string name="status_bar">Állapotsor</string>
-    <string name="recent_notification_status_bar_title">Csak az utol. értékek mutatása</string>
+    <string name="recent_notification_status_bar_title">Csak a legutóbbi értesít. mutat.</string>
     <string name="recent_notification_status_bar_summary">Csak a legutóbbi %d értesítési ikon megjelenítése az állapotsorban.</string>
     <string name="display_and_homescreen_title">Megjel. és kezdőképernyő</string>
     <string name="navigationbar_title">Navigációs sáv</string>
@@ -1310,8 +1327,8 @@ Az OK gombot megérintve engedélyezheti a fényerő biztonságosnál magasabb s
     <string name="blue_light_filter_off_time_next_day_summary_format">Másnap %s-kor</string>
     <string name="blue_light_filter_user_schedule_title">Egyéni ütemezés</string>
     <string name="blue_light_filter_auto_schedule_title">Napkeltétől napnyugtáig</string>
-    <string name="blue_light_filter_desc">Ha a Kékfényszűrőt használja, jobban tud aludni. Adja meg a Kékfényszűrő használatának ütemezését. A Napnyugtától napkeltéig beállítás használatához be kell kapcsolni a helymeghatározást.</string>
-    <string name="blue_light_filter_enable_now">Bekapcsolja most</string>
+    <string name="blue_light_filter_desc">Ha este a Kékfényszűrőt használja, jobban alhat. A Kékfényszűrő használatának ütemezését ön állíthatja be. A Napnyugtától napkeltéig beállítás használatához be kell kapcsolni a helymeghatározást.</string>
+    <string name="blue_light_filter_enable_now">Bekapcsolás most</string>
     <string name="blue_light_filter_enable_as_scheduled">Bekapcs. ütemezés szerint</string>
     <string name="blue_light_filter_scheduled_toast">Bekapcsolta a Kékfényszűrőt. A funkció a beütemezett befejezési időpontban automatikusan kikapcsol.</string>
     <string name="screen_mode_dlg_turn_off_blue_light_filter">A(z) %s és a Kékfényszűrő nem használható egyszerre. A Kékfényszűrő kikapcsol.</string>
@@ -1422,6 +1439,10 @@ Az OK gombot megérintve engedélyezheti a fényerő biztonságosnál magasabb s
     <string name="crypt_keeper_vzw_password_warning">Set the Screen lock password with at least %d characters and 1 number.</string>
     <string name="crypt_keeper_decrypt_title">Eszköz dekódolása</string>
     <string name="crypt_keeper_decrypt_summary">Eszköz dekódolva.</string>
+    <string name="crypt_keeper_type_pin">PIN</string>
+    <string name="crypt_keeper_type_pattern">Minta</string>
+    <string name="crypt_keeper_type_password">Jelszó</string>
+    <string name="crypt_keeper_type_direction">Irányzár</string>
     <string name="crypt_keeper_confirm_title_dec">Dekódolás jóváhagyása</string>
     <string name="crypt_keeper_force_power_cycle_pattern">Az indításhoz kapcsolja ki, majd be az eszközt, és próbálja újra. Le kell rajzolni az eszköz indításához és a képernyő feloldásához használt mintát. A tartalék PIN nem használható az eszköz indításához.</string>
     <string name="crypt_keeper_setup_description_dec">"Zajlik az eszköz dekódolása. Ez eltarthat egy ideig. Kis türelmet…
@@ -1511,6 +1532,7 @@ A titkosítás egy óránál is tovább tarthat. A kezdés előtt töltse fel az
     <string name="crypt_keeper_verify_failed_summary">Nem lehet újraindítani a készüléket. Sikertelen volt az integritásellenőrzés. Vissza kell állítania az eszköz gyári alapértelmezett beállításait. Ezzel minden adatot törölni fog.</string>
     <string name="cryptkeeper_emergency_call">Segélyhívás</string>
     <string name="cryptkeeper_return_to_call">Vissza a híváshoz</string>
+    <string name="cryptkeeper_default_enter_msg">A telefon a biztonság érdekében titkosítva van.</string>
     <string name="enter_password">Az eszköz indításához adja meg a jelszót.</string>
     <string name="enter_pin">Az eszköz indításához adja meg a PIN-t.</string>
     <string name="enter_pattern">Az eszköz indításához rajzolja le a mintát.</string>
@@ -1520,11 +1542,13 @@ A titkosítás egy óránál is tovább tarthat. A kezdés előtt töltse fel az
     <string name="cryptkeeper_wrong_pin">Helytelen PIN megadva</string>
     <string name="cryptkeeper_wrong_direction">Helytelenül rajzolt irány</string>
     <string name="checking_decryption">Ellenőrzés…</string>
-    <string name="starting_android">Az Android indítása…</string>
     <string name="crypt_keeper_last_warn_wipe">Még csak 1 próbálkozása maradt az eszköz indítására. Ennek sikertelensége esetén visszaállnak a gyári alapértelmezések. Ebben az esetben minden adat törlődik az eszközről, a fájlokat és a letöltött alkalmazásokat is beleértve.</string>
     <string name="crypt_keeper_failed_title_dec">Visszafejtési hiba</string>
     <string name="crypt_keeper_failed_summary_dec">A dekódolás megszakítás miatt nem fejezhető be. A használathoz vissza kell állítani a gyári adatokat (minden adat törlődik).</string>
     <string name="crypt_keeper_set_screen_lock_type">Képernyőzár típusának beá.</string>
+    <string name="encryption_interstitial_message">"Tovább javíthatja a telefon védelmét a(z) %s bekérésével az eszköz indításához. Ez segíti az elveszett vagy ellopott eszközön található adatok védelmét. A funkciókhoz, például az e-mail-szinkronizáláshoz való hozzáférésre vonatkozó eszköztitkosítási házirend értelmében egyes alkalmazások Biztonságos indítást igényelhetnek.
+
+Amíg az eszköz el nem indul, nem fogadhat hívást, üzenetet és értesítést, és nem szólalnak meg a jelzések."</string>
     <string name="encryption_interstitial_message_kor">Az eszköz titkosítva van. Védje a titkosított adatokat a Képernyőzár igénylése az adatok dekódolásához bekapcsoláskor beállítás megadásával. A beállítás segíti az elveszett és ellopott eszközökön tárolt adatok védelmét. Az eszközön tárolt adatok dekódolásához az eszközt minden bekapcsolásakor fel kell oldani. Az eszköz dekódolásáig nem fogadhatók hívások és üzenetek, illetve nem jelennek meg értesítések.</string>
     <string name="encryption_interstitial_message_direction">"Az Irányzár aktiválása az eszköz bekapcsolásakor lehetőség választásával megvédheti az eszközt. Ez segíti az elveszett vagy ellopott eszközökön található adatok védelmét.
 
@@ -1546,6 +1570,7 @@ Amíg az eszköz el nem indul, nem fogadhat hívást, üzenetet és értesítés
 Amíg az eszköz el nem indul, nem fogadhat hívást, üzenetet és értesítést, és nem szólalnak meg a jelzések."</string>
     <string name="encryption_interstitial_error_message">Az eszköz adatainak védelme érdekében módosítsa a képernyőzár típusát PIN, Jelszó, Minta vagy Ujjlenyomat beállításra, majd próbálja újra.</string>
     <string name="encryption_interstitial_error_message_direction">Az eszközön tárolt adatok védelme érdekében módosítsa a képernyőzár típusát PIN, Jelszó, Irányzár vagy Ujjlenyomatok beállításra, majd próbálja újra.</string>
+    <string name="encryption_interstitial_error_message_direction_without_fingerprint">Az eszközön tárolt adatok védelme érdekében módosítsa a képernyőzár típusát PIN, Jelszó, Minta vagy Irányzár beállításra, majd próbálja újra.</string>
     <string name="encryption_interstitial_error_message_iris_direction">Az eszközön tárolt adatok védelme érdekében módosítsa a képernyőzár típusát PIN, Jelszó, Irányzár, Ujjlenyomatok vagy Írisz beállításra, majd próbálja újra.</string>
     <string name="encryption_interstitial_error_message_without_fingerprint">Az eszköz adatainak védelme érdekében módosítsa a képernyőzár típusát PIN, Jelszó vagy Minta beállításra, majd próbálja újra.</string>
     <string name="encryption_interstitial_error_sktlock">A Biztonsági zár és a Biztonságos indítás nem kapcsolható be egyszerre. Válasszon egy nem biztonsági zárat, és próbálja újra.</string>
@@ -1809,6 +1834,8 @@ Garanciális javítás igénylése előtt az újraaktiválási zárat ki kell ka
 %s"</string>
     <string name="improve_location_title">Improve location accuracy</string>
     <string name="improve_location_summary">Use WLANs and mobile networks to provide more accurate information about the location of your device.</string>
+    <string name="send_last_location_title">Legutóbbi hely küldése</string>
+    <string name="send_last_location_summary">Engedélyezi, hogy a telefon elküldje legutóbbi helyadatait a Mobil megkeresése szolgáltatás szerverére, ha adott szint alá csökken a töltöttsége.</string>
     <string name="high_power_description">Bekapcsolhatja az Akkumulátorhasználat optimalizálását az egyes alkalmazásokhoz. Bizonyos funkciók – például a mobilhálózatokat használó vagy adatokat szinkronizáló funkciók – az akkumulátor kímélése érdekében csak korlátozottan fognak működni.</string>
     <string name="wifi_display_summary_off">Ki</string>
     <string name="battery_usage_description">Ezen a képernyőn az eszköz legutóbbi feltöltése óta gyűjtött akkumulátorhasználati adatok jelennek meg.</string>
@@ -1904,6 +1931,8 @@ Az eszköz alternatív biztonsági opciókkal is rendelkezik. Tartsa be a funkci
     <string name="iris_sensor_not_working_popup_title">Nem működik az íriszfelismerés</string>
     <string name="iris_sensor_not_working_msg">Az íriszérzékelő nem válaszol. Próbálja meg később.</string>
     <string name="iris_go_to_samsung_theme">Samsung Themes megnyitása</string>
+    <string name="biometrics_dex_cant_use_msg">A Samsung DeX-ben nem használható a(z) %s.</string>
+    <string name="biometrics_dex_closed_to_switch">A(z) %s bezáródott, hogy át lehessen kapcsolni a Samsung DeX-re.</string>
     <string name="knox_twofactor_bio_description">Válassza ki a(z) %s feloldásához használni kívánt biometrikus, illetve másodlagos zár típusát.</string>
     <string name="fingerprint_registered">A regisztrált ujjlenyomatok használatban lesznek a kiválasztott feloldási módszerrel.</string>
     <string name="knox_twofactor_description">Két zárolási típust használhat a Knox még nagyobb biztonsága érdekében. Az első zárolási típus az ujjlenyomat lesz. A másodikat válassza ki alább.</string>
@@ -2001,8 +2030,8 @@ Determining your location will use the mobile network. Data usage will apply."</
     <string name="app_ops_settings_summary">Megtekintheti és módosíthatja az alkalmazásengedélyeket.</string>
     <string name="backup_key_for_applock_header">Állítson be mintát, PIN-t vagy jelszót az ujjlenyomat-felismerés mellé az alkalmazások lezárásához és feloldásához.</string>
     <string name="backup_key_for_privatemode_header">Állítson be mintát, PIN-t vagy jelszót az ujjlenyomat-felismerés mellé a Privát üzemmód hozzáféréséhez.</string>
-    <string name="status_added">Hozzáadva</string>
     <string name="text_security_title_b2c">Válassza ki a zárolás típusát. Ha elfelejti, hogyan kell feloldani a Biztonságos mappa zárolását, a zárolást a Samsung accounttal állíthatja vissza.</string>
+    <string name="status_added">Hozzáadva</string>
     <string name="lockpattern_backup_pin">Tartalék PIN</string>
     <string name="applock_type_fingerprint">Ujjlenyomat</string>
     <string name="unlock_set_unlock_two_factor_title">Kétlépcsős ellenőrzés</string>
@@ -2218,7 +2247,7 @@ A telefon használatához még a rajta lévő adatok törlése után is szüksé
     <string name="palm_swipe_title">Felvétel tenyérhúzással</string>
     <string name="screen_recorder_title">Record screen</string>
     <string name="screen_recorder_summary">Record video screenshots while you use your device.</string>
-    <string name="multi_window_setting_title">Előugró nézet mozdulata</string>
+    <string name="multi_window_setting_title">Előugró nézet művelete</string>
     <string name="multi_window_setting_description">Ha a megnyitott alkalmazások képernyőjének egyik felső sarkából átlósan lefelé húzza az ujját, átállíthatja az alkalmazás méretét.</string>
     <string name="multi_window_screen_title">Több ablak</string>
     <string name="multi_window_screen_summary">Egyszerre több alkalmazás megjelenítése.</string>
@@ -2258,18 +2287,19 @@ A telefon használatához még a rajta lévő adatok törlése után is szüksé
     <string name="air_browse_note_summary">Mozgás az oldalak között megjelenítési módban.</string>
     <string name="data_usage_enable_mobile_summery">Az internet eléréséhez használja a mobilhálózatot.</string>
     <string name="data_usage_enable_mobile_warning_skt">Mobilhálózati kapcsolat létesítése az előfizetéstől függően további költségekkel járhat. Folytatja?</string>
-    <string name="data_usage_enable_mobile_warning_ktt">Mobilhálózati kapcsolat létesítése az előfizetéstől függően további költségekkel járhat. Folytatja?</string>
+    <string name="data_usage_enable_mobile_warning_ktt">A Mobilinternet-kapcsolat kikapcsol. Mobilhálózati kapcsolat létesítése az előfizetési csomagtól függően további költséggel járhat.</string>
     <string name="data_usage_enable_mobile_warning_lgt">Mobilhálózati kapcsolat létesítése az előfizetéstől függően további költségekkel járhat. Folytatja?</string>
     <string name="data_usage_disable_mobile_title">Mobilinternet-kapcsolat kikapcsolása</string>
     <string name="data_usage_disable_mobile_warning_skt">A mobilhálózati kapcsolat bontása esetén korlátozott lesz az MMS és a 3G adatszolgáltatás. Bontja a kapcsolatot?</string>
     <string name="data_usage_disable_mobile_warning_ktt">A mobilhálózati kapcsolat bontása esetén korlátozott lesz az MMS és a 3G adatszolgáltatás. Bontja a kapcsolatot?</string>
     <string name="data_usage_disable_mobile_warning_ktt_jb">A mobilhálózati kapcsolat bontása esetén korlátozott lesz az MMS és a 3G adatszolgáltatás. Bontja a kapcsolatot?</string>
-    <string name="mobile_data_off_dialog_text_vzw">"Unless you use Wi-Fi, you will not be able to use the Internet, Email, or other apps that require a data connection.
+    <string name="data_usage_disable_mobile_warning_dcm">"If Mobile data is turned off, your device must be connected to a Wi-Fi network to use services that require a network connection.
 
-Turn off Mobile data?"</string>
-    <string name="mobile_data_off_dialog_text_common">"Az adatkapcsolatot igénylő alkalmazások, például az Internet és az E-mail használatához Wi-Fi-re lesz szüksége.
-
-Kikapcsolja a mobilinternet-kapcsolatot?"</string>
+Mobile data will be turned off."</string>
+    <string name="mobile_data_off_dialog_text_vzw">"Unless you use Wi-Fi, you won't be able to use the Internet, Email or other apps that require a data connection. Turn off the mobile data connection?"</string>
+    <string name="mobile_data_off_dialog_text_volte">"Your phone's Video Calling function won't work when mobile data is off. Also, you won't be able to use the Internet, Email or other apps that need a data connection unless you use Wi-Fi. Turn off the mobile data connection?"</string>
+    <string name="mobile_data_off_dialog_text_common">Wi-Fi-hálózati kapcsolat nélkül nem használhatók az adatkapcsolatot igénylő alkalmazások, például az Internet és az E-mail.</string>
+    <string name="data_usage_turn_off_btn">Kikapcsolás</string>
     <string name="wfd_settings_summary">Megoszthatja az eszköz képernyőjét egy másik eszközzel.</string>
     <string name="nfc_settings_advanced_explain">"Állítsa be az alapértelmezett NFC-feldolgozási módszert.
 Egyes NFC-tranzakciók és mobilfizetési szolgáltatások eltérő alapértelmezett NFC-feldolgozási módszert igényelhetnek."</string>
@@ -2409,7 +2439,7 @@ Egyes NFC-tranzakciók és mobilfizetési szolgáltatások eltérő alapértelme
     <string name="zen_mode_events_summary">Az S Tervező és más naptárbeli események értesítéseinek engedélyezése.</string>
     <string name="zen_mode_events_summary_na">A Naptár alkalmazásban szereplő események és feladatok értesítéseinek engedélyezése.</string>
     <string name="zen_mode_reminders_summary">Az emlékeztetőket támogató alkalmazások emlékeztetőinek engedélyezése.</string>
-    <string name="dnd_app_noti_summary">Kivételként állítja be az alkalmazás értesítéseit mint fontos megszakításokat.</string>
+    <string name="dnd_app_noti_summary">A kiválasztott alkalmazások értesítéseinek engedélyezése.</string>
     <string name="no_exceptions_dcm_summary">Mute all calls and alerts, including Area Mail alarms.</string>
     <string name="dnd_screen_switch_summary">Minden hívás és jelzés elnémítása az egyéni kivételeken kívül.</string>
     <string name="app_notification_priority_app_list_title">Kiemelt alk. értesítései</string>
@@ -2456,7 +2486,7 @@ mód"</string>
     <string name="personal_page_secretbox_disclaimer_title">Jogi Nyilatkozat</string>
     <string name="personal_page_secretbox_disclaimer_message">A Privát mód nem akadályozza meg, hogy más alkalmazások hozzáférjenek az Ön adataihoz. Ha nem szeretné, hogy adatai szinkronizálva legyenek a külső szerverekkel, akkor kapcsolja ki a készüléken az automatikus szinkronizálás opciót.</string>
     <string name="personal_page_secretbox_disclaimer_message_vzw">Content moved into Private mode will be hidden and will not be shown when you exit from Private mode. Automatic syncing while in Private mode may allow that content to be visible in 3rd party apps. Check the automatic synchronization settings of your other applications before using Private mode.</string>
-    <string name="personal_page_tutorial_app_title_message">A Privát üzemmód segítségével elrejthető az olyan tartalom, amelyet privátként kíván kezelni. A következő alkalmazások használata során jelölje ki azokat az elemeket, amelyeket a Privát tárolóba szeretne helyezni, majd érintse meg az EGYEBEK gombot, és válassza az Áthelyezés a Privátba lehetőséget. A Privát tárolóba helyezett tartalom csak Privát üzemmódban látható.</string>
+    <string name="personal_page_tutorial_app_title_message">A Privát üzemmód segítségével elrejthető az olyan tartalom, amelyet privátként kíván kezelni. A következő alkalmazások használata során jelölje ki azokat az elemeket, amelyeket a Privát tárolóba szeretne helyezni, majd érintse meg az Egyéb opciók gombot, és válassza az Áthelyezés a Privátba lehetőséget. A Privát tárolóba helyezett tartalom csak Privát üzemmódban látható.</string>
     <string name="personal_page_inline_help">A Privát üzemmód használatához válasszon egy hozzáférési típust. Ha elfelejti a Privát üzemmód hozzáférési típusát, akkor nem lesz lehetősége annak helyreállítására, és csak az eszköz gyári alapértelmezéseinek visszaállítása után használhatja újra a Privát üzemmódot.</string>
     <string name="personal_page_backup_pin_summary">Hozzon létre tartalék PIN-t a Privát üzemmódhoz arra az esetre, ha elfelejtené a mintát.</string>
     <string name="personal_page_incorrect_pin">"Hibás PIN-kód.
@@ -2846,6 +2876,7 @@ A funkció be- vagy kikapcsolásához válassza le a töltőt."</string>
     <string name="samsung_backup_summary">A Samsung account segítségével biztonsági másolatot készíthet az adatairól.</string>
     <string name="samsung_restore_summary">A Samsung account segítségével visszaállíthatja adatai biztonsági másolatát.</string>
     <string name="sns_settings_title">Átváltás a mobilinternetre, amikor a Wi-Fi-kapcsolat instabillá válik. A telefon átválthat a leggyakrabban meglátogatott területeken mentett Wi-Fi-hálózatokra is. Az Intelligens hálózatváltás automatikusan be- vagy kikapcsolja a mentett Wi-Fi-hálózatokat.</string>
+    <string name="sns_settings_title_include_autowifi">Átváltás a mobilinternetre, amikor a Wi-Fi-kapcsolat instabillá válik. A telefon átválthat a leggyakrabban meglátogatott területeken mentett Wi-Fi-hálózatokra is. Az Intelligens hálózatváltás automatikusan be- vagy kikapcsolja a mentett Wi-Fi-hálózatokat.</string>
     <string name="smart_bonding">Letöltésgyorsító</string>
     <string name="smart_bonding_popup_title">Letöltésgyorsító engedélyezése</string>
     <string name="smart_bonding_description_vzw">"Download large files (over %d MB) faster by using Wi-Fi and LTE networks at the same time. The Download booster icon will be shown on the status bar when Download booster is turned on.
@@ -3066,6 +3097,8 @@ Downloading via mobile networks may result in additional charges depending on yo
     <string name="wifi_manage_network">Hálózatkezelés</string>
     <string name="wlan_permission_available_message">Asks your permission to use WLAN via a pop-up</string>
     <string name="wlan_permission_available">Ask to use WLAN</string>
+    <string name="wifi_hotspot20_summary_tmo">Zökkenőmentesen, jelszó nélkül kapcsolódhat a Hotspot 2.0-kompatibilis Wi-Fi-hozzáférési pontokhoz.</string>
+    <string name="wifi_hotspot20_summary_dcm">Bekapcsolt Wi-Fi-vel automatikusan kapcsolódik a Hotspot 2.0 Wi-Fi-hálózathoz.</string>
     <string name="wifi_hotspot20_summary">Automatikusan kapcsolódik a Hotspot 2.0 technológiát támogató Wi-Fi-hozzáférési pontokhoz.</string>
     <string name="wifi_hotspot20_enable">Hotspot 2.0</string>
     <string name="wifi_att_auto_connect_summary">Automatically connect to AT&amp;T Wi-Fi hotspot when detected</string>
@@ -3084,9 +3117,9 @@ Downloading via mobile networks may result in additional charges depending on yo
     <string name="wifi_auto_reconnect">Automatikus újrakapcsolódás</string>
     <string name="wifi_enable_warning_chn">Turning on WLAN will disable Mobile hotspot.</string>
     <string name="wifi_enable_warning_vzw">A Wi-Fi bekapcsolásával letiltja a Mobile Hotspotot. Folytatja?</string>
-    <string name="wifi_enable_warning_tmo">Wi-Fi is turned off when Mobile HotSpot is active. To turn on Wi-Fi, please turn off Mobile HotSpot.</string>
+    <string name="wifi_enable_warning_tmo">Aktív Mobil hotspot mellett a Wi-Fi kikapcsol. A Wi-Fi bekapcsolásához kapcsolja ki a Mobil hotspotot.</string>
     <string name="wifi_enable_warning_spr">Turning on Wi-Fi will disable Hotspot.</string>
-    <string name="wifi_enable_warning_mtr">Turning on Wi-Fi will turn off Mobile Hotspot. Continue?</string>
+    <string name="wifi_enable_warning_mtr">Aktív Mobil hotspot mellett a Wi-Fi kikapcsol. A Wi-Fi bekapcsolásához kapcsolja ki a Mobil hotspotot.</string>
     <string name="wifi_enable_warning_usc">Turning on Wi-Fi will turn off Portable Wi-Fi hotspot. Continue?</string>
     <string name="wifi_enable_warning">A Wi-Fi bekapcsolása esetén le lesz tiltva a Mobil hotspot.</string>
     <string name="wifi_control_history_title">Wi-Fi-vezérlési előzmények</string>
@@ -3120,9 +3153,9 @@ Downloading via mobile networks may result in additional charges depending on yo
     <string name="wifi_ap__wifi_sharing_vzw">Wi-Fi Sharing</string>
     <string name="wifi_ap__wifi_sharing">Wi-Fi-megosztás</string>
     <string name="first_use_wifi_msg_mtr">Tap OK to learn more about using Mobile Hotspot.</string>
-    <string name="first_use_wifi_msg">Tap OK to learn more about using Mobile HotSpot.</string>
+    <string name="first_use_wifi_msg">Érintse meg az OK gombot, ha szeretne többet megtudni a Mobil hotspot használatáról.</string>
     <string name="first_use_title_mtr">View Mobile Hotspot help</string>
-    <string name="first_use_title">View Mobile HotSpot help</string>
+    <string name="first_use_title">A Mobil hotspot súgójának megjelenítése</string>
     <string name="wifi_ap_wifi_sharing_title">Wi-Fi-megosztás be</string>
     <string name="wifi_ap_wifi_sharing_status_enabled">Engedélyezve</string>
     <string name="wifi_ap_wifi_sharing_status_disabled">Letiltva</string>
@@ -3154,11 +3187,11 @@ Using Mobile hotspot increases battery consumption and data usage."</string>
 Mobile Hotspot uses mobile data from your data plan.
 
 We recommend keeping your phone plugged in to a charger while using Mobile Hotspot to save battery."</string>
-    <string name="wifi_ap_instruction_changeable_maxclient_tmo">"You can use your device as an Internet access point using Mobile HotSpot. This allows up to %d other devices to connect to it via Wi-Fi. The connected devices will have access to the Internet via your mobile network.
+    <string name="wifi_ap_instruction_changeable_maxclient_tmo">"A Mobile hotspotnak köszönhetően internet-hozzáférési pontként használhatja az eszközt. Így akár %d további eszköz kapcsolódhat hozzá Wi-Fi-n. Ezek az eszközök a mobilhálózaton keresztül hozzáférhetnek az internethez.
 
-You can create an allowed device profile and set the connection mode for it.
+Létrehozhat egy profilt az engedélyezett eszközök számára, és beállíthatja hozzá a kapcsolatmódot.
 
-Using Mobile HotSpot increases battery consumption and data usage."</string>
+A Mobile hotspot használata gyorsan meríti az akkumulátort, és nagyobb adatforgalmat eredményez."</string>
     <string name="wifi_ap_instruction_changeable_maxclient_spr">"You can share your device's Hotspot with Wi-Fi enabled devices.
 
 After you start the Mobile Hotspot Wi-Fi router, connect using the controls on your Wi-Fi enabled device."</string>
@@ -3191,7 +3224,7 @@ To configure Smartphone Mobile Hotspot, tap on the menu icon, and then tap “Co
     <string name="wifi_ap_hide_ssid">Saját eszköz elrejtése</string>
     <string name="wifi_ap_wifi_off_warn_vzw">Mobile Hotspot uses your mobile data connection. Your Wi-Fi connection will be turned off.</string>
     <string name="wifi_ap_wifi_off_warn_spr">Enabling Hotspot will turn off Wi-Fi</string>
-    <string name="wifi_ap_wifi_off_warn_tmo">Wi-Fi is turned off when USB tethering or Mobile HotSpot is active. To turn on Wi-Fi, please turn off USB tethering or Mobile HotSpot.</string>
+    <string name="wifi_ap_wifi_off_warn_tmo">Aktív USB-internetmegosztás vagy Mobil hotspot mellett a Wi-Fi kikapcsol. A Wi-Fi bekapcsolásához kapcsolja ki az USB-internetmegosztást vagy a Mobil hotspotot.</string>
     <string name="wifi_ap_wifi_off_warn_chn">Enabling Mobile hotspot will turn off WLAN.</string>
     <string name="wifi_ap_wifi_off_warn_att">Turning on portable Wi-Fi hotspot will turn off Wi-Fi.</string>
     <string name="wifi_ap_wifi_off_warn_mtr">Wi-Fi is turned off when USB tethering or Mobile Hotspot is active. To turn on Wi-Fi, please turn off USB tethering or Mobile Hotspot.</string>
@@ -3262,6 +3295,7 @@ A mobil hotspot nevének vagy jelszavának módosítása után új QR-kódot kel
     <string name="wifi_wps_onstart_pbc_mobileap">A kapcsolódáshoz nyomja meg a WPS gombot a másik eszközön.</string>
     <string name="wifi_wps_complete_mobileap">Létrejött a kapcsolat az eszköz és a másik eszköz között.</string>
     <string name="wifi_ap_disconnect_warn">Eszköz leválasztása</string>
+    <string name="wifi_ap_change_policy_warn_mtr">The device currently connected will be disconnected from Portable Wi-Fi Hotspot.</string>
     <string name="wifi_ap_change_policy_warn">A jelenleg csatlakoztatott valamennyi eszköz le lesz választva a Mobil hotspotról.</string>
     <string name="wifi_ap_warn_max_whitelist">Elérte az engedélyezett eszközök maximális számát (%d).</string>
     <string name="wifiap_one_item_deleted">Törölni fog 1 tételt.</string>
@@ -3296,8 +3330,9 @@ Wi-Fi is now on."</string>
     <string name="wifi_tether_dialog_nosim_warning_title">Mobil hotspot</string>
     <string name="wifi_tether_dialog_nosim_warning_chn">Insert a SIM card to use Mobile hotspot and other tethering functions.</string>
     <string name="wifi_tether_dialog_nosim_warning_vzw">Insert a SIM card to use Mobile Hotspot and other tethering options.</string>
-    <string name="wifi_tether_dialog_nosim_warning_tmo">"Please install SIM card in order to share your phone's data connection with other devices using Mobile Wi-Fi HotSpot or USB tethering for Internet access."</string>
-    <string name="wifi_tether_dialog_nosim_warning_spr">Insert SIM for using Hotspot include tethering</string>
+    <string name="wifi_tether_dialog_nosim_warning_tmo">Ha szeretné egyéb eszközökkel megosztani a telefon adatkapcsolatát Mobil Wi-Fi-hotspot vagy USB-internetmegosztással biztosított internet-hozzáférés használatával, akkor helyezzen be SIM-kártyát.</string>
+    <string name="wifi_tether_dialog_nosim_warning_mtr">"Please install SIM card in order to share your phone's data connection with other devices using Mobile Wi-Fi Hotspot or USB tethering for Internet access."</string>
+    <string name="wifi_tether_dialog_nosim_warning_spr">A hotspot használatához helyezzen be SIM-kártyát.</string>
     <string name="wifi_tether_dialog_nosim_warning_usc">Helyezzen be SIM-kártyát a Mobil hotspot és egyéb internetmegosztási funkciók használatához.</string>
     <string name="wifi_tether_dialog_nosim_warning">Helyezzen be SIM-kártyát a Mobil hotspot és egyéb internetmegosztási funkciók használatához.</string>
     <string name="mobileap_tmo">Mobile Hotspot</string>
@@ -3324,7 +3359,7 @@ Wi-Fi is now on."</string>
     <string name="wifi_ap_instruction_open_activate_color3_att">Kapcsolódjon a(z) &lt;font color=\"%1$s\">%2$s&lt;/font> hálózathoz.</string>
     <string name="wifi_ap_instruction_open_activate_color3">Kapcsolódjon a(z) &lt;font color=\"%1$s\">%2$s&lt;/font> hálózathoz.</string>
     <string name="wifi_ap_instruction_open_activate_color4_vzw">Enjoy your Mobile Hotspot.</string>
-    <string name="wifi_ap_instruction_open_activate_color4_tmo">Enjoy the internet using your personal Mobile HotSpot.</string>
+    <string name="wifi_ap_instruction_open_activate_color4_tmo">Használja az internetet személyes Mobil hotspotjával.</string>
     <string name="wifi_ap_instruction_open_activate_color4_spr">Enjoy the Internet with Hotspot.</string>
     <string name="wifi_ap_instruction_open_activate_color4_att">Enjoy the Internet using Mobile hotspot.</string>
     <string name="wifi_ap_instruction_open_activate_color4_mtr">Enjoy the Internet using portable Wi-Fi hotspot.</string>
@@ -3343,7 +3378,7 @@ Wi-Fi is now on."</string>
     <string name="wifi_ap_instruction_activate_color3_att">Kapcsolódjon a(z) &lt;font color=\"%1$s\">%2$s&lt;/font> hálózathoz a(z) &lt;font color=\"%1$s\">%3$s&lt;/font> jelszó megadásával.</string>
     <string name="wifi_ap_instruction_activate_color3">Kapcsolódjon a(z) &lt;font color=\"%1$s\">%2$s&lt;/font> hálózathoz a(z) &lt;font color=\"%1$s\">%3$s&lt;/font> jelszó megadásával.</string>
     <string name="wifi_ap_instruction_activate_color4_vzw">Enjoy your Mobile Hotspot.</string>
-    <string name="wifi_ap_instruction_activate_color4_tmo">Enjoy the internet using your personal Mobile HotSpot.</string>
+    <string name="wifi_ap_instruction_activate_color4_tmo">Használja az internetet személyes Mobil hotspotjával.</string>
     <string name="wifi_ap_instruction_activate_color4_spr">Enter &lt;font color=\"%1$s\">%3$s&lt;/font> in the &lt;font color=\"%1$s\">%4$s&lt;/font> field.</string>
     <string name="wifi_ap_instruction_activate_color4_att">Enjoy the Internet using Mobile hotspot.</string>
     <string name="wifi_ap_instruction_activate_color4_mtr">Enjoy the Internet using portable Wi-Fi hotspot.</string>
@@ -3365,16 +3400,16 @@ Wi-Fi is now on."</string>
     <string name="wifi_ap_instruction_activate_color_hidden3_chn">Connect to &lt;font color=\"%1$s\">%2$s&lt;/font> by entering &lt;font color=\"%1$s\">%3$s&lt;/font> as the password.</string>
     <string name="wifi_ap_instruction_activate_color_hidden3_tmo">Connect to &lt;font color=\"%1$s\">%2$s&lt;/font> by entering &lt;font color=\"%1$s\">%3$s&lt;/font> as the password.</string>
     <string name="wifi_ap_instruction_activate_color_hidden3">Kapcsolódjon a(z) &lt;font color=\"%1$s\">%2$s&lt;/font> hálózathoz a(z) &lt;font color=\"%1$s\">%3$s&lt;/font> jelszó megadásával.</string>
-    <string name="wifi_ap_instruction_activate_color_hidden4_tmo">Enjoy the internet using your personal Mobile HotSpot.</string>
+    <string name="wifi_ap_instruction_activate_color_hidden4_tmo">Használja az internetet személyes Mobil hotspotjával.</string>
     <string name="wifi_ap_instruction_no_maxclient">"A Mobil hotspotnak köszönhetően internet-hozzáférési pontként használhatja az eszközt. Így egyéb eszközök kapcsolódhatnak hozzá Wi-Fi-n. Ezek az eszközök a mobilhálózaton keresztül hozzáférhetnek az internethez.
 
 Létrehozhat egy profilt az engedélyezett eszközök számára, és beállíthatja hozzá a kapcsolatmódot.
 
 A Mobil hotspot használata esetén gyorsabban merül az akkumulátor, és megnövekszik az adatforgalom."</string>
     <string name="wifi_ap_instruction_configure_vzw">To change the Mobile Hotspot configuration, go to Settings > Mobile Hotspot and tethering > Mobile Hotspot > MORE, then select Configure Mobile Hotspot.</string>
-    <string name="wifi_ap_instruction_configure_tmo">To change the Mobile HotSpot configuration, tap the More options button, then select Configure Mobile HotSpot.</string>
+    <string name="wifi_ap_instruction_configure_tmo">A Mobil hotspot konfigurációjának módosításához érintse meg az Egyéb opciók gombot, és válassza a Mobil hotspot konfigurálása lehetőséget.</string>
     <string name="wifi_ap_instruction_configure">A mobil hotspot konfigurációjának módosításához érintse meg az Egyéb opciók gombot, és válassza a Mobil hotspot konfigurálása lehetőséget.</string>
-    <string name="wifi_ap_instruction_configure_non_grace_tmo">To change the Mobile HotSpot configuration, tap MORE, then select Configure Mobile HotSpot.</string>
+    <string name="wifi_ap_instruction_configure_non_grace_tmo">A Mobil hotspot konfigurációjának megváltoztatásához érintse meg az EGYEBEK gombot, és válassza a Mobil hotspot konfigurálása lehetőséget.</string>
     <string name="wifi_ap_instruction_configure_non_grace">A mobil hotspot konfigurációjának módosításához érintse meg az EGYEBEK gombot, és válassza a Mobil hotspot konfigurálása lehetőséget.</string>
     <string name="wifi_ap_change_security">Change Security</string>
     <string name="wifi_ap_maxclient">Kapcsolatok maximális száma</string>
@@ -3391,7 +3426,8 @@ A Mobil hotspot használata esetén gyorsabban merül az akkumulátor, és megn�
     <string name="wifi_tether_configure_ap_text_usc">Configure Wi-Fi hotspot</string>
     <string name="wifi_tether_configure_ap_text">Mobil hotspot konfigurálása</string>
     <string name="wifi_ap_hidessid_warning">Your phone will be visible to other devices</string>
-    <string name="wifi_ap_first_time_configuration">First time HotSpot configuration</string>
+    <string name="wifi_ap_first_time_configuration_mtr">A hotspot kezdeti konfigurálása</string>
+    <string name="wifi_ap_first_time_configuration">Hotspot kezdeti konfigurálása</string>
     <string name="title_wifi_notify_mobileap_is_on">Wi-Fi and Mobile Hotspot</string>
     <string name="wifi_ssid_max_byte_error">Elérte a karakterek maximális számát.</string>
     <string name="tethering_attention_title">Figyelem</string>
@@ -3534,6 +3570,8 @@ A roaminggal kapcsolatban az ingyenesen hívható roaming-ügyfélszolgálatnál
     <string name="master_clear_desc_music">Zenék</string>
     <string name="master_clear_desc_pictures">Képek</string>
     <string name="master_clear_desc_other_user_data">Minden egyéb felhasználói adat</string>
+    <string name="master_clear_not_enough_battery">A telefon visszaállítása előtt töltse fel az akkumulátort legalább %d%%-ra.</string>
+    <string name="master_clear_not_enough_battery_tablet">A táblagép visszaállítása előtt töltse fel az akkumulátort legalább %d%%-ra.</string>
     <string name="text_two_locktype">Ujjlenyomat és %s</string>
     <string name="pref_lock_type_title">Zártípus módosítása</string>
     <string name="pref_lock_type_summary">Zárolás típusa</string>
@@ -3613,8 +3651,11 @@ Receiving SMS"</string>
     <string name="google_settings_popup_msg">Only a limited number of Google settings are available. Some actions may not work.</string>
     <string name="smart_lock_popup_msg">Only a limited number of Google settings are available. Some actions may not work.</string>
     <string name="prevent_to_change_by_device_policy">A biztonsági házirend tiltja a(z) %s használatát.</string>
+    <string name="quick_tile_sync_title">Szinkronizálás</string>
     <string name="name_jerusalem">Jeruzsálem</string>
     <string name="name_israel">Izrael</string>
+    <string name="starting_android">Az Android indítása…</string>
+    <string name="okay">OK</string>
     <string name="yes">Igen</string>
     <string name="no">Nem</string>
     <string name="create">Új</string>
@@ -3712,7 +3753,6 @@ Ezt később módosíthatja a Bluetooth-beállításokban."</string>
     <string name="phone_info_label">Eszköz adatai</string>
     <string name="proxy_settings_label">Proxybeállítások</string>
     <string name="cancel">Mégse</string>
-    <string name="okay">OK</string>
     <string name="save">Mentés</string>
     <string name="done">Kész</string>
     <string name="settings_label">Beállítások</string>
@@ -5347,4 +5387,6 @@ Amíg az eszköz el nem indul, nem fogadhat hívást, üzenetet és értesítés
     <string name="ucm_pins_do_not_match">A PIN-kódok nem egyeznek</string>
     <string name="ucm_failed_to_connect_smartcard">Nem sikerült kapcsolódni az intelligens kártyához. Forduljon az eszközadminisztrátorhoz.</string>
     <string name="ucm_loading">Betöltés…</string>
+    <string name="usb_use_software_installation">Software Installation</string>
+    <string name="usb_use_software_installation_summary">Install Software Update and Repair tool for your device on a Mac or Windows computer.</string>
 </resources>

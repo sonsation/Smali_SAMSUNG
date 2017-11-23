@@ -497,7 +497,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0b0274
+    const v4, 0x7f0b0276
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -521,7 +521,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0b026b
+    const v4, 0x7f0b026d
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -630,7 +630,7 @@
 
     .line 251
     .local v0, "dlg":Landroid/app/AlertDialog$Builder;
-    const v1, 0x7f0b0261
+    const v1, 0x7f0b0263
 
     invoke-virtual {v0, v1}, Landroid/app/AlertDialog$Builder;->setMessage(I)Landroid/app/AlertDialog$Builder;
 
@@ -641,7 +641,7 @@
 
     invoke-direct {v2, p0}, Lcom/samsung/android/settings/accessibility/sharedaccessibility/ShareAccessibilitySettingsReceive$5;-><init>(Lcom/samsung/android/settings/accessibility/sharedaccessibility/ShareAccessibilitySettingsReceive;)V
 
-    const v3, 0x7f0b14b7
+    const v3, 0x7f0b163d
 
     .line 251
     invoke-virtual {v1, v3, v2}, Landroid/app/AlertDialog$Builder;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
@@ -653,7 +653,7 @@
 
     invoke-direct {v2, p0, p1, p2}, Lcom/samsung/android/settings/accessibility/sharedaccessibility/ShareAccessibilitySettingsReceive$6;-><init>(Lcom/samsung/android/settings/accessibility/sharedaccessibility/ShareAccessibilitySettingsReceive;Ljava/util/HashMap;Ljava/lang/String;)V
 
-    const v3, 0x7f0b14b6
+    const v3, 0x7f0b163c
 
     .line 251
     invoke-virtual {v1, v3, v2}, Landroid/app/AlertDialog$Builder;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
@@ -699,7 +699,7 @@
 
     invoke-direct {v1, p0}, Lcom/samsung/android/settings/accessibility/sharedaccessibility/ShareAccessibilitySettingsReceive$3;-><init>(Lcom/samsung/android/settings/accessibility/sharedaccessibility/ShareAccessibilitySettingsReceive;)V
 
-    const v2, 0x7f0b14b6
+    const v2, 0x7f0b163c
 
     invoke-virtual {v0, v2, v1}, Landroid/app/AlertDialog$Builder;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
 
@@ -722,7 +722,7 @@
     .param p1, "filename"    # Ljava/lang/String;
 
     .prologue
-    const v4, 0x7f0b0275
+    const v4, 0x7f0b0277
 
     .line 137
     const-string/jumbo v1, "ShareAccessibilitySettingsReceive"
@@ -773,7 +773,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0b0276
+    const v2, 0x7f0b0278
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -786,7 +786,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0b0438
+    const v2, 0x7f0b0440
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -989,7 +989,7 @@
 
     move-result-object v11
 
-    const v12, 0x7f0b0acb
+    const v12, 0x7f0b0aec
 
     invoke-virtual {v11, v12}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1006,7 +1006,7 @@
 
     move-result-object v13
 
-    const v14, 0x7f0b0acc
+    const v14, 0x7f0b0aed
 
     invoke-virtual {v13, v14}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

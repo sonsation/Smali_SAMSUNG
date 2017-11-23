@@ -538,7 +538,7 @@
 
     iget-object v6, p0, Lcom/samsung/android/settings/nearby/NearbyEnabler;->mContext:Landroid/content/Context;
 
-    const v7, 0x7f0b037c
+    const v7, 0x7f0b037e
 
     invoke-virtual {v6, v7}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1624,7 +1624,7 @@
     .line 1062
     iget-object v2, p0, Lcom/samsung/android/settings/nearby/NearbyEnabler;->mContext:Landroid/content/Context;
 
-    const v3, 0x7f0b0377
+    const v3, 0x7f0b0379
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1638,7 +1638,7 @@
     .line 1063
     iget-object v2, p0, Lcom/samsung/android/settings/nearby/NearbyEnabler;->mContext:Landroid/content/Context;
 
-    const v3, 0x7f0b0376
+    const v3, 0x7f0b0378
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1655,7 +1655,7 @@
     invoke-direct {v2, p0}, Lcom/samsung/android/settings/nearby/NearbyEnabler$10;-><init>(Lcom/samsung/android/settings/nearby/NearbyEnabler;)V
 
     .line 1064
-    const v3, 0x7f0b0437
+    const v3, 0x7f0b043f
 
     .line 1061
     invoke-virtual {v1, v3, v2}, Landroid/app/AlertDialog$Builder;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
@@ -1668,7 +1668,7 @@
     invoke-direct {v2, p0}, Lcom/samsung/android/settings/nearby/NearbyEnabler$11;-><init>(Lcom/samsung/android/settings/nearby/NearbyEnabler;)V
 
     .line 1078
-    const v3, 0x7f0b042f
+    const v3, 0x7f0b0437
 
     .line 1061
     invoke-virtual {v1, v3, v2}, Landroid/app/AlertDialog$Builder;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
@@ -1778,7 +1778,7 @@
 
     .line 998
     .local v6, "message":Landroid/widget/TextView;
-    const v7, 0x7f0b0378
+    const v7, 0x7f0b037a
 
     invoke-virtual {v6, v7}, Landroid/widget/TextView;->setText(I)V
 
@@ -1806,7 +1806,7 @@
 
     .line 1004
     .local v1, "builder":Landroid/app/AlertDialog$Builder;
-    const v7, 0x7f0b0cc5
+    const v7, 0x7f0b0ce7
 
     invoke-virtual {v1, v7}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
 
@@ -1819,7 +1819,7 @@
     invoke-direct {v7, p0}, Lcom/samsung/android/settings/nearby/NearbyEnabler$7;-><init>(Lcom/samsung/android/settings/nearby/NearbyEnabler;)V
 
     .line 1007
-    const v8, 0x7f0b0438
+    const v8, 0x7f0b0440
 
     invoke-virtual {v1, v8, v7}, Landroid/app/AlertDialog$Builder;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
 
@@ -1829,7 +1829,7 @@
     invoke-direct {v7, p0}, Lcom/samsung/android/settings/nearby/NearbyEnabler$8;-><init>(Lcom/samsung/android/settings/nearby/NearbyEnabler;)V
 
     .line 1016
-    const v8, 0x7f0b042f
+    const v8, 0x7f0b0437
 
     invoke-virtual {v1, v8, v7}, Landroid/app/AlertDialog$Builder;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
 
@@ -1926,7 +1926,7 @@
     .line 969
     iget-object v2, p0, Lcom/samsung/android/settings/nearby/NearbyEnabler;->mContext:Landroid/content/Context;
 
-    const v3, 0x7f0b037c
+    const v3, 0x7f0b037e
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1940,7 +1940,7 @@
     .line 970
     iget-object v2, p0, Lcom/samsung/android/settings/nearby/NearbyEnabler;->mContext:Landroid/content/Context;
 
-    const v3, 0x7f0b0379
+    const v3, 0x7f0b037b
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1957,7 +1957,7 @@
     invoke-direct {v2, p0}, Lcom/samsung/android/settings/nearby/NearbyEnabler$5;-><init>(Lcom/samsung/android/settings/nearby/NearbyEnabler;)V
 
     .line 971
-    const v3, 0x7f0b0438
+    const v3, 0x7f0b0440
 
     .line 968
     invoke-virtual {v1, v3, v2}, Landroid/app/AlertDialog$Builder;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;

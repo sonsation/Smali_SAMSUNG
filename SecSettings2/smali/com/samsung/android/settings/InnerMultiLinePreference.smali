@@ -44,7 +44,7 @@
     .param p1, "view"    # Landroid/view/View;
 
     .prologue
-    const v6, 0x7f0b07ef
+    const v6, 0x7f0b080b
 
     const/4 v3, 0x1
 

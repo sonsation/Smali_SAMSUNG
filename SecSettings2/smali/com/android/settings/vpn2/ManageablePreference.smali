@@ -188,7 +188,7 @@
     if-eqz v4, :cond_0
 
     .line 91
-    const v4, 0x7f0b1794
+    const v4, 0x7f0b191a
 
     invoke-virtual {v1, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -239,7 +239,7 @@
 
     aput-object v0, v4, v5
 
-    const v5, 0x7f0b14c0
+    const v5, 0x7f0b1646
 
     .line 92
     invoke-virtual {v1, v5, v4}, Landroid/content/res/Resources;->getString(I[Ljava/lang/Object;)Ljava/lang/String;

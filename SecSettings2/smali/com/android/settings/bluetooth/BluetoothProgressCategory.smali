@@ -61,7 +61,7 @@
     invoke-direct {p0, p1, p2, p3, p4}, Lcom/android/settings/ProgressCategory;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;II)V
 
     .line 45
-    const v0, 0x7f0b0ffb
+    const v0, 0x7f0b1183
 
     invoke-virtual {p0, v0}, Lcom/android/settings/bluetooth/BluetoothProgressCategory;->setEmptyTextRes(I)V
 

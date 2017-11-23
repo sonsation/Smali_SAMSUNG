@@ -257,7 +257,7 @@
 
     .line 62
     .local v2, "res":Landroid/content/res/Resources;
-    const v5, 0x7f0200d3
+    const v5, 0x7f0200d1
 
     invoke-virtual {v2, v5}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -265,7 +265,7 @@
 
     .line 63
     .local v4, "tapStandBydrawable":Landroid/graphics/drawable/Drawable;
-    const v5, 0x7f0200d2
+    const v5, 0x7f0200d0
 
     invoke-virtual {v2, v5}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -273,7 +273,7 @@
 
     .line 64
     .local v3, "tapConfirmdrawable":Landroid/graphics/drawable/Drawable;
-    const v5, 0x7f0200cd
+    const v5, 0x7f0200cb
 
     invoke-virtual {v2, v5}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -281,7 +281,7 @@
 
     .line 65
     .local v1, "holdStandBydrawable":Landroid/graphics/drawable/Drawable;
-    const v5, 0x7f0200cc
+    const v5, 0x7f0200ca
 
     invoke-virtual {v2, v5}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 

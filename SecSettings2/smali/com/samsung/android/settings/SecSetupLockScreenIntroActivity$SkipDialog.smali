@@ -94,7 +94,7 @@
     invoke-direct {v3, p0}, Lcom/samsung/android/settings/SecSetupLockScreenIntroActivity$SkipDialog$1;-><init>(Lcom/samsung/android/settings/SecSetupLockScreenIntroActivity$SkipDialog;)V
 
     .line 302
-    const v4, 0x7f0b0912
+    const v4, 0x7f0b0930
 
     .line 300
     invoke-virtual {v2, v4, v3}, Landroid/app/AlertDialog$Builder;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
@@ -107,7 +107,7 @@
     invoke-direct {v3, p0}, Lcom/samsung/android/settings/SecSetupLockScreenIntroActivity$SkipDialog$2;-><init>(Lcom/samsung/android/settings/SecSetupLockScreenIntroActivity$SkipDialog;)V
 
     .line 310
-    const v4, 0x7f0b0911
+    const v4, 0x7f0b092f
 
     .line 300
     invoke-virtual {v2, v4, v3}, Landroid/app/AlertDialog$Builder;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;

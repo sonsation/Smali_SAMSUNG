@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="data_saver_unrestricted_summary_chn">
+        <item quantity="other">పరిమిత నేపథ్య డేటా ప్రారంభించబడినప్పుడు పరిమితులు లేకుండా మొబైల్ డేటాను ఉపయోగించడానికి %d అప్లికేషన్‌లు అనుమతించబడ్డాయి.</item>
+        <item quantity="one">పరిమిత నేపథ్య డేటా ప్రారంభించబడినప్పుడు పరిమితులు లేకుండా మొబైల్ డేటాను ఉపయోగించడానికి %d అప్లికేషన్‌లు అనుమతించబడ్డాయి.</item>
+    </plurals>
     <plurals name="lock_timeout_hours">
         <item quantity="other">%d గంటలు</item>
         <item quantity="one">1 గంట</item>

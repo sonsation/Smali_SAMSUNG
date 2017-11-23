@@ -149,7 +149,7 @@
     invoke-virtual {v0, v5, v1}, Landroid/widget/RemoteViews;->setTextViewText(ILjava/lang/CharSequence;)V
 
     .line 200
-    const v1, 0x7f0b0aa5
+    const v1, 0x7f0b0ac6
 
     invoke-virtual {p0, v1}, Lcom/samsung/android/settings/qstile/PowerSavingTile;->getText(I)Ljava/lang/CharSequence;
 
@@ -168,7 +168,7 @@
     invoke-virtual {v0, v2, v1}, Landroid/widget/RemoteViews;->setTextViewText(ILjava/lang/CharSequence;)V
 
     .line 201
-    const v1, 0x7f0b0aa7
+    const v1, 0x7f0b0ac8
 
     invoke-virtual {p0, v1}, Lcom/samsung/android/settings/qstile/PowerSavingTile;->getText(I)Ljava/lang/CharSequence;
 
@@ -187,7 +187,7 @@
     invoke-virtual {v0, v2, v1}, Landroid/widget/RemoteViews;->setTextViewText(ILjava/lang/CharSequence;)V
 
     .line 202
-    const v1, 0x7f0b0aa6
+    const v1, 0x7f0b0ac7
 
     invoke-virtual {p0, v1}, Lcom/samsung/android/settings/qstile/PowerSavingTile;->getText(I)Ljava/lang/CharSequence;
 
@@ -469,7 +469,7 @@
     .line 412
     iget-object v4, p0, Lcom/samsung/android/settings/qstile/PowerSavingTile;->mContext:Landroid/content/Context;
 
-    const v5, 0x7f0b0a94
+    const v5, 0x7f0b0ab5
 
     invoke-virtual {v4, v5}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -478,7 +478,7 @@
     aput-object v4, v3, v6
 
     .line 411
-    const v4, 0x7f0b0f9e
+    const v4, 0x7f0b0fc6
 
     invoke-virtual {v2, v4, v3}, Landroid/content/Context;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -525,9 +525,9 @@
 
     const v5, 0x7f0d00b8
 
-    const v1, 0x7f020419
+    const v1, 0x7f020417
 
-    const v2, 0x7f020416
+    const v2, 0x7f020414
 
     .line 283
     packed-switch p2, :pswitch_data_0
@@ -591,7 +591,7 @@
 
     if-nez v0, :cond_1
 
-    const v0, 0x7f020417
+    const v0, 0x7f020415
 
     .line 285
     :goto_1
@@ -626,7 +626,7 @@
 
     const v3, 0x7f1105c1
 
-    const v4, 0x7f020414
+    const v4, 0x7f020412
 
     invoke-virtual {p1, v3, v0, v4}, Landroid/widget/RemoteViews;->setInt(ILjava/lang/String;I)V
 
@@ -688,7 +688,7 @@
 
     .line 286
     :cond_1
-    const v0, 0x7f02041a
+    const v0, 0x7f020418
 
     goto :goto_1
 
@@ -746,7 +746,7 @@
 
     const v3, 0x7f1105c1
 
-    const v4, 0x7f020415
+    const v4, 0x7f020413
 
     invoke-virtual {p1, v3, v0, v4}, Landroid/widget/RemoteViews;->setInt(ILjava/lang/String;I)V
 
@@ -866,7 +866,7 @@
 
     const v1, 0x7f1105c1
 
-    const v2, 0x7f020414
+    const v2, 0x7f020412
 
     invoke-virtual {p1, v1, v0, v2}, Landroid/widget/RemoteViews;->setInt(ILjava/lang/String;I)V
 
@@ -900,7 +900,7 @@
 
     if-nez v0, :cond_6
 
-    const v0, 0x7f02041b
+    const v0, 0x7f020419
 
     .line 326
     :goto_6
@@ -938,7 +938,7 @@
 
     .line 327
     :cond_6
-    const v0, 0x7f020418
+    const v0, 0x7f020416
 
     goto :goto_6
 
@@ -1332,7 +1332,7 @@
     if-eqz v0, :cond_1
 
     .line 150
-    const v1, 0x7f02041d
+    const v1, 0x7f02041b
 
     invoke-static {p0, v1}, Landroid/graphics/drawable/Icon;->createWithResource(Landroid/content/Context;I)Landroid/graphics/drawable/Icon;
 
@@ -1769,7 +1769,7 @@
 
     .prologue
     .line 170
-    const v0, 0x7f0b0a94
+    const v0, 0x7f0b0ab5
 
     invoke-virtual {p0, v0}, Lcom/samsung/android/settings/qstile/PowerSavingTile;->getString(I)Ljava/lang/String;
 

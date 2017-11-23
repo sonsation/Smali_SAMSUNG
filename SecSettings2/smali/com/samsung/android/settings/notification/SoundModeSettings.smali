@@ -242,7 +242,7 @@
 
     move-result-object v8
 
-    const/high16 v9, 0x7f130000
+    const v9, 0x7f130001
 
     invoke-virtual {v8, v9, v3}, Landroid/content/res/Resources;->getQuantityString(II)Ljava/lang/String;
 
@@ -266,7 +266,7 @@
 
     move-result-object v8
 
-    const v9, 0x7f130001
+    const v9, 0x7f130002
 
     invoke-virtual {v8, v9, v6}, Landroid/content/res/Resources;->getQuantityString(II)Ljava/lang/String;
 
@@ -327,7 +327,7 @@
 
     aput-object v7, v9, v11
 
-    const v10, 0x7f0b0a5e
+    const v10, 0x7f0b0a7f
 
     invoke-virtual {v8, v10, v9}, Landroid/content/Context;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -386,7 +386,7 @@
     .locals 11
 
     .prologue
-    const/high16 v10, 0x7f130000
+    const v10, 0x7f130001
 
     const/4 v9, 0x3
 
@@ -792,9 +792,9 @@
     .locals 14
 
     .prologue
-    const v13, 0x7f0b0a5c
+    const v13, 0x7f0b0a7d
 
-    const v12, 0x7f0b0a5a
+    const v12, 0x7f0b0a7b
 
     const/16 v10, 0x21
 
@@ -1120,7 +1120,7 @@
     .line 318
     iget-object v9, p0, Lcom/samsung/android/settings/notification/SoundModeSettings;->mContext:Landroid/content/Context;
 
-    const v10, 0x7f0b0a59
+    const v10, 0x7f0b0a7a
 
     invoke-virtual {v9, v10}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1152,7 +1152,7 @@
     .line 322
     iget-object v9, p0, Lcom/samsung/android/settings/notification/SoundModeSettings;->mContext:Landroid/content/Context;
 
-    const v10, 0x7f0b1286
+    const v10, 0x7f0b140c
 
     invoke-virtual {v9, v10}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

@@ -906,6 +906,7 @@ Anda dapat mengubahnya nanti dengan membuka pengaturan Bluetooth."</string>
     <string name="bluetooth_control_app_disable_summary">Nonaktifkan Bluetooth: %s</string>
     <string name="bluetooth_enter_pin_msg">Masukkan PIN untuk dipasangkan dengan %s (Coba 0000 atau 1234).</string>
     <string name="bluetooth_pin_maximum_number_message">Jumlah maksimum karakter tercapai.</string>
+    <string name="bluetooth_frp_permission_message">Tidak dapat menggunakan perangkat Bluetooth untuk panggilan ini.</string>
     <string name="settings_menu_done">Selesai</string>
     <string name="usb_tethering_unavailable_subtext_tmo">USB not connected</string>
     <string name="usb_tethering_available_subtext_tmo">USB connected, check to tether</string>
@@ -1173,8 +1174,6 @@ Ponsel memiliki perangkat lunak diagnostik yang, atas persetujuan Anda, dapat me
     <string name="usb_use_file_transfers_summary">Transfer file media ke PC lewat koneksi MTP.</string>
     <string name="usb_use_MIDI_summary_vzw">Use device for MIDI input.</string>
     <string name="usb_use_MIDI_summary">Gunakan perangkat tersambung sebagai pemutar MIDI (Musical Instrument Digital Interface) atau sumber input.</string>
-    <string name="usb_use_software_installation">Software Installation</string>
-    <string name="usb_use_software_installation_summary">Install Software Update and Repair tool for your device on a Mac or Windows computer.</string>
     <string name="sim_status_code">Kode</string>
     <string name="sim_status_btn_update">Perbarui status kartu SIM</string>
     <string name="sim_status_updating">Mengupdate…</string>
@@ -1520,7 +1519,6 @@ Enkripsi memerlukan waktu sejam atau lebih. Sebelum mulai, pastikan daya baterai
     <string name="cryptkeeper_wrong_pin">PIN yang dimasukkan salah</string>
     <string name="cryptkeeper_wrong_direction">Arah yang digambar salah</string>
     <string name="checking_decryption">Memverifikasi…</string>
-    <string name="starting_android">Memulai Android…</string>
     <string name="crypt_keeper_last_warn_wipe">Anda hanya memiliki 1 percobaan tersisa untuk memulai perangkat sebelum direset ke pengaturan default pabrik. Ini akan menghapus semua data, termasuk file dan aplikasi unduhan.</string>
     <string name="crypt_keeper_failed_title_dec">"Dekripsi
 digagalkan."</string>
@@ -2002,8 +2000,8 @@ Determining your location will use the mobile network. Data usage will apply."</
     <string name="app_ops_settings_summary">Lihat atau ubah izin aplikasi.</string>
     <string name="backup_key_for_applock_header">Atur pola, PIN, atau kata sandi untuk digunakan bersama pengenalan sidik jari saat mengunci atau membuka kunci aplikasi.</string>
     <string name="backup_key_for_privatemode_header">Atur pola, PIN, atau kata sandi untuk digunakan dengan pengenalan sidik jari dalam mengakses mode Pribadi.</string>
-    <string name="status_added">Ditambahkan</string>
     <string name="text_security_title_b2c">Pilih tipe kunci. Jika lupa cara membuka kunci Folder Aman, Anda dapat mereset kunci menggunakan Samsung account.</string>
+    <string name="status_added">Ditambahkan</string>
     <string name="lockpattern_backup_pin">PIN cadangan</string>
     <string name="applock_type_fingerprint">Sidik jari</string>
     <string name="unlock_set_unlock_two_factor_title">Verifikasi dua-langkah</string>
@@ -3616,6 +3614,8 @@ Menerima SMS"</string>
     <string name="prevent_to_change_by_device_policy">Kebijakan keamanan membatasi penggunaan %s.</string>
     <string name="name_jerusalem">Jerusalem</string>
     <string name="name_israel">Israel</string>
+    <string name="starting_android">Memulai Android…</string>
+    <string name="okay">OK</string>
     <string name="yes">Ya</string>
     <string name="no">Tidak</string>
     <string name="create">Membuat</string>
@@ -3713,7 +3713,6 @@ Anda dapat mengubahnya nanti dengan membuka pengaturan Bluetooth."</string>
     <string name="phone_info_label">Info peralatan</string>
     <string name="proxy_settings_label">Pengaturan proksi</string>
     <string name="cancel">Batal</string>
-    <string name="okay">OK</string>
     <string name="save">Simpan</string>
     <string name="done">Selesai</string>
     <string name="settings_label">Pengaturan</string>
@@ -5348,4 +5347,6 @@ Anda tidak akan menerima panggilan, pesan, atau notifikasi apa pun, alarm juga t
     <string name="ucm_pins_do_not_match">PIN tidak cocok</string>
     <string name="ucm_failed_to_connect_smartcard">Gagal menyambung ke kartu cerdas. Hubungi administrator perangkat.</string>
     <string name="ucm_loading">Meloading…</string>
+    <string name="usb_use_software_installation">Software Installation</string>
+    <string name="usb_use_software_installation_summary">Install Software Update and Repair tool for your device on a Mac or Windows computer.</string>
 </resources>

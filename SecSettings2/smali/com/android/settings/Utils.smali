@@ -3748,7 +3748,7 @@
     if-eqz v2, :cond_2
 
     .line 7331
-    const v4, 0x7f0b0704
+    const v4, 0x7f0b071e
 
     invoke-virtual {p1, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -4292,7 +4292,7 @@
     aput-object v6, v5, v11
 
     .line 2834
-    const v6, 0x7f0b1565
+    const v6, 0x7f0b16eb
 
     invoke-virtual {p0, v6, v5}, Landroid/content/Context;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -4335,7 +4335,7 @@
     aput-object v6, v5, v10
 
     .line 2837
-    const v6, 0x7f0b1566
+    const v6, 0x7f0b16ec
 
     invoke-virtual {p0, v6, v5}, Landroid/content/Context;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -4364,7 +4364,7 @@
 
     aput-object v6, v5, v9
 
-    const v6, 0x7f0b1567
+    const v6, 0x7f0b16ed
 
     invoke-virtual {p0, v6, v5}, Landroid/content/Context;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -4384,7 +4384,7 @@
 
     aput-object v6, v5, v8
 
-    const v6, 0x7f0b1568
+    const v6, 0x7f0b16ee
 
     invoke-virtual {p0, v6, v5}, Landroid/content/Context;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -4421,7 +4421,7 @@
     aput-object v6, v5, v10
 
     .line 2846
-    const v6, 0x7f0b1569
+    const v6, 0x7f0b16ef
 
     invoke-virtual {p0, v6, v5}, Landroid/content/Context;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -5466,7 +5466,7 @@
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
 
-    const v2, 0x7f0b0f9a
+    const v2, 0x7f0b0fc2
 
     invoke-virtual {p0, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -6217,14 +6217,14 @@
     .line 5922
     iget v4, v2, Landroid/util/TypedValue;->resourceId:I
 
-    const v5, 0x7f0b0fa8
+    const v5, 0x7f0b1130
 
     if-eq v4, v5, :cond_0
 
     .line 5923
     iget v4, v2, Landroid/util/TypedValue;->resourceId:I
 
-    const v5, 0x7f0b12ff
+    const v5, 0x7f0b1485
 
     if-eq v4, v5, :cond_0
 
@@ -6621,7 +6621,7 @@
     .local v1, "result":F
     if-ne p1, v7, :cond_3
 
-    const v2, 0x7f0b04bd
+    const v2, 0x7f0b04ce
 
     .line 3899
     .local v2, "suffix":I
@@ -6766,7 +6766,7 @@
 
     aput-object v6, v5, v7
 
-    const v6, 0x7f0b04c0
+    const v6, 0x7f0b04d1
 
     invoke-virtual {v4, v6, v5}, Landroid/content/res/Resources;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -6779,7 +6779,7 @@
     .end local v2    # "suffix":I
     .end local v3    # "value":Ljava/lang/String;
     :cond_3
-    const v2, 0x7f0b04bc
+    const v2, 0x7f0b04cd
 
     .restart local v2    # "suffix":I
     goto/16 :goto_0
@@ -7786,7 +7786,7 @@
 
     .prologue
     .line 6265
-    const v0, 0x7f0201e4
+    const v0, 0x7f0201e2
 
     .line 6266
     .local v0, "backgroundId":I
@@ -7802,7 +7802,7 @@
     if-eqz v1, :cond_1
 
     .line 6268
-    const v0, 0x7f0201e6
+    const v0, 0x7f0201e4
 
     .line 6279
     :cond_0
@@ -7820,7 +7820,7 @@
     if-eqz v1, :cond_2
 
     .line 6270
-    const v0, 0x7f0201ec
+    const v0, 0x7f0201ea
 
     goto :goto_0
 
@@ -7835,7 +7835,7 @@
     if-eqz v1, :cond_3
 
     .line 6272
-    const v0, 0x7f0201ee
+    const v0, 0x7f0201ec
 
     goto :goto_0
 
@@ -7850,7 +7850,7 @@
     if-eqz v1, :cond_4
 
     .line 6274
-    const v0, 0x7f0201ea
+    const v0, 0x7f0201e8
 
     goto :goto_0
 
@@ -7865,7 +7865,7 @@
     if-eqz v1, :cond_0
 
     .line 6276
-    const v0, 0x7f0201e8
+    const v0, 0x7f0201e6
 
     goto :goto_0
 .end method
@@ -8259,13 +8259,13 @@
     .param p1, "fontName"    # Ljava/lang/String;
 
     .prologue
-    const v6, 0x7f0b05c3
+    const v6, 0x7f0b05d7
 
-    const v5, 0x7f0b05be
+    const v5, 0x7f0b05d2
 
-    const v4, 0x7f0b05bd
+    const v4, 0x7f0b05d1
 
-    const v3, 0x7f0b05bc
+    const v3, 0x7f0b05d0
 
     .line 8811
     if-eqz p1, :cond_0
@@ -8318,7 +8318,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0b054f
+    const v3, 0x7f0b0563
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getText(I)Ljava/lang/CharSequence;
 
@@ -8470,7 +8470,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0b05bf
+    const v3, 0x7f0b05d3
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getText(I)Ljava/lang/CharSequence;
 
@@ -8501,7 +8501,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0b05c0
+    const v3, 0x7f0b05d4
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getText(I)Ljava/lang/CharSequence;
 
@@ -8532,7 +8532,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0b05c4
+    const v3, 0x7f0b05d8
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getText(I)Ljava/lang/CharSequence;
 
@@ -8563,7 +8563,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0b05c5
+    const v3, 0x7f0b05d9
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getText(I)Ljava/lang/CharSequence;
 
@@ -8594,7 +8594,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0b05c6
+    const v3, 0x7f0b05da
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getText(I)Ljava/lang/CharSequence;
 
@@ -8625,7 +8625,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0b05c1
+    const v3, 0x7f0b05d5
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getText(I)Ljava/lang/CharSequence;
 
@@ -8656,7 +8656,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0b05c2
+    const v3, 0x7f0b05d6
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getText(I)Ljava/lang/CharSequence;
 
@@ -8824,7 +8824,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0b05c7
+    const v3, 0x7f0b05db
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getText(I)Ljava/lang/CharSequence;
 
@@ -8981,7 +8981,7 @@
 
     move-result-object v18
 
-    const v19, 0x7f0b05d6
+    const v19, 0x7f0b05ea
 
     invoke-virtual/range {v18 .. v19}, Landroid/content/res/Resources;->getText(I)Ljava/lang/CharSequence;
 
@@ -9209,7 +9209,7 @@
 
     move-result-object v18
 
-    const v19, 0x7f0b0450
+    const v19, 0x7f0b0458
 
     invoke-virtual/range {v18 .. v19}, Landroid/content/res/Resources;->getText(I)Ljava/lang/CharSequence;
 
@@ -9245,7 +9245,7 @@
 
     move-result-object v18
 
-    const v19, 0x7f0b044f
+    const v19, 0x7f0b0457
 
     invoke-virtual/range {v18 .. v19}, Landroid/content/res/Resources;->getText(I)Ljava/lang/CharSequence;
 
@@ -9315,7 +9315,7 @@
 
     move-result-object v18
 
-    const v20, 0x7f0b0450
+    const v20, 0x7f0b0458
 
     move-object/from16 v0, v18
 
@@ -9363,7 +9363,7 @@
 
     move-result-object v18
 
-    const v20, 0x7f0b044e
+    const v20, 0x7f0b0456
 
     move-object/from16 v0, v18
 
@@ -9411,7 +9411,7 @@
 
     move-result-object v18
 
-    const v20, 0x7f0b044f
+    const v20, 0x7f0b0457
 
     move-object/from16 v0, v18
 
@@ -9561,7 +9561,7 @@
 
     move-result-object v18
 
-    const v20, 0x7f0b0450
+    const v20, 0x7f0b0458
 
     move-object/from16 v0, v18
 
@@ -9657,7 +9657,7 @@
 
     move-result-object v18
 
-    const v20, 0x7f0b044f
+    const v20, 0x7f0b0457
 
     move-object/from16 v0, v18
 
@@ -10679,7 +10679,7 @@
     if-eqz v3, :cond_1
 
     .line 9637
-    const v3, 0x7f0b0b3c
+    const v3, 0x7f0b0b5d
 
     invoke-virtual {p0, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -10858,7 +10858,7 @@
     :goto_1
     if-nez v2, :cond_2
 
-    const v0, 0x7f0b18da
+    const v0, 0x7f0b1a60
 
     .line 8718
     .local v0, "SelectedValue":I
@@ -10886,13 +10886,13 @@
     :cond_2
     if-eqz v1, :cond_3
 
-    const v0, 0x7f0b18d8
+    const v0, 0x7f0b1a5e
 
     goto :goto_2
 
     .line 8717
     :cond_3
-    const v0, 0x7f0b18d9
+    const v0, 0x7f0b1a5f
 
     goto :goto_2
 .end method
@@ -11655,7 +11655,7 @@
 
     if-ne p1, v1, :cond_0
 
-    const v0, 0x7f0b1952
+    const v0, 0x7f0b1ad8
 
     .line 6924
     .local v0, "status":I
@@ -11673,7 +11673,7 @@
     .line 6923
     .end local v0    # "status":I
     :cond_0
-    const v0, 0x7f0b1953
+    const v0, 0x7f0b1ad9
 
     .restart local v0    # "status":I
     goto :goto_0
@@ -11685,9 +11685,9 @@
     .param p1, "helpMenuData"    # Lcom/android/settings/Utils$OnlineHelpMenuState;
 
     .prologue
-    const v12, 0x7f0b043c
+    const v12, 0x7f0b0444
 
-    const v11, 0x7f020245
+    const v11, 0x7f020243
 
     const/4 v7, 0x0
 
@@ -12086,7 +12086,7 @@
 
     .line 6750
     :cond_7
-    const v6, 0x7f020267
+    const v6, 0x7f020265
 
     iput v6, p1, Lcom/android/settings/Utils$OnlineHelpMenuState;->iconRes:I
 
@@ -12565,7 +12565,7 @@
     if-eqz v3, :cond_3
 
     .line 8724
-    const v2, 0x7f0b0492
+    const v2, 0x7f0b049d
 
     .line 8725
     .local v2, "resourcesId":I
@@ -12577,7 +12577,7 @@
     if-eqz v3, :cond_0
 
     .line 8726
-    const v2, 0x7f0b0b00
+    const v2, 0x7f0b0b21
 
     .line 8729
     :cond_0
@@ -12616,7 +12616,7 @@
     if-eqz v3, :cond_5
 
     .line 8737
-    const v2, 0x7f0b0afc
+    const v2, 0x7f0b0b1d
 
     .line 8752
     :cond_2
@@ -12628,7 +12628,7 @@
     .end local v1    # "isSecondaryUser":Z
     .end local v2    # "resourcesId":I
     :cond_3
-    const v2, 0x7f0b048d
+    const v2, 0x7f0b0497
 
     .restart local v2    # "resourcesId":I
     goto :goto_0
@@ -12675,20 +12675,20 @@
     if-nez v3, :cond_8
 
     .line 8744
-    const v2, 0x7f0b0afc
+    const v2, 0x7f0b0b1d
 
     goto :goto_2
 
     .line 8740
     :cond_7
-    const v2, 0x7f0b0afc
+    const v2, 0x7f0b0b1d
 
     .line 8739
     goto :goto_2
 
     .line 8746
     :cond_8
-    const v2, 0x7f0b0afe
+    const v2, 0x7f0b0b1f
 
     goto :goto_2
 .end method
@@ -13495,7 +13495,7 @@
 
     .prologue
     .line 9132
-    const v0, 0x7f0b049e
+    const v0, 0x7f0b04a9
 
     .line 9134
     .local v0, "resId":I
@@ -13506,7 +13506,7 @@
     if-eqz v1, :cond_0
 
     .line 9135
-    const v0, 0x7f0b04a4
+    const v0, 0x7f0b04af
 
     .line 9137
     :cond_0
@@ -15633,7 +15633,7 @@
     packed-switch v2, :pswitch_data_0
 
     .line 7059
-    const v1, 0x7f02049f
+    const v1, 0x7f02049d
 
     .line 7062
     :goto_2
@@ -15668,70 +15668,70 @@
 
     .line 7029
     :pswitch_0
-    const v1, 0x7f02049f
+    const v1, 0x7f02049d
 
     .line 7030
     goto :goto_2
 
     .line 7032
     :pswitch_1
-    const v1, 0x7f0204a0
+    const v1, 0x7f02049e
 
     .line 7033
     goto :goto_2
 
     .line 7035
     :pswitch_2
-    const v1, 0x7f0204a2
+    const v1, 0x7f0204a0
 
     .line 7036
     goto :goto_2
 
     .line 7038
     :pswitch_3
-    const v1, 0x7f0204b1
+    const v1, 0x7f0204af
 
     .line 7039
     goto :goto_2
 
     .line 7041
     :pswitch_4
-    const v1, 0x7f0204af
+    const v1, 0x7f0204ad
 
     .line 7042
     goto :goto_2
 
     .line 7044
     :pswitch_5
-    const v1, 0x7f0204ae
+    const v1, 0x7f0204ac
 
     .line 7045
     goto :goto_2
 
     .line 7047
     :pswitch_6
-    const v1, 0x7f0204a4
+    const v1, 0x7f0204a2
 
     .line 7048
     goto :goto_2
 
     .line 7050
     :pswitch_7
-    const v1, 0x7f0204b0
+    const v1, 0x7f0204ae
 
     .line 7051
     goto :goto_2
 
     .line 7053
     :pswitch_8
-    const v1, 0x7f0204a3
+    const v1, 0x7f0204a1
 
     .line 7054
     goto :goto_2
 
     .line 7056
     :pswitch_9
-    const v1, 0x7f0204a1
+    const v1, 0x7f02049f
 
     .line 7057
     goto :goto_2
@@ -16433,7 +16433,7 @@
     .param p1, "cm"    # Landroid/net/ConnectivityManager;
 
     .prologue
-    const v13, 0x7f0b0bd5
+    const v13, 0x7f0b0bf6
 
     const/4 v12, -0x1
 
@@ -16672,7 +16672,7 @@
     if-eqz v6, :cond_d
 
     .line 5284
-    const v10, 0x7f0b0bd6
+    const v10, 0x7f0b0bf7
 
     return v10
 
@@ -16690,7 +16690,7 @@
     if-eqz v8, :cond_f
 
     .line 5288
-    const v10, 0x7f0b0bd7
+    const v10, 0x7f0b0bf8
 
     return v10
 
@@ -16701,7 +16701,7 @@
     if-eqz v0, :cond_10
 
     .line 5290
-    const v10, 0x7f0b0bda
+    const v10, 0x7f0b0bfb
 
     return v10
 
@@ -16710,7 +16710,7 @@
     if-eqz v6, :cond_11
 
     .line 5292
-    const v10, 0x7f0b0bd8
+    const v10, 0x7f0b0bf9
 
     return v10
 
@@ -16719,7 +16719,7 @@
     if-eqz v0, :cond_12
 
     .line 5294
-    const v10, 0x7f0b0bd9
+    const v10, 0x7f0b0bfa
 
     return v10
 
@@ -25266,7 +25266,7 @@
     :cond_0
     iget v0, p0, Lcom/samsung/android/settings/SettingsPreferenceFragmentLinkData;->titleRes:I
 
-    const v1, 0x7f0b0b06
+    const v1, 0x7f0b0b27
 
     if-ne v0, v1, :cond_1
 
@@ -25289,7 +25289,7 @@
 
     iget v0, p0, Lcom/samsung/android/settings/SettingsPreferenceFragmentLinkData;->titleRes:I
 
-    const v1, 0x7f0b0433
+    const v1, 0x7f0b043b
 
     if-ne v0, v1, :cond_3
 
@@ -25307,7 +25307,7 @@
     :cond_3
     iget v0, p0, Lcom/samsung/android/settings/SettingsPreferenceFragmentLinkData;->titleRes:I
 
-    const v1, 0x7f0b10bb
+    const v1, 0x7f0b1242
 
     if-ne v0, v1, :cond_4
 
@@ -25324,7 +25324,7 @@
     :cond_4
     iget v0, p0, Lcom/samsung/android/settings/SettingsPreferenceFragmentLinkData;->titleRes:I
 
-    const v1, 0x7f0b1510
+    const v1, 0x7f0b1696
 
     if-ne v0, v1, :cond_5
 
@@ -31482,7 +31482,7 @@
     if-nez p1, :cond_18
 
     .line 1464
-    const v39, 0x7f0b029b
+    const v39, 0x7f0b029d
 
     move-object/from16 v0, v27
 
@@ -31703,7 +31703,7 @@
 
     move-result-object v39
 
-    const v40, 0x7f0b0988
+    const v40, 0x7f0b09a6
 
     move-object/from16 v0, v27
 
@@ -31856,7 +31856,7 @@
 
     move-result-object v39
 
-    const v40, 0x7f0b02ba
+    const v40, 0x7f0b02bc
 
     move-object/from16 v0, v27
 
@@ -32159,7 +32159,7 @@
 
     move-result-object v39
 
-    const v40, 0x7f0b0c5c
+    const v40, 0x7f0b0c7e
 
     move-object/from16 v0, v27
 
@@ -32264,7 +32264,7 @@
 
     move-result-object v39
 
-    const v40, 0x7f0b0c57
+    const v40, 0x7f0b0c79
 
     move-object/from16 v0, v27
 
@@ -32575,7 +32575,7 @@
 
     move-result-object v39
 
-    const v40, 0x7f0b0bdd
+    const v40, 0x7f0b0bfe
 
     move-object/from16 v0, v27
 
@@ -32683,7 +32683,7 @@
 
     move-result-object v39
 
-    const v40, 0x7f0b05b5
+    const v40, 0x7f0b05c9
 
     move-object/from16 v0, v27
 
@@ -33209,7 +33209,7 @@
 
     move-result-object v39
 
-    const v40, 0x7f0b157a
+    const v40, 0x7f0b1700
 
     move-object/from16 v0, v27
 
@@ -33327,7 +33327,7 @@
 
     move-result-object v39
 
-    const v40, 0x7f0b0405
+    const v40, 0x7f0b0408
 
     move-object/from16 v0, v27
 
@@ -33407,7 +33407,7 @@
 
     move-result-object v39
 
-    const v40, 0x7f0b0404
+    const v40, 0x7f0b0407
 
     move-object/from16 v0, v27
 
@@ -33606,7 +33606,7 @@
 
     aput-object v40, v39, v41
 
-    const v40, 0x7f0b0299
+    const v40, 0x7f0b029b
 
     move-object/from16 v0, v27
 
@@ -33624,7 +33624,7 @@
     .line 1468
     .end local v10    # "dialog_description":Ljava/lang/String;
     :cond_19
-    const v39, 0x7f0b029a
+    const v39, 0x7f0b029c
 
     move-object/from16 v0, v27
 
@@ -33731,7 +33731,7 @@
 
     move-result-object v39
 
-    const v40, 0x7f0b0c59
+    const v40, 0x7f0b0c7b
 
     move-object/from16 v0, v27
 
@@ -33887,7 +33887,7 @@
 
     move-result-object v39
 
-    const v40, 0x7f0b0973
+    const v40, 0x7f0b0991
 
     move-object/from16 v0, v27
 
@@ -35508,7 +35508,7 @@
     if-eqz v2, :cond_0
 
     .line 5729
-    const v7, 0x7f0b1511
+    const v7, 0x7f0b1697
 
     .line 5732
     :cond_0

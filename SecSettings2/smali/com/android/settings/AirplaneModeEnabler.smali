@@ -289,7 +289,7 @@
     .line 158
     iget-object v3, p0, Lcom/android/settings/AirplaneModeEnabler;->mContext:Landroid/content/Context;
 
-    const v4, 0x7f0b0374
+    const v4, 0x7f0b0376
 
     invoke-static {v3, v4, v7}, Landroid/widget/Toast;->makeText(Landroid/content/Context;II)Landroid/widget/Toast;
 

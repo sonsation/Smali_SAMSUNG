@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="data_saver_unrestricted_summary_chn">
+        <item quantity="other">पृष्ठभूमिको डाटा सीमित गर्नुहोस् भन्ने सुविधालाई सक्षम गरिएको बेला %d एप्सलाई कुनै सीमितता बिना मोबाइल डाटा प्रयोग गर्न अनुमति दिइन्छ।</item>
+        <item quantity="one">पृष्ठभूमिको डाटा सीमित गर्नुहोस् भन्ने सुविधालाई सक्षम गरिएको बेला %d एप्सलाई कुनै सीमितता बिना मोबाइल डाटा प्रयोग गर्न अनुमति दिइन्छ।</item>
+    </plurals>
     <plurals name="lock_timeout_hours">
         <item quantity="other">%d घण्टा</item>
         <item quantity="one">1 घण्‍टा</item>

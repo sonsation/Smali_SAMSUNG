@@ -482,7 +482,7 @@
     invoke-virtual {p1, v3}, Lcom/android/settings/SecSettingsSwitchPreference;->semSetSummaryColorToColorPrimaryDark(Z)V
 
     .line 211
-    const v1, 0x7f0b1952
+    const v1, 0x7f0b1ad8
 
     invoke-virtual {p1, v1}, Lcom/android/settings/SecSettingsSwitchPreference;->setSummary(I)V
 
@@ -502,7 +502,7 @@
     invoke-virtual {p1, v4}, Lcom/android/settings/SecSettingsSwitchPreference;->semSetSummaryColorToColorPrimaryDark(Z)V
 
     .line 216
-    const v1, 0x7f0b0b72
+    const v1, 0x7f0b0b93
 
     invoke-virtual {p1, v1}, Lcom/android/settings/SecSettingsSwitchPreference;->setSummary(I)V
 
@@ -512,7 +512,7 @@
     if-nez v1, :cond_1
 
     .line 218
-    const v1, 0x7f0b0b77
+    const v1, 0x7f0b0b98
 
     invoke-virtual {p1, v1}, Lcom/android/settings/SecSettingsSwitchPreference;->setSummary(I)V
 
@@ -757,7 +757,7 @@
     invoke-virtual {v1, p0}, Lcom/android/settings/SecSettingsSwitchPreference;->setOnPreferenceChangeListener(Landroid/preference/Preference$OnPreferenceChangeListener;)V
 
     .line 130
-    iget-object v1, p0, Lcom/samsung/android/settings/rcs/RcsSettings;->mPreferenceRcse:Lcom/android/settings/SecSettingsSwitchPreference;
+    iget-object v1, p0, Lcom/samsung/android/settings/rcs/RcsSettings;->mPreferencePartialBranded:Lcom/android/settings/SecSettingsSwitchPreference;
 
     invoke-virtual {p0, v1}, Lcom/samsung/android/settings/rcs/RcsSettings;->setSwitchStatus(Lcom/android/settings/SecSettingsSwitchPreference;)V
 

@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="data_saver_unrestricted_summary_chn">
+        <item quantity="other">%d ایپلیکیشنز کو تحدید کیے بغیر محدود پس منظر کا ڈیٹا کے اہل ہونے پر موبائل ڈیٹا استعمال کرنے کی اجازت ہے۔</item>
+        <item quantity="one">%d ایپلیکیشنز کو تحدید کیے بغیر محدود پس منظر کا ڈیٹا کے اہل ہونے پر موبائل ڈیٹا استعمال کرنے کی اجازت ہے۔</item>
+    </plurals>
     <plurals name="lock_timeout_hours">
         <item quantity="other">%d گھنٹے</item>
         <item quantity="one">1 گھنٹہ</item>

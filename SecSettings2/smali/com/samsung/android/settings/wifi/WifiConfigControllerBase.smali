@@ -3533,7 +3533,7 @@
 
     .line 661
     .local v5, "toggleVisibility":I
-    const v4, 0x7f0b11df
+    const v4, 0x7f0b1365
 
     .line 662
     .local v4, "stringID":I
@@ -3583,7 +3583,7 @@
 
     .line 667
     .restart local v5    # "toggleVisibility":I
-    const v4, 0x7f0b11e0
+    const v4, 0x7f0b1366
 
     .restart local v4    # "stringID":I
     goto :goto_2
@@ -4460,7 +4460,7 @@
 
     move-result-object v10
 
-    const v11, 0x7f0b11f0
+    const v11, 0x7f0b1376
 
     invoke-virtual {p0, v3, v11, v10}, Lcom/samsung/android/settings/wifi/WifiConfigControllerBase;->addRow(Landroid/view/ViewGroup;ILjava/lang/String;)V
 
@@ -4499,7 +4499,7 @@
 
     move-result-object v10
 
-    const v11, 0x7f0b11ef
+    const v11, 0x7f0b1375
 
     invoke-virtual {p0, v4, v11, v10}, Lcom/samsung/android/settings/wifi/WifiConfigControllerBase;->addRow(Landroid/view/ViewGroup;ILjava/lang/String;)V
 
@@ -4554,7 +4554,7 @@
     move-result-object v10
 
     .line 384
-    const v11, 0x7f0b11f4
+    const v11, 0x7f0b137a
 
     invoke-virtual {p0, v3, v11, v10}, Lcom/samsung/android/settings/wifi/WifiConfigControllerBase;->addRow(Landroid/view/ViewGroup;ILjava/lang/String;)V
 
@@ -4571,7 +4571,7 @@
     .line 420
     iget-object v10, p0, Lcom/samsung/android/settings/wifi/WifiConfigControllerBase;->mContext:Landroid/content/Context;
 
-    const v11, 0x7f0b11f6
+    const v11, 0x7f0b137c
 
     invoke-virtual {v10, v11}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -4594,7 +4594,7 @@
     move-result-object v10
 
     .line 419
-    const v11, 0x7f0b11f5
+    const v11, 0x7f0b137b
 
     invoke-virtual {p0, v3, v11, v10}, Lcom/samsung/android/settings/wifi/WifiConfigControllerBase;->addRow(Landroid/view/ViewGroup;ILjava/lang/String;)V
 
@@ -4697,7 +4697,7 @@
     if-eqz v7, :cond_1
 
     .line 367
-    const v10, 0x7f0b11f0
+    const v10, 0x7f0b1376
 
     invoke-virtual {p0, v3, v10, v7}, Lcom/samsung/android/settings/wifi/WifiConfigControllerBase;->addRow(Landroid/view/ViewGroup;ILjava/lang/String;)V
 
@@ -4742,7 +4742,7 @@
 
     move-result-object v10
 
-    const v11, 0x7f0b11f4
+    const v11, 0x7f0b137a
 
     invoke-virtual {p0, v3, v11, v10}, Lcom/samsung/android/settings/wifi/WifiConfigControllerBase;->addRow(Landroid/view/ViewGroup;ILjava/lang/String;)V
 
@@ -4768,7 +4768,7 @@
 
     move-result-object v10
 
-    const v11, 0x7f0b0cae
+    const v11, 0x7f0b0cd0
 
     invoke-virtual {p0, v3, v11, v10}, Lcom/samsung/android/settings/wifi/WifiConfigControllerBase;->addRow(Landroid/view/ViewGroup;ILjava/lang/String;)V
 
@@ -4785,7 +4785,7 @@
 
     move-result-object v10
 
-    const v11, 0x7f0b1235
+    const v11, 0x7f0b13bb
 
     invoke-virtual {p0, v3, v11, v10}, Lcom/samsung/android/settings/wifi/WifiConfigControllerBase;->addRow(Landroid/view/ViewGroup;ILjava/lang/String;)V
 
@@ -4802,7 +4802,7 @@
 
     move-result-object v10
 
-    const v11, 0x7f0b1233
+    const v11, 0x7f0b13b9
 
     invoke-virtual {p0, v3, v11, v10}, Lcom/samsung/android/settings/wifi/WifiConfigControllerBase;->addRow(Landroid/view/ViewGroup;ILjava/lang/String;)V
 
@@ -4819,7 +4819,7 @@
 
     move-result-object v10
 
-    const v11, 0x7f0b1234
+    const v11, 0x7f0b13ba
 
     invoke-virtual {p0, v3, v11, v10}, Lcom/samsung/android/settings/wifi/WifiConfigControllerBase;->addRow(Landroid/view/ViewGroup;ILjava/lang/String;)V
 
@@ -4847,7 +4847,7 @@
 
     move-result-object v10
 
-    const v11, 0x7f0b0caf
+    const v11, 0x7f0b0cd1
 
     invoke-virtual {p0, v3, v11, v10}, Lcom/samsung/android/settings/wifi/WifiConfigControllerBase;->addRow(Landroid/view/ViewGroup;ILjava/lang/String;)V
 
@@ -4857,7 +4857,7 @@
     .end local v0    # "ap_mac":Ljava/lang/String;
     .end local v2    # "dhcpInfo":Landroid/net/DhcpInfo;
     :cond_e
-    const v10, 0x7f0b0cdb
+    const v10, 0x7f0b0cfd
 
     invoke-virtual {p0, v3, v10}, Lcom/samsung/android/settings/wifi/WifiConfigControllerBase;->addGatewayRow(Landroid/view/ViewGroup;I)V
 
@@ -4865,7 +4865,7 @@
 
     .line 434
     :cond_f
-    const v10, 0x7f0b0cdb
+    const v10, 0x7f0b0cfd
 
     invoke-direct {p0, v4, v10}, Lcom/samsung/android/settings/wifi/WifiConfigControllerBase;->addCaptivePortalRow(Landroid/view/ViewGroup;I)V
 
@@ -4921,7 +4921,7 @@
 
     aput-object v1, v3, v5
 
-    const v4, 0x7f0b0cac
+    const v4, 0x7f0b0cce
 
     invoke-virtual {v2, v4, v3}, Landroid/content/res/Resources;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -5178,7 +5178,7 @@
     .line 245
     iget-object v0, p0, Lcom/samsung/android/settings/wifi/WifiConfigControllerBase;->mPasswordView:Landroid/widget/EditText;
 
-    const v1, 0x7f0b0d49
+    const v1, 0x7f0b0d6e
 
     invoke-virtual {v0, v1}, Landroid/widget/EditText;->setHint(I)V
 
@@ -5282,7 +5282,7 @@
 
     iget-object v1, p0, Lcom/samsung/android/settings/wifi/WifiConfigControllerBase;->mContext:Landroid/content/Context;
 
-    const v2, 0x7f0b1696
+    const v2, 0x7f0b181c
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -5316,7 +5316,7 @@
     :cond_0
     iget-object v0, p0, Lcom/samsung/android/settings/wifi/WifiConfigControllerBase;->mPasswordView:Landroid/widget/EditText;
 
-    const v1, 0x7f0b1205
+    const v1, 0x7f0b138b
 
     invoke-virtual {v0, v1}, Landroid/widget/EditText;->setHint(I)V
 
@@ -5429,7 +5429,7 @@
     .line 212
     iget-object v0, p0, Lcom/samsung/android/settings/wifi/WifiConfigControllerBase;->mSsidView:Landroid/widget/EditText;
 
-    const v1, 0x7f0b11ee
+    const v1, 0x7f0b1374
 
     invoke-virtual {v0, v1}, Landroid/widget/EditText;->setHint(I)V
 
@@ -6928,7 +6928,7 @@
     if-eqz v11, :cond_1
 
     .line 926
-    const v11, 0x7f0b122f
+    const v11, 0x7f0b13b5
 
     return v11
 
@@ -6943,7 +6943,7 @@
     if-nez v7, :cond_2
 
     .line 931
-    const v11, 0x7f0b122f
+    const v11, 0x7f0b13b5
 
     return v11
 
@@ -7028,7 +7028,7 @@
 
     .line 956
     :cond_5
-    const v11, 0x7f0b1232
+    const v11, 0x7f0b13b8
 
     return v11
 
@@ -7040,7 +7040,7 @@
 
     .line 940
     .local v3, "e":Ljava/lang/IllegalArgumentException;
-    const v11, 0x7f0b122f
+    const v11, 0x7f0b13b5
 
     return v11
 
@@ -7049,7 +7049,7 @@
     .restart local v9    # "networkPrefix":Ljava/lang/String;
     .restart local v10    # "networkPrefixLength":I
     :cond_6
-    const v11, 0x7f0b1232
+    const v11, 0x7f0b13b8
 
     return v11
 
@@ -7082,7 +7082,7 @@
 
     if-eqz v11, :cond_8
 
-    const v11, 0x7f0b1230
+    const v11, 0x7f0b13b6
 
     return v11
 
@@ -7093,7 +7093,7 @@
 
     .line 960
     .local v4, "e":Ljava/lang/NumberFormatException;
-    const v11, 0x7f0b1232
+    const v11, 0x7f0b13b8
 
     return v11
 
@@ -7154,7 +7154,7 @@
     if-eqz v11, :cond_9
 
     .line 978
-    const v11, 0x7f0b1231
+    const v11, 0x7f0b13b7
 
     return v11
 
@@ -7167,7 +7167,7 @@
 
     .line 970
     .restart local v3    # "e":Ljava/lang/IllegalArgumentException;
-    const v11, 0x7f0b1230
+    const v11, 0x7f0b13b6
 
     return v11
 
@@ -7238,7 +7238,7 @@
 
     .line 986
     .restart local v3    # "e":Ljava/lang/IllegalArgumentException;
-    const v11, 0x7f0b1231
+    const v11, 0x7f0b13b7
 
     return v11
 
@@ -7262,7 +7262,7 @@
 
     .line 997
     .restart local v3    # "e":Ljava/lang/IllegalArgumentException;
-    const v11, 0x7f0b1231
+    const v11, 0x7f0b13b7
 
     return v11
 .end method

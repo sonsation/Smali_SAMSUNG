@@ -342,7 +342,7 @@
     .line 812
     iget-object v1, p0, Lcom/android/settings/deviceinfo/SimStatus;->mRes:Landroid/content/res/Resources;
 
-    const v2, 0x7f0b0535
+    const v2, 0x7f0b0549
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -392,7 +392,7 @@
     :cond_5
     iget-object v1, p0, Lcom/android/settings/deviceinfo/SimStatus;->mRes:Landroid/content/res/Resources;
 
-    const v2, 0x7f0b0536
+    const v2, 0x7f0b054a
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -422,7 +422,7 @@
     :cond_7
     iget-object v1, p0, Lcom/android/settings/deviceinfo/SimStatus;->mRes:Landroid/content/res/Resources;
 
-    const v2, 0x7f0b0537
+    const v2, 0x7f0b054b
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -452,7 +452,7 @@
     :cond_9
     iget-object v1, p0, Lcom/android/settings/deviceinfo/SimStatus;->mRes:Landroid/content/res/Resources;
 
-    const v2, 0x7f0b0538
+    const v2, 0x7f0b054c
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -534,7 +534,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0b0539
+    const v4, 0x7f0b054d
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -581,7 +581,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0b053a
+    const v4, 0x7f0b054e
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -940,7 +940,7 @@
     .locals 5
 
     .prologue
-    const v4, 0x7f0b0fc4
+    const v4, 0x7f0b114c
 
     .line 463
     iget-object v2, p0, Lcom/android/settings/deviceinfo/SimStatus;->mPhone:Lcom/android/internal/telephony/Phone;
@@ -962,7 +962,7 @@
     .local v1, "state":I
     iget-object v2, p0, Lcom/android/settings/deviceinfo/SimStatus;->mRes:Landroid/content/res/Resources;
 
-    const v3, 0x7f0b0fc6
+    const v3, 0x7f0b114e
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1025,7 +1025,7 @@
     :pswitch_1
     iget-object v2, p0, Lcom/android/settings/deviceinfo/SimStatus;->mRes:Landroid/content/res/Resources;
 
-    const v3, 0x7f0b0fc5
+    const v3, 0x7f0b114d
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1037,7 +1037,7 @@
     :pswitch_2
     iget-object v2, p0, Lcom/android/settings/deviceinfo/SimStatus;->mRes:Landroid/content/res/Resources;
 
-    const v3, 0x7f0b0fc3
+    const v3, 0x7f0b114b
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1049,7 +1049,7 @@
     :pswitch_3
     iget-object v2, p0, Lcom/android/settings/deviceinfo/SimStatus;->mRes:Landroid/content/res/Resources;
 
-    const v3, 0x7f0b0fc2
+    const v3, 0x7f0b114a
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1943,7 +1943,7 @@
     .param p1, "serviceState"    # Landroid/telephony/ServiceState;
 
     .prologue
-    const v8, 0x7f0b1876
+    const v8, 0x7f0b19fc
 
     const/4 v4, 0x2
 
@@ -1962,7 +1962,7 @@
     .local v1, "state":I
     iget-object v2, p0, Lcom/android/settings/deviceinfo/SimStatus;->mRes:Landroid/content/res/Resources;
 
-    const v3, 0x7f0b0fc6
+    const v3, 0x7f0b114e
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -2012,7 +2012,7 @@
 
     iget-object v3, p0, Lcom/android/settings/deviceinfo/SimStatus;->mRes:Landroid/content/res/Resources;
 
-    const v4, 0x7f0b0fbd
+    const v4, 0x7f0b1145
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -2038,7 +2038,7 @@
     :pswitch_0
     iget-object v2, p0, Lcom/android/settings/deviceinfo/SimStatus;->mRes:Landroid/content/res/Resources;
 
-    const v3, 0x7f0b0fb9
+    const v3, 0x7f0b1141
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -2078,7 +2078,7 @@
     :pswitch_2
     iget-object v2, p0, Lcom/android/settings/deviceinfo/SimStatus;->mRes:Landroid/content/res/Resources;
 
-    const v3, 0x7f0b0fba
+    const v3, 0x7f0b1142
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -2090,7 +2090,7 @@
     :pswitch_3
     iget-object v2, p0, Lcom/android/settings/deviceinfo/SimStatus;->mRes:Landroid/content/res/Resources;
 
-    const v3, 0x7f0b0fbc
+    const v3, 0x7f0b1144
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -2131,7 +2131,7 @@
 
     iget-object v3, p0, Lcom/android/settings/deviceinfo/SimStatus;->mRes:Landroid/content/res/Resources;
 
-    const v4, 0x7f0b0fbe
+    const v4, 0x7f0b1146
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -2241,7 +2241,7 @@
     .line 192
     iget-object v0, p0, Lcom/android/settings/deviceinfo/SimStatus;->mRes:Landroid/content/res/Resources;
 
-    const v1, 0x7f0b0fa8
+    const v1, 0x7f0b1130
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -3139,7 +3139,7 @@
 
     aput-object v13, v12, v14
 
-    const v13, 0x7f0b1876
+    const v13, 0x7f0b19fc
 
     invoke-virtual {v5, v13, v12}, Landroid/content/res/Resources;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -3289,7 +3289,7 @@
     aput-object v13, v12, v14
 
     .line 571
-    const v13, 0x7f0b1876
+    const v13, 0x7f0b19fc
 
     invoke-virtual {v5, v13, v12}, Landroid/content/res/Resources;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -3509,7 +3509,7 @@
     move-result-object v12
 
     .line 631
-    const v13, 0x7f0b0fc9
+    const v13, 0x7f0b1151
 
     invoke-virtual {v5, v13}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -3547,7 +3547,7 @@
     move-result-object v12
 
     .line 633
-    const v13, 0x7f0b0fca
+    const v13, 0x7f0b1152
 
     invoke-virtual {v5, v13}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -3589,7 +3589,7 @@
     aput-object v13, v12, v14
 
     .line 636
-    const v13, 0x7f0b1876
+    const v13, 0x7f0b19fc
 
     invoke-virtual {v5, v13, v12}, Landroid/content/res/Resources;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 

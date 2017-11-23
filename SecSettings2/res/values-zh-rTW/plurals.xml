@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="data_saver_unrestricted_summary_chn">
+        <item quantity="other">允許 %d 個應用程式在啟用 [限制背景資料] 時無限制使用行動數據。</item>
+        <item quantity="one">允許 %d 個應用程式在啟用 [限制背景資料] 時無限制使用行動數據。</item>
+    </plurals>
     <plurals name="lock_timeout_hours">
         <item quantity="other">%d 個小時</item>
         <item quantity="one">1 小時</item>

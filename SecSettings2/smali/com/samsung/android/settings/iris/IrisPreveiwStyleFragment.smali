@@ -76,6 +76,8 @@
     .line 50
     :array_0
     .array-data 4
+        0x7f0202d4
+        0x7f0202d5
         0x7f0202d6
         0x7f0202d7
         0x7f0202d8
@@ -92,8 +94,6 @@
         0x7f0202e3
         0x7f0202e4
         0x7f0202e5
-        0x7f0202e6
-        0x7f0202e7
     .end array-data
 .end method
 
@@ -597,7 +597,7 @@
     .line 85
     const/4 v0, 0x1
 
-    const v1, 0x7f0b07ee
+    const v1, 0x7f0b0808
 
     invoke-interface {p1, v2, v0, v2, v1}, Landroid/view/Menu;->add(IIII)Landroid/view/MenuItem;
 
