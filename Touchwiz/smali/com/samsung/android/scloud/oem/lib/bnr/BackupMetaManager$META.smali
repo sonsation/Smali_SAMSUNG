@@ -1,0 +1,37 @@
+.class final Lcom/samsung/android/scloud/oem/lib/bnr/BackupMetaManager$META;
+.super Ljava/lang/Object;
+.source "BackupMetaManager.java"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/samsung/android/scloud/oem/lib/bnr/BackupMetaManager;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1a
+    name = "META"
+.end annotation
+
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/samsung/android/scloud/oem/lib/bnr/BackupMetaManager$META$KEY;
+    }
+.end annotation
+
+
+# static fields
+.field private static final NAME:Ljava/lang/String; = "BackupMeta"
+
+
+# direct methods
+.method private constructor <init>()V
+    .locals 0
+
+    .prologue
+    .line 13
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 15
+    return-void
+.end method

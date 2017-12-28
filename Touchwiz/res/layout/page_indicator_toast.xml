@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:id="@id/page_indicator_toast_layout" android:layout_width="wrap_content" android:layout_height="@dimen/pageindicator_toast_size"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="start" android:background="@drawable/pagenum_bg" android:layout_width="wrap_content" android:layout_height="@dimen/pageindicator_toast_size">
+        <TextView android:textSize="@dimen/pageindicator_toast_font_size" android:textColor="#fffafafa" android:gravity="center" android:id="@id/page_indicator_toast_text" android:layout_width="wrap_content" android:layout_height="fill_parent" android:minWidth="@dimen/pageindicator_toast_size" android:fontFamily="sec-roboto-light" />
+    </RelativeLayout>
+</LinearLayout>
