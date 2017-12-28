@@ -15,5 +15,14 @@ framework-res/dist/
 framework-res/build/
 samsung-framework-res/dist/
 samsung-framework-res/build/
+frmaework.jar.tw7.1.1/build/
+frmaework.jar.tw7.1.1/dist/
+services.jar.tw7.1.1/build/
+services.jar.tw7.1.1/dist/
+framework-res.tw7.1.1/build/
+framework-res.tw7.1.1/dist/
+Touchwiz/build/
+Touchwiz/dist/
 *.dex
 *.apk
+*.jar
