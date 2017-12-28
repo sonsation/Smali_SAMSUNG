@@ -1,0 +1,28 @@
+Signature-Version: 1.0
+SHA1-Digest-Manifest: 4S14SVtpLJl7u6lDUXmj7B2PiWg=
+Created-By: 1.0 (Android SignApk)
+
+Name: vertexshader.glsl
+SHA1-Digest: 40bOVnnKbaj65M66cJfIvRni6wI=
+
+Name: vertexshader2d.glsl
+SHA1-Digest: 8AmVRoSqw/PCZZiz52Qv6VXHyC4=
+
+Name: classes2.dex
+SHA1-Digest: CKUHj0fbSPUR64HEm7s+FTH4T0s=
+
+Name: fragmentshadernv21.glsl
+SHA1-Digest: GZKl/kcQmSR4g/DkGSHuQjTto7U=
+
+Name: classes3.dex
+SHA1-Digest: aENMQbYheVcFuA6njNYkFGH2Y90=
+
+Name: fragmentshadernv12.glsl
+SHA1-Digest: KCkhbY/l2oZo41d53i4AwTt1aLM=
+
+Name: classes.dex
+SHA1-Digest: uSwCzANbLn/BAfwJeIw2TCdryDo=
+
+Name: vertexshader3d.glsl
+SHA1-Digest: cQftzDCCknvNsiTNS0aYZDrKpAc=
+

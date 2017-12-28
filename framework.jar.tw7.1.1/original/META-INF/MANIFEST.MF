@@ -1,0 +1,27 @@
+Manifest-Version: 1.0
+Created-By: 1.0 (Android SignApk)
+
+Name: vertexshader.glsl
+SHA1-Digest: 7yBFP2l8pTCj6IeEpwr0qFSj8YU=
+
+Name: vertexshader2d.glsl
+SHA1-Digest: 7yBFP2l8pTCj6IeEpwr0qFSj8YU=
+
+Name: classes2.dex
+SHA1-Digest: YqeMELN0Hu6KNznXc3a6+zekRjk=
+
+Name: fragmentshadernv21.glsl
+SHA1-Digest: GKDzMJMf9OLQ/87a46pA2ZdBae4=
+
+Name: classes3.dex
+SHA1-Digest: qPYm4ZGIaK2JnQZVUOlpMQx7M+M=
+
+Name: fragmentshadernv12.glsl
+SHA1-Digest: 6LF6BEC04GIf/FEXEueQ53UwHWM=
+
+Name: classes.dex
+SHA1-Digest: XKRY6LSHeVq3nXqGEMaYIRYhY4g=
+
+Name: vertexshader3d.glsl
+SHA1-Digest: s5fkkctWGAfiHIlWlO1PXJnXG2A=
+
