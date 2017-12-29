@@ -9514,14 +9514,6 @@
 
     iput v1, p0, Lcom/android/server/policy/GlobalActions;->mConfirmPowerOffIconResId:I
 
-    const v1, 0x1080a31
-
-    iput v1, p0, Lcom/android/server/policy/GlobalActions;->mRestartIconResId:I
-
-    const v1, 0x1080a30
-
-    iput v1, p0, Lcom/android/server/policy/GlobalActions;->mConfirmRestartIconResId:I
-
     const v1, 0x1080a28
 
     iput v1, p0, Lcom/android/server/policy/GlobalActions;->mEmergencyIconResId:I
