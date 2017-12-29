@@ -1398,6 +1398,7 @@
     <public type="drawable" name="fp_enrollment_header_landscape" id="0x7f0206b5" />
     <public type="drawable" name="wifi_link_pressed_bg_color" id="0x7f0206b6" />
     <public type="drawable" name="wifi_link_default_bg_color" id="0x7f0206b7" />
+    <public type="drawable" name="unknown_logo" id="0x7f0206ff" />	
     <public type="drawable" name="fingerprint_h_01" id="0x7f020153" />
     <public type="drawable" name="fingerprint_v_01" id="0x7f02015e" />
     <public type="drawable" name="setupwizard_header_bg01" id="0x7f020522" />
@@ -2948,6 +2949,7 @@
     <public type="layout" name="setup_choose_lock_generic_header" id="0x7f0402da" />
     <public type="layout" name="setup_choose_lock_password" id="0x7f0402db" />
     <public type="layout" name="setup_choose_lock_pattern_common" id="0x7f0402dd" />
+    <public type="layout" name="unknown_logo" id="0x7f0413b4" />
     <public type="layout" name="setup_encryption_interstitial" id="0x7f0402de" />
     <public type="layout" name="setup_encryption_interstitial_header" id="0x7f0402df" />
     <public type="layout" name="setup_fingerprint_enroll_find_sensor_base" id="0x7f0402e1" />
@@ -19633,6 +19635,7 @@
     <public type="id" name="action_done" id="0x7f110a26" />
     <public type="id" name="vpn_create" id="0x7f110a27" />
     <public type="id" name="wifi_wps" id="0x7f110a28" />
+    <public type="id" name="uk_logo" id="0x7f1118ce" />
     <public type="fraction" name="fingerprint_sensor_location_fraction_x" id="0x7f120000" />
     <public type="fraction" name="fingerprint_sensor_location_fraction_y" id="0x7f120001" />
     <public type="plurals" name="data_saver_unrestricted_summary_chn" id="0x7f130000" />
