@@ -173,11 +173,11 @@
 
     iput-object v0, p0, Lcom/samsung/android/os/SemDvfsManager;->BASE_MODEL:Ljava/lang/String;
 
-    const-string v0, "ssrm_greatl_xx"
+    const-string v0, "ssrm_zlf_xx"
 
     iput-object v0, p0, Lcom/samsung/android/os/SemDvfsManager;->SIOP_MODEL:Ljava/lang/String;
 
-    const-string v0, "dvfs_policy_kangchen_xx"
+    const-string v0, "dvfs_policy_istor_xx"
 
     iput-object v0, p0, Lcom/samsung/android/os/SemDvfsManager;->DVFS_FILENAME:Ljava/lang/String;
 

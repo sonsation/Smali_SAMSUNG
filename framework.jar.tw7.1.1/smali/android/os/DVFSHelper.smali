@@ -108,7 +108,7 @@
 
 .field public static volatile AMS_RESUME_TAIL_BOOST_TIMEOUT:I = 0x0
 
-.field private static final BASE_MODEL:Ljava/lang/String; = ""
+.field private static final BASE_MODEL:Ljava/lang/String; = "zl"
 
 .field private static final BOARD_PLATFORM:Ljava/lang/String;
 
@@ -157,7 +157,7 @@
 
 .field public static volatile PWM_ROTATION_BOOST_TIMEOUT:I = 0x0
 
-.field private static final SIOP_MODEL:Ljava/lang/String; = ""
+.field private static final SIOP_MODEL:Ljava/lang/String; = "ssrm_zlf_xx"
 
 .field public static final TYPE_BUS_MAX:I = 0x14
 

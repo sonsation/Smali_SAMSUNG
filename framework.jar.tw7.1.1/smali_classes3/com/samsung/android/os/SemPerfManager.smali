@@ -10,7 +10,7 @@
 
 .field public static final AMS_RESUME_BOOST_TYPE_TAIL:I = 0x3
 
-.field static final BASE_MODEL:Ljava/lang/String; = ""
+.field static final BASE_MODEL:Ljava/lang/String; = "zl"
 
 .field static BOARD_PLATFORM:Ljava/lang/String; = null
 

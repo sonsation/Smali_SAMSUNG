@@ -114,7 +114,7 @@
 
     if-nez v3, :cond_1
 
-    const-string v3, "dvfs_policy_kangchen_xx"
+    const-string v3, "dvfs_policy_istor_xx"
 
     const-string v4, "msm8996"
 
@@ -124,7 +124,7 @@
 
     if-nez v3, :cond_1
 
-    const-string v3, "dvfs_policy_kangchen_xx"
+    const-string v3, "dvfs_policy_istor_xx"
 
     const-string v4, "kangchen"
 
@@ -194,7 +194,7 @@
     goto :goto_0
 
     :cond_4
-    const-string v3, "dvfs_policy_kangchen_xx"
+    const-string v3, "dvfs_policy_istor_xx"
 
     const-string v4, "dvfs"
 

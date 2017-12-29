@@ -4,7 +4,7 @@
 
 
 # static fields
-.field static final BASE_MODEL:Ljava/lang/String; = ""
+.field static final BASE_MODEL:Ljava/lang/String; = "zl"
 
 .field static BOARD_PLATFORM:Ljava/lang/String; = null
 
@@ -14,7 +14,7 @@
 
 .field static final HARDWARE_NAME:Ljava/lang/String;
 
-.field static final SIOP_MODEL:Ljava/lang/String; = "ssrm_greatl_xx"
+.field static final SIOP_MODEL:Ljava/lang/String; = "ssrm_zlf_xx"
 
 .field static sIsDebugLevelHigh:Z
 

@@ -56,7 +56,7 @@
 
     const-string v3, "isla"
 
-    const-string v4, ""
+    const-string v4, "zl"
 
     invoke-virtual {v3, v4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -66,7 +66,7 @@
 
     const-string v3, "carmen2"
 
-    const-string v4, ""
+    const-string v4, "zl"
 
     invoke-virtual {v3, v4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 

@@ -70,7 +70,7 @@
 
     :cond_1
     :goto_0
-    const-string v3, "ssrm_greatl_xx"
+    const-string v3, "ssrm_zlf_xx"
 
     const-string v4, "lentis"
 
@@ -80,7 +80,7 @@
 
     if-nez v3, :cond_2
 
-    const-string v3, "ssrm_greatl_xx"
+    const-string v3, "ssrm_zlf_xx"
 
     const-string v4, "kcat6"
 
@@ -92,7 +92,7 @@
 
     const-string v3, "ta"
 
-    const-string v4, ""
+    const-string v4, "zl"
 
     invoke-virtual {v3, v4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -170,7 +170,7 @@
 
     if-eqz v3, :cond_6
 
-    const-string v3, "ssrm_greatl_xx"
+    const-string v3, "ssrm_zlf_xx"
 
     const-string v4, "novel"
 
@@ -235,7 +235,7 @@
 
     if-nez v3, :cond_7
 
-    const-string v3, "dvfs_policy_kangchen_xx"
+    const-string v3, "dvfs_policy_istor_xx"
 
     const-string v4, "msm8996"
 
@@ -245,7 +245,7 @@
 
     if-nez v3, :cond_7
 
-    const-string v3, "dvfs_policy_kangchen_xx"
+    const-string v3, "dvfs_policy_istor_xx"
 
     const-string v4, "kangchen"
 
@@ -299,7 +299,7 @@
     goto/16 :goto_0
 
     :cond_a
-    const-string v3, "dvfs_policy_kangchen_xx"
+    const-string v3, "dvfs_policy_istor_xx"
 
     const-string v4, "dvfs"
 
@@ -314,7 +314,7 @@
     goto/16 :goto_0
 
     :cond_b
-    const-string v3, "ssrm_greatl_xx"
+    const-string v3, "ssrm_zlf_xx"
 
     const-string v4, "ja_kor"
 
