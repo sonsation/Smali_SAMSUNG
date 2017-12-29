@@ -6,15 +6,15 @@
 # static fields
 .field public static final AIR_VIEW_PROVIDER_NAME:Ljava/lang/String; = ""
 
-.field public static final BASE_MODEL:Ljava/lang/String; = ""
+.field public static final BASE_MODEL:Ljava/lang/String; = "zl"
 
 .field public static final COMMON_GESTURE_WITH_FINGERHOVER:Z
 
-.field public static final DVFS_FILENAME:Ljava/lang/String; = "dvfs_policy_kangchen_xx"
+.field public static final DVFS_FILENAME:Ljava/lang/String; = "dvfs_policy_istor_xx"
 
 .field public static GMS_BUNDLING:Z = false
 
-.field public static final SSRM_FILENAME:Ljava/lang/String; = "ssrm_greatl_xx"
+.field public static final SSRM_FILENAME:Ljava/lang/String; = "ssrm_zlf_xx"
 
 .field public static final SUPPORT_WEARABLE_HMT:Z = true
 
