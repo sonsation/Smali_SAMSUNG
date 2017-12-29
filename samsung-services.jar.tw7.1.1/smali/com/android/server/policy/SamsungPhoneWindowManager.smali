@@ -12216,7 +12216,7 @@
 
     iget-boolean v9, v9, Lcom/samsung/android/cover/CoverState;->switchState:Z
 
-    if-nez v9, :cond_7
+    if-nez v9, :cond_8
 
     .line 7919
     iget-object v9, p0, Lcom/android/server/policy/SamsungPhoneWindowManager;->mCoverState:Lcom/samsung/android/cover/CoverState;
@@ -12225,7 +12225,7 @@
 
     const/16 v10, 0xff
 
-    if-eq v9, v10, :cond_7
+    if-eq v9, v10, :cond_8
 
     .line 7920
     invoke-virtual {p0}, Lcom/android/server/policy/SamsungPhoneWindowManager;->isRingingOrOffhook()Z
@@ -12233,7 +12233,7 @@
     move-result v9
 
     .line 7918
-    if-eqz v9, :cond_7
+    if-eqz v9, :cond_8
 
     .line 7920
     invoke-virtual {p0}, Lcom/android/server/policy/SamsungPhoneWindowManager;->isTphoneRelaxMode()Z
@@ -12241,7 +12241,7 @@
     move-result v9
 
     .line 7916
-    if-eqz v9, :cond_7
+    if-eqz v9, :cond_8
 
     .line 7922
     :cond_1
@@ -12290,7 +12290,7 @@
 
     iget-object v9, v9, Lcom/android/server/policy/PhoneWindowManager;->mTopFullscreenOpaqueWindowState:Landroid/view/WindowManagerPolicy$WindowState;
 
-    if-eqz v9, :cond_6
+    if-eqz v9, :cond_7
 
     .line 7953
     const/4 v6, 0x0
@@ -12324,12 +12324,12 @@
     invoke-virtual {v9, v2}, Landroid/view/Display;->getRealSize(Landroid/graphics/Point;)V
 
     .line 7957
-    if-eqz v0, :cond_a
+    if-eqz v0, :cond_b
 
     .line 7958
     iget v9, v0, Landroid/graphics/Rect;->top:I
 
-    if-nez v9, :cond_a
+    if-nez v9, :cond_b
 
     iget v9, v0, Landroid/graphics/Rect;->left:I
 
@@ -12339,7 +12339,7 @@
 
     iget v10, v2, Landroid/graphics/Point;->x:I
 
-    if-ne v9, v10, :cond_9
+    if-ne v9, v10, :cond_a
 
     :cond_4
     :goto_2
@@ -12348,7 +12348,13 @@
     .line 7959
     .local v4, "needToShowButtonView":Z
     :goto_3
-    if-eqz v4, :cond_b
+    if-eqz v4, :cond_c
+
+    iget-object v7, p0, Lcom/android/server/policy/SamsungPhoneWindowManager;->mPWM:Lcom/android/server/policy/PhoneWindowManager;
+
+    iget-object v7, v7, Lcom/android/server/policy/PhoneWindowManager;->mNavigationBar:Landroid/view/WindowManagerPolicy$WindowState;
+
+    if-eqz v7, :cond_5
 
     iget-object v7, p0, Lcom/android/server/policy/SamsungPhoneWindowManager;->mPWM:Lcom/android/server/policy/PhoneWindowManager;
 
@@ -12364,6 +12370,7 @@
     packed-switch v7, :pswitch_data_0
 
     .line 7971
+    :cond_5
     :goto_4
     iget-object v7, p0, Lcom/android/server/policy/SamsungPhoneWindowManager;->mSamsungWindowManager:Lcom/android/server/wm/IWindowManagerServiceBridge;
 
@@ -12398,7 +12405,7 @@
 
     iget v8, v8, Lcom/android/server/policy/PhoneWindowManager;->mNavigationBarPosition:I
 
-    if-eq v7, v8, :cond_5
+    if-eq v7, v8, :cond_6
 
     .line 7975
     iget-object v7, p0, Lcom/android/server/policy/SamsungPhoneWindowManager;->mPWM:Lcom/android/server/policy/PhoneWindowManager;
@@ -12411,11 +12418,11 @@
     or-int/lit8 p1, p1, 0x1
 
     .line 7981
-    :cond_5
+    :cond_6
     :goto_5
     iget v7, p0, Lcom/android/server/policy/SamsungPhoneWindowManager;->mChangeRatioBarSize:I
 
-    if-eq v7, v6, :cond_6
+    if-eq v7, v6, :cond_7
 
     .line 7982
     iput v6, p0, Lcom/android/server/policy/SamsungPhoneWindowManager;->mChangeRatioBarSize:I
@@ -12428,7 +12435,7 @@
     .end local v2    # "displaySize":Landroid/graphics/Point;
     .end local v4    # "needToShowButtonView":Z
     .end local v6    # "size":I
-    :cond_6
+    :cond_7
     return p1
 
     .line 7928
@@ -12445,11 +12452,11 @@
 
     .line 7936
     .end local v3    # "e":Landroid/os/RemoteException;
-    :cond_7
+    :cond_8
     :try_start_1
     iget-boolean v9, p0, Lcom/android/server/policy/SamsungPhoneWindowManager;->mLastCoverAppCovered:Z
 
-    if-eqz v9, :cond_8
+    if-eqz v9, :cond_9
 
     .line 7937
     const/4 v9, 0x0
@@ -12461,7 +12468,7 @@
     .line 7938
     and-int/lit8 v9, v5, 0x20
 
-    if-eqz v9, :cond_8
+    if-eqz v9, :cond_9
 
     .line 7939
     const/4 v9, 0x0
@@ -12471,7 +12478,7 @@
     .catch Landroid/os/RemoteException; {:try_start_1 .. :try_end_1} :catch_1
 
     .line 7945
-    :cond_8
+    :cond_9
     :goto_6
     invoke-virtual {p0, v5}, Lcom/android/server/policy/SamsungPhoneWindowManager;->processSViewCoverSetHiddenResultLw(I)Z
 
@@ -12500,13 +12507,13 @@
     .restart local v0    # "aspectFrame":Landroid/graphics/Rect;
     .restart local v2    # "displaySize":Landroid/graphics/Point;
     .restart local v6    # "size":I
-    :cond_9
+    :cond_a
     move v7, v8
 
     .line 7958
     goto :goto_2
 
-    :cond_a
+    :cond_b
     move v4, v8
 
     .line 7957
@@ -12571,7 +12578,7 @@
     goto/16 :goto_4
 
     .line 7979
-    :cond_b
+    :cond_c
     iget-object v7, p0, Lcom/android/server/policy/SamsungPhoneWindowManager;->mSamsungWindowManager:Lcom/android/server/wm/IWindowManagerServiceBridge;
 
     invoke-interface {v7}, Lcom/android/server/wm/IWindowManagerServiceBridge;->hideConventionalModeChangeRatioButton()V
