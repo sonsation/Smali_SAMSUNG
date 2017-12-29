@@ -2761,6 +2761,8 @@
 
     iget-object v2, p0, Lcom/android/systemui/statusbar/phone/PhoneStatusBar;->mNavigationBarView:Lcom/android/systemui/statusbar/phone/NavigationBarView;
 
+    if-eqz v2, :cond_e
+
     invoke-virtual {v2}, Lcom/android/systemui/statusbar/phone/NavigationBarView;->getBarTransitions()Lcom/android/systemui/statusbar/phone/BarTransitions;
 
     move-result-object v2
@@ -24209,6 +24211,8 @@
 
     iget-object v2, v0, Lcom/android/systemui/statusbar/phone/PhoneStatusBar;->mNavigationBarView:Lcom/android/systemui/statusbar/phone/NavigationBarView;
 
+    if-eqz v2, :cond_e
+
     invoke-virtual {v2}, Lcom/android/systemui/statusbar/phone/NavigationBarView;->getBarController()Lcom/android/systemui/statusbar/phone/NavigationBarController;
 
     move-result-object v5
@@ -24246,6 +24250,8 @@
     move-object/from16 v0, p0
 
     iget-object v2, v0, Lcom/android/systemui/statusbar/phone/PhoneStatusBar;->mNavigationBarView:Lcom/android/systemui/statusbar/phone/NavigationBarView;
+
+    if-eqz v2, :cond_e
 
     invoke-virtual {v2}, Lcom/android/systemui/statusbar/phone/NavigationBarView;->getBarTransitions()Lcom/android/systemui/statusbar/phone/BarTransitions;
 
