@@ -3810,6 +3810,8 @@
 
     iget-object v15, v0, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;->mPrivateMode:Landroid/preference/PreferenceScreen;
 
+    invoke-virtual {v13, v15}, Landroid/preference/PreferenceCategory;->removePreference(Landroid/preference/Preference;)Z
+
     .line 1786
     :cond_43
     sget-object v15, Lcom/samsung/android/settings/lockscreen/LockscreenMenuSettings;->mContext:Landroid/content/Context;
